@@ -1,0 +1,380 @@
+{
+    "Help": {
+        "Help1": "cấu hình vật phẩm sự kiện bằng json",
+        "Help2": "Genre: 18: scriptitem, 22: normal item",
+        "Help3": "ParticularType: > 32000 nếu drop tại map, bỏ qua nếu không phải",
+        "Help4": "ScriptID: 200060 nếu là RandomBox (khai báo ItemValue là ID của box)",
+        "StartID": 20205
+    },
+    "RandomBoxes": [
+        {
+            "ItemID": 20205,
+            "Name": "Túi vật dụng câu cá",
+            "ParticularType": 32001,
+            "Icon": "gio_cau",
+            "Intro": "Vật phẩm sự kiện Câu cá mùa thu.",
+            "ItemValue": 200138
+        },
+        {
+            "ItemID": 20206,
+            "Name": "Lễ bao Cá (hạ phẩm)",
+            "LimitLifeTime": 300,
+            "Icon": "jh_libao1",
+            "Intro": "Vật phẩm sự kiện Câu cá mùa thu.",
+            "ItemValue": 200139
+        },
+        {
+            "ItemID": 20207,
+            "Name": "Lễ bao Cá (trung phẩm)",
+            "LimitLifeTime": 5000,
+            "Icon": "jh_libao3",
+            "Intro": "Vật phẩm sự kiện Câu cá mùa thu.",
+            "ItemValue": 200140
+        },
+        {
+            "ItemID": 20208,
+            "Name": "Lễ bao Cá (thượng phẩm)",
+            "LimitLifeTime": 300,
+            "Icon": "jh_libao4",
+            "Intro": "Vật phẩm sự kiện Câu cá mùa thu.",
+            "ItemValue": 200141
+        },
+        {
+            "ItemID": 20209,
+            "Name": "Thùng đựng cá",
+            "Icon": "shuitong",
+            "ParticularType": 32001,
+            "Intro": "Vật phẩm sự kiện Câu cá mùa thu.",
+            "ItemValue": 200142
+        },
+        {
+            "ItemID": 20210,
+            "Name": "Rương Bàn tay vàng Câu cá",
+            "Icon": "shenbingbox",
+            "Intro": "Vật phẩm sự kiện Câu cá mùa thu.",
+            "ItemValue": 200143
+        },
+        {
+            "ItemID": 20230,
+            "Name": "Danh hiệu Lãng tử Độc hành (3 ngày)",
+            
+            "Icon": "quest_0084_s",
+            "Intro": "Sử dụng nhận được danh hiệu Lãng tử Độc hành, thời hạn 3 ngày.",
+            "ItemValue": 200144,
+            "ListExtPram": [{ "Pram": 1, "Index": 1 }]
+        },
+        {
+            "ItemID": 20231,
+            "Name": "Danh hiệu Lãng tử Độc hành (30 ngày)",
+            
+            "Icon": "quest_0084_s",
+            "Intro": "Sử dụng nhận được danh hiệu Lãng tử Độc hành, thời hạn 30 ngày.",
+            "ItemValue": 200145,
+            "ListExtPram": [{ "Pram": 1, "Index": 1 }]
+        },
+        {
+            "ItemID": 20232,
+            "Name": "Danh hiệu Lãng tử Độc hành",
+            
+            "Icon": "quest_0084_s",
+            "Intro": "Sử dụng nhận được danh hiệu Lãng tử Độc hành.",
+            "ItemValue": 200146,
+            "ListExtPram": [{ "Pram": 1, "Index": 1 }]
+        },
+        {
+            "ItemID": 20233,
+            "Name": "Rương Tuyệt Thế Hỏa Vũ",
+            "Icon": "horsebox_c",
+            "Intro": "Sử dụng nhận được thú cưỡi Tuyệt Thế Hỏa Vũ.",
+            "ItemValue": 200147,
+            "ListExtPram": [{ "Pram": 1, "Index": 1 }]
+        },
+        {
+            "ItemID": 20234,
+            "Name": "Rương Tuyệt Thế Hỏa Vũ (thượng phẩm)",
+            "Icon": "horsebox_g",
+            "Intro": "Sử dụng nhận được thú cưỡi Tuyệt Thế Hỏa Vũ.",
+            "ItemValue": 200148,
+            "ListExtPram": [{ "Pram": 1, "Index": 1 }]
+        },
+        {
+            "ItemID": 20235,
+            "Name": "Vòng sáng sự kiện Câu cá (3 ngày)",
+            "Icon": "quest_0084_s",
+            "Intro": "Sử dụng nhận được vòng sáng sự kiện Câu cá.",
+            "ScriptID": 200120,
+            "ListExtPram": [
+                { "Pram": 2025, "Index": 1 },
+                { "Pram": 4321, "Index": 2 }
+            ]
+        },
+        {
+            "ItemID": 20236,
+            "Name": "Vòng sáng sự kiện Câu cá (7 ngày)",
+            "Icon": "quest_0084_s",
+            "Intro": "Sử dụng nhận được vòng sáng sự kiện Câu cá.",
+            "ScriptID": 200120,
+            "ListExtPram": [
+                { "Pram": 2025, "Index": 1 },
+                { "Pram": 10081, "Index": 2 }
+            ]
+        },
+        {
+            "ItemID": 20237,
+            "Name": "Vòng sáng sự kiện Câu cá (30 ngày)",
+            "Icon": "quest_0084_s",
+            "Intro": "Sử dụng nhận được vòng sáng sự kiện Câu cá.",
+            "ScriptID": 200120,
+            "ListExtPram": [
+                { "Pram": 2025, "Index": 1 },
+                { "Pram": 43201, "Index": 2 }
+            ]
+        },
+        {
+            "ItemID": 20238,
+            "Name": "Vòng sáng sự kiện Câu cá (90 ngày)",
+            "Icon": "quest_0084_s",
+            "Intro": "Sử dụng nhận được vòng sáng sự kiện Câu cá.",
+            "ScriptID": 200120,
+            "ListExtPram": [
+                { "Pram": 2025, "Index": 1 },
+                { "Pram": 129601, "Index": 2 }
+            ]
+        },
+        {
+            "ItemID": 20239,
+            "Name": "Hộp Sự kiện bí ẩn",
+            "Icon": "xinnianliwu",
+            "Intro": "Sử dụng nhận được vật phẩm đặc biệt trong sự kiện Câu cá",
+            "ItemValue": 200149
+        },
+        {
+            "ItemID": 20240,
+            "Name": "Rương Đua thú - Chiến thắng (10v bạc khóa)",
+            "Icon": "suijilingpaihe_jin",
+            "Intro": "Phần thưởng giành cho người chơi lựa chọn chính xác thú cưng giành chiến thắng, gói bình chọn 10v bạc khóa.",
+            "ItemValue": 200150
+        },
+        {
+            "ItemID": 20241,
+            "Name": "Rương Đua thú - Chiến thắng (100v bạc khóa)",
+            "Icon": "suijilingpaihe_jin",
+            "Intro": "Phần thưởng giành cho người chơi lựa chọn chính xác thú cưng giành chiến thắng, gói bình chọn 100v bạc khóa.",
+            "ItemValue": 200151
+        },
+        {
+            "ItemID": 20242,
+            "Name": "Rương Đua thú - Chiến thắng (50 KNB)",
+            "Icon": "suijilingpaihe_jin",
+            "Intro": "Phần thưởng giành cho người chơi lựa chọn chính xác thú cưng giành chiến thắng, gói bình chọn 50KNB.",
+            "ItemValue": 200152
+        },
+        {
+            "ItemID": 20243,
+            "Name": "Rương Đua thú - Chiến thắng (1000 KNB)",
+            "Icon": "suijilingpaihe_jin",
+            "Intro": "Phần thưởng giành cho người chơi lựa chọn chính xác thú cưng giành chiến thắng, gói bình chọn 1000 KNB.",
+            "ItemValue": 200153
+        },
+        {
+            "ItemID": 20244,
+            "Name": "Rương Đua thú - An ủi (10v bạc khóa)",
+            "Icon": "suijilingpaihe_tie",
+            "Intro": "Phần thưởng giành cho người chơi lựa chọn chưa chính xác thú cưng giành chiến thắng, gói bình chọn 10v bạc khóa.",
+            "ItemValue": 200154
+        },
+        {
+            "ItemID": 20245,
+            "Name": "Rương Đua thú - An ủi (100v bạc khóa)",
+            "Icon": "suijilingpaihe_tie",
+            "Intro": "Phần thưởng giành cho người chơi lựa chọn chưa chính xác thú cưng giành chiến thắng, gói bình chọn 100v bạc khóa.",
+            "ItemValue": 200155
+        },
+        {
+            "ItemID": 20246,
+            "Name": "Rương Đua thú - An ủi (50 KNB)",
+            "Icon": "suijilingpaihe_tie",
+            "Intro": "Phần thưởng giành cho người chơi lựa chọn chưa chính xác thú cưng giành chiến thắng, gói bình chọn 50KNB.",
+            "ItemValue": 200156
+        },
+        {
+            "ItemID": 20247,
+            "Name": "Rương Đua thú - An ủi (1000 KNB)",
+            "Icon": "suijilingpaihe_tie",
+            "Intro": "Phần thưởng giành cho người chơi lựa chọn chưa chính xác thú cưng giành chiến thắng, gói bình chọn 1000 KNB.",
+            "ItemValue": 200157
+        },
+        {
+            "ItemID": 20248,
+            "Name": "Rương Đua thú - May mắn 1",
+            "Icon": "snowbox2",
+            "Intro": "Phần thưởng giành cho người chơi tích lũy 5 lần lựa chọn chính xác thú cưng chiến thắng trong ngày với gói bình chọn 1000 KNB.",
+            "ItemValue": 200158
+        },
+        {
+            "ItemID": 20249,
+            "Name": "Rương Đua thú - May mắn 2",
+            "Icon": "snowbox2",
+            "Intro": "Phần thưởng giành cho người chơi tích lũy 10 lần lựa chọn chính xác thú cưng chiến thắng trong ngày với gói bình chọn 1000 KNB.",
+            "ItemValue": 200159
+        },
+        {
+            "ItemID": 20250,
+            "Name": "Rương Đua thú - Chăm chỉ 1",
+            "Icon": "suijilingpaihe_tong",
+            "Intro": "Phần thưởng giành cho người chơi tích lũy 5 lần tham gia hoạt động đua thú trong ngày với gói bình chọn 1000 KNB",
+            "ItemValue": 200160
+        },
+        {
+            "ItemID": 20251,
+            "Name": "Rương Đua thú - Chăm chỉ 2",
+            "Icon": "suijilingpaihe_tong",
+            "Intro": "Phần thưởng giành cho người chơi tích lũy 10 lần tham gia hoạt động đua thú trong ngày với gói bình chọn 1000 KNB",
+            "ItemValue": 200161
+        },
+        {
+            "ItemID": 20252,
+            "Name": "Danh hiệu Lãng tử Độc hành (7 ngày)",
+            
+            "Icon": "quest_0084_s",
+            "Intro": "Sử dụng nhận được danh hiệu Lãng tử Độc hành, thời hạn 7 ngày.",
+            "ItemValue": 200162,
+            "ListExtPram": [{ "Pram": 1, "Index": 1 }]
+        },
+        {
+            "ItemID": 20253,
+            "Name": "Hộp Sự kiện bí ẩn (đặc biệt)",
+            "Icon": "jinquelibao",
+            "Intro": "Sử dụng nhận được vật phẩm đặc biệt trong sự kiện Câu cá",
+            "ItemValue": 200163
+        }
+    ],
+    "Normal": [
+        {
+            "ItemID": 20211,
+            "Name": "Phao",
+            "Stack": 10000,
+            "Icon": "phao_cau_ca",
+            "Intro": "Vật phẩm sự kiện Câu cá mùa thu.",
+            "ScriptID": 200121
+        },
+        {
+            "ItemID": 20212,
+            "Name": "Dây Câu",
+            "Stack": 10000,
+            "Icon": "day_cau",
+            "Intro": "Vật phẩm sự kiện Câu cá mùa thu.",
+            "ScriptID": 200121
+        },
+        {
+            "ItemID": 20213,
+            "Name": "Mồi Câu",
+            "Stack": 10000,
+            "Icon": "moi_cau",
+            "Intro": "Vật phẩm sự kiện Câu cá mùa thu.",
+            "ScriptID": 200121
+        },
+        {
+            "ItemID": 20214,
+            "Name": "Thính",
+            "Stack": 10000,
+            "Icon": "thinh_cau_ca",
+            "Intro": "Vật phẩm sự kiện Câu cá.",
+            "ScriptID": 200121
+        },
+        {
+            "ItemID": 20215,
+            "Name": "Cá Chép",
+            "Stack": 10000,
+            "Icon": "ca_chep",
+            "Intro": "Vật phẩm sự kiện Câu cá mùa thu."
+        },
+        {
+            "ItemID": 20216,
+            "Name": "Cá Trắm",
+            "Stack": 10000,
+            "Icon": "ca_tram",
+            "Intro": "Vật phẩm sự kiện Câu cá mùa thu."
+        },
+        {
+            "ItemID": 20217,
+            "Name": "Tôm hùm",
+            "Icon": "longxia",
+            "Intro": "Vật phẩm sự kiện Câu cá mùa thu. Loài tôm hiếm thấy với 2 chiếc càng rất to. <br>Sử dụng nhận được <color=#a6e3a1>1 điểm kỹ năng</color>. Mỗi người tối đa sử dụng <color=#eba0ac>2 vật phẩm</color>.",
+            "ScriptID": 200097,
+            "ListExtPram": [
+                { "Pram": 700510, "Index": 1 },
+                { "Pram": 1, "Index": 2 },
+                { "Pram": 2, "Index": 3 }
+            ]
+        },
+        {
+            "ItemID": 20218,
+            "Name": "Cá Ba Đuôi",
+            "Icon": "jinyu",
+            "Intro": "Vật phẩm sự kiện Câu cá mùa thu. Cá cảnh quý hiếm, dễ chăm sóc. <br>Sử dụng nhận được <color=#a6e3a1>10 điểm tiềm năng</color>. Mỗi người tối đa sử dụng <color=#eba0ac>2 vật phẩm.</color>",
+            "ScriptID": 200096,
+            "ListExtPram": [
+                { "Pram": 700511, "Index": 1 },
+                { "Pram": 10, "Index": 2 },
+                { "Pram": 2, "Index": 3 }
+            ]
+        },
+        {
+            "ItemID": 20219,
+            "Name": "Cá Bống",
+            "Stack": 10000,
+            "Icon": "ca_bong",
+            "Intro": "Loài cá biển ăn thịt, cơ thể dài, có hoa văn phát sáng."
+        },
+        {
+            "ItemID": 20220,
+            "Name": "Cá Chép",
+            "Stack": 10000,
+            "Icon": "ca_chep",
+            "Intro": "Loài cá nước ngọt, thịt béo mềm, thơm ngon, nhiều bộ phận có thể làm thuốc."
+        },
+        {
+            "ItemID": 20223,
+            "Name": "Cá Trắm",
+            "Stack": 10000,
+            "Icon": "ca_tram",
+            "Intro": "Một trong 4 loài cá nổi tiếng ở nước ngọt, vị thịt béo và ngon."
+        },
+        {
+            "ItemID": 20225,
+            "Name": "<color=#cba6f7>Cá Tầm</color>",
+            "Stack": 10000,
+            "Icon": "ca_tam",
+            "Intro": "Một loài cá cổ xưa, thích sống ở nơi có dòng chảy. Vị thịt ngon, xương mềm, bổ dưỡng."
+        },
+        {
+            "ItemID": 20226,
+            "Name": "<color=#cba6f7>Cá Trắm Cỏ</color>",
+            "Stack": 10000,
+            "Icon": "ca_tram_co",
+            "Intro": "Vị thanh, không độc, có tác dụng làm mát dạ dày. Mật cá có thể làm thuốc."
+        },
+        {
+            "ItemID": 20227,
+            "Name": "<color=#cba6f7>Cá Ngát</color>",
+            "Stack": 10000,
+            "Icon": "ca_ngat",
+            "Intro": "Toàn thân không có vảy, bề mặt da có nhiều chất nhờn, có 4 tua. Thực phẩm bổ dưỡng và tăng cường sức khỏe, trứng có độc."
+        },
+        {
+            "ItemID": 20228,
+            "Name": "<color=#cba6f7>Cá Chẽm</color>",
+            "Stack": 10000,
+            "Icon": "ca_chem",
+            "Intro": "Trong bụng có mỡ, vị rất béo, là thực phẩm cao cấp."
+        },
+        {
+            "ItemID": 20229,
+            "Name": "<color=#cba6f7>Cá Lăng</color>",
+            "Stack": 10000,
+            "Icon": "ca_lang",
+            "Intro": "Cá sản xuất nhiều ở vùng Hoa Nam, thịt mềm mại, vị tươi ngon. Dùng làm thuốc có tác dụng chắc xương, lưu thông khí huyết."
+        }
+    ]
+}

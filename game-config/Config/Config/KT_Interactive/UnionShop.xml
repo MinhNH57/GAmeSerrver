@@ -1,0 +1,52 @@
+<UuDaiDoanKet xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <Server servers="1, 11, 21" shopID="1496" TimeKey="UuDaiDoanKet" key="2025Mar">
+        <ConfigData ShopItemID="6433" ItemID="20291" Milestones="40,60,100" MilestonesRefund="180,300,420"/>
+        <ConfigData ShopItemID="6434" ItemID="819" Milestones="15,50,100" MilestonesRefund="450,750,1200"/>
+        <ConfigData ShopItemID="6435" ItemID="583" Milestones="20,50,100" MilestonesRefund="300,500,800"/>
+        <ConfigData ShopItemID="6436" ItemID="931" Milestones="5,10,20" MilestonesRefund="120,240,360"/>
+        <ConfigData ShopItemID="6437" ItemID="2168" Milestones="5,10,20" MilestonesRefund="750,1250,2500"/>
+        <ConfigData ShopItemID="6438" ItemID="20536" Milestones="10,50,80" MilestonesRefund="50,100,150"/>
+        <ConfigData ShopItemID="6439" ItemID="20533" Milestones="10,20,50" MilestonesRefund="200,400,600"/>
+        <ConfigData ShopItemID="6440" ItemID="20534" Milestones="40,60,80" MilestonesRefund="30,60,90"/>
+        <ConfigData ShopItemID="6441" ItemID="1058" Milestones="5,10,15" MilestonesRefund="450,900,1200"/>
+        <ConfigData ShopItemID="6442" ItemID="1026" Milestones="50,300,500" MilestonesRefund="6,12,18"/>
+        <ConfigData ShopItemID="6443" ItemID="796" Milestones="50,300,500" MilestonesRefund="5,10,15"/>
+        <ConfigData ShopItemID="6444" ItemID="15713" Milestones="100,300,500" MilestonesRefund="5,7,10"/>
+        <ConfigData ShopItemID="6445" ItemID="15712" Milestones="100,300,500" MilestonesRefund="5,7,10"/>
+        <ConfigData ShopItemID="6446" ItemID="15716" Milestones="100,300,500" MilestonesRefund="10,15,20"/>
+        <ConfigData ShopItemID="6447" ItemID="15714" Milestones="100,300,500" MilestonesRefund="10,15,20"/>
+        <ConfigData ShopItemID="6448" ItemID="20406" Milestones="5,10,15" MilestonesRefund="400,600,1000" />
+    </Server>
+
+    <Server servers="25, 27, 28, 29" shopID="1497" TimeKey="UuDaiDoanKet" key="2025Mar"> 
+        <ConfigData ShopItemID="6449" ItemID="20537" Milestones="20,50,80" MilestonesRefund="11,19,30"/>
+        <ConfigData ShopItemID="6450" ItemID="20538" Milestones="20,50,80" MilestonesRefund="23,38,60"/>
+        <ConfigData ShopItemID="6451" ItemID="20539" Milestones="20,50,80" MilestonesRefund="20,40,60"/>
+        <ConfigData ShopItemID="6452" ItemID="20379" Milestones="200,400,800" MilestonesRefund="8,12,16"/>
+        <ConfigData ShopItemID="6453" ItemID="20540" Milestones="10,20,30" MilestonesRefund="10,15,20"/>
+        <ConfigData ShopItemID="6454" ItemID="20270" Milestones="10,20,30" MilestonesRefund="30,50,80"/>
+        <ConfigData ShopItemID="6455" ItemID="1026" Milestones="50,200,500" MilestonesRefund="6,9,12"/>
+        <ConfigData ShopItemID="6456" ItemID="20530" Milestones="5,15,30" MilestonesRefund="30,60,90"/>
+        <ConfigData ShopItemID="6457" ItemID="20531" Milestones="5,15,30" MilestonesRefund="80,160,240"/>
+        <ConfigData ShopItemID="6458" ItemID="20532" Milestones="5,15,30" MilestonesRefund="150,300,450"/>
+        <ConfigData ShopItemID="6459" ItemID="20535" Milestones="30,60,120" MilestonesRefund="75,125,200"/>
+        <ConfigData ShopItemID="6460" ItemID="1058" Milestones="3,5,8" MilestonesRefund="450,750,1200"/>
+    </Server>
+
+    <Server servers="40, 47, 999" shopID="1498" TimeKey="UuDaiDoanKet" key="2026June"> 
+        <ConfigData ShopItemID="6461" ItemID="20537" Milestones="20,50,80" MilestonesRefund="7,11,15"/>
+        <ConfigData ShopItemID="6462" ItemID="20538" Milestones="20,50,80" MilestonesRefund="15,22,30"/>
+        <ConfigData ShopItemID="6463" ItemID="20844" Milestones="20,50,80" MilestonesRefund="20,40,60"/>
+        <ConfigData ShopItemID="6464" ItemID="20540" Milestones="10,20,30" MilestonesRefund="15,22,30"/>
+        <ConfigData ShopItemID="6465" ItemID="1054" Milestones="10,20,30" MilestonesRefund="1,2,3"/>
+        <ConfigData ShopItemID="6466" ItemID="1055" Milestones="10,20,30" MilestonesRefund="7,10,14"/>
+        <ConfigData ShopItemID="6467" ItemID="20270" Milestones="10,20,30" MilestonesRefund="15,22,30"/>
+        <ConfigData ShopItemID="6468" ItemID="1102" Milestones="20,40,80" MilestonesRefund="4,8,12"/>
+        <ConfigData ShopItemID="6469" ItemID="1057" Milestones="20,40,80" MilestonesRefund="5,10,15"/>
+        <ConfigData ShopItemID="6470" ItemID="15712" Milestones="20,40,80" MilestonesRefund="5,10,15"/>
+        <ConfigData ShopItemID="6471" ItemID="15713" Milestones="20,40,80" MilestonesRefund="5,10,15"/>
+        <ConfigData ShopItemID="6472" ItemID="15716" Milestones="20,40,80" MilestonesRefund="10,20,30"/>
+        <ConfigData ShopItemID="6473" ItemID="527" Milestones="5,10,20" MilestonesRefund="100,200,300"/>
+    </Server>
+</UuDaiDoanKet>

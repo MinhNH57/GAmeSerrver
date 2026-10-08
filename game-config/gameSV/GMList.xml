@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GMList xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<GM RoleID="*" IP="192.168.31.120" />
+	<GM RoleID="*" IP="127.0.0.1" />
+	<GM RoleID="*" IP="::1" />
+	<GM RoleID="409646" IP="*" />
+	<GM RoleID="200012" IP="*" />
+	<GM RoleID="200010" IP="*" />
+</GMList>

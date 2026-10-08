@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Props>
+    <Prop Id="101" Quality="1" Level="1" Alias="lifereplenish_v" MinScore="1" MaxScore="5" Step="1" Point="80" Type="0" Condition=""/>
+    <Prop Id="102" Quality="1" Level="1" Alias="adddefense_v" MinScore="30" MaxScore="60" Step="15" Point="100" Type="0" Condition=""/>
+    <Prop Id="103" Quality="1" Level="1" Alias="ignoredefenseenhance_v" MinScore="30" MaxScore="60" Step="15" Point="100" Type="0" Condition=""/>
+    <Prop Id="104" Quality="1" Level="1" Alias="life_mana_replenish_p" MinScore="1" MaxScore="5" Step="1" Point="100" Type="0" Condition=""/>
+    <Prop Id="105" Quality="1" Level="1" Alias="lifemax_v" MinScore="200" MaxScore="500" Step="200" Point="100" Type="0" Condition=""/>
+    <Prop Id="106" Quality="1" Level="1" Alias="manamax_v" MinScore="100" MaxScore="300" Step="100" Point="80" Type="0" Condition=""/>
+    <Prop Id="201" Quality="2" Level="1" Alias="lucky_v" MinScore="1" MaxScore="5" Step="1" Point="160" Type="0" Condition=""/>
+    <Prop Id="202" Quality="2" Level="1" Alias="fastlifereplenish_v" MinScore="10" MaxScore="30" Step="5" Point="180" Type="0" Condition=""/>
+    <Prop Id="203" Quality="2" Level="1" Alias="fastwalkrun_p" MinScore="1" MaxScore="5" Step="1" Point="180" Type="0" Condition=""/>
+    <Prop Id="204" Quality="2" Level="1" Alias="lifemax_p" MinScore="5" MaxScore="10" Step="10" Point="180" Type="0" Condition=""/>
+    <Prop Id="205" Quality="2" Level="1" Alias="manamax_p" MinScore="1" MaxScore="5" Step="3" Point="180" Type="0" Condition=""/>
+    <Prop Id="206" Quality="2" Level="1" Alias="damage_all_resist" MinScore="30" MaxScore="50" Step="10" Point="180" Type="0" Condition=""/>
+    <Prop Id="301" Quality="3" Level="1" Alias="melee_range_damagereturn_p" MinScore="1" MaxScore="2" Step="1" Point="260" Type="0" Condition=""/>
+    <Prop Id="302" Quality="3" Level="1" Alias="seriesstate_added" MinScore="10" MaxScore="30" Step="5" Point="280" Type="0" Condition=""/>
+    <Prop Id="303" Quality="3" Level="1" Alias="allseriesstateresisttime" MinScore="10" MaxScore="30" Step="5" Point="280" Type="0" Condition=""/>
+    <Prop Id="304" Quality="3" Level="1" Alias="deadlystrikeenhance_r" MinScore="10" MaxScore="30" Step="10" Point="300" Type="0" Condition=""/>
+    <Prop Id="305" Quality="3" Level="1" Alias="addphysicsdamage_p" MinScore="1" MaxScore="5" Step="1" Point="320" Type="0" Condition=""/>
+    <Prop Id="306" Quality="3" Level="1" Alias="addphysicsmagic_p" MinScore="1" MaxScore="5" Step="1" Point="320" Type="0" Condition=""/>
+    <Prop Id="307" Quality="3" Level="1" Alias="reduce_received_damage_p" MinScore="5" MaxScore="10" Step="1" Point="340" Type="0" Condition=""/>
+    <Prop Id="308" Quality="3" Level="1" Alias="defencedeadlystrikedamagetrim" MinScore="5" MaxScore="10" Step="1" Point="340" Type="0" Condition=""/>
+    <Prop Id="401" Quality="4" Level="1" Alias="ignore_all_damage" MinScore="1" MaxScore="5" Step="1" Point="500" Type="0" Condition=""/>
+    <Prop Id="402" Quality="4" Level="1" Alias="magic_skilldamageptrim" MinScore="1" MaxScore="5" Step="1" Point="520" Type="0" Condition=""/>
+    <Prop Id="403" Quality="4" Level="1" Alias="magic_skillselfdamagetrim" MinScore="1" MaxScore="5" Step="1" Point="520" Type="0" Condition=""/>
+    <Prop Id="404" Quality="4" Level="1" Alias="deadlystrikedamageenhance_p" MinScore="1" MaxScore="5" Step="1" Point="540" Type="0" Condition=""/>
+    <Prop Id="405" Quality="4" Level="1" Alias="increase_output_damage_p" MinScore="1" MaxScore="5" Step="1" Point="560" Type="0" Condition=""/>
+    <Prop Id="406" Quality="4" Level="1" Alias="steallifeenhance_p" MinScore="1" MaxScore="5" Step="1" Point="600" Type="0" Condition=""/>
+    <Prop Id="407" Quality="4" Level="1" Alias="stealmanaenhance_p" MinScore="1" MaxScore="3" Step="1" Point="600" Type="0" Condition=""/>
+    <!-- Gây sát thương theo % máu tối đa chưa có alias runtime tương ứng trong PropertyDictionary.xml nên chưa đưa vào pool random. -->
+</Props>

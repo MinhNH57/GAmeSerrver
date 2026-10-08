@@ -1,0 +1,436 @@
+[
+    {
+        "IDBox": 200138,
+        "BoxName": "Túi vật dụng câu cá",
+        "Items": [
+            { "ItemID": 20211, "Rate": 40, "Info": "Phao" },
+            { "ItemID": 20212, "Rate": 35, "Info": "Dây Câu" },
+            { "ItemID": 20213, "Rate": 25, "Info": "Mồi Câu" }
+        ]
+    },
+    {
+        "IDBox": 200139,
+        "BoxName": "Lễ bao Cá (hạ phẩm)",
+        "LimitLifeTime": 300,
+        "Binding": 1,
+        "Items": [
+            {
+                "Info": "KNB khóa",
+                "ItemID": 3,
+                "Rate": 3.03,
+                "Details": [
+                    { "Number": 2, "Rate": 70 },
+                    { "Number": 5, "Rate": 20 },
+                    { "Number": 10, "Rate": 10 }
+                ]
+            },
+            {
+                "Info": "Ngũ Hành Hồn Thạch",
+                "ItemID": 506,
+                "Rate": 1,
+                "Details": [
+                    { "Number": 1, "Rate": 65 },
+                    { "Number": 2, "Rate": 30 },
+                    { "Number": 3, "Rate": 5 }
+                ]
+            },
+            {
+                "Info": "Dược phẩm",
+                "Rate": 7,
+                "Details": [
+                    { "ItemID": 270, "Rate": 20, "Info": "Ma Đao Thạch (cấp 6)" },
+                    { "ItemID": 280, "Rate": 40, "Info": "Hộ Giáp Phiến (cấp 6)" },
+                    { "ItemID": 290, "Rate": 40, "Info": "Ngũ Hành Thạch (cấp 6)" }
+                ]
+            },
+            {
+                "Info": "Nhu yếu phẩm",
+                "Rate": 3.85,
+                "Details": [
+                    { "ItemID": 796, "Rate": 40, "Info": "Tần Lăng-Dạ Minh Châu" },
+                    { "ItemID": 600, "Rate": 20, "Info": "Tu Luyện Đơn" },
+                    { "ItemID": 1054, "Rate": 40, "Info": "Thiệp lụa (cấp 1)" }
+                ]
+            },
+            {
+                "Info": "Huyền tinh",
+                "Rate": 10,
+                "Details": [
+                    { "ItemID": 387, "Rate": 85, "Info": "Huyền Tinh Cấp 3" },
+                    { "ItemID": 388, "Rate": 14, "Info": "Huyền Tinh Cấp 4" },
+                    { "ItemID": 389, "Rate": 1, "Info": "Huyền Tinh Cấp 5" }
+                ]
+            },
+            {
+                "Info": "EXP",
+                "ItemID": 5,
+                "Rate": 75.12,
+                "Details": [
+                    { "Number": 50000, "Rate": 60 },
+                    { "Number": 100000, "Rate": 30 },
+                    { "Number": 150000, "Rate": 10 }
+                ]
+            }
+        ]
+    },
+    {
+        "IDBox": 200140,
+        "BoxName": "Lễ bao Cá (trung phẩm)",
+        "LimitLifeTime": 5000,
+        "LimitReachedReward": 20231,
+        "Binding": 0,
+        "Items": [
+            { "ItemID": 5, "Rate": -1, "Number": 100000, "Info": "EXP" },
+            { "ItemID": 20072, "Rate": -1, "Number": 1, "Info": "Vô Song Lệnh" },
+            {
+                "Info": "KNB khóa",
+                "ItemID": 3,
+                "Rate": 8,
+                "Details": [
+                    { "Number": 30, "Rate": 55 },
+                    { "Number": 50, "Rate": 40 },
+                    { "Number": 100, "Rate": 5 }
+                ]
+            },
+            {
+                "Info": "Bạc khóa",
+                "ItemID": 1,
+                "Rate": 8,
+                "Details": [
+                    { "Number": 30000, "Rate": 55 },
+                    { "Number": 50000, "Rate": 40 },
+                    { "Number": 100000, "Rate": 5 }
+                ]
+            },
+            {
+                "Info": "Bạc",
+                "ItemID": 2,
+                "Rate": 12,
+                "Details": [
+                    { "Number": 2000, "Rate": 50 },
+                    { "Number": 3000, "Rate": 45 },
+                    { "Number": 5000, "Rate": 5 }
+                ]
+            },
+            {
+                "Info": "Ngũ Hành Hồn Thạch",
+                "ItemID": 506,
+                "Rate": 6,
+                "Details": [
+                    { "Number": 10, "Rate": 50 },
+                    { "Number": 20, "Rate": 45 },
+                    { "Number": 30, "Rate": 5 }
+                ]
+            },
+            {
+                "Info": "Dược phẩm",
+                "Rate": 2,
+                "Details": [
+                    { "ItemID": 272, "Rate": 20, "Info": "Ma Đao Thạch (cấp 8)" },
+                    { "ItemID": 273, "Rate": 10, "Info": "Ma Đao Thạch (cấp 9)" },
+                    { "ItemID": 282, "Rate": 20, "Info": "Hộ Giáp Phiến (cấp 8)" },
+                    { "ItemID": 283, "Rate": 15, "Info": "Hộ Giáp Phiến (cấp 9)" },
+                    { "ItemID": 292, "Rate": 20, "Info": "Ngũ Hành Thạch (cấp 8)" },
+                    { "ItemID": 293, "Rate": 15, "Info": "Ngũ Hành Thạch (cấp 9)" }
+                ]
+            },
+            {
+                "Info": "Nhu yếu phẩm",
+                "Rate": 4,
+                "Binding": 0,
+                "Details": [
+                    { "ItemID": 796, "Rate": 35, "Info": "Tần Lăng-Dạ Minh Châu" },
+                    { "ItemID": 1074, "Rate": 35, "Info": "Tiền Du Long" },
+                    { "ItemID": 600, "Rate": 15, "Info": "Tu Luyện Đơn" },
+                    { "ItemID": 590, "Rate": 15, "Info": "Bản đồ bí cảnh" }
+                ]
+            },
+            {
+                "Info": "Huyền tinh",
+                "Rate": 18,
+                "Details": [
+                    { "ItemID": 187, "Rate": 35, "Info": "Huyền Tinh Cấp 5" },
+                    { "ItemID": 188, "Rate": 45, "Info": "Huyền Tinh có vết nứt (cấp 6)", "Notify": true },
+                    { "ItemID": 189, "Rate": 15, "Info": "Huyền Tinh thường (cấp 7)", "Notify": true },
+                    { "ItemID": 190, "Rate": 5, "Info": "Huyền Tinh có tì vết (cấp 8)", "Notify": true }
+                ]
+            },
+            {
+                "Info": "Tài Nguyên Đồng Hành",
+                "Rate": 14.9,
+                "Details": [
+                    { "ItemID": 1057, "Rate": 48, "Info": "Sách kinh nghiệm đồng hành" },
+                    { "ItemID": 1054, "Rate": 30, "Info": "Thiệp lụa (cấp 1)" },
+                    { "ItemID": 1099, "Rate": 0.1, "Info": "Đồng hành Tẩy Tủy Kinh (thường)" },
+                    { "ItemID": 1102, "Rate": 15.5, "Info": "Bạch Ngân Tinh Hoa (Cấp 1)" },
+                    { "ItemID": 1103, "Rate": 5, "Info": "Hoàng Kim Tinh Hoa (Cấp 2)" },
+                    { "ItemID": 1104, "Rate": 1.4, "Info": "Bạch Kim Tinh Hoa (Cấp 3)" }
+                ]
+            },
+            { "ItemID": 20217, "Rate": 0.01, "Info": "Tôm hùm", "Notify": true },
+            { "ItemID": 20218, "Rate": 0.01, "Info": "Cá Ba Đuôi", "Notify": true },
+            {
+                "Info": "Tinh hoạt lực",
+                "Rate": 9,
+                "Details": [
+                    { "ItemID": 349, "Rate": 35, "Info": "Tinh Khí Tán (1000)" },
+                    { "ItemID": 350, "Rate": 15, "Info": "Tinh Khí Tán (1500)", "Notify": true },
+                    { "ItemID": 352, "Rate": 35, "Info": "Hoạt Khí Tán (1000)" },
+                    { "ItemID": 353, "Rate": 15, "Info": "Hoạt Khí Tán (1500)", "Notify": true }
+                ]
+            },
+            { "ItemID": 2167, "Rate": 0.01, "Info": "Thẻ Đổi Tên", "Notify": true },
+            { "ItemID": 432, "Rate": 0.05, "Info": "Câu Hồn Ngọc (trung)", "Notify": true },
+            { "ItemID": 433, "Rate": 0.05, "Info": "Câu Hồn Ngọc (cao)", "Notify": true },
+            { "ItemID": 20208, "Rate": 2, "Info": "Lễ bao Cá (thượng phẩm)", "Notify": true },
+            { "ItemID": 20239, "Rate": 0.1, "Info": "Hộp Sự kiện bí ẩn", "Notify": true },
+            { "ItemID": 20051, "Rate": 12.87, "Info": "Rương Mảnh trang bị đồng hành" },
+            { "ItemID": 20072, "Number": 5, "Rate": 3, "Info": "Vô Song Lệnh" }
+        ]
+    },
+    {
+        "IDBox": 200141,
+        "BoxName": "Lễ bao Cá (thượng phẩm)",
+        "LimitLifeTime": 300,
+        "LimitReachedReward": 20232,
+        "Binding": 0,
+        "Items": [
+            { "ItemID": 506, "Number": 100, "Rate": 25, "Info": "Ngũ Hành Hồn Thạch" },
+            {
+                "Info": "Dược phẩm",
+                "Rate": 5,
+                "Details": [
+                    { "ItemID": 274, "Rate": 20, "Info": "Ma Đao Thạch (cấp 10)" },
+                    { "ItemID": 284, "Rate": 40, "Info": "Hộ Giáp Phiến (cấp 10)" },
+                    { "ItemID": 294, "Rate": 40, "Info": "Ngũ Hành Thạch (cấp 10)" }
+                ]
+            },
+            {
+                "Info": "Huyền tinh",
+                "Rate": 23,
+                "Details": [
+                    { "ItemID": 189, "Rate": 70, "Info": "Huyền Tinh thường (cấp 7)", "Notify": true },
+                    { "ItemID": 190, "Rate": 30, "Info": "Huyền Tinh có tì vết (cấp 8)", "Notify": true }
+                ]
+            },
+            {
+                "Info": "Tài Nguyên Đồng Hành",
+                "Rate": 20,
+                "Details": [
+                    { "ItemID": 1057, "Number": 5, "Rate": 45, "Info": "Sách kinh nghiệm đồng hành" },
+                    { "ItemID": 1054, "Number": 5, "Rate": 35, "Info": "Thiệp lụa (cấp 1)" },
+                    { "ItemID": 1099, "Rate": 5, "Info": "Đồng hành Tẩy Tủy Kinh (thường)" },
+                    { "ItemID": 1104, "Rate": 15, "Info": "Bạch Kim Tinh Hoa (Cấp 3)" }
+                ]
+            },
+            { "ItemID": 20217, "Rate": 1, "Info": "Tôm hùm", "Notify": true },
+            { "ItemID": 20218, "Rate": 1, "Info": "Cá Ba Đuôi", "Notify": true },
+            { "ItemID": 2167, "Rate": 3, "Info": "Thẻ Đổi Tên", "Notify": true },
+            { "ItemID": 432, "Rate": 11, "Info": "Câu Hồn Ngọc (trung)", "Notify": true },
+            { "ItemID": 433, "Rate": 7, "Info": "Câu Hồn Ngọc (cao)", "Notify": true },
+            { "ItemID": 20253, "Rate": 2, "Info": "Hộp Sự kiện bí ẩn (đặc biệt)", "Notify": true },
+            { "ItemID": 20252, "Rate": 2, "Info": "Danh hiệu Lãng tử Độc hành (7 ngày)", "Notify": true }
+        ]
+    },
+    {
+        "IDBox": 200142,
+        "BoxName": "Hộp đựng cá",
+        "Binding": 1,
+        "Items": [
+            { "ItemID": 20205, "Number": 50, "Rate": -1, "Info": "Túi vật dụng câu cá" },
+            { "ItemID": -1, "Rate": 35, "Info": "Không thưởng" },
+            {
+                "ItemID": 20205,
+                "Rate": 35,
+                "Details": [
+                    { "Number": 50, "Rate": 65 },
+                    { "Number": 100, "Rate": 35 }
+                ],
+                "Info": "Túi vật dụng câu cá"
+            },
+            {
+                "ItemID": 20206,
+                "Rate": 30,
+                "Details": [
+                    { "Number": 10, "Rate": 65 },
+                    { "Number": 50, "Rate": 35 }
+                ],
+                "Info": "Lễ bao Cá (hạ phẩm)"
+            }
+        ]
+    },
+    {
+        "IDBox": 200143,
+        "BoxName": "Rương Bàn tay vàng Câu cá",
+        "Binding": 1,
+        "Items": [
+            { "ItemID": 190, "Rate": 59, "Info": "Huyền Tinh có tì vết (cấp 8)", "Notify": true },
+            { "ItemID": 191, "Rate": 10, "Info": "Huyền Tinh vô hạ (cấp 9)", "Notify": true },
+            { "ItemID": 192, "Rate": 1, "Info": "Huyền Tinh hoàn mỹ (cấp 10)", "Notify": true },
+            { "ItemID": 20230, "Rate": 10, "Info": "Danh hiệu Lãng tử Độc hành (3 ngày)", "Notify": true },
+            { "ItemID": 20235, "Rate": 10, "Info": "Vòng sáng sự kiện Câu cá (3 ngày)", "Notify": true },
+            { "ItemID": 20182, "Rate": 10, "Time": 4321, "ExpiryDate": "2023-12-21 05:00:00", "Info": "Tuyệt Thế Hỏa Vũ - Sự kiện Câu cá", "Notify": true }
+        ]
+    },
+    {
+        "IDBox": 200144,
+        "BoxName": "Danh hiệu Lãng tử Độc hành (3 ngày)",
+        "Binding": 1,
+        "Items": [{ "ItemID": 8, "Rate": -1, "Number": 128, "Info": "Danh hiệu" }]
+    },
+    {
+        "IDBox": 200145,
+        "BoxName": "Danh hiệu Lãng tử Độc hành (30 ngày)",
+        "Binding": 1,
+        "Items": [{ "ItemID": 8, "Rate": -1, "Number": 129, "Info": "Danh hiệu" }]
+    },
+    { "IDBox": 200146, "BoxName": "Danh hiệu Lãng tử Độc hành", "Binding": 1, "Items": [{ "ItemID": 8, "Rate": -1, "Number": 130, "Info": "Danh hiệu" }] },
+    {
+        "IDBox": 200147,
+        "BoxName": "Rương Tuyệt Thế Hỏa Vũ",
+        "Items": [
+            { "ItemID": 20182, "Rate": 90, "Time": 10081, "ExpiryDate": "2023-12-21 05:00:00", "Info": "Tuyệt Thế Hỏa Vũ - Sự kiện Câu cá" },
+            { "ItemID": 20182, "Rate": 10, "Time": 21601, "ExpiryDate": "2023-12-21 05:00:00", "Info": "Tuyệt Thế Hỏa Vũ - Sự kiện Câu cá" }
+        ]
+    },
+    {
+        "IDBox": 200148,
+        "BoxName": "Rương Tuyệt Thế Hỏa Vũ (thượng phẩm)",
+        "Items": [
+            { "ItemID": 20182, "Rate": 90, "Time": 10081, "ExpiryDate": "2023-12-21 05:00:00", "Info": "Tuyệt Thế Hỏa Vũ - Sự kiện Câu cá" },
+            { "ItemID": 20182, "Rate": 10, "Time": 21601, "ExpiryDate": "2023-12-21 05:00:00", "Info": "Tuyệt Thế Hỏa Vũ - Sự kiện Câu cá" }
+        ]
+    },
+    {
+        "IDBox": 200149,
+        "BoxName": "Hộp Sự kiện Bí ẩn",
+        "Items": [
+            { "ItemID": 20236, "Rate": 50, "Time": 10081, "ExpiryDate": "2023-12-21 05:00:00", "Info": "Vòng sáng sự kiện Câu cá (7 ngày)" },
+            { "ItemID": 20182, "Rate": 50, "Time": 10081, "ExpiryDate": "2023-12-21 05:00:00", "Info": "Tuyệt Thế Hỏa Vũ - Sự kiện Câu cá" }
+        ]
+    },
+    {
+        "IDBox": 200150,
+        "BoxName": "Rương Đua thú - Chiến thắng (10v bạc khóa)",
+        "Binding": 1,
+        "Items": [{ "ItemID": 189, "Number": 1, "Rate": -1, "Info": "Huyền Tinh thường (cấp 7)" }]
+    },
+    {
+        "IDBox": 200151,
+        "BoxName": "Rương Đua thú - Chiến thắng (100v bạc khóa)",
+        "Binding": 1,
+        "Items": [
+            { "ItemID": 506, "Number": 200, "Rate": -1, "Info": "Ngũ Hành Hồn Thạch" },
+            { "ItemID": 189, "Number": 2, "Rate": -1, "Info": "Huyền Tinh thường (cấp 7)" }
+        ]
+    },
+    {
+        "IDBox": 200152,
+        "BoxName": "Rương Đua thú - Chiến thắng (50 KNB)",
+        "Binding": 1,
+        "Items": [
+            { "ItemID": 1057, "Number": 5, "Rate": -1, "Info": "Sách kinh nghiệm đồng hành" },
+            { "ItemID": 190, "Number": 2, "Rate": -1, "Info": "Huyền Tinh có tì vết (cấp 8)" },
+            { "ItemID": 9, "Number": 1000, "Rate": -1, "Info": "Hoạt lực" },
+            { "ItemID": 10, "Number": 1000, "Rate": -1, "Info": "Tinh lực" }
+        ]
+    },
+    {
+        "IDBox": 200153,
+        "BoxName": "Rương Đua thú - Chiến thắng (1000 KNB)",
+        "Binding": 1,
+        "Items": [
+            { "ItemID": 1057, "Number": 25, "Rate": -1, "Info": "Sách kinh nghiệm đồng hành" },
+            { "ItemID": 191, "Number": 2, "Rate": -1, "Info": "Huyền Tinh vô hạ (cấp 9)" },
+            { "ItemID": 506, "Number": 200, "Rate": -1, "Info": "Ngũ Hành Hồn Thạch" },
+            { "ItemID": 796, "Number": 5, "Rate": -1, "Info": "Tần Lăng-Dạ Minh Châu" }
+        ]
+    },
+    {
+        "IDBox": 200154,
+        "BoxName": "Rương Đua thú - An ủi (10v bạc khóa)",
+        "Binding": 1,
+        "Items": [{ "ItemID": 20206, "Number": 3, "Rate": -1, "Info": "Lễ bao Cá (hạ phẩm)" }]
+    },
+    {
+        "IDBox": 200155,
+        "BoxName": "Rương Đua thú - An ủi (100v bạc khóa)",
+        "Binding": 1,
+        "Items": [
+            { "ItemID": 1054, "Number": 1, "Rate": -1, "Info": "Thiệp lụa (cấp 1)" },
+            { "ItemID": 187, "Number": 1, "Rate": -1, "Info": "Huyền Tinh Cấp 5" }
+        ]
+    },
+    {
+        "IDBox": 200156,
+        "BoxName": "Rương Đua thú - An ủi (50 KNB)",
+        "Binding": 1,
+        "Items": [
+            { "ItemID": 1054, "Number": 1, "Rate": -1, "Info": "Thiệp lụa (cấp 1)" },
+            { "ItemID": 188, "Number": 1, "Rate": -1, "Info": "Huyền Tinh có vết nứt (cấp 6)" }
+        ]
+    },
+    {
+        "IDBox": 200157,
+        "BoxName": "Rương Đua thú - An ủi (1000 KNB)",
+        "Binding": 1,
+        "Items": [
+            { "ItemID": 1057, "Number": 5, "Rate": -1, "Info": "Sách kinh nghiệm đồng hành" },
+            { "ItemID": 1054, "Number": 5, "Rate": -1, "Info": "Thiệp lụa (cấp 1)" },
+            { "ItemID": 190, "Number": 1, "Rate": -1, "Info": "Huyền Tinh có tì vết (cấp 8)" }
+        ]
+    },
+    {
+        "IDBox": 200158,
+        "BoxName": "Rương Đua thú - May mắn 1",
+        "Binding": 1,
+        "Items": [
+            { "ItemID": 192, "Number": 2, "Rate": -1, "Info": "Huyền Tinh hoàn mỹ (cấp 10)" },
+            { "ItemID": 506, "Number": 10000, "Rate": -1, "Info": "Ngũ Hành Hồn Thạch" },
+            { "ItemID": 1103, "Number": 3, "Rate": -1, "Info": "Hoàng Kim Tinh Hoa (Cấp 2)" }
+        ]
+    },
+    {
+        "IDBox": 200159,
+        "BoxName": "Rương Đua thú - May mắn 2",
+        "Binding": 1,
+        "Items": [
+            { "ItemID": 193, "Number": 1, "Rate": -1, "Info": "Huyền Tinh óng ánh (cấp 11)" },
+            { "ItemID": 506, "Number": 20000, "Rate": -1, "Info": "Ngũ Hành Hồn Thạch" },
+            { "ItemID": 1104, "Number": 5, "Rate": -1, "Info": "Bạch Kim Tinh Hoa (Cấp 3)" }
+        ]
+    },
+    {
+        "IDBox": 200160,
+        "BoxName": "Rương Đua thú - Chăm chỉ 1",
+        "Binding": 1,
+        "Items": [
+            { "ItemID": 191, "Number": 1, "Rate": -1, "Info": "Huyền Tinh vô hạ (cấp 9)" },
+            { "ItemID": 506, "Number": 1000, "Rate": -1, "Info": "Ngũ Hành Hồn Thạch" }
+        ]
+    },
+    {
+        "IDBox": 200161,
+        "BoxName": "Rương Đua thú - Chăm chỉ 2",
+        "Binding": 1,
+        "Items": [
+            { "ItemID": 192, "Number": 1, "Rate": -1, "Info": "Huyền Tinh hoàn mỹ (cấp 10)" },
+            { "ItemID": 506, "Number": 2000, "Rate": -1, "Info": "Ngũ Hành Hồn Thạch" }
+        ]
+    },
+    {
+        "IDBox": 200162,
+        "BoxName": "Danh hiệu Lãng tử Độc hành (7 ngày)",
+        "Binding": 1,
+        "Items": [{ "ItemID": 8, "Rate": -1, "Number": 131, "Info": "Danh hiệu" }]
+    },
+    {
+        "IDBox": 200163,
+        "BoxName": "Hộp Sự kiện Bí ẩn (đặc biệt)",
+        "Items": [
+            { "ItemID": 20237, "Rate": 55, "Time": 43201, "ExpiryDate": "2023-12-21 05:00:00", "Info": "Vòng sáng sự kiện Câu cá (30 ngày)" },
+            { "ItemID": 20182, "Rate": 44.5, "Time": 43201, "ExpiryDate": "2023-12-21 05:00:00", "Info": "Tuyệt Thế Hỏa Vũ - Sự kiện Câu cá" },
+            { "ItemID": 20182, "Rate": 0.5, "Info": "Tuyệt Thế Hỏa Vũ - Sự kiện Câu cá" }
+        ]
+    }
+]

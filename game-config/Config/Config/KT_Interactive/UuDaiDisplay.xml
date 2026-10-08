@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<UuDaiDisplay TimeKey="UuDaiDisplay">
+  <Reward Name="Hàng ngày 1 - 15 ADNXu" Limit="3" LimitType="ngày" Group="0">
+    <Item Id="20538" Count="5"/>
+  </Reward>
+  <Reward Name="Hàng ngày 2 - 5 ADNXu" Limit="4" LimitType="ngày" Group="0">
+    <Item Id="348" Count="3"/>
+    <Item Id="351" Count="3"/>
+  </Reward>
+  <Reward Name="Hàng ngày 3 - 5 ADNXu" Limit="5" LimitType="ngày" Group="0">
+    <Item Id="1057" Count="5"/>
+    <Item Id="1104" Count="2"/>
+    <Item Id="190" Count="1"/>
+    <Item Id="20270" Count="1"/>
+  </Reward>
+  <Reward Name="Hàng ngày 4 - 50 ADNXu" Limit="1" LimitType="ngày" Group="0">
+    <Item Id="1026" Count="10"/>
+    <Item Id="20051" Count="50"/>
+    <Item Id="191" Count="1"/>
+    <Item Id="506" Count="200"/>
+  </Reward>
+  <Reward Name="Hàng ngày 5 - 200 ADNXu" Limit="1" LimitType="ngày" Group="0">
+    <Item Id="1058" Count="1"/>
+    <Item Id="25270" Count="1000"/>
+    <Item Id="20344" Count="50"/>
+    <Item Id="506" Count="1000"/>
+  </Reward>
+  <Reward Name="Hàng ngày 6 - 750 ADNXu" Limit="1" LimitType="ngày" Group="0">
+    <Item Id="1058" Count="5"/>
+    <Item Id="14203" Count="1"/>
+    <Item Id="14213" Count="1"/>
+    <Item Id="20529" Count="300"/>
+  </Reward>
+  <Reward Name="Giới hạn 1 - 30 ADNXu" Limit="10" LimitType="tuần" Group="1">
+    <Item Id="506" Count="500"/>
+    <Item Id="191" Count="2"/>
+  </Reward>
+  <Reward Name="Giới hạn 2 - 100 ADNXu" Limit="10" LimitType="tuần" Group="1">
+    <Item Id="1026" Count="30"/>
+    <Item Id="25236" Count="1"/>
+    <Item Id="20344" Count="100"/>
+    <Item Id="506" Count="1000"/>
+  </Reward>
+  <Reward Name="Giới hạn 3 - 300 ADNXu" Limit="5" LimitType="tuần" Group="1">
+    <Item Id="972" Count="25"/>
+    <Item Id="973" Count="50"/>
+    <Item Id="974" Count="50"/>
+  </Reward>
+  <Reward Name="Giới hạn 4 - 500 ADNXu" Limit="3" LimitType="tuần" Group="1">
+    <Item Id="1058" Count="3"/>
+    <Item Id="20571" Count="1"/>
+  </Reward>
+  <Reward Name="Giới hạn 5 - 500 ADNXu" Limit="5" LimitType="tuần" Group="1">
+    <Item Id="506" Count="5000"/>
+    <Item Id="819" Count="5"/>
+  </Reward>
+  <Reward Name="Giới hạn 6 - 1000 ADNXu" Limit="2" LimitType="tuần" Group="1">
+    <Item Id="972" Count="75"/>
+    <Item Id="973" Count="150"/>
+    <Item Id="974" Count="150"/>
+  </Reward>
+  <Reward Name="Tài Nguyên 1 - 70 ADNXu" Limit="5" LimitType="tuần" Group="2">
+    <Item Id="20344" Count="100"/>
+  </Reward>
+  <Reward Name="Tài Nguyên 2 - 150 ADNXu" Limit="5" LimitType="tuần" Group="2">
+    <Item Id="20344" Count="200"/>
+  </Reward>
+  <Reward Name="Tài Nguyên 3 - 350 ADNXu" Limit="2" LimitType="tuần" Group="2">
+    <Item Id="506" Count="5000"/>
+  </Reward>
+  <Reward Name="Tài Nguyên 4 - 700 ADNXu" Limit="2" LimitType="tuần" Group="2">
+    <Item Id="506" Count="10000"/>
+  </Reward>
+  <Reward Name="Tài Nguyên 6 - 100 ADNXu" Limit="5" LimitType="tuần" Group="2">
+    <Item Id="20529" Count="200"/>
+  </Reward>
+  <Reward Name="Tài Nguyên 7 - 125 ADNXu" Limit="2" LimitType="ngày" Group="2">
+    <Item Id="20779" Count="100"/>
+  </Reward>
+  <Reward Name="Tài Nguyên 8 - 600 ADNXu" Limit="1" LimitType="ngày" Group="2">
+    <Item Id="20779" Count="500"/>
+  </Reward>
+  <Reward Name="Tài Nguyên 9 - 1150 ADNXu" Limit="1" LimitType="ngày" Group="2">
+    <Item Id="20779" Count="1000"/>
+  </Reward>
+</UuDaiDisplay>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfItemDate xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <!-- 
+  <ItemDate ItemID="15741" Name="[Ngoại trang] Duyên-Tâm Như Hải" DateTime="2025-12-27 23:59:59" ServerID="" RoleID=""/>
+  <ItemDate ItemID="16105" Name="Danh hiệu Tam Long Tinh Anh (60 ngày)" DateTime="2025-12-28 23:59:59" ServerID="" RoleID=""/>
+  <ItemDate ItemID="16136" Name="Danh hiệu Tam Long Bá Vương (60 ngày)" DateTime="2025-12-28 23:59:59" ServerID="" RoleID=""/>
+  <ItemDate ItemID="16137" Name="Danh hiệu Tam Long Chiến Tướng (60 ngày)" DateTime="2025-12-28 23:59:59" ServerID="" RoleID=""/>
+  <ItemDate ItemID="16138" Name="Danh hiệu Tam Long Hộ Vệ (60 ngày)" DateTime="2025-12-28 23:59:59" ServerID="" RoleID=""/>
+  -->
+</ArrayOfItemDate>
+
+<!-- 
+ItemID: Mã vật phẩm
+Name: Tên vật phẩm
+DateTime: Thời gian hết hạn
+ServerID: ID máy chủ (nếu có, để trống là tất cả, ngăn cách nhau bởi dấu chấm phẩy)
+RoleID: ID nhân vật (nếu có, để trống là tất cả, ngăn cách nhau bởi dấu chấm phẩy)
+-->

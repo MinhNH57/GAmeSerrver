@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--
+	=== Hướng dẫn config randombox ===
+	=== Hướng dẫn config randombox ===
+	
+	Khai báo 1 Boxs ID mới thì IDBox cần phải khác nhau không được giống nhau
+	Tổng số lượng RATE phải điền đúng nếu ko sẽ gây lỗi
+	LimitWeek : Tối đa 1 tuần được mở mấy lần  | Nếu để là 0 thì không giới hạn
+	LimitDay : Tối đa 1 ngày được mở mấy lần | Nếu để là 0 thì không giới hạn
+	Lock : 0 Là không khóa | 1 là có khóa
+	Type : Là kiểu tong đó : 0 là vật phẩm | 1 là bạc khóa , 2: là bạc , 3 là đồng khóa , 4 là đồng	| 5 là Exp
+  Serier : là đồ theo hệ
+  TimeLimit : thời gian đồ có thể dùng
+  ItemID là ID đồ của vật phẩm 
+	Number : Là số lượng tương ứng của mỗi vật phẩm | Nếu type là tiền thì Number là số tiền
+-->
+<ConfigBoxSpecial xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+ <Boxs IDBox="1" BoxName="Lễ Bao Người Chơi Mới 1" TotalTime="3" LimitDay = "1" LimitLifetime = "1"> 
+	<RewardDay IDTime = "1" TimeUsed = "0" TotalRate = "-1"  >
+		<Items Type="0" ItemID="506" Series="0" TimeLimit="0" Number="100" Rate="-1" Lock="1" /> 
+		<Items Type="0" ItemID="388" Series="0" TimeLimit="0" Number="3" Rate="-1" Lock="1" /> 
+		<Items Type="3" ItemID="-1" Series="0" TimeLimit="0" Number="200" Rate="-1" Lock="1" /> 
+	</RewardDay>
+	<RewardDay IDTime = "2" TimeUsed = "1" TotalRate = "-1" >
+		<Items Type="5" ItemID="190" Series="0" TimeLimit="0" Number="3000000" Rate="-1" Lock="1" /> 
+		<Items Type="3" ItemID="-1" Series="0" TimeLimit="0" Number="300" Rate="-1" Lock="1" /> 
+	</RewardDay>
+	<RewardDay IDTime = "3" TimeUsed = "2" TotalRate = "10000" >
+		<Items Type="5" ItemID="190" Series="0" TimeLimit="0" Number="3000000" Rate="-1" Lock="1" /> 
+		<Items Type="3" ItemID="-1" Series="0" TimeLimit="0" Number="500" Rate="-1" Lock="1" /> 
+	</RewardDay>
+ </Boxs>
+  <Boxs IDBox="2" BoxName="Lễ Bao Người Chơi Mới 2" TotalTime="3" LimitDay = "1" LimitLifetime = "1"> 
+	<RewardDay IDTime = "1" TimeUsed = "0" TotalRate = "-1"  >
+		<Items Type="0" ItemID="506" Series="0" TimeLimit="0" Number="500" Rate="-1" Lock="1" /> 
+		<Items Type="0" ItemID="389" Series="0" TimeLimit="0" Number="3" Rate="-1" Lock="1" /> 
+		<Items Type="3" ItemID="-1" Series="0" TimeLimit="0" Number="2000" Rate="-1" Lock="1" /> 
+	</RewardDay>
+	<RewardDay IDTime = "2" TimeUsed = "1" TotalRate = "-1" >
+		<Items Type="5" ItemID="190" Series="0" TimeLimit="0" Number="3000000" Rate="-1" Lock="1" /> 
+		<Items Type="3" ItemID="-1" Series="0" TimeLimit="0" Number="2000" Rate="-1" Lock="1" /> 
+	</RewardDay>
+	<RewardDay IDTime = "3" TimeUsed = "1" TotalRate = "-1" >
+		<Items Type="5" ItemID="190" Series="0" TimeLimit="0" Number="3000000" Rate="-1" Lock="1" /> 
+		<Items Type="3" ItemID="-1" Series="0" TimeLimit="0" Number="1000" Rate="-1" Lock="1" /> 
+	</RewardDay>
+ </Boxs>
+ <Boxs IDBox="3" BoxName="Rương Ưu đãi Năng động VIP" TotalTime="3" LimitDay = "1" LimitLifetime = "-1"> 
+	<RewardDay IDTime = "1" TimeUsed = "0" TotalRate = "-1"  >
+		<Items Type="0" ItemID="600" Series="0" TimeLimit="0" Number="1" Rate="-1" Lock="1" /> 
+		<Items Type="0" ItemID="349" Series="0" TimeLimit="0" Number="2" Rate="-1" Lock="1" /> 
+		<Items Type="0" ItemID="352" Series="0" TimeLimit="0" Number="2" Rate="-1" Lock="1" /> 
+		<Items Type="0" ItemID="390" Series="0" TimeLimit="0" Number="1" Rate="-1" Lock="1" /> 
+		<Items Type="0" ItemID="391" Series="0" TimeLimit="0" Number="1" Rate="-1" Lock="1" /> 
+		
+		<Items Type="1" ItemID="-1" Series="0" TimeLimit="0" Number="1000000" Rate="-1" Lock="1" /> 
+		<Items Type="2" ItemID="-1" Series="0" TimeLimit="0" Number="100000" Rate="-1" Lock="1" /> 
+		<Items Type="3" ItemID="-1" Series="0" TimeLimit="0" Number="5000" Rate="-1" Lock="1" /> 
+	</RewardDay>
+	<RewardDay IDTime = "2" TimeUsed = "1" TotalRate = "-1" >
+		<Items Type="5" ItemID="-1" Series="0" TimeLimit="0" Number="1" Rate="-1" Lock="1" />
+	</RewardDay>
+	<RewardDay IDTime = "3" TimeUsed = "2" TotalRate = "-1" >
+		<Items Type="5" ItemID="-1" Series="0" TimeLimit="0" Number="2" Rate="-1" Lock="1" /> 
+	</RewardDay>
+ </Boxs>
+ <Boxs IDBox="4" BoxName="Rương Hỗ trợ cấp độ" TotalTime="2" LimitDay = "1" LimitLifetime = "-1"> 
+	<RewardDay IDTime = "1" TimeUsed = "0" TotalRate = "-1" >
+		<Items Type="5" ItemID="-1" Series="0" TimeLimit="0" Number="1" Rate="-1" Lock="1" />
+	</RewardDay>
+	<RewardDay IDTime = "2" TimeUsed = "1" TotalRate = "-1" >
+		<Items Type="5" ItemID="-1" Series="0" TimeLimit="0" Number="2" Rate="-1" Lock="1" /> 
+	</RewardDay>
+ </Boxs>
+ <Boxs IDBox="5" BoxName="Rương quà đăng nhập ngày đầu" TotalTime="7" LimitDay = "1" LimitLifetime = "1"> 
+	<RewardDay IDTime = "1" TimeUsed = "0" TotalRate = "-1"  >
+		<Items Type="0" ItemID="188" Series="0" TimeLimit="0" Number="2" Rate="-1" Lock="1" /> 
+		<Items Type="0" ItemID="20445" Series="0" TimeLimit="0" Number="1" Rate="-1" Lock="1" /> 
+		<Items Type="0" ItemID="20036" Series="0" TimeLimit="0" Number="1" Rate="-1" Lock="1" /> 
+		<Items Type="0" ItemID="348" Series="0" TimeLimit="0" Number="5" Rate="-1" Lock="1" /> 
+		<Items Type="0" ItemID="351" Series="0" TimeLimit="0" Number="5" Rate="-1" Lock="1" /> 
+		<Items Type="0" ItemID="506" Series="0" TimeLimit="0" Number="200" Rate="-1" Lock="1" /> 
+		<Items Type="0" ItemID="590" Series="0" TimeLimit="0" Number="1" Rate="-1" Lock="1" /> 
+		<Items Type="0" ItemID="15018" Series="0" TimeLimit="0" Number="5" Rate="-1" Lock="1" /> 
+		<Items Type="0" ItemID="25277" Series="0" TimeLimit="0" Number="1" Rate="-1" Lock="1" /> 
+		<Items Type="0" ItemID="15015" Series="0" TimeLimit="0" Number="1" Rate="-1" Lock="1" /> 
+	</RewardDay>
+	<RewardDay IDTime = "2" TimeUsed = "1" TotalRate = "-1" >
+		<Items Type="0" ItemID="15018" Series="0" TimeLimit="0" Number="5" Rate="-1" Lock="1" /> 
+		<Items Type="0" ItemID="590" Series="0" TimeLimit="0" Number="2" Rate="-1" Lock="1" /> 
+		<Items Type="0" ItemID="600" Series="0" TimeLimit="0" Number="4" Rate="-1" Lock="1" /> 
+	</RewardDay>
+	<RewardDay IDTime = "3" TimeUsed = "2" TotalRate = "-1" >
+		<Items Type="0" ItemID="15018" Series="0" TimeLimit="0" Number="10" Rate="-1" Lock="1" /> 
+		<Items Type="0" ItemID="15000" Series="0" TimeLimit="0" Number="50" Rate="-1" Lock="1" /> 
+		<Items Type="0" ItemID="348" Series="0" TimeLimit="0" Number="5" Rate="-1" Lock="1" /> 
+		<Items Type="0" ItemID="351" Series="0" TimeLimit="0" Number="5" Rate="-1" Lock="1" /> 
+		<Items Type="0" ItemID="15015" Series="0" TimeLimit="0" Number="1" Rate="-1" Lock="1" /> 
+	</RewardDay>
+	<RewardDay IDTime = "4" TimeUsed = "3" TotalRate = "-1" >
+		<Items Type="0" ItemID="15018" Series="0" TimeLimit="0" Number="5" Rate="-1" Lock="1" /> 
+		<Items Type="0" ItemID="590" Series="0" TimeLimit="0" Number="2" Rate="-1" Lock="1" /> 
+		<Items Type="0" ItemID="600" Series="0" TimeLimit="0" Number="4" Rate="-1" Lock="1" />
+	</RewardDay>
+	<RewardDay IDTime = "5" TimeUsed = "4" TotalRate = "-1" >
+		<Items Type="0" ItemID="15018" Series="0" TimeLimit="0" Number="10" Rate="-1" Lock="1" /> 
+		<Items Type="0" ItemID="15000" Series="0" TimeLimit="0" Number="50" Rate="-1" Lock="1" /> 
+		<Items Type="0" ItemID="348" Series="0" TimeLimit="0" Number="5" Rate="-1" Lock="1" /> 
+		<Items Type="0" ItemID="351" Series="0" TimeLimit="0" Number="5" Rate="-1" Lock="1" /> 
+		<Items Type="0" ItemID="15015" Series="0" TimeLimit="0" Number="1" Rate="-1" Lock="1" /> 
+	</RewardDay>
+	<RewardDay IDTime = "6" TimeUsed = "5" TotalRate = "-1" >
+		<Items Type="0" ItemID="15018" Series="0" TimeLimit="0" Number="5" Rate="-1" Lock="1" /> 
+		<Items Type="0" ItemID="590" Series="0" TimeLimit="0" Number="2" Rate="-1" Lock="1" /> 
+		<Items Type="0" ItemID="600" Series="0" TimeLimit="0" Number="4" Rate="-1" Lock="1" />
+	</RewardDay>
+	<RewardDay IDTime = "7" TimeUsed = "6" TotalRate = "-1" >
+		<Items Type="0" ItemID="15018" Series="0" TimeLimit="0" Number="10" Rate="-1" Lock="1" /> 
+		<Items Type="0" ItemID="15000" Series="0" TimeLimit="0" Number="50" Rate="-1" Lock="1" /> 
+		<Items Type="0" ItemID="348" Series="0" TimeLimit="0" Number="5" Rate="-1" Lock="1" /> 
+		<Items Type="0" ItemID="351" Series="0" TimeLimit="0" Number="5" Rate="-1" Lock="1" /> 
+		<Items Type="0" ItemID="20121" Series="0" TimeLimit="0" Number="1" Rate="-1" Lock="1" /> 
+	</RewardDay>
+ </Boxs>
+</ConfigBoxSpecial>
+<!--
+	=== Hướng dẫn config randombox Special ===
+	TotalTime là tổng mốc phần thưởng có thể nhận trong các mốc thời gian
+	RewardDay IDTime là ID để lấy mốc thưởng , TimeUsed là ngày tối thiểu sở hữu thì mới được mở ra phần thưởng đấy còn lại giống RandomBox
+
+	
+	Khai báo 1 Boxs ID mới thì IDBox cần phải khác nhau không được giống nhau
+	Tổng số lượng RATE phải điền đúng nếu ko sẽ gây lỗi
+  Nếu TotalRate là -1 tức là box cố định, sẽ mở ra toàn bộ item
+	LimitWeek : Tối đa 1 tuần được mở mấy lần  | Nếu để là 0 thì không giới hạn
+	LimitDay : Tối đa 1 ngày được mở mấy lần | Nếu để là 0 thì không giới hạn
+	Lock : 0 Là không khóa | 1 là có khóa
+	Type : Là kiểu tong đó : 0 là vật phẩm | 1 là bạc khóa , 2: là bạc , 3 là đồng khóa , 4 là đồng	| 5 là Exp | 7 là điểm danh vọng
+  Serier : là đồ theo hệ
+  TimeLimit : thời gian đồ có thể dùng
+  ItemID là ID đồ của vật phẩm , nếu là 7 thì ItemID là ID để cộng điểm danh vọng, ItemID = -1 thì là danh vọng môn phái 
+	Number : Là số lượng tương ứng của mỗi vật phẩm | Nếu type là tiền thì Number là số tiền
+  Notify: Nếu là 1 thì sẽ thông báo nhận vật phẩm tới toàn server, 2 là thông báo gia tộc, 4 là thông báo bang hội. Nếu muốn thông báo nhiều kênh thì dùng tổng.
+  TimeExpiry: Hạn sử dụng tối đa. Nếu chỉ có trường này thì item sẽ có hạn như vậy. Còn nếu có thêm TimeLimit thì item sẽ có hạn là thời điểm nhỏ hơn giữa TimeLimit và ExpiryDate
+-->
+
+	<!-- [101]={NameActivity="Lệnh Bài Nghĩa Quân"}, -->
+	<!-- [102]={NameActivity="Lệnh Bài Quân doanh"}, -->
+	<!-- [103]={NameActivity="Lệnh Bài Học Tạo Đồ"}, -->
+	<!-- [201]={NameActivity="Lệnh Bài Dương Châu"}, -->
+	<!-- [202]={NameActivity="Lệnh Bài Phượng Tường"}, -->
+	<!-- [203]={NameActivity="Lệnh Bài Tương Dương"}, -->
+	<!-- [301]={NameActivity="Lệnh Bài Thiếu Lâm"}, -->
+	<!-- [302]={NameActivity="Lệnh Bài Thiên Vương"}, -->
+	<!-- [303]={NameActivity="Lệnh Bài Đường Môn"}, -->
+	<!-- [304]={NameActivity="Lệnh Bài Ngũ Độc"}, -->
+	<!-- [305]={NameActivity="Lệnh Bài Nga My"}, -->
+	<!-- [306]={NameActivity="Lệnh Bài Thúy Yên"}, -->
+	<!-- [307]={NameActivity="Lệnh Bài Cái Bang"}, -->
+	<!-- [308]={NameActivity="Lệnh Bài Thiên Nhẫn"}, -->
+	<!-- [309]={NameActivity="Lệnh Bài Võ Đang"}, -->
+	<!-- [310]={NameActivity="Lệnh Bài Côn Lôn"}, -->
+	<!-- [311]={NameActivity="Lệnh Bài Minh Giáo"}, -->
+	<!-- [312]={NameActivity="Lệnh Bài Đại Lý Đoàn Thị"}, -->
+	<!-- [401]={NameActivity="Lệnh Bài Ải gia tộc"}, -->
+	<!-- [501]={NameActivity="Lệnh Bài Bạch Hổ-"}, -->
+	<!-- [502]={NameActivity="Lệnh Bài Thịnh Hạ 2008"}, -->
+	<!-- [503]={NameActivity="Lệnh Bài Tiêu Dao Cốc"}, -->
+	<!-- [504]={NameActivity="Lệnh Bài Chúc phúc"}, -->
+	<!-- [505]={NameActivity="Lệnh Bài Hoạt động Thịnh Hạ 2010"}, -->
+	<!-- [506]={NameActivity="Lệnh Bài Di tích Hàn Vũ"}, -->
+	<!-- [507]={NameActivity="Lệnh Bài Mỹ nhân"}, -->
+	<!-- [508]={NameActivity="Lệnh Bài VIP"}, -->
+	<!-- [601]={NameActivity="Lệnh Bài Cao thủ (kim)"}, -->
+	<!-- [602]={NameActivity="Lệnh Bài Cao thủ (mộc)"}, -->
+	<!-- [603]={NameActivity="Lệnh Bài Cao thủ (thủy)"}, -->
+	<!-- [604]={NameActivity="Lệnh Bài Cao thủ (hỏa)"}, -->
+	<!-- [605]={NameActivity="Lệnh Bài Cao thủ (thổ)"}, -->
+	<!-- [701]={NameActivity="Lệnh Bài Võ Lâm Liên Đấu"}, -->
+	<!-- [801]={NameActivity="Lệnh Bài Tranh Đoạt Lãnh Thổ"}, -->
+	<!-- [901]={NameActivity="Lệnh Bài Tần Lăng-Quan Phủ"}, -->
+	<!-- [902]={NameActivity="Lệnh Bài Tần Lăng-Phát Khâu Môn"}, -->
+	<!-- [1001]={NameActivity="Lệnh Bài Đoàn viên dân tộc"}, -->
+	<!-- [1101]={NameActivity="Lệnh Bài Đại Hội Võ Lâm"}, -->
+	<!-- [1201]={NameActivity="Lệnh Bài Liên đấu liên server"}, -->

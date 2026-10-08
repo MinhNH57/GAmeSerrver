@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfItemData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <ItemData ItemID="25244" Name="[Chân nguyên] Diệp Tịnh" IconBundleDir="Icon/ChanNguyen.unity3d" IconAtlasName="ChanNguyen"
+    MapSpriteBundleDir="Resources/Item/MapSprite.unity3d" MapSpriteAtlasName="MapSprite" Kind="[Chân nguyên] Diệp Tịnh" QualityPrefix="0"
+    Category="1" Genre="1" Stack="1" DetailType="32" ParticularType="1" Level="1" SuiteID="0" Icon="item_channguyen1" View="item_channguyen1" Intro="Chân nguyên đồng hành Diệp Tịnh tu luyện nhiều năm tụ thành. Đặt vào vào vị trí Chân nguyên chính, khi tham gia hoạt động sẽ nhận được kinh nghiệm, sau cấp 120 có thể luyện hóa tăng thuộc tính!" Help=""
+    ObjID="32" BindType="1" Series="0" ReqLevel="70" CDType="0" Price="1" ItemValue="100000" MakeCost="-1" ResMale="-1" ResFemale="-1" FightPower="3"
+    ScriptID="-1" DeductOnUse="false" BuffID="-1">
+    <ListBasicProp BasicPropType="deadlystrikedamageenhance_p" BasicPropPA1Min="1" BasicPropPA1Max="5" BasicPropPA2Min="-1" BasicPropPA2Max="-1" BasicPropPA3Min="0" BasicPropPA3Max="0" Index="1" />
+    <ListBasicProp BasicPropType="damage_all_resist" BasicPropPA1Min="10" BasicPropPA1Max="30" BasicPropPA2Min="-1" BasicPropPA2Max="-1" BasicPropPA3Min="0" BasicPropPA3Max="0" Index="2" />
+    <ListBasicProp BasicPropType="fastlifereplenish_v" BasicPropPA1Min="10" BasicPropPA1Max="30" BasicPropPA2Min="-1" BasicPropPA2Max="-1" BasicPropPA3Min="0" BasicPropPA3Max="0" Index="3" />
+    <ListBasicProp BasicPropType="allseriesstateresisttime" BasicPropPA1Min="10" BasicPropPA1Max="30" BasicPropPA2Min="-1" BasicPropPA2Max="-1" BasicPropPA3Min="0" BasicPropPA3Max="0" Index="4" />
+    <ListReqProp ReqPropType="5" ReqPropValue="70" Index="1" />
+    <UnLockInterval>-1</UnLockInterval>
+  </ItemData>
+  <ItemData ItemID="25245" Name="[Chân nguyên] Bảo Ngọc" IconBundleDir="Icon/ChanNguyen.unity3d" IconAtlasName="ChanNguyen"
+    MapSpriteBundleDir="Resources/Item/MapSprite.unity3d" MapSpriteAtlasName="MapSprite" Kind="[Chân nguyên] Bảo Ngọc" QualityPrefix="0" Category="1" Genre="1"
+    Stack="1" DetailType="32" ParticularType="2" Level="1" SuiteID="0" Icon="item_channguyen1" View="item_channguyen1" Intro="Chân nguyên đồng hành Bảo Ngọc tu luyện nhiều năm tụ thành. Đặt vào vào vị trí Chân nguyên chính, khi tham gia hoạt động sẽ nhận được kinh nghiệm, sau cấp 120 có thể luyện hóa tăng thuộc tính!" Help="" ObjID="32" BindType="1"
+    Series="0" ReqLevel="70" CDType="0" Price="1" ItemValue="100000" MakeCost="-1" ResMale="-1" ResFemale="-1" FightPower="3" ScriptID="-1"
+    DeductOnUse="false" BuffID="-1">
+    <ListBasicProp BasicPropType="skilldamageptrim" BasicPropPA1Min="1" BasicPropPA1Max="5" BasicPropPA2Min="-1" BasicPropPA2Max="-1" BasicPropPA3Min="0" BasicPropPA3Max="0" Index="1" />
+    <ListBasicProp BasicPropType="fastlifereplenish_v" BasicPropPA1Min="10" BasicPropPA1Max="30" BasicPropPA2Min="-1" BasicPropPA2Max="-1" BasicPropPA3Min="0" BasicPropPA3Max="0" Index="2" />
+    <ListBasicProp BasicPropType="defencedeadlystrikedamagetrim" BasicPropPA1Min="1" BasicPropPA1Max="5" BasicPropPA2Min="-1" BasicPropPA2Max="-1" BasicPropPA3Min="0" BasicPropPA3Max="0" Index="3" />
+    <ListBasicProp BasicPropType="allseriesstateresistrate" BasicPropPA1Min="10" BasicPropPA1Max="30" BasicPropPA2Min="-1" BasicPropPA2Max="-1" BasicPropPA3Min="0" BasicPropPA3Max="0" Index="4" />
+    <ListReqProp ReqPropType="5" ReqPropValue="70" Index="1" />
+    <UnLockInterval>-1</UnLockInterval>
+  </ItemData>
+  <ItemData ItemID="25246" Name="[Chân nguyên] Hạ Tiểu Sảnh" IconBundleDir="Icon/ChanNguyen.unity3d" IconAtlasName="ChanNguyen"
+    MapSpriteBundleDir="Resources/Item/MapSprite.unity3d" MapSpriteAtlasName="MapSprite" Kind="[Chân nguyên] Hạ Tiểu Sảnh" QualityPrefix="0"
+    Category="1" Genre="1" Stack="1" DetailType="32" ParticularType="3" Level="1" SuiteID="0" Icon="item_channguyen1" View="item_channguyen1" Intro="Chân nguyên đồng hành Hạ Tiểu Sảnh tu luyện nhiều năm tụ thành. Đặt vào vào vị trí Chân nguyên chính, khi tham gia hoạt động sẽ nhận được kinh nghiệm, sau cấp 120 có thể luyện hóa tăng thuộc tính!" Help=""
+    ObjID="32" BindType="70" Series="0" ReqLevel="70" CDType="0" Price="1" ItemValue="100000" MakeCost="-1" ResMale="-1" ResFemale="-1" FightPower="3"
+    ScriptID="-1" DeductOnUse="false" BuffID="-1">
+    <ListBasicProp BasicPropType="damage_all_resist" BasicPropPA1Min="10" BasicPropPA1Max="30" BasicPropPA2Min="-1" BasicPropPA2Max="-1" BasicPropPA3Min="0" BasicPropPA3Max="0" Index="1" />
+    <ListBasicProp BasicPropType="fastlifereplenish_v" BasicPropPA1Min="10" BasicPropPA1Max="30" BasicPropPA2Min="-1" BasicPropPA2Max="-1" BasicPropPA3Min="0" BasicPropPA3Max="0" Index="2" />
+    <ListBasicProp BasicPropType="defencedeadlystrikedamagetrim" BasicPropPA1Min="1" BasicPropPA1Max="5" BasicPropPA2Min="-1" BasicPropPA2Max="-1" BasicPropPA3Min="0" BasicPropPA3Max="0" Index="3" />
+    <ListBasicProp BasicPropType="lifemax_v" BasicPropPA1Min="200" BasicPropPA1Max="500" BasicPropPA2Min="-1" BasicPropPA2Max="-1" BasicPropPA3Min="0" BasicPropPA3Max="0" Index="4" />
+    <ListReqProp ReqPropType="5" ReqPropValue="70" Index="1" />
+    <UnLockInterval>-1</UnLockInterval>
+  </ItemData>
+  <ItemData ItemID="25247" Name="[Chân nguyên] Oanh Oanh" IconBundleDir="Icon/ChanNguyen.unity3d" IconAtlasName="ChanNguyen"
+    MapSpriteBundleDir="Resources/Item/MapSprite.unity3d" MapSpriteAtlasName="MapSprite" Kind="[Chân nguyên] Oanh Oanh" QualityPrefix="0" Category="1" Genre="1"
+    Stack="1" DetailType="32" ParticularType="4" Level="1" SuiteID="0" Icon="item_channguyen1" View="item_channguyen1" Intro="Chân nguyên đồng hành Oanh Oanh tu luyện nhiều năm tụ thành. Đặt vào vào vị trí Chân nguyên chính, khi tham gia hoạt động sẽ nhận được kinh nghiệm, sau cấp 120 có thể luyện hóa tăng thuộc tính!" Help="" ObjID="32" BindType="1"
+    Series="0" ReqLevel="70" CDType="0" Price="1" ItemValue="100000" MakeCost="-1" ResMale="-1" ResFemale="-1" FightPower="3" ScriptID="-1"
+    DeductOnUse="false" BuffID="-1">
+    <ListBasicProp BasicPropType="deadlystrikedamageenhance_p" BasicPropPA1Min="1" BasicPropPA1Max="5" BasicPropPA2Min="-1" BasicPropPA2Max="-1" BasicPropPA3Min="0" BasicPropPA3Max="0" Index="1" />
+    <ListBasicProp BasicPropType="ignoredefenseenhance_v" BasicPropPA1Min="30" BasicPropPA1Max="60" BasicPropPA2Min="-1" BasicPropPA2Max="-1" BasicPropPA3Min="0" BasicPropPA3Max="0" Index="2" />
+    <ListBasicProp BasicPropType="adddefense_v" BasicPropPA1Min="30" BasicPropPA1Max="60" BasicPropPA2Min="-1" BasicPropPA2Max="-1" BasicPropPA3Min="0" BasicPropPA3Max="0" Index="3" />
+    <ListBasicProp BasicPropType="lifemax_v" BasicPropPA1Min="200" BasicPropPA1Max="500" BasicPropPA2Min="-1" BasicPropPA2Max="-1" BasicPropPA3Min="0" BasicPropPA3Max="0" Index="4" />
+    <ListReqProp ReqPropType="5" ReqPropValue="70" Index="1" />
+    <UnLockInterval>-1</UnLockInterval>
+  </ItemData>
+  <ItemData ItemID="25248" Name="[Chân nguyên] Mộc Siêu" IconBundleDir="Icon/ChanNguyen.unity3d" IconAtlasName="ChanNguyen"
+    MapSpriteBundleDir="Resources/Item/MapSprite.unity3d" MapSpriteAtlasName="MapSprite" Kind="[Chân nguyên] Mộc Siêu" QualityPrefix="0" Category="1" Genre="1"
+    Stack="1" DetailType="32" ParticularType="5" Level="1" SuiteID="0" Icon="item_channguyen1" View="item_channguyen1" Intro="Chân nguyên đồng hành Mộc Siêu tu luyện nhiều năm tụ thành. Đặt vào vào vị trí Chân nguyên chính, khi tham gia hoạt động sẽ nhận được kinh nghiệm, sau cấp 120 có thể luyện hóa tăng thuộc tính!" Help="" ObjID="32" BindType="1"
+    Series="0" ReqLevel="70" CDType="0" Price="1" ItemValue="100000" MakeCost="-1" ResMale="-1" ResFemale="-1" FightPower="3" ScriptID="-1"
+    DeductOnUse="false" BuffID="-1">
+    <ListBasicProp BasicPropType="skilldamageptrim" BasicPropPA1Min="1" BasicPropPA1Max="5" BasicPropPA2Min="-1" BasicPropPA2Max="-1" BasicPropPA3Min="0" BasicPropPA3Max="0" Index="1" />
+    <ListBasicProp BasicPropType="ignoredefenseenhance_v" BasicPropPA1Min="30" BasicPropPA1Max="60" BasicPropPA2Min="-1" BasicPropPA2Max="-1" BasicPropPA3Min="0" BasicPropPA3Max="0" Index="2" />
+    <ListBasicProp BasicPropType="allseriesstateresistrate" BasicPropPA1Min="10" BasicPropPA1Max="30" BasicPropPA2Min="-1" BasicPropPA2Max="-1" BasicPropPA3Min="0" BasicPropPA3Max="0" Index="3" />
+    <ListBasicProp BasicPropType="allseriesstateresisttime" BasicPropPA1Min="10" BasicPropPA1Max="30" BasicPropPA2Min="-1" BasicPropPA2Max="-1" BasicPropPA3Min="0" BasicPropPA3Max="0" Index="4" />
+    <ListReqProp ReqPropType="5" ReqPropValue="70" Index="1" />
+    <UnLockInterval>-1</UnLockInterval>
+  </ItemData>
+  <ItemData ItemID="25249" Name="[Chân nguyên] Tử Uyển" IconBundleDir="Icon/ChanNguyen.unity3d" IconAtlasName="ChanNguyen"
+    MapSpriteBundleDir="Resources/Item/MapSprite.unity3d" MapSpriteAtlasName="MapSprite" Kind="[Chân nguyên] Tử Uyển" QualityPrefix="0" Category="1" Genre="1"
+    Stack="1" DetailType="32" ParticularType="6" Level="1" SuiteID="0" Icon="item_channguyen1" View="item_channguyen1" Intro="Chân nguyên đồng hành Tử Uyển tu luyện nhiều năm tụ thành. Đặt vào vào vị trí Chân nguyên chính, khi tham gia hoạt động sẽ nhận được kinh nghiệm, sau cấp 120 có thể luyện hóa tăng thuộc tính!" Help="" ObjID="32" BindType="1"
+    Series="0" ReqLevel="70" CDType="0" Price="1" ItemValue="100000" MakeCost="-1" ResMale="-1" ResFemale="-1" FightPower="3" ScriptID="-1"
+    DeductOnUse="false" BuffID="-1">
+    <ListBasicProp BasicPropType="deadlystrikedamageenhance_p" BasicPropPA1Min="1" BasicPropPA1Max="5" BasicPropPA2Min="-1" BasicPropPA2Max="-1" BasicPropPA3Min="0" BasicPropPA3Max="0" Index="1" />
+    <ListBasicProp BasicPropType="adddefense_v" BasicPropPA1Min="30" BasicPropPA1Max="60" BasicPropPA2Min="-1" BasicPropPA2Max="-1" BasicPropPA3Min="0" BasicPropPA3Max="0" Index="2" />
+    <ListBasicProp BasicPropType="lifemax_v" BasicPropPA1Min="200" BasicPropPA1Max="500" BasicPropPA2Min="-1" BasicPropPA2Max="-1" BasicPropPA3Min="0" BasicPropPA3Max="0" Index="3" />
+    <ListBasicProp BasicPropType="allseriesstateresistrate" BasicPropPA1Min="10" BasicPropPA1Max="30" BasicPropPA2Min="-1" BasicPropPA2Max="-1" BasicPropPA3Min="0" BasicPropPA3Max="0" Index="4" />
+    <ListReqProp ReqPropType="5" ReqPropValue="70" Index="1" />
+    <UnLockInterval>-1</UnLockInterval>
+  </ItemData>
+  <ItemData ItemID="25250" Name="[Chân nguyên] Tần Trọng" IconBundleDir="Icon/ChanNguyen.unity3d" IconAtlasName="ChanNguyen"
+    MapSpriteBundleDir="Resources/Item/MapSprite.unity3d" MapSpriteAtlasName="MapSprite" Kind="[Chân nguyên] Tần Trọng" QualityPrefix="0" Category="1" Genre="1"
+    Stack="1" DetailType="32" ParticularType="7" Level="1" SuiteID="0" Icon="item_channguyen1" View="item_channguyen1" Intro="Chân nguyên đồng hành Tần Trọng tu luyện nhiều năm tụ thành. Đặt vào vào vị trí Chân nguyên chính, khi tham gia hoạt động sẽ nhận được kinh nghiệm, sau cấp 120 có thể luyện hóa tăng thuộc tính!" Help="" ObjID="32" BindType="1"
+    Series="0" ReqLevel="70" CDType="0" Price="1" ItemValue="100000" MakeCost="-1" ResMale="-1" ResFemale="-1" FightPower="3" ScriptID="-1"
+    DeductOnUse="false" BuffID="-1">
+    <ListBasicProp BasicPropType="damage_all_resist" BasicPropPA1Min="10" BasicPropPA1Max="30" BasicPropPA2Min="-1" BasicPropPA2Max="-1" BasicPropPA3Min="0" BasicPropPA3Max="0" Index="1" />
+    <ListBasicProp BasicPropType="fastlifereplenish_v" BasicPropPA1Min="10" BasicPropPA1Max="30" BasicPropPA2Min="-1" BasicPropPA2Max="-1" BasicPropPA3Min="0" BasicPropPA3Max="0" Index="2" />
+    <ListBasicProp BasicPropType="defencedeadlystrikedamagetrim" BasicPropPA1Min="1" BasicPropPA1Max="5" BasicPropPA2Min="-1" BasicPropPA2Max="-1" BasicPropPA3Min="0" BasicPropPA3Max="0" Index="3" />
+    <ListBasicProp BasicPropType="allseriesstateresisttime" BasicPropPA1Min="10" BasicPropPA1Max="30" BasicPropPA2Min="-1" BasicPropPA2Max="-1" BasicPropPA3Min="0" BasicPropPA3Max="0" Index="4" />
+    <ListReqProp ReqPropType="5" ReqPropValue="70" Index="1" />
+    <UnLockInterval>-1</UnLockInterval>
+  </ItemData>
+  <!--
+  <ItemData ItemID="25251" Name="[Chân nguyên] Hỗn Độn Chân Nguyên" IconBundleDir="Icon/ChanNguyen.unity3d" IconAtlasName="ChanNguyen"
+    MapSpriteBundleDir="Resources/Item/MapSprite.unity3d" MapSpriteAtlasName="MapSprite" Kind="[Chân nguyên] Hỗn Độn Chân Nguyên" QualityPrefix="0" Category="1" Genre="1"
+    Stack="1" DetailType="32" ParticularType="8" Level="1" SuiteID="0" Icon="item_channguyen1" View="item_channguyen1" Intro="Chân nguyên được ngưng tụ từ quái hình người tu vi kém, ánh sáng nhợt nhạt, hỗn độn chưa mở. Hỗn Độn Chân Nguyên không thể trang bị, có thể luyện hóa để tăng thuộc tính!" Help="" ObjID="32" BindType="1"
+    Series="0" ReqLevel="0" CDType="0" Price="1" ItemValue="100000" MakeCost="-1" ResMale="-1" ResFemale="-1" FightPower="3" ScriptID="-1"
+    DeductOnUse="false" BuffID="-1">
+    <ListBasicProp BasicPropType="allseriesstateresisttime" BasicPropPA1Min="10" BasicPropPA1Max="30" BasicPropPA2Min="-1" BasicPropPA2Max="-1" BasicPropPA3Min="0" BasicPropPA3Max="0" Index="1" />
+    <ListBasicProp BasicPropType="lifemax_v" BasicPropPA1Min="200" BasicPropPA1Max="500" BasicPropPA2Min="-1" BasicPropPA2Max="-1" BasicPropPA3Min="0" BasicPropPA3Max="0" Index="2" />
+    <ListBasicProp BasicPropType="defencedeadlystrikedamagetrim" BasicPropPA1Min="1" BasicPropPA1Max="5" BasicPropPA2Min="-1" BasicPropPA2Max="-1" BasicPropPA3Min="0" BasicPropPA3Max="0" Index="3" />
+    <ListBasicProp BasicPropType="fastlifereplenish_v" BasicPropPA1Min="10" BasicPropPA1Max="30" BasicPropPA2Min="-1" BasicPropPA2Max="-1" BasicPropPA3Min="0" BasicPropPA3Max="0" Index="4" />
+    <ListReqProp ReqPropType="5" ReqPropValue="70" Index="1" />
+    <UnLockInterval>-1</UnLockInterval>
+  </ItemData>
+  <ItemData ItemID="25252" Name="[Chân nguyên] Hỗn Độn Chân Nguyên" IconBundleDir="Icon/ChanNguyen.unity3d" IconAtlasName="ChanNguyen"
+    MapSpriteBundleDir="Resources/Item/MapSprite.unity3d" MapSpriteAtlasName="MapSprite" Kind="[Chân nguyên] Hỗn Độn Chân Nguyên" QualityPrefix="0" Category="1" Genre="1"
+    Stack="1" DetailType="32" ParticularType="7" Level="1" SuiteID="0" Icon="item_channguyen1" View="item_channguyen1" Intro="Chân nguyên được ngưng tụ từ quái hình người tu vi kém, ánh sáng nhợt nhạt, hỗn độn chưa mở. Hỗn Độn Chân Nguyên không thể trang bị, có thể luyện hóa để tăng thuộc tính!" Help="" ObjID="32" BindType="1"
+    Series="0" ReqLevel="0" CDType="0" Price="1" ItemValue="100000" MakeCost="-1" ResMale="-1" ResFemale="-1" FightPower="3" ScriptID="-1"
+    DeductOnUse="false" BuffID="-1">
+    <ListBasicProp BasicPropType="allseriesstateresistrate" BasicPropPA1Min="10" BasicPropPA1Max="30" BasicPropPA2Min="-1" BasicPropPA2Max="-1" BasicPropPA3Min="0" BasicPropPA3Max="0" Index="1" />
+    <ListBasicProp BasicPropType="skilldamageptrim" BasicPropPA1Min="1" BasicPropPA1Max="5" BasicPropPA2Min="-1" BasicPropPA2Max="-1" BasicPropPA3Min="0" BasicPropPA3Max="0" Index="2" />
+    <ListBasicProp BasicPropType="damage_all_resist" BasicPropPA1Min="10" BasicPropPA1Max="30" BasicPropPA2Min="-1" BasicPropPA2Max="-1" BasicPropPA3Min="0" BasicPropPA3Max="0" Index="3" />
+    <ListBasicProp BasicPropType="fastmanareplenish_v" BasicPropPA1Min="0" BasicPropPA1Max="1" BasicPropPA2Min="-1" BasicPropPA2Max="-1" BasicPropPA3Min="0" BasicPropPA3Max="0" Index="4" />
+    <ListReqProp ReqPropType="5" ReqPropValue="70" Index="1" />
+    <UnLockInterval>-1</UnLockInterval>
+  </ItemData>
+  <ItemData ItemID="25253" Name="[Chân nguyên] Hỗn Độn Chân Nguyên" IconBundleDir="Icon/ChanNguyen.unity3d" IconAtlasName="ChanNguyen"
+    MapSpriteBundleDir="Resources/Item/MapSprite.unity3d" MapSpriteAtlasName="MapSprite" Kind="[Chân nguyên] Hỗn Độn Chân Nguyên" QualityPrefix="0" Category="1" Genre="1"
+    Stack="1" DetailType="32" ParticularType="7" Level="1" SuiteID="0" Icon="item_channguyen1" View="item_channguyen1" Intro="Chân nguyên được ngưng tụ từ quái hình người tu vi kém, ánh sáng nhợt nhạt, hỗn độn chưa mở. Hỗn Độn Chân Nguyên không thể trang bị, có thể luyện hóa để tăng thuộc tính!" Help="" ObjID="32" BindType="1"
+    Series="0" ReqLevel="0" CDType="0" Price="1" ItemValue="100000" MakeCost="-1" ResMale="-1" ResFemale="-1" FightPower="3" ScriptID="-1"
+    DeductOnUse="false" BuffID="-1">
+    <ListBasicProp BasicPropType="allseriesstateresisttime" BasicPropPA1Min="10" BasicPropPA1Max="30" BasicPropPA2Min="-1" BasicPropPA2Max="-1" BasicPropPA3Min="0" BasicPropPA3Max="0" Index="1" />
+    <ListBasicProp BasicPropType="defencedeadlystrikedamagetrim" BasicPropPA1Min="1" BasicPropPA1Max="5" BasicPropPA2Min="-1" BasicPropPA2Max="-1" BasicPropPA3Min="0" BasicPropPA3Max="0" Index="2" />
+    <ListBasicProp BasicPropType="deadlystrikedamageenhance_p" BasicPropPA1Min="1" BasicPropPA1Max="5" BasicPropPA2Min="-1" BasicPropPA2Max="-1" BasicPropPA3Min="0" BasicPropPA3Max="0" Index="3" />
+    <ListBasicProp BasicPropType="allseriesstateresistrate" BasicPropPA1Min="10" BasicPropPA1Max="30" BasicPropPA2Min="-1" BasicPropPA2Max="-1" BasicPropPA3Min="0" BasicPropPA3Max="0" Index="4" />
+    <ListReqProp ReqPropType="5" ReqPropValue="70" Index="1" />
+    <UnLockInterval>-1</UnLockInterval>
+  </ItemData>
+-->
+  <ItemData ItemID="25254" Name="[Chân nguyên] Hỗn Độn Chân Nguyên" IconBundleDir="Icon/ChanNguyen.unity3d" IconAtlasName="ChanNguyen"
+    MapSpriteBundleDir="Resources/Item/MapSprite.unity3d" MapSpriteAtlasName="MapSprite" Kind="[Chân nguyên] Hỗn Độn Chân Nguyên" QualityPrefix="0" Category="2" Genre="1"
+    Stack="1" DetailType="32" ParticularType="7" Level="2" SuiteID="0" Icon="item_channguyen1" View="item_channguyen1" Intro="Chân nguyên được ngưng tụ từ quái hình người tu vi kém, ánh sáng nhợt nhạt, hỗn độn chưa mở. Hỗn Độn Chân Nguyên không thể trang bị, có thể luyện hóa để tăng thuộc tính!" Help="" ObjID="32" BindType="1"
+    Series="0" ReqLevel="70" CDType="0" Price="1" ItemValue="100000" MakeCost="-1" ResMale="-1" ResFemale="-1" FightPower="3" ScriptID="-1"
+    DeductOnUse="false" BuffID="-1">
+    <ListReqProp ReqPropType="5" ReqPropValue="70" Index="1" />
+    <UnLockInterval>-1</UnLockInterval>
+  </ItemData>
+
+  <ItemData ItemID="25302" Name="[Chân nguyên anh hùng] Tam Long Tranh Bá" IconBundleDir="Icon/ChanNguyen.unity3d" IconAtlasName="ChanNguyen"
+    MapSpriteBundleDir="Resources/Item/MapSprite.unity3d" MapSpriteAtlasName="MapSprite" Kind="[Chân nguyên anh hùng] Tam Long Tranh Bá" QualityPrefix="0" Category="2" Genre="1"
+    Stack="1" DetailType="32" ParticularType="7" Level="1" SuiteID="0" Icon="item_channguyen1" View="item_channguyen1" Intro="Phần thưởng đặc biệt khi tham gia giải đấu Tam Long Tranh Bá." Help="" ObjID="32" BindType="1"
+    Series="0" ReqLevel="70" CDType="0" Price="1" ItemValue="100000" MakeCost="-1" ResMale="-1" ResFemale="-1" FightPower="3" ScriptID="-1"
+    DeductOnUse="false" BuffID="-1">
+    <ListBasicProp BasicPropType="skilldamageptrim" BasicPropPA1Min="1" BasicPropPA1Max="5" BasicPropPA2Min="-1" BasicPropPA2Max="-1" BasicPropPA3Min="0" BasicPropPA3Max="0" Index="1" />
+    <ListBasicProp BasicPropType="deadlystrikedamageenhance_p" BasicPropPA1Min="1" BasicPropPA1Max="5" BasicPropPA2Min="-1" BasicPropPA2Max="-1" BasicPropPA3Min="0" BasicPropPA3Max="0" Index="2" />
+    <ListBasicProp BasicPropType="life_mana_max_p" BasicPropPA1Min="10" BasicPropPA1Max="10" BasicPropPA2Min="5" BasicPropPA2Max="5" BasicPropPA3Min="0" BasicPropPA3Max="0" Index="3" />
+    <ListBasicProp BasicPropType="life_mana_replenish_p" BasicPropPA1Min="5" BasicPropPA1Max="5" BasicPropPA2Min="2" BasicPropPA2Max="2" BasicPropPA3Min="0" BasicPropPA3Max="0" Index="4" />
+    <ListReqProp ReqPropType="5" ReqPropValue="70" Index="1" />
+    <UnLockInterval>-1</UnLockInterval>
+  </ItemData>
+
+  <ItemData ItemID="25315" Name="Chân Nguyên Bá Vương Song Long" IconBundleDir="Icon/ChanNguyen.unity3d" IconAtlasName="ChanNguyen"
+    MapSpriteBundleDir="Resources/Item/MapSprite.unity3d" MapSpriteAtlasName="MapSprite" Kind="[Chân nguyên] Hỗn Độn Chân Nguyên" QualityPrefix="0" Category="2" Genre="1"
+    Stack="1" DetailType="32" ParticularType="7" Level="2" SuiteID="0" Icon="item_channguyen1" View="item_channguyen1" Intro="Chân nguyên được ngưng tụ từ quái hình người tu vi kém, ánh sáng nhợt nhạt, hỗn độn chưa mở. Hỗn Độn Chân Nguyên không thể trang bị, có thể luyện hóa để tăng thuộc tính!" Help="" ObjID="32" BindType="1"
+    Series="0" ReqLevel="70" CDType="0" Price="1" ItemValue="100000" MakeCost="-1" ResMale="-1" ResFemale="-1" FightPower="3" ScriptID="-1"
+    DeductOnUse="false" BuffID="-1">
+    <ListBasicProp BasicPropType="increase_output_damage_p" BasicPropPA1Min="1" BasicPropPA1Max="1" BasicPropPA2Min="-1" BasicPropPA2Max="-1" BasicPropPA3Min="0" BasicPropPA3Max="0" Index="1" />
+    <ListBasicProp BasicPropType="life_mana_max_p" BasicPropPA1Min="10" BasicPropPA1Max="10" BasicPropPA2Min="5" BasicPropPA2Max="5" BasicPropPA3Min="0" BasicPropPA3Max="0" Index="2" />
+    <ListReqProp ReqPropType="5" ReqPropValue="70" Index="1" />    
+    <ListExtPram Pram="100000" Index="1" />
+    <UnLockInterval>-1</UnLockInterval>
+  </ItemData>
+</ArrayOfItemData>

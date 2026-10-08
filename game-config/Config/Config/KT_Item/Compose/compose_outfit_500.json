@@ -1,0 +1,114 @@
+{
+    "recipes": [
+        {
+            "compose_id": 500,
+            "compose_name": "Nâng cấp Duyên-Tâm Như Hải +1",
+            "compose_description": "",
+            "allow_multiple": false,
+            "enable_source": true,
+            "enable_rate_up": false,
+            "rate_up_items": [],
+            "source": { "ids": [15741], "forge_level": 0 },
+            "materials": [
+                { "id": 190, "number": 1 },
+                { "id": 506, "number": 800 },
+                { "id": 20797, "number": 2 }
+            ],
+            "fees": [
+                { "type": 4, "number": 5000 },
+                { "type": 5, "number": 5000 }
+            ],
+            "output": { "id": 15741, "forge_level": 1, "number": 1, "expiry": 21601 },
+            "output_based_on_input": false,
+            "default_rate": 100
+        },
+        {
+            "compose_id": 501,
+            "compose_name": "Nâng cấp Duyên-Tâm Như Hải +2",
+            "compose_description": "",
+            "allow_multiple": false,
+            "enable_source": true,
+            "enable_rate_up": false,
+            "rate_up_items": [],
+            "source": { "ids": [15741], "forge_level": 1 },
+            "materials": [
+                { "id": 190, "number": 3 },
+                { "id": 506, "number": 1200 },
+                { "id": 20797, "number": 3 }
+            ],
+            "fees": [
+                { "type": 4, "number": 5000 },
+                { "type": 5, "number": 5000 }
+            ],
+            "output": { "id": 15741, "forge_level": 2, "number": 1, "expiry": 28801 },
+            "output_based_on_input": false,
+            "default_rate": 70
+        },
+        {
+            "compose_id": 502,
+            "compose_name": "Nâng cấp Duyên-Tâm Như Hải +3",
+            "compose_description": "",
+            "allow_multiple": false,
+            "enable_source": true,
+            "enable_rate_up": false,
+            "rate_up_items": [],
+            "source": { "ids": [15741], "forge_level": 2 },
+            "materials": [
+                { "id": 191, "number": 2 },
+                { "id": 506, "number": 2000 },
+                { "id": 20797, "number": 5 }
+            ],
+            "fees": [
+                { "type": 4, "number": 8000 },
+                { "type": 5, "number": 8000 }
+            ],
+            "output": { "id": 15741, "forge_level": 3, "number": 1, "expiry": 36001 },
+            "output_based_on_input": false,
+            "default_rate": 60
+        },
+        {
+            "compose_id": 503,
+            "compose_name": "Nâng cấp Duyên-Tâm Như Hải +4",
+            "compose_description": "",
+            "allow_multiple": false,
+            "enable_source": true,
+            "enable_rate_up": false,
+            "rate_up_items": [],
+            "source": { "ids": [15741], "forge_level": 3 },
+            "materials": [
+                { "id": 191, "number": 5 },
+                { "id": 506, "number": 3000 },
+                { "id": 20797, "number": 7 }
+            ],
+            "fees": [
+                { "type": 4, "number": 10000 },
+                { "type": 5, "number": 10000 }
+            ],
+            "output": { "id": 15741, "forge_level": 4, "number": 1, "expiry": 43201 },
+            "output_based_on_input": false,
+            "default_rate": 45
+        },
+        {
+            "compose_id": 504,
+            "compose_name": "Nâng cấp Duyên-Tâm Như Hải +5",
+            "compose_description": "",
+            "allow_multiple": false,
+            "enable_source": true,
+            "enable_rate_up": false,
+            "rate_up_items": [],
+            "source": { "ids": [15741], "forge_level": 4 },
+            "materials": [
+                { "id": 192, "number": 3 },
+                { "id": 506, "number": 4000 },
+                { "id": 20797, "number": 10 }
+            ],
+            "fees": [
+                { "type": 4, "number": 15000 },
+                { "type": 5, "number": 15000 }
+            ],
+            "output": { "id": 15741, "forge_level": 5, "number": 1, "expiry": 57601 },
+            "output_based_on_input": false,
+            "default_rate": 40
+        }
+    ]
+}

@@ -1,0 +1,2714 @@
+[
+    { "BoxName": "Kinh nghiệm đơn", "IDBox": 80, "Binding": 0, "Items": [{ "ItemID": 5, "Rate": -1, "Number": 150000, "Info": "150000 x EXP" }] },
+    {
+        "BoxName": "Rương tranh đoạt lãnh thổ",
+        "IDBox": 591,
+        "Binding": 0,
+        "Items": [
+            {
+                "Rate": 60.0,
+                "Info": "Nguyên liệu",
+                "Details": [
+                    { "ItemID": 2410, "Info": "1 x Da lông chiến hổ", "Number": 1, "Rate": 20.0 },
+                    { "ItemID": 2412, "Info": "1 x Không Bạch Hoàng Chỉ", "Number": 1, "Rate": 20.0 },
+                    { "ItemID": 2414, "Info": "1 x Trấn Phách Nguyên Thạch", "Number": 1, "Rate": 20.0 },
+                    { "ItemID": 2416, "Info": "1 x Hoàng Mai Quả", "Number": 1, "Rate": 20.0 },
+                    { "ItemID": 2418, "Info": "1 x Huyền thiết nguyên mộc", "Number": 1, "Rate": 20.0 }
+                ]
+            },
+            {
+                "Rate": 20.0,
+                "Info": "Huyền tinh",
+                "Details": [
+                    { "ItemID": 187, "Info": "1 x Huyền Tinh Cấp 5", "Number": 1, "Rate": 40.0 },
+                    { "ItemID": 188, "Info": "1 x Huyền Tinh có vết nứt (cấp 6)", "Number": 1, "Rate": 40.0 },
+                    { "ItemID": 189, "Info": "1 x Huyền Tinh thường (cấp 7)", "Number": 1, "Rate": 20.0 }
+                ]
+            },
+            {
+                "Rate": 20.0,
+                "Info": "Khác",
+                "Details": [
+                    { "ItemID": 2, "Info": "20000 x Bạc", "Number": 20000, "Rate": 20.0 },
+                    { "ItemID": 1, "Info": "50000 x Bạc khóa", "Number": 50000, "Rate": 40.0 },
+                    { "ItemID": 3, "Info": "200 x KNB khóa", "Number": 200, "Rate": 40.0 }
+                ]
+            }
+        ]
+    },
+    {
+        "IDBox": 200190,
+        "BoxName": "Rương Song Long Xuất Hải",
+        "Binding": 0,
+        "Items": [
+            { "ItemID": 190, "Rate": 20, "Number": 2, "Info": "2 x Huyền Tinh có tì vết (cấp 8)" },
+            { "ItemID": 191, "Rate": 16, "Info": "1 x Huyền Tinh vô hạ (cấp 9)" },
+            { "ItemID": 192, "Rate": 7, "Info": "1 x Huyền Tinh hoàn mỹ (cấp 10)" },
+            { "ItemID": 193, "Rate": 1, "Info": "1 x Huyền Tinh óng ánh (cấp 11)" },
+            { "ItemID": 20051, "Number": 50, "Rate": 15, "Info": "50 x Rương Mảnh trang bị đồng hành" },
+            { "ItemID": 20270, "Rate": 15, "Info": "1 x Thiệp vàng (cấp 3)" },
+            { "ItemID": 1055, "Rate": 17, "Info": "1 x Thiệp bạc (cấp 2)" },
+            { "ItemID": 20272, "Rate": 1, "Info": "1 x Sách Kỹ năng Đồng hành (cấp 1)" },
+            { "ItemID": 1099, "Rate": 8, "Info": "1 x Đồng hành Tẩy Tủy Kinh (thường)" }
+        ]
+    },
+    { "IDBox": 200191, "BoxName": "Danh hiệu Song Long Xuất Hải", "Items": [{ "ItemID": 8, "Number": 134, "Rate": -1, "Info": "134 x Danh hiệu" }] },
+    {
+        "IDBox": 200192,
+        "BoxName": "Rương Vui Game Dân Gian - Chiến Thắng (100 vạn bạc)",
+        "Items": [
+            { "ItemID": 189, "Number": 2, "Rate": -1, "Info": "2 x Huyền Tinh thường (cấp 7)" },
+            { "ItemID": 20378, "Number": 5, "Rate": -1, "Info": "5 x Rương danh vọng (sơ cấp)" },
+            { "ItemID": 1054, "Number": 5, "Rate": -1, "Info": "5 x Thiệp lụa (cấp 1)" }
+        ]
+    },
+    {
+        "IDBox": 200193,
+        "BoxName": "Rương Vui Game Dân Gian - An Ủi (100 vạn bạc)",
+        "Items": [
+            { "ItemID": 188, "Number": 2, "Rate": -1, "Info": "2 x Huyền Tinh có vết nứt (cấp 6)" },
+            { "ItemID": 20378, "Number": 3, "Rate": -1, "Info": "3 x Rương danh vọng (sơ cấp)" },
+            { "ItemID": 1054, "Number": 1, "Rate": -1, "Info": "1 x Thiệp lụa (cấp 1)" }
+        ]
+    },
+    {
+        "IDBox": 200194,
+        "BoxName": "Rương Vui Game Dân Gian - Chiến Thắng (100KNB)",
+        "Items": [
+            { "ItemID": 190, "Number": 1, "Rate": -1, "Info": "1 x Huyền Tinh có tì vết (cấp 8)" },
+            { "ItemID": 20378, "Number": 20, "Rate": -1, "Info": "20 x Rương danh vọng (sơ cấp)" },
+            { "ItemID": 1055, "Number": 2, "Rate": -1, "Info": "2 x Thiệp bạc (cấp 2)" },
+            { "ItemID": 600, "Number": 2, "Rate": -1, "Info": "2 x Tu Luyện Đơn" }
+        ]
+    },
+    {
+        "IDBox": 200195,
+        "BoxName": "Rương Vui Game Dân Gian - An Ủi (100KNB)",
+        "Items": [
+            { "ItemID": 189, "Number": 2, "Rate": -1, "Info": "2 x Huyền Tinh thường (cấp 7)" },
+            { "ItemID": 20378, "Number": 8, "Rate": -1, "Info": "8 x Rương danh vọng (sơ cấp)" },
+            { "ItemID": 1055, "Number": 1, "Rate": -1, "Info": "1 x Thiệp bạc (cấp 2)" },
+            { "ItemID": 600, "Number": 1, "Rate": -1, "Info": "1 x Tu Luyện Đơn" }
+        ]
+    },
+    {
+        "IDBox": 200196,
+        "BoxName": "Rương Vui Game Dân Gian - Chiến Thắng (1000KNB)",
+        "Items": [
+            { "ItemID": 191, "Number": 1, "Rate": -1, "Info": "1 x Huyền Tinh vô hạ (cấp 9)" },
+            { "ItemID": 20485, "Number": 25, "Rate": -1, "Info": "25 x Rương danh vọng (trung cấp)" },
+            { "ItemID": 20345, "Number": 3, "Rate": -1, "Info": "3 x Mảnh Lôi đình ấn" },
+            { "ItemID": 20270, "Number": 1, "Rate": -1, "Info": "1 x Thiệp vàng (cấp 3)" }
+        ]
+    },
+    {
+        "IDBox": 200197,
+        "BoxName": "Rương Vui Game Dân Gian - An Ủi (1000KNB)",
+        "Items": [
+            { "ItemID": 190, "Number": 2, "Rate": -1, "Info": "2 x Huyền Tinh có tì vết (cấp 8)" },
+            { "ItemID": 20485, "Number": 10, "Rate": -1, "Info": "10 x Rương danh vọng (trung cấp)" },
+            { "ItemID": 20345, "Number": 1, "Rate": -1, "Info": "1 x Mảnh Lôi đình ấn" },
+            { "ItemID": 1055, "Number": 3, "Rate": -1, "Info": "3 x Thiệp bạc (cấp 2)" }
+        ]
+    },
+    {
+        "IDBox": 200198,
+        "BoxName": "Rương Vui Game Dân Gian - Tích Lũy 5",
+        "Items": [
+            { "ItemID": 191, "Number": 3, "Rate": -1, "Info": "3 x Huyền Tinh vô hạ (cấp 9)" },
+            { "ItemID": 20270, "Number": 5, "Rate": -1, "Info": "5 x Thiệp vàng (cấp 3)" },
+            { "ItemID": 25143, "Number": 30, "Rate": -1, "Info": "30 x Mảnh Phù Đồng Hành - Bích Huyết" }
+        ]
+    },
+    {
+        "IDBox": 200199,
+        "BoxName": "Rương Vui Game Dân Gian - Tích Lũy 10",
+        "Items": [
+            { "ItemID": 192, "Number": 2, "Rate": -1, "Info": "2 x Huyền Tinh hoàn mỹ (cấp 10)" },
+            { "ItemID": 20270, "Number": 10, "Rate": -1, "Info": "10 x Thiệp vàng (cấp 3)" },
+            { "ItemID": 25143, "Number": 60, "Rate": -1, "Info": "60 x Mảnh Phù Đồng Hành - Bích Huyết" }
+        ]
+    },
+    { "IDBox": 200200, "BoxName": "Danh hiệu Nhất Đẳng Vương Gia", "Items": [{ "ItemID": 8, "Number": 112, "Rate": -1, "Info": "112 x Danh hiệu" }] },
+    { "IDBox": 200201, "BoxName": "Danh hiệu Phú Nhị Đại Gia", "Items": [{ "ItemID": 8, "Number": 113, "Rate": -1, "Info": "113 x Danh hiệu" }] },
+    { "IDBox": 200202, "BoxName": "Danh hiệu Phú Hào Kiếm Vương", "Items": [{ "ItemID": 8, "Number": 114, "Rate": -1, "Info": "114 x Danh hiệu" }] },
+    {
+        "IDBox": 200203,
+        "BoxName": "Rương Tuần lộc Giáng Sinh cấp 5 - 15 ngày",
+        "Items": [{ "ItemID": 20191, "Rate": -1, "Time": 21601, "ExpiryDate": "2024-02-14 05:00:00", "Info": "1 x Túy Nguyệt [Trục Quân] - Tuần lộc Giáng Sinh (cấp 5)" }]
+    },
+    {
+        "IDBox": 200204,
+        "BoxName": "Rương Tuần lộc Giáng Sinh cấp 3 - 15 ngày",
+        "Items": [{ "ItemID": 20189, "Rate": -1, "Time": 21601, "ExpiryDate": "2024-02-14 05:00:00", "Info": "1 x Túy Nguyệt [Thanh Huy] - Tuần lộc Giáng Sinh (cấp 3)" }]
+    },
+    {
+        "IDBox": 200205,
+        "BoxName": "Rương điểm danh vọng",
+        "Items": [
+            { "ItemID": 15711, "Rate": 12, "Number": 1, "Info": "1 x Danh vọng Bạch Hổ Đường" },
+            { "ItemID": 15712, "Rate": 10, "Number": 1, "Info": "1 x Danh vọng Tiêu Dao Cốc" },
+            { "ItemID": 15713, "Rate": 10, "Number": 1, "Info": "1 x Danh vọng Chúc phúc" },
+            { "ItemID": 15714, "Rate": 10, "Number": 1, "Info": "1 x Danh vọng Tần Lăng - Quan phủ" },
+            { "ItemID": 15715, "Rate": 12, "Number": 1, "Info": "1 x Danh vọng Môn phái" },
+            { "ItemID": 15716, "Rate": 10, "Number": 1, "Info": "1 x Danh vọng Tranh đoạt Lãnh thổ" },
+            { "ItemID": 25194, "Rate": 12, "Number": 1, "Info": "1 x Danh vọng Nghĩa Quân" },
+            { "ItemID": 25195, "Rate": 12, "Number": 1, "Info": "1 x Danh vọng Ải Gia Tộc" },
+            { "ItemID": 25196, "Rate": 12, "Number": 1, "Info": "1 x Danh vọng Tống Kim - Phượng Tường" }
+        ]
+    },
+    {
+        "IDBox": 200214,
+        "BoxName": "Chân Long Chi Rương",
+        "Items": [
+            { "ItemID": 20373, "Rate": 20, "Info": "1 x Chân Long Chi Liên Bảo Rương" },
+            { "ItemID": 20374, "Rate": 20, "Info": "1 x Chân Long Thúc Thiết Giáp Bảo Rương" },
+            { "ItemID": 20375, "Rate": 20, "Info": "1 x Chân Long Yêu Đái Bảo Rương" },
+            { "ItemID": 20376, "Rate": 20, "Info": "1 x Chân Long Thúc Thiết Uyển Bảo Rương" },
+            { "ItemID": 20377, "Rate": 20, "Info": "1 x Chân Long Vân Bội Bảo Rương" }
+        ]
+    },
+    {
+        "IDBox": 200215,
+        "BoxName": "Rương mặt nạ Tần Thủy Hoàng - 90 ngày",
+        "Items": [{ "ItemID": 13082, "Rate": -1, "Time": 129601, "ExpiryDate": "2024-06-01 00:00:00", "Info": "1 x Mặt nạ: Tần Thủy Hoàng" }]
+    },
+    {
+        "IDBox": 200226,
+        "BoxName": "Rương điểm danh vọng (sự kiện)",
+        "Items": [
+            { "ItemID": 15711, "Rate": 13, "Number": 1, "Info": "1 x Danh vọng Bạch Hổ Đường" },
+            { "ItemID": 15712, "Rate": 10, "Number": 1, "Info": "1 x Danh vọng Tiêu Dao Cốc" },
+            { "ItemID": 15713, "Rate": 9, "Number": 1, "Info": "1 x Danh vọng Chúc phúc" },
+            { "ItemID": 15714, "Rate": 8, "Number": 1, "Info": "1 x Danh vọng Tần Lăng - Quan phủ" },
+            { "ItemID": 15715, "Rate": 13, "Number": 1, "Info": "1 x Danh vọng Môn phái" },
+            { "ItemID": 15716, "Rate": 8, "Number": 1, "Info": "1 x Danh vọng Tranh đoạt Lãnh thổ" },
+            { "ItemID": 25194, "Rate": 13, "Number": 1, "Info": "1 x Danh vọng Nghĩa Quân" },
+            { "ItemID": 25195, "Rate": 13, "Number": 1, "Info": "1 x Danh vọng Ải Gia Tộc" },
+            { "ItemID": 25196, "Rate": 13, "Number": 1, "Info": "1 x Danh vọng Tống Kim - Phượng Tường" }
+        ]
+    },
+    {
+        "IDBox": 200217,
+        "BoxName": "Rương mảnh trang bị đồng hành (sự kiện)",
+        "Items": [
+            { "ItemID": 25143, "Rate": 15.5, "Number": 1, "Info": "1 x Mảnh Phù Đồng Hành - Bích Huyết" },
+            { "ItemID": 25147, "Rate": 23, "Number": 1, "Info": "1 x Mảnh Y Phục Đồng Hành - Bích Huyết" },
+            { "ItemID": 25159, "Rate": 23, "Number": 1, "Info": "1 x Mảnh Hộ uyển Đồng Hành - Bích Huyết" },
+            { "ItemID": 25175, "Rate": 23, "Number": 1, "Info": "1 x Mảnh Nhẫn Đồng Hành - Bích Huyết" },
+            { "ItemID": 25179, "Rate": 15.5, "Number": 1, "Info": "1 x Mảnh Vũ khí đồng hành - Bích Huyết" }
+        ]
+    },
+    {
+        "IDBox": 200218,
+        "BoxName": "Phần thưởng Tích Lũy Chuyển Xu - 200 KNB",
+        "Items": [
+            { "ItemID": 190, "Rate": -1, "Number": 1, "Info": "1 x Huyền Tinh có tì vết (cấp 8)" },
+            { "ItemID": 9, "Rate": -1, "Number": 500, "Info": "500 x Hoạt lực" },
+            { "ItemID": 10, "Rate": -1, "Number": 500, "Info": "500 x Tinh lực" },
+            { "ItemID": 1, "Rate": -1, "Number": 500000, "Info": "500000 x Bạc khóa" }
+        ]
+    },
+    {
+        "IDBox": 200219,
+        "BoxName": "Phần thưởng Tích Lũy Chuyển Xu - 1000 KNB",
+        "Items": [
+            { "ItemID": 190, "Rate": -1, "Number": 2, "Info": "2 x Huyền Tinh có tì vết (cấp 8)" },
+            { "ItemID": 20378, "Rate": -1, "Number": 15, "Info": "15 x Rương danh vọng (sơ cấp)" },
+            { "ItemID": 1, "Rate": -1, "Number": 1000000, "Info": "1000000 x Bạc khóa" }
+        ]
+    },
+    {
+        "IDBox": 200220,
+        "BoxName": "Phần thưởng Tích Lũy Chuyển Xu - 5000 KNB",
+        "Items": [
+            { "ItemID": 191, "Rate": -1, "Number": 1, "Info": "1 x Huyền Tinh vô hạ (cấp 9)" },
+            { "ItemID": 9, "Rate": -1, "Number": 4000, "Info": "4000 x Hoạt lực" },
+            { "ItemID": 10, "Rate": -1, "Number": 4000, "Info": "4000 x Tinh lực" },
+            { "ItemID": 20378, "Rate": -1, "Number": 35, "Info": "35 x Rương danh vọng (sơ cấp)" }
+        ]
+    },
+    {
+        "IDBox": 200221,
+        "BoxName": "Phần thưởng Tích Lũy Chuyển Xu - 10000 KNB",
+        "Items": [
+            { "ItemID": 819, "Rate": -1, "Number": 1, "Info": "1 x Tần Lăng-Hòa Thị Bích" },
+            { "ItemID": 20270, "Rate": -1, "Number": 2, "Info": "2 x Thiệp vàng (cấp 3)" },
+            { "ItemID": 20379, "Rate": -1, "Number": 30, "Info": "30 x Rương mảnh trang bị đồng hành (trung cấp)" }
+        ]
+    },
+    {
+        "IDBox": 200222,
+        "BoxName": "Phần thưởng Tích Lũy Chuyển Xu - 200 KNB",
+        "Items": [
+            { "ItemID": 188, "Rate": -1, "Number": 2, "Info": "2 x Huyền Tinh có vết nứt (cấp 6)" },
+            { "ItemID": 9, "Rate": -1, "Number": 1000, "Info": "1000 x Hoạt lực" },
+            { "ItemID": 10, "Rate": -1, "Number": 1000, "Info": "1000 x Tinh lực" },
+            { "ItemID": 1, "Rate": -1, "Number": 300000, "Info": "300000 x Bạc khóa" }
+        ]
+    },
+    {
+        "IDBox": 200223,
+        "BoxName": "Phần thưởng Tích Lũy Chuyển Xu - 1000 KNB",
+        "Items": [
+            { "ItemID": 189, "Rate": -1, "Number": 2, "Info": "2 x Huyền Tinh thường (cấp 7)" },
+            { "ItemID": 20378, "Rate": -1, "Number": 15, "Info": "15 x Rương danh vọng (sơ cấp)" },
+            { "ItemID": 1, "Rate": -1, "Number": 1200000, "Info": "1200000 x Bạc khóa" }
+        ]
+    },
+    {
+        "IDBox": 200224,
+        "BoxName": "Phần thưởng Tích Lũy Chuyển Xu - 5000 KNB",
+        "Items": [
+            { "ItemID": 190, "Rate": -1, "Number": 2, "Info": "2 x Huyền Tinh có tì vết (cấp 8)" },
+            { "ItemID": 9, "Rate": -1, "Number": 3000, "Info": "3000 x Hoạt lực" },
+            { "ItemID": 10, "Rate": -1, "Number": 3000, "Info": "3000 x Tinh lực" },
+            { "ItemID": 20378, "Rate": -1, "Number": 35, "Info": "35 x Rương danh vọng (sơ cấp)" }
+        ]
+    },
+    {
+        "IDBox": 200225,
+        "BoxName": "Phần thưởng Tích Lũy Chuyển Xu - 10000 KNB",
+        "Items": [
+            { "ItemID": 506, "Rate": -1, "Number": 2000, "Info": "2000 x Ngũ Hành Hồn Thạch" },
+            { "ItemID": 20270, "Rate": -1, "Number": 1, "Info": "1 x Thiệp vàng (cấp 3)" },
+            { "ItemID": 20379, "Rate": -1, "Number": 30, "Info": "30 x Rương mảnh trang bị đồng hành (trung cấp)" },
+            { "ItemID": 1, "Rate": -1, "Number": 2000000, "Info": "2000000 x Bạc khóa" }
+        ]
+    },
+    {
+        "IDBox": 200227,
+        "BoxName": "Chữ TẾT",
+        "Items": [
+            { "ItemID": 20391, "Rate": -1, "Number": 1, "Info": "1 x Túi huyền tinh ngẫu nhiên [Sơ]" },
+            { "ItemID": 20394, "Rate": -1, "Number": 3, "Info": "3 x Phần quà Danh vọng (Câu Đối Mừng Xuân) [1]" },
+            { "ItemID": 20397, "Rate": 20, "Number": 1, "Info": "1 x Phần quà Vật phẩm (Câu Đối Mừng Xuân) [Sơ]" },
+            { "ItemID": -1, "Rate": 80, "Info": "1 x Không thưởng" }
+        ]
+    },
+    {
+        "IDBox": 200228,
+        "BoxName": "Câu đối Tết [Đặc biệt 1]",
+        "Items": [
+            { "ItemID": 20392, "Rate": -1, "Number": 1, "Info": "1 x Phần quà Huyền tinh (Câu Đối Mừng Xuân) [Trung]" },
+            { "ItemID": 20395, "Rate": -1, "Number": 3, "Info": "3 x Phần quà Danh vọng (Câu Đối Mừng Xuân) [2]" },
+            { "ItemID": 20396, "Rate": 50, "Number": 1, "Info": "1 x Phần quà Tinh hoạt lực (Câu Đối Mừng Xuân)" },
+            { "ItemID": 20398, "Rate": 50, "Number": 1, "Info": "1 x Phần quà Vật phẩm (Câu Đối Mừng Xuân) [Trung]" }
+        ]
+    },
+    {
+        "IDBox": 200229,
+        "BoxName": "Câu đối Tết [Đặc biệt 2]",
+        "Items": [
+            { "ItemID": 20393, "Rate": -1, "Number": 1, "Info": "1 x Phần quà Huyền tinh (Câu Đối Mừng Xuân) [Cao]" },
+            { "ItemID": 20395, "Rate": -1, "Number": 5, "Info": "5 x Phần quà Danh vọng (Câu Đối Mừng Xuân) [2]" },
+            { "ItemID": 20396, "Rate": 75, "Number": 1, "Info": "1 x Phần quà Tinh hoạt lực (Câu Đối Mừng Xuân)" },
+            { "ItemID": 20399, "Rate": -1, "Number": 1, "Info": "1 x Phần quà Vật phẩm (Câu Đối Mừng Xuân) [Cao]" },
+            { "ItemID": -1, "Rate": 25, "Info": "1 x Không thưởng" }
+        ]
+    },
+    {
+        "IDBox": 200230,
+        "BoxName": "Túi Huyền tinh (ngẫu nhiên)",
+        "Items": [
+            { "ItemID": 189, "Rate": 70, "Number": 1, "Info": "1 x Huyền Tinh thường (cấp 7)" },
+            { "ItemID": 190, "Rate": 26, "Number": 1, "Info": "1 x Huyền Tinh có tì vết (cấp 8)" },
+            { "ItemID": 190, "Rate": 4, "Number": 1, "Info": "1 x Huyền Tinh có tì vết (cấp 8)" }
+        ]
+    },
+    { "IDBox": 200231, "BoxName": "Phần quà Huyền tinh (Câu Đối Mừng Xuân) [Trung]", "Items": [{ "ItemID": 190, "Rate": -1, "Number": 1, "Info": "1 x Huyền Tinh có tì vết (cấp 8)" }] },
+    {
+        "IDBox": 200232,
+        "BoxName": "Phần quà Huyền tinh (Câu Đối Mừng Xuân) [Cao]",
+        "Items": [
+            { "ItemID": 190, "Rate": 90, "Number": 1, "Info": "1 x Huyền Tinh có tì vết (cấp 8)" },
+            { "ItemID": 191, "Rate": 10, "Number": 1, "Info": "1 x Huyền Tinh vô hạ (cấp 9)" }
+        ]
+    },
+    {
+        "IDBox": 200233,
+        "BoxName": "Phần quà Danh vọng (Câu Đối Mừng Xuân) [1]",
+        "Items": [
+            { "ItemID": 15711, "Rate": 20, "Number": 1, "Info": "1 x Danh vọng Bạch Hổ Đường" },
+            { "ItemID": 15715, "Rate": 20, "Number": 1, "Info": "1 x Danh vọng Môn phái" },
+            { "ItemID": 25194, "Rate": 20, "Number": 1, "Info": "1 x Danh vọng Nghĩa Quân" },
+            { "ItemID": 25195, "Rate": 20, "Number": 1, "Info": "1 x Danh vọng Ải Gia Tộc" },
+            { "ItemID": 25196, "Rate": 20, "Number": 1, "Info": "1 x Danh vọng Tống Kim - Phượng Tường" }
+        ]
+    },
+    {
+        "IDBox": 200234,
+        "BoxName": "Phần quà Danh vọng (Câu Đối Mừng Xuân) [2]",
+        "Items": [
+            { "ItemID": 15712, "Rate": 45, "Number": 1, "Info": "1 x Danh vọng Tiêu Dao Cốc" },
+            { "ItemID": 15713, "Rate": 25, "Number": 1, "Info": "1 x Danh vọng Chúc phúc" },
+            { "ItemID": 15714, "Rate": 15, "Number": 1, "Info": "1 x Danh vọng Tần Lăng - Quan phủ" },
+            { "ItemID": 15716, "Rate": 15, "Number": 1, "Info": "1 x Danh vọng Tranh đoạt Lãnh thổ" }
+        ]
+    },
+    {
+        "IDBox": 200235,
+        "BoxName": "Phần quà Tinh hoạt lực (Câu Đối Mừng Xuân)",
+        "Items": [
+            { "ItemID": 9, "Rate": -1, "Number": 500, "Info": "500 x Hoạt lực" },
+            { "ItemID": 10, "Rate": -1, "Number": 500, "Info": "500 x Tinh lực" }
+        ]
+    },
+    {
+        "IDBox": 200236,
+        "BoxName": "Phần quà Vật phẩm (Câu Đối Mừng Xuân) [Sơ]",
+        "Items": [
+            { "ItemID": 1054, "Rate": -1, "Number": 1, "Info": "1 x Thiệp lụa (cấp 1)" },
+            { "ItemID": 1057, "Rate": -1, "Number": 1, "Info": "1 x Sách kinh nghiệm đồng hành" }
+        ]
+    },
+    {
+        "IDBox": 200237,
+        "BoxName": "Phần quà Vật phẩm (Câu Đối Mừng Xuân) [Trung]",
+        "Items": [
+            { "ItemID": 1054, "Rate": -1, "Number": 3, "Info": "3 x Thiệp lụa (cấp 1)" },
+            { "ItemID": 1057, "Rate": -1, "Number": 3, "Info": "3 x Sách kinh nghiệm đồng hành" }
+        ]
+    },
+    {
+        "IDBox": 200238,
+        "BoxName": "Phần quà Vật phẩm (Câu Đối Mừng Xuân) [Cao]",
+        "Items": [
+            { "ItemID": 1054, "Rate": 70, "Number": 5, "Info": "5 x Thiệp lụa (cấp 1)" },
+            { "ItemID": 1055, "Rate": 20, "Number": 1, "Info": "1 x Thiệp bạc (cấp 2)" },
+            { "ItemID": 20270, "Rate": 8, "Number": 1, "Info": "1 x Thiệp vàng (cấp 3)" },
+            { "ItemID": 1058, "Rate": 2, "Number": 1, "Info": "1 x Sách kinh nghiệm đồng hành (Truyền thuyết)" }
+        ]
+    },
+    {
+        "IDBox": 200239,
+        "BoxName": "Chữ TẾT",
+        "Items": [
+            { "ItemID": 20403, "Rate": -1, "Number": 1, "Info": "1 x Phần quà Huyền tinh (Câu Đối Mừng Xuân) [Sơ]" },
+            { "ItemID": 20394, "Rate": -1, "Number": 3, "Info": "3 x Phần quà Danh vọng (Câu Đối Mừng Xuân) [1]" },
+            { "ItemID": 20397, "Rate": 20, "Number": 1, "Info": "1 x Phần quà Vật phẩm (Câu Đối Mừng Xuân) [Sơ]" },
+            { "ItemID": -1, "Rate": 80, "Info": "1 x Không thưởng" }
+        ]
+    },
+    {
+        "IDBox": 200240,
+        "BoxName": "Câu đối Tết [Đặc biệt 1]",
+        "Items": [
+            { "ItemID": 20404, "Rate": -1, "Number": 1, "Info": "1 x Phần quà Huyền tinh (Câu Đối Mừng Xuân) [Trung]" },
+            { "ItemID": 20395, "Rate": -1, "Number": 3, "Info": "3 x Phần quà Danh vọng (Câu Đối Mừng Xuân) [2]" },
+            { "ItemID": 20396, "Rate": 50, "Number": 1, "Info": "1 x Phần quà Tinh hoạt lực (Câu Đối Mừng Xuân)" },
+            { "ItemID": 20398, "Rate": 50, "Number": 1, "Info": "1 x Phần quà Vật phẩm (Câu Đối Mừng Xuân) [Trung]" }
+        ]
+    },
+    {
+        "IDBox": 200241,
+        "BoxName": "Câu đối Tết [Đặc biệt 2]",
+        "Items": [
+            { "ItemID": 20405, "Rate": -1, "Number": 1, "Info": "1 x Phần quà Huyền tinh (Câu Đối Mừng Xuân) [Cao]" },
+            { "ItemID": 20395, "Rate": -1, "Number": 5, "Info": "5 x Phần quà Danh vọng (Câu Đối Mừng Xuân) [2]" },
+            { "ItemID": 20396, "Rate": 75, "Number": 1, "Info": "1 x Phần quà Tinh hoạt lực (Câu Đối Mừng Xuân)" },
+            { "ItemID": 20399, "Rate": -1, "Number": 1, "Info": "1 x Phần quà Vật phẩm (Câu Đối Mừng Xuân) [Cao]" },
+            { "ItemID": -1, "Rate": 25, "Info": "1 x Không thưởng" }
+        ]
+    },
+    {
+        "IDBox": 200242,
+        "BoxName": "Phần quà Huyền tinh (Câu Đối Mừng Xuân) [Sơ]",
+        "Items": [
+            { "ItemID": 187, "Rate": 45, "Number": 1, "Info": "1 x Huyền Tinh Cấp 5" },
+            { "ItemID": 188, "Rate": 36, "Number": 1, "Info": "1 x Huyền Tinh có vết nứt (cấp 6)" },
+            { "ItemID": 189, "Rate": 15, "Number": 1, "Info": "1 x Huyền Tinh thường (cấp 7)" },
+            { "ItemID": 190, "Rate": 4, "Number": 1, "Info": "1 x Huyền Tinh có tì vết (cấp 8)" }
+        ]
+    },
+    { "IDBox": 200243, "BoxName": "Phần quà Huyền tinh (Câu Đối Mừng Xuân) [Trung]", "Items": [{ "ItemID": 189, "Rate": -1, "Number": 2, "Info": "2 x Huyền Tinh thường (cấp 7)" }] },
+    {
+        "IDBox": 200244,
+        "BoxName": "Phần quà Huyền tinh (Câu Đối Mừng Xuân) [Cao]",
+        "Items": [
+            { "ItemID": 189, "Rate": 60, "Number": 2, "Info": "2 x Huyền Tinh thường (cấp 7)" },
+            { "ItemID": 190, "Rate": 36, "Number": 1, "Info": "1 x Huyền Tinh có tì vết (cấp 8)" },
+            { "ItemID": 191, "Rate": 4, "Number": 1, "Info": "1 x Huyền Tinh vô hạ (cấp 9)" }
+        ]
+    },
+    {
+        "IDBox": 200245,
+        "BoxName": "Rương Đua thú - Chiến thắng (100v bạc khóa)",
+        "Items": [
+            { "ItemID": 190, "Number": 1, "Rate": -1, "Info": "1 x Huyền Tinh có tì vết (cấp 8)" },
+            { "ItemID": 20051, "Number": 15, "Rate": -1, "Info": "15 x Rương Mảnh trang bị đồng hành" },
+            { "ItemID": 1054, "Number": 1, "Rate": -1, "Info": "1 x Thiệp lụa (cấp 1)" },
+            { "ItemID": 600, "Number": 1, "Rate": -1, "Info": "1 x Tu Luyện Đơn" }
+        ]
+    },
+    {
+        "IDBox": 200246,
+        "BoxName": "Rương Đua thú - An ủi (100v bạc khóa)",
+        "Items": [
+            { "ItemID": 189, "Number": 1, "Rate": -1, "Info": "1 x Huyền Tinh thường (cấp 7)" },
+            { "ItemID": 20051, "Number": 5, "Rate": -1, "Info": "5 x Rương Mảnh trang bị đồng hành" },
+            { "ItemID": 600, "Number": 1, "Rate": -1, "Info": "1 x Tu Luyện Đơn" }
+        ]
+    },
+    {
+        "IDBox": 200247,
+        "BoxName": "Rương Đua thú - Chiến thắng (150 KNB)",
+        "Items": [
+            { "ItemID": 190, "Number": 2, "Rate": -1, "Info": "2 x Huyền Tinh có tì vết (cấp 8)" },
+            { "ItemID": 20344, "Number": 10, "Rate": -1, "Info": "10 x Cờ chiến công" },
+            { "ItemID": 1026, "Number": 4, "Rate": -1, "Info": "4 x Chiến Thư-Mật Thất Du Long" },
+            { "ItemID": 11, "Number": 1000, "Rate": -1, "Info": "1000 x Tinh hoạt lực" }
+        ]
+    },
+    {
+        "IDBox": 200248,
+        "BoxName": "Rương Đua thú - An ủi (150 KNB)",
+        "Items": [
+            { "ItemID": 189, "Number": 2, "Rate": -1, "Info": "2 x Huyền Tinh thường (cấp 7)" },
+            { "ItemID": 20344, "Number": 3, "Rate": -1, "Info": "3 x Cờ chiến công" },
+            { "ItemID": 11, "Number": 500, "Rate": -1, "Info": "500 x Tinh hoạt lực" },
+            { "ItemID": 1057, "Number": 3, "Rate": -1, "Info": "3 x Sách kinh nghiệm đồng hành" }
+        ]
+    },
+    {
+        "IDBox": 200249,
+        "BoxName": "Rương Đua thú - Chiến thắng (1000 KNB)",
+        "Items": [
+            { "ItemID": 191, "Number": 3, "Rate": -1, "Info": "3 x Huyền Tinh vô hạ (cấp 9)" },
+            { "ItemID": 20344, "Number": 30, "Rate": -1, "Info": "30 x Cờ chiến công" },
+            { "ItemID": 1026, "Number": 15, "Rate": -1, "Info": "15 x Chiến Thư-Mật Thất Du Long" },
+            { "ItemID": 11, "Number": 3000, "Rate": -1, "Info": "3000 x Tinh hoạt lực" }
+        ]
+    },
+    {
+        "IDBox": 200250,
+        "BoxName": "Rương Đua thú - An ủi (1000 KNB)",
+        "Items": [
+            { "ItemID": 191, "Number": 1, "Rate": -1, "Info": "1 x Huyền Tinh vô hạ (cấp 9)" },
+            { "ItemID": 20344, "Number": 10, "Rate": -1, "Info": "10 x Cờ chiến công" },
+            { "ItemID": 1026, "Number": 5, "Rate": -1, "Info": "5 x Chiến Thư-Mật Thất Du Long" },
+            { "ItemID": 11, "Number": 1000, "Rate": -1, "Info": "1000 x Tinh hoạt lực" }
+        ]
+    },
+    {
+        "IDBox": 200251,
+        "BoxName": "Rương Đua thú - Thần cơ Diệu toán [5]",
+        "Items": [
+            { "ItemID": 192, "Number": 1, "Rate": -1, "Info": "1 x Huyền Tinh hoàn mỹ (cấp 10)" },
+            { "ItemID": 506, "Number": 3000, "Rate": -1, "Info": "3000 x Ngũ Hành Hồn Thạch" },
+            { "ItemID": 20344, "Number": 30, "Rate": -1, "Info": "30 x Cờ chiến công" },
+            { "ItemID": 20345, "Number": 30, "Rate": -1, "Info": "30 x Mảnh Lôi đình ấn" },
+            { "ItemID": 11, "Number": 10000, "Rate": -1, "Info": "10000 x Tinh hoạt lực" }
+        ]
+    },
+    {
+        "IDBox": 200252,
+        "BoxName": "Rương Đua thú - Thần cơ Diệu toán [10]",
+        "Items": [
+            { "ItemID": 192, "Number": 2, "Rate": -1, "Info": "2 x Huyền Tinh hoàn mỹ (cấp 10)" },
+            { "ItemID": 506, "Number": 6000, "Rate": -1, "Info": "6000 x Ngũ Hành Hồn Thạch" },
+            { "ItemID": 20344, "Number": 80, "Rate": -1, "Info": "80 x Cờ chiến công" },
+            { "ItemID": 20345, "Number": 80, "Rate": -1, "Info": "80 x Mảnh Lôi đình ấn" },
+            { "ItemID": 11, "Number": 20000, "Rate": -1, "Info": "20000 x Tinh hoạt lực" }
+        ]
+    },
+    {
+        "IDBox": 200253,
+        "BoxName": "Rương Đua thú - Thần cơ Diệu toán [15]",
+        "Items": [
+            { "ItemID": 20571, "Number": 1, "Rate": -1, "Info": "1 x Rương Tiểu Du Long Danh Vọng Lệnh (lựa chọn)" },
+            { "ItemID": 506, "Number": 15000, "Rate": -1, "Info": "15000 x Ngũ Hành Hồn Thạch" },
+            { "ItemID": 20344, "Number": 120, "Rate": -1, "Info": "120 x Cờ chiến công" },
+            { "ItemID": 20345, "Number": 120, "Rate": -1, "Info": "120 x Mảnh Lôi đình ấn" },
+            { "ItemID": 11, "Number": 30000, "Rate": -1, "Info": "30000 x Tinh hoạt lực" }
+        ]
+    },
+    {
+        "IDBox": 200254,
+        "BoxName": "Rương Đua thú - Thần cơ Diệu toán [5]",
+        "Hint": "S21 + S22",
+        "Items": [
+            { "ItemID": 191, "Number": 2, "Rate": -1, "Info": "2 x Huyền Tinh vô hạ (cấp 9)" },
+            { "ItemID": 506, "Number": 3000, "Rate": -1, "Info": "3000 x Ngũ Hành Hồn Thạch" },
+            { "ItemID": 20344, "Number": 30, "Rate": -1, "Info": "30 x Cờ chiến công" },
+            { "ItemID": 20345, "Number": 30, "Rate": -1, "Info": "30 x Mảnh Lôi đình ấn" },
+            { "ItemID": 11, "Number": 10000, "Rate": -1, "Info": "10000 x Tinh hoạt lực" }
+        ]
+    },
+    {
+        "IDBox": 200255,
+        "BoxName": "Rương Đua thú - Thần cơ Diệu toán [10]",
+        "Hint": "S21 + S22",
+        "Items": [
+            { "ItemID": 192, "Number": 1, "Rate": -1, "Info": "1 x Huyền Tinh hoàn mỹ (cấp 10)" },
+            { "ItemID": 506, "Number": 6000, "Rate": -1, "Info": "6000 x Ngũ Hành Hồn Thạch" },
+            { "ItemID": 20344, "Number": 50, "Rate": -1, "Info": "50 x Cờ chiến công" },
+            { "ItemID": 20345, "Number": 50, "Rate": -1, "Info": "50 x Mảnh Lôi đình ấn" },
+            { "ItemID": 11, "Number": 20000, "Rate": -1, "Info": "20000 x Tinh hoạt lực" }
+        ]
+    },
+    {
+        "IDBox": 200256,
+        "BoxName": "Rương Đua thú - Thần cơ Diệu toán [15]",
+        "Hint": "S21 + S22",
+        "Items": [
+            { "ItemID": 193, "Number": 1, "Rate": -1, "Info": "1 x Huyền Tinh óng ánh (cấp 11)" },
+            { "ItemID": 506, "Number": 15000, "Rate": -1, "Info": "15000 x Ngũ Hành Hồn Thạch" },
+            { "ItemID": 20344, "Number": 100, "Rate": -1, "Info": "100 x Cờ chiến công" },
+            { "ItemID": 20345, "Number": 100, "Rate": -1, "Info": "100 x Mảnh Lôi đình ấn" },
+            { "ItemID": 11, "Number": 30000, "Rate": -1, "Info": "30000 x Tinh hoạt lực" }
+        ]
+    },
+    {
+        "IDBox": 200257,
+        "BoxName": "Rương Anh hùng trở về +12 - Thiếu Lâm",
+        "Items": [
+            { "ItemID": 14052, "Rate": -1, "Forge": 12, "IsPreview": true, "Time": 43291, "Series": -1, "Info": "1 x Yển Nguyệt Đao" },
+            { "ItemID": 14053, "Rate": -1, "Forge": 12, "IsPreview": true, "Time": 43291, "Series": -1, "Info": "1 x Kim Cô Bổng" },
+            { "ItemID": 14054, "Rate": -1, "Sex": "0", "Forge": 12, "IsPreview": true, "Time": 43291, "Series": -1, "Info": "1 x Yểm Nhật Khôi" },
+            { "ItemID": 14055, "Rate": -1, "Sex": "1", "Forge": 12, "IsPreview": true, "Time": 43291, "Series": -1, "Info": "1 x Song Phượng Triều Thiên Quan" },
+            { "ItemID": 14056, "Rate": -1, "Sex": "0", "Forge": 12, "IsPreview": true, "Time": 43291, "Series": -1, "Info": "1 x Kính Hoa Khải" },
+            { "ItemID": 14057, "Rate": -1, "Sex": "1", "Forge": 12, "IsPreview": true, "Time": 43291, "Series": -1, "Info": "1 x Tích Lịch Kim Phượng Giáp" },
+            { "ItemID": 14058, "Rate": -1, "Sex": "0", "Forge": 12, "IsPreview": true, "Time": 43291, "Series": -1, "Info": "1 x Võ Hầu Thúc Đái" },
+            { "ItemID": 14059, "Rate": -1, "Sex": "1", "Forge": 12, "IsPreview": true, "Time": 43291, "Series": -1, "Info": "1 x Việt Nữ Ngọc Đái" },
+            { "ItemID": 14060, "Rate": -1, "Sex": "0", "Forge": 12, "IsPreview": true, "Time": 43291, "Series": -1, "Info": "1 x Thiên Tàm Hộ Uyển" },
+            { "ItemID": 14061, "Rate": -1, "Sex": "1", "Forge": 12, "IsPreview": true, "Time": 43291, "Series": -1, "Info": "1 x Long Phượng Huyết Ngọc Trạc" },
+            { "ItemID": 14062, "Rate": -1, "Sex": "0", "Forge": 12, "IsPreview": true, "Time": 43291, "Series": -1, "Info": "1 x Thiên Tàm Ngoa" },
+            { "ItemID": 14063, "Rate": -1, "Sex": "1", "Forge": 12, "IsPreview": true, "Time": 43291, "Series": -1, "Info": "1 x Phi Phượng Ngoa" },
+            { "ItemID": 14064, "Rate": -1, "Forge": 12, "IsPreview": true, "Time": 43291, "Series": -1, "Info": "1 x Triều Lộ Liên" },
+            { "ItemID": 14065, "Rate": -1, "Forge": 12, "IsPreview": true, "Time": 43291, "Series": -1, "Info": "1 x Ứng Long Giới" },
+            { "ItemID": 14066, "Rate": -1, "Sex": "0", "Forge": 12, "IsPreview": true, "Time": 43291, "Series": -1, "Info": "1 x Bắc Minh Bội" },
+            { "ItemID": 14067, "Rate": -1, "Sex": "1", "Forge": 12, "IsPreview": true, "Time": 43291, "Series": -1, "Info": "1 x Long Diên Hương Nang" },
+            { "ItemID": 14068, "Rate": -1, "Forge": 12, "IsPreview": true, "Time": 43291, "Series": -1, "Info": "1 x Tiên Duyên Phù" }
+        ]
+    },
+    {
+        "IDBox": 200258,
+        "BoxName": "Rương Anh hùng trở về +14 - Thiếu Lâm",
+        "Items": [
+            { "ItemID": 14052, "Rate": -1, "Forge": 14, "IsPreview": true, "Time": 43291, "Series": -1, "Info": "1 x Yển Nguyệt Đao" },
+            { "ItemID": 14053, "Rate": -1, "Forge": 14, "IsPreview": true, "Time": 43291, "Series": -1, "Info": "1 x Kim Cô Bổng" },
+            { "ItemID": 14054, "Rate": -1, "Sex": "0", "Forge": 14, "IsPreview": true, "Time": 43291, "Series": -1, "Info": "1 x Yểm Nhật Khôi" },
+            { "ItemID": 14055, "Rate": -1, "Sex": "1", "Forge": 14, "IsPreview": true, "Time": 43291, "Series": -1, "Info": "1 x Song Phượng Triều Thiên Quan" },
+            { "ItemID": 14056, "Rate": -1, "Sex": "0", "Forge": 14, "IsPreview": true, "Time": 43291, "Series": -1, "Info": "1 x Kính Hoa Khải" },
+            { "ItemID": 14057, "Rate": -1, "Sex": "1", "Forge": 14, "IsPreview": true, "Time": 43291, "Series": -1, "Info": "1 x Tích Lịch Kim Phượng Giáp" },
+            { "ItemID": 14058, "Rate": -1, "Sex": "0", "Forge": 14, "IsPreview": true, "Time": 43291, "Series": -1, "Info": "1 x Võ Hầu Thúc Đái" },
+            { "ItemID": 14059, "Rate": -1, "Sex": "1", "Forge": 14, "IsPreview": true, "Time": 43291, "Series": -1, "Info": "1 x Việt Nữ Ngọc Đái" },
+            { "ItemID": 14060, "Rate": -1, "Sex": "0", "Forge": 14, "IsPreview": true, "Time": 43291, "Series": -1, "Info": "1 x Thiên Tàm Hộ Uyển" },
+            { "ItemID": 14061, "Rate": -1, "Sex": "1", "Forge": 14, "IsPreview": true, "Time": 43291, "Series": -1, "Info": "1 x Long Phượng Huyết Ngọc Trạc" },
+            { "ItemID": 14062, "Rate": -1, "Sex": "0", "Forge": 14, "IsPreview": true, "Time": 43291, "Series": -1, "Info": "1 x Thiên Tàm Ngoa" },
+            { "ItemID": 14063, "Rate": -1, "Sex": "1", "Forge": 14, "IsPreview": true, "Time": 43291, "Series": -1, "Info": "1 x Phi Phượng Ngoa" },
+            { "ItemID": 14064, "Rate": -1, "Forge": 14, "IsPreview": true, "Time": 43291, "Series": -1, "Info": "1 x Triều Lộ Liên" },
+            { "ItemID": 14065, "Rate": -1, "Forge": 14, "IsPreview": true, "Time": 43291, "Series": -1, "Info": "1 x Ứng Long Giới" },
+            { "ItemID": 14066, "Rate": -1, "Sex": "0", "Forge": 14, "IsPreview": true, "Time": 43291, "Series": -1, "Info": "1 x Bắc Minh Bội" },
+            { "ItemID": 14067, "Rate": -1, "Sex": "1", "Forge": 14, "IsPreview": true, "Time": 43291, "Series": -1, "Info": "1 x Long Diên Hương Nang" },
+            { "ItemID": 14068, "Rate": -1, "Forge": 14, "IsPreview": true, "Time": 43291, "Series": -1, "Info": "1 x Tiên Duyên Phù" }
+        ]
+    },
+    {
+        "IDBox": 200259,
+        "BoxName": "Rương Anh hùng trở về +12 - Thiên Vương",
+        "Items": [
+            { "ItemID": 14069, "Rate": -1, "Forge": 12, "IsPreview": true, "Time": 43291, "Series": -1, "Info": "1 x Phá Thiên Kích" },
+            { "ItemID": 14070, "Rate": -1, "Forge": 12, "IsPreview": true, "Time": 43291, "Series": -1, "Info": "1 x Phá Thiên Chùy" },
+            { "ItemID": 14054, "Rate": -1, "Sex": "0", "Forge": 12, "IsPreview": true, "Time": 43291, "Series": -1, "Info": "1 x Yểm Nhật Khôi" },
+            { "ItemID": 14055, "Rate": -1, "Sex": "1", "Forge": 12, "IsPreview": true, "Time": 43291, "Series": -1, "Info": "1 x Song Phượng Triều Thiên Quan" },
+            { "ItemID": 14056, "Rate": -1, "Sex": "0", "Forge": 12, "IsPreview": true, "Time": 43291, "Series": -1, "Info": "1 x Kính Hoa Khải" },
+            { "ItemID": 14057, "Rate": -1, "Sex": "1", "Forge": 12, "IsPreview": true, "Time": 43291, "Series": -1, "Info": "1 x Tích Lịch Kim Phượng Giáp" },
+            { "ItemID": 14058, "Rate": -1, "Sex": "0", "Forge": 12, "IsPreview": true, "Time": 43291, "Series": -1, "Info": "1 x Võ Hầu Thúc Đái" },
+            { "ItemID": 14059, "Rate": -1, "Sex": "1", "Forge": 12, "IsPreview": true, "Time": 43291, "Series": -1, "Info": "1 x Việt Nữ Ngọc Đái" },
+            { "ItemID": 14060, "Rate": -1, "Sex": "0", "Forge": 12, "IsPreview": true, "Time": 43291, "Series": -1, "Info": "1 x Thiên Tàm Hộ Uyển" },
+            { "ItemID": 14061, "Rate": -1, "Sex": "1", "Forge": 12, "IsPreview": true, "Time": 43291, "Series": -1, "Info": "1 x Long Phượng Huyết Ngọc Trạc" },
+            { "ItemID": 14062, "Rate": -1, "Sex": "0", "Forge": 12, "IsPreview": true, "Time": 43291, "Series": -1, "Info": "1 x Thiên Tàm Ngoa" },
+            { "ItemID": 14063, "Rate": -1, "Sex": "1", "Forge": 12, "IsPreview": true, "Time": 43291, "Series": -1, "Info": "1 x Phi Phượng Ngoa" },
+            { "ItemID": 14064, "Rate": -1, "Forge": 12, "IsPreview": true, "Time": 43291, "Series": -1, "Info": "1 x Triều Lộ Liên" },
+            { "ItemID": 14065, "Rate": -1, "Forge": 12, "IsPreview": true, "Time": 43291, "Series": -1, "Info": "1 x Ứng Long Giới" },
+            { "ItemID": 14066, "Rate": -1, "Sex": "0", "Forge": 12, "IsPreview": true, "Time": 43291, "Series": -1, "Info": "1 x Bắc Minh Bội" },
+            { "ItemID": 14067, "Rate": -1, "Sex": "1", "Forge": 12, "IsPreview": true, "Time": 43291, "Series": -1, "Info": "1 x Long Diên Hương Nang" },
+            { "ItemID": 14068, "Rate": -1, "Forge": 12, "IsPreview": true, "Time": 43291, "Series": -1, "Info": "1 x Tiên Duyên Phù" }
+        ]
+    },
+    {
+        "IDBox": 200260,
+        "BoxName": "Rương Anh hùng trở về +14 - Thiên Vương",
+        "Items": [
+            { "ItemID": 14069, "Rate": -1, "Forge": 14, "IsPreview": true, "Time": 43291, "Series": -1, "Info": "1 x Phá Thiên Kích" },
+            { "ItemID": 14070, "Rate": -1, "Forge": 14, "IsPreview": true, "Time": 43291, "Series": -1, "Info": "1 x Phá Thiên Chùy" },
+            { "ItemID": 14054, "Rate": -1, "Sex": "0", "Forge": 14, "IsPreview": true, "Time": 43291, "Series": -1, "Info": "1 x Yểm Nhật Khôi" },
+            { "ItemID": 14055, "Rate": -1, "Sex": "1", "Forge": 14, "IsPreview": true, "Time": 43291, "Series": -1, "Info": "1 x Song Phượng Triều Thiên Quan" },
+            { "ItemID": 14056, "Rate": -1, "Sex": "0", "Forge": 14, "IsPreview": true, "Time": 43291, "Series": -1, "Info": "1 x Kính Hoa Khải" },
+            { "ItemID": 14057, "Rate": -1, "Sex": "1", "Forge": 14, "IsPreview": true, "Time": 43291, "Series": -1, "Info": "1 x Tích Lịch Kim Phượng Giáp" },
+            { "ItemID": 14058, "Rate": -1, "Sex": "0", "Forge": 14, "IsPreview": true, "Time": 43291, "Series": -1, "Info": "1 x Võ Hầu Thúc Đái" },
+            { "ItemID": 14059, "Rate": -1, "Sex": "1", "Forge": 14, "IsPreview": true, "Time": 43291, "Series": -1, "Info": "1 x Việt Nữ Ngọc Đái" },
+            { "ItemID": 14060, "Rate": -1, "Sex": "0", "Forge": 14, "IsPreview": true, "Time": 43291, "Series": -1, "Info": "1 x Thiên Tàm Hộ Uyển" },
+            { "ItemID": 14061, "Rate": -1, "Sex": "1", "Forge": 14, "IsPreview": true, "Time": 43291, "Series": -1, "Info": "1 x Long Phượng Huyết Ngọc Trạc" },
+            { "ItemID": 14062, "Rate": -1, "Sex": "0", "Forge": 14, "IsPreview": true, "Time": 43291, "Series": -1, "Info": "1 x Thiên Tàm Ngoa" },
+            { "ItemID": 14063, "Rate": -1, "Sex": "1", "Forge": 14, "IsPreview": true, "Time": 43291, "Series": -1, "Info": "1 x Phi Phượng Ngoa" },
+            { "ItemID": 14064, "Rate": -1, "Forge": 14, "IsPreview": true, "Time": 43291, "Series": -1, "Info": "1 x Triều Lộ Liên" },
+            { "ItemID": 14065, "Rate": -1, "Forge": 14, "IsPreview": true, "Time": 43291, "Series": -1, "Info": "1 x Ứng Long Giới" },
+            { "ItemID": 14066, "Rate": -1, "Sex": "0", "Forge": 14, "IsPreview": true, "Time": 43291, "Series": -1, "Info": "1 x Bắc Minh Bội" },
+            { "ItemID": 14067, "Rate": -1, "Sex": "1", "Forge": 14, "IsPreview": true, "Time": 43291, "Series": -1, "Info": "1 x Long Diên Hương Nang" },
+            { "ItemID": 14068, "Rate": -1, "Forge": 14, "IsPreview": true, "Time": 43291, "Series": -1, "Info": "1 x Tiên Duyên Phù" }
+        ]
+    },
+    {
+        "IDBox": 200261,
+        "BoxName": "Rương Anh hùng trở về +12 - Đường Môn",
+        "Items": [
+            { "ItemID": 14071, "Rate": -1, "Forge": 12, "IsPreview": true, "Time": 43291, "Series": -1, "Info": "1 x Thiên Ngoại Phi Tiên" },
+            { "ItemID": 14072, "Rate": -1, "Forge": 12, "IsPreview": true, "Time": 43291, "Series": -1, "Info": "1 x Long Hành Đao" },
+            { "ItemID": 14073, "Rate": -1, "Sex": "0", "Forge": 12, "IsPreview": true, "Time": 43291, "Series": -1, "Info": "1 x Thông Thiên Phát Quán" },
+            { "ItemID": 14074, "Rate": -1, "Sex": "1", "Forge": 12, "IsPreview": true, "Time": 43291, "Series": -1, "Info": "1 x Trường Sinh Phát Kết" },
+            { "ItemID": 14075, "Rate": -1, "Sex": "0", "Forge": 12, "IsPreview": true, "Time": 43291, "Series": -1, "Info": "1 x Thiên Nhẫn Bí Trang" },
+            { "ItemID": 14076, "Rate": -1, "Sex": "1", "Forge": 12, "IsPreview": true, "Time": 43291, "Series": -1, "Info": "1 x Cửu Vĩ Bạch Hồ Cầu" },
+            { "ItemID": 14077, "Rate": -1, "Sex": "0", "Forge": 12, "IsPreview": true, "Time": 43291, "Series": -1, "Info": "1 x Võ Hầu Thúc Đái" },
+            { "ItemID": 14078, "Rate": -1, "Sex": "1", "Forge": 12, "IsPreview": true, "Time": 43291, "Series": -1, "Info": "1 x Việt Nữ Ngọc Đái" },
+            { "ItemID": 14079, "Rate": -1, "Sex": "0", "Forge": 12, "IsPreview": true, "Time": 43291, "Series": -1, "Info": "1 x Thiên Tàm Hộ Uyển" },
+            { "ItemID": 14080, "Rate": -1, "Sex": "1", "Forge": 12, "IsPreview": true, "Time": 43291, "Series": -1, "Info": "1 x Long Phượng Huyết Ngọc Trạc" },
+            { "ItemID": 14081, "Rate": -1, "Sex": "0", "Forge": 12, "IsPreview": true, "Time": 43291, "Series": -1, "Info": "1 x Thiên Tàm Ngoa" },
+            { "ItemID": 14082, "Rate": -1, "Sex": "1", "Forge": 12, "IsPreview": true, "Time": 43291, "Series": -1, "Info": "1 x Phi Phượng Ngoa" },
+            { "ItemID": 14083, "Rate": -1, "Forge": 12, "IsPreview": true, "Time": 43291, "Series": -1, "Info": "1 x Triều Lộ Liên" },
+            { "ItemID": 14084, "Rate": -1, "Forge": 12, "IsPreview": true, "Time": 43291, "Series": -1, "Info": "1 x Ứng Long Giới" },
+            { "ItemID": 14085, "Rate": -1, "Sex": "0", "Forge": 12, "IsPreview": true, "Time": 43291, "Series": -1, "Info": "1 x Bắc Minh Bội" },
+            { "ItemID": 14086, "Rate": -1, "Sex": "1", "Forge": 12, "IsPreview": true, "Time": 43291, "Series": -1, "Info": "1 x Long Diên Hương Nang" },
+            { "ItemID": 14087, "Rate": -1, "Forge": 12, "IsPreview": true, "Time": 43291, "Series": -1, "Info": "1 x Tiên Duyên Phù" }
+        ]
+    },
+    {
+        "IDBox": 200262,
+        "BoxName": "Rương Anh hùng trở về +14 - Đường Môn",
+        "Items": [
+            { "ItemID": 14071, "Rate": -1, "Forge": 14, "IsPreview": true, "Time": 43291, "Series": -1, "Info": "1 x Thiên Ngoại Phi Tiên" },
+            { "ItemID": 14072, "Rate": -1, "Forge": 14, "IsPreview": true, "Time": 43291, "Series": -1, "Info": "1 x Long Hành Đao" },
+            { "ItemID": 14073, "Rate": -1, "Sex": "0", "Forge": 14, "IsPreview": true, "Time": 43291, "Series": -1, "Info": "1 x Thông Thiên Phát Quán" },
+            { "ItemID": 14074, "Rate": -1, "Sex": "1", "Forge": 14, "IsPreview": true, "Time": 43291, "Series": -1, "Info": "1 x Trường Sinh Phát Kết" },
+            { "ItemID": 14075, "Rate": -1, "Sex": "0", "Forge": 14, "IsPreview": true, "Time": 43291, "Series": -1, "Info": "1 x Thiên Nhẫn Bí Trang" },
+            { "ItemID": 14076, "Rate": -1, "Sex": "1", "Forge": 14, "IsPreview": true, "Time": 43291, "Series": -1, "Info": "1 x Cửu Vĩ Bạch Hồ Cầu" },
+            { "ItemID": 14077, "Rate": -1, "Sex": "0", "Forge": 14, "IsPreview": true, "Time": 43291, "Series": -1, "Info": "1 x Võ Hầu Thúc Đái" },
+            { "ItemID": 14078, "Rate": -1, "Sex": "1", "Forge": 14, "IsPreview": true, "Time": 43291, "Series": -1, "Info": "1 x Việt Nữ Ngọc Đái" },
+            { "ItemID": 14079, "Rate": -1, "Sex": "0", "Forge": 14, "IsPreview": true, "Time": 43291, "Series": -1, "Info": "1 x Thiên Tàm Hộ Uyển" },
+            { "ItemID": 14080, "Rate": -1, "Sex": "1", "Forge": 14, "IsPreview": true, "Time": 43291, "Series": -1, "Info": "1 x Long Phượng Huyết Ngọc Trạc" },
+            { "ItemID": 14081, "Rate": -1, "Sex": "0", "Forge": 14, "IsPreview": true, "Time": 43291, "Series": -1, "Info": "1 x Thiên Tàm Ngoa" },
+            { "ItemID": 14082, "Rate": -1, "Sex": "1", "Forge": 14, "IsPreview": true, "Time": 43291, "Series": -1, "Info": "1 x Phi Phượng Ngoa" },
+            { "ItemID": 14083, "Rate": -1, "Forge": 14, "IsPreview": true, "Time": 43291, "Series": -1, "Info": "1 x Triều Lộ Liên" },
+            { "ItemID": 14084, "Rate": -1, "Forge": 14, "IsPreview": true, "Time": 43291, "Series": -1, "Info": "1 x Ứng Long Giới" },
+            { "ItemID": 14085, "Rate": -1, "Sex": "0", "Forge": 14, "IsPreview": true, "Time": 43291, "Series": -1, "Info": "1 x Bắc Minh Bội" },
+            { "ItemID": 14086, "Rate": -1, "Sex": "1", "Forge": 14, "IsPreview": true, "Time": 43291, "Series": -1, "Info": "1 x Long Diên Hương Nang" },
+            { "ItemID": 14087, "Rate": -1, "Forge": 14, "IsPreview": true, "Time": 43291, "Series": -1, "Info": "1 x Tiên Duyên Phù" }
+        ]
+    },
+    {
+        "IDBox": 200263,
+        "BoxName": "Rương Anh hùng trở về +12 - Ngũ Độc",
+        "Items": [
+            { "ItemID": 14088, "Rate": -1, "Forge": 12, "IsPreview": true, "Time": 43291, "Series": -1, "Info": "1 x Yển Nguyệt Đao" },
+            { "ItemID": 14089, "Rate": -1, "Forge": 12, "IsPreview": true, "Time": 43291, "Series": -1, "Info": "1 x Thanh Long Triền Thủ" },
+            { "ItemID": 14073, "Rate": -1, "Sex": "0", "Forge": 12, "IsPreview": true, "Time": 43291, "Series": -1, "Info": "1 x Thông Thiên Phát Quán" },
+            { "ItemID": 14074, "Rate": -1, "Sex": "1", "Forge": 12, "IsPreview": true, "Time": 43291, "Series": -1, "Info": "1 x Trường Sinh Phát Kết" },
+            { "ItemID": 14075, "Rate": -1, "Sex": "0", "Forge": 12, "IsPreview": true, "Time": 43291, "Series": -1, "Info": "1 x Thiên Nhẫn Bí Trang" },
+            { "ItemID": 14076, "Rate": -1, "Sex": "1", "Forge": 12, "IsPreview": true, "Time": 43291, "Series": -1, "Info": "1 x Cửu Vĩ Bạch Hồ Cầu" },
+            { "ItemID": 14077, "Rate": -1, "Sex": "0", "Forge": 12, "IsPreview": true, "Time": 43291, "Series": -1, "Info": "1 x Võ Hầu Thúc Đái" },
+            { "ItemID": 14078, "Rate": -1, "Sex": "1", "Forge": 12, "IsPreview": true, "Time": 43291, "Series": -1, "Info": "1 x Việt Nữ Ngọc Đái" },
+            { "ItemID": 14079, "Rate": -1, "Sex": "0", "Forge": 12, "IsPreview": true, "Time": 43291, "Series": -1, "Info": "1 x Thiên Tàm Hộ Uyển" },
+            { "ItemID": 14080, "Rate": -1, "Sex": "1", "Forge": 12, "IsPreview": true, "Time": 43291, "Series": -1, "Info": "1 x Long Phượng Huyết Ngọc Trạc" },
+            { "ItemID": 14081, "Rate": -1, "Sex": "0", "Forge": 12, "IsPreview": true, "Time": 43291, "Series": -1, "Info": "1 x Thiên Tàm Ngoa" },
+            { "ItemID": 14082, "Rate": -1, "Sex": "1", "Forge": 12, "IsPreview": true, "Time": 43291, "Series": -1, "Info": "1 x Phi Phượng Ngoa" },
+            { "ItemID": 14083, "Rate": -1, "Forge": 12, "IsPreview": true, "Time": 43291, "Series": -1, "Info": "1 x Triều Lộ Liên" },
+            { "ItemID": 14084, "Rate": -1, "Forge": 12, "IsPreview": true, "Time": 43291, "Series": -1, "Info": "1 x Ứng Long Giới" },
+            { "ItemID": 14085, "Rate": -1, "Sex": "0", "Forge": 12, "IsPreview": true, "Time": 43291, "Series": -1, "Info": "1 x Bắc Minh Bội" },
+            { "ItemID": 14086, "Rate": -1, "Sex": "1", "Forge": 12, "IsPreview": true, "Time": 43291, "Series": -1, "Info": "1 x Long Diên Hương Nang" },
+            { "ItemID": 14087, "Rate": -1, "Forge": 12, "IsPreview": true, "Time": 43291, "Series": -1, "Info": "1 x Tiên Duyên Phù" }
+        ]
+    },
+    {
+        "IDBox": 200264,
+        "BoxName": "Rương Anh hùng trở về +14 - Ngũ Độc",
+        "Items": [
+            { "ItemID": 14088, "Rate": -1, "Forge": 14, "IsPreview": true, "Time": 43291, "Series": -1, "Info": "1 x Yển Nguyệt Đao" },
+            { "ItemID": 14089, "Rate": -1, "Forge": 14, "IsPreview": true, "Time": 43291, "Series": -1, "Info": "1 x Thanh Long Triền Thủ" },
+            { "ItemID": 14073, "Rate": -1, "Sex": "0", "Forge": 14, "IsPreview": true, "Time": 43291, "Series": -1, "Info": "1 x Thông Thiên Phát Quán" },
+            { "ItemID": 14074, "Rate": -1, "Sex": "1", "Forge": 14, "IsPreview": true, "Time": 43291, "Series": -1, "Info": "1 x Trường Sinh Phát Kết" },
+            { "ItemID": 14075, "Rate": -1, "Sex": "0", "Forge": 14, "IsPreview": true, "Time": 43291, "Series": -1, "Info": "1 x Thiên Nhẫn Bí Trang" },
+            { "ItemID": 14076, "Rate": -1, "Sex": "1", "Forge": 14, "IsPreview": true, "Time": 43291, "Series": -1, "Info": "1 x Cửu Vĩ Bạch Hồ Cầu" },
+            { "ItemID": 14077, "Rate": -1, "Sex": "0", "Forge": 14, "IsPreview": true, "Time": 43291, "Series": -1, "Info": "1 x Võ Hầu Thúc Đái" },
+            { "ItemID": 14078, "Rate": -1, "Sex": "1", "Forge": 14, "IsPreview": true, "Time": 43291, "Series": -1, "Info": "1 x Việt Nữ Ngọc Đái" },
+            { "ItemID": 14079, "Rate": -1, "Sex": "0", "Forge": 14, "IsPreview": true, "Time": 43291, "Series": -1, "Info": "1 x Thiên Tàm Hộ Uyển" },
+            { "ItemID": 14080, "Rate": -1, "Sex": "1", "Forge": 14, "IsPreview": true, "Time": 43291, "Series": -1, "Info": "1 x Long Phượng Huyết Ngọc Trạc" },
+            { "ItemID": 14081, "Rate": -1, "Sex": "0", "Forge": 14, "IsPreview": true, "Time": 43291, "Series": -1, "Info": "1 x Thiên Tàm Ngoa" },
+            { "ItemID": 14082, "Rate": -1, "Sex": "1", "Forge": 14, "IsPreview": true, "Time": 43291, "Series": -1, "Info": "1 x Phi Phượng Ngoa" },
+            { "ItemID": 14083, "Rate": -1, "Forge": 14, "IsPreview": true, "Time": 43291, "Series": -1, "Info": "1 x Triều Lộ Liên" },
+            { "ItemID": 14084, "Rate": -1, "Forge": 14, "IsPreview": true, "Time": 43291, "Series": -1, "Info": "1 x Ứng Long Giới" },
+            { "ItemID": 14085, "Rate": -1, "Sex": "0", "Forge": 14, "IsPreview": true, "Time": 43291, "Series": -1, "Info": "1 x Bắc Minh Bội" },
+            { "ItemID": 14086, "Rate": -1, "Sex": "1", "Forge": 14, "IsPreview": true, "Time": 43291, "Series": -1, "Info": "1 x Long Diên Hương Nang" },
+            { "ItemID": 14087, "Rate": -1, "Forge": 14, "IsPreview": true, "Time": 43291, "Series": -1, "Info": "1 x Tiên Duyên Phù" }
+        ]
+    },
+    {
+        "IDBox": 200265,
+        "BoxName": "Rương Anh hùng trở về +12 - Nga My",
+        "Items": [
+            { "ItemID": 14090, "Rate": -1, "Forge": 12, "IsPreview": true, "Time": 43291, "Series": -1, "Info": "1 x Long Uyên Kiếm" },
+            { "ItemID": 14091, "Rate": -1, "Forge": 12, "IsPreview": true, "Time": 43291, "Series": -1, "Info": "1 x Thanh Long Triền Thủ" },
+            { "ItemID": 14092, "Rate": -1, "Sex": "0", "Forge": 12, "IsPreview": true, "Time": 43291, "Series": -1, "Info": "1 x Thông Thiên Phát Quán" },
+            { "ItemID": 14093, "Rate": -1, "Sex": "1", "Forge": 12, "IsPreview": true, "Time": 43291, "Series": -1, "Info": "1 x Trường Sinh Phát Kết" },
+            { "ItemID": 14094, "Rate": -1, "Sex": "0", "Forge": 12, "IsPreview": true, "Time": 43291, "Series": -1, "Info": "1 x Kính Hoa Khải" },
+            { "ItemID": 14095, "Rate": -1, "Sex": "1", "Forge": 12, "IsPreview": true, "Time": 43291, "Series": -1, "Info": "1 x Tích Lịch Kim Phượng Giáp" },
+            { "ItemID": 14096, "Rate": -1, "Sex": "0", "Forge": 12, "IsPreview": true, "Time": 43291, "Series": -1, "Info": "1 x Võ Hầu Thúc Đái" },
+            { "ItemID": 14097, "Rate": -1, "Sex": "1", "Forge": 12, "IsPreview": true, "Time": 43291, "Series": -1, "Info": "1 x Việt Nữ Ngọc Đái" },
+            { "ItemID": 14098, "Rate": -1, "Sex": "0", "Forge": 12, "IsPreview": true, "Time": 43291, "Series": -1, "Info": "1 x Thiên Tàm Hộ Uyển" },
+            { "ItemID": 14099, "Rate": -1, "Sex": "1", "Forge": 12, "IsPreview": true, "Time": 43291, "Series": -1, "Info": "1 x Long Phượng Huyết Ngọc Trạc" },
+            { "ItemID": 14100, "Rate": -1, "Sex": "0", "Forge": 12, "IsPreview": true, "Time": 43291, "Series": -1, "Info": "1 x Thiên Tàm Ngoa" },
+            { "ItemID": 14101, "Rate": -1, "Sex": "1", "Forge": 12, "IsPreview": true, "Time": 43291, "Series": -1, "Info": "1 x Phi Phượng Ngoa" },
+            { "ItemID": 14102, "Rate": -1, "Forge": 12, "IsPreview": true, "Time": 43291, "Series": -1, "Info": "1 x Triều Lộ Liên" },
+            { "ItemID": 14103, "Rate": -1, "Forge": 12, "IsPreview": true, "Time": 43291, "Series": -1, "Info": "1 x Ứng Long Giới" },
+            { "ItemID": 14104, "Rate": -1, "Sex": "0", "Forge": 12, "IsPreview": true, "Time": 43291, "Series": -1, "Info": "1 x Bắc Minh Bội" },
+            { "ItemID": 14105, "Rate": -1, "Sex": "1", "Forge": 12, "IsPreview": true, "Time": 43291, "Series": -1, "Info": "1 x Long Diên Hương Nang" },
+            { "ItemID": 14106, "Rate": -1, "Forge": 12, "IsPreview": true, "Time": 43291, "Series": -1, "Info": "1 x Tiên Duyên Phù" }
+        ]
+    },
+    {
+        "IDBox": 200266,
+        "BoxName": "Rương Anh hùng trở về +14 - Nga My",
+        "Items": [
+            { "ItemID": 14090, "Rate": -1, "Forge": 14, "IsPreview": true, "Time": 43291, "Series": -1, "Info": "1 x Long Uyên Kiếm" },
+            { "ItemID": 14091, "Rate": -1, "Forge": 14, "IsPreview": true, "Time": 43291, "Series": -1, "Info": "1 x Thanh Long Triền Thủ" },
+            { "ItemID": 14092, "Rate": -1, "Sex": "0", "Forge": 14, "IsPreview": true, "Time": 43291, "Series": -1, "Info": "1 x Thông Thiên Phát Quán" },
+            { "ItemID": 14093, "Rate": -1, "Sex": "1", "Forge": 14, "IsPreview": true, "Time": 43291, "Series": -1, "Info": "1 x Trường Sinh Phát Kết" },
+            { "ItemID": 14094, "Rate": -1, "Sex": "0", "Forge": 14, "IsPreview": true, "Time": 43291, "Series": -1, "Info": "1 x Kính Hoa Khải" },
+            { "ItemID": 14095, "Rate": -1, "Sex": "1", "Forge": 14, "IsPreview": true, "Time": 43291, "Series": -1, "Info": "1 x Tích Lịch Kim Phượng Giáp" },
+            { "ItemID": 14096, "Rate": -1, "Sex": "0", "Forge": 14, "IsPreview": true, "Time": 43291, "Series": -1, "Info": "1 x Võ Hầu Thúc Đái" },
+            { "ItemID": 14097, "Rate": -1, "Sex": "1", "Forge": 14, "IsPreview": true, "Time": 43291, "Series": -1, "Info": "1 x Việt Nữ Ngọc Đái" },
+            { "ItemID": 14098, "Rate": -1, "Sex": "0", "Forge": 14, "IsPreview": true, "Time": 43291, "Series": -1, "Info": "1 x Thiên Tàm Hộ Uyển" },
+            { "ItemID": 14099, "Rate": -1, "Sex": "1", "Forge": 14, "IsPreview": true, "Time": 43291, "Series": -1, "Info": "1 x Long Phượng Huyết Ngọc Trạc" },
+            { "ItemID": 14100, "Rate": -1, "Sex": "0", "Forge": 14, "IsPreview": true, "Time": 43291, "Series": -1, "Info": "1 x Thiên Tàm Ngoa" },
+            { "ItemID": 14101, "Rate": -1, "Sex": "1", "Forge": 14, "IsPreview": true, "Time": 43291, "Series": -1, "Info": "1 x Phi Phượng Ngoa" },
+            { "ItemID": 14102, "Rate": -1, "Forge": 14, "IsPreview": true, "Time": 43291, "Series": -1, "Info": "1 x Triều Lộ Liên" },
+            { "ItemID": 14103, "Rate": -1, "Forge": 14, "IsPreview": true, "Time": 43291, "Series": -1, "Info": "1 x Ứng Long Giới" },
+            { "ItemID": 14104, "Rate": -1, "Sex": "0", "Forge": 14, "IsPreview": true, "Time": 43291, "Series": -1, "Info": "1 x Bắc Minh Bội" },
+            { "ItemID": 14105, "Rate": -1, "Sex": "1", "Forge": 14, "IsPreview": true, "Time": 43291, "Series": -1, "Info": "1 x Long Diên Hương Nang" },
+            { "ItemID": 14106, "Rate": -1, "Forge": 14, "IsPreview": true, "Time": 43291, "Series": -1, "Info": "1 x Tiên Duyên Phù" }
+        ]
+    },
+    {
+        "IDBox": 200267,
+        "BoxName": "Rương Anh hùng trở về +12 - Thúy Yên",
+        "Items": [
+            { "ItemID": 14090, "Rate": -1, "Forge": 12, "IsPreview": true, "Time": 43291, "Series": -1, "Info": "1 x Long Uyên Kiếm" },
+            { "ItemID": 14107, "Rate": -1, "Forge": 12, "IsPreview": true, "Time": 43291, "Series": -1, "Info": "1 x Yển Nguyệt Đao" },
+            { "ItemID": 14092, "Rate": -1, "Sex": "0", "Forge": 12, "IsPreview": true, "Time": 43291, "Series": -1, "Info": "1 x Thông Thiên Phát Quán" },
+            { "ItemID": 14093, "Rate": -1, "Sex": "1", "Forge": 12, "IsPreview": true, "Time": 43291, "Series": -1, "Info": "1 x Trường Sinh Phát Kết" },
+            { "ItemID": 14094, "Rate": -1, "Sex": "0", "Forge": 12, "IsPreview": true, "Time": 43291, "Series": -1, "Info": "1 x Kính Hoa Khải" },
+            { "ItemID": 14095, "Rate": -1, "Sex": "1", "Forge": 12, "IsPreview": true, "Time": 43291, "Series": -1, "Info": "1 x Tích Lịch Kim Phượng Giáp" },
+            { "ItemID": 14096, "Rate": -1, "Sex": "0", "Forge": 12, "IsPreview": true, "Time": 43291, "Series": -1, "Info": "1 x Võ Hầu Thúc Đái" },
+            { "ItemID": 14097, "Rate": -1, "Sex": "1", "Forge": 12, "IsPreview": true, "Time": 43291, "Series": -1, "Info": "1 x Việt Nữ Ngọc Đái" },
+            { "ItemID": 14098, "Rate": -1, "Sex": "0", "Forge": 12, "IsPreview": true, "Time": 43291, "Series": -1, "Info": "1 x Thiên Tàm Hộ Uyển" },
+            { "ItemID": 14099, "Rate": -1, "Sex": "1", "Forge": 12, "IsPreview": true, "Time": 43291, "Series": -1, "Info": "1 x Long Phượng Huyết Ngọc Trạc" },
+            { "ItemID": 14100, "Rate": -1, "Sex": "0", "Forge": 12, "IsPreview": true, "Time": 43291, "Series": -1, "Info": "1 x Thiên Tàm Ngoa" },
+            { "ItemID": 14101, "Rate": -1, "Sex": "1", "Forge": 12, "IsPreview": true, "Time": 43291, "Series": -1, "Info": "1 x Phi Phượng Ngoa" },
+            { "ItemID": 14102, "Rate": -1, "Forge": 12, "IsPreview": true, "Time": 43291, "Series": -1, "Info": "1 x Triều Lộ Liên" },
+            { "ItemID": 14103, "Rate": -1, "Forge": 12, "IsPreview": true, "Time": 43291, "Series": -1, "Info": "1 x Ứng Long Giới" },
+            { "ItemID": 14104, "Rate": -1, "Sex": "0", "Forge": 12, "IsPreview": true, "Time": 43291, "Series": -1, "Info": "1 x Bắc Minh Bội" },
+            { "ItemID": 14105, "Rate": -1, "Sex": "1", "Forge": 12, "IsPreview": true, "Time": 43291, "Series": -1, "Info": "1 x Long Diên Hương Nang" },
+            { "ItemID": 14106, "Rate": -1, "Forge": 12, "IsPreview": true, "Time": 43291, "Series": -1, "Info": "1 x Tiên Duyên Phù" }
+        ]
+    },
+    {
+        "IDBox": 200268,
+        "BoxName": "Rương Anh hùng trở về +14 - Thúy Yên",
+        "Items": [
+            { "ItemID": 14090, "Rate": -1, "Forge": 14, "IsPreview": true, "Time": 43291, "Series": -1, "Info": "1 x Long Uyên Kiếm" },
+            { "ItemID": 14107, "Rate": -1, "Forge": 14, "IsPreview": true, "Time": 43291, "Series": -1, "Info": "1 x Yển Nguyệt Đao" },
+            { "ItemID": 14092, "Rate": -1, "Sex": "0", "Forge": 14, "IsPreview": true, "Time": 43291, "Series": -1, "Info": "1 x Thông Thiên Phát Quán" },
+            { "ItemID": 14093, "Rate": -1, "Sex": "1", "Forge": 14, "IsPreview": true, "Time": 43291, "Series": -1, "Info": "1 x Trường Sinh Phát Kết" },
+            { "ItemID": 14094, "Rate": -1, "Sex": "0", "Forge": 14, "IsPreview": true, "Time": 43291, "Series": -1, "Info": "1 x Kính Hoa Khải" },
+            { "ItemID": 14095, "Rate": -1, "Sex": "1", "Forge": 14, "IsPreview": true, "Time": 43291, "Series": -1, "Info": "1 x Tích Lịch Kim Phượng Giáp" },
+            { "ItemID": 14096, "Rate": -1, "Sex": "0", "Forge": 14, "IsPreview": true, "Time": 43291, "Series": -1, "Info": "1 x Võ Hầu Thúc Đái" },
+            { "ItemID": 14097, "Rate": -1, "Sex": "1", "Forge": 14, "IsPreview": true, "Time": 43291, "Series": -1, "Info": "1 x Việt Nữ Ngọc Đái" },
+            { "ItemID": 14098, "Rate": -1, "Sex": "0", "Forge": 14, "IsPreview": true, "Time": 43291, "Series": -1, "Info": "1 x Thiên Tàm Hộ Uyển" },
+            { "ItemID": 14099, "Rate": -1, "Sex": "1", "Forge": 14, "IsPreview": true, "Time": 43291, "Series": -1, "Info": "1 x Long Phượng Huyết Ngọc Trạc" },
+            { "ItemID": 14100, "Rate": -1, "Sex": "0", "Forge": 14, "IsPreview": true, "Time": 43291, "Series": -1, "Info": "1 x Thiên Tàm Ngoa" },
+            { "ItemID": 14101, "Rate": -1, "Sex": "1", "Forge": 14, "IsPreview": true, "Time": 43291, "Series": -1, "Info": "1 x Phi Phượng Ngoa" },
+            { "ItemID": 14102, "Rate": -1, "Forge": 14, "IsPreview": true, "Time": 43291, "Series": -1, "Info": "1 x Triều Lộ Liên" },
+            { "ItemID": 14103, "Rate": -1, "Forge": 14, "IsPreview": true, "Time": 43291, "Series": -1, "Info": "1 x Ứng Long Giới" },
+            { "ItemID": 14104, "Rate": -1, "Sex": "0", "Forge": 14, "IsPreview": true, "Time": 43291, "Series": -1, "Info": "1 x Bắc Minh Bội" },
+            { "ItemID": 14105, "Rate": -1, "Sex": "1", "Forge": 14, "IsPreview": true, "Time": 43291, "Series": -1, "Info": "1 x Long Diên Hương Nang" },
+            { "ItemID": 14106, "Rate": -1, "Forge": 14, "IsPreview": true, "Time": 43291, "Series": -1, "Info": "1 x Tiên Duyên Phù" }
+        ]
+    },
+    {
+        "IDBox": 200269,
+        "BoxName": "Rương Anh hùng trở về +12 - Cái Bang",
+        "Items": [
+            { "ItemID": 14108, "Rate": -1, "Forge": 12, "IsPreview": true, "Time": 43291, "Series": -1, "Info": "1 x Thanh Long Triền Thủ" },
+            { "ItemID": 14109, "Rate": -1, "Forge": 12, "IsPreview": true, "Time": 43291, "Series": -1, "Info": "1 x Kim Cô Bổng" },
+            { "ItemID": 14110, "Rate": -1, "Sex": "0", "Forge": 12, "IsPreview": true, "Time": 43291, "Series": -1, "Info": "1 x Tu La Phát Kết" },
+            { "ItemID": 14111, "Rate": -1, "Sex": "1", "Forge": 12, "IsPreview": true, "Time": 43291, "Series": -1, "Info": "1 x Huyền Tê Diện Tráo" },
+            { "ItemID": 14112, "Rate": -1, "Sex": "0", "Forge": 12, "IsPreview": true, "Time": 43291, "Series": -1, "Info": "1 x Kính Hoa Khải" },
+            { "ItemID": 14113, "Rate": -1, "Sex": "1", "Forge": 12, "IsPreview": true, "Time": 43291, "Series": -1, "Info": "1 x Tích Lịch Kim Phượng Giáp" },
+            { "ItemID": 14114, "Rate": -1, "Sex": "0", "Forge": 12, "IsPreview": true, "Time": 43291, "Series": -1, "Info": "1 x Võ Hầu Thúc Đái" },
+            { "ItemID": 14115, "Rate": -1, "Sex": "1", "Forge": 12, "IsPreview": true, "Time": 43291, "Series": -1, "Info": "1 x Việt Nữ Ngọc Đái" },
+            { "ItemID": 14116, "Rate": -1, "Sex": "0", "Forge": 12, "IsPreview": true, "Time": 43291, "Series": -1, "Info": "1 x Thiên Tàm Hộ Uyển" },
+            { "ItemID": 14117, "Rate": -1, "Sex": "1", "Forge": 12, "IsPreview": true, "Time": 43291, "Series": -1, "Info": "1 x Long Phượng Huyết Ngọc Trạc" },
+            { "ItemID": 14118, "Rate": -1, "Sex": "0", "Forge": 12, "IsPreview": true, "Time": 43291, "Series": -1, "Info": "1 x Thiên Tàm Ngoa" },
+            { "ItemID": 14119, "Rate": -1, "Sex": "1", "Forge": 12, "IsPreview": true, "Time": 43291, "Series": -1, "Info": "1 x Phi Phượng Ngoa" },
+            { "ItemID": 14120, "Rate": -1, "Forge": 12, "IsPreview": true, "Time": 43291, "Series": -1, "Info": "1 x Triều Lộ Liên" },
+            { "ItemID": 14121, "Rate": -1, "Forge": 12, "IsPreview": true, "Time": 43291, "Series": -1, "Info": "1 x Ứng Long Giới" },
+            { "ItemID": 14122, "Rate": -1, "Sex": "0", "Forge": 12, "IsPreview": true, "Time": 43291, "Series": -1, "Info": "1 x Bắc Minh Bội" },
+            { "ItemID": 14123, "Rate": -1, "Sex": "1", "Forge": 12, "IsPreview": true, "Time": 43291, "Series": -1, "Info": "1 x Long Diên Hương Nang" },
+            { "ItemID": 14124, "Rate": -1, "Forge": 12, "IsPreview": true, "Time": 43291, "Series": -1, "Info": "1 x Tiên Duyên Phù" }
+        ]
+    },
+    {
+        "IDBox": 200270,
+        "BoxName": "Rương Anh hùng trở về +14 - Cái Bang",
+        "Items": [
+            { "ItemID": 14108, "Rate": -1, "Forge": 14, "IsPreview": true, "Time": 43291, "Series": -1, "Info": "1 x Thanh Long Triền Thủ" },
+            { "ItemID": 14109, "Rate": -1, "Forge": 14, "IsPreview": true, "Time": 43291, "Series": -1, "Info": "1 x Kim Cô Bổng" },
+            { "ItemID": 14110, "Rate": -1, "Sex": "0", "Forge": 14, "IsPreview": true, "Time": 43291, "Series": -1, "Info": "1 x Tu La Phát Kết" },
+            { "ItemID": 14111, "Rate": -1, "Sex": "1", "Forge": 14, "IsPreview": true, "Time": 43291, "Series": -1, "Info": "1 x Huyền Tê Diện Tráo" },
+            { "ItemID": 14112, "Rate": -1, "Sex": "0", "Forge": 14, "IsPreview": true, "Time": 43291, "Series": -1, "Info": "1 x Kính Hoa Khải" },
+            { "ItemID": 14113, "Rate": -1, "Sex": "1", "Forge": 14, "IsPreview": true, "Time": 43291, "Series": -1, "Info": "1 x Tích Lịch Kim Phượng Giáp" },
+            { "ItemID": 14114, "Rate": -1, "Sex": "0", "Forge": 14, "IsPreview": true, "Time": 43291, "Series": -1, "Info": "1 x Võ Hầu Thúc Đái" },
+            { "ItemID": 14115, "Rate": -1, "Sex": "1", "Forge": 14, "IsPreview": true, "Time": 43291, "Series": -1, "Info": "1 x Việt Nữ Ngọc Đái" },
+            { "ItemID": 14116, "Rate": -1, "Sex": "0", "Forge": 14, "IsPreview": true, "Time": 43291, "Series": -1, "Info": "1 x Thiên Tàm Hộ Uyển" },
+            { "ItemID": 14117, "Rate": -1, "Sex": "1", "Forge": 14, "IsPreview": true, "Time": 43291, "Series": -1, "Info": "1 x Long Phượng Huyết Ngọc Trạc" },
+            { "ItemID": 14118, "Rate": -1, "Sex": "0", "Forge": 14, "IsPreview": true, "Time": 43291, "Series": -1, "Info": "1 x Thiên Tàm Ngoa" },
+            { "ItemID": 14119, "Rate": -1, "Sex": "1", "Forge": 14, "IsPreview": true, "Time": 43291, "Series": -1, "Info": "1 x Phi Phượng Ngoa" },
+            { "ItemID": 14120, "Rate": -1, "Forge": 14, "IsPreview": true, "Time": 43291, "Series": -1, "Info": "1 x Triều Lộ Liên" },
+            { "ItemID": 14121, "Rate": -1, "Forge": 14, "IsPreview": true, "Time": 43291, "Series": -1, "Info": "1 x Ứng Long Giới" },
+            { "ItemID": 14122, "Rate": -1, "Sex": "0", "Forge": 14, "IsPreview": true, "Time": 43291, "Series": -1, "Info": "1 x Bắc Minh Bội" },
+            { "ItemID": 14123, "Rate": -1, "Sex": "1", "Forge": 14, "IsPreview": true, "Time": 43291, "Series": -1, "Info": "1 x Long Diên Hương Nang" },
+            { "ItemID": 14124, "Rate": -1, "Forge": 14, "IsPreview": true, "Time": 43291, "Series": -1, "Info": "1 x Tiên Duyên Phù" }
+        ]
+    },
+    {
+        "IDBox": 200271,
+        "BoxName": "Rương Anh hùng trở về +12 - Thiên Nhẫn",
+        "Items": [
+            { "ItemID": 14125, "Rate": -1, "Forge": 12, "IsPreview": true, "Time": 43291, "Series": -1, "Info": "1 x Yển Nguyệt Đao" },
+            { "ItemID": 14126, "Rate": -1, "Forge": 12, "IsPreview": true, "Time": 43291, "Series": -1, "Info": "1 x Phá Thiên Kích" },
+            { "ItemID": 14110, "Rate": -1, "Sex": "0", "Forge": 12, "IsPreview": true, "Time": 43291, "Series": -1, "Info": "1 x Tu La Phát Kết" },
+            { "ItemID": 14111, "Rate": -1, "Sex": "1", "Forge": 12, "IsPreview": true, "Time": 43291, "Series": -1, "Info": "1 x Huyền Tê Diện Tráo" },
+            { "ItemID": 14112, "Rate": -1, "Sex": "0", "Forge": 12, "IsPreview": true, "Time": 43291, "Series": -1, "Info": "1 x Kính Hoa Khải" },
+            { "ItemID": 14113, "Rate": -1, "Sex": "1", "Forge": 12, "IsPreview": true, "Time": 43291, "Series": -1, "Info": "1 x Tích Lịch Kim Phượng Giáp" },
+            { "ItemID": 14114, "Rate": -1, "Sex": "0", "Forge": 12, "IsPreview": true, "Time": 43291, "Series": -1, "Info": "1 x Võ Hầu Thúc Đái" },
+            { "ItemID": 14115, "Rate": -1, "Sex": "1", "Forge": 12, "IsPreview": true, "Time": 43291, "Series": -1, "Info": "1 x Việt Nữ Ngọc Đái" },
+            { "ItemID": 14116, "Rate": -1, "Sex": "0", "Forge": 12, "IsPreview": true, "Time": 43291, "Series": -1, "Info": "1 x Thiên Tàm Hộ Uyển" },
+            { "ItemID": 14117, "Rate": -1, "Sex": "1", "Forge": 12, "IsPreview": true, "Time": 43291, "Series": -1, "Info": "1 x Long Phượng Huyết Ngọc Trạc" },
+            { "ItemID": 14118, "Rate": -1, "Sex": "0", "Forge": 12, "IsPreview": true, "Time": 43291, "Series": -1, "Info": "1 x Thiên Tàm Ngoa" },
+            { "ItemID": 14119, "Rate": -1, "Sex": "1", "Forge": 12, "IsPreview": true, "Time": 43291, "Series": -1, "Info": "1 x Phi Phượng Ngoa" },
+            { "ItemID": 14120, "Rate": -1, "Forge": 12, "IsPreview": true, "Time": 43291, "Series": -1, "Info": "1 x Triều Lộ Liên" },
+            { "ItemID": 14121, "Rate": -1, "Forge": 12, "IsPreview": true, "Time": 43291, "Series": -1, "Info": "1 x Ứng Long Giới" },
+            { "ItemID": 14122, "Rate": -1, "Sex": "0", "Forge": 12, "IsPreview": true, "Time": 43291, "Series": -1, "Info": "1 x Bắc Minh Bội" },
+            { "ItemID": 14123, "Rate": -1, "Sex": "1", "Forge": 12, "IsPreview": true, "Time": 43291, "Series": -1, "Info": "1 x Long Diên Hương Nang" },
+            { "ItemID": 14124, "Rate": -1, "Forge": 12, "IsPreview": true, "Time": 43291, "Series": -1, "Info": "1 x Tiên Duyên Phù" }
+        ]
+    },
+    {
+        "IDBox": 200272,
+        "BoxName": "Rương Anh hùng trở về +14 - Thiên Nhẫn",
+        "Items": [
+            { "ItemID": 14125, "Rate": -1, "Forge": 14, "IsPreview": true, "Time": 43291, "Series": -1, "Info": "1 x Yển Nguyệt Đao" },
+            { "ItemID": 14126, "Rate": -1, "Forge": 14, "IsPreview": true, "Time": 43291, "Series": -1, "Info": "1 x Phá Thiên Kích" },
+            { "ItemID": 14110, "Rate": -1, "Sex": "0", "Forge": 14, "IsPreview": true, "Time": 43291, "Series": -1, "Info": "1 x Tu La Phát Kết" },
+            { "ItemID": 14111, "Rate": -1, "Sex": "1", "Forge": 14, "IsPreview": true, "Time": 43291, "Series": -1, "Info": "1 x Huyền Tê Diện Tráo" },
+            { "ItemID": 14112, "Rate": -1, "Sex": "0", "Forge": 14, "IsPreview": true, "Time": 43291, "Series": -1, "Info": "1 x Kính Hoa Khải" },
+            { "ItemID": 14113, "Rate": -1, "Sex": "1", "Forge": 14, "IsPreview": true, "Time": 43291, "Series": -1, "Info": "1 x Tích Lịch Kim Phượng Giáp" },
+            { "ItemID": 14114, "Rate": -1, "Sex": "0", "Forge": 14, "IsPreview": true, "Time": 43291, "Series": -1, "Info": "1 x Võ Hầu Thúc Đái" },
+            { "ItemID": 14115, "Rate": -1, "Sex": "1", "Forge": 14, "IsPreview": true, "Time": 43291, "Series": -1, "Info": "1 x Việt Nữ Ngọc Đái" },
+            { "ItemID": 14116, "Rate": -1, "Sex": "0", "Forge": 14, "IsPreview": true, "Time": 43291, "Series": -1, "Info": "1 x Thiên Tàm Hộ Uyển" },
+            { "ItemID": 14117, "Rate": -1, "Sex": "1", "Forge": 14, "IsPreview": true, "Time": 43291, "Series": -1, "Info": "1 x Long Phượng Huyết Ngọc Trạc" },
+            { "ItemID": 14118, "Rate": -1, "Sex": "0", "Forge": 14, "IsPreview": true, "Time": 43291, "Series": -1, "Info": "1 x Thiên Tàm Ngoa" },
+            { "ItemID": 14119, "Rate": -1, "Sex": "1", "Forge": 14, "IsPreview": true, "Time": 43291, "Series": -1, "Info": "1 x Phi Phượng Ngoa" },
+            { "ItemID": 14120, "Rate": -1, "Forge": 14, "IsPreview": true, "Time": 43291, "Series": -1, "Info": "1 x Triều Lộ Liên" },
+            { "ItemID": 14121, "Rate": -1, "Forge": 14, "IsPreview": true, "Time": 43291, "Series": -1, "Info": "1 x Ứng Long Giới" },
+            { "ItemID": 14122, "Rate": -1, "Sex": "0", "Forge": 14, "IsPreview": true, "Time": 43291, "Series": -1, "Info": "1 x Bắc Minh Bội" },
+            { "ItemID": 14123, "Rate": -1, "Sex": "1", "Forge": 14, "IsPreview": true, "Time": 43291, "Series": -1, "Info": "1 x Long Diên Hương Nang" },
+            { "ItemID": 14124, "Rate": -1, "Forge": 14, "IsPreview": true, "Time": 43291, "Series": -1, "Info": "1 x Tiên Duyên Phù" }
+        ]
+    },
+    {
+        "IDBox": 200273,
+        "BoxName": "Rương Anh hùng trở về +12 - Võ Đang",
+        "Items": [
+            { "ItemID": 14127, "Rate": -1, "Forge": 12, "IsPreview": true, "Time": 43291, "Series": -1, "Info": "1 x Long Uyên Kiếm" },
+            { "ItemID": 14128, "Rate": -1, "Forge": 12, "IsPreview": true, "Time": 43291, "Series": -1, "Info": "1 x Long Uyên Kiếm" },
+            { "ItemID": 14129, "Rate": -1, "Sex": "0", "Forge": 12, "IsPreview": true, "Time": 43291, "Series": -1, "Info": "1 x Thông Thiên Phát Quán" },
+            { "ItemID": 14130, "Rate": -1, "Sex": "1", "Forge": 12, "IsPreview": true, "Time": 43291, "Series": -1, "Info": "1 x Trường Sinh Phát Kết" },
+            { "ItemID": 14131, "Rate": -1, "Sex": "0", "Forge": 12, "IsPreview": true, "Time": 43291, "Series": -1, "Info": "1 x Kính Hoa Khải" },
+            { "ItemID": 14132, "Rate": -1, "Sex": "1", "Forge": 12, "IsPreview": true, "Time": 43291, "Series": -1, "Info": "1 x Tích Lịch Kim Phượng Giáp" },
+            { "ItemID": 14133, "Rate": -1, "Sex": "0", "Forge": 12, "IsPreview": true, "Time": 43291, "Series": -1, "Info": "1 x Võ Hầu Thúc Đái" },
+            { "ItemID": 14134, "Rate": -1, "Sex": "1", "Forge": 12, "IsPreview": true, "Time": 43291, "Series": -1, "Info": "1 x Việt Nữ Ngọc Đái" },
+            { "ItemID": 14135, "Rate": -1, "Sex": "0", "Forge": 12, "IsPreview": true, "Time": 43291, "Series": -1, "Info": "1 x Thiên Tàm Hộ Uyển" },
+            { "ItemID": 14136, "Rate": -1, "Sex": "1", "Forge": 12, "IsPreview": true, "Time": 43291, "Series": -1, "Info": "1 x Long Phượng Huyết Ngọc Trạc" },
+            { "ItemID": 14137, "Rate": -1, "Sex": "0", "Forge": 12, "IsPreview": true, "Time": 43291, "Series": -1, "Info": "1 x Thiên Tàm Ngoa" },
+            { "ItemID": 14138, "Rate": -1, "Sex": "1", "Forge": 12, "IsPreview": true, "Time": 43291, "Series": -1, "Info": "1 x Phi Phượng Ngoa" },
+            { "ItemID": 14139, "Rate": -1, "Forge": 12, "IsPreview": true, "Time": 43291, "Series": -1, "Info": "1 x Triều Lộ Liên" },
+            { "ItemID": 14140, "Rate": -1, "Forge": 12, "IsPreview": true, "Time": 43291, "Series": -1, "Info": "1 x Ứng Long Giới" },
+            { "ItemID": 14141, "Rate": -1, "Sex": "0", "Forge": 12, "IsPreview": true, "Time": 43291, "Series": -1, "Info": "1 x Bắc Minh Bội" },
+            { "ItemID": 14142, "Rate": -1, "Sex": "1", "Forge": 12, "IsPreview": true, "Time": 43291, "Series": -1, "Info": "1 x Long Diên Hương Nang" },
+            { "ItemID": 14143, "Rate": -1, "Forge": 12, "IsPreview": true, "Time": 43291, "Series": -1, "Info": "1 x Tiên Duyên Phù" }
+        ]
+    },
+    {
+        "IDBox": 200274,
+        "BoxName": "Rương Anh hùng trở về +14 - Võ Đang",
+        "Items": [
+            { "ItemID": 14127, "Rate": -1, "Forge": 14, "IsPreview": true, "Time": 43291, "Series": -1, "Info": "1 x Long Uyên Kiếm" },
+            { "ItemID": 14128, "Rate": -1, "Forge": 14, "IsPreview": true, "Time": 43291, "Series": -1, "Info": "1 x Long Uyên Kiếm" },
+            { "ItemID": 14129, "Rate": -1, "Sex": "0", "Forge": 14, "IsPreview": true, "Time": 43291, "Series": -1, "Info": "1 x Thông Thiên Phát Quán" },
+            { "ItemID": 14130, "Rate": -1, "Sex": "1", "Forge": 14, "IsPreview": true, "Time": 43291, "Series": -1, "Info": "1 x Trường Sinh Phát Kết" },
+            { "ItemID": 14131, "Rate": -1, "Sex": "0", "Forge": 14, "IsPreview": true, "Time": 43291, "Series": -1, "Info": "1 x Kính Hoa Khải" },
+            { "ItemID": 14132, "Rate": -1, "Sex": "1", "Forge": 14, "IsPreview": true, "Time": 43291, "Series": -1, "Info": "1 x Tích Lịch Kim Phượng Giáp" },
+            { "ItemID": 14133, "Rate": -1, "Sex": "0", "Forge": 14, "IsPreview": true, "Time": 43291, "Series": -1, "Info": "1 x Võ Hầu Thúc Đái" },
+            { "ItemID": 14134, "Rate": -1, "Sex": "1", "Forge": 14, "IsPreview": true, "Time": 43291, "Series": -1, "Info": "1 x Việt Nữ Ngọc Đái" },
+            { "ItemID": 14135, "Rate": -1, "Sex": "0", "Forge": 14, "IsPreview": true, "Time": 43291, "Series": -1, "Info": "1 x Thiên Tàm Hộ Uyển" },
+            { "ItemID": 14136, "Rate": -1, "Sex": "1", "Forge": 14, "IsPreview": true, "Time": 43291, "Series": -1, "Info": "1 x Long Phượng Huyết Ngọc Trạc" },
+            { "ItemID": 14137, "Rate": -1, "Sex": "0", "Forge": 14, "IsPreview": true, "Time": 43291, "Series": -1, "Info": "1 x Thiên Tàm Ngoa" },
+            { "ItemID": 14138, "Rate": -1, "Sex": "1", "Forge": 14, "IsPreview": true, "Time": 43291, "Series": -1, "Info": "1 x Phi Phượng Ngoa" },
+            { "ItemID": 14139, "Rate": -1, "Forge": 14, "IsPreview": true, "Time": 43291, "Series": -1, "Info": "1 x Triều Lộ Liên" },
+            { "ItemID": 14140, "Rate": -1, "Forge": 14, "IsPreview": true, "Time": 43291, "Series": -1, "Info": "1 x Ứng Long Giới" },
+            { "ItemID": 14141, "Rate": -1, "Sex": "0", "Forge": 14, "IsPreview": true, "Time": 43291, "Series": -1, "Info": "1 x Bắc Minh Bội" },
+            { "ItemID": 14142, "Rate": -1, "Sex": "1", "Forge": 14, "IsPreview": true, "Time": 43291, "Series": -1, "Info": "1 x Long Diên Hương Nang" },
+            { "ItemID": 14143, "Rate": -1, "Forge": 14, "IsPreview": true, "Time": 43291, "Series": -1, "Info": "1 x Tiên Duyên Phù" }
+        ]
+    },
+    {
+        "IDBox": 200275,
+        "BoxName": "Rương Anh hùng trở về +12 - Côn Lôn",
+        "Items": [
+            { "ItemID": 14144, "Rate": -1, "Forge": 12, "IsPreview": true, "Time": 43291, "Series": -1, "Info": "1 x Yển Nguyệt Đao" },
+            { "ItemID": 14128, "Rate": -1, "Forge": 12, "IsPreview": true, "Time": 43291, "Series": -1, "Info": "1 x Long Uyên Kiếm" },
+            { "ItemID": 14129, "Rate": -1, "Sex": "0", "Forge": 12, "IsPreview": true, "Time": 43291, "Series": -1, "Info": "1 x Thông Thiên Phát Quán" },
+            { "ItemID": 14130, "Rate": -1, "Sex": "1", "Forge": 12, "IsPreview": true, "Time": 43291, "Series": -1, "Info": "1 x Trường Sinh Phát Kết" },
+            { "ItemID": 14131, "Rate": -1, "Sex": "0", "Forge": 12, "IsPreview": true, "Time": 43291, "Series": -1, "Info": "1 x Kính Hoa Khải" },
+            { "ItemID": 14132, "Rate": -1, "Sex": "1", "Forge": 12, "IsPreview": true, "Time": 43291, "Series": -1, "Info": "1 x Tích Lịch Kim Phượng Giáp" },
+            { "ItemID": 14133, "Rate": -1, "Sex": "0", "Forge": 12, "IsPreview": true, "Time": 43291, "Series": -1, "Info": "1 x Võ Hầu Thúc Đái" },
+            { "ItemID": 14134, "Rate": -1, "Sex": "1", "Forge": 12, "IsPreview": true, "Time": 43291, "Series": -1, "Info": "1 x Việt Nữ Ngọc Đái" },
+            { "ItemID": 14135, "Rate": -1, "Sex": "0", "Forge": 12, "IsPreview": true, "Time": 43291, "Series": -1, "Info": "1 x Thiên Tàm Hộ Uyển" },
+            { "ItemID": 14136, "Rate": -1, "Sex": "1", "Forge": 12, "IsPreview": true, "Time": 43291, "Series": -1, "Info": "1 x Long Phượng Huyết Ngọc Trạc" },
+            { "ItemID": 14137, "Rate": -1, "Sex": "0", "Forge": 12, "IsPreview": true, "Time": 43291, "Series": -1, "Info": "1 x Thiên Tàm Ngoa" },
+            { "ItemID": 14138, "Rate": -1, "Sex": "1", "Forge": 12, "IsPreview": true, "Time": 43291, "Series": -1, "Info": "1 x Phi Phượng Ngoa" },
+            { "ItemID": 14139, "Rate": -1, "Forge": 12, "IsPreview": true, "Time": 43291, "Series": -1, "Info": "1 x Triều Lộ Liên" },
+            { "ItemID": 14140, "Rate": -1, "Forge": 12, "IsPreview": true, "Time": 43291, "Series": -1, "Info": "1 x Ứng Long Giới" },
+            { "ItemID": 14141, "Rate": -1, "Sex": "0", "Forge": 12, "IsPreview": true, "Time": 43291, "Series": -1, "Info": "1 x Bắc Minh Bội" },
+            { "ItemID": 14142, "Rate": -1, "Sex": "1", "Forge": 12, "IsPreview": true, "Time": 43291, "Series": -1, "Info": "1 x Long Diên Hương Nang" },
+            { "ItemID": 14143, "Rate": -1, "Forge": 12, "IsPreview": true, "Time": 43291, "Series": -1, "Info": "1 x Tiên Duyên Phù" }
+        ]
+    },
+    {
+        "IDBox": 200276,
+        "BoxName": "Rương Anh hùng trở về +14 - Côn Lôn",
+        "Items": [
+            { "ItemID": 14144, "Rate": -1, "Forge": 14, "IsPreview": true, "Time": 43291, "Series": -1, "Info": "1 x Yển Nguyệt Đao" },
+            { "ItemID": 14128, "Rate": -1, "Forge": 14, "IsPreview": true, "Time": 43291, "Series": -1, "Info": "1 x Long Uyên Kiếm" },
+            { "ItemID": 14129, "Rate": -1, "Sex": "0", "Forge": 14, "IsPreview": true, "Time": 43291, "Series": -1, "Info": "1 x Thông Thiên Phát Quán" },
+            { "ItemID": 14130, "Rate": -1, "Sex": "1", "Forge": 14, "IsPreview": true, "Time": 43291, "Series": -1, "Info": "1 x Trường Sinh Phát Kết" },
+            { "ItemID": 14131, "Rate": -1, "Sex": "0", "Forge": 14, "IsPreview": true, "Time": 43291, "Series": -1, "Info": "1 x Kính Hoa Khải" },
+            { "ItemID": 14132, "Rate": -1, "Sex": "1", "Forge": 14, "IsPreview": true, "Time": 43291, "Series": -1, "Info": "1 x Tích Lịch Kim Phượng Giáp" },
+            { "ItemID": 14133, "Rate": -1, "Sex": "0", "Forge": 14, "IsPreview": true, "Time": 43291, "Series": -1, "Info": "1 x Võ Hầu Thúc Đái" },
+            { "ItemID": 14134, "Rate": -1, "Sex": "1", "Forge": 14, "IsPreview": true, "Time": 43291, "Series": -1, "Info": "1 x Việt Nữ Ngọc Đái" },
+            { "ItemID": 14135, "Rate": -1, "Sex": "0", "Forge": 14, "IsPreview": true, "Time": 43291, "Series": -1, "Info": "1 x Thiên Tàm Hộ Uyển" },
+            { "ItemID": 14136, "Rate": -1, "Sex": "1", "Forge": 14, "IsPreview": true, "Time": 43291, "Series": -1, "Info": "1 x Long Phượng Huyết Ngọc Trạc" },
+            { "ItemID": 14137, "Rate": -1, "Sex": "0", "Forge": 14, "IsPreview": true, "Time": 43291, "Series": -1, "Info": "1 x Thiên Tàm Ngoa" },
+            { "ItemID": 14138, "Rate": -1, "Sex": "1", "Forge": 14, "IsPreview": true, "Time": 43291, "Series": -1, "Info": "1 x Phi Phượng Ngoa" },
+            { "ItemID": 14139, "Rate": -1, "Forge": 14, "IsPreview": true, "Time": 43291, "Series": -1, "Info": "1 x Triều Lộ Liên" },
+            { "ItemID": 14140, "Rate": -1, "Forge": 14, "IsPreview": true, "Time": 43291, "Series": -1, "Info": "1 x Ứng Long Giới" },
+            { "ItemID": 14141, "Rate": -1, "Sex": "0", "Forge": 14, "IsPreview": true, "Time": 43291, "Series": -1, "Info": "1 x Bắc Minh Bội" },
+            { "ItemID": 14142, "Rate": -1, "Sex": "1", "Forge": 14, "IsPreview": true, "Time": 43291, "Series": -1, "Info": "1 x Long Diên Hương Nang" },
+            { "ItemID": 14143, "Rate": -1, "Forge": 14, "IsPreview": true, "Time": 43291, "Series": -1, "Info": "1 x Tiên Duyên Phù" }
+        ]
+    },
+    {
+        "IDBox": 200277,
+        "BoxName": "Rương Anh hùng trở về +12 - Minh Giáo",
+        "Items": [
+            { "ItemID": 14090, "Rate": -1, "Forge": 12, "IsPreview": true, "Time": 43291, "Series": -1, "Info": "1 x Long Uyên Kiếm" },
+            { "ItemID": 14145, "Rate": -1, "Forge": 12, "IsPreview": true, "Time": 43291, "Series": -1, "Info": "1 x Phá Thiên Chùy" },
+            { "ItemID": 14146, "Rate": -1, "Sex": "0", "Forge": 12, "IsPreview": true, "Time": 43291, "Series": -1, "Info": "1 x Tu La Phát Kết" },
+            { "ItemID": 14147, "Rate": -1, "Sex": "1", "Forge": 12, "IsPreview": true, "Time": 43291, "Series": -1, "Info": "1 x Huyền Tê Diện Tráo" },
+            { "ItemID": 14148, "Rate": -1, "Sex": "0", "Forge": 12, "IsPreview": true, "Time": 43291, "Series": -1, "Info": "1 x Kính Hoa Khải" },
+            { "ItemID": 14149, "Rate": -1, "Sex": "1", "Forge": 12, "IsPreview": true, "Time": 43291, "Series": -1, "Info": "1 x Tích Lịch Kim Phượng Giáp" },
+            { "ItemID": 14150, "Rate": -1, "Sex": "0", "Forge": 12, "IsPreview": true, "Time": 43291, "Series": -1, "Info": "1 x Võ Hầu Thúc Đái" },
+            { "ItemID": 14151, "Rate": -1, "Sex": "1", "Forge": 12, "IsPreview": true, "Time": 43291, "Series": -1, "Info": "1 x Việt Nữ Ngọc Đái" },
+            { "ItemID": 14152, "Rate": -1, "Sex": "0", "Forge": 12, "IsPreview": true, "Time": 43291, "Series": -1, "Info": "1 x Thiên Tàm Hộ Uyển" },
+            { "ItemID": 14153, "Rate": -1, "Sex": "1", "Forge": 12, "IsPreview": true, "Time": 43291, "Series": -1, "Info": "1 x Long Phượng Huyết Ngọc Trạc" },
+            { "ItemID": 14154, "Rate": -1, "Sex": "0", "Forge": 12, "IsPreview": true, "Time": 43291, "Series": -1, "Info": "1 x Thiên Tàm Ngoa" },
+            { "ItemID": 14155, "Rate": -1, "Sex": "1", "Forge": 12, "IsPreview": true, "Time": 43291, "Series": -1, "Info": "1 x Phi Phượng Ngoa" },
+            { "ItemID": 14156, "Rate": -1, "Forge": 12, "IsPreview": true, "Time": 43291, "Series": -1, "Info": "1 x Triều Lộ Liên" },
+            { "ItemID": 14157, "Rate": -1, "Forge": 12, "IsPreview": true, "Time": 43291, "Series": -1, "Info": "1 x Ứng Long Giới" },
+            { "ItemID": 14158, "Rate": -1, "Sex": "0", "Forge": 12, "IsPreview": true, "Time": 43291, "Series": -1, "Info": "1 x Bắc Minh Bội" },
+            { "ItemID": 14159, "Rate": -1, "Sex": "1", "Forge": 12, "IsPreview": true, "Time": 43291, "Series": -1, "Info": "1 x Long Diên Hương Nang" },
+            { "ItemID": 14160, "Rate": -1, "Forge": 12, "IsPreview": true, "Time": 43291, "Series": -1, "Info": "1 x Tiên Duyên Phù" }
+        ]
+    },
+    {
+        "IDBox": 200278,
+        "BoxName": "Rương Anh hùng trở về +14 - Minh Giáo",
+        "Items": [
+            { "ItemID": 14090, "Rate": -1, "Forge": 14, "IsPreview": true, "Time": 43291, "Series": -1, "Info": "1 x Long Uyên Kiếm" },
+            { "ItemID": 14145, "Rate": -1, "Forge": 14, "IsPreview": true, "Time": 43291, "Series": -1, "Info": "1 x Phá Thiên Chùy" },
+            { "ItemID": 14146, "Rate": -1, "Sex": "0", "Forge": 14, "IsPreview": true, "Time": 43291, "Series": -1, "Info": "1 x Tu La Phát Kết" },
+            { "ItemID": 14147, "Rate": -1, "Sex": "1", "Forge": 14, "IsPreview": true, "Time": 43291, "Series": -1, "Info": "1 x Huyền Tê Diện Tráo" },
+            { "ItemID": 14148, "Rate": -1, "Sex": "0", "Forge": 14, "IsPreview": true, "Time": 43291, "Series": -1, "Info": "1 x Kính Hoa Khải" },
+            { "ItemID": 14149, "Rate": -1, "Sex": "1", "Forge": 14, "IsPreview": true, "Time": 43291, "Series": -1, "Info": "1 x Tích Lịch Kim Phượng Giáp" },
+            { "ItemID": 14150, "Rate": -1, "Sex": "0", "Forge": 14, "IsPreview": true, "Time": 43291, "Series": -1, "Info": "1 x Võ Hầu Thúc Đái" },
+            { "ItemID": 14151, "Rate": -1, "Sex": "1", "Forge": 14, "IsPreview": true, "Time": 43291, "Series": -1, "Info": "1 x Việt Nữ Ngọc Đái" },
+            { "ItemID": 14152, "Rate": -1, "Sex": "0", "Forge": 14, "IsPreview": true, "Time": 43291, "Series": -1, "Info": "1 x Thiên Tàm Hộ Uyển" },
+            { "ItemID": 14153, "Rate": -1, "Sex": "1", "Forge": 14, "IsPreview": true, "Time": 43291, "Series": -1, "Info": "1 x Long Phượng Huyết Ngọc Trạc" },
+            { "ItemID": 14154, "Rate": -1, "Sex": "0", "Forge": 14, "IsPreview": true, "Time": 43291, "Series": -1, "Info": "1 x Thiên Tàm Ngoa" },
+            { "ItemID": 14155, "Rate": -1, "Sex": "1", "Forge": 14, "IsPreview": true, "Time": 43291, "Series": -1, "Info": "1 x Phi Phượng Ngoa" },
+            { "ItemID": 14156, "Rate": -1, "Forge": 14, "IsPreview": true, "Time": 43291, "Series": -1, "Info": "1 x Triều Lộ Liên" },
+            { "ItemID": 14157, "Rate": -1, "Forge": 14, "IsPreview": true, "Time": 43291, "Series": -1, "Info": "1 x Ứng Long Giới" },
+            { "ItemID": 14158, "Rate": -1, "Sex": "0", "Forge": 14, "IsPreview": true, "Time": 43291, "Series": -1, "Info": "1 x Bắc Minh Bội" },
+            { "ItemID": 14159, "Rate": -1, "Sex": "1", "Forge": 14, "IsPreview": true, "Time": 43291, "Series": -1, "Info": "1 x Long Diên Hương Nang" },
+            { "ItemID": 14160, "Rate": -1, "Forge": 14, "IsPreview": true, "Time": 43291, "Series": -1, "Info": "1 x Tiên Duyên Phù" }
+        ]
+    },
+    {
+        "IDBox": 200279,
+        "BoxName": "Rương Anh hùng trở về +12 - Đoàn Thị",
+        "Items": [
+            { "ItemID": 14161, "Rate": -1, "Forge": 12, "IsPreview": true, "Time": 43291, "Series": -1, "Info": "1 x Thanh Long Triền Thủ" },
+            { "ItemID": 14090, "Rate": -1, "Forge": 12, "IsPreview": true, "Time": 43291, "Series": -1, "Info": "1 x Long Uyên Kiếm" },
+            { "ItemID": 14092, "Rate": -1, "Sex": "0", "Forge": 12, "IsPreview": true, "Time": 43291, "Series": -1, "Info": "1 x Thông Thiên Phát Quán" },
+            { "ItemID": 14093, "Rate": -1, "Sex": "1", "Forge": 12, "IsPreview": true, "Time": 43291, "Series": -1, "Info": "1 x Trường Sinh Phát Kết" },
+            { "ItemID": 14094, "Rate": -1, "Sex": "0", "Forge": 12, "IsPreview": true, "Time": 43291, "Series": -1, "Info": "1 x Kính Hoa Khải" },
+            { "ItemID": 14095, "Rate": -1, "Sex": "1", "Forge": 12, "IsPreview": true, "Time": 43291, "Series": -1, "Info": "1 x Tích Lịch Kim Phượng Giáp" },
+            { "ItemID": 14096, "Rate": -1, "Sex": "0", "Forge": 12, "IsPreview": true, "Time": 43291, "Series": -1, "Info": "1 x Võ Hầu Thúc Đái" },
+            { "ItemID": 14097, "Rate": -1, "Sex": "1", "Forge": 12, "IsPreview": true, "Time": 43291, "Series": -1, "Info": "1 x Việt Nữ Ngọc Đái" },
+            { "ItemID": 14098, "Rate": -1, "Sex": "0", "Forge": 12, "IsPreview": true, "Time": 43291, "Series": -1, "Info": "1 x Thiên Tàm Hộ Uyển" },
+            { "ItemID": 14099, "Rate": -1, "Sex": "1", "Forge": 12, "IsPreview": true, "Time": 43291, "Series": -1, "Info": "1 x Long Phượng Huyết Ngọc Trạc" },
+            { "ItemID": 14100, "Rate": -1, "Sex": "0", "Forge": 12, "IsPreview": true, "Time": 43291, "Series": -1, "Info": "1 x Thiên Tàm Ngoa" },
+            { "ItemID": 14101, "Rate": -1, "Sex": "1", "Forge": 12, "IsPreview": true, "Time": 43291, "Series": -1, "Info": "1 x Phi Phượng Ngoa" },
+            { "ItemID": 14102, "Rate": -1, "Forge": 12, "IsPreview": true, "Time": 43291, "Series": -1, "Info": "1 x Triều Lộ Liên" },
+            { "ItemID": 14103, "Rate": -1, "Forge": 12, "IsPreview": true, "Time": 43291, "Series": -1, "Info": "1 x Ứng Long Giới" },
+            { "ItemID": 14104, "Rate": -1, "Sex": "0", "Forge": 12, "IsPreview": true, "Time": 43291, "Series": -1, "Info": "1 x Bắc Minh Bội" },
+            { "ItemID": 14105, "Rate": -1, "Sex": "1", "Forge": 12, "IsPreview": true, "Time": 43291, "Series": -1, "Info": "1 x Long Diên Hương Nang" },
+            { "ItemID": 14106, "Rate": -1, "Forge": 12, "IsPreview": true, "Time": 43291, "Series": -1, "Info": "1 x Tiên Duyên Phù" }
+        ]
+    },
+    {
+        "IDBox": 200280,
+        "BoxName": "Rương Anh hùng trở về +14 - Đoàn Thị",
+        "Items": [
+            { "ItemID": 14161, "Rate": -1, "Forge": 14, "IsPreview": true, "Time": 43291, "Series": -1, "Info": "1 x Thanh Long Triền Thủ" },
+            { "ItemID": 14090, "Rate": -1, "Forge": 14, "IsPreview": true, "Time": 43291, "Series": -1, "Info": "1 x Long Uyên Kiếm" },
+            { "ItemID": 14092, "Rate": -1, "Sex": "0", "Forge": 14, "IsPreview": true, "Time": 43291, "Series": -1, "Info": "1 x Thông Thiên Phát Quán" },
+            { "ItemID": 14093, "Rate": -1, "Sex": "1", "Forge": 14, "IsPreview": true, "Time": 43291, "Series": -1, "Info": "1 x Trường Sinh Phát Kết" },
+            { "ItemID": 14094, "Rate": -1, "Sex": "0", "Forge": 14, "IsPreview": true, "Time": 43291, "Series": -1, "Info": "1 x Kính Hoa Khải" },
+            { "ItemID": 14095, "Rate": -1, "Sex": "1", "Forge": 14, "IsPreview": true, "Time": 43291, "Series": -1, "Info": "1 x Tích Lịch Kim Phượng Giáp" },
+            { "ItemID": 14096, "Rate": -1, "Sex": "0", "Forge": 14, "IsPreview": true, "Time": 43291, "Series": -1, "Info": "1 x Võ Hầu Thúc Đái" },
+            { "ItemID": 14097, "Rate": -1, "Sex": "1", "Forge": 14, "IsPreview": true, "Time": 43291, "Series": -1, "Info": "1 x Việt Nữ Ngọc Đái" },
+            { "ItemID": 14098, "Rate": -1, "Sex": "0", "Forge": 14, "IsPreview": true, "Time": 43291, "Series": -1, "Info": "1 x Thiên Tàm Hộ Uyển" },
+            { "ItemID": 14099, "Rate": -1, "Sex": "1", "Forge": 14, "IsPreview": true, "Time": 43291, "Series": -1, "Info": "1 x Long Phượng Huyết Ngọc Trạc" },
+            { "ItemID": 14100, "Rate": -1, "Sex": "0", "Forge": 14, "IsPreview": true, "Time": 43291, "Series": -1, "Info": "1 x Thiên Tàm Ngoa" },
+            { "ItemID": 14101, "Rate": -1, "Sex": "1", "Forge": 14, "IsPreview": true, "Time": 43291, "Series": -1, "Info": "1 x Phi Phượng Ngoa" },
+            { "ItemID": 14102, "Rate": -1, "Forge": 14, "IsPreview": true, "Time": 43291, "Series": -1, "Info": "1 x Triều Lộ Liên" },
+            { "ItemID": 14103, "Rate": -1, "Forge": 14, "IsPreview": true, "Time": 43291, "Series": -1, "Info": "1 x Ứng Long Giới" },
+            { "ItemID": 14104, "Rate": -1, "Sex": "0", "Forge": 14, "IsPreview": true, "Time": 43291, "Series": -1, "Info": "1 x Bắc Minh Bội" },
+            { "ItemID": 14105, "Rate": -1, "Sex": "1", "Forge": 14, "IsPreview": true, "Time": 43291, "Series": -1, "Info": "1 x Long Diên Hương Nang" },
+            { "ItemID": 14106, "Rate": -1, "Forge": 14, "IsPreview": true, "Time": 43291, "Series": -1, "Info": "1 x Tiên Duyên Phù" }
+        ]
+    },
+    { "IDBox": 200281, "BoxName": "Rương thú cưỡi [Tái Xuất Giang Hồ]", "Items": [{ "ItemID": 20193, "Rate": -1, "Time": 21601, "Info": "1 x Tuyết Hồn [Tái Xuất Giang Hồ]", "IsPreview": true }] },
+    {
+        "IDBox": 200282,
+        "BoxName": "Rương hỗ trợ [Tái Xuất Giang Hồ]",
+        "Items": [
+            { "ItemID": 192, "Number": 2, "Rate": -1, "Info": "2 x Huyền Tinh hoàn mỹ (cấp 10)", "IsPreview": true },
+            { "ItemID": 20270, "Rate": -1, "Info": "1 x Thiệp vàng (cấp 3)", "IsPreview": true },
+            { "ItemID": 931, "Rate": -1, "Info": "1 x Bổ Tu Lệnh", "IsPreview": true },
+            { "ItemID": 15013, "Number": 1, "Rate": -1, "Info": "1 x Túi Cẩm Ti", "IsPreview": true },
+            { "ItemID": 15013, "Number": 1, "Rate": -1, "Info": "1 x Túi Cẩm Ti", "IsPreview": true },
+            { "ItemID": 15013, "Number": 1, "Rate": -1, "Info": "1 x Túi Cẩm Ti", "IsPreview": true },
+            { "ItemID": 20051, "Number": 100, "Rate": -1, "Info": "100 x Rương Mảnh trang bị đồng hành", "IsPreview": true }
+        ]
+    },
+    {
+        "IDBox": 200283,
+        "BoxName": "Rương hỗ trợ [Tái Xuất Giang Hồ]",
+        "Hint": "Cụm 4",
+        "Items": [
+            { "ItemID": 192, "Number": 1, "Rate": -1, "Info": "1 x Huyền Tinh hoàn mỹ (cấp 10)", "IsPreview": true },
+            { "ItemID": 20270, "Rate": -1, "Info": "1 x Thiệp vàng (cấp 3)", "IsPreview": true },
+            { "ItemID": 931, "Rate": -1, "Info": "1 x Bổ Tu Lệnh", "IsPreview": true },
+            { "ItemID": 15013, "Number": 1, "Rate": -1, "Info": "1 x Túi Cẩm Ti", "IsPreview": true },
+            { "ItemID": 15013, "Number": 1, "Rate": -1, "Info": "1 x Túi Cẩm Ti", "IsPreview": true },
+            { "ItemID": 15013, "Number": 1, "Rate": -1, "Info": "1 x Túi Cẩm Ti", "IsPreview": true },
+            { "ItemID": 20051, "Number": 100, "Rate": -1, "Info": "100 x Rương Mảnh trang bị đồng hành", "IsPreview": true }
+        ]
+    },
+    { "IDBox": 200284, "BoxName": "Danh hiệu Võ Lâm Minh Chủ", "Items": [{ "ItemID": 8, "Number": 136, "Rate": -1, "Info": "136 x Danh hiệu" }] },
+    {
+        "IDBox": 200285,
+        "BoxName": "Rương thú cưỡi - Thỏ Ngọc (60 ngày)",
+        "Items": [{ "ItemID": 15242, "Rate": -1, "Time": 86401, "ExpiryDate": "2024-12-11 05:00:00", "Info": "1 x Thỏ Ngọc [Sự kiện Dạ Thu Thưởng Nguyệt] - Cấp 1" }]
+    },
+    {
+        "IDBox": 200286,
+        "BoxName": "Rương thú cưỡi - Sứ Giả Truy Phong (15 ngày)",
+        "Items": [{ "ItemID": 20194, "Rate": -1, "Time": 21601, "ExpiryDate": "2024-03-15 05:00:00", "Info": "1 x Sứ giả Truy phong (VIP) - Sự kiện Tết 2024" }]
+    },
+    { "IDBox": 200287, "BoxName": "Nhân Sâm Đại Bổ Tán - Rương", "Items": [{ "ItemID": 13088, "Number": 100, "Rate": -1, "Info": "100 x Nhân Sâm Đại Bổ Tán", "IsPreview": true }] },
+    { "IDBox": 200288, "BoxName": "Nhân Sâm Tục Mệnh Hoàn - Rương", "Items": [{ "ItemID": 13089, "Number": 100, "Rate": -1, "Info": "100 x Nhân Sâm Tục Mệnh Hoàn", "IsPreview": true }] },
+    { "IDBox": 200289, "BoxName": "Tuyết Liên Ngưng Thần Đơn - Rương", "Items": [{ "ItemID": 13090, "Number": 100, "Rate": -1, "Info": "100 x Tuyết Liên Ngưng Thần Đơn", "IsPreview": true }] },
+    { "IDBox": 200290, "BoxName": "Tuyết Liên Phản Khí Hoàn - Rương", "Items": [{ "ItemID": 13091, "Number": 100, "Rate": -1, "Info": "100 x Tuyết Liên Phản Khí Hoàn", "IsPreview": true }] },
+    { "IDBox": 200291, "BoxName": "Ích Thọ Ngọc Lộ Hoàn - Rương", "Items": [{ "ItemID": 13092, "Number": 100, "Rate": -1, "Info": "100 x Ích Thọ Ngọc Lộ Hoàn", "IsPreview": true }] },
+    { "IDBox": 200292, "BoxName": "Ích Thọ Đại Hoàn Đơn - Rương", "Items": [{ "ItemID": 13093, "Number": 100, "Rate": -1, "Info": "100 x Ích Thọ Đại Hoàn Đơn", "IsPreview": true }] },
+    {
+        "IDBox": 200314,
+        "BoxName": "Rương trang bị đồng hành (sơ cấp)",
+        "Items": [
+            { "ItemID": 25103, "Rate": 25, "Number": 1, "Info": "1 x Phù Đồng Hành - Bích Huyết", "IsPreview": true },
+            { "ItemID": 25107, "Rate": 25, "Number": 1, "Info": "1 x Y Phục Đồng Hành - Bích Huyết", "IsPreview": true },
+            { "ItemID": 25139, "Rate": 10, "Number": 1, "Info": "1 x Vũ khí đồng hành - Bích Huyết", "IsPreview": true },
+            { "ItemID": 25119, "Rate": 25, "Number": 1, "Info": "1 x Hộ uyển Đồng Hành - Bích Huyết", "IsPreview": true },
+            { "ItemID": 25135, "Rate": 15, "Number": 1, "Info": "1 x Nhẫn Đồng Hành - Bích Huyết", "IsPreview": true }
+        ]
+    },
+    {
+        "IDBox": 200339,
+        "BoxName": "Rương người yêu",
+        "Items": [
+            { "ItemID": 189, "Rate": 26, "Number": 1, "Info": "1 x Huyền Tinh thường (cấp 7)", "IsPreview": true },
+            { "ItemID": 190, "Rate": 5, "Number": 1, "Info": "1 x Huyền Tinh có tì vết (cấp 8)", "IsPreview": true },
+            { "ItemID": 191, "Rate": 1.5, "Number": 1, "Info": "1 x Huyền Tinh vô hạ (cấp 9)", "IsPreview": true },
+            { "ItemID": 192, "Rate": 0.5, "Number": 1, "Info": "1 x Huyền Tinh hoàn mỹ (cấp 10)", "IsPreview": true },
+            { "ItemID": 1054, "Rate": 25, "Number": 10, "Info": "10 x Thiệp lụa (cấp 1)", "IsPreview": true },
+            { "ItemID": 1055, "Rate": 8, "Number": 3, "Info": "3 x Thiệp bạc (cấp 2)", "IsPreview": true },
+            { "ItemID": 20270, "Rate": 2, "Number": 1, "Info": "1 x Thiệp vàng (cấp 3)", "IsPreview": true },
+            { "ItemID": 506, "Rate": 5, "Number": 100, "Info": "100 x Ngũ Hành Hồn Thạch", "IsPreview": true },
+            { "ItemID": 1057, "Rate": 25, "Number": 5, "Info": "5 x Sách kinh nghiệm đồng hành", "IsPreview": true },
+            { "ItemID": 1058, "Rate": 2, "Number": 1, "Info": "1 x Sách kinh nghiệm đồng hành (Truyền thuyết)", "IsPreview": true }
+        ]
+    },
+    { "IDBox": 200340, "BoxName": "Danh hiệu Ngoan Xinh Yêu", "Items": [{ "ItemID": 8, "Number": 141, "Rate": -1, "Info": "141 x Danh hiệu" }] },
+    {
+        "IDBox": 200341,
+        "BoxName": "Gói hỗ trợ gộp máy chủ (VIP)",
+        "Items": [
+            { "ItemID": 192, "Rate": -1, "Number": 3, "Info": "3 x Huyền Tinh hoàn mỹ (cấp 10)", "IsPreview": true },
+            { "ItemID": 20379, "Rate": -1, "Number": 100, "Info": "100 x Rương mảnh trang bị đồng hành (trung cấp)", "IsPreview": true },
+            { "ItemID": 931, "Rate": -1, "Number": 1, "Info": "1 x Bổ Tu Lệnh", "IsPreview": true },
+            { "ItemID": 20363, "Rate": 70, "Number": 1, "Info": "1 x Bùa may mắn đồng hành (Trung)", "IsPreview": true },
+            { "ItemID": 20364, "Rate": 20, "Number": 1, "Info": "1 x Bùa may mắn đồng hành (Cao)", "IsPreview": true },
+            { "ItemID": 20365, "Rate": 10, "Number": 1, "Info": "1 x Bùa may mắn đồng hành (Siêu cấp)", "IsPreview": true }
+        ]
+    },
+    {
+        "IDBox": 200342,
+        "BoxName": "Gói hỗ trợ gộp máy chủ (VIP)",
+        "Items": [
+            { "ItemID": 192, "Rate": -1, "Number": 2, "Info": "2 x Huyền Tinh hoàn mỹ (cấp 10)", "IsPreview": true },
+            { "ItemID": 20379, "Rate": -1, "Number": 100, "Info": "100 x Rương mảnh trang bị đồng hành (trung cấp)", "IsPreview": true },
+            { "ItemID": 931, "Rate": -1, "Number": 1, "Info": "1 x Bổ Tu Lệnh", "IsPreview": true },
+            { "ItemID": 20363, "Rate": 70, "Number": 1, "Info": "1 x Bùa may mắn đồng hành (Trung)", "IsPreview": true },
+            { "ItemID": 20364, "Rate": 20, "Number": 1, "Info": "1 x Bùa may mắn đồng hành (Cao)", "IsPreview": true },
+            { "ItemID": 20365, "Rate": 10, "Number": 1, "Info": "1 x Bùa may mắn đồng hành (Siêu cấp)", "IsPreview": true }
+        ]
+    },
+    {
+        "IDBox": 200351,
+        "BoxName": "Rương mảnh trang bị đồng hành (đặc biệt)",
+        "Items": [
+            { "ItemID": 25163, "Rate": 34, "Number": 1, "Info": "1 x Mảnh Mũ Đồng Hành - Bích Huyết" },
+            { "ItemID": 25151, "Rate": 33, "Number": 1, "Info": "1 x Mảnh Đai Lưng Đồng Hành - Bích Huyết" },
+            { "ItemID": 25167, "Rate": 33, "Number": 1, "Info": "1 x Mảnh Hạng liên Đồng Hành - Bích Huyết" }
+        ]
+    },
+    {
+        "IDBox": 200352,
+        "BoxName": "Rương bùa may mắn đồng hành (sơ)",
+        "Items": [
+            { "ItemID": 20362, "Rate": 76, "Number": 1, "Info": "1 x Bùa may mắn đồng hành (Sơ)", "IsPreview": true },
+            { "ItemID": 20363, "Rate": 20, "Number": 1, "Info": "1 x Bùa may mắn đồng hành (Trung)", "IsPreview": true },
+            { "ItemID": 20364, "Rate": 4, "Number": 1, "Info": "1 x Bùa may mắn đồng hành (Cao)", "IsPreview": true }
+        ]
+    },
+    {
+        "IDBox": 200353,
+        "BoxName": "Rương bùa may mắn đồng hành (trung)",
+        "Items": [
+            { "ItemID": 20363, "Rate": 70, "Number": 1, "Info": "1 x Bùa may mắn đồng hành (Trung)", "IsPreview": true },
+            { "ItemID": 20364, "Rate": 20, "Number": 1, "Info": "1 x Bùa may mắn đồng hành (Cao)", "IsPreview": true },
+            { "ItemID": 20365, "Rate": 10, "Number": 1, "Info": "1 x Bùa may mắn đồng hành (Siêu cấp)", "IsPreview": true }
+        ]
+    },
+    {
+        "IDBox": 200354,
+        "BoxName": "Rương bùa may mắn đồng hành (cao)",
+        "Items": [
+            { "ItemID": 20364, "Rate": 70, "Number": 1, "Info": "1 x Bùa may mắn đồng hành (Cao)", "IsPreview": true },
+            { "ItemID": 20365, "Rate": 20, "Number": 1, "Info": "1 x Bùa may mắn đồng hành (Siêu cấp)", "IsPreview": true },
+            { "ItemID": 20366, "Rate": 10, "Number": 1, "Info": "1 x Bùa may mắn đồng hành (Thần cấp)", "IsPreview": true }
+        ]
+    },
+    { "IDBox": 200355, "BoxName": "Mảnh lôi đình ấn (x10)", "Items": [{ "ItemID": 20345, "Rate": -1, "Number": 10, "Info": "10 x Mảnh Lôi đình ấn", "IsPreview": true }] },
+    {
+        "IDBox": 200356,
+        "BoxName": "Gói Ưu đãi Kết Đoàn",
+        "Items": [
+            { "ItemID": 190, "Rate": -1, "Number": 2, "Info": "2 x Huyền Tinh có tì vết (cấp 8)", "IsPreview": true },
+            { "ItemID": 20378, "Rate": -1, "Number": 15, "Info": "15 x Rương danh vọng (sơ cấp)", "IsPreview": true }
+        ]
+    },
+    { "IDBox": 200357, "BoxName": "Sách kinh nghiệm đồng hành (x10)", "Items": [{ "ItemID": 1057, "Rate": -1, "Number": 10, "Info": "10 x Sách kinh nghiệm đồng hành", "IsPreview": true }] },
+    { "IDBox": 200358, "BoxName": "Cờ chiến công (x10)", "Items": [{ "ItemID": 20344, "Rate": -1, "Number": 10, "Info": "10 x Cờ chiến công", "IsPreview": true }] },
+    {
+        "IDBox": 200360,
+        "BoxName": "Tinh hoạt lực (500)",
+        "Items": [
+            { "Info": "500 x Hoạt lực", "ItemID": 9, "Number": 500, "Rate": -1 },
+            { "Info": "500 x Tinh lực", "ItemID": 10, "Number": 500, "Rate": -1 }
+        ]
+    },
+    {
+        "IDBox": 200361,
+        "BoxName": "Tinh hoạt lực (1000)",
+        "Items": [
+            { "Info": "1000 x Hoạt lực", "ItemID": 9, "Number": 1000, "Rate": -1 },
+            { "Info": "1000 x Tinh lực", "ItemID": 10, "Number": 1000, "Rate": -1 }
+        ]
+    },
+    {
+        "IDBox": 202000,
+        "BoxName": "Tinh hoạt lực (5000)",
+        "Items": [
+            { "Info": "5000 x Hoạt lực", "ItemID": 9, "Number": 5000, "Rate": -1 },
+            { "Info": "5000 x Tinh lực", "ItemID": 10, "Number": 5000, "Rate": -1 }
+        ]
+    },
+    {
+        "IDBox": 200362,
+        "BoxName": "Gói Ưu đãi Kết Đoàn (1)",
+        "Items": [
+            { "ItemID": 189, "Rate": -1, "Number": 2, "Info": "2 x Huyền Tinh thường (cấp 7)", "IsPreview": true },
+            { "ItemID": 20378, "Rate": -1, "Number": 10, "Info": "10 x Rương danh vọng (sơ cấp)", "IsPreview": true },
+            { "ItemID": 299, "Rate": -1, "Number": 2, "Info": "2 x Cường Hiệu Bạch Câu Hoàn", "IsPreview": true }
+        ]
+    },
+    {
+        "IDBox": 200363,
+        "BoxName": "Gói Ưu đãi Kết Đoàn (2)",
+        "Items": [
+            { "ItemID": 590, "Rate": -1, "Number": 1, "Info": "1 x Bản đồ bí cảnh", "IsPreview": true },
+            { "ItemID": 600, "Rate": -1, "Number": 2, "Info": "2 x Tu Luyện Đơn", "IsPreview": true }
+        ]
+    },
+    {
+        "IDBox": 200376,
+        "BoxName": "Một Vốn Bốn Lời - [Mốc 1]",
+        "Items": [
+            { "ItemID": 25219, "Rate": -1, "Time": 10081, "Info": "1 x Ấn đồng hành", "IsPreview": true },
+            { "ItemID": 1, "Rate": -1, "Number": 500000, "Info": "500000 x Bạc khóa", "IsPreview": true },
+            { "ItemID": 2, "Rate": -1, "Number": 100000, "Info": "100000 x Bạc", "IsPreview": true }
+        ]
+    },
+    {
+        "IDBox": 200377,
+        "BoxName": "Một Vốn Bốn Lời - [Mốc 2]",
+        "Items": [
+            { "ItemID": 1026, "Rate": -1, "Number": 5, "Info": "5 x Chiến Thư-Mật Thất Du Long", "IsPreview": true },
+            { "ItemID": 590, "Rate": -1, "Number": 1, "Info": "1 x Bản đồ bí cảnh", "IsPreview": true },
+            { "ItemID": 600, "Rate": -1, "Number": 1, "Info": "1 x Tu Luyện Đơn", "IsPreview": true }
+        ]
+    },
+    {
+        "IDBox": 200378,
+        "BoxName": "Một Vốn Bốn Lời - [Mốc 3]",
+        "Items": [
+            { "ItemID": 190, "Rate": -1, "Info": "1 x Huyền Tinh có tì vết (cấp 8)", "IsPreview": true },
+            { "ItemID": 11, "Rate": -1, "Number": 1000, "Info": "1000 x Tinh hoạt lực", "IsPreview": true }
+        ]
+    },
+    {
+        "IDBox": 200379,
+        "BoxName": "Một Vốn Bốn Lời - [Mốc 4]",
+        "Items": [
+            { "ItemID": 506, "Rate": -1, "Number": 300, "Info": "300 x Ngũ Hành Hồn Thạch", "IsPreview": true },
+            { "ItemID": 20051, "Number": 15, "Rate": -1, "Info": "15 x Rương Mảnh trang bị đồng hành", "IsPreview": true },
+            { "ItemID": 20378, "Rate": -1, "Number": 15, "Info": "15 x Rương danh vọng (sơ cấp)", "IsPreview": true }
+        ]
+    },
+    { "IDBox": 200380, "BoxName": "Rương thú cưỡi Ngọc Tiêu Dao (3 ngày)", "Items": [{ "ItemID": 20183, "Rate": -1, "Time": 4321, "Info": "1 x Ngọc Tiêu Dao" }] },
+    {
+        "IDBox": 200381,
+        "BoxName": "Rương Đạo tặc [Tinh Anh]",
+        "Items": [
+            {
+                "Info": "Huyền tinh",
+                "Rate": 20,
+                "Details": [
+                    { "ItemID": 188, "Rate": 76, "Info": "1 x Huyền Tinh có vết nứt (cấp 6)" },
+                    { "ItemID": 189, "Rate": 20, "Info": "1 x Huyền Tinh thường (cấp 7)" },
+                    { "ItemID": 190, "Rate": 4, "Info": "1 x Huyền Tinh có tì vết (cấp 8)" }
+                ]
+            },
+            {
+                "Info": "Thiệp đồng hành",
+                "Rate": 15,
+                "Details": [
+                    { "ItemID": 1055, "Rate": 80, "Info": "1 x Thiệp bạc (cấp 2)" },
+                    { "ItemID": 20270, "Rate": 16, "Info": "1 x Thiệp vàng (cấp 3)" },
+                    { "ItemID": 20406, "Rate": 4, "Info": "1 x Thiệp bạch kim (cấp 4)" }
+                ]
+            },
+            {
+                "Info": "Trang bị Đồng hành",
+                "Rate": 20,
+                "Details": [
+                    { "ItemID": 20051, "Number": 3, "Rate": 12, "Info": "3 x Rương Mảnh trang bị đồng hành" },
+                    { "ItemID": 20051, "Number": 4, "Rate": 11, "Info": "4 x Rương Mảnh trang bị đồng hành" },
+                    { "ItemID": 20051, "Number": 5, "Rate": 11, "Info": "5 x Rương Mảnh trang bị đồng hành" },
+                    { "ItemID": 20051, "Number": 6, "Rate": 11, "Info": "6 x Rương Mảnh trang bị đồng hành" },
+                    { "ItemID": 20051, "Number": 7, "Rate": 11, "Info": "7 x Rương Mảnh trang bị đồng hành" },
+                    { "ItemID": 20379, "Number": 2, "Rate": 11, "Info": "2 x Rương mảnh trang bị đồng hành (trung cấp)" },
+                    { "ItemID": 20379, "Number": 3, "Rate": 11, "Info": "3 x Rương mảnh trang bị đồng hành (trung cấp)" },
+                    { "ItemID": 20379, "Number": 4, "Rate": 11, "Info": "4 x Rương mảnh trang bị đồng hành (trung cấp)" },
+                    { "ItemID": 20379, "Number": 5, "Rate": 11, "Info": "5 x Rương mảnh trang bị đồng hành (trung cấp)" }
+                ]
+            },
+            {
+                "Info": "Tài nguyên khác",
+                "Rate": 20,
+                "Details": [
+                    { "ItemID": 1, "Number": 200000, "Rate": 25, "Info": "200000 x Bạc khóa" },
+                    { "ItemID": 2, "Number": 50000, "Rate": 25, "Info": "50000 x Bạc" },
+                    { "ItemID": 3, "Number": 500, "Rate": 25, "Info": "500 x KNB khóa" },
+                    { "ItemID": 5, "Number": 1500000, "Rate": 25, "Info": "1500000 x EXP" }
+                ]
+            },
+            { "Info": "Tu luyện", "Rate": 20, "Details": [{ "ItemID": 600, "Rate": 100, "Info": "1 x Tu Luyện Đơn" }] },
+            { "ItemID": -1, "Rate": 5, "Info": "1 x Không thưởng" }
+        ]
+    },
+    {
+        "IDBox": 200382,
+        "BoxName": "Rương Đạo tặc [Thủ Lĩnh]",
+        "Items": [
+            {
+                "Info": "Huyền tinh",
+                "Rate": 15,
+                "Details": [
+                    { "ItemID": 189, "Rate": 29, "Info": "1 x Huyền Tinh thường (cấp 7)" },
+                    { "ItemID": 190, "Rate": 60, "Info": "1 x Huyền Tinh có tì vết (cấp 8)" },
+                    { "ItemID": 191, "Rate": 10, "Info": "1 x Huyền Tinh vô hạ (cấp 9)" },
+                    { "ItemID": 192, "Rate": 1, "Info": "1 x Huyền Tinh hoàn mỹ (cấp 10)" }
+                ]
+            },
+            {
+                "Info": "Thiệp đồng hành",
+                "Rate": 14,
+                "Details": [
+                    { "ItemID": 20270, "Rate": 60, "Info": "1 x Thiệp vàng (cấp 3)" },
+                    { "ItemID": 20406, "Rate": 12, "Info": "1 x Thiệp bạch kim (cấp 4)" },
+                    { "ItemID": 1057, "Rate": 25, "Info": "1 x Sách kinh nghiệm đồng hành" },
+                    { "ItemID": 1058, "Rate": 3, "Info": "1 x Sách kinh nghiệm đồng hành (Truyền thuyết)" }
+                ]
+            },
+            {
+                "Info": "Trang bị Đồng hành",
+                "Rate": 15,
+                "Details": [
+                    { "ItemID": 20051, "Number": 5, "Rate": 6.25, "Info": "5 x Rương Mảnh trang bị đồng hành" },
+                    { "ItemID": 20051, "Number": 6, "Rate": 6.25, "Info": "6 x Rương Mảnh trang bị đồng hành" },
+                    { "ItemID": 20051, "Number": 7, "Rate": 6.25, "Info": "7 x Rương Mảnh trang bị đồng hành" },
+                    { "ItemID": 20051, "Number": 8, "Rate": 6.25, "Info": "8 x Rương Mảnh trang bị đồng hành" },
+                    { "ItemID": 20051, "Number": 9, "Rate": 6.25, "Info": "9 x Rương Mảnh trang bị đồng hành" },
+                    { "ItemID": 20051, "Number": 10, "Rate": 6.25, "Info": "10 x Rương Mảnh trang bị đồng hành" },
+                    { "ItemID": 20379, "Number": 3, "Rate": 6.25, "Info": "3 x Rương mảnh trang bị đồng hành (trung cấp)" },
+                    { "ItemID": 20379, "Number": 4, "Rate": 6.25, "Info": "4 x Rương mảnh trang bị đồng hành (trung cấp)" },
+                    { "ItemID": 20379, "Number": 5, "Rate": 6.25, "Info": "5 x Rương mảnh trang bị đồng hành (trung cấp)" },
+                    { "ItemID": 20379, "Number": 6, "Rate": 6.25, "Info": "6 x Rương mảnh trang bị đồng hành (trung cấp)" },
+                    { "ItemID": 20379, "Number": 7, "Rate": 6.25, "Info": "7 x Rương mảnh trang bị đồng hành (trung cấp)" },
+                    { "ItemID": 20379, "Number": 8, "Rate": 6.25, "Info": "8 x Rương mảnh trang bị đồng hành (trung cấp)" },
+                    { "ItemID": 20529, "Number": 2, "Rate": 6.25, "Info": "2 x Rương mảnh trang bị đồng hành (cao cấp)" },
+                    { "ItemID": 20529, "Number": 3, "Rate": 6.25, "Info": "3 x Rương mảnh trang bị đồng hành (cao cấp)" },
+                    { "ItemID": 20529, "Number": 4, "Rate": 6.25, "Info": "4 x Rương mảnh trang bị đồng hành (cao cấp)" },
+                    { "ItemID": 20529, "Number": 5, "Rate": 6.25, "Info": "5 x Rương mảnh trang bị đồng hành (cao cấp)" }
+                ]
+            },
+            {
+                "Info": "Bùa may mắn đồng hành",
+                "Rate": 4,
+                "Details": [
+                    { "ItemID": 20362, "Rate": 50, "Info": "1 x Bùa may mắn đồng hành (Sơ)" },
+                    { "ItemID": 20363, "Rate": 35, "Info": "1 x Bùa may mắn đồng hành (Trung)" },
+                    { "ItemID": 20364, "Rate": 15, "Info": "1 x Bùa may mắn đồng hành (Cao)" }
+                ]
+            },
+            {
+                "Info": "Nâng cấp Ấn",
+                "Rate": 15,
+                "Details": [
+                    { "ItemID": 506, "Number": 100, "Rate": 40, "Info": "100 x Ngũ Hành Hồn Thạch" },
+                    { "ItemID": 20345, "Rate": 20, "Info": "1 x Mảnh Lôi đình ấn" },
+                    { "ItemID": 20344, "Number": 2, "Rate": 10, "Info": "2 x Cờ chiến công" },
+                    { "ItemID": 20344, "Number": 3, "Rate": 10, "Info": "3 x Cờ chiến công" },
+                    { "ItemID": 20344, "Number": 4, "Rate": 10, "Info": "4 x Cờ chiến công" },
+                    { "ItemID": 20344, "Number": 5, "Rate": 10, "Info": "5 x Cờ chiến công" }
+                ]
+            },
+            {
+                "Info": "Tài nguyên khác",
+                "Rate": 15,
+                "Details": [
+                    { "ItemID": 1, "Number": 400000, "Rate": 34, "Info": "400000 x Bạc khóa" },
+                    { "ItemID": 2, "Number": 100000, "Rate": 33, "Info": "100000 x Bạc" },
+                    { "ItemID": 3, "Number": 1000, "Rate": 33, "Info": "1000 x KNB khóa" }
+                ]
+            },
+            {
+                "Info": "Tu luyện",
+                "Rate": 15,
+                "Details": [
+                    { "ItemID": 590, "Rate": 35, "Info": "1 x Bản đồ bí cảnh" },
+                    { "ItemID": 600, "Rate": 65, "Info": "1 x Tu Luyện Đơn" }
+                ]
+            },
+            {
+                "Info": "Chân nguyên",
+                "Rate": 5,
+                "Details": [
+                    { "ItemID": 25269, "Rate": 20, "Info": "1 x Thiệp Như Ý" },
+                    { "ItemID": 25270, "Number": 10, "Rate": 16, "Info": "10 x Kinh Nghiệm Chân Nguyên" },
+                    { "ItemID": 25270, "Number": 11, "Rate": 16, "Info": "11 x Kinh Nghiệm Chân Nguyên" },
+                    { "ItemID": 25270, "Number": 12, "Rate": 16, "Info": "12 x Kinh Nghiệm Chân Nguyên" },
+                    { "ItemID": 25270, "Number": 13, "Rate": 16, "Info": "13 x Kinh Nghiệm Chân Nguyên" },
+                    { "ItemID": 25270, "Number": 14, "Rate": 16, "Info": "14 x Kinh Nghiệm Chân Nguyên" }
+                ]
+            },
+            { "ItemID": -1, "Rate": 2, "Info": "1 x Không thưởng" }
+        ]
+    },
+    {
+        "IDBox": 200383,
+        "BoxName": "Rương điểm danh vọng (cao)",
+        "Items": [
+            { "ItemID": 15711, "Rate": 11, "Number": 1, "Info": "1 x Danh vọng Bạch Hổ Đường" },
+            { "ItemID": 15712, "Rate": 11, "Number": 1, "Info": "1 x Danh vọng Tiêu Dao Cốc" },
+            { "ItemID": 15713, "Rate": 11, "Number": 1, "Info": "1 x Danh vọng Chúc phúc" },
+            { "ItemID": 15714, "Rate": 11, "Number": 1, "Info": "1 x Danh vọng Tần Lăng - Quan phủ" },
+            { "ItemID": 15715, "Rate": 12, "Number": 1, "Info": "1 x Danh vọng Môn phái" },
+            { "ItemID": 15716, "Rate": 11, "Number": 1, "Info": "1 x Danh vọng Tranh đoạt Lãnh thổ" },
+            { "ItemID": 25194, "Rate": 11, "Number": 1, "Info": "1 x Danh vọng Nghĩa Quân" },
+            { "ItemID": 25195, "Rate": 11, "Number": 1, "Info": "1 x Danh vọng Ải Gia Tộc" },
+            { "ItemID": 25196, "Rate": 11, "Number": 1, "Info": "1 x Danh vọng Tống Kim - Phượng Tường" }
+        ]
+    },
+    {
+        "IDBox": 200384,
+        "BoxName": "Rương trang bị đồng hành",
+        "Items": [
+            { "ItemID": 25199, "Rate": 8, "Number": 1, "Info": "1 x Mũ Đồng Hành - Bích Huyết [Kháng Băng]", "IsPreview": true },
+            { "ItemID": 25203, "Rate": 8, "Number": 1, "Info": "1 x Mũ Đồng Hành - Bích Huyết [Kháng Hỏa]", "IsPreview": true },
+            { "ItemID": 25207, "Rate": 8, "Number": 1, "Info": "1 x Mũ Đồng Hành - Bích Huyết [Kháng Lôi]", "IsPreview": true },
+            { "ItemID": 25211, "Rate": 8, "Number": 1, "Info": "1 x Mũ Đồng Hành - Bích Huyết [Kháng Vật]", "IsPreview": true },
+            { "ItemID": 25215, "Rate": 8, "Number": 1, "Info": "1 x Mũ Đồng Hành - Bích Huyết [Kháng Độc]", "IsPreview": true },
+            { "ItemID": 25111, "Rate": 30, "Number": 1, "Info": "1 x Đai Lưng Đồng Hành - Bích Huyết", "IsPreview": true },
+            { "ItemID": 25127, "Rate": 30, "Number": 1, "Info": "1 x Hạng liên Đồng Hành - Bích Huyết", "IsPreview": true }
+        ]
+    },
+    {
+        "IDBox": 200385,
+        "BoxName": "Rương Giftcode thần bí",
+        "Items": [
+            { "ItemID": -1, "Rate": 15, "Info": "1 x Không thưởng" },
+            { "ItemID": 25228, "Rate": 85, "Info": "1 x Rương Giftcode Phần Thưởng" }
+        ]
+    },
+    {
+        "IDBox": 200386,
+        "BoxName": "Rương Giftcode [Phần thưởng]",
+        "Items": [
+            { "ItemID": 191, "Rate": -1, "Info": "1 x Huyền Tinh vô hạ (cấp 9)" },
+            { "ItemID": 20529, "Number": 15, "Rate": -1, "Info": "15 x Rương mảnh trang bị đồng hành (cao cấp)" },
+            { "ItemID": 20485, "Number": 15, "Rate": -1, "Info": "15 x Rương danh vọng (trung cấp)" },
+            { "ItemID": 20270, "Number": 1, "Rate": -1, "Info": "1 x Thiệp vàng (cấp 3)" }
+        ]
+    },
+    {
+        "IDBox": 200387,
+        "BoxName": "Rương Giftcode Gameverse",
+        "Items": [
+            { "ItemID": 25230, "Rate": -1, "Time": 21601, "Info": "1 x Mã bài (Tuyệt Ảnh)" },
+            { "ItemID": 348, "Number": 2, "Rate": -1, "Info": "2 x Tinh Khí Tán (500)" },
+            { "ItemID": 351, "Number": 2, "Rate": -1, "Info": "2 x Hoạt Khí Tán (500)" },
+            { "ItemID": 188, "Number": 3, "Rate": -1, "Info": "3 x Huyền Tinh có vết nứt (cấp 6)" }
+        ]
+    },
+    { "IDBox": 200395, "BoxName": "Danh hiệu Song Long Xuất Hải", "Items": [{ "ItemID": 8, "Number": 150, "Rate": -1, "Info": "150 x Danh hiệu" }] },
+    { "IDBox": 200396, "BoxName": "Danh hiệu Song Long Xuất Hải", "Items": [{ "ItemID": 8, "Number": 151, "Rate": -1, "Info": "151 x Danh hiệu" }] },
+    { "IDBox": 200397, "BoxName": "Danh hiệu Song Long Xuất Hải", "Items": [{ "ItemID": 8, "Number": 152, "Rate": -1, "Info": "152 x Danh hiệu" }] },
+    {
+        "IDBox": 200398,
+        "BoxName": "Rương Tiểu Du Long Danh Vọng Lệnh",
+        "Items": [
+            { "ItemID": 1886, "Rate": 12, "Info": "1 x Tiểu Du Long Lệnh [Hộ thân phù]" },
+            { "ItemID": 1887, "Rate": 11, "Info": "1 x Tiểu Du Long Lệnh [Nón]" },
+            { "ItemID": 1888, "Rate": 11, "Info": "1 x Tiểu Du Long Lệnh [Y phục]" },
+            { "ItemID": 1889, "Rate": 11, "Info": "1 x Tiểu Du Long Lệnh [Yêu đái]" },
+            { "ItemID": 1890, "Rate": 11, "Info": "1 x Tiểu Du Long Lệnh [Giày]" },
+            { "ItemID": 1891, "Rate": 11, "Info": "1 x Tiểu Du Long Lệnh [Hạng liên]" },
+            { "ItemID": 1892, "Rate": 11, "Info": "1 x Tiểu Du Long Lệnh [Nhẫn]" },
+            { "ItemID": 1893, "Rate": 11, "Info": "1 x Tiểu Du Long Lệnh [Hộ uyển]" },
+            { "ItemID": 1894, "Rate": 11, "Info": "1 x Tiểu Du Long Lệnh [Ngọc bội]" }
+        ]
+    },
+    {
+        "IDBox": 200400,
+        "BoxName": "Rương Check-in EURO [trung]",
+        "Items": [
+            { "ItemID": 11, "Number": 500, "Rate": 50, "Info": "500 x Tinh hoạt lực" },
+            { "ItemID": 20575, "Number": 1, "Rate": 50, "Info": "1 x Túi quà Check-in Đại Lễ [trung]" }
+        ]
+    },
+    {
+        "IDBox": 200401,
+        "BoxName": "Rương Check-in EURO [cao]",
+        "Items": [
+            { "ItemID": 11, "Number": 2500, "Rate": 50, "Info": "2500 x Tinh hoạt lực" },
+            { "ItemID": 20576, "Number": 1, "Rate": 35, "Info": "1 x Túi quà Check-in Đại Lễ [cao]" },
+            { "ItemID": 20291, "Number": 1, "Rate": 15, "Info": "1 x Tinh hoạt lực (1 vạn)" }
+        ]
+    },
+    {
+        "IDBox": 200402,
+        "BoxName": "Túi quà Check-in EURO [trung]",
+        "Items": [
+            { "ItemID": 1055, "Number": 1, "Rate": -1, "Info": "1 x Thiệp bạc (cấp 2)", "IsPreview": true },
+            { "ItemID": 1057, "Number": 3, "Rate": -1, "Info": "3 x Sách kinh nghiệm đồng hành", "IsPreview": true }
+        ]
+    },
+    {
+        "IDBox": 200403,
+        "BoxName": "Túi quà Check-in EURO [cao]",
+        "Items": [
+            { "ItemID": 20270, "Number": 3, "Rate": -1, "Info": "3 x Thiệp vàng (cấp 3)", "IsPreview": true },
+            { "ItemID": 1057, "Number": 10, "Rate": -1, "Info": "10 x Sách kinh nghiệm đồng hành", "IsPreview": true }
+        ]
+    },
+    {
+        "IDBox": 200404,
+        "BoxName": "Rương Vui Game Dân Gian - Tích Lũy 15",
+        "Items": [
+            { "ItemID": 193, "Number": 1, "Rate": -1, "Info": "1 x Huyền Tinh óng ánh (cấp 11)" },
+            { "ItemID": 20406, "Number": 1, "Rate": -1, "Info": "1 x Thiệp bạch kim (cấp 4)" },
+            { "ItemID": 819, "Number": 1, "Rate": -1, "Info": "1 x Tần Lăng-Hòa Thị Bích" }
+        ]
+    },
+    { "IDBox": 200419, "BoxName": "Rương Ấn đồng hành Bích Huyết - 7 ngày", "Items": [{ "ItemID": 25220, "Number": 1, "Rate": -1, "Time": 10081, "Info": "1 x Ấn đồng hành - Bích Huyết" }] },
+    { "IDBox": 200420, "BoxName": "Rương Ấn đồng hành Kim Lân - 7 ngày", "Items": [{ "ItemID": 25221, "Number": 1, "Rate": -1, "Time": 10081, "Info": "1 x Ấn đồng hành - Kim Lân" }] },
+    {
+        "IDBox": 200427,
+        "BoxName": "Rương trang bị đồng hành Bích Huyết (cao)",
+        "Items": [
+            { "ItemID": 25131, "Rate": 85, "Number": 1, "Info": "1 x Bội Đồng Hành - Bích Huyết", "IsPreview": true },
+            { "ItemID": 25115, "Rate": 15, "Number": 1, "Info": "1 x Giày Đồng Hành - Bích Huyết", "IsPreview": true }
+        ]
+    },
+    {
+        "IDBox": 200428,
+        "BoxName": "Rương sách kỹ năng đồng hành [sơ]",
+        "Items": [
+            { "ItemID": 20277, "Rate": 17, "Number": 1, "Info": "1 x Sách Kỹ năng Đồng hành - Diệu Thủ Hồi Xuân (cấp 1)", "IsPreview": true },
+            { "ItemID": 20276, "Rate": 17, "Number": 1, "Info": "1 x Sách Kỹ năng Đồng hành - Đạp Bộ Mê Tung (cấp 1)", "IsPreview": true },
+            { "ItemID": 20284, "Rate": 17, "Number": 1, "Info": "1 x Sách Kỹ năng Đồng hành - Từ Bi Tế Vũ (cấp 1)", "IsPreview": true },
+            { "ItemID": 20275, "Rate": 13, "Number": 1, "Info": "1 x Sách Kỹ năng Đồng hành - Cam Vũ Lâm Hoa (cấp 1)", "IsPreview": true },
+            { "ItemID": 20283, "Rate": 13, "Number": 1, "Info": "1 x Sách Kỹ năng Đồng hành - Truy Ảnh Quyết (cấp 1)", "IsPreview": true },
+            { "ItemID": 20278, "Rate": 13, "Number": 1, "Info": "1 x Sách Kỹ năng Đồng hành - Hội Thần Tĩnh Tâm (cấp 1)", "IsPreview": true },
+            { "ItemID": 20281, "Rate": 5, "Number": 1, "Info": "1 x Sách Kỹ năng Đồng hành - Ngũ Hành Vô Tướng (cấp 1)", "IsPreview": true },
+            { "ItemID": 20285, "Rate": 5, "Number": 1, "Info": "1 x Sách Kỹ năng Đồng hành - Vô Niệm Kinh (cấp 1)", "IsPreview": true }
+        ]
+    },
+    {
+        "IDBox": 200429,
+        "BoxName": "Rương sách kỹ năng đồng hành [trung]",
+        "Items": [
+            { "ItemID": 20277, "Rate": 12, "Number": 1, "Info": "1 x Sách Kỹ năng Đồng hành - Diệu Thủ Hồi Xuân (cấp 1)", "IsPreview": true },
+            { "ItemID": 20276, "Rate": 13, "Number": 1, "Info": "1 x Sách Kỹ năng Đồng hành - Đạp Bộ Mê Tung (cấp 1)", "IsPreview": true },
+            { "ItemID": 20284, "Rate": 13, "Number": 1, "Info": "1 x Sách Kỹ năng Đồng hành - Từ Bi Tế Vũ (cấp 1)", "IsPreview": true },
+            { "ItemID": 20275, "Rate": 16, "Number": 1, "Info": "1 x Sách Kỹ năng Đồng hành - Cam Vũ Lâm Hoa (cấp 1)", "IsPreview": true },
+            { "ItemID": 20283, "Rate": 16, "Number": 1, "Info": "1 x Sách Kỹ năng Đồng hành - Truy Ảnh Quyết (cấp 1)", "IsPreview": true },
+            { "ItemID": 20278, "Rate": 16, "Number": 1, "Info": "1 x Sách Kỹ năng Đồng hành - Hội Thần Tĩnh Tâm (cấp 1)", "IsPreview": true },
+            { "ItemID": 20279, "Rate": 2, "Number": 1, "Info": "1 x Sách Kỹ năng Đồng hành - Ích Thọ Âm Dương (cấp 1)", "IsPreview": true },
+            { "ItemID": 20281, "Rate": 5, "Number": 1, "Info": "1 x Sách Kỹ năng Đồng hành - Ngũ Hành Vô Tướng (cấp 1)", "IsPreview": true },
+            { "ItemID": 20285, "Rate": 5, "Number": 1, "Info": "1 x Sách Kỹ năng Đồng hành - Vô Niệm Kinh (cấp 1)", "IsPreview": true },
+            { "ItemID": 20280, "Rate": 2, "Number": 1, "Info": "1 x Sách Kỹ năng Đồng hành - Kinh Hồng Nhất Kích (cấp 1)", "IsPreview": true }
+        ]
+    },
+    {
+        "IDBox": 200430,
+        "BoxName": "Rương sách kỹ năng đồng hành [cao]",
+        "Items": [
+            { "ItemID": 20275, "Rate": 20, "Number": 1, "Info": "1 x Sách Kỹ năng Đồng hành - Cam Vũ Lâm Hoa (cấp 1)", "IsPreview": true },
+            { "ItemID": 20283, "Rate": 20, "Number": 1, "Info": "1 x Sách Kỹ năng Đồng hành - Truy Ảnh Quyết (cấp 1)", "IsPreview": true },
+            { "ItemID": 20278, "Rate": 20, "Number": 1, "Info": "1 x Sách Kỹ năng Đồng hành - Hội Thần Tĩnh Tâm (cấp 1)", "IsPreview": true },
+            { "ItemID": 20279, "Rate": 6, "Number": 1, "Info": "1 x Sách Kỹ năng Đồng hành - Ích Thọ Âm Dương (cấp 1)", "IsPreview": true },
+            { "ItemID": 20281, "Rate": 12, "Number": 1, "Info": "1 x Sách Kỹ năng Đồng hành - Ngũ Hành Vô Tướng (cấp 1)", "IsPreview": true },
+            { "ItemID": 20285, "Rate": 12, "Number": 1, "Info": "1 x Sách Kỹ năng Đồng hành - Vô Niệm Kinh (cấp 1)", "IsPreview": true },
+            { "ItemID": 20280, "Rate": 6, "Number": 1, "Info": "1 x Sách Kỹ năng Đồng hành - Kinh Hồng Nhất Kích (cấp 1)", "IsPreview": true },
+            { "ItemID": 20282, "Rate": 4, "Number": 1, "Info": "1 x Sách Kỹ năng Đồng hành - Phá Không Trảm Ảnh (cấp 1)", "IsPreview": true }
+        ]
+    },
+    {
+        "IDBox": 200431,
+        "BoxName": "Rương Cúp Vô Địch",
+        "Items": [
+            { "ItemID": 20608, "Rate": 3, "Number": 5, "Info": "5 x Cúp Vô Địch" },
+            { "ItemID": 20608, "Rate": 3, "Number": 6, "Info": "6 x Cúp Vô Địch" },
+            { "ItemID": 20608, "Rate": 3, "Number": 7, "Info": "7 x Cúp Vô Địch" },
+            { "ItemID": 20608, "Rate": 3, "Number": 8, "Info": "8 x Cúp Vô Địch" },
+            { "ItemID": 20608, "Rate": 3, "Number": 9, "Info": "9 x Cúp Vô Địch" },
+            { "ItemID": 20608, "Rate": 3, "Number": 10, "Info": "10 x Cúp Vô Địch" },
+            { "ItemID": 20608, "Rate": 3, "Number": 11, "Info": "11 x Cúp Vô Địch" },
+            { "ItemID": 20608, "Rate": 3, "Number": 12, "Info": "12 x Cúp Vô Địch" },
+            { "ItemID": 20608, "Rate": 2, "Number": 13, "Info": "13 x Cúp Vô Địch" },
+            { "ItemID": 20608, "Rate": 2, "Number": 14, "Info": "14 x Cúp Vô Địch" },
+            { "ItemID": 20608, "Rate": 2, "Number": 15, "Info": "15 x Cúp Vô Địch" },
+            { "ItemID": 20608, "Rate": 2, "Number": 16, "Info": "16 x Cúp Vô Địch" },
+            { "ItemID": 20608, "Rate": 2, "Number": 17, "Info": "17 x Cúp Vô Địch" },
+            { "ItemID": 20608, "Rate": 2, "Number": 18, "Info": "18 x Cúp Vô Địch" },
+            { "ItemID": 20608, "Rate": 2, "Number": 19, "Info": "19 x Cúp Vô Địch" },
+            { "ItemID": 20608, "Rate": 2, "Number": 20, "Info": "20 x Cúp Vô Địch" },
+            { "ItemID": 20608, "Rate": 2, "Number": 21, "Info": "21 x Cúp Vô Địch" },
+            { "ItemID": 20608, "Rate": 2, "Number": 22, "Info": "22 x Cúp Vô Địch" },
+            { "ItemID": 20608, "Rate": 2, "Number": 23, "Info": "23 x Cúp Vô Địch" },
+            { "ItemID": 20608, "Rate": 2, "Number": 24, "Info": "24 x Cúp Vô Địch" },
+            { "ItemID": 20608, "Rate": 2, "Number": 25, "Info": "25 x Cúp Vô Địch" },
+            { "ItemID": 20608, "Rate": 2, "Number": 26, "Info": "26 x Cúp Vô Địch" },
+            { "ItemID": 20608, "Rate": 2, "Number": 27, "Info": "27 x Cúp Vô Địch" },
+            { "ItemID": 20608, "Rate": 2, "Number": 28, "Info": "28 x Cúp Vô Địch" },
+            { "ItemID": 20608, "Rate": 2, "Number": 29, "Info": "29 x Cúp Vô Địch" },
+            { "ItemID": 20608, "Rate": 2, "Number": 30, "Info": "30 x Cúp Vô Địch" },
+            { "ItemID": 20608, "Rate": 2, "Number": 31, "Info": "31 x Cúp Vô Địch" },
+            { "ItemID": 20608, "Rate": 2, "Number": 32, "Info": "32 x Cúp Vô Địch" },
+            { "ItemID": 20608, "Rate": 2, "Number": 33, "Info": "33 x Cúp Vô Địch" },
+            { "ItemID": 20608, "Rate": 2, "Number": 34, "Info": "34 x Cúp Vô Địch" },
+            { "ItemID": 20608, "Rate": 2, "Number": 35, "Info": "35 x Cúp Vô Địch" },
+            { "ItemID": 20608, "Rate": 2, "Number": 36, "Info": "36 x Cúp Vô Địch" },
+            { "ItemID": 20608, "Rate": 2, "Number": 37, "Info": "37 x Cúp Vô Địch" },
+            { "ItemID": 20608, "Rate": 2, "Number": 38, "Info": "38 x Cúp Vô Địch" },
+            { "ItemID": 20608, "Rate": 2, "Number": 39, "Info": "39 x Cúp Vô Địch" },
+            { "ItemID": 20608, "Rate": 2, "Number": 40, "Info": "40 x Cúp Vô Địch" },
+            { "ItemID": 20608, "Rate": 2, "Number": 41, "Info": "41 x Cúp Vô Địch" },
+            { "ItemID": 20608, "Rate": 2, "Number": 42, "Info": "42 x Cúp Vô Địch" },
+            { "ItemID": 20608, "Rate": 2, "Number": 43, "Info": "43 x Cúp Vô Địch" },
+            { "ItemID": 20608, "Rate": 2, "Number": 44, "Info": "44 x Cúp Vô Địch" },
+            { "ItemID": 20608, "Rate": 2, "Number": 45, "Info": "45 x Cúp Vô Địch" },
+            { "ItemID": 20608, "Rate": 2, "Number": 46, "Info": "46 x Cúp Vô Địch" },
+            { "ItemID": 20608, "Rate": 2, "Number": 47, "Info": "47 x Cúp Vô Địch" },
+            { "ItemID": 20608, "Rate": 2, "Number": 48, "Info": "48 x Cúp Vô Địch" },
+            { "ItemID": 20608, "Rate": 2, "Number": 49, "Info": "49 x Cúp Vô Địch" },
+            { "ItemID": 20608, "Rate": 2, "Number": 50, "Info": "50 x Cúp Vô Địch" }
+        ]
+    },
+    { "IDBox": 200432, "BoxName": "Danh hiệu Vua Phá Lưới (30 ngày)", "Items": [{ "ItemID": 8, "Number": 159, "Rate": -1, "Info": "159 x Danh hiệu" }] },
+    {
+        "IDBox": 200433,
+        "BoxName": "Rương Rực Lửa",
+        "Items": [
+            { "ItemID": 20625, "Rate": 95, "Number": 1, "Info": "1 x Rương Cúp Vô Địch" },
+            { "ItemID": 2017, "Rate": 5, "Number": 1, "Info": "1 x Rương Tiểu Du Long Danh Vọng Lệnh (ngẫu nhiên)" }
+        ]
+    },
+    {
+        "IDBox": 200434,
+        "BoxName": "Rương thú cưỡi - Voi Bản Đôn (3 - 15 ngày)",
+        "Items": [
+            { "ItemID": 15507, "Rate": 76, "Number": 1, "Time": 21601, "Info": "1 x Voi Bản Đôn [Trở Về Tuổi Thơ] - Cấp 3" },
+            { "ItemID": 15508, "Rate": 20, "Number": 1, "Time": 21601, "Info": "1 x Voi Bản Đôn [Trở Về Tuổi Thơ] - Cấp 4" },
+            { "ItemID": 15509, "Rate": 4, "Number": 1, "Time": 21601, "Info": "1 x Voi Bản Đôn [Trở Về Tuổi Thơ] - Cấp 5" }
+        ]
+    },
+    {
+        "IDBox": 200435,
+        "BoxName": "Túi Huyền tinh ngẫu nhiên [trung]",
+        "Items": [
+            { "ItemID": 190, "Rate": 80, "Number": 1, "Info": "1 x Huyền Tinh có tì vết (cấp 8)" },
+            { "ItemID": 191, "Rate": 20, "Number": 1, "Info": "1 x Huyền Tinh vô hạ (cấp 9)" }
+        ]
+    },
+    {
+        "IDBox": 200436,
+        "BoxName": "Túi Huyền tinh ngẫu nhiên [cao]",
+        "Items": [
+            { "ItemID": 191, "Rate": 80, "Number": 1, "Info": "1 x Huyền Tinh vô hạ (cấp 9)" },
+            { "ItemID": 192, "Rate": 20, "Number": 1, "Info": "1 x Huyền Tinh hoàn mỹ (cấp 10)" }
+        ]
+    },
+    {
+        "BoxName": "Rương Boss Hỏa kỳ Lân",
+        "IDBox": 100515,
+        "Binding": 0,
+        "Items": [
+            { "Rate": -1.0, "Info": "3 x Huyền Tinh có tì vết (cấp 8)", "ItemID": 190, "Number": 3 },
+            {
+                "Rate": 19.0,
+                "Info": "Huyền tinh ",
+                "Details": [
+                    { "ItemID": 190, "Info": "5 x Huyền Tinh có tì vết (cấp 8)", "Number": 5, "Rate": 52.6 },
+                    { "ItemID": 191, "Info": "1 x Huyền Tinh vô hạ (cấp 9)", "Number": 1, "Rate": 21.1 },
+                    { "ItemID": 191, "Info": "2 x Huyền Tinh vô hạ (cấp 9)", "Number": 2, "Rate": 21.1 },
+                    { "ItemID": 191, "Info": "3 x Huyền Tinh vô hạ (cấp 9)", "Number": 3, "Rate": 5.2 }
+                ]
+            },
+            {
+                "Rate": 16.0,
+                "Info": "1 x Ngũ Hành Hồn Thạch",
+                "ItemID": 506,
+                "Details": [
+                    { "ItemID": 506, "Info": "300 x Ngũ Hành Hồn Thạch", "Number": 300, "Rate": 50.0 },
+                    { "ItemID": 506, "Info": "500 x Ngũ Hành Hồn Thạch", "Number": 500, "Rate": 30.0 },
+                    { "ItemID": 506, "Info": "700 x Ngũ Hành Hồn Thạch", "Number": 700, "Rate": 20.0 }
+                ]
+            },
+            { "Rate": 10.0, "Info": "30 x Rương mảnh trang bị đồng hành (trung cấp)", "ItemID": 20379, "Number": 30 },
+            { "Rate": 8.0, "Info": "30 x Rương mảnh trang bị đồng hành (cao cấp)", "ItemID": 20529, "Number": 30 },
+            { "Rate": 15.0, "Info": "1 x Tần Lăng-Hòa Thị Bích", "ItemID": 819, "Number": 1 },
+            { "Rate": 1.2, "Info": "1 x Rương Tiểu Du Long Danh Vọng Lệnh (ngẫu nhiên)", "ItemID": 2017, "Number": 1 },
+            { "Rate": 12.0, "Info": "10 x Bạc khóa liên server (10 vạn)", "ItemID": 943, "Number": 10 },
+            {
+                "Rate": 18.8,
+                "Info": "Tinh Hoạt Lực",
+                "Details": [
+                    { "ItemID": 349, "Info": "5 x Tinh Khí Tán (1000)", "Number": 5, "Rate": 27.0 },
+                    { "ItemID": 350, "Info": "5 x Tinh Khí Tán (1500)", "Number": 5, "Rate": 15.0 },
+                    { "ItemID": 352, "Info": "5 x Hoạt Khí Tán (1000)", "Number": 5, "Rate": 27.0 },
+                    { "ItemID": 353, "Info": "5 x Hoạt Khí Tán (1500)", "Number": 5, "Rate": 15.0 },
+                    { "ItemID": 1044, "Info": "2 x Du Long Hoạt Khí Hoàn", "Number": 2, "Rate": 8.0 },
+                    { "ItemID": 1045, "Info": "2 x Du Long Tinh Khí Hoàn", "Number": 2, "Rate": 8.0 }
+                ]
+            }
+        ]
+    },
+    {
+        "IDBox": 200445,
+        "BoxName": "Rương Đua thú - Thần cơ Diệu toán [5]",
+        "Items": [
+            { "ItemID": 191, "Number": 1, "Rate": -1, "Info": "1 x Huyền Tinh vô hạ (cấp 9)" },
+            { "ItemID": 506, "Number": 200, "Rate": -1, "Info": "200 x Ngũ Hành Hồn Thạch" },
+            { "ItemID": 20378, "Number": 20, "Rate": -1, "Info": "20 x Rương danh vọng (sơ cấp)" },
+            { "ItemID": 11, "Number": 2000, "Rate": -1, "Info": "2000 x Tinh hoạt lực" }
+        ]
+    },
+    {
+        "IDBox": 200446,
+        "BoxName": "Rương Đua thú - Thần cơ Diệu toán [10]",
+        "Items": [
+            { "ItemID": 191, "Number": 2, "Rate": -1, "Info": "2 x Huyền Tinh vô hạ (cấp 9)" },
+            { "ItemID": 506, "Number": 500, "Rate": -1, "Info": "500 x Ngũ Hành Hồn Thạch" },
+            { "ItemID": 20378, "Number": 30, "Rate": -1, "Info": "30 x Rương danh vọng (sơ cấp)" },
+            { "ItemID": 11, "Number": 4000, "Rate": -1, "Info": "4000 x Tinh hoạt lực" }
+        ]
+    },
+    {
+        "IDBox": 200447,
+        "BoxName": "Rương Đua thú - Thần cơ Diệu toán [15]",
+        "Items": [
+            { "ItemID": 191, "Number": 3, "Rate": -1, "Info": "3 x Huyền Tinh vô hạ (cấp 9)" },
+            { "ItemID": 506, "Number": 1000, "Rate": -1, "Info": "1000 x Ngũ Hành Hồn Thạch" },
+            { "ItemID": 20378, "Number": 50, "Rate": -1, "Info": "50 x Rương danh vọng (sơ cấp)" },
+            { "ItemID": 11, "Number": 10000, "Rate": -1, "Info": "10000 x Tinh hoạt lực" }
+        ]
+    },
+    {
+        "IDBox": 200458,
+        "BoxName": "Rương quà Online (15 phút)",
+        "Items": [
+            { "ItemID": 15000, "Number": 5, "Rate": -1, "Info": "5 x Phiếu Bạc Khóa - 1 Vạn" },
+            { "ItemID": 538, "Number": 1, "Rate": -1, "Info": "1 x Cửu Chuyển Tục Mệnh Hoàn" }
+        ]
+    },
+    {
+        "IDBox": 200459,
+        "BoxName": "Rương quà Online (30 phút)",
+        "Items": [
+            { "ItemID": 15000, "Number": 5, "Rate": -1, "Info": "5 x Phiếu Bạc Khóa - 1 Vạn" },
+            { "ItemID": 488, "Number": 1, "Rate": -1, "Info": "1 x Thùng rượu (50 bình)" },
+            { "ItemID": 186, "Number": 1, "Rate": -1, "Info": "1 x Huyền Tinh Cấp 4" }
+        ]
+    },
+    {
+        "IDBox": 200460,
+        "BoxName": "Rương quà Online (60 phút)",
+        "Items": [
+            { "ItemID": 15000, "Number": 10, "Rate": -1, "Info": "10 x Phiếu Bạc Khóa - 1 Vạn" },
+            { "ItemID": 298, "Number": 1, "Rate": -1, "Info": "1 x Đại Bạch Câu Hoàn" },
+            { "ItemID": 187, "Number": 1, "Rate": -1, "Info": "1 x Huyền Tinh Cấp 5" }
+        ]
+    },
+    {
+        "IDBox": 200461,
+        "BoxName": "Rương quà Online (120 phút)",
+        "Items": [
+            { "ItemID": 15000, "Number": 10, "Rate": -1, "Info": "10 x Phiếu Bạc Khóa - 1 Vạn" },
+            { "ItemID": 20102, "Number": 1, "Rate": -1, "Info": "1 x Phiếu KNB khóa - 200" },
+            { "ItemID": 187, "Number": 1, "Rate": -1, "Info": "1 x Huyền Tinh Cấp 5" }
+        ]
+    },
+    { "IDBox": 200462, "BoxName": "Danh hiệu Chứng Nhận Nạp Đầu (15 ngày)", "Items": [{ "ItemID": 8, "Number": 172, "Rate": -1, "Info": "172 x Danh hiệu" }] },
+    {
+        "IDBox": 200470,
+        "BoxName": "Rương Sách Kỹ năng Đồng hành (ngẫu nhiên)",
+        "Items": [
+            { "ItemID": 20622, "Number": 1, "Rate": 76, "Info": "1 x Rương sách kỹ năng đồng hành [Sơ]" },
+            { "ItemID": 20623, "Number": 1, "Rate": 20, "Info": "1 x Rương sách kỹ năng đồng hành [Trung]" },
+            { "ItemID": 20624, "Number": 1, "Rate": 4, "Info": "1 x Rương sách kỹ năng đồng hành [Cao]" }
+        ]
+    },
+    { "IDBox": 200456, "BoxName": "Rương Ấn đồng hành Đơn Tâm - 7 ngày", "Items": [{ "ItemID": 25222, "Number": 1, "Rate": -1, "Time": 10081, "Info": "1 x Ấn đồng hành - Đơn Tâm" }] },
+    {
+        "IDBox": 200488,
+        "BoxName": "Rương Kiểm Tra Bài Cũ - An ủi (200 KNB)",
+        "Items": [
+            { "ItemID": 190, "Number": 1, "Rate": -1, "Info": "1 x Huyền Tinh có tì vết (cấp 8)" },
+            { "ItemID": 25270, "Number": 25, "Rate": -1, "Info": "25 x Kinh Nghiệm Chân Nguyên" },
+            { "ItemID": 1, "Number": 400000, "Rate": -1, "Info": "400000 x Bạc khóa" }
+        ]
+    },
+    {
+        "IDBox": 200489,
+        "BoxName": "Rương Kiểm Tra Bài Cũ - An ủi (1000 KNB)",
+        "Items": [
+            { "ItemID": 191, "Number": 1, "Rate": -1, "Info": "1 x Huyền Tinh vô hạ (cấp 9)" },
+            { "ItemID": 25270, "Number": 150, "Rate": -1, "Info": "150 x Kinh Nghiệm Chân Nguyên" },
+            { "ItemID": 1026, "Number": 2, "Rate": -1, "Info": "2 x Chiến Thư-Mật Thất Du Long" },
+            { "ItemID": 25269, "Number": 1, "Rate": -1, "Info": "1 x Thiệp Như Ý" }
+        ]
+    },
+    {
+        "IDBox": 200490,
+        "BoxName": "Rương Kiểm Tra Bài Cũ - An ủi (5000 KNB)",
+        "Items": [
+            { "ItemID": 819, "Number": 1, "Rate": -1, "Info": "1 x Tần Lăng-Hòa Thị Bích" },
+            { "ItemID": 25270, "Number": 600, "Rate": -1, "Info": "600 x Kinh Nghiệm Chân Nguyên" },
+            { "ItemID": 1026, "Number": 15, "Rate": -1, "Info": "15 x Chiến Thư-Mật Thất Du Long" },
+            { "ItemID": 25269, "Number": 3, "Rate": -1, "Info": "3 x Thiệp Như Ý" }
+        ]
+    },
+    {
+        "IDBox": 200539,
+        "BoxName": "Lì xì Ất Tỵ",
+        "Items": [
+            {
+                "Rate": 18.7,
+                "Info": "Bạc Khóa",
+                "Details": [
+                    { "ItemID": 1, "Info": "680000 x Bạc khóa", "Number": 680000, "Rate": 40.0 },
+                    { "ItemID": 1, "Info": "1680000 x Bạc khóa", "Number": 1680000, "Rate": 43.0 },
+                    { "ItemID": 1, "Info": "6880000 x Bạc khóa", "Number": 6880000, "Rate": 10.0, "IsPreview": true, "Notify": true },
+                    { "ItemID": 1, "Info": "8880000 x Bạc khóa", "Number": 8880000, "Rate": 6.0, "IsPreview": true, "Notify": true },
+                    { "ItemID": 1, "Info": "16800000 x Bạc khóa", "Number": 16800000, "Rate": 1.0 }
+                ]
+            },
+            {
+                "Rate": 18.7,
+                "Info": "KNB Khóa",
+                "Details": [
+                    { "ItemID": 3, "Info": "688 x KNB khóa", "Number": 688, "Rate": 40.0 },
+                    { "ItemID": 3, "Info": "888 x KNB khóa", "Number": 888, "Rate": 43.0 },
+                    { "ItemID": 3, "Info": "1688 x KNB khóa", "Number": 1688, "Rate": 10.0, "Notify": true },
+                    { "ItemID": 3, "Info": "1888 x KNB khóa", "Number": 1888, "Rate": 6.0, "IsPreview": true, "Notify": true },
+                    { "ItemID": 3, "Info": "16888 x KNB khóa", "Number": 16888, "Rate": 1.0, "IsPreview": true, "Notify": true }
+                ]
+            },
+            {
+                "Rate": 18.7,
+                "Info": "Ngũ Hành Hồn Thạch",
+                "Details": [
+                    { "ItemID": 506, "Info": "188 x Ngũ Hành Hồn Thạch", "Number": 188, "Rate": 40.0 },
+                    { "ItemID": 506, "Info": "288 x Ngũ Hành Hồn Thạch", "Number": 288, "Rate": 40.0 },
+                    { "ItemID": 506, "Info": "388 x Ngũ Hành Hồn Thạch", "Number": 388, "Rate": 10.0, "Notify": true },
+                    { "ItemID": 506, "Info": "688 x Ngũ Hành Hồn Thạch", "Number": 688, "Rate": 6.0, "IsPreview": true, "Notify": true },
+                    { "ItemID": 506, "Info": "888 x Ngũ Hành Hồn Thạch", "Number": 888, "Rate": 4.0, "IsPreview": true, "Notify": true }
+                ]
+            },
+            {
+                "Rate": 18.7,
+                "Info": "Trang bị đồng hành",
+                "Details": [
+                    { "ItemID": 20051, "Info": "50 x Rương Mảnh trang bị đồng hành", "Number": 50, "Rate": 40.0 },
+                    { "ItemID": 20379, "Info": "50 x Rương mảnh trang bị đồng hành (trung cấp)", "Number": 50, "Rate": 40.0 },
+                    { "ItemID": 20529, "Info": "50 x Rương mảnh trang bị đồng hành (cao cấp)", "Number": 50, "Rate": 10.0, "IsPreview": true, "Notify": true },
+                    { "ItemID": 25235, "Info": "1 x Rương Trang bị đồng hành Bích Huyết - Tự Chọn (Sơ Cấp)", "Number": 1, "Rate": 6.0, "IsPreview": true, "Notify": true },
+                    { "ItemID": 25236, "Info": "1 x Rương Trang bị đồng hành Bích Huyết - Tự Chọn (Trung)", "Number": 1, "Rate": 4.0, "IsPreview": true, "Notify": true }
+                ]
+            },
+            {
+                "Rate": 18.2,
+                "Info": "Danh Vọng",
+                "Details": [
+                    { "ItemID": 20378, "Info": "50 x Rương danh vọng (sơ cấp)", "Number": 50, "Rate": 40.0 },
+                    { "ItemID": 20485, "Info": "50 x Rương danh vọng (trung cấp)", "Number": 50, "Rate": 40.0 },
+                    { "ItemID": 15716, "Info": "50 x Danh vọng Tranh đoạt Lãnh thổ", "Number": 50, "Rate": 10.0, "IsPreview": true, "Notify": true },
+                    { "ItemID": 530, "Info": "1 x Liên Đấu Hoàng Kim Bài", "Number": 1, "Rate": 6.0, "IsPreview": true, "Notify": true },
+                    { "ItemID": 13097, "Info": "50 x Danh vọng Liên đấu Liên Server", "Number": 50, "Rate": 4.0, "IsPreview": true, "Notify": true }
+                ]
+            },
+            {
+                "Rate": 2.0,
+                "Info": "Trang Sức Bạch Ngân Ngẫu Nhiên",
+                "Details": [
+                    { "ItemID": 11888, "Info": "1 x Cửu Long Huỳnh Quang Liên", "Number": 1, "Rate": 10.0, "IsPreview": true, "Notify": true },
+                    { "ItemID": 11889, "Info": "1 x Cửu Long Huỳnh Quang Liên", "Number": 1, "Rate": 10.0, "IsPreview": true, "Notify": true },
+                    { "ItemID": 11890, "Info": "1 x Cửu Long Huỳnh Quang Liên", "Number": 1, "Rate": 10.0, "IsPreview": true, "Notify": true },
+                    { "ItemID": 11891, "Info": "1 x Cửu Long Huỳnh Quang Liên", "Number": 1, "Rate": 10.0, "IsPreview": true, "Notify": true },
+                    { "ItemID": 11892, "Info": "1 x Cửu Long Huỳnh Quang Liên", "Number": 1, "Rate": 10.0, "IsPreview": true, "Notify": true },
+                    { "ItemID": 13057, "Info": "1 x Lăng Vân Giới", "Number": 1, "Rate": 10.0, "IsPreview": true, "Notify": true },
+                    { "ItemID": 13058, "Info": "1 x Lăng Vân Giới", "Number": 1, "Rate": 10.0, "IsPreview": true, "Notify": true },
+                    { "ItemID": 13059, "Info": "1 x Lăng Vân Giới", "Number": 1, "Rate": 10.0, "IsPreview": true, "Notify": true },
+                    { "ItemID": 13060, "Info": "1 x Lăng Vân Giới", "Number": 1, "Rate": 10.0, "IsPreview": true, "Notify": true },
+                    { "ItemID": 13061, "Info": "1 x Lăng Vân Giới", "Number": 1, "Rate": 10.0, "IsPreview": true, "Notify": true }
+                ]
+            },
+            { "Rate": 5.0, "Info": "1 x Không thưởng", "Details": [{ "ItemID": -1, "Rate": 100, "Info": "1 x Không thưởng" }] }
+        ]
+    },
+    {
+        "IDBox": 200540,
+        "BoxName": "Lì xì Đại Phúc Đại Cát",
+        "Items": [
+            {
+                "Rate": 16.0,
+                "Info": "Ngọc Hồn Thú",
+                "Details": [
+                    { "ItemID": 20772, "Info": "68 x Ngọc Hồn Thú", "Number": 68, "Rate": 40.0 },
+                    { "ItemID": 20772, "Info": "88 x Ngọc Hồn Thú", "Number": 88, "Rate": 40.0 },
+                    { "ItemID": 20772, "Info": "168 x Ngọc Hồn Thú", "Number": 168, "Rate": 10.0, "IsPreview": true, "Notify": true },
+                    { "ItemID": 20772, "Info": "188 x Ngọc Hồn Thú", "Number": 188, "Rate": 8.0, "IsPreview": true, "Notify": true },
+                    { "ItemID": 20772, "Info": "288 x Ngọc Hồn Thú", "Number": 288, "Rate": 2.0, "IsPreview": true, "Notify": true }
+                ]
+            },
+            {
+                "Rate": 16.0,
+                "Info": "Vé Khai Xuân",
+                "Details": [
+                    { "ItemID": 20779, "Info": "68 x Vé Bách bảo rương [sự kiện]", "Number": 68, "Rate": 40.0 },
+                    { "ItemID": 20779, "Info": "88 x Vé Bách bảo rương [sự kiện]", "Number": 88, "Rate": 40.0 },
+                    { "ItemID": 20779, "Info": "168 x Vé Bách bảo rương [sự kiện]", "Number": 168, "Rate": 10.0, "IsPreview": true, "Notify": true },
+                    { "ItemID": 20779, "Info": "188 x Vé Bách bảo rương [sự kiện]", "Number": 188, "Rate": 8.0, "IsPreview": true, "Notify": true },
+                    { "ItemID": 20779, "Info": "288 x Vé Bách bảo rương [sự kiện]", "Number": 288, "Rate": 2.0, "IsPreview": true, "Notify": true }
+                ]
+            },
+            {
+                "Rate": 16.0,
+                "Info": "Vé Ngũ Phúc",
+                "Details": [
+                    { "ItemID": 20765, "Info": "68 x Vé Ngũ Phúc", "Number": 68, "Rate": 40.0 },
+                    { "ItemID": 20765, "Info": "88 x Vé Ngũ Phúc", "Number": 88, "Rate": 40.0 },
+                    { "ItemID": 20765, "Info": "168 x Vé Ngũ Phúc", "Number": 168, "Rate": 10.0, "IsPreview": true, "Notify": true },
+                    { "ItemID": 20765, "Info": "188 x Vé Ngũ Phúc", "Number": 188, "Rate": 8.0, "IsPreview": true, "Notify": true },
+                    { "ItemID": 20765, "Info": "288 x Vé Ngũ Phúc", "Number": 288, "Rate": 2.0, "IsPreview": true, "Notify": true }
+                ]
+            },
+            {
+                "Rate": 16.0,
+                "Info": "Trang bị đồng hành",
+                "Details": [
+                    { "ItemID": 20529, "Info": "100 x Rương mảnh trang bị đồng hành (cao cấp)", "Number": 100, "Rate": 30.0 },
+                    { "ItemID": 25235, "Info": "1 x Rương Trang bị đồng hành Bích Huyết - Tự Chọn (Sơ Cấp)", "Number": 1, "Rate": 30.0 },
+                    { "ItemID": 25236, "Info": "1 x Rương Trang bị đồng hành Bích Huyết - Tự Chọn (Trung)", "Number": 1, "Rate": 30.0, "IsPreview": true, "Notify": true },
+                    { "ItemID": 20124, "Info": "1 x Rương trang bị đồng hành Bích Huyết (cao cấp)", "Number": 1, "Rate": 10.0, "IsPreview": true, "Notify": true }
+                ]
+            },
+            {
+                "Rate": 17.0,
+                "Info": "Danh Vọng",
+                "Details": [
+                    { "ItemID": 15716, "Info": "50 x Danh vọng Tranh đoạt Lãnh thổ", "Number": 50, "Rate": 40.0 },
+                    { "ItemID": 530, "Info": "1 x Liên Đấu Hoàng Kim Bài", "Number": 1, "Rate": 40.0 },
+                    { "ItemID": 13097, "Info": "50 x Danh vọng Liên đấu Liên Server", "Number": 50, "Rate": 15.0, "IsPreview": true, "Notify": true },
+                    { "ItemID": 2017, "Info": "1 x Rương Tiểu Du Long Danh Vọng Lệnh (ngẫu nhiên)", "Number": 1, "Rate": 3.0, "IsPreview": true, "Notify": true },
+                    { "ItemID": 20571, "Info": "1 x Rương Tiểu Du Long Danh Vọng Lệnh (lựa chọn)", "Number": 1, "Rate": 1.5, "IsPreview": true, "Notify": true },
+                    { "ItemID": 20747, "Info": "1 x Rương Du Long Danh Vọng Lệnh (ngẫu nhiên)", "Number": 1, "Rate": 0.5, "IsPreview": true, "Notify": true }
+                ]
+            },
+            {
+                "Rate": 17.0,
+                "Info": "Ngũ Hành Hồn Thạch",
+                "Details": [
+                    { "ItemID": 506, "Info": "688 x Ngũ Hành Hồn Thạch", "Number": 688, "Rate": 25.0 },
+                    { "ItemID": 506, "Info": "888 x Ngũ Hành Hồn Thạch", "Number": 888, "Rate": 25.0 },
+                    { "ItemID": 506, "Info": "1688 x Ngũ Hành Hồn Thạch", "Number": 1688, "Rate": 20.0 },
+                    { "ItemID": 506, "Info": "1888 x Ngũ Hành Hồn Thạch", "Number": 1888, "Rate": 20.0 },
+                    { "ItemID": 506, "Info": "6888 x Ngũ Hành Hồn Thạch", "Number": 6888, "Rate": 5.0, "IsPreview": true, "Notify": true },
+                    { "ItemID": 506, "Info": "8888 x Ngũ Hành Hồn Thạch", "Number": 8888, "Rate": 5.0, "IsPreview": true, "Notify": true }
+                ]
+            },
+            {
+                "Rate": 2.0,
+                "Info": "Trang Sức Bạch Ngân Ngẫu Nhiên",
+                "Details": [
+                    { "ItemID": 11893, "Info": "1 x Thiên Điệp Lưu Vân Liên", "Number": 1, "Rate": 10.0, "IsPreview": true, "Notify": true },
+                    { "ItemID": 11894, "Info": "1 x Thiên Điệp Lưu Vân Liên", "Number": 1, "Rate": 10.0, "IsPreview": true, "Notify": true },
+                    { "ItemID": 11895, "Info": "1 x Thiên Điệp Lưu Vân Liên", "Number": 1, "Rate": 10.0, "IsPreview": true, "Notify": true },
+                    { "ItemID": 11896, "Info": "1 x Thiên Điệp Lưu Vân Liên", "Number": 1, "Rate": 10.0, "IsPreview": true, "Notify": true },
+                    { "ItemID": 11897, "Info": "1 x Thiên Điệp Lưu Vân Liên", "Number": 1, "Rate": 10.0, "IsPreview": true, "Notify": true },
+                    { "ItemID": 13062, "Info": "1 x Cô Tinh Giới", "Number": 1, "Rate": 10.0, "IsPreview": true, "Notify": true },
+                    { "ItemID": 13063, "Info": "1 x Cô Tinh Giới", "Number": 1, "Rate": 10.0, "IsPreview": true, "Notify": true },
+                    { "ItemID": 13064, "Info": "1 x Cô Tinh Giới", "Number": 1, "Rate": 10.0, "IsPreview": true, "Notify": true },
+                    { "ItemID": 13065, "Info": "1 x Cô Tinh Giới", "Number": 1, "Rate": 10.0, "IsPreview": true, "Notify": true },
+                    { "ItemID": 13066, "Info": "1 x Cô Tinh Giới", "Number": 1, "Rate": 10.0, "IsPreview": true, "Notify": true }
+                ]
+            }
+        ]
+    },
+    {
+        "BoxName": "Rương thần bí",
+        "IDBox": 200514,
+        "Items": [
+            {
+                "Rate": 14.0,
+                "Info": "Ngũ Hành Hồn Thạch",
+                "Details": [
+                    { "ItemID": 506, "Info": "5000 x Ngũ Hành Hồn Thạch", "Number": 5000, "Rate": 60.0, "Notify": true },
+                    { "ItemID": 506, "Info": "7000 x Ngũ Hành Hồn Thạch", "Number": 7000, "Rate": 30.0, "Notify": true },
+                    { "ItemID": 506, "Info": "10000 x Ngũ Hành Hồn Thạch", "Number": 10000, "Rate": 10.0, "Notify": true, "IsPreview": true }
+                ]
+            },
+            {
+                "Rate": 14.0,
+                "Info": "Huyền tinh",
+                "Details": [
+                    { "ItemID": 192, "Info": "1 x Huyền Tinh hoàn mỹ (cấp 10)", "Number": 1, "Rate": 60.0, "Notify": true },
+                    { "ItemID": 193, "Info": "1 x Huyền Tinh óng ánh (cấp 11)", "Number": 1, "Rate": 30.0, "Notify": true },
+                    { "ItemID": 194, "Info": "1 x Huyền Tinh trời ban (cấp 12)", "Number": 1, "Rate": 10.0, "Notify": true, "IsPreview": true }
+                ]
+            },
+            {
+                "Rate": 13.0,
+                "Info": "Kỹ năng đồng hành",
+                "Details": [
+                    { "ItemID": 20622, "Info": "1 x Rương sách kỹ năng đồng hành [Sơ]", "Number": 1, "Rate": 60.0, "Notify": true },
+                    { "ItemID": 20623, "Info": "1 x Rương sách kỹ năng đồng hành [Trung]", "Number": 1, "Rate": 30.0, "Notify": true },
+                    { "ItemID": 20624, "Info": "1 x Rương sách kỹ năng đồng hành [Cao]", "Number": 1, "Rate": 10.0, "Notify": true, "IsPreview": true }
+                ]
+            },
+            {
+                "Rate": 14.0,
+                "Info": "Rương trang bị đồng hành",
+                "Details": [
+                    { "ItemID": 25236, "Info": "1 x Rương Trang bị đồng hành Bích Huyết - Tự Chọn (Trung)", "Number": 1, "Rate": 45.0, "Notify": true },
+                    { "ItemID": 20124, "Info": "1 x Rương trang bị đồng hành Bích Huyết (cao cấp)", "Number": 1, "Rate": 10.0, "Notify": true, "IsPreview": true },
+                    { "ItemID": 20529, "Info": "200 x Rương mảnh trang bị đồng hành (cao cấp)", "Number": 200, "Rate": 45.0 }
+                ]
+            },
+            {
+                "Rate": 15.0,
+                "Info": "Tiểu Du Long",
+                "Details": [
+                    { "ItemID": 2017, "Info": "1 x Rương Tiểu Du Long Danh Vọng Lệnh (ngẫu nhiên)", "Number": 1, "Rate": 70.0, "Notify": true },
+                    { "ItemID": 20571, "Info": "1 x Rương Tiểu Du Long Danh Vọng Lệnh (lựa chọn)", "Number": 1, "Rate": 30.0, "Notify": true, "IsPreview": true }
+                ]
+            },
+            {
+                "Rate": 13.0,
+                "Info": "Yến Tiểu Lâu",
+                "Details": [
+                    { "ItemID": 20601, "Info": "100 x Mảnh đồng hành Yến Tiểu Lâu", "Number": 100, "Rate": 75.0, "Notify": true },
+                    { "ItemID": 20601, "Info": "200 x Mảnh đồng hành Yến Tiểu Lâu", "Number": 200, "Rate": 20.0, "Notify": true },
+                    { "ItemID": 20601, "Info": "300 x Mảnh đồng hành Yến Tiểu Lâu", "Number": 300, "Rate": 4.0, "Notify": true },
+                    { "ItemID": 20601, "Info": "500 x Mảnh đồng hành Yến Tiểu Lâu", "Number": 500, "Rate": 1.0, "Notify": true, "IsPreview": true }
+                ]
+            },
+            {
+                "Rate": 12.0,
+                "Info": "Chân Nguyên",
+                "Details": [
+                    { "ItemID": 25270, "Info": "5000 x Kinh Nghiệm Chân Nguyên", "Number": 5000, "Rate": 76.0, "Notify": true },
+                    { "ItemID": 25270, "Info": "7000 x Kinh Nghiệm Chân Nguyên", "Number": 7000, "Rate": 20.0, "Notify": true },
+                    { "ItemID": 25270, "Info": "10000 x Kinh Nghiệm Chân Nguyên", "Number": 10000, "Rate": 4.0, "Notify": true, "IsPreview": true }
+                ]
+            },
+            {
+                "Rate": 5.0,
+                "Info": "Du Long Lệnh",
+                "Details": [
+                    { "ItemID": 1036, "Info": "1 x Du Long Danh Vọng Lệnh [Hộ thân phù]", "Number": 1, "Rate": 16.0, "Notify": true, "IsPreview": true },
+                    { "ItemID": 1037, "Info": "1 x Du Long Danh Vọng Lệnh [Nón]", "Number": 1, "Rate": 14.0, "Notify": true, "IsPreview": true },
+                    { "ItemID": 1038, "Info": "1 x Du Long Danh Vọng Lệnh [Áo]", "Number": 1, "Rate": 14.0, "Notify": true, "IsPreview": true },
+                    { "ItemID": 1039, "Info": "1 x Du Long Danh Vọng Lệnh [Yêu đái]", "Number": 1, "Rate": 14.0, "Notify": true, "IsPreview": true },
+                    { "ItemID": 1040, "Info": "1 x Du Long Danh Vọng Lệnh [Giày]", "Number": 1, "Rate": 14.0, "Notify": true, "IsPreview": true },
+                    { "ItemID": 1041, "Info": "1 x Du Long Danh Vọng Lệnh [Hạng liên]", "Number": 1, "Rate": 14.0, "Notify": true, "IsPreview": true },
+                    { "ItemID": 1042, "Info": "1 x Du Long Danh Vọng Lệnh [Nhẫn]", "Number": 1, "Rate": 14.0, "Notify": true, "IsPreview": true }
+                ]
+            }
+        ]
+    },
+    {
+        "IDBox": 200516,
+        "BoxName": "Rương Du Long Danh Vọng Lệnh (ngẫu nhiên)",
+        "Items": [
+            { "ItemID": 1036, "Rate": 14, "Number": 1, "Info": "1 x Du Long Danh Vọng Lệnh [Hộ thân phù]", "IsPreview": true },
+            { "ItemID": 1037, "Rate": 15, "Number": 1, "Info": "1 x Du Long Danh Vọng Lệnh [Nón]", "IsPreview": true },
+            { "ItemID": 1038, "Rate": 15, "Number": 1, "Info": "1 x Du Long Danh Vọng Lệnh [Áo]", "IsPreview": true },
+            { "ItemID": 1039, "Rate": 14, "Number": 1, "Info": "1 x Du Long Danh Vọng Lệnh [Yêu đái]", "IsPreview": true },
+            { "ItemID": 1040, "Rate": 14, "Number": 1, "Info": "1 x Du Long Danh Vọng Lệnh [Giày]", "IsPreview": true },
+            { "ItemID": 1041, "Rate": 14, "Number": 1, "Info": "1 x Du Long Danh Vọng Lệnh [Hạng liên]", "IsPreview": true },
+            { "ItemID": 1042, "Rate": 14, "Number": 1, "Info": "1 x Du Long Danh Vọng Lệnh [Nhẫn]", "IsPreview": true }
+        ]
+    },
+    {
+        "IDBox": 200517,
+        "BoxName": "Rương Du Long Thần Bí",
+        "Items": [
+            { "ItemID": 20747, "Rate": -1, "Number": 1, "Info": "1 x Rương Du Long Danh Vọng Lệnh (ngẫu nhiên)", "IsPreview": true },
+            { "ItemID": 1074, "Rate": -1, "Number": 5000, "Info": "5000 x Tiền Du Long", "IsPreview": true }
+        ]
+    },
+    { "IDBox": 100519, "BoxName": "Danh hiệu Tam Long Bá Vương", "Items": [{ "ItemID": 8, "Number": 234, "Rate": -1, "Info": "234 x Danh hiệu" }] },
+    { "IDBox": 100520, "BoxName": "Danh hiệu Tam Long Chiến Tướng", "Items": [{ "ItemID": 8, "Number": 235, "Rate": -1, "Info": "235 x Danh hiệu" }] },
+    { "IDBox": 100521, "BoxName": "Danh hiệu Tam Long Hộ Vệ", "Items": [{ "ItemID": 8, "Number": 236, "Rate": -1, "Info": "236 x Danh hiệu" }] },
+    { "IDBox": 100522, "BoxName": "Danh hiệu Tam Long Tinh Anh", "Items": [{ "ItemID": 8, "Number": 203, "Rate": -1, "Info": "203 x Danh hiệu" }] },
+    {
+        "IDBox": 100523,
+        "BoxName": "Ngoại trang Nhị Niên Chiến Bào",
+        "Items": [
+            { "ItemID": 15722, "Number": 1, "Rate": -1, "Time": 20161, "Info": "1 x [Ngoại trang] Nhị Niên Chiến Bào" },
+            { "ItemID": 15723, "Number": 1, "Rate": -1, "Time": 20161, "Info": "1 x [Ngoại trang] Nhị Niên Chiến Bào" }
+        ]
+    },
+    {
+        "IDBox": 200527,
+        "BoxName": "Quà Hải Tặc May Mắn",
+        "Items": [
+            { "ItemID": 188, "Rate": 18, "Number": 1, "Info": "1 x Huyền Tinh có vết nứt (cấp 6)", "IsPreview": true },
+            { "ItemID": 189, "Rate": 10, "Number": 1, "Info": "1 x Huyền Tinh thường (cấp 7)", "IsPreview": true },
+            { "ItemID": 20379, "Rate": 18, "Number": 1, "Info": "1 x Rương mảnh trang bị đồng hành (trung cấp)", "IsPreview": true },
+            { "ItemID": 20529, "Rate": 8, "Number": 1, "Info": "1 x Rương mảnh trang bị đồng hành (cao cấp)", "IsPreview": true },
+            { "ItemID": 1026, "Rate": 6, "Number": 1, "Info": "1 x Chiến Thư-Mật Thất Du Long", "IsPreview": true },
+            { "ItemID": 1074, "Rate": 15, "Number": 1, "Info": "1 x Tiền Du Long", "IsPreview": true },
+            { "ItemID": 1055, "Rate": 15, "Number": 1, "Info": "1 x Thiệp bạc (cấp 2)", "IsPreview": true },
+            { "ItemID": 20270, "Rate": 10, "Number": 1, "Info": "1 x Thiệp vàng (cấp 3)", "IsPreview": true }
+        ]
+    },
+    {
+        "IDBox": 100371,
+        "BoxName": "Tinh hoạt lực (1 vạn)",
+        "Items": [
+            { "Info": "2000 x Hoạt lực", "ItemID": 9, "Number": 2000, "Rate": -1 },
+            { "Info": "2000 x Tinh lực", "ItemID": 10, "Number": 2000, "Rate": -1 }
+        ]
+    },
+    { "IDBox": 100366, "BoxName": "Danh hiệu Hạnh Vận Giả (30 ngày)", "Items": [{ "ItemID": 8, "Number": 208, "Rate": -1, "Info": "208 x Danh hiệu" }] },
+    { "IDBox": 100367, "BoxName": "Danh hiệu Hạnh Vận Giả (15 ngày)", "Items": [{ "ItemID": 8, "Number": 209, "Rate": -1, "Info": "209 x Danh hiệu" }] },
+    { "IDBox": 100368, "BoxName": "Danh hiệu Hạnh Vận Giả (7 ngày)", "Items": [{ "ItemID": 8, "Number": 210, "Rate": -1, "Info": "210 x Danh hiệu" }] },
+    { "IDBox": 100369, "BoxName": "Danh hiệu Đệ Nhất Phú Hào (30 ngày)", "Items": [{ "ItemID": 8, "Number": 211, "Rate": -1, "Info": "211 x Danh hiệu" }] },
+    { "IDBox": 100370, "BoxName": "Danh hiệu Đệ Nhất Phú Hào (15 ngày)", "Items": [{ "ItemID": 8, "Number": 212, "Rate": -1, "Info": "212 x Danh hiệu" }] },
+    {
+        "IDBox": 100372,
+        "BoxName": "Gói Ưu đãi Kết Đoàn (1)",
+        "Items": [
+            { "ItemID": 189, "Rate": -1, "Number": 2, "Info": "2 x Huyền Tinh thường (cấp 7)", "IsPreview": true },
+            { "ItemID": 20690, "Rate": -1, "Number": 10, "Info": "10 x Rương danh vọng (sự kiện)", "IsPreview": true }
+        ]
+    },
+    {
+        "IDBox": 100373,
+        "BoxName": "Túi Huyền tinh (ngẫu nhiên)",
+        "Items": [
+            { "ItemID": 188, "Rate": 60, "Number": 1, "Info": "1 x Huyền Tinh có vết nứt (cấp 6)" },
+            { "ItemID": 189, "Rate": 30, "Number": 1, "Info": "1 x Huyền Tinh thường (cấp 7)" },
+            { "ItemID": 190, "Rate": 10, "Number": 1, "Info": "1 x Huyền Tinh có tì vết (cấp 8)" }
+        ]
+    },
+    {
+        "IDBox": 100374,
+        "BoxName": "Hộp Quà Thần Binh",
+        "Binding": 0,
+        "Items": [
+            { "Rate": 15.0, "Info": "100 x Ngũ Hành Hồn Thạch", "ItemID": 506, "Number": 100 },
+            {
+                "Rate": 16.0,
+                "Info": "Huyền tinh",
+                "Details": [
+                    { "ItemID": 189, "Info": "1 x Huyền Tinh thường (cấp 7)", "Number": 1, "Rate": 65.0 },
+                    { "ItemID": 190, "Info": "1 x Huyền Tinh có tì vết (cấp 8)", "Number": 1, "Rate": 30.0, "Notify": true, "IsPreview": true },
+                    { "ItemID": 191, "Info": "1 x Huyền Tinh vô hạ (cấp 9)", "Number": 1, "Rate": 4.0, "Notify": true, "IsPreview": true },
+                    { "ItemID": 192, "Info": "1 x Huyền Tinh hoàn mỹ (cấp 10)", "Number": 1, "Rate": 1.0, "Notify": true, "IsPreview": true }
+                ]
+            },
+            {
+                "Rate": 5.0,
+                "Info": "Dược phẩm",
+                "Details": [
+                    { "ItemID": 274, "Info": "1 x Ma Đao Thạch (cấp 10)", "Number": 1, "Rate": 33.0 },
+                    { "ItemID": 284, "Info": "1 x Hộ Giáp Phiến (cấp 10)", "Number": 1, "Rate": 33.0 },
+                    { "ItemID": 294, "Info": "1 x Ngũ Hành Thạch (cấp 10)", "Number": 1, "Rate": 34.0 }
+                ]
+            },
+            {
+                "Rate": 15.0,
+                "Info": "Tài Nguyên Đồng Hành",
+                "Details": [
+                    { "ItemID": 1058, "Info": "1 x Sách kinh nghiệm đồng hành (Truyền thuyết)", "Number": 1, "Rate": 2.8, "Notify": true, "IsPreview": true },
+                    { "ItemID": 1057, "Info": "1 x Sách kinh nghiệm đồng hành", "Number": 1, "Rate": 15.0 },
+                    { "ItemID": 20270, "Info": "1 x Thiệp vàng (cấp 3)", "Number": 1, "Rate": 25.0 },
+                    { "ItemID": 20406, "Info": "1 x Thiệp bạch kim (cấp 4)", "Number": 1, "Rate": 10.0, "Notify": true, "IsPreview": true },
+                    { "ItemID": 1099, "Info": "1 x Đồng hành Tẩy Tủy Kinh (thường)", "Number": 1, "Rate": 5.0 },
+                    { "ItemID": 1104, "Info": "1 x Bạch Kim Tinh Hoa (Cấp 3)", "Number": 1, "Rate": 40.0 },
+                    { "ItemID": 20272, "Info": "1 x Sách Kỹ năng Đồng hành (cấp 1)", "Number": 1, "Rate": 1.9, "Notify": true, "IsPreview": true },
+                    { "ItemID": 20273, "Info": "1 x Sách Kỹ năng Đồng hành (cấp 2)", "Number": 1, "Rate": 0.3, "Notify": true, "IsPreview": true }
+                ]
+            },
+            {
+                "Rate": 0.1,
+                "Info": "Mật tịch đồng hành",
+                "Details": [
+                    { "ItemID": 1075, "Info": "1 x Mật tịch đồng hành (sơ)", "Number": 1, "Rate": 60.0 },
+                    { "ItemID": 1076, "Info": "1 x Mật tịch đồng hành (trung)", "Number": 1, "Rate": 30.0 },
+                    { "ItemID": 1077, "Info": "1 x Mật tịch đồng hành (cao)", "Number": 1, "Rate": 10.0, "Notify": true, "IsPreview": true }
+                ]
+            },
+            {
+                "Rate": 8.0,
+                "Info": "Mảnh kỹ năng trang bị đồng hành",
+                "Details": [
+                    { "ItemID": 25299, "Info": "1 x Mảnh Kỹ Năng Phòng Cụ", "Number": 1, "Rate": 45.0, "Notify": true, "IsPreview": true },
+                    { "ItemID": 25300, "Info": "1 x Mảnh Kỹ Năng Trang Sức", "Number": 1, "Rate": 45.0, "Notify": true, "IsPreview": true },
+                    { "ItemID": 25301, "Info": "1 x Mảnh Kỹ Năng Vũ Khí", "Number": 1, "Rate": 10.0, "Notify": true, "IsPreview": true }
+                ]
+            },
+            {
+                "Rate": 12.0,
+                "Info": "Rương mảnh trang bị đồng hành",
+                "Details": [
+                    { "ItemID": 20379, "Info": "1 x Rương mảnh trang bị đồng hành (trung cấp)", "Number": 1, "Rate": 58.0 },
+                    { "ItemID": 20529, "Info": "1 x Rương mảnh trang bị đồng hành (cao cấp)", "Number": 1, "Rate": 40.9 },
+                    { "ItemID": 20482, "Info": "1 x Rương trang bị đồng hành Bích Huyết (sơ cấp)", "Number": 1, "Rate": 1.0, "Notify": true, "IsPreview": true },
+                    { "ItemID": 20555, "Info": "1 x Rương trang bị đồng hành Bích Huyết (trung cấp)", "Number": 1, "Rate": 0.1, "Notify": true, "IsPreview": true }
+                ]
+            },
+            {
+                "Rate": 12.34,
+                "Info": "Rương Danh Vọng hiếm",
+                "Details": [
+                    { "ItemID": 15712, "Info": "1 x Danh vọng Tiêu Dao Cốc", "Number": 1, "Rate": 20.0 },
+                    { "ItemID": 15713, "Info": "1 x Danh vọng Chúc phúc", "Number": 1, "Rate": 15.0 },
+                    { "ItemID": 15716, "Info": "1 x Danh vọng Tranh đoạt Lãnh thổ", "Number": 1, "Rate": 15.0 },
+                    { "ItemID": 15714, "Info": "1 x Danh vọng Tần Lăng - Quan phủ", "Number": 1, "Rate": 12.0 },
+                    { "ItemID": 527, "Info": "1 x Liên Đấu Hắc Thiết Bài", "Number": 1, "Rate": 4.0, "Notify": true, "IsPreview": true },
+                    { "ItemID": 528, "Info": "1 x Liên Đấu Thanh Đồng Bài", "Number": 1, "Rate": 2.0, "Notify": true, "IsPreview": true },
+                    { "ItemID": 15712, "Info": "2 x Danh vọng Tiêu Dao Cốc", "Number": 2, "Rate": 10.0 },
+                    { "ItemID": 15713, "Info": "2 x Danh vọng Chúc phúc", "Number": 2, "Rate": 8.0 },
+                    { "ItemID": 15716, "Info": "2 x Danh vọng Tranh đoạt Lãnh thổ", "Number": 2, "Rate": 8.0 },
+                    { "ItemID": 15714, "Info": "2 x Danh vọng Tần Lăng - Quan phủ", "Number": 2, "Rate": 6.0 }
+                ]
+            },
+            {
+                "Rate": 4.0,
+                "Info": "Chân Nguyên",
+                "Details": [
+                    { "ItemID": 25270, "Info": "10 x Kinh Nghiệm Chân Nguyên", "Number": 10, "Rate": 95.0 },
+                    { "ItemID": 25269, "Info": "1 x Thiệp Như Ý", "Number": 1, "Rate": 5.0, "Notify": true, "IsPreview": true }
+                ]
+            },
+            {
+                "Rate": 6.2,
+                "Info": "Tinh Hoạt Lực ",
+                "Details": [
+                    { "ItemID": 20537, "Info": "1 x Tinh hoạt lực (500)", "Number": 1, "Rate": 10.0, "IsPreview": true },
+                    { "ItemID": 20538, "Info": "1 x Tinh hoạt lực (1000)", "Number": 1, "Rate": 10.0, "IsPreview": true },
+                    { "ItemID": 349, "Info": "1 x Tinh Khí Tán (1000)", "Number": 1, "Rate": 25.0 },
+                    { "ItemID": 350, "Info": "1 x Tinh Khí Tán (1500)", "Number": 1, "Rate": 25.0 },
+                    { "ItemID": 352, "Info": "1 x Hoạt Khí Tán (1000)", "Number": 1, "Rate": 15.0 },
+                    { "ItemID": 353, "Info": "1 x Hoạt Khí Tán (1500)", "Number": 1, "Rate": 15.0 }
+                ]
+            },
+            {
+                "Rate": 1.0,
+                "Info": "Bùa bảo hộ đồng hành",
+                "Details": [
+                    { "ItemID": 20694, "Info": "1 x Bùa bảo hộ Kim Lân", "Number": 1, "Rate": 76.0 },
+                    { "ItemID": 20695, "Info": "1 x Bùa bảo hộ Đơn Tâm", "Number": 1, "Rate": 20.0, "Notify": true, "IsPreview": true },
+                    { "ItemID": 20696, "Info": "1 x Bùa bảo hộ Long Đằng", "Number": 1, "Rate": 4.0, "Notify": true, "IsPreview": true }
+                ]
+            },
+            {
+                "Rate": 0.04,
+                "Info": "Rương Du Long ",
+                "Details": [
+                    { "ItemID": 2017, "Info": "1 x Rương Tiểu Du Long Danh Vọng Lệnh (ngẫu nhiên)", "Number": 1, "Rate": 75.0, "Notify": true, "IsPreview": true },
+                    { "ItemID": 20571, "Info": "1 x Rương Tiểu Du Long Danh Vọng Lệnh (lựa chọn)", "Number": 1, "Rate": 24.0, "Notify": true, "IsPreview": true },
+                    { "ItemID": 20747, "Info": "1 x Rương Du Long Danh Vọng Lệnh (ngẫu nhiên)", "Number": 1, "Rate": 1.0 }
+                ]
+            },
+            {
+                "Rate": 0.02,
+                "Info": "Rương kỹ năng đồng hành",
+                "Details": [
+                    { "ItemID": 20273, "Info": "1 x Sách Kỹ năng Đồng hành (cấp 2)", "Number": 1, "Rate": 50.0 },
+                    { "ItemID": 20622, "Info": "1 x Rương sách kỹ năng đồng hành [Sơ]", "Number": 1, "Rate": 30.0, "Notify": true, "IsPreview": true },
+                    { "ItemID": 20623, "Info": "1 x Rương sách kỹ năng đồng hành [Trung]", "Number": 1, "Rate": 15.0, "Notify": true, "IsPreview": true },
+                    { "ItemID": 20624, "Info": "1 x Rương sách kỹ năng đồng hành [Cao]", "Number": 1, "Rate": 5.0, "Notify": true, "IsPreview": true }
+                ]
+            },
+            { "Rate": 0.4, "Info": "1 x Xích Long Hồn Giới", "ItemID": 20840, "Notify": true, "IsPreview": true, "Number": 1 },
+            { "Rate": 0.4, "Info": "1 x Thần Long Ngọc Ấn", "ItemID": 20841, "Notify": true, "IsPreview": true, "Number": 1 },
+            { "Rate": 1.5, "Info": "1 x Thú cưỡi Huyền Ngưu Chiến Kỵ (ngẫu nhiên)", "ItemID": 20836, "IsPreview": true, "Number": 1 },
+            { "Rate": 2.0, "Info": "1 x Câu Hồn Ngọc (trung)", "ItemID": 432, "IsPreview": true, "Number": 1 },
+            { "Rate": 1.0, "Info": "1 x Câu Hồn Ngọc (cao)", "ItemID": 433, "IsPreview": true, "Number": 1 }
+        ]
+    },
+    { "IDBox": 100392, "BoxName": "Hoạt khí tán (500) [VIP]", "Items": [{ "Info": "500 x Hoạt lực", "ItemID": 9, "Number": 500, "Rate": -1 }] },
+    { "IDBox": 100391, "BoxName": "Tinh khí tán (500) [VIP]", "Items": [{ "Info": "500 x Tinh lực", "ItemID": 10, "Number": 500, "Rate": -1 }] },
+    { "BoxName": "Kinh nghiệm đơn (10 vạn)", "IDBox": 100393, "Binding": 0, "Items": [{ "ItemID": 5, "Rate": -1, "Number": 100000, "Info": "100000 x EXP" }] },
+    {
+        "BoxName": "Rương bách bảo [sự kiện]",
+        "IDBox": 200550,
+        "Binding": 1,
+        "Items": [
+            { "ItemID": 2017, "Rate": 7, "Info": "1 x Rương Tiểu Du Long Danh Vọng Lệnh (ngẫu nhiên)" },
+            { "ItemID": 20571, "Rate": 3, "Info": "1 x Rương Tiểu Du Long Danh Vọng Lệnh (lựa chọn)" },
+            { "ItemID": 20876, "Number": 20, "Rate": 3, "Info": "20 x Hoa Quả" },
+            { "ItemID": 20876, "Number": 21, "Rate": 3, "Info": "21 x Hoa Quả" },
+            { "ItemID": 20876, "Number": 22, "Rate": 3, "Info": "22 x Hoa Quả" },
+            { "ItemID": 20876, "Number": 23, "Rate": 3, "Info": "23 x Hoa Quả" },
+            { "ItemID": 20876, "Number": 24, "Rate": 3, "Info": "24 x Hoa Quả" },
+            { "ItemID": 20876, "Number": 25, "Rate": 3, "Info": "25 x Hoa Quả" },
+            { "ItemID": 20876, "Number": 26, "Rate": 3, "Info": "26 x Hoa Quả" },
+            { "ItemID": 20876, "Number": 27, "Rate": 3, "Info": "27 x Hoa Quả" },
+            { "ItemID": 20876, "Number": 28, "Rate": 3, "Info": "28 x Hoa Quả" },
+            { "ItemID": 20876, "Number": 29, "Rate": 3, "Info": "29 x Hoa Quả" },
+            { "ItemID": 20876, "Number": 30, "Rate": 3, "Info": "30 x Hoa Quả" },
+            { "ItemID": 20876, "Number": 31, "Rate": 3, "Info": "31 x Hoa Quả" },
+            { "ItemID": 20876, "Number": 32, "Rate": 3, "Info": "32 x Hoa Quả" },
+            { "ItemID": 20876, "Number": 33, "Rate": 3, "Info": "33 x Hoa Quả" },
+            { "ItemID": 20876, "Number": 34, "Rate": 3, "Info": "34 x Hoa Quả" },
+            { "ItemID": 20876, "Number": 35, "Rate": 3, "Info": "35 x Hoa Quả" },
+            { "ItemID": 20876, "Number": 36, "Rate": 3, "Info": "36 x Hoa Quả" },
+            { "ItemID": 20876, "Number": 37, "Rate": 3, "Info": "37 x Hoa Quả" },
+            { "ItemID": 20876, "Number": 38, "Rate": 3, "Info": "38 x Hoa Quả" },
+            { "ItemID": 20876, "Number": 39, "Rate": 3, "Info": "39 x Hoa Quả" },
+            { "ItemID": 20876, "Number": 40, "Rate": 3, "Info": "40 x Hoa Quả" },
+            { "ItemID": 20876, "Number": 41, "Rate": 3, "Info": "41 x Hoa Quả" },
+            { "ItemID": 20876, "Number": 42, "Rate": 3, "Info": "42 x Hoa Quả" },
+            { "ItemID": 20876, "Number": 43, "Rate": 3, "Info": "43 x Hoa Quả" },
+            { "ItemID": 20876, "Number": 44, "Rate": 3, "Info": "44 x Hoa Quả" },
+            { "ItemID": 20876, "Number": 45, "Rate": 3, "Info": "45 x Hoa Quả" },
+            { "ItemID": 20876, "Number": 46, "Rate": 3, "Info": "46 x Hoa Quả" },
+            { "ItemID": 20876, "Number": 47, "Rate": 3, "Info": "47 x Hoa Quả" },
+            { "ItemID": 20876, "Number": 48, "Rate": 2, "Info": "48 x Hoa Quả" },
+            { "ItemID": 20876, "Number": 49, "Rate": 2, "Info": "49 x Hoa Quả" },
+            { "ItemID": 20876, "Number": 50, "Rate": 2, "Info": "50 x Hoa Quả" }
+        ]
+    },
+    {
+        "BoxName": "Blind-box Thú cưỡi (trung cấp)",
+        "IDBox": 200580,
+        "Binding": 1,
+        "Items": [
+            { "ItemID": 20188, "Rate": 9.3, "Info": "1 x Túy Nguyệt [Thanh Huy] - Tuần lộc Giáng Sinh (cấp 2)", "Number": 1, "Time": 10081 },
+            { "ItemID": 20196, "Rate": 9.3, "Info": "1 x Thỏ Cô Đơn [Sự kiện Quốc Sắc Thiên Hương] - Cấp 2", "Number": 1, "Time": 10081 },
+            { "ItemID": 15506, "Rate": 9.3, "Info": "1 x Voi Bản Đôn [Trở Về Tuổi Thơ] - Cấp 2", "Number": 1, "Time": 10081 },
+            { "ItemID": 15512, "Rate": 9.3, "Info": "1 x Mạch Thượng Phi Sương - Cấp 2", "Number": 1, "Time": 10081 },
+            { "ItemID": 15228, "Rate": 9.3, "Info": "1 x Giáp Trùng [Cánh Diều Tuổi Thơ] - Cấp 2", "Number": 1, "Time": 10081 },
+            { "ItemID": 15243, "Rate": 9.3, "Info": "1 x Thỏ Ngọc [Sự kiện Dạ Thu Thưởng Nguyệt] - Cấp 2", "Number": 1, "Time": 10081 },
+            { "ItemID": 15262, "Rate": 9.2, "Info": "1 x Viêm Dương Long Tử [Sự kiện Tuyệt Thế Giai Nhân] - Cấp 2", "Number": 1, "Time": 10081 },
+            { "ItemID": 20189, "Rate": 7.0, "Info": "1 x Túy Nguyệt [Thanh Huy] - Tuần lộc Giáng Sinh (cấp 3)", "Number": 1, "Time": 10081 },
+            { "ItemID": 20197, "Rate": 7.0, "Info": "1 x Thỏ Cô Đơn [Sự kiện Quốc Sắc Thiên Hương] - Cấp 3", "Number": 1, "Time": 10081 },
+            { "ItemID": 15507, "Rate": 7.0, "Info": "1 x Voi Bản Đôn [Trở Về Tuổi Thơ] - Cấp 3", "Number": 1, "Time": 10081 },
+            { "ItemID": 15513, "Rate": 7.0, "Info": "1 x Mạch Thượng Phi Sương - Cấp 3", "Number": 1, "Time": 10081 },
+            { "ItemID": 15229, "Rate": 7.0, "Info": "1 x Giáp Trùng [Cánh Diều Tuổi Thơ] - Cấp 3", "Number": 1, "Time": 10081 }
+        ]
+    },
+    {
+        "BoxName": "Blind-box Thú Cưỡi (cao cấp)",
+        "IDBox": 200581,
+        "Binding": 1,
+        "Items": [
+            { "ItemID": 20189, "Rate": 12.0, "Info": "1 x Túy Nguyệt [Thanh Huy] - Tuần lộc Giáng Sinh (cấp 3)", "Number": 1, "Time": 10081 },
+            { "ItemID": 20197, "Rate": 12.0, "Info": "1 x Thỏ Cô Đơn [Sự kiện Quốc Sắc Thiên Hương] - Cấp 3", "Number": 1, "Time": 10081 },
+            { "ItemID": 15507, "Rate": 12.0, "Info": "1 x Voi Bản Đôn [Trở Về Tuổi Thơ] - Cấp 3", "Number": 1, "Time": 10081 },
+            { "ItemID": 15513, "Rate": 12.0, "Info": "1 x Mạch Thượng Phi Sương - Cấp 3", "Number": 1, "Time": 10081 },
+            { "ItemID": 15229, "Rate": 12.0, "Info": "1 x Giáp Trùng [Cánh Diều Tuổi Thơ] - Cấp 3", "Number": 1, "Time": 10081 },
+            { "ItemID": 20190, "Rate": 4.3, "Info": "1 x Túy Nguyệt [Trục Quân] - Tuần lộc Giáng Sinh (cấp 4)", "Number": 1, "Time": 10081 },
+            { "ItemID": 20198, "Rate": 4.3, "Info": "1 x Thỏ Cô Đơn [Sự kiện Quốc Sắc Thiên Hương] - Cấp 4", "Number": 1, "Time": 10081 },
+            { "ItemID": 15508, "Rate": 4.3, "Info": "1 x Voi Bản Đôn [Trở Về Tuổi Thơ] - Cấp 4", "Number": 1, "Time": 10081 },
+            { "ItemID": 15514, "Rate": 4.3, "Info": "1 x Mạch Thượng Phi Sương - Cấp 4", "Number": 1, "Time": 10081 },
+            { "ItemID": 15230, "Rate": 4.3, "Info": "1 x Giáp Trùng [Cánh Diều Tuổi Thơ] - Cấp 4", "Number": 1, "Time": 10081 },
+            { "ItemID": 15245, "Rate": 4.3, "Info": "1 x Thỏ Ngọc [Sự kiện Dạ Thu Thưởng Nguyệt] - Cấp 4", "Number": 1, "Time": 10081 },
+            { "ItemID": 15264, "Rate": 4.2, "Info": "1 x Viêm Dương Long Tử [Sự kiện Tuyệt Thế Giai Nhân] - Cấp 4", "Number": 1, "Time": 10081 },
+            { "ItemID": 20191, "Rate": 1.43, "Info": "1 x Túy Nguyệt [Trục Quân] - Tuần lộc Giáng Sinh (cấp 5)", "Number": 1, "Time": 10081 },
+            { "ItemID": 20199, "Rate": 1.43, "Info": "1 x Thỏ Cô Đơn [Sự kiện Quốc Sắc Thiên Hương] - Cấp 5", "Number": 1, "Time": 10081 },
+            { "ItemID": 15509, "Rate": 1.43, "Info": "1 x Voi Bản Đôn [Trở Về Tuổi Thơ] - Cấp 5", "Number": 1, "Time": 10081 },
+            { "ItemID": 15515, "Rate": 1.43, "Info": "1 x Mạch Thượng Phi Sương - Cấp 5", "Number": 1, "Time": 10081 },
+            { "ItemID": 15231, "Rate": 1.43, "Info": "1 x Giáp Trùng [Cánh Diều Tuổi Thơ] - Cấp 5", "Number": 1, "Time": 10081 },
+            { "ItemID": 15246, "Rate": 1.43, "Info": "1 x Thỏ Ngọc [Sự kiện Dạ Thu Thưởng Nguyệt] - Cấp 5", "Number": 1, "Time": 10081 },
+            { "ItemID": 15265, "Rate": 1.42, "Info": "1 x Viêm Dương Long Tử [Sự kiện Tuyệt Thế Giai Nhân] - Cấp 5", "Number": 1, "Time": 10081 }
+        ]
+    },
+    {
+        "BoxName": "Blind-box Thú Cưỡi (siêu cấp)",
+        "IDBox": 200582,
+        "Binding": 1,
+        "Items": [
+            { "ItemID": 20190, "Rate": 8.6, "Info": "1 x Túy Nguyệt [Trục Quân] - Tuần lộc Giáng Sinh (cấp 4)", "Number": 1, "Time": 10081 },
+            { "ItemID": 20198, "Rate": 8.6, "Info": "1 x Thỏ Cô Đơn [Sự kiện Quốc Sắc Thiên Hương] - Cấp 4", "Number": 1, "Time": 10081 },
+            { "ItemID": 15508, "Rate": 8.6, "Info": "1 x Voi Bản Đôn [Trở Về Tuổi Thơ] - Cấp 4", "Number": 1, "Time": 10081 },
+            { "ItemID": 15514, "Rate": 8.6, "Info": "1 x Mạch Thượng Phi Sương - Cấp 4", "Number": 1, "Time": 10081 },
+            { "ItemID": 15230, "Rate": 8.6, "Info": "1 x Giáp Trùng [Cánh Diều Tuổi Thơ] - Cấp 4", "Number": 1, "Time": 10081 },
+            { "ItemID": 15245, "Rate": 8.6, "Info": "1 x Thỏ Ngọc [Sự kiện Dạ Thu Thưởng Nguyệt] - Cấp 4", "Number": 1, "Time": 10081 },
+            { "ItemID": 15264, "Rate": 8.6, "Info": "1 x Viêm Dương Long Tử [Sự kiện Tuyệt Thế Giai Nhân] - Cấp 4", "Number": 1, "Time": 10081 },
+            { "ItemID": 20191, "Rate": 4.3, "Info": "1 x Túy Nguyệt [Trục Quân] - Tuần lộc Giáng Sinh (cấp 5)", "Number": 1, "Time": 10081 },
+            { "ItemID": 20199, "Rate": 4.3, "Info": "1 x Thỏ Cô Đơn [Sự kiện Quốc Sắc Thiên Hương] - Cấp 5", "Number": 1, "Time": 10081 },
+            { "ItemID": 15509, "Rate": 4.3, "Info": "1 x Voi Bản Đôn [Trở Về Tuổi Thơ] - Cấp 5", "Number": 1, "Time": 10081 },
+            { "ItemID": 15515, "Rate": 4.3, "Info": "1 x Mạch Thượng Phi Sương - Cấp 5", "Number": 1, "Time": 10081 },
+            { "ItemID": 15231, "Rate": 4.3, "Info": "1 x Giáp Trùng [Cánh Diều Tuổi Thơ] - Cấp 5", "Number": 1, "Time": 10081 },
+            { "ItemID": 15246, "Rate": 4.3, "Info": "1 x Thỏ Ngọc [Sự kiện Dạ Thu Thưởng Nguyệt] - Cấp 5", "Number": 1, "Time": 10081 },
+            { "ItemID": 15265, "Rate": 4.2, "Info": "1 x Viêm Dương Long Tử [Sự kiện Tuyệt Thế Giai Nhân] - Cấp 5", "Number": 1, "Time": 10081 },
+            { "ItemID": 20221, "Rate": 1.67, "Info": "1 x Thỏ Cô Đơn [Sự kiện Quốc Sắc Thiên Hương] - Cấp 6", "Number": 1, "Time": 10081 },
+            { "ItemID": 15510, "Rate": 1.67, "Info": "1 x Voi Bản Đôn [Trở Về Tuổi Thơ] - Cấp 6", "Number": 1, "Time": 10081 },
+            { "ItemID": 15516, "Rate": 1.67, "Info": "1 x Mạch Thượng Phi Sương - Cấp 6", "Number": 1, "Time": 10081 },
+            { "ItemID": 15232, "Rate": 1.67, "Info": "1 x Giáp Trùng [Cánh Diều Tuổi Thơ] - Cấp 6", "Number": 1, "Time": 10081 },
+            { "ItemID": 15247, "Rate": 1.66, "Info": "1 x Thỏ Ngọc [Sự kiện Dạ Thu Thưởng Nguyệt] - Cấp 6", "Number": 1, "Time": 10081 },
+            { "ItemID": 15266, "Rate": 1.46, "Info": "1 x Viêm Dương Long Tử [Sự kiện Tuyệt Thế Giai Nhân] - Cấp 6", "Number": 1, "Time": 10081 }
+        ]
+    },
+
+    {
+        "IDBox": 200583,
+        "BoxName": "Danh hiệu thành viên thân thiết",
+        "Items": [
+            { "ItemID": 8, "Number": 229, "Rate": -1, "Info": "229 x Danh hiệu" }
+        ]
+    },
+    {
+        "IDBox": 200584,
+        "BoxName": "Danh hiệu nhà tài trợ bạc",
+        "Items": [
+            { "ItemID": 8, "Number": 230, "Rate": -1, "Info": "230 x Danh hiệu" }
+        ]
+    },
+    {
+        "IDBox": 200585,
+        "BoxName": "Danh hiệu nhà tài trợ vàng",
+        "Items": [
+            { "ItemID": 8, "Number": 231, "Rate": -1, "Info": "231 x Danh hiệu" }
+        ]
+    },
+    {
+        "IDBox": 200586,
+        "BoxName": "Danh hiệu nhà tài trợ bạch kim",
+        "Items": [
+            { "ItemID": 8, "Number": 232, "Rate": -1, "Info": "232 x Danh hiệu" }
+        ]
+    },
+    {
+        "IDBox": 200587,
+        "BoxName": "Danh hiệu nhà tài trợ kim cương",
+        "Items": [
+            { "ItemID": 8, "Number": 233, "Rate": -1, "Info": "233 x Danh hiệu" }
+        ]
+    },
+    {
+        "IDBox": 200590,
+        "BoxName": "Hộp lưu trữ bảo thạch",
+        "Items": [
+            { "ItemID": 14203, "Rate": 80, "Info": "1 x Bảo thạch phổ thông - Cấp 3", "Number": 1},
+            { "ItemID": 14213, "Rate": 20, "Info": "1 x Bảo thạch đặc thù - Cấp 3", "Number": 1}
+        ]
+    },
+    {
+        "IDBox": 200591,
+        "BoxName": "Hộp quà bảo thạch",
+        "Items": [
+            { "ItemID": 14201, "Rate": 22, "Info": "1 x Bảo thạch phổ thông - Cấp 1", "Number": 1},
+            { "ItemID": 14202, "Rate": 9, "Info": "1 x Bảo thạch phổ thông - Cấp 2", "Number": 1},
+            { "ItemID": 14203, "Rate": 2, "Info": "1 x Bảo thạch phổ thông - Cấp 3", "Number": 1},
+            { "ItemID": 14211, "Rate": 14, "Info": "1 x Bảo thạch đặc thù - Cấp 1", "Number": 1},
+            { "ItemID": 14212, "Rate": 6, "Info": "1 x Bảo thạch đặc thù - Cấp 2", "Number": 1},
+            { "ItemID": 14213, "Rate": 1, "Info": "1 x Bảo thạch đặc thù - Cấp 3", "Number": 1},
+            { "ItemID": 14241, "Rate": 22, "Info": "1 x Mảnh vỡ bảo thạch", "Number": 1},
+            { "ItemID": 14241, "Rate": 14, "Info": "1 x Mảnh vỡ bảo thạch", "Number": 2},
+            { "ItemID": 14242, "Rate": 10, "Info": "1 x Kim cương toản", "Number": 1}
+        ]
+    },
+    {
+        "BoxName": "Rương sự kiện hoàn trả 1000 KNB(ngày 1)",
+        "IDBox": 201000,
+        "Binding": 1,
+        "Items": [
+            { "ItemID": 190, "Rate": -1, "Info": "1 x Huyền tinh 8", "Number": 1},
+            { "ItemID": 20270, "Rate": -1, "Info": "1 x Thiệp Vàng", "Number": 1},
+            { "ItemID": 20485, "Rate": -1, "Info": "10 x Rương danh vọng - Trung", "Number": 10}
+        ]
+    },
+    {
+        "BoxName": "Rương sự kiện hoàn trả 1000 KNB(ngày 5)",
+        "IDBox": 201001,
+        "Binding": 1,
+        "Items": [
+            { "ItemID": 20538, "Rate": -1, "Info": "1 x Tinh hoạt Lực (1000)", "Number": 1},
+            { "ItemID": 506, "Rate": -1, "Info": "100 x Ngũ Hành Hồn Thạch", "Number": 100}
+        ]
+    },
+    {
+        "BoxName": "Rương sự kiện hoàn trả 2000 KNB(ngày 1)",
+        "IDBox": 201002,
+        "Binding": 1,
+        "Items": [
+            { "ItemID": 190, "Rate": -1, "Info": "1 x Huyền tinh 8", "Number": 1},
+            { "ItemID": 1057, "Rate": -1, "Info": "10 x Sách Kinh Nghiệm Đồng Hành", "Number": 10}
+        ]
+    },
+    {
+        "BoxName": "Rương sự kiện hoàn trả 2000 KNB(ngày 5)",
+        "IDBox": 201003,
+        "Binding": 1,
+        "Items": [
+            { "ItemID": 20538, "Rate": -1, "Info": "2 x Tinh Hoạt Lực (1000)", "Number": 2},
+            { "ItemID": 1026, "Rate": -1, "Info": "10 x Chiến Thư Du Long", "Number": 10},
+            { "ItemID": 20379, "Rate": -1, "Info": "20 x Rương mảnh trang bị đồng hành - trung", "Number": 20}
+        ]
+    },
+    {
+        "BoxName": "Rương sự kiện hoàn trả 5000 KNB(ngày 1)",
+        "IDBox": 201004,
+        "Binding": 1,
+        "Items": [
+            { "ItemID": 191, "Rate": -1, "Info": "1 x Huyền Tinh 9", "Number": 1},
+            { "ItemID": 20538, "Rate": -1, "Info": "3 x Tinh Hoạt Lực 1000", "Number": 3},
+            { "ItemID": 20529, "Rate": -1, "Info": "30 x Rương mảnh trang bị đồng hành - cao cấp", "Number": 30}
+        ]
+    },
+    {
+        "BoxName": "Rương sự kiện hoàn trả 5000 KNB(ngày 5)",
+        "IDBox": 201005,
+        "Binding": 1,
+        "Items": [
+            { "ItemID": 25269, "Rate": -1, "Info": "2 x Thiệp Như Ý ", "Number": 2},
+            { "ItemID": 506, "Rate": -1, "Info": "800 x Ngũ Hành Hồn Thạch", "Number": 800}
+        ]
+    },
+    {
+        "BoxName": "Rương sự kiện hoàn trả 10000 KNB(ngày 1)",
+        "IDBox": 201006,
+        "Binding": 1,
+        "Items": [
+            { "ItemID": 20538, "Rate": -1, "Info": "5 x Tinh Hoạt Lực 1000 ", "Number": 5},
+            { "ItemID": 20406, "Rate": -1, "Info": "2 x Thiệp Bạch Kim ", "Number": 2},
+            { "ItemID": 1102, "Rate": -1, "Info": "30 x Bạch Ngân Tinh Hoa ", "Number": 30}
+        ]
+    },
+    {
+        "BoxName": "Rương sự kiện hoàn trả 10000 KNB(ngày 5)",
+        "IDBox": 201007,
+        "Binding": 1,
+        "Items": [
+            { "ItemID": 506, "Rate": -1, "Info": "2000 x Ngũ Hành Hồn Thạch  ", "Number": 2000},
+            { "ItemID": 25270, "Rate": -1, "Info": "300 x Kinh nghiệm Chân Nguyên ", "Number": 300}
+        ]
+    },
+    {
+        "BoxName": "Rương sự kiện hoàn trả 50000 KNB(ngày 1)",
+        "IDBox": 201008,
+        "Binding": 1,
+        "Items": [
+            { "ItemID": 20291, "Rate": -1, "Info": "2 x Tinh Hoạt Lực (1 vạn) ", "Number": 2},
+            { "ItemID": 1058, "Rate": -1, "Info": "2 x Sách kinh nghiệm đồng hành - truyền thuyết ", "Number": 2}
+        ]
+    },
+    {
+        "BoxName": "Rương sự kiện hoàn trả 50000 KNB(ngày 3)",
+        "IDBox": 201009,
+        "Binding": 1,
+        "Items": [
+            { "ItemID": 25236, "Rate": -1, "Info": "1 x Rương trang bị đồng hành bích huyết - Lựa Chọn [Trung] ", "Number": 1},
+            { "ItemID": 506, "Rate": -1, "Info": "1000 x Ngũ hành hồn thạch", "Number": 1000}
+        ]
+    },
+    {
+        "BoxName": "Rương sự kiện hoàn trả 50000 KNB(ngày 5)",
+        "IDBox": 201010,
+        "Binding": 1,
+        "Items": [
+            { "ItemID": 20406, "Rate": -1, "Info": "1 x Thiệp Bạch Kim", "Number": 1},
+            { "ItemID": 819, "Rate": -1, "Info": "2 x Tần Lăng - Hòa Thị Bích", "Number": 2}
+        ]
+    },
+    {
+        "BoxName": "Rương sự kiện hoàn trả 100000 KNB(ngày 1)",
+        "IDBox": 201011,
+        "Binding": 1,
+        "Items": [
+            { "ItemID": 506, "Rate": -1, "Info": "5000 x Ngũ Hành Hồn Thạch", "Number": 5000},
+            { "ItemID": 20406, "Rate": -1, "Info": "2 x Thiệp Bạch Kim ", "Number": 2}
+        ]
+    },
+    {
+        "BoxName": "Rương sự kiện hoàn trả 100000 KNB(ngày 3)",
+        "IDBox": 201012,
+        "Binding": 1,
+        "Items": [
+            { "ItemID": 20571, "Rate": -1, "Info": "1 x Rương Tiểu Du Long", "Number": 1},
+            { "ItemID": 1058, "Rate": -1, "Info": "3 x Sách kinh nghiệm đồng hành - truyền thuyết ", "Number": 3}
+        ]
+    },
+    {
+        "BoxName": "Rương sự kiện hoàn trả 100000 KNB(ngày 5)",
+        "IDBox": 201013,
+        "Binding": 1,
+        "Items": [
+            { "ItemID": 828, "Rate": -1, "Info": "1 x Vũ khí Thanh Đồng-Luyện Hóa Đồ", "Number": 1}
+        ]
+    },
+    {
+        "IDBox": 101391,
+        "BoxName": "Blind Box Mặt Nạ - Trung cấp (7 Ngày)",
+        "Items": [
+            { "ItemID": 13085, "Rate": 10, "Time": 10080, "Info": "Mặt nạ: Huyền Dực Hộ Pháp (cấp 2) - 7 ngày" },
+            { "ItemID": 15223, "Rate": 10, "Time": 10080, "Info": "Mặt nạ: Tát La Phỉ (cấp 2) - 7 ngày" },
+            { "ItemID": 15236, "Rate": 10, "Time": 10080, "Info": "Mặt nạ: Quang Mộc Côn (cấp 2) - 7 ngày" },
+            { "ItemID": 15253, "Rate": 10, "Time": 10080, "Info": "Mặt nạ: Nguyệt Cơ (cấp 2) - 7 ngày" },
+            { "ItemID": 15272, "Rate": 10, "Time": 10080, "Info": "Mặt nạ: Tây Môn Phi Tuyết (cấp 2) - 7 ngày" },
+            { "ItemID": 13086, "Rate": 10, "Time": 10080, "Info": "Mặt nạ: Huyền Dực Hộ Pháp (cấp 3) - 7 ngày" },
+            { "ItemID": 15224, "Rate": 10, "Time": 10080, "Info": "Mặt nạ: Tát La Phỉ (cấp 3) - 7 ngày" },
+            { "ItemID": 15237, "Rate": 10, "Time": 10080, "Info": "Mặt nạ: Quang Mộc Côn (cấp 3) - 7 ngày" },
+            { "ItemID": 15254, "Rate": 10, "Time": 10080, "Info": "Mặt nạ: Nguyệt Cơ (cấp 3) - 7 ngày" },
+            { "ItemID": 15273, "Rate": 10, "Time": 10080, "Info": "Mặt nạ: Tây Môn Phi Tuyết (cấp 3) - 7 ngày" }
+        ]
+    },
+    {
+        "IDBox": 101392,
+        "BoxName": "Blind Box Mặt Nạ - Cao cấp (7 Ngày)",
+        "Items": [
+            { "ItemID": 13086, "Rate": 10, "Time": 10080, "Info": "Mặt nạ: Huyền Dực Hộ Pháp (cấp 3) - 7 ngày" },
+            { "ItemID": 15224, "Rate": 10, "Time": 10080, "Info": "Mặt nạ: Tát La Phỉ (cấp 3) - 7 ngày" },
+            { "ItemID": 15237, "Rate": 10, "Time": 10080, "Info": "Mặt nạ: Quang Mộc Côn (cấp 3) - 7 ngày" },
+            { "ItemID": 15254, "Rate": 10, "Time": 10080, "Info": "Mặt nạ: Nguyệt Cơ (cấp 3) - 7 ngày" },
+            { "ItemID": 15273, "Rate": 10, "Time": 10080, "Info": "Mặt nạ: Tây Môn Phi Tuyết (cấp 3) - 7 ngày" },
+            { "ItemID": 13087, "Rate": 10, "Time": 10080, "Info": "Mặt nạ: Huyền Dực Hộ Pháp (cấp 4) - 7 ngày" },
+            { "ItemID": 15225, "Rate": 10, "Time": 10080, "Info": "Mặt nạ: Tát La Phỉ (cấp 4) - 7 ngày" },
+            { "ItemID": 15238, "Rate": 10, "Time": 10080, "Info": "Mặt nạ: Quang Mộc Côn (cấp 4) - 7 ngày" },
+            { "ItemID": 15255, "Rate": 10, "Time": 10080, "Info": "Mặt nạ: Nguyệt Cơ (cấp 4) - 7 ngày" },
+            { "ItemID": 15274, "Rate": 10, "Time": 10080, "Info": "Mặt nạ: Tây Môn Phi Tuyết (cấp 4) - 7 ngày" }
+        ]
+    },
+    {
+        "IDBox": 101393,
+        "BoxName": "Blind Box Mặt Nạ - Siêu cấp (7 Ngày)",
+        "Items": [
+            { "ItemID": 13094, "Rate": 10, "Time": 10080, "Info": "Mặt nạ: Huyền Dực Hộ Pháp (cấp 5) - 7 ngày" },
+            { "ItemID": 15226, "Rate": 10, "Time": 10080, "Info": "Mặt nạ: Tát La Phỉ (cấp 5) - 7 ngày" },
+            { "ItemID": 15239, "Rate": 10, "Time": 10080, "Info": "Mặt nạ: Quang Mộc Côn (cấp 5) - 7 ngày" },
+            { "ItemID": 15256, "Rate": 10, "Time": 10080, "Info": "Mặt nạ: Nguyệt Cơ (cấp 5) - 7 ngày" },
+            { "ItemID": 15275, "Rate": 10, "Time": 10080, "Info": "Mặt nạ: Tây Môn Phi Tuyết (cấp 5) - 7 ngày" },
+            { "ItemID": 13095, "Rate": 10, "Time": 10080, "Info": "Mặt nạ: Huyền Dực Hộ Pháp (cấp 6) - 7 ngày" },
+            { "ItemID": 15227, "Rate": 10, "Time": 10080, "Info": "Mặt nạ: Tát La Phỉ (cấp 6) - 7 ngày" },
+            { "ItemID": 15240, "Rate": 10, "Time": 10080, "Info": "Mặt nạ: Quang Mộc Côn (cấp 6) - 7 ngày" },
+            { "ItemID": 15257, "Rate": 10, "Time": 10080, "Info": "Mặt nạ: Nguyệt Cơ (cấp 6) - 7 ngày" },
+            { "ItemID": 15276, "Rate": 10, "Time": 10080, "Info": "Mặt nạ: Tây Môn Phi Tuyết (cấp 6) - 7 ngày" }
+        ]
+    },
+    {
+        "IDBox": 200592,
+        "BoxName": "Hộp lưu trữ bảo thạch (Trung)",
+        "Items": [
+            { "ItemID": 14205, "Rate": 80, "Info": "1 x Bảo thạch phổ thông - Cấp 5", "Number": 1},
+            { "ItemID": 14215, "Rate": 20, "Info": "1 x Bảo thạch đặc thù - Cấp 5", "Number": 1}
+        ]
+    }
+]

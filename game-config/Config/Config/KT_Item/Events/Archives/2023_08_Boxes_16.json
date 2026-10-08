@@ -1,0 +1,344 @@
+[
+    {
+        "IDBox": 200114,
+        "BoxName": "Túi nguyên liệu Chè Đậu Đỏ",
+        "Items": [
+            { "ItemID": 20074, "Rate": 40, "Info": "Đường" },
+            { "ItemID": 20075, "Rate": 40, "Info": "Nước" },
+            { "ItemID": 20076, "Rate": 20, "Info": "Đậu Đỏ" }
+        ]
+    },
+    {
+        "IDBox": 200115,
+        "BoxName": "Chè Đậu Đỏ",
+        "LimitLifeTime": 300,
+        "Binding": 1,
+        "Items": [
+            {
+                "Info": "KNB khóa",
+                "ItemID": 3,
+                "Rate": 1,
+                "Details": [
+                    { "Number": 2, "Rate": 70 },
+                    { "Number": 5, "Rate": 20 },
+                    { "Number": 10, "Rate": 10 }
+                ]
+            },
+            {
+                "Info": "Ngũ Hành Hồn Thạch",
+                "ItemID": 506,
+                "Rate": 3.03,
+                "Details": [
+                    { "Number": 1, "Rate": 65 },
+                    { "Number": 2, "Rate": 30 },
+                    { "Number": 3, "Rate": 5 }
+                ]
+            },
+            {
+                "Info": "Dược phẩm",
+                "Rate": 7,
+                "Details": [
+                    { "ItemID": 270, "Rate": 20, "Info": "Ma Đao Thạch (cấp 6)" },
+                    { "ItemID": 280, "Rate": 40, "Info": "Hộ Giáp Phiến (cấp 6)" },
+                    { "ItemID": 290, "Rate": 40, "Info": "Ngũ Hành Thạch (cấp 6)" }
+                ]
+            },
+            {
+                "Info": "Nhu yếu phẩm",
+                "Rate": 3.85,
+                "Details": [
+                    { "ItemID": 796, "Rate": 40, "Info": "Tần Lăng-Dạ Minh Châu" },
+                    { "ItemID": 1074, "Rate": 40, "Info": "Tiền Du Long" },
+                    { "ItemID": 600, "Rate": 20, "Info": "Tu Luyện Đơn" }
+                ]
+            },
+            {
+                "Info": "Huyền tinh",
+                "Rate": 10,
+                "Details": [
+                    { "ItemID": 387, "Rate": 85, "Info": "Huyền Tinh Cấp 3" },
+                    { "ItemID": 388, "Rate": 14, "Info": "Huyền Tinh Cấp 4" },
+                    { "ItemID": 389, "Rate": 1, "Info": "Huyền Tinh Cấp 5" }
+                ]
+            },
+            {
+                "Info": "EXP",
+                "ItemID": 5,
+                "Rate": 75.12,
+                "Details": [
+                    { "Number": 30000, "Rate": 60 },
+                    { "Number": 50000, "Rate": 30 },
+                    { "Number": 100000, "Rate": 10 }
+                ]
+            }
+        ]
+    },
+    {
+        "IDBox": 200116,
+        "BoxName": "Chè Đậu Đỏ Đặc Biệt",
+        "LimitLifeTime": 5000,
+        "LimitReachedReward": 20087,
+        "Binding": 0,
+        "Items": [
+            { "ItemID": 5, "Rate": -1, "Number": 50000, "Info": "EXP" },
+            { "ItemID": 20072, "Rate": -1, "Number": 1, "Info": "Vô Song Lệnh" },
+            {
+                "Info": "KNB khóa",
+                "ItemID": 3,
+                "Rate": 10,
+                "Details": [
+                    { "Number": 30, "Rate": 55 },
+                    { "Number": 50, "Rate": 40 },
+                    { "Number": 100, "Rate": 5 }
+                ]
+            },
+            {
+                "Info": "Bạc khóa",
+                "ItemID": 1,
+                "Rate": 10,
+                "Details": [
+                    { "Number": 30000, "Rate": 55 },
+                    { "Number": 50000, "Rate": 40 },
+                    { "Number": 100000, "Rate": 5 }
+                ]
+            },
+            {
+                "Info": "Bạc",
+                "ItemID": 2,
+                "Rate": 12,
+                "Details": [
+                    { "Number": 2000, "Rate": 50 },
+                    { "Number": 3000, "Rate": 45 },
+                    { "Number": 5000, "Rate": 5 }
+                ]
+            },
+            {
+                "Info": "Ngũ Hành Hồn Thạch",
+                "ItemID": 506,
+                "Rate": 8,
+                "Details": [
+                    { "Number": 10, "Rate": 50 },
+                    { "Number": 20, "Rate": 45 },
+                    { "Number": 30, "Rate": 5 }
+                ]
+            },
+            {
+                "Info": "Dược phẩm",
+                "Rate": 4,
+                "Details": [
+                    { "ItemID": 272, "Rate": 20, "Info": "Ma Đao Thạch (cấp 8)" },
+                    { "ItemID": 273, "Rate": 10, "Info": "Ma Đao Thạch (cấp 9)" },
+                    { "ItemID": 282, "Rate": 20, "Info": "Hộ Giáp Phiến (cấp 8)" },
+                    { "ItemID": 283, "Rate": 15, "Info": "Hộ Giáp Phiến (cấp 9)" },
+                    { "ItemID": 292, "Rate": 20, "Info": "Ngũ Hành Thạch (cấp 8)" },
+                    { "ItemID": 293, "Rate": 15, "Info": "Ngũ Hành Thạch (cấp 9)" }
+                ]
+            },
+            {
+                "Info": "Nhu yếu phẩm",
+                "Rate": 5,
+                "Binding": 0,
+                "Details": [
+                    { "ItemID": 796, "Rate": 35, "Info": "Tần Lăng-Dạ Minh Châu" },
+                    { "ItemID": 1074, "Rate": 35, "Info": "Tiền Du Long" },
+                    { "ItemID": 600, "Rate": 15, "Info": "Tu Luyện Đơn" },
+                    { "ItemID": 590, "Rate": 15, "Info": "Bản đồ bí cảnh" }
+                ]
+            },
+            {
+                "Info": "Huyền tinh",
+                "Rate": 15,
+                "Details": [
+                    { "ItemID": 187, "Rate": 50, "Info": "Huyền Tinh Cấp 5" },
+                    { "ItemID": 188, "Rate": 35, "Info": "Huyền Tinh có vết nứt (cấp 6)", "Notify": true },
+                    { "ItemID": 189, "Rate": 12, "Info": "Huyền Tinh thường (cấp 7)", "Notify": true },
+                    { "ItemID": 190, "Rate": 3, "Info": "Huyền Tinh có tì vết (cấp 8)", "Notify": true }
+                ]
+            },
+            {
+                "Info": "Điểm Danh vọng",
+                "Rate": 10.9,
+                "Details": [
+                    { "ItemID": 15711, "Rate": 32, "Info": "Danh vọng Bạch Hổ Đường" },
+                    { "ItemID": 15712, "Rate": 17, "Info": "Danh vọng Tiêu Dao Cốc" },
+                    { "ItemID": 15713, "Rate": 9, "Info": "Danh vọng Chúc phúc" },
+                    { "ItemID": 15714, "Rate": 6, "Info": "Danh vọng Tần Lăng - Quan phủ" },
+                    { "ItemID": 15716, "Rate": 6, "Info": "Danh vọng Tranh đoạt Lãnh thổ" },
+                    { "ItemID": 15715, "Rate": 30, "Info": "Danh vọng Môn phái" }
+                ]
+            },
+            { "ItemID": 20085, "Rate": 0.01, "Info": "Chè Đậu Đỏ Trân Châu", "Notify": true },
+            { "ItemID": 20086, "Rate": 0.01, "Info": "Chè Đậu Đỏ Cốt Dừa", "Notify": true },
+            {
+                "Info": "Tinh hoạt lực",
+                "Rate": 7,
+                "Details": [
+                    { "ItemID": 349, "Rate": 35, "Info": "Tinh Khí Tán (1000)" },
+                    { "ItemID": 350, "Rate": 15, "Info": "Tinh Khí Tán (1500)", "Notify": true },
+                    { "ItemID": 352, "Rate": 35, "Info": "Hoạt Khí Tán (1000)" },
+                    { "ItemID": 353, "Rate": 15, "Info": "Hoạt Khí Tán (1500)", "Notify": true }
+                ]
+            },
+            { "ItemID": 2167, "Rate": 0.01, "Info": "Thẻ Đổi Tên", "Notify": true },
+            { "ItemID": 432, "Rate": 0.05, "Info": "Câu Hồn Ngọc (trung)", "Notify": true },
+            { "ItemID": 433, "Rate": 0.05, "Info": "Câu Hồn Ngọc (cao)", "Notify": true },
+            { "ItemID": 20080, "Rate": 3, "Info": "Chè Đậu Đỏ Hạt Sen", "Notify": true },
+            { "ItemID": 20051, "Rate": 12.87, "Info": "Rương Mảnh trang bị đồng hành" },
+            { "ItemID": 20072, "Number": 5, "Rate": 2, "Info": "Vô Song Lệnh" },
+            { "Info": "Dây cương", "Number": 100, "Rate": 0.1, "Details": [{ "ItemID": 20082, "Rate": 100, "Info": "Dây cương Ngưu Lang Chức Nữ" }] }
+        ]
+    },
+    {
+        "IDBox": 200117,
+        "BoxName": "Chè Đậu Đỏ Hạt Sen",
+        "LimitLifeTime": 300,
+        "LimitReachedReward": 20088,
+        "Binding": 0,
+        "Items": [
+            { "ItemID": 506, "Number": 100, "Rate": 28, "Info": "Ngũ Hành Hồn Thạch" },
+            {
+                "Info": "Dược phẩm",
+                "Rate": 8,
+                "Details": [
+                    { "ItemID": 274, "Rate": 20, "Info": "Ma Đao Thạch (cấp 10)" },
+                    { "ItemID": 284, "Rate": 40, "Info": "Hộ Giáp Phiến (cấp 10)" },
+                    { "ItemID": 294, "Rate": 40, "Info": "Ngũ Hành Thạch (cấp 10)" }
+                ]
+            },
+            {
+                "Info": "Huyền tinh",
+                "Rate": 17,
+                "Details": [
+                    { "ItemID": 189, "Rate": 70, "Info": "Huyền Tinh thường (cấp 7)", "Notify": true },
+                    { "ItemID": 190, "Rate": 30, "Info": "Huyền Tinh có tì vết (cấp 8)", "Notify": true }
+                ]
+            },
+            {
+                "Info": "Điểm Danh vọng",
+                "Rate": 15,
+                "Details": [
+                    { "ItemID": 15712, "Rate": 25, "Info": "Danh vọng Tiêu Dao Cốc" },
+                    { "ItemID": 15713, "Rate": 25, "Info": "Danh vọng Chúc phúc" },
+                    { "ItemID": 15716, "Rate": 25, "Info": "Danh vọng Tranh đoạt Lãnh thổ" },
+                    { "ItemID": 15714, "Rate": 25, "Info": "Danh vọng Tần Lăng - Quan phủ" }
+                ]
+            },
+            { "ItemID": 20085, "Rate": 5, "Info": "Chè Đậu Đỏ Trân Châu", "Notify": true },
+            { "ItemID": 20086, "Rate": 5, "Info": "Chè Đậu Đỏ Cốt Dừa", "Notify": true },
+            { "ItemID": 2167, "Rate": 3, "Info": "Thẻ Đổi Tên", "Notify": true },
+            { "ItemID": 432, "Rate": 9, "Info": "Câu Hồn Ngọc (trung)", "Notify": true },
+            { "ItemID": 433, "Rate": 8, "Info": "Câu Hồn Ngọc (cao)", "Notify": true },
+            { "Info": "Dây cương", "Rate": 2, "Details": [{ "ItemID": 20083, "Rate": 100, "Info": "Dây cương Ngưu Lang Chức Nữ (Đặc Biệt)" }] }
+        ]
+    },
+    {
+        "IDBox": 200118,
+        "BoxName": "Nồi chè",
+        "Binding": 1,
+        "Items": [
+            { "ItemID": 20073, "Number": 50, "Rate": -1, "Info": "Túi nguyên liệu Chè Đậu Đỏ" },
+            { "ItemID": -1, "Rate": 35, "Info": "Không thưởng" },
+            {
+                "ItemID": 20073,
+                "Rate": 35,
+                "Details": [
+                    { "Number": 50, "Rate": 65 },
+                    { "Number": 100, "Rate": 35 }
+                ],
+                "Info": "Túi nguyên liệu Chè Đậu Đỏ"
+            },
+            {
+                "ItemID": 20078,
+                "Rate": 30,
+                "Details": [
+                    { "Number": 10, "Rate": 65 },
+                    { "Number": 50, "Rate": 35 }
+                ],
+                "Info": "Chè Đậu Đỏ"
+            }
+        ]
+    },
+    {
+        "IDBox": 200119,
+        "BoxName": "Dây cương Ngưu Lang Chức Nữ)",
+        "Items": [
+            { "ItemID": 20101, "Rate": 90, "Time": 10081, "ExpiryDate": "2023-10-11 05:00:00", "Info": "Phiên Vũ - Ngưu Lang Chức Nữ" },
+            { "ItemID": 20101, "Rate": 10, "Time": 21601, "ExpiryDate": "2023-10-11 05:00:00", "Info": "Phiên Vũ - Ngưu Lang Chức Nữ" }
+        ]
+    },
+    {
+        "IDBox": 200120,
+        "BoxName": "Dây cương Ngưu Lang Chức Nữ Đặc Biệt",
+        "Binding": 0,
+        "Items": [
+            { "ItemID": 20101, "Rate": 99.5, "Time": 43201, "ExpiryDate": "2023-10-11 05:00:00", "Info": "Phiên Vũ - Ngưu Lang Chức Nữ" },
+            { "ItemID": 20101, "Rate": 0.5, "Info": "Phiên Vũ - Ngưu Lang Chức Nữ", "Notify": true }
+        ]
+    },
+    {
+        "IDBox": 200121,
+        "BoxName": "Phần thưởng Ngưu Lang Chức Nữ (đặc biệt)",
+        "Items": [
+            { "ItemID": 20088, "Rate": -1, "Info": "Danh hiệu Tiên đồng Ngọc nữ" },
+            { "ItemID": 20057, "Rate": 25, "Info": "Mã bài (Xích Thố)" },
+            { "ItemID": 20058, "Rate": 25, "Info": "Mã bài (Phiên Vũ)" },
+            { "ItemID": 20059, "Rate": 25, "Info": "Mã bài (Bôn Tiêu)" },
+            { "ItemID": 20061, "Rate": 25, "Info": "Ức Vân" }
+        ]
+    },
+    {
+        "IDBox": 200122,
+        "BoxName": "Danh hiệu Tiên đồng Ngọc nữ (30 ngày)",
+        "Items": [
+            { "ItemID": 8, "Rate": -1, "Number": 118, "Info": "Danh hiệu", "Sex": 0 },
+            { "ItemID": 8, "Rate": -1, "Number": 120, "Info": "Danh hiệu", "Sex": 1 }
+        ]
+    },
+    {
+        "IDBox": 200123,
+        "BoxName": "Danh hiệu Tiên đồng Ngọc nữ",
+        "Items": [
+            { "ItemID": 8, "Rate": -1, "Number": 119, "Info": "Danh hiệu", "Sex": 0 },
+            { "ItemID": 8, "Rate": -1, "Number": 121, "Info": "Danh hiệu", "Sex": 1 }
+        ]
+    },
+    {
+        "IDBox": 200124,
+        "BoxName": "Danh hiệu Tiên đồng Ngọc nữ (7 ngày)",
+        "Items": [
+            { "ItemID": 8, "Rate": -1, "Number": 122, "Info": "Danh hiệu", "Sex": 0 },
+            { "ItemID": 8, "Rate": -1, "Number": 123, "Info": "Danh hiệu", "Sex": 1 }
+        ]
+    },
+    {
+        "IDBox": 200125,
+        "BoxName": "Phần thưởng Tiên đồng Ngọc Nữ",
+        "Binding": 1,
+        "Items": [
+            { "ItemID": 189, "Rate": 30, "Number": 1, "Info": "Huyền Tinh thường (cấp 7)" },
+            { "ItemID": 190, "Rate": 20, "Number": 1, "Info": "Huyền Tinh có tì vết (cấp 8)" },
+            { "ItemID": 20089, "Rate": 10, "Number": 1, "Info": "Phá Tâm Thạch (1 ngày)" },
+            { "ItemID": 20090, "Rate": 3, "Number": 1, "Info": "Phá Tâm Thạch (3 ngày)" },
+            { "ItemID": 20091, "Rate": 1, "Number": 1, "Info": "Phá Tâm Thạch (7 ngày)" },
+            { "ItemID": 20092, "Rate": 10, "Number": 1, "Info": "Kiên Trung Thạch (1 ngày)" },
+            { "ItemID": 20093, "Rate": 3, "Number": 1, "Info": "Kiên Trung Thạch (3 ngày)" },
+            { "ItemID": 20094, "Rate": 1, "Number": 1, "Info": "Kiên Trung Thạch (7 ngày)" },
+            { "ItemID": 20095, "Rate": 10, "Number": 1, "Info": "Phong Linh Thạch (1 ngày)" },
+            { "ItemID": 20096, "Rate": 3, "Number": 1, "Info": "Phong Linh Thạch (3 ngày)" },
+            { "ItemID": 20097, "Rate": 1, "Number": 1, "Info": "Phong Linh Thạch (7 ngày)" },
+            { "ItemID": 20098, "Rate": 7, "Number": 1, "Info": "Danh hiệu Tiên đồng Ngọc nữ (7 ngày)" },
+            { "ItemID": 20087, "Rate": 1, "Number": 1, "Info": "Danh hiệu Tiên đồng Ngọc nữ (30 ngày)" }
+        ]
+    },
+    {
+        "IDBox": 200126,
+        "BoxName": "Phần thưởng Ngưu Lang Chức Nữ",
+        "Items": [
+            { "ItemID": 20087, "Rate": -1, "Info": "Danh hiệu Tiên đồng Ngọc nữ (30 ngày)" },
+            { "ItemID": 20057, "Rate": 25, "Info": "Mã bài (Xích Thố)" },
+            { "ItemID": 20058, "Rate": 25, "Info": "Mã bài (Phiên Vũ)" },
+            { "ItemID": 20059, "Rate": 25, "Info": "Mã bài (Bôn Tiêu)" },
+            { "ItemID": 20061, "Rate": 25, "Info": "Ức Vân" }
+        ]
+    }
+]

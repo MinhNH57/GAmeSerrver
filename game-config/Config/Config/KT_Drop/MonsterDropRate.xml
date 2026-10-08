@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+	TỶ LỆ RƠI VẬT PHẨM CỐ ĐỊNH Ở QUÁI
+	- DropInfo: Thông tin rơi
+		- MonsterID: ID quái
+		- Rate: Tỷ lệ %
+-->
+<MonsterDropRate xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<DropInfo MonsterID="2427" Rate="35" />
+	<DropInfo MonsterID="2430" Rate="35" />
+	<DropInfo MonsterID="2437" Rate="35" />
+	<DropInfo MonsterID="2433" Rate="35" />
+</MonsterDropRate>

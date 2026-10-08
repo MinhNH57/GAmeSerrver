@@ -1,0 +1,242 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+	DU LONG CÁC
+	Duration: Thời gian tồn tại phụ bản (mili-giây)
+	RequireLevel: Cấp độ yêu cầu
+	LimitRoundPerDay: Số lượt đánh tối đa trong ngày
+	KickOutIfNoChallengeFor: Thời gian tự kick ra khỏi nếu không khiêu chiến (mili-giây)
+	ChallengeDuration: Thời gian tự xử thua nếu không đánh bại Boss (mili-giây)
+	RequireItem: Vật phẩm yêu cầu
+	Map: Thông tin bản đồ Du Long Các
+		- ID: ID bản đồ
+		- EnterPosX: Vị trí vào X
+		- EnterPosY: Vị trí vào Y
+	NPC: Thông tin NPC
+		- ID: ID NPC
+		- Name: Tên NPC
+		- Title: Danh hiệu NPC
+		- PosX: Vị trí X
+		- PosY: Vị trí Y
+	Boss: Thông tin Boss
+		- ID: ID Boss
+		- Name: Tên Boss
+		- Title: Danh hiệu Boss
+		- PosX: Vị trí X
+		- PosY: Vị trí Y
+		- BaseHP: Sinh lực cơ bản
+		- HPIncreaseEachLevel: Sinh lực tăng thêm với mỗi cấp
+		- AIType: Loại AI (0: Quái thường, 1: Quái tinh anh, 2: Quái thủ lĩnh, 3: Boss, 4: Hải tặc, 5: Quái chữ đỏ, tự đuổi người)
+		- AIScriptID: IDScriptAI điều khiển
+			- Nếu có sử dụng các Skill đánh thì AIScriptID để bằng 100001, sẽ không sử dụng kỹ năng đánh thường của quái như ngoài Map mà thay vào bằng kỹ năng trong danh sách thiết lập (buộc phải thiết lập kỹ năng đánh, nếu không sẽ lỗi)
+		- Skill: Danh sách kỹ năng sử dụng, gồm 3 tham biến mỗi kỹ năng, ngăn cách bởi dấu ; giữa các kỹ năng với nhau
+			- ID_Cấp_Giãn cách mỗi lần dùng (-1) nếu chỉ dùng một lần
+		- Auras: Danh sách vòng sáng kích hoạt, gồm 2 tham biến, ngăn cách nhau bởi dấu ; giữa các loại vòng sáng
+			- ID_Cấp
+			- Tất cả quái xung quanh sẽ được vòng sáng tương ứng cho đến khi bản thân quái mang vòng sáng bị giết chết
+	Awards: Danh sách quà thưởng
+		- Count: Tổng số vật phẩm
+		- MaxTryTime: Số lần nhận tối đa trong một danh sách
+		- Award: Thông tin phần thưởng
+			- ID: ID vật phẩm
+			- Number: Số lượng vật phẩm
+			- Rate: Tỷ lệ nhận được
+			- AppearRate: Tỷ lệ xuất hiện trong khung quà thưởng
+			- NumberOfCoins: Đổi được bao nhiêu Tiền Du Long
+-->
+<YouLong EventID="13" Duration="3600000" RequireLevel="50" LimitRoundPerDay="30" KickOutIfNoChallengeFor="360000" ChallengeDuration="300000" RequireItem="1026">
+	<Item MoonStoneID="928" YouLongCoinID="1074" />
+	<Map ID="1665" EnterPosX="941" EnterPosY="563" />
+	<NPC ID="3690" Name="" Title="" PosX="715" PosY="647" />
+	<Bosses>
+		<Boss ID="3689" Name="Thiên Thiên [Kim]" Title="" PosX="715" PosY="647" BaseHP="100000" HPIncreaseEachLevel="2000" AIType="5" AIScriptID="100001" Auras="" Skills="983_1_4000;1034_1_2000;820_1_-1" Series="1"/>
+		<Boss ID="3689" Name="Thiên Thiên [Mộc]" Title="" PosX="715" PosY="647" BaseHP="100000" HPIncreaseEachLevel="2000" AIType="5" AIScriptID="100001" Auras="" Skills="822_1_10000;831_1_10000;198_1_3000;1044_1_-1" Series="2"/>
+		<Boss ID="3689" Name="Thiên Thiên [Thủy]" Title="" PosX="715" PosY="647" BaseHP="100000" HPIncreaseEachLevel="2000" AIType="5" AIScriptID="100001" Auras="" Skills="1263_1_10000;839_1_15000;117_1_-1" Series="3"/>
+		<Boss ID="3689" Name="Thiên Thiên [Hỏa]" Title="" PosX="715" PosY="647" BaseHP="100000" HPIncreaseEachLevel="2000" AIType="5" AIScriptID="100001" Auras="" Skills="488_1_4000;1055_1_5000;2003_1_-1" Series="4"/>
+		<Boss ID="3689" Name="Thiên Thiên [Thổ]" Title="" PosX="715" PosY="647" BaseHP="100000" HPIncreaseEachLevel="2000" AIType="5" AIScriptID="100001" Auras="" Skills="1260_1_5000;1216_1_2000;171_1_-1" Series="5"/>
+	</Bosses>
+	<Boss ID="3689" Name="" Title="" PosX="715" PosY="647" BaseHP="100000" HPIncreaseEachLevel="2000" AIType="5" AIScriptID="100001" Auras="" Skills="2002_1_2000;2003_1_-1" />
+
+	<Awards Count="20" MaxTryTime="2">
+		<!-- cấu hình du long mới tháng 4/2024 -->
+		<!--  1 rương mảnh trang bị đồng hành -->
+		<Award ID="20051" Number="3" Rate="500" AppearRate="70" NumberOfCoins="1"/>
+		<!-- 1 rương mảnh trang bị đồng hành - Trung -->
+		<Award ID="20379" Number="1" Rate="450" AppearRate="70" NumberOfCoins="1"/>
+		<!-- 1 rương mảnh trang bị đồng hành Cao -->
+		<Award ID="20529" Number="1" Rate="350" AppearRate="70" NumberOfCoins="3" Notify="true"/>
+		<!-- 1 rương linh chi tục mệnh hoàn -->
+		<Award ID="579" Number="1" Rate="500" AppearRate="70" NumberOfCoins="2"/>
+		<!-- 1 tuyết tham phản khí hoàn  -->
+		<Award ID="580" Number="1" Rate="520" AppearRate="70" NumberOfCoins="2"/>
+		<!-- 1 Rương dao trì đại hoàn đơn -->
+		<Award ID="581" Number="1" Rate="500" AppearRate="70" NumberOfCoins="2"/>
+		<!-- 1 rương nhân sâm đại bổ tán -->
+		<Award ID="20452" Number="1" Rate="420" AppearRate="70" NumberOfCoins="3"/>
+		<!-- 1 rương tuyết liên ngưng thần đơn -->
+		<Award ID="20454" Number="1" Rate="420" AppearRate="70" NumberOfCoins="3"/>
+		<!-- 1 rương ích thọ ngọc lộ hoàn -->
+		<Award ID="20456" Number="1" Rate="420" AppearRate="70" NumberOfCoins="3"/>
+		<!-- 1 Tiền Đồng Du Long -->
+		<Award ID="1033" Number="1" Rate="200" AppearRate="80" NumberOfCoins="2"/>
+		<!-- Du Long Uy Danh Phù -->
+		<Award ID="1035" Number="1" Rate="360" AppearRate="80" NumberOfCoins="2"/>
+		<!-- 1 huyền tinh 6 -->
+		<Award ID="188" Number="1" Rate="600" AppearRate="80" NumberOfCoins="1"/>
+		<!-- 1 huyền tinh 7 -->
+		<Award ID="189" Number="1" Rate="400" AppearRate="80" NumberOfCoins="2"/>
+		<!-- 1 huyền tinh 8 -->
+		<Award ID="190" Number="1" Rate="200" AppearRate="70" NumberOfCoins="3"/>
+		<!-- 1 huyền tinh 9 -->
+		<Award ID="191" Number="1" Rate="100" AppearRate="70" NumberOfCoins="15" Notify="true"/>
+		<!-- 1 huyền tinh 10 -->
+		<Award ID="192" Number="1" Rate="10" AppearRate="70" NumberOfCoins="30" Notify="true"/>
+		<!-- 1 huyền tinh 11 -->
+		<Award ID="193" Number="1" Rate="0" AppearRate="70" NumberOfCoins="200" Notify="true"/>
+		<!-- 1 thỏi vàng tiểu -->
+		<Award ID="402" Number="1" Rate="400" AppearRate="70" NumberOfCoins="3"/>
+		<!-- 1 thỏi vàng đại -->
+		<Award ID="403" Number="1" Rate="50" AppearRate="70" NumberOfCoins="15" Notify="true"/>
+		<!-- 1 trứng du long -->
+		<Award ID="1031" Number="1" Rate="300" AppearRate="70" NumberOfCoins="5"/>
+		<!-- 1 thương hải nguyệt minh -->
+		<Award ID="917" Number="1" Rate="10" AppearRate="70" NumberOfCoins="30" Notify="true"/>
+		<!-- 1 thái vân truy nguyệt -->
+		<Award ID="916" Number="1" Rate="10" AppearRate="70" NumberOfCoins="30" Notify="true"/>
+		<!-- 1 đồng hành tẩy tủy kinh -->
+		<Award ID="1099" Number="1" Rate="200" AppearRate="70" NumberOfCoins="5" Notify="true"/>
+		<!-- 1 đồng hành tẩy tủy kinh đặc biệt -->
+		<Award ID="1100" Number="1" Rate="10" AppearRate="70" NumberOfCoins="50" Notify="true"/>
+		<!-- 1 Ấn đồng hành - Bích Huyết (7 ngày) -->
+		<Award ID="20604" Number="1" Rate="80" AppearRate="70" NumberOfCoins="5" Notify="true"/>
+		<!-- 1 Ấn đồng hành - Kim Lân (7 ngày) -->
+		<Award ID="20605" Number="1" Rate="50" AppearRate="70" NumberOfCoins="10" Notify="true"/>
+		<!-- 1 Ấn đồng hành - Đơn Tâm cái này chưa có id (7 ngày) -->
+		<Award ID="20678" Number="1" Rate="20" AppearRate="70" NumberOfCoins="25" Notify="true"/>
+		<!-- 1 cờ chiến công -->
+		<Award ID="20344" Number="1" Rate="500" AppearRate="70" NumberOfCoins="2"/>
+		<!-- 1 mảnh lôi đình ấn -->
+		<Award ID="20345" Number="1" Rate="200" AppearRate="70" NumberOfCoins="3"/>
+		<!-- 1 vũ khí đồng hành bích huyết -->
+		<Award ID="25139" Number="1" Rate="7" AppearRate="70" NumberOfCoins="30" Notify="true"/>
+		<!-- 1 Áo đồng hành bích huyết -->
+		<Award ID="25107" Number="1" Rate="7" AppearRate="70" NumberOfCoins="30" Notify="true"/>
+		<!-- 1 Tay đồng hành bích huyết -->
+		<Award ID="25119" Number="1" Rate="7" AppearRate="70" NumberOfCoins="30" Notify="true"/>
+		<!-- 1 Nhẫn đồng hành bích huyết -->
+		<Award ID="25135" Number="1" Rate="7" AppearRate="70" NumberOfCoins="30" Notify="true"/>
+		<!-- 1 Bội đồng hành bích huyết -->
+		<Award ID="25131" Number="1" Rate="1" AppearRate="70" NumberOfCoins="30" Notify="true"/>
+		<!-- 1 Giày đồng hành bích huyết -->
+		<Award ID="25115" Number="1" Rate="0" AppearRate="70" NumberOfCoins="30" Notify="true"/>
+		<!-- 1 Mũ Đồng Hành - Bích Huyết [Kháng Băng] -->
+		<Award ID="25199" Number="1" Rate="5" AppearRate="70" NumberOfCoins="30" Notify="true"/>
+		<!-- 1 Mũ Đồng Hành - Bích Huyết [Kháng Hỏa] -->
+		<Award ID="25203" Number="1" Rate="5" AppearRate="70" NumberOfCoins="30" Notify="true"/>
+		<!-- 1 Mũ Đồng Hành - Bích Huyết [Kháng Lôi] -->
+		<Award ID="25207" Number="1" Rate="5" AppearRate="70" NumberOfCoins="30" Notify="true"/>
+		<!-- 1 Mũ Đồng Hành - Bích Huyết [Kháng Vật] -->
+		<Award ID="25211" Number="1" Rate="5" AppearRate="70" NumberOfCoins="30" Notify="true"/>
+		<!-- 1 Mũ Đồng Hành - Bích Huyết [Kháng Độc] -->
+		<Award ID="25215" Number="1" Rate="5" AppearRate="70" NumberOfCoins="30" Notify="true"/>
+		<!-- 1 liên đồng hành bích huyết -->
+		<Award ID="25127" Number="1" Rate="3" AppearRate="70" NumberOfCoins="30" Notify="true"/>
+		<!-- 1 lưng đồng hành bích huyết -->
+		<Award ID="25111" Number="1" Rate="3" AppearRate="70" NumberOfCoins="30" Notify="true"/>
+		<!-- 1 tần lăng hòa thị ngọc -->
+		<Award ID="2444" Number="1" Rate="220" AppearRate="70" NumberOfCoins="5" Notify="true"/>
+		<!-- 1 tần lăng hòa thị bích -->
+		<Award ID="819" Number="1" Rate="40" AppearRate="70" NumberOfCoins="30" Notify="true"/>
+		<!-- 1 rương danh vọng sơ -->
+		<Award ID="20378" Number="1" Rate="229" AppearRate="70" NumberOfCoins="1" Notify="true"/>
+		<!-- 1 rương danh vọng Trung -->
+		<Award ID="20485" Number="1" Rate="100" AppearRate="70" NumberOfCoins="2" Notify="true"/>
+		<!-- 1 rương trang bị đồng hành bích huyết Trung -->
+		<Award ID="20555" Number="1" Rate="10" AppearRate="70" NumberOfCoins="30" Notify="true"/>
+		<!-- 1 Thiệp Bạc -->
+		<Award ID="1055" Number="1" Rate="407" AppearRate="70" NumberOfCoins="1"/>
+		<!-- 1 Thiệp Vàng -->
+		<Award ID="20270" Number="1" Rate="100" AppearRate="70" NumberOfCoins="5"/>
+		<!-- 1 Thiệp Bạch Kim -->
+		<Award ID="20406" Number="1" Rate="15" AppearRate="70" NumberOfCoins="30" Notify="true"/>
+		<!-- tiểu du long lệnh (nón, phù, áo, đai, giày, liên, nhẫn, hộ uyển, bội)-->
+		<Award ID="1886" Number="1" Rate="2" AppearRate="70" NumberOfCoins="500" Notify="true"/>
+		<Award ID="1887" Number="1" Rate="2" AppearRate="70" NumberOfCoins="500" Notify="true"/>
+		<Award ID="1888" Number="1" Rate="2" AppearRate="70" NumberOfCoins="500" Notify="true"/>
+		<Award ID="1889" Number="1" Rate="2" AppearRate="70" NumberOfCoins="500" Notify="true"/>
+		<Award ID="1890" Number="1" Rate="2" AppearRate="70" NumberOfCoins="500" Notify="true"/>
+		<Award ID="1891" Number="1" Rate="2" AppearRate="70" NumberOfCoins="500" Notify="true"/>
+		<Award ID="1892" Number="1" Rate="2" AppearRate="70" NumberOfCoins="500" Notify="true"/>
+		<Award ID="1893" Number="1" Rate="2" AppearRate="70" NumberOfCoins="500" Notify="true"/>
+		<Award ID="1894" Number="1" Rate="2" AppearRate="70" NumberOfCoins="500" Notify="true"/>
+		<!-- du long danh vọng lệnh (phù, nón, áo, yêu đái, giày, hạng liên, nhẫn) -->
+		<Award ID="1036" Number="1" Rate="0" AppearRate="70" NumberOfCoins="4000" Notify="true"/>
+		<Award ID="1037" Number="1" Rate="0" AppearRate="70" NumberOfCoins="4000" Notify="true"/>
+		<Award ID="1038" Number="1" Rate="0" AppearRate="70" NumberOfCoins="4000" Notify="true"/>
+		<Award ID="1039" Number="1" Rate="0" AppearRate="70" NumberOfCoins="4000" Notify="true"/>
+		<Award ID="1040" Number="1" Rate="0" AppearRate="70" NumberOfCoins="4000" Notify="true"/>
+		<Award ID="1041" Number="1" Rate="0" AppearRate="70" NumberOfCoins="4000" Notify="true"/>
+		<Award ID="1042" Number="1" Rate="0" AppearRate="70" NumberOfCoins="4000" Notify="true"/>
+		<!-- 1 Tinh Hoạt Lực (500) -->
+		<Award ID="20537" Number="1" Rate="500" AppearRate="70" NumberOfCoins="1"/>
+		<!-- 1 Tinh Hoạt Lực (1000) -->
+		<Award ID="20538" Number="1" Rate="3382" AppearRate="70" NumberOfCoins="2"/>
+		<!-- 1 Du Long Tinh Khí Hoàn -->
+		<Award ID="1045" Number="1" Rate="50" AppearRate="70" NumberOfCoins="3" Notify="true"/>
+		<!-- 1 Du Long Hoạt Khí Hoàn -->
+		<Award ID="1044" Number="1" Rate="50" AppearRate="70" NumberOfCoins="3" Notify="true"/>
+		<!-- 1 Mảnh đồng hành Yến Tiểu Lâu -->
+		<Award ID="20601" Number="1" Rate="30" AppearRate="70" NumberOfCoins="5" Notify="true"/>
+
+		<!-- đây là cấu hình cũ -->
+		<!--
+		<Award ID="389" Number="1" Rate="45" AppearRate="80" NumberOfCoins="1" />
+		<Award ID="390" Number="1" Rate="40" AppearRate="80" NumberOfCoins="1" />
+		<Award ID="391" Number="1" Rate="5" AppearRate="70" NumberOfCoins="2" />
+		<Award ID="392" Number="1" Rate="0" AppearRate="70" NumberOfCoins="10" />
+		<Award ID="393" Number="1" Rate="0" AppearRate="70" NumberOfCoins="30" />
+		<Award ID="394" Number="1" Rate="0" AppearRate="70" NumberOfCoins="100" />
+		<Award ID="920" Number="1" Rate="30" AppearRate="70" NumberOfCoins="5" />
+		<Award ID="590" Number="1" Rate="10" AppearRate="70" NumberOfCoins="18" />
+		<Award ID="1034" Number="1" Rate="20" AppearRate="70" NumberOfCoins="10" />
+		<Award ID="1032" Number="1" Rate="55" AppearRate="70" NumberOfCoins="1" />
+		<Award ID="1035" Number="1" Rate="20" AppearRate="70" NumberOfCoins="1" />
+		<Award ID="513" Number="1" Rate="20" AppearRate="70" NumberOfCoins="18" />
+		<Award ID="579" Number="1" Rate="55" AppearRate="70" NumberOfCoins="3" />
+		<Award ID="580" Number="1" Rate="55" AppearRate="70" NumberOfCoins="3" />
+		<Award ID="739" Number="1" Rate="3" AppearRate="70" NumberOfCoins="5" />
+		<Award ID="488" Number="1" Rate="55" AppearRate="70" NumberOfCoins="1" />
+		<Award ID="916" Number="1" Rate="1" AppearRate="70" NumberOfCoins="100" />
+		<Award ID="917" Number="1" Rate="1" AppearRate="70" NumberOfCoins="100" />
+		<Award ID="1031" Number="1" Rate="3" AppearRate="70" NumberOfCoins="4" />
+		-->
+	</Awards>
+
+	<DailyAwards Count ="4">
+		<DailyAward ID="0" Require="10" Items="190|1#20538|1#20378|5"/>
+		<DailyAward ID="1" Require="30" Items="191|1#25270|30#15018|20"/>
+		<DailyAward ID="2" Require="100" Items="191|1#25270|70#20538|2"/>
+		<DailyAward ID="3" Require="300" Items="191|1#25270|100#1057|10"/>
+	</DailyAwards>
+
+	<MonthAwards Count ="4">
+		<DailyAward ID="0" Require="100" Items="20270|3#20291|1#20378|30"/>
+		<DailyAward ID="1" Require="300" Items="20482|1"/>
+		<DailyAward ID="2" Require="500" Items="192|1#20344|200#20345|30"/>
+		<DailyAward ID="3" Require="1500" Items="20555|1"/>
+	</MonthAwards>
+
+	<ServerAwards Count ="5">
+		<DailyAward ID="0" Require="150" Items="20674|1"/>
+		<DailyAward ID="1" Require="400" Items="20675|1"/>
+		<DailyAward ID="2" Require="800" Items="20676|1"/>
+		<DailyAward ID="3" Require="2000" Items="20677|1"/>
+		<DailyAward ID="4" Require="8888" Items="20749|1"/>
+	</ServerAwards>
+
+
+	<TopAwards Count ="3">
+		<TopAward RankMin="1" RankMax="1" Require="1000" Items="20671|1"/>
+		<TopAward RankMin="2" RankMax="3" Require="500" Items="20672|1"/>
+		<TopAward RankMin="4" RankMax="10" Require="300" Items="20673|1"/>
+	</TopAwards>
+</YouLong>

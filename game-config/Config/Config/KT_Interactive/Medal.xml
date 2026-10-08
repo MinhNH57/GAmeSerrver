@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Medal>
+    <Qualities>
+        <Quality Quality="1" Name="Hắc Thiết" ItemID="29115" MaterialItemID="29115" MaxAttributeLevel="5" InitialAttributeCount="2" MaxAttributeCount="3"/>
+        <Quality Quality="2" Name="Thanh Đồng" ItemID="29116" MaterialItemID="29116" MaxAttributeLevel="10" InitialAttributeCount="4" MaxAttributeCount="6"/>
+        <Quality Quality="3" Name="Bạch Ngân" ItemID="29117" MaterialItemID="29117" MaxAttributeLevel="12" InitialAttributeCount="6" MaxAttributeCount="9"/>
+        <Quality Quality="4" Name="Hoàng Kim" ItemID="29118" MaterialItemID="29118" MaxAttributeLevel="15" InitialAttributeCount="10" MaxAttributeCount="10"/>
+    </Qualities>
+    <AttributeUpgradeCosts>
+        <Cost Quality="1" FromLevel="1" ToLevel="5" Merit="100" StarCopper="2" StarSilver="0" Money="1:10000"/>
+        <Cost Quality="2" FromLevel="1" ToLevel="10" Merit="200" StarCopper="5" StarSilver="2" Money="1:20000"/>
+        <Cost Quality="3" FromLevel="1" ToLevel="12" Merit="300" StarCopper="7" StarSilver="5" Money="1:30000"/>
+        <Cost Quality="4" FromLevel="1" ToLevel="15" Merit="500" StarCopper="10" StarSilver="10" Money="1:50000"/>
+    </AttributeUpgradeCosts>
+    <QualityUpgradeRecipes>
+        <Recipe FromQuality="1" ToQuality="2" MainItemID="29115" ResultItemID="29116" MaterialItemID="29115" MaterialCount="4" StarSilver="5" Merit="200" Money="1:0" MinAttributeLevel="3"/>
+        <Recipe FromQuality="2" ToQuality="3" MainItemID="29116" ResultItemID="29117" MaterialItemID="29116" MaterialCount="4" StarSilver="25" Merit="1000" Money="1:0" MinAttributeLevel="6"/>
+        <Recipe FromQuality="3" ToQuality="4" MainItemID="29117" ResultItemID="29118" MaterialItemID="29117" MaterialCount="4" StarSilver="100" Merit="5000" Money="1:0" MinAttributeLevel="9"/>
+    </QualityUpgradeRecipes>
+    <RefineCosts>
+        <Cost Quality="2" RefineItem="29019" StarSilver="1" Money="1:100000" MinAttributeLevel="5" LockItem="29020" LockItemPerAttribute="1"/>
+        <Cost Quality="3" RefineItem="29019" StarSilver="2" Money="1:300000" MinAttributeLevel="5" LockItem="29020" LockItemPerAttribute="1"/>
+        <Cost Quality="4" RefineItem="29019" StarSilver="3" Money="1:500000" MinAttributeLevel="5" LockItem="29020" LockItemPerAttribute="1"/>
+    </RefineCosts>
+    <Unlock StarRed="1" Money="1:10000000"/>
+    <Merit DailyFreeMax="100" OnlineMinutesPerReward="60" OnlineReward="10"/>
+</Medal>

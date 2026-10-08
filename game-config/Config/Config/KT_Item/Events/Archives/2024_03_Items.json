@@ -1,0 +1,148 @@
+{
+    "Help": {
+        "Help1": "cấu hình vật phẩm sự kiện bằng json",
+        "Help2": "Genre: 18: scriptitem, 22: normal item",
+        "Help3": "ParticularType: > 32000 nếu drop tại map, bỏ qua nếu không phải",
+        "Help4": "ScriptID: 200060 nếu là RandomBox (khai báo ItemValue là ID của box)",
+        "StartID": 20513
+    },
+    "RandomBoxes": [
+        {
+            "ItemID": 20513,
+            "Name": "Cá vàng",
+            "LimitLifeTime": 300,
+            "Icon": "202403_ca_vang",
+            "Intro": "Vật phẩm sự kiện Vui Cá Tháng Tư.",
+            "ItemValue": 200343
+        },
+        {
+            "ItemID": 20514,
+            "Name": "Cá 7 màu",
+            "LimitLifeTime": 5000,
+            "Icon": "202403_ca_7_mau",
+            "Intro": "Vật phẩm sự kiện Vui Cá Tháng Tư.",
+            "ItemValue": 200344,
+            "Override": {
+                "21": {
+                    "ItemValue": 200359
+                }
+            }
+        },
+        {
+            "ItemID": 20515,
+            "Name": "Cá Koi",
+            "LimitLifeTime": 300,
+            "Icon": "202403_ca_koi",
+            "Intro": "Vật phẩm sự kiện Vui Cá Tháng Tư.",
+            "ItemValue": 200345
+        },
+        {
+            "ItemID": 20516,
+            "Name": "Rương thú cưỡi [Vui Cá Tháng Tư]",
+            "Icon": "horsebox_c",
+            "Intro": "Sử dụng nhận được thú cưỡi sự kiện Vui Cá Tháng Tư.",
+            "ItemValue": 200346
+        },
+        {
+            "ItemID": 20517,
+            "Name": "Danh hiệu Tôi Kể Với Bạn Thôi Đấy",
+            "Icon": "quest_0084_s",
+            "Intro": "Sử dụng nhận được Danh hiệu và chúc phúc Tôi Kể Với Bạn Thôi Đấy cấp ngẫu nhiên.",
+            "ItemValue": 200347
+        },
+        {
+            "ItemID": 20518,
+            "Name": "",
+            "Icon": "",
+            "Intro": ""
+        },
+        {
+            "ItemID": 20519,
+            "Name": "",
+            "Icon": "",
+            "Intro": ""
+        },
+        {
+            "ItemID": 20520,
+            "Name": "Danh hiệu Tôi Kể Với Bạn Thôi Đấy (30 ngày)",
+            "Icon": "quest_0084_s",
+            "Intro": "Sử dụng nhận được Danh hiệu và chúc phúc Tôi Kể Với Bạn Thôi Đấy cấp 3.",
+            "ItemValue": 200350
+        },
+        {
+            "ItemID": 20527,
+            "Name": "Rương Mặt nạ [Vui Cá Tháng Tư]",
+            "Icon": "merchant_box",
+            "Intro": "Mặt nạ",
+            "ItemValue": 200348
+        },
+        {
+            "ItemID": 20528,
+            "Name": "Rương Mặt nạ [Vui Cá Tháng Tư] (VIP)",
+            "Icon": "merchant_box",
+            "Intro": "Mặt nạ",
+            "ItemValue": 200349
+        }
+    ],
+    "Normal": [
+        {
+            "ItemID": 20521,
+            "Name": "Cần câu",
+            "ParticularType": 32001,
+            "Stack": 10000,
+            "Icon": "202403_can_cau",
+            "Intro": "Vật phẩm sự kiện Vui Cá Tháng Tư.",
+            "ScriptID": 200121
+        },
+        {
+            "ItemID": 20522,
+            "Name": "Lưỡi câu",
+            "ParticularType": 32001,
+            "Stack": 10000,
+            "Icon": "202403_luoi_cau",
+            "Intro": "Vật phẩm sự kiện Vui Cá Tháng Tư.",
+            "ScriptID": 200121
+        },
+        {
+            "ItemID": 20523,
+            "Name": "Thính thường",
+            "ParticularType": 32001,
+            "Stack": 10000,
+            "Icon": "202403_thinh",
+            "Intro": "Vật phẩm sự kiện Vui Cá Tháng Tư.",
+            "ScriptID": 200121
+        },
+        {
+            "ItemID": 20524,
+            "Name": "Thính đặc biệt",
+            "Stack": 10000,
+            "Icon": "202403_thinh_dac_biet",
+            "Intro": "Vật phẩm sự kiện Vui Cá Tháng Tư.",
+            "ScriptID": 200121
+        },
+        {
+            "ItemID": 20525,
+            "Name": "Nhạc phổ: Nói Dối",
+            "Icon": "202403_nhac_pho",
+            "Intro": "Vật phẩm sự kiện Vui Cá Tháng Tư. <br>Sử dụng nhận được <color=#a6e3a1>1 điểm kỹ năng</color>. Mỗi người tối đa sử dụng <color=#eba0ac>2 vật phẩm</color>.",
+            "ScriptID": 200097,
+            "ListExtPram": [
+                { "Pram": 700521, "Index": 1 },
+                { "Pram": 1, "Index": 2 },
+                { "Pram": 2, "Index": 3 }
+            ]
+        },
+        {
+            "ItemID": 20526,
+            "Name": "Truyện cổ: Chú Bé Chăn Cừu",
+            "Icon": "202403_truyen_co",
+            "Intro": "Vật phẩm sự kiện Vui Cá Tháng Tư. <br>Sử dụng nhận được <color=#a6e3a1>10 điểm tiềm năng</color>. Mỗi người tối đa sử dụng <color=#eba0ac>2 vật phẩm.</color>",
+            "ScriptID": 200096,
+            "ListExtPram": [
+                { "Pram": 700522, "Index": 1 },
+                { "Pram": 10, "Index": 2 },
+                { "Pram": 2, "Index": 3 }
+            ]
+        }
+    ]
+}

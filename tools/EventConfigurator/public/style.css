@@ -1,0 +1,345 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+
+:root {
+    --bg-color: #f1f5f9;
+    --sidebar-bg: #ffffff;
+    --card-bg: #ffffff;
+    --border-color: #e2e8f0;
+    --primary-color: #0ea5e9;
+    --secondary-color: #64748b;
+    --accent-color: #f43f5e;
+    --success-color: #10b981;
+    --info-color: #3b82f6;
+    --warning-color: #f59e0b;
+    --text-primary: #1e293b;
+    --text-secondary: #64748b;
+    --text-muted: #94a3b8;
+    --card-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
+    --hover-shadow: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);
+    --transition: all 0.25s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Inter', sans-serif;
+    background-color: var(--bg-color);
+    background-image: 
+        radial-gradient(circle at 0% 0%, rgba(14, 165, 233, 0.05) 0, transparent 40%),
+        radial-gradient(circle at 100% 100%, rgba(244, 63, 94, 0.03) 0, transparent 40%);
+    color: var(--text-primary);
+    min-height: 100vh;
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+    width: 8px;
+    height: 8px;
+}
+::-webkit-scrollbar-track {
+    background: #f1f5f9;
+}
+::-webkit-scrollbar-thumb {
+    background: #cbd5e1;
+    border-radius: 10px;
+}
+::-webkit-scrollbar-thumb:hover {
+    background: #94a3b8;
+}
+
+/* Sidebar */
+.sidebar {
+    background-color: var(--sidebar-bg);
+    border-right: 1px solid var(--border-color);
+    height: 100vh;
+    position: sticky;
+    top: 0;
+    padding: 0 !important;
+    z-index: 1000;
+    box-shadow: 4px 0 24px rgba(0, 0, 0, 0.02);
+}
+
+.sidebar h4 {
+    color: var(--text-primary);
+    font-weight: 800;
+    padding: 2rem 1.5rem;
+    margin-bottom: 1rem;
+    border-bottom: 1px solid #f8fafc;
+}
+
+.sidebar a {
+    color: var(--text-secondary);
+    text-decoration: none !important;
+    padding: 0.85rem 1.5rem;
+    margin: 0.2rem 0.75rem;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    border-radius: 10px;
+    transition: var(--transition);
+    font-weight: 500;
+    font-size: 0.95rem;
+}
+
+.sidebar a i {
+    font-size: 1.15rem;
+    opacity: 0.8;
+}
+
+.sidebar a:hover {
+    background-color: #f8fafc;
+    color: var(--primary-color);
+    padding-left: 1.75rem;
+}
+
+.sidebar a.active {
+    background-color: #eff6ff;
+    color: var(--primary-color);
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05);
+}
+
+.sidebar-footer {
+    border-top: 1px solid var(--border-color);
+    background-color: #fafcfe;
+}
+
+.credit-badge {
+    padding: 10px;
+    background: #ffffff;
+    border: 1px solid var(--border-color);
+    border-radius: 12px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.02);
+}
+
+.credit-badge span {
+    font-size: 0.95rem;
+    letter-spacing: 0.5px;
+}
+
+/* Main Content */
+.main-content {
+    padding: 2.5rem 3rem !important;
+}
+
+h2 {
+    color: var(--text-primary);
+    font-weight: 800;
+    letter-spacing: -0.025em;
+}
+
+/* Cards */
+.card, .tab-section {
+    background-color: var(--card-bg) !important;
+    border: 1px solid var(--border-color) !important;
+    border-radius: 16px !important;
+    box-shadow: var(--card-shadow) !important;
+    padding: 2rem !important;
+    margin-bottom: 2.5rem !important;
+    transition: var(--transition);
+}
+
+.card:hover {
+    box-shadow: var(--hover-shadow) !important;
+    transform: translateY(-2px);
+}
+
+.card h4 {
+    color: var(--text-primary);
+    font-weight: 700;
+    margin-bottom: 1.5rem;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+/* Form Styles */
+.form-label {
+    color: var(--text-primary);
+    font-weight: 600;
+    font-size: 0.875rem;
+    margin-bottom: 0.5rem;
+}
+
+.form-control, .form-select {
+    background-color: #f8fafc !important;
+    border: 1px solid var(--border-color) !important;
+    color: var(--text-primary) !important;
+    border-radius: 8px !important;
+    padding: 0.65rem 0.85rem !important;
+    font-size: 0.95rem;
+    transition: var(--transition);
+}
+
+.form-control:focus, .form-select:focus {
+    background-color: #ffffff !important;
+    border-color: var(--primary-color) !important;
+    box-shadow: 0 0 0 3px rgba(14, 165, 233, 0.1) !important;
+}
+
+/* Buttons */
+.btn {
+    border-radius: 8px !important;
+    padding: 0.7rem 1.4rem !important;
+    font-weight: 600 !important;
+    font-size: 0.9rem !important;
+    transition: var(--transition) !important;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05);
+}
+
+.btn-primary {
+    background-color: var(--primary-color) !important;
+    border-color: var(--primary-color) !important;
+}
+
+.btn-primary:hover {
+    background-color: #0284c7 !important;
+    transform: translateY(-1px);
+    box-shadow: 0 4px 6px -1px rgba(14, 165, 233, 0.2);
+}
+
+/* Tables */
+.table {
+    margin-bottom: 0;
+}
+
+.table thead th {
+    background-color: #f8fafc !important;
+    color: var(--text-secondary);
+    font-weight: 600;
+    font-size: 0.8rem;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    border-bottom: 1px solid var(--border-color) !important;
+    padding: 1rem 0.75rem !important;
+}
+
+.table tbody td {
+    padding: 1rem 0.75rem !important;
+    border-bottom: 1px solid #f1f5f9 !important;
+    color: var(--text-primary);
+}
+
+/* Search Bar */
+.search-container {
+    position: relative;
+    max-width: 400px;
+}
+
+.search-container i {
+    position: absolute;
+    left: 14px;
+    top: 50%;
+    transform: translateY(-50%);
+    color: var(--text-muted);
+}
+
+.search-container input {
+    padding-left: 40px !important;
+    background-color: #f1f5f9 !important;
+    border: 1px solid transparent !important;
+}
+
+.search-container input:focus {
+    background-color: #ffffff !important;
+    border-color: var(--primary-color) !important;
+}
+
+/* Badges */
+.badge {
+    padding: 0.5em 0.85em !important;
+    font-weight: 600 !important;
+    border-radius: 6px !important;
+}
+
+.bg-primary { background-color: #eff6ff !important; color: var(--primary-color) !important; }
+.bg-success { background-color: #ecfdf5 !important; color: var(--success-color) !important; }
+.bg-danger { background-color: #fef2f2 !important; color: var(--accent-color) !important; }
+
+/* Alerts */
+.alert {
+    border: 1px solid var(--border-color);
+    background-color: #f8fafc;
+    border-radius: 12px;
+    color: var(--text-secondary);
+    padding: 1.25rem !important;
+}
+
+.alert-info {
+    background-color: #f0f9ff;
+    border-color: #bae6fd;
+    color: #0369a1;
+}
+
+/* Animations */
+.tab-section {
+    animation: slideUp 0.3s ease-out;
+}
+
+@keyframes slideUp {
+    from { opacity: 0; transform: translateY(8px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+
+/* Switch Toggle Customization */
+.form-check-input:checked {
+    background-color: var(--primary-color);
+    border-color: var(--primary-color);
+}
+
+/* Table input text overflow fix */
+.table .form-control,
+.table .form-select {
+    text-overflow: ellipsis;
+    min-width: 0;
+}
+
+.table .form-select {
+    min-width: 110px;
+}
+
+/* Global: ensure all number inputs fit at least 6-9 digits (~100px) */
+input[type="number"].form-control,
+input[type="number"].form-control-sm {
+    min-width: 100px;
+}
+
+/* Global: text inputs have a reasonable minimum */
+input[type="text"].form-control,
+input[type="text"].form-control-sm {
+    min-width: 110px;
+}
+
+/* Inline inputs (d-inline / w-auto) should not collapse below 90px */
+.form-control.d-inline,
+.form-control-sm.d-inline,
+.form-select.d-inline,
+.form-select-sm.d-inline {
+    min-width: 90px !important;
+}
+
+/* Card-body inline flex rows: allow wrapping to avoid overflow */
+.card-body .d-flex.flex-wrap {
+    row-gap: 0.35rem;
+}
+
+/* Responsive */
+@media (max-width: 1024px) {
+    .main-content { padding: 1.5rem !important; }
+    .sidebar { width: 250px; }
+}
+
+/* Hide number input spinners (arrows) globally */
+input[type="number"]::-webkit-outer-spin-button,
+input[type="number"]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    appearance: none;
+    margin: 0;
+}
+input[type="number"] {
+    -moz-appearance: textfield;
+    appearance: textfield;
+}

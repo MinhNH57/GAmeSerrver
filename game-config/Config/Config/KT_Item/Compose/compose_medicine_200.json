@@ -1,0 +1,154 @@
+{
+    "recipes": [
+        {
+            "compose_id": 200,
+            "compose_name": "Chế tạo Rương Nhân Sâm Đại Bổ Tán",
+            "compose_description": "",
+            "allow_multiple": true,
+            "enable_source": false,
+            "enable_rate_up": false,
+            "rate_up_items": [],
+            "materials": [
+                {
+                    "id": 579,
+                    "number": 1
+                }
+            ],
+            "fees": [
+                { "type": 4, "number": 500 },
+                { "type": 5, "number": 500 }
+            ],
+            "output": {
+                "id": 20452,
+                "number": 1
+            },
+            "output_based_on_input": false,
+            "default_rate": 100
+        },
+        {
+            "compose_id": 201,
+            "compose_name": "Chế tạo Rương Nhân Sâm Tục Mệnh Hoàn",
+            "compose_description": "",
+            "allow_multiple": true,
+            "enable_source": false,
+            "enable_rate_up": false,
+            "rate_up_items": [],
+            "materials": [
+                {
+                    "id": 20452,
+                    "number": 1
+                }
+            ],
+            "fees": [
+                { "type": 4, "number": 1000 },
+                { "type": 5, "number": 1000 }
+            ],
+            "output": {
+                "id": 20453,
+                "number": 1
+            },
+            "output_based_on_input": false,
+            "default_rate": 100
+        },
+        {
+            "compose_id": 202,
+            "compose_name": "Chế tạo Rương Tuyết Liên Ngưng Thần Đơn",
+            "compose_description": "",
+            "allow_multiple": true,
+            "enable_source": false,
+            "enable_rate_up": false,
+            "rate_up_items": [],
+            "materials": [
+                {
+                    "id": 580,
+                    "number": 1
+                }
+            ],
+            "fees": [
+                { "type": 4, "number": 500 },
+                { "type": 5, "number": 500 }
+            ],
+            "output": {
+                "id": 20454,
+                "number": 1
+            },
+            "output_based_on_input": false,
+            "default_rate": 100
+        },
+        {
+            "compose_id": 203,
+            "compose_name": "Chế tạo Rương Tuyết Liên Phản Khí Hoàn",
+            "compose_description": "",
+            "allow_multiple": true,
+            "enable_source": false,
+            "enable_rate_up": false,
+            "rate_up_items": [],
+            "materials": [
+                {
+                    "id": 20454,
+                    "number": 1
+                }
+            ],
+            "fees": [
+                { "type": 4, "number": 1000 },
+                { "type": 5, "number": 1000 }
+            ],
+            "output": {
+                "id": 20455,
+                "number": 1
+            },
+            "output_based_on_input": false,
+            "default_rate": 100
+        },
+        {
+            "compose_id": 204,
+            "compose_name": "Chế tạo Rương Ích Thọ Ngọc Lộ Hoàn",
+            "compose_description": "",
+            "allow_multiple": true,
+            "enable_source": false,
+            "enable_rate_up": false,
+            "rate_up_items": [],
+            "materials": [
+                {
+                    "id": 581,
+                    "number": 1
+                }
+            ],
+            "fees": [
+                { "type": 4, "number": 500 },
+                { "type": 5, "number": 500 }
+            ],
+            "output": {
+                "id": 20456,
+                "number": 1
+            },
+            "output_based_on_input": false,
+            "default_rate": 100
+        },
+        {
+            "compose_id": 205,
+            "compose_name": "Chế tạo Rương Ích Thọ Đại Hoàn Đơn",
+            "compose_description": "",
+            "allow_multiple": true,
+            "enable_source": false,
+            "enable_rate_up": false,
+            "rate_up_items": [],
+            "materials": [
+                {
+                    "id": 20456,
+                    "number": 1
+                }
+            ],
+            "fees": [
+                { "type": 4, "number": 1000 },
+                { "type": 5, "number": 1000 }
+            ],
+            "output": {
+                "id": 20457,
+                "number": 1
+            },
+            "output_based_on_input": false,
+            "default_rate": 100
+        }
+    ]
+}

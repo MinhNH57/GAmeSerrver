@@ -1,0 +1,106 @@
+{
+    "RandomBoxes": [
+        {
+            "ItemID": 20833,
+            "Name": "Viêm Long Huyết Châu",
+            "LimitLifeTime": 300,
+            "Icon": "2025_03_viemlonghuyetchau",
+            "Intro": "Vật phẩm sự kiện Hào Khí Lạc Hồng.",
+            "ItemValue": 200551
+        },
+        {
+            "ItemID": 20834,
+            "Name": "Thiên Hoả Long Châu",
+            "Icon": "2025_03_thienhoalongchau",
+            "Intro": "Vật phẩm sự kiện Hào Khí Lạc Hồng.",
+            "ItemValue": 200552,
+            "Override": {
+                "25": { "ItemValue": 200564 },
+                "26": { "ItemValue": 200564 },
+                "27": { "ItemValue": 200564 },
+                "28": { "ItemValue": 200564 }
+            }
+        },
+        {
+            "ItemID": 20835,
+            "Name": "[Đặc biệt] Ấn Soái Hùng Vương",
+            "Icon": "2025_03_ansoaihungvuong",
+            "Intro": "Vật phẩm sự kiện Hào Khí Lạc Hồng.",
+            "ItemValue": 200553
+        },
+        {
+            "ItemID": 20836,
+            "Name": "Thú cưỡi Huyền Ngưu Chiến Kỵ (ngẫu nhiên)",
+            "Icon": "horsebox_c",
+            "Intro": "Vật phẩm sự kiện Hào Khí Lạc Hồng.<br>Sử dụng nhận được thú cưỡi <color=#eba0ac>Huyền Ngưu Chiến Kỵ</color>, thời hạn ngẫu nhiên.",
+            "ItemValue": 200555
+        },
+        {
+            "ItemID": 20842,
+            "Name": "Danh hiệu Hào Khí Lạc Hồng (ngẫu nhiên)",
+            "Icon": "quest_0084_s",
+            "Intro": "Vật phẩm sự kiện Hào Khí Lạc Hồng.<br>Sử dụng nhận được danh hiệu <color=#eba0ac>Hào Khí Lạc Hồng</color>, thời hạn ngẫu nhiên.",
+            "ItemValue": 200554
+        },
+        {
+            "ItemID": 20843,
+            "Name": "Danh hiệu Hào Khí Lạc Hồng (30 ngày)",
+            "Icon": "quest_0084_s",
+            "Intro": "Vật phẩm sự kiện Hào Khí Lạc Hồng.<br>Sử dụng nhận được danh hiệu <color=#eba0ac>Hào Khí Lạc Hồng</color>, thời hạn 30 ngày.",
+            "ItemValue": 200556
+        }
+    ],
+    "Normal": [
+        {
+            "ItemID": 20837,
+            "Name": "Long Huyết Thiết",
+            "ParticularType": 32001,
+            "Stack": 10000,
+            "Icon": "2025_03_longhuyetthiet",
+            "Intro": "Vật phẩm sự kiện Hào Khí Lạc Hồng.",
+            "ScriptID": 200121
+        },
+        {
+            "ItemID": 20838,
+            "Name": "Chân Long Linh Ngọc",
+            "ParticularType": 32001,
+            "Stack": 10000,
+            "Icon": "2025_03_chanlonglinhngoc",
+            "Intro": "Vật phẩm sự kiện Hào Khí Lạc Hồng.",
+            "ScriptID": 200121
+        },
+        {
+            "ItemID": 20839,
+            "Name": "Thiên Hoả Phách Thạch",
+            "ParticularType": 32001,
+            "Stack": 10000,
+            "Icon": "2025_03_thienhoaphachthach",
+            "Intro": "Vật phẩm sự kiện Hào Khí Lạc Hồng.",
+            "ScriptID": 200121
+        },
+        {
+            "ItemID": 20840,
+            "Name": "Xích Long Hồn Giới",
+            "Icon": "2025_03_xichlonghongioi",
+            "Intro": "Vật phẩm sự kiện Hào Khí Lạc Hồng. <br>Sử dụng nhận được <color=#a6e3a1>1 điểm kỹ năng</color>. Mỗi người tối đa sử dụng <color=#eba0ac>2 vật phẩm</color>.",
+            "ScriptID": 200097,
+            "ListExtPram": [
+                { "Pram": 700547, "Index": 1 },
+                { "Pram": 1, "Index": 2 },
+                { "Pram": 2, "Index": 3 }
+            ]
+        },
+        {
+            "ItemID": 20841,
+            "Name": "Thần Long Ngọc Ấn",
+            "Icon": "2025_03_thanlongngocan",
+            "Intro": "Vật phẩm sự kiện Hào Khí Lạc Hồng. <br>Sử dụng nhận được <color=#a6e3a1>10 điểm tiềm năng</color>. Mỗi người tối đa sử dụng <color=#eba0ac>2 vật phẩm</color>.",
+            "ScriptID": 200096,
+            "ListExtPram": [
+                { "Pram": 700548, "Index": 1 },
+                { "Pram": 10, "Index": 2 },
+                { "Pram": 2, "Index": 3 }
+            ]
+        }
+    ]
+}

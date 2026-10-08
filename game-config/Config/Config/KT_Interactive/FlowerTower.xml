@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<FlowerTower TimeKey="FlowerTower" ComposeTaskID="23,40,41">
+  <TopSpeed>
+    <Floor id="3" count="30" reward="1026" reward_count="10" message="Người chơi {0} đã hoàn toàn chinh phục tầng 3 của Thiên Tầng Tháp! Một thành tựu đáng kinh ngạc!"/>
+    <Floor id="5" count="15" reward="25236" reward_count="1" message="Người chơi {0} đã thành công bước qua tầng 5 của Thiên Tầng Tháp! Một thành tích không tưởng, đầy ấn tượng!"/>
+    <Floor id="7" count="3" reward="20571" reward_count="1" message="Người chơi {0} đã phá vỡ giới hạn và hoàn thành tầng 7 của Thiên Tầng Tháp! Đúng là một kỳ tích phi thường!"/>
+  </TopSpeed>
+  <Floor id="1" RewardID="20800">
+    <Task id="1" Description="Tham gia 01 lần bạch hổ đường sơ hoặc cao trong ngày" Goal="1" Cost="50" EventType="10008" Param="-1"/>
+    <Task id="2" Description="Quay và nhận 05 lần Chúc Phúc" Goal="5" Cost="-1" EventType="10004" Param="-1"/>
+    <Task id="3" Description="Tham gia 01 lần Tiêu Dao Cốc" Goal="1" Cost="50" EventType="10007" Param="-1"/>
+    <Task id="4" Description="Hoàn thành 50 lần nhiệm vụ Bao Vạn Đồng" Goal="50" Cost="50" EventType="10003" Param="2"/>
+    <Task id="5" Description="Sử dụng 10 bình tinh khí tán (sơ)" Goal="10" Cost="-1" EventType="10002" Param="391"/>
+    <Task id="6" Description="Sử dụng 10 bình hoạt khí tán (sơ)" Goal="10" Cost="-1" EventType="10002" Param="394"/>
+  </Floor>
+  <Floor id="2" RewardID="20801">
+    <Task id="7" Description="Tổ đội tham gia hạ gục 05 Boss võ lâm cao thủ" Goal="5" Cost="100" EventType="11" Param="MainBoss"/>
+    <Task id="8" Description="Sử dụng 20 bình tinh khí tán (1000)" Goal="20" Cost="-1" EventType="10002" Param="392"/>
+    <Task id="9" Description="Sử dụng 20 bình hoạt khí tán (1000)" Goal="20" Cost="-1" EventType="10002" Param="395"/>
+    <Task id="10" Description="Hoàn thành 40 lần nhiệm vụ Thương Hội" Goal="40" Cost="200" EventType="10003" Param="3"/>
+    <Task id="11" Description="Chuyển 1000 KNB" Goal="1000" Cost="-1" EventType="10040" Param="-1"/>
+  </Floor>
+  <Floor id="3" RewardID="20802">
+    <Task id="12" Description="Sử dụng 20 sách exp đồng hành (2500)" Goal="20" Cost="200" EventType="10002" Param="1057"/>
+    <Task id="13" Description="Khiêu chiến mật thất du long 50 lần" Goal="50" Cost="-1" EventType="10009" Param="-1"/>
+    <Task id="14" Description="Tham gia hoạt động Bí cảnh 4 lần" Goal="4" Cost="200" EventType="10010" Param="-1"/>
+    <Task id="15" Description="Sử dụng 20 bình Tinh khí tán (1500)" Goal="20" Cost="-1" EventType="10002" Param="393"/>
+    <Task id="16" Description="Sử dụng 20 bình Hoạt khí tán (1500)" Goal="20" Cost="-1" EventType="10002" Param="396"/>
+    <Task id="40" Description="Quay Hạ Nhật Bí Bảo 50 lượt" Goal="50" Cost="-1" EventType="10041" Param="2"/>
+  </Floor>
+  <Floor id="4" RewardID="20803">
+    <Task id="17" Description="Cường hóa 2000 Kinh Nghiệm Chân Nguyên" Goal="2000" Cost="200" EventType="10023" Param="-1"/>
+    <Task id="18" Description="Đạt top 10 Tống Kim (Sơ hoặc Cao)" Goal="1" Cost="200" EventType="10021" Param="10"/>
+    <Task id="19" Description="Tích lũy gây 1.000.000 sát thương lên Boss Thủ Vệ" Goal="1000000" Cost="200" EventType="17" Param="5218"/>
+    <Task id="20" Description="Chuyển 5000 KNB" Goal="6000" Cost="-1" EventType="10040" Param="-1"/>
+    <Task id="41" Description="Quay Hạ Nhật Bí Bảo 100 lượt" Goal="100" Cost="-1" EventType="10041" Param="3"/>
+  </Floor>
+  <Floor id="5" RewardID="20804">
+    <Task id="21" Description="Tích lũy hạ gục 100 người chơi tại bản đồ Tống Kim" Goal="100" Cost="1000" EventType="10022" Param="-1"/>
+    <Task id="22" Description="Sử dụng Thiệp Bạch Kim thu phục đồng hành 03 lần" Goal="3" Cost="-1" EventType="10002" Param="20406"/>
+    <Task id="23" Description="Quay Hạ Nhật Bí Bảo 500 lượt" Goal="500" Cost="-1" EventType="10041" Param="-1"/>
+    <Task id="24" Description="Tích lũy gây 3.000.000 sát thương lên Boss Tần Thủy Hoàng" Goal="3000000" Cost="1000" EventType="17" Param="7384"/>
+  </Floor>
+  <Floor id="6" RewardID="20805">
+    <Task id="25" Description="Thực hiện thao tác trang bị Phi Phong Sồ Phượng trở lên" Goal="1" Cost="-1" EventType="10019" Param="Mantle_7"/>
+    <Task id="26" Description="Tổ đội tiêu diệt boss Tần Thủy Hoàng" Goal="1" Cost="2000" EventType="11" Param="7384"/>
+    <Task id="27" Description="Khiêu chiến mật thất du long 100 lần" Goal="100" Cost="-1" EventType="10009" Param="-1"/>
+    <Task id="28" Description="Chuyển 25.000 KNB" Goal="31000" Cost="-1" EventType="10040" Param="-1"/>
+  </Floor>
+  <Floor id="7" RewardID="20806">
+    <Task id="29" Description="Hạ gục 20 người chơi tại bản đồ Bạch Hổ Đường" Goal="20" Cost="2000" EventType="10016" Param="-1"/>
+    <Task id="30" Description="Nhận thưởng Tân Nhân Vương Hoa Sơn Luận Kiếm hoặc Thi Đấu Môn Phái" Goal="1" Cost="2000" EventType="10014" Param="-1"/>
+    <Task id="31" Description="Chuyển 75.000 KNB" Goal="106000" Cost="-1" EventType="10040" Param="-1"/>
+  </Floor>
+</FlowerTower>

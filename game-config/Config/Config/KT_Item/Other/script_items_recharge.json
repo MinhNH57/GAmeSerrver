@@ -1,0 +1,379 @@
+[
+    {
+        "ItemID": 20458,
+        "Name": "Phần thưởng Ưu đãi Nạp Đơn - 200KNB",
+        "Icon": "ruong_200_knb",
+        "Intro": "Phần thưởng nhận được khi tham gia hoạt động Ưu đãi Nạp Đơn, tích lũy được 200KNB.\n\nCác vật phẩm mở ra đều khóa.",
+        "Stack": 100,
+        "Genre": 18,
+        "ScriptID": 200060,
+        "ItemValue": 200293,
+        "Override": {
+            "40": {
+                "ItemValue": 201557
+            }
+        },
+        "Level": 0
+    },
+    {
+        "ItemID": 20459,
+        "Name": "Phần thưởng Ưu đãi Nạp Đơn - 500KNB",
+        "Icon": "ruong_500_knb",
+        "Intro": "Phần thưởng nhận được khi tham gia hoạt động Ưu đãi Nạp Đơn, tích lũy được 500KNB.\n\nCác vật phẩm mở ra đều khóa.",
+        "Stack": 100,
+        "Genre": 18,
+        "ScriptID": 200060,
+        "ItemValue": 200294,
+        "Override": {
+            "40": {
+                "ItemValue": 201558
+            }
+        },
+        "Level": 0
+    },
+    {
+        "ItemID": 20460,
+        "Name": "Phần thưởng Ưu đãi Nạp Đơn - 1000KNB",
+        "Icon": "ruong_1000_knb",
+        "Intro": "Phần thưởng nhận được khi tham gia hoạt động Ưu đãi Nạp Đơn, tích lũy được 1000KNB.\n\nCác vật phẩm mở ra đều khóa.",
+        "Stack": 100,
+        "Genre": 18,
+        "ScriptID": 200060,
+        "ItemValue": 200295,
+        "Override": {
+            "40": {
+                "ItemValue": 201559
+            }
+        },
+        "Level": 0
+    },
+    {
+        "ItemID": 20461,
+        "Name": "Phần thưởng Ưu đãi Nạp Đơn - 2000KNB",
+        "Icon": "ruong_2000_knb",
+        "Intro": "Phần thưởng nhận được khi tham gia hoạt động Ưu đãi Nạp Đơn, tích lũy được 2000KNB.\n\nCác vật phẩm mở ra đều khóa.",
+        "Stack": 100,
+        "Genre": 18,
+        "ScriptID": 200060,
+        "ItemValue": 200296,
+        "Override": {
+            "40": {
+                "ItemValue": 201560
+            }
+        },
+        "Level": 0
+    },
+    {
+        "ItemID": 20462,
+        "Name": "Phần thưởng Ưu đãi Nạp Đơn - 5000KNB",
+        "Icon": "ruong_5000_knb",
+        "Intro": "Phần thưởng nhận được khi tham gia hoạt động Ưu đãi Nạp Đơn, tích lũy được 5000KNB.\n\nCác vật phẩm mở ra đều khóa.",
+        "Stack": 100,
+        "Genre": 18,
+        "ScriptID": 200060,
+        "ItemValue": 200297,
+        "Override": {
+            "40": {
+                "ItemValue": 201561
+            }
+        },
+        "Level": 0
+    },
+    {
+        "ItemID": 20463,
+        "Name": "Phần thưởng Ưu đãi Nạp Đơn - 10000KNB",
+        "Icon": "ruong_10000_knb",
+        "Intro": "Phần thưởng nhận được khi tham gia hoạt động Ưu đãi Nạp Đơn, tích lũy được 10000KNB.\n\nCác vật phẩm mở ra đều khóa.",
+        "Stack": 100,
+        "Genre": 18,
+        "ScriptID": 200060,
+        "ItemValue": 200298,
+        "Override": {
+            "40": {
+                "ItemValue": 201562
+            }
+        },
+        "Level": 0
+    },
+    {
+        "ItemID": 20631,
+        "Name": "Phần thưởng Ưu đãi Nạp Đơn - 20000KNB",
+        "Icon": "ruong_20000_knb",
+        "Intro": "Phần thưởng nhận được khi tham gia hoạt động Ưu đãi Nạp Đơn, tích lũy được 20000KNB.\n\nCác vật phẩm mở ra đều khóa.",
+        "Stack": 100,
+        "Genre": 18,
+        "ScriptID": 200060,
+        "ItemValue": 200437,
+        "Override": {
+            "40": {
+                "ItemValue": 201563
+            }
+        },
+        "Level": 0
+    },
+    {
+        "ItemID": 20713,
+        "Name": "Phần thưởng Ưu đãi Nạp Đơn - 50000KNB",
+        "Icon": "ruong_50000_knb",
+        "Intro": "Phần thưởng nhận được khi tham gia hoạt động Ưu đãi Nạp Đơn, tích lũy được 50000KNB.\n\nCác vật phẩm mở ra đều khóa.",
+        "Stack": 100,
+        "Genre": 18,
+        "ScriptID": 200060,
+        "ItemValue": 200481
+    },
+    {
+        "ItemID": 20857,
+        "Name": "Phần thưởng Ưu đãi Nạp 5 Đơn - 200KNB",
+        "Icon": "ruong_200_knb_bonus",
+        "Intro": "Phần thưởng nhận được khi tham gia hoạt động Ưu đãi Nạp Đơn, tích lũy được 5 lần nạp 200KNB.\n\nCác vật phẩm mở ra đều khóa.",
+        "Stack": 100,
+        "Genre": 18,
+        "ScriptID": 200060,
+        "ItemValue": 100375,
+        "Override": {
+            "40": {
+                "ItemValue": 101383
+            }
+        },
+        "Level": 0
+    },
+    {
+        "ItemID": 20858,
+        "Name": "Phần thưởng Ưu đãi Nạp 5 Đơn - 500KNB",
+        "Icon": "ruong_500_knb_bonus",
+        "Intro": "Phần thưởng nhận được khi tham gia hoạt động Ưu đãi Nạp Đơn, tích lũy được 5 lần nạp 500KNB.\n\nCác vật phẩm mở ra đều khóa.",
+        "Stack": 100,
+        "Genre": 18,
+        "ScriptID": 200060,
+        "ItemValue": 100376,
+        "Override": {
+            "40": {
+                "ItemValue": 101384
+            }
+        },
+        "Level": 0
+    },
+    {
+        "ItemID": 20859,
+        "Name": "Phần thưởng Ưu đãi Nạp 5 Đơn - 1000KNB",
+        "Icon": "ruong_1000_knb_bonus",
+        "Intro": "Phần thưởng nhận được khi tham gia hoạt động Ưu đãi Nạp Đơn, tích lũy được 5 lần nạp 1000KNB.\n\nCác vật phẩm mở ra đều khóa.",
+        "Stack": 100,
+        "Genre": 18,
+        "ScriptID": 200060,
+        "ItemValue": 100377,
+        "Override": {
+            "40": {
+                "ItemValue": 101385
+            }
+        },
+        "Level": 0
+    },
+    {
+        "ItemID": 20860,
+        "Name": "Phần thưởng Ưu đãi Nạp 5 Đơn - 2000KNB",
+        "Icon": "ruong_2000_knb_bonus",
+        "Intro": "Phần thưởng nhận được khi tham gia hoạt động Ưu đãi Nạp Đơn, tích lũy được 5 lần nạp 2000KNB.\n\nCác vật phẩm mở ra đều khóa.",
+        "Stack": 100,
+        "Genre": 18,
+        "ScriptID": 200060,
+        "ItemValue": 100378,
+        "Override": {
+            "40": {
+                "ItemValue": 101386
+            }
+        },
+        "Level": 0
+    },
+    {
+        "ItemID": 20861,
+        "Name": "Phần thưởng Ưu đãi Nạp 5 Đơn - 5000KNB",
+        "Icon": "ruong_5000_knb_bonus",
+        "Intro": "Phần thưởng nhận được khi tham gia hoạt động Ưu đãi Nạp Đơn, tích lũy được 5 lần nạp 5000KNB.\n\nCác vật phẩm mở ra đều khóa.",
+        "Stack": 100,
+        "Genre": 18,
+        "ScriptID": 200060,
+        "ItemValue": 100379,
+        "Override": {
+            "40": {
+                "ItemValue": 101387
+            }
+        },
+        "Level": 0
+    },
+    {
+        "ItemID": 20862,
+        "Name": "Phần thưởng Ưu đãi Nạp 5 Đơn - 10000KNB",
+        "Icon": "ruong_10000_knb_bonus",
+        "Intro": "Phần thưởng nhận được khi tham gia hoạt động Ưu đãi Nạp Đơn, tích lũy được 5 lần nạp 10000KNB.\n\nCác vật phẩm mở ra đều khóa.",
+        "Stack": 100,
+        "Genre": 18,
+        "ScriptID": 200060,
+        "ItemValue": 100380,
+        "Override": {
+            "40": {
+                "ItemValue": 101388
+            }
+        },
+        "Level": 0
+    },
+    {
+        "ItemID": 20863,
+        "Name": "Phần thưởng Ưu đãi Nạp 5 Đơn - 20000KNB",
+        "Icon": "ruong_50000_knb_bonus",
+        "Intro": "Phần thưởng nhận được khi tham gia hoạt động Ưu đãi Nạp Đơn, tích lũy được 5 lần nạp 20000KNB.\n\nCác vật phẩm mở ra đều khóa.",
+        "Stack": 100,
+        "Genre": 18,
+        "ScriptID": 200060,
+        "ItemValue": 100381,
+        "Override": {
+            "40": {
+                "ItemValue": 101389
+            }
+        },
+        "Level": 0
+    },
+    {
+        "ItemID": 20864,
+        "Name": "Phần thưởng Ưu đãi Nạp 5 Đơn - 50000KNB",
+        "Icon": "ruong_50000_knb_bonus",
+        "Intro": "Phần thưởng nhận được khi tham gia hoạt động Ưu đãi Nạp Đơn, tích lũy được 5 lần nạp 50000KNB.\n\nCác vật phẩm mở ra đều khóa.",
+        "Stack": 100,
+        "Genre": 18,
+        "ScriptID": 200060,
+        "ItemValue": 100382,
+        "Override": {
+            "40": {
+                "ItemValue": 101390
+            }
+        },
+        "Level": 0
+    },
+    {
+        "ItemID": 20541,
+        "Name": "Phần thưởng Tích Lũy Chuyển Xu - 200KNB",
+        "Icon": "ruong_200_knb",
+        "Intro": "Phần thưởng nhận được khi tham gia hoạt động Tích Lũy Chuyển Xu, tích lũy được 200KNB",
+        "Stack": 100,
+        "Genre": 18,
+        "ScriptID": 200060,
+        "ItemValue": 200364,
+        "Override": {
+            "99": {
+                "ItemValue": 201014
+            }
+        },
+        "Level": 0
+    },
+    {
+        "ItemID": 20542,
+        "Name": "Phần thưởng Tích Lũy Chuyển Xu - 1000KNB",
+        "Icon": "ruong_1000_knb",
+        "Intro": "Phần thưởng nhận được khi tham gia hoạt động Tích Lũy Chuyển Xu, tích lũy được 1000KNB",
+        "Stack": 100,
+        "Genre": 18,
+        "ScriptID": 200060,
+        "ItemValue": 200365,
+        "Override": {
+            "99": {
+                "ItemValue": 201015
+            }
+        },
+        "Level": 0
+    },
+    {
+        "ItemID": 20543,
+        "Name": "Phần thưởng Tích Lũy Chuyển Xu - 2500KNB",
+        "Icon": "ruong_2500_knb",
+        "Intro": "Phần thưởng nhận được khi tham gia hoạt động Tích Lũy Chuyển Xu, tích lũy được 2500KNB",
+        "Stack": 100,
+        "Genre": 18,
+        "ScriptID": 200060,
+        "ItemValue": 200366,
+        "Override": {
+            "99": {
+                "ItemValue": 201016
+            }
+        },
+        "Level": 0
+    },
+    {
+        "ItemID": 20544,
+        "Name": "Phần thưởng Tích Lũy Chuyển Xu - 5000KNB",
+        "Icon": "ruong_5000_knb",
+        "Intro": "Phần thưởng nhận được khi tham gia hoạt động Tích Lũy Chuyển Xu, tích lũy được 5000KNB",
+        "Stack": 100,
+        "Genre": 18,
+        "ScriptID": 200060,
+        "ItemValue": 200367,
+        "Override": {
+            "99": {
+                "ItemValue": 201017
+            }
+        }
+    },
+    {
+        "ItemID": 20545,
+        "Name": "Phần thưởng Tích Lũy Chuyển Xu - 10000KNB",
+        "Icon": "ruong_1000_knb",
+        "Intro": "Phần thưởng nhận được khi tham gia hoạt động Tích Lũy Chuyển Xu, tích lũy được 10000KNB",
+        "Stack": 100,
+        "Genre": 18,
+        "ScriptID": 200060,
+        "ItemValue": 200368,
+        "Override": {
+            "99": {
+                "ItemValue": 201018
+            }
+        },
+        "Level": 0
+    },
+    {
+        "ItemID": 20546,
+        "Name": "Phần thưởng Tích Lũy Chuyển Xu - 20000KNB",
+        "Icon": "ruong_20000_knb",
+        "Intro": "Phần thưởng nhận được khi tham gia hoạt động Tích Lũy Chuyển Xu, tích lũy được 20000KNB",
+        "Stack": 100,
+        "Genre": 18,
+        "ScriptID": 200060,
+        "ItemValue": 200369,
+        "Override": {
+            "99": {
+                "ItemValue": 201019
+            }
+        },
+        "Level": 0
+    },
+    {
+        "ItemID": 20712,
+        "Name": "Phần thưởng Tích Lũy Chuyển Xu - 50000KNB",
+        "Icon": "ruong_50000_knb",
+        "Intro": "Phần thưởng nhận được khi tham gia hoạt động Tích Lũy Chuyển Xu, tích lũy được 50000KNB",
+        "Stack": 100,
+        "Genre": 18,
+        "ScriptID": 200060,
+        "ItemValue": 200479,
+        "Override": {
+            "99": {
+                "ItemValue": 201020
+            }
+        },
+        "Level": 0
+    },
+    {
+        "ItemID": 20935,
+        "Name": "Phần thưởng Tích Lũy 5 Chuyển Xu - 50000KNB",
+        "Icon": "ruong_50000_knb",
+        "Intro": "Phần thưởng nhận được khi tham gia hoạt động Tích Lũy Chuyển Xu, tích lũy nhận 5 lần quà 50000KNB.\n\nCác vật phẩm mở ra đều khóa.",
+        "Stack": 100,
+        "Genre": 18,
+        "ScriptID": 200060,
+        "ItemValue": 201021,
+        "Override": {
+            "99": {
+                "ItemValue": 201020
+            }
+        },
+        "Level": 0
+    }
+]

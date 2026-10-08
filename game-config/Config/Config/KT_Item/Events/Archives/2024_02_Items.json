@@ -1,0 +1,155 @@
+{
+    "Help": {
+        "Help1": "cấu hình vật phẩm sự kiện bằng json",
+        "Help2": "Genre: 18: scriptitem, 22: normal item",
+        "Help3": "ParticularType: > 32000 nếu drop tại map, bỏ qua nếu không phải",
+        "Help4": "ScriptID: 200060 nếu là RandomBox (khai báo ItemValue là ID của box)",
+        "StartID": 20465
+    },
+    "RandomBoxes": [
+        {
+            "ItemID": 20465,
+            "Name": "Túi nguyên liệu 8/3",
+            "ParticularType": 32001,
+            "Icon": "202402_tui_nguyen_lieu",
+            "Intro": "Vật phẩm sự kiện Quốc Sắc Thiên Hương.",
+            "ItemValue": 200305
+        },
+        {
+            "ItemID": 20466,
+            "Name": "Bó hoa Tulip",
+            "LimitLifeTime": 300,
+            "Icon": "202402_bo_hoa_tulip",
+            "Intro": "Vật phẩm sự kiện Quốc Sắc Thiên Hương.",
+            "ItemValue": 200306
+        },
+        {
+            "ItemID": 20467,
+            "Name": "Bó hoa Mẫu Đơn",
+            "LimitLifeTime": 5000,
+            "Icon": "202402_bo_hoa_mau_don",
+            "Intro": "Vật phẩm sự kiện Quốc Sắc Thiên Hương.",
+            "ItemValue": 200307
+        },
+        {
+            "ItemID": 20468,
+            "Name": "Bó hoa 8/3 [đặc biệt]",
+            "LimitLifeTime": 300,
+            "Icon": "202402_hoa_8_3",
+            "Intro": "Vật phẩm sự kiện Quốc Sắc Thiên Hương.",
+            "ItemValue": 200308
+        },
+        {
+            "ItemID": 20469,
+            "Name": "Rương Thú cưỡi 8/3",
+            "Icon": "horsebox_c",
+            "Intro": "Sử dụng nhận được thú cưỡi sự kiện Quốc Sắc Thiên Hương.",
+            "ItemValue": 200309
+        },
+        {
+            "ItemID": 20476,
+            "Name": "Danh hiệu Quốc Sắc Thiên Hương (3 ngày)",
+            "Icon": "quest_0084_s",
+            "Intro": "Sử dụng nhận được Danh hiệu và chúc phúc Quốc Sắc Thiên Hương cấp 1.",
+            "ItemValue": 200310
+        },
+        {
+            "ItemID": 20477,
+            "Name": "Danh hiệu Quốc Sắc Thiên Hương (7 ngày)",
+            "Icon": "quest_0084_s",
+            "Intro": "Sử dụng nhận được Danh hiệu và chúc phúc Quốc Sắc Thiên Hương cấp 1.",
+            "ItemValue": 200311
+        },
+        {
+            "ItemID": 20478,
+            "Name": "Danh hiệu Quốc Sắc Thiên Hương (14 ngày)",
+            "Icon": "quest_0084_s",
+            "Intro": "Sử dụng nhận được Danh hiệu và chúc phúc Quốc Sắc Thiên Hương cấp 2.",
+            "ItemValue": 200312
+        },
+        {
+            "ItemID": 20479,
+            "Name": "Danh hiệu Quốc Sắc Thiên Hương (30 ngày)",
+            "Icon": "quest_0084_s",
+            "Intro": "Sử dụng nhận được Danh hiệu và chúc phúc Quốc Sắc Thiên Hương cấp 3.",
+            "ItemValue": 200313
+        }
+    ],
+    "Normal": [
+        {
+            "ItemID": 20470,
+            "Name": "Dây ruy-băng",
+            "Stack": 10000,
+            "Icon": "202402_ruy_bang",
+            "Intro": "Vật phẩm sự kiện Quốc Sắc Thiên Hương.",
+            "ScriptID": 200121
+        },
+        {
+            "ItemID": 20471,
+            "Name": "Giấy gói hoa",
+            "Stack": 10000,
+            "Icon": "202402_giay_goi_hoa",
+            "Intro": "Vật phẩm sự kiện Quốc Sắc Thiên Hương.",
+            "ScriptID": 200121
+        },
+        {
+            "ItemID": 20472,
+            "Name": "Hoa Tulip",
+            "Stack": 10000,
+            "Icon": "202402_tulip",
+            "Intro": "Vật phẩm sự kiện Quốc Sắc Thiên Hương.",
+            "ScriptID": 200121
+        },
+        {
+            "ItemID": 20473,
+            "Name": "Hoa Mẫu đơn",
+            "Stack": 10000,
+            "Icon": "202402_mau_don",
+            "Intro": "Vật phẩm sự kiện Quốc Sắc Thiên Hương.",
+            "ScriptID": 200121
+        },
+        {
+            "ItemID": 20474,
+            "Name": "Thiệp 8/3",
+            "Icon": "202402_thiep_8_3",
+            "Intro": "Vật phẩm sự kiện Quốc Sắc Thiên Hương. <br>Sử dụng nhận được <color=#a6e3a1>1 điểm kỹ năng</color>. Mỗi người tối đa sử dụng <color=#eba0ac>2 vật phẩm</color>.",
+            "ScriptID": 200097,
+            "ListExtPram": [
+                { "Pram": 700519, "Index": 1 },
+                { "Pram": 1, "Index": 2 },
+                { "Pram": 2, "Index": 3 }
+            ]
+        },
+        {
+            "ItemID": 20475,
+            "Name": "Gấu bông 8/3",
+            "Icon": "202402_gau_bong",
+            "Intro": "Vật phẩm sự kiện Quốc Sắc Thiên Hương. <br>Sử dụng nhận được <color=#a6e3a1>10 điểm tiềm năng</color>. Mỗi người tối đa sử dụng <color=#eba0ac>2 vật phẩm.</color>",
+            "ScriptID": 200096,
+            "ListExtPram": [
+                { "Pram": 700520, "Index": 1 },
+                { "Pram": 10, "Index": 2 },
+                { "Pram": 2, "Index": 3 }
+            ]
+        },
+        {
+            "ItemID": 20480,
+            "Name": "Hoa hồng",
+            "Icon": "8_3_hoa_hong_do_khoa",
+            "Intro": "Vật phẩm sự kiện Quốc Sắc Thiên Hương. Tặng cho Cổ Phong Hà để tham gia hoạt động đặc biệt.",
+            "Stack": 10000
+        },
+        {
+            "ItemID": 20481,
+            "Name": "Vòng sáng sự kiện Hoa Hồng Truyền Tình (30 ngày)",
+            "Icon": "quest_0084_s",
+            "Intro": "",
+            "ScriptID": 200120,
+            "ListExtPram": [
+                { "Pram": 2042, "Index": 1 },
+                { "Pram": 43201, "Index": 2 }
+            ],
+            "Stack": 1
+        }
+    ]
+}

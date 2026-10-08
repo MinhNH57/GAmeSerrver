@@ -1,0 +1,295 @@
+[
+    {
+        "IDBox": 200500,
+        "BoxName": "Rương Thiên Tầng Tháp - Tầng 1",
+        "Items": [
+            {
+                "ItemID": 1,
+                "Number": 1000000,
+                "Rate": -1,
+                "Info": "1000000 x Bạc khóa",
+                "IsPreview": true
+            },
+            {
+                "ItemID": 514,
+                "Rate": -1,
+                "Number": 1,
+                "Info": "1 x Lệnh bài chúc phúc (trung)",
+                "IsPreview": true
+            },
+            {
+                "ItemID": 25194,
+                "Rate": -1,
+                "Number": 50,
+                "Info": "50 x Danh vọng Nghĩa Quân",
+                "IsPreview": true
+            },
+            {
+                "ItemID": 15711,
+                "Rate": -1,
+                "Number": 50,
+                "Info": "50 x Danh vọng Bạch Hổ Đường",
+                "IsPreview": true
+            },
+            {
+                "ItemID": 25196,
+                "Rate": -1,
+                "Number": 50,
+                "Info": "50 x Danh vọng Tống Kim - Phượng Tường",
+                "IsPreview": true
+            },
+            {
+                "ItemID": 25195,
+                "Rate": -1,
+                "Number": 50,
+                "Info": "50 x Danh vọng Ải Gia Tộc",
+                "IsPreview": true
+            },
+            {
+                "ItemID": 15715,
+                "Rate": -1,
+                "Number": 50,
+                "Info": "50 x Danh vọng Môn phái",
+                "IsPreview": true
+            }
+        ]
+    },
+    {
+        "IDBox": 200501,
+        "BoxName": "Rương Thiên Tầng Tháp - Tầng 2",
+        "Items": [
+            {
+                "ItemID": 931,
+                "Rate": -1,
+                "Number": 1,
+                "Info": "1 x Bổ Tu Lệnh"
+            },
+            {
+                "ItemID": 15712,
+                "Rate": -1,
+                "Number": 30,
+                "Info": "30 x Danh vọng Tiêu Dao Cốc",
+                "IsPreview": true
+            },
+            {
+                "ItemID": 15716,
+                "Rate": -1,
+                "Number": 15,
+                "Info": "15 x Danh vọng Tranh đoạt Lãnh thổ",
+                "IsPreview": true
+            },
+            {
+                "ItemID": 15713,
+                "Rate": -1,
+                "Number": 30,
+                "Info": "30 x Danh vọng Chúc phúc",
+                "IsPreview": true
+            },
+            {
+                "ItemID": 506,
+                "Rate": -1,
+                "Number": 500,
+                "Info": "500 x Ngũ Hành Hồn Thạch",
+                "IsPreview": true
+            }
+        ]
+    },
+    {
+        "IDBox": 200502,
+        "BoxName": "Rương Thiên Tầng Tháp - Tầng 3",
+        "Items": [
+            {
+                "ItemID": 25270,
+                "Number": 200,
+                "Rate": -1,
+                "Info": "200 x Kinh Nghiệm Chân Nguyên",
+                "IsPreview": true
+            },
+            {
+                "ItemID": 1057,
+                "Rate": -1,
+                "Number": 10,
+                "Info": "10 x Sách kinh nghiệm đồng hành",
+                "IsPreview": true
+            },
+            {
+                "ItemID": 2017,
+                "Rate": -1,
+                "Number": 1,
+                "Info": "1 x Rương Tiểu Du Long Danh Vọng Lệnh (ngẫu nhiên)",
+                "IsPreview": true
+            },
+            {
+                "ItemID": 15018,
+                "Number": 50,
+                "Rate": -1,
+                "Info": "50 x Phiếu Bạc - 1 Vạn",
+                "IsPreview": true
+            }
+        ]
+    },
+    {
+        "IDBox": 200503,
+        "BoxName": "Rương Thiên Tầng Tháp - Tầng 4",
+        "Items": [
+            {
+                "ItemID": 20344,
+                "Number": 50,
+                "Rate": -1,
+                "Info": "50 x Cờ chiến công",
+                "IsPreview": true
+            },
+            {
+                "ItemID": 20345,
+                "Number": 20,
+                "Rate": -1,
+                "Info": "20 x Mảnh Lôi đình ấn",
+                "IsPreview": true
+            },
+            {
+                "ItemID": 20529,
+                "Number": 50,
+                "Rate": -1,
+                "Info": "50 x Rương mảnh trang bị đồng hành (cao cấp)",
+                "IsPreview": true
+            },
+            {
+                "ItemID": 506,
+                "Rate": -1,
+                "Number": 1000,
+                "Info": "1000 x Ngũ Hành Hồn Thạch",
+                "IsPreview": true
+            }
+        ]
+    },
+    {
+        "IDBox": 200504,
+        "BoxName": "Rương Thiên Tầng Tháp - Tầng 5",
+        "Items": [
+            {
+                "ItemID": 1058,
+                "Rate": -1,
+                "Number": 2,
+                "Info": "2 x Sách kinh nghiệm đồng hành (Truyền thuyết)",
+                "IsPreview": true
+            },
+            {
+                "ItemID": 20529,
+                "Number": 100,
+                "Rate": -1,
+                "Info": "100 x Rương mảnh trang bị đồng hành (cao cấp)",
+                "IsPreview": true
+            },
+            {
+                "ItemID": 819,
+                "Rate": -1,
+                "Number": 2,
+                "Info": "2 x Tần Lăng-Hòa Thị Bích",
+                "IsPreview": true
+            },
+            {
+                "ItemID": 20291,
+                "Number": 1,
+                "Rate": -1,
+                "Info": "1 x Tinh hoạt lực (1 vạn)",
+                "IsPreview": true
+            }
+        ]
+    },
+    {
+        "IDBox": 200505,
+        "BoxName": "Rương Thiên Tầng Tháp - Tầng 6",
+        "Items": [
+            {
+                "ItemID": 506,
+                "Rate": -1,
+                "Number": 2000,
+                "Info": "2000 x Ngũ Hành Hồn Thạch",
+                "IsPreview": true
+            },
+            {
+                "ItemID": 25270,
+                "Number": 5000,
+                "Rate": -1,
+                "Info": "5000 x Kinh Nghiệm Chân Nguyên",
+                "IsPreview": true
+            },
+            {
+                "ItemID": 20571,
+                "Rate": -1,
+                "Number": 1,
+                "Info": "1 x Rương Tiểu Du Long Danh Vọng Lệnh (lựa chọn)",
+                "IsPreview": true
+            },
+            {
+                "ItemID": 20529,
+                "Number": 100,
+                "Rate": -1,
+                "Info": "100 x Rương mảnh trang bị đồng hành (cao cấp)",
+                "IsPreview": true
+            },
+            {
+                "ItemID": 20891,
+                "Rate": -1,
+                "Number": 1,
+                "Info": "1 x Rương Ngoại Trang Long Lân Y (30 ngày)",
+                "IsPreview": true
+            }
+        ],
+        "_comment": ""
+    },
+    {
+        "IDBox": 200506,
+        "BoxName": "Rương Thiên Tầng Tháp - Tầng 7",
+        "Items": [
+            {
+                "ItemID": 20571,
+                "Number": 1,
+                "Rate": -1,
+                "Info": "1 x Rương Tiểu Du Long Danh Vọng Lệnh (lựa chọn)",
+                "IsPreview": true
+            },
+            {
+                "ItemID": 506,
+                "Rate": -1,
+                "Number": 5000,
+                "Info": "5000 x Ngũ Hành Hồn Thạch",
+                "IsPreview": true
+            },
+            {
+                "ItemID": 20892,
+                "Rate": -1,
+                "Number": 1,
+                "Info": "1 x  Rương Ngoại Trang Long Lân Mão (30 ngày)",
+                "IsPreview": true
+            }
+        ]
+    },
+    {
+        "IDBox": 200538,
+        "BoxName": "Rương Thiên Tầng Tháp - Tầng 8",
+        "Items": [
+            {
+                "ItemID": 20748,
+                "Number": 1,
+                "Rate": -1,
+                "Info": "1 x Rương Du Long Danh Vọng Lệnh (lựa chọn)",
+                "IsPreview": true
+            },
+            {
+                "ItemID": 20344,
+                "Number": 500,
+                "Rate": -1,
+                "Info": "500 x Cờ chiến công",
+                "IsPreview": true
+            },
+            {
+                "ItemID": 506,
+                "Rate": -1,
+                "Number": 5000,
+                "Info": "5000 x Ngũ Hành Hồn Thạch",
+                "IsPreview": true
+            }
+        ]
+    }
+]

@@ -1,0 +1,10 @@
+{
+    "mapCode": 1,
+    "betDuration": 900,
+    "reward100win": 20321,
+    "reward100lose": 20322,
+    "reward1000win": 20323,
+    "reward1000lose": 20324,
+    "reward50vwin": 20325,
+    "reward50vlose": 20326
+}

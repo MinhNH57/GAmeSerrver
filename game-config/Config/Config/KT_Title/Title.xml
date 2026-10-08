@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+	HỆ THỐNG DANH HIỆU CỦA GAME
+	- ID: ID danh hiệu
+	- Text: Tên danh hiệu
+	- Description: Mô tả danh hiệu
+	- Duration: Thời gian tồn tại (đơn vị giờ, -1 nếu vĩnh viễn)
+-->
+<Titles xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<Title ID="0" Text="Tân Thủ Kiếm Vương 1 ADNX Mobile" Description="Danh hiệu Vĩnh viễn" Duration="-1" />
+	<Title ID="1" Text="Tân Thủ Kiếm Vương 1 ADNX Mobile" Description="Danh hiệu Có thời hạn" Duration="1" />
+
+	<Title ID="100" Text="Tân nhân vương - Thiếu Lâm"
+		Description="Danh hiệu dành cho quán quân vô địch đấu trường thi đấu môn phái Thiếu Lâm. Có hiệu lực trong vòng 1 tuần." Duration="168" />
+	<Title ID="101" Text="Tân nhân vương - Thiên Vương"
+		Description="Danh hiệu dành cho quán quân vô địch đấu trường thi đấu môn phái Thiên Vương. Có hiệu lực trong vòng 1 tuần." Duration="168" />
+	<Title ID="102" Text="Tân nhân vương - Cái Bang"
+		Description="Danh hiệu dành cho quán quân vô địch đấu trường thi đấu môn phái Cái Bang. Có hiệu lực trong vòng 1 tuần." Duration="168" />
+	<Title ID="103" Text="Tân nhân vương - Thiên Nhẫn"
+		Description="Danh hiệu dành cho quán quân vô địch đấu trường thi đấu môn phái Thiên Nhẫn. Có hiệu lực trong vòng 1 tuần." Duration="168" />
+	<Title ID="104" Text="Tân nhân vương - Nga My"
+		Description="Danh hiệu dành cho quán quân vô địch đấu trường thi đấu môn phái Nga My. Có hiệu lực trong vòng 1 tuần." Duration="168" />
+	<Title ID="105" Text="Tân nhân vương - Thúy Yên"
+		Description="Danh hiệu dành cho quán quân vô địch đấu trường thi đấu môn phái Thúy Yên. Có hiệu lực trong vòng 1 tuần." Duration="168" />
+	<Title ID="106" Text="Tân nhân vương - Đoàn Thị"
+		Description="Danh hiệu dành cho quán quân vô địch đấu trường thi đấu môn phái Đại Lý Đoàn Thị. Có hiệu lực trong vòng 1 tuần." Duration="168" />
+	<Title ID="107" Text="Tân nhân vương - Võ Đang"
+		Description="Danh hiệu dành cho quán quân vô địch đấu trường thi đấu môn phái Võ Đang. Có hiệu lực trong vòng 1 tuần." Duration="168" />
+	<Title ID="108" Text="Tân nhân vương - Côn Lôn"
+		Description="Danh hiệu dành cho quán quân vô địch đấu trường thi đấu môn phái Côn Lôn. Có hiệu lực trong vòng 1 tuần." Duration="168" />
+	<Title ID="109" Text="Tân nhân vương - Ngũ Độc"
+		Description="Danh hiệu dành cho quán quân vô địch đấu trường thi đấu môn phái Ngũ Độc. Có hiệu lực trong vòng 1 tuần." Duration="168" />
+	<Title ID="110" Text="Tân nhân vương - Đường Môn"
+		Description="Danh hiệu dành cho quán quân vô địch đấu trường thi đấu môn phái Đường Môn. Có hiệu lực trong vòng 1 tuần." Duration="168" />
+	<Title ID="111" Text="Tân nhân vương - Minh Giáo"
+		Description="Danh hiệu dành cho quán quân vô địch đấu trường thi đấu môn phái Minh Giáo. Có hiệu lực trong vòng 1 tuần." Duration="168" />
+	<Title ID="112" Text="Nhất Đẳng Vương Gia" Description="Danh hiệu dành cho Top Tài Phú." Duration="-1" Animated="true"
+		Bundle="animated_effects.unity3d" AnimatedObject="nhatdangvuonggia" />
+	<Title ID="113" Text="Phú Nhị Đại Gia" Description="Danh hiệu dành cho Top 2 Tài Phú." Duration="-1" Animated="true"
+		Bundle="animated_effects.unity3d" AnimatedObject="phunhidaigia" />
+	<Title ID="114" Text="Phú Hào Kiếm Vương" Description="Danh hiệu dành cho Top 3 Tài Phú." Duration="-1" Animated="true"
+		Bundle="animated_effects.unity3d" AnimatedObject="phuhaokiemvuong" />
+
+	<Title ID="115" Text="Sứ Giả Mùa Hè"
+		Description="Danh hiệu dành cho người chơi hoạt động tích cực trong Sự kiện Giải Nhiệt Mùa Hè. Có hiệu lực trong vòng 30 ngày." Duration="720"
+		Animated="true" Bundle="animated_effects.unity3d" AnimatedObject="sugiamuahe" />
+	<Title ID="116" Text="Sứ Giả Mùa Hè" Description="Danh hiệu dành cho người chơi hoạt động tích cực trong Sự kiện Giải Nhiệt Mùa Hè." Duration="-1"
+		Animated="true" Bundle="animated_effects.unity3d" AnimatedObject="sugiamuahe" />
+
+	<Title ID="117" Text="Chiến Thần" Description="Danh hiệu dành cho quán quân vô địch giải đấu. Có hiệu lực trong vòng 1 tháng." Duration="720"
+		Animated="true" Bundle="animated_effects.unity3d" AnimatedObject="chienthan" />
+
+	<Title ID="118" Text="Ngưu Lang"
+		Description="Danh hiệu dành cho người chơi hoạt động tích cực trong Sự kiện Đậu đỏ Kết Duyên. Có hiệu lực trong vòng 30 ngày." Duration="720"
+		Animated="true" Bundle="animated_effects.unity3d" AnimatedObject="nguulang" />
+
+	<Title ID="119" Text="Ngưu Lang" Description="Danh hiệu dành cho người chơi hoạt động tích cực trong Sự kiện Đậu đỏ Kết Duyên." Duration="-1"
+		Animated="true" Bundle="animated_effects.unity3d" AnimatedObject="nguulang" />
+
+	<Title ID="120" Text="Chức Nữ"
+		Description="Danh hiệu dành cho người chơi hoạt động tích cực trong Sự kiện Đậu đỏ Kết Duyên. Có hiệu lực trong vòng 30 ngày." Duration="720"
+		Animated="true" Bundle="animated_effects.unity3d" AnimatedObject="chucnu" />
+
+	<Title ID="121" Text="Chức Nữ" Description="Danh hiệu dành cho người chơi hoạt động tích cực trong Sự kiện Đậu đỏ Kết Duyên." Duration="-1"
+		Animated="true" Bundle="animated_effects.unity3d" AnimatedObject="chucnu" />
+
+	<Title ID="122" Text="Ngưu Lang"
+		Description="Danh hiệu dành cho người chơi hoạt động tích cực trong Sự kiện Đậu đỏ Kết Duyên. Có hiệu lực trong vòng 7 ngày." Duration="168"
+		Animated="true" Bundle="animated_effects.unity3d" AnimatedObject="nguulang" />
+
+	<Title ID="123" Text="Chức Nữ"
+		Description="Danh hiệu dành cho người chơi hoạt động tích cực trong Sự kiện Đậu đỏ Kết Duyên. Có hiệu lực trong vòng 7 ngày." Duration="168"
+		Animated="true" Bundle="animated_effects.unity3d" AnimatedObject="chucnu">
+	</Title>
+
+	<Title ID="124" Text="Chú Cuội"
+	Description="Danh hiệu dành cho người chơi hoạt động tích cực trong Sự kiện Phá cỗ Trung thu. Có hiệu lực trong vòng 7 ngày." Duration="168"
+	Animated="true" Bundle="animated_effects.unity3d" AnimatedObject="chucuoi" />
+
+	<Title ID="125" Text="Chị Hằng"
+		Description="Danh hiệu dành cho người chơi hoạt động tích cực trong Sự kiện Phá cỗ Trung thu. Có hiệu lực trong vòng 7 ngày." Duration="168"
+		Animated="true" Bundle="animated_effects.unity3d" AnimatedObject="chihang">
+	</Title>
+
+	<Title ID="126" Text="Minh Chủ Võ Lâm"
+		Description="Danh hiệu dành cho bang chủ bang hội vô địch sự kiện Bang Hội Vô Song. Có hiệu lực trong vòng 30 ngày." Duration="720"
+		Animated="true" Bundle="animated_effects.unity3d" AnimatedObject="minhchuvolam">
+	</Title>
+
+	<Title ID="127" Text="Vô Song Đệ Nhất Bang"
+		Description="Danh hiệu dành cho bang hội vô địch sự kiện Bang Hội Vô Song. Có hiệu lực trong vòng 30 ngày." Duration="720"
+		Animated="true" Bundle="animated_effects.unity3d" AnimatedObject="vosongdenhatbang">
+	</Title>
+
+	<Title ID="128" Text="Danh hiệu Anh Hùng Hội Tụ"
+		Description="Danh hiệu dành cho sự kiện offline. Có hiệu lực trong vòng 14 ngày." Duration="336"
+		Animated="true" Bundle="animated_effects.unity3d" AnimatedObject="vosongdenhatbang">
+	</Title>
+
+	<Title ID="999" Text="Admin"
+		Description="Danh hiệu dành cho Admin" Duration="-1">
+		<Magic Name="fastwalkrun_v" Value0="100" Value1="0" Value2="0"/>
+	</Title>
+</Titles>

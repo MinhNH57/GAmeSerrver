@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TangBaoDo xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+<!--Danh sách rate phần thưởng sau khi đào xong-->
+  <Item>
+    <RollAwardItem ItemID="0" Number="1000000" Rate="-1" />
+    <RollAwardItem ItemID="-100" Number="0" Rate="50" />
+    <RollAwardItem ItemID="389" Number="1" Rate="40" />
+    <RollAwardItem ItemID="390" Number="1" Rate="10" />
+  </Item>
+<!--Danh sách Map Random sau khi đọc bản đồ-->
+<!--Rate là vùng random để lấy vị trí chính xác-->
+  <Map>
+    <MapInfo MapCode="33" PosX="7236" PosY="5798" RateX = "500" RateY = "500"/>
+    <MapInfo MapCode="40" PosX="3420" PosY="842" RateX = "500" RateY = "500"/>
+    <MapInfo MapCode="8" PosX="5258" PosY="2301" RateX = "500" RateY = "500"/>
+    <MapInfo MapCode="43" PosX="3456" PosY="1060" RateX = "500" RateY = "500"/>
+    <MapInfo MapCode="23" PosX="5928" PosY="3021" RateX = "500" RateY = "500"/>
+    <MapInfo MapCode="25" PosX="10839" PosY="5594" RateX = "500" RateY = "500"/>
+    <MapInfo MapCode="40" PosX="6045" PosY="1781" RateX = "500" RateY = "500"/>
+  </Map>
+</TangBaoDo>

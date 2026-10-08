@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ListIpSv xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<WebApi svId="1" IP="10.47.195.144:30864" />
+	<WebApi svId="2" IP="10.47.195.145:30685" />
+	<WebApi svId="3" IP="10.47.195.146:29780" />
+	<WebApi svId="4" IP="10.47.195.166:41231" />
+	<WebApi svId="5" IP="10.47.195.167:23453" />
+	<WebApi svId="6" IP="10.47.195.168:41231" />
+	<WebApi svId="7" IP="10.47.195.169:56753" />
+</ListIpSv>

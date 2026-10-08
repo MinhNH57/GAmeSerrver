@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ExchangeTicket>
+  <Exchange TimeKey="SlotMachine_ExchangeTicket" Name="Chuyển xu nhận vé ngũ phúc" RateKNB="100" ItemID="20765" ItemCount="1" Message="Mỗi 100KNB người chơi chuyển vào nhân vật, bằng hữu sẽ nhận được 01 Vé Ngũ Phúc miễn phí"/>
+  <Exchange TimeKey="BaoThach_ExchangeTicket" Name="Chuyển xu nhận bảo thạch thô" RateKNB="500" ItemID="14249" ItemCount="1" Message="Mỗi 500KNB người chơi chuyển vào nhân vật, bằng hữu sẽ nhận được 01 bảo thạch thô miễn phí"/>
+</ExchangeTicket>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfItemData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">  
+    <ItemData ItemID="25135" Name="Nhẫn Đồng Hành - Bích Huyết" IconBundleDir="Icon/EquipIcon2.unity3d" IconAtlasName="EquipIcon2" MapSpriteBundleDir="Resources/Item/MapSprite.unity3d" MapSpriteAtlasName="MapSprite" Kind="黄金_土系戒指_vn" QualityPrefix="7" Category="1" Genre="2" Stack="1" DetailType="28" ParticularType="280" Level="7" SuiteID="0" Icon="nhan_dh" View="nhan_dh" Intro="" Help="" ObjID="29" BindType="1" Series="2" ReqLevel="0" CDType="0" Price="240000" ItemValue="10000000" MakeCost="-1" ResMale="-1" ResFemale="-1" FightPower="16" ScriptID="-1" DeductOnUse="false" BuffID="-1">
+    <ListBasicProp BasicPropType="addphysicsdamage_p" BasicPropPA1Min="100" BasicPropPA1Max="100" BasicPropPA2Min="-1" BasicPropPA2Max="-1" BasicPropPA3Min="0" BasicPropPA3Max="0" Index="1" />
+    <ListBasicProp BasicPropType="addphysicsmagic_p" BasicPropPA1Min="100" BasicPropPA1Max="100" BasicPropPA2Min="-1" BasicPropPA2Max="-1" BasicPropPA3Min="0" BasicPropPA3Max="0" Index="2" />
+    <ListBasicProp BasicPropType="manareplenish_p" BasicPropPA1Min="11" BasicPropPA1Max="11" BasicPropPA2Min="-1" BasicPropPA2Max="-1" BasicPropPA3Min="0" BasicPropPA3Max="0" Index="3" />
+    <ListBasicProp BasicPropType="allseriesstateresistrate" BasicPropPA1Min="50" BasicPropPA1Max="50" BasicPropPA2Min="-1" BasicPropPA2Max="-1" BasicPropPA3Min="0" BasicPropPA3Max="0" Index="4" />
+    <UnLockInterval>-1</UnLockInterval>
+  </ItemData>
+      <ItemData ItemID="25136" Name="Nhẫn Đồng Hành - Kim Lân" IconBundleDir="Icon/EquipIcon2.unity3d" IconAtlasName="EquipIcon2" MapSpriteBundleDir="Resources/Item/MapSprite.unity3d" MapSpriteAtlasName="MapSprite" Kind="黄金_土系戒指_vn" QualityPrefix="7" Category="1" Genre="2" Stack="1" DetailType="28" ParticularType="280" Level="8" SuiteID="0" Icon="nhan_dontam" View="nhan_dh" Intro="" Help="" ObjID="29" BindType="1" Series="2" ReqLevel="0" CDType="0" Price="240000" ItemValue="20000000" MakeCost="-1" ResMale="-1" ResFemale="-1" FightPower="16" ScriptID="-1" DeductOnUse="false" BuffID="-1">
+    <ListBasicProp BasicPropType="addphysicsdamage_p" BasicPropPA1Min="150" BasicPropPA1Max="150" BasicPropPA2Min="-1" BasicPropPA2Max="-1" BasicPropPA3Min="0" BasicPropPA3Max="0" Index="1" />
+    <ListBasicProp BasicPropType="addphysicsmagic_p" BasicPropPA1Min="150" BasicPropPA1Max="150" BasicPropPA2Min="-1" BasicPropPA2Max="-1" BasicPropPA3Min="0" BasicPropPA3Max="0" Index="2" />
+    <ListBasicProp BasicPropType="manareplenish_p" BasicPropPA1Min="13" BasicPropPA1Max="13" BasicPropPA2Min="-1" BasicPropPA2Max="-1" BasicPropPA3Min="0" BasicPropPA3Max="0" Index="3" />
+    <ListBasicProp BasicPropType="allseriesstateresistrate" BasicPropPA1Min="75" BasicPropPA1Max="75" BasicPropPA2Min="-1" BasicPropPA2Max="-1" BasicPropPA3Min="0" BasicPropPA3Max="0" Index="4" />
+    <UnLockInterval>-1</UnLockInterval>
+  </ItemData>
+      <ItemData ItemID="25137" Name="Nhẫn Đồng Hành - Đơn Tâm" IconBundleDir="Icon/EquipIcon2.unity3d" IconAtlasName="EquipIcon2" MapSpriteBundleDir="Resources/Item/MapSprite.unity3d" MapSpriteAtlasName="MapSprite" Kind="黄金_土系戒指_vn" QualityPrefix="7" Category="1" Genre="2" Stack="1" DetailType="28" ParticularType="280" Level="9" SuiteID="0" Icon="nhan_kimlan" View="nhan_dh" Intro="" Help="" ObjID="29" BindType="1" Series="2" ReqLevel="0" CDType="0" Price="240000" ItemValue="30000000" MakeCost="-1" ResMale="-1" ResFemale="-1" FightPower="16" ScriptID="-1" DeductOnUse="false" BuffID="-1">
+    <ListBasicProp BasicPropType="addphysicsdamage_p" BasicPropPA1Min="200" BasicPropPA1Max="200" BasicPropPA2Min="-1" BasicPropPA2Max="-1" BasicPropPA3Min="0" BasicPropPA3Max="0" Index="1" />
+    <ListBasicProp BasicPropType="addphysicsmagic_p" BasicPropPA1Min="200" BasicPropPA1Max="200" BasicPropPA2Min="-1" BasicPropPA2Max="-1" BasicPropPA3Min="0" BasicPropPA3Max="0" Index="2" />
+    <ListBasicProp BasicPropType="manareplenish_p" BasicPropPA1Min="16" BasicPropPA1Max="16" BasicPropPA2Min="-1" BasicPropPA2Max="-1" BasicPropPA3Min="0" BasicPropPA3Max="0" Index="3" />
+    <ListBasicProp BasicPropType="allseriesstateresistrate" BasicPropPA1Min="100" BasicPropPA1Max="100" BasicPropPA2Min="-1" BasicPropPA2Max="-1" BasicPropPA3Min="0" BasicPropPA3Max="0" Index="4" />
+    <UnLockInterval>-1</UnLockInterval>
+  </ItemData>
+      <ItemData ItemID="25138" Name="Nhẫn Đồng Hành - Long Đằng" IconBundleDir="Icon/EquipIcon2.unity3d" IconAtlasName="EquipIcon2" MapSpriteBundleDir="Resources/Item/MapSprite.unity3d" MapSpriteAtlasName="MapSprite" Kind="黄金_土系戒指_vn" QualityPrefix="7" Category="1" Genre="2" Stack="1" DetailType="28" ParticularType="280" Level="10" SuiteID="0" Icon="nhan_longdang" View="nhan_dh" Intro="" Help="" ObjID="29" BindType="1" Series="2" ReqLevel="0" CDType="0" Price="240000" ItemValue="40000000" MakeCost="-1" ResMale="-1" ResFemale="-1" FightPower="16" ScriptID="-1" DeductOnUse="false" BuffID="-1">
+    <ListBasicProp BasicPropType="addphysicsdamage_p" BasicPropPA1Min="250" BasicPropPA1Max="250" BasicPropPA2Min="-1" BasicPropPA2Max="-1" BasicPropPA3Min="0" BasicPropPA3Max="0" Index="1" />
+    <ListBasicProp BasicPropType="addphysicsmagic_p" BasicPropPA1Min="250" BasicPropPA1Max="250" BasicPropPA2Min="-1" BasicPropPA2Max="-1" BasicPropPA3Min="0" BasicPropPA3Max="0" Index="2" />
+    <ListBasicProp BasicPropType="manareplenish_p" BasicPropPA1Min="19" BasicPropPA1Max="19" BasicPropPA2Min="-1" BasicPropPA2Max="-1" BasicPropPA3Min="0" BasicPropPA3Max="0" Index="3" />
+    <ListBasicProp BasicPropType="allseriesstateresistrate" BasicPropPA1Min="125" BasicPropPA1Max="125" BasicPropPA2Min="-1" BasicPropPA2Max="-1" BasicPropPA3Min="0" BasicPropPA3Max="0" Index="4" />
+    <UnLockInterval>-1</UnLockInterval>
+  </ItemData>
+</ArrayOfItemData>

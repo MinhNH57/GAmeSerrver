@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<NewbieGiftcode TimeKey="NewbieGiftcode">
+    <Giftcode Name="KV1ADNXTANTHU">
+        <Item ID="189" Count="2" />
+        <Item ID="348" Count="2" />
+        <Item ID="351" Count="2" />
+        <Item ID="20547" Count="1" />
+        <Item ID="15013" Count="1" />
+    </Giftcode>
+
+    <Giftcode Name="VIP888">
+        <Item ID="15001" Count="1" />
+        <Item ID="15000" Count="100" />
+        <Item ID="590" Count="3" />
+        <Item ID="600" Count="10" />
+    </Giftcode>
+
+    <Giftcode Name="KV1ADNX8386">
+        <Item ID="393" Count="3" />
+        <Item ID="506" Count="500" />
+        <Item ID="15722" Count="1" />
+        <Item ID="15723" Count="1" />
+    </Giftcode>
+
+    <Giftcode Name="LIXIFF5">
+        <Item ID="25308" Count="1" />
+    </Giftcode>
+
+    <URL_Fanpage URL="https://www.facebook.com/kiemvuong1adnxmobile"/>
+    <URL_HoiQuan URL="https://www.facebook.com/groups/405442305000038"/>
+    <URL_Zalo URL="https://zalo.me/g/fjzwqg790"/>
+    <URL_Giftcode URL="https://id.adnx.vn/member/giftcode"/>
+</NewbieGiftcode>

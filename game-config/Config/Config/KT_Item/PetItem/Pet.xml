@@ -1,0 +1,964 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfItemData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <ItemData ItemID="25183" Name="Đông Phương Nhược Hàn" IconBundleDir="Icon/PetImage.unity3d" IconAtlasName="EquipIcon2"
+    MapSpriteBundleDir="Resources/Item/MapSprite.unity3d" MapSpriteAtlasName="MapSprite" Kind="Mật tịch Khí Đoàn Thị (cao)" QualityPrefix="0"
+    Category="1" Genre="1" Stack="1" DetailType="20" ParticularType="24" Level="3" SuiteID="0" Icon="icon_dh" View="icon_dh_s" Intro="" Help=""
+    ObjID="33" BindType="1" Series="0" ReqLevel="0" CDType="0" Price="0" ItemValue="100000" MakeCost="-1" ResMale="-1" ResFemale="-1" FightPower="3"
+    ScriptID="-1" DeductOnUse="false" BuffID="-1">
+    <PetAttr TotalAttr="12000" NumberSkill="-1" MaxLevel="120" LVSkill="5" Type="1" />
+    <UnLockInterval>-1</UnLockInterval>
+  </ItemData>
+  <ItemData ItemID="25184" Name="Yến Tiểu Lâu" IconBundleDir="Icon/EquipIcon2.unity3d" IconAtlasName="EquipIcon2"
+    MapSpriteBundleDir="Resources/Item/MapSprite.unity3d" MapSpriteAtlasName="MapSprite" Kind="Đồng hành" QualityPrefix="0" Category="1" Genre="1"
+    Stack="1" DetailType="20" ParticularType="24" Level="10" SuiteID="0" Icon="manhdonghanh" View="icon_dh_s" Intro="Đồng hành 7 kỹ năng." Help="" ObjID="33" BindType="1"
+    Series="0" ReqLevel="0" CDType="0" Price="0" ItemValue="90000000" MakeCost="-1" ResMale="-1" ResFemale="-1" FightPower="3" ScriptID="-1"
+    DeductOnUse="false" BuffID="-1">
+    <PetAttr TotalAttr="12000" NumberSkill="7" MaxLevel="120" LVSkill="5" Type="2" />
+    <UnLockInterval>-1</UnLockInterval>
+  </ItemData>
+  <ItemData ItemID="25000" Name="Cường Tặc" IconBundleDir="Icon/PetImage.unity3d" IconAtlasName="EquipIcon2"
+    MapSpriteBundleDir="Resources/Item/MapSprite.unity3d" MapSpriteAtlasName="MapSprite" Kind="Mật tịch Khí Đoàn Thị (cao)" QualityPrefix="0"
+    Category="1" Genre="1" Stack="1" DetailType="20" ParticularType="24" Level="3" SuiteID="0" Icon="icon_dh" View="icon_dh_s" Intro="" Help=""
+    ObjID="33" BindType="1" Series="0" ReqLevel="0" CDType="0" Price="0" ItemValue="100000" MakeCost="-1" ResMale="-1" ResFemale="-1" FightPower="3"
+    ScriptID="-1" DeductOnUse="false" BuffID="-1">
+    <PetAttr TotalAttr="12000" NumberSkill="-1" MaxLevel="120" LVSkill="5" Type="1" />
+    <UnLockInterval>-1</UnLockInterval>
+  </ItemData>
+  <ItemData ItemID="25001" Name="Nghĩa Quân Phản Đồ" IconBundleDir="Icon/PetImage.unity3d" IconAtlasName="EquipIcon2"
+    MapSpriteBundleDir="Resources/Item/MapSprite.unity3d" MapSpriteAtlasName="MapSprite" Kind="Đồng hành" QualityPrefix="0" Category="1" Genre="1"
+    Stack="1" DetailType="20" ParticularType="24" Level="3" SuiteID="0" Icon="icon_dh" View="icon_dh_s" Intro="" Help="" ObjID="33" BindType="1"
+    Series="0" ReqLevel="0" CDType="0" Price="0" ItemValue="100000" MakeCost="-1" ResMale="-1" ResFemale="-1" FightPower="3" ScriptID="-1"
+    DeductOnUse="false" BuffID="-1">
+    <PetAttr TotalAttr="12000" NumberSkill="-1" MaxLevel="120" LVSkill="5" Type="1" />
+    <UnLockInterval>-1</UnLockInterval>
+  </ItemData>
+  <ItemData ItemID="25002" Name="Bạch linh" IconBundleDir="Icon/PetImage.unity3d" IconAtlasName="EquipIcon2"
+    MapSpriteBundleDir="Resources/Item/MapSprite.unity3d" MapSpriteAtlasName="MapSprite" Kind="Đồng hành" QualityPrefix="0" Category="1" Genre="1"
+    Stack="1" DetailType="20" ParticularType="24" Level="3" SuiteID="0" Icon="icon_dh" View="icon_dh_s" Intro="" Help="" ObjID="33" BindType="1"
+    Series="0" ReqLevel="0" CDType="0" Price="0" ItemValue="100000" MakeCost="-1" ResMale="-1" ResFemale="-1" FightPower="3" ScriptID="-1"
+    DeductOnUse="false" BuffID="-1">
+    <PetAttr TotalAttr="12000" NumberSkill="-1" MaxLevel="120" LVSkill="5" Type="1" />
+    <UnLockInterval>-1</UnLockInterval>
+  </ItemData>
+  <ItemData ItemID="25003" Name="Hắc Long" IconBundleDir="Icon/PetImage.unity3d" IconAtlasName="EquipIcon2"
+    MapSpriteBundleDir="Resources/Item/MapSprite.unity3d" MapSpriteAtlasName="MapSprite" Kind="Đồng hành" QualityPrefix="0" Category="1" Genre="1"
+    Stack="1" DetailType="20" ParticularType="24" Level="3" SuiteID="0" Icon="icon_dh" View="icon_dh_s" Intro="" Help="" ObjID="33" BindType="1"
+    Series="0" ReqLevel="0" CDType="0" Price="0" ItemValue="100000" MakeCost="-1" ResMale="-1" ResFemale="-1" FightPower="3" ScriptID="-1"
+    DeductOnUse="false" BuffID="-1">
+    <PetAttr TotalAttr="12000" NumberSkill="-1" MaxLevel="120" LVSkill="5" Type="1" />
+    <UnLockInterval>-1</UnLockInterval>
+  </ItemData>
+  <ItemData ItemID="25004" Name="Hành thương kim quốc" IconBundleDir="Icon/PetImage.unity3d" IconAtlasName="EquipIcon2"
+    MapSpriteBundleDir="Resources/Item/MapSprite.unity3d" MapSpriteAtlasName="MapSprite" Kind="Đồng hành" QualityPrefix="0" Category="1" Genre="1"
+    Stack="1" DetailType="20" ParticularType="24" Level="3" SuiteID="0" Icon="icon_dh" View="icon_dh_s" Intro="" Help="" ObjID="33" BindType="1"
+    Series="0" ReqLevel="0" CDType="0" Price="0" ItemValue="100000" MakeCost="-1" ResMale="-1" ResFemale="-1" FightPower="3" ScriptID="-1"
+    DeductOnUse="false" BuffID="-1">
+    <PetAttr TotalAttr="12000" NumberSkill="-1" MaxLevel="120" LVSkill="5" Type="1" />
+    <UnLockInterval>-1</UnLockInterval>
+  </ItemData>
+  <ItemData ItemID="25005" Name="Khổ tu ni" IconBundleDir="Icon/PetImage.unity3d" IconAtlasName="EquipIcon2"
+    MapSpriteBundleDir="Resources/Item/MapSprite.unity3d" MapSpriteAtlasName="MapSprite" Kind="Đồng hành" QualityPrefix="0" Category="1" Genre="1"
+    Stack="1" DetailType="20" ParticularType="24" Level="3" SuiteID="0" Icon="icon_dh" View="icon_dh_s" Intro="" Help="" ObjID="33" BindType="1"
+    Series="0" ReqLevel="0" CDType="0" Price="0" ItemValue="100000" MakeCost="-1" ResMale="-1" ResFemale="-1" FightPower="3" ScriptID="-1"
+    DeductOnUse="false" BuffID="-1">
+    <PetAttr TotalAttr="12000" NumberSkill="-1" MaxLevel="120" LVSkill="5" Type="1" />
+    <UnLockInterval>-1</UnLockInterval>
+  </ItemData>
+  <ItemData ItemID="25006" Name="Hành cước thương nhân" IconBundleDir="Icon/PetImage.unity3d" IconAtlasName="EquipIcon2"
+    MapSpriteBundleDir="Resources/Item/MapSprite.unity3d" MapSpriteAtlasName="MapSprite" Kind="Đồng hành" QualityPrefix="0" Category="1" Genre="1"
+    Stack="1" DetailType="20" ParticularType="24" Level="3" SuiteID="0" Icon="icon_dh" View="icon_dh_s" Intro="" Help="" ObjID="33" BindType="1"
+    Series="0" ReqLevel="0" CDType="0" Price="0" ItemValue="100000" MakeCost="-1" ResMale="-1" ResFemale="-1" FightPower="3" ScriptID="-1"
+    DeductOnUse="false" BuffID="-1">
+    <PetAttr TotalAttr="12000" NumberSkill="-1" MaxLevel="120" LVSkill="5" Type="1" />
+    <UnLockInterval>-1</UnLockInterval>
+  </ItemData>
+  <ItemData ItemID="25007" Name="Tùy tùng đại nội" IconBundleDir="Icon/PetImage.unity3d" IconAtlasName="EquipIcon2"
+    MapSpriteBundleDir="Resources/Item/MapSprite.unity3d" MapSpriteAtlasName="MapSprite" Kind="Đồng hành" QualityPrefix="0" Category="1" Genre="1"
+    Stack="1" DetailType="20" ParticularType="24" Level="3" SuiteID="0" Icon="icon_dh" View="icon_dh_s" Intro="" Help="" ObjID="33" BindType="1"
+    Series="0" ReqLevel="0" CDType="0" Price="0" ItemValue="100000" MakeCost="-1" ResMale="-1" ResFemale="-1" FightPower="3" ScriptID="-1"
+    DeductOnUse="false" BuffID="-1">
+    <PetAttr TotalAttr="12000" NumberSkill="-1" MaxLevel="120" LVSkill="5" Type="1" />
+    <UnLockInterval>-1</UnLockInterval>
+  </ItemData>
+  <ItemData ItemID="25008" Name="Bang chúng diêm bang" IconBundleDir="Icon/PetImage.unity3d" IconAtlasName="EquipIcon2"
+    MapSpriteBundleDir="Resources/Item/MapSprite.unity3d" MapSpriteAtlasName="MapSprite" Kind="Đồng hành" QualityPrefix="0" Category="1" Genre="1"
+    Stack="1" DetailType="20" ParticularType="24" Level="3" SuiteID="0" Icon="icon_dh" View="icon_dh_s" Intro="" Help="" ObjID="33" BindType="1"
+    Series="0" ReqLevel="0" CDType="0" Price="0" ItemValue="100000" MakeCost="-1" ResMale="-1" ResFemale="-1" FightPower="3" ScriptID="-1"
+    DeductOnUse="false" BuffID="-1">
+    <PetAttr TotalAttr="12000" NumberSkill="-1" MaxLevel="120" LVSkill="5" Type="1" />
+    <UnLockInterval>-1</UnLockInterval>
+  </ItemData>
+  <ItemData ItemID="25009" Name="Đao khách nam man" IconBundleDir="Icon/PetImage.unity3d" IconAtlasName="EquipIcon2"
+    MapSpriteBundleDir="Resources/Item/MapSprite.unity3d" MapSpriteAtlasName="MapSprite" Kind="Đồng hành" QualityPrefix="0" Category="1" Genre="1"
+    Stack="1" DetailType="20" ParticularType="24" Level="3" SuiteID="0" Icon="icon_dh" View="icon_dh_s" Intro="" Help="" ObjID="33" BindType="1"
+    Series="0" ReqLevel="0" CDType="0" Price="0" ItemValue="100000" MakeCost="-1" ResMale="-1" ResFemale="-1" FightPower="3" ScriptID="-1"
+    DeductOnUse="false" BuffID="-1">
+    <PetAttr TotalAttr="12000" NumberSkill="-1" MaxLevel="120" LVSkill="5" Type="1" />
+    <UnLockInterval>-1</UnLockInterval>
+  </ItemData>
+  <ItemData ItemID="25010" Name="Thợ săn nam man" IconBundleDir="Icon/PetImage.unity3d" IconAtlasName="EquipIcon2"
+    MapSpriteBundleDir="Resources/Item/MapSprite.unity3d" MapSpriteAtlasName="MapSprite" Kind="Đồng hành" QualityPrefix="0" Category="1" Genre="1"
+    Stack="1" DetailType="20" ParticularType="24" Level="3" SuiteID="0" Icon="icon_dh" View="icon_dh_s" Intro="" Help="" ObjID="33" BindType="1"
+    Series="0" ReqLevel="0" CDType="0" Price="0" ItemValue="100000" MakeCost="-1" ResMale="-1" ResFemale="-1" FightPower="3" ScriptID="-1"
+    DeductOnUse="false" BuffID="-1">
+    <PetAttr TotalAttr="12000" NumberSkill="-1" MaxLevel="120" LVSkill="5" Type="1" />
+    <UnLockInterval>-1</UnLockInterval>
+  </ItemData>
+  <ItemData ItemID="25011" Name="Cường đạo" IconBundleDir="Icon/PetImage.unity3d" IconAtlasName="EquipIcon2"
+    MapSpriteBundleDir="Resources/Item/MapSprite.unity3d" MapSpriteAtlasName="MapSprite" Kind="Đồng hành" QualityPrefix="0" Category="1" Genre="1"
+    Stack="1" DetailType="20" ParticularType="24" Level="3" SuiteID="0" Icon="icon_dh" View="icon_dh_s" Intro="" Help="" ObjID="33" BindType="1"
+    Series="0" ReqLevel="0" CDType="0" Price="0" ItemValue="100000" MakeCost="-1" ResMale="-1" ResFemale="-1" FightPower="3" ScriptID="-1"
+    DeductOnUse="false" BuffID="-1">
+    <PetAttr TotalAttr="12000" NumberSkill="-1" MaxLevel="120" LVSkill="5" Type="1" />
+    <UnLockInterval>-1</UnLockInterval>
+  </ItemData>
+  <ItemData ItemID="25012" Name="Ẩn sĩ sơn lâm" IconBundleDir="Icon/PetImage.unity3d" IconAtlasName="EquipIcon2"
+    MapSpriteBundleDir="Resources/Item/MapSprite.unity3d" MapSpriteAtlasName="MapSprite" Kind="Đồng hành" QualityPrefix="0" Category="1" Genre="1"
+    Stack="1" DetailType="20" ParticularType="24" Level="3" SuiteID="0" Icon="icon_dh" View="icon_dh_s" Intro="" Help="" ObjID="33" BindType="1"
+    Series="0" ReqLevel="0" CDType="0" Price="0" ItemValue="100000" MakeCost="-1" ResMale="-1" ResFemale="-1" FightPower="3" ScriptID="-1"
+    DeductOnUse="false" BuffID="-1">
+    <PetAttr TotalAttr="12000" NumberSkill="-1" MaxLevel="120" LVSkill="5" Type="1" />
+    <UnLockInterval>-1</UnLockInterval>
+  </ItemData>
+  <ItemData ItemID="25013" Name="Trú thủ thương sĩ" IconBundleDir="Icon/PetImage.unity3d" IconAtlasName="EquipIcon2"
+    MapSpriteBundleDir="Resources/Item/MapSprite.unity3d" MapSpriteAtlasName="MapSprite" Kind="Đồng hành" QualityPrefix="0" Category="1" Genre="1"
+    Stack="1" DetailType="20" ParticularType="24" Level="3" SuiteID="0" Icon="icon_dh" View="icon_dh_s" Intro="" Help="" ObjID="33" BindType="1"
+    Series="0" ReqLevel="0" CDType="0" Price="0" ItemValue="100000" MakeCost="-1" ResMale="-1" ResFemale="-1" FightPower="3" ScriptID="-1"
+    DeductOnUse="false" BuffID="-1">
+    <PetAttr TotalAttr="12000" NumberSkill="-1" MaxLevel="120" LVSkill="5" Type="1" />
+    <UnLockInterval>-1</UnLockInterval>
+  </ItemData>
+  <ItemData ItemID="25014" Name="Phạm giới tăng nhân" IconBundleDir="Icon/PetImage.unity3d" IconAtlasName="EquipIcon2"
+    MapSpriteBundleDir="Resources/Item/MapSprite.unity3d" MapSpriteAtlasName="MapSprite" Kind="Đồng hành" QualityPrefix="0" Category="1" Genre="1"
+    Stack="1" DetailType="20" ParticularType="24" Level="3" SuiteID="0" Icon="icon_dh" View="icon_dh_s" Intro="" Help="" ObjID="33" BindType="1"
+    Series="0" ReqLevel="0" CDType="0" Price="0" ItemValue="100000" MakeCost="-1" ResMale="-1" ResFemale="-1" FightPower="3" ScriptID="-1"
+    DeductOnUse="false" BuffID="-1">
+    <PetAttr TotalAttr="12000" NumberSkill="-1" MaxLevel="120" LVSkill="5" Type="1" />
+    <UnLockInterval>-1</UnLockInterval>
+  </ItemData>
+  <ItemData ItemID="25015" Name="Phạm giới đầu đà" IconBundleDir="Icon/PetImage.unity3d" IconAtlasName="EquipIcon2"
+    MapSpriteBundleDir="Resources/Item/MapSprite.unity3d" MapSpriteAtlasName="MapSprite" Kind="Đồng hành" QualityPrefix="0" Category="1" Genre="1"
+    Stack="1" DetailType="20" ParticularType="24" Level="3" SuiteID="0" Icon="icon_dh" View="icon_dh_s" Intro="" Help="" ObjID="33" BindType="1"
+    Series="0" ReqLevel="0" CDType="0" Price="0" ItemValue="100000" MakeCost="-1" ResMale="-1" ResFemale="-1" FightPower="3" ScriptID="-1"
+    DeductOnUse="false" BuffID="-1">
+    <PetAttr TotalAttr="12000" NumberSkill="-1" MaxLevel="120" LVSkill="5" Type="1" />
+    <UnLockInterval>-1</UnLockInterval>
+  </ItemData>
+  <ItemData ItemID="25016" Name="Thợ đào đất" IconBundleDir="Icon/PetImage.unity3d" IconAtlasName="EquipIcon2"
+    MapSpriteBundleDir="Resources/Item/MapSprite.unity3d" MapSpriteAtlasName="MapSprite" Kind="Đồng hành" QualityPrefix="0" Category="1" Genre="1"
+    Stack="1" DetailType="20" ParticularType="24" Level="3" SuiteID="0" Icon="icon_dh" View="icon_dh_s" Intro="" Help="" ObjID="33" BindType="1"
+    Series="0" ReqLevel="0" CDType="0" Price="0" ItemValue="100000" MakeCost="-1" ResMale="-1" ResFemale="-1" FightPower="3" ScriptID="-1"
+    DeductOnUse="false" BuffID="-1">
+    <PetAttr TotalAttr="12000" NumberSkill="-1" MaxLevel="120" LVSkill="5" Type="1" />
+    <UnLockInterval>-1</UnLockInterval>
+  </ItemData>
+  <ItemData ItemID="25017" Name="Thợ xếp đá" IconBundleDir="Icon/PetImage.unity3d" IconAtlasName="EquipIcon2"
+    MapSpriteBundleDir="Resources/Item/MapSprite.unity3d" MapSpriteAtlasName="MapSprite" Kind="Đồng hành" QualityPrefix="0" Category="1" Genre="1"
+    Stack="1" DetailType="20" ParticularType="24" Level="3" SuiteID="0" Icon="icon_dh" View="icon_dh_s" Intro="" Help="" ObjID="33" BindType="1"
+    Series="0" ReqLevel="0" CDType="0" Price="0" ItemValue="100000" MakeCost="-1" ResMale="-1" ResFemale="-1" FightPower="3" ScriptID="-1"
+    DeductOnUse="false" BuffID="-1">
+    <PetAttr TotalAttr="12000" NumberSkill="-1" MaxLevel="120" LVSkill="5" Type="1" />
+    <UnLockInterval>-1</UnLockInterval>
+  </ItemData>
+  <ItemData ItemID="25018" Name="Hộ lăng đao binh" IconBundleDir="Icon/PetImage.unity3d" IconAtlasName="EquipIcon2"
+    MapSpriteBundleDir="Resources/Item/MapSprite.unity3d" MapSpriteAtlasName="MapSprite" Kind="Đồng hành" QualityPrefix="0" Category="1" Genre="1"
+    Stack="1" DetailType="20" ParticularType="24" Level="3" SuiteID="0" Icon="icon_dh" View="icon_dh_s" Intro="" Help="" ObjID="33" BindType="1"
+    Series="0" ReqLevel="0" CDType="0" Price="0" ItemValue="100000" MakeCost="-1" ResMale="-1" ResFemale="-1" FightPower="3" ScriptID="-1"
+    DeductOnUse="false" BuffID="-1">
+    <PetAttr TotalAttr="12000" NumberSkill="-1" MaxLevel="120" LVSkill="5" Type="1" />
+    <UnLockInterval>-1</UnLockInterval>
+  </ItemData>
+  <ItemData ItemID="25019" Name="Vô danh đao khách" IconBundleDir="Icon/PetImage.unity3d" IconAtlasName="EquipIcon2"
+    MapSpriteBundleDir="Resources/Item/MapSprite.unity3d" MapSpriteAtlasName="MapSprite" Kind="Đồng hành" QualityPrefix="0" Category="1" Genre="1"
+    Stack="1" DetailType="20" ParticularType="24" Level="3" SuiteID="0" Icon="icon_dh" View="icon_dh_s" Intro="" Help="" ObjID="33" BindType="1"
+    Series="0" ReqLevel="0" CDType="0" Price="0" ItemValue="100000" MakeCost="-1" ResMale="-1" ResFemale="-1" FightPower="3" ScriptID="-1"
+    DeductOnUse="false" BuffID="-1">
+    <PetAttr TotalAttr="12000" NumberSkill="-1" MaxLevel="120" LVSkill="5" Type="1" />
+    <UnLockInterval>-1</UnLockInterval>
+  </ItemData>
+  <ItemData ItemID="25020" Name="Đệ tử trục xuất tuyên sơn" IconBundleDir="Icon/PetImage.unity3d" IconAtlasName="EquipIcon2"
+    MapSpriteBundleDir="Resources/Item/MapSprite.unity3d" MapSpriteAtlasName="MapSprite" Kind="Đồng hành" QualityPrefix="0" Category="1" Genre="1"
+    Stack="1" DetailType="20" ParticularType="24" Level="3" SuiteID="0" Icon="icon_dh" View="icon_dh_s" Intro="" Help="" ObjID="33" BindType="1"
+    Series="0" ReqLevel="0" CDType="0" Price="0" ItemValue="100000" MakeCost="-1" ResMale="-1" ResFemale="-1" FightPower="3" ScriptID="-1"
+    DeductOnUse="false" BuffID="-1">
+    <PetAttr TotalAttr="12000" NumberSkill="-1" MaxLevel="120" LVSkill="5" Type="1" />
+    <UnLockInterval>-1</UnLockInterval>
+  </ItemData>
+  <ItemData ItemID="25021" Name="Trúc lâm phỉ" IconBundleDir="Icon/PetImage.unity3d" IconAtlasName="EquipIcon2"
+    MapSpriteBundleDir="Resources/Item/MapSprite.unity3d" MapSpriteAtlasName="MapSprite" Kind="Đồng hành" QualityPrefix="0" Category="1" Genre="1"
+    Stack="1" DetailType="20" ParticularType="24" Level="3" SuiteID="0" Icon="icon_dh" View="icon_dh_s" Intro="" Help="" ObjID="33" BindType="1"
+    Series="0" ReqLevel="0" CDType="0" Price="0" ItemValue="100000" MakeCost="-1" ResMale="-1" ResFemale="-1" FightPower="3" ScriptID="-1"
+    DeductOnUse="false" BuffID="-1">
+    <PetAttr TotalAttr="12000" NumberSkill="-1" MaxLevel="120" LVSkill="5" Type="1" />
+    <UnLockInterval>-1</UnLockInterval>
+  </ItemData>
+  <ItemData ItemID="25022" Name="Ô y kiếm sĩ" IconBundleDir="Icon/PetImage.unity3d" IconAtlasName="EquipIcon2"
+    MapSpriteBundleDir="Resources/Item/MapSprite.unity3d" MapSpriteAtlasName="MapSprite" Kind="Đồng hành" QualityPrefix="0" Category="1" Genre="1"
+    Stack="1" DetailType="20" ParticularType="24" Level="3" SuiteID="0" Icon="icon_dh" View="icon_dh_s" Intro="" Help="" ObjID="33" BindType="1"
+    Series="0" ReqLevel="0" CDType="0" Price="0" ItemValue="100000" MakeCost="-1" ResMale="-1" ResFemale="-1" FightPower="3" ScriptID="-1"
+    DeductOnUse="false" BuffID="-1">
+    <PetAttr TotalAttr="12000" NumberSkill="-1" MaxLevel="120" LVSkill="5" Type="1" />
+    <UnLockInterval>-1</UnLockInterval>
+  </ItemData>
+  <ItemData ItemID="25023" Name="Đường gia độc sứ" IconBundleDir="Icon/PetImage.unity3d" IconAtlasName="EquipIcon2"
+    MapSpriteBundleDir="Resources/Item/MapSprite.unity3d" MapSpriteAtlasName="MapSprite" Kind="Đồng hành" QualityPrefix="0" Category="1" Genre="1"
+    Stack="1" DetailType="20" ParticularType="24" Level="3" SuiteID="0" Icon="icon_dh" View="icon_dh_s" Intro="" Help="" ObjID="33" BindType="1"
+    Series="0" ReqLevel="0" CDType="0" Price="0" ItemValue="100000" MakeCost="-1" ResMale="-1" ResFemale="-1" FightPower="3" ScriptID="-1"
+    DeductOnUse="false" BuffID="-1">
+    <PetAttr TotalAttr="12000" NumberSkill="-1" MaxLevel="120" LVSkill="5" Type="1" />
+    <UnLockInterval>-1</UnLockInterval>
+  </ItemData>
+  <ItemData ItemID="25024" Name="Du quân đao binh" IconBundleDir="Icon/PetImage.unity3d" IconAtlasName="EquipIcon2"
+    MapSpriteBundleDir="Resources/Item/MapSprite.unity3d" MapSpriteAtlasName="MapSprite" Kind="Đồng hành" QualityPrefix="0" Category="1" Genre="1"
+    Stack="1" DetailType="20" ParticularType="24" Level="3" SuiteID="0" Icon="icon_dh" View="icon_dh_s" Intro="" Help="" ObjID="33" BindType="1"
+    Series="0" ReqLevel="0" CDType="0" Price="0" ItemValue="100000" MakeCost="-1" ResMale="-1" ResFemale="-1" FightPower="3" ScriptID="-1"
+    DeductOnUse="false" BuffID="-1">
+    <PetAttr TotalAttr="12000" NumberSkill="-1" MaxLevel="120" LVSkill="5" Type="1" />
+    <UnLockInterval>-1</UnLockInterval>
+  </ItemData>
+  <ItemData ItemID="25025" Name="Đường gia nỏ thủ" IconBundleDir="Icon/PetImage.unity3d" IconAtlasName="EquipIcon2"
+    MapSpriteBundleDir="Resources/Item/MapSprite.unity3d" MapSpriteAtlasName="MapSprite" Kind="Đồng hành" QualityPrefix="0" Category="1" Genre="1"
+    Stack="1" DetailType="20" ParticularType="24" Level="3" SuiteID="0" Icon="icon_dh" View="icon_dh_s" Intro="" Help="" ObjID="33" BindType="1"
+    Series="0" ReqLevel="0" CDType="0" Price="0" ItemValue="100000" MakeCost="-1" ResMale="-1" ResFemale="-1" FightPower="3" ScriptID="-1"
+    DeductOnUse="false" BuffID="-1">
+    <PetAttr TotalAttr="12000" NumberSkill="-1" MaxLevel="120" LVSkill="5" Type="1" />
+    <UnLockInterval>-1</UnLockInterval>
+  </ItemData>
+  <ItemData ItemID="25026" Name="Lữ khách qua đường" IconBundleDir="Icon/PetImage.unity3d" IconAtlasName="EquipIcon2"
+    MapSpriteBundleDir="Resources/Item/MapSprite.unity3d" MapSpriteAtlasName="MapSprite" Kind="Đồng hành" QualityPrefix="0" Category="1" Genre="1"
+    Stack="1" DetailType="20" ParticularType="24" Level="3" SuiteID="0" Icon="icon_dh" View="icon_dh_s" Intro="" Help="" ObjID="33" BindType="1"
+    Series="0" ReqLevel="0" CDType="0" Price="0" ItemValue="100000" MakeCost="-1" ResMale="-1" ResFemale="-1" FightPower="3" ScriptID="-1"
+    DeductOnUse="false" BuffID="-1">
+    <PetAttr TotalAttr="12000" NumberSkill="-1" MaxLevel="120" LVSkill="5" Type="1" />
+    <UnLockInterval>-1</UnLockInterval>
+  </ItemData>
+  <ItemData ItemID="25027" Name="Mật thám giả trang" IconBundleDir="Icon/PetImage.unity3d" IconAtlasName="EquipIcon2"
+    MapSpriteBundleDir="Resources/Item/MapSprite.unity3d" MapSpriteAtlasName="MapSprite" Kind="Đồng hành" QualityPrefix="0" Category="1" Genre="1"
+    Stack="1" DetailType="20" ParticularType="24" Level="3" SuiteID="0" Icon="icon_dh" View="icon_dh_s" Intro="" Help="" ObjID="33" BindType="1"
+    Series="0" ReqLevel="0" CDType="0" Price="0" ItemValue="100000" MakeCost="-1" ResMale="-1" ResFemale="-1" FightPower="3" ScriptID="-1"
+    DeductOnUse="false" BuffID="-1">
+    <PetAttr TotalAttr="12000" NumberSkill="-1" MaxLevel="120" LVSkill="5" Type="1" />
+    <UnLockInterval>-1</UnLockInterval>
+  </ItemData>
+  <ItemData ItemID="25028" Name="Dũng sĩ nam di" IconBundleDir="Icon/PetImage.unity3d" IconAtlasName="EquipIcon2"
+    MapSpriteBundleDir="Resources/Item/MapSprite.unity3d" MapSpriteAtlasName="MapSprite" Kind="Đồng hành" QualityPrefix="0" Category="1" Genre="1"
+    Stack="1" DetailType="20" ParticularType="24" Level="3" SuiteID="0" Icon="icon_dh" View="icon_dh_s" Intro="" Help="" ObjID="33" BindType="1"
+    Series="0" ReqLevel="0" CDType="0" Price="0" ItemValue="100000" MakeCost="-1" ResMale="-1" ResFemale="-1" FightPower="3" ScriptID="-1"
+    DeductOnUse="false" BuffID="-1">
+    <PetAttr TotalAttr="12000" NumberSkill="-1" MaxLevel="120" LVSkill="5" Type="1" />
+    <UnLockInterval>-1</UnLockInterval>
+  </ItemData>
+  <ItemData ItemID="25029" Name="Thổ dân vu nữ" IconBundleDir="Icon/PetImage.unity3d" IconAtlasName="EquipIcon2"
+    MapSpriteBundleDir="Resources/Item/MapSprite.unity3d" MapSpriteAtlasName="MapSprite" Kind="Đồng hành" QualityPrefix="0" Category="1" Genre="1"
+    Stack="1" DetailType="20" ParticularType="24" Level="3" SuiteID="0" Icon="icon_dh" View="icon_dh_s" Intro="" Help="" ObjID="33" BindType="1"
+    Series="0" ReqLevel="0" CDType="0" Price="0" ItemValue="100000" MakeCost="-1" ResMale="-1" ResFemale="-1" FightPower="3" ScriptID="-1"
+    DeductOnUse="false" BuffID="-1">
+    <PetAttr TotalAttr="12000" NumberSkill="-1" MaxLevel="120" LVSkill="5" Type="1" />
+    <UnLockInterval>-1</UnLockInterval>
+  </ItemData>
+  <ItemData ItemID="25030" Name="Tế tư nam di" IconBundleDir="Icon/PetImage.unity3d" IconAtlasName="EquipIcon2"
+    MapSpriteBundleDir="Resources/Item/MapSprite.unity3d" MapSpriteAtlasName="MapSprite" Kind="Đồng hành" QualityPrefix="0" Category="1" Genre="1"
+    Stack="1" DetailType="20" ParticularType="24" Level="3" SuiteID="0" Icon="icon_dh" View="icon_dh_s" Intro="" Help="" ObjID="33" BindType="1"
+    Series="0" ReqLevel="0" CDType="0" Price="0" ItemValue="100000" MakeCost="-1" ResMale="-1" ResFemale="-1" FightPower="3" ScriptID="-1"
+    DeductOnUse="false" BuffID="-1">
+    <PetAttr TotalAttr="12000" NumberSkill="-1" MaxLevel="120" LVSkill="5" Type="1" />
+    <UnLockInterval>-1</UnLockInterval>
+  </ItemData>
+  <ItemData ItemID="25031" Name="Đường lang quyền sư" IconBundleDir="Icon/PetImage.unity3d" IconAtlasName="EquipIcon2"
+    MapSpriteBundleDir="Resources/Item/MapSprite.unity3d" MapSpriteAtlasName="MapSprite" Kind="Đồng hành" QualityPrefix="0" Category="1" Genre="1"
+    Stack="1" DetailType="20" ParticularType="24" Level="3" SuiteID="0" Icon="icon_dh" View="icon_dh_s" Intro="" Help="" ObjID="33" BindType="1"
+    Series="0" ReqLevel="0" CDType="0" Price="0" ItemValue="100000" MakeCost="-1" ResMale="-1" ResFemale="-1" FightPower="3" ScriptID="-1"
+    DeductOnUse="false" BuffID="-1">
+    <PetAttr TotalAttr="12000" NumberSkill="-1" MaxLevel="120" LVSkill="5" Type="1" />
+    <UnLockInterval>-1</UnLockInterval>
+  </ItemData>
+  <ItemData ItemID="25032" Name="Võ sĩ đánh thuê" IconBundleDir="Icon/PetImage.unity3d" IconAtlasName="EquipIcon2"
+    MapSpriteBundleDir="Resources/Item/MapSprite.unity3d" MapSpriteAtlasName="MapSprite" Kind="Đồng hành" QualityPrefix="0" Category="1" Genre="1"
+    Stack="1" DetailType="20" ParticularType="24" Level="3" SuiteID="0" Icon="icon_dh" View="icon_dh_s" Intro="" Help="" ObjID="33" BindType="1"
+    Series="0" ReqLevel="0" CDType="0" Price="0" ItemValue="100000" MakeCost="-1" ResMale="-1" ResFemale="-1" FightPower="3" ScriptID="-1"
+    DeductOnUse="false" BuffID="-1">
+    <PetAttr TotalAttr="12000" NumberSkill="-1" MaxLevel="120" LVSkill="5" Type="1" />
+    <UnLockInterval>-1</UnLockInterval>
+  </ItemData>
+  <ItemData ItemID="25033" Name="Mật thám kim quốc" IconBundleDir="Icon/PetImage.unity3d" IconAtlasName="EquipIcon2"
+    MapSpriteBundleDir="Resources/Item/MapSprite.unity3d" MapSpriteAtlasName="MapSprite" Kind="Đồng hành" QualityPrefix="0" Category="1" Genre="1"
+    Stack="1" DetailType="20" ParticularType="24" Level="3" SuiteID="0" Icon="icon_dh" View="icon_dh_s" Intro="" Help="" ObjID="33" BindType="1"
+    Series="0" ReqLevel="0" CDType="0" Price="0" ItemValue="100000" MakeCost="-1" ResMale="-1" ResFemale="-1" FightPower="3" ScriptID="-1"
+    DeductOnUse="false" BuffID="-1">
+    <PetAttr TotalAttr="12000" NumberSkill="-1" MaxLevel="120" LVSkill="5" Type="1" />
+    <UnLockInterval>-1</UnLockInterval>
+  </ItemData>
+  <ItemData ItemID="25034" Name="Hộ lăng nỏ thủ" IconBundleDir="Icon/PetImage.unity3d" IconAtlasName="EquipIcon2"
+    MapSpriteBundleDir="Resources/Item/MapSprite.unity3d" MapSpriteAtlasName="MapSprite" Kind="Đồng hành" QualityPrefix="0" Category="1" Genre="1"
+    Stack="1" DetailType="20" ParticularType="24" Level="3" SuiteID="0" Icon="icon_dh" View="icon_dh_s" Intro="" Help="" ObjID="33" BindType="1"
+    Series="0" ReqLevel="0" CDType="0" Price="0" ItemValue="100000" MakeCost="-1" ResMale="-1" ResFemale="-1" FightPower="3" ScriptID="-1"
+    DeductOnUse="false" BuffID="-1">
+    <PetAttr TotalAttr="12000" NumberSkill="-1" MaxLevel="120" LVSkill="5" Type="1" />
+    <UnLockInterval>-1</UnLockInterval>
+  </ItemData>
+  <ItemData ItemID="25035" Name="Hộ lăng thương sĩ" IconBundleDir="Icon/PetImage.unity3d" IconAtlasName="EquipIcon2"
+    MapSpriteBundleDir="Resources/Item/MapSprite.unity3d" MapSpriteAtlasName="MapSprite" Kind="Đồng hành" QualityPrefix="0" Category="1" Genre="1"
+    Stack="1" DetailType="20" ParticularType="24" Level="3" SuiteID="0" Icon="icon_dh" View="icon_dh_s" Intro="" Help="" ObjID="33" BindType="1"
+    Series="0" ReqLevel="0" CDType="0" Price="0" ItemValue="100000" MakeCost="-1" ResMale="-1" ResFemale="-1" FightPower="3" ScriptID="-1"
+    DeductOnUse="false" BuffID="-1">
+    <PetAttr TotalAttr="12000" NumberSkill="-1" MaxLevel="120" LVSkill="5" Type="1" />
+    <UnLockInterval>-1</UnLockInterval>
+  </ItemData>
+  <ItemData ItemID="25036" Name="Minh phủ quy khách" IconBundleDir="Icon/PetImage.unity3d" IconAtlasName="EquipIcon2"
+    MapSpriteBundleDir="Resources/Item/MapSprite.unity3d" MapSpriteAtlasName="MapSprite" Kind="Đồng hành" QualityPrefix="0" Category="1" Genre="1"
+    Stack="1" DetailType="20" ParticularType="24" Level="3" SuiteID="0" Icon="icon_dh" View="icon_dh_s" Intro="" Help="" ObjID="33" BindType="1"
+    Series="0" ReqLevel="0" CDType="0" Price="0" ItemValue="100000" MakeCost="-1" ResMale="-1" ResFemale="-1" FightPower="3" ScriptID="-1"
+    DeductOnUse="false" BuffID="-1">
+    <PetAttr TotalAttr="12000" NumberSkill="-1" MaxLevel="120" LVSkill="5" Type="1" />
+    <UnLockInterval>-1</UnLockInterval>
+  </ItemData>
+  <ItemData ItemID="25037" Name="Người bắt rắn" IconBundleDir="Icon/PetImage.unity3d" IconAtlasName="EquipIcon2"
+    MapSpriteBundleDir="Resources/Item/MapSprite.unity3d" MapSpriteAtlasName="MapSprite" Kind="Đồng hành" QualityPrefix="0" Category="1" Genre="1"
+    Stack="1" DetailType="20" ParticularType="24" Level="3" SuiteID="0" Icon="icon_dh" View="icon_dh_s" Intro="" Help="" ObjID="33" BindType="1"
+    Series="0" ReqLevel="0" CDType="0" Price="0" ItemValue="100000" MakeCost="-1" ResMale="-1" ResFemale="-1" FightPower="3" ScriptID="-1"
+    DeductOnUse="false" BuffID="-1">
+    <PetAttr TotalAttr="12000" NumberSkill="-1" MaxLevel="120" LVSkill="5" Type="1" />
+    <UnLockInterval>-1</UnLockInterval>
+  </ItemData>
+  <ItemData ItemID="25038" Name="Đới đao võ sĩ" IconBundleDir="Icon/PetImage.unity3d" IconAtlasName="EquipIcon2"
+    MapSpriteBundleDir="Resources/Item/MapSprite.unity3d" MapSpriteAtlasName="MapSprite" Kind="Đồng hành" QualityPrefix="0" Category="1" Genre="1"
+    Stack="1" DetailType="20" ParticularType="24" Level="3" SuiteID="0" Icon="icon_dh" View="icon_dh_s" Intro="" Help="" ObjID="33" BindType="1"
+    Series="0" ReqLevel="0" CDType="0" Price="0" ItemValue="100000" MakeCost="-1" ResMale="-1" ResFemale="-1" FightPower="3" ScriptID="-1"
+    DeductOnUse="false" BuffID="-1">
+    <PetAttr TotalAttr="12000" NumberSkill="-1" MaxLevel="120" LVSkill="5" Type="1" />
+    <UnLockInterval>-1</UnLockInterval>
+  </ItemData>
+  <ItemData ItemID="25039" Name="Bạch diện khách" IconBundleDir="Icon/PetImage.unity3d" IconAtlasName="EquipIcon2"
+    MapSpriteBundleDir="Resources/Item/MapSprite.unity3d" MapSpriteAtlasName="MapSprite" Kind="Đồng hành" QualityPrefix="0" Category="1" Genre="1"
+    Stack="1" DetailType="20" ParticularType="24" Level="3" SuiteID="0" Icon="icon_dh" View="icon_dh_s" Intro="" Help="" ObjID="33" BindType="1"
+    Series="0" ReqLevel="0" CDType="0" Price="0" ItemValue="100000" MakeCost="-1" ResMale="-1" ResFemale="-1" FightPower="3" ScriptID="-1"
+    DeductOnUse="false" BuffID="-1">
+    <PetAttr TotalAttr="12000" NumberSkill="-1" MaxLevel="120" LVSkill="5" Type="1" />
+    <UnLockInterval>-1</UnLockInterval>
+  </ItemData>
+  <ItemData ItemID="25040" Name="Bạch cốt kiếm khách" IconBundleDir="Icon/PetImage.unity3d" IconAtlasName="EquipIcon2"
+    MapSpriteBundleDir="Resources/Item/MapSprite.unity3d" MapSpriteAtlasName="MapSprite" Kind="Đồng hành" QualityPrefix="0" Category="1" Genre="1"
+    Stack="1" DetailType="20" ParticularType="24" Level="3" SuiteID="0" Icon="icon_dh" View="icon_dh_s" Intro="" Help="" ObjID="33" BindType="1"
+    Series="0" ReqLevel="0" CDType="0" Price="0" ItemValue="100000" MakeCost="-1" ResMale="-1" ResFemale="-1" FightPower="3" ScriptID="-1"
+    DeductOnUse="false" BuffID="-1">
+    <PetAttr TotalAttr="12000" NumberSkill="-1" MaxLevel="120" LVSkill="5" Type="1" />
+    <UnLockInterval>-1</UnLockInterval>
+  </ItemData>
+  <ItemData ItemID="25041" Name="Lăng ba tiên tử" IconBundleDir="Icon/PetImage.unity3d" IconAtlasName="EquipIcon2"
+    MapSpriteBundleDir="Resources/Item/MapSprite.unity3d" MapSpriteAtlasName="MapSprite" Kind="Đồng hành" QualityPrefix="0" Category="1" Genre="1"
+    Stack="1" DetailType="20" ParticularType="24" Level="3" SuiteID="0" Icon="icon_dh" View="icon_dh_s" Intro="" Help="" ObjID="33" BindType="1"
+    Series="0" ReqLevel="0" CDType="0" Price="0" ItemValue="100000" MakeCost="-1" ResMale="-1" ResFemale="-1" FightPower="3" ScriptID="-1"
+    DeductOnUse="false" BuffID="-1">
+    <PetAttr TotalAttr="12000" NumberSkill="-1" MaxLevel="120" LVSkill="5" Type="1" />
+    <UnLockInterval>-1</UnLockInterval>
+  </ItemData>
+  <ItemData ItemID="25042" Name="Thị kiếm tôn giả" IconBundleDir="Icon/PetImage.unity3d" IconAtlasName="EquipIcon2"
+    MapSpriteBundleDir="Resources/Item/MapSprite.unity3d" MapSpriteAtlasName="MapSprite" Kind="Đồng hành" QualityPrefix="0" Category="1" Genre="1"
+    Stack="1" DetailType="20" ParticularType="24" Level="3" SuiteID="0" Icon="icon_dh" View="icon_dh_s" Intro="" Help="" ObjID="33" BindType="1"
+    Series="0" ReqLevel="0" CDType="0" Price="0" ItemValue="100000" MakeCost="-1" ResMale="-1" ResFemale="-1" FightPower="3" ScriptID="-1"
+    DeductOnUse="false" BuffID="-1">
+    <PetAttr TotalAttr="12000" NumberSkill="-1" MaxLevel="120" LVSkill="5" Type="1" />
+    <UnLockInterval>-1</UnLockInterval>
+  </ItemData>
+  <ItemData ItemID="25043" Name="Tà ác bang phỉ" IconBundleDir="Icon/PetImage.unity3d" IconAtlasName="EquipIcon2"
+    MapSpriteBundleDir="Resources/Item/MapSprite.unity3d" MapSpriteAtlasName="MapSprite" Kind="Đồng hành" QualityPrefix="0" Category="1" Genre="1"
+    Stack="1" DetailType="20" ParticularType="24" Level="3" SuiteID="0" Icon="icon_dh" View="icon_dh_s" Intro="" Help="" ObjID="33" BindType="1"
+    Series="0" ReqLevel="0" CDType="0" Price="0" ItemValue="100000" MakeCost="-1" ResMale="-1" ResFemale="-1" FightPower="3" ScriptID="-1"
+    DeductOnUse="false" BuffID="-1">
+    <PetAttr TotalAttr="12000" NumberSkill="-1" MaxLevel="120" LVSkill="5" Type="1" />
+    <UnLockInterval>-1</UnLockInterval>
+  </ItemData>
+  <ItemData ItemID="25044" Name="Khoái kiếm khách" IconBundleDir="Icon/PetImage.unity3d" IconAtlasName="EquipIcon2"
+    MapSpriteBundleDir="Resources/Item/MapSprite.unity3d" MapSpriteAtlasName="MapSprite" Kind="Đồng hành" QualityPrefix="0" Category="1" Genre="1"
+    Stack="1" DetailType="20" ParticularType="24" Level="3" SuiteID="0" Icon="icon_dh" View="icon_dh_s" Intro="" Help="" ObjID="33" BindType="1"
+    Series="0" ReqLevel="0" CDType="0" Price="0" ItemValue="100000" MakeCost="-1" ResMale="-1" ResFemale="-1" FightPower="3" ScriptID="-1"
+    DeductOnUse="false" BuffID="-1">
+    <PetAttr TotalAttr="12000" NumberSkill="-1" MaxLevel="120" LVSkill="5" Type="1" />
+    <UnLockInterval>-1</UnLockInterval>
+  </ItemData>
+  <ItemData ItemID="25045" Name="Khoái đao khách" IconBundleDir="Icon/PetImage.unity3d" IconAtlasName="EquipIcon2"
+    MapSpriteBundleDir="Resources/Item/MapSprite.unity3d" MapSpriteAtlasName="MapSprite" Kind="Đồng hành" QualityPrefix="0" Category="1" Genre="1"
+    Stack="1" DetailType="20" ParticularType="24" Level="3" SuiteID="0" Icon="icon_dh" View="icon_dh_s" Intro="" Help="" ObjID="33" BindType="1"
+    Series="0" ReqLevel="0" CDType="0" Price="0" ItemValue="100000" MakeCost="-1" ResMale="-1" ResFemale="-1" FightPower="3" ScriptID="-1"
+    DeductOnUse="false" BuffID="-1">
+    <PetAttr TotalAttr="12000" NumberSkill="-1" MaxLevel="120" LVSkill="5" Type="1" />
+    <UnLockInterval>-1</UnLockInterval>
+  </ItemData>
+  <ItemData ItemID="25046" Name="Lạc phách sát thủ" IconBundleDir="Icon/PetImage.unity3d" IconAtlasName="EquipIcon2"
+    MapSpriteBundleDir="Resources/Item/MapSprite.unity3d" MapSpriteAtlasName="MapSprite" Kind="Đồng hành" QualityPrefix="0" Category="1" Genre="1"
+    Stack="1" DetailType="20" ParticularType="24" Level="3" SuiteID="0" Icon="icon_dh" View="icon_dh_s" Intro="" Help="" ObjID="33" BindType="1"
+    Series="0" ReqLevel="0" CDType="0" Price="0" ItemValue="100000" MakeCost="-1" ResMale="-1" ResFemale="-1" FightPower="3" ScriptID="-1"
+    DeductOnUse="false" BuffID="-1">
+    <PetAttr TotalAttr="12000" NumberSkill="-1" MaxLevel="120" LVSkill="5" Type="1" />
+    <UnLockInterval>-1</UnLockInterval>
+  </ItemData>
+  <ItemData ItemID="25047" Name="Lưu phóng đao khách" IconBundleDir="Icon/PetImage.unity3d" IconAtlasName="EquipIcon2"
+    MapSpriteBundleDir="Resources/Item/MapSprite.unity3d" MapSpriteAtlasName="MapSprite" Kind="Đồng hành" QualityPrefix="0" Category="1" Genre="1"
+    Stack="1" DetailType="20" ParticularType="24" Level="3" SuiteID="0" Icon="icon_dh" View="icon_dh_s" Intro="" Help="" ObjID="33" BindType="1"
+    Series="0" ReqLevel="0" CDType="0" Price="0" ItemValue="100000" MakeCost="-1" ResMale="-1" ResFemale="-1" FightPower="3" ScriptID="-1"
+    DeductOnUse="false" BuffID="-1">
+    <PetAttr TotalAttr="12000" NumberSkill="-1" MaxLevel="120" LVSkill="5" Type="1" />
+    <UnLockInterval>-1</UnLockInterval>
+  </ItemData>
+  <ItemData ItemID="25048" Name="Lưu phóng vu nữ" IconBundleDir="Icon/PetImage.unity3d" IconAtlasName="EquipIcon2"
+    MapSpriteBundleDir="Resources/Item/MapSprite.unity3d" MapSpriteAtlasName="MapSprite" Kind="Đồng hành" QualityPrefix="0" Category="1" Genre="1"
+    Stack="1" DetailType="20" ParticularType="24" Level="3" SuiteID="0" Icon="icon_dh" View="icon_dh_s" Intro="" Help="" ObjID="33" BindType="1"
+    Series="0" ReqLevel="0" CDType="0" Price="0" ItemValue="100000" MakeCost="-1" ResMale="-1" ResFemale="-1" FightPower="3" ScriptID="-1"
+    DeductOnUse="false" BuffID="-1">
+    <PetAttr TotalAttr="12000" NumberSkill="-1" MaxLevel="120" LVSkill="5" Type="1" />
+    <UnLockInterval>-1</UnLockInterval>
+  </ItemData>
+  <ItemData ItemID="25049" Name="Lạc phách võ sĩ" IconBundleDir="Icon/PetImage.unity3d" IconAtlasName="EquipIcon2"
+    MapSpriteBundleDir="Resources/Item/MapSprite.unity3d" MapSpriteAtlasName="MapSprite" Kind="Đồng hành" QualityPrefix="0" Category="1" Genre="1"
+    Stack="1" DetailType="20" ParticularType="24" Level="3" SuiteID="0" Icon="icon_dh" View="icon_dh_s" Intro="" Help="" ObjID="33" BindType="1"
+    Series="0" ReqLevel="0" CDType="0" Price="0" ItemValue="100000" MakeCost="-1" ResMale="-1" ResFemale="-1" FightPower="3" ScriptID="-1"
+    DeductOnUse="false" BuffID="-1">
+    <PetAttr TotalAttr="12000" NumberSkill="-1" MaxLevel="120" LVSkill="5" Type="1" />
+    <UnLockInterval>-1</UnLockInterval>
+  </ItemData>
+  <ItemData ItemID="25050" Name="Nữ ảnh" IconBundleDir="Icon/PetImage.unity3d" IconAtlasName="EquipIcon2"
+    MapSpriteBundleDir="Resources/Item/MapSprite.unity3d" MapSpriteAtlasName="MapSprite" Kind="Đồng hành" QualityPrefix="0" Category="1" Genre="1"
+    Stack="1" DetailType="20" ParticularType="24" Level="3" SuiteID="0" Icon="icon_dh" View="icon_dh_s" Intro="" Help="" ObjID="33" BindType="1"
+    Series="0" ReqLevel="0" CDType="0" Price="0" ItemValue="100000" MakeCost="-1" ResMale="-1" ResFemale="-1" FightPower="3" ScriptID="-1"
+    DeductOnUse="false" BuffID="-1">
+    <PetAttr TotalAttr="12000" NumberSkill="-1" MaxLevel="120" LVSkill="5" Type="1" />
+    <UnLockInterval>-1</UnLockInterval>
+  </ItemData>
+  <ItemData ItemID="25051" Name="Trọng giáp binh" IconBundleDir="Icon/PetImage.unity3d" IconAtlasName="EquipIcon2"
+    MapSpriteBundleDir="Resources/Item/MapSprite.unity3d" MapSpriteAtlasName="MapSprite" Kind="Đồng hành" QualityPrefix="0" Category="1" Genre="1"
+    Stack="1" DetailType="20" ParticularType="24" Level="3" SuiteID="0" Icon="icon_dh" View="icon_dh_s" Intro="" Help="" ObjID="33" BindType="1"
+    Series="0" ReqLevel="0" CDType="0" Price="0" ItemValue="100000" MakeCost="-1" ResMale="-1" ResFemale="-1" FightPower="3" ScriptID="-1"
+    DeductOnUse="false" BuffID="-1">
+    <PetAttr TotalAttr="12000" NumberSkill="-1" MaxLevel="120" LVSkill="5" Type="1" />
+    <UnLockInterval>-1</UnLockInterval>
+  </ItemData>
+  <ItemData ItemID="25052" Name="Nam ảnh" IconBundleDir="Icon/PetImage.unity3d" IconAtlasName="EquipIcon2"
+    MapSpriteBundleDir="Resources/Item/MapSprite.unity3d" MapSpriteAtlasName="MapSprite" Kind="Đồng hành" QualityPrefix="0" Category="1" Genre="1"
+    Stack="1" DetailType="20" ParticularType="24" Level="3" SuiteID="0" Icon="icon_dh" View="icon_dh_s" Intro="" Help="" ObjID="33" BindType="1"
+    Series="0" ReqLevel="0" CDType="0" Price="0" ItemValue="100000" MakeCost="-1" ResMale="-1" ResFemale="-1" FightPower="3" ScriptID="-1"
+    DeductOnUse="false" BuffID="-1">
+    <PetAttr TotalAttr="12000" NumberSkill="-1" MaxLevel="120" LVSkill="5" Type="1" />
+    <UnLockInterval>-1</UnLockInterval>
+  </ItemData>
+  <ItemData ItemID="25053" Name="Đào thoát hòa thượng" IconBundleDir="Icon/PetImage.unity3d" IconAtlasName="EquipIcon2"
+    MapSpriteBundleDir="Resources/Item/MapSprite.unity3d" MapSpriteAtlasName="MapSprite" Kind="Đồng hành" QualityPrefix="0" Category="1" Genre="1"
+    Stack="1" DetailType="20" ParticularType="24" Level="3" SuiteID="0" Icon="icon_dh" View="icon_dh_s" Intro="" Help="" ObjID="33" BindType="1"
+    Series="0" ReqLevel="0" CDType="0" Price="0" ItemValue="100000" MakeCost="-1" ResMale="-1" ResFemale="-1" FightPower="3" ScriptID="-1"
+    DeductOnUse="false" BuffID="-1">
+    <PetAttr TotalAttr="12000" NumberSkill="-1" MaxLevel="120" LVSkill="5" Type="1" />
+    <UnLockInterval>-1</UnLockInterval>
+  </ItemData>
+  <ItemData ItemID="25054" Name="Trộm thuốc" IconBundleDir="Icon/PetImage.unity3d" IconAtlasName="EquipIcon2"
+    MapSpriteBundleDir="Resources/Item/MapSprite.unity3d" MapSpriteAtlasName="MapSprite" Kind="Đồng hành" QualityPrefix="0" Category="1" Genre="1"
+    Stack="1" DetailType="20" ParticularType="24" Level="3" SuiteID="0" Icon="icon_dh" View="icon_dh_s" Intro="" Help="" ObjID="33" BindType="1"
+    Series="0" ReqLevel="0" CDType="0" Price="0" ItemValue="100000" MakeCost="-1" ResMale="-1" ResFemale="-1" FightPower="3" ScriptID="-1"
+    DeductOnUse="false" BuffID="-1">
+    <PetAttr TotalAttr="12000" NumberSkill="-1" MaxLevel="120" LVSkill="5" Type="1" />
+    <UnLockInterval>-1</UnLockInterval>
+  </ItemData>
+  <ItemData ItemID="25055" Name="Đạo phỉ sơn bắc" IconBundleDir="Icon/PetImage.unity3d" IconAtlasName="EquipIcon2"
+    MapSpriteBundleDir="Resources/Item/MapSprite.unity3d" MapSpriteAtlasName="MapSprite" Kind="Đồng hành" QualityPrefix="0" Category="1" Genre="1"
+    Stack="1" DetailType="20" ParticularType="24" Level="3" SuiteID="0" Icon="icon_dh" View="icon_dh_s" Intro="" Help="" ObjID="33" BindType="1"
+    Series="0" ReqLevel="0" CDType="0" Price="0" ItemValue="100000" MakeCost="-1" ResMale="-1" ResFemale="-1" FightPower="3" ScriptID="-1"
+    DeductOnUse="false" BuffID="-1">
+    <PetAttr TotalAttr="12000" NumberSkill="-1" MaxLevel="120" LVSkill="5" Type="1" />
+    <UnLockInterval>-1</UnLockInterval>
+  </ItemData>
+  <ItemData ItemID="25056" Name="Hiệu úy kim quốc" IconBundleDir="Icon/PetImage.unity3d" IconAtlasName="EquipIcon2"
+    MapSpriteBundleDir="Resources/Item/MapSprite.unity3d" MapSpriteAtlasName="MapSprite" Kind="Đồng hành" QualityPrefix="0" Category="1" Genre="1"
+    Stack="1" DetailType="20" ParticularType="24" Level="3" SuiteID="0" Icon="icon_dh" View="icon_dh_s" Intro="" Help="" ObjID="33" BindType="1"
+    Series="0" ReqLevel="0" CDType="0" Price="0" ItemValue="100000" MakeCost="-1" ResMale="-1" ResFemale="-1" FightPower="3" ScriptID="-1"
+    DeductOnUse="false" BuffID="-1">
+    <PetAttr TotalAttr="12000" NumberSkill="-1" MaxLevel="120" LVSkill="5" Type="1" />
+    <UnLockInterval>-1</UnLockInterval>
+  </ItemData>
+  <ItemData ItemID="25057" Name="Tham quan gia đinh" IconBundleDir="Icon/PetImage.unity3d" IconAtlasName="EquipIcon2"
+    MapSpriteBundleDir="Resources/Item/MapSprite.unity3d" MapSpriteAtlasName="MapSprite" Kind="Đồng hành" QualityPrefix="0" Category="1" Genre="1"
+    Stack="1" DetailType="20" ParticularType="24" Level="3" SuiteID="0" Icon="icon_dh" View="icon_dh_s" Intro="" Help="" ObjID="33" BindType="1"
+    Series="0" ReqLevel="0" CDType="0" Price="0" ItemValue="100000" MakeCost="-1" ResMale="-1" ResFemale="-1" FightPower="3" ScriptID="-1"
+    DeductOnUse="false" BuffID="-1">
+    <PetAttr TotalAttr="12000" NumberSkill="-1" MaxLevel="120" LVSkill="5" Type="1" />
+    <UnLockInterval>-1</UnLockInterval>
+  </ItemData>
+  <ItemData ItemID="25058" Name="Huyệt cư nữ dã nhân" IconBundleDir="Icon/PetImage.unity3d" IconAtlasName="EquipIcon2"
+    MapSpriteBundleDir="Resources/Item/MapSprite.unity3d" MapSpriteAtlasName="MapSprite" Kind="Đồng hành" QualityPrefix="0" Category="1" Genre="1"
+    Stack="1" DetailType="20" ParticularType="24" Level="3" SuiteID="0" Icon="icon_dh" View="icon_dh_s" Intro="" Help="" ObjID="33" BindType="1"
+    Series="0" ReqLevel="0" CDType="0" Price="0" ItemValue="100000" MakeCost="-1" ResMale="-1" ResFemale="-1" FightPower="3" ScriptID="-1"
+    DeductOnUse="false" BuffID="-1">
+    <PetAttr TotalAttr="12000" NumberSkill="-1" MaxLevel="120" LVSkill="5" Type="1" />
+    <UnLockInterval>-1</UnLockInterval>
+  </ItemData>
+  <ItemData ItemID="25059" Name="Huyệt cư nam dã nhân" IconBundleDir="Icon/PetImage.unity3d" IconAtlasName="EquipIcon2"
+    MapSpriteBundleDir="Resources/Item/MapSprite.unity3d" MapSpriteAtlasName="MapSprite" Kind="Đồng hành" QualityPrefix="0" Category="1" Genre="1"
+    Stack="1" DetailType="20" ParticularType="24" Level="3" SuiteID="0" Icon="icon_dh" View="icon_dh_s" Intro="" Help="" ObjID="33" BindType="1"
+    Series="0" ReqLevel="0" CDType="0" Price="0" ItemValue="100000" MakeCost="-1" ResMale="-1" ResFemale="-1" FightPower="3" ScriptID="-1"
+    DeductOnUse="false" BuffID="-1">
+    <PetAttr TotalAttr="12000" NumberSkill="-1" MaxLevel="120" LVSkill="5" Type="1" />
+    <UnLockInterval>-1</UnLockInterval>
+  </ItemData>
+  <ItemData ItemID="25060" Name="Sào phỉ binh" IconBundleDir="Icon/PetImage.unity3d" IconAtlasName="EquipIcon2"
+    MapSpriteBundleDir="Resources/Item/MapSprite.unity3d" MapSpriteAtlasName="MapSprite" Kind="Đồng hành" QualityPrefix="0" Category="1" Genre="1"
+    Stack="1" DetailType="20" ParticularType="24" Level="3" SuiteID="0" Icon="icon_dh" View="icon_dh_s" Intro="" Help="" ObjID="33" BindType="1"
+    Series="0" ReqLevel="0" CDType="0" Price="0" ItemValue="100000" MakeCost="-1" ResMale="-1" ResFemale="-1" FightPower="3" ScriptID="-1"
+    DeductOnUse="false" BuffID="-1">
+    <PetAttr TotalAttr="12000" NumberSkill="-1" MaxLevel="120" LVSkill="5" Type="1" />
+    <UnLockInterval>-1</UnLockInterval>
+  </ItemData>
+  <ItemData ItemID="25061" Name="Bạo nộ khoáng công" IconBundleDir="Icon/PetImage.unity3d" IconAtlasName="EquipIcon2"
+    MapSpriteBundleDir="Resources/Item/MapSprite.unity3d" MapSpriteAtlasName="MapSprite" Kind="Đồng hành" QualityPrefix="0" Category="1" Genre="1"
+    Stack="1" DetailType="20" ParticularType="24" Level="3" SuiteID="0" Icon="icon_dh" View="icon_dh_s" Intro="" Help="" ObjID="33" BindType="1"
+    Series="0" ReqLevel="0" CDType="0" Price="0" ItemValue="100000" MakeCost="-1" ResMale="-1" ResFemale="-1" FightPower="3" ScriptID="-1"
+    DeductOnUse="false" BuffID="-1">
+    <PetAttr TotalAttr="12000" NumberSkill="-1" MaxLevel="120" LVSkill="5" Type="1" />
+    <UnLockInterval>-1</UnLockInterval>
+  </ItemData>
+  <ItemData ItemID="25062" Name="Vũ trang thôn dân" IconBundleDir="Icon/PetImage.unity3d" IconAtlasName="EquipIcon2"
+    MapSpriteBundleDir="Resources/Item/MapSprite.unity3d" MapSpriteAtlasName="MapSprite" Kind="Đồng hành" QualityPrefix="0" Category="1" Genre="1"
+    Stack="1" DetailType="20" ParticularType="24" Level="3" SuiteID="0" Icon="icon_dh" View="icon_dh_s" Intro="" Help="" ObjID="33" BindType="1"
+    Series="0" ReqLevel="0" CDType="0" Price="0" ItemValue="100000" MakeCost="-1" ResMale="-1" ResFemale="-1" FightPower="3" ScriptID="-1"
+    DeductOnUse="false" BuffID="-1">
+    <PetAttr TotalAttr="12000" NumberSkill="-1" MaxLevel="120" LVSkill="5" Type="1" />
+    <UnLockInterval>-1</UnLockInterval>
+  </ItemData>
+  <ItemData ItemID="25063" Name="Du binh tây hạ" IconBundleDir="Icon/PetImage.unity3d" IconAtlasName="EquipIcon2"
+    MapSpriteBundleDir="Resources/Item/MapSprite.unity3d" MapSpriteAtlasName="MapSprite" Kind="Đồng hành" QualityPrefix="0" Category="1" Genre="1"
+    Stack="1" DetailType="20" ParticularType="24" Level="3" SuiteID="0" Icon="icon_dh" View="icon_dh_s" Intro="" Help="" ObjID="33" BindType="1"
+    Series="0" ReqLevel="0" CDType="0" Price="0" ItemValue="100000" MakeCost="-1" ResMale="-1" ResFemale="-1" FightPower="3" ScriptID="-1"
+    DeductOnUse="false" BuffID="-1">
+    <PetAttr TotalAttr="12000" NumberSkill="-1" MaxLevel="120" LVSkill="5" Type="1" />
+    <UnLockInterval>-1</UnLockInterval>
+  </ItemData>
+  <ItemData ItemID="25064" Name="Mã tặc du kỵ" IconBundleDir="Icon/PetImage.unity3d" IconAtlasName="EquipIcon2"
+    MapSpriteBundleDir="Resources/Item/MapSprite.unity3d" MapSpriteAtlasName="MapSprite" Kind="Đồng hành" QualityPrefix="0" Category="1" Genre="1"
+    Stack="1" DetailType="20" ParticularType="24" Level="3" SuiteID="0" Icon="icon_dh" View="icon_dh_s" Intro="" Help="" ObjID="33" BindType="1"
+    Series="0" ReqLevel="0" CDType="0" Price="0" ItemValue="100000" MakeCost="-1" ResMale="-1" ResFemale="-1" FightPower="3" ScriptID="-1"
+    DeductOnUse="false" BuffID="-1">
+    <PetAttr TotalAttr="12000" NumberSkill="-1" MaxLevel="120" LVSkill="5" Type="1" />
+    <UnLockInterval>-1</UnLockInterval>
+  </ItemData>
+  <ItemData ItemID="25065" Name="Thiết diều tử" IconBundleDir="Icon/PetImage.unity3d" IconAtlasName="EquipIcon2"
+    MapSpriteBundleDir="Resources/Item/MapSprite.unity3d" MapSpriteAtlasName="MapSprite" Kind="Đồng hành" QualityPrefix="0" Category="1" Genre="1"
+    Stack="1" DetailType="20" ParticularType="24" Level="3" SuiteID="0" Icon="icon_dh" View="icon_dh_s" Intro="" Help="" ObjID="33" BindType="1"
+    Series="0" ReqLevel="0" CDType="0" Price="0" ItemValue="100000" MakeCost="-1" ResMale="-1" ResFemale="-1" FightPower="3" ScriptID="-1"
+    DeductOnUse="false" BuffID="-1">
+    <PetAttr TotalAttr="12000" NumberSkill="-1" MaxLevel="120" LVSkill="5" Type="1" />
+    <UnLockInterval>-1</UnLockInterval>
+  </ItemData>
+  <ItemData ItemID="25066" Name="Thương sĩ ngô gia" IconBundleDir="Icon/PetImage.unity3d" IconAtlasName="EquipIcon2"
+    MapSpriteBundleDir="Resources/Item/MapSprite.unity3d" MapSpriteAtlasName="MapSprite" Kind="Đồng hành" QualityPrefix="0" Category="1" Genre="1"
+    Stack="1" DetailType="20" ParticularType="24" Level="3" SuiteID="0" Icon="icon_dh" View="icon_dh_s" Intro="" Help="" ObjID="33" BindType="1"
+    Series="0" ReqLevel="0" CDType="0" Price="0" ItemValue="100000" MakeCost="-1" ResMale="-1" ResFemale="-1" FightPower="3" ScriptID="-1"
+    DeductOnUse="false" BuffID="-1">
+    <PetAttr TotalAttr="12000" NumberSkill="-1" MaxLevel="120" LVSkill="5" Type="1" />
+    <UnLockInterval>-1</UnLockInterval>
+  </ItemData>
+  <ItemData ItemID="25067" Name="Hường thủy tử sĩ" IconBundleDir="Icon/PetImage.unity3d" IconAtlasName="EquipIcon2"
+    MapSpriteBundleDir="Resources/Item/MapSprite.unity3d" MapSpriteAtlasName="MapSprite" Kind="Đồng hành" QualityPrefix="0" Category="1" Genre="1"
+    Stack="1" DetailType="20" ParticularType="24" Level="3" SuiteID="0" Icon="icon_dh" View="icon_dh_s" Intro="" Help="" ObjID="33" BindType="1"
+    Series="0" ReqLevel="0" CDType="0" Price="0" ItemValue="100000" MakeCost="-1" ResMale="-1" ResFemale="-1" FightPower="3" ScriptID="-1"
+    DeductOnUse="false" BuffID="-1">
+    <PetAttr TotalAttr="12000" NumberSkill="-1" MaxLevel="120" LVSkill="5" Type="1" />
+    <UnLockInterval>-1</UnLockInterval>
+  </ItemData>
+  <ItemData ItemID="25068" Name="Đao binh ngô gia" IconBundleDir="Icon/PetImage.unity3d" IconAtlasName="EquipIcon2"
+    MapSpriteBundleDir="Resources/Item/MapSprite.unity3d" MapSpriteAtlasName="MapSprite" Kind="Đồng hành" QualityPrefix="0" Category="1" Genre="1"
+    Stack="1" DetailType="20" ParticularType="24" Level="3" SuiteID="0" Icon="icon_dh" View="icon_dh_s" Intro="" Help="" ObjID="33" BindType="1"
+    Series="0" ReqLevel="0" CDType="0" Price="0" ItemValue="100000" MakeCost="-1" ResMale="-1" ResFemale="-1" FightPower="3" ScriptID="-1"
+    DeductOnUse="false" BuffID="-1">
+    <PetAttr TotalAttr="12000" NumberSkill="-1" MaxLevel="120" LVSkill="5" Type="1" />
+    <UnLockInterval>-1</UnLockInterval>
+  </ItemData>
+  <ItemData ItemID="25069" Name="Đà thủ tào bang" IconBundleDir="Icon/PetImage.unity3d" IconAtlasName="EquipIcon2"
+    MapSpriteBundleDir="Resources/Item/MapSprite.unity3d" MapSpriteAtlasName="MapSprite" Kind="Đồng hành" QualityPrefix="0" Category="1" Genre="1"
+    Stack="1" DetailType="20" ParticularType="24" Level="3" SuiteID="0" Icon="icon_dh" View="icon_dh_s" Intro="" Help="" ObjID="33" BindType="1"
+    Series="0" ReqLevel="0" CDType="0" Price="0" ItemValue="100000" MakeCost="-1" ResMale="-1" ResFemale="-1" FightPower="3" ScriptID="-1"
+    DeductOnUse="false" BuffID="-1">
+    <PetAttr TotalAttr="12000" NumberSkill="-1" MaxLevel="120" LVSkill="5" Type="1" />
+    <UnLockInterval>-1</UnLockInterval>
+  </ItemData>
+  <ItemData ItemID="25070" Name="Thủ lĩnh tào bang" IconBundleDir="Icon/PetImage.unity3d" IconAtlasName="EquipIcon2"
+    MapSpriteBundleDir="Resources/Item/MapSprite.unity3d" MapSpriteAtlasName="MapSprite" Kind="Đồng hành" QualityPrefix="0" Category="1" Genre="1"
+    Stack="1" DetailType="20" ParticularType="24" Level="3" SuiteID="0" Icon="icon_dh" View="icon_dh_s" Intro="" Help="" ObjID="33" BindType="1"
+    Series="0" ReqLevel="0" CDType="0" Price="0" ItemValue="100000" MakeCost="-1" ResMale="-1" ResFemale="-1" FightPower="3" ScriptID="-1"
+    DeductOnUse="false" BuffID="-1">
+    <PetAttr TotalAttr="12000" NumberSkill="-1" MaxLevel="120" LVSkill="5" Type="1" />
+    <UnLockInterval>-1</UnLockInterval>
+  </ItemData>
+  <ItemData ItemID="25071" Name="Quan văn tị nạn" IconBundleDir="Icon/PetImage.unity3d" IconAtlasName="EquipIcon2"
+    MapSpriteBundleDir="Resources/Item/MapSprite.unity3d" MapSpriteAtlasName="MapSprite" Kind="Đồng hành" QualityPrefix="0" Category="1" Genre="1"
+    Stack="1" DetailType="20" ParticularType="24" Level="3" SuiteID="0" Icon="icon_dh" View="icon_dh_s" Intro="" Help="" ObjID="33" BindType="1"
+    Series="0" ReqLevel="0" CDType="0" Price="0" ItemValue="100000" MakeCost="-1" ResMale="-1" ResFemale="-1" FightPower="3" ScriptID="-1"
+    DeductOnUse="false" BuffID="-1">
+    <PetAttr TotalAttr="12000" NumberSkill="-1" MaxLevel="120" LVSkill="5" Type="1" />
+    <UnLockInterval>-1</UnLockInterval>
+  </ItemData>
+  <ItemData ItemID="25072" Name="Quan võ tị nạn" IconBundleDir="Icon/PetImage.unity3d" IconAtlasName="EquipIcon2"
+    MapSpriteBundleDir="Resources/Item/MapSprite.unity3d" MapSpriteAtlasName="MapSprite" Kind="Đồng hành" QualityPrefix="0" Category="1" Genre="1"
+    Stack="1" DetailType="20" ParticularType="24" Level="3" SuiteID="0" Icon="icon_dh" View="icon_dh_s" Intro="" Help="" ObjID="33" BindType="1"
+    Series="0" ReqLevel="0" CDType="0" Price="0" ItemValue="100000" MakeCost="-1" ResMale="-1" ResFemale="-1" FightPower="3" ScriptID="-1"
+    DeductOnUse="false" BuffID="-1">
+    <PetAttr TotalAttr="12000" NumberSkill="-1" MaxLevel="120" LVSkill="5" Type="1" />
+    <UnLockInterval>-1</UnLockInterval>
+  </ItemData>
+  <ItemData ItemID="25073" Name="Cấm quân đại tống" IconBundleDir="Icon/PetImage.unity3d" IconAtlasName="EquipIcon2"
+    MapSpriteBundleDir="Resources/Item/MapSprite.unity3d" MapSpriteAtlasName="MapSprite" Kind="Đồng hành" QualityPrefix="0" Category="1" Genre="1"
+    Stack="1" DetailType="20" ParticularType="24" Level="3" SuiteID="0" Icon="icon_dh" View="icon_dh_s" Intro="" Help="" ObjID="33" BindType="1"
+    Series="0" ReqLevel="0" CDType="0" Price="0" ItemValue="100000" MakeCost="-1" ResMale="-1" ResFemale="-1" FightPower="3" ScriptID="-1"
+    DeductOnUse="false" BuffID="-1">
+    <PetAttr TotalAttr="12000" NumberSkill="-1" MaxLevel="120" LVSkill="5" Type="1" />
+    <UnLockInterval>-1</UnLockInterval>
+  </ItemData>
+  <ItemData ItemID="25074" Name="Bang chúng tào bang" IconBundleDir="Icon/PetImage.unity3d" IconAtlasName="EquipIcon2"
+    MapSpriteBundleDir="Resources/Item/MapSprite.unity3d" MapSpriteAtlasName="MapSprite" Kind="Đồng hành" QualityPrefix="0" Category="1" Genre="1"
+    Stack="1" DetailType="20" ParticularType="24" Level="3" SuiteID="0" Icon="icon_dh" View="icon_dh_s" Intro="" Help="" ObjID="33" BindType="1"
+    Series="0" ReqLevel="0" CDType="0" Price="0" ItemValue="100000" MakeCost="-1" ResMale="-1" ResFemale="-1" FightPower="3" ScriptID="-1"
+    DeductOnUse="false" BuffID="-1">
+    <PetAttr TotalAttr="12000" NumberSkill="-1" MaxLevel="120" LVSkill="5" Type="1" />
+    <UnLockInterval>-1</UnLockInterval>
+  </ItemData>
+  <ItemData ItemID="25075" Name="Thủ quân lâm an" IconBundleDir="Icon/PetImage.unity3d" IconAtlasName="EquipIcon2"
+    MapSpriteBundleDir="Resources/Item/MapSprite.unity3d" MapSpriteAtlasName="MapSprite" Kind="Đồng hành" QualityPrefix="0" Category="1" Genre="1"
+    Stack="1" DetailType="20" ParticularType="24" Level="3" SuiteID="0" Icon="icon_dh" View="icon_dh_s" Intro="" Help="" ObjID="33" BindType="1"
+    Series="0" ReqLevel="0" CDType="0" Price="0" ItemValue="100000" MakeCost="-1" ResMale="-1" ResFemale="-1" FightPower="3" ScriptID="-1"
+    DeductOnUse="false" BuffID="-1">
+    <PetAttr TotalAttr="12000" NumberSkill="-1" MaxLevel="120" LVSkill="5" Type="1" />
+    <UnLockInterval>-1</UnLockInterval>
+  </ItemData>
+  <ItemData ItemID="25076" Name="Võ sư mã bang" IconBundleDir="Icon/PetImage.unity3d" IconAtlasName="EquipIcon2"
+    MapSpriteBundleDir="Resources/Item/MapSprite.unity3d" MapSpriteAtlasName="MapSprite" Kind="Đồng hành" QualityPrefix="0" Category="1" Genre="1"
+    Stack="1" DetailType="20" ParticularType="24" Level="3" SuiteID="0" Icon="icon_dh" View="icon_dh_s" Intro="" Help="" ObjID="33" BindType="1"
+    Series="0" ReqLevel="0" CDType="0" Price="0" ItemValue="100000" MakeCost="-1" ResMale="-1" ResFemale="-1" FightPower="3" ScriptID="-1"
+    DeductOnUse="false" BuffID="-1">
+    <PetAttr TotalAttr="12000" NumberSkill="-1" MaxLevel="120" LVSkill="5" Type="1" />
+    <UnLockInterval>-1</UnLockInterval>
+  </ItemData>
+  <ItemData ItemID="25077" Name="Ô man thần vu" IconBundleDir="Icon/PetImage.unity3d" IconAtlasName="EquipIcon2"
+    MapSpriteBundleDir="Resources/Item/MapSprite.unity3d" MapSpriteAtlasName="MapSprite" Kind="Đồng hành" QualityPrefix="0" Category="1" Genre="1"
+    Stack="1" DetailType="20" ParticularType="24" Level="3" SuiteID="0" Icon="icon_dh" View="icon_dh_s" Intro="" Help="" ObjID="33" BindType="1"
+    Series="0" ReqLevel="0" CDType="0" Price="0" ItemValue="100000" MakeCost="-1" ResMale="-1" ResFemale="-1" FightPower="3" ScriptID="-1"
+    DeductOnUse="false" BuffID="-1">
+    <PetAttr TotalAttr="12000" NumberSkill="-1" MaxLevel="120" LVSkill="5" Type="1" />
+    <UnLockInterval>-1</UnLockInterval>
+  </ItemData>
+  <ItemData ItemID="25078" Name="Ô man binh sĩ" IconBundleDir="Icon/PetImage.unity3d" IconAtlasName="EquipIcon2"
+    MapSpriteBundleDir="Resources/Item/MapSprite.unity3d" MapSpriteAtlasName="MapSprite" Kind="Đồng hành" QualityPrefix="0" Category="1" Genre="1"
+    Stack="1" DetailType="20" ParticularType="24" Level="3" SuiteID="0" Icon="icon_dh" View="icon_dh_s" Intro="" Help="" ObjID="33" BindType="1"
+    Series="0" ReqLevel="0" CDType="0" Price="0" ItemValue="100000" MakeCost="-1" ResMale="-1" ResFemale="-1" FightPower="3" ScriptID="-1"
+    DeductOnUse="false" BuffID="-1">
+    <PetAttr TotalAttr="12000" NumberSkill="-1" MaxLevel="120" LVSkill="5" Type="1" />
+    <UnLockInterval>-1</UnLockInterval>
+  </ItemData>
+  <ItemData ItemID="25079" Name="Ô man cung thủ" IconBundleDir="Icon/PetImage.unity3d" IconAtlasName="EquipIcon2"
+    MapSpriteBundleDir="Resources/Item/MapSprite.unity3d" MapSpriteAtlasName="MapSprite" Kind="Đồng hành" QualityPrefix="0" Category="1" Genre="1"
+    Stack="1" DetailType="20" ParticularType="24" Level="3" SuiteID="0" Icon="icon_dh" View="icon_dh_s" Intro="" Help="" ObjID="33" BindType="1"
+    Series="0" ReqLevel="0" CDType="0" Price="0" ItemValue="100000" MakeCost="-1" ResMale="-1" ResFemale="-1" FightPower="3" ScriptID="-1"
+    DeductOnUse="false" BuffID="-1">
+    <PetAttr TotalAttr="12000" NumberSkill="-1" MaxLevel="120" LVSkill="5" Type="1" />
+    <UnLockInterval>-1</UnLockInterval>
+  </ItemData>
+
+  <ItemData ItemID="25080" Name="Quải tử" IconBundleDir="Icon/PetImage.unity3d" IconAtlasName="EquipIcon2"
+    MapSpriteBundleDir="Resources/Item/MapSprite.unity3d" MapSpriteAtlasName="MapSprite" Kind="Đồng hành" QualityPrefix="0" Category="1" Genre="1"
+    Stack="1" DetailType="20" ParticularType="24" Level="3" SuiteID="0" Icon="icon_dh" View="icon_dh_s" Intro="" Help="" ObjID="33" BindType="1"
+    Series="0" ReqLevel="0" CDType="0" Price="0" ItemValue="100000" MakeCost="-1" ResMale="-1" ResFemale="-1" FightPower="3" ScriptID="-1"
+    DeductOnUse="false" BuffID="-1">
+    <PetAttr TotalAttr="12000" NumberSkill="-1" MaxLevel="120" LVSkill="5" Type="1" />
+    <UnLockInterval>-1</UnLockInterval>
+  </ItemData>
+  <ItemData ItemID="25081" Name="Đại phu mông cổ" IconBundleDir="Icon/PetImage.unity3d" IconAtlasName="EquipIcon2"
+    MapSpriteBundleDir="Resources/Item/MapSprite.unity3d" MapSpriteAtlasName="MapSprite" Kind="Đồng hành" QualityPrefix="0" Category="1" Genre="1"
+    Stack="1" DetailType="20" ParticularType="24" Level="3" SuiteID="0" Icon="icon_dh" View="icon_dh_s" Intro="" Help="" ObjID="33" BindType="1"
+    Series="0" ReqLevel="0" CDType="0" Price="0" ItemValue="100000" MakeCost="-1" ResMale="-1" ResFemale="-1" FightPower="3" ScriptID="-1"
+    DeductOnUse="false" BuffID="-1">
+    <PetAttr TotalAttr="12000" NumberSkill="-1" MaxLevel="120" LVSkill="5" Type="1" />
+    <UnLockInterval>-1</UnLockInterval>
+  </ItemData>
+  <ItemData ItemID="25082" Name="Kiếm khách giang hồ" IconBundleDir="Icon/PetImage.unity3d" IconAtlasName="EquipIcon2"
+    MapSpriteBundleDir="Resources/Item/MapSprite.unity3d" MapSpriteAtlasName="MapSprite" Kind="Đồng hành" QualityPrefix="0" Category="1" Genre="1"
+    Stack="1" DetailType="20" ParticularType="24" Level="3" SuiteID="0" Icon="icon_dh" View="icon_dh_s" Intro="" Help="" ObjID="33" BindType="1"
+    Series="0" ReqLevel="0" CDType="0" Price="0" ItemValue="100000" MakeCost="-1" ResMale="-1" ResFemale="-1" FightPower="3" ScriptID="-1"
+    DeductOnUse="false" BuffID="-1">
+    <PetAttr TotalAttr="12000" NumberSkill="-1" MaxLevel="120" LVSkill="5" Type="1" />
+    <UnLockInterval>-1</UnLockInterval>
+  </ItemData>
+  <ItemData ItemID="25083" Name="Tích lịch chùy " IconBundleDir="Icon/PetImage.unity3d" IconAtlasName="EquipIcon2"
+    MapSpriteBundleDir="Resources/Item/MapSprite.unity3d" MapSpriteAtlasName="MapSprite" Kind="Đồng hành" QualityPrefix="0" Category="1" Genre="1"
+    Stack="1" DetailType="20" ParticularType="24" Level="3" SuiteID="0" Icon="icon_dh" View="icon_dh_s" Intro="" Help="" ObjID="33" BindType="1"
+    Series="0" ReqLevel="0" CDType="0" Price="0" ItemValue="100000" MakeCost="-1" ResMale="-1" ResFemale="-1" FightPower="3" ScriptID="-1"
+    DeductOnUse="false" BuffID="-1">
+    <PetAttr TotalAttr="12000" NumberSkill="-1" MaxLevel="120" LVSkill="5" Type="1" />
+    <UnLockInterval>-1</UnLockInterval>
+  </ItemData>
+  <ItemData ItemID="25084" Name="Vân du hiệp khách" IconBundleDir="Icon/PetImage.unity3d" IconAtlasName="EquipIcon2"
+    MapSpriteBundleDir="Resources/Item/MapSprite.unity3d" MapSpriteAtlasName="MapSprite" Kind="Đồng hành" QualityPrefix="0" Category="1" Genre="1"
+    Stack="1" DetailType="20" ParticularType="24" Level="3" SuiteID="0" Icon="icon_dh" View="icon_dh_s" Intro="" Help="" ObjID="33" BindType="1"
+    Series="0" ReqLevel="0" CDType="0" Price="0" ItemValue="100000" MakeCost="-1" ResMale="-1" ResFemale="-1" FightPower="3" ScriptID="-1"
+    DeductOnUse="false" BuffID="-1">
+    <PetAttr TotalAttr="12000" NumberSkill="-1" MaxLevel="120" LVSkill="5" Type="1" />
+    <UnLockInterval>-1</UnLockInterval>
+  </ItemData>
+  <ItemData ItemID="25085" Name="Bách hoa hộ pháp" IconBundleDir="Icon/PetImage.unity3d" IconAtlasName="EquipIcon2"
+    MapSpriteBundleDir="Resources/Item/MapSprite.unity3d" MapSpriteAtlasName="MapSprite" Kind="Đồng hành" QualityPrefix="0" Category="1" Genre="1"
+    Stack="1" DetailType="20" ParticularType="24" Level="3" SuiteID="0" Icon="icon_dh" View="icon_dh_s" Intro="" Help="" ObjID="33" BindType="1"
+    Series="0" ReqLevel="0" CDType="0" Price="0" ItemValue="100000" MakeCost="-1" ResMale="-1" ResFemale="-1" FightPower="3" ScriptID="-1"
+    DeductOnUse="false" BuffID="-1">
+    <PetAttr TotalAttr="12000" NumberSkill="-1" MaxLevel="120" LVSkill="5" Type="1" />
+    <UnLockInterval>-1</UnLockInterval>
+  </ItemData>
+  <ItemData ItemID="25086" Name="Điện quang mâu" IconBundleDir="Icon/PetImage.unity3d" IconAtlasName="EquipIcon2"
+    MapSpriteBundleDir="Resources/Item/MapSprite.unity3d" MapSpriteAtlasName="MapSprite" Kind="Đồng hành" QualityPrefix="0" Category="1" Genre="1"
+    Stack="1" DetailType="20" ParticularType="24" Level="3" SuiteID="0" Icon="icon_dh" View="icon_dh_s" Intro="" Help="" ObjID="33" BindType="1"
+    Series="0" ReqLevel="0" CDType="0" Price="0" ItemValue="100000" MakeCost="-1" ResMale="-1" ResFemale="-1" FightPower="3" ScriptID="-1"
+    DeductOnUse="false" BuffID="-1">
+    <PetAttr TotalAttr="12000" NumberSkill="-1" MaxLevel="120" LVSkill="5" Type="1" />
+    <UnLockInterval>-1</UnLockInterval>
+  </ItemData>
+  <ItemData ItemID="25087" Name="Thạch thành liệt binh " IconBundleDir="Icon/PetImage.unity3d" IconAtlasName="EquipIcon2"
+    MapSpriteBundleDir="Resources/Item/MapSprite.unity3d" MapSpriteAtlasName="MapSprite" Kind="Đồng hành" QualityPrefix="0" Category="1" Genre="1"
+    Stack="1" DetailType="20" ParticularType="24" Level="3" SuiteID="0" Icon="icon_dh" View="icon_dh_s" Intro="" Help="" ObjID="33" BindType="1"
+    Series="0" ReqLevel="0" CDType="0" Price="0" ItemValue="100000" MakeCost="-1" ResMale="-1" ResFemale="-1" FightPower="3" ScriptID="-1"
+    DeductOnUse="false" BuffID="-1">
+    <PetAttr TotalAttr="12000" NumberSkill="-1" MaxLevel="120" LVSkill="5" Type="1" />
+    <UnLockInterval>-1</UnLockInterval>
+  </ItemData>
+  <ItemData ItemID="25088" Name="Tầm bảo lữ nhân" IconBundleDir="Icon/PetImage.unity3d" IconAtlasName="EquipIcon2"
+    MapSpriteBundleDir="Resources/Item/MapSprite.unity3d" MapSpriteAtlasName="MapSprite" Kind="Đồng hành" QualityPrefix="0" Category="1" Genre="1"
+    Stack="1" DetailType="20" ParticularType="24" Level="3" SuiteID="0" Icon="icon_dh" View="icon_dh_s" Intro="" Help="" ObjID="33" BindType="1"
+    Series="0" ReqLevel="0" CDType="0" Price="0" ItemValue="100000" MakeCost="-1" ResMale="-1" ResFemale="-1" FightPower="3" ScriptID="-1"
+    DeductOnUse="false" BuffID="-1">
+    <PetAttr TotalAttr="12000" NumberSkill="-1" MaxLevel="120" LVSkill="5" Type="1" />
+    <UnLockInterval>-1</UnLockInterval>
+  </ItemData>
+  <ItemData ItemID="25089" Name="Võ sư mã bang" IconBundleDir="Icon/PetImage.unity3d" IconAtlasName="EquipIcon2"
+    MapSpriteBundleDir="Resources/Item/MapSprite.unity3d" MapSpriteAtlasName="MapSprite" Kind="Đồng hành" QualityPrefix="0" Category="1" Genre="1"
+    Stack="1" DetailType="20" ParticularType="24" Level="3" SuiteID="0" Icon="icon_dh" View="icon_dh_s" Intro="" Help="" ObjID="33" BindType="1"
+    Series="0" ReqLevel="0" CDType="0" Price="0" ItemValue="100000" MakeCost="-1" ResMale="-1" ResFemale="-1" FightPower="3" ScriptID="-1"
+    DeductOnUse="false" BuffID="-1">
+    <PetAttr TotalAttr="12000" NumberSkill="-1" MaxLevel="120" LVSkill="5" Type="1" />
+    <UnLockInterval>-1</UnLockInterval>
+  </ItemData>
+  <ItemData ItemID="25090" Name="Thôi thủ mã bang" IconBundleDir="Icon/PetImage.unity3d" IconAtlasName="EquipIcon2"
+    MapSpriteBundleDir="Resources/Item/MapSprite.unity3d" MapSpriteAtlasName="MapSprite" Kind="Đồng hành" QualityPrefix="0" Category="1" Genre="1"
+    Stack="1" DetailType="20" ParticularType="24" Level="3" SuiteID="0" Icon="icon_dh" View="icon_dh_s" Intro="" Help="" ObjID="33" BindType="1"
+    Series="0" ReqLevel="0" CDType="0" Price="0" ItemValue="100000" MakeCost="-1" ResMale="-1" ResFemale="-1" FightPower="3" ScriptID="-1"
+    DeductOnUse="false" BuffID="-1">
+    <PetAttr TotalAttr="12000" NumberSkill="-1" MaxLevel="120" LVSkill="5" Type="1" />
+    <UnLockInterval>-1</UnLockInterval>
+  </ItemData>
+  <ItemData ItemID="25091" Name="Hoàng cân khách" IconBundleDir="Icon/PetImage.unity3d" IconAtlasName="EquipIcon2"
+    MapSpriteBundleDir="Resources/Item/MapSprite.unity3d" MapSpriteAtlasName="MapSprite" Kind="Đồng hành" QualityPrefix="0" Category="1" Genre="1"
+    Stack="1" DetailType="20" ParticularType="24" Level="3" SuiteID="0" Icon="icon_dh" View="icon_dh_s" Intro="" Help="" ObjID="33" BindType="1"
+    Series="0" ReqLevel="0" CDType="0" Price="0" ItemValue="100000" MakeCost="-1" ResMale="-1" ResFemale="-1" FightPower="3" ScriptID="-1"
+    DeductOnUse="false" BuffID="-1">
+    <PetAttr TotalAttr="12000" NumberSkill="-1" MaxLevel="120" LVSkill="5" Type="1" />
+    <UnLockInterval>-1</UnLockInterval>
+  </ItemData>
+  <ItemData ItemID="25092" Name="Gián điệp kim quốc" IconBundleDir="Icon/PetImage.unity3d" IconAtlasName="EquipIcon2"
+    MapSpriteBundleDir="Resources/Item/MapSprite.unity3d" MapSpriteAtlasName="MapSprite" Kind="Đồng hành" QualityPrefix="0" Category="1" Genre="1"
+    Stack="1" DetailType="20" ParticularType="24" Level="3" SuiteID="0" Icon="icon_dh" View="icon_dh_s" Intro="" Help="" ObjID="33" BindType="1"
+    Series="0" ReqLevel="0" CDType="0" Price="0" ItemValue="100000" MakeCost="-1" ResMale="-1" ResFemale="-1" FightPower="3" ScriptID="-1"
+    DeductOnUse="false" BuffID="-1">
+    <PetAttr TotalAttr="12000" NumberSkill="-1" MaxLevel="120" LVSkill="5" Type="1" />
+    <UnLockInterval>-1</UnLockInterval>
+  </ItemData>
+  <ItemData ItemID="25093" Name="Lam diện nhân" IconBundleDir="Icon/PetImage.unity3d" IconAtlasName="EquipIcon2"
+    MapSpriteBundleDir="Resources/Item/MapSprite.unity3d" MapSpriteAtlasName="MapSprite" Kind="Đồng hành" QualityPrefix="0" Category="1" Genre="1"
+    Stack="1" DetailType="20" ParticularType="24" Level="3" SuiteID="0" Icon="icon_dh" View="icon_dh_s" Intro="" Help="" ObjID="33" BindType="1"
+    Series="0" ReqLevel="0" CDType="0" Price="0" ItemValue="100000" MakeCost="-1" ResMale="-1" ResFemale="-1" FightPower="3" ScriptID="-1"
+    DeductOnUse="false" BuffID="-1">
+    <PetAttr TotalAttr="12000" NumberSkill="-1" MaxLevel="120" LVSkill="5" Type="1" />
+    <UnLockInterval>-1</UnLockInterval>
+  </ItemData>
+  <ItemData ItemID="25094" Name="Đệ tử bái sư " IconBundleDir="Icon/PetImage.unity3d" IconAtlasName="EquipIcon2"
+    MapSpriteBundleDir="Resources/Item/MapSprite.unity3d" MapSpriteAtlasName="MapSprite" Kind="Đồng hành" QualityPrefix="0" Category="1" Genre="1"
+    Stack="1" DetailType="20" ParticularType="24" Level="3" SuiteID="0" Icon="icon_dh" View="icon_dh_s" Intro="" Help="" ObjID="33" BindType="1"
+    Series="0" ReqLevel="0" CDType="0" Price="0" ItemValue="100000" MakeCost="-1" ResMale="-1" ResFemale="-1" FightPower="3" ScriptID="-1"
+    DeductOnUse="false" BuffID="-1">
+    <PetAttr TotalAttr="12000" NumberSkill="-1" MaxLevel="120" LVSkill="5" Type="1" />
+    <UnLockInterval>-1</UnLockInterval>
+  </ItemData>
+  <ItemData ItemID="25095" Name="Thích khách bịt mặt" IconBundleDir="Icon/PetImage.unity3d" IconAtlasName="EquipIcon2"
+    MapSpriteBundleDir="Resources/Item/MapSprite.unity3d" MapSpriteAtlasName="MapSprite" Kind="Đồng hành" QualityPrefix="0" Category="1" Genre="1"
+    Stack="1" DetailType="20" ParticularType="24" Level="3" SuiteID="0" Icon="icon_dh" View="icon_dh_s" Intro="" Help="" ObjID="33" BindType="1"
+    Series="0" ReqLevel="0" CDType="0" Price="0" ItemValue="100000" MakeCost="-1" ResMale="-1" ResFemale="-1" FightPower="3" ScriptID="-1"
+    DeductOnUse="false" BuffID="-1">
+    <PetAttr TotalAttr="12000" NumberSkill="-1" MaxLevel="120" LVSkill="5" Type="1" />
+    <UnLockInterval>-1</UnLockInterval>
+  </ItemData>
+  <ItemData ItemID="25096" Name="Đào phạm" IconBundleDir="Icon/PetImage.unity3d" IconAtlasName="EquipIcon2"
+    MapSpriteBundleDir="Resources/Item/MapSprite.unity3d" MapSpriteAtlasName="MapSprite" Kind="Đồng hành" QualityPrefix="0" Category="1" Genre="1"
+    Stack="1" DetailType="20" ParticularType="24" Level="3" SuiteID="0" Icon="icon_dh" View="icon_dh_s" Intro="" Help="" ObjID="33" BindType="1"
+    Series="0" ReqLevel="0" CDType="0" Price="0" ItemValue="100000" MakeCost="-1" ResMale="-1" ResFemale="-1" FightPower="3" ScriptID="-1"
+    DeductOnUse="false" BuffID="-1">
+    <PetAttr TotalAttr="12000" NumberSkill="-1" MaxLevel="120" LVSkill="5" Type="1" />
+    <UnLockInterval>-1</UnLockInterval>
+  </ItemData>
+  <ItemData ItemID="25097" Name=" Hắc thủy đao khách" IconBundleDir="Icon/PetImage.unity3d" IconAtlasName="EquipIcon2"
+    MapSpriteBundleDir="Resources/Item/MapSprite.unity3d" MapSpriteAtlasName="MapSprite" Kind="Đồng hành" QualityPrefix="0" Category="1" Genre="1"
+    Stack="1" DetailType="20" ParticularType="24" Level="3" SuiteID="0" Icon="icon_dh" View="icon_dh_s" Intro="" Help="" ObjID="33" BindType="1"
+    Series="0" ReqLevel="0" CDType="0" Price="0" ItemValue="100000" MakeCost="-1" ResMale="-1" ResFemale="-1" FightPower="3" ScriptID="-1"
+    DeductOnUse="false" BuffID="-1">
+    <PetAttr TotalAttr="12000" NumberSkill="-1" MaxLevel="120" LVSkill="5" Type="1" />
+    <UnLockInterval>-1</UnLockInterval>
+  </ItemData>
+  <ItemData ItemID="25098" Name="Hắc thủy kiếm sĩ" IconBundleDir="Icon/PetImage.unity3d" IconAtlasName="EquipIcon2"
+    MapSpriteBundleDir="Resources/Item/MapSprite.unity3d" MapSpriteAtlasName="MapSprite" Kind="Đồng hành" QualityPrefix="0" Category="1" Genre="1"
+    Stack="1" DetailType="20" ParticularType="24" Level="3" SuiteID="0" Icon="icon_dh" View="icon_dh_s" Intro="" Help="" ObjID="33" BindType="1"
+    Series="0" ReqLevel="0" CDType="0" Price="0" ItemValue="100000" MakeCost="-1" ResMale="-1" ResFemale="-1" FightPower="3" ScriptID="-1"
+    DeductOnUse="false" BuffID="-1">
+    <PetAttr TotalAttr="12000" NumberSkill="-1" MaxLevel="120" LVSkill="5" Type="1" />
+    <UnLockInterval>-1</UnLockInterval>
+  </ItemData>
+  <ItemData ItemID="25099" Name="Hành cước thương nhân" IconBundleDir="Icon/PetImage.unity3d" IconAtlasName="EquipIcon2"
+    MapSpriteBundleDir="Resources/Item/MapSprite.unity3d" MapSpriteAtlasName="MapSprite" Kind="Đồng hành" QualityPrefix="0" Category="1" Genre="1"
+    Stack="1" DetailType="20" ParticularType="24" Level="3" SuiteID="0" Icon="icon_dh" View="icon_dh_s" Intro="" Help="" ObjID="33" BindType="1"
+    Series="0" ReqLevel="0" CDType="0" Price="0" ItemValue="100000" MakeCost="-1" ResMale="-1" ResFemale="-1" FightPower="3" ScriptID="-1"
+    DeductOnUse="false" BuffID="-1">
+    <PetAttr TotalAttr="12000" NumberSkill="-1" MaxLevel="120" LVSkill="5" Type="1" />
+    <UnLockInterval>-1</UnLockInterval>
+  </ItemData>
+  <ItemData ItemID="25100" Name="Vũ nữ nam man" IconBundleDir="Icon/PetImage.unity3d" IconAtlasName="EquipIcon2"
+    MapSpriteBundleDir="Resources/Item/MapSprite.unity3d" MapSpriteAtlasName="MapSprite" Kind="Đồng hành" QualityPrefix="0" Category="1" Genre="1"
+    Stack="1" DetailType="20" ParticularType="24" Level="3" SuiteID="0" Icon="icon_dh" View="icon_dh_s" Intro="" Help="" ObjID="33" BindType="1"
+    Series="0" ReqLevel="0" CDType="0" Price="0" ItemValue="100000" MakeCost="-1" ResMale="-1" ResFemale="-1" FightPower="3" ScriptID="-1"
+    DeductOnUse="false" BuffID="-1">
+    <PetAttr TotalAttr="12000" NumberSkill="-1" MaxLevel="120" LVSkill="5" Type="1" />
+    <UnLockInterval>-1</UnLockInterval>
+  </ItemData>
+  <ItemData ItemID="25101" Name="Bạo Dân Sơn Nam" IconBundleDir="Icon/PetImage.unity3d" IconAtlasName="EquipIcon2"
+    MapSpriteBundleDir="Resources/Item/MapSprite.unity3d" MapSpriteAtlasName="MapSprite" Kind="Đồng hành" QualityPrefix="0" Category="1" Genre="1"
+    Stack="1" DetailType="20" ParticularType="24" Level="3" SuiteID="0" Icon="icon_dh" View="icon_dh_s" Intro="" Help="" ObjID="33" BindType="1"
+    Series="0" ReqLevel="0" CDType="0" Price="0" ItemValue="100000" MakeCost="-1" ResMale="-1" ResFemale="-1" FightPower="3" ScriptID="-1"
+    DeductOnUse="false" BuffID="-1">
+    <PetAttr TotalAttr="12000" NumberSkill="-1" MaxLevel="120" LVSkill="5" Type="1" />
+    <UnLockInterval>-1</UnLockInterval>
+  </ItemData>
+  <ItemData ItemID="25102" Name="Tham khách" IconBundleDir="Icon/PetImage.unity3d" IconAtlasName="EquipIcon2"
+    MapSpriteBundleDir="Resources/Item/MapSprite.unity3d" MapSpriteAtlasName="MapSprite" Kind="Đồng hành" QualityPrefix="0" Category="1" Genre="1"
+    Stack="1" DetailType="20" ParticularType="24" Level="3" SuiteID="0" Icon="icon_dh" View="icon_dh_s" Intro="" Help="" ObjID="33" BindType="1"
+    Series="0" ReqLevel="0" CDType="0" Price="0" ItemValue="100000" MakeCost="-1" ResMale="-1" ResFemale="-1" FightPower="3" ScriptID="-1"
+    DeductOnUse="false" BuffID="-1">
+    <PetAttr TotalAttr="12000" NumberSkill="-1" MaxLevel="120" LVSkill="5" Type="1" />
+    <UnLockInterval>-1</UnLockInterval>
+  </ItemData>
+  <ItemData ItemID="25255" Name="Hổ Vàng" IconBundleDir="Icon/PetImage.unity3d" IconAtlasName="EquipIcon2"
+    MapSpriteBundleDir="Resources/Item/MapSprite.unity3d" MapSpriteAtlasName="MapSprite" Kind="Đồng hành" QualityPrefix="0" Category="1" Genre="1"
+    Stack="1" DetailType="20" ParticularType="24" Level="3" SuiteID="0" Icon="icon_dh" View="icon_dh_s" Intro="" Help="" ObjID="33" BindType="1"
+    Series="0" ReqLevel="0" CDType="0" Price="0" ItemValue="100000" MakeCost="-1" ResMale="-1" ResFemale="-1" FightPower="3" ScriptID="-1"
+    DeductOnUse="false" BuffID="-1">
+    <PetAttr TotalAttr="12000" NumberSkill="-1" MaxLevel="120" LVSkill="5" Type="1" />
+    <UnLockInterval>-1</UnLockInterval>
+  </ItemData>
+  <ItemData ItemID="25256" Name="Gấu Con" IconBundleDir="Icon/PetImage.unity3d" IconAtlasName="EquipIcon2"
+    MapSpriteBundleDir="Resources/Item/MapSprite.unity3d" MapSpriteAtlasName="MapSprite" Kind="Đồng hành" QualityPrefix="0" Category="1" Genre="1"
+    Stack="1" DetailType="20" ParticularType="24" Level="3" SuiteID="0" Icon="icon_dh" View="icon_dh_s" Intro="" Help="" ObjID="33" BindType="1"
+    Series="0" ReqLevel="0" CDType="0" Price="0" ItemValue="100000" MakeCost="-1" ResMale="-1" ResFemale="-1" FightPower="3" ScriptID="-1"
+    DeductOnUse="false" BuffID="-1">
+    <PetAttr TotalAttr="12000" NumberSkill="-1" MaxLevel="120" LVSkill="5" Type="1" />
+    <UnLockInterval>-1</UnLockInterval>
+  </ItemData>
+  <ItemData ItemID="25257" Name="Khỉ Hoang Con" IconBundleDir="Icon/PetImage.unity3d" IconAtlasName="EquipIcon2"
+    MapSpriteBundleDir="Resources/Item/MapSprite.unity3d" MapSpriteAtlasName="MapSprite" Kind="Đồng hành" QualityPrefix="0" Category="1" Genre="1"
+    Stack="1" DetailType="20" ParticularType="24" Level="3" SuiteID="0" Icon="icon_dh" View="icon_dh_s" Intro="" Help="" ObjID="33" BindType="1"
+    Series="0" ReqLevel="0" CDType="0" Price="0" ItemValue="100000" MakeCost="-1" ResMale="-1" ResFemale="-1" FightPower="3" ScriptID="-1"
+    DeductOnUse="false" BuffID="-1">
+    <PetAttr TotalAttr="12000" NumberSkill="-1" MaxLevel="120" LVSkill="5" Type="1" />
+    <UnLockInterval>-1</UnLockInterval>
+  </ItemData>
+  <!--ItemData ItemID="25258" Name="Tham Khách" IconBundleDir="Icon/PetImage.unity3d" IconAtlasName="EquipIcon2"
+    MapSpriteBundleDir="Resources/Item/MapSprite.unity3d" MapSpriteAtlasName="MapSprite" Kind="Đồng hành" QualityPrefix="0" Category="1" Genre="1"
+    Stack="1" DetailType="20" ParticularType="24" Level="3" SuiteID="0" Icon="icon_dh" View="icon_dh_s" Intro="" Help="" ObjID="33" BindType="1"
+    Series="0" ReqLevel="0" CDType="0" Price="0" ItemValue="100000" MakeCost="-1" ResMale="-1" ResFemale="-1" FightPower="3" ScriptID="-1"
+    DeductOnUse="false" BuffID="-1">
+    <PetAttr TotalAttr="12000" NumberSkill="-1" MaxLevel="120" LVSkill="5" Type="1" />
+    <UnLockInterval>-1</UnLockInterval>
+  </ItemData-->
+  <ItemData ItemID="25259" Name="Cơ Quan Nhân Thô" IconBundleDir="Icon/PetImage.unity3d" IconAtlasName="EquipIcon2"
+    MapSpriteBundleDir="Resources/Item/MapSprite.unity3d" MapSpriteAtlasName="MapSprite" Kind="Đồng hành" QualityPrefix="0" Category="1" Genre="1"
+    Stack="1" DetailType="20" ParticularType="24" Level="3" SuiteID="0" Icon="icon_dh" View="icon_dh_s" Intro="" Help="" ObjID="33" BindType="1"
+    Series="0" ReqLevel="0" CDType="0" Price="0" ItemValue="100000" MakeCost="-1" ResMale="-1" ResFemale="-1" FightPower="3" ScriptID="-1"
+    DeductOnUse="false" BuffID="-1">
+    <PetAttr TotalAttr="12000" NumberSkill="-1" MaxLevel="120" LVSkill="5" Type="1" />
+    <UnLockInterval>-1</UnLockInterval>
+  </ItemData>
+  <ItemData ItemID="25260" Name="Cá Sấu" IconBundleDir="Icon/PetImage.unity3d" IconAtlasName="EquipIcon2"
+    MapSpriteBundleDir="Resources/Item/MapSprite.unity3d" MapSpriteAtlasName="MapSprite" Kind="Đồng hành" QualityPrefix="0" Category="1" Genre="1"
+    Stack="1" DetailType="20" ParticularType="24" Level="3" SuiteID="0" Icon="icon_dh" View="icon_dh_s" Intro="" Help="" ObjID="33" BindType="1"
+    Series="0" ReqLevel="0" CDType="0" Price="0" ItemValue="100000" MakeCost="-1" ResMale="-1" ResFemale="-1" FightPower="3" ScriptID="-1"
+    DeductOnUse="false" BuffID="-1">
+    <PetAttr TotalAttr="12000" NumberSkill="-1" MaxLevel="120" LVSkill="5" Type="1" />
+    <UnLockInterval>-1</UnLockInterval>
+  </ItemData>
+  <ItemData ItemID="25261" Name="Cơ Quan Thủ Phủ" IconBundleDir="Icon/PetImage.unity3d" IconAtlasName="EquipIcon2"
+    MapSpriteBundleDir="Resources/Item/MapSprite.unity3d" MapSpriteAtlasName="MapSprite" Kind="Đồng hành" QualityPrefix="0" Category="1" Genre="1"
+    Stack="1" DetailType="20" ParticularType="24" Level="3" SuiteID="0" Icon="icon_dh" View="icon_dh_s" Intro="" Help="" ObjID="33" BindType="1"
+    Series="0" ReqLevel="0" CDType="0" Price="0" ItemValue="100000" MakeCost="-1" ResMale="-1" ResFemale="-1" FightPower="3" ScriptID="-1"
+    DeductOnUse="false" BuffID="-1">
+    <PetAttr TotalAttr="12000" NumberSkill="-1" MaxLevel="120" LVSkill="5" Type="1" />
+    <UnLockInterval>-1</UnLockInterval>
+  </ItemData>
+  <ItemData ItemID="25262" Name="Đường Vũ" IconBundleDir="Icon/PetImage.unity3d" IconAtlasName="EquipIcon2"
+    MapSpriteBundleDir="Resources/Item/MapSprite.unity3d" MapSpriteAtlasName="MapSprite" Kind="Đồng hành" QualityPrefix="0" Category="1" Genre="1"
+    Stack="1" DetailType="20" ParticularType="24" Level="3" SuiteID="0" Icon="icon_dh" View="icon_dh_s" Intro="" Help="" ObjID="33" BindType="1"
+    Series="0" ReqLevel="0" CDType="0" Price="0" ItemValue="100000" MakeCost="-1" ResMale="-1" ResFemale="-1" FightPower="3" ScriptID="-1"
+    DeductOnUse="false" BuffID="-1">
+    <PetAttr TotalAttr="12000" NumberSkill="-1" MaxLevel="120" LVSkill="5" Type="1" />
+    <UnLockInterval>-1</UnLockInterval>
+  </ItemData>
+  <ItemData ItemID="25263" Name="Cơ Quan Nhân Thô" IconBundleDir="Icon/PetImage.unity3d" IconAtlasName="EquipIcon2"
+    MapSpriteBundleDir="Resources/Item/MapSprite.unity3d" MapSpriteAtlasName="MapSprite" Kind="Đồng hành" QualityPrefix="0" Category="1" Genre="1"
+    Stack="1" DetailType="20" ParticularType="24" Level="3" SuiteID="0" Icon="icon_dh" View="icon_dh_s" Intro="" Help="" ObjID="33" BindType="1"
+    Series="0" ReqLevel="0" CDType="0" Price="0" ItemValue="100000" MakeCost="-1" ResMale="-1" ResFemale="-1" FightPower="3" ScriptID="-1"
+    DeductOnUse="false" BuffID="-1">
+    <PetAttr TotalAttr="12000" NumberSkill="-1" MaxLevel="120" LVSkill="5" Type="1" />
+    <UnLockInterval>-1</UnLockInterval>
+  </ItemData>
+  <!--ItemData ItemID="25264" Name="Bạch Linh" IconBundleDir="Icon/PetImage.unity3d" IconAtlasName="EquipIcon2"
+    MapSpriteBundleDir="Resources/Item/MapSprite.unity3d" MapSpriteAtlasName="MapSprite" Kind="Đồng hành" QualityPrefix="0" Category="1" Genre="1"
+    Stack="1" DetailType="20" ParticularType="24" Level="3" SuiteID="0" Icon="icon_dh" View="icon_dh_s" Intro="" Help="" ObjID="33" BindType="1"
+    Series="0" ReqLevel="0" CDType="0" Price="0" ItemValue="100000" MakeCost="-1" ResMale="-1" ResFemale="-1" FightPower="3" ScriptID="-1"
+    DeductOnUse="false" BuffID="-1">
+    <PetAttr TotalAttr="12000" NumberSkill="-1" MaxLevel="120" LVSkill="5" Type="1" />
+    <UnLockInterval>-1</UnLockInterval>
+  </ItemData>
+  <ItemData ItemID="25265" Name="Hổ Con" IconBundleDir="Icon/PetImage.unity3d" IconAtlasName="EquipIcon2"
+    MapSpriteBundleDir="Resources/Item/MapSprite.unity3d" MapSpriteAtlasName="MapSprite" Kind="Đồng hành" QualityPrefix="0" Category="1" Genre="1"
+    Stack="1" DetailType="20" ParticularType="24" Level="3" SuiteID="0" Icon="icon_dh" View="icon_dh_s" Intro="" Help="" ObjID="33" BindType="1"
+    Series="0" ReqLevel="0" CDType="0" Price="0" ItemValue="100000" MakeCost="-1" ResMale="-1" ResFemale="-1" FightPower="3" ScriptID="-1"
+    DeductOnUse="false" BuffID="-1">
+    <PetAttr TotalAttr="12000" NumberSkill="-1" MaxLevel="120" LVSkill="5" Type="1" />
+    <UnLockInterval>-1</UnLockInterval>
+  </ItemData>
+  <ItemData ItemID="25266" Name="Cơ Quan Nhân Thô" IconBundleDir="Icon/PetImage.unity3d" IconAtlasName="EquipIcon2"
+    MapSpriteBundleDir="Resources/Item/MapSprite.unity3d" MapSpriteAtlasName="MapSprite" Kind="Đồng hành" QualityPrefix="0" Category="1" Genre="1"
+    Stack="1" DetailType="20" ParticularType="24" Level="3" SuiteID="0" Icon="icon_dh" View="icon_dh_s" Intro="" Help="" ObjID="33" BindType="1"
+    Series="0" ReqLevel="0" CDType="0" Price="0" ItemValue="100000" MakeCost="-1" ResMale="-1" ResFemale="-1" FightPower="3" ScriptID="-1"
+    DeductOnUse="false" BuffID="-1">
+    <PetAttr TotalAttr="12000" NumberSkill="-1" MaxLevel="120" LVSkill="5" Type="1" />
+    <UnLockInterval>-1</UnLockInterval>
+  </ItemData-->
+  <ItemData ItemID="25267" Name="Lâu La Hồng Y" IconBundleDir="Icon/PetImage.unity3d" IconAtlasName="EquipIcon2"
+    MapSpriteBundleDir="Resources/Item/MapSprite.unity3d" MapSpriteAtlasName="MapSprite" Kind="Đồng hành" QualityPrefix="0" Category="1" Genre="1"
+    Stack="1" DetailType="20" ParticularType="24" Level="3" SuiteID="0" Icon="icon_dh" View="icon_dh_s" Intro="" Help="" ObjID="33" BindType="1"
+    Series="0" ReqLevel="0" CDType="0" Price="0" ItemValue="100000" MakeCost="-1" ResMale="-1" ResFemale="-1" FightPower="3" ScriptID="-1"
+    DeductOnUse="false" BuffID="-1">
+    <PetAttr TotalAttr="12000" NumberSkill="-1" MaxLevel="120" LVSkill="5" Type="1" />
+    <UnLockInterval>-1</UnLockInterval>
+  </ItemData>
+  <ItemData ItemID="25268" Name="Sấm Cốc Tặc" IconBundleDir="Icon/PetImage.unity3d" IconAtlasName="EquipIcon2"
+    MapSpriteBundleDir="Resources/Item/MapSprite.unity3d" MapSpriteAtlasName="MapSprite" Kind="Đồng hành" QualityPrefix="0" Category="1" Genre="1"
+    Stack="1" DetailType="20" ParticularType="24" Level="3" SuiteID="0" Icon="icon_dh" View="icon_dh_s" Intro="" Help="" ObjID="33" BindType="1"
+    Series="0" ReqLevel="0" CDType="0" Price="0" ItemValue="100000" MakeCost="-1" ResMale="-1" ResFemale="-1" FightPower="3" ScriptID="-1"
+    DeductOnUse="false" BuffID="-1">
+    <PetAttr TotalAttr="12000" NumberSkill="-1" MaxLevel="120" LVSkill="5" Type="1" />
+    <UnLockInterval>-1</UnLockInterval>
+  </ItemData>
+  <ItemData ItemID="25311" Name="Độc Cô Kiếm" IconBundleDir="Icon/PetImage.unity3d" IconAtlasName="EquipIcon2"
+    MapSpriteBundleDir="Resources/Item/MapSprite.unity3d" MapSpriteAtlasName="MapSprite" Kind="Đồng hành" QualityPrefix="0" Category="1" Genre="1"
+    Stack="1" DetailType="20" ParticularType="24" Level="3" SuiteID="0" Icon="icon_ruong_top_5" View="icon_ruong_top_5" Intro="Bạn đồng hành VIP." Help="" ObjID="33" BindType="1"
+    Series="0" ReqLevel="0" CDType="0" Price="0" ItemValue="100000" MakeCost="-1" ResMale="-1" ResFemale="-1" FightPower="3" ScriptID="-1"
+    DeductOnUse="false" BuffID="-1">
+    <PetAttr TotalAttr="12000" NumberSkill="5" MaxLevel="120" LVSkill="5" Type="1" />
+    <UnLockInterval>-1</UnLockInterval>
+  </ItemData>
+</ArrayOfItemData>

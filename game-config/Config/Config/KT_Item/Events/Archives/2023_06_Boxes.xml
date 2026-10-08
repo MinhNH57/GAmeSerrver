@@ -1,0 +1,270 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--
+	=== Hướng dẫn config randombox ===
+	=== Hướng dẫn config randombox ===
+	
+	Khai báo 1 Boxs ID mới thì IDBox cần phải khác nhau không được giống nhau
+	Tổng số lượng RATE phải điền đúng nếu ko sẽ gây lỗi
+	LimitWeek : Tối đa 1 tuần được mở mấy lần  | Nếu để là 0 thì không giới hạn
+	LimitDay : Tối đa 1 ngày được mở mấy lần | Nếu để là 0 thì không giới hạn
+	Lock : 0 Là không khóa | 1 là có khóa
+	Type : Là kiểu tong đó : 0 là vật phẩm | 1 là bạc khóa , 2: là bạc , 3 là đồng khóa , 4 là đồng	| 5
+là Exp
+  Serier : là đồ theo hệ
+  TimeLimit : thời gian đồ có thể dùng
+  ItemID là ID đồ của vật phẩm 
+	Number : Là số lượng tương ứng của mỗi vật phẩm | Nếu type là tiền thì Number là số tiền
+-->
+<ConfigBox xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <Boxs IDBox="100500" BoxName="Túi nguyên liệu Giải nhiệt mùa hè" TotalRate="1000000"
+        LimitWeek="0" LimitDay="0">
+        <Items Type="0" ItemID="15696" Series="0" TimeLimit="0" Number="1" Rate="450000" Lock="0" />
+        <Items Type="0" ItemID="15697" Series="0" TimeLimit="0" Number="1" Rate="450000" Lock="0" />
+        <Items Type="0" ItemID="15698" Series="0" TimeLimit="0" Number="1" Rate="100000" Lock="1" />
+    </Boxs>
+
+    <Boxs IDBox="100501" BoxName="Kem Vani" TotalRate="1000000" LimitWeek="0" LimitDay="0"
+        LimitLifetime="300">
+        <Items Type="3" ItemID="-1" Series="0" TimeLimit="0" Number="2" Rate="7000" Lock="0" /> <!--2
+        KNB khóa-->
+        <Items Type="3" ItemID="-1" Series="0" TimeLimit="0" Number="5" Rate="2000" Lock="0" /> <!--5
+        KNB khóa-->
+        <Items Type="3" ItemID="-1" Series="0" TimeLimit="0" Number="10" Rate="1000" Lock="0" /> <!--10
+        KNB khóa-->
+
+
+        <Items Type="0" ItemID="506" Series="0" TimeLimit="0" Number="1" Rate="19695" Lock="1" /> <!--1
+        ngũ hành hồn thạch-->
+        <Items Type="0" ItemID="506" Series="0" TimeLimit="0" Number="2" Rate="9090" Lock="1" /> <!--2
+        ngũ hành hồn thạch-->
+        <Items Type="0" ItemID="506" Series="0" TimeLimit="0" Number="3" Rate="1515" Lock="1" /> <!--3
+        ngũ hành hồn thạch-->
+
+        <Items Type="0" ItemID="270" Series="0" TimeLimit="0" Number="1" Rate="14000" Lock="1" /> <!--Ma
+        Đao Thạch 6-->
+        <Items Type="0" ItemID="280" Series="0" TimeLimit="0" Number="1" Rate="28000" Lock="1" /> <!--Hộ
+        Giáp Phiến 6-->
+        <Items Type="0" ItemID="290" Series="0" TimeLimit="0" Number="1" Rate="28000" Lock="1" /> <!--NGũ
+        Hành Thạch 6-->
+
+        <Items Type="0" ItemID="796" Series="0" TimeLimit="0" Number="1" Rate="15400" Lock="1" /> <!--Tần
+        Lăng Dạ Minh Châu-->
+        <Items Type="0" ItemID="1074" Series="0" TimeLimit="0" Number="1" Rate="15400" Lock="1" /> <!--Tiền
+        Du Long-->
+        <Items Type="0" ItemID="600" Series="0" TimeLimit="0" Number="1" Rate="7700" Lock="1" /> <!--Tu
+        luyện đơn-->
+
+        <Items Type="0" ItemID="387" Series="0" TimeLimit="0" Number="1" Rate="85000" Lock="1" /> <!--1
+        huyền tinh 3-->
+        <Items Type="0" ItemID="388" Series="0" TimeLimit="0" Number="1" Rate="14000" Lock="1" /> <!--1
+        huyền tinh 4-->
+        <Items Type="0" ItemID="389" Series="0" TimeLimit="0" Number="1" Rate="1000" Lock="1" /> <!--1
+        huyền tinh 5-->
+
+        <Items Type="0" ItemID="15221" Series="0" TimeLimit="10081" Number="1" Rate="200" Lock="1" /> <!--ngựa
+        mới 7 ngày-->
+
+        <Items Type="5" ItemID="-1" Series="0" TimeLimit="0" Number="50000" Rate="450600" Lock="1" /> <!--5
+        vạn EXP-->
+        <Items Type="5" ItemID="-1" Series="0" TimeLimit="0" Number="100000" Rate="225300" Lock="1" /> <!--10
+        vạn EXP-->
+        <Items Type="5" ItemID="-1" Series="0" TimeLimit="0" Number="150000" Rate="75100" Lock="1" /> <!--15
+        vạn EXP-->
+    </Boxs>
+
+    <Boxs IDBox="100502" BoxName="Kem Trái Cây" TotalRate="100000" LimitWeek="0" LimitDay="0"
+        LimitLifetime="5000">
+        <Items Type="3" ItemID="-1" Series="0" TimeLimit="0" Number="30" Rate="8250" Lock="0" /> <!--30
+        KNB khóa-->
+        <Items Type="3" ItemID="-1" Series="0" TimeLimit="0" Number="50" Rate="6000" Lock="0" /> <!--50
+        KNB khóa-->
+        <Items Type="3" ItemID="-1" Series="0" TimeLimit="0" Number="100" Rate="750" Lock="0" /> <!--100
+        KNB khóa-->
+
+        <Items Type="2" ItemID="-1" Series="0" TimeLimit="0" Number="2000" Rate="5000" Lock="0" /> <!--2000
+        bạc-->
+        <Items Type="2" ItemID="-1" Series="0" TimeLimit="0" Number="3000" Rate="4500" Lock="0" /> <!--3000
+        bạc-->
+        <Items Type="2" ItemID="-1" Series="0" TimeLimit="0" Number="5000" Rate="500" Lock="0" /> <!--5000
+        bạc-->
+
+        <Items Type="1" ItemID="-1" Series="0" TimeLimit="0" Number="30000" Rate="5500" Lock="0" /> <!--3
+        vạn bạc khóa-->
+        <Items Type="1" ItemID="-1" Series="0" TimeLimit="0" Number="50000" Rate="4000" Lock="0" /> <!--5
+        vạn bạc khóa-->
+        <Items Type="1" ItemID="-1" Series="0" TimeLimit="0" Number="100000" Rate="500" Lock="0" /> <!--10
+        vạn bạc khóa-->
+
+
+        <Items Type="0" ItemID="506" Series="0" TimeLimit="0" Number="10" Rate="3710" Lock="0" /> <!--10
+        ngũ hành hồn thạch-->
+        <Items Type="0" ItemID="506" Series="0" TimeLimit="0" Number="20" Rate="3339" Lock="0" /> <!--20
+        ngũ hành hồn thạch-->
+        <Items Type="0" ItemID="506" Series="0" TimeLimit="0" Number="30" Rate="371" Lock="0" /> <!--30
+        ngũ hành hồn thạch-->
+
+        <Items Type="0" ItemID="271" Series="0" TimeLimit="0" Number="1" Rate="1050" Lock="0" /> <!--Ma
+        Đao Thạch 7-->
+        <Items Type="0" ItemID="272" Series="0" TimeLimit="0" Number="1" Rate="700" Lock="0" /> <!--Ma
+        Đao Thạch 8-->
+        <Items Type="0" ItemID="273" Series="0" TimeLimit="0" Number="1" Rate="350" Lock="0" /> <!--Ma
+        Đao Thạch 9-->
+        <Items Type="0" ItemID="281" Series="0" TimeLimit="0" Number="1" Rate="1400" Lock="0" /> <!--Hộ
+        Giáp Phiến 7-->
+        <Items Type="0" ItemID="282" Series="0" TimeLimit="0" Number="1" Rate="700" Lock="0" /> <!--Hộ
+        Giáp Phiến 8-->
+        <Items Type="0" ItemID="283" Series="0" TimeLimit="0" Number="1" Rate="350" Lock="0" /> <!--Hộ
+        Giáp Phiến 9-->
+        <Items Type="0" ItemID="291" Series="0" TimeLimit="0" Number="1" Rate="1400" Lock="0" /> <!--NGũ
+        Hành Thạch 7-->
+        <Items Type="0" ItemID="292" Series="0" TimeLimit="0" Number="1" Rate="700" Lock="0" /> <!--NGũ
+        Hành Thạch 8-->
+        <Items Type="0" ItemID="293" Series="0" TimeLimit="0" Number="1" Rate="350" Lock="0" /> <!--NGũ
+        Hành Thạch 9-->
+
+        <Items Type="0" ItemID="796" Series="0" TimeLimit="0" Number="1" Rate="2400" Lock="0" /> <!--Tần
+        Lăng Dạ Minh Châu-->
+        <Items Type="0" ItemID="1074" Series="0" TimeLimit="0" Number="1" Rate="2400" Lock="0" /> <!--Tiền
+        Du Long-->
+        <Items Type="0" ItemID="600" Series="0" TimeLimit="0" Number="1" Rate="1200" Lock="0" /> <!--Tu
+        luyện đơn-->
+
+        <Items Type="0" ItemID="187" Series="0" TimeLimit="0" Number="1" Rate="14000" Lock="0" /> <!--1
+        huyền tinh 5-->
+        <Items Type="0" ItemID="188" Series="0" TimeLimit="0" Number="1" Rate="4000" Lock="0" /> <!--1
+        huyền tinh 6-->
+        <Items Type="0" ItemID="189" Series="0" TimeLimit="0" Number="1" Rate="1600" Lock="0"
+            Notify="1" /> <!--1
+        huyền tinh 7-->
+        <Items Type="0" ItemID="190" Series="0" TimeLimit="0" Number="1" Rate="400" Lock="0"
+            Notify="1" /> <!--1
+        huyền tinh 8-->
+
+        <Items Type="0" ItemID="15711" Series="0" Number="1" Rate="4370" Lock="0" /> <!--Danh
+        vọng bạch hổ đường-->
+        <Items Type="0" ItemID="15712" Series="0" Number="1" Rate="3800" Lock="0" /> <!--Danh
+        vọng Tiêu Dao Cốc-->
+        <Items Type="0" ItemID="15713" Series="0" Number="1" Rate="3230" Lock="0" /> <!--Danh
+        vọng chúc phúc-->
+        <Items Type="0" ItemID="15714" Series="0" Number="1" Rate="3230" Lock="0" /> <!--Danh
+        vọng tần lăng - ???? quan phủ -->
+        <Items Type="0" ItemID="15715" Series="0" Number="1" Rate="4370" Lock="0" /> <!--Danh
+        vọng Môn Phái-->
+
+        <Items Type="0" ItemID="15708" Series="0" TimeLimit="0" Number="1" Rate="10" Lock="0"
+            Notify="1" /> <!--võ
+        lâm mật tịch(event)-->
+        <Items Type="0" ItemID="15707" Series="0" TimeLimit="0" Number="1" Rate="10" Lock="0"
+            Notify="1" /> <!--tẩy
+        tủy kinh(event)-->
+
+        <Items Type="0" ItemID="349" Series="0" TimeLimit="0" Number="1" Rate="1750" Lock="0" /> <!--tinh
+        khí tán 1000-->
+        <Items Type="0" ItemID="352" Series="0" TimeLimit="0" Number="1" Rate="1750" Lock="0" /> <!--hoạt
+        khí tán 1000-->
+        <Items Type="0" ItemID="353" Series="0" TimeLimit="0" Number="1" Rate="750" Lock="0"
+            Notify="1" /> <!--Tinh
+        lực Đại-->
+        <Items Type="0" ItemID="350" Series="0" TimeLimit="0" Number="1" Rate="750" Lock="0"
+            Notify="1" /> <!--Hoạt
+        Lực Đại-->
+
+        <Items Type="0" ItemID="15705" Series="0" TimeLimit="0" Number="1" Rate="150" Lock="0"
+            Notify="1" /> <!--dây
+        cương thần bí-->
+
+        <Items Type="0" ItemID="432" Series="0" TimeLimit="0" Number="1" Rate="50" Lock="0"
+            Notify="1" /> <!--câu
+        hồn ngọc 7x-->
+        <Items Type="0" ItemID="433" Series="0" TimeLimit="0" Number="1" Rate="50" Lock="0"
+            Notify="1" /> <!--câu
+        hồn ngọc 9x-->
+
+        <Items Type="0" ItemID="2167" Series="0" TimeLimit="0" Number="1" Rate="10" Lock="0"
+            Notify="1" /> <!--thẻ
+        đổi tên-->
+
+        <Items Type="0" ItemID="15703" Series="0" TimeLimit="0" Number="1" Rate="300" Lock="0" /> <!--Kem
+        dát vàng-->
+
+        <Items Type="5" ItemID="-1" Series="0" TimeLimit="0" Number="100000" Rate="-1" Lock="0" /> <!--10
+        vạn EXP-->
+    </Boxs>
+
+    <Boxs IDBox="100503" BoxName="Kem dát vàng" TotalRate="100000" LimitWeek="0" LimitDay="0"
+        LimitLifetime="300">
+        <Items Type="0" ItemID="506" Series="0" TimeLimit="0" Number="100" Rate="25000" Lock="0" /> <!--100
+        ngũ hành hồn thạch-->
+
+        <Items Type="0" ItemID="188" Series="0" TimeLimit="0" Number="1" Rate="8500" Lock="0"
+            Notify="1" /> <!--1
+        huyền tinh 6-->
+        <Items Type="0" ItemID="189" Series="0" TimeLimit="0" Number="1" Rate="6800" Lock="0"
+            Notify="1" /> <!--1
+        huyền tinh 7-->
+        <Items Type="0" ItemID="190" Series="0" TimeLimit="0" Number="1" Rate="1700" Lock="0"
+            Notify="1" /> <!--1
+        huyền tinh 8-->
+
+        <Items Type="0" ItemID="274" Series="0" TimeLimit="0" Number="1" Rate="2000" Lock="0" /> <!--Ma
+        Đao Thạch 10-->
+        <Items Type="0" ItemID="284" Series="0" TimeLimit="0" Number="1" Rate="4000" Lock="0" /> <!--Hộ
+        Giáp Phiến 10-->
+        <Items Type="0" ItemID="294" Series="0" TimeLimit="0" Number="1" Rate="4000" Lock="0" /> <!--NGũ
+        Hành Thạch 10-->
+
+        <Items Type="0" ItemID="15712" Series="0" TimeLimit="0" Number="1" Rate="6000" Lock="0" /> <!--Danh
+        vọng Tiêu Dao Cốc-->
+        <Items Type="0" ItemID="15713" Series="0" TimeLimit="0" Number="1" Rate="4500" Lock="0" /> <!--Danh
+        vọng Chúc Phúc-->
+        <Items Type="0" ItemID="15714" Series="0" TimeLimit="0" Number="1" Rate="4500" Lock="0" /> <!--Danh
+        vọng Tần Lăng-->
+
+        <Items Type="0" ItemID="15708" Series="0" TimeLimit="0" Number="1" Rate="5000" Lock="0"
+            Notify="1" /> <!--võ
+        lâm mật tịch-->
+        <Items Type="0" ItemID="15707" Series="0" TimeLimit="0" Number="1" Rate="5000" Lock="0"
+            Notify="1" /> <!--tẩy
+        tủy kinh-->
+
+        <Items Type="0" ItemID="15706" Series="0" TimeLimit="0" Number="1" Rate="3000" Lock="0" /> <!--dây
+        cương thần bí đặc biệt-->
+
+
+        <Items Type="0" ItemID="432" Series="0" TimeLimit="0" Number="1" Rate="9000" Lock="0" /> <!--câu
+        hồn ngọc 7x-->
+        <Items Type="0" ItemID="433" Series="0" TimeLimit="0" Number="1" Rate="8000" Lock="0" /> <!--câu
+        hồn ngọc 9x-->
+
+        <Items Type="0" ItemID="2167" Series="0" TimeLimit="0" Number="1" Rate="3000" Lock="0"
+            Notify="1" /> <!--thẻ
+        đổi tên-->
+    </Boxs>
+    <Boxs IDBox="100504" BoxName="Thùng Kem" TotalRate="10000" LimitWeek="0" LimitDay="0">
+        <Items Type="0" ItemID="15700" Series="0" TimeLimit="0" Number="50" Rate="-1" Lock="1" /> <!--50
+        túi nguyên liệu kem -->
+
+        <Items Type="-1" ItemID="0" Series="0" TimeLimit="0" Number="1" Rate="3500" Lock="0" /> <!--không
+        thưởng-->
+
+        <Items Type="0" ItemID="15700" Series="0" TimeLimit="0" Number="50" Rate="2275" Lock="1" /> <!--túi
+        nguyên liệu kem-->
+        <Items Type="0" ItemID="15700" Series="0" TimeLimit="0" Number="100" Rate="1225" Lock="1" /> <!--túi
+        nguyên liệu kem-->
+
+        <Items Type="0" ItemID="15701" Series="0" TimeLimit="0" Number="10" Rate="1625"
+            ExpiryDate="2023-07-03 05:00:00" Lock="1" /> <!--Kem
+        Vani-->
+        <Items Type="0" ItemID="15701" Series="0" TimeLimit="0" Number="50" Rate="875"
+            ExpiryDate="2023-07-03 05:00:00" Lock="1" /> <!--Kem
+        Vani-->
+
+        <Items Type="0" ItemID="15702" Series="0" TimeLimit="0" Number="2" Rate="450"
+            ExpiryDate="2023-07-03 05:00:00" Lock="1" /> <!-- Kem Trái cây (khóa)-->
+        <Items Type="0" ItemID="15702" Series="0" TimeLimit="0" Number="10" Rate="50"
+            ExpiryDate="2023-07-03 05:00:00" Lock="1" /> <!-- Kem Trái cây (khóa)-->
+
+    </Boxs>
+</ConfigBox>

@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DoThach>
+    <!--Spinner
+        ID: id của Spinner bắt đầu từ 0
+        name: Tên Spinner hiển thị ở trên tab bên tay trái trong giao diện
+        limitKNB: Giới hạn số lượt quay bằng KNB trong ngày
+        hint: Đoạn text mô tả ngắn gọn về Spinner, hiển thị ở trên cùng giao diện-->
+    <Spinner id="0" name= "Đổ thạch thường" limitKNB="50" active="true"
+                hint="Đổ thạch thường ngẫu nhiên nhận được:\n- Mảnh vỡ bảo thạch\n- Bảo thạch phổ thông và bảo thạch đặc thù(Ngẫu nhiên từ cấp 1 đến cấp 3)">
+        <Fees>
+            <!--Fees
+            id: id của tiền trong game
+            amount: số lượng tiền
+            spinTimes: số lần quay tương ứng với mức phí
+            -->
+            <Fee id="14249" amount="1" spinTimes="1"/>
+            <Fee id="14249" amount="10" spinTimes="10"/>
+            <Fee id="2" amount="1800" spinTimes="10"/>
+        </Fees>
+
+        <Rates>
+            <!-- Rate
+            item: id của vật phẩm
+            amount: số lượng vật phẩm nhận được khi trúng 
+            weight: trọng số để tính xác suất trúng, số càng lớn xác suất càng cao
+                    ở phần này đang nhân tỉ lệ 100 lần so với tỉ lệ thực tế để tránh số lẻ
+            fakeRate: tỉ lệ hiện thị cho người chơi, tổng tỉ lệ của tất cả vật phẩm phải bằng 100%
+            -->
+            <!-- Common -->
+            <Rate item="14241" amount="1" weight="2500" fakeRate="22.00"/>
+            <Rate item="14241" amount="2" weight="1500" fakeRate="13.00"/>
+            <Rate item="14201" amount="1" weight="2500" fakeRate="22.00"/>
+            <Rate item="14211" amount="1" weight="1500" fakeRate="13.00"/>
+            <!-- Rare -->
+            <Rate item="14241" amount="3" weight="700" fakeRate="10.00"/>
+            <Rate item="14202" amount="1" weight="650" fakeRate="8.50"/>
+            <Rate item="14212" amount="1" weight="350" fakeRate="6.50"/>
+            <!-- Super Rare -->
+            <Rate item="14203" amount="1" weight="200" fakeRate="3.00"/>
+            <Rate item="14213" amount="1" weight="100" fakeRate="2.00"/>
+        </Rates>
+        <Pitys>    
+            <!-- Pity
+            level: cấp độ Pity, bắt đầu từ 1
+            text: đoạn text mô tả Pity, hiển thị trong giao diện (số lượt quay sẽ được thay thế vào dấu ?)
+            milestone: số lượt quay cần đạt được để kích hoạt Pity
+            resetItem: danh sách itemID của các vật phẩm khi trúng cũng sẽ reset lại mốc Pity, cách nhau bởi dấu phẩy(không tính các vật phẩm trong mục guaranteed)
+            guaranteed: danh sách itemID của các vật phẩm được bảo đảm trúng khi đạt mốc Pity, cách nhau bởi dấu phẩy
+            -->
+            <Pity level="1" text="Đổ thạch thường &lt;color=#FF181A&gt;?&lt;/color&gt; lần chắc chắn nhận &lt;color=#13FF27&gt;1 bảo thạch cấp 2&lt;/color&gt;" milestone="10" resetItem="" guaranteed="14202,14212"/>
+            <Pity level="2" text="Đổ thạch thường &lt;color=#FF181A&gt;?&lt;/color&gt; lần chắc chắn nhận &lt;color=#13FF27&gt;1 bảo thạch cấp 3 trở lên&lt;/color&gt;" milestone="30" resetItem="" guaranteed="14203,14213"/>
+        </Pitys>
+    </Spinner>
+    <Spinner id="1" name= "Đổ thạch thần bí" limitKNB="50" active="true" hint="Đổ thạch thần bí ngẫu nhiên nhận được: \n- Mảnh vỡ bảo thạch\n- Bảo thạch phổ thông, bảo thạch đặc thù, bảo thạch kĩ năng và bảo thạch trang bị(Ngẫu nhiên từ cấp 1 đến cấp 3)">
+        <Fees>
+            <Fee id="14249" amount="2" spinTimes="1"/>
+            <Fee id="14249" amount="20" spinTimes="10"/>
+            <Fee id="2" amount="3600" spinTimes="10"/>
+        </Fees>
+        
+        <Rates>
+            <!-- Common -->
+            <Rate item="14241" amount="2" weight="3000" fakeRate="25.00"/>
+            <Rate item="14241" amount="3" weight="2000" fakeRate="18.00"/>
+            <Rate item="14201" amount="1" weight="850" fakeRate="7.80"/>
+            <Rate item="14211" amount="1" weight="450" fakeRate="4.50"/>
+            <Rate item="14202" amount="1" weight="450" fakeRate="4.50"/>
+            <Rate item="14212" amount="1" weight="250" fakeRate="2.50"/>
+            <!-- UnCommon -->
+            <Rate item="14241" amount="4" weight="1200" fakeRate="10.00"/>
+            <Rate item="14241" amount="5" weight="600" fakeRate="8.00"/>
+            <!-- Rare -->
+            <Rate item="14203" amount="1" weight="500" fakeRate="7.00"/>
+            <Rate item="14213" amount="1" weight="300" fakeRate="5.00"/>
+            <!-- Super Rare -->
+            <Rate item="14204" amount="1" weight="220" fakeRate="3.50"/>
+            <Rate item="14214" amount="1" weight="125" fakeRate="2.50"/>
+            <Rate item="14205" amount="1" weight="30" fakeRate="0.90"/>
+            <Rate item="14215" amount="1" weight="15" fakeRate="0.30"/>
+            <!-- Mythic -->
+            <Rate item="14231" amount="1" weight="5" fakeRate="0.25"/>
+            <Rate item="14221" amount="1" weight="5" fakeRate="0.25"/>
+        </Rates>
+        <Pitys>
+            <Pity level="1" text="Đổ thạch thần bí &lt;color=#FF181A&gt;?&lt;/color&gt; lần chắc chắn nhận &lt;color=#13FF27&gt;1 bảo thạch cấp 3&lt;/color&gt;" milestone="10" resetItem="" guaranteed="14203,14213"/>
+            <Pity level="2" text="Đổ thạch thần bí &lt;color=#FF181A&gt;?&lt;/color&gt; lần chắc chắn nhận &lt;color=#13FF27&gt;1 bảo thạch cấp 4 trở lên&lt;/color&gt;" milestone="30" resetItem="" guaranteed="14204,14214"/>
+            <Pity level="3" text="Đổ thạch thần bí &lt;color=#FF181A&gt;?&lt;/color&gt; lần chắc chắn nhận &lt;color=#13FF27&gt;1 bảo thạch Kĩ Năng, Trang Bị&lt;/color&gt;" milestone="100" resetItem="14205,14215" guaranteed="14221,14231"/>
+        </Pitys>
+    </Spinner>
+</DoThach>

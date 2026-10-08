@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<!--
+        TotalSpaceNeed: Số ô trống cần có trong hành trang để quay
+        MinSpinDuration: Thời gian quay tối thiểu (ms)
+        MaxSpinDuration: Thời gian quay tối đa (ms)
+        MinSpinRounds: Số vòng quay tối thiểu
+        MaxSpinRounds: Số vòng quay tối đa
+    -->
+<VongQuayMayMan TimeKey="LuckySpin" PointPerSpin="10" TotalSpaceNeed="9" MinSpinDuration="3000" MaxSpinDuration="5000" MinSpinRounds="4" MaxSpinRounds="7">
+    <!--Fees
+        id: id của tiền trong game
+        amount: số lượng tiền
+        spinTimes: số lần quay tương ứng với mức phí
+        -->
+        <Fees>
+        <Fee id="2" amount="30" spinTimes="1"/>
+        <Fee id="2" amount="300" spinTimes="10"/>
+    </Fees>
+    <Rule><![CDATA[<color=#E8452E><b><size=66>TÂN NIÊN BÍ BẢO - XOAY CHUYỂN CÀN KHÔN</size></b></color>
+
+Năm mới tết đến, <color=#FF5A3C><b>Tụ Bảo Bồn</b></color> xuất thế! Chư vị nhân sĩ hãy tham gia ngay sự kiện
+<color=#6FE3C1><b>Tân Niên Bí Bảo</b></color> để thử vận may đầu năm, rinh về vô vàn kỳ trân dị bảo và đặc biệt là
+<color=#FF5A3C><b>cơ hội đập vỡ Tụ Bảo Bồn để nhận hàng vạn Kim Nguyên Bảo</b></color>.
+
+<size=50><color=#A06EDB><b>1. Thời gian & Đối tượng</b></color></size>
+   Thời gian: <color=#FF5A3C><b>DATERANGE</b></color>.
+   Đối tượng: <color=#FF5A3C><b>Tất cả nhân sĩ võ lâm tại các máy chủ</b></color>.
+
+<size=50><color=#A06EDB><b>2. Cách thức tham gia</b></color></size>
+   Tại giao diện chính, chọn biểu tượng <color=#6FE3C1><b>[Sự Kiện]</b></color> mục <color=#6FE3C1><b>[Tân Niên Bí Bảo]</b></color>.
+   Sử dụng <color=#FF5A3C><b>Kim Nguyên Bảo (KNB)</b></color> để tham gia quay thưởng Bí Bảo.
+   Chi phí: <color=#FF5A3C><b>30 KNB / 1 lượt quay</b></color> và <color=#FF5A3C><b>300 KNB / 10 lượt quay</b></color>.
+
+<size=50><color=#A06EDB><b>3. Tụ Bảo Bồn – Khai Lộc Đầu Xuân</b></color></size>
+   <color=#FF5A3C><b>Tụ Bảo Bồn</b></color> là nơi tích tụ linh khí và tài lộc của toàn server. Giá trị trong bồn
+   <color=#FF5A3C><b>tăng liên tục không ngừng</b></color>.
+
+   Cơ chế Tích Lộc:
+   Mỗi lượt quay của bất kỳ đại hiệp nào trên server sẽ trích <color=#FF5A3C><b>3 KNB</b></color> góp thêm vào Tụ Bảo Bồn chung.
+   Tụ Bảo Bồn ban đầu sẽ có <color=#FF5A3C><b>3000 KNB</b></color>.
+
+   Cơ chế Khai Lộc (Nổ Hũ):
+     • Quay trúng <color=#FF5A3C><b>Tiểu Bảo Bồn</b></color>, đại hiệp nhận ngẫu nhiên <color=#FF5A3C><b>5–10%</b></color> tổng số KNB đang có trong bồn.
+     • Quay trúng <color=#FF5A3C><b>Đại Bảo Bồn</b></color>, đại hiệp sẽ <color=#FF5A3C><b>ĐỘC CHIẾM 30–50%</b></color> số KNB trong bồn.
+   Sau khi nổ, Tụ Bảo Bồn sẽ reset về <color=#FF5A3C><b>3000 KNB</b></color> và bắt đầu tích lũy lại từ đầu.
+   Hệ thống sẽ vinh danh toàn server những đại hiệp may mắn trúng Tụ Bảo Bồn và các vật phẩm giá trị.
+
+<size=50><color=#A06EDB><b>4. Quà Tặng Tích Lũy</b></color></size>
+   Không chỉ dựa vào may mắn, sự kiên trì cũng được đền đáp.
+   Mỗi lượt quay tương ứng <color=#FF5A3C><b>10 điểm tích lũy</b></color>.
+   Tích lũy đạt các mốc điểm chỉ định sẽ nhận thêm các phần quà hỗ trợ tăng cường công lực.
+   Lưu ý: Cần bấm nhận thưởng thủ công tại giao diện sự kiện, sẽ không thể nhận lại nếu sự kiện kết thúc.
+
+<size=50><color=#A06EDB><b>5. Bảng Vàng Xếp Hạng</b></color></size>
+   Quy tắc: Mỗi lượt quay tương ứng <color=#FF5A3C><b>10 điểm xếp hạng</b></color>.
+   Sau khi sự kiện kết thúc, <color=#A06EDB><b>Top 20 cao thủ</b></color> có điểm số cao nhất và đủ điểm tối thiểu theo quy định sẽ nhận phần thưởng đặc biệt.
+
+   <color=#FF5A3C><b>Hạng 1:</b></color> Tối thiểu 100.000 điểm
+   <color=#FF5A3C><b>Hạng 2:</b></color> Tối thiểu 80.000 điểm
+   <color=#FF5A3C><b>Hạng 3:</b></color> Tối thiểu 50.000 điểm
+   <color=#FF5A3C><b>Hạng 4–10:</b></color> Tối thiểu 30.000 điểm
+   <color=#FF5A3C><b>Hạng 11–20:</b></color> Tối thiểu 15.000 điểm
+
+<size=50><color=#A06EDB><b>6. Những điều cần lưu ý</b></color></size>
+   • Vui lòng dọn dẹp hành trang trống <color=#FF5A3C>ít nhất 10 ô</color> để nhận thưởng.
+   • Mỗi mốc tích lũy chỉ nhận được <color=#FF5A3C>duy nhất 1 lần.</color>
+   • Trường hợp người chơi xếp hạng cao nhưng <color=#FF5A3C>không đủ điểm tối thiểu</color>, sẽ nhận quà <color=#FF5A3C>tương ứng với mốc điểm tích lũy đạt được.</color>
+   • Quà sẽ được gửi qua thư hệ thống sau khi sự kiện kết thúc.
+]]></Rule>
+    <!-- Rate
+        item: id của vật phẩm
+        type: loại vật phẩm (item: vật phẩm, money: tiền trong game, jackpot_big: hũ lớn, jackpot_small: hũ nhỏ)
+        amount: số lượng vật phẩm nhận được khi trúng 
+        weight: trọng số để tính xác suất trúng, số càng lớn xác suất càng cao
+                ở phần này đang nhân tỉ lệ 100 lần so với tỉ lệ thực tế để tránh số lẻ
+        binding: trạng thái khóa của vật phẩm (1: khóa, 0: không khóa), chỉ áp dụng cho type="item"
+        notify: có thông báo trên kênh thông báo chung khi trúng vật phẩm này hay không
+        -->
+        <Rates>
+        <Rate index="1" item="1" type="money" amount="150000" binding="1" weight="1600" notify="false"/>
+        <Rate index="2" item="20537" type="item" amount="1" binding="1" weight="1500" notify="false"/>
+        <Rate index="3" item="20870" type="item" amount="1" binding="1" weight="1000" notify="false"/>
+        <Rate index="4" item="190" type="item" amount="1" binding="1" weight="300" notify="false"/>
+        <Rate index="5" item="191" type="item" amount="1" binding="1" weight="100" notify="false"/>
+        <Rate index="6" item="506" type="item" amount="50" binding="1" weight="1682" notify="false"/>
+        <Rate index="7" item="21001" type="item" amount="1" binding="1" weight="300" notify="false"/>
+        <Rate index="8" item="1057" type="item" amount="1" binding="0" weight="1000" notify="false"/>
+        <Rate index="9" item="20870" type="item" amount="3" binding="1" weight="400" notify="false"/>
+        <Rate index="10" item="14249" type="item" amount="1" binding="1" weight="250" notify="false"/>
+        <Rate index="11" item="20529" type="item" amount="1" binding="0" weight="1350" notify="false"/>
+        <Rate index="12" item="20406" type="item" amount="1" binding="0" weight="300" notify="false"/>
+        <Rate index="13" item="20870" type="item" amount="5" binding="1" weight="150" notify="false"/>
+        <Rate index="14" item="14247" type="item" amount="1" binding="0" weight="30" notify="true"/>
+        <Rate index="15" item="1058" type="item" amount="1" binding="0" weight="15" notify="true"/>
+        <Rate index="16" item="2017" type="item" amount="1" binding="0" weight="5" notify="true"/>
+        <Rate index="17" item="29003" type="jackpot_big" amount="1" binding="1" weight="2" notify="true"/>
+        <Rate index="18" item="29002" type="jackpot_small" amount="1" binding="1" weight="16" notify="true"/>
+    </Rates>
+    <!-- Accumulate
+        point: số điểm tích lũy để nhận mốc thưởng
+        item: id của vật phẩm
+        type: loại vật phẩm (item: vật phẩm, money: tiền trong game)
+        amount: số lượng vật phẩm nhận được khi trúng 
+        binding: trạng thái khóa của vật phẩm (1: khóa, 0: không khóa), chỉ áp dụng cho type="item"
+        -->
+        <Accumulate>
+        <Milestone point="700" index="1">
+            <Reward item="192" type="item" amount="1" binding="1"/>
+            <Reward item="20538" type="item" amount="2" binding="1"/>
+        </Milestone>
+        <Milestone point="1500" index="2">
+            <Reward item="20529" type="item" amount="200" binding="1"/>
+            <Reward item="20538" type="item" amount="5" binding="1"/>
+        </Milestone>
+        <Milestone point="4000" index="3">
+            <Reward item="2017" type="item" amount="1" binding="1"/>
+            <Reward item="506" type="item" amount="2000" binding="1"/>
+        </Milestone>
+        <Milestone point="10000" index="4">
+            <Reward item="20571" type="item" amount="1" binding="1"/>
+            <Reward item="506" type="item" amount="4000" binding="1"/>
+        </Milestone>
+        <Milestone point="15000" index="5">
+            <Reward item="20344" type="item" amount="250" binding="1"/>
+            <Reward item="20366" type="item" amount="1" binding="1"/>
+        </Milestone>
+        <Milestone point="30000" index="6">
+            <Reward item="972" type="item" amount="20" binding="1"/>
+            <Reward item="973" type="item" amount="40" binding="1"/>
+            <Reward item="974" type="item" amount="40" binding="1"/>
+        </Milestone>
+        <Milestone point="50000" index="7">
+            <Reward item="972" type="item" amount="30" binding="1"/>
+            <Reward item="973" type="item" amount="60" binding="1"/>
+            <Reward item="974" type="item" amount="60" binding="1"/>
+        </Milestone>
+    </Accumulate>
+    <!--TopReward
+        from: hạng bắt đầu nhận thưởng
+        to: hạng cuối cùng nhận thưởng
+        minPoint: số điểm tối thiểu để nhận thưởng
+        binding: trạng thái khóa của vật phẩm (1: khóa, 0: không khóa), chỉ áp dụng cho type="item"
+        -->
+        <TopReward>
+        <Ranking from="1" to="1" minPoint="50000">
+            <Reward item="506" type="item" amount="20000" binding="1"/>
+            <Reward item="20344" type="item" amount="1000" binding="1"/>
+            <Reward item="14206" type="item" amount="1" binding="1"/>
+            <Reward item="14216" type="item" amount="1" binding="1"/>
+        </Ranking>
+        <Ranking from="2" to="2" minPoint="40000">
+            <Reward item="506" type="item" amount="15000" binding="1"/>
+            <Reward item="20344" type="item" amount="700" binding="1"/>
+            <Reward item="14205" type="item" amount="1" binding="1"/>
+            <Reward item="14215" type="item" amount="1" binding="1"/>
+        </Ranking>
+        <Ranking from="3" to="3" minPoint="25000">
+            <Reward item="506" type="item" amount="10000" binding="1"/>
+            <Reward item="20344" type="item" amount="400" binding="1"/>
+            <Reward item="14204" type="item" amount="1" binding="1"/>
+            <Reward item="14214" type="item" amount="1" binding="1"/>
+        </Ranking>
+        <Ranking from="4" to="10" minPoint="10000">
+            <Reward item="506" type="item" amount="5000" binding="1"/>
+            <Reward item="20344" type="item" amount="200" binding="1"/>
+            <Reward item="14203" type="item" amount="1" binding="1"/>
+            <Reward item="14213" type="item" amount="1" binding="1"/>
+        </Ranking>
+        <Ranking from="11" to="20" minPoint="5000">
+            <Reward item="506" type="item" amount="3000" binding="1"/>
+            <Reward item="20344" type="item" amount="100" binding="1"/>
+            <Reward item="14203" type="item" amount="1" binding="1"/>
+            <Reward item="14213" type="item" amount="1" binding="1"/>
+        </Ranking>
+    </TopReward>
+</VongQuayMayMan>

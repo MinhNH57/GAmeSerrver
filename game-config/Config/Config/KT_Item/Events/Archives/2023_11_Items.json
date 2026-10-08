@@ -1,0 +1,172 @@
+{
+    "Help": {
+        "Help1": "cấu hình vật phẩm sự kiện bằng json",
+        "Help2": "Genre: 18: scriptitem, 22: normal item",
+        "Help3": "ParticularType: > 32000 nếu drop tại map, bỏ qua nếu không phải",
+        "Help4": "ScriptID: 200060 nếu là RandomBox (khai báo ItemValue là ID của box)",
+        "StartID": 20255
+    },
+    "RandomBoxes": [
+        {
+            "ItemID": 20255,
+            "Name": "Túi nguyên liệu làm bánh",
+            "ParticularType": 32001,
+            "Icon": "2023nov_tui",
+            "Intro": "Vật phẩm sự kiện Bánh kem Sinh nhật.",
+            "ItemValue": 200166
+        },
+        {
+            "ItemID": 20256,
+            "Name": "Bánh sinh nhật",
+            "LimitLifeTime": 300,
+            "Icon": "2023nov_banh_sinh_nhat_1",
+            "Intro": "Vật phẩm sự kiện Bánh kem Sinh nhật.",
+            "ItemValue": 200167
+        },
+        {
+            "ItemID": 20257,
+            "Name": "Bánh sinh nhật (đặc biệt)",
+            "LimitLifeTime": 5000,
+            "Icon": "2023nov_banh_sinh_nhat_dac_biet",
+            "Intro": "Vật phẩm sự kiện Bánh kem Sinh nhật.",
+            "ItemValue": 200168
+        },
+        {
+            "ItemID": 20258,
+            "Name": "Quà sinh nhật bí ẩn",
+            "LimitLifeTime": 300,
+            "Icon": "2023nov_qua_bi_an",
+            "Intro": "Vật phẩm sự kiện Bánh kem Sinh nhật.",
+            "ItemValue": 200169
+        },
+        {
+            "ItemID": 20259,
+            "Name": "Rương Thú cưỡi Sinh nhật (3 ngày)",
+            "Icon": "horsebox_c",
+            "Intro": "Sử dụng nhận được thú cưỡi Tuyết Vũ Thiên Hương.",
+            "ItemValue": 200172,
+            "ListExtPram": [{ "Pram": 1, "Index": 1 }]
+        },
+        {
+            "ItemID": 20261,
+            "Name": "Danh hiệu Kề vai sát cánh VIP (7 ngày)",
+            "Icon": "quest_0084_s",
+            "Intro": "Sử dụng nhận được danh hiệu Kề vai sát cánh (VIP), thời hạn 7 ngày.",
+            "ItemValue": 200171,
+            "ListExtPram": [{ "Pram": 1, "Index": 1 }]
+        },
+        {
+            "ItemID": 20289,
+            "Name": "Danh hiệu Kề vai sát cánh (7 ngày)",
+            "Icon": "quest_0084_s",
+            "Intro": "Sử dụng nhận được danh hiệu Kề vai sát cánh, thời hạn 7 ngày.",
+            "ItemValue": 200174,
+            "ListExtPram": [{ "Pram": 1, "Index": 1 }]
+        },
+        {
+            "ItemID": 20268,
+            "Name": "Vòng sáng sự kiện Sinh nhật (30 ngày)",
+            "Icon": "quest_0084_s",
+            "Intro": "Sử dụng nhận được vòng sáng sự kiện Sinh nhật.",
+            "ScriptID": 200120,
+            "ListExtPram": [
+                { "Pram": 2027, "Index": 1 },
+                { "Pram": 43201, "Index": 2 }
+            ]
+        },
+        {
+            "ItemID": 20269,
+            "Name": "Vòng sáng sự kiện Sinh nhật (45 ngày)",
+            "Icon": "quest_0084_s",
+            "Intro": "Sử dụng nhận được vòng sáng sự kiện Sinh nhật.",
+            "ScriptID": 200120,
+            "ListExtPram": [
+                { "Pram": 2027, "Index": 1 },
+                { "Pram": 64801, "Index": 2 }
+            ]
+        },
+        {
+            "ItemID": 20286,
+            "Name": "Hộp bí ẩn (Sự kiện Sinh nhật)",
+            "Icon": "jinquelibao",
+            "Intro": "Sử dụng nhận được vật phẩm đặc biệt trong sự kiện Sinh nhật",
+            "ItemValue": 200173
+        },
+        {
+            "ItemID": 20287,
+            "Name": "Vòng sáng sự kiện Sinh nhật (3 ngày)",
+            "Icon": "quest_0084_s",
+            "Intro": "Sử dụng nhận được vòng sáng sự kiện Sinh nhật.",
+            "ScriptID": 200120,
+            "ListExtPram": [
+                { "Pram": 2027, "Index": 1 },
+                { "Pram": 4321, "Index": 2 }
+            ]
+        }
+    ],
+    "Normal": [
+        {
+            "ItemID": 20262,
+            "Name": "Kem tươi",
+            "Stack": 10000,
+            "Icon": "2023nov_kem_tuoi",
+            "Intro": "Vật phẩm sự kiện Bánh kem Sinh nhật.",
+            "ScriptID": 200121
+        },
+        {
+            "ItemID": 20263,
+            "Name": "Bánh Gato",
+            "Stack": 10000,
+            "Icon": "2023nov_banh_gato",
+            "Intro": "Vật phẩm sự kiện Bánh kem Sinh nhật.",
+            "ScriptID": 200121
+        },
+        {
+            "ItemID": 20264,
+            "Name": "Nến",
+            "Stack": 10000,
+            "Icon": "2023nov_nen",
+            "Intro": "Vật phẩm sự kiện Bánh kem Sinh nhật.",
+            "ScriptID": 200121
+        },
+        {
+            "ItemID": 20265,
+            "Name": "Thiệp sinh nhật",
+            "Stack": 10000,
+            "Icon": "2023nov_thiep",
+            "Intro": "Vật phẩm sự kiện Bánh kem Sinh nhật.",
+            "ScriptID": 200121
+        },
+        {
+            "ItemID": 20266,
+            "Name": "Bánh Gato Chocolate",
+            "Icon": "2023nov_banh_chocolate",
+            "Intro": "Vật phẩm sự kiện Bánh kem Sinh nhật. <br>Sử dụng nhận được <color=#a6e3a1>1 điểm kỹ năng</color>. Mỗi người tối đa sử dụng <color=#eba0ac>2 vật phẩm</color>.",
+            "ScriptID": 200097,
+            "ListExtPram": [
+                { "Pram": 700513, "Index": 1 },
+                { "Pram": 1, "Index": 2 },
+                { "Pram": 2, "Index": 3 }
+            ]
+        },
+        {
+            "ItemID": 20267,
+            "Name": "Bánh Gato Tiramisu",
+            "Icon": "2023nov_banh_tiramisu",
+            "Intro": "Vật phẩm sự kiện Bánh kem Sinh nhật. <br>Sử dụng nhận được <color=#a6e3a1>10 điểm tiềm năng</color>. Mỗi người tối đa sử dụng <color=#eba0ac>2 vật phẩm.</color>",
+            "ScriptID": 200096,
+            "ListExtPram": [
+                { "Pram": 700514, "Index": 1 },
+                { "Pram": 10, "Index": 2 },
+                { "Pram": 2, "Index": 3 }
+            ]
+        },
+        {
+            "ItemID": 20288,
+            "Name": "Quà sinh nhật",
+            "Icon": "vn_qingrenjiebox",
+            "Intro": "Vật phẩm sự kiện Sinh nhật, dùng để đổi lấy các phần quà giá trị tại Tiệm Quà sinh nhật (Cổ Phong Hà).",
+            "Stack": 1000
+        }
+    ]
+}

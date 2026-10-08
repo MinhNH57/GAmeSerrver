@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Map>
+  <NPCs>
+	<NPC Code="2655" Name="Môn đồ Bạch Hổ Đường [Đông]" MinimapName="Báo danh Bạch Hổ Đường [Đông]" VisibleOnMinimap="1" Title="Báo danh Bạch Hổ Đường [Đông]" X="7779" Y="2534" Dir="1" ScriptID="400007" />
+	<NPC Code="2656" Name="Môn đồ Bạch Hổ Đường [Nam]" MinimapName="Báo danh Bạch Hổ Đường [Nam]" VisibleOnMinimap="1" Title="Báo danh Bạch Hổ Đường [Nam]" X="5076" Y="1052" Dir="4" ScriptID="400010" />
+	<NPC Code="2657" Name="Môn đồ Bạch Hổ Đường [Tây]" MinimapName="Báo danh Bạch Hổ Đường [Tây]" VisibleOnMinimap="1" Title="Báo danh Bạch Hổ Đường [Tây]" X="2110" Y="2529" Dir="5" ScriptID="400009" />
+	<NPC Code="2658" Name="Môn đồ Bạch Hổ Đường [Bắc]" MinimapName="Báo danh Bạch Hổ Đường [Bắc]" VisibleOnMinimap="1" Title="Báo danh Bạch Hổ Đường [Bắc]" X="4943" Y="3989" Dir="7" ScriptID="400008" />
+	<NPC Code="3698" Name="Xa Phu" MinimapName="" VisibleOnMinimap="1" Title="" X="4585" Y="2462" Dir="0" ScriptID="400011" />
+	<NPC Code="3698" Name="Xa Phu" MinimapName="" VisibleOnMinimap="1" Title="" X="5394" Y="2476" Dir="0" ScriptID="400011" />
+
+	<!-- <NPC Code="20172" Name="" MinimapName="" VisibleOnMinimap="1" Title="" X="4864" Y="2523" Dir="0" ScriptID="227" />
+	<NPC Code="20181" Name="" MinimapName="" VisibleOnMinimap="1" Title="" X="4584" Y="2938" Dir="0" ScriptID="227" />
+	<NPC Code="20178" Name="" MinimapName="" VisibleOnMinimap="1" Title="" X="5264" Y="2978" Dir="0" ScriptID="227" />
+	<NPC Code="20178" Name="" MinimapName="" VisibleOnMinimap="1" Title="" X="4150" Y="2272" Dir="0" ScriptID="227" />
+	<NPC Code="20181" Name="" MinimapName="" VisibleOnMinimap="1" Title="" X="5670" Y="2373" Dir="0" ScriptID="227" />
+	<NPC Code="20184" Name="Quà Giáng Sinh 2" MinimapName="" VisibleOnMinimap="1" Title="" X="5309" Y="2727" Dir="0" ScriptID="227" />
+	<NPC Code="20183" Name="Quà Giáng Sinh 1" MinimapName="" VisibleOnMinimap="1" Title="" X="5357" Y="2285" Dir="0" ScriptID="227" />
+	<NPC Code="20185" Name="Quà Giáng Sinh 3" MinimapName="" VisibleOnMinimap="1" Title="" X="4565" Y="2247" Dir="0" ScriptID="227" />
+	<NPC Code="20183" Name="Quà Giáng Sinh 1" MinimapName="" VisibleOnMinimap="1" Title="" X="4517" Y="2728" Dir="0" ScriptID="227" /> -->
+  </NPCs>
+</Map>

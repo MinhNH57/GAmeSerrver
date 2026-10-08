@@ -1,0 +1,11 @@
+{
+    "RandomBoxes": [
+        {
+            "ItemID": 20934,
+            "Name": "[Đặc biệt] Bánh Kem",
+            "Icon": "vn_birthcake",
+            "Intro": "Vật phẩm sự kiện Sinh Nhật 3 Tuổi.",
+            "ItemValue": 200579
+        }
+    ]
+}

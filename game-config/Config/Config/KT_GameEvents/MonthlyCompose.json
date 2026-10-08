@@ -1,0 +1,16 @@
+{
+  "MaterialRate": {
+    "20873": 40,
+    "20874": 60
+  },
+  "TokenItem": 20876,
+  "TokenItemPrice": 15,
+  "TokenBindItem": 20875,
+  "TokenBindItemPrice": 400,
+  "TokenBindItemLimitPerDay": 10,
+  "DropRate": {
+    "1-24": 4,
+    "25-999": 4
+  },
+  "MonsterLevelLimit": 50
+}

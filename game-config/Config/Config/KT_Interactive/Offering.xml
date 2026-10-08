@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<OfferingEvent TimeKey="OfferingEvent">
+
+    <OfferingLimits DailyLimit="300"/>
+    <OfferingReward ItemID="20846" BuffID="2060"/>
+
+    <OfferingStagesBac>
+        <Stage Range="1-3" Currency="Bac" Cost="300000" MeritPoints="1" MeritWeight="100" ServerRange="1-24"
+
+               Message="Người chơi {0} đã thành kính dâng hương, nhận {1} điểm công đức."/>
+        <Stage Range="1-3" Currency="Bac" Cost="200000" MeritPoints="1" MeritWeight="100" ServerRange="25-999"
+
+               Message="Người chơi {0} đã thành kính dâng hương, nhận {1} điểm công đức."/>
+    </OfferingStagesBac>
+
+    <OfferingStagesKNB>
+        <Stage Range="1-3" Currency="KNB" Cost="120" MeritPoints="1" MeritWeight="100" ServerRange="1-999"
+               Message="Người chơi {0} đã thành kính dâng hương, nhận {1} điểm công đức."/>
+        <Stage Range="4-30" Currency="KNB" Cost="120" MeritPoints="1" MeritWeight="100" ServerRange="1-999"
+               Message="Người chơi {0} đã tiếp tục dâng hương, nhận {1} điểm công đức."/>
+        <Stage Range="31-50" Currency="KNB" Cost="160" MeritPoints="1-2" MeritWeight="70-30" ServerRange="1-999"
+               Message="Người chơi {0} đã dâng hương với tâm thành, nhận {1} điểm công đức."/>
+        <Stage Range="51-90" Currency="KNB" Cost="200" MeritPoints="1-2-3" MeritWeight="76-20-4" ServerRange="1-999"
+
+               Message="Người chơi {0} đã dâng hương nhiều lần, nhận {1} điểm công đức."/>
+    </OfferingStagesKNB>
+
+    <Milestones>
+        <Milestone ID="0" Points="200" Message="Người chơi {0} đã tích lũy 200 điểm công đức và nhận phần thưởng đầu tiên!">
+            <Reward ItemID="2017" Quantity="1"/>
+        </Milestone>
+        <Milestone ID="1" Points="600" Message="Người chơi {0} đã đạt 600 điểm công đức, nhận phần thưởng quý giá!">
+            <Reward ItemID="20571" Quantity="1"/>
+        </Milestone>
+        <Milestone ID="2" Points="1000" Message="Người chơi {0} đã tích lũy 1000 điểm công đức, trở thành bậc tôn kính!">
+            <Reward ItemID="20623" Quantity="1"/>
+            <Reward ItemID="20624" Quantity="1"/>
+        </Milestone>
+    </Milestones>
+</OfferingEvent>

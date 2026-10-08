@@ -1,0 +1,76 @@
+<!--
+	=============================================================================
+	TUYỆT ĐỐI KHÔNG ĐƯỢC ĐỔI THỨ TỰ ĐÁNH SỐ (Type với Cell hoặc ID với ExchangeSeashell và TurnRate)
+	=============================================================================
+	
+	
+	======== Thông tin vòng quay =========
+	MinTimeTick: Thời gian tối thiểu cho lượt quay (Mili-giây)
+	MaxTimeTick: Thời gian tối đa cho lượt quay (Mili-giây)
+	MinRound: Số vòng tối thiểu cho lượt quay
+	MaxRound: Số vòng tối đa cho lượt quay
+	RateToTreasure: Tỷ lệ quay vào rương mỗi lượt (phần nghìn)
+
+	======== Chỉ chỉnh ở TurnRate (tỷ lệ quay) =========
+	StageID: thứ tự của tầng hiện tại (đánh số từ 1 đến 6 tương ứng 6 tầng, 0 là khi chưa quay được vào tầng nào)
+	RateToSameType: Tỷ lệ quay vào ô cùng loại (phần nghìn)
+					Riêng tầng thứ tự 0 thì do chưa có ô nào cùng loại nên mặc định RateToSameType = 0
+	== Nếu may mắn được chọn quay vào ô cùng loại ==
+		RateToPosition_1: Tỷ lệ quay vào ô cùng loại 1 sao
+		RateToPosition_2: Tỷ lệ quay vào ô cùng loại 2 sao
+		RateToPosition_3: Tỷ lệ quay vào ô cùng loại 3 sao
+	=> Lưu ý: Tổng của RateToPosition_1, RateToPosition_2 và RateToPosition_3 phải chính xác = 1000
+-->
+
+<!-- Bách Bảo Rương -->
+<SeashellCircle MinTimeTick="3000" MaxTimeTick="5000" MinRound="3" MaxRound="5" RateToTreasure="20"
+                TreasurePosition="3;14" SeashellID="20762"
+                TreasureID="20764" StartDate="2024-07-05 05:00:00" EndDate="2024-12-31 05:00:00"
+                StartDate_FreeTicket="2024-09-20 05:00:00" EndDate_FreeTicket="2024-12-31 05:00:00"
+                ShopID="1488">
+    <!-- Loại ô -->
+    <Cells>
+        <Cell Type="0" Name="Tinh hoạt lực" StageValues="300;900;3000;10500;36000;120000" Position_1="0;9;18"
+              Position_2="4" Position_3="17"/>
+        <Cell Type="1" Name="Bạc" StageValues="20000;60000;200000;500000;1500000;4500000" Position_1="2;5;19"
+              Position_2="10" Position_3="1"/>
+        <Cell Type="2" Name="Nguyên Bảo khóa" StageValues="60;180;600;2100;7200;24000" Position_1="" Position_2=""
+              Position_3=""/>
+        <Cell Type="3" Name="Huyền Tinh" StageValues="187;188;189;190;191;192" Position_1="" Position_2=""
+              Position_3=""/>
+        <Cell Type="4" Name="Phiếu Quà Khai Giảng" StageValues="1;2;6;20;90;200" Position_1="" Position_2=""
+              Position_3=""/>
+        <Cell Type="5" Name="Nến Vàng" StageValues="1;3;8;30;120;400" Position_1="8;13;16" Position_2="21"
+              Position_3="12"/>
+        <Cell Type="6" Name="Ngũ hành Hồn thạch" StageValues="15;45;150;525;1800;6000" Position_1="7;11;20"
+              Position_2="15" Position_3="6"/>
+    </Cells>
+    <!-- End -->
+
+    <!-- Tỷ lệ đổi sò % -->
+    <ExchangeSeashell>
+        <Stage ID="0" Value="100"/>
+        <Stage ID="1" Value="300"/>
+        <Stage ID="2" Value="800"/>
+        <Stage ID="3" Value="3000"/>
+        <Stage ID="4" Value="12000"/>
+        <Stage ID="5" Value="40000"/>
+    </ExchangeSeashell>
+    <!-- End -->
+
+    <!-- Tỷ lệ quay -->
+    <TurnRate>
+        <Stage ID="0" RateToSameType="0" RateToPosition_1="900" RateToPosition_2="85" RateToPosition_3="15"/>
+        <Stage ID="1" RateToSameType="200" RateToPosition_1="900" RateToPosition_2="90" RateToPosition_3="10"/>
+        <Stage ID="2" RateToSameType="170" RateToPosition_1="900" RateToPosition_2="95" RateToPosition_3="5"/>
+        <Stage ID="3" RateToSameType="80" RateToPosition_1="990" RateToPosition_2="8" RateToPosition_3="2"/>
+        <Stage ID="4" RateToSameType="30" RateToPosition_1="999" RateToPosition_2="1" RateToPosition_3="0"/>
+        <Stage ID="5" RateToSameType="5" RateToPosition_1="1000" RateToPosition_2="0" RateToPosition_3="0"/>
+        <Stage ID="6" RateToSameType="0" RateToPosition_1="0" RateToPosition_2="0" RateToPosition_3="0"/>
+    </TurnRate>
+    <!-- End -->
+
+    <!-- Tỷ lệ cược được nhân phần thưởng bao nhiêu lần -->
+    <BetRate Bet_2="1" Bet_10="5" Bet_50="25"/>
+    <!-- End -->
+</SeashellCircle>

@@ -1,0 +1,230 @@
+{
+    "Packages": {
+        "MERGE_NORMAL_27": {
+            "Record": 9960013,
+            "Name": "Gói Liên Thông",
+            "BagSpace": 4,
+            "Items": [
+                { "ItemID": 192, "Number": 1, "Binding": 1 },
+                { "ItemID": 20406, "Number": 1, "Binding": 1 },
+                { "ItemID": 15716, "Number": 25, "Binding": 1 },
+                { "ItemID": 530, "Number": 1, "Binding": 1 }
+            ],
+            "RecordType": "Lifetime",
+            "MoneyType": 1,
+            "Money": 0,
+            "RecordLimit": 1
+        },
+        "MERGE_NORMAL_28": {
+            "Record": 9960013,
+            "Name": "Gói Liên Thông",
+            "BagSpace": 4,
+            "Items": [
+                { "ItemID": 192, "Number": 3, "Binding": 1 },
+                { "ItemID": 20406, "Number": 2, "Binding": 1 },
+                { "ItemID": 15716, "Number": 75, "Binding": 1 },
+                { "ItemID": 530, "Number": 2, "Binding": 1 }
+            ],
+            "RecordType": "Lifetime",
+            "MoneyType": 1,
+            "Money": 0,
+            "RecordLimit": 1
+        },
+        "MERGE_PLATINUM": {
+            "Record": 9960014,
+            "Name": "Gói Liên Thông - Bạch Kim",
+            "BagSpace": 4,
+            "Items": [
+                { "ItemID": 192, "Number": 2, "Binding": 1 },
+                { "ItemID": 1104, "Number": 30, "Binding": 1 },
+                { "ItemID": 1057, "Number": 100, "Binding": 1 },
+                { "ItemID": 20529, "Number": 100, "Binding": 1 }
+            ],
+            "RecordType": "Lifetime",
+            "MoneyType": 2,
+            "Money": 2000,
+            "RecordLimit": 1
+        },
+        "MERGE_DIAMOND": {
+            "Record": 9960015,
+            "Name": "Gói Liên Thông - Kim Cương",
+            "BagSpace": 4,
+            "Items": [
+                { "ItemID": 192, "Number": 3, "Binding": 1 },
+                { "ItemID": 506, "Number": 5000, "Binding": 1 },
+                { "ItemID": 20345, "Number": 50, "Binding": 1 },
+                { "ItemID": 20344, "Number": 200, "Binding": 1 }
+            ],
+            "RecordType": "Lifetime",
+            "MoneyType": 2,
+            "Money": 5000,
+            "RecordLimit": 1
+        },
+        "MERGE_RUBY": {
+            "Record": 9960016,
+            "Name": "Gói Liên Thông - Ruby",
+            "BagSpace": 4,
+            "Items": [
+                { "ItemID": 20571, "Number": 1, "Binding": 1 },
+                { "ItemID": 506, "Number": 7500, "Binding": 1 },
+                { "ItemID": 1058, "Number": 5, "Binding": 1 },
+                { "ItemID": 20529, "Number": 300, "Binding": 1 }
+            ],
+            "RecordType": "Lifetime",
+            "MoneyType": 2,
+            "Money": 20000,
+            "RecordLimit": 1
+        },
+		"DENBULIENSERVER": {
+			"Record": 9960017,
+			"Name": "Gói đền bù hoạt động liên server",
+			"BagSpace":6,
+			"Items": [
+				{ "ItemID": 20529, "Number": 50, "Binding": 1 },
+                { "ItemID": 506, "Number": 500, "Binding": 1 },
+                { "ItemID": 393, "Number": 2, "Binding": 1 },
+                { "ItemID": 20882, "Number": 1000, "Binding": 1 },
+                { "ItemID": 20883, "Number": 1000, "Binding": 1 }
+			],
+			"RecordType": "Lifetime",
+            "RecordLimit": 1
+		},
+		"MERGE_NORMAL_25_26": {
+            "Record": 9960018,
+            "Name": "Gói Liên Thông",
+            "BagSpace": 4,
+            "Items": [
+                { "ItemID": 192, "Number": 1, "Binding": 1 },
+                { "ItemID": 20406, "Number": 1, "Binding": 1 },
+                { "ItemID": 15716, "Number": 25, "Binding": 1 },
+                { "ItemID": 530, "Number": 1, "Binding": 1 }
+            ],
+            "RecordType": "Lifetime",
+            "MoneyType": 1,
+            "Money": 0,
+            "RecordLimit": 1
+        },
+		"MERGE_NORMAL_29": {
+            "Record": 9960019,
+            "Name": "Gói Liên Thông",
+            "BagSpace": 4,
+            "Items": [
+                { "ItemID": 192, "Number": 3, "Binding": 1 },
+                { "ItemID": 20406, "Number": 2, "Binding": 1 },
+                { "ItemID": 15716, "Number": 75, "Binding": 1 },
+                { "ItemID": 530, "Number": 2, "Binding": 1 }
+            ],
+            "RecordType": "Lifetime",
+            "MoneyType": 1,
+            "Money": 0,
+            "RecordLimit": 3
+        },
+		"MERGE_PLATINUM_25_26": {
+            "Record": 9960020,
+            "Name": "Gói Liên Thông - Bạch Kim",
+            "BagSpace": 4,
+            "Items": [
+                { "ItemID": 192, "Number": 2, "Binding": 1 },
+                { "ItemID": 1104, "Number": 30, "Binding": 1 },
+                { "ItemID": 1057, "Number": 100, "Binding": 1 },
+                { "ItemID": 20529, "Number": 100, "Binding": 1 }
+            ],
+            "RecordType": "Lifetime",
+            "MoneyType": 2,
+            "Money": 2000,
+            "RecordLimit": 1
+        },
+		"MERGE_PLATINUM_29": {
+            "Record": 9960021,
+            "Name": "Gói Liên Thông - Bạch Kim",
+            "BagSpace": 4,
+            "Items": [
+                { "ItemID": 192, "Number": 2, "Binding": 1 },
+                { "ItemID": 1104, "Number": 30, "Binding": 1 },
+                { "ItemID": 1057, "Number": 100, "Binding": 1 },
+                { "ItemID": 20529, "Number": 100, "Binding": 1 }
+            ],
+            "RecordType": "Lifetime",
+            "MoneyType": 2,
+            "Money": 2000,
+            "RecordLimit": 3
+        },
+        "MERGE_DIAMOND_25_26": {
+            "Record": 9960022,
+            "Name": "Gói Liên Thông - Kim Cương",
+            "BagSpace": 4,
+            "Items": [
+                { "ItemID": 192, "Number": 3, "Binding": 1 },
+                { "ItemID": 506, "Number": 5000, "Binding": 1 },
+                { "ItemID": 20345, "Number": 50, "Binding": 1 },
+                { "ItemID": 20344, "Number": 200, "Binding": 1 }
+            ],
+            "RecordType": "Lifetime",
+            "MoneyType": 2,
+            "Money": 5000,
+            "RecordLimit": 1
+        },
+		"MERGE_DIAMOND_29": {
+            "Record": 9960023,
+            "Name": "Gói Liên Thông - Kim Cương",
+            "BagSpace": 4,
+            "Items": [
+                { "ItemID": 192, "Number": 3, "Binding": 1 },
+                { "ItemID": 506, "Number": 5000, "Binding": 1 },
+                { "ItemID": 20345, "Number": 50, "Binding": 1 },
+                { "ItemID": 20344, "Number": 200, "Binding": 1 }
+            ],
+            "RecordType": "Lifetime",
+            "MoneyType": 2,
+            "Money": 5000,
+            "RecordLimit": 3
+        },
+        "MERGE_RUBY_25_26": {
+            "Record": 9960024,
+            "Name": "Gói Liên Thông - Ruby",
+            "BagSpace": 4,
+            "Items": [
+                { "ItemID": 20571, "Number": 1, "Binding": 1 },
+                { "ItemID": 506, "Number": 7500, "Binding": 1 },
+                { "ItemID": 1058, "Number": 5, "Binding": 1 },
+                { "ItemID": 20529, "Number": 300, "Binding": 1 }
+            ],
+            "RecordType": "Lifetime",
+            "MoneyType": 2,
+            "Money": 20000,
+            "RecordLimit": 1
+        },
+		"MERGE_RUBY_29": {
+            "Record": 9960025,
+            "Name": "Gói Liên Thông - Ruby",
+            "BagSpace": 4,
+            "Items": [
+                { "ItemID": 20571, "Number": 1, "Binding": 1 },
+                { "ItemID": 506, "Number": 7500, "Binding": 1 },
+                { "ItemID": 1058, "Number": 5, "Binding": 1 },
+                { "ItemID": 20529, "Number": 300, "Binding": 1 }
+            ],
+            "RecordType": "Lifetime",
+            "MoneyType": 2,
+            "Money": 20000,
+            "RecordLimit": 3
+        },
+		"DEN_BU_ALL_SERVER_01": {
+            "Record": 9960027,
+            "Name": "Gói Đền Bù Bảo Trì",
+            "BagSpace": 4,
+            "Items": [
+                { "ItemID": 15306, "Number": 1, "Binding": 1 },
+                { "ItemID": 15600, "Number": 1, "Binding": 1 },
+                { "ItemID": 191, "Number": 1, "Binding": 1 },
+                { "ItemID": 590, "Number": 2, "Binding": 1 },
+                { "ItemID": 600, "Number": 5, "Binding": 1 },
+                { "ItemID": 1885, "Number": 1000 , "Binding": 1 }
+            ],
+            "RecordType": "Lifetime",
+            "MoneyType": 1,
+            "Money": 0,
+            "RecordLimit": 1
+        }
+    }
+}

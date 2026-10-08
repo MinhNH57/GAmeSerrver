@@ -1,0 +1,575 @@
+[
+    {
+        "BoxName": "Túi Mù Ngày Hè",
+        "IDBox": 200574,
+        "Binding": 0,
+        "Items": [
+            { "ItemID": 1885, "Rate": -1, "Number": 1, "Info": "1 x Kinh nghiệm đơn" },
+            {
+                "Rate": 2.0,
+                "Info": "KNB khóa",
+                "Details": [
+                    { "ItemID": 3, "Info": "300 x KNB khóa", "Number": 300, "Rate": 35.0 },
+                    { "ItemID": 3, "Info": "400 x KNB khóa", "Number": 400, "Rate": 45.0 },
+                    { "ItemID": 3, "Info": "500 x KNB khóa", "Number": 500, "Rate": 20.0 }
+                ]
+            },
+            {
+                "Rate": 2.0,
+                "Info": "Bạc Khóa",
+                "Details": [
+                    { "ItemID": 1, "Info": "100000 x Bạc khóa", "Number": 100000, "Rate": 30.0 },
+                    { "ItemID": 1, "Info": "150000 x Bạc khóa", "Number": 150000, "Rate": 40.0 },
+                    { "ItemID": 1, "Info": "200000 x Bạc khóa", "Number": 200000, "Rate": 20.0 },
+                    { "ItemID": 1, "Info": "250000 x Bạc khóa", "Number": 250000, "Rate": 10.0 }
+                ]
+            },
+            {
+                "Rate": 2.0,
+                "Info": "Bạc",
+                "Details": [
+                    { "ItemID": 2, "Info": "50000 x Bạc", "Number": 50000, "Rate": 30.0 },
+                    { "ItemID": 2, "Info": "70000 x Bạc", "Number": 70000, "Rate": 40.0 },
+                    { "ItemID": 2, "Info": "100000 x Bạc", "Number": 100000, "Rate": 20.0 },
+                    { "ItemID": 2, "Info": "120000 x Bạc", "Number": 120000, "Rate": 10.0 }
+                ]
+            },
+            {
+                "Rate": 13.0,
+                "Info": "Ngũ Hành Hồn Thạch",
+                "Details": [
+                    { "ItemID": 506, "Info": "20 x Ngũ Hành Hồn Thạch", "Number": 20, "Rate": 30.0 },
+                    { "ItemID": 506, "Info": "40 x Ngũ Hành Hồn Thạch", "Number": 40, "Rate": 35.0 },
+                    { "ItemID": 506, "Info": "60 x Ngũ Hành Hồn Thạch", "Number": 60, "Rate": 20.0 },
+                    { "ItemID": 506, "Info": "80 x Ngũ Hành Hồn Thạch", "Number": 80, "Rate": 10.0 },
+                    { "ItemID": 506, "Info": "100 x Ngũ Hành Hồn Thạch", "Number": 100, "Rate": 5.0 }
+                ]
+            },
+            {
+                "Rate": 6.0,
+                "Info": "Nhu Yếu Phẩm",
+                "Details": [
+                    { "ItemID": 943, "Info": "1 x Bạc khóa liên server (10 vạn)", "Number": 1, "Rate": 20.0 },
+                    { "ItemID": 796, "Info": "1 x Tần Lăng-Dạ Minh Châu", "Number": 1, "Rate": 20.0 },
+                    { "ItemID": 1074, "Info": "1 x Tiền Du Long", "Number": 1, "Rate": 20.0 },
+                    { "ItemID": 600, "Info": "1 x Tu Luyện Đơn", "Number": 1, "Rate": 20.0 },
+                    { "ItemID": 590, "Info": "1 x Bản đồ bí cảnh", "Number": 1, "Rate": 20.0 }
+                ]
+            },
+            {
+                "Rate": 10.5,
+                "Info": "Huyền tinh",
+                "Details": [
+                    { "ItemID": 188, "Info": "1 x Huyền Tinh có vết nứt (cấp 6)", "Number": 1, "Rate": 55.0 },
+                    { "ItemID": 189, "Info": "1 x Huyền Tinh thường (cấp 7)", "Number": 1, "Rate": 30.0 },
+                    { "ItemID": 190, "Info": "1 x Huyền Tinh có tì vết (cấp 8)", "Number": 1, "Notify": true, "Rate": 10.0 },
+                    { "ItemID": 191, "Info": "1 x Huyền Tinh vô hạ (cấp 9)", "Number": 1, "Notify": true, "Rate": 5.0 }
+                ]
+            },
+            {
+                "Rate": 12.0,
+                "Info": "Rương Lệnh Bài Danh Vọng",
+                "Details": [
+                    { "ItemID": 15713, "Info": "1 x Danh vọng Chúc phúc", "Number": 1, "Rate": 25.0 },
+                    { "ItemID": 15716, "Info": "1 x Danh vọng Tranh đoạt Lãnh thổ", "Number": 1, "Rate": 45.0 },
+                    { "ItemID": 15714, "Info": "1 x Danh vọng Tần Lăng - Quan phủ", "Number": 1, "Rate": 10.0 },
+                    { "ItemID": 13097, "Info": "1 x Danh vọng Liên đấu Liên Server", "Number": 1, "Rate": 13.0 },
+                    { "ItemID": 527, "Info": "1 x Liên Đấu Hắc Thiết Bài", "Number": 1, "Notify": true, "Rate": 7.0 }
+                ]
+            },
+            {
+                "Rate": 12.0,
+                "Info": "Tài Nguyên Đồng Hành",
+                "Details": [
+                    { "ItemID": 1057, "Info": "1 x Sách kinh nghiệm đồng hành", "Number": 1, "Rate": 50.0 },
+                    { "ItemID": 1058, "Info": "1 x Sách kinh nghiệm đồng hành (Truyền thuyết)", "Number": 1, "Notify": true, "Rate": 3.0 },
+                    { "ItemID": 1102, "Info": "1 x Bạch Ngân Tinh Hoa (Cấp 1)", "Number": 1, "Rate": 20.0 },
+                    { "ItemID": 1103, "Info": "1 x Hoàng Kim Tinh Hoa (Cấp 2)", "Number": 1, "Rate": 10.0 },
+                    { "ItemID": 1104, "Info": "1 x Bạch Kim Tinh Hoa (Cấp 3)", "Number": 1, "Rate": 5.0 },
+                    { "ItemID": 20270, "Info": "1 x Thiệp vàng (cấp 3)", "Number": 1, "Rate": 8.0 },
+                    { "ItemID": 20406, "Info": "1 x Thiệp bạch kim (cấp 4)", "Number": 1, "Notify": true, "Rate": 4.0 }
+                ]
+            },
+            { "Rate": 0.05, "Info": "1 x Mực Một Nắng", "ItemID": 20877, "Number": 1 },
+            { "Rate": 0.05, "Info": "1 x Ghẹ Hấp Me", "ItemID": 20878, "Notify": true, "IsPreview": true, "Number": 1 },
+            {
+                "Rate": 11.0,
+                "Info": "Tinh hoạt lực",
+                "Details": [
+                    { "ItemID": 20537, "Info": "1 x Tinh hoạt lực (500)", "Number": 1, "Rate": 20.0 },
+                    { "ItemID": 20538, "Info": "1 x Tinh hoạt lực (1000)", "Number": 1, "Rate": 7.0 },
+                    { "ItemID": 20822, "Info": "1 x Tinh hoạt lực (2000)", "Number": 1, "Rate": 3.0 },
+                    { "ItemID": 349, "Info": "1 x Tinh Khí Tán (1000)", "Number": 1, "Rate": 20.0 },
+                    { "ItemID": 350, "Info": "1 x Tinh Khí Tán (1500)", "Number": 1, "Rate": 20.0 },
+                    { "ItemID": 352, "Info": "1 x Hoạt Khí Tán (1000)", "Number": 1, "Rate": 15.0 },
+                    { "ItemID": 353, "Info": "1 x Hoạt Khí Tán (1500)", "Number": 1, "Rate": 15.0 }
+                ]
+            },
+            {
+                "Rate": 0.2,
+                "Info": "Bùa trang bị đồng hành - Thường",
+                "Details": [
+                    { "ItemID": 20362, "Info": "1 x Bùa may mắn đồng hành (Sơ)", "Number": 1, "Rate": 45.0 },
+                    { "ItemID": 20363, "Info": "1 x Bùa may mắn đồng hành (Trung)", "Number": 1, "Rate": 35.0 },
+                    { "ItemID": 20364, "Info": "1 x Bùa may mắn đồng hành (Cao)", "Number": 1, "Rate": 15.0 },
+                    { "ItemID": 20365, "Info": "1 x Bùa may mắn đồng hành (Siêu cấp)", "Number": 1, "Rate": 4.0, "Notify": true, "IsPreview": true },
+                    { "ItemID": 20366, "Info": "1 x Bùa may mắn đồng hành (Thần cấp)", "Number": 1, "Rate": 1.0, "Notify": true, "IsPreview": true }
+                ]
+            },
+            {
+                "Rate": 0.05,
+                "Info": "Bùa trang bị đồng hành - Đặc biệt",
+                "Details": [
+                    { "ItemID": 20367, "Info": "1 x Bùa may mắn đồng hành [Đặc biệt] (Sơ)", "Number": 1, "Rate": 50.0 },
+                    { "ItemID": 20368, "Info": "1 x Bùa may mắn đồng hành [Đặc biệt] (Trung)", "Number": 1, "Rate": 40.0 },
+                    { "ItemID": 20369, "Info": "1 x Bùa may mắn đồng hành [Đặc biệt] (Cao)", "Number": 1, "Rate": 6.0 },
+                    {
+                        "ItemID": 20370,
+                        "Info": "1 x Bùa may mắn đồng hành [Đặc biệt] (Siêu cấp)",
+                        "Number": 1,
+                        "Rate": 3.0,
+                        "Notify": true,
+                        "IsPreview": true
+                    },
+                    {
+                        "ItemID": 20371,
+                        "Info": "1 x Bùa may mắn đồng hành [Đặc biệt] (Thần cấp)",
+                        "Number": 1,
+                        "Rate": 1.0,
+                        "Notify": true,
+                        "IsPreview": true
+                    }
+                ]
+            },
+            {
+                "Rate": 9.0,
+                "Info": "Nguyên liệu nâng cấp Ấn",
+                "Details": [
+                    { "ItemID": 20345, "Info": "1 x Mảnh Lôi đình ấn", "Number": 1, "Notify": true, "Rate": 5.0 },
+                    { "ItemID": 20344, "Info": "1 x Cờ chiến công", "Number": 1, "Rate": 95.0 }
+                ]
+            },
+            {
+                "Rate": 1.5,
+                "Info": "Mảnh kỹ năng trang bị bạch ngân/hoàng kim",
+                "Details": [
+                    { "ItemID": 25299, "Info": "1 x Mảnh Kỹ Năng Phòng Cụ", "Number": 1, "Rate": 45.0, "Notify": true, "IsPreview": true },
+                    { "ItemID": 25300, "Info": "1 x Mảnh Kỹ Năng Trang Sức", "Number": 1, "Rate": 45.0, "Notify": true, "IsPreview": true },
+                    { "ItemID": 25301, "Info": "1 x Mảnh Kỹ Năng Vũ Khí", "Number": 1, "Rate": 10.0, "Notify": true, "IsPreview": true }
+                ]
+            },
+            {
+                "Rate": 1.2,
+                "Info": "Vé Cường Hóa",
+                "Details": [
+                    { "ItemID": 972, "Info": "1 x Vé cường hóa vũ khí", "Number": 1, "Notify": true, "Rate": 10.0 },
+                    { "ItemID": 973, "Info": "1 x Vé cường hóa phòng cụ", "Number": 1, "Notify": true, "Rate": 50.0 },
+                    { "ItemID": 974, "Info": "1 x Vé cường hóa trang sức", "Number": 1, "Notify": true, "Rate": 40.0 }
+                ]
+            },
+            {
+                "Rate": 11.0,
+                "Info": "Trang bị đồng hành",
+                "Details": [
+                    { "ItemID": 20379, "Info": "1 x Rương mảnh trang bị đồng hành (trung cấp)", "Number": 1, "Rate": 60.0 },
+                    { "ItemID": 20529, "Info": "1 x Rương mảnh trang bị đồng hành (cao cấp)", "Number": 1, "Rate": 39.665000000000006 },
+                    {
+                        "ItemID": 25235,
+                        "Info": "1 x Rương Trang bị đồng hành Bích Huyết - Tự Chọn (Sơ Cấp)",
+                        "Number": 1,
+                        "Rate": 0.25,
+                        "Notify": true,
+                        "IsPreview": true
+                    },
+                    {
+                        "ItemID": 25236,
+                        "Info": "1 x Rương Trang bị đồng hành Bích Huyết - Tự Chọn (Trung)",
+                        "Number": 1,
+                        "Rate": 0.07,
+                        "Notify": true,
+                        "IsPreview": true
+                    },
+                    { "ItemID": 20124, "Info": "1 x Rương trang bị đồng hành Bích Huyết (cao cấp)", "Number": 1, "Rate": 0.015 }
+                ]
+            },
+            {
+                "Rate": 0.31,
+                "Info": "Bùa bảo hộ đồng hành",
+                "Details": [
+                    { "ItemID": 20694, "Info": "1 x Bùa bảo hộ Kim Lân", "Number": 1, "Rate": 76.0, "Notify": true, "IsPreview": true },
+                    { "ItemID": 20695, "Info": "1 x Bùa bảo hộ Đơn Tâm", "Number": 1, "Rate": 20.0, "Notify": true, "IsPreview": true },
+                    { "ItemID": 20696, "Info": "1 x Bùa bảo hộ Long Đằng", "Number": 1, "Rate": 4.0, "Notify": true, "IsPreview": true }
+                ]
+            },
+            {
+                "Rate": 0.0075,
+                "Info": "1 x Rương Tiểu Du Long Danh Vọng Lệnh (ngẫu nhiên)",
+                "ItemID": 2017,
+                "Notify": true,
+                "IsPreview": true,
+                "Number": 1
+            },
+            { "Rate": 0.005, "Info": "1 x Rương Tiểu Du Long Danh Vọng Lệnh (lựa chọn)", "ItemID": 20571, "Notify": true, "Number": 1 },
+            {
+                "Rate": 0.001,
+                "Info": "Rương kỹ năng đồng hành",
+                "Details": [
+                    {
+                        "ItemID": 20622,
+                        "Info": "1 x Rương sách kỹ năng đồng hành [Sơ]",
+                        "Number": 1,
+                        "Rate": 60.0,
+                        "Notify": true,
+                        "IsPreview": true
+                    },
+                    {
+                        "ItemID": 20623,
+                        "Info": "1 x Rương sách kỹ năng đồng hành [Trung]",
+                        "Number": 1,
+                        "Rate": 30.0,
+                        "Notify": true,
+                        "IsPreview": true
+                    },
+                    {
+                        "ItemID": 20624,
+                        "Info": "1 x Rương sách kỹ năng đồng hành [Cao]",
+                        "Number": 1,
+                        "Rate": 10.0,
+                        "Notify": true,
+                        "IsPreview": true
+                    }
+                ]
+            },
+            { "Rate": 0.05, "Info": "1 x Câu Hồn Ngọc (trung)", "ItemID": 432, "Number": 1 },
+            { "Rate": 0.05, "Info": "1 x Câu Hồn Ngọc (cao)", "ItemID": 433, "Number": 1 },
+            { "Rate": 0.015, "Info": "1 x Sách Kỹ năng Đồng hành (cấp 1)", "ItemID": 20272, "Notify": true, "IsPreview": true, "Number": 1 },
+            { "Rate": 0.0065, "Info": "1 x Sách Kỹ năng Đồng hành (cấp 2)", "ItemID": 20273, "Notify": true, "IsPreview": true, "Number": 1 },
+            {
+                "Rate": 5.0,
+                "Info": "Chân Nguyên",
+                "Details": [
+                    { "ItemID": 25270, "Info": "20 x Kinh Nghiệm Chân Nguyên", "Number": 20, "Rate": 19.5 },
+                    { "ItemID": 25270, "Info": "40 x Kinh Nghiệm Chân Nguyên", "Number": 40, "Rate": 19.5 },
+                    { "ItemID": 25270, "Info": "60 x Kinh Nghiệm Chân Nguyên", "Number": 60, "Rate": 19.5 },
+                    { "ItemID": 25270, "Info": "80 x Kinh Nghiệm Chân Nguyên", "Number": 80, "Rate": 19.5, "Notify": true, "IsPreview": true },
+                    { "ItemID": 25270, "Info": "100 x Kinh Nghiệm Chân Nguyên", "Number": 100, "Rate": 19.5 },
+                    { "ItemID": 25269, "Info": "1 x Thiệp Như Ý", "Number": 1, "Rate": 2.5, "Notify": true, "IsPreview": true }
+                ]
+            },
+            {
+                "Rate": 0.005,
+                "Info": "Mật tịch đồng hành",
+                "Details": [
+                    { "ItemID": 1075, "Info": "1 x Mật tịch đồng hành (sơ)", "Number": 1, "Rate": 60.0 },
+                    { "ItemID": 1076, "Info": "1 x Mật tịch đồng hành (trung)", "Number": 1, "Rate": 30.0 },
+                    { "ItemID": 1077, "Info": "1 x Mật tịch đồng hành (cao)", "Number": 1, "Rate": 10.0, "Notify": true, "IsPreview": true }
+                ]
+            },
+            {
+                "Rate": 1.0,
+                "Info": "Tiền Cổ Năng Động",
+                "Details": [
+                    { "ItemID": 20816, "Info": "10 x Tiền Cổ Năng Động", "Number": 10, "Rate": 50.0 },
+                    { "ItemID": 20816, "Info": "15 x Tiền Cổ Năng Động", "Number": 15, "Rate": 30.0 },
+                    { "ItemID": 20816, "Info": "20 x Tiền Cổ Năng Động", "Number": 20, "Rate": 13.0 },
+                    { "ItemID": 20816, "Info": "25 x Tiền Cổ Năng Động", "Number": 25, "Rate": 7.0 }
+                ]
+            }
+        ]
+    },
+    {
+        "BoxName": "Túi Mù Ngày Hè",
+        "IDBox": 200577,
+        "Binding": 0,
+        "Items": [
+            { "ItemID": 1885, "Rate": -1, "Number": 1, "Info": "1 x Kinh nghiệm đơn" },
+            {
+                "Rate": 2.0,
+                "Info": "KNB khóa",
+                "Details": [
+                    { "ItemID": 3, "Info": "300 x KNB khóa", "Number": 300, "Rate": 35.0 },
+                    { "ItemID": 3, "Info": "400 x KNB khóa", "Number": 400, "Rate": 45.0 },
+                    { "ItemID": 3, "Info": "500 x KNB khóa", "Number": 500, "Rate": 20.0 }
+                ]
+            },
+            {
+                "Rate": 2.0,
+                "Info": "Bạc Khóa",
+                "Details": [
+                    { "ItemID": 1, "Info": "100000 x Bạc khóa", "Number": 100000, "Rate": 30.0 },
+                    { "ItemID": 1, "Info": "150000 x Bạc khóa", "Number": 150000, "Rate": 40.0 },
+                    { "ItemID": 1, "Info": "200000 x Bạc khóa", "Number": 200000, "Rate": 20.0 },
+                    { "ItemID": 1, "Info": "250000 x Bạc khóa", "Number": 250000, "Rate": 10.0 }
+                ]
+            },
+            {
+                "Rate": 2.0,
+                "Info": "Bạc",
+                "Details": [
+                    { "ItemID": 2, "Info": "50000 x Bạc", "Number": 50000, "Rate": 30.0 },
+                    { "ItemID": 2, "Info": "70000 x Bạc", "Number": 70000, "Rate": 40.0 },
+                    { "ItemID": 2, "Info": "100000 x Bạc", "Number": 100000, "Rate": 20.0 },
+                    { "ItemID": 2, "Info": "120000 x Bạc", "Number": 120000, "Rate": 10.0 }
+                ]
+            },
+            {
+                "Rate": 12.5,
+                "Info": "Ngũ Hành Hồn Thạch",
+                "Details": [
+                    { "ItemID": 506, "Info": "20 x Ngũ Hành Hồn Thạch", "Number": 20, "Rate": 30.0 },
+                    { "ItemID": 506, "Info": "40 x Ngũ Hành Hồn Thạch", "Number": 40, "Rate": 35.0 },
+                    { "ItemID": 506, "Info": "60 x Ngũ Hành Hồn Thạch", "Number": 60, "Rate": 20.0 },
+                    { "ItemID": 506, "Info": "80 x Ngũ Hành Hồn Thạch", "Number": 80, "Rate": 10.0 },
+                    { "ItemID": 506, "Info": "100 x Ngũ Hành Hồn Thạch", "Number": 100, "Rate": 5.0 }
+                ]
+            },
+            {
+                "Rate": 5.0,
+                "Info": "Nhu Yếu Phẩm",
+                "Details": [
+                    { "ItemID": 943, "Info": "1 x Bạc khóa liên server (10 vạn)", "Number": 1, "Rate": 5.0 },
+                    { "ItemID": 796, "Info": "1 x Tần Lăng-Dạ Minh Châu", "Number": 1, "Rate": 5.0 },
+                    { "ItemID": 1074, "Info": "1 x Tiền Du Long", "Number": 1, "Rate": 30.0 },
+                    { "ItemID": 600, "Info": "1 x Tu Luyện Đơn", "Number": 1, "Rate": 30.0 },
+                    { "ItemID": 590, "Info": "1 x Bản đồ bí cảnh", "Number": 1, "Rate": 30.0 }
+                ]
+            },
+            {
+                "Rate": 12.0,
+                "Info": "Huyền tinh",
+                "Details": [
+                    { "ItemID": 188, "Info": "1 x Huyền Tinh có vết nứt (cấp 6)", "Number": 1, "Rate": 55.0 },
+                    { "ItemID": 189, "Info": "1 x Huyền Tinh thường (cấp 7)", "Number": 1, "Rate": 30.0 },
+                    { "ItemID": 190, "Info": "1 x Huyền Tinh có tì vết (cấp 8)", "Number": 1, "Notify": true, "Rate": 10.0 },
+                    { "ItemID": 191, "Info": "1 x Huyền Tinh vô hạ (cấp 9)", "Number": 1, "Notify": true, "Rate": 5.0 }
+                ]
+            },
+            {
+                "Rate": 12.0,
+                "Info": "Rương Lệnh Bài Danh Vọng",
+                "Details": [
+                    { "ItemID": 15713, "Info": "1 x Danh vọng Chúc phúc", "Number": 1, "Rate": 25.0 },
+                    { "ItemID": 15716, "Info": "1 x Danh vọng Tranh đoạt Lãnh thổ", "Number": 1, "Rate": 45.0 },
+                    { "ItemID": 15714, "Info": "1 x Danh vọng Tần Lăng - Quan phủ", "Number": 1, "Rate": 10.0 },
+                    { "ItemID": 13097, "Info": "1 x Danh vọng Liên đấu Liên Server", "Number": 1, "Rate": 13.0 },
+                    { "ItemID": 527, "Info": "1 x Liên Đấu Hắc Thiết Bài", "Number": 1, "Notify": true, "Rate": 7.0 }
+                ]
+            },
+            {
+                "Rate": 12.0,
+                "Info": "Tài Nguyên Đồng Hành",
+                "Details": [
+                    { "ItemID": 1057, "Info": "1 x Sách kinh nghiệm đồng hành", "Number": 1, "Rate": 50.0 },
+                    { "ItemID": 1058, "Info": "1 x Sách kinh nghiệm đồng hành (Truyền thuyết)", "Number": 1, "Rate": 3.0 },
+                    { "ItemID": 1102, "Info": "1 x Bạch Ngân Tinh Hoa (Cấp 1)", "Number": 1, "Rate": 20.0 },
+                    { "ItemID": 1103, "Info": "1 x Hoàng Kim Tinh Hoa (Cấp 2)", "Number": 1, "Rate": 10.0 },
+                    { "ItemID": 1104, "Info": "1 x Bạch Kim Tinh Hoa (Cấp 3)", "Number": 1, "Rate": 5.0 },
+                    { "ItemID": 20270, "Info": "1 x Thiệp vàng (cấp 3)", "Number": 1, "Rate": 8.0 },
+                    { "ItemID": 20406, "Info": "1 x Thiệp bạch kim (cấp 4)", "Number": 1, "Notify": true, "Rate": 4.0 }
+                ]
+            },
+            { "Rate": 0.05, "Info": "1 x Không thưởng", "ItemID": -1, "Number": 1 },
+            { "Rate": 0.05, "Info": "1 x Không thưởng", "ItemID": -1, "Notify": true, "IsPreview": true, "Number": 1 },
+            {
+                "Rate": 12.0,
+                "Info": "Tinh hoạt lực",
+                "Details": [
+                    { "ItemID": 20537, "Info": "1 x Tinh hoạt lực (500)", "Number": 1, "Rate": 20.0 },
+                    { "ItemID": 20538, "Info": "1 x Tinh hoạt lực (1000)", "Number": 1, "Rate": 7.0 },
+                    { "ItemID": 20822, "Info": "1 x Tinh hoạt lực (2000)", "Number": 1, "Rate": 3.0 },
+                    { "ItemID": 349, "Info": "1 x Tinh Khí Tán (1000)", "Number": 1, "Rate": 20.0 },
+                    { "ItemID": 350, "Info": "1 x Tinh Khí Tán (1500)", "Number": 1, "Rate": 20.0 },
+                    { "ItemID": 352, "Info": "1 x Hoạt Khí Tán (1000)", "Number": 1, "Rate": 15.0 },
+                    { "ItemID": 353, "Info": "1 x Hoạt Khí Tán (1500)", "Number": 1, "Rate": 15.0 }
+                ]
+            },
+            {
+                "Rate": 0.2,
+                "Info": "Bùa trang bị đồng hành - Thường",
+                "Details": [
+                    { "ItemID": 20362, "Info": "1 x Bùa may mắn đồng hành (Sơ)", "Number": 1, "Rate": 45.0 },
+                    { "ItemID": 20363, "Info": "1 x Bùa may mắn đồng hành (Trung)", "Number": 1, "Rate": 35.0 },
+                    { "ItemID": 20364, "Info": "1 x Bùa may mắn đồng hành (Cao)", "Number": 1, "Rate": 15.0 },
+                    { "ItemID": 20365, "Info": "1 x Bùa may mắn đồng hành (Siêu cấp)", "Number": 1, "Rate": 4.0, "Notify": true, "IsPreview": true },
+                    { "ItemID": 20366, "Info": "1 x Bùa may mắn đồng hành (Thần cấp)", "Number": 1, "Rate": 1.0, "Notify": true, "IsPreview": true }
+                ]
+            },
+            {
+                "Rate": 0.05,
+                "Info": "Bùa trang bị đồng hành - Đặc biệt",
+                "Details": [
+                    { "ItemID": 20367, "Info": "1 x Bùa may mắn đồng hành [Đặc biệt] (Sơ)", "Number": 1, "Rate": 50.0 },
+                    { "ItemID": 20368, "Info": "1 x Bùa may mắn đồng hành [Đặc biệt] (Trung)", "Number": 1, "Rate": 40.0 },
+                    { "ItemID": 20369, "Info": "1 x Bùa may mắn đồng hành [Đặc biệt] (Cao)", "Number": 1, "Rate": 6.0 },
+                    {
+                        "ItemID": 20370,
+                        "Info": "1 x Bùa may mắn đồng hành [Đặc biệt] (Siêu cấp)",
+                        "Number": 1,
+                        "Rate": 3.0,
+                        "Notify": true,
+                        "IsPreview": true
+                    },
+                    {
+                        "ItemID": 20371,
+                        "Info": "1 x Bùa may mắn đồng hành [Đặc biệt] (Thần cấp)",
+                        "Number": 1,
+                        "Rate": 1.0,
+                        "Notify": true,
+                        "IsPreview": true
+                    }
+                ]
+            },
+            {
+                "Rate": 9.0,
+                "Info": "Nguyên liệu nâng cấp Ấn",
+                "Details": [
+                    { "ItemID": 20345, "Info": "1 x Mảnh Lôi đình ấn", "Number": 1, "Notify": true, "Rate": 10.0 },
+                    { "ItemID": 20344, "Info": "1 x Cờ chiến công", "Number": 1, "Rate": 90.0 }
+                ]
+            },
+            {
+                "Rate": 1.0,
+                "Info": "Mảnh kỹ năng trang bị bạch ngân/hoàng kim",
+                "Details": [
+                    { "ItemID": 25299, "Info": "1 x Mảnh Kỹ Năng Phòng Cụ", "Number": 1, "Rate": 45.0, "Notify": true, "IsPreview": true },
+                    { "ItemID": 25300, "Info": "1 x Mảnh Kỹ Năng Trang Sức", "Number": 1, "Rate": 45.0, "Notify": true, "IsPreview": true },
+                    { "ItemID": 25301, "Info": "1 x Mảnh Kỹ Năng Vũ Khí", "Number": 1, "Rate": 10.0, "Notify": true, "IsPreview": true }
+                ]
+            },
+            {
+                "Rate": 1.0,
+                "Info": "Vé Cường Hóa",
+                "Details": [
+                    { "ItemID": 972, "Info": "1 x Vé cường hóa vũ khí", "Number": 1, "Notify": true, "Rate": 10.0 },
+                    { "ItemID": 973, "Info": "1 x Vé cường hóa phòng cụ", "Number": 1, "Notify": true, "Rate": 50.0 },
+                    { "ItemID": 974, "Info": "1 x Vé cường hóa trang sức", "Number": 1, "Notify": true, "Rate": 40.0 }
+                ]
+            },
+            {
+                "Rate": 12.0,
+                "Info": "Trang bị đồng hành",
+                "Details": [
+                    { "ItemID": 20379, "Info": "1 x Rương mảnh trang bị đồng hành (trung cấp)", "Number": 1, "Rate": 39.0 },
+                    { "ItemID": 20529, "Info": "1 x Rương mảnh trang bị đồng hành (cao cấp)", "Number": 1, "Rate": 58.985 },
+                    {
+                        "ItemID": 25235,
+                        "Info": "1 x Rương Trang bị đồng hành Bích Huyết - Tự Chọn (Sơ Cấp)",
+                        "Number": 1,
+                        "Rate": 1.5,
+                        "Notify": true,
+                        "IsPreview": true
+                    },
+                    {
+                        "ItemID": 25236,
+                        "Info": "1 x Rương Trang bị đồng hành Bích Huyết - Tự Chọn (Trung)",
+                        "Number": 1,
+                        "Rate": 0.5,
+                        "Notify": true,
+                        "IsPreview": true
+                    },
+                    { "ItemID": 20124, "Info": "1 x Rương trang bị đồng hành Bích Huyết (cao cấp)", "Number": 1, "Rate": 0.015 }
+                ]
+            },
+            {
+                "Rate": 0.51,
+                "Info": "Bùa bảo hộ đồng hành",
+                "Details": [
+                    { "ItemID": 20694, "Info": "1 x Bùa bảo hộ Kim Lân", "Number": 1, "Rate": 100.0, "Notify": true, "IsPreview": true },
+                    { "ItemID": 20695, "Info": "1 x Bùa bảo hộ Đơn Tâm", "Number": 1, "Rate": 0.0, "Notify": true, "IsPreview": true },
+                    { "ItemID": 20696, "Info": "1 x Bùa bảo hộ Long Đằng", "Number": 1, "Rate": 0.0, "Notify": true, "IsPreview": true }
+                ]
+            },
+            {
+                "Rate": 0.01,
+                "Info": "1 x Rương Tiểu Du Long Danh Vọng Lệnh (ngẫu nhiên)",
+                "ItemID": 2017,
+                "Notify": true,
+                "IsPreview": true,
+                "Number": 1
+            },
+            { "Rate": 0.0075, "Info": "1 x Rương Tiểu Du Long Danh Vọng Lệnh (lựa chọn)", "ItemID": 20571, "Number": 1 },
+            {
+                "Rate": 0.0,
+                "Info": "Rương kỹ năng đồng hành",
+                "Details": [
+                    { "ItemID": 20622, "Info": "1 x Rương sách kỹ năng đồng hành [Sơ]", "Number": 1, "Rate": 60.0 },
+                    { "ItemID": 20623, "Info": "1 x Rương sách kỹ năng đồng hành [Trung]", "Number": 1, "Rate": 30.0 },
+                    { "ItemID": 20624, "Info": "1 x Rương sách kỹ năng đồng hành [Cao]", "Number": 1, "Rate": 10.0 }
+                ]
+            },
+            { "Rate": 0.075, "Info": "1 x Câu Hồn Ngọc (trung)", "ItemID": 432, "Number": 1 },
+            { "Rate": 0.075, "Info": "1 x Câu Hồn Ngọc (cao)", "ItemID": 433, "Number": 1 },
+            { "Rate": 0.015, "Info": "1 x Sách Kỹ năng Đồng hành (cấp 1)", "ItemID": 20272, "Notify": true, "IsPreview": true, "Number": 1 },
+            { "Rate": 0.0065, "Info": "1 x Sách Kỹ năng Đồng hành (cấp 2)", "ItemID": 20273, "Notify": true, "IsPreview": true, "Number": 1 },
+            {
+                "Rate": 3.946,
+                "Info": "Chân Nguyên",
+                "Details": [
+                    { "ItemID": 25270, "Info": "20 x Kinh Nghiệm Chân Nguyên", "Number": 20, "Rate": 19.5 },
+                    { "ItemID": 25270, "Info": "40 x Kinh Nghiệm Chân Nguyên", "Number": 40, "Rate": 19.5 },
+                    { "ItemID": 25270, "Info": "60 x Kinh Nghiệm Chân Nguyên", "Number": 60, "Rate": 19.5 },
+                    { "ItemID": 25270, "Info": "80 x Kinh Nghiệm Chân Nguyên", "Number": 80, "Rate": 19.5, "Notify": true, "IsPreview": true },
+                    { "ItemID": 25270, "Info": "100 x Kinh Nghiệm Chân Nguyên", "Number": 100, "Rate": 19.5 },
+                    { "ItemID": 25269, "Info": "1 x Thiệp Như Ý", "Number": 1, "Rate": 2.5, "Notify": true, "IsPreview": true }
+                ]
+            },
+            {
+                "Rate": 0.005,
+                "Info": "Mật tịch đồng hành",
+                "Details": [
+                    { "ItemID": 1075, "Info": "1 x Mật tịch đồng hành (sơ)", "Number": 1, "Rate": 60.0 },
+                    { "ItemID": 1076, "Info": "1 x Mật tịch đồng hành (trung)", "Number": 1, "Rate": 30.0 },
+                    { "ItemID": 1077, "Info": "1 x Mật tịch đồng hành (cao)", "Number": 1, "Rate": 10.0, "Notify": true, "IsPreview": true }
+                ]
+            },
+            {
+                "Rate": 1.0,
+                "Info": "Tiền Cổ Năng Động",
+                "Details": [
+                    { "ItemID": 20816, "Info": "10 x Tiền Cổ Năng Động", "Number": 10, "Rate": 50.0 },
+                    { "ItemID": 20816, "Info": "15 x Tiền Cổ Năng Động", "Number": 15, "Rate": 30.0 },
+                    { "ItemID": 20816, "Info": "20 x Tiền Cổ Năng Động", "Number": 20, "Rate": 13.0 },
+                    { "ItemID": 20816, "Info": "25 x Tiền Cổ Năng Động", "Number": 25, "Rate": 7.0 }
+                ]
+            }
+        ]
+    },
+    {
+        "BoxName": "Blind-box Mặt Nạ (7 Ngày)",
+        "IDBox": 200576,
+        "Binding": 1,
+        "Items": [
+            { "ItemID": 15221, "Rate": 5.0, "Info": "1 x Tuyết Hồn - Sự kiện Mùa Hè", "Number": 1, "Time": 10081 },
+            { "ItemID": 15242, "Rate": 19.0, "Info": "1 x Thỏ Ngọc [Sự kiện Dạ Thu Thưởng Nguyệt] - Cấp 1", "Number": 1, "Time": 10081 },
+            { "ItemID": 15279, "Rate": 19.0, "Info": "1 x Huyền Ngưu Chiến Kỵ [Sự kiện Hào Khí Lạc Hồng]", "Number": 1, "Time": 10081 },
+            { "ItemID": 20181, "Rate": 19.0, "Info": "1 x Mạch Thượng Phi Sương", "Number": 1, "Time": 10081 },
+            { "ItemID": 20222, "Rate": 19.0, "Info": "1 x Dudu Vui Vẻ [Vui Cá Tháng Tư]", "Number": 1, "Time": 10081 },
+            { "ItemID": 20260, "Rate": 19.0, "Info": "1 x Voi Bản Đôn [Trở Về Tuổi Thơ] - Cấp 1", "Number": 1, "Time": 10081 }
+        ]
+    },
+    {
+        "BoxName": "Blind-box Thú Cưỡi (7 Ngày)",
+        "IDBox": 200575,
+        "Binding": 1,
+        "Items": [
+            { "ItemID": 13082, "Rate": 5.0, "Info": "1 x Mặt nạ: Tần Thủy Hoàng", "Number": 1, "Time": 10081 },
+            {
+                "ItemID": 13084,
+                "Rate": 19.0,
+                "Info": "1 x Mặt nạ: Huyền Dực Hộ Pháp (cấp 1) [Sự kiện Pháo Hoa Thống Nhất]",
+                "Number": 1,
+                "Time": 10081
+            },
+            { "ItemID": 15222, "Rate": 19.0, "Info": "1 x Mặt nạ: Tát La Phỉ  (cấp 1) [Sự kiện Đồng hành cùng EURO]", "Number": 1, "Time": 10081 },
+            {
+                "ItemID": 15235,
+                "Rate": 19.0,
+                "Info": "1 x Mặt nạ: Quang Mộc Côn (cấp 1) [Sự kiện Thước Kiều Nhân Duyên]",
+                "Number": 1,
+                "Time": 10081
+            },
+            { "ItemID": 15252, "Rate": 19.0, "Info": "1 x Mặt nạ: Nguyệt Cơ (cấp 1) [Sự kiện Mầm Non Đất Nước]", "Number": 1, "Time": 10081 },
+            { "ItemID": 15271, "Rate": 19.0, "Info": "1 x Mặt nạ: Tây Môn Phi Tuyết (cấp 1) [Sự kiện Tôn Sư Trọng Đạo]", "Number": 1, "Time": 10081 }
+        ]
+    }
+]

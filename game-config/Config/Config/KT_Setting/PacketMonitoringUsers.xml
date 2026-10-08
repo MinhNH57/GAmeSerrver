@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  [DEBUG] Danh sách RoleID cần log TOÀN BỘ packet (ra file PacketDebug_YYYYMMDD.log).
+  - Ngoài packet, khi RoleID trong danh sách bị NGƯỜI CHƠI tấn công sẽ log chi tiết cách tính damage
+    (prefix [DmgTrace]: AttackEnemy -> ReceiveDamage -> CalcDamage) vào cùng file.
+    Quái đánh hoặc damage phản đòn từ quái KHÔNG log để tránh nhiễu.
+  - Mỗi RoleID là 1 phần tử <RoleID>...</RoleID>.
+  - File rỗng (không có RoleID nào) HOẶC không tồn tại => KHÔNG log gì.
+  - Sau khi sửa file, gõ lệnh console: reloadPacketMonitor  (không cần restart server).
+  - Lệnh GM in-game: PacketMonitorAdd <roleID> / PacketMonitorRemove <roleID> / PacketMonitorList
+    => chỉ đổi trong RAM, KHÔNG ghi vào file này; restart/reload sẽ lấy lại danh sách từ file.
+  - Các CMD noise (heartbeat, di chuyển, đồng bộ thời gian) tự động bị bỏ qua.
+  - NHỚ xóa/để rỗng file sau khi điều tra xong để tránh phình log.
+
+  Ví dụ theo dõi nhiều người chơi:
+    <RoleID>303981</RoleID>
+    <RoleID>123456</RoleID>
+-->
+<PacketMonitoringUsers>
+  <RoleID>303981</RoleID>
+  <RoleID>1999831917</RoleID>
+</PacketMonitoringUsers>

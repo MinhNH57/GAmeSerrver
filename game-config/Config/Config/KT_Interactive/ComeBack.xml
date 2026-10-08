@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ComebackEvent TimeKey="ComebackEvent">
+    <Package Name="Thường 1" Limit="1" Price="0" Money="2" RequireText="Điều kiện nhận gói vật phẩm: Cấp độ 10 trở lên, tài khoản chưa đăng nhập trong vòng 10 ngày gần nhất, đã từng thực hiện chuyển xu vào nhân vật bất kỳ.">
+        <Item ID="191" Count="2" />
+        <Item ID="15000" Count="30" />
+        <Item ID="506" Count="500" />
+        <Item ID="514" Count="1" />
+        <Item ID="20406" Count="1" />
+    </Package>
+
+    <Package Name="Thường 2" Limit="1" Price="0" Money="2" RequireText="Điều kiện nhận gói vật phẩm: Cấp độ 10 trở lên, tài khoản chưa đăng nhập trong vòng 10 ngày gần nhất, đã từng thực hiện chuyển ít nhất 100000 KNB.">
+        <Item ID="192" Count="2" />
+        <Item ID="15000" Count="150" />
+        <Item ID="1058" Count="1" />
+        <Item ID="1886" Count="1" />
+        <Item ID="931" Count="1" />
+    </Package>
+
+    <Package Name="Vip 1" Limit="1" Price="5000" Money="2">
+        <Item ID="15018" Count="100" />
+        <Item ID="1026" Count="50" />
+        <Item ID="20291" Count="1"/>
+        <Item ID="191" Count="3" />
+        <Item ID="1886" Count="1" />
+    </Package>
+
+    <Package Name="Vip 2" Limit="1" Price="25000" Money="2">
+        <Item ID="15018" Count="200" />
+        <Item ID="25236" Count="1" />
+        <Item ID="20291" Count="3"/>
+        <Item ID="192" Count="2" />
+        <Item ID="20571" Count="1" />
+    </Package>
+</ComebackEvent>

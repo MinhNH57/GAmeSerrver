@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfItemData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">  
+   <ItemData ItemID="25139" Name="Vũ khí đồng hành - Bích Huyết" IconBundleDir="Icon/EquipIcon2.unity3d" IconAtlasName="EquipIcon2"  MapSpriteBundleDir="Resources/Item/MapSprite.unity3d" MapSpriteAtlasName="MapSprite" Kind="Vũ khí đồng hành" QualityPrefix="3" Category="12" Genre="2" Stack="1" DetailType="24" ParticularType="1" Level="7" SuiteID="0" Icon="vu_khi_dh" View="vu_khi_dh" Intro="" Help="" ObjID="9" BindType="1" Series="-1" ReqLevel="0" CDType="0" Price="1" ItemValue="10000000" MakeCost="-1" ResMale="1" ResFemale="1" FightPower="0" ScriptID="-1" DeductOnUse="false" BuffID="-1" NumberSelection="2">
+    <ListBasicProp BasicPropType="lifemax_p" BasicPropPA1Min="10" BasicPropPA1Max="10" BasicPropPA2Min="-1" BasicPropPA2Max="-1" BasicPropPA3Min="0" BasicPropPA3Max="0" Index="1" />
+    <ListBasicProp BasicPropType="deadlystrikedamageenhance_p" BasicPropPA1Min="15" BasicPropPA1Max="15" BasicPropPA2Min="-1" BasicPropPA2Max="-1" BasicPropPA3Min="0" BasicPropPA3Max="0" Index="2" />
+    <UnLockInterval>-1</UnLockInterval>
+  </ItemData>
+     <ItemData ItemID="25140" Name="Vũ khí đồng hành - Kim Lân" IconBundleDir="Icon/EquipIcon2.unity3d" IconAtlasName="EquipIcon2"  MapSpriteBundleDir="Resources/Item/MapSprite.unity3d" MapSpriteAtlasName="MapSprite" Kind="Vũ khí đồng hành" QualityPrefix="3" Category="12" Genre="2" Stack="1" DetailType="24" ParticularType="1" Level="8" SuiteID="0" Icon="vu_khi_dh" View="vu_khi_dontam" Intro="" Help="" ObjID="9" BindType="1" Series="-1" ReqLevel="0" CDType="0" Price="1" ItemValue="20000000" MakeCost="-1" ResMale="1" ResFemale="1" FightPower="0" ScriptID="-1" DeductOnUse="false" BuffID="-1" NumberSelection="2">
+    <ListBasicProp BasicPropType="lifemax_p" BasicPropPA1Min="12" BasicPropPA1Max="12" BasicPropPA2Min="-1" BasicPropPA2Max="-1" BasicPropPA3Min="0" BasicPropPA3Max="0" Index="1" />
+    <ListBasicProp BasicPropType="deadlystrikedamageenhance_p" BasicPropPA1Min="20" BasicPropPA1Max="20" BasicPropPA2Min="-1" BasicPropPA2Max="-1" BasicPropPA3Min="0" BasicPropPA3Max="0" Index="2" />
+    <UnLockInterval>-1</UnLockInterval>
+  </ItemData>
+     <ItemData ItemID="25141" Name="Vũ khí đồng hành - Đơn Tâm" IconBundleDir="Icon/EquipIcon2.unity3d" IconAtlasName="EquipIcon2"  MapSpriteBundleDir="Resources/Item/MapSprite.unity3d" MapSpriteAtlasName="MapSprite" Kind="Vũ khí đồng hành" QualityPrefix="3" Category="12" Genre="2" Stack="1" DetailType="24" ParticularType="1" Level="9" SuiteID="0" Icon="vu_khi_dh" View="vu_khi_kimlan" Intro="" Help="" ObjID="9" BindType="1" Series="-1" ReqLevel="0" CDType="0" Price="1" ItemValue="30000000" MakeCost="-1" ResMale="1" ResFemale="1" FightPower="0" ScriptID="-1" DeductOnUse="false" BuffID="-1" NumberSelection="2">
+    <ListBasicProp BasicPropType="lifemax_p" BasicPropPA1Min="15" BasicPropPA1Max="15" BasicPropPA2Min="-1" BasicPropPA2Max="-1" BasicPropPA3Min="0" BasicPropPA3Max="0" Index="1" />
+    <ListBasicProp BasicPropType="deadlystrikedamageenhance_p" BasicPropPA1Min="25" BasicPropPA1Max="25" BasicPropPA2Min="-1" BasicPropPA2Max="-1" BasicPropPA3Min="0" BasicPropPA3Max="0" Index="2" />
+    <UnLockInterval>-1</UnLockInterval>
+  </ItemData>
+     <ItemData ItemID="25142" Name="Vũ khí đồng hành - Long Đằng" IconBundleDir="Icon/EquipIcon2.unity3d" IconAtlasName="EquipIcon2"  MapSpriteBundleDir="Resources/Item/MapSprite.unity3d" MapSpriteAtlasName="MapSprite" Kind="Vũ khí đồng hành" QualityPrefix="3" Category="12" Genre="2" Stack="1" DetailType="24" ParticularType="1" Level="10" SuiteID="0" Icon="vu_khi_dh" View="vu_khi_longdang" Intro="" Help="" ObjID="9" BindType="1" Series="-1" ReqLevel="0" CDType="0" Price="1" ItemValue="40000000" MakeCost="-1" ResMale="1" ResFemale="1" FightPower="0" ScriptID="-1" DeductOnUse="false" BuffID="-1" NumberSelection="2">
+    <ListBasicProp BasicPropType="lifemax_p" BasicPropPA1Min="20" BasicPropPA1Max="20" BasicPropPA2Min="-1" BasicPropPA2Max="-1" BasicPropPA3Min="0" BasicPropPA3Max="0" Index="1" />
+    <ListBasicProp BasicPropType="deadlystrikedamageenhance_p" BasicPropPA1Min="30" BasicPropPA1Max="30" BasicPropPA2Min="-1" BasicPropPA2Max="-1" BasicPropPA3Min="0" BasicPropPA3Max="0" Index="2" />
+    <UnLockInterval>-1</UnLockInterval>
+  </ItemData>
+</ArrayOfItemData>

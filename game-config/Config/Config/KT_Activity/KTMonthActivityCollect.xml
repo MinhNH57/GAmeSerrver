@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<MonthActivityCollect xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Item StepID="1" Score="10">
+    <RollAwardItem ItemID="15307" Number="1" Rate="100" />
+  </Item>
+  <Item StepID="2" Score="30">
+    <RollAwardItem ItemID="15308" Number="1" Rate="100" />
+  </Item>
+  <Item StepID="3" Score="50">
+    <RollAwardItem ItemID="15309" Number="1" Rate="100" />
+  </Item>
+  <Item StepID="4" Score="80">
+    <RollAwardItem ItemID="15310" Number="1" Rate="100" />
+  </Item>
+    <Item StepID="5" Score="100">
+    <RollAwardItem ItemID="15311" Number="1" Rate="100" />
+  </Item>
+</MonthActivityCollect>
+

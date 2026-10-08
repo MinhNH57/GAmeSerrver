@@ -1,0 +1,116 @@
+{
+    "RandomBoxes": [
+        {
+            "ItemID": 20697,
+            "Name": "Học Sinh Tiên Tiến",
+            "LimitLifeTime": 300,
+            "Icon": "202409_5_hocsinhtientien",
+            "Intro": "Vật phẩm sự kiện Mầm Non Đất Nước.",
+            "ItemValue": 200471
+        },
+        { "ItemID": 20698, "Name": "Học Sinh Giỏi", "Icon": "202409_5_hocsinhgioi", "Intro": "Vật phẩm sự kiện Mầm Non Đất Nước.", "ItemValue": 200472 },
+        {
+            "ItemID": 20699,
+            "Name": "[Đặc biệt] Học Bổng",
+            "Icon": "202409_5_hocbong",
+            "Intro": "Vật phẩm sự kiện Mầm Non Đất Nước.",
+            "ItemValue": 200473
+        },
+        {
+            "ItemID": 20700,
+            "Name": "Thú cưỡi Tuệ Vương Khải Minh (ngẫu nhiên)",
+            "Icon": "horsebox_c",
+            "Intro": "Vật phẩm sự kiện Mầm Non Đất Nước.<br>Sử dụng nhận được thú cưỡi <color=#eba0ac>Tuệ Vương Khải Minh</color>, thời hạn ngẫu nhiên.",
+            "ItemValue": 200475
+        },
+        {
+            "ItemID": 20706,
+            "Name": "Danh hiệu Mầm Non Đất Nước (ngẫu nhiên)",
+            "Icon": "quest_0084_s",
+            "Intro": "Vật phẩm sự kiện Mầm Non Đất Nước.<br>Sử dụng nhận được danh hiệu <color=#eba0ac>Mầm Non Đất Nước</color>, thời hạn ngẫu nhiên.",
+            "ItemValue": 200474
+        },
+        {
+            "ItemID": 20709,
+            "Name": "Mặt nạ Nguyệt Cơ (ngẫu nhiên)",
+            "Icon": "quest_0084_s",
+            "Intro": "Vật phẩm sự kiện Mầm Non Đất Nước.<br>Sử dụng nhận được mặt nạ <color=#eba0ac>Mầm Non Đất Nước</color>, thời hạn ngẫu nhiên.",
+            "ItemValue": 200476
+        },
+        {
+            "ItemID": 20710,
+            "Name": "Danh hiệu Mầm Non Đất Nước (30 ngày)",
+            "Icon": "quest_0084_s",
+            "Intro": "Vật phẩm sự kiện Mầm Non Đất Nước.<br>Sử dụng nhận được danh hiệu <color=#eba0ac>Mầm Non Đất Nước</color>, thời hạn 30 ngày.",
+            "ItemValue": 200477
+        },
+        {
+            "ItemID": 20711,
+            "Name": "Rương Học Trò",
+            "Icon": "202409_5_ruonghoctro",
+            "Intro": "Vật phẩm sự kiện Mầm Non Đất Nước.<br>Sử dụng nhận được <color=#eba0ac>Rương Tiểu du long Danh vọng lệnh</color> hoặc 10-100 <color=#eba0ac>Học bổng</color>.",
+            "ItemValue": 200478
+        }
+    ],
+    "Normal": [
+        {
+            "ItemID": 20701,
+            "Name": "Áo Sơ Mi",
+            "ParticularType": 32001,
+            "Stack": 10000,
+            "Icon": "202409_5_aosomi",
+            "Intro": "Vật phẩm sự kiện Mầm Non Đất Nước.",
+            "ScriptID": 200121
+        },
+        {
+            "ItemID": 20702,
+            "Name": "Khăn Quàng Đỏ",
+            "ParticularType": 32001,
+            "Stack": 10000,
+            "Icon": "202409_5_khanquangdo",
+            "Intro": "Vật phẩm sự kiện Mầm Non Đất Nước.",
+            "ScriptID": 200121
+        },
+        {
+            "ItemID": 20703,
+            "Name": "Sách Giáo Khoa",
+            "ParticularType": 32001,
+            "Stack": 10000,
+            "Icon": "202409_5_sachgiaokhoa",
+            "Intro": "Vật phẩm sự kiện Mầm Non Đất Nước.",
+            "ScriptID": 200121
+        },
+        {
+            "ItemID": 20704,
+            "Name": "Bút Chì",
+            "Icon": "202409_5_butchi",
+            "Intro": "Vật phẩm sự kiện Mầm Non Đất Nước. <br>Sử dụng nhận được <color=#a6e3a1>1 điểm kỹ năng</color>. Mỗi người tối đa sử dụng <color=#eba0ac>2 vật phẩm</color>.",
+            "ScriptID": 200097,
+            "ListExtPram": [
+                { "Pram": 700535, "Index": 1 },
+                { "Pram": 1, "Index": 2 },
+                { "Pram": 2, "Index": 3 }
+            ]
+        },
+        {
+            "ItemID": 20705,
+            "Name": "Thước Kẻ",
+            "Icon": "202409_5_thuocke",
+            "Intro": "Vật phẩm sự kiện Mầm Non Đất Nước. <br>Sử dụng nhận được <color=#a6e3a1>10 điểm tiềm năng</color>. Mỗi người tối đa sử dụng <color=#eba0ac>2 vật phẩm</color>.",
+            "ScriptID": 200096,
+            "ListExtPram": [
+                { "Pram": 700536, "Index": 1 },
+                { "Pram": 10, "Index": 2 },
+                { "Pram": 2, "Index": 3 }
+            ]
+        },
+        {
+            "ItemID": 20707,
+            "Name": "Vé Học Trò",
+            "Stack": 10000,
+            "Icon": "2024_09_5_vehoctro",
+            "Intro": "Vật phẩm sự kiện Mầm Non Đất Nước. <br>Sử dụng để tham gia hoạt động <color=#a6e3a1>Vòng quay Học trò</color>."
+        },
+        { "ItemID": 20708, "Name": "Phiếu Đổi Thưởng", "Stack": 10000, "Icon": "jh_yaoqinghan", "Intro": "" }
+    ]
+}

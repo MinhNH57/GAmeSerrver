@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Map>
+  <Teleports>
+    <!-- Cổng phía nam quay về Đại Lý Đoàn Thị. -->
+    <Teleport Code="1" Tip="Đại Lý Đoàn Thị" Key="1" To="19" ToX="3464" ToY="3218" X="2425" Y="180" Radius="60" />
+  </Teleports>
+</Map>

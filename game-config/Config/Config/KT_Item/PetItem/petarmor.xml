@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfItemData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">  
+    <ItemData ItemID="25107" Name="Y Phục Đồng Hành - Bích Huyết" IconBundleDir="Icon/EquipIcon2.unity3d" IconAtlasName="EquipIcon2" MapSpriteBundleDir="Resources/Item/MapSprite.unity3d" MapSpriteAtlasName="MapSprite" Kind="Y Phục Đồng Hành" QualityPrefix="5" Category="1" Genre="2" Stack="1" DetailType="22" ParticularType="1362" Level="7" SuiteID="0" Icon="ao_dh" View="ao_dh" Intro="" Help="" ObjID="21" BindType="1" Series="4" ReqLevel="0" CDType="0" Price="90000" ItemValue="10000000" MakeCost="-1" ResMale="-1" ResFemale="-1" FightPower="1" ScriptID="-1" DeductOnUse="false" BuffID="-1">
+    <ListBasicProp BasicPropType="manamax_p" BasicPropPA1Min="10" BasicPropPA1Max="10" BasicPropPA2Min="-1" BasicPropPA2Max="-1" BasicPropPA3Min="-1" BasicPropPA3Max="-1" Index="1" />
+    <ListBasicProp BasicPropType="defencedeadlystrikedamagetrim" BasicPropPA1Min="15" BasicPropPA1Max="15" BasicPropPA2Min="-1" BasicPropPA2Max="-1" BasicPropPA3Min="-1" BasicPropPA3Max="-1" Index="1" />
+    <UnLockInterval>-1</UnLockInterval>
+  </ItemData>
+      <ItemData ItemID="25108" Name="Y Phục Đồng Hành - Kim Lân" IconBundleDir="Icon/EquipIcon2.unity3d" IconAtlasName="EquipIcon2" MapSpriteBundleDir="Resources/Item/MapSprite.unity3d" MapSpriteAtlasName="MapSprite" Kind="Y Phục Đồng Hành" QualityPrefix="5" Category="1" Genre="2" Stack="1" DetailType="22" ParticularType="1362" Level="8" SuiteID="0" Icon="ao_kimlan" View="ao_dh" Intro="" Help="" ObjID="21" BindType="1" Series="4" ReqLevel="0" CDType="0" Price="90000" ItemValue="20000000" MakeCost="-1" ResMale="-1" ResFemale="-1" FightPower="1" ScriptID="-1" DeductOnUse="false" BuffID="-1">
+    <ListBasicProp BasicPropType="manamax_p" BasicPropPA1Min="12" BasicPropPA1Max="12" BasicPropPA2Min="-1" BasicPropPA2Max="-1" BasicPropPA3Min="-1" BasicPropPA3Max="-1" Index="1" />
+    <ListBasicProp BasicPropType="defencedeadlystrikedamagetrim" BasicPropPA1Min="20" BasicPropPA1Max="20" BasicPropPA2Min="-1" BasicPropPA2Max="-1" BasicPropPA3Min="-1" BasicPropPA3Max="-1" Index="1" />
+    <UnLockInterval>-1</UnLockInterval>
+  </ItemData>
+      <ItemData ItemID="25109" Name="Y Phục Đồng Hành - Đơn Tâm" IconBundleDir="Icon/EquipIcon2.unity3d" IconAtlasName="EquipIcon2" MapSpriteBundleDir="Resources/Item/MapSprite.unity3d" MapSpriteAtlasName="MapSprite" Kind="Y Phục Đồnh Hành" QualityPrefix="5" Category="1" Genre="2" Stack="1" DetailType="22" ParticularType="1362" Level="9" SuiteID="0" Icon="ao_dontam" View="ao_dh" Intro="" Help="" ObjID="21" BindType="1" Series="4" ReqLevel="0" CDType="0" Price="90000" ItemValue="30000000" MakeCost="-1" ResMale="-1" ResFemale="-1" FightPower="1" ScriptID="-1" DeductOnUse="false" BuffID="-1">
+    <ListBasicProp BasicPropType="manamax_p" BasicPropPA1Min="15" BasicPropPA1Max="15" BasicPropPA2Min="-1" BasicPropPA2Max="-1" BasicPropPA3Min="-1" BasicPropPA3Max="-1" Index="1" />
+    <ListBasicProp BasicPropType="defencedeadlystrikedamagetrim" BasicPropPA1Min="25" BasicPropPA1Max="25" BasicPropPA2Min="-1" BasicPropPA2Max="-1" BasicPropPA3Min="-1" BasicPropPA3Max="-1" Index="1" />
+    <UnLockInterval>-1</UnLockInterval>
+  </ItemData>
+	<ItemData ItemID="25110" Name="Y Phục Đồng Hành - Long Đằng" IconBundleDir="Icon/EquipIcon2.unity3d" IconAtlasName="EquipIcon2" MapSpriteBundleDir="Resources/Item/MapSprite.unity3d" MapSpriteAtlasName="MapSprite" Kind="Y Phục Đồng Hành" QualityPrefix="5" Category="1" Genre="2" Stack="1" DetailType="22" ParticularType="1362" Level="10" SuiteID="0" Icon="ao_longdang" View="ao_dh" Intro="" Help="" ObjID="21" BindType="1" Series="4" ReqLevel="0" CDType="0" Price="90000" ItemValue="40000000" MakeCost="-1" ResMale="-1" ResFemale="-1" FightPower="1" ScriptID="-1" DeductOnUse="false" BuffID="-1">
+    <ListBasicProp BasicPropType="manamax_p" BasicPropPA1Min="20" BasicPropPA1Max="20" BasicPropPA2Min="-1" BasicPropPA2Max="-1" BasicPropPA3Min="-1" BasicPropPA3Max="-1" Index="1" />
+    <ListBasicProp BasicPropType="defencedeadlystrikedamagetrim" BasicPropPA1Min="30" BasicPropPA1Max="30" BasicPropPA2Min="-1" BasicPropPA2Max="-1" BasicPropPA3Min="-1" BasicPropPA3Max="-1" Index="1" />
+    <UnLockInterval>-1</UnLockInterval>
+  </ItemData>
+</ArrayOfItemData>

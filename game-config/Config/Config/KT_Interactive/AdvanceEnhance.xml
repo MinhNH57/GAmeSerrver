@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AdvanceEnhanceCondition>
+    <EnhanceTickets>
+        <WeaponEnhanceTicket ID="972" />
+        <ArmorEnhanceTicket ID="973" />
+        <AccessoryEnhanceTicket ID="974" />
+    </EnhanceTickets>
+    <Equipment>
+        <EnhancementLevels>
+            <Level Value="17">
+                <EnhanceTicket>45</EnhanceTicket>
+                <CrystalValue>164545929</CrystalValue>
+                <SilverCost>960</SilverCost>
+            </Level>
+            <Level Value="18">
+                <EnhanceTicket>90</EnhanceTicket>
+                <CrystalValue>329091858</CrystalValue>
+                <SilverCost>1920</SilverCost>
+            </Level>
+            <Level Value="19">
+                <EnhanceTicket>200</EnhanceTicket>
+                <CrystalValue>526546973</CrystalValue>
+                <SilverCost>2880</SilverCost>
+            </Level>
+            <Level Value="20">
+                <EnhanceTicket>350</EnhanceTicket>
+                <CrystalValue>789820459</CrystalValue>
+                <SilverCost>4320</SilverCost>
+            </Level>
+        </EnhancementLevels>
+    </Equipment>
+
+    <Weapons>
+        <EnhancementLevels>
+            <Level Value="17">
+                <EnhanceTicket>100</EnhanceTicket>
+                <CrystalValue>230364301</CrystalValue>
+                <SilverCost>2880</SilverCost>
+            </Level>
+            <Level Value="18">
+                <EnhanceTicket>240</EnhanceTicket>
+                <CrystalValue>460728601</CrystalValue>
+                <SilverCost>4320</SilverCost>
+            </Level>
+            <Level Value="19">
+                <EnhanceTicket>500</EnhanceTicket>
+                <CrystalValue>737165762</CrystalValue>
+                <SilverCost>6480</SilverCost>
+            </Level>
+            <Level Value="20">
+                <EnhanceTicket>850</EnhanceTicket>
+                <CrystalValue>1105748643</CrystalValue>
+                <SilverCost>9720</SilverCost>
+            </Level>
+        </EnhancementLevels>
+    </Weapons>
+</AdvanceEnhanceCondition>

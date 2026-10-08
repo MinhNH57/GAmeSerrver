@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<RechargeEvent TimeKey="RechargeEvent">
+  <RechargeMilestone Name="500 KNB" Price="500">
+    <Package ID="1" Name="Ngày 1">
+      <Item ID="20537" Count="3"/>
+      <Item ID="190" Count="1"/>
+      <Item ID="506" Count="100"/>
+      <Item ID="15000" Count="50"/>
+    </Package>
+    <Package ID="2" Name="Ngày 2">
+      <Item ID="20537" Count="3"/>
+      <Item ID="190" Count="1"/>
+      <Item ID="506" Count="100"/>
+      <Item ID="15000" Count="50"/>
+    </Package>
+    <Package ID="3" Name="Ngày 3">
+      <Item ID="20537" Count="4"/>
+      <Item ID="190" Count="2"/>
+      <Item ID="506" Count="200"/>
+      <Item ID="15000" Count="100"/>
+    </Package>
+    <Package ID="4" Name="Ngày 4">
+      <Item ID="20537" Count="3"/>
+      <Item ID="190" Count="1"/>
+      <Item ID="506" Count="100"/>
+      <Item ID="15000" Count="50"/>
+    </Package>
+    <Package ID="5" Name="Ngày 5">
+      <Item ID="20537" Count="3"/>
+      <Item ID="190" Count="1"/>
+      <Item ID="506" Count="100"/>
+      <Item ID="15000" Count="50"/>
+    </Package>
+    <Package ID="6" Name="Ngày 6">
+      <Item ID="20538" Count="3"/>
+      <Item ID="191" Count="1"/>
+      <Item ID="506" Count="300"/>
+      <Item ID="15000" Count="100"/>
+    </Package>
+  </RechargeMilestone>
+  <RechargeMilestone Name="2000 KNB" Price="2000">
+    <Package ID="7" Name="Ngày 1">
+      <Item ID="20538" Count="2"/>
+      <Item ID="190" Count="1"/>
+      <Item ID="1057" Count="10"/>
+      <Item ID="20529" Count="20"/>
+    </Package>
+    <Package ID="8" Name="Ngày 2">
+      <Item ID="20538" Count="2"/>
+      <Item ID="190" Count="1"/>
+      <Item ID="1057" Count="10"/>
+      <Item ID="20529" Count="20"/>
+    </Package>
+    <Package ID="9" Name="Ngày 3">
+      <Item ID="20538" Count="3"/>
+      <Item ID="190" Count="2"/>
+      <Item ID="20406" Count="1"/>
+      <Item ID="20482" Count="1"/>
+    </Package>
+    <Package ID="10" Name="Ngày 4">
+      <Item ID="20538" Count="2"/>
+      <Item ID="190" Count="1"/>
+      <Item ID="1057" Count="10"/>
+      <Item ID="20529" Count="20"/>
+    </Package>
+    <Package ID="11" Name="Ngày 5">
+      <Item ID="20538" Count="2"/>
+      <Item ID="190" Count="1"/>
+      <Item ID="1057" Count="10"/>
+      <Item ID="20529" Count="20"/>
+    </Package>
+    <Package ID="12" Name="Ngày 6">
+      <Item ID="20538" Count="4"/>
+      <Item ID="191" Count="1"/>
+      <Item ID="20406" Count="2"/>
+      <Item ID="25235" Count="1"/>
+    </Package>
+  </RechargeMilestone>
+  <RechargeMilestone Name="5000 KNB" Price="5000">
+    <Package ID="13" Name="Ngày 1">
+      <Item ID="506" Count="1000"/>
+      <Item ID="20344" Count="60"/>
+      <Item ID="1026" Count="10"/>
+    </Package>
+    <Package ID="14" Name="Ngày 2">
+      <Item ID="506" Count="1000"/>
+      <Item ID="20344" Count="60"/>
+      <Item ID="1026" Count="10"/>
+    </Package>
+    <Package ID="15" Name="Ngày 3">
+      <Item ID="506" Count="2000"/>
+      <Item ID="20344" Count="100"/>
+      <Item ID="1026" Count="20"/>
+    </Package>
+    <Package ID="16" Name="Ngày 4">
+      <Item ID="506" Count="1000"/>
+      <Item ID="20344" Count="60"/>
+      <Item ID="1026" Count="10"/>
+    </Package>
+    <Package ID="17" Name="Ngày 5">
+      <Item ID="506" Count="1000"/>
+      <Item ID="20344" Count="60"/>
+      <Item ID="1026" Count="10"/>
+    </Package>
+    <Package ID="18" Name="Ngày 6">
+      <Item ID="506" Count="3000"/>
+      <Item ID="20344" Count="150"/>
+      <Item ID="1026" Count="30"/>
+    </Package>
+  </RechargeMilestone>
+  <RechargeMilestone Name="20000 KNB" Price="20000">
+    <Package ID="19" Name="Ngày 1">
+      <Item ID="972" Count="10"/>
+      <Item ID="973" Count="20"/>
+      <Item ID="974" Count="20"/>
+      <Item ID="819" Count="2"/>
+    </Package>
+    <Package ID="20" Name="Ngày 2">
+      <Item ID="972" Count="10"/>
+      <Item ID="973" Count="20"/>
+      <Item ID="974" Count="20"/>
+      <Item ID="819" Count="2"/>
+    </Package>
+    <Package ID="21" Name="Ngày 3">
+      <Item ID="972" Count="20"/>
+      <Item ID="973" Count="30"/>
+      <Item ID="974" Count="30"/>
+      <Item ID="819" Count="3"/>
+    </Package>
+    <Package ID="22" Name="Ngày 4">
+      <Item ID="972" Count="10"/>
+      <Item ID="973" Count="20"/>
+      <Item ID="974" Count="20"/>
+      <Item ID="819" Count="2"/>
+    </Package>
+    <Package ID="23" Name="Ngày 5">
+      <Item ID="972" Count="10"/>
+      <Item ID="973" Count="20"/>
+      <Item ID="974" Count="20"/>
+      <Item ID="819" Count="2"/>
+    </Package>
+    <Package ID="24" Name="Ngày 6">
+      <Item ID="972" Count="30"/>
+      <Item ID="973" Count="40"/>
+      <Item ID="974" Count="40"/>
+      <Item ID="819" Count="4"/>
+    </Package>
+  </RechargeMilestone>
+  <RechargeMilestone Name="50000 KNB" Price="50000">
+    <Package ID="25" Name="Ngày 1">
+      <Item ID="20344" Count="100"/>
+      <Item ID="20571" Count="1"/>
+      <Item ID="25270" Count="12000"/>
+    </Package>
+    <Package ID="26" Name="Ngày 2">
+      <Item ID="20344" Count="100"/>
+      <Item ID="20571" Count="1"/>
+      <Item ID="25270" Count="12000"/>
+    </Package>
+    <Package ID="27" Name="Ngày 3">
+      <Item ID="14205" Count="1"/>
+      <Item ID="14215" Count="1"/>
+      <Item ID="14247" Count="1"/>
+    </Package>
+    <Package ID="28" Name="Ngày 4">
+      <Item ID="20344" Count="100"/>
+      <Item ID="20571" Count="1"/>
+      <Item ID="25270" Count="12000"/>
+    </Package>
+    <Package ID="29" Name="Ngày 5">
+      <Item ID="20344" Count="100"/>
+      <Item ID="20571" Count="1"/>
+      <Item ID="25270" Count="12000"/>
+    </Package>
+    <Package ID="30" Name="Ngày 6">
+      <Item ID="20344" Count="300"/>
+      <Item ID="20571" Count="1"/>
+      <Item ID="25312" Count="1"/>
+    </Package>
+  </RechargeMilestone>
+</RechargeEvent>

@@ -1,0 +1,360 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfItemData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <ItemData ItemID="25143" Name="Mảnh Phù Đồng Hành - Bích Huyết" IconBundleDir="Icon/EquipIcon2.unity3d" IconAtlasName="EquipIcon2"
+    MapSpriteBundleDir="Resources/Item/MapSprite.unity3d" MapSpriteAtlasName="MapSprite" Kind="Mảnh trang bị" QualityPrefix="7" Category="1"
+    Genre="24" Stack="1000" DetailType="27" ParticularType="281" Level="7" SuiteID="0" Icon="phu_dh" View="phu_dh" Intro="" Help="" ObjID="25"
+    BindType="1" Series="0" ReqLevel="0" CDType="0" Price="3000" ItemValue="25103" MakeCost="-1" ResMale="-1" ResFemale="-1" FightPower="16"
+    ScriptID="-1" DeductOnUse="false" BuffID="-1">
+
+    <UnLockInterval>-1</UnLockInterval>
+  </ItemData>
+
+  <ItemData ItemID="25144" Name="Mảnh Phù Đồng Hành - Kim Lân" IconBundleDir="Icon/EquipIcon2.unity3d" IconAtlasName="EquipIcon2"
+    MapSpriteBundleDir="Resources/Item/MapSprite.unity3d" MapSpriteAtlasName="MapSprite" Kind="Mảnh trang bị" QualityPrefix="7" Category="1"
+    Genre="24" Stack="1000" DetailType="27" ParticularType="281" Level="8" SuiteID="0" Icon="phu_dh" View="phu_dh" Intro="" Help="" ObjID="25"
+    BindType="1" Series="0" ReqLevel="0" CDType="0" Price="6000" ItemValue="25104" MakeCost="-1" ResMale="-1" ResFemale="-1" FightPower="16"
+    ScriptID="-1" DeductOnUse="false" BuffID="-1">
+
+    <UnLockInterval>-1</UnLockInterval>
+  </ItemData>
+
+  <ItemData ItemID="25145" Name="Mảnh Phù Đồng Hành - Đơn Tâm" IconBundleDir="Icon/EquipIcon2.unity3d" IconAtlasName="EquipIcon2"
+    MapSpriteBundleDir="Resources/Item/MapSprite.unity3d" MapSpriteAtlasName="MapSprite" Kind="Mảnh trang bị" QualityPrefix="7" Category="1"
+    Genre="24" Stack="1000" DetailType="27" ParticularType="281" Level="9" SuiteID="0" Icon="phu_dh" View="phu_dh" Intro="" Help="" ObjID="25"
+    BindType="1" Series="0" ReqLevel="0" CDType="0" Price="9000" ItemValue="25105" MakeCost="-1" ResMale="-1" ResFemale="-1" FightPower="16"
+    ScriptID="-1" DeductOnUse="false" BuffID="-1">
+
+    <UnLockInterval>-1</UnLockInterval>
+  </ItemData>
+
+  <ItemData ItemID="25146" Name="Mảnh Phù Đồng Hành - Long Đằng" IconBundleDir="Icon/EquipIcon2.unity3d" IconAtlasName="EquipIcon2"
+    MapSpriteBundleDir="Resources/Item/MapSprite.unity3d" MapSpriteAtlasName="MapSprite" Kind="Mảnh trang bị" QualityPrefix="7" Category="1"
+    Genre="24" Stack="1000" DetailType="27" ParticularType="281" Level="10" SuiteID="0" Icon="phu_dh" View="phu_dh" Intro="" Help="" ObjID="25"
+    BindType="1" Series="0" ReqLevel="0" CDType="0" Price="12000" ItemValue="25106" MakeCost="-1" ResMale="-1" ResFemale="-1" FightPower="16"
+    ScriptID="-1" DeductOnUse="false" BuffID="-1">
+
+    <UnLockInterval>-1</UnLockInterval>
+  </ItemData>
+
+  <ItemData ItemID="25147" Name="Mảnh Y Phục Đồng Hành - Bích Huyết" IconBundleDir="Icon/EquipIcon2.unity3d" IconAtlasName="EquipIcon2"
+    MapSpriteBundleDir="Resources/Item/MapSprite.unity3d" MapSpriteAtlasName="MapSprite" Kind="Mảnh trang bị" QualityPrefix="5" Category="1"
+    Genre="24" Stack="1000" DetailType="22" ParticularType="1362" Level="7" SuiteID="0" Icon="ao_dh" View="ao_dh" Intro="" Help="" ObjID="21"
+    BindType="1" Series="0" ReqLevel="0" CDType="0" Price="3000" ItemValue="25107" MakeCost="-1" ResMale="-1" ResFemale="-1" FightPower="1"
+    ScriptID="-1" DeductOnUse="false" BuffID="-1">
+
+    <UnLockInterval>-1</UnLockInterval>
+  </ItemData>
+
+  <ItemData ItemID="25148" Name="Mảnh Y Phục Đồng Hành - Kim Lân" IconBundleDir="Icon/EquipIcon2.unity3d" IconAtlasName="EquipIcon2"
+    MapSpriteBundleDir="Resources/Item/MapSprite.unity3d" MapSpriteAtlasName="MapSprite" Kind="Mảnh trang bị" QualityPrefix="5" Category="1"
+    Genre="24" Stack="1000" DetailType="22" ParticularType="1362" Level="8" SuiteID="0" Icon="ao_dh" View="ao_dh" Intro="" Help="" ObjID="21"
+    BindType="1" Series="0" ReqLevel="0" CDType="0" Price="6000" ItemValue="25108" MakeCost="-1" ResMale="-1" ResFemale="-1" FightPower="1"
+    ScriptID="-1" DeductOnUse="false" BuffID="-1">
+
+    <UnLockInterval>-1</UnLockInterval>
+  </ItemData>
+
+  <ItemData ItemID="25149" Name="Mảnh Y Phục Đồng Hành - Đơn Tâm" IconBundleDir="Icon/EquipIcon2.unity3d" IconAtlasName="EquipIcon2"
+    MapSpriteBundleDir="Resources/Item/MapSprite.unity3d" MapSpriteAtlasName="MapSprite" Kind="Mảnh trang bị" QualityPrefix="5" Category="1"
+    Genre="24" Stack="1000" DetailType="22" ParticularType="1362" Level="9" SuiteID="0" Icon="ao_dh" View="ao_dh" Intro="" Help="" ObjID="21"
+    BindType="1" Series="0" ReqLevel="0" CDType="0" Price="9000" ItemValue="25109" MakeCost="-1" ResMale="-1" ResFemale="-1" FightPower="1"
+    ScriptID="-1" DeductOnUse="false" BuffID="-1">
+
+    <UnLockInterval>-1</UnLockInterval>
+  </ItemData>
+
+  <ItemData ItemID="25150" Name="Mảnh Y Phục Đồng Hành - Long Đằng" IconBundleDir="Icon/EquipIcon2.unity3d" IconAtlasName="EquipIcon2"
+    MapSpriteBundleDir="Resources/Item/MapSprite.unity3d" MapSpriteAtlasName="MapSprite" Kind="Mảnh trang bị" QualityPrefix="5" Category="1"
+    Genre="24" Stack="1000" DetailType="22" ParticularType="1362" Level="10" SuiteID="0" Icon="ao_dh" View="ao_dh" Intro="" Help="" ObjID="21"
+    BindType="1" Series="0" ReqLevel="0" CDType="0" Price="12000" ItemValue="25110" MakeCost="-1" ResMale="-1" ResFemale="-1" FightPower="1"
+    ScriptID="-1" DeductOnUse="false" BuffID="-1">
+
+    <UnLockInterval>-1</UnLockInterval>
+  </ItemData>
+
+  <ItemData ItemID="25151" Name="Mảnh Đai Lưng Đồng Hành - Bích Huyết" IconBundleDir="Icon/EquipIcon2.unity3d" IconAtlasName="EquipIcon2"
+    MapSpriteBundleDir="Resources/Item/MapSprite.unity3d" MapSpriteAtlasName="MapSprite" Kind="Mảnh trang bị" QualityPrefix="7" Category="1"
+    Genre="24" Stack="1000" DetailType="23" ParticularType="690" Level="7" SuiteID="0" Icon="belt_f_belt_aoyun4" View="belt_f_belt_aoyun4_s" Intro=""
+    Help="" ObjID="28" BindType="4" Series="0" ReqLevel="0" CDType="0" Price="3000" ItemValue="25111" MakeCost="-1" ResMale="-1" ResFemale="-1"
+    FightPower="16" ScriptID="-1" DeductOnUse="false" BuffID="-1">
+
+    <UnLockInterval>-1</UnLockInterval>
+  </ItemData>
+
+  <ItemData ItemID="25152" Name="Mảnh Đai Lưng Đồng Hành - Kim Lân" IconBundleDir="Icon/EquipIcon2.unity3d" IconAtlasName="EquipIcon2"
+    MapSpriteBundleDir="Resources/Item/MapSprite.unity3d" MapSpriteAtlasName="MapSprite" Kind="Mảnh trang bị" QualityPrefix="7" Category="1"
+    Genre="24" Stack="1000" DetailType="23" ParticularType="690" Level="7" SuiteID="0" Icon="belt_f_belt_aoyun4" View="belt_f_belt_aoyun4_s" Intro=""
+    Help="" ObjID="28" BindType="4" Series="0" ReqLevel="0" CDType="0" Price="6000" ItemValue="25112" MakeCost="-1" ResMale="-1" ResFemale="-1"
+    FightPower="16" ScriptID="-1" DeductOnUse="false" BuffID="-1">
+
+    <UnLockInterval>-1</UnLockInterval>
+  </ItemData>
+
+  <ItemData ItemID="25153" Name="Mảnh Đai Lưng Đồng Hành - Đơn Tâm" IconBundleDir="Icon/EquipIcon2.unity3d" IconAtlasName="EquipIcon2"
+    MapSpriteBundleDir="Resources/Item/MapSprite.unity3d" MapSpriteAtlasName="MapSprite" Kind="Mảnh trang bị" QualityPrefix="7" Category="1"
+    Genre="24" Stack="1000" DetailType="23" ParticularType="690" Level="7" SuiteID="0" Icon="belt_f_belt_aoyun4" View="belt_f_belt_aoyun4_s" Intro=""
+    Help="" ObjID="28" BindType="4" Series="0" ReqLevel="0" CDType="0" Price="9000" ItemValue="25113" MakeCost="-1" ResMale="-1" ResFemale="-1"
+    FightPower="16" ScriptID="-1" DeductOnUse="false" BuffID="-1">
+
+    <UnLockInterval>-1</UnLockInterval>
+  </ItemData>
+
+  <ItemData ItemID="25154" Name="Mảnh Đai Lưng Đồng Hành - Long Đằng" IconBundleDir="Icon/EquipIcon2.unity3d" IconAtlasName="EquipIcon2"
+    MapSpriteBundleDir="Resources/Item/MapSprite.unity3d" MapSpriteAtlasName="MapSprite" Kind="Mảnh trang bị" QualityPrefix="7" Category="1"
+    Genre="24" Stack="1000" DetailType="23" ParticularType="690" Level="7" SuiteID="0" Icon="belt_f_belt_aoyun4" View="belt_f_belt_aoyun4_s" Intro=""
+    Help="" ObjID="28" BindType="4" Series="0" ReqLevel="0" CDType="0" Price="12000" ItemValue="25114" MakeCost="-1" ResMale="-1" ResFemale="-1"
+    FightPower="16" ScriptID="-1" DeductOnUse="false" BuffID="-1">
+
+    <UnLockInterval>-1</UnLockInterval>
+  </ItemData>
+
+  <ItemData ItemID="25155" Name="Mảnh Giày Đồng Hành - Bích Huyết" IconBundleDir="Icon/EquipIcon2.unity3d" IconAtlasName="EquipIcon2"
+    MapSpriteBundleDir="Resources/Item/MapSprite.unity3d" MapSpriteAtlasName="MapSprite" Kind="Mảnh trang bị" QualityPrefix="7" Category="1"
+    Genre="24" Stack="1000" DetailType="25" ParticularType="522" Level="7" SuiteID="0" Icon="boots_f_gold" View="boots_f_gold_s" Intro="" Help=""
+    ObjID="22" BindType="2" Series="0" ReqLevel="0" CDType="0" Price="3000" ItemValue="25115" MakeCost="-1" ResMale="-1" ResFemale="-1"
+    FightPower="16" ScriptID="-1" DeductOnUse="false" BuffID="-1">
+
+    <UnLockInterval>-1</UnLockInterval>
+  </ItemData>
+
+  <ItemData ItemID="25156" Name="Mảnh Giày Đồng Hành - Kim Lân" IconBundleDir="Icon/EquipIcon2.unity3d" IconAtlasName="EquipIcon2"
+    MapSpriteBundleDir="Resources/Item/MapSprite.unity3d" MapSpriteAtlasName="MapSprite" Kind="Mảnh trang bị" QualityPrefix="7" Category="1"
+    Genre="24" Stack="1000" DetailType="25" ParticularType="522" Level="8" SuiteID="0" Icon="boots_f_gold" View="boots_f_gold_s" Intro="" Help=""
+    ObjID="22" BindType="2" Series="0" ReqLevel="0" CDType="0" Price="6000" ItemValue="25116" MakeCost="-1" ResMale="-1" ResFemale="-1"
+    FightPower="16" ScriptID="-1" DeductOnUse="false" BuffID="-1">
+
+    <UnLockInterval>-1</UnLockInterval>
+  </ItemData>
+
+  <ItemData ItemID="25157" Name="Mảnh Giày Đồng Hành - Đơn Tâm" IconBundleDir="Icon/EquipIcon2.unity3d" IconAtlasName="EquipIcon2"
+    MapSpriteBundleDir="Resources/Item/MapSprite.unity3d" MapSpriteAtlasName="MapSprite" Kind="Mảnh trang bị" QualityPrefix="7" Category="1"
+    Genre="24" Stack="1000" DetailType="25" ParticularType="522" Level="9" SuiteID="0" Icon="boots_f_gold" View="boots_f_gold_s" Intro="" Help=""
+    ObjID="22" BindType="2" Series="0" ReqLevel="0" CDType="0" Price="9000" ItemValue="25117" MakeCost="-1" ResMale="-1" ResFemale="-1"
+    FightPower="16" ScriptID="-1" DeductOnUse="false" BuffID="-1">
+
+    <UnLockInterval>-1</UnLockInterval>
+  </ItemData>
+
+  <ItemData ItemID="25158" Name="Mảnh Giày Đồng Hành - Long Đằng" IconBundleDir="Icon/EquipIcon2.unity3d" IconAtlasName="EquipIcon2"
+    MapSpriteBundleDir="Resources/Item/MapSprite.unity3d" MapSpriteAtlasName="MapSprite" Kind="Mảnh trang bị" QualityPrefix="7" Category="1"
+    Genre="24" Stack="1000" DetailType="25" ParticularType="522" Level="10" SuiteID="0" Icon="boots_f_gold" View="boots_f_gold_s" Intro="" Help=""
+    ObjID="22" BindType="2" Series="0" ReqLevel="0" CDType="0" Price="12000" ItemValue="25118" MakeCost="-1" ResMale="-1" ResFemale="-1"
+    FightPower="16" ScriptID="-1" DeductOnUse="false" BuffID="-1">
+
+    <UnLockInterval>-1</UnLockInterval>
+  </ItemData>
+
+  <ItemData ItemID="25159" Name="Mảnh Hộ uyển Đồng Hành - Bích Huyết" IconBundleDir="Icon/EquipIcon2.unity3d" IconAtlasName="EquipIcon2"
+    MapSpriteBundleDir="Resources/Item/MapSprite.unity3d" MapSpriteAtlasName="MapSprite" Kind="Mảnh trang bị" QualityPrefix="7" Category="1"
+    Genre="24" Stack="1000" DetailType="26" ParticularType="722" Level="7" SuiteID="0" Icon="tay_dh" View="tay_dh" Intro="" Help="" ObjID="24"
+    BindType="1" Series="0" ReqLevel="0" CDType="0" Price="3000" ItemValue="25119" MakeCost="-1" ResMale="-1" ResFemale="-1" FightPower="16"
+    ScriptID="-1" DeductOnUse="false" BuffID="-1">
+
+    <UnLockInterval>-1</UnLockInterval>
+  </ItemData>
+
+  <ItemData ItemID="25160" Name="Mảnh Hộ uyển Đồng Hành  - Kim Lân" IconBundleDir="Icon/EquipIcon2.unity3d" IconAtlasName="EquipIcon2"
+    MapSpriteBundleDir="Resources/Item/MapSprite.unity3d" MapSpriteAtlasName="MapSprite" Kind="Mảnh trang bị" QualityPrefix="7" Category="1"
+    Genre="24" Stack="1000" DetailType="26" ParticularType="722" Level="7" SuiteID="0" Icon="tay_dh" View="tay_dh" Intro="" Help="" ObjID="24"
+    BindType="1" Series="0" ReqLevel="0" CDType="0" Price="6000" ItemValue="25120" MakeCost="-1" ResMale="-1" ResFemale="-1" FightPower="16"
+    ScriptID="-1" DeductOnUse="false" BuffID="-1">
+
+    <UnLockInterval>-1</UnLockInterval>
+  </ItemData>
+
+  <ItemData ItemID="25161" Name="Mảnh Hộ uyển Đồng Hành  - Đơn Tâm" IconBundleDir="Icon/EquipIcon2.unity3d" IconAtlasName="EquipIcon2"
+    MapSpriteBundleDir="Resources/Item/MapSprite.unity3d" MapSpriteAtlasName="MapSprite" Kind="Mảnh trang bị" QualityPrefix="7" Category="1"
+    Genre="24" Stack="1000" DetailType="26" ParticularType="722" Level="7" SuiteID="0" Icon="tay_dh" View="tay_dh" Intro="" Help="" ObjID="24"
+    BindType="1" Series="0" ReqLevel="0" CDType="0" Price="9000" ItemValue="25121" MakeCost="-1" ResMale="-1" ResFemale="-1" FightPower="16"
+    ScriptID="-1" DeductOnUse="false" BuffID="-1">
+
+    <UnLockInterval>-1</UnLockInterval>
+  </ItemData>
+
+  <ItemData ItemID="25162" Name="Mảnh Hộ uyển Đồng Hành  - Long Đằng" IconBundleDir="Icon/EquipIcon2.unity3d" IconAtlasName="EquipIcon2"
+    MapSpriteBundleDir="Resources/Item/MapSprite.unity3d" MapSpriteAtlasName="MapSprite" Kind="Mảnh trang bị" QualityPrefix="7" Category="1"
+    Genre="24" Stack="1000" DetailType="26" ParticularType="722" Level="7" SuiteID="0" Icon="tay_dh" View="tay_dh" Intro="" Help="" ObjID="24"
+    BindType="1" Series="0" ReqLevel="0" CDType="0" Price="12000" ItemValue="25122" MakeCost="-1" ResMale="-1" ResFemale="-1" FightPower="16"
+    ScriptID="-1" DeductOnUse="false" BuffID="-1">
+
+    <UnLockInterval>-1</UnLockInterval>
+  </ItemData>
+
+  <ItemData ItemID="25163" Name="Mảnh Mũ Đồng Hành - Bích Huyết" IconBundleDir="Icon/EquipIcon2.unity3d" IconAtlasName="EquipIcon2"
+    MapSpriteBundleDir="Resources/Item/MapSprite.unity3d" MapSpriteAtlasName="MapSprite" Kind="Mảnh trang bị" QualityPrefix="5" Category="1"
+    Genre="24" Stack="1000" DetailType="21" ParticularType="1000" Level="7" SuiteID="0" Icon="helm_f_bupi_810" View="helm_f_bupi_810_s" Intro=""
+    Help="" ObjID="19" BindType="2" Series="0" ReqLevel="0" CDType="0" Price="3000" ItemValue="25123" MakeCost="-1" ResMale="-1" ResFemale="-1"
+    FightPower="1" ScriptID="-1" DeductOnUse="false" BuffID="-1">
+
+    <UnLockInterval>-1</UnLockInterval>
+  </ItemData>
+
+  <ItemData ItemID="25164" Name="Mảnh Mũ Đồng Hành - Kim Lân" IconBundleDir="Icon/EquipIcon2.unity3d" IconAtlasName="EquipIcon2"
+    MapSpriteBundleDir="Resources/Item/MapSprite.unity3d" MapSpriteAtlasName="MapSprite" Kind="Mảnh trang bị" QualityPrefix="5" Category="1"
+    Genre="24" Stack="1000" DetailType="21" ParticularType="1000" Level="8" SuiteID="0" Icon="helm_f_bupi_810" View="helm_f_bupi_810_s" Intro=""
+    Help="" ObjID="19" BindType="2" Series="0" ReqLevel="0" CDType="0" Price="6000" ItemValue="25124" MakeCost="-1" ResMale="-1" ResFemale="-1"
+    FightPower="1" ScriptID="-1" DeductOnUse="false" BuffID="-1">
+
+    <UnLockInterval>-1</UnLockInterval>
+  </ItemData>
+
+  <ItemData ItemID="25165" Name="Mảnh Mũ Đồng Hành - Đơn Tâm" IconBundleDir="Icon/EquipIcon2.unity3d" IconAtlasName="EquipIcon2"
+    MapSpriteBundleDir="Resources/Item/MapSprite.unity3d" MapSpriteAtlasName="MapSprite" Kind="Mảnh trang bị" QualityPrefix="5" Category="1"
+    Genre="24" Stack="1000" DetailType="21" ParticularType="1000" Level="9" SuiteID="0" Icon="helm_f_bupi_810" View="helm_f_bupi_810_s" Intro=""
+    Help="" ObjID="19" BindType="2" Series="0" ReqLevel="0" CDType="0" Price="9000" ItemValue="25125" MakeCost="-1" ResMale="-1" ResFemale="-1"
+    FightPower="1" ScriptID="-1" DeductOnUse="false" BuffID="-1">
+
+    <UnLockInterval>-1</UnLockInterval>
+  </ItemData>
+
+  <ItemData ItemID="25166" Name="Mảnh Mũ Đồng Hành - Long Đằng" IconBundleDir="Icon/EquipIcon2.unity3d" IconAtlasName="EquipIcon2"
+    MapSpriteBundleDir="Resources/Item/MapSprite.unity3d" MapSpriteAtlasName="MapSprite" Kind="Mảnh trang bị" QualityPrefix="5" Category="1"
+    Genre="24" Stack="1000" DetailType="21" ParticularType="1000" Level="10" SuiteID="0" Icon="helm_f_bupi_810" View="helm_f_bupi_810_s" Intro=""
+    Help="" ObjID="19" BindType="2" Series="0" ReqLevel="0" CDType="0" Price="12000" ItemValue="25126" MakeCost="-1" ResMale="-1" ResFemale="-1"
+    FightPower="1" ScriptID="-1" DeductOnUse="false" BuffID="-1">
+
+    <UnLockInterval>-1</UnLockInterval>
+  </ItemData>
+
+  <ItemData ItemID="25167" Name="Mảnh Hạng liên Đồng Hành - Bích Huyết" IconBundleDir="Icon/EquipIcon2.unity3d" IconAtlasName="EquipIcon2"
+    MapSpriteBundleDir="Resources/Item/MapSprite.unity3d" MapSpriteAtlasName="MapSprite" Kind="Mảnh trang bị" QualityPrefix="5" Category="1"
+    Genre="24" Stack="1000" DetailType="29" ParticularType="339" Level="7" SuiteID="0" Icon="necklace_n_109" View="necklace_n_109_s" Intro="" Help=""
+    ObjID="30" BindType="1" Series="0" ReqLevel="0" CDType="0" Price="3000" ItemValue="25127" MakeCost="-1" ResMale="-1" ResFemale="-1" FightPower="0"
+    ScriptID="-1" DeductOnUse="false" BuffID="-1">
+
+    <UnLockInterval>-1</UnLockInterval>
+  </ItemData>
+
+  <ItemData ItemID="25168" Name="Mảnh Hạng liên Đồng Hành - Kim Lân" IconBundleDir="Icon/EquipIcon2.unity3d" IconAtlasName="EquipIcon2"
+    MapSpriteBundleDir="Resources/Item/MapSprite.unity3d" MapSpriteAtlasName="MapSprite" Kind="Mảnh trang bị" QualityPrefix="5" Category="1"
+    Genre="24" Stack="1000" DetailType="29" ParticularType="339" Level="8" SuiteID="0" Icon="necklace_n_109" View="necklace_n_109_s" Intro="" Help=""
+    ObjID="30" BindType="1" Series="0" ReqLevel="0" CDType="0" Price="6000" ItemValue="25128" MakeCost="-1" ResMale="-1" ResFemale="-1" FightPower="0"
+    ScriptID="-1" DeductOnUse="false" BuffID="-1">
+
+    <UnLockInterval>-1</UnLockInterval>
+  </ItemData>
+
+  <ItemData ItemID="25169" Name="Mảnh Hạng liên Đồng Hành - Đơn Tâm" IconBundleDir="Icon/EquipIcon2.unity3d" IconAtlasName="EquipIcon2"
+    MapSpriteBundleDir="Resources/Item/MapSprite.unity3d" MapSpriteAtlasName="MapSprite" Kind="Mảnh trang bị" QualityPrefix="5" Category="1"
+    Genre="24" Stack="1000" DetailType="29" ParticularType="339" Level="9" SuiteID="0" Icon="necklace_n_109" View="necklace_n_109_s" Intro="" Help=""
+    ObjID="30" BindType="1" Series="0" ReqLevel="0" CDType="0" Price="9000" ItemValue="25129" MakeCost="-1" ResMale="-1" ResFemale="-1" FightPower="0"
+    ScriptID="-1" DeductOnUse="false" BuffID="-1">
+
+    <UnLockInterval>-1</UnLockInterval>
+  </ItemData>
+
+  <ItemData ItemID="25170" Name="Mảnh Hạng liên Đồng Hành - Long Đằng" IconBundleDir="Icon/EquipIcon2.unity3d" IconAtlasName="EquipIcon2"
+    MapSpriteBundleDir="Resources/Item/MapSprite.unity3d" MapSpriteAtlasName="MapSprite" Kind="Mảnh trang bị" QualityPrefix="5" Category="1"
+    Genre="24" Stack="1000" DetailType="29" ParticularType="339" Level="10" SuiteID="0" Icon="necklace_n_109" View="necklace_n_109_s" Intro="" Help=""
+    ObjID="30" BindType="1" Series="0" ReqLevel="0" CDType="0" Price="12000" ItemValue="25130" MakeCost="-1" ResMale="-1" ResFemale="-1"
+    FightPower="0" ScriptID="-1" DeductOnUse="false" BuffID="-1">
+
+    <UnLockInterval>-1</UnLockInterval>
+  </ItemData>
+
+  <ItemData ItemID="25171" Name="Mảnh Bội Đồng Hành - Bích Huyết" IconBundleDir="Icon/EquipIcon2.unity3d" IconAtlasName="EquipIcon2"
+    MapSpriteBundleDir="Resources/Item/MapSprite.unity3d" MapSpriteAtlasName="MapSprite" Kind="Mảnh trang bị" QualityPrefix="7" Category="1"
+    Genre="24" Stack="1000" DetailType="30" ParticularType="281" Level="7" SuiteID="0" Icon="amulet_linrixinghuanfu" View="amulet_linrixinghuanfu_s"
+    Intro="" Help="" ObjID="25" BindType="4" Series="0" ReqLevel="0" CDType="0" Price="3000" ItemValue="25131" MakeCost="-1" ResMale="-1"
+    ResFemale="-1" FightPower="16" ScriptID="-1" DeductOnUse="false" BuffID="-1">
+
+    <UnLockInterval>-1</UnLockInterval>
+  </ItemData>
+
+  <ItemData ItemID="25172" Name="Mảnh Bội Đồng Hành - Kim Lân" IconBundleDir="Icon/EquipIcon2.unity3d" IconAtlasName="EquipIcon2"
+    MapSpriteBundleDir="Resources/Item/MapSprite.unity3d" MapSpriteAtlasName="MapSprite" Kind="Mảnh trang bị" QualityPrefix="7" Category="1"
+    Genre="24" Stack="1000" DetailType="30" ParticularType="281" Level="8" SuiteID="0" Icon="amulet_linrixinghuanfu" View="amulet_linrixinghuanfu_s"
+    Intro="" Help="" ObjID="25" BindType="4" Series="0" ReqLevel="0" CDType="0" Price="6000" ItemValue="25132" MakeCost="-1" ResMale="-1"
+    ResFemale="-1" FightPower="16" ScriptID="-1" DeductOnUse="false" BuffID="-1">
+
+    <UnLockInterval>-1</UnLockInterval>
+  </ItemData>
+
+  <ItemData ItemID="25173" Name="Mảnh Bội Đồng Hành - Đơn Tâm" IconBundleDir="Icon/EquipIcon2.unity3d" IconAtlasName="EquipIcon2"
+    MapSpriteBundleDir="Resources/Item/MapSprite.unity3d" MapSpriteAtlasName="MapSprite" Kind="Mảnh trang bị" QualityPrefix="7" Category="1"
+    Genre="24" Stack="1000" DetailType="30" ParticularType="281" Level="9" SuiteID="0" Icon="amulet_linrixinghuanfu" View="amulet_linrixinghuanfu_s"
+    Intro="" Help="" ObjID="25" BindType="4" Series="0" ReqLevel="0" CDType="0" Price="9000" ItemValue="25133" MakeCost="-1" ResMale="-1"
+    ResFemale="-1" FightPower="16" ScriptID="-1" DeductOnUse="false" BuffID="-1">
+
+    <UnLockInterval>-1</UnLockInterval>
+  </ItemData>
+
+  <ItemData ItemID="25174" Name="Mảnh Bội Đồng Hành - Long Đằng" IconBundleDir="Icon/EquipIcon2.unity3d" IconAtlasName="EquipIcon2"
+    MapSpriteBundleDir="Resources/Item/MapSprite.unity3d" MapSpriteAtlasName="MapSprite" Kind="Mảnh trang bị" QualityPrefix="7" Category="1"
+    Genre="24" Stack="1000" DetailType="30" ParticularType="281" Level="10" SuiteID="0" Icon="amulet_linrixinghuanfu" View="amulet_linrixinghuanfu_s"
+    Intro="" Help="" ObjID="25" BindType="4" Series="0" ReqLevel="0" CDType="0" Price="12000" ItemValue="25134" MakeCost="-1" ResMale="-1"
+    ResFemale="-1" FightPower="16" ScriptID="-1" DeductOnUse="false" BuffID="-1">
+
+    <UnLockInterval>-1</UnLockInterval>
+  </ItemData>
+
+  <ItemData ItemID="25175" Name="Mảnh Nhẫn Đồng Hành - Bích Huyết" IconBundleDir="Icon/EquipIcon2.unity3d" IconAtlasName="EquipIcon2"
+    MapSpriteBundleDir="Resources/Item/MapSprite.unity3d" MapSpriteAtlasName="MapSprite" Kind="Mảnh trang bị" QualityPrefix="7" Category="1"
+    Genre="24" Stack="1000" DetailType="28" ParticularType="280" Level="7" SuiteID="0" Icon="nhan_dh" View="nhan_dh" Intro="" Help="" ObjID="29"
+    BindType="1" Series="0" ReqLevel="0" CDType="0" Price="3000" ItemValue="25135" MakeCost="-1" ResMale="-1" ResFemale="-1" FightPower="16"
+    ScriptID="-1" DeductOnUse="false" BuffID="-1">
+
+    <UnLockInterval>-1</UnLockInterval>
+  </ItemData>
+
+  <ItemData ItemID="25176" Name="Mảnh Nhẫn Đồng Hành - Kim Lân" IconBundleDir="Icon/EquipIcon2.unity3d" IconAtlasName="EquipIcon2"
+    MapSpriteBundleDir="Resources/Item/MapSprite.unity3d" MapSpriteAtlasName="MapSprite" Kind="Mảnh trang bị" QualityPrefix="7" Category="1"
+    Genre="24" Stack="1000" DetailType="28" ParticularType="280" Level="7" SuiteID="0" Icon="nhan_dh" View="nhan_dh" Intro="" Help="" ObjID="29"
+    BindType="1" Series="0" ReqLevel="0" CDType="0" Price="6000" ItemValue="25136" MakeCost="-1" ResMale="-1" ResFemale="-1" FightPower="16"
+    ScriptID="-1" DeductOnUse="false" BuffID="-1">
+
+    <UnLockInterval>-1</UnLockInterval>
+  </ItemData>
+
+  <ItemData ItemID="25177" Name="Mảnh Nhẫn Đồng Hành - Đơn Tâm" IconBundleDir="Icon/EquipIcon2.unity3d" IconAtlasName="EquipIcon2"
+    MapSpriteBundleDir="Resources/Item/MapSprite.unity3d" MapSpriteAtlasName="MapSprite" Kind="Mảnh trang bị" QualityPrefix="7" Category="1"
+    Genre="24" Stack="1000" DetailType="28" ParticularType="280" Level="7" SuiteID="0" Icon="nhan_dh" View="nhan_dh" Intro="" Help="" ObjID="29"
+    BindType="1" Series="0" ReqLevel="0" CDType="0" Price="9000" ItemValue="25137" MakeCost="-1" ResMale="-1" ResFemale="-1" FightPower="16"
+    ScriptID="-1" DeductOnUse="false" BuffID="-1">
+
+    <UnLockInterval>-1</UnLockInterval>
+  </ItemData>
+
+  <ItemData ItemID="25178" Name="Mảnh Nhẫn Đồng Hành - Long Đằng" IconBundleDir="Icon/EquipIcon2.unity3d" IconAtlasName="EquipIcon2"
+    MapSpriteBundleDir="Resources/Item/MapSprite.unity3d" MapSpriteAtlasName="MapSprite" Kind="Mảnh trang bị" QualityPrefix="7" Category="1"
+    Genre="24" Stack="1000" DetailType="28" ParticularType="280" Level="7" SuiteID="0" Icon="nhan_dh" View="nhan_dh" Intro="" Help="" ObjID="29"
+    BindType="1" Series="0" ReqLevel="0" CDType="0" Price="12000" ItemValue="25138" MakeCost="-1" ResMale="-1" ResFemale="-1" FightPower="16"
+    ScriptID="-1" DeductOnUse="false" BuffID="-1">
+
+    <UnLockInterval>-1</UnLockInterval>
+  </ItemData>
+
+  <ItemData ItemID="25179" Name="Mảnh Vũ khí đồng hành - Bích Huyết" IconBundleDir="Icon/EquipIcon2.unity3d" IconAtlasName="EquipIcon2"
+    MapSpriteBundleDir="Resources/Item/MapSprite.unity3d" MapSpriteAtlasName="MapSprite" Kind="Mảnh trang bị" QualityPrefix="3" Category="12"
+    Genre="24" Stack="1000" DetailType="24" ParticularType="1" Level="7" SuiteID="0" Icon="vu_khi_dh" View="vu_khi_dh" Intro="" Help="" ObjID="9"
+    BindType="1" Series="0" ReqLevel="0" CDType="0" Price="3000" ItemValue="25139" MakeCost="-1" ResMale="1" ResFemale="1" FightPower="0"
+    ScriptID="-1" DeductOnUse="false" BuffID="-1" NumberSelection="2">
+
+    <UnLockInterval>-1</UnLockInterval>
+  </ItemData>
+  <ItemData ItemID="25180" Name="Mảnh Vũ khí đồng hành - Kim Lân" IconBundleDir="Icon/EquipIcon2.unity3d" IconAtlasName="EquipIcon2"
+    MapSpriteBundleDir="Resources/Item/MapSprite.unity3d" MapSpriteAtlasName="MapSprite" Kind="Mảnh trang bị" QualityPrefix="3" Category="12"
+    Genre="24" Stack="1000" DetailType="24" ParticularType="1" Level="8" SuiteID="0" Icon="vu_khi_dh" View="vu_khi_dh" Intro="" Help="" ObjID="9"
+    BindType="1" Series="0" ReqLevel="0" CDType="0" Price="6000" ItemValue="25140" MakeCost="-1" ResMale="1" ResFemale="1" FightPower="0"
+    ScriptID="-1" DeductOnUse="false" BuffID="-1" NumberSelection="2">
+
+    <UnLockInterval>-1</UnLockInterval>
+  </ItemData>
+  <ItemData ItemID="25181" Name="Mảnh Vũ khí đồng hành - Đơn Tâm" IconBundleDir="Icon/EquipIcon2.unity3d" IconAtlasName="EquipIcon2"
+    MapSpriteBundleDir="Resources/Item/MapSprite.unity3d" MapSpriteAtlasName="MapSprite" Kind="Mảnh trang bị" QualityPrefix="3" Category="12"
+    Genre="24" Stack="1000" DetailType="24" ParticularType="1" Level="9" SuiteID="0" Icon="vu_khi_dh" View="vu_khi_dh" Intro="" Help="" ObjID="9"
+    BindType="1" Series="0" ReqLevel="0" CDType="0" Price="9000" ItemValue="25141" MakeCost="-1" ResMale="1" ResFemale="1" FightPower="0"
+    ScriptID="-1" DeductOnUse="false" BuffID="-1" NumberSelection="2">
+
+    <UnLockInterval>-1</UnLockInterval>
+  </ItemData>
+  <ItemData ItemID="25182" Name="Mảnh Vũ khí đồng hành - Long Đằng" IconBundleDir="Icon/EquipIcon2.unity3d" IconAtlasName="EquipIcon2"
+    MapSpriteBundleDir="Resources/Item/MapSprite.unity3d" MapSpriteAtlasName="MapSprite" Kind="Mảnh trang bị" QualityPrefix="3" Category="12"
+    Genre="24" Stack="1000" DetailType="24" ParticularType="1" Level="10" SuiteID="0" Icon="vu_khi_dh" View="vu_khi_dh" Intro="" Help="" ObjID="9"
+    BindType="1" Series="0" ReqLevel="0" CDType="0" Price="12000" ItemValue="25142" MakeCost="-1" ResMale="1" ResFemale="1" FightPower="0"
+    ScriptID="-1" DeductOnUse="false" BuffID="-1" NumberSelection="2">
+
+    <UnLockInterval>-1</UnLockInterval>
+  </ItemData>
+
+</ArrayOfItemData>

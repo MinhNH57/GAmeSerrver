@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfAttribute xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Attribute ItemID="492" Name="Tẩy Tủy Kinh (sơ)" RecordID="100010" />
+  <Attribute ItemID="493" Name="Tẩy Tủy Kinh (trung)" RecordID="1000021" />
+  <Attribute ItemID="490" Name="Võ Lâm Mật Tịch (sơ)" RecordID="100011" />
+  <Attribute ItemID="491" Name="Võ Lâm Mật Tịch (trung)" RecordID="1000022" />
+</ArrayOfAttribute>

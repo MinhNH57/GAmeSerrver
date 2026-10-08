@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Pet xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" CanRevice="false">
+  <YTLID>25184</YTLID>
+  <FixedSkills>2012</FixedSkills>
+  <FixedSkills>2013</FixedSkills>
+  <FixedSkills>2011</FixedSkills>
+  <Gift_Value ID="189" Value="1_1_1_0_0_0_0_0_0_0" />
+  <Gift_Value ID="190" Value="4_4_4_1_1_1_1_1_1_1" />
+  <Gift_Value ID="191" Value="13_13_13_4_4_4_4_4_4_4" />
+  <Gift_Value ID="192" Value="52_52_52_13_13_13_13_13_13_13" />
+  <Gift_Value ID="193" Value="70_70_70_52_52_52_52_52_52_52" />
+  <Gift_Value ID="194" Value="75_75_75_70_70_70_70_70_70_70" />
+  <Gift_Value ID="391" Value="1_1_1_0_0_0_0_0_0_0" />
+  <Gift_Value ID="392" Value="4_4_4_1_1_1_1_1_1_1" />
+  <Gift_Value ID="393" Value="13_13_13_4_4_4_4_4_4_4" />
+  <Gift_Value ID="394" Value="52_52_52_13_13_13_13_13_13_13" />
+  <Gift_Value ID="395" Value="70_70_70_52_52_52_52_52_52_52" />
+  <Gift_Value ID="396" Value="75_75_75_70_70_70_70_70_70_70" />
+  
+  <!-- config quà tặng mới, dùng sau khi update client -->
+<!--   
+  <Gift_Value ID="189" Value="0_0_0_0_0_0_0_0_0_0" />
+  <Gift_Value ID="190" Value="0_0_0_0_0_0_0_0_0_0" />
+  <Gift_Value ID="191" Value="0_0_0_0_0_0_1_1_1_1" />
+  <Gift_Value ID="192" Value="0_0_0_0_0_0_3_3_3_3" />
+  <Gift_Value ID="193" Value="0_0_0_0_0_0_10_10_10_10" />
+  <Gift_Value ID="194" Value="0_0_0_0_0_0_35_35_35_35" />
+  
+  <Gift_Value ID="391" Value="0_0_0_0_0_0_0_0_0_0" />
+  <Gift_Value ID="392" Value="0_0_0_0_0_0_0_0_0_0" />
+  <Gift_Value ID="393" Value="0_0_0_0_0_0_1_1_1_1" />
+  <Gift_Value ID="394" Value="0_0_0_0_0_0_3_3_3_3" />
+  <Gift_Value ID="395" Value="0_0_0_0_0_0_10_10_10_10" />
+  <Gift_Value ID="396" Value="0_0_0_0_0_0_35_35_35_35" />
+-->
+
+  <TinhHoa ID="1102" DiemLinhNgo="0" Kind="1" />
+  <TinhHoa ID="1103" DiemLinhNgo="0" Kind="1" />
+  <TinhHoa ID="1104" DiemLinhNgo="1" Kind="1" />
+  <TinhHoa ID="1105" DiemLinhNgo="2" Kind="1" />
+  <TinhHoa ID="25185" DiemLinhNgo="0" Kind="2" />
+  <TinhHoa ID="25186" DiemLinhNgo="0" Kind="2" />
+  <TinhHoa ID="25187" DiemLinhNgo="3" Kind="2" />
+  <TinhHoa ID="25188" DiemLinhNgo="6" Kind="2" />
+
+  <PetPoint Star="1" Point="5"/>
+  <PetPoint Star="2" Point="6"/>
+  <PetPoint Star="3" Point="8"/>
+  <PetPoint Star="4" Point="12"/>
+  <PetPoint Star="5" Point="14"/>
+  <PetPoint Star="6" Point="16"/>
+  <PetPoint Star="7" Point="20"/>
+  <PetPoint Star="8" Point="22"/>
+  <PetPoint Star="9" Point="24"/>
+  <PetPoint Star="10" Point="27"/>
+</Pet>

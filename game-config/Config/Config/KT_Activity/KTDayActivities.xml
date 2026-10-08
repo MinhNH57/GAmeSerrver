@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--	
+	ID: ID sự kiện
+	Name: Tên sự kiện
+	Type: Loại sự kiện
+			- -1: Đóng
+			- 0: làm 1 nhiệm vụ là được 
+			- 1: làm nhiệm nhiều lần ví dụ mở túi 20 lần
+	NumberItem: số lượng nhiệm vụ cần làm nếu type = 1
+	Repeat: Loại nhiệm vụ
+			- 0 : không lặp lại
+			- 1 : có thể làm nhiều lần
+	IndexRepeat: Số lần có thể lặp lại
+-->
+<DayActivityEvent>
+<Mission MaxScoreDay = "150" MaxScoreMonth = "5600" PriceVip = "1000" TypeMoney = "3" BonusScore = "20">
+	<DayActivity Name = "Đăng nhập" ID = "0" Type = "0" NumberItem = "0" Score="2" Repeat = "0" IndexRepeat = "0" />
+	<DayActivity Name = "Hoàn thành 1 lần Chúc phúc" ID = "1" Type = "0" NumberItem = "0" Score="8" Repeat = "0" IndexRepeat = "0" />
+	<DayActivity Name = "Hoàn thành 5 lần Chúc phúc" ID = "2" Type = "1" NumberItem = "5" Score="20" Repeat = "0" IndexRepeat = "0" />
+	<DayActivity Name = "Mở 20 Túi Phúc" ID = "3" Type = "1" NumberItem = "20" Score="5" Repeat = "0" IndexRepeat = "0" />
+	<DayActivity Name = "Tiêu diệt 05 Tinh Anh hoặc Thủ Lĩnh" ID = "4" Type = "1" NumberItem = "5" Score="10" Repeat = "0" IndexRepeat = "0" />
+	<DayActivity Name = "Đoán hoa đăng 01 lần" ID = "5" Type = "0" NumberItem = "0" Score="5" Repeat = "0" IndexRepeat = "0" />
+	<DayActivity Name = "Hoàn thành 06 nhiệm vụ Truy Nã" ID = "6" Type = "1" NumberItem = "6" Score="10" Repeat = "0" IndexRepeat = "0" />
+	<DayActivity Name = "Tham gia vượt ải Tiêu Dao Cốc 01 lần" ID = "7" Type = "0" NumberItem = "0" Score="10" Repeat = "0" IndexRepeat = "0" />
+	<DayActivity Name = "Tổ đội tiêu diệt 01 boss Võ Lâm Cao Thủ (55, 75, 95)" ID = "8" Type = "0" NumberItem = "0" Score="10" Repeat = "0" IndexRepeat = "0" />
+	<DayActivity Name = "Tham gia 01 trận Bạch Hổ Đường" ID = "9" Type = "0" NumberItem = "0" Score="10" Repeat = "0" IndexRepeat = "0" />
+	<DayActivity Name = "Tham gia 01 lần Tu Luyện Bí Cảnh" ID = "10" Type = "0" NumberItem = "0" Score="15" Repeat = "0" IndexRepeat = "0" />
+	<DayActivity Name = "Sử dụng 10 Du Long Chiến Thư" ID = "11" Type = "1" NumberItem = "10" Score="10" Repeat = "0" IndexRepeat = "0" />
+	<DayActivity Name = "Sử dụng 01 Trứng Du Long" ID = "12" Type = "0" NumberItem = "0" Score="20" Repeat = "0" IndexRepeat = "0" />
+	<DayActivity Name = "Tham gia 01 lần chiến trường Tống Kim liên server" ID = "13" Type = "0" NumberItem = "0" Score="15" Repeat = "0" IndexRepeat = "0" />
+	<DayActivity Name = "Tham gia 01 trận Bạch Hổ Đường liên server" ID = "14" Type = "0" NumberItem = "0" Score="15" Repeat = "0" IndexRepeat = "0" />
+	<DayActivity Name = "Nhận Tinh Lực - Hoạt Lực" ID = "15" Type = "2" NumberItem = "0" Score="15" Repeat = "0" IndexRepeat = "3" />
+	<DayActivity Name = "Tham gia 01 lần Thi Đấu Môn Phái (vào thứ Hai và thứ Sáu)" ID = "16" Type = "0" NumberItem = "0" Score="15" Repeat = "0" IndexRepeat = "0" />
+	<DayActivity Name = "Tham gia Tranh Đoạt Lãnh Thổ (vào thứ Sáu và Chủ Nhật)" ID = "17" Type = "0" NumberItem = "0" Score="15" Repeat = "0" IndexRepeat = "0" />
+	<DayActivity Name = "Tham gia hoạt động Tần Lăng" ID = "18" Type = "0" NumberItem = "0" Score="15" Repeat = "0" IndexRepeat = "0" />
+	<DayActivity Name = "Tham gia hoạt động Boss Liên Server" ID = "19" Type = "0" NumberItem = "0" Score="10" Repeat = "0" IndexRepeat = "0" />
+	<DayActivity Name = "Tham gia hoạt động Liên Đấu" ID = "20" Type = "0" NumberItem = "0" Score="10" Repeat = "0" IndexRepeat = "0" />
+	<DayActivity Name = "Hoàn thành 10 nhiệm vụ Bao Vạn Đồng" ID = "21" Type = "1" NumberItem = "10" Score="5" Repeat = "0" IndexRepeat = "0" />
+	<DayActivity Name = "Hoàn thành 50 nhiệm vụ Bao Vạn Đồng" ID = "22" Type = "1" NumberItem = "50" Score="10" Repeat = "0" IndexRepeat = "0" />
+	<DayActivity Name = "Tham gia Vượt Ải Gia Tộc 01 lần" ID = "23" Type = "0" NumberItem = "0" Score="10" Repeat = "0" IndexRepeat = "0" />
+	
+</Mission>
+
+<DayActivityCollect>
+  <Item StepID="1" Score="10">
+    <RollAwardItem ItemID="15302" Number="1" Rate="0" />
+  </Item>
+  <Item StepID="2" Score="30">
+    <RollAwardItem ItemID="15303" Number="1" Rate="0" />
+  </Item>
+  <Item StepID="3" Score="70">
+    <RollAwardItem ItemID="15304" Number="1" Rate="0" />
+  </Item>
+  <Item StepID="4" Score="110">
+    <RollAwardItem ItemID="15305" Number="1" Rate="0" />
+  </Item>
+  <Item StepID="5" Score="150">
+    <RollAwardItem ItemID="15306" Number="1" Rate="0" />
+  </Item>
+   <Item StepID="6" Score="150" Vip = "1">
+    <RollAwardItem ItemID="15600" Number="1" Rate="0" />
+  </Item>
+</DayActivityCollect>
+
+<MonthActivityCollect>
+  <Item StepID="1" Score="1500" >
+    <RollAwardItem ItemID="15307" Number="1" Rate="0" />
+  </Item>
+  <Item StepID="2" Score="2500">
+    <RollAwardItem ItemID="15308" Number="1" Rate="0" />
+  </Item>
+  <Item StepID="3" Score="3500">
+    <RollAwardItem ItemID="15309" Number="1" Rate="0" />
+  </Item>
+  <Item StepID="4" Score="4500">
+    <RollAwardItem ItemID="15310" Number="1" Rate="0" />
+  </Item>
+  <Item StepID="5" Score="5500">
+    <RollAwardItem ItemID="15311" Number="1" Rate="0" />
+  </Item>
+    <Item StepID="6" Score="1500" Vip = "1">
+    <RollAwardItem ItemID="15601" Number="1" Rate="0" />
+  </Item>
+  <Item StepID="7" Score="2500" Vip = "1">
+    <RollAwardItem ItemID="15602" Number="1" Rate="0" />
+  </Item>
+  <Item StepID="8" Score="3500" Vip = "1">
+    <RollAwardItem ItemID="15603" Number="1" Rate="0" />
+  </Item>
+  <Item StepID="9" Score="4500" Vip = "1">
+    <RollAwardItem ItemID="15604" Number="1" Rate="0" />
+  </Item>
+    <Item StepID="10" Score="5500" Vip = "1">
+    <RollAwardItem ItemID="15605" Number="1" Rate="0" />
+  </Item>
+</MonthActivityCollect>
+
+</DayActivityEvent>

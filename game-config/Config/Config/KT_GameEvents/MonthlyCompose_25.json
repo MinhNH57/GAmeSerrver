@@ -1,0 +1,12 @@
+{
+    "StartDate": "2024-11-28 05:00:00",
+    "EndDate": "2024-12-09 05:00:00",
+    "MaterialRate": {
+        "20736": 70,
+        "20737": 30
+    },
+    "TokenItem": 20738,
+    "TokenItemPrice": 20,
+    "DropRate": 5,
+    "MonsterLevelLimit": 50
+}

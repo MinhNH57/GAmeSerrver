@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GiftExchange TimeKey="GiftExchange">
+    <Exchange GiftID="20742" RoleParam="GiftExchange_1">
+        <Milestone Count="200">
+            <Item ID="25235" Count="1"/>
+        </Milestone>
+        <Milestone Count="500">
+            <Item ID="819" Count="5"/>
+        </Milestone>
+        <Milestone Count="1000">
+            <Item ID="25270" Count="2500"/>
+        </Milestone>
+        <Milestone Count="2500">
+            <Item ID="1887" Count="1"/>
+        </Milestone>
+        <Milestone Count="5000">
+            <Item ID="20745" Count="1"/>
+        </Milestone>
+    </Exchange>
+
+    <Exchange GiftID="20743" RoleParam="GiftExchange_2">
+        <Milestone Count="200">
+            <Item ID="1026" Count="20"/>
+        </Milestone>
+        <Milestone Count="500">
+            <Item ID="20555" Count="1"/>
+        </Milestone>
+        <Milestone Count="1000">
+            <Item ID="25270" Count="2500"/>
+        </Milestone>
+        <Milestone Count="2500">
+            <Item ID="1888" Count="1"/>
+        </Milestone>
+        <Milestone Count="5000">
+            <Item ID="20745" Count="1"/>
+        </Milestone>
+    </Exchange>
+</GiftExchange>

@@ -1,0 +1,141 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BaoThach>
+    <Holes>
+        <Hole ID="0" materials="14242:2" money="1:300000" rate="75"
+              ItemIDs="14201,14202,14203,14204,14205,14206,14207,14208,14209,14210"/>
+        <Hole ID="1" materials="14242:10" money="1:1000000" rate="75"
+              ItemIDs="14201,14202,14203,14204,14205,14206,14207,14208,14209,14210"/>
+        <Hole ID="2" materials="14242:30" money="1:2000000" rate="75"
+              ItemIDs="14211,14212,14213,14214,14215,14216,14217,14218,14219,14220"/>
+        <Hole ID="3" materials="14243:10" money="1:3000000" rate="75"
+              ItemIDs="14221,14222,14223,14224,14225"/>
+        <Hole ID="4" materials="14243:20" money="1:5000000" rate="75"
+              ItemIDs="14231,14232,142303,14234,14235"/>
+    </Holes>
+    <UnEquip>
+        <Hole ID="0" money="0:5000000">
+            <Item ItemID="14244" rate="50"/>
+        </Hole>
+        <Hole ID="1" money="0:7500000">
+            <Item ItemID="14244" rate="50"/>
+        </Hole>
+        <Hole ID="2" money="0:1000000">
+            <Item ItemID="14245" rate="50"/>
+        </Hole>
+        <Hole ID="3" money="0:3000000">
+            <Item ItemID="14246" rate="50"/>
+        </Hole>
+        <Hole ID="4" money="0:5000000">
+            <Item ItemID="14246" rate="50"/>
+        </Hole>
+    </UnEquip>
+    <Upgrade>
+        <Group Index="1" title="Phổ Thông Bảo Thạch">
+            <GroupItem id="14201" title="Cấp 2"/>
+            <GroupItem id="14202" title="Cấp 3"/>
+            <GroupItem id="14203" title="Cấp 4"/>
+            <GroupItem id="14204" title="Cấp 5"/>
+            <GroupItem id="14205" title="Cấp 6"/>
+            <GroupItem id="14206" title="Cấp 7"/>
+        </Group>
+        <Group Index="2" title="Đặc Thù Bảo Thạch">
+            <GroupItem id="14211" title="Cấp 2"/>
+            <GroupItem id="14212" title="Cấp 3"/>
+            <GroupItem id="14213" title="Cấp 4"/>
+            <GroupItem id="14214" title="Cấp 5"/>
+            <GroupItem id="14215" title="Cấp 6"/>
+            <GroupItem id="14216" title="Cấp 7"/>
+        </Group>
+        <Group Index="3" title="Kỹ Năng Bảo Thạch">
+            <GroupItem id="14221" title="Cấp 2"/>
+            <GroupItem id="14222" title="Cấp 3"/>
+        </Group>
+        <Group Index="4" title="Trang bị Bảo Thạch">
+            <GroupItem id="14231" title="Cấp 2"/>
+            <GroupItem id="14232" title="Cấp 3"/>
+        </Group>
+        <!-- Bảo thach phổ thông 1,2,3-->
+        <Item id="14201">
+            <Pack amount="3" materials="928:3,506:100" money="0:500000" rate="25.0" fail="14241:1" success="14202:1"/>
+            <Pack amount="4" materials="928:4,506:200" money="0:500000" rate="50.0" fail="14241:1" success="14202:1"/>
+            <Pack amount="5" materials="928:5,506:300" money="0:500000" rate="75.0" fail="14241:1" success="14202:1"/>
+        </Item>
+        <Item id="14202">
+            <Pack amount="3" materials="928:3,506:100" money="0:500000" rate="25.0" fail="14241:1" success="14203:1"/>
+            <Pack amount="4" materials="928:4,506:200" money="0:500000" rate="50.0" fail="14241:1" success="14203:1"/>
+            <Pack amount="5" materials="928:5,506:300" money="0:500000" rate="75.0" fail="14241:1" success="14203:1"/>
+        </Item>
+        <Item id="14203">
+            <Pack amount="3" materials="928:3,506:100" money="0:500000" rate="25.0" fail="14241:1" success="14204:1"/>
+            <Pack amount="4" materials="928:4,506:200" money="0:500000" rate="50.0" fail="14241:1" success="14204:1"/>
+            <Pack amount="5" materials="928:5,506:300" money="0:500000" rate="75.0" fail="14241:1" success="14204:1"/>
+        </Item>
+        <!-- Bảo thach phổ thông 4,5,6-->
+        <Item id="14204">
+            <Pack amount="3" materials="928:30,506:3000,14247:1" money="0:1000000" rate="25.0" fail="" success="14205:1"/>
+            <Pack amount="4" materials="928:40,506:4000,14247:1" money="0:2000000" rate="50.0" fail="" success="14205:1"/>
+            <Pack amount="5" materials="928:50,506:5000,14247:1" money="0:3000000" rate="75.0" fail="14204:1" success="14205:1"/>
+        </Item>
+        <Item id="14205">
+            <Pack amount="3" materials="928:30,506:3000,14247:1" money="0:1000000" rate="25.0" fail="" success="14206:1"/>
+            <Pack amount="4" materials="928:40,506:4000,14247:1" money="0:2000000" rate="50.0" fail="" success="14206:1"/>
+            <Pack amount="5" materials="928:50,506:5000,14247:1" money="0:3000000" rate="75.0" fail="14204:1" success="14206:1"/>
+        </Item>
+        <Item id="14206">
+            <Pack amount="3" materials="928:30,506:3000,14247:1" money="0:1000000" rate="25.0" fail="" success="14207:1"/>
+            <Pack amount="4" materials="928:40,506:4000,14247:1" money="0:2000000" rate="50.0" fail="" success="14207:1"/>
+            <Pack amount="5" materials="928:50,506:5000,14247:1" money="0:3000000" rate="75.0" fail="14204:1" success="14207:1"/>
+        </Item>
+        <!-- Bảo thach đặc thù 1,2,3-->
+        <Item id="14211">
+            <Pack amount="3" materials="928:3,506:100" money="0:500000" rate="25.0" fail="14241:1" success="14212:1"/>
+            <Pack amount="4" materials="928:4,506:200" money="0:500000" rate="50.0" fail="14241:1" success="14212:1"/>
+            <Pack amount="5" materials="928:5,506:300" money="0:500000" rate="75.0" fail="14241:1" success="14212:1"/>
+        </Item>
+        <Item id="14212" output="14213" materials="928,506,1">
+            <Pack amount="3" materials="928:3,506:100" money="0:500000" rate="25.0" fail="14241:1" success="14213:1"/>
+            <Pack amount="4" materials="928:4,506:200" money="0:500000" rate="50.0" fail="14241:1" success="14213:1"/>
+            <Pack amount="5" materials="928:5,506:300" money="0:500000" rate="75.0" fail="14241:1" success="14213:1"/>
+        </Item>
+        <Item id="14213" output="14214" materials="928,506,1">
+            <Pack amount="3" materials="928:3,506:100" money="0:500000" rate="25.0" fail="14241:1" success="14214:1"/>
+            <Pack amount="4" materials="928:4,506:200" money="0:500000" rate="50.0" fail="14241:1" success="14214:1"/>
+            <Pack amount="5" materials="928:5,506:300" money="0:500000" rate="75.0" fail="14241:1" success="14214:1"/>
+        </Item>
+        <!-- Bảo thach đặc thù 4,5,6-->
+        <Item id="14214">
+            <Pack amount="3" materials="928:30,506:3000,14247:1" money="0:1000000" rate="25.0" fail="" success="14215:1"/>
+            <Pack amount="4" materials="928:40,506:4000,14247:1" money="0:2000000" rate="50.0" fail="" success="14215:1"/>
+            <Pack amount="5" materials="928:50,506:5000,14247:1" money="0:3000000" rate="75.0" fail="14204:1" success="14215:1"/>
+        </Item>
+        <Item id="14215">
+            <Pack amount="3" materials="928:30,506:3000,14247:1" money="0:1000000" rate="25.0" fail="" success="14216:1"/>
+            <Pack amount="4" materials="928:40,506:4000,14247:1" money="0:2000000" rate="50.0" fail="" success="14216:1"/>
+            <Pack amount="5" materials="928:50,506:5000,14247:1" money="0:3000000" rate="75.0" fail="14204:1" success="14216:1"/>
+        </Item>
+        <Item id="14216" output="14217" materials="928,506,1,14247">
+            <Pack amount="3" materials="928:30,506:3000,14247:1" money="0:1000000" rate="25.0" fail="" success="14217:1"/>
+            <Pack amount="4" materials="928:40,506:4000,14247:1" money="0:2000000" rate="50.0" fail="" success="14217:1"/>
+            <Pack amount="5" materials="928:50,506:5000,14247:1" money="0:3000000" rate="75.0" fail="14204:1" success="14217:1"/>
+        </Item>
+        <!-- Bảo thạch kỹ năng 1,2 -->
+        <Item id="14221">
+            <Pack amount="5" materials="928:300,506:15000,14248:2,14204:500" money="0:0" rate="75.0" fail="14221:1" success="14222:1"/>
+        </Item>
+        <Item id="14222">
+            <Pack amount="5" materials="928:500,506:30000,14248:5,14204:1000" money="0:0" rate="75.0" fail="14222:1" success="14223:1"/>
+        </Item>
+        <!-- Bảo thạch trang bị 1,2 -->
+        <Item id="14231" output="14232" materials="928,506,14248,14204">
+            <Pack amount="5" materials="928:300,506:15000,14248:2,14204:500" money="0:0" rate="75.0" fail="14231:1" success="14232:1"/>
+        </Item>
+        <Item id="14232">
+            <Pack amount="5" materials="928:500,506:30000,14248:5,14204:1000" money="0:0" rate="75.0" fail="14232:1" success="14233:1"/>
+        </Item>
+    </Upgrade>
+    <Reset>
+        <Item ItemIds="14201,14202,14203,14211,14212,14213" materials="1074:20" />
+        <Item ItemIds="14204,14205,14206,14214,14215,14216" materials="1074:50" />
+        <Item ItemIds="14207,14208,14209,14210,14217,14218,14219,14220" materials="1074:100" />
+    </Reset>
+</BaoThach>

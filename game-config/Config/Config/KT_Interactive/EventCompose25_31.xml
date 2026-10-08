@@ -1,0 +1,383 @@
+<ComposeData MainItem="20934" BonusItem="20908" DropItem="1962,1963,1966" RecordSeed="749900000">
+
+	<MantleRequirement Level="6" ServerMin="1" ServerMax="29"/>
+	<MantleRequirement Level="5" ServerMin="30" ServerMax="99"/>
+	<MantleRequirement Level="5" ServerMin="999" ServerMax="999"/>
+
+	<!-- công thức ghép vật phẩm tháng
+   muốn thêm công thức mới thì bắt buộc thêm vào cuối file. không được chen giữa các công thức khác.
+   id vật phẩm:
+	20934: [Đặc biệt] Bánh Kem Đặc Biệt
+	1962: Lòng Đỏ Trứng gà
+	1963: Bột mì
+	1966: Kem sữa
+	20756: Nến vàng
+   tiền thì dùng tag Fee
+	0: bạc khóa
+	1: bạc thường
+	2: knb
+	3: knb khóa
+   group:
+	0: nông dân
+	1: năng động
+	2: sự kiện
+   limittype: Week, Day, Month, Lifetime, None
+   -->
+
+	<Compose Output="600" OutputNumber="1" LimitType="Week" LimitValue="10" Group="0">
+		<Material ID="1962" Number="10" />
+		<Material ID="1963" Number="10" />
+		<Fee ID="1" Number="50000" />
+	</Compose>
+	<Compose Output="299" OutputNumber="1" LimitType="Week" LimitValue="7" Group="0">
+		<Material ID="1962" Number="40" />
+		<Material ID="1963" Number="40" />
+		<Fee ID="1" Number="100000" />
+	</Compose>
+	<Compose Output="25270" OutputNumber="100" LimitType="Week" LimitValue="15" Group="0">
+		<Material ID="1962" Number="250" />
+		<Material ID="1963" Number="250" />
+		<Fee ID="1" Number="150000" />
+	</Compose>
+	<Compose Output="514" OutputNumber="1" LimitType="Week" LimitValue="1" Group="0">
+		<Material ID="1962" Number="500" />
+		<Material ID="1963" Number="500" />
+		<Fee ID="1" Number="500000" />
+	</Compose>
+	<Compose Output="15716" OutputNumber="10" LimitType="Week" LimitValue="2" Group="0">
+		<Material ID="1962" Number="500" />
+		<Material ID="1963" Number="500" />
+		<Fee ID="1" Number="750000" />
+	</Compose>
+	<Compose Output="590" OutputNumber="1" LimitType="Week" LimitValue="4" Group="0">
+		<Material ID="1962" Number="20" />
+		<Material ID="1963" Number="20" />
+		<Fee ID="1" Number="100000" />
+	</Compose>
+	<Compose Output="527" OutputNumber="1" LimitType="Week" LimitValue="2" Group="0">
+		<Material ID="1962" Number="500" />
+		<Material ID="1963" Number="500" />
+		<Fee ID="1" Number="500000" />
+	</Compose>
+	<Compose Output="188" OutputNumber="1" LimitType="Week" LimitValue="10" Group="0">
+		<Material ID="1962" Number="15" />
+		<Material ID="1963" Number="15" />
+		<Fee ID="0" Number="50000" />
+	</Compose>
+	<Compose Output="189" OutputNumber="1" LimitType="Week" LimitValue="5" Group="0">
+		<Material ID="1962" Number="25" />
+		<Material ID="1963" Number="25" />
+		<Fee ID="0" Number="150000" />
+	</Compose>
+	<Compose Output="190" OutputNumber="1" LimitType="Week" LimitValue="2" Group="0">
+		<Material ID="1962" Number="50" />
+		<Material ID="1963" Number="50" />
+		<Fee ID="0" Number="300000" />
+	</Compose>
+	<Compose Output="1057" OutputNumber="1" LimitType="Week" LimitValue="10" Group="1">
+		<Material ID="1962" Number="25" />
+		<Material ID="1963" Number="25" />
+		<Material ID="1966" Number="10" />
+		<Fee ID="1" Number="100000" />
+	</Compose>
+	<Compose Output="20270" OutputNumber="1" LimitType="Week" LimitValue="7" Group="1">
+		<Material ID="1962" Number="75" />
+		<Material ID="1963" Number="75" />
+		<Material ID="1966" Number="10" />
+		<Fee ID="1" Number="100000" />
+	</Compose>
+	<Compose Output="20529" OutputNumber="1" LimitType="Week" LimitValue="20" Group="1">
+		<Material ID="1962" Number="15" />
+		<Material ID="1963" Number="15" />
+		<Material ID="1966" Number="4" />
+		<Fee ID="1" Number="50000" />
+	</Compose>
+	<Compose Output="582" OutputNumber="1" LimitType="Week" LimitValue="2" Group="1">
+		<Material ID="1962" Number="500" />
+		<Material ID="1963" Number="500" />
+		<Material ID="1966" Number="50" />
+		<Fee ID="1" Number="200000" />
+	</Compose>
+	<Compose Output="348" OutputNumber="1" LimitType="Week" LimitValue="3" Group="1">
+		<Material ID="1962" Number="75" />
+		<Material ID="1963" Number="75" />
+		<Material ID="1966" Number="10" />
+		<Fee ID="1" Number="150000" />
+	</Compose>
+	<Compose Output="351" OutputNumber="1" LimitType="Week" LimitValue="3" Group="1">
+		<Material ID="1962" Number="75" />
+		<Material ID="1963" Number="75" />
+		<Material ID="1966" Number="10" />
+		<Fee ID="1" Number="150000" />
+	</Compose>
+	<Compose Output="349" OutputNumber="1" LimitType="Week" LimitValue="2" Group="1">
+		<Material ID="1962" Number="125" />
+		<Material ID="1963" Number="125" />
+		<Material ID="1966" Number="25" />
+		<Fee ID="1" Number="250000" />
+	</Compose>
+	<Compose Output="352" OutputNumber="1" LimitType="Week" LimitValue="2" Group="1">
+		<Material ID="1962" Number="125" />
+		<Material ID="1963" Number="125" />
+		<Material ID="1966" Number="25" />
+		<Fee ID="1" Number="250000" />
+	</Compose>
+	<Compose Output="2017" OutputNumber="1" LimitType="Lifetime" LimitValue="1" Group="1">
+		<Material ID="1962" Number="5000" />
+		<Material ID="1963" Number="5000" />
+		<Material ID="1966" Number="300" />
+		<Fee ID="1" Number="2000000" />
+	</Compose>
+	<Compose Output="20345" OutputNumber="1" LimitType="Week" LimitValue="10" Group="1">
+		<Material ID="1962" Number="25" />
+		<Material ID="1963" Number="25" />
+		<Material ID="1966" Number="7" />
+		<Fee ID="1" Number="50000" />
+	</Compose>
+	<Compose Output="943" OutputNumber="1" LimitType="Week" LimitValue="15" Group="1">
+		<Material ID="1962" Number="25" />
+		<Material ID="1963" Number="25" />
+		<Material ID="1966" Number="5" />
+		<Fee ID="1" Number="20000" />
+	</Compose>
+	<Compose Output="20934" OutputNumber="1" LimitType="None" LimitValue="0" Group="2">
+		<Material ID="1962" Number="1" />
+		<Material ID="1963" Number="1" />
+		<Material ID="20756" Number="2" />
+	</Compose>
+	<Compose Output="300" OutputNumber="1" LimitType="None" LimitValue="0" Group="2">
+		<Material ID="1962" Number="5" />
+		<Material ID="1963" Number="5" />
+		<Material ID="20756" Number="2" />
+	</Compose>
+	<Compose Output="20529" OutputNumber="1" LimitType="Week" LimitValue="100" Group="2">
+		<Material ID="1962" Number="10" />
+		<Material ID="1963" Number="10" />
+		<Material ID="20756" Number="1" />
+	</Compose>
+	<Compose Output="349" OutputNumber="1" LimitType="Week" LimitValue="20" Group="2">
+		<Material ID="1962" Number="20" />
+		<Material ID="1963" Number="20" />
+		<Material ID="20756" Number="2" />
+	</Compose>
+	<Compose Output="352" OutputNumber="1" LimitType="Week" LimitValue="20" Group="2">
+		<Material ID="1962" Number="20" />
+		<Material ID="1963" Number="20" />
+		<Material ID="20756" Number="2" />
+	</Compose>
+	<Compose Output="350" OutputNumber="1" LimitType="Week" LimitValue="20" Group="2">
+		<Material ID="1962" Number="35" />
+		<Material ID="1963" Number="35" />
+		<Material ID="20756" Number="3" />
+	</Compose>
+	<Compose Output="353" OutputNumber="1" LimitType="Week" LimitValue="20" Group="2">
+		<Material ID="1962" Number="35" />
+		<Material ID="1963" Number="35" />
+		<Material ID="20756" Number="3" />
+	</Compose>
+	<Compose Output="20872" OutputNumber="1" LimitType="Week" LimitValue="2" Group="2">
+		<Material ID="1962" Number="50" />
+		<Material ID="1963" Number="50" />
+		<Material ID="20308" Number="20" />
+	</Compose>
+	<Compose Output="20871" OutputNumber="1" LimitType="Week" LimitValue="2" Group="2">
+		<Material ID="1962" Number="50" />
+		<Material ID="1963" Number="50" />
+		<Material ID="20620" Number="20" />
+	</Compose>
+	<Compose Output="583" OutputNumber="1" LimitType="Week" LimitValue="4" Group="2">
+		<Material ID="1962" Number="500" />
+		<Material ID="1963" Number="500" />
+		<Material ID="20756" Number="80" />
+	</Compose>
+	<Compose Output="20571" OutputNumber="1" LimitType="Lifetime" LimitValue="1" Group="2">
+		<Material ID="1962" Number="6000" />
+		<Material ID="1963" Number="6000" />
+		<Material ID="20756" Number="1100" />
+	</Compose>
+	<Compose Output="15249" OutputNumber="1" LimitType="Lifetime" LimitValue="3" Group="2">
+		<Material ID="1962" Number="500" />
+		<Material ID="1963" Number="500" />
+		<Material ID="20756" Number="20" />
+	</Compose>
+	<Compose Output="15250" OutputNumber="1" LimitType="Lifetime" LimitValue="1" Group="2">
+		<Material ID="1962" Number="500" />
+		<Material ID="1963" Number="500" />
+		<Material ID="15249" Number="3" />
+	</Compose>
+	<Compose Output="20334" OutputNumber="1" LimitType="Week" LimitValue="5" Group="2">
+		<Material ID="1962" Number="25" />
+		<Material ID="1963" Number="25" />
+		<Material ID="20756" Number="2" />
+	</Compose>
+	<Compose Output="20336" OutputNumber="1" LimitType="Week" LimitValue="5" Group="2">
+		<Material ID="1962" Number="25" />
+		<Material ID="1963" Number="25" />
+		<Material ID="20756" Number="2" />
+	</Compose>
+	<Compose Output="20338" OutputNumber="1" LimitType="Week" LimitValue="5" Group="2">
+		<Material ID="1962" Number="25" />
+		<Material ID="1963" Number="25" />
+		<Material ID="20756" Number="2" />
+	</Compose>
+	<Compose Output="20340" OutputNumber="1" LimitType="Week" LimitValue="5" Group="2">
+		<Material ID="1962" Number="25" />
+		<Material ID="1963" Number="25" />
+		<Material ID="20756" Number="2" />
+	</Compose>
+	<Compose Output="20342" OutputNumber="1" LimitType="Week" LimitValue="5" Group="2">
+		<Material ID="1962" Number="25" />
+		<Material ID="1963" Number="25" />
+		<Material ID="20756" Number="2" />
+	</Compose>
+	<Compose Output="20308" OutputNumber="5" LimitType="None" LimitValue="0" Group="2">
+		<Material ID="1962" Number="10" />
+		<Material ID="1963" Number="10" />
+		<Material ID="20756" Number="2" />
+	</Compose>
+	<Compose Output="20620" OutputNumber="5" LimitType="None" LimitValue="0" Group="2">
+		<Material ID="1962" Number="7" />
+		<Material ID="1963" Number="7" />
+		<Material ID="20756" Number="2" />
+	</Compose>
+	<Compose Output="20345" OutputNumber="1" LimitType="Week" LimitValue="15" Group="2">
+		<Material ID="1962" Number="17" />
+		<Material ID="1963" Number="17" />
+		<Material ID="20756" Number="2" />
+	</Compose>
+	<Compose Output="20344" OutputNumber="1" LimitType="Week" LimitValue="250" Group="2">
+		<Material ID="1962" Number="5" />
+		<Material ID="1963" Number="5" />
+		<Material ID="20756" Number="2" />
+	</Compose>
+	<Compose Output="943" OutputNumber="1" LimitType="Week" LimitValue="30" Group="2">
+		<Material ID="1962" Number="10" />
+		<Material ID="1963" Number="10" />
+		<Material ID="20756" Number="2" />
+	</Compose>
+	<Compose Output="20888" OutputNumber="1" LimitType="Week" LimitValue="1" Group="2">
+		<Material ID="1962" Number="250" />
+		<Material ID="1963" Number="250" />
+		<Material ID="20309" Number="10" />
+	</Compose>
+	<Compose Output="20309" OutputNumber="1" LimitType="Week" LimitValue="30" Group="2">
+		<Material ID="1962" Number="10" />
+		<Material ID="1963" Number="10" />
+		<Material ID="20308" Number="5" />
+	</Compose>
+	<Compose Output="20889" OutputNumber="1" LimitType="Week" LimitValue="1" Group="2">
+		<Material ID="1962" Number="500" />
+		<Material ID="1963" Number="500" />
+		<Material ID="20309" Number="50" />
+	</Compose>
+	<Compose Output="819" OutputNumber="1" LimitType="Week" LimitValue="5" Group="2">
+		<Material ID="1962" Number="300" />
+		<Material ID="1963" Number="300" />
+		<Material ID="20756" Number="25" />
+		<Material ID="1886" Number="1" />
+	</Compose>
+	<Compose Output="530" OutputNumber="1" LimitType="Week" LimitValue="5" Group="2">
+		<Material ID="1962" Number="150" />
+		<Material ID="1963" Number="150" />
+		<Material ID="20756" Number="15" />
+		<Material ID="1886" Number="1" />
+	</Compose>
+	<Compose Output="20529" OutputNumber="50" LimitType="Week" LimitValue="5" Group="2">
+		<Material ID="1962" Number="150" />
+		<Material ID="1963" Number="150" />
+		<Material ID="20756" Number="15" />
+		<Material ID="1886" Number="1" />
+	</Compose>
+	<Compose Output="20906" OutputNumber="1" LimitType="Week" LimitValue="1" Group="2">
+		<Material ID="1962" Number="300" />
+		<Material ID="1963" Number="300" />
+		<Material ID="20756" Number="50" />
+		<Material ID="1886" Number="1" />
+	</Compose>
+	<Compose Output="20906" OutputNumber="1" LimitType="Week" LimitValue="1" Group="2">
+		<Material ID="1962" Number="300" />
+		<Material ID="1963" Number="300" />
+		<Material ID="20756" Number="50" />
+		<Material ID="1887" Number="1" />
+	</Compose>
+	<Compose Output="20906" OutputNumber="1" LimitType="Week" LimitValue="1" Group="2">
+		<Material ID="1962" Number="300" />
+		<Material ID="1963" Number="300" />
+		<Material ID="20756" Number="50" />
+		<Material ID="1888" Number="1" />
+	</Compose>
+	<Compose Output="20906" OutputNumber="1" LimitType="Week" LimitValue="1" Group="2">
+		<Material ID="1962" Number="300" />
+		<Material ID="1963" Number="300" />
+		<Material ID="20756" Number="50" />
+		<Material ID="1889" Number="1" />
+	</Compose>
+	<Compose Output="20906" OutputNumber="1" LimitType="Week" LimitValue="1" Group="2">
+		<Material ID="1962" Number="300" />
+		<Material ID="1963" Number="300" />
+		<Material ID="20756" Number="50" />
+		<Material ID="1890" Number="1" />
+	</Compose>
+	<Compose Output="20906" OutputNumber="1" LimitType="Week" LimitValue="1" Group="2">
+		<Material ID="1962" Number="300" />
+		<Material ID="1963" Number="300" />
+		<Material ID="20756" Number="50" />
+		<Material ID="1891" Number="1" />
+	</Compose>
+	<Compose Output="20906" OutputNumber="1" LimitType="Week" LimitValue="1" Group="2">
+		<Material ID="1962" Number="300" />
+		<Material ID="1963" Number="300" />
+		<Material ID="20756" Number="50" />
+		<Material ID="1892" Number="1" />
+	</Compose>
+	<Compose Output="20906" OutputNumber="1" LimitType="Week" LimitValue="1" Group="2">
+		<Material ID="1962" Number="300" />
+		<Material ID="1963" Number="300" />
+		<Material ID="20756" Number="50" />
+		<Material ID="1893" Number="1" />
+	</Compose>
+	<Compose Output="20906" OutputNumber="1" LimitType="Week" LimitValue="1" Group="2">
+		<Material ID="1962" Number="300" />
+		<Material ID="1963" Number="300" />
+		<Material ID="20756" Number="50" />
+		<Material ID="1894" Number="1" />
+	</Compose>
+	<Compose Output="2167" OutputNumber="1" LimitType="Lifetime" LimitValue="1" Group="2">
+		<Material ID="1962" Number="100" />
+		<Material ID="1963" Number="100" />
+		<Material ID="20756" Number="200" />
+	</Compose>
+
+	<Milestones GoodsID="20848">
+		<Milestone Count="70">
+			<Item ID="192" />
+			<Item ID="20538" Number="2" />
+		</Milestone>
+		<Milestone Count="150">
+			<Item ID="20529" Number="50" />
+			<Item ID="20538" Number="3" />
+		</Milestone>
+		<Milestone Count="350">
+			<Item ID="2017" />
+			<Item ID="506" Number="1000" />
+		</Milestone>
+		<Milestone Count="1000">
+			<Item ID="20571" />
+			<Item ID="506" Number="2000" />
+		</Milestone>
+		<Milestone Count="1500">
+			<Item ID="20344" Number="200" />
+			<Item ID="20366" />
+		</Milestone>
+		<Milestone Count="3000">
+			<Item ID="972" Number="20" />
+			<Item ID="973" Number="20" />
+			<Item ID="974" Number="20" />
+		</Milestone>
+		<Milestone Count="5000">
+			<Item ID="972" Number="30" />
+			<Item ID="973" Number="60" />
+			<Item ID="974" Number="60" />
+		</Milestone>
+	</Milestones>
+</ComposeData>

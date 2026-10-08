@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ShopSaleTime>
+    <!-- 
+        cho phép cấu hình thời gian bày bán vật phẩm
+        thời gian refresh là 5 phút
+        khai báo tag SaleTime với các attribute ý nghĩa như sau:
+        - Type: 1 là ShopTab, 0 là ShopItem
+        - ID: ID của Tab hoặc Item muốn hẹn giờ
+        - StartDate, EndDate: Thời gian bắt đầu/kết thúc bày bán. Format dạng YYYY-MM-DDTHH:MM:ss. Lưu ý có
+    T ở giữa phân cách ngày giờ
+        - ZoneConfig: cấu hình theo zone id
+            + Danh sách các zone áp dụng, phân cách bởi dấu ,
+            + Nếu bắt đầu bằng ! thì sẽ không áp dụng cho những zone này
+            + Nếu không có attribute này, hoặc rỗng, thì áp dụng cho toàn bộ các zone
+     -->
+</ShopSaleTime>

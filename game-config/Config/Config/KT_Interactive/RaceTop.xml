@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RaceTop StartDate="2025-07-15 11:00:00" EndDate="2025-07-28 23:59:59">
+  <TaiPhu>
+    <Rank Name="Hạng\n1">
+      <Item ID="1" Count="3000000" />
+      <Item ID="4" Count="30000" />
+      <Item ID="15174" Count="1" />
+      <Item ID="192" Count="1" />
+      <Item ID="493" Count="1" />
+      <Item ID="491" Count="1" />
+      <Item ID="20122" Count="1" />
+      <Item ID="20329" Count="1" />
+      <Item ID="25311" Count="1" />
+    </Rank>
+    <Rank Name="Hạng\n2">
+      <Item ID="1" Count="2000000" />
+      <Item ID="4" Count="20000" />
+      <Item ID="3468" Count="1" />
+      <Item ID="191" Count="2" />
+      <Item ID="490" Count="1" />
+      <Item ID="492" Count="1" />
+      <Item ID="20121" Count="1" />
+      <Item ID="20330" Count="1" />
+    </Rank>
+
+    <Rank Name="Hạng\n3">
+      <Item ID="1" Count="1500000" />
+      <Item ID="4" Count="10000" />
+      <Item ID="3468" Count="1" />
+      <Item ID="191" Count="1" />
+      <Item ID="490" Count="1" />
+      <Item ID="492" Count="1" />
+      <Item ID="20482" Count="1" />
+      <Item ID="20331" Count="1" />
+    </Rank>
+
+
+    <Rank Name="Hạng\n4-10">
+      <Item ID="1" Count="1000000" />
+      <Item ID="4" Count="5000" />
+      <Item ID="557" Count="1" />
+      <Item ID="190" Count="3" />
+      <Item ID="20529" Count="100" />
+    </Rank>
+  </TaiPhu>
+
+  <UyDanh>
+    <Rank Name="Hạng\n1">
+      <Item ID="1" Count="2000000" />
+      <Item ID="191" Count="3" />
+      <Item ID="15018" Count="100" />
+      <Item ID="492" Count="1" />
+      <Item ID="490" Count="1" />
+      <Item ID="746" Count="300" />
+    </Rank>
+    <Rank Name="Hạng\n2">
+      <Item ID="1" Count="1500000" />
+      <Item ID="191" Count="2" />
+      <Item ID="15018" Count="70" />
+      <Item ID="492" Count="1" />
+      <Item ID="490" Count="1" />
+      <Item ID="746" Count="200" />
+    </Rank>
+
+    <Rank Name="Hạng\n3">
+      <Item ID="1" Count="1000000" />
+      <Item ID="191" Count="1" />
+      <Item ID="15018" Count="50" />
+      <Item ID="492" Count="1" />
+      <Item ID="490" Count="1" />
+      <Item ID="746" Count="100" />
+    </Rank>
+
+    <Rank Name="Hạng\n4-10">
+      <Item ID="1" Count="1000000" />
+      <Item ID="190" Count="2" />
+      <Item ID="15018" Count="20" />
+      <Item ID="746" Count="30" />
+    </Rank>
+  </UyDanh>
+</RaceTop>

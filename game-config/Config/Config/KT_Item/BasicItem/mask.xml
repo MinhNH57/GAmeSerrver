@@ -1,0 +1,791 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfItemData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <ItemData ItemID="13082" Name="Mặt nạ: Tần Thủy Hoàng" IconBundleDir="Icon/EquipIcon2.unity3d" IconAtlasName="EquipIcon2"
+    MapSpriteBundleDir="Resources/Item/MapSprite.unity3d" MapSpriteAtlasName="MapSprite" Kind="Mặt Nạ" QualityPrefix="0" Category="1" Genre="1"
+    Stack="1" DetailType="13" ParticularType="19" Level="3" SuiteID="0" Icon="qinling_mask" View="qinling_mask"
+    Intro="Dùng để đổi diện mạo, mang vào sẽ giống NPC này" Help="" ObjID="32" BindType="1" Series="0" ReqLevel="0" CDType="0" Price="0"
+    ItemValue="40000000" MakeCost="-1" ResMale="72" ResFemale="72" FightPower="2" ScriptID="-1" DeductOnUse="false" BuffID="-1">
+    <ListReqProp ReqPropType="5" ReqPropValue="1" Index="2" />
+    <ListBasicProp BasicPropType="skilldamageptrim" BasicPropPA1Min="10" BasicPropPA1Max="10" BasicPropPA2Min="0" BasicPropPA2Max="0"
+      BasicPropPA3Min="0" BasicPropPA3Max="0" Index="1" />
+    <ListBasicProp BasicPropType="fatallystrikeenhance_p" BasicPropPA1Min="10" BasicPropPA1Max="10" BasicPropPA2Min="0" BasicPropPA2Max="0"
+      BasicPropPA3Min="0" BasicPropPA3Max="0" Index="2" />
+    <ListBasicProp BasicPropType="allskill_v" BasicPropPA1Min="1" BasicPropPA1Max="1" BasicPropPA2Min="0" BasicPropPA2Max="0" BasicPropPA3Min="0"
+      BasicPropPA3Max="0" Index="3" />
+    <UnLockInterval>-1</UnLockInterval>
+  </ItemData>
+
+  <ItemData ItemID="13083" Name="Mặt nạ: Xích Nguyệt Hộ Pháp [Vui Cá Tháng Tư]" IconBundleDir="Icon/EquipIcon2.unity3d" IconAtlasName="EquipIcon2"
+    MapSpriteBundleDir="Resources/Item/MapSprite.unity3d" MapSpriteAtlasName="MapSprite" Kind="Mặt Nạ" QualityPrefix="0" Category="1" Genre="1"
+    Stack="1" DetailType="13" ParticularType="19" Level="3" SuiteID="0" Icon="qinling_mask" View="qinling_mask"
+    Intro="Dùng để đổi diện mạo, mang vào sẽ giống NPC này" Help="" ObjID="32" BindType="1" Series="0" ReqLevel="0" CDType="0" Price="0"
+    ItemValue="40000000" MakeCost="-1" ResMale="843" ResFemale="843" FightPower="2" ScriptID="-1" DeductOnUse="false" BuffID="-1">
+    <ListReqProp ReqPropType="5" ReqPropValue="1" Index="2" />
+    <ListBasicProp BasicPropType="defencedeadlystrikedamagetrim" BasicPropPA1Min="20" BasicPropPA1Max="20" BasicPropPA2Min="0" BasicPropPA2Max="0"
+      BasicPropPA3Min="0" BasicPropPA3Max="0" Index="1" />
+    <ListBasicProp BasicPropType="deadlystrikeenhance_r" BasicPropPA1Min="60" BasicPropPA1Max="60" BasicPropPA2Min="0" BasicPropPA2Max="0"
+      BasicPropPA3Min="0" BasicPropPA3Max="0" Index="2" />
+    <ListBasicProp BasicPropType="fastwalkrun_p" BasicPropPA1Min="10" BasicPropPA1Max="10" BasicPropPA2Min="0" BasicPropPA2Max="0" BasicPropPA3Min="0"
+      BasicPropPA3Max="0" Index="3" />
+  </ItemData>
+
+  <ItemData ItemID="13084" Name="Mặt nạ: Huyền Dực Hộ Pháp (cấp 1) [Sự kiện Pháo Hoa Thống Nhất]" IconBundleDir="Icon/EquipIcon2.unity3d"
+    IconAtlasName="EquipIcon2" MapSpriteBundleDir="Resources/Item/MapSprite.unity3d" MapSpriteAtlasName="MapSprite" Kind="Mặt Nạ" QualityPrefix="0"
+    Category="1" Genre="1" Stack="1" DetailType="13" ParticularType="19" Level="3" SuiteID="0" Icon="qinling_mask" View="qinling_mask"
+    Intro="Dùng để đổi diện mạo, mang vào sẽ giống NPC này" Help="" ObjID="32" BindType="1" Series="0" ReqLevel="0" CDType="0" Price="0"
+    ItemValue="40000000" MakeCost="-1" ResMale="849" ResFemale="849" FightPower="2" ScriptID="-1" DeductOnUse="false" BuffID="-1">
+    <ListReqProp ReqPropType="5" ReqPropValue="1" Index="2" />
+    <ListBasicProp BasicPropType="lifemax_v" BasicPropPA1Min="500" BasicPropPA1Max="500" BasicPropPA2Min="0" BasicPropPA2Max="0" BasicPropPA3Min="0"
+      BasicPropPA3Max="0" Index="1" />
+    <ListBasicProp BasicPropType="manamax_v" BasicPropPA1Min="300" BasicPropPA1Max="300" BasicPropPA2Min="0" BasicPropPA2Max="0" BasicPropPA3Min="0"
+      BasicPropPA3Max="0" Index="2" />
+    <ListBasicProp BasicPropType="damage_all_resist" BasicPropPA1Min="30" BasicPropPA1Max="30" BasicPropPA2Min="0" BasicPropPA2Max="0"
+      BasicPropPA3Min="0" BasicPropPA3Max="0" Index="3" />
+  </ItemData>
+
+  <ItemData ItemID="13085" Name="Mặt nạ: Huyền Dực Hộ Pháp (cấp 2) [Sự kiện Pháo Hoa Thống Nhất]" IconBundleDir="Icon/EquipIcon2.unity3d"
+    IconAtlasName="EquipIcon2" MapSpriteBundleDir="Resources/Item/MapSprite.unity3d" MapSpriteAtlasName="MapSprite" Kind="Mặt Nạ" QualityPrefix="0"
+    Category="1" Genre="1" Stack="1" DetailType="13" ParticularType="19" Level="3" SuiteID="0" Icon="qinling_mask" View="qinling_mask"
+    Intro="Dùng để đổi diện mạo, mang vào sẽ giống NPC này" Help="" ObjID="32" BindType="1" Series="0" ReqLevel="0" CDType="0" Price="0"
+    ItemValue="60000000" MakeCost="-1" ResMale="849" ResFemale="849" FightPower="2" ScriptID="-1" DeductOnUse="false" BuffID="-1">
+    <ListReqProp ReqPropType="5" ReqPropValue="1" Index="2" />
+    <ListBasicProp BasicPropType="lifemax_v" BasicPropPA1Min="1000" BasicPropPA1Max="1000" BasicPropPA2Min="0" BasicPropPA2Max="0" BasicPropPA3Min="0"
+      BasicPropPA3Max="0" Index="1" />
+    <ListBasicProp BasicPropType="manamax_v" BasicPropPA1Min="600" BasicPropPA1Max="600" BasicPropPA2Min="0" BasicPropPA2Max="0" BasicPropPA3Min="0"
+      BasicPropPA3Max="0" Index="2" />
+    <ListBasicProp BasicPropType="damage_all_resist" BasicPropPA1Min="50" BasicPropPA1Max="50" BasicPropPA2Min="0" BasicPropPA2Max="0"
+      BasicPropPA3Min="0" BasicPropPA3Max="0" Index="3" />
+    <ListBasicProp BasicPropType="defencedeadlystrikedamagetrim" BasicPropPA1Min="10" BasicPropPA1Max="10" BasicPropPA2Min="0" BasicPropPA2Max="0"
+      BasicPropPA3Min="0" BasicPropPA3Max="0" Index="4" />
+  </ItemData>
+
+  <ItemData ItemID="13086" Name="Mặt nạ: Huyền Dực Hộ Pháp (cấp 3) [Sự kiện Pháo Hoa Thống Nhất]" IconBundleDir="Icon/EquipIcon2.unity3d"
+    IconAtlasName="EquipIcon2" MapSpriteBundleDir="Resources/Item/MapSprite.unity3d" MapSpriteAtlasName="MapSprite" Kind="Mặt Nạ" QualityPrefix="0"
+    Category="1" Genre="1" Stack="1" DetailType="13" ParticularType="19" Level="3" SuiteID="0" Icon="qinling_mask" View="qinling_mask"
+    Intro="Dùng để đổi diện mạo, mang vào sẽ giống NPC này" Help="" ObjID="32" BindType="1" Series="0" ReqLevel="0" CDType="0" Price="0"
+    ItemValue="80000000" MakeCost="-1" ResMale="849" ResFemale="849" FightPower="2" ScriptID="-1" DeductOnUse="false" BuffID="-1">
+    <ListReqProp ReqPropType="5" ReqPropValue="1" Index="2" />
+    <ListBasicProp BasicPropType="lifemax_v" BasicPropPA1Min="2000" BasicPropPA1Max="2000" BasicPropPA2Min="0" BasicPropPA2Max="0" BasicPropPA3Min="0"
+      BasicPropPA3Max="0" Index="1" />
+    <ListBasicProp BasicPropType="manamax_v" BasicPropPA1Min="1200" BasicPropPA1Max="1200" BasicPropPA2Min="0" BasicPropPA2Max="0" BasicPropPA3Min="0"
+      BasicPropPA3Max="0" Index="2" />
+    <ListBasicProp BasicPropType="damage_all_resist" BasicPropPA1Min="100" BasicPropPA1Max="100" BasicPropPA2Min="0" BasicPropPA2Max="0"
+      BasicPropPA3Min="0" BasicPropPA3Max="0" Index="3" />
+    <ListBasicProp BasicPropType="defencedeadlystrikedamagetrim" BasicPropPA1Min="15" BasicPropPA1Max="15" BasicPropPA2Min="0" BasicPropPA2Max="0"
+      BasicPropPA3Min="0" BasicPropPA3Max="0" Index="4" />
+  </ItemData>
+
+  <ItemData ItemID="13087" Name="Mặt nạ: Huyền Dực Hộ Pháp (cấp 4) [Sự kiện Pháo Hoa Thống Nhất]" IconBundleDir="Icon/EquipIcon2.unity3d"
+    IconAtlasName="EquipIcon2" MapSpriteBundleDir="Resources/Item/MapSprite.unity3d" MapSpriteAtlasName="MapSprite" Kind="Mặt Nạ" QualityPrefix="0"
+    Category="1" Genre="1" Stack="1" DetailType="13" ParticularType="19" Level="3" SuiteID="0" Icon="qinling_mask" View="qinling_mask"
+    Intro="Dùng để đổi diện mạo, mang vào sẽ giống NPC này" Help="" ObjID="32" BindType="1" Series="0" ReqLevel="0" CDType="0" Price="0"
+    ItemValue="120000000" MakeCost="-1" ResMale="849" ResFemale="849" FightPower="2" ScriptID="-1" DeductOnUse="false" BuffID="-1">
+    <ListReqProp ReqPropType="5" ReqPropValue="1" Index="2" />
+    <ListBasicProp BasicPropType="lifemax_v" BasicPropPA1Min="3000" BasicPropPA1Max="3000" BasicPropPA2Min="0" BasicPropPA2Max="0" BasicPropPA3Min="0"
+      BasicPropPA3Max="0" Index="1" />
+    <ListBasicProp BasicPropType="manamax_v" BasicPropPA1Min="1800" BasicPropPA1Max="1800" BasicPropPA2Min="0" BasicPropPA2Max="0" BasicPropPA3Min="0"
+      BasicPropPA3Max="0" Index="2" />
+    <ListBasicProp BasicPropType="damage_all_resist" BasicPropPA1Min="125" BasicPropPA1Max="125" BasicPropPA2Min="0" BasicPropPA2Max="0"
+      BasicPropPA3Min="0" BasicPropPA3Max="0" Index="3" />
+    <ListBasicProp BasicPropType="defencedeadlystrikedamagetrim" BasicPropPA1Min="15" BasicPropPA1Max="15" BasicPropPA2Min="0" BasicPropPA2Max="0"
+      BasicPropPA3Min="0" BasicPropPA3Max="0" Index="4" />
+    <ListBasicProp BasicPropType="allskill_v" BasicPropPA1Min="1" BasicPropPA1Max="1" BasicPropPA2Min="0" BasicPropPA2Max="0" BasicPropPA3Min="0"
+      BasicPropPA3Max="0" Index="5" />
+  </ItemData>
+
+  <ItemData ItemID="13094" Name="Mặt nạ: Huyền Dực Hộ Pháp (cấp 5) [Sự kiện Pháo Hoa Thống Nhất]" IconBundleDir="Icon/EquipIcon2.unity3d"
+    IconAtlasName="EquipIcon2" MapSpriteBundleDir="Resources/Item/MapSprite.unity3d" MapSpriteAtlasName="MapSprite" Kind="Mặt Nạ" QualityPrefix="0"
+    Category="1" Genre="1" Stack="1" DetailType="13" ParticularType="19" Level="3" SuiteID="0" Icon="qinling_mask" View="qinling_mask"
+    Intro="Dùng để đổi diện mạo, mang vào sẽ giống NPC này" Help="" ObjID="32" BindType="1" Series="0" ReqLevel="0" CDType="0" Price="0"
+    ItemValue="180000000" MakeCost="-1" ResMale="849" ResFemale="849" FightPower="2" ScriptID="-1" DeductOnUse="false" BuffID="-1">
+    <ListReqProp ReqPropType="5" ReqPropValue="1" Index="2" />
+    <ListBasicProp BasicPropType="lifemax_v" BasicPropPA1Min="4000" BasicPropPA1Max="4000" BasicPropPA2Min="0" BasicPropPA2Max="0" BasicPropPA3Min="0"
+      BasicPropPA3Max="0" Index="1" />
+    <ListBasicProp BasicPropType="manamax_v" BasicPropPA1Min="2500" BasicPropPA1Max="2500" BasicPropPA2Min="0" BasicPropPA2Max="0" BasicPropPA3Min="0"
+      BasicPropPA3Max="0" Index="2" />
+    <ListBasicProp BasicPropType="damage_all_resist" BasicPropPA1Min="150" BasicPropPA1Max="150" BasicPropPA2Min="0" BasicPropPA2Max="0"
+      BasicPropPA3Min="0" BasicPropPA3Max="0" Index="3" />
+    <ListBasicProp BasicPropType="defencedeadlystrikedamagetrim" BasicPropPA1Min="25" BasicPropPA1Max="25" BasicPropPA2Min="0" BasicPropPA2Max="0"
+      BasicPropPA3Min="0" BasicPropPA3Max="0" Index="4" />
+    <ListBasicProp BasicPropType="allskill_v" BasicPropPA1Min="1" BasicPropPA1Max="1" BasicPropPA2Min="0" BasicPropPA2Max="0" BasicPropPA3Min="0"
+      BasicPropPA3Max="0" Index="5" />
+    <ListBasicProp BasicPropType="increase_output_damage_p" BasicPropPA1Min="5" BasicPropPA1Max="5" BasicPropPA2Min="0" BasicPropPA2Max="0"
+      BasicPropPA3Min="0" BasicPropPA3Max="0" Index="6" />
+  </ItemData>
+
+  <ItemData ItemID="13095" Name="Mặt nạ: Huyền Dực Hộ Pháp (cấp 6) [Sự kiện Pháo Hoa Thống Nhất]" IconBundleDir="Icon/EquipIcon2.unity3d"
+    IconAtlasName="EquipIcon2" MapSpriteBundleDir="Resources/Item/MapSprite.unity3d" MapSpriteAtlasName="MapSprite" Kind="Mặt Nạ" QualityPrefix="0"
+    Category="1" Genre="1" Stack="1" DetailType="13" ParticularType="19" Level="3" SuiteID="0" Icon="qinling_mask" View="qinling_mask"
+    Intro="Dùng để đổi diện mạo, mang vào sẽ giống NPC này" Help="" ObjID="32" BindType="1" Series="0" ReqLevel="0" CDType="0" Price="0"
+    ItemValue="250000000" MakeCost="-1" ResMale="849" ResFemale="849" FightPower="2" ScriptID="-1" DeductOnUse="false" BuffID="-1">
+    <ListReqProp ReqPropType="5" ReqPropValue="1" Index="2" />
+    <ListBasicProp BasicPropType="lifemax_v" BasicPropPA1Min="8000" BasicPropPA1Max="8000" BasicPropPA2Min="0" BasicPropPA2Max="0" BasicPropPA3Min="0"
+      BasicPropPA3Max="0" Index="1" />
+    <ListBasicProp BasicPropType="manamax_v" BasicPropPA1Min="6000" BasicPropPA1Max="6000" BasicPropPA2Min="0" BasicPropPA2Max="0" BasicPropPA3Min="0"
+      BasicPropPA3Max="0" Index="2" />
+    <ListBasicProp BasicPropType="damage_all_resist" BasicPropPA1Min="200" BasicPropPA1Max="200" BasicPropPA2Min="0" BasicPropPA2Max="0"
+      BasicPropPA3Min="0" BasicPropPA3Max="0" Index="3" />
+    <ListBasicProp BasicPropType="defencedeadlystrikedamagetrim" BasicPropPA1Min="35" BasicPropPA1Max="35" BasicPropPA2Min="0" BasicPropPA2Max="0"
+      BasicPropPA3Min="0" BasicPropPA3Max="0" Index="4" />
+    <ListBasicProp BasicPropType="allskill_v" BasicPropPA1Min="2" BasicPropPA1Max="2" BasicPropPA2Min="0" BasicPropPA2Max="0" BasicPropPA3Min="0"
+      BasicPropPA3Max="0" Index="5" />
+    <ListBasicProp BasicPropType="increase_output_damage_p" BasicPropPA1Min="8" BasicPropPA1Max="8" BasicPropPA2Min="0" BasicPropPA2Max="0"
+      BasicPropPA3Min="0" BasicPropPA3Max="0" Index="6" />
+    <ListBasicProp BasicPropType="reduce_received_damage_p" BasicPropPA1Min="5" BasicPropPA1Max="5" BasicPropPA2Min="0" BasicPropPA2Max="0"
+      BasicPropPA3Min="0" BasicPropPA3Max="0" Index="7" />
+  </ItemData>
+
+  <ItemData ItemID="15222" Name="Mặt nạ: Tát La Phỉ  (cấp 1) [Sự kiện Đồng hành cùng EURO]" IconBundleDir="Icon/EquipIcon2.unity3d"
+    IconAtlasName="EquipIcon2" MapSpriteBundleDir="Resources/Item/MapSprite.unity3d" MapSpriteAtlasName="MapSprite" Kind="Mặt Nạ" QualityPrefix="0"
+    Category="1" Genre="1" Stack="1" DetailType="13" ParticularType="19" Level="3" SuiteID="0" Icon="qinling_mask" View="qinling_mask"
+    Intro="Dùng để đổi diện mạo, mang vào sẽ hóa thân thành Tát La Phỉ." Help="" ObjID="32" BindType="1" Series="0" ReqLevel="0" CDType="0" Price="0"
+    ItemValue="40000000" MakeCost="-1" ResMale="850" ResFemale="850" FightPower="2" ScriptID="-1" DeductOnUse="false" BuffID="-1">
+    <ListReqProp ReqPropType="5" ReqPropValue="1" Index="2" />
+    <ListBasicProp BasicPropType="lifemax_p" BasicPropPA1Min="10" BasicPropPA1Max="15" BasicPropPA2Min="0" BasicPropPA2Max="0" BasicPropPA3Min="0"
+      BasicPropPA3Max="0" Index="1" />
+    <ListBasicProp BasicPropType="manamax_p" BasicPropPA1Min="8" BasicPropPA1Max="12" BasicPropPA2Min="0" BasicPropPA2Max="0" BasicPropPA3Min="0"
+      BasicPropPA3Max="0" Index="2" />
+    <ListBasicProp BasicPropType="lifemax_v" BasicPropPA1Min="300" BasicPropPA1Max="500" BasicPropPA2Min="0" BasicPropPA2Max="0" BasicPropPA3Min="0"
+      BasicPropPA3Max="0" Index="3" />
+    <ListBasicProp BasicPropType="damage_all_resist" BasicPropPA1Min="25" BasicPropPA1Max="40" BasicPropPA2Min="0" BasicPropPA2Max="0"
+      BasicPropPA3Min="0" BasicPropPA3Max="0" Index="4" />
+  </ItemData>
+
+  <ItemData ItemID="15223" Name="Mặt nạ: Tát La Phỉ  (cấp 2) [Sự kiện Đồng hành cùng EURO]" IconBundleDir="Icon/EquipIcon2.unity3d"
+    IconAtlasName="EquipIcon2" MapSpriteBundleDir="Resources/Item/MapSprite.unity3d" MapSpriteAtlasName="MapSprite" Kind="Mặt Nạ" QualityPrefix="0"
+    Category="1" Genre="1" Stack="1" DetailType="13" ParticularType="19" Level="3" SuiteID="0" Icon="qinling_mask" View="qinling_mask"
+    Intro="Dùng để đổi diện mạo, mang vào sẽ hóa thân thành Tát La Phỉ." Help="" ObjID="32" BindType="1" Series="0" ReqLevel="0" CDType="0" Price="0"
+    ItemValue="60000000" MakeCost="-1" ResMale="850" ResFemale="850" FightPower="2" ScriptID="-1" DeductOnUse="false" BuffID="-1">
+    <ListReqProp ReqPropType="5" ReqPropValue="1" Index="2" />
+    <ListBasicProp BasicPropType="lifemax_p" BasicPropPA1Min="15" BasicPropPA1Max="25" BasicPropPA2Min="0" BasicPropPA2Max="0" BasicPropPA3Min="0"
+      BasicPropPA3Max="0" Index="1" />
+    <ListBasicProp BasicPropType="manamax_p" BasicPropPA1Min="12" BasicPropPA1Max="18" BasicPropPA2Min="0" BasicPropPA2Max="0" BasicPropPA3Min="0"
+      BasicPropPA3Max="0" Index="2" />
+    <ListBasicProp BasicPropType="lifemax_v" BasicPropPA1Min="800" BasicPropPA1Max="1500" BasicPropPA2Min="0" BasicPropPA2Max="0" BasicPropPA3Min="0"
+      BasicPropPA3Max="0" Index="3" />
+    <ListBasicProp BasicPropType="damage_all_resist" BasicPropPA1Min="40" BasicPropPA1Max="70" BasicPropPA2Min="0" BasicPropPA2Max="0"
+      BasicPropPA3Min="0" BasicPropPA3Max="0" Index="4" />
+    <ListBasicProp BasicPropType="deadlystrikeenhance_r" BasicPropPA1Min="60" BasicPropPA1Max="120" BasicPropPA2Min="0" BasicPropPA2Max="0"
+      BasicPropPA3Min="0" BasicPropPA3Max="0" Index="5" />
+  </ItemData>
+
+  <ItemData ItemID="15224" Name="Mặt nạ: Tát La Phỉ  (cấp 3) [Sự kiện Đồng hành cùng EURO]" IconBundleDir="Icon/EquipIcon2.unity3d"
+    IconAtlasName="EquipIcon2" MapSpriteBundleDir="Resources/Item/MapSprite.unity3d" MapSpriteAtlasName="MapSprite" Kind="Mặt Nạ" QualityPrefix="0"
+    Category="1" Genre="1" Stack="1" DetailType="13" ParticularType="19" Level="3" SuiteID="0" Icon="qinling_mask" View="qinling_mask"
+    Intro="Dùng để đổi diện mạo, mang vào sẽ hóa thân thành Tát La Phỉ." Help="" ObjID="32" BindType="1" Series="0" ReqLevel="0" CDType="0" Price="0"
+    ItemValue="80000000" MakeCost="-1" ResMale="850" ResFemale="850" FightPower="2" ScriptID="-1" DeductOnUse="false" BuffID="-1">
+    <ListReqProp ReqPropType="5" ReqPropValue="1" Index="2" />
+    <ListBasicProp BasicPropType="lifemax_p" BasicPropPA1Min="20" BasicPropPA1Max="40" BasicPropPA2Min="0" BasicPropPA2Max="0" BasicPropPA3Min="0"
+      BasicPropPA3Max="0" Index="1" />
+    <ListBasicProp BasicPropType="manamax_p" BasicPropPA1Min="18" BasicPropPA1Max="30" BasicPropPA2Min="0" BasicPropPA2Max="0" BasicPropPA3Min="0"
+      BasicPropPA3Max="0" Index="2" />
+    <ListBasicProp BasicPropType="lifemax_v" BasicPropPA1Min="1500" BasicPropPA1Max="3000" BasicPropPA2Min="0" BasicPropPA2Max="0" BasicPropPA3Min="0"
+      BasicPropPA3Max="0" Index="3" />
+    <ListBasicProp BasicPropType="damage_all_resist" BasicPropPA1Min="60" BasicPropPA1Max="100" BasicPropPA2Min="0" BasicPropPA2Max="0"
+      BasicPropPA3Min="0" BasicPropPA3Max="0" Index="4" />
+    <ListBasicProp BasicPropType="deadlystrikeenhance_r" BasicPropPA1Min="90" BasicPropPA1Max="180" BasicPropPA2Min="0" BasicPropPA2Max="0"
+      BasicPropPA3Min="0" BasicPropPA3Max="0" Index="5" />
+    <ListBasicProp BasicPropType="defencedeadlystrikedamagetrim" BasicPropPA1Min="10" BasicPropPA1Max="20" BasicPropPA2Min="0" BasicPropPA2Max="0"
+      BasicPropPA3Min="0" BasicPropPA3Max="0" Index="6" />
+  </ItemData>
+
+  <ItemData ItemID="15225" Name="Mặt nạ: Tát La Phỉ  (cấp 4) [Sự kiện Đồng hành cùng EURO]" IconBundleDir="Icon/EquipIcon2.unity3d"
+    IconAtlasName="EquipIcon2" MapSpriteBundleDir="Resources/Item/MapSprite.unity3d" MapSpriteAtlasName="MapSprite" Kind="Mặt Nạ" QualityPrefix="0"
+    Category="1" Genre="1" Stack="1" DetailType="13" ParticularType="19" Level="3" SuiteID="0" Icon="qinling_mask" View="qinling_mask"
+    Intro="Dùng để đổi diện mạo, mang vào sẽ hóa thân thành Tát La Phỉ." Help="" ObjID="32" BindType="1" Series="0" ReqLevel="0" CDType="0" Price="0"
+    ItemValue="120000000" MakeCost="-1" ResMale="850" ResFemale="850" FightPower="2" ScriptID="-1" DeductOnUse="false" BuffID="-1">
+    <ListReqProp ReqPropType="5" ReqPropValue="1" Index="2" />
+    <ListBasicProp BasicPropType="lifemax_p" BasicPropPA1Min="35" BasicPropPA1Max="70" BasicPropPA2Min="0" BasicPropPA2Max="0" BasicPropPA3Min="0"
+      BasicPropPA3Max="0" Index="1" />
+    <ListBasicProp BasicPropType="manamax_p" BasicPropPA1Min="25" BasicPropPA1Max="45" BasicPropPA2Min="0" BasicPropPA2Max="0" BasicPropPA3Min="0"
+      BasicPropPA3Max="0" Index="2" />
+    <ListBasicProp BasicPropType="lifemax_v" BasicPropPA1Min="2500" BasicPropPA1Max="4000" BasicPropPA2Min="0" BasicPropPA2Max="0" BasicPropPA3Min="0"
+      BasicPropPA3Max="0" Index="3" />
+    <ListBasicProp BasicPropType="damage_all_resist" BasicPropPA1Min="80" BasicPropPA1Max="150" BasicPropPA2Min="0" BasicPropPA2Max="0"
+      BasicPropPA3Min="0" BasicPropPA3Max="0" Index="4" />
+    <ListBasicProp BasicPropType="deadlystrikeenhance_r" BasicPropPA1Min="120" BasicPropPA1Max="240" BasicPropPA2Min="0" BasicPropPA2Max="0"
+      BasicPropPA3Min="0" BasicPropPA3Max="0" Index="5" />
+    <ListBasicProp BasicPropType="defencedeadlystrikedamagetrim" BasicPropPA1Min="15" BasicPropPA1Max="30" BasicPropPA2Min="0" BasicPropPA2Max="0"
+      BasicPropPA3Min="0" BasicPropPA3Max="0" Index="6" />
+    <ListBasicProp BasicPropType="allskill_v" BasicPropPA1Min="1" BasicPropPA1Max="1" BasicPropPA2Min="0" BasicPropPA2Max="0" BasicPropPA3Min="0"
+      BasicPropPA3Max="0" Index="7" />
+  </ItemData>
+
+  <ItemData ItemID="15226" Name="Mặt nạ: Tát La Phỉ  (cấp 5) [Sự kiện Đồng hành cùng EURO]" IconBundleDir="Icon/EquipIcon2.unity3d"
+    IconAtlasName="EquipIcon2" MapSpriteBundleDir="Resources/Item/MapSprite.unity3d" MapSpriteAtlasName="MapSprite" Kind="Mặt Nạ" QualityPrefix="0"
+    Category="1" Genre="1" Stack="1" DetailType="13" ParticularType="19" Level="3" SuiteID="0" Icon="qinling_mask" View="qinling_mask"
+    Intro="Dùng để đổi diện mạo, mang vào sẽ hóa thân thành Tát La Phỉ." Help="" ObjID="32" BindType="1" Series="0" ReqLevel="0" CDType="0" Price="0"
+    ItemValue="180000000" MakeCost="-1" ResMale="850" ResFemale="850" FightPower="2" ScriptID="-1" DeductOnUse="false" BuffID="-1">
+    <ListReqProp ReqPropType="5" ReqPropValue="1" Index="2" />
+    <ListBasicProp BasicPropType="lifemax_p" BasicPropPA1Min="50" BasicPropPA1Max="85" BasicPropPA2Min="0" BasicPropPA2Max="0" BasicPropPA3Min="0"
+      BasicPropPA3Max="0" Index="1" />
+    <ListBasicProp BasicPropType="manamax_p" BasicPropPA1Min="40" BasicPropPA1Max="60" BasicPropPA2Min="0" BasicPropPA2Max="0" BasicPropPA3Min="0"
+      BasicPropPA3Max="0" Index="2" />
+    <ListBasicProp BasicPropType="lifemax_v" BasicPropPA1Min="4000" BasicPropPA1Max="6000" BasicPropPA2Min="0" BasicPropPA2Max="0" BasicPropPA3Min="0"
+      BasicPropPA3Max="0" Index="3" />
+    <ListBasicProp BasicPropType="damage_all_resist" BasicPropPA1Min="120" BasicPropPA1Max="200" BasicPropPA2Min="0" BasicPropPA2Max="0"
+      BasicPropPA3Min="0" BasicPropPA3Max="0" Index="4" />
+    <ListBasicProp BasicPropType="deadlystrikeenhance_r" BasicPropPA1Min="180" BasicPropPA1Max="360" BasicPropPA2Min="0" BasicPropPA2Max="0"
+      BasicPropPA3Min="0" BasicPropPA3Max="0" Index="5" />
+    <ListBasicProp BasicPropType="defencedeadlystrikedamagetrim" BasicPropPA1Min="20" BasicPropPA1Max="40" BasicPropPA2Min="0" BasicPropPA2Max="0"
+      BasicPropPA3Min="0" BasicPropPA3Max="0" Index="6" />
+    <ListBasicProp BasicPropType="allskill_v" BasicPropPA1Min="2" BasicPropPA1Max="2" BasicPropPA2Min="0" BasicPropPA2Max="0" BasicPropPA3Min="0"
+      BasicPropPA3Max="0" Index="7" />
+    <ListBasicProp BasicPropType="increase_output_damage_p" BasicPropPA1Min="5" BasicPropPA1Max="10" BasicPropPA2Min="0" BasicPropPA2Max="0"
+      BasicPropPA3Min="0" BasicPropPA3Max="0" Index="8" />
+  </ItemData>
+
+  <ItemData ItemID="15227" Name="Mặt nạ: Tát La Phỉ  (cấp 6) [Sự kiện Đồng hành cùng EURO]" IconBundleDir="Icon/EquipIcon2.unity3d"
+    IconAtlasName="EquipIcon2" MapSpriteBundleDir="Resources/Item/MapSprite.unity3d" MapSpriteAtlasName="MapSprite" Kind="Mặt Nạ" QualityPrefix="0"
+    Category="1" Genre="1" Stack="1" DetailType="13" ParticularType="19" Level="3" SuiteID="0" Icon="qinling_mask" View="qinling_mask"
+    Intro="Dùng để đổi diện mạo, mang vào sẽ hóa thân thành Tát La Phỉ." Help="" ObjID="32" BindType="1" Series="0" ReqLevel="0" CDType="0" Price="0"
+    ItemValue="250000000" MakeCost="-1" ResMale="850" ResFemale="850" FightPower="2" ScriptID="-1" DeductOnUse="false" BuffID="-1">
+    <ListReqProp ReqPropType="5" ReqPropValue="1" Index="2" />
+    <ListBasicProp BasicPropType="lifemax_p" BasicPropPA1Min="70" BasicPropPA1Max="100" BasicPropPA2Min="0" BasicPropPA2Max="0" BasicPropPA3Min="0"
+      BasicPropPA3Max="0" Index="1" />
+    <ListBasicProp BasicPropType="manamax_p" BasicPropPA1Min="50" BasicPropPA1Max="70" BasicPropPA2Min="0" BasicPropPA2Max="0" BasicPropPA3Min="0"
+      BasicPropPA3Max="0" Index="2" />
+    <ListBasicProp BasicPropType="lifemax_v" BasicPropPA1Min="5000" BasicPropPA1Max="8000" BasicPropPA2Min="0" BasicPropPA2Max="0" BasicPropPA3Min="0"
+      BasicPropPA3Max="0" Index="3" />
+    <ListBasicProp BasicPropType="damage_all_resist" BasicPropPA1Min="150" BasicPropPA1Max="250" BasicPropPA2Min="0" BasicPropPA2Max="0"
+      BasicPropPA3Min="0" BasicPropPA3Max="0" Index="4" />
+    <ListBasicProp BasicPropType="deadlystrikeenhance_r" BasicPropPA1Min="240" BasicPropPA1Max="480" BasicPropPA2Min="0" BasicPropPA2Max="0"
+      BasicPropPA3Min="0" BasicPropPA3Max="0" Index="5" />
+    <ListBasicProp BasicPropType="defencedeadlystrikedamagetrim" BasicPropPA1Min="20" BasicPropPA1Max="40" BasicPropPA2Min="0" BasicPropPA2Max="0"
+      BasicPropPA3Min="0" BasicPropPA3Max="0" Index="6" />
+    <ListBasicProp BasicPropType="allskill_v" BasicPropPA1Min="2" BasicPropPA1Max="2" BasicPropPA2Min="0" BasicPropPA2Max="0" BasicPropPA3Min="0"
+      BasicPropPA3Max="0" Index="7" />
+    <ListBasicProp BasicPropType="increase_output_damage_p" BasicPropPA1Min="8" BasicPropPA1Max="15" BasicPropPA2Min="0" BasicPropPA2Max="0"
+      BasicPropPA3Min="0" BasicPropPA3Max="0" Index="8" />
+    <ListBasicProp BasicPropType="reduce_received_damage_p" BasicPropPA1Min="5" BasicPropPA1Max="15" BasicPropPA2Min="0" BasicPropPA2Max="0"
+      BasicPropPA3Min="0" BasicPropPA3Max="0" Index="8" />
+  </ItemData>
+
+  <ItemData ItemID="15235" Name="Mặt nạ: Quang Mộc Côn (cấp 1) [Sự kiện Thước Kiều Nhân Duyên]" IconBundleDir="Icon/EquipIcon2.unity3d"
+    IconAtlasName="EquipIcon2" MapSpriteBundleDir="Resources/Item/MapSprite.unity3d" MapSpriteAtlasName="MapSprite" Kind="Mặt Nạ" QualityPrefix="0"
+    Category="1" Genre="1" Stack="1" DetailType="13" ParticularType="19" Level="3" SuiteID="0" Icon="qinling_mask" View="qinling_mask"
+    Intro="Dùng để đổi diện mạo, mang vào sẽ hóa thân thành Quang Mộc Côn." Help="" ObjID="32" BindType="1" Series="0" ReqLevel="0" CDType="0"
+    Price="0" ItemValue="40000000" MakeCost="-1" ResMale="851" ResFemale="851" FightPower="2" ScriptID="-1" DeductOnUse="false" BuffID="-1">
+    <ListReqProp ReqPropType="5" ReqPropValue="1" Index="2" />
+    <ListBasicProp BasicPropType="lifemax_p" BasicPropPA1Min="10" BasicPropPA1Max="15" BasicPropPA2Min="0" BasicPropPA2Max="0" BasicPropPA3Min="0"
+      BasicPropPA3Max="0" Index="1" />
+    <ListBasicProp BasicPropType="manamax_p" BasicPropPA1Min="8" BasicPropPA1Max="12" BasicPropPA2Min="0" BasicPropPA2Max="0" BasicPropPA3Min="0"
+      BasicPropPA3Max="0" Index="2" />
+    <ListBasicProp BasicPropType="lifemax_v" BasicPropPA1Min="300" BasicPropPA1Max="500" BasicPropPA2Min="0" BasicPropPA2Max="0" BasicPropPA3Min="0"
+      BasicPropPA3Max="0" Index="3" />
+    <ListBasicProp BasicPropType="damage_all_resist" BasicPropPA1Min="25" BasicPropPA1Max="40" BasicPropPA2Min="0" BasicPropPA2Max="0"
+      BasicPropPA3Min="0" BasicPropPA3Max="0" Index="4" />
+  </ItemData>
+
+  <ItemData ItemID="15236" Name="Mặt nạ: Quang Mộc Côn(cấp 2) [Sự kiện Thước Kiều Nhân Duyên]" IconBundleDir="Icon/EquipIcon2.unity3d"
+    IconAtlasName="EquipIcon2" MapSpriteBundleDir="Resources/Item/MapSprite.unity3d" MapSpriteAtlasName="MapSprite" Kind="Mặt Nạ" QualityPrefix="0"
+    Category="1" Genre="1" Stack="1" DetailType="13" ParticularType="19" Level="3" SuiteID="0" Icon="qinling_mask" View="qinling_mask"
+    Intro="Dùng để đổi diện mạo, mang vào sẽ hóa thân thành Quang Mộc Côn." Help="" ObjID="32" BindType="1" Series="0" ReqLevel="0" CDType="0"
+    Price="0" ItemValue="60000000" MakeCost="-1" ResMale="851" ResFemale="851" FightPower="2" ScriptID="-1" DeductOnUse="false" BuffID="-1">
+    <ListReqProp ReqPropType="5" ReqPropValue="1" Index="2" />
+    <ListBasicProp BasicPropType="lifemax_p" BasicPropPA1Min="15" BasicPropPA1Max="25" BasicPropPA2Min="0" BasicPropPA2Max="0" BasicPropPA3Min="0"
+      BasicPropPA3Max="0" Index="1" />
+    <ListBasicProp BasicPropType="manamax_p" BasicPropPA1Min="12" BasicPropPA1Max="18" BasicPropPA2Min="0" BasicPropPA2Max="0" BasicPropPA3Min="0"
+      BasicPropPA3Max="0" Index="2" />
+    <ListBasicProp BasicPropType="lifemax_v" BasicPropPA1Min="800" BasicPropPA1Max="1500" BasicPropPA2Min="0" BasicPropPA2Max="0" BasicPropPA3Min="0"
+      BasicPropPA3Max="0" Index="3" />
+    <ListBasicProp BasicPropType="damage_all_resist" BasicPropPA1Min="40" BasicPropPA1Max="70" BasicPropPA2Min="0" BasicPropPA2Max="0"
+      BasicPropPA3Min="0" BasicPropPA3Max="0" Index="4" />
+    <ListBasicProp BasicPropType="deadlystrikeenhance_r" BasicPropPA1Min="60" BasicPropPA1Max="120" BasicPropPA2Min="0" BasicPropPA2Max="0"
+      BasicPropPA3Min="0" BasicPropPA3Max="0" Index="5" />
+  </ItemData>
+
+  <ItemData ItemID="15237" Name="Mặt nạ: Quang Mộc Côn(cấp 3) [Sự kiện Thước Kiều Nhân Duyên]" IconBundleDir="Icon/EquipIcon2.unity3d"
+    IconAtlasName="EquipIcon2" MapSpriteBundleDir="Resources/Item/MapSprite.unity3d" MapSpriteAtlasName="MapSprite" Kind="Mặt Nạ" QualityPrefix="0"
+    Category="1" Genre="1" Stack="1" DetailType="13" ParticularType="19" Level="3" SuiteID="0" Icon="qinling_mask" View="qinling_mask"
+    Intro="Dùng để đổi diện mạo, mang vào sẽ hóa thân thành Quang Mộc Côn." Help="" ObjID="32" BindType="1" Series="0" ReqLevel="0" CDType="0"
+    Price="0" ItemValue="80000000" MakeCost="-1" ResMale="851" ResFemale="851" FightPower="2" ScriptID="-1" DeductOnUse="false" BuffID="-1">
+    <ListReqProp ReqPropType="5" ReqPropValue="1" Index="2" />
+    <ListBasicProp BasicPropType="lifemax_p" BasicPropPA1Min="20" BasicPropPA1Max="40" BasicPropPA2Min="0" BasicPropPA2Max="0" BasicPropPA3Min="0"
+      BasicPropPA3Max="0" Index="1" />
+    <ListBasicProp BasicPropType="manamax_p" BasicPropPA1Min="18" BasicPropPA1Max="30" BasicPropPA2Min="0" BasicPropPA2Max="0" BasicPropPA3Min="0"
+      BasicPropPA3Max="0" Index="2" />
+    <ListBasicProp BasicPropType="lifemax_v" BasicPropPA1Min="1500" BasicPropPA1Max="3000" BasicPropPA2Min="0" BasicPropPA2Max="0" BasicPropPA3Min="0"
+      BasicPropPA3Max="0" Index="3" />
+    <ListBasicProp BasicPropType="damage_all_resist" BasicPropPA1Min="60" BasicPropPA1Max="100" BasicPropPA2Min="0" BasicPropPA2Max="0"
+      BasicPropPA3Min="0" BasicPropPA3Max="0" Index="4" />
+    <ListBasicProp BasicPropType="deadlystrikeenhance_r" BasicPropPA1Min="90" BasicPropPA1Max="180" BasicPropPA2Min="0" BasicPropPA2Max="0"
+      BasicPropPA3Min="0" BasicPropPA3Max="0" Index="5" />
+    <ListBasicProp BasicPropType="defencedeadlystrikedamagetrim" BasicPropPA1Min="10" BasicPropPA1Max="20" BasicPropPA2Min="0" BasicPropPA2Max="0"
+      BasicPropPA3Min="0" BasicPropPA3Max="0" Index="6" />
+  </ItemData>
+
+  <ItemData ItemID="15238" Name="Mặt nạ: Quang Mộc Côn(cấp 4) [Sự kiện Thước Kiều Nhân Duyên]" IconBundleDir="Icon/EquipIcon2.unity3d"
+    IconAtlasName="EquipIcon2" MapSpriteBundleDir="Resources/Item/MapSprite.unity3d" MapSpriteAtlasName="MapSprite" Kind="Mặt Nạ" QualityPrefix="0"
+    Category="1" Genre="1" Stack="1" DetailType="13" ParticularType="19" Level="3" SuiteID="0" Icon="qinling_mask" View="qinling_mask"
+    Intro="Dùng để đổi diện mạo, mang vào sẽ hóa thân thành Quang Mộc Côn." Help="" ObjID="32" BindType="1" Series="0" ReqLevel="0" CDType="0"
+    Price="0" ItemValue="120000000" MakeCost="-1" ResMale="851" ResFemale="851" FightPower="2" ScriptID="-1" DeductOnUse="false" BuffID="-1">
+    <ListReqProp ReqPropType="5" ReqPropValue="1" Index="2" />
+    <ListBasicProp BasicPropType="lifemax_p" BasicPropPA1Min="35" BasicPropPA1Max="70" BasicPropPA2Min="0" BasicPropPA2Max="0" BasicPropPA3Min="0"
+      BasicPropPA3Max="0" Index="1" />
+    <ListBasicProp BasicPropType="manamax_p" BasicPropPA1Min="25" BasicPropPA1Max="45" BasicPropPA2Min="0" BasicPropPA2Max="0" BasicPropPA3Min="0"
+      BasicPropPA3Max="0" Index="2" />
+    <ListBasicProp BasicPropType="lifemax_v" BasicPropPA1Min="2500" BasicPropPA1Max="4000" BasicPropPA2Min="0" BasicPropPA2Max="0" BasicPropPA3Min="0"
+      BasicPropPA3Max="0" Index="3" />
+    <ListBasicProp BasicPropType="damage_all_resist" BasicPropPA1Min="80" BasicPropPA1Max="150" BasicPropPA2Min="0" BasicPropPA2Max="0"
+      BasicPropPA3Min="0" BasicPropPA3Max="0" Index="4" />
+    <ListBasicProp BasicPropType="deadlystrikeenhance_r" BasicPropPA1Min="120" BasicPropPA1Max="240" BasicPropPA2Min="0" BasicPropPA2Max="0"
+      BasicPropPA3Min="0" BasicPropPA3Max="0" Index="5" />
+    <ListBasicProp BasicPropType="defencedeadlystrikedamagetrim" BasicPropPA1Min="15" BasicPropPA1Max="30" BasicPropPA2Min="0" BasicPropPA2Max="0"
+      BasicPropPA3Min="0" BasicPropPA3Max="0" Index="6" />
+    <ListBasicProp BasicPropType="allskill_v" BasicPropPA1Min="1" BasicPropPA1Max="1" BasicPropPA2Min="0" BasicPropPA2Max="0" BasicPropPA3Min="0"
+      BasicPropPA3Max="0" Index="7" />
+  </ItemData>
+
+  <ItemData ItemID="15239" Name="Mặt nạ: Quang Mộc Côn(cấp 5) [Sự kiện Thước Kiều Nhân Duyên]" IconBundleDir="Icon/EquipIcon2.unity3d"
+    IconAtlasName="EquipIcon2" MapSpriteBundleDir="Resources/Item/MapSprite.unity3d" MapSpriteAtlasName="MapSprite" Kind="Mặt Nạ" QualityPrefix="0"
+    Category="1" Genre="1" Stack="1" DetailType="13" ParticularType="19" Level="3" SuiteID="0" Icon="qinling_mask" View="qinling_mask"
+    Intro="Dùng để đổi diện mạo, mang vào sẽ hóa thân thành Quang Mộc Côn." Help="" ObjID="32" BindType="1" Series="0" ReqLevel="0" CDType="0"
+    Price="0" ItemValue="180000000" MakeCost="-1" ResMale="851" ResFemale="851" FightPower="2" ScriptID="-1" DeductOnUse="false" BuffID="-1">
+    <ListReqProp ReqPropType="5" ReqPropValue="1" Index="2" />
+    <ListBasicProp BasicPropType="lifemax_p" BasicPropPA1Min="50" BasicPropPA1Max="85" BasicPropPA2Min="0" BasicPropPA2Max="0" BasicPropPA3Min="0"
+      BasicPropPA3Max="0" Index="1" />
+    <ListBasicProp BasicPropType="manamax_p" BasicPropPA1Min="40" BasicPropPA1Max="60" BasicPropPA2Min="0" BasicPropPA2Max="0" BasicPropPA3Min="0"
+      BasicPropPA3Max="0" Index="2" />
+    <ListBasicProp BasicPropType="lifemax_v" BasicPropPA1Min="4000" BasicPropPA1Max="6000" BasicPropPA2Min="0" BasicPropPA2Max="0" BasicPropPA3Min="0"
+      BasicPropPA3Max="0" Index="3" />
+    <ListBasicProp BasicPropType="damage_all_resist" BasicPropPA1Min="120" BasicPropPA1Max="200" BasicPropPA2Min="0" BasicPropPA2Max="0"
+      BasicPropPA3Min="0" BasicPropPA3Max="0" Index="4" />
+    <ListBasicProp BasicPropType="deadlystrikeenhance_r" BasicPropPA1Min="180" BasicPropPA1Max="360" BasicPropPA2Min="0" BasicPropPA2Max="0"
+      BasicPropPA3Min="0" BasicPropPA3Max="0" Index="5" />
+    <ListBasicProp BasicPropType="defencedeadlystrikedamagetrim" BasicPropPA1Min="20" BasicPropPA1Max="40" BasicPropPA2Min="0" BasicPropPA2Max="0"
+      BasicPropPA3Min="0" BasicPropPA3Max="0" Index="6" />
+    <ListBasicProp BasicPropType="allskill_v" BasicPropPA1Min="2" BasicPropPA1Max="2" BasicPropPA2Min="0" BasicPropPA2Max="0" BasicPropPA3Min="0"
+      BasicPropPA3Max="0" Index="7" />
+    <ListBasicProp BasicPropType="increase_output_damage_p" BasicPropPA1Min="5" BasicPropPA1Max="10" BasicPropPA2Min="0" BasicPropPA2Max="0"
+      BasicPropPA3Min="0" BasicPropPA3Max="0" Index="8" />
+  </ItemData>
+
+  <ItemData ItemID="15240" Name="Mặt nạ: Quang Mộc Côn(cấp 6) [Sự kiện Thước Kiều Nhân Duyên]" IconBundleDir="Icon/EquipIcon2.unity3d"
+    IconAtlasName="EquipIcon2" MapSpriteBundleDir="Resources/Item/MapSprite.unity3d" MapSpriteAtlasName="MapSprite" Kind="Mặt Nạ" QualityPrefix="0"
+    Category="1" Genre="1" Stack="1" DetailType="13" ParticularType="19" Level="3" SuiteID="0" Icon="qinling_mask" View="qinling_mask"
+    Intro="Dùng để đổi diện mạo, mang vào sẽ hóa thân thành Quang Mộc Côn." Help="" ObjID="32" BindType="1" Series="0" ReqLevel="0" CDType="0"
+    Price="0" ItemValue="250000000" MakeCost="-1" ResMale="851" ResFemale="851" FightPower="2" ScriptID="-1" DeductOnUse="false" BuffID="-1">
+    <ListReqProp ReqPropType="5" ReqPropValue="1" Index="2" />
+    <ListBasicProp BasicPropType="lifemax_p" BasicPropPA1Min="70" BasicPropPA1Max="100" BasicPropPA2Min="0" BasicPropPA2Max="0" BasicPropPA3Min="0"
+      BasicPropPA3Max="0" Index="1" />
+    <ListBasicProp BasicPropType="manamax_p" BasicPropPA1Min="50" BasicPropPA1Max="70" BasicPropPA2Min="0" BasicPropPA2Max="0" BasicPropPA3Min="0"
+      BasicPropPA3Max="0" Index="2" />
+    <ListBasicProp BasicPropType="lifemax_v" BasicPropPA1Min="5000" BasicPropPA1Max="8000" BasicPropPA2Min="0" BasicPropPA2Max="0" BasicPropPA3Min="0"
+      BasicPropPA3Max="0" Index="3" />
+    <ListBasicProp BasicPropType="damage_all_resist" BasicPropPA1Min="150" BasicPropPA1Max="250" BasicPropPA2Min="0" BasicPropPA2Max="0"
+      BasicPropPA3Min="0" BasicPropPA3Max="0" Index="4" />
+    <ListBasicProp BasicPropType="deadlystrikeenhance_r" BasicPropPA1Min="240" BasicPropPA1Max="480" BasicPropPA2Min="0" BasicPropPA2Max="0"
+      BasicPropPA3Min="0" BasicPropPA3Max="0" Index="5" />
+    <ListBasicProp BasicPropType="defencedeadlystrikedamagetrim" BasicPropPA1Min="20" BasicPropPA1Max="40" BasicPropPA2Min="0" BasicPropPA2Max="0"
+      BasicPropPA3Min="0" BasicPropPA3Max="0" Index="6" />
+    <ListBasicProp BasicPropType="allskill_v" BasicPropPA1Min="2" BasicPropPA1Max="2" BasicPropPA2Min="0" BasicPropPA2Max="0" BasicPropPA3Min="0"
+      BasicPropPA3Max="0" Index="7" />
+    <ListBasicProp BasicPropType="increase_output_damage_p" BasicPropPA1Min="8" BasicPropPA1Max="15" BasicPropPA2Min="0" BasicPropPA2Max="0"
+      BasicPropPA3Min="0" BasicPropPA3Max="0" Index="8" />
+    <ListBasicProp BasicPropType="reduce_received_damage_p" BasicPropPA1Min="5" BasicPropPA1Max="15" BasicPropPA2Min="0" BasicPropPA2Max="0"
+      BasicPropPA3Min="0" BasicPropPA3Max="0" Index="8" />
+  </ItemData>
+
+  <ItemData ItemID="15252" Name="Mặt nạ: Nguyệt Cơ (cấp 1) [Sự kiện Mầm Non Đất Nước]" IconBundleDir="Icon/EquipIcon2.unity3d"
+    IconAtlasName="EquipIcon2" MapSpriteBundleDir="Resources/Item/MapSprite.unity3d" MapSpriteAtlasName="MapSprite" Kind="Mặt Nạ" QualityPrefix="0"
+    Category="1" Genre="1" Stack="1" DetailType="13" ParticularType="19" Level="3" SuiteID="0" Icon="qinling_mask" View="qinling_mask"
+    Intro="Dùng để đổi diện mạo, mang vào sẽ hóa thân thành Nguyệt Cơ." Help="" ObjID="32" BindType="1" Series="0" ReqLevel="0" CDType="0"
+    Price="0" ItemValue="40000000" MakeCost="-1" ResMale="417" ResFemale="417" FightPower="2" ScriptID="-1" DeductOnUse="false" BuffID="-1">
+    <ListReqProp ReqPropType="5" ReqPropValue="1" Index="2" />
+    <ListBasicProp BasicPropType="lifemax_p" BasicPropPA1Min="10" BasicPropPA1Max="15" BasicPropPA2Min="0" BasicPropPA2Max="0" BasicPropPA3Min="0"
+      BasicPropPA3Max="0" Index="1" />
+    <ListBasicProp BasicPropType="manamax_p" BasicPropPA1Min="8" BasicPropPA1Max="12" BasicPropPA2Min="0" BasicPropPA2Max="0" BasicPropPA3Min="0"
+      BasicPropPA3Max="0" Index="2" />
+    <ListBasicProp BasicPropType="lifemax_v" BasicPropPA1Min="300" BasicPropPA1Max="500" BasicPropPA2Min="0" BasicPropPA2Max="0" BasicPropPA3Min="0"
+      BasicPropPA3Max="0" Index="3" />
+    <ListBasicProp BasicPropType="damage_all_resist" BasicPropPA1Min="25" BasicPropPA1Max="40" BasicPropPA2Min="0" BasicPropPA2Max="0"
+      BasicPropPA3Min="0" BasicPropPA3Max="0" Index="4" />
+  </ItemData>
+
+  <ItemData ItemID="15253" Name="Mặt nạ: Nguyệt Cơ(cấp 2) [Sự kiện Mầm Non Đất Nước]" IconBundleDir="Icon/EquipIcon2.unity3d"
+    IconAtlasName="EquipIcon2" MapSpriteBundleDir="Resources/Item/MapSprite.unity3d" MapSpriteAtlasName="MapSprite" Kind="Mặt Nạ" QualityPrefix="0"
+    Category="1" Genre="1" Stack="1" DetailType="13" ParticularType="19" Level="3" SuiteID="0" Icon="qinling_mask" View="qinling_mask"
+    Intro="Dùng để đổi diện mạo, mang vào sẽ hóa thân thành Nguyệt Cơ." Help="" ObjID="32" BindType="1" Series="0" ReqLevel="0" CDType="0"
+    Price="0" ItemValue="60000000" MakeCost="-1" ResMale="417" ResFemale="417" FightPower="2" ScriptID="-1" DeductOnUse="false" BuffID="-1">
+    <ListReqProp ReqPropType="5" ReqPropValue="1" Index="2" />
+    <ListBasicProp BasicPropType="lifemax_p" BasicPropPA1Min="25" BasicPropPA1Max="30" BasicPropPA2Min="0" BasicPropPA2Max="0" BasicPropPA3Min="0"
+      BasicPropPA3Max="0" Index="1" />
+    <ListBasicProp BasicPropType="manamax_p" BasicPropPA1Min="12" BasicPropPA1Max="18" BasicPropPA2Min="0" BasicPropPA2Max="0" BasicPropPA3Min="0"
+      BasicPropPA3Max="0" Index="2" />
+    <ListBasicProp BasicPropType="lifemax_v" BasicPropPA1Min="800" BasicPropPA1Max="1500" BasicPropPA2Min="0" BasicPropPA2Max="0" BasicPropPA3Min="0"
+      BasicPropPA3Max="0" Index="3" />
+    <ListBasicProp BasicPropType="damage_all_resist" BasicPropPA1Min="40" BasicPropPA1Max="70" BasicPropPA2Min="0" BasicPropPA2Max="0"
+      BasicPropPA3Min="0" BasicPropPA3Max="0" Index="4" />
+    <ListBasicProp BasicPropType="deadlystrikeenhance_r" BasicPropPA1Min="60" BasicPropPA1Max="120" BasicPropPA2Min="0" BasicPropPA2Max="0"
+      BasicPropPA3Min="0" BasicPropPA3Max="0" Index="5" />
+  </ItemData>
+
+  <ItemData ItemID="15254" Name="Mặt nạ: Nguyệt Cơ(cấp 3) [Sự kiện Mầm Non Đất Nước]" IconBundleDir="Icon/EquipIcon2.unity3d"
+    IconAtlasName="EquipIcon2" MapSpriteBundleDir="Resources/Item/MapSprite.unity3d" MapSpriteAtlasName="MapSprite" Kind="Mặt Nạ" QualityPrefix="0"
+    Category="1" Genre="1" Stack="1" DetailType="13" ParticularType="19" Level="3" SuiteID="0" Icon="qinling_mask" View="qinling_mask"
+    Intro="Dùng để đổi diện mạo, mang vào sẽ hóa thân thành Nguyệt Cơ." Help="" ObjID="32" BindType="1" Series="0" ReqLevel="0" CDType="0"
+    Price="0" ItemValue="80000000" MakeCost="-1" ResMale="417" ResFemale="417" FightPower="2" ScriptID="-1" DeductOnUse="false" BuffID="-1">
+    <ListReqProp ReqPropType="5" ReqPropValue="1" Index="2" />
+    <ListBasicProp BasicPropType="lifemax_p" BasicPropPA1Min="40" BasicPropPA1Max="45" BasicPropPA2Min="0" BasicPropPA2Max="0" BasicPropPA3Min="0"
+      BasicPropPA3Max="0" Index="1" />
+    <ListBasicProp BasicPropType="manamax_p" BasicPropPA1Min="18" BasicPropPA1Max="30" BasicPropPA2Min="0" BasicPropPA2Max="0" BasicPropPA3Min="0"
+      BasicPropPA3Max="0" Index="2" />
+    <ListBasicProp BasicPropType="lifemax_v" BasicPropPA1Min="1500" BasicPropPA1Max="3000" BasicPropPA2Min="0" BasicPropPA2Max="0" BasicPropPA3Min="0"
+      BasicPropPA3Max="0" Index="3" />
+    <ListBasicProp BasicPropType="damage_all_resist" BasicPropPA1Min="60" BasicPropPA1Max="100" BasicPropPA2Min="0" BasicPropPA2Max="0"
+      BasicPropPA3Min="0" BasicPropPA3Max="0" Index="4" />
+    <ListBasicProp BasicPropType="deadlystrikeenhance_r" BasicPropPA1Min="90" BasicPropPA1Max="180" BasicPropPA2Min="0" BasicPropPA2Max="0"
+      BasicPropPA3Min="0" BasicPropPA3Max="0" Index="5" />
+    <ListBasicProp BasicPropType="defencedeadlystrikedamagetrim" BasicPropPA1Min="12" BasicPropPA1Max="18" BasicPropPA2Min="0" BasicPropPA2Max="0"
+      BasicPropPA3Min="0" BasicPropPA3Max="0" Index="6" />
+  </ItemData>
+
+  <ItemData ItemID="15255" Name="Mặt nạ: Nguyệt Cơ(cấp 4) [Sự kiện Mầm Non Đất Nước]" IconBundleDir="Icon/EquipIcon2.unity3d"
+    IconAtlasName="EquipIcon2" MapSpriteBundleDir="Resources/Item/MapSprite.unity3d" MapSpriteAtlasName="MapSprite" Kind="Mặt Nạ" QualityPrefix="0"
+    Category="1" Genre="1" Stack="1" DetailType="13" ParticularType="19" Level="3" SuiteID="0" Icon="qinling_mask" View="qinling_mask"
+    Intro="Dùng để đổi diện mạo, mang vào sẽ hóa thân thành Nguyệt Cơ." Help="" ObjID="32" BindType="1" Series="0" ReqLevel="0" CDType="0"
+    Price="0" ItemValue="120000000" MakeCost="-1" ResMale="417" ResFemale="417" FightPower="2" ScriptID="-1" DeductOnUse="false" BuffID="-1">
+    <ListReqProp ReqPropType="5" ReqPropValue="1" Index="2" />
+    <ListBasicProp BasicPropType="lifemax_p" BasicPropPA1Min="65" BasicPropPA1Max="80" BasicPropPA2Min="0" BasicPropPA2Max="0" BasicPropPA3Min="0"
+      BasicPropPA3Max="0" Index="1" />
+    <ListBasicProp BasicPropType="manamax_p" BasicPropPA1Min="25" BasicPropPA1Max="45" BasicPropPA2Min="0" BasicPropPA2Max="0" BasicPropPA3Min="0"
+      BasicPropPA3Max="0" Index="2" />
+    <ListBasicProp BasicPropType="lifemax_v" BasicPropPA1Min="2500" BasicPropPA1Max="4000" BasicPropPA2Min="0" BasicPropPA2Max="0" BasicPropPA3Min="0"
+      BasicPropPA3Max="0" Index="3" />
+    <ListBasicProp BasicPropType="damage_all_resist" BasicPropPA1Min="80" BasicPropPA1Max="150" BasicPropPA2Min="0" BasicPropPA2Max="0"
+      BasicPropPA3Min="0" BasicPropPA3Max="0" Index="4" />
+    <ListBasicProp BasicPropType="deadlystrikeenhance_r" BasicPropPA1Min="120" BasicPropPA1Max="240" BasicPropPA2Min="0" BasicPropPA2Max="0"
+      BasicPropPA3Min="0" BasicPropPA3Max="0" Index="5" />
+    <ListBasicProp BasicPropType="defencedeadlystrikedamagetrim" BasicPropPA1Min="19" BasicPropPA1Max="25" BasicPropPA2Min="0" BasicPropPA2Max="0"
+      BasicPropPA3Min="0" BasicPropPA3Max="0" Index="6" />
+    <ListBasicProp BasicPropType="reduce_received_damage_p" BasicPropPA1Min="3" BasicPropPA1Max="8" BasicPropPA2Min="0" BasicPropPA2Max="0" BasicPropPA3Min="0"
+      BasicPropPA3Max="0" Index="7" />
+  </ItemData>
+
+  <ItemData ItemID="15256" Name="Mặt nạ: Nguyệt Cơ(cấp 5) [Sự kiện Mầm Non Đất Nước]" IconBundleDir="Icon/EquipIcon2.unity3d"
+    IconAtlasName="EquipIcon2" MapSpriteBundleDir="Resources/Item/MapSprite.unity3d" MapSpriteAtlasName="MapSprite" Kind="Mặt Nạ" QualityPrefix="0"
+    Category="1" Genre="1" Stack="1" DetailType="13" ParticularType="19" Level="3" SuiteID="0" Icon="qinling_mask" View="qinling_mask"
+    Intro="Dùng để đổi diện mạo, mang vào sẽ hóa thân thành Nguyệt Cơ." Help="" ObjID="32" BindType="1" Series="0" ReqLevel="0" CDType="0"
+    Price="0" ItemValue="180000000" MakeCost="-1" ResMale="417" ResFemale="417" FightPower="2" ScriptID="-1" DeductOnUse="false" BuffID="-1">
+    <ListReqProp ReqPropType="5" ReqPropValue="1" Index="2" />
+    <ListBasicProp BasicPropType="lifemax_p" BasicPropPA1Min="85" BasicPropPA1Max="100" BasicPropPA2Min="0" BasicPropPA2Max="0" BasicPropPA3Min="0"
+      BasicPropPA3Max="0" Index="1" />
+    <ListBasicProp BasicPropType="manamax_p" BasicPropPA1Min="40" BasicPropPA1Max="60" BasicPropPA2Min="0" BasicPropPA2Max="0" BasicPropPA3Min="0"
+      BasicPropPA3Max="0" Index="2" />
+    <ListBasicProp BasicPropType="lifemax_v" BasicPropPA1Min="4000" BasicPropPA1Max="6000" BasicPropPA2Min="0" BasicPropPA2Max="0" BasicPropPA3Min="0"
+      BasicPropPA3Max="0" Index="3" />
+    <ListBasicProp BasicPropType="damage_all_resist" BasicPropPA1Min="120" BasicPropPA1Max="200" BasicPropPA2Min="0" BasicPropPA2Max="0"
+      BasicPropPA3Min="0" BasicPropPA3Max="0" Index="4" />
+    <ListBasicProp BasicPropType="deadlystrikeenhance_r" BasicPropPA1Min="180" BasicPropPA1Max="360" BasicPropPA2Min="0" BasicPropPA2Max="0"
+      BasicPropPA3Min="0" BasicPropPA3Max="0" Index="5" />
+    <ListBasicProp BasicPropType="defencedeadlystrikedamagetrim" BasicPropPA1Min="30" BasicPropPA1Max="45" BasicPropPA2Min="0" BasicPropPA2Max="0"
+      BasicPropPA3Min="0" BasicPropPA3Max="0" Index="6" />
+    <ListBasicProp BasicPropType="allskill_v" BasicPropPA1Min="1" BasicPropPA1Max="1" BasicPropPA2Min="0" BasicPropPA2Max="0" BasicPropPA3Min="0"
+      BasicPropPA3Max="0" Index="7" />
+    <ListBasicProp BasicPropType="reduce_received_damage_p" BasicPropPA1Min="8" BasicPropPA1Max="15" BasicPropPA2Min="0" BasicPropPA2Max="0"
+      BasicPropPA3Min="0" BasicPropPA3Max="0" Index="8" />
+  </ItemData>
+
+  <ItemData ItemID="15257" Name="Mặt nạ: Nguyệt Cơ(cấp 6) [Sự kiện Mầm Non Đất Nước]" IconBundleDir="Icon/EquipIcon2.unity3d"
+    IconAtlasName="EquipIcon2" MapSpriteBundleDir="Resources/Item/MapSprite.unity3d" MapSpriteAtlasName="MapSprite" Kind="Mặt Nạ" QualityPrefix="0"
+    Category="1" Genre="1" Stack="1" DetailType="13" ParticularType="19" Level="3" SuiteID="0" Icon="qinling_mask" View="qinling_mask"
+    Intro="Dùng để đổi diện mạo, mang vào sẽ hóa thân thành Nguyệt Cơ." Help="" ObjID="32" BindType="1" Series="0" ReqLevel="0" CDType="0"
+    Price="0" ItemValue="250000000" MakeCost="-1" ResMale="417" ResFemale="417" FightPower="2" ScriptID="-1" DeductOnUse="false" BuffID="-1">
+    <ListReqProp ReqPropType="5" ReqPropValue="1" Index="2" />
+    <ListBasicProp BasicPropType="lifemax_p" BasicPropPA1Min="100" BasicPropPA1Max="120" BasicPropPA2Min="0" BasicPropPA2Max="0" BasicPropPA3Min="0"
+      BasicPropPA3Max="0" Index="1" />
+    <ListBasicProp BasicPropType="manamax_p" BasicPropPA1Min="50" BasicPropPA1Max="70" BasicPropPA2Min="0" BasicPropPA2Max="0" BasicPropPA3Min="0"
+      BasicPropPA3Max="0" Index="2" />
+    <ListBasicProp BasicPropType="lifemax_v" BasicPropPA1Min="5000" BasicPropPA1Max="8000" BasicPropPA2Min="0" BasicPropPA2Max="0" BasicPropPA3Min="0"
+      BasicPropPA3Max="0" Index="3" />
+    <ListBasicProp BasicPropType="damage_all_resist" BasicPropPA1Min="150" BasicPropPA1Max="250" BasicPropPA2Min="0" BasicPropPA2Max="0"
+      BasicPropPA3Min="0" BasicPropPA3Max="0" Index="4" />
+    <ListBasicProp BasicPropType="deadlystrikeenhance_r" BasicPropPA1Min="240" BasicPropPA1Max="480" BasicPropPA2Min="0" BasicPropPA2Max="0"
+      BasicPropPA3Min="0" BasicPropPA3Max="0" Index="5" />
+    <ListBasicProp BasicPropType="defencedeadlystrikedamagetrim" BasicPropPA1Min="40" BasicPropPA1Max="50" BasicPropPA2Min="0" BasicPropPA2Max="0"
+      BasicPropPA3Min="0" BasicPropPA3Max="0" Index="6" />
+    <ListBasicProp BasicPropType="allskill_v" BasicPropPA1Min="1" BasicPropPA1Max="1" BasicPropPA2Min="0" BasicPropPA2Max="0" BasicPropPA3Min="0"
+      BasicPropPA3Max="0" Index="7" />
+    <ListBasicProp BasicPropType="increase_output_damage_p" BasicPropPA1Min="5" BasicPropPA1Max="10" BasicPropPA2Min="0" BasicPropPA2Max="0"
+      BasicPropPA3Min="0" BasicPropPA3Max="0" Index="8" />
+    <ListBasicProp BasicPropType="reduce_received_damage_p" BasicPropPA1Min="10" BasicPropPA1Max="20" BasicPropPA2Min="0" BasicPropPA2Max="0"
+      BasicPropPA3Min="0" BasicPropPA3Max="0" Index="8" />
+  </ItemData>
+
+  <ItemData ItemID="15271" Name="Mặt nạ: Tây Môn Phi Tuyết (cấp 1) [Sự kiện Tôn Sư Trọng Đạo]" IconBundleDir="Icon/EquipIcon2.unity3d"
+    IconAtlasName="EquipIcon2" MapSpriteBundleDir="Resources/Item/MapSprite.unity3d" MapSpriteAtlasName="MapSprite" Kind="Mặt Nạ" QualityPrefix="0"
+    Category="1" Genre="1" Stack="1" DetailType="13" ParticularType="19" Level="3" SuiteID="0" Icon="qinling_mask" View="qinling_mask"
+    Intro="Dùng để đổi diện mạo, mang vào sẽ hóa thân thành Tây Môn Phi Tuyết." Help="" ObjID="32" BindType="1" Series="0" ReqLevel="0" CDType="0"
+    Price="0" ItemValue="40000000" MakeCost="-1" ResMale="258" ResFemale="258" FightPower="2" ScriptID="-1" DeductOnUse="false" BuffID="-1">
+    <ListReqProp ReqPropType="5" ReqPropValue="1" Index="2" />
+    <ListBasicProp BasicPropType="lifemax_p" BasicPropPA1Min="10" BasicPropPA1Max="15" BasicPropPA2Min="0" BasicPropPA2Max="0" BasicPropPA3Min="0"
+      BasicPropPA3Max="0" Index="1" />
+    <ListBasicProp BasicPropType="manamax_p" BasicPropPA1Min="8" BasicPropPA1Max="12" BasicPropPA2Min="0" BasicPropPA2Max="0" BasicPropPA3Min="0"
+      BasicPropPA3Max="0" Index="2" />
+    <ListBasicProp BasicPropType="lifemax_v" BasicPropPA1Min="300" BasicPropPA1Max="500" BasicPropPA2Min="0" BasicPropPA2Max="0" BasicPropPA3Min="0"
+      BasicPropPA3Max="0" Index="3" />
+    <ListBasicProp BasicPropType="damage_all_resist" BasicPropPA1Min="25" BasicPropPA1Max="40" BasicPropPA2Min="0" BasicPropPA2Max="0"
+      BasicPropPA3Min="0" BasicPropPA3Max="0" Index="4" />
+  </ItemData>
+
+  <ItemData ItemID="15272" Name="Mặt nạ: Tây Môn Phi Tuyết (cấp 2) [Sự kiện Tôn Sư Trọng Đạo]" IconBundleDir="Icon/EquipIcon2.unity3d"
+    IconAtlasName="EquipIcon2" MapSpriteBundleDir="Resources/Item/MapSprite.unity3d" MapSpriteAtlasName="MapSprite" Kind="Mặt Nạ" QualityPrefix="0"
+    Category="1" Genre="1" Stack="1" DetailType="13" ParticularType="19" Level="3" SuiteID="0" Icon="qinling_mask" View="qinling_mask"
+    Intro="Dùng để đổi diện mạo, mang vào sẽ hóa thân thành Tây Môn Phi Tuyết." Help="" ObjID="32" BindType="1" Series="0" ReqLevel="0" CDType="0"
+    Price="0" ItemValue="60000000" MakeCost="-1" ResMale="258" ResFemale="258" FightPower="2" ScriptID="-1" DeductOnUse="false" BuffID="-1">
+    <ListReqProp ReqPropType="5" ReqPropValue="1" Index="2" />
+    <ListBasicProp BasicPropType="lifemax_p" BasicPropPA1Min="25" BasicPropPA1Max="30" BasicPropPA2Min="0" BasicPropPA2Max="0" BasicPropPA3Min="0"
+      BasicPropPA3Max="0" Index="1" />
+    <ListBasicProp BasicPropType="manamax_p" BasicPropPA1Min="12" BasicPropPA1Max="18" BasicPropPA2Min="0" BasicPropPA2Max="0" BasicPropPA3Min="0"
+      BasicPropPA3Max="0" Index="2" />
+    <ListBasicProp BasicPropType="lifemax_v" BasicPropPA1Min="800" BasicPropPA1Max="1500" BasicPropPA2Min="0" BasicPropPA2Max="0" BasicPropPA3Min="0"
+      BasicPropPA3Max="0" Index="3" />
+    <ListBasicProp BasicPropType="damage_all_resist" BasicPropPA1Min="40" BasicPropPA1Max="70" BasicPropPA2Min="0" BasicPropPA2Max="0"
+      BasicPropPA3Min="0" BasicPropPA3Max="0" Index="4" />
+    <ListBasicProp BasicPropType="deadlystrikeenhance_r" BasicPropPA1Min="60" BasicPropPA1Max="120" BasicPropPA2Min="0" BasicPropPA2Max="0"
+      BasicPropPA3Min="0" BasicPropPA3Max="0" Index="5" />
+  </ItemData>
+
+  <ItemData ItemID="15273" Name="Mặt nạ: Tây Môn Phi Tuyết (cấp 3) [Sự kiện Tôn Sư Trọng Đạo]" IconBundleDir="Icon/EquipIcon2.unity3d"
+    IconAtlasName="EquipIcon2" MapSpriteBundleDir="Resources/Item/MapSprite.unity3d" MapSpriteAtlasName="MapSprite" Kind="Mặt Nạ" QualityPrefix="0"
+    Category="1" Genre="1" Stack="1" DetailType="13" ParticularType="19" Level="3" SuiteID="0" Icon="qinling_mask" View="qinling_mask"
+    Intro="Dùng để đổi diện mạo, mang vào sẽ hóa thân thành Tây Môn Phi Tuyết." Help="" ObjID="32" BindType="1" Series="0" ReqLevel="0" CDType="0"
+    Price="0" ItemValue="80000000" MakeCost="-1" ResMale="258" ResFemale="258" FightPower="2" ScriptID="-1" DeductOnUse="false" BuffID="-1">
+    <ListReqProp ReqPropType="5" ReqPropValue="1" Index="2" />
+    <ListBasicProp BasicPropType="lifemax_p" BasicPropPA1Min="40" BasicPropPA1Max="45" BasicPropPA2Min="0" BasicPropPA2Max="0" BasicPropPA3Min="0"
+      BasicPropPA3Max="0" Index="1" />
+    <ListBasicProp BasicPropType="manamax_p" BasicPropPA1Min="18" BasicPropPA1Max="30" BasicPropPA2Min="0" BasicPropPA2Max="0" BasicPropPA3Min="0"
+      BasicPropPA3Max="0" Index="2" />
+    <ListBasicProp BasicPropType="lifemax_v" BasicPropPA1Min="1500" BasicPropPA1Max="3000" BasicPropPA2Min="0" BasicPropPA2Max="0" BasicPropPA3Min="0"
+      BasicPropPA3Max="0" Index="3" />
+    <ListBasicProp BasicPropType="damage_all_resist" BasicPropPA1Min="60" BasicPropPA1Max="100" BasicPropPA2Min="0" BasicPropPA2Max="0"
+      BasicPropPA3Min="0" BasicPropPA3Max="0" Index="4" />
+    <ListBasicProp BasicPropType="deadlystrikeenhance_r" BasicPropPA1Min="90" BasicPropPA1Max="180" BasicPropPA2Min="0" BasicPropPA2Max="0"
+      BasicPropPA3Min="0" BasicPropPA3Max="0" Index="5" />
+    <ListBasicProp BasicPropType="defencedeadlystrikedamagetrim" BasicPropPA1Min="12" BasicPropPA1Max="18" BasicPropPA2Min="0" BasicPropPA2Max="0"
+      BasicPropPA3Min="0" BasicPropPA3Max="0" Index="6" />
+  </ItemData>
+
+  <ItemData ItemID="15274" Name="Mặt nạ: Tây Môn Phi Tuyết (cấp 4) [Sự kiện Tôn Sư Trọng Đạo]" IconBundleDir="Icon/EquipIcon2.unity3d"
+    IconAtlasName="EquipIcon2" MapSpriteBundleDir="Resources/Item/MapSprite.unity3d" MapSpriteAtlasName="MapSprite" Kind="Mặt Nạ" QualityPrefix="0"
+    Category="1" Genre="1" Stack="1" DetailType="13" ParticularType="19" Level="3" SuiteID="0" Icon="qinling_mask" View="qinling_mask"
+    Intro="Dùng để đổi diện mạo, mang vào sẽ hóa thân thành Tây Môn Phi Tuyết." Help="" ObjID="32" BindType="1" Series="0" ReqLevel="0" CDType="0"
+    Price="0" ItemValue="120000000" MakeCost="-1" ResMale="258" ResFemale="258" FightPower="2" ScriptID="-1" DeductOnUse="false" BuffID="-1">
+    <ListReqProp ReqPropType="5" ReqPropValue="1" Index="2" />
+    <ListBasicProp BasicPropType="lifemax_p" BasicPropPA1Min="65" BasicPropPA1Max="80" BasicPropPA2Min="0" BasicPropPA2Max="0" BasicPropPA3Min="0"
+      BasicPropPA3Max="0" Index="1" />
+    <ListBasicProp BasicPropType="manamax_p" BasicPropPA1Min="25" BasicPropPA1Max="45" BasicPropPA2Min="0" BasicPropPA2Max="0" BasicPropPA3Min="0"
+      BasicPropPA3Max="0" Index="2" />
+    <ListBasicProp BasicPropType="lifemax_v" BasicPropPA1Min="2500" BasicPropPA1Max="4000" BasicPropPA2Min="0" BasicPropPA2Max="0" BasicPropPA3Min="0"
+      BasicPropPA3Max="0" Index="3" />
+    <ListBasicProp BasicPropType="damage_all_resist" BasicPropPA1Min="80" BasicPropPA1Max="150" BasicPropPA2Min="0" BasicPropPA2Max="0"
+      BasicPropPA3Min="0" BasicPropPA3Max="0" Index="4" />
+    <ListBasicProp BasicPropType="deadlystrikeenhance_r" BasicPropPA1Min="120" BasicPropPA1Max="240" BasicPropPA2Min="0" BasicPropPA2Max="0"
+      BasicPropPA3Min="0" BasicPropPA3Max="0" Index="5" />
+    <ListBasicProp BasicPropType="defencedeadlystrikedamagetrim" BasicPropPA1Min="19" BasicPropPA1Max="25" BasicPropPA2Min="0" BasicPropPA2Max="0"
+      BasicPropPA3Min="0" BasicPropPA3Max="0" Index="6" />
+    <ListBasicProp BasicPropType="reduce_received_damage_p" BasicPropPA1Min="3" BasicPropPA1Max="8" BasicPropPA2Min="0" BasicPropPA2Max="0" BasicPropPA3Min="0"
+      BasicPropPA3Max="0" Index="7" />
+  </ItemData>
+
+  <ItemData ItemID="15275" Name="Mặt nạ: Tây Môn Phi Tuyết (cấp 5) [Sự kiện Tôn Sư Trọng Đạo]" IconBundleDir="Icon/EquipIcon2.unity3d"
+    IconAtlasName="EquipIcon2" MapSpriteBundleDir="Resources/Item/MapSprite.unity3d" MapSpriteAtlasName="MapSprite" Kind="Mặt Nạ" QualityPrefix="0"
+    Category="1" Genre="1" Stack="1" DetailType="13" ParticularType="19" Level="3" SuiteID="0" Icon="qinling_mask" View="qinling_mask"
+    Intro="Dùng để đổi diện mạo, mang vào sẽ hóa thân thành Tây Môn Phi Tuyết." Help="" ObjID="32" BindType="1" Series="0" ReqLevel="0" CDType="0"
+    Price="0" ItemValue="180000000" MakeCost="-1" ResMale="258" ResFemale="258" FightPower="2" ScriptID="-1" DeductOnUse="false" BuffID="-1">
+    <ListReqProp ReqPropType="5" ReqPropValue="1" Index="2" />
+    <ListBasicProp BasicPropType="lifemax_p" BasicPropPA1Min="85" BasicPropPA1Max="100" BasicPropPA2Min="0" BasicPropPA2Max="0" BasicPropPA3Min="0"
+      BasicPropPA3Max="0" Index="1" />
+    <ListBasicProp BasicPropType="manamax_p" BasicPropPA1Min="40" BasicPropPA1Max="60" BasicPropPA2Min="0" BasicPropPA2Max="0" BasicPropPA3Min="0"
+      BasicPropPA3Max="0" Index="2" />
+    <ListBasicProp BasicPropType="lifemax_v" BasicPropPA1Min="4000" BasicPropPA1Max="6000" BasicPropPA2Min="0" BasicPropPA2Max="0" BasicPropPA3Min="0"
+      BasicPropPA3Max="0" Index="3" />
+    <ListBasicProp BasicPropType="damage_all_resist" BasicPropPA1Min="120" BasicPropPA1Max="200" BasicPropPA2Min="0" BasicPropPA2Max="0"
+      BasicPropPA3Min="0" BasicPropPA3Max="0" Index="4" />
+    <ListBasicProp BasicPropType="deadlystrikeenhance_r" BasicPropPA1Min="180" BasicPropPA1Max="360" BasicPropPA2Min="0" BasicPropPA2Max="0"
+      BasicPropPA3Min="0" BasicPropPA3Max="0" Index="5" />
+    <ListBasicProp BasicPropType="defencedeadlystrikedamagetrim" BasicPropPA1Min="30" BasicPropPA1Max="45" BasicPropPA2Min="0" BasicPropPA2Max="0"
+      BasicPropPA3Min="0" BasicPropPA3Max="0" Index="6" />
+    <ListBasicProp BasicPropType="allskill_v" BasicPropPA1Min="1" BasicPropPA1Max="1" BasicPropPA2Min="0" BasicPropPA2Max="0" BasicPropPA3Min="0"
+      BasicPropPA3Max="0" Index="7" />
+    <ListBasicProp BasicPropType="reduce_received_damage_p" BasicPropPA1Min="8" BasicPropPA1Max="15" BasicPropPA2Min="0" BasicPropPA2Max="0"
+      BasicPropPA3Min="0" BasicPropPA3Max="0" Index="8" />
+  </ItemData>
+
+  <ItemData ItemID="15276" Name="Mặt nạ: Tây Môn Phi Tuyết (cấp 6) [Sự kiện Tôn Sư Trọng Đạo]" IconBundleDir="Icon/EquipIcon2.unity3d"
+    IconAtlasName="EquipIcon2" MapSpriteBundleDir="Resources/Item/MapSprite.unity3d" MapSpriteAtlasName="MapSprite" Kind="Mặt Nạ" QualityPrefix="0"
+    Category="1" Genre="1" Stack="1" DetailType="13" ParticularType="19" Level="3" SuiteID="0" Icon="qinling_mask" View="qinling_mask"
+    Intro="Dùng để đổi diện mạo, mang vào sẽ hóa thân thành Tây Môn Phi Tuyết." Help="" ObjID="32" BindType="1" Series="0" ReqLevel="0" CDType="0"
+    Price="0" ItemValue="250000000" MakeCost="-1" ResMale="258" ResFemale="258" FightPower="2" ScriptID="-1" DeductOnUse="false" BuffID="-1">
+    <ListReqProp ReqPropType="5" ReqPropValue="1" Index="2" />
+    <ListBasicProp BasicPropType="lifemax_p" BasicPropPA1Min="100" BasicPropPA1Max="120" BasicPropPA2Min="0" BasicPropPA2Max="0" BasicPropPA3Min="0"
+      BasicPropPA3Max="0" Index="1" />
+    <ListBasicProp BasicPropType="manamax_p" BasicPropPA1Min="50" BasicPropPA1Max="70" BasicPropPA2Min="0" BasicPropPA2Max="0" BasicPropPA3Min="0"
+      BasicPropPA3Max="0" Index="2" />
+    <ListBasicProp BasicPropType="lifemax_v" BasicPropPA1Min="5000" BasicPropPA1Max="8000" BasicPropPA2Min="0" BasicPropPA2Max="0" BasicPropPA3Min="0"
+      BasicPropPA3Max="0" Index="3" />
+    <ListBasicProp BasicPropType="damage_all_resist" BasicPropPA1Min="150" BasicPropPA1Max="250" BasicPropPA2Min="0" BasicPropPA2Max="0"
+      BasicPropPA3Min="0" BasicPropPA3Max="0" Index="4" />
+    <ListBasicProp BasicPropType="deadlystrikeenhance_r" BasicPropPA1Min="240" BasicPropPA1Max="480" BasicPropPA2Min="0" BasicPropPA2Max="0"
+      BasicPropPA3Min="0" BasicPropPA3Max="0" Index="5" />
+    <ListBasicProp BasicPropType="defencedeadlystrikedamagetrim" BasicPropPA1Min="40" BasicPropPA1Max="50" BasicPropPA2Min="0" BasicPropPA2Max="0"
+      BasicPropPA3Min="0" BasicPropPA3Max="0" Index="6" />
+    <ListBasicProp BasicPropType="allskill_v" BasicPropPA1Min="1" BasicPropPA1Max="1" BasicPropPA2Min="0" BasicPropPA2Max="0" BasicPropPA3Min="0"
+      BasicPropPA3Max="0" Index="7" />
+    <ListBasicProp BasicPropType="increase_output_damage_p" BasicPropPA1Min="5" BasicPropPA1Max="10" BasicPropPA2Min="0" BasicPropPA2Max="0"
+      BasicPropPA3Min="0" BasicPropPA3Max="0" Index="8" />
+    <ListBasicProp BasicPropType="reduce_received_damage_p" BasicPropPA1Min="10" BasicPropPA1Max="20" BasicPropPA2Min="0" BasicPropPA2Max="0"
+      BasicPropPA3Min="0" BasicPropPA3Max="0" Index="8" />
+  </ItemData>
+
+  <ItemData ItemID="15241" Name="Mặt nạ Ất Tỵ Khai Xuân" IconBundleDir="Icon/EquipIcon2.unity3d"
+    IconAtlasName="EquipIcon2" MapSpriteBundleDir="Resources/Item/MapSprite.unity3d" MapSpriteAtlasName="MapSprite" Kind="Mặt Nạ" QualityPrefix="0"
+    Category="2" Genre="1" Stack="1" DetailType="13" ParticularType="19" Level="1" SuiteID="0" Icon="qinling_mask" View="qinling_mask"
+    Intro="Vật phẩm hoạt động Ất Tỵ Khai Xuân, hoá trang hoà mình cùng không khí năm mới." Help="" ObjID="32" BindType="1" Series="0" ReqLevel="0" CDType="0"
+    Price="0" ItemValue="250000000" MakeCost="-1" ResMale="454" ResFemale="454" FightPower="2" ScriptID="-1" DeductOnUse="false" BuffID="-1">
+
+    <!-- cấp 0 -->
+    <ListBasicProp BasicPropType="lifemax_p" BasicPropPA1Min="10" BasicPropPA1Max="15" BasicPropPA2Min="0" BasicPropPA2Max="0" BasicPropPA3Min="0"
+      BasicPropPA3Max="0" Index="1" />
+    <ListBasicProp BasicPropType="manamax_p" BasicPropPA1Min="8" BasicPropPA1Max="12" BasicPropPA2Min="0" BasicPropPA2Max="0" BasicPropPA3Min="0"
+      BasicPropPA3Max="0" Index="2" />
+    <ListBasicProp BasicPropType="lifemax_v" BasicPropPA1Min="300" BasicPropPA1Max="500" BasicPropPA2Min="0" BasicPropPA2Max="0" BasicPropPA3Min="0"
+      BasicPropPA3Max="0" Index="3" />
+    <ListBasicProp BasicPropType="damage_all_resist" BasicPropPA1Min="25" BasicPropPA1Max="40" BasicPropPA2Min="0" BasicPropPA2Max="0"
+      BasicPropPA3Min="0" BasicPropPA3Max="0" Index="4" />
+
+    <!-- cấp 1 -->
+    <ListBasicProp BasicPropType="lifemax_p" BasicPropPA1Min="25" BasicPropPA1Max="30" BasicPropPA2Min="1" BasicPropPA2Max="1" BasicPropPA3Min="0"
+      BasicPropPA3Max="0" Index="5" />
+    <ListBasicProp BasicPropType="manamax_p" BasicPropPA1Min="12" BasicPropPA1Max="18" BasicPropPA2Min="1" BasicPropPA2Max="1" BasicPropPA3Min="0"
+      BasicPropPA3Max="0" Index="6" />
+    <ListBasicProp BasicPropType="lifemax_v" BasicPropPA1Min="800" BasicPropPA1Max="1500" BasicPropPA2Min="1" BasicPropPA2Max="1" BasicPropPA3Min="0"
+      BasicPropPA3Max="0" Index="7" />
+    <ListBasicProp BasicPropType="damage_all_resist" BasicPropPA1Min="40" BasicPropPA1Max="70" BasicPropPA2Min="1" BasicPropPA2Max="1"
+      BasicPropPA3Min="0" BasicPropPA3Max="0" Index="8" />
+    <ListBasicProp BasicPropType="deadlystrikeenhance_r" BasicPropPA1Min="60" BasicPropPA1Max="120" BasicPropPA2Min="1" BasicPropPA2Max="1"
+      BasicPropPA3Min="0" BasicPropPA3Max="0" Index="9" />
+
+    <!-- cấp 2 -->
+    <ListBasicProp BasicPropType="lifemax_p" BasicPropPA1Min="40" BasicPropPA1Max="45" BasicPropPA2Min="2" BasicPropPA2Max="2" BasicPropPA3Min="0"
+      BasicPropPA3Max="0" Index="10" />
+    <ListBasicProp BasicPropType="manamax_p" BasicPropPA1Min="18" BasicPropPA1Max="30" BasicPropPA2Min="2" BasicPropPA2Max="2" BasicPropPA3Min="0"
+      BasicPropPA3Max="0" Index="11" />
+    <ListBasicProp BasicPropType="lifemax_v" BasicPropPA1Min="1500" BasicPropPA1Max="3000" BasicPropPA2Min="2" BasicPropPA2Max="2" BasicPropPA3Min="0"
+      BasicPropPA3Max="0" Index="12" />
+    <ListBasicProp BasicPropType="damage_all_resist" BasicPropPA1Min="60" BasicPropPA1Max="100" BasicPropPA2Min="2" BasicPropPA2Max="2"
+      BasicPropPA3Min="0" BasicPropPA3Max="0" Index="13" />
+    <ListBasicProp BasicPropType="deadlystrikeenhance_r" BasicPropPA1Min="90" BasicPropPA1Max="180" BasicPropPA2Min="2" BasicPropPA2Max="2"
+      BasicPropPA3Min="0" BasicPropPA3Max="0" Index="14" />
+    <ListBasicProp BasicPropType="defencedeadlystrikedamagetrim" BasicPropPA1Min="12" BasicPropPA1Max="18" BasicPropPA2Min="2" BasicPropPA2Max="2"
+      BasicPropPA3Min="0" BasicPropPA3Max="0" Index="15" />
+
+    <!-- cấp 3 -->
+    <ListBasicProp BasicPropType="lifemax_p" BasicPropPA1Min="65" BasicPropPA1Max="80" BasicPropPA2Min="3" BasicPropPA2Max="3" BasicPropPA3Min="0"
+      BasicPropPA3Max="0" Index="16" />
+    <ListBasicProp BasicPropType="manamax_p" BasicPropPA1Min="25" BasicPropPA1Max="45" BasicPropPA2Min="3" BasicPropPA2Max="3" BasicPropPA3Min="0"
+      BasicPropPA3Max="0" Index="17" />
+    <ListBasicProp BasicPropType="lifemax_v" BasicPropPA1Min="2500" BasicPropPA1Max="4000" BasicPropPA2Min="3" BasicPropPA2Max="3" BasicPropPA3Min="0"
+      BasicPropPA3Max="0" Index="18" />
+    <ListBasicProp BasicPropType="damage_all_resist" BasicPropPA1Min="80" BasicPropPA1Max="150" BasicPropPA2Min="3" BasicPropPA2Max="3"
+      BasicPropPA3Min="0" BasicPropPA3Max="0" Index="19" />
+    <ListBasicProp BasicPropType="deadlystrikeenhance_r" BasicPropPA1Min="120" BasicPropPA1Max="240" BasicPropPA2Min="3" BasicPropPA2Max="3"
+      BasicPropPA3Min="0" BasicPropPA3Max="0" Index="20" />
+    <ListBasicProp BasicPropType="defencedeadlystrikedamagetrim" BasicPropPA1Min="19" BasicPropPA1Max="25" BasicPropPA2Min="3" BasicPropPA2Max="3"
+      BasicPropPA3Min="0" BasicPropPA3Max="0" Index="21" />
+    <ListBasicProp BasicPropType="reduce_received_damage_p" BasicPropPA1Min="3" BasicPropPA1Max="8" BasicPropPA2Min="3" BasicPropPA2Max="3" BasicPropPA3Min="0"
+      BasicPropPA3Max="0" Index="22" />
+
+    <!-- cấp 4 -->
+    <ListBasicProp BasicPropType="lifemax_p" BasicPropPA1Min="85" BasicPropPA1Max="100" BasicPropPA2Min="4" BasicPropPA2Max="4" BasicPropPA3Min="0"
+      BasicPropPA3Max="0" Index="23" />
+    <ListBasicProp BasicPropType="manamax_p" BasicPropPA1Min="40" BasicPropPA1Max="60" BasicPropPA2Min="4" BasicPropPA2Max="4" BasicPropPA3Min="0"
+      BasicPropPA3Max="0" Index="24" />
+    <ListBasicProp BasicPropType="lifemax_v" BasicPropPA1Min="4000" BasicPropPA1Max="6000" BasicPropPA2Min="4" BasicPropPA2Max="4" BasicPropPA3Min="0"
+      BasicPropPA3Max="0" Index="25" />
+    <ListBasicProp BasicPropType="damage_all_resist" BasicPropPA1Min="120" BasicPropPA1Max="200" BasicPropPA2Min="4" BasicPropPA2Max="4"
+      BasicPropPA3Min="0" BasicPropPA3Max="0" Index="26" />
+    <ListBasicProp BasicPropType="deadlystrikeenhance_r" BasicPropPA1Min="180" BasicPropPA1Max="360" BasicPropPA2Min="4" BasicPropPA2Max="4"
+      BasicPropPA3Min="0" BasicPropPA3Max="0" Index="27" />
+    <ListBasicProp BasicPropType="defencedeadlystrikedamagetrim" BasicPropPA1Min="30" BasicPropPA1Max="45" BasicPropPA2Min="4" BasicPropPA2Max="4"
+      BasicPropPA3Min="0" BasicPropPA3Max="0" Index="28" />
+    <ListBasicProp BasicPropType="allskill_v" BasicPropPA1Min="1" BasicPropPA1Max="1" BasicPropPA2Min="4" BasicPropPA2Max="4" BasicPropPA3Min="0"
+      BasicPropPA3Max="0" Index="29" />
+    <ListBasicProp BasicPropType="reduce_received_damage_p" BasicPropPA1Min="8" BasicPropPA1Max="15" BasicPropPA2Min="4" BasicPropPA2Max="4"
+      BasicPropPA3Min="0" BasicPropPA3Max="0" Index="30" />
+
+    <!-- cấp 5 -->
+    <ListBasicProp BasicPropType="lifemax_p" BasicPropPA1Min="100" BasicPropPA1Max="120" BasicPropPA2Min="5" BasicPropPA2Max="5" BasicPropPA3Min="0"
+      BasicPropPA3Max="0" Index="31" />
+    <ListBasicProp BasicPropType="manamax_p" BasicPropPA1Min="50" BasicPropPA1Max="70" BasicPropPA2Min="5" BasicPropPA2Max="5" BasicPropPA3Min="0"
+      BasicPropPA3Max="0" Index="32" />
+    <ListBasicProp BasicPropType="lifemax_v" BasicPropPA1Min="5000" BasicPropPA1Max="8000" BasicPropPA2Min="5" BasicPropPA2Max="5" BasicPropPA3Min="0"
+      BasicPropPA3Max="0" Index="33" />
+    <ListBasicProp BasicPropType="damage_all_resist" BasicPropPA1Min="150" BasicPropPA1Max="250" BasicPropPA2Min="5" BasicPropPA2Max="5"
+      BasicPropPA3Min="0" BasicPropPA3Max="0" Index="34" />
+    <ListBasicProp BasicPropType="deadlystrikeenhance_r" BasicPropPA1Min="240" BasicPropPA1Max="480" BasicPropPA2Min="5" BasicPropPA2Max="5"
+      BasicPropPA3Min="0" BasicPropPA3Max="0" Index="35" />
+    <ListBasicProp BasicPropType="defencedeadlystrikedamagetrim" BasicPropPA1Min="40" BasicPropPA1Max="50" BasicPropPA2Min="5" BasicPropPA2Max="5"
+      BasicPropPA3Min="0" BasicPropPA3Max="0" Index="36" />
+    <ListBasicProp BasicPropType="allskill_v" BasicPropPA1Min="1" BasicPropPA1Max="1" BasicPropPA2Min="5" BasicPropPA2Max="5" BasicPropPA3Min="0"
+      BasicPropPA3Max="0" Index="37" />
+    <ListBasicProp BasicPropType="increase_output_damage_p" BasicPropPA1Min="5" BasicPropPA1Max="10" BasicPropPA2Min="5" BasicPropPA2Max="5"
+      BasicPropPA3Min="0" BasicPropPA3Max="0" Index="38" />
+    <ListBasicProp BasicPropType="reduce_received_damage_p" BasicPropPA1Min="10" BasicPropPA1Max="20" BasicPropPA2Min="5" BasicPropPA2Max="5"
+      BasicPropPA3Min="0" BasicPropPA3Max="0" Index="39" />
+  </ItemData>
+
+  <!-- bổ sung thêm 2 cấp cường hoá cho mặt nạ, phải tạo item mới do chỉ số được gen ngay khi tạo item cũ, không có chỉ số cường hoá mới -->
+  <ItemData ItemID="15260" Name="Mặt nạ Ất Tỵ Khai Xuân" IconBundleDir="Icon/EquipIcon2.unity3d"
+    IconAtlasName="EquipIcon2" MapSpriteBundleDir="Resources/Item/MapSprite.unity3d" MapSpriteAtlasName="MapSprite" Kind="Mặt Nạ" QualityPrefix="0"
+    Category="2" Genre="1" Stack="1" DetailType="13" ParticularType="19" Level="1" SuiteID="0" Icon="qinling_mask" View="qinling_mask"
+    Intro="Vật phẩm hoạt động Ất Tỵ Khai Xuân, hoá trang hoà mình cùng không khí năm mới." Help="" ObjID="32" BindType="1" Series="0" ReqLevel="0" CDType="0"
+    Price="0" ItemValue="250000000" MakeCost="-1" ResMale="454" ResFemale="454" FightPower="2" ScriptID="-1" DeductOnUse="false" BuffID="-1">
+
+    <!-- cấp 6 -->
+    <ListBasicProp BasicPropType="lifemax_p" BasicPropPA1Min="120" BasicPropPA1Max="150" BasicPropPA2Min="6" BasicPropPA2Max="6" BasicPropPA3Min="0"
+      BasicPropPA3Max="0" Index="1" />
+    <ListBasicProp BasicPropType="manamax_p" BasicPropPA1Min="70" BasicPropPA1Max="90" BasicPropPA2Min="6" BasicPropPA2Max="6" BasicPropPA3Min="0"
+      BasicPropPA3Max="0" Index="2" />
+    <ListBasicProp BasicPropType="lifemax_v" BasicPropPA1Min="6500" BasicPropPA1Max="10000" BasicPropPA2Min="6" BasicPropPA2Max="6" BasicPropPA3Min="0"
+      BasicPropPA3Max="0" Index="3" />
+    <ListBasicProp BasicPropType="damage_all_resist" BasicPropPA1Min="200" BasicPropPA1Max="300" BasicPropPA2Min="6" BasicPropPA2Max="6"
+      BasicPropPA3Min="0" BasicPropPA3Max="0" Index="4" />
+    <ListBasicProp BasicPropType="deadlystrikeenhance_r" BasicPropPA1Min="360" BasicPropPA1Max="600" BasicPropPA2Min="6" BasicPropPA2Max="6"
+      BasicPropPA3Min="0" BasicPropPA3Max="0" Index="5" />
+    <ListBasicProp BasicPropType="defencedeadlystrikedamagetrim" BasicPropPA1Min="45" BasicPropPA1Max="60" BasicPropPA2Min="6" BasicPropPA2Max="6"
+      BasicPropPA3Min="0" BasicPropPA3Max="0" Index="6" />
+    <ListBasicProp BasicPropType="allskill_v" BasicPropPA1Min="1" BasicPropPA1Max="1" BasicPropPA2Min="6" BasicPropPA2Max="6" BasicPropPA3Min="0"
+      BasicPropPA3Max="0" Index="7" />
+    <ListBasicProp BasicPropType="increase_output_damage_p" BasicPropPA1Min="5" BasicPropPA1Max="10" BasicPropPA2Min="6" BasicPropPA2Max="6"
+      BasicPropPA3Min="0" BasicPropPA3Max="0" Index="8" />
+    <ListBasicProp BasicPropType="reduce_received_damage_p" BasicPropPA1Min="10" BasicPropPA1Max="20" BasicPropPA2Min="6" BasicPropPA2Max="6"
+      BasicPropPA3Min="0" BasicPropPA3Max="0" Index="9" />
+    <ListBasicProp BasicPropType="allseriesstateresistrate" BasicPropPA1Min="100" BasicPropPA1Max="100" BasicPropPA2Min="6" BasicPropPA2Max="6"
+      BasicPropPA3Min="0" BasicPropPA3Max="0" Index="10" />
+
+    <!-- cấp 7 -->
+    <ListBasicProp BasicPropType="lifemax_p" BasicPropPA1Min="140" BasicPropPA1Max="160" BasicPropPA2Min="7" BasicPropPA2Max="7" BasicPropPA3Min="0"
+      BasicPropPA3Max="0" Index="11" />
+    <ListBasicProp BasicPropType="manamax_p" BasicPropPA1Min="80" BasicPropPA1Max="100" BasicPropPA2Min="7" BasicPropPA2Max="7" BasicPropPA3Min="0"
+      BasicPropPA3Max="0" Index="12" />
+    <ListBasicProp BasicPropType="lifemax_v" BasicPropPA1Min="8000" BasicPropPA1Max="12000" BasicPropPA2Min="7" BasicPropPA2Max="7" BasicPropPA3Min="0"
+      BasicPropPA3Max="0" Index="13" />
+    <ListBasicProp BasicPropType="damage_all_resist" BasicPropPA1Min="250" BasicPropPA1Max="400" BasicPropPA2Min="7" BasicPropPA2Max="7"
+      BasicPropPA3Min="0" BasicPropPA3Max="0" Index="14" />
+    <ListBasicProp BasicPropType="deadlystrikeenhance_r" BasicPropPA1Min="480" BasicPropPA1Max="720" BasicPropPA2Min="7" BasicPropPA2Max="7"
+      BasicPropPA3Min="0" BasicPropPA3Max="0" Index="15" />
+    <ListBasicProp BasicPropType="defencedeadlystrikedamagetrim" BasicPropPA1Min="50" BasicPropPA1Max="70" BasicPropPA2Min="7" BasicPropPA2Max="7"
+      BasicPropPA3Min="0" BasicPropPA3Max="0" Index="16" />
+    <ListBasicProp BasicPropType="allskill_v" BasicPropPA1Min="1" BasicPropPA1Max="1" BasicPropPA2Min="7" BasicPropPA2Max="7" BasicPropPA3Min="0"
+      BasicPropPA3Max="0" Index="17" />
+    <ListBasicProp BasicPropType="increase_output_damage_p" BasicPropPA1Min="10" BasicPropPA1Max="15" BasicPropPA2Min="7" BasicPropPA2Max="7"
+      BasicPropPA3Min="0" BasicPropPA3Max="0" Index="18" />
+    <ListBasicProp BasicPropType="reduce_received_damage_p" BasicPropPA1Min="15" BasicPropPA1Max="25" BasicPropPA2Min="7" BasicPropPA2Max="7"
+      BasicPropPA3Min="0" BasicPropPA3Max="0" Index="19" />
+    <ListBasicProp BasicPropType="allseriesstateresistrate" BasicPropPA1Min="200" BasicPropPA1Max="200" BasicPropPA2Min="7" BasicPropPA2Max="7"
+      BasicPropPA3Min="0" BasicPropPA3Max="0" Index="20" />
+    </ItemData>
+  <!-- End -->
+</ArrayOfItemData>

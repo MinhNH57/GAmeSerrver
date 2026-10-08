@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RechargeAward>
+    <!-- ưu đãi nạp đơn -->
+    <DayRecharge TimeKey="DayRecharge" BonusCount="5">
+        <RechargeAward ID="0" KNB="200" DailyKey="2100007" ItemBox="20458" BonusItem="20857"/>
+        <RechargeAward ID="1" KNB="500" DailyKey="2100008" ItemBox="20459" BonusItem="20858"/>
+        <RechargeAward ID="2" KNB="1000" DailyKey="2100009" ItemBox="20460" BonusItem="20859"/>
+        <RechargeAward ID="3" KNB="2000" DailyKey="2100010" ItemBox="20461" BonusItem="20860"/>
+        <RechargeAward ID="4" KNB="5000" DailyKey="2100011" ItemBox="20462" BonusItem="20861"/>
+        <RechargeAward ID="5" KNB="10000" DailyKey="2100012" ItemBox="20463" BonusItem="20862"/>
+        <RechargeAward ID="6" KNB="20000" DailyKey="2100013" ItemBox="20631" BonusItem="20863"/>
+        <RechargeAward ID="7" KNB="50000" DailyKey="2100015" ItemBox="20713" BonusItem="20864"/>
+    </DayRecharge>
+    <!-- tích lũy chuyển xu -->
+    <AccumulateRecharge TimeKey="AccumulateRecharge" BonusCount="5">
+        <RechargeAward ID="0" KNB="200" DailyKey="2100014" ItemBox="20541" BonusItem="20541"/>
+        <RechargeAward ID="1" KNB="1000" DailyKey="2100016" ItemBox="20542" BonusItem="20542"/>
+        <RechargeAward ID="2" KNB="2500" DailyKey="2100017" ItemBox="20543" BonusItem="20543"/>
+        <RechargeAward ID="3" KNB="5000" DailyKey="2100018" ItemBox="20544" BonusItem="20544"/>
+        <RechargeAward ID="4" KNB="10000" DailyKey="2100019" ItemBox="20545" BonusItem="20545"/>
+        <RechargeAward ID="5" KNB="20000" DailyKey="2100020" ItemBox="20546" BonusItem="20546"/>
+        <RechargeAward ID="6" KNB="50000" DailyKey="2100021" ItemBox="20712" BonusItem="20935"/>
+    </AccumulateRecharge>
+</RechargeAward>

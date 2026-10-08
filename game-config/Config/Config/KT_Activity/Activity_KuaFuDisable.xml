@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+	tương tự file Activity.xml
+	định nghĩa các hoạt động chỉ có trên các máy chủ chưa mở liên server
+	nếu hoạt động có id trùng nhau thì ưu tiên hoạt động được khai báo ở file này
+-->
+
+<Activities xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<!-- Tần Lăng -->
+	<Activity ID="400" Name="Khai mở Tần Lăng" Type="1" Time="07;00" DurationTicks="61200000" CoreScript="EmperorTomb" />
+	<Activity ID="401" Name="Thông báo xuất hiện Boss Tần Thủy Hoàng" Type="1" Time="15;00_22;00" DurationTicks="60000" CoreScript="EmperorTomb" />
+	<Activity ID="402" Name="Đóng Tần Lăng" Type="1" Time="23;59" DurationTicks="60000" CoreScript="EmperorTomb" />
+	<Activity ID="403" Name="Đăng ký Tần Lăng" Type="1" Time="06;59" DurationTicks="61200000" CoreScript="EmperorTomb" />
+	
+	<!-- Bạch Hổ Đường -->
+	<Activity ID="100" Name="Chuẩn bị Bạch Hổ Đường" Type="1" Time="09;50_13;50_16;50_19:50" DurationTicks="590000" CoreScript="BaiHuTang" />
+	
+	<Activity ID="101" Name="Bắt đầu Bạch Hổ Đường - 1 (sơ)" Type="1" Time="10;00_14;00_17;00_20:00" DurationTicks="1200000" CoreScript="BaiHuTang" />
+	<Activity ID="102" Name="Bắt đầu Bạch Hổ Đường - 2 (sơ)" Type="1" Time="10;10_14;10_17;10_20:10" DurationTicks="1200000" CoreScript="BaiHuTang" />
+	<Activity ID="103" Name="Bắt đầu Bạch Hổ Đường - 3 (sơ)" Type="1" Time="10;20_14;20_17;20_20:20" DurationTicks="1200000" CoreScript="BaiHuTang" />
+	
+	<Activity ID="106" Name="Bắt đầu Bạch Hổ Đường - 1 (cao)" Type="1" Time="10;00_14;00_17;00_20:00" DurationTicks="1200000" CoreScript="BaiHuTang" />
+	<Activity ID="107" Name="Bắt đầu Bạch Hổ Đường - 2 (cao)" Type="1" Time="10;10_14;10_17;10_20:10" DurationTicks="1200000" CoreScript="BaiHuTang" />
+	<Activity ID="108" Name="Bắt đầu Bạch Hổ Đường - 3 (cao)" Type="1" Time="10;20_14;20_17;20_20:20" DurationTicks="1200000" CoreScript="BaiHuTang" />
+	
+	<Activity ID="104" Name="Kết thúc Bạch Hổ Đường" Type="1" Time="10;40_14;40_17;40_20:40" DurationTicks="0" CoreScript="BaiHuTang" />
+	<!-- End -->
+</Activities>

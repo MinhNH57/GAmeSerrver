@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfPropInfo xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" CanRevice="false">
+    <PropInfo Name="lifemax_v" Point1="150" Point2="0" Title="Diên Dương"/>
+    <PropInfo Name="fastlifereplenish_v" Point1="7" Point2="0" Title="Cường Thân"/>
+    <PropInfo Name="damage_all_resist" Point1="10" Point2="0" Title="Vô Song"/>
+    <PropInfo Name="skilldamageptrim" Point1="0.5" Point2="0" Title="Tinh Võ"/>
+    <PropInfo Name="defencedeadlystrikedamagetrim" Point1="2" Point2="0" Title="Tạ Kinh"/>
+    <PropInfo Name="deadlystrikedamageenhance_p" Point1="2" Point2="0" Title="Tuyệt Sát"/>
+    <PropInfo Name="allseriesstateresisttime" Point1="5" Point2="0" Title="Bá Thể"/>
+    <PropInfo Name="allseriesstateresistrate" Point1="5" Point2="0" Title="Thực Cốt"/>
+    <PropInfo Name="adddefense_v" Point1="15" Point2="0" Title="Thanh Phong"/>
+    <PropInfo Name="ignoredefenseenhance_v" Point1="15" Point2="0" Title="Truy Ảnh"/>
+    
+    <!-- thuộc tính anh hùng-->
+
+    <PropInfo Name="life_mana_replenish_p" Point1="2" Point2="1" Title="Hồi Xuân"/>
+    <PropInfo Name="life_mana_max_p" Point1="7" Point2="3" Title="Ích Thọ"/>
+    <PropInfo Name="melee_range_damagereturn_p" Point1="0.5" Point2="0.5" Title="Phản Chấn"/>
+    <PropInfo Name="deadlystrikeenhance_r" Point1="10" Point2="0" Title="Hội Tâm"/>
+    <PropInfo Name="ignoreskill" Point1="0.5" Point2="0" Title="Linh động"/>
+    <PropInfo Name="ignoreresist_p" Point1="0.5" Point2="0" Title="Phá triền"/>
+    <PropInfo Name="reduce_received_damage_p" Point1="0.5" Point2="0" Title="Hộ Thân"/>
+    <PropInfo Name="increase_output_damage_p" Point1="0.5" Point2="0" Title="Man lực"/>
+
+</ArrayOfPropInfo>

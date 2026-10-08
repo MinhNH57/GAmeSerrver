@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<QuestEvent TimeKey="QuestEvent">
+    <Quest ID="1" Title="Tiêu Dao Cốc" Description="Tham gia 01 lần Tiêu Dao Cốc" Goal="1" EventType = "10007" ExtraParams="-1">
+        <Item ID="20214" Count="1" />
+    </Quest>
+    <Quest ID="2" Title="Bạch Hổ Đường" Description="Tham gia 01 lần Bạch Hổ Đường ( Sơ hoặc Cao )" Goal="1" EventType = "10008" ExtraParams="-1"> 
+      <Item ID="20214" Count="1" />
+    </Quest>
+    <Quest ID="3" Title="Vượt ải gia tộc" Description="Tham gia 01 lần vượt ải gia tộc" Goal="1" EventType = "10017" ExtraParams="-1">
+      <Item ID="20214" Count="1" />
+    </Quest>
+    <Quest ID="4" Title="Hạ gục boss" Description="Tổ đội 01 lần tham gia hạ gục boss võ lâm cao thủ" Goal="1" EventType = "11" ExtraParams="2934:2935:2936:2937:2938:2978:2979:2980:2981:2982:2973:2969:2974:2971:2972:2970">
+      <Item ID="20214" Count="1" />
+    </Quest>
+    <Quest ID="5" Title="Bạch Hổ Đường liên server" Description="Tham gia 01 lần Bạch Hổ Đường liên server ( Sơ hoặc Cao )" Goal="1" EventType = "10008" ExtraParams="1"> 
+      <Item ID="20214" Count="1" />
+    </Quest>
+    <Quest ID="6" Title="Hạ gục người chơi khác" Description="Hạ gục 20 người chơi khác tại bản đồ Tống Kim (Dương Châu / Phượng Tường)" Goal="20" EventType = "10022" ExtraParams="-1">
+      <Item ID="20214" Count="1" />
+    </Quest>
+    <Quest ID="7" Title="Tần Lăng liên server" Description="Tham gia 01 lần Tần Lăng liên server" Goal="1" EventType = "10034" ExtraParams="1">
+      <Item ID="20214" Count="1" />
+    </Quest>
+    <Quest ID="8" Title="Tiêu diệt quái vật" Description="Tiêu Diệt 5.000 quái vật tại bản đồ dã ngoại" Goal="5000" EventType = "11" ExtraParams="-1">
+      <Item ID="20214" Count="1" />
+    </Quest>
+    <Quest ID="9" Title="Tiêu diệt quái vật" Description="Tiêu Diệt 10.000 quái vật tại bản đồ dã ngoại" Goal="10000" EventType = "11" ExtraParams="-1">
+      <Item ID="20214" Count="1" />
+    </Quest>
+    <Quest ID="10" Title="Tiêu diệt quái vật" Description="Tiêu Diệt 25.000 quái vật tại bản đồ dã ngoại" Goal="25000" EventType = "11" ExtraParams="-1">
+      <Item ID="20214" Count="1" />
+    </Quest>
+    <Quest ID="11" Title="Tiêu diệt quái vật" Description="Tiêu Diệt 50.000 quái vật tại bản đồ dã ngoại" Goal="50000" EventType = "11" ExtraParams="-1">
+      <Item ID="20214" Count="2" />
+    </Quest>
+    <Quest ID="12" Title="Tiêu diệt quái vật" Description="Tiêu Diệt 100.000 quái vật tại bản đồ dã ngoại" Goal="100000" EventType = "11" ExtraParams="-1">
+      <Item ID="20214" Count="3" />
+    </Quest>
+    <Quest ID="13" Title="Tham gia Bí Cảnh" Description="Tham gia 01 lần Bí Cảnh" Goal="1" EventType = "10010" ExtraParams="-1">
+      <Item ID="20214" Count="1" />
+    </Quest>
+    <Quest ID="14" Title="Tham gia Bí Cảnh" Description="Tham gia 02 lần Bí Cảnh" Goal="2" EventType = "10010" ExtraParams="-1">
+      <Item ID="20214" Count="1" />
+    </Quest>
+    <Quest ID="15" Title="Tham gia Bí Cảnh" Description="Tham gia 03 lần Bí Cảnh" Goal="3" EventType = "10010" ExtraParams="-1">
+      <Item ID="20214" Count="1" />
+    </Quest>
+    <Quest ID="16" Title="Tham gia Bí Cảnh" Description="Tham gia 04 lần Bí Cảnh" Goal="4" EventType = "10010" ExtraParams="-1">
+      <Item ID="20214" Count="1" />
+    </Quest>
+    <Quest ID="17" Title="Sử dụng Tinh Khí Tán" Description="Sử dụng 05 lần Tinh Khí Tán (500)" Goal="5" EventType = "10035" ExtraParams="348">
+      <Item ID="20214" Count="1" />
+    </Quest>
+    <Quest ID="18" Title="Sử dụng Hoạt Khí Tán" Description="Sử dụng 05 lần Hoạt Khí Tán (500)" Goal="5" EventType = "10035" ExtraParams="351">
+      <Item ID="20214" Count="1" />
+    </Quest>
+    <Quest ID="19" Title="Sử dụng Tinh Khí Tán" Description="Sử dụng 05 lần Tinh Khí Tán (1000)" Goal="5" EventType = "10035" ExtraParams="349">
+      <Item ID="20214" Count="1" />
+    </Quest>
+    <Quest ID="20" Title="Sử dụng Hoạt Khí Tán" Description="Sử dụng 05 lần Hoạt Khí Tán (1000)" Goal="5" EventType = "10035" ExtraParams="352">
+      <Item ID="20214" Count="1" />
+    </Quest>
+    <Quest ID="21" Title="Tiêu diệt Tà Hồn Sư" Description="Tiêu Diệt Tinh Anh - Tà Hồn Sư (Tần Lăng) 01 Lần" Goal="1" EventType = "11" ExtraParams="2429">
+      <Item ID="20214" Count="1" />
+    </Quest>
+    <Quest ID="22" Title="Tiêu diệt Quỷ Mẫu" Description="Tiêu Diệt Tinh Anh - Quỷ Mẫu (Tần Lăng) 01 Lần" Goal="1" EventType = "11" ExtraParams="2432">
+      <Item ID="20214" Count="3" />
+    </Quest>
+    <Quest ID="23" Title="Tiêu diệt Tần Thủy Hoàng" Description="Tiêu Diệt Tần Thủy Hoàng (Tần Lăng) - 01 lần" Goal="1" EventType = "11" ExtraParams="7384">
+      <Item ID="20214" Count="3" />
+    </Quest>
+    <Quest ID="24" Title="Tiêu diệt Hộ Đồ Sứ" Description="Tiêu Diệt Hộ Đồ Sứ - 01 lần" Goal="1" EventType = "11" ExtraParams="2686:2688:3688">
+      <Item ID="20214" Count="1" />
+    </Quest>
+</QuestEvent>

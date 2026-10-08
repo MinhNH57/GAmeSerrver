@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ThienPhuc>
+    <Config
+        Activate="true"
+        Name="Thiên Phúc"
+        StartTime="2026-08-01 00:00:00"
+        EndTime="2026-09-09 23:59:59"
+        MinLevel="50"
+        MinNumber="0"
+        MaxNumber="10"
+        DailyLimit="10"
+        RequiredItemID="1234"
+        RequiredItemCount="1" />
+
+    <Rewards>
+        <Reward ItemID="387"  Quantity="2" Binding="1" />
+        <Reward ItemID="3459" Quantity="1" Binding="1" />
+        <Reward ItemID="3147" Quantity="1" Binding="1" />
+        <Reward ItemID="20378" Quantity="2" Binding="1" />
+        <Reward ItemID="389" Quantity="1" Binding="1" />
+        <Reward ItemID="337" Quantity="1" Binding="1" />
+    </Rewards>
+</ThienPhuc>

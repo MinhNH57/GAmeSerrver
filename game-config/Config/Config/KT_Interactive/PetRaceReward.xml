@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PetRaceReward TimeKey="PetRace">
+
+    <Reward Name="100 vạn bạc khóa">
+        <Item Id="190" Count="1" />
+        <Item Id="20051" Count="15" />
+        <Item Id="1054" Count="1" />
+        <Item Id="600" Count="1" />
+        <ItemLose Id="189" Count="1" />
+        <ItemLose Id="20051" Count="5" />
+        <ItemLose Id="600" Count="1" />
+    </Reward>
+
+    <Reward Name="150 KNB">
+        <Item Id="190" Count="2" />
+        <Item Id="20344" Count="10" />
+        <Item Id="1026" Count="4" />
+        <Item Id="20538" Count="1" />
+        <ItemLose Id="189" Count="2" />
+        <ItemLose Id="20344" Count="3" />
+        <ItemLose Id="1057" Count="3" />
+        <ItemLose Id="20537" Count="1" />
+    </Reward>
+
+    <Reward Name="1000 KNB">
+        <Item Id="191" Count="3" />
+        <Item Id="20344" Count="30" />
+        <Item Id="1026" Count="15" />
+        <Item Id="20538" Count="3" />
+        <ItemLose Id="191" Count="1" />
+        <ItemLose Id="20344" Count="10" />
+        <ItemLose Id="1026" Count="5" />
+        <ItemLose Id="20538" Count="1" />
+    </Reward>
+
+</PetRaceReward>

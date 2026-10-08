@@ -1,0 +1,280 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FactionDef xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+            xmlns:xsd="http://www.w3.org/2001/XMLSchema" MAX_ATTEND_PLAYER="200" MIN_ATTEND_PLAYER="4" MIN_LEVEL="50">
+    <!-- Ngày nào trong tuần có sự kiện-->
+    <OPEN_WEEK_DATE>1</OPEN_WEEK_DATE>
+    <OPEN_WEEK_DATE>5</OPEN_WEEK_DATE>
+   
+   <SeriesDate>1</SeriesDate>
+
+
+    <!-- Thời gian bắt đầu sự kiện-->
+    <TimeBattle Hours="19" Minute="00"/>
+
+    <!-- Tọa độ vào map -->
+    <GoIn X="3858" Y="2228"/>
+
+
+    <!-- Danh sách các map diễn ra sự kiện-->
+    <MapFactionList BattleID="1" MapId="241" Type="Faction"/>
+    <MapFactionList BattleID="2" MapId="242" Type="Faction"/>
+    <MapFactionList BattleID="3" MapId="243" Type="Faction"/>
+    <MapFactionList BattleID="4" MapId="244" Type="Faction"/>
+    <MapFactionList BattleID="5" MapId="245" Type="Faction"/>
+    <MapFactionList BattleID="6" MapId="246" Type="Faction"/>
+    <MapFactionList BattleID="7" MapId="247" Type="Faction"/>
+    <MapFactionList BattleID="8" MapId="248" Type="Faction"/>
+    <MapFactionList BattleID="9" MapId="249" Type="Faction"/>
+    <MapFactionList BattleID="10" MapId="250" Type="Faction"/>
+    <MapFactionList BattleID="11" MapId="251" Type="Faction"/>
+    <MapFactionList BattleID="12" MapId="252" Type="Faction"/>
+
+   <MapFactionList BattleID="1" MapId="257" Type="Series"/>
+   <MapFactionList BattleID="2" MapId="258" Type="Series"/>
+   <MapFactionList BattleID="3" MapId="259" Type="Series"/>
+   <MapFactionList BattleID="4" MapId="260" Type="Series"/>
+   <MapFactionList BattleID="5" MapId="261" Type="Series"/>
+
+
+    <!-- Config tọa độ cho các lôi đài-->
+    <TotalArena ArenaID="0" PosX="5303" PosY="3083"/>
+    <TotalArena ArenaID="1" PosX="5855" PosY="4271"/>
+    <TotalArena ArenaID="2" PosX="4284" PosY="1707"/>
+    <TotalArena ArenaID="3" PosX="7500" PosY="3442"/>
+    <TotalArena ArenaID="4" PosX="2596" PosY="2524"/>
+    <TotalArena ArenaID="5" PosX="4400" PosY="5000"/>
+    <TotalArena ArenaID="6" PosX="5715" PosY="954"/>
+    <TotalArena ArenaID="7" PosX="8905" PosY="2723"/>
+    <TotalArena ArenaID="8" PosX="1207" PosY="3279"/>
+
+    <!-- Randomo tọa độ cờ -->
+    <RandomFlag X="528" Y="3041"/>
+    <RandomFlag X="1526" Y="3795"/>
+    <RandomFlag X="2047" Y="4012"/>
+    <RandomFlag X="2557" Y="3705"/>
+    <RandomFlag X="3201" Y="3942"/>
+    <RandomFlag X="3417" Y="4661"/>
+    <RandomFlag X="3958" Y="4359"/>
+    <RandomFlag X="4935" Y="4796"/>
+    <RandomFlag X="4689" Y="4401"/>
+    <RandomFlag X="4871" Y="3955"/>
+    <RandomFlag X="5370" Y="3925"/>
+    <RandomFlag X="6095" Y="3559"/>
+    <RandomFlag X="6703" Y="3284"/>
+    <RandomFlag X="7414" Y="2943"/>
+    <RandomFlag X="8212" Y="3344"/>
+    <RandomFlag X="7316" Y="3785"/>
+    <RandomFlag X="6403" Y="4314"/>
+    <RandomFlag X="4213" Y="3595"/>
+    <RandomFlag X="3394" Y="3211"/>
+    <RandomFlag X="2854" Y="2893"/>
+    <RandomFlag X="2525" Y="3322"/>
+    <RandomFlag X="1843" Y="2423"/>
+    <RandomFlag X="2615" Y="1988"/>
+    <RandomFlag X="3265" Y="2194"/>
+    <RandomFlag X="3372" Y="2720"/>
+    <RandomFlag X="3990" Y="2495"/>
+    <RandomFlag X="3612" Y="2114"/>
+    <RandomFlag X="4565" Y="2150"/>
+    <RandomFlag X="5272" Y="2038"/>
+    <RandomFlag X="4065" Y="1260"/>
+    <RandomFlag X="3318" Y="1651"/>
+    <RandomFlag X="5845" Y="2187"/>
+    <RandomFlag X="6609" Y="2576"/>
+    <RandomFlag X="7773" Y="2838"/>
+    <RandomFlag X="8223" Y="2464"/>
+    <RandomFlag X="7886" Y="2255"/>
+    <RandomFlag X="8118" Y="1869"/>
+    <RandomFlag X="8932" Y="2232"/>
+    <RandomFlag X="9665" Y="2575"/>
+    <RandomFlag X="8343" Y="2255"/>
+    <RandomFlag X="7115" Y="1988"/>
+    <RandomFlag X="6687" Y="1747"/>
+    <RandomFlag X="6934" Y="1433"/>
+    <RandomFlag X="7604" Y="1514"/>
+    <RandomFlag X="6558" Y="1092"/>
+    <RandomFlag X="5593" Y="1241"/>
+    <RandomFlag X="4858" Y="802"/>
+    <RandomFlag X="5436" Y="457"/>
+    <RandomFlag X="5644" Y="1755"/>
+
+
+    <!-- Random tọa độ BOX -->
+    <!-- 5 -->
+    <Box ArenaID="5">
+        <RandomBox X="3981" Y="4711"/>
+        <RandomBox X="4251" Y="4658"/>
+        <RandomBox X="4545" Y="4658"/>
+        <RandomBox X="4730" Y="4753"/>
+        <RandomBox X="4905" Y="4851"/>
+        <RandomBox X="5035" Y="4984"/>
+        <RandomBox X="4816" Y="5101"/>
+        <RandomBox X="4567" Y="5239"/>
+        <RandomBox X="4234" Y="5233"/>
+        <RandomBox X="4016" Y="5117"/>
+        <RandomBox X="3780" Y="4882"/>
+    </Box>
+    <!-- 8 -->
+    <Box ArenaID="8">
+        <RandomBox X="826" Y="2995"/>
+        <RandomBox X="1060" Y="2928"/>
+        <RandomBox X="1339" Y="2953"/>
+        <RandomBox X="1573" Y="3063"/>
+        <RandomBox X="1792" Y="3190"/>
+        <RandomBox X="1689" Y="3354"/>
+        <RandomBox X="1446" Y="3489"/>
+        <RandomBox X="1243" Y="3596"/>
+        <RandomBox X="1000" Y="3522"/>
+        <RandomBox X="770" Y="3429"/>
+        <RandomBox X="564" Y="3318"/>
+        <RandomBox X="639" Y="3163"/>
+    </Box>
+    <!-- 6 -->
+    <Box ArenaID="6">
+        <RandomBox X="5301" Y="650"/>
+        <RandomBox X="5566" Y="594"/>
+        <RandomBox X="5883" Y="640"/>
+        <RandomBox X="6100" Y="757"/>
+        <RandomBox X="6300" Y="872"/>
+        <RandomBox X="6164" Y="1039"/>
+        <RandomBox X="5946" Y="1172"/>
+        <RandomBox X="5701" Y="1250"/>
+        <RandomBox X="5434" Y="1180"/>
+        <RandomBox X="5208" Y="1062"/>
+        <RandomBox X="5090" Y="854"/>
+    </Box>
+    <!-- 7 -->
+    <Box ArenaID="7">
+        <RandomBox X="8530" Y="2416"/>
+        <RandomBox X="8802" Y="2365"/>
+        <RandomBox X="9118" Y="2366"/>
+        <RandomBox X="9310" Y="2466"/>
+        <RandomBox X="9497" Y="2573"/>
+        <RandomBox X="9392" Y="2773"/>
+        <RandomBox X="9181" Y="2891"/>
+        <RandomBox X="8926" Y="3006"/>
+        <RandomBox X="8723" Y="2922"/>
+        <RandomBox X="8464" Y="2781"/>
+        <RandomBox X="8363" Y="2591"/>
+    </Box>
+    <!-- 3 -->
+    <Box ArenaID="3">
+        <RandomBox X="7106" Y="3165"/>
+        <RandomBox X="7345" Y="3110"/>
+        <RandomBox X="7560" Y="3101"/>
+        <RandomBox X="7736" Y="3190"/>
+        <RandomBox X="7888" Y="3261"/>
+        <RandomBox X="8068" Y="3351"/>
+        <RandomBox X="7930" Y="3488"/>
+        <RandomBox X="7771" Y="3569"/>
+        <RandomBox X="7628" Y="3656"/>
+        <RandomBox X="7390" Y="3685"/>
+        <RandomBox X="7207" Y="3594"/>
+        <RandomBox X="7037" Y="3500"/>
+        <RandomBox X="6997" Y="3283"/>
+    </Box>
+    <!-- 1 -->
+    <Box ArenaID="1">
+        <RandomBox X="5756" Y="3883"/>
+        <RandomBox X="5963" Y="3941"/>
+        <RandomBox X="6134" Y="4048"/>
+        <RandomBox X="6280" Y="4140"/>
+        <RandomBox X="6422" Y="4244"/>
+        <RandomBox X="6288" Y="4351"/>
+        <RandomBox X="6145" Y="4435"/>
+        <RandomBox X="5927" Y="4534"/>
+        <RandomBox X="5714" Y="4480"/>
+        <RandomBox X="5518" Y="4390"/>
+        <RandomBox X="5359" Y="4297"/>
+        <RandomBox X="5345" Y="4139"/>
+        <RandomBox X="5472" Y="3991"/>
+    </Box>
+    <!-- 4 -->
+    <Box ArenaID="4">
+        <RandomBox X="2176" Y="2218"/>
+        <RandomBox X="2457" Y="2191"/>
+        <RandomBox X="2745" Y="2217"/>
+        <RandomBox X="2950" Y="2290"/>
+        <RandomBox X="3149" Y="2388"/>
+        <RandomBox X="3101" Y="2578"/>
+        <RandomBox X="2933" Y="2665"/>
+        <RandomBox X="2763" Y="2767"/>
+        <RandomBox X="2465" Y="2774"/>
+        <RandomBox X="2289" Y="2676"/>
+        <RandomBox X="2103" Y="2560"/>
+        <RandomBox X="2105" Y="2392"/>
+    </Box>
+    <!-- 2 -->
+    <Box ArenaID="2">
+        <RandomBox X="3910" Y="1438"/>
+        <RandomBox X="4133" Y="1390"/>
+        <RandomBox X="4364" Y="1398"/>
+        <RandomBox X="4507" Y="1458"/>
+        <RandomBox X="4670" Y="1544"/>
+        <RandomBox X="4797" Y="1607"/>
+        <RandomBox X="4788" Y="1755"/>
+        <RandomBox X="4647" Y="1831"/>
+        <RandomBox X="4499" Y="1908"/>
+        <RandomBox X="4358" Y="1981"/>
+        <RandomBox X="4186" Y="1942"/>
+        <RandomBox X="4054" Y="1883"/>
+        <RandomBox X="3886" Y="1798"/>
+        <RandomBox X="3745" Y="1718"/>
+        <RandomBox X="3783" Y="1590"/>
+    </Box>
+
+    <!-- Random tọa độ BOX_1 -->
+    <Box ArenaID="0">
+        <RandomBox X="6877" Y="3304"/>
+        <RandomBox X="6650" Y="3348"/>
+        <RandomBox X="6352" Y="3392"/>
+        <RandomBox X="6315" Y="3538"/>
+        <RandomBox X="6189" Y="3451"/>
+        <RandomBox X="6058" Y="3548"/>
+        <RandomBox X="5964" Y="3738"/>
+        <RandomBox X="5728" Y="3739"/>
+        <RandomBox X="5808" Y="3675"/>
+        <RandomBox X="5996" Y="3955"/>
+        <RandomBox X="6163" Y="4072"/>
+        <RandomBox X="6427" Y="4188"/>
+        <RandomBox X="6965" Y="4053"/>
+        <RandomBox X="7233" Y="3885"/>
+        <RandomBox X="7176" Y="3702"/>
+        <RandomBox X="6924" Y="3575"/>
+        <RandomBox X="6811" Y="3473"/>
+    </Box>
+
+    <!-- Tọa độ hồi sinh random trong hỗn chiến -->
+    <PVPRandomRevice X="8601" Y="4607"/>
+    <PVPRandomRevice X="10198" Y="5406"/>
+    <PVPRandomRevice X="8598" Y="6140"/>
+    <PVPRandomRevice X="6779" Y="5382"/>
+    <PVPRandomRevice X="8697" Y="5321"/>
+    <PVPRandomRevice X="8669" Y="4098"/>
+    <PVPRandomRevice X="6035" Y="5378"/>
+    <PVPRandomRevice X="6621" Y="5108"/>
+    <PVPRandomRevice X="7085" Y="4887"/>
+    <PVPRandomRevice X="7689" Y="4567"/>
+    <PVPRandomRevice X="8381" Y="4224"/>
+    <PVPRandomRevice X="9332" Y="4525"/>
+    <PVPRandomRevice X="8422" Y="4788"/>
+    <PVPRandomRevice X="7806" Y="5070"/>
+    <PVPRandomRevice X="7211" Y="5376"/>
+    <PVPRandomRevice X="6731" Y="5697"/>
+    <PVPRandomRevice X="7204" Y="6037"/>
+    <PVPRandomRevice X="7651" Y="5866"/>
+    <PVPRandomRevice X="8343" Y="5552"/>
+    <PVPRandomRevice X="8990" Y="5198"/>
+    <PVPRandomRevice X="9611" Y="4896"/>
+    <PVPRandomRevice X="10061" Y="4628"/>
+    <PVPRandomRevice X="10622" Y="4886"/>
+    <PVPRandomRevice X="10083" Y="5222"/>
+    <PVPRandomRevice X="9492" Y="5593"/>
+
+
+    <!-- Thời gian các sự kiện tính theo giây
+    <TimeAct SIGN_UP_DULATION="1800" MELEE_PVP_DULATION="300" MELEE_PVP_FREE_DUALTION="300" FREE_ELIMINATION="420" ELIMINATION_ROUND_ROUND="420" REVICE_AWARD="600" />
+     -->
+    <TimeAct SIGN_UP_DULATION="200" MELEE_PVP_DULATION="300" MELEE_PVP_FREE_DUALTION="60" FREE_ELIMINATION="60"
+             ELIMINATION_ROUND_ROUND="180" REVICE_AWARD="300"/>
+</FactionDef>

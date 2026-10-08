@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GuildWardConfig IsKuaFuBalance="true" IsContinuous="false">
+  <!-- Cau hinh Tranh doat lanh tho lien server. SIGN_UP_DULATION duoc dung lam thoi gian chuan bi. -->
+  <WarMapConfigs MapID="406" MapName="Hoa Sơn LSV" FightMapID="-1" Star="1">
+    <!-- 6 Long Tru tren ban do Hoa Sơn -->
+    <ObjectPostion Name="Long Trụ Thành Chính" ID="3424" BaseHP="100000000" KillPoint="600" Posx="2345" PosY="5369" IsMonster="false" TriggerIndex="1"/>
+    <ObjectPostion Name="Long Trụ Thành Chính" ID="3424" BaseHP="100000000" KillPoint="600" Posx="2523" PosY="6213" IsMonster="false" TriggerIndex="1"/>
+    <ObjectPostion Name="Long Trụ Thành Chính" ID="3424" BaseHP="100000000" KillPoint="600" Posx="3593" PosY="6481" IsMonster="false" TriggerIndex="1"/>
+    <ObjectPostion Name="Long Trụ Thành Chính" ID="3424" BaseHP="100000000" KillPoint="600" Posx="4810" PosY="6158" IsMonster="false" TriggerIndex="1"/>
+    <ObjectPostion Name="Long Trụ Thành Chính" ID="3424" BaseHP="100000000" KillPoint="600" Posx="4848" PosY="5380" IsMonster="false" TriggerIndex="1"/>
+    <ObjectPostion Name="Long Trụ Thành Chính" ID="3424" BaseHP="100000000" KillPoint="600" Posx="3754" PosY="5114" IsMonster="false" TriggerIndex="1"/>
+
+    <!-- Binh si va tuong linh -->
+    <ObjectPostion Name="Binh sĩ công thành" ID="3413" BaseHP="1000000" KillPoint="5" Posx="3672" PosY="5340" IsMonster="true" TriggerIndex="1" />
+    <ObjectPostion Name="Binh sĩ công thành" ID="3413" BaseHP="1000000" KillPoint="5" Posx="3329" PosY="5155" IsMonster="true" TriggerIndex="1" />
+    <ObjectPostion Name="Binh sĩ công thành" ID="3413" BaseHP="1000000" KillPoint="5" Posx="4157" PosY="5049" IsMonster="true" TriggerIndex="1" />
+    <ObjectPostion Name="Binh sĩ công thành" ID="3413" BaseHP="1000000" KillPoint="5" Posx="2044" PosY="5371" IsMonster="true" TriggerIndex="1" />
+    <ObjectPostion Name="Binh sĩ công thành" ID="3413" BaseHP="1000000" KillPoint="5" Posx="2293" PosY="5626" IsMonster="true" TriggerIndex="1" />
+    <ObjectPostion Name="Binh sĩ công thành" ID="3413" BaseHP="1000000" KillPoint="5" Posx="2706" PosY="5261" IsMonster="true" TriggerIndex="1" />
+    <ObjectPostion Name="Binh sĩ công thành" ID="3413" BaseHP="1000000" KillPoint="5" Posx="2486" PosY="6483" IsMonster="true" TriggerIndex="1" />
+    <ObjectPostion Name="Binh sĩ công thành" ID="3413" BaseHP="1000000" KillPoint="5" Posx="2244" PosY="6169" IsMonster="true" TriggerIndex="1" />
+    <ObjectPostion Name="Binh sĩ công thành" ID="3413" BaseHP="1000000" KillPoint="5" Posx="2810" PosY="6146" IsMonster="true" TriggerIndex="1" />
+    <ObjectPostion Name="Binh sĩ công thành" ID="3413" BaseHP="1000000" KillPoint="5" Posx="3303" PosY="6333" IsMonster="true" TriggerIndex="1" />
+    <ObjectPostion Name="Binh sĩ công thành" ID="3413" BaseHP="1000000" KillPoint="5" Posx="3749" PosY="6270" IsMonster="true" TriggerIndex="1" />
+    <ObjectPostion Name="Binh sĩ công thành" ID="3413" BaseHP="1000000" KillPoint="5" Posx="3950" PosY="6598" IsMonster="true" TriggerIndex="1" />
+    <ObjectPostion Name="Binh sĩ công thành" ID="3413" BaseHP="1000000" KillPoint="5" Posx="5084" PosY="6343" IsMonster="true" TriggerIndex="1" />
+    <ObjectPostion Name="Binh sĩ công thành" ID="3413" BaseHP="1000000" KillPoint="5" Posx="4402" PosY="6372" IsMonster="true" TriggerIndex="1" />
+    <ObjectPostion Name="Binh sĩ công thành" ID="3413" BaseHP="1000000" KillPoint="5" Posx="4522" PosY="6027" IsMonster="true" TriggerIndex="1" />
+    <ObjectPostion Name="Binh sĩ công thành" ID="3413" BaseHP="1000000" KillPoint="5" Posx="4572" PosY="5518" IsMonster="true" TriggerIndex="1" />
+    <ObjectPostion Name="Binh sĩ công thành" ID="3413" BaseHP="1000000" KillPoint="5" Posx="5160" PosY="5405" IsMonster="true" TriggerIndex="1" />
+    <ObjectPostion Name="Binh sĩ công thành" ID="3413" BaseHP="1000000" KillPoint="5" Posx="4770" PosY="5107" IsMonster="true" TriggerIndex="1" />
+    <ObjectPostion Name="Tướng lĩnh công thành" ID="3418" BaseHP="50000000" KillPoint="20" Posx="4044" PosY="5311" IsMonster="true" TriggerIndex="1" />
+    <ObjectPostion Name="Tướng lĩnh công thành" ID="3418" BaseHP="50000000" KillPoint="20" Posx="2293" PosY="5193" IsMonster="true" TriggerIndex="1" />
+    <ObjectPostion Name="Tướng lĩnh công thành" ID="3418" BaseHP="50000000" KillPoint="20" Posx="3998" PosY="6461" IsMonster="true" TriggerIndex="1" />
+    <ObjectPostion Name="Tướng lĩnh công thành" ID="3418" BaseHP="50000000" KillPoint="20" Posx="2161" PosY="6202" IsMonster="true" TriggerIndex="1" />
+    <ObjectPostion Name="Tướng lĩnh công thành" ID="3418" BaseHP="50000000" KillPoint="20" Posx="4787" PosY="6451" IsMonster="true" TriggerIndex="1" />
+    <ObjectPostion Name="Tướng lĩnh công thành" ID="3418" BaseHP="50000000" KillPoint="20" Posx="4547" PosY="5385" IsMonster="true" TriggerIndex="1" />
+    <ObjectPostion Name="Nguyên Soái Thủ Thành" ID="3408" BaseHP="150000000" KillPoint="300" Posx="4089" PosY="5892" IsMonster="true" TriggerIndex="1" />
+  </WarMapConfigs>
+
+  <!-- Thuong xep hang bang hoi, xep thanh vien theo diem tich luy trong bang va gui qua thu ve server goc. -->
+  <Award GuildRank="1" Rank="1" type="guildrank">
+    <Item ItemID="29004" Count="2" />
+    <Item ItemID="29008" Count="1" ExpiryDays="7" />
+    <Item ItemID="29012" Count="1" />
+  </Award>
+  <Award GuildRank="1" Rank="2:5" type="guildrank">
+    <Item ItemID="29004" Count="1" />
+    <Item ItemID="29009" Count="1" ExpiryDays="7" />
+    <Item ItemID="29007" Count="3" />
+  </Award>
+  <Award GuildRank="1" Rank="6:999999" type="guildrank">
+    <Item ItemID="29004" Count="1" />
+    <Item ItemID="29007" Count="2" />
+  </Award>
+  <Award GuildRank="2:3" Rank="1" type="guildrank">
+    <Item ItemID="29004" Count="1" />
+    <Item ItemID="29009" Count="1" ExpiryDays="7" />
+    <Item ItemID="29007" Count="3" />
+  </Award>
+  <Award GuildRank="2:3" Rank="2:5" type="guildrank">
+    <Item ItemID="29005" Count="2" />
+    <Item ItemID="29010" Count="1" ExpiryDays="7" />
+    <Item ItemID="29007" Count="2" />
+  </Award>
+  <Award GuildRank="2:3" Rank="6:999999" type="guildrank">
+    <Item ItemID="29005" Count="1" />
+    <Item ItemID="29007" Count="1" />
+  </Award>
+  <Award GuildRank="4:10" Rank="1" type="guildrank">
+    <Item ItemID="29005" Count="2" />
+    <Item ItemID="29010" Count="1" ExpiryDays="7" />
+    <Item ItemID="29007" Count="3" />
+  </Award>
+  <Award GuildRank="4:10" Rank="2:5" type="guildrank">
+    <Item ItemID="29005" Count="1" />
+    <Item ItemID="29011" Count="1" ExpiryDays="7" />
+    <Item ItemID="29007" Count="2" />
+  </Award>
+  <Award GuildRank="4:10" Rank="6:999999" type="guildrank">
+    <Item ItemID="29006" Count="1" />
+    <Item ItemID="29007" Count="1" />
+  </Award>
+
+  <!-- Chỉ mở Thứ 5 (hôm nay) và tăng thời gian chuẩn bị lên 10 phút (600s) -->
+  <DayOfWeek>4</DayOfWeek>
+  <OpenTime Hours="21" Minute="30" />
+  <Activity SIGN_UP_DULATION="600" WAR_DULATION="1800" WAR_STOP="1" WAR_CLEAR="1" />
+</GuildWardConfig>

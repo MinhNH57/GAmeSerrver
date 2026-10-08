@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="utf-8"?>
+<KuaFuBalanceConfig Enabled="true">
+  <Join MinMantleLevel="6" MapId="1642" EnterX="9052" EnterY="4385" LeaveMapId="1642" LeaveX="9052" LeaveY="4385" />
+  <GuildWarRelivePoints>
+    <Point MapId="406" X="1120" Y="6409" />
+    <Point MapId="406" X="1110" Y="5214" />
+    <Point MapId="406" X="1763" Y="4464" />
+    <Point MapId="406" X="4715" Y="4278" />
+    <Point MapId="406" X="5768" Y="6204" />
+    <Point MapId="406" X="3794" Y="7358" />
+    <Point MapId="406" X="6030" Y="5460" />
+  </GuildWarRelivePoints>
+
+  <WingBuffs SkillId="2068" DurationMinutes="420">
+    <Buff MantleLevel="7" BuffLevel="1" />
+    <Buff MantleLevel="8" BuffLevel="2" />
+    <Buff MantleLevel="9" BuffLevel="3" />
+    <Buff MantleLevel="10" BuffLevel="4" />
+  </WingBuffs>
+
+  <!--
+    Trang bị tạm:
+    - AutoEquip="true": tự mặc sau khi nhận/cấp lại set.
+    - KeepPrevious="true": giữ lại trang bị tạm đã cấp trước đó khi chọn phái/nhánh khác.
+    - Binding="1": đồ khóa theo quy ước item hiện tại.
+    - EnhanceLevel="14": giống NPC Bạch Thu Lâm local.
+    - ExpireMinutes="-1": đồ không có hạn sử dụng; > 0 là số phút tồn tại.
+    - Sex: -1 dùng chung, 0 nam, 1 nữ.
+  -->
+  <Equipment AutoEquip="false" KeepPrevious="true" Binding="1" EnhanceLevel="16" ExpireMinutes="-1">
+    <SeriesSets>
+      <Set SeriesId="1">
+        <Item ItemId="8155" Sex="0" />
+        <Item ItemId="8156" Sex="1" />
+        <Item ItemId="7741" Sex="0" />
+        <Item ItemId="7731" Sex="1" />
+        <Item ItemId="8055" Sex="0" />
+        <Item ItemId="8056" Sex="1" />
+        <Item ItemId="8525" Sex="0" />
+        <Item ItemId="8526" Sex="1" />
+        <Item ItemId="8566" Sex="0" />
+        <Item ItemId="8565" Sex="1" />
+        <Item ItemId="8486" Sex="0" />
+        <Item ItemId="8485" Sex="1" />
+        <Item ItemId="8585" Sex="0" />
+        <Item ItemId="8586" Sex="1" />
+        <Item ItemId="7672" Sex="-1" />
+        <Item ItemId="8235" Sex="0" />
+        <Item ItemId="8236" Sex="1" />
+        <Item ItemId="3627" Sex="0" />
+        <Item ItemId="3637" Sex="1" />
+        <Item ItemId="11389" Sex="-1" />
+        <Item ItemId="11392" Sex="-1" />
+        <Item ItemId="12781" Sex="-1" />
+        <Item ItemId="11388" Sex="-1" />
+        <Item ItemId="11391" Sex="-1" />
+        <Item ItemId="11434" Sex="-1" />
+        <Item ItemId="11387" Sex="-1" />
+        <Item ItemId="11435" Sex="-1" />
+        <Item ItemId="11386" Sex="-1" />
+        <Item ItemId="11393" Sex="-1" />
+        <Item ItemId="11385" Sex="-1" />
+        <Item ItemId="11437" Sex="-1" />
+        <Item ItemId="11384" Sex="-1" />
+        <Item ItemId="11390" Sex="-1" />
+        <Item ItemId="11436" Sex="-1" />
+        <Item ItemId="12776" Sex="-1" />
+      </Set>
+
+      <Set SeriesId="2">
+        <Item ItemId="8157" Sex="0" />
+        <Item ItemId="8158" Sex="1" />
+        <Item ItemId="7742" Sex="0" />
+        <Item ItemId="7732" Sex="1" />
+        <Item ItemId="8059" Sex="0" />
+        <Item ItemId="8060" Sex="1" />
+        <Item ItemId="8527" Sex="0" />
+        <Item ItemId="8528" Sex="1" />
+        <Item ItemId="8568" Sex="0" />
+        <Item ItemId="8567" Sex="1" />
+        <Item ItemId="8488" Sex="0" />
+        <Item ItemId="8487" Sex="1" />
+        <Item ItemId="8587" Sex="0" />
+        <Item ItemId="8588" Sex="1" />
+        <Item ItemId="7679" Sex="-1" />
+        <Item ItemId="8239" Sex="0" />
+        <Item ItemId="8240" Sex="1" />
+        <Item ItemId="3647" Sex="0" />
+        <Item ItemId="3657" Sex="1" />
+        <Item ItemId="11399" Sex="-1" />
+        <Item ItemId="11402" Sex="-1" />
+        <Item ItemId="11453" Sex="-1" />
+        <Item ItemId="12782" Sex="-1" />
+        <Item ItemId="12787" Sex="-1" />
+        <Item ItemId="11398" Sex="-1" />
+        <Item ItemId="11401" Sex="-1" />
+        <Item ItemId="11438" Sex="-1" />
+        <Item ItemId="11397" Sex="-1" />
+        <Item ItemId="11396" Sex="-1" />
+        <Item ItemId="11403" Sex="-1" />
+        <Item ItemId="11439" Sex="-1" />
+        <Item ItemId="11395" Sex="-1" />
+        <Item ItemId="11452" Sex="-1" />
+        <Item ItemId="11394" Sex="-1" />
+        <Item ItemId="11400" Sex="-1" />
+        <Item ItemId="12777" Sex="-1" />
+        <Item ItemId="12786" Sex="-1" />
+      </Set>
+
+      <Set SeriesId="3">
+        <Item ItemId="8159" Sex="0" />
+        <Item ItemId="8160" Sex="1" />
+        <Item ItemId="7743" Sex="0" />
+        <Item ItemId="7733" Sex="1" />
+        <Item ItemId="8063" Sex="0" />
+        <Item ItemId="8064" Sex="1" />
+        <Item ItemId="8529" Sex="0" />
+        <Item ItemId="8530" Sex="1" />
+        <Item ItemId="8570" Sex="0" />
+        <Item ItemId="8569" Sex="1" />
+        <Item ItemId="8490" Sex="0" />
+        <Item ItemId="8489" Sex="1" />
+        <Item ItemId="8589" Sex="0" />
+        <Item ItemId="8590" Sex="1" />
+        <Item ItemId="7686" Sex="-1" />
+        <Item ItemId="8243" Sex="0" />
+        <Item ItemId="8244" Sex="1" />
+        <Item ItemId="3667" Sex="0" />
+        <Item ItemId="3677" Sex="1" />
+        <Item ItemId="11409" Sex="-1" />
+        <Item ItemId="11412" Sex="-1" />
+        <Item ItemId="11443" Sex="-1" />
+        <Item ItemId="12783" Sex="-1" />
+        <Item ItemId="11408" Sex="-1" />
+        <Item ItemId="11411" Sex="-1" />
+        <Item ItemId="11440" Sex="-1" />
+        <Item ItemId="11407" Sex="-1" />
+        <Item ItemId="11406" Sex="-1" />
+        <Item ItemId="11413" Sex="-1" />
+        <Item ItemId="11441" Sex="-1" />
+        <Item ItemId="11442" Sex="-1" />
+        <Item ItemId="11405" Sex="-1" />
+        <Item ItemId="11404" Sex="-1" />
+        <Item ItemId="11410" Sex="-1" />
+        <Item ItemId="12778" Sex="-1" />
+      </Set>
+
+      <Set SeriesId="4">
+        <Item ItemId="8161" Sex="0" />
+        <Item ItemId="8162" Sex="1" />
+        <Item ItemId="7744" Sex="0" />
+        <Item ItemId="7734" Sex="1" />
+        <Item ItemId="8067" Sex="0" />
+        <Item ItemId="8068" Sex="1" />
+        <Item ItemId="8531" Sex="0" />
+        <Item ItemId="8532" Sex="1" />
+        <Item ItemId="8572" Sex="0" />
+        <Item ItemId="8571" Sex="1" />
+        <Item ItemId="8492" Sex="0" />
+        <Item ItemId="8491" Sex="1" />
+        <Item ItemId="8591" Sex="0" />
+        <Item ItemId="8592" Sex="1" />
+        <Item ItemId="7693" Sex="-1" />
+        <Item ItemId="8247" Sex="0" />
+        <Item ItemId="8248" Sex="1" />
+        <Item ItemId="3687" Sex="0" />
+        <Item ItemId="3697" Sex="1" />
+        <Item ItemId="11419" Sex="-1" />
+        <Item ItemId="11422" Sex="-1" />
+        <Item ItemId="12784" Sex="-1" />
+        <Item ItemId="11418" Sex="-1" />
+        <Item ItemId="11421" Sex="-1" />
+        <Item ItemId="11447" Sex="-1" />
+        <Item ItemId="11417" Sex="-1" />
+        <Item ItemId="11444" Sex="-1" />
+        <Item ItemId="11416" Sex="-1" />
+        <Item ItemId="11423" Sex="-1" />
+        <Item ItemId="11446" Sex="-1" />
+        <Item ItemId="11415" Sex="-1" />
+        <Item ItemId="11414" Sex="-1" />
+        <Item ItemId="11420" Sex="-1" />
+        <Item ItemId="11445" Sex="-1" />
+        <Item ItemId="12779" Sex="-1" />
+      </Set>
+
+      <Set SeriesId="5">
+        <Item ItemId="8163" Sex="0" />
+        <Item ItemId="8164" Sex="1" />
+        <Item ItemId="7745" Sex="0" />
+        <Item ItemId="7735" Sex="1" />
+        <Item ItemId="8071" Sex="0" />
+        <Item ItemId="8072" Sex="1" />
+        <Item ItemId="8533" Sex="0" />
+        <Item ItemId="8534" Sex="1" />
+        <Item ItemId="8574" Sex="0" />
+        <Item ItemId="8573" Sex="1" />
+        <Item ItemId="8494" Sex="0" />
+        <Item ItemId="8493" Sex="1" />
+        <Item ItemId="8593" Sex="0" />
+        <Item ItemId="8594" Sex="1" />
+        <Item ItemId="7700" Sex="-1" />
+        <Item ItemId="8251" Sex="0" />
+        <Item ItemId="8254" Sex="1" />
+        <Item ItemId="3707" Sex="0" />
+        <Item ItemId="3717" Sex="1" />
+        <Item ItemId="11429" Sex="-1" />
+        <Item ItemId="11432" Sex="-1" />
+        <Item ItemId="11449" Sex="-1" />
+        <Item ItemId="11450" Sex="-1" />
+        <Item ItemId="11451" Sex="-1" />
+        <Item ItemId="12785" Sex="-1" />
+        <Item ItemId="11428" Sex="-1" />
+        <Item ItemId="11431" Sex="-1" />
+        <Item ItemId="11448" Sex="-1" />
+        <Item ItemId="11427" Sex="-1" />
+        <Item ItemId="11426" Sex="-1" />
+        <Item ItemId="11433" Sex="-1" />
+        <Item ItemId="11425" Sex="-1" />
+        <Item ItemId="11424" Sex="-1" />
+        <Item ItemId="11430" Sex="-1" />
+        <Item ItemId="12780" Sex="-1" />
+      </Set>
+    </SeriesSets>
+  </Equipment>
+</KuaFuBalanceConfig>

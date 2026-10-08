@@ -1,0 +1,1625 @@
+{
+    "recipes": [
+        {
+            "compose_id": 100,
+            "compose_name": "Nâng cấp Vũ khí Đồng Hành - Kim Lân",
+            "compose_description": "",
+            "allow_multiple": false,
+            "enable_source": false,
+            "enable_rate_up": true,
+            "rate_up_items": [20362, 20363, 20364, 20365, 20366],
+            "insure_items": [20694],
+            "materials": [
+                {
+                    "id": 25139,
+                    "number": 1
+                },
+                {
+                    "id": 25139,
+                    "number": 1
+                },
+                {
+                    "id": 25139,
+                    "number": 1
+                }
+            ],
+            "output": {
+                "id": 25140,
+                "number": 1
+            },
+            "output_based_on_input": false,
+            "default_rate": 25
+        },
+        {
+            "compose_id": 101,
+            "compose_name": "Nâng cấp Vũ khí Đồng Hành - Đơn Tâm",
+            "compose_description": "",
+            "allow_multiple": false,
+            "enable_source": false,
+            "enable_rate_up": true,
+            "rate_up_items": [20367, 20368, 20369, 20370, 20371],
+            "insure_items": [20695],
+            "materials": [
+                {
+                    "id": 25140,
+                    "number": 1
+                },
+                {
+                    "id": 25140,
+                    "number": 1
+                },
+                {
+                    "id": 25140,
+                    "number": 1
+                }
+            ],
+            "output": {
+                "id": 25141,
+                "number": 1
+            },
+            "output_based_on_input": false,
+            "default_rate": 25
+        },
+        {
+            "compose_id": 102,
+            "compose_name": "Nâng cấp Y phục Đồng Hành - Kim Lân",
+            "compose_description": "",
+            "allow_multiple": false,
+            "enable_source": false,
+            "enable_rate_up": true,
+            "rate_up_items": [20362, 20363, 20364, 20365, 20366],
+            "insure_items": [20694],
+            "materials": [
+                {
+                    "id": 25107,
+                    "number": 1
+                },
+                {
+                    "id": 25107,
+                    "number": 1
+                },
+                {
+                    "id": 25107,
+                    "number": 1
+                }
+            ],
+            "output": {
+                "id": 25108,
+                "number": 1
+            },
+            "output_based_on_input": false,
+            "default_rate": 25
+        },
+        {
+            "compose_id": 103,
+            "compose_name": "Nâng cấp Y phục Đồng Hành - Đơn Tâm",
+            "compose_description": "",
+            "allow_multiple": false,
+            "enable_source": false,
+            "enable_rate_up": true,
+            "rate_up_items": [20367, 20368, 20369, 20370, 20371],
+            "insure_items": [20695],
+            "materials": [
+                {
+                    "id": 25108,
+                    "number": 1
+                },
+                {
+                    "id": 25108,
+                    "number": 1
+                },
+                {
+                    "id": 25108,
+                    "number": 1
+                }
+            ],
+            "output": {
+                "id": 25109,
+                "number": 1
+            },
+            "output_based_on_input": false,
+            "default_rate": 25
+        },
+        {
+            "compose_id": 104,
+            "compose_name": "Nâng cấp Nhẫn Đồng Hành - Kim Lân",
+            "compose_description": "",
+            "allow_multiple": false,
+            "enable_source": false,
+            "enable_rate_up": true,
+            "rate_up_items": [20362, 20363, 20364, 20365, 20366],
+            "insure_items": [20694],
+            "materials": [
+                {
+                    "id": 25135,
+                    "number": 1
+                },
+                {
+                    "id": 25135,
+                    "number": 1
+                },
+                {
+                    "id": 25135,
+                    "number": 1
+                }
+            ],
+            "output": {
+                "id": 25136,
+                "number": 1
+            },
+            "output_based_on_input": false,
+            "default_rate": 25
+        },
+        {
+            "compose_id": 105,
+            "compose_name": "Nâng cấp Nhẫn Đồng Hành - Đơn Tâm",
+            "compose_description": "",
+            "allow_multiple": false,
+            "enable_source": false,
+            "enable_rate_up": true,
+            "rate_up_items": [20367, 20368, 20369, 20370, 20371],
+            "insure_items": [20695],
+            "materials": [
+                {
+                    "id": 25136,
+                    "number": 1
+                },
+                {
+                    "id": 25136,
+                    "number": 1
+                },
+                {
+                    "id": 25136,
+                    "number": 1
+                }
+            ],
+            "output": {
+                "id": 25137,
+                "number": 1
+            },
+            "output_based_on_input": false,
+            "default_rate": 25
+        },
+        {
+            "compose_id": 106,
+            "compose_name": "Nâng cấp Hộ uyển Đồng Hành - Kim Lân",
+            "compose_description": "",
+            "allow_multiple": false,
+            "enable_source": false,
+            "enable_rate_up": true,
+            "rate_up_items": [20362, 20363, 20364, 20365, 20366],
+            "insure_items": [20694],
+            "materials": [
+                {
+                    "id": 25119,
+                    "number": 1
+                },
+                {
+                    "id": 25119,
+                    "number": 1
+                },
+                {
+                    "id": 25119,
+                    "number": 1
+                }
+            ],
+            "output": {
+                "id": 25120,
+                "number": 1
+            },
+            "output_based_on_input": false,
+            "default_rate": 25
+        },
+        {
+            "compose_id": 107,
+            "compose_name": "Nâng cấp Hộ uyển Đồng Hành - Đơn Tâm",
+            "compose_description": "",
+            "allow_multiple": false,
+            "enable_source": false,
+            "enable_rate_up": true,
+            "rate_up_items": [20367, 20368, 20369, 20370, 20371],
+            "insure_items": [20695],
+            "materials": [
+                {
+                    "id": 25120,
+                    "number": 1
+                },
+                {
+                    "id": 25120,
+                    "number": 1
+                },
+                {
+                    "id": 25120,
+                    "number": 1
+                }
+            ],
+            "output": {
+                "id": 25121,
+                "number": 1
+            },
+            "output_based_on_input": false,
+            "default_rate": 25
+        },
+        {
+            "compose_id": 108,
+            "compose_name": "Nâng cấp Phù Đồng Hành - Kim Lân",
+            "compose_description": "",
+            "allow_multiple": false,
+            "enable_source": false,
+            "enable_rate_up": true,
+            "rate_up_items": [20362, 20363, 20364, 20365, 20366],
+            "insure_items": [20694],
+            "materials": [
+                {
+                    "id": 25103,
+                    "number": 1
+                },
+                {
+                    "id": 25103,
+                    "number": 1
+                },
+                {
+                    "id": 25103,
+                    "number": 1
+                }
+            ],
+            "output": {
+                "id": 25104,
+                "number": 1
+            },
+            "output_based_on_input": false,
+            "default_rate": 25
+        },
+        {
+            "compose_id": 109,
+            "compose_name": "Nâng cấp Phù Đồng Hành - Đơn Tâm",
+            "compose_description": "",
+            "allow_multiple": false,
+            "enable_source": false,
+            "enable_rate_up": true,
+            "rate_up_items": [20367, 20368, 20369, 20370, 20371],
+            "insure_items": [20695],
+            "materials": [
+                {
+                    "id": 25104,
+                    "number": 1
+                },
+                {
+                    "id": 25104,
+                    "number": 1
+                },
+                {
+                    "id": 25104,
+                    "number": 1
+                }
+            ],
+            "output": {
+                "id": 25105,
+                "number": 1
+            },
+            "output_based_on_input": false,
+            "default_rate": 25
+        },
+        {
+            "compose_id": 110,
+            "compose_name": "Chế tạo Y phục Đồng hành",
+            "compose_description": "",
+            "allow_multiple": false,
+            "enable_source": false,
+            "enable_rate_up": true,
+            "rate_up_items": [20362, 20363, 20364, 20365, 20366],
+            "materials": [
+                {
+                    "id": 25147,
+                    "number": 300
+                }
+            ],
+            "output": {
+                "id": 25107,
+                "number": 1
+            },
+            "output_based_on_input": false,
+            "default_rate": 75
+        },
+        {
+            "compose_id": 111,
+            "compose_name": "Chế tạo Nhẫn Đồng hành",
+            "compose_description": "",
+            "allow_multiple": false,
+            "enable_source": false,
+            "enable_rate_up": true,
+            "rate_up_items": [20362, 20363, 20364, 20365, 20366],
+            "materials": [
+                {
+                    "id": 25175,
+                    "number": 300
+                }
+            ],
+            "output": {
+                "id": 25135,
+                "number": 1
+            },
+            "output_based_on_input": false,
+            "default_rate": 75
+        },
+        {
+            "compose_id": 112,
+            "compose_name": "Chế tạo Hộ uyển Đồng hành",
+            "compose_description": "",
+            "allow_multiple": false,
+            "enable_source": false,
+            "enable_rate_up": true,
+            "rate_up_items": [20362, 20363, 20364, 20365, 20366],
+            "materials": [
+                {
+                    "id": 25159,
+                    "number": 300
+                }
+            ],
+            "output": {
+                "id": 25119,
+                "number": 1
+            },
+            "output_based_on_input": false,
+            "default_rate": 75
+        },
+        {
+            "compose_id": 113,
+            "compose_name": "Chế tạo Vũ khí Đồng hành",
+            "compose_description": "",
+            "allow_multiple": false,
+            "enable_source": false,
+            "enable_rate_up": true,
+            "rate_up_items": [20362, 20363, 20364, 20365, 20366],
+            "materials": [
+                {
+                    "id": 25179,
+                    "number": 300
+                }
+            ],
+            "output": {
+                "id": 25139,
+                "number": 1
+            },
+            "output_based_on_input": false,
+            "default_rate": 75
+        },
+        {
+            "compose_id": 114,
+            "compose_name": "Đổi mảnh Vũ khí Đồng hành",
+            "compose_description": "",
+            "allow_multiple": true,
+            "enable_source": false,
+            "enable_rate_up": false,
+            "materials": [
+                {
+                    "id": 25159,
+                    "number": 1
+                },
+                {
+                    "id": 25147,
+                    "number": 1
+                },
+                {
+                    "id": 25175,
+                    "number": 1
+                }
+            ],
+            "output": {
+                "id": 25179,
+                "number": 1
+            },
+            "output_based_on_input": false,
+            "default_rate": 100
+        },
+        {
+            "compose_id": 115,
+            "compose_name": "Chế tạo Phù Đồng hành",
+            "compose_description": "",
+            "allow_multiple": false,
+            "enable_source": false,
+            "enable_rate_up": true,
+            "rate_up_items": [20362, 20363, 20364, 20365, 20366],
+            "materials": [
+                {
+                    "id": 25143,
+                    "number": 300
+                }
+            ],
+            "output": {
+                "id": 25103,
+                "number": 1
+            },
+            "output_based_on_input": false,
+            "default_rate": 75
+        },
+        {
+            "compose_id": 116,
+            "compose_name": "Đổi mảnh Phù Đồng hành",
+            "compose_description": "",
+            "allow_multiple": true,
+            "enable_source": false,
+            "enable_rate_up": false,
+            "materials": [
+                {
+                    "id": 25147,
+                    "number": 1
+                },
+                {
+                    "id": 25159,
+                    "number": 1
+                },
+                {
+                    "id": 25175,
+                    "number": 1
+                }
+            ],
+            "output": {
+                "id": 25143,
+                "number": 1
+            },
+            "output_based_on_input": false,
+            "default_rate": 100
+        },
+        {
+            "compose_id": 117,
+            "compose_name": "Đổi mảnh Giày Đồng hành",
+            "compose_description": "",
+            "allow_multiple": true,
+            "enable_source": false,
+            "enable_rate_up": false,
+            "materials": [
+                {
+                    "id": 25163,
+                    "number": 1
+                },
+                {
+                    "id": 25151,
+                    "number": 1
+                },
+                {
+                    "id": 25167,
+                    "number": 1
+                },
+                {
+                    "id": 25171,
+                    "number": 1
+                }
+            ],
+            "output": {
+                "id": 25155,
+                "number": 1
+            },
+            "output_based_on_input": false,
+            "default_rate": 100
+        },
+        {
+            "compose_id": 118,
+            "compose_name": "Đổi mảnh Bội Đồng hành",
+            "compose_description": "",
+            "allow_multiple": true,
+            "enable_source": false,
+            "enable_rate_up": false,
+            "materials": [
+                {
+                    "id": 25163,
+                    "number": 1
+                },
+                {
+                    "id": 25151,
+                    "number": 1
+                },
+                {
+                    "id": 25167,
+                    "number": 1
+                }
+            ],
+            "output": {
+                "id": 25171,
+                "number": 1
+            },
+            "output_based_on_input": false,
+            "default_rate": 100
+        },
+        {
+            "compose_id": 119,
+            "compose_name": "Chế tạo Bội Đồng hành",
+            "compose_description": "",
+            "allow_multiple": false,
+            "enable_source": false,
+            "enable_rate_up": true,
+            "rate_up_items": [20362, 20363, 20364, 20365, 20366],
+            "materials": [
+                {
+                    "id": 25171,
+                    "number": 300
+                }
+            ],
+            "output": {
+                "id": 25131,
+                "number": 1
+            },
+            "output_based_on_input": false,
+            "default_rate": 50,
+            "actual_rate": 40
+        },
+        {
+            "compose_id": 120,
+            "compose_name": "Chế tạo Giày Đồng hành",
+            "compose_description": "",
+            "allow_multiple": false,
+            "enable_source": false,
+            "enable_rate_up": true,
+            "rate_up_items": [20362, 20363, 20364, 20365, 20366],
+            "materials": [
+                {
+                    "id": 25155,
+                    "number": 300
+                }
+            ],
+            "output": {
+                "id": 25115,
+                "number": 1
+            },
+            "output_based_on_input": false,
+            "default_rate": 50,
+            "actual_rate": 40
+        },
+        {
+            "compose_id": 121,
+            "compose_name": "Chế tạo Đai Lưng Đồng hành",
+            "compose_description": "",
+            "allow_multiple": false,
+            "enable_source": false,
+            "enable_rate_up": true,
+            "rate_up_items": [20362, 20363, 20364, 20365, 20366],
+            "materials": [
+                {
+                    "id": 25151,
+                    "number": 300
+                }
+            ],
+            "output": {
+                "id": 25111,
+                "number": 1
+            },
+            "output_based_on_input": false,
+            "default_rate": 75
+        },
+        {
+            "compose_id": 122,
+            "compose_name": "Chế tạo Hạng Liên Đồng hành",
+            "compose_description": "",
+            "allow_multiple": false,
+            "enable_source": false,
+            "enable_rate_up": true,
+            "rate_up_items": [20362, 20363, 20364, 20365, 20366],
+            "materials": [
+                {
+                    "id": 25167,
+                    "number": 300
+                }
+            ],
+            "output": {
+                "id": 25127,
+                "number": 1
+            },
+            "output_based_on_input": false,
+            "default_rate": 75
+        },
+        {
+            "compose_id": 123,
+            "compose_name": "Chế tạo Mũ Đồng hành [Kháng Băng]",
+            "compose_description": "",
+            "allow_multiple": false,
+            "enable_source": false,
+            "enable_rate_up": true,
+            "rate_up_items": [20362, 20363, 20364, 20365, 20366],
+            "materials": [
+                {
+                    "id": 25163,
+                    "number": 300
+                }
+            ],
+            "output": {
+                "id": 25199,
+                "number": 1
+            },
+            "output_based_on_input": false,
+            "default_rate": 75
+        },
+        {
+            "compose_id": 124,
+            "compose_name": "Chế tạo Mũ Đồng hành [Kháng Hỏa]",
+            "compose_description": "",
+            "allow_multiple": false,
+            "enable_source": false,
+            "enable_rate_up": true,
+            "rate_up_items": [20362, 20363, 20364, 20365, 20366],
+            "materials": [
+                {
+                    "id": 25163,
+                    "number": 300
+                }
+            ],
+            "output": {
+                "id": 25203,
+                "number": 1
+            },
+            "output_based_on_input": false,
+            "default_rate": 75
+        },
+        {
+            "compose_id": 125,
+            "compose_name": "Chế tạo Mũ Đồng hành [Kháng Lôi]",
+            "compose_description": "",
+            "allow_multiple": false,
+            "enable_source": false,
+            "enable_rate_up": true,
+            "rate_up_items": [20362, 20363, 20364, 20365, 20366],
+            "materials": [
+                {
+                    "id": 25163,
+                    "number": 300
+                }
+            ],
+            "output": {
+                "id": 25207,
+                "number": 1
+            },
+            "output_based_on_input": false,
+            "default_rate": 75
+        },
+        {
+            "compose_id": 126,
+            "compose_name": "Chế tạo Mũ Đồng hành [Kháng Vật]",
+            "compose_description": "",
+            "allow_multiple": false,
+            "enable_source": false,
+            "enable_rate_up": true,
+            "rate_up_items": [20362, 20363, 20364, 20365, 20366],
+            "materials": [
+                {
+                    "id": 25163,
+                    "number": 300
+                }
+            ],
+            "output": {
+                "id": 25211,
+                "number": 1
+            },
+            "output_based_on_input": false,
+            "default_rate": 75
+        },
+        {
+            "compose_id": 127,
+            "compose_name": "Chế tạo Mũ Đồng hành [Kháng Độc]",
+            "compose_description": "",
+            "allow_multiple": false,
+            "enable_source": false,
+            "enable_rate_up": true,
+            "rate_up_items": [20362, 20363, 20364, 20365, 20366],
+            "materials": [
+                {
+                    "id": 25163,
+                    "number": 300
+                }
+            ],
+            "output": {
+                "id": 25215,
+                "number": 1
+            },
+            "output_based_on_input": false,
+            "default_rate": 75
+        },
+        {
+            "compose_id": 128,
+            "compose_name": "Nâng cấp Bội Đồng Hành - Kim Lân",
+            "compose_description": "",
+            "allow_multiple": false,
+            "enable_source": false,
+            "enable_rate_up": true,
+            "rate_up_items": [20362, 20363, 20364, 20365, 20366],
+            "insure_items": [20694],
+            "materials": [
+                {
+                    "id": 25131,
+                    "number": 1
+                },
+                {
+                    "id": 25131,
+                    "number": 1
+                },
+                {
+                    "id": 25131,
+                    "number": 1
+                }
+            ],
+            "output": {
+                "id": 25132,
+                "number": 1
+            },
+            "output_based_on_input": false,
+            "default_rate": 25,
+            "actual_rate": 10
+        },
+        {
+            "compose_id": 129,
+            "compose_name": "Nâng cấp Giày Đồng Hành - Kim Lân",
+            "compose_description": "",
+            "allow_multiple": false,
+            "enable_source": false,
+            "enable_rate_up": true,
+            "rate_up_items": [20362, 20363, 20364, 20365, 20366],
+            "insure_items": [20694],
+            "materials": [
+                {
+                    "id": 25115,
+                    "number": 1
+                },
+                {
+                    "id": 25115,
+                    "number": 1
+                },
+                {
+                    "id": 25115,
+                    "number": 1
+                }
+            ],
+            "output": {
+                "id": 25116,
+                "number": 1
+            },
+            "output_based_on_input": false,
+            "default_rate": 25,
+            "actual_rate": 5
+        },
+        {
+            "compose_id": 130,
+            "compose_name": "Nâng cấp Đai Lưng Đồng Hành - Kim Lân",
+            "compose_description": "",
+            "allow_multiple": false,
+            "enable_source": false,
+            "enable_rate_up": true,
+            "rate_up_items": [20362, 20363, 20364, 20365, 20366],
+            "insure_items": [20694],
+            "materials": [
+                {
+                    "id": 25111,
+                    "number": 1
+                },
+                {
+                    "id": 25111,
+                    "number": 1
+                },
+                {
+                    "id": 25111,
+                    "number": 1
+                }
+            ],
+            "output": {
+                "id": 25112,
+                "number": 1
+            },
+            "output_based_on_input": false,
+            "default_rate": 25,
+            "actual_rate": 13
+        },
+        {
+            "compose_id": 131,
+            "compose_name": "Nâng cấp Hạng Liên Đồng Hành - Kim Lân",
+            "compose_description": "",
+            "allow_multiple": false,
+            "enable_source": false,
+            "enable_rate_up": true,
+            "rate_up_items": [20362, 20363, 20364, 20365, 20366],
+            "insure_items": [20694],
+            "materials": [
+                {
+                    "id": 25127,
+                    "number": 1
+                },
+                {
+                    "id": 25127,
+                    "number": 1
+                },
+                {
+                    "id": 25127,
+                    "number": 1
+                }
+            ],
+            "output": {
+                "id": 25128,
+                "number": 1
+            },
+            "output_based_on_input": false,
+            "default_rate": 25,
+            "actual_rate": 13
+        },
+        {
+            "compose_id": 132,
+            "compose_name": "Nâng cấp Mũ Đồng Hành [Kháng Băng] - Kim Lân",
+            "compose_description": "",
+            "allow_multiple": false,
+            "enable_source": false,
+            "enable_rate_up": true,
+            "rate_up_items": [20362, 20363, 20364, 20365, 20366],
+            "insure_items": [20694],
+            "materials": [
+                {
+                    "id": 25199,
+                    "number": 1
+                },
+                {
+                    "id": 25199,
+                    "number": 1
+                },
+                {
+                    "id": 25199,
+                    "number": 1
+                }
+            ],
+            "output": {
+                "id": 25200,
+                "number": 1
+            },
+            "output_based_on_input": false,
+            "default_rate": 25,
+            "actual_rate": 15
+        },
+        {
+            "compose_id": 133,
+            "compose_name": "Nâng cấp Mũ Đồng Hành [Kháng Hỏa] - Kim Lân",
+            "compose_description": "",
+            "allow_multiple": false,
+            "enable_source": false,
+            "enable_rate_up": true,
+            "rate_up_items": [20362, 20363, 20364, 20365, 20366],
+            "insure_items": [20694],
+            "materials": [
+                {
+                    "id": 25203,
+                    "number": 1
+                },
+                {
+                    "id": 25203,
+                    "number": 1
+                },
+                {
+                    "id": 25203,
+                    "number": 1
+                }
+            ],
+            "output": {
+                "id": 25204,
+                "number": 1
+            },
+            "output_based_on_input": false,
+            "default_rate": 25,
+            "actual_rate": 15
+        },
+        {
+            "compose_id": 134,
+            "compose_name": "Nâng cấp Mũ Đồng Hành [Kháng Lôi] - Kim Lân",
+            "compose_description": "",
+            "allow_multiple": false,
+            "enable_source": false,
+            "enable_rate_up": true,
+            "rate_up_items": [20362, 20363, 20364, 20365, 20366],
+            "insure_items": [20694],
+            "materials": [
+                {
+                    "id": 25207,
+                    "number": 1
+                },
+                {
+                    "id": 25207,
+                    "number": 1
+                },
+                {
+                    "id": 25207,
+                    "number": 1
+                }
+            ],
+            "output": {
+                "id": 25208,
+                "number": 1
+            },
+            "output_based_on_input": false,
+            "default_rate": 25,
+            "actual_rate": 15
+        },
+        {
+            "compose_id": 135,
+            "compose_name": "Nâng cấp Mũ Đồng Hành [Kháng Vật] - Kim Lân",
+            "compose_description": "",
+            "allow_multiple": false,
+            "enable_source": false,
+            "enable_rate_up": true,
+            "rate_up_items": [20362, 20363, 20364, 20365, 20366],
+            "insure_items": [20694],
+            "materials": [
+                {
+                    "id": 25211,
+                    "number": 1
+                },
+                {
+                    "id": 25211,
+                    "number": 1
+                },
+                {
+                    "id": 25211,
+                    "number": 1
+                }
+            ],
+            "output": {
+                "id": 25212,
+                "number": 1
+            },
+            "output_based_on_input": false,
+            "default_rate": 25,
+            "actual_rate": 15
+        },
+        {
+            "compose_id": 136,
+            "compose_name": "Nâng cấp Mũ Đồng Hành [Kháng Độc] - Kim Lân",
+            "compose_description": "",
+            "allow_multiple": false,
+            "enable_source": false,
+            "enable_rate_up": true,
+            "rate_up_items": [20362, 20363, 20364, 20365, 20366],
+            "insure_items": [20694],
+            "materials": [
+                {
+                    "id": 25215,
+                    "number": 1
+                },
+                {
+                    "id": 25215,
+                    "number": 1
+                },
+                {
+                    "id": 25215,
+                    "number": 1
+                }
+            ],
+            "output": {
+                "id": 25216,
+                "number": 1
+            },
+            "output_based_on_input": false,
+            "default_rate": 25,
+            "actual_rate": 15
+        },
+        {
+            "compose_id": 137,
+            "compose_name": "Nâng cấp Ấn Đồng Hành - Bích Huyết",
+            "compose_description": "",
+            "allow_multiple": false,
+            "enable_source": true,
+            "enable_rate_up": true,
+            "rate_up_items": [20362, 20363, 20364, 20365, 20366],
+            "source": { "ids": [25219] },
+            "materials": [
+                {
+                    "id": 506,
+                    "number": 500
+                },
+                {
+                    "id": 190,
+                    "number": 5
+                }
+            ],
+            "fees": [
+                { "type": 4, "number": 5000 },
+                { "type": 5, "number": 5000 }
+            ],
+            "output": {
+                "id": 25220,
+                "number": 1,
+                "expiry": 10081
+            },
+            "output_based_on_input": false,
+            "default_rate": 100
+        },
+        {
+            "compose_id": 138,
+            "compose_name": "Nâng cấp Ấn Đồng Hành - Kim Lân",
+            "compose_description": "",
+            "allow_multiple": false,
+            "enable_source": true,
+            "enable_rate_up": true,
+            "rate_up_items": [20362, 20363, 20364, 20365, 20366],
+            "insure_items": [20694],
+            "source": { "ids": [25220] },
+            "materials": [
+                {
+                    "id": 506,
+                    "number": 1000
+                },
+                {
+                    "id": 191,
+                    "number": 3
+                }
+            ],
+            "fees": [
+                { "type": 4, "number": 5000 },
+                { "type": 5, "number": 5000 }
+            ],
+            "output": {
+                "id": 25221,
+                "number": 1,
+                "expiry": 14401
+            },
+            "output_based_on_input": false,
+            "default_rate": 100
+        },
+        {
+            "compose_id": 139,
+            "compose_name": "Nâng cấp Ấn Đồng Hành - Đơn Tâm",
+            "compose_description": "",
+            "allow_multiple": false,
+            "enable_source": true,
+            "enable_rate_up": true,
+            "rate_up_items": [20367, 20368, 20369, 20370, 20371],
+            "insure_items": [20695],
+            "source": { "ids": [25221] },
+            "materials": [
+                {
+                    "id": 506,
+                    "number": 1500
+                },
+                {
+                    "id": 191,
+                    "number": 5
+                }
+            ],
+            "fees": [
+                { "type": 4, "number": 7000 },
+                { "type": 5, "number": 7000 }
+            ],
+            "output": {
+                "id": 25222,
+                "number": 1,
+                "expiry": 14401
+            },
+            "output_based_on_input": false,
+            "default_rate": 100
+        },
+        {
+            "compose_id": 140,
+            "compose_name": "Nâng cấp Ấn Đồng Hành - Long Đằng",
+            "compose_description": "",
+            "allow_multiple": false,
+            "enable_source": true,
+            "enable_rate_up": true,
+            "rate_up_items": [20367, 20368, 20369, 20370, 20371],
+            "insure_items": [20696],
+            "source": { "ids": [25222] },
+            "materials": [
+                {
+                    "id": 506,
+                    "number": 3000
+                },
+                {
+                    "id": 192,
+                    "number": 3
+                }
+            ],
+            "fees": [
+                { "type": 4, "number": 10000 },
+                { "type": 5, "number": 10000 }
+            ],
+            "output": {
+                "id": 25223,
+                "number": 1,
+                "expiry": 21601
+            },
+            "output_based_on_input": false,
+            "default_rate": 100
+        },
+        {
+            "compose_id": 141,
+            "compose_name": "Triệu hồi Yến Tiểu Lâu (7 kỹ năng)",
+            "compose_description": "",
+            "allow_multiple": false,
+            "enable_source": false,
+            "enable_rate_up": false,
+            "materials": [
+                {
+                    "id": 20601,
+                    "number": 1000
+                },
+                {
+                    "id": 194,
+                    "number": 1
+                }
+            ],
+            "fees": [
+                { "type": 4, "number": 100000 },
+                { "type": 5, "number": 100000 }
+            ],
+            "output": {
+                "id": 25184,
+                "number": 1
+            },
+            "output_based_on_input": false,
+            "default_rate": 100
+        },
+        {
+            "compose_id": 142,
+            "compose_name": "Nâng cấp Đai Lưng Đồng Hành - Đơn Tâm",
+            "compose_description": "",
+            "allow_multiple": false,
+            "enable_source": false,
+            "enable_rate_up": true,
+            "rate_up_items": [20367, 20368, 20369, 20370, 20371],
+            "insure_items": [20695],
+            "materials": [
+                { "id": 25112, "number": 1 },
+                { "id": 25112, "number": 1 },
+                { "id": 25112, "number": 1 }
+            ],
+            "output": { "id": 25113, "number": 1 },
+            "output_based_on_input": false,
+            "default_rate": 20,
+            "actual_rate": 7
+        },
+        {
+            "compose_id": 143,
+            "compose_name": "Nâng cấp Mũ Đồng Hành - Đơn Tâm",
+            "compose_description": "",
+            "allow_multiple": false,
+            "enable_source": false,
+            "enable_rate_up": true,
+            "rate_up_items": [20367, 20368, 20369, 20370, 20371],
+            "insure_items": [20695],
+            "materials": [
+                { "id": 25124, "number": 1 },
+                { "id": 25124, "number": 1 },
+                { "id": 25124, "number": 1 }
+            ],
+            "output": { "id": 25125, "number": 1 },
+            "output_based_on_input": false,
+            "default_rate": 20,
+            "actual_rate": 7
+        },
+        {
+            "compose_id": 144,
+            "compose_name": "Nâng cấp Hạng liên Đồng Hành - Đơn Tâm",
+            "compose_description": "",
+            "allow_multiple": false,
+            "enable_source": false,
+            "enable_rate_up": true,
+            "rate_up_items": [20367, 20368, 20369, 20370, 20371],
+            "insure_items": [20695],
+            "materials": [
+                { "id": 25128, "number": 1 },
+                { "id": 25128, "number": 1 },
+                { "id": 25128, "number": 1 }
+            ],
+            "output": { "id": 25129, "number": 1 },
+            "output_based_on_input": false,
+            "default_rate": 20,
+            "actual_rate": 3
+        },
+        {
+            "compose_id": 145,
+            "compose_name": "Nâng cấp Bội Đồng Hành - Đơn Tâm",
+            "compose_description": "",
+            "allow_multiple": false,
+            "enable_source": false,
+            "enable_rate_up": true,
+            "rate_up_items": [20367, 20368, 20369, 20370, 20371],
+            "insure_items": [20695],
+            "materials": [
+                { "id": 25132, "number": 1 },
+                { "id": 25132, "number": 1 },
+                { "id": 25132, "number": 1 }
+            ],
+            "output": { "id": 25133, "number": 1 },
+            "output_based_on_input": false,
+            "default_rate": 20,
+            "actual_rate": 1
+        },
+        {
+            "compose_id": 146,
+            "compose_name": "Nâng cấp Giày Đồng Hành - Đơn Tâm",
+            "compose_description": "",
+            "allow_multiple": false,
+            "enable_source": false,
+            "enable_rate_up": true,
+            "rate_up_items": [20367, 20368, 20369, 20370, 20371],
+            "insure_items": [20695],
+            "materials": [
+                { "id": 25116, "number": 1 },
+                { "id": 25116, "number": 1 },
+                { "id": 25116, "number": 1 }
+            ],
+            "output": { "id": 25117, "number": 1 },
+            "output_based_on_input": false,
+            "default_rate": 10,
+            "actual_rate": 0
+        },
+        {
+            "compose_id": 147,
+            "compose_name": "Nâng cấp Vũ khí đồng hành - Long Đằng",
+            "compose_description": "",
+            "allow_multiple": false,
+            "enable_source": false,
+            "enable_rate_up": true,
+            "rate_up_items": [20367, 20368, 20369, 20370, 20371],
+            "insure_items": [20695],
+            "materials": [
+                { "id": 25141, "number": 1 },
+                { "id": 25141, "number": 1 },
+                { "id": 25141, "number": 1 }
+            ],
+            "output": { "id": 25142, "number": 1 },
+            "output_based_on_input": false,
+            "default_rate": 15,
+            "actual_rate": 5
+        },
+        {
+            "compose_id": 148,
+            "compose_name": "Nâng cấp Y Phục Đồng Hành - Long Đằng",
+            "compose_description": "",
+            "allow_multiple": false,
+            "enable_source": false,
+            "enable_rate_up": true,
+            "rate_up_items": [20367, 20368, 20369, 20370, 20371],
+            "insure_items": [20695],
+            "materials": [
+                { "id": 25109, "number": 1 },
+                { "id": 25109, "number": 1 },
+                { "id": 25109, "number": 1 }
+            ],
+            "output": { "id": 25110, "number": 1 },
+            "output_based_on_input": false,
+            "default_rate": 15,
+            "actual_rate": 5
+        },
+        {
+            "compose_id": 149,
+            "compose_name": "Nâng cấp Hộ uyển Đồng Hành  - Long Đằng",
+            "compose_description": "",
+            "allow_multiple": false,
+            "enable_source": false,
+            "enable_rate_up": true,
+            "rate_up_items": [20367, 20368, 20369, 20370, 20371],
+            "insure_items": [20695],
+            "materials": [
+                { "id": 25121, "number": 1 },
+                { "id": 25121, "number": 1 },
+                { "id": 25121, "number": 1 }
+            ],
+            "output": { "id": 25122, "number": 1 },
+            "output_based_on_input": false,
+            "default_rate": 15,
+            "actual_rate": 5
+        },
+        {
+            "compose_id": 150,
+            "compose_name": "Nâng cấp Nhẫn Đồng Hành - Long Đằng",
+            "compose_description": "",
+            "allow_multiple": false,
+            "enable_source": false,
+            "enable_rate_up": true,
+            "rate_up_items": [20367, 20368, 20369, 20370, 20371],
+            "insure_items": [20695],
+            "materials": [
+                { "id": 25137, "number": 1 },
+                { "id": 25137, "number": 1 },
+                { "id": 25137, "number": 1 }
+            ],
+            "output": { "id": 25138, "number": 1 },
+            "output_based_on_input": false,
+            "default_rate": 15,
+            "actual_rate": 5
+        },
+        {
+            "compose_id": 151,
+            "compose_name": "Nâng cấp Phù Đồng Hành - Long Đằng",
+            "compose_description": "",
+            "allow_multiple": false,
+            "enable_source": false,
+            "enable_rate_up": true,
+            "rate_up_items": [20367, 20368, 20369, 20370, 20371],
+            "insure_items": [20695],
+            "materials": [
+                { "id": 25105, "number": 1 },
+                { "id": 25105, "number": 1 },
+                { "id": 25105, "number": 1 }
+            ],
+            "output": { "id": 25106, "number": 1 },
+            "output_based_on_input": false,
+            "default_rate": 15,
+            "actual_rate": 5
+        },
+        {
+            "compose_id": 152,
+            "compose_name": "Nâng cấp Đai Lưng Đồng Hành - Long Đằng",
+            "compose_description": "",
+            "allow_multiple": false,
+            "enable_source": false,
+            "enable_rate_up": true,
+            "rate_up_items": [20367, 20368, 20369, 20370, 20371],
+            "insure_items": [20695],
+            "materials": [
+                { "id": 25113, "number": 1 },
+                { "id": 25113, "number": 1 },
+                { "id": 25113, "number": 1 }
+            ],
+            "output": { "id": 25114, "number": 1 },
+            "output_based_on_input": false,
+            "default_rate": 15,
+            "actual_rate": 5
+        },
+        {
+            "compose_id": 153,
+            "compose_name": "Nâng cấp Mũ Đồng Hành - Long Đằng",
+            "compose_description": "",
+            "allow_multiple": false,
+            "enable_source": false,
+            "enable_rate_up": true,
+            "rate_up_items": [20367, 20368, 20369, 20370, 20371],
+            "insure_items": [20695],
+            "materials": [
+                { "id": 25125, "number": 1 },
+                { "id": 25125, "number": 1 },
+                { "id": 25125, "number": 1 }
+            ],
+            "output": { "id": 25126, "number": 1 },
+            "output_based_on_input": false,
+            "default_rate": 15,
+            "actual_rate": 5
+        },
+        {
+            "compose_id": 154,
+            "compose_name": "Nâng cấp Hạng liên Đồng Hành - Long Đằng",
+            "compose_description": "",
+            "allow_multiple": false,
+            "enable_source": false,
+            "enable_rate_up": true,
+            "rate_up_items": [20367, 20368, 20369, 20370, 20371],
+            "insure_items": [20695],
+            "materials": [
+                { "id": 25129, "number": 1 },
+                { "id": 25129, "number": 1 },
+                { "id": 25129, "number": 1 }
+            ],
+            "output": { "id": 25130, "number": 1 },
+            "output_based_on_input": false,
+            "default_rate": 15,
+            "actual_rate": 5
+        },
+        {
+            "compose_id": 155,
+            "compose_name": "Nâng cấp Bội Đồng Hành - Long Đằng",
+            "compose_description": "",
+            "allow_multiple": false,
+            "enable_source": false,
+            "enable_rate_up": true,
+            "rate_up_items": [20367, 20368, 20369, 20370, 20371],
+            "insure_items": [20695],
+            "materials": [
+                { "id": 25133, "number": 1 },
+                { "id": 25133, "number": 1 },
+                { "id": 25133, "number": 1 }
+            ],
+            "output": { "id": 25134, "number": 1 },
+            "output_based_on_input": false,
+            "default_rate": 10,
+            "actual_rate": 0
+        },
+        {
+            "compose_id": 156,
+            "compose_name": "Nâng cấp Giày Đồng Hành - Long Đằng",
+            "compose_description": "",
+            "allow_multiple": false,
+            "enable_source": false,
+            "enable_rate_up": true,
+            "rate_up_items": [20367, 20368, 20369, 20370, 20371],
+            "insure_items": [20695],
+            "materials": [
+                { "id": 25117, "number": 1 },
+                { "id": 25117, "number": 1 },
+                { "id": 25117, "number": 1 }
+            ],
+            "output": { "id": 25118, "number": 1 },
+            "output_based_on_input": false,
+            "default_rate": 8,
+            "actual_rate": 0
+        },
+        {
+            "compose_id": 157,
+            "compose_name": "Nâng cấp Mũ Đồng Hành - Đơn Tâm [Kháng Băng]",
+            "compose_description": "",
+            "allow_multiple": false,
+            "enable_source": false,
+            "enable_rate_up": true,
+            "rate_up_items": [20367, 20368, 20369, 20370, 20371],
+            "insure_items": [20695],
+            "materials": [
+                { "id": 25200, "number": 1 },
+                { "id": 25200, "number": 1 },
+                { "id": 25200, "number": 1 }
+            ],
+            "output": { "id": 25201, "number": 1 },
+            "output_based_on_input": false,
+            "default_rate": 20,
+            "actual_rate": 7
+        },
+        {
+            "compose_id": 158,
+            "compose_name": "Nâng cấp Mũ Đồng Hành - Đơn Tâm [Kháng Hỏa]",
+            "compose_description": "",
+            "allow_multiple": false,
+            "enable_source": false,
+            "enable_rate_up": true,
+            "rate_up_items": [20367, 20368, 20369, 20370, 20371],
+            "insure_items": [20695],
+            "materials": [
+                { "id": 25204, "number": 1 },
+                { "id": 25204, "number": 1 },
+                { "id": 25204, "number": 1 }
+            ],
+            "output": { "id": 25205, "number": 1 },
+            "output_based_on_input": false,
+            "default_rate": 20,
+            "actual_rate": 7
+        },
+        {
+            "compose_id": 159,
+            "compose_name": "Nâng cấp Mũ Đồng Hành - Đơn Tâm [Kháng Lôi]",
+            "compose_description": "",
+            "allow_multiple": false,
+            "enable_source": false,
+            "enable_rate_up": true,
+            "rate_up_items": [20367, 20368, 20369, 20370, 20371],
+            "insure_items": [20695],
+            "materials": [
+                { "id": 25208, "number": 1 },
+                { "id": 25208, "number": 1 },
+                { "id": 25208, "number": 1 }
+            ],
+            "output": { "id": 25209, "number": 1 },
+            "output_based_on_input": false,
+            "default_rate": 20,
+            "actual_rate": 7
+        },
+        {
+            "compose_id": 160,
+            "compose_name": "Nâng cấp Mũ Đồng Hành - Đơn Tâm [Kháng Vật]",
+            "compose_description": "",
+            "allow_multiple": false,
+            "enable_source": false,
+            "enable_rate_up": true,
+            "rate_up_items": [20367, 20368, 20369, 20370, 20371],
+            "insure_items": [20695],
+            "materials": [
+                { "id": 25212, "number": 1 },
+                { "id": 25212, "number": 1 },
+                { "id": 25212, "number": 1 }
+            ],
+            "output": { "id": 25213, "number": 1 },
+            "output_based_on_input": false,
+            "default_rate": 20,
+            "actual_rate": 7
+        },
+        {
+            "compose_id": 161,
+            "compose_name": "Nâng cấp Mũ Đồng Hành - Đơn Tâm [Kháng Độc]",
+            "compose_description": "",
+            "allow_multiple": false,
+            "enable_source": false,
+            "enable_rate_up": true,
+            "rate_up_items": [20367, 20368, 20369, 20370, 20371],
+            "insure_items": [20695],
+            "materials": [
+                { "id": 25216, "number": 1 },
+                { "id": 25216, "number": 1 },
+                { "id": 25216, "number": 1 }
+            ],
+            "output": { "id": 25217, "number": 1 },
+            "output_based_on_input": false,
+            "default_rate": 20,
+            "actual_rate": 7
+        },
+        {
+            "compose_id": 162,
+            "compose_name": "Nâng cấp Mũ Đồng Hành - Long Đằng [Kháng Băng]",
+            "compose_description": "",
+            "allow_multiple": false,
+            "enable_source": false,
+            "enable_rate_up": true,
+            "rate_up_items": [20367, 20368, 20369, 20370, 20371],
+            "insure_items": [20695],
+            "materials": [
+                { "id": 25201, "number": 1 },
+                { "id": 25201, "number": 1 },
+                { "id": 25201, "number": 1 }
+            ],
+            "output": { "id": 25202, "number": 1 },
+            "output_based_on_input": false,
+            "default_rate": 15,
+            "actual_rate": 5
+        },
+        {
+            "compose_id": 163,
+            "compose_name": "Nâng cấp Mũ Đồng Hành - Long Đằng [Kháng Hỏa]",
+            "compose_description": "",
+            "allow_multiple": false,
+            "enable_source": false,
+            "enable_rate_up": true,
+            "rate_up_items": [20367, 20368, 20369, 20370, 20371],
+            "insure_items": [20695],
+            "materials": [
+                { "id": 25205, "number": 1 },
+                { "id": 25205, "number": 1 },
+                { "id": 25205, "number": 1 }
+            ],
+            "output": { "id": 25206, "number": 1 },
+            "output_based_on_input": false,
+            "default_rate": 15,
+            "actual_rate": 5
+        },
+        {
+            "compose_id": 164,
+            "compose_name": "Nâng cấp Mũ Đồng Hành - Long Đằng [Kháng Lôi]",
+            "compose_description": "",
+            "allow_multiple": false,
+            "enable_source": false,
+            "enable_rate_up": true,
+            "rate_up_items": [20367, 20368, 20369, 20370, 20371],
+            "insure_items": [20695],
+            "materials": [
+                { "id": 25209, "number": 1 },
+                { "id": 25209, "number": 1 },
+                { "id": 25209, "number": 1 }
+            ],
+            "output": { "id": 25210, "number": 1 },
+            "output_based_on_input": false,
+            "default_rate": 15,
+            "actual_rate": 5
+        },
+        {
+            "compose_id": 165,
+            "compose_name": "Nâng cấp Mũ Đồng Hành - Long Đằng [Kháng Vật]",
+            "compose_description": "",
+            "allow_multiple": false,
+            "enable_source": false,
+            "enable_rate_up": true,
+            "rate_up_items": [20367, 20368, 20369, 20370, 20371],
+            "insure_items": [20695],
+            "materials": [
+                { "id": 25213, "number": 1 },
+                { "id": 25213, "number": 1 },
+                { "id": 25213, "number": 1 }
+            ],
+            "output": { "id": 25214, "number": 1 },
+            "output_based_on_input": false,
+            "default_rate": 15,
+            "actual_rate": 5
+        },
+        {
+            "compose_id": 166,
+            "compose_name": "Nâng cấp Mũ Đồng Hành - Long Đằng [Kháng Độc]",
+            "compose_description": "",
+            "allow_multiple": false,
+            "enable_source": false,
+            "enable_rate_up": true,
+            "rate_up_items": [20367, 20368, 20369, 20370, 20371],
+            "insure_items": [20695],
+            "materials": [
+                { "id": 25217, "number": 1 },
+                { "id": 25217, "number": 1 },
+                { "id": 25217, "number": 1 }
+            ],
+            "output": { "id": 25218, "number": 1 },
+            "output_based_on_input": false,
+            "default_rate": 15,
+            "actual_rate": 5
+        }
+    ]
+}

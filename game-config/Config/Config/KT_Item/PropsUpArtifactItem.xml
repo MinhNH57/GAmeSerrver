@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfArtifactUpInfo xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" CanRevice="false">
+    <ArtifactUpInfo LevelItem="2" LevelUp="1" > <!-- Mũ -->
+        <PropInfo BasicPropType="lifereplenish_p" BasicPropValue="2" />
+        <PropInfo BasicPropType="manareplenish_p" BasicPropValue="2" />
+        <PropInfo BasicPropType="damage_all_resist" BasicPropValue="20" />
+        <ItemInput ItemID="1887" ItemCount="4" />
+        <ItemInput ItemID="506" ItemCount="10000" />
+        <ItemInput ItemID="928" ItemCount="100" />
+        <ItemInput ItemID="25299" ItemCount="50" />
+    </ArtifactUpInfo>
+    <ArtifactUpInfo LevelItem="3" LevelUp="1" > <!-- Áo -->
+        <PropInfo BasicPropType="lifereplenish_p" BasicPropValue="2" />
+        <PropInfo BasicPropType="manareplenish_p" BasicPropValue="2" />
+        <PropInfo BasicPropType="damage_all_resist" BasicPropValue="20" />
+        <ItemInput ItemID="1888" ItemCount="4" />
+        <ItemInput ItemID="506" ItemCount="10000" />
+        <ItemInput ItemID="928" ItemCount="100" />
+        <ItemInput ItemID="25299" ItemCount="50" />
+    </ArtifactUpInfo>
+    <ArtifactUpInfo LevelItem="4" LevelUp="1" > <!-- Lưng  -->
+        <PropInfo BasicPropType="lifemax_v" BasicPropValue="200" />
+        <PropInfo BasicPropType="manamax_v" BasicPropValue="200" />
+        <PropInfo BasicPropType="reduce_received_damage_p" BasicPropValue="1" />
+        <ItemInput ItemID="1889" ItemCount="3" />
+        <ItemInput ItemID="506" ItemCount="10000" />
+        <ItemInput ItemID="928" ItemCount="100" />
+        <ItemInput ItemID="25299" ItemCount="50" />
+    </ArtifactUpInfo>
+    <ArtifactUpInfo LevelItem="8" LevelUp="1" > <!-- Tay -->
+        <PropInfo BasicPropType="lifemax_v" BasicPropValue="200" />
+        <PropInfo BasicPropType="manamax_v" BasicPropValue="200" />
+        <PropInfo BasicPropType="reduce_received_damage_p" BasicPropValue="1" />
+        <ItemInput ItemID="1893" ItemCount="3" />
+        <ItemInput ItemID="506" ItemCount="10000" />
+        <ItemInput ItemID="928" ItemCount="100" />
+        <ItemInput ItemID="25299" ItemCount="50" />
+    </ArtifactUpInfo>
+    <ArtifactUpInfo LevelItem="5" LevelUp="1" > <!-- Giày -->
+        <PropInfo BasicPropType="lifereplenish_p" BasicPropValue="2" />
+        <PropInfo BasicPropType="manareplenish_p" BasicPropValue="2" />
+        <PropInfo BasicPropType="damage_all_resist" BasicPropValue="20" />
+        <ItemInput ItemID="1890" ItemCount="3" />
+        <ItemInput ItemID="506" ItemCount="10000" />
+        <ItemInput ItemID="928" ItemCount="100" />
+        <ItemInput ItemID="25299" ItemCount="50" />
+    </ArtifactUpInfo>
+    <ArtifactUpInfo LevelItem="6" LevelUp="1" > <!-- Liên -->
+        <PropInfo BasicPropType="lifemax_p" BasicPropValue="5" />
+        <PropInfo BasicPropType="reduce_received_damage_p" BasicPropValue="1" />
+        <PropInfo BasicPropType="increase_output_damage_p" BasicPropValue="1" />
+        <ItemInput ItemID="1891" ItemCount="3" />
+        <ItemInput ItemID="506" ItemCount="10000" />
+        <ItemInput ItemID="928" ItemCount="100" />
+        <ItemInput ItemID="25300" ItemCount="50" />
+    </ArtifactUpInfo>
+    <ArtifactUpInfo LevelItem="7" LevelUp="1" > <!-- Nhẫn -->
+        <PropInfo BasicPropType="lifemax_p" BasicPropValue="5" />
+        <PropInfo BasicPropType="increase_output_damage_p" BasicPropValue="2" />
+        <ItemInput ItemID="1892" ItemCount="3" />
+        <ItemInput ItemID="506" ItemCount="10000" />
+        <ItemInput ItemID="928" ItemCount="100" />
+        <ItemInput ItemID="25300" ItemCount="50" />
+    </ArtifactUpInfo>
+    <ArtifactUpInfo LevelItem="9" LevelUp="1" > <!-- Bội  -->
+        <PropInfo BasicPropType="lifemax_p" BasicPropValue="5" />
+        <PropInfo BasicPropType="increase_output_damage_p" BasicPropValue="2" />
+        <ItemInput ItemID="1894" ItemCount="3" />
+        <ItemInput ItemID="506" ItemCount="10000" />
+        <ItemInput ItemID="928" ItemCount="100" />
+        <ItemInput ItemID="25300" ItemCount="50" />
+    </ArtifactUpInfo>
+    <ArtifactUpInfo LevelItem="1" LevelUp="1" > <!-- Phù -->
+        <PropInfo BasicPropType="lifereplenish_p" BasicPropValue="2" />
+        <PropInfo BasicPropType="manareplenish_p" BasicPropValue="2" />
+        <PropInfo BasicPropType="damage_all_resist" BasicPropValue="20" />
+        <ItemInput ItemID="1886" ItemCount="4" />
+        <ItemInput ItemID="506" ItemCount="10000" />
+        <ItemInput ItemID="928" ItemCount="100" />
+        <ItemInput ItemID="25300" ItemCount="50" />
+    </ArtifactUpInfo>
+    <ArtifactUpInfo LevelItem="0" LevelUp="1" > <!-- Vũ khí -->
+        <PropInfo BasicPropType="deadlystrikeenhance_r" BasicPropValue="90" />
+        <PropInfo BasicPropType="deadlystrikedamageenhance_p" BasicPropValue="5" />
+        <PropInfo BasicPropType="increase_output_damage_p" BasicPropValue="2" />
+        <ItemInput ItemID="819" ItemCount="25" />
+        <ItemInput ItemID="506" ItemCount="15000" />
+        <ItemInput ItemID="928" ItemCount="300" />
+        <ItemInput ItemID="25301" ItemCount="250" />
+    </ArtifactUpInfo>
+
+    <!-- cấp độ 2 -->
+    <ArtifactUpInfo LevelItem="2" LevelUp="2" > <!-- Mũ -->
+        <PropInfo BasicPropType="lifereplenish_p" BasicPropValue="5" />
+        <PropInfo BasicPropType="manareplenish_p" BasicPropValue="5" />
+        <PropInfo BasicPropType="damage_all_resist" BasicPropValue="50" />
+        <PropInfo BasicPropType="allseriesstateresisttime" BasicPropValue="25" />
+        <ItemInput ItemID="1887" ItemCount="8" />
+        <ItemInput ItemID="506" ItemCount="20000" />
+        <ItemInput ItemID="928" ItemCount="200" />
+        <ItemInput ItemID="25299" ItemCount="100" />
+    </ArtifactUpInfo>
+    <ArtifactUpInfo LevelItem="3" LevelUp="2" > <!-- Áo -->
+        <PropInfo BasicPropType="lifereplenish_p" BasicPropValue="5" />
+        <PropInfo BasicPropType="manareplenish_p" BasicPropValue="5" />
+        <PropInfo BasicPropType="damage_all_resist" BasicPropValue="50" />
+        <PropInfo BasicPropType="allseriesstateresisttime" BasicPropValue="25" />
+        <ItemInput ItemID="1888" ItemCount="8" />
+        <ItemInput ItemID="506" ItemCount="20000" />
+        <ItemInput ItemID="928" ItemCount="200" />
+        <ItemInput ItemID="25299" ItemCount="100" />
+    </ArtifactUpInfo>
+    <ArtifactUpInfo LevelItem="4" LevelUp="2" > <!-- Lưng  -->
+        <PropInfo BasicPropType="lifemax_v" BasicPropValue="500" />
+        <PropInfo BasicPropType="manamax_v" BasicPropValue="500" />
+        <PropInfo BasicPropType="reduce_received_damage_p" BasicPropValue="5" />
+        <PropInfo BasicPropType="increase_output_damage_p" BasicPropValue="1" />
+        <ItemInput ItemID="1889" ItemCount="6" />
+        <ItemInput ItemID="506" ItemCount="20000" />
+        <ItemInput ItemID="928" ItemCount="200" />
+        <ItemInput ItemID="25299" ItemCount="100" />
+    </ArtifactUpInfo>
+    <ArtifactUpInfo LevelItem="8" LevelUp="2" > <!-- Tay -->
+        <PropInfo BasicPropType="lifemax_v" BasicPropValue="500" />
+        <PropInfo BasicPropType="manamax_v" BasicPropValue="500" />
+        <PropInfo BasicPropType="reduce_received_damage_p" BasicPropValue="5" />
+        <PropInfo BasicPropType="increase_output_damage_p" BasicPropValue="1" />
+        <ItemInput ItemID="1893" ItemCount="6" />
+        <ItemInput ItemID="506" ItemCount="20000" />
+        <ItemInput ItemID="928" ItemCount="200" />
+        <ItemInput ItemID="25299" ItemCount="100" />
+    </ArtifactUpInfo>
+    <ArtifactUpInfo LevelItem="5" LevelUp="2" > <!-- Giày -->
+        <PropInfo BasicPropType="lifereplenish_p" BasicPropValue="5" />
+        <PropInfo BasicPropType="manareplenish_p" BasicPropValue="5" />
+        <PropInfo BasicPropType="damage_all_resist" BasicPropValue="50" />
+        <PropInfo BasicPropType="allseriesstateresisttime" BasicPropValue="25" />
+        <ItemInput ItemID="1890" ItemCount="6" />
+        <ItemInput ItemID="506" ItemCount="20000" />
+        <ItemInput ItemID="928" ItemCount="200" />
+        <ItemInput ItemID="25299" ItemCount="100" />
+    </ArtifactUpInfo>
+    <ArtifactUpInfo LevelItem="6" LevelUp="2" > <!-- Liên -->
+        <PropInfo BasicPropType="lifemax_p" BasicPropValue="15" />
+        <PropInfo BasicPropType="manamax_p" BasicPropValue="15" />
+        <PropInfo BasicPropType="reduce_received_damage_p" BasicPropValue="5" />
+        <PropInfo BasicPropType="increase_output_damage_p" BasicPropValue="2" />
+        <ItemInput ItemID="1891" ItemCount="6" />
+        <ItemInput ItemID="506" ItemCount="20000" />
+        <ItemInput ItemID="928" ItemCount="200" />
+        <ItemInput ItemID="25300" ItemCount="100" />
+    </ArtifactUpInfo>
+    <ArtifactUpInfo LevelItem="7" LevelUp="2" > <!-- Nhẫn -->
+        <PropInfo BasicPropType="lifemax_p" BasicPropValue="20" />
+        <PropInfo BasicPropType="increase_output_damage_p" BasicPropValue="4" />
+        <ItemInput ItemID="1892" ItemCount="6" />
+        <ItemInput ItemID="506" ItemCount="20000" />
+        <ItemInput ItemID="928" ItemCount="200" />
+        <ItemInput ItemID="25300" ItemCount="100" />
+    </ArtifactUpInfo>
+    <ArtifactUpInfo LevelItem="9" LevelUp="2" > <!-- Bội  -->
+        <PropInfo BasicPropType="lifemax_p" BasicPropValue="20" />
+        <PropInfo BasicPropType="increase_output_damage_p" BasicPropValue="4" />
+        <ItemInput ItemID="1894" ItemCount="6" />
+        <ItemInput ItemID="506" ItemCount="20000" />
+        <ItemInput ItemID="928" ItemCount="200" />
+        <ItemInput ItemID="25300" ItemCount="100" />
+    </ArtifactUpInfo>
+    <ArtifactUpInfo LevelItem="1" LevelUp="2" > <!-- Phù -->
+        <PropInfo BasicPropType="lifereplenish_p" BasicPropValue="5" />
+        <PropInfo BasicPropType="manareplenish_p" BasicPropValue="5" />
+        <PropInfo BasicPropType="damage_all_resist" BasicPropValue="50" />
+        <PropInfo BasicPropType="allseriesstateresisttime" BasicPropValue="25" />
+        <ItemInput ItemID="1886" ItemCount="8" />
+        <ItemInput ItemID="506" ItemCount="20000" />
+        <ItemInput ItemID="928" ItemCount="200" />
+        <ItemInput ItemID="25300" ItemCount="100" />
+    </ArtifactUpInfo>
+    <ArtifactUpInfo LevelItem="0" LevelUp="2" > <!-- Vũ khí -->
+        <PropInfo BasicPropType="deadlystrikeenhance_r" BasicPropValue="180" />
+        <PropInfo BasicPropType="deadlystrikedamageenhance_p" BasicPropValue="10" />
+        <PropInfo BasicPropType="increase_output_damage_p" BasicPropValue="5" />
+        <ItemInput ItemID="819" ItemCount="75" />
+        <ItemInput ItemID="506" ItemCount="30000" />
+        <ItemInput ItemID="928" ItemCount="600" />
+        <ItemInput ItemID="25301" ItemCount="500" />
+    </ArtifactUpInfo>
+</ArrayOfArtifactUpInfo>

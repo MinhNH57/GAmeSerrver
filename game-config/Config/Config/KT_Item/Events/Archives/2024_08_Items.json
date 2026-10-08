@@ -1,0 +1,132 @@
+{
+    "Help": {
+        "Help1": "cấu hình vật phẩm sự kiện bằng json",
+        "Help2": "Genre: 18: scriptitem, 22: normal item",
+        "Help3": "ParticularType: > 32000 nếu drop tại map, bỏ qua nếu không phải",
+        "Help4": "ScriptID: 200060 nếu là RandomBox (khai báo ItemValue là ID của box)",
+        "StartID": 20587
+    },
+    "RandomBoxes": [
+        {
+            "ItemID": 20647,
+            "Name": "Cây Cầu Thủ Công",
+            "LimitLifeTime": 300,
+            "Icon": "202408_caycauthucong",
+            "Intro": "Vật phẩm sự kiện Thước Kiều Nhân Duyên.",
+            "ItemValue": 200448
+        },
+        { "ItemID": 20648, "Name": "Cầu Ô Thước", "Icon": "202408_cauothuoc", "Intro": "Vật phẩm sự kiện Thước Kiều Nhân Duyên.", "ItemValue": 200449 },
+        {
+            "ItemID": 20649,
+            "Name": "[Đặc biệt] Đèn Hoa Đăng Khổng Lồ",
+            "Icon": "202408_denhoadangkhonglo",
+            "Intro": "Vật phẩm sự kiện Thước Kiều Nhân Duyên.",
+            "ItemValue": 200450
+        },
+        {
+            "ItemID": 20650,
+            "Name": "Thú cưỡi Hồng Long Xích Diệm (ngẫu nhiên)",
+            "Icon": "horsebox_c",
+            "Intro": "Vật phẩm sự kiện Thước Kiều Nhân Duyên.<br>Sử dụng nhận được thú cưỡi <color=#eba0ac>Hồng Long Xích Diệm</color>, thời hạn ngẫu nhiên.",
+            "ItemValue": 200452
+        },
+        {
+            "ItemID": 20656,
+            "Name": "Danh hiệu Thước Kiều Nhân Duyên (ngẫu nhiên)",
+            "Icon": "quest_0084_s",
+            "Intro": "Vật phẩm sự kiện Thước Kiều Nhân Duyên.<br>Sử dụng nhận được danh hiệu <color=#eba0ac>Thước Kiều Nhân Duyên</color>, thời hạn ngẫu nhiên.",
+            "ItemValue": 200451
+        },
+        {
+            "ItemID": 20659,
+            "Name": "Mặt nạ Quang Mộc Côn (ngẫu nhiên)",
+            "Icon": "quest_0084_s",
+            "Intro": "Vật phẩm sự kiện Thước Kiều Nhân Duyên.<br>Sử dụng nhận được mặt nạ <color=#eba0ac>Quang Mộc Côn</color>, thời hạn ngẫu nhiên.",
+            "ItemValue": 200457
+        },
+        {
+            "ItemID": 20660,
+            "Name": "Danh hiệu Thước Kiều Nhân Duyên (30 ngày)",
+            "Icon": "quest_0084_s",
+            "Intro": "Vật phẩm sự kiện Thước Kiều Nhân Duyên.<br>Sử dụng nhận được danh hiệu <color=#eba0ac>Thước Kiều Nhân Duyên</color>, thời hạn 30 ngày.",
+            "ItemValue": 200453
+        },
+        {
+            "ItemID": 20662,
+            "Name": "Rương Tình Nhân",
+            "Icon": "202408_ruongtinhnhan",
+            "Intro": "Vật phẩm sự kiện Thước Kiều Nhân Duyên.<br>Sử dụng nhận được nhiều phần thưởng quý giá.",
+            "ItemValue": 200454
+        },
+        {
+            "ItemID": 20663,
+            "Name": "Rương Đèn Hoa Đăng Khổng Lồ",
+            "Icon": "Fifa_baoxiang",
+            "Intro": "Vật phẩm sự kiện Thước Kiều Nhân Duyên.<br>Sử dụng nhận được ngẫu nhiên 3-100 Đèn Hoa Đăng Khổng Lồ.",
+            "ItemValue": 200455
+        }
+    ],
+    "Normal": [
+        {
+            "ItemID": 20651,
+            "Name": "Bê Tông",
+            "ParticularType": 32001,
+            "Stack": 10000,
+            "Icon": "202408_betong",
+            "Intro": "Vật phẩm sự kiện Thước Kiều Nhân Duyên.",
+            "ScriptID": 200121
+        },
+        {
+            "ItemID": 20652,
+            "Name": "Đá",
+            "ParticularType": 32001,
+            "Stack": 10000,
+            "Icon": "202408_da",
+            "Intro": "Vật phẩm sự kiện Thước Kiều Nhân Duyên.",
+            "ScriptID": 200121
+        },
+        {
+            "ItemID": 20653,
+            "Name": "Thép",
+            "ParticularType": 32001,
+            "Stack": 10000,
+            "Icon": "202408_thep",
+            "Intro": "Vật phẩm sự kiện Thước Kiều Nhân Duyên.",
+            "ScriptID": 200121
+        },
+        {
+            "ItemID": 20654,
+            "Name": "Hoa Hồng",
+            "Icon": "202408_hoahong",
+            "Intro": "Vật phẩm sự kiện Thước Kiều Nhân Duyên. <br>Sử dụng nhận được <color=#a6e3a1>1 điểm kỹ năng</color>. Mỗi người tối đa sử dụng <color=#eba0ac>2 vật phẩm</color>.",
+            "ScriptID": 200097,
+            "ListExtPram": [
+                { "Pram": 700531, "Index": 1 },
+                { "Pram": 1, "Index": 2 },
+                { "Pram": 2, "Index": 3 }
+            ]
+        },
+        {
+            "ItemID": 20655,
+            "Name": "Gấu Bông",
+            "Icon": "202408_gaubong",
+            "Intro": "Vật phẩm sự kiện Thước Kiều Nhân Duyên. <br>Sử dụng nhận được <color=#a6e3a1>10 điểm tiềm năng</color>. Mỗi người tối đa sử dụng <color=#eba0ac>2 vật phẩm</color>.",
+            "ScriptID": 200096,
+            "ListExtPram": [
+                { "Pram": 700532, "Index": 1 },
+                { "Pram": 10, "Index": 2 },
+                { "Pram": 2, "Index": 3 }
+            ]
+        },
+        { "ItemID": 20657, "Name": "Mảnh Thư Tình [Ngưu Lang]", "Stack": 10000, "Icon": "202408_thutinhnguulang", "Intro": "" },
+        { "ItemID": 20658, "Name": "Mảnh Thư Tình [Chức Nữ]", "Stack": 10000, "Icon": "202408_thutinhchucnu", "Intro": "" },
+        { "ItemID": 20661, "Name": "Vé Tình Nhân", "Stack": 10000, "Icon": "202408_vetinhnhan", "Intro": "" },
+        { "ItemID": 20664, "Name": "Phiếu đổi quà Tình Nhân", "Stack": 10000, "Icon": "jh_yaoqinghan", "Intro": "" },
+        { "ItemID": 20665, "Name": "Phiếu Dự đoán Món ăn", "Stack": 10000, "Icon": "202408_vemonan", "Intro": "", "ScriptID": 200129 },
+        { "ItemID": 20666, "Name": "Lợn Quay", "Stack": 10000, "Icon": "202408_lonquay", "Intro": "" },
+        { "ItemID": 20667, "Name": "Mì Xào Bò", "Stack": 10000, "Icon": "202408_mixao", "Intro": "" },
+        { "ItemID": 20668, "Name": "Măng Trúc", "Stack": 10000, "Icon": "202408_mangtruc", "Intro": "" },
+        { "ItemID": 20669, "Name": "Đậu Tẩm Hành", "Stack": 10000, "Icon": "202408_dautam", "Intro": "" },
+        { "ItemID": 20670, "Name": "Cánh Gà Chiên", "Stack": 10000, "Icon": "202408_canhgachien", "Intro": "" }
+    ]
+}

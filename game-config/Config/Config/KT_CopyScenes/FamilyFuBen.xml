@@ -1,0 +1,631 @@
+<!--k 
+	PHỤ BẢN VƯỢT ẢI GIA TỘC
+	Config: Thiết lập
+		- Duration: Thời gian tồn tại (Mili-giây)
+		- MaxCallBoss: Tổng số Boss cho phép tối đa được tạo ra trong phụ bản
+		- PrepareDuration: Thời gian chuẩn bị trước khi mở ải (Mili-giây)
+		- FinishWaitTime: Thời gian chờ tự đóng phụ bản khi hoàn thành vượt ải (Mili-giây)
+		- MaxParticipatedTimesPerWeek: Số lượt tham gia tối đa của mỗi người chơi trong tuần
+		- MinLevel: Cấp độ tối thiểu tham gia
+	Map: Thông tin bản đồ phụ bản
+		- MapID: ID bản đồ phụ bản
+		- EnterPosX: Vị trí vào X
+		- EnterPosY: Vị trí vào Y
+	Item: Thông tin vật phẩm
+		- CallBoss55ItemID: ID vật phẩm Câu Hồn Ngọc (sơ)
+		- CallBoss75ItemID: ID vật phẩm Câu Hồn Ngọc (trung)
+		- CallBoss95ItemID: ID vật phẩm Câu Hồn Ngọc (cao)
+		- FamilyCoinItemID: ID vật phẩm đồng tiền cổ
+	GameRule: Các bước chơi
+		- Step: Bước
+			- ID: ID bước (bắt đầu từ 1)
+			- AllowCallBoss: Cho phép thả Boss bằng Cầu Hồn Ngọc không
+			- Guardian: Thông tin quái hộ vệ
+				- ID: ID quái
+				- Name: Tên quái, bỏ trống sẽ lấy thông tin ở File cấu hình
+				- Title: Danh hiệu quái, bỏ trống sẽ lấy thông tin ở File cấu hình
+				- PosX: Vị trí X
+				- PosY: Vị trí Y
+				- BaseHP: Sinh lực cơ bản
+				- HPIncreaseEachLevel: Sinh lực tăng thêm với mỗi cấp
+				- AIType: Loại AI (0: Quái thường, 1: Quái tinh anh, 2: Quái thủ lĩnh, 3: Boss, 4: Hải tặc, 5: Quái chữ đỏ)
+				- AIScriptID: IDScriptAI điều khiển
+					- Nếu có sử dụng các Skill đánh thì AIScriptID để bằng 100001, sẽ không sử dụng kỹ năng đánh thường của quái như ngoài Map mà thay vào bằng kỹ năng trong danh sách thiết lập (buộc phải thiết lập kỹ năng đánh, nếu không sẽ lỗi)
+				- TriggerIndex: Bảo vệ cơ quan có thứ tự tương ứng
+			- Boss: Thông tin Boss
+				- ID: ID Boss
+				- Name: Tên Boss, bỏ trống sẽ lấy thông tin ở File cấu hình
+				- Title: Danh hiệu Boss, bỏ trống sẽ lấy thông tin ở File cấu hình
+				- PosX: Vị trí X
+				- PosY: Vị trí Y
+				- BaseHP: Sinh lực cơ bản
+				- HPIncreaseEachLevel: Sinh lực tăng thêm với mỗi cấp
+				- AIType: Loại AI (0: Quái thường, 1: Quái tinh anh, 2: Quái thủ lĩnh, 3: Boss, 4: Hải tặc, 5: Quái chữ đỏ)
+				- AIScriptID: IDScriptAI điều khiển
+					- Nếu có sử dụng các Skill đánh thì AIScriptID để bằng 100001, sẽ không sử dụng kỹ năng đánh thường của quái như ngoài Map mà thay vào bằng kỹ năng trong danh sách thiết lập (buộc phải thiết lập kỹ năng đánh, nếu không sẽ lỗi)
+				- TriggerIndex: Bảo vệ cơ quan có thứ tự tương ứng
+			- Trigger: Cơ quan
+				- ID: ID Res (xem ở File Npc)
+				- Name: Tên cơ quan
+				- CollectTick: Thời gian mở (mili-giây)
+				- PosX: Vị trí X
+				- PosY: Vị trí Y
+				- Index: Thứ tự xuất hiện của cơ quan
+			- Teleport: Cổng dịch chuyển
+				- Name: Tên cổng
+				- PosX: Vị trí X (nếu mặc định là dịch chuyển ra ngoài vị trí báo danh thì điền -1)
+				- PosY: Vị trí Y (nếu mặc định là dịch chuyển ra ngoài vị trí báo danh thì điền -1)
+				- ToMapID: Vị trí bản đồ đích đến (nếu cùng bản đồ hiện tại thì điền -1)
+				- ToPosX: Vị trí đích đến X
+				- ToPosY: Vị trí đích đến Y
+				- SpawnImmediate: Xuất hiện ngay lập tức khi mở Step
+	Luật chơi: Bắt đầu từ Step 1, đến Step cuối cùng, với mỗi Step, phải tiêu diệt hết toàn bộ hộ vệ và cả Boss, khi đó cơ quan sẽ xuất hiện, sau khi mở tất cả cơ quan trong Step tương ứng thì cổng Teleport dẫn tới Step tiếp theo sẽ được mở ra
+-->
+<FamilyFuBen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<Config EventID="14" Duration="7200000" MaxCallBoss="10" PrepareDuration="60000" FinishWaitTime="600000" MaxParticipatedTimesPerWeek="2" MinLevel="80" BossRoomId="11" BossTriggerNum="1" MinMemberCount="6" />
+	<Map MapID="273" EnterPosX="989" EnterPosY="756" />
+	<Item CallBoss55ItemID="431" CallBoss75ItemID="432" CallBoss95ItemID="433" FamilyCoinItemID="371" />
+	<GameRule>
+		
+		<Step ID="1"  StepName="Sảnh chờ" AllowCallBoss="false" NextStep="2" NeedStep="">
+			<Trigger ID="618" Name="Bia đá cơ quan" CollectTick="10000" PosX="1405" PosY="893" Index="1" />
+
+			<Teleport Name="Phòng Thủ Vệ" PosX="1637" PosY="980" ToMapID="-1" ToPosX="2419" ToPosY="1489" SpawnImmediate="false" />
+
+		</Step>
+		
+		<Step ID="2" StepName=" Phòng Thủ Vệ" AllowCallBoss="false" NextStep="3" NeedStep="">
+			<Boss ID="7397" Name="Địa Cung Nhân" Title="" PosX="1812" PosY="1672" BaseHP="1500000" HPIncreaseEachLevel="0"  AIType="1"  AIScriptID="100001" Auras="" Skills="86_1_6000"/>
+			<Boss ID="7397" Name="Địa Cung Nhân" Title="" PosX="2067" PosY="1795" BaseHP="1500000" HPIncreaseEachLevel="0"  AIType="1"  AIScriptID="100001" Auras="" Skills="86_1_6000"/>
+			<Boss ID="7397" Name="Địa Cung Nhân" Title="" PosX="2347" PosY="1930" BaseHP="1500000" HPIncreaseEachLevel="0"  AIType="1"  AIScriptID="100001" Auras="" Skills="86_1_6000"/>
+			<Boss ID="7397" Name="Địa Cung Nhân" Title="" PosX="2590" PosY="2034" BaseHP="1500000" HPIncreaseEachLevel="0"  AIType="1"  AIScriptID="100001" Auras="" Skills="86_1_6000"/>
+			<Boss ID="7397" Name="Địa Cung Nhân" Title="" PosX="2826" PosY="1949" BaseHP="1500000" HPIncreaseEachLevel="0"  AIType="1"  AIScriptID="100001" Auras="" Skills="86_1_6000"/>
+			<Boss ID="7397" Name="Địa Cung Nhân" Title="" PosX="2534" PosY="1820" BaseHP="1500000" HPIncreaseEachLevel="0"  AIType="1"  AIScriptID="100001" Auras="" Skills="86_1_6000"/>
+			<Boss ID="7397" Name="Địa Cung Nhân" Title="" PosX="2195" PosY="1648" BaseHP="1500000" HPIncreaseEachLevel="0"  AIType="1"  AIScriptID="100001" Auras="" Skills="86_1_6000"/>
+			<Boss ID="7397" Name="Địa Cung Nhân" Title="" PosX="1951" PosY="1527" BaseHP="1500000" HPIncreaseEachLevel="0"  AIType="1"  AIScriptID="100001" Auras="" Skills="86_1_6000"/>
+			<Boss ID="7397" Name="Địa Cung Nhân" Title="" PosX="2310" PosY="1592" BaseHP="1500000" HPIncreaseEachLevel="0"  AIType="1"  AIScriptID="100001" Auras="" Skills="86_1_6000"/>
+			<Boss ID="7397" Name="Địa Cung Nhân" Title="" PosX="2578" PosY="1701" BaseHP="1500000" HPIncreaseEachLevel="0"  AIType="1"  AIScriptID="100001" Auras="" Skills="86_1_6000"/>
+			<Boss ID="7397" Name="Địa Cung Nhân" Title="" PosX="2841" PosY="1768" BaseHP="1500000" HPIncreaseEachLevel="0"  AIType="1"  AIScriptID="100001" Auras="" Skills="86_1_6000"/>
+			<Boss ID="7397" Name="Địa Cung Nhân" Title="" PosX="3063" PosY="1786" BaseHP="1500000" HPIncreaseEachLevel="0"  AIType="1"  AIScriptID="100001" Auras="" Skills="86_1_6000"/>
+			<Boss ID="7397" Name="Địa Cung Nhân" Title="" PosX="2874" PosY="1648" BaseHP="1500000" HPIncreaseEachLevel="0"  AIType="1"  AIScriptID="100001" Auras="" Skills="86_1_6000"/>
+			<Boss ID="7397" Name="Địa Cung Nhân" Title="" PosX="2691" PosY="1505" BaseHP="1500000" HPIncreaseEachLevel="0"  AIType="1"  AIScriptID="100001" Auras="" Skills="86_1_6000"/>
+			<Boss ID="7397" Name="Địa Cung Nhân" Title="" PosX="2558" PosY="1374" BaseHP="1500000" HPIncreaseEachLevel="0"  AIType="1"  AIScriptID="100001" Auras="" Skills="86_1_6000"/>
+			<Boss ID="7397" Name="Địa Cung Nhân" Title="" PosX="2522" PosY="1244" BaseHP="1500000" HPIncreaseEachLevel="0"  AIType="1"  AIScriptID="100001" Auras="" Skills="86_1_6000"/>
+			<Boss ID="7397" Name="Địa Cung Nhân" Title="" PosX="2789" PosY="1194" BaseHP="1500000" HPIncreaseEachLevel="0"  AIType="1"  AIScriptID="100001" Auras="" Skills="86_1_6000"/>
+			<Boss ID="7397" Name="Địa Cung Nhân" Title="" PosX="3053" PosY="1274" BaseHP="1500000" HPIncreaseEachLevel="0"  AIType="1"  AIScriptID="100001" Auras="" Skills="86_1_6000"/>
+			<Boss ID="7397" Name="Địa Cung Nhân" Title="" PosX="3310" PosY="1370" BaseHP="1500000" HPIncreaseEachLevel="0"  AIType="1"  AIScriptID="100001" Auras="" Skills="86_1_6000"/>
+			<Boss ID="7397" Name="Địa Cung Nhân" Title="" PosX="3384" PosY="1494" BaseHP="1500000" HPIncreaseEachLevel="0"  AIType="1"  AIScriptID="100001" Auras="" Skills="86_1_6000" />
+			<Boss ID="7397" Name="Địa Cung Nhân" Title="" PosX="3659" PosY="1532" BaseHP="1500000" HPIncreaseEachLevel="0"  AIType="1"  AIScriptID="100001" Auras="" Skills="86_1_6000"/>
+			<Teleport Name="Phòng Tuyển Chọn" PosX="3217" PosY="1815" ToMapID="-1" ToPosX="4177" ToPosY="2596" SpawnImmediate="false" />
+			<Teleport Name="Sảnh Chờ" PosX="2148" PosY="1302" ToMapID="-1" ToPosX="1419" ToPosY="912" SpawnImmediate="true" />
+		</Step>
+		
+		
+		
+		<Step ID="3" StepName="Phòng Tuyển Chọn" AllowCallBoss="false" NextStep="4_5_6" NeedStep="">
+		
+			<!-- //cột 1 -->
+			<Boss ID="7398" Name="Võ sĩ đồ đằng" Title="" PosX="3042" PosY="2588" BaseHP="1500000" HPIncreaseEachLevel="0"  AIType="1"  AIScriptID="100001" Auras="" Skills="50_15_2000"/>
+			<Boss ID="7398" Name="Võ sĩ đồ đằng" Title="" PosX="3161" PosY="2516" BaseHP="1500000" HPIncreaseEachLevel="0"  AIType="1"  AIScriptID="100001" Auras="" Skills="50_15_2000"/>
+			<Boss ID="7398" Name="Võ sĩ đồ đằng" Title="" PosX="3298" PosY="2433" BaseHP="1500000" HPIncreaseEachLevel="0"  AIType="1"  AIScriptID="100001" Auras="" Skills="50_15_2000"/>
+			<Boss ID="7398" Name="Võ sĩ đồ đằng" Title="" PosX="3389" PosY="2523" BaseHP="1500000" HPIncreaseEachLevel="0"  AIType="1"  AIScriptID="100001" Auras="" Skills="50_15_2000"/>
+			<Boss ID="7398" Name="Võ sĩ đồ đằng" Title="" PosX="3362" PosY="2625" BaseHP="1500000" HPIncreaseEachLevel="0"  AIType="1"  AIScriptID="100001" Auras="" Skills="50_15_2000"/>
+			<Boss ID="7398" Name="Võ sĩ đồ đằng" Title="" PosX="3271" PosY="2725" BaseHP="1500000" HPIncreaseEachLevel="0"  AIType="1"  AIScriptID="100001" Auras="" Skills="50_15_2000"/>
+			<Boss ID="7398" Name="Võ sĩ đồ đằng" Title="" PosX="3488" PosY="2607" BaseHP="1500000" HPIncreaseEachLevel="0"  AIType="1"  AIScriptID="100001" Auras="" Skills="50_15_2000"/>
+			<!-- //cột 2 -->
+			<Boss ID="7398" Name="Võ sĩ đồ đằng" Title="" PosX="4489" PosY="1897" BaseHP="1500000" HPIncreaseEachLevel="0"  AIType="1"  AIScriptID="100001" Auras="" Skills="50_15_2000"/>
+			<Boss ID="7398" Name="Võ sĩ đồ đằng" Title="" PosX="4629" PosY="1988" BaseHP="1500000" HPIncreaseEachLevel="0"  AIType="1"  AIScriptID="100001" Auras="" Skills="50_15_2000"/>
+			<Boss ID="7398" Name="Võ sĩ đồ đằng" Title="" PosX="4800" PosY="2079" BaseHP="1500000" HPIncreaseEachLevel="0"  AIType="1"  AIScriptID="100001" Auras="" Skills="50_15_2000"/>
+			<Boss ID="7398" Name="Võ sĩ đồ đằng" Title="" PosX="4649" PosY="2167" BaseHP="1500000" HPIncreaseEachLevel="0"  AIType="1"  AIScriptID="100001" Auras="" Skills="50_15_2000"/>
+			<Boss ID="7398" Name="Võ sĩ đồ đằng" Title="" PosX="4460" PosY="2137" BaseHP="1500000" HPIncreaseEachLevel="0"  AIType="1"  AIScriptID="100001" Auras="" Skills="50_15_2000"/>
+			<Boss ID="7398" Name="Võ sĩ đồ đằng" Title="" PosX="4258" PosY="2082" BaseHP="1500000" HPIncreaseEachLevel="0"  AIType="1"  AIScriptID="100001" Auras="" Skills="50_15_2000"/>
+			<Boss ID="7398" Name="Võ sĩ đồ đằng" Title="" PosX="4277" PosY="1944" BaseHP="1500000" HPIncreaseEachLevel="0"  AIType="1"  AIScriptID="100001" Auras="" Skills="50_15_2000"/>
+			<!-- //cột 3 -->
+			<Boss ID="7398" Name="Võ sĩ đồ đằng" Title="" PosX="5577" PosY="2384" BaseHP="1500000" HPIncreaseEachLevel="0"  AIType="1"  AIScriptID="100001" Auras="" Skills="50_15_2000"/>
+			<Boss ID="7398" Name="Võ sĩ đồ đằng" Title="" PosX="5399" PosY="2480" BaseHP="1500000" HPIncreaseEachLevel="0"  AIType="1"  AIScriptID="100001" Auras="" Skills="50_15_2000"/>
+			<Boss ID="7398" Name="Võ sĩ đồ đằng" Title="" PosX="5235" PosY="2570" BaseHP="1500000" HPIncreaseEachLevel="0"  AIType="1"  AIScriptID="100001" Auras="" Skills="50_15_2000"/>
+			<Boss ID="7398" Name="Võ sĩ đồ đằng" Title="" PosX="5431" PosY="2308" BaseHP="1500000" HPIncreaseEachLevel="0"  AIType="1"  AIScriptID="100001" Auras="" Skills="50_15_2000"/>
+			<Boss ID="7398" Name="Võ sĩ đồ đằng" Title="" PosX="5237" PosY="2212" BaseHP="1500000" HPIncreaseEachLevel="0"  AIType="1"  AIScriptID="100001" Auras="" Skills="50_15_2000"/>
+			<Boss ID="7398" Name="Võ sĩ đồ đằng" Title="" PosX="5131" PosY="2330" BaseHP="1500000" HPIncreaseEachLevel="0"  AIType="1"  AIScriptID="100001" Auras="" Skills="50_15_2000"/>
+			<Boss ID="7398" Name="Võ sĩ đồ đằng" Title="" PosX="5074" PosY="2428" BaseHP="1500000" HPIncreaseEachLevel="0"  AIType="1"  AIScriptID="100001" Auras="" Skills="50_15_2000"/>
+			<!-- //cột 4 -->
+			<Boss ID="7398" Name="Võ sĩ đồ đằng" Title="" PosX="4104" PosY="3116" BaseHP="1500000" HPIncreaseEachLevel="0"  AIType="1"  AIScriptID="100001" Auras="" Skills="50_15_2000"/>
+			<Boss ID="7398" Name="Võ sĩ đồ đằng" Title="" PosX="3949" PosY="3043" BaseHP="1500000" HPIncreaseEachLevel="0"  AIType="1"  AIScriptID="100001" Auras="" Skills="50_15_2000"/>
+			<Boss ID="7398" Name="Võ sĩ đồ đằng" Title="" PosX="3825" PosY="2944" BaseHP="1500000" HPIncreaseEachLevel="0"  AIType="1"  AIScriptID="100001" Auras="" Skills="50_15_2000"/>
+			<Boss ID="7398" Name="Võ sĩ đồ đằng" Title="" PosX="3995" PosY="2924" BaseHP="1500000" HPIncreaseEachLevel="0"  AIType="1"  AIScriptID="100001" Auras="" Skills="50_15_2000"/>
+			<Boss ID="7398" Name="Võ sĩ đồ đằng" Title="" PosX="4165" PosY="2939" BaseHP="1500000" HPIncreaseEachLevel="0"  AIType="1"  AIScriptID="100001" Auras="" Skills="50_15_2000"/>
+			<Boss ID="7398" Name="Võ sĩ đồ đằng" Title="" PosX="4353" PosY="3020" BaseHP="1500000" HPIncreaseEachLevel="0"  AIType="1"  AIScriptID="100001" Auras="" Skills="50_15_2000"/>
+			<Boss ID="7398" Name="Võ sĩ đồ đằng" Title="" PosX="4294" PosY="3062" BaseHP="1500000" HPIncreaseEachLevel="0"  AIType="1"  AIScriptID="100001" Auras="" Skills="50_15_2000"/>
+
+
+			<!-- //đánh hết quái,mở hết bia đá thì mới mở cửa 3 phòng phản đòn,cơ quan,choáng -->
+			<Trigger ID="618" Name="Bia đá cơ quan" CollectTick="10000" PosX="3245" PosY="2584" Index="1" />
+			<Trigger ID="618" Name="Bia đá cơ quan" CollectTick="10000" PosX="4468" PosY="2056" Index="2" />
+			<Trigger ID="618" Name="Bia đá cơ quan" CollectTick="10000" PosX="5142" PosY="2415" Index="3" />
+			<Trigger ID="618" Name="Bia đá cơ quan" CollectTick="10000" PosX="4104" PosY="2980" Index="4" />
+		
+			<Teleport Name="Phòng Phản Đòn" PosX="3537" PosY="2873" ToMapID="-1" ToPosX="2363" ToPosY="4344" SpawnImmediate="false" />
+			<Teleport Name="Phòng Cơ Quan" PosX="4882" PosY="2746" ToMapID="-1" ToPosX="7946" ToPosY="4408" SpawnImmediate="false" />
+			<Teleport Name="Phòng Choáng" PosX="5000" PosY="2099" ToMapID="-1" ToPosX="7792" ToPosY="1329" SpawnImmediate="false" />
+			<Teleport Name="Phòng Thủ Vệ" PosX="3683" PosY="2178" ToMapID="-1" ToPosX="2859" ToPosY="1669" SpawnImmediate="true" />
+
+		</Step>
+
+		<Step ID="4" StepName="Phòng Phản Đòn" AllowCallBoss="false" NextStep="41" NeedStep="">
+			<!-- //Click vào bia đá để gọi ra quái vật,đặc tính là phản dmg tổng cộng 20 con và 1 bia đá -->
+			<Trigger ID="618" Name="Bia đá cơ quan" CollectTick="10000" PosX="2152" PosY="4554" Index="1" />
+                        <Guardian ID="7399" Name="La Hán Đồng Nhân" Title="" PosX="1491" PosY="4320" BaseHP="1500000" HPIncreaseEachLevel="0"  AIType="1"  AIScriptID="100001" Auras="25_5" Skills="24_10_2000" TriggerIndex="1" />
+			<Guardian ID="7399" Name="La Hán Đồng Nhân" Title="" PosX="1770" PosY="4439" BaseHP="1500000" HPIncreaseEachLevel="0"  AIType="1"  AIScriptID="100001" Auras="25_5" Skills="24_10_2000" TriggerIndex="1" />
+			<Guardian ID="7399" Name="La Hán Đồng Nhân" Title="" PosX="2240" PosY="4694" BaseHP="1500000" HPIncreaseEachLevel="0"  AIType="1"  AIScriptID="100001" Auras="25_5" Skills="24_10_2000" TriggerIndex="1" />
+			<Guardian ID="7399" Name="La Hán Đồng Nhân" Title="" PosX="2369" PosY="4601" BaseHP="1500000" HPIncreaseEachLevel="0"  AIType="1"  AIScriptID="100001" Auras="25_5" Skills="24_10_2000" TriggerIndex="1" />
+			<Guardian ID="7399" Name="La Hán Đồng Nhân" Title="" PosX="2019" PosY="4413" BaseHP="1500000" HPIncreaseEachLevel="0"  AIType="1"  AIScriptID="100001" Auras="25_5" Skills="24_10_2000" TriggerIndex="1" />
+			<Guardian ID="7399" Name="La Hán Đồng Nhân" Title="" PosX="2073" PosY="4244" BaseHP="1500000" HPIncreaseEachLevel="0"  AIType="1"  AIScriptID="100001" Auras="25_5" Skills="24_10_2000" TriggerIndex="1" />
+			<Guardian ID="7399" Name="La Hán Đồng Nhân" Title="" PosX="2417" PosY="4426" BaseHP="1500000" HPIncreaseEachLevel="0"  AIType="1"  AIScriptID="100001" Auras="25_5" Skills="24_10_2000" TriggerIndex="1" />
+					    <!-- //Sau khi đánh hết quái sẽ mở phòng nguyệt tự -->
+			<Teleport Name="Cửa tiếp theo" PosX="2528" PosY="4745" ToMapID="-1" ToPosX="3182" ToPosY="5115" SpawnImmediate="false" />
+			<Teleport Name="Phòng Nguyệt Tự" PosX="2964" PosY="5251" ToMapID="-1" ToPosX="2067" ToPosY="5843" SpawnImmediate="false" />
+
+		</Step>
+		<Step ID="41" StepName="Phòng Nguyệt Tự" AllowCallBoss="false" NextStep="42" NeedStep="">
+			<!-- //Click vào bia đá để gọi ra quái vật,tổng cộng 10 con và 1 bia đá -->
+			<Trigger ID="618" Name="Bia đá cơ quan" CollectTick="10000" PosX="1925" PosY="5885" Index="1" />
+			<Guardian ID="7402" Name="Thiên Tự Thủ Vệ" Title="" PosX="1355" PosY="5839" BaseHP="1500000" HPIncreaseEachLevel="0"  AIType="1"  AIScriptID="100001" Auras="" Skills="86_1_6000" TriggerIndex="1" />
+			<Guardian ID="7402" Name="Thiên Tự Thủ Vệ" Title="" PosX="1638" PosY="5969" BaseHP="1500000" HPIncreaseEachLevel="0"  AIType="1"  AIScriptID="100001" Auras="" Skills="86_1_6000" TriggerIndex="1" />
+			<Guardian ID="7402" Name="Thiên Tự Thủ Vệ" Title="" PosX="1899" PosY="6108" BaseHP="1500000" HPIncreaseEachLevel="0"  AIType="1"  AIScriptID="100001" Auras="" Skills="86_1_6000" TriggerIndex="1" />
+			<Guardian ID="7402" Name="Thiên Tự Thủ Vệ" Title="" PosX="2071" PosY="6067" BaseHP="1500000" HPIncreaseEachLevel="0"  AIType="1"  AIScriptID="100001" Auras="" Skills="86_1_6000" TriggerIndex="1" />
+			<Guardian ID="7402" Name="Thiên Tự Thủ Vệ" Title="" PosX="2097" PosY="5970" BaseHP="1500000" HPIncreaseEachLevel="0"  AIType="1"  AIScriptID="100001" Auras="" Skills="86_1_6000" TriggerIndex="1" />
+			<Guardian ID="7402" Name="Thiên Tự Thủ Vệ" Title="" PosX="1865" PosY="5871" BaseHP="1500000" HPIncreaseEachLevel="0"  AIType="1"  AIScriptID="100001" Auras="" Skills="86_1_6000" TriggerIndex="1" />
+			<Guardian ID="7402" Name="Thiên Tự Thủ Vệ" Title="" PosX="1676" PosY="5744" BaseHP="1500000" HPIncreaseEachLevel="0"  AIType="1"  AIScriptID="100001" Auras="" Skills="86_1_6000" TriggerIndex="1" />
+			<Guardian ID="7402" Name="Thiên Tự Thủ Vệ" Title="" PosX="1746" PosY="5616" BaseHP="1500000" HPIncreaseEachLevel="0"  AIType="1"  AIScriptID="100001" Auras="" Skills="86_1_6000" TriggerIndex="1" />
+			<Guardian ID="7402" Name="Thiên Tự Thủ Vệ" Title="" PosX="1976" PosY="5703" BaseHP="1500000" HPIncreaseEachLevel="0"  AIType="1"  AIScriptID="100001" Auras="" Skills="86_1_6000" TriggerIndex="1" />
+			<Guardian ID="7402" Name="Thiên Tự Thủ Vệ" Title="" PosX="2226" PosY="5808" BaseHP="1500000" HPIncreaseEachLevel="0"  AIType="1"  AIScriptID="100001" Auras="" Skills="86_1_6000" TriggerIndex="1" />
+			<!-- //Sau khi đánh xong phòng Nguyệt Tự sẽ mở Phòng Nhật Tự -->
+			<Teleport Name="Trở lại" PosX="2295" PosY="5708" ToMapID="-1" ToPosX="3453" ToPosY="5254" SpawnImmediate="true" />
+			<Teleport Name="Phòng Nhật Tự" PosX="4649" PosY="6050" ToMapID="-1" ToPosX="3729" ToPosY="6635" SpawnImmediate="false" />
+
+		</Step>
+		<Step ID="42" StepName="Phòng Nhật Tự" AllowCallBoss="false" NextStep="43" NeedStep="">
+			<!-- //Click vào bia đá để gọi ra quái vật,tổng cộng 10 con và 1 bia đá -->
+			<Trigger ID="618" Name="Bia đá cơ quan" CollectTick="10000" PosX="3562" PosY="6692" Index="1" />
+			<Guardian ID="7402" Name="Thiên Tự Thủ Vệ" Title="" PosX="2978" PosY="6677" BaseHP="1500000" HPIncreaseEachLevel="0"  AIType="1"  AIScriptID="100001" Auras="" Skills="86_1_6000" TriggerIndex="1" />
+			<Guardian ID="7402" Name="Thiên Tự Thủ Vệ" Title="" PosX="3205" PosY="6759" BaseHP="1500000" HPIncreaseEachLevel="0"  AIType="1"  AIScriptID="100001" Auras="" Skills="86_1_6000" TriggerIndex="1" />
+			<Guardian ID="7402" Name="Thiên Tự Thủ Vệ" Title="" PosX="3413" PosY="6864" BaseHP="1500000" HPIncreaseEachLevel="0"  AIType="1"  AIScriptID="100001" Auras="" Skills="86_1_6000" TriggerIndex="1" />
+			<Guardian ID="7402" Name="Thiên Tự Thủ Vệ" Title="" PosX="3659" PosY="6939" BaseHP="1500000" HPIncreaseEachLevel="0"  AIType="1"  AIScriptID="100001" Auras="" Skills="86_1_6000" TriggerIndex="1" />
+			<Guardian ID="7402" Name="Thiên Tự Thủ Vệ" Title="" PosX="3632" PosY="6800" BaseHP="1500000" HPIncreaseEachLevel="0"  AIType="1"  AIScriptID="100001" Auras="" Skills="86_1_6000" TriggerIndex="1" />
+			<Guardian ID="7402" Name="Thiên Tự Thủ Vệ" Title="" PosX="3449" PosY="6709" BaseHP="1500000" HPIncreaseEachLevel="0"  AIType="1"  AIScriptID="100001" Auras="" Skills="86_1_6000" TriggerIndex="1" />
+			<Guardian ID="7402" Name="Thiên Tự Thủ Vệ" Title="" PosX="3366" PosY="6562" BaseHP="1500000" HPIncreaseEachLevel="0"  AIType="1"  AIScriptID="100001" Auras="" Skills="86_1_6000" TriggerIndex="1" />
+			<Guardian ID="7402" Name="Thiên Tự Thủ Vệ" Title="" PosX="3619" PosY="6558" BaseHP="1500000" HPIncreaseEachLevel="0"  AIType="1"  AIScriptID="100001" Auras="" Skills="86_1_6000" TriggerIndex="1" />
+			<Guardian ID="7402" Name="Thiên Tự Thủ Vệ" Title="" PosX="3772" PosY="6616" BaseHP="1500000" HPIncreaseEachLevel="0"  AIType="1"  AIScriptID="100001" Auras="" Skills="86_1_6000" TriggerIndex="1" />
+			<Guardian ID="7402" Name="Thiên Tự Thủ Vệ" Title="" PosX="3960" PosY="6707" BaseHP="1500000" HPIncreaseEachLevel="0"  AIType="1"  AIScriptID="100001" Auras="" Skills="86_1_6000" TriggerIndex="1" />
+			<!-- //Sau khi đánh xong phòng Nhật Tự sẽ mở Phòng Địa Tự -->
+			<Teleport Name="Trở lại" PosX="3948" PosY="6481" ToMapID="-1" ToPosX="5090" ToPosY="6084" SpawnImmediate="true" />
+			<Teleport Name="Phòng Địa Tự" PosX="6298" PosY="6868" ToMapID="-1" ToPosX="5349" ToPosY="7468" SpawnImmediate="false" />
+
+		</Step>
+		<Step ID="43" StepName="Phòng Địa Tự" AllowCallBoss="false" NextStep="44" NeedStep="">
+			<!-- //Click vào bia đá để gọi ra quái vật,tổng cộng 10 con và 1 bia đá -->
+			<Trigger ID="618" Name="Bia đá cơ quan" CollectTick="10000" PosX="5226" PosY="7517" Index="1" />
+			<Guardian ID="7402" Name="Thiên Tự Thủ Vệ" Title="" PosX="4717" PosY="7490" BaseHP="1500000" HPIncreaseEachLevel="0"  AIType="1"  AIScriptID="100001" Auras="" Skills="86_1_6000" TriggerIndex="1" />
+			<Guardian ID="7402" Name="Thiên Tự Thủ Vệ" Title="" PosX="4944" PosY="7544" BaseHP="1500000" HPIncreaseEachLevel="0"  AIType="1"  AIScriptID="100001" Auras="" Skills="86_1_6000" TriggerIndex="1" />
+			<Guardian ID="7402" Name="Thiên Tự Thủ Vệ" Title="" PosX="5184" PosY="7645" BaseHP="1500000" HPIncreaseEachLevel="0"  AIType="1"  AIScriptID="100001" Auras="" Skills="86_1_6000" TriggerIndex="1" />
+			<Guardian ID="7402" Name="Thiên Tự Thủ Vệ" Title="" PosX="5414" PosY="7643" BaseHP="1500000" HPIncreaseEachLevel="0"  AIType="1"  AIScriptID="100001" Auras="" Skills="86_1_6000" TriggerIndex="1" />
+			<Guardian ID="7402" Name="Thiên Tự Thủ Vệ" Title="" PosX="5272" PosY="7533" BaseHP="1500000" HPIncreaseEachLevel="0"  AIType="1"  AIScriptID="100001" Auras="" Skills="86_1_6000" TriggerIndex="1" />
+			<Guardian ID="7402" Name="Thiên Tự Thủ Vệ" Title="" PosX="5085" PosY="7403" BaseHP="1500000" HPIncreaseEachLevel="0"  AIType="1"  AIScriptID="100001" Auras="" Skills="86_1_6000" TriggerIndex="1" />
+			<Guardian ID="7402" Name="Thiên Tự Thủ Vệ" Title="" PosX="5075" PosY="7276" BaseHP="1500000" HPIncreaseEachLevel="0"  AIType="1"  AIScriptID="100001" Auras="" Skills="86_1_6000" TriggerIndex="1" />
+			<Guardian ID="7402" Name="Thiên Tự Thủ Vệ" Title="" PosX="5293" PosY="7347" BaseHP="1500000" HPIncreaseEachLevel="0"  AIType="1"  AIScriptID="100001" Auras="" Skills="86_1_6000" TriggerIndex="1" />
+			<Guardian ID="7402" Name="Thiên Tự Thủ Vệ" Title="" PosX="5509" PosY="7419" BaseHP="1500000" HPIncreaseEachLevel="0"  AIType="1"  AIScriptID="100001" Auras="" Skills="86_1_6000" TriggerIndex="1" />
+			<Guardian ID="7402" Name="Thiên Tự Thủ Vệ" Title="" PosX="5681" PosY="7545" BaseHP="1500000" HPIncreaseEachLevel="0"  AIType="1"  AIScriptID="100001" Auras="" Skills="86_1_6000" TriggerIndex="1" />
+			<!-- //Sau khi đánh xong phòng Địa Tự sẽ mở Phòng Thiên Tự -->
+			<Teleport Name="Trở lại" PosX="5603" PosY="7289" ToMapID="-1" ToPosX="6737" ToPosY="6896" SpawnImmediate="true" />
+			<Teleport Name="Phòng Thiên Tự" PosX="7937" PosY="7693" ToMapID="-1" ToPosX="6917" ToPosY="8266" SpawnImmediate="false" />
+
+		</Step>
+		<Step ID="44" StepName="Phòng Thiên Tự" AllowCallBoss="false" NextStep="" NeedStep="">
+			<!-- //Click vào bia đá để gọi ra quái vật,tổng cộng 10 con và 1 bia đá -->
+			<Trigger ID="618" Name="Bia đá cơ quan" CollectTick="10000" PosX="6856" PosY="8318" Index="1" />
+			<Guardian ID="7402" Name="Thiên Tự Thủ Vệ" Title="" PosX="6381" PosY="8289" BaseHP="1500000" HPIncreaseEachLevel="0"  AIType="1"  AIScriptID="100001" Auras="" Skills="86_1_6000" TriggerIndex="1" />
+			<Guardian ID="7402" Name="Thiên Tự Thủ Vệ" Title="" PosX="6611" PosY="8365" BaseHP="1500000" HPIncreaseEachLevel="0"  AIType="1"  AIScriptID="100001" Auras="" Skills="86_1_6000" TriggerIndex="1" />
+			<Guardian ID="7402" Name="Thiên Tự Thủ Vệ" Title="" PosX="6814" PosY="8513" BaseHP="1500000" HPIncreaseEachLevel="0"  AIType="1"  AIScriptID="100001" Auras="" Skills="86_1_6000" TriggerIndex="1" />
+			<Guardian ID="7402" Name="Thiên Tự Thủ Vệ" Title="" PosX="7010" PosY="8500" BaseHP="1500000" HPIncreaseEachLevel="0"  AIType="1"  AIScriptID="100001" Auras="" Skills="86_1_6000" TriggerIndex="1" />
+			<Guardian ID="7402" Name="Thiên Tự Thủ Vệ" Title="" PosX="6899" PosY="8372" BaseHP="1500000" HPIncreaseEachLevel="0"  AIType="1"  AIScriptID="100001" Auras="" Skills="86_1_6000" TriggerIndex="1" />
+			<Guardian ID="7402" Name="Thiên Tự Thủ Vệ" Title="" PosX="6741" PosY="8250" BaseHP="1500000" HPIncreaseEachLevel="0"  AIType="1"  AIScriptID="100001" Auras="" Skills="86_1_6000" TriggerIndex="1" />
+			<Guardian ID="7402" Name="Thiên Tự Thủ Vệ" Title="" PosX="6626" PosY="8104" BaseHP="1500000" HPIncreaseEachLevel="0"  AIType="1"  AIScriptID="100001" Auras="" Skills="86_1_6000" TriggerIndex="1" />
+			<Guardian ID="7402" Name="Thiên Tự Thủ Vệ" Title="" PosX="6884" PosY="8133" BaseHP="1500000" HPIncreaseEachLevel="0"  AIType="1"  AIScriptID="100001" Auras="" Skills="86_1_6000" TriggerIndex="1" />
+			<Guardian ID="7402" Name="Thiên Tự Thủ Vệ" Title="" PosX="7145" PosY="8243" BaseHP="1500000" HPIncreaseEachLevel="0"  AIType="1"  AIScriptID="100001" Auras="" Skills="86_1_6000" TriggerIndex="1" />
+			<Guardian ID="7402" Name="Thiên Tự Thủ Vệ" Title="" PosX="7288" PosY="8397" BaseHP="1500000" HPIncreaseEachLevel="0"  AIType="1"  AIScriptID="100001" Auras="" Skills="86_1_6000" TriggerIndex="1" />
+			<!-- //Sau khi đánh xong phòng Thiên Tự mở phòng Vực Thẳm -->
+			<Teleport Name="Trở lại" PosX="7237" PosY="8115" ToMapID="-1" ToPosX="7854" ToPosY="7465" SpawnImmediate="true" />
+
+
+		</Step>
+		<Step ID="5" StepName="Phòng Cơ Quan" AllowCallBoss="false" NextStep="51_55" NeedStep="">
+			<Teleport Name="Phòng Bí Văn 1" PosX="7256" PosY="4720" ToMapID="-1" ToPosX="6754" ToPosY="5109" SpawnImmediate="true" />
+			<Teleport Name="Phòng Bí Văn 5" PosX="8634" PosY="4062" ToMapID="-1" ToPosX="9326" ToPosY="3689" SpawnImmediate="true" />
+
+		</Step>
+		<Step ID="51" StepName="Phòng Bí Văn 1" AllowCallBoss="false" NextStep="52" NeedStep="">
+			<Boss ID="7401" Name="Hung Thần Thủ Vệ" Title="" PosX="6148" PosY="5090" BaseHP="1500000" HPIncreaseEachLevel="0"  AIType="1"  AIScriptID="100001" Auras="" Skills="50_15_2000" />
+			<Boss ID="7401" Name="Hung Thần Thủ Vệ" Title="" PosX="6381" PosY="5172" BaseHP="1500000" HPIncreaseEachLevel="0"  AIType="1"  AIScriptID="100001" Auras="" Skills="50_15_2000" />
+			<Boss ID="7401" Name="Hung Thần Thủ Vệ" Title="" PosX="6594" PosY="5293" BaseHP="1500000" HPIncreaseEachLevel="0"  AIType="1"  AIScriptID="100001" Auras="" Skills="50_15_2000" />
+			<Boss ID="7401" Name="Hung Thần Thủ Vệ" Title="" PosX="6816" PosY="5285" BaseHP="1500000" HPIncreaseEachLevel="0"  AIType="1"  AIScriptID="100001" Auras="" Skills="50_15_2000" />
+			<Boss ID="7401" Name="Hung Thần Thủ Vệ" Title="" PosX="6719" PosY="5182" BaseHP="1500000" HPIncreaseEachLevel="0"  AIType="1"  AIScriptID="100001" Auras="" Skills="50_15_2000" />
+			<Boss ID="7401" Name="Hung Thần Thủ Vệ" Title="" PosX="6546" PosY="5110" BaseHP="1500000" HPIncreaseEachLevel="0"  AIType="1"  AIScriptID="100001" Auras="" Skills="50_15_2000" />
+			<Boss ID="7401" Name="Hung Thần Thủ Vệ" Title="" PosX="6426" PosY="5008" BaseHP="1500000" HPIncreaseEachLevel="0"  AIType="1"  AIScriptID="100001" Auras="" Skills="50_15_2000" />
+			<Boss ID="7401" Name="Hung Thần Thủ Vệ" Title="" PosX="6555" PosY="4875" BaseHP="1500000" HPIncreaseEachLevel="0"  AIType="1"  AIScriptID="100001" Auras="" Skills="50_15_2000" />
+			<Boss ID="7401" Name="Hung Thần Thủ Vệ" Title="" PosX="6799" PosY="5004" BaseHP="1500000" HPIncreaseEachLevel="0"  AIType="1"  AIScriptID="100001" Auras="" Skills="50_15_2000" />
+			<Boss ID="7401" Name="Hung Thần Thủ Vệ" Title="" PosX="7054" PosY="5161" BaseHP="1500000" HPIncreaseEachLevel="0"  AIType="1"  AIScriptID="100001" Auras="" Skills="50_15_2000" />
+			<Teleport Name="Phòng Cơ Quan" PosX="6930" PosY="4959" ToMapID="-1" ToPosX="7583" ToPosY="4590" SpawnImmediate="true" />
+			<Teleport Name="Phòng Bí Văn 2" PosX="6237" PosY="4893" ToMapID="-1" ToPosX="5579" ToPosY="4508" SpawnImmediate="false" />
+
+		</Step>
+		<Step ID="52" StepName="Phòng Bí Văn 2" AllowCallBoss="false" NextStep="53" NeedStep="">
+			<Boss ID="7401" Name="Hung Thần Thủ Vệ" Title="" PosX="5479" PosY="4647" BaseHP="1500000" HPIncreaseEachLevel="0"  AIType="1"  AIScriptID="100001" Auras="" Skills="50_15_2000" />
+			<Boss ID="7401" Name="Hung Thần Thủ Vệ" Title="" PosX="5265" PosY="4564" BaseHP="1500000" HPIncreaseEachLevel="0"  AIType="1"  AIScriptID="100001" Auras="" Skills="50_15_2000" />
+			<Boss ID="7401" Name="Hung Thần Thủ Vệ" Title="" PosX="5065" PosY="4444" BaseHP="1500000" HPIncreaseEachLevel="0"  AIType="1"  AIScriptID="100001" Auras="" Skills="50_15_2000" />
+			<Boss ID="7401" Name="Hung Thần Thủ Vệ" Title="" PosX="5122" PosY="4314" BaseHP="1500000" HPIncreaseEachLevel="0"  AIType="1"  AIScriptID="100001" Auras="" Skills="50_15_2000" />
+			<Boss ID="7401" Name="Hung Thần Thủ Vệ" Title="" PosX="5322" PosY="4425" BaseHP="1500000" HPIncreaseEachLevel="0"  AIType="1"  AIScriptID="100001" Auras="" Skills="50_15_2000" />
+			<Boss ID="7401" Name="Hung Thần Thủ Vệ" Title="" PosX="5558" PosY="4526" BaseHP="1500000" HPIncreaseEachLevel="0"  AIType="1"  AIScriptID="100001" Auras="" Skills="50_15_2000" />
+			<Boss ID="7401" Name="Hung Thần Thủ Vệ" Title="" PosX="5765" PosY="4516" BaseHP="1500000" HPIncreaseEachLevel="0"  AIType="1"  AIScriptID="100001" Auras="" Skills="50_15_2000" />
+			<Boss ID="7401" Name="Hung Thần Thủ Vệ" Title="" PosX="5742" PosY="4395" BaseHP="1500000" HPIncreaseEachLevel="0"  AIType="1"  AIScriptID="100001" Auras="" Skills="50_15_2000" />
+			<Boss ID="7401" Name="Hung Thần Thủ Vệ" Title="" PosX="5513" PosY="4340" BaseHP="1500000" HPIncreaseEachLevel="0"  AIType="1"  AIScriptID="100001" Auras="" Skills="50_15_2000" />
+			<Boss ID="7401" Name="Hung Thần Thủ Vệ" Title="" PosX="5329" PosY="4232" BaseHP="1500000" HPIncreaseEachLevel="0"  AIType="1"  AIScriptID="100001" Auras="" Skills="50_15_2000" />
+			<Teleport Name="Phòng Bí Văn 1" PosX="5846" PosY="4605" ToMapID="-1" ToPosX="6511" ToPosY="5066" SpawnImmediate="true" />
+			<Teleport Name="Phòng Bí Văn 3" PosX="5176" PosY="4623" ToMapID="-1" ToPosX="5732" ToPosY="5635" SpawnImmediate="false" />
+
+		</Step>
+		<Step ID="53" StepName="Phòng Bí Văn 3" AllowCallBoss="false" NextStep="54" NeedStep="">
+			<Boss ID="7401" Name="Hung Thần Thủ Vệ" Title="" PosX="5852" PosY="5882" BaseHP="1500000" HPIncreaseEachLevel="0"  AIType="1"  AIScriptID="100001" Auras="" Skills="50_15_2000" />
+			<Boss ID="7401" Name="Hung Thần Thủ Vệ" Title="" PosX="5658" PosY="5790" BaseHP="1500000" HPIncreaseEachLevel="0"  AIType="1"  AIScriptID="100001" Auras="" Skills="50_15_2000" />
+			<Boss ID="7401" Name="Hung Thần Thủ Vệ" Title="" PosX="5452" PosY="5651" BaseHP="1500000" HPIncreaseEachLevel="0"  AIType="1"  AIScriptID="100001" Auras="" Skills="50_15_2000" />
+			<Boss ID="7401" Name="Hung Thần Thủ Vệ" Title="" PosX="5556" PosY="5582" BaseHP="1500000" HPIncreaseEachLevel="0"  AIType="1"  AIScriptID="100001" Auras="" Skills="50_15_2000" />
+			<Boss ID="7401" Name="Hung Thần Thủ Vệ" Title="" PosX="5757" PosY="5650" BaseHP="1500000" HPIncreaseEachLevel="0"  AIType="1"  AIScriptID="100001" Auras="" Skills="50_15_2000" />
+			<Boss ID="7401" Name="Hung Thần Thủ Vệ" Title="" PosX="6025" PosY="5759" BaseHP="1500000" HPIncreaseEachLevel="0"  AIType="1"  AIScriptID="100001" Auras="" Skills="50_15_2000" />
+			<Boss ID="7401" Name="Hung Thần Thủ Vệ" Title="" PosX="6357" PosY="5780" BaseHP="1500000" HPIncreaseEachLevel="0"  AIType="1"  AIScriptID="100001" Auras="" Skills="50_15_2000" />
+			<Boss ID="7401" Name="Hung Thần Thủ Vệ" Title="" PosX="6224" PosY="5670" BaseHP="1500000" HPIncreaseEachLevel="0"  AIType="1"  AIScriptID="100001" Auras="" Skills="50_15_2000" />
+			<Boss ID="7401" Name="Hung Thần Thủ Vệ" Title="" PosX="6027" PosY="5571" BaseHP="1500000" HPIncreaseEachLevel="0"  AIType="1"  AIScriptID="100001" Auras="" Skills="50_15_2000" />
+			<Boss ID="7401" Name="Hung Thần Thủ Vệ" Title="" PosX="5819" PosY="5488" BaseHP="1500000" HPIncreaseEachLevel="0"  AIType="1"  AIScriptID="100001" Auras="" Skills="50_15_2000" />
+			<Teleport Name="Phòng Bí Văn 2" PosX="5447" PosY="5459" ToMapID="-1" ToPosX="5453" ToPosY="4490" SpawnImmediate="true" />
+			<Teleport Name="Phòng Bí Văn 4" PosX="6284" PosY="5847" ToMapID="-1" ToPosX="7738" ToPosY="5971" SpawnImmediate="false" />
+
+		</Step>
+		<Step ID="54" StepName="Phòng Bí Văn 4" AllowCallBoss="false" NextStep="" NeedStep="">
+			<Boss ID="7401" Name="Hung Thần Thủ Vệ" Title="" PosX="7877" PosY="6162" BaseHP="1500000" HPIncreaseEachLevel="0"  AIType="1"  AIScriptID="100001" Auras="" Skills="50_15_2000" />
+			<Boss ID="7401" Name="Hung Thần Thủ Vệ" Title="" PosX="7790" PosY="6035" BaseHP="1500000" HPIncreaseEachLevel="0"  AIType="1"  AIScriptID="100001" Auras="" Skills="50_15_2000" />
+			<Boss ID="7401" Name="Hung Thần Thủ Vệ" Title="" PosX="7559" PosY="6008" BaseHP="1500000" HPIncreaseEachLevel="0"  AIType="1"  AIScriptID="100001" Auras="" Skills="50_15_2000" />
+			<Boss ID="7401" Name="Hung Thần Thủ Vệ" Title="" PosX="7432" PosY="5870" BaseHP="1500000" HPIncreaseEachLevel="0"  AIType="1"  AIScriptID="100001" Auras="" Skills="50_15_2000" />
+			<Boss ID="7401" Name="Hung Thần Thủ Vệ" Title="" PosX="7550" PosY="5767" BaseHP="1500000" HPIncreaseEachLevel="0"  AIType="1"  AIScriptID="100001" Auras="" Skills="50_15_2000" />
+			<Boss ID="7401" Name="Hung Thần Thủ Vệ" Title="" PosX="7749" PosY="5879" BaseHP="1500000" HPIncreaseEachLevel="0"  AIType="1"  AIScriptID="100001" Auras="" Skills="50_15_2000" />
+			<Boss ID="7401" Name="Hung Thần Thủ Vệ" Title="" PosX="8044" PosY="6072" BaseHP="1500000" HPIncreaseEachLevel="0"  AIType="1"  AIScriptID="100001" Auras="" Skills="50_15_2000" />
+			<Boss ID="7401" Name="Hung Thần Thủ Vệ" Title="" PosX="8182" PosY="5995" BaseHP="1500000" HPIncreaseEachLevel="0"  AIType="1"  AIScriptID="100001" Auras="" Skills="50_15_2000" />
+			<Boss ID="7401" Name="Hung Thần Thủ Vệ" Title="" PosX="8024" PosY="5847" BaseHP="1500000" HPIncreaseEachLevel="0"  AIType="1"  AIScriptID="100001" Auras="" Skills="50_15_2000" />
+			<Boss ID="7401" Name="Hung Thần Thủ Vệ" Title="" PosX="7847" PosY="5751" BaseHP="1500000" HPIncreaseEachLevel="0"  AIType="1"  AIScriptID="100001" Auras="" Skills="50_15_2000" />
+			<Teleport Name="Phòng Bí Văn 3" PosX="7599" PosY="6134" ToMapID="-1" ToPosX="6025" ToPosY="5715" SpawnImmediate="true" />
+			<Teleport Name="Phòng Cơ Quan" PosX="7569" PosY="5602" ToMapID="-1" ToPosX="7548" ToPosY="4590" SpawnImmediate="false" />
+		</Step>
+		<Step ID="55" StepName="Phòng Bí Văn 5" AllowCallBoss="false" NextStep="56" NeedStep="">
+			<Boss ID="7401" Name="Hung Thần Thủ Vệ" Title="" PosX="9523" PosY="3924" BaseHP="1500000" HPIncreaseEachLevel="0"  AIType="1"  AIScriptID="100001" Auras="" Skills="50_15_2000" />
+			<Boss ID="7401" Name="Hung Thần Thủ Vệ" Title="" PosX="9638" PosY="3797" BaseHP="1500000" HPIncreaseEachLevel="0"  AIType="1"  AIScriptID="100001" Auras="" Skills="50_15_2000" />
+			<Boss ID="7401" Name="Hung Thần Thủ Vệ" Title="" PosX="9327" PosY="3776" BaseHP="1500000" HPIncreaseEachLevel="0"  AIType="1"  AIScriptID="100001" Auras="" Skills="50_15_2000" />
+			<Boss ID="7401" Name="Hung Thần Thủ Vệ" Title="" PosX="9144" PosY="3670" BaseHP="1500000" HPIncreaseEachLevel="0"  AIType="1"  AIScriptID="100001" Auras="" Skills="50_15_2000" />
+			<Boss ID="7401" Name="Hung Thần Thủ Vệ" Title="" PosX="8989" PosY="3619" BaseHP="1500000" HPIncreaseEachLevel="0"  AIType="1"  AIScriptID="100001" Auras="" Skills="50_15_2000" />
+			<Boss ID="7401" Name="Hung Thần Thủ Vệ" Title="" PosX="9098" PosY="3530" BaseHP="1500000" HPIncreaseEachLevel="0"  AIType="1"  AIScriptID="100001" Auras="" Skills="50_15_2000" />
+			<Boss ID="7401" Name="Hung Thần Thủ Vệ" Title="" PosX="9285" PosY="3481" BaseHP="1500000" HPIncreaseEachLevel="0"  AIType="1"  AIScriptID="100001" Auras="" Skills="50_15_2000" />
+			<Boss ID="7401" Name="Hung Thần Thủ Vệ" Title="" PosX="9593" PosY="3587" BaseHP="1500000" HPIncreaseEachLevel="0"  AIType="1"  AIScriptID="100001" Auras="" Skills="50_15_2000" />
+			<Boss ID="7401" Name="Hung Thần Thủ Vệ" Title="" PosX="9663" PosY="3762" BaseHP="1500000" HPIncreaseEachLevel="0"  AIType="1"  AIScriptID="100001" Auras="" Skills="50_15_2000" />
+			<Boss ID="7401" Name="Hung Thần Thủ Vệ" Title="" PosX="9868" PosY="3753" BaseHP="1500000" HPIncreaseEachLevel="0"  AIType="1"  AIScriptID="100001" Auras="" Skills="50_15_2000" />
+			<Teleport Name="Phòng Cơ Quan" PosX="9049" PosY="3768" ToMapID="-1" ToPosX="8448" ToPosY="4247" SpawnImmediate="true" />
+			<Teleport Name="Phòng Bí Văn 6" PosX="9829" PosY="3823" ToMapID="-1" ToPosX="11663" ToPosY="4091" SpawnImmediate="false" />
+
+		</Step>
+		<Step ID="56" StepName="Phòng Bí Văn 6" AllowCallBoss="false" NextStep="57" NeedStep="">
+			<Boss ID="7401" Name="Hung Thần Thủ Vệ" Title="" PosX="11136" PosY="3996" BaseHP="1500000" HPIncreaseEachLevel="0"  AIType="1"  AIScriptID="100001" Auras="" Skills="50_15_2000" />
+			<Boss ID="7401" Name="Hung Thần Thủ Vệ" Title="" PosX="11367" PosY="4069" BaseHP="1500000" HPIncreaseEachLevel="0"  AIType="1"  AIScriptID="100001" Auras="" Skills="50_15_2000" />
+			<Boss ID="7401" Name="Hung Thần Thủ Vệ" Title="" PosX="11603" PosY="4160" BaseHP="1500000" HPIncreaseEachLevel="0"  AIType="1"  AIScriptID="100001" Auras="" Skills="50_15_2000" />
+			<Boss ID="7401" Name="Hung Thần Thủ Vệ" Title="" PosX="11846" PosY="4195" BaseHP="1500000" HPIncreaseEachLevel="0"  AIType="1"  AIScriptID="100001" Auras="" Skills="50_15_2000" />
+			<Boss ID="7401" Name="Hung Thần Thủ Vệ" Title="" PosX="11750" PosY="4062" BaseHP="1500000" HPIncreaseEachLevel="0"  AIType="1"  AIScriptID="100001" Auras="" Skills="50_15_2000" />
+			<Boss ID="7401" Name="Hung Thần Thủ Vệ" Title="" PosX="11568" PosY="3972" BaseHP="1500000" HPIncreaseEachLevel="0"  AIType="1"  AIScriptID="100001" Auras="" Skills="50_15_2000" />
+			<Boss ID="7401" Name="Hung Thần Thủ Vệ" Title="" PosX="11409" PosY="3886" BaseHP="1500000" HPIncreaseEachLevel="0"  AIType="1"  AIScriptID="100001" Auras="" Skills="50_15_2000" />
+			<Boss ID="7401" Name="Hung Thần Thủ Vệ" Title="" PosX="11365" PosY="3776" BaseHP="1500000" HPIncreaseEachLevel="0"  AIType="1"  AIScriptID="100001" Auras="" Skills="50_15_2000" />
+			<Boss ID="7401" Name="Hung Thần Thủ Vệ" Title="" PosX="11662" PosY="3876" BaseHP="1500000" HPIncreaseEachLevel="0"  AIType="1"  AIScriptID="100001" Auras="" Skills="50_15_2000" />
+			<Boss ID="7401" Name="Hung Thần Thủ Vệ" Title="" PosX="11911" PosY="3952" BaseHP="1500000" HPIncreaseEachLevel="0"  AIType="1"  AIScriptID="100001" Auras="" Skills="50_15_2000" />
+			<Teleport Name="Phòng Bí Văn 5" PosX="11380" PosY="4202" ToMapID="-1" ToPosX="9644" ToPosY="3765" SpawnImmediate="true" />
+			<Teleport Name="Phòng Bí Văn 7" PosX="11404" PosY="3718" ToMapID="-1" ToPosX="10625" ToPosY="3242" SpawnImmediate="false" />
+
+		</Step>
+		<Step ID="57" StepName="Phòng Bí Văn 7" AllowCallBoss="false" NextStep="58" NeedStep="">
+			<Boss ID="7401" Name="Hung Thần Thủ Vệ" Title="" PosX="10539" PosY="3412" BaseHP="1500000" HPIncreaseEachLevel="0"  AIType="1"  AIScriptID="100001" Auras="" Skills="50_15_2000" />
+			<Boss ID="7401" Name="Hung Thần Thủ Vệ" Title="" PosX="10343" PosY="3329" BaseHP="1500000" HPIncreaseEachLevel="0"  AIType="1"  AIScriptID="100001" Auras="" Skills="50_15_2000" />
+			<Boss ID="7401" Name="Hung Thần Thủ Vệ" Title="" PosX="10143" PosY="3247" BaseHP="1500000" HPIncreaseEachLevel="0"  AIType="1"  AIScriptID="100001" Auras="" Skills="50_15_2000" />
+			<Boss ID="7401" Name="Hung Thần Thủ Vệ" Title="" PosX="10083" PosY="3120" BaseHP="1500000" HPIncreaseEachLevel="0"  AIType="1"  AIScriptID="100001" Auras="" Skills="50_15_2000" />
+			<Boss ID="7401" Name="Hung Thần Thủ Vệ" Title="" PosX="10270" PosY="3067" BaseHP="1500000" HPIncreaseEachLevel="0"  AIType="1"  AIScriptID="100001" Auras="" Skills="50_15_2000" />
+			<Boss ID="7401" Name="Hung Thần Thủ Vệ" Title="" PosX="10486" PosY="3218" BaseHP="1500000" HPIncreaseEachLevel="0"  AIType="1"  AIScriptID="100001" Auras="" Skills="50_15_2000" />
+			<Boss ID="7401" Name="Hung Thần Thủ Vệ" Title="" PosX="10762" PosY="3320" BaseHP="1500000" HPIncreaseEachLevel="0"  AIType="1"  AIScriptID="100001" Auras="" Skills="50_15_2000" />
+			<Boss ID="7401" Name="Hung Thần Thủ Vệ" Title="" PosX="10933" PosY="3248" BaseHP="1500000" HPIncreaseEachLevel="0"  AIType="1"  AIScriptID="100001" Auras="" Skills="50_15_2000" />
+			<Boss ID="7401" Name="Hung Thần Thủ Vệ" Title="" PosX="10746" PosY="3143" BaseHP="1500000" HPIncreaseEachLevel="0"  AIType="1"  AIScriptID="100001" Auras="" Skills="50_15_2000" />
+			<Boss ID="7401" Name="Hung Thần Thủ Vệ" Title="" PosX="10509" PosY="3026" BaseHP="1500000" HPIncreaseEachLevel="0"  AIType="1"  AIScriptID="100001" Auras="" Skills="50_15_2000" />
+			<Teleport Name="Phòng Bí Văn 6" PosX="10876" PosY="3355" ToMapID="-1" ToPosX="11592" ToPosY="3861" SpawnImmediate="true" />
+			<Teleport Name="Phòng Bí Văn 8" PosX="10054" PosY="2953" ToMapID="-1" ToPosX="8424" ToPosY="2995" SpawnImmediate="false" />
+
+		</Step>
+		<Step ID="58" StepName="Phòng Bí Văn 8" AllowCallBoss="false" NextStep="" NeedStep="">
+			<Boss ID="7401" Name="Hung Thần Thủ Vệ" Title="" PosX="8282" PosY="3246" BaseHP="1500000" HPIncreaseEachLevel="0"  AIType="1"  AIScriptID="100001" Auras="" Skills="50_15_2000" />
+			<Boss ID="7401" Name="Hung Thần Thủ Vệ" Title="" PosX="8087" PosY="3143" BaseHP="1500000" HPIncreaseEachLevel="0"  AIType="1"  AIScriptID="100001" Auras="" Skills="50_15_2000" />
+			<Boss ID="7401" Name="Hung Thần Thủ Vệ" Title="" PosX="7889" PosY="3039" BaseHP="1500000" HPIncreaseEachLevel="0"  AIType="1"  AIScriptID="100001" Auras="" Skills="50_15_2000" />
+			<Boss ID="7401" Name="Hung Thần Thủ Vệ" Title="" PosX="7783" PosY="2922" BaseHP="1500000" HPIncreaseEachLevel="0"  AIType="1"  AIScriptID="100001" Auras="" Skills="50_15_2000" />
+			<Boss ID="7401" Name="Hung Thần Thủ Vệ" Title="" PosX="7954" PosY="2859" BaseHP="1500000" HPIncreaseEachLevel="0"  AIType="1"  AIScriptID="100001" Auras="" Skills="50_15_2000" />
+			<Boss ID="7401" Name="Hung Thần Thủ Vệ" Title="" PosX="8116" PosY="2976" BaseHP="1500000" HPIncreaseEachLevel="0"  AIType="1"  AIScriptID="100001" Auras="" Skills="50_15_2000" />
+			<Boss ID="7401" Name="Hung Thần Thủ Vệ" Title="" PosX="8351" PosY="3080" BaseHP="1500000" HPIncreaseEachLevel="0"  AIType="1"  AIScriptID="100001" Auras="" Skills="50_15_2000" />
+			<Boss ID="7401" Name="Hung Thần Thủ Vệ" Title="" PosX="8590" PosY="3115" BaseHP="1500000" HPIncreaseEachLevel="0"  AIType="1"  AIScriptID="100001" Auras="" Skills="50_15_2000" />
+			<Boss ID="7401" Name="Hung Thần Thủ Vệ" Title="" PosX="8732" PosY="3012" BaseHP="1500000" HPIncreaseEachLevel="0"  AIType="1"  AIScriptID="100001" Auras="" Skills="50_15_2000" />
+			<Boss ID="7401" Name="Hung Thần Thủ Vệ" Title="" PosX="8267" PosY="3031" BaseHP="1500000" HPIncreaseEachLevel="0"  AIType="1"  AIScriptID="100001" Auras="" Skills="50_15_2000" />
+			<Teleport Name="Phòng Bí Văn 7" PosX="8630" PosY="2879" ToMapID="-1" ToPosX="10223" ToPosY="3086" SpawnImmediate="true" />
+			<Teleport Name="Phòng Cơ Quan" PosX="8641" PosY="3167" ToMapID="-1" ToPosX="8391" ToPosY="4213" SpawnImmediate="false" />
+
+		</Step>
+
+		<Step ID="6" StepName="Phòng Choáng" AllowCallBoss="false" NextStep="61" NeedStep="">
+			<!-- //Click vào bia đá để gọi ra quái vật,đặc tính là gây choáng tổng cộng 20 con và 1 bia đá -->
+			<Trigger ID="618" Name="Bia đá cơ quan" CollectTick="10000" PosX="8111" PosY="1281" Index="1" />
+			<Guardian ID="7400" Name="Lôi Minh Cơ Quan Thú" Title="" PosX="8180" PosY="1697" BaseHP="1500000" HPIncreaseEachLevel="0"  AIType="1"  AIScriptID="100001" Auras="" Skills="178_15_2000" TriggerIndex="1" />
+			<Guardian ID="7400" Name="Lôi Minh Cơ Quan Thú" Title="" PosX="7929" PosY="1567" BaseHP="1500000" HPIncreaseEachLevel="0"  AIType="1"  AIScriptID="100001" Auras="" Skills="178_15_2000" TriggerIndex="1" />
+			<Guardian ID="7400" Name="Lôi Minh Cơ Quan Thú" Title="" PosX="7737" PosY="1448" BaseHP="1500000" HPIncreaseEachLevel="0"  AIType="1"  AIScriptID="100001" Auras="" Skills="178_15_2000" TriggerIndex="1" />
+			<Guardian ID="7400" Name="Lôi Minh Cơ Quan Thú" Title="" PosX="7521" PosY="1333" BaseHP="1500000" HPIncreaseEachLevel="0"  AIType="1"  AIScriptID="100001" Auras="" Skills="178_15_2000" TriggerIndex="1" />
+			<Guardian ID="7400" Name="Lôi Minh Cơ Quan Thú" Title="" PosX="7265" PosY="1172" BaseHP="1500000" HPIncreaseEachLevel="0"  AIType="1"  AIScriptID="100001" Auras="" Skills="178_15_2000" TriggerIndex="1" />
+			<Guardian ID="7400" Name="Lôi Minh Cơ Quan Thú" Title="" PosX="7480" PosY="1097" BaseHP="1500000" HPIncreaseEachLevel="0"  AIType="1"  AIScriptID="100001" Auras="" Skills="178_15_2000" TriggerIndex="1" />
+			<Guardian ID="7400" Name="Lôi Minh Cơ Quan Thú" Title="" PosX="7685" PosY="1199" BaseHP="1500000" HPIncreaseEachLevel="0"  AIType="1"  AIScriptID="100001" Auras="" Skills="178_15_2000" TriggerIndex="1" />
+			<Guardian ID="7400" Name="Lôi Minh Cơ Quan Thú" Title="" PosX="7949" PosY="1242" BaseHP="1500000" HPIncreaseEachLevel="0"  AIType="1"  AIScriptID="100001" Auras="" Skills="178_15_2000" TriggerIndex="1" />
+			<Guardian ID="7400" Name="Lôi Minh Cơ Quan Thú" Title="" PosX="8148" PosY="1402" BaseHP="1500000" HPIncreaseEachLevel="0"  AIType="1"  AIScriptID="100001" Auras="" Skills="178_15_2000" TriggerIndex="1" />
+			<Guardian ID="7400" Name="Lôi Minh Cơ Quan Thú" Title="" PosX="8453" PosY="1450" BaseHP="1500000" HPIncreaseEachLevel="0"  AIType="1"  AIScriptID="100001" Auras="" Skills="178_15_2000" TriggerIndex="1" />
+			<Guardian ID="7400" Name="Lôi Minh Cơ Quan Thú" Title="" PosX="8654" PosY="1382" BaseHP="1500000" HPIncreaseEachLevel="0"  AIType="1"  AIScriptID="100001" Auras="" Skills="178_15_2000" TriggerIndex="1" />
+			<Guardian ID="7400" Name="Lôi Minh Cơ Quan Thú" Title="" PosX="8465" PosY="1279" BaseHP="1500000" HPIncreaseEachLevel="0"  AIType="1"  AIScriptID="100001" Auras="" Skills="178_15_2000" TriggerIndex="1" />
+			<Guardian ID="7400" Name="Lôi Minh Cơ Quan Thú" Title="" PosX="8179" PosY="1112" BaseHP="1500000" HPIncreaseEachLevel="0"  AIType="1"  AIScriptID="100001" Auras="" Skills="178_15_2000" TriggerIndex="1" />
+			<Guardian ID="7400" Name="Lôi Minh Cơ Quan Thú" Title="" PosX="7931" PosY="1029" BaseHP="1500000" HPIncreaseEachLevel="0"  AIType="1"  AIScriptID="100001" Auras="" Skills="178_15_2000" TriggerIndex="1" />
+			<Guardian ID="7400" Name="Lôi Minh Cơ Quan Thú" Title="" PosX="7785" PosY="876" BaseHP="1500000" HPIncreaseEachLevel="0"  AIType="1"  AIScriptID="100001" Auras="" Skills="178_15_2000" TriggerIndex="1" />
+			<Guardian ID="7400" Name="Lôi Minh Cơ Quan Thú" Title="" PosX="8038" PosY="803" BaseHP="1500000" HPIncreaseEachLevel="0"  AIType="1"  AIScriptID="100001" Auras="" Skills="178_15_2000" TriggerIndex="1" />
+			<Guardian ID="7400" Name="Lôi Minh Cơ Quan Thú" Title="" PosX="8316" PosY="927" BaseHP="1500000" HPIncreaseEachLevel="0"  AIType="1"  AIScriptID="100001" Auras="" Skills="178_15_2000" TriggerIndex="1" />
+			<Guardian ID="7400" Name="Lôi Minh Cơ Quan Thú" Title="" PosX="8555" PosY="1032" BaseHP="1500000" HPIncreaseEachLevel="0"  AIType="1"  AIScriptID="100001" Auras="" Skills="178_15_2000" TriggerIndex="1" />
+			<Guardian ID="7400" Name="Lôi Minh Cơ Quan Thú" Title="" PosX="8745" PosY="1190" BaseHP="1500000" HPIncreaseEachLevel="0"  AIType="1"  AIScriptID="100001" Auras="" Skills="178_15_2000" TriggerIndex="1" />
+			<Guardian ID="7400" Name="Lôi Minh Cơ Quan Thú" Title="" PosX="9041" PosY="1239" BaseHP="1500000" HPIncreaseEachLevel="0"  AIType="1"  AIScriptID="100001" Auras="" Skills="178_15_2000" TriggerIndex="1" />
+			<Teleport Name="Cửa tiếp theo" PosX="8848" PosY="1462" ToMapID="-1" ToPosX="9246" ToPosY="1720" SpawnImmediate="false" />
+			<Teleport Name="Phòng Huyền Vũ" PosX="9590" PosY="1659" ToMapID="-1" ToPosX="10525" ToPosY="1140" SpawnImmediate="false" />
+	
+			<!-- //Sau khi đánh hết quái sẽ mở phòng Huyền Vũ -->
+		</Step>
+		<Step ID="61" StepName="Phòng Huyền Vũ" AllowCallBoss="false" NextStep="62" NeedStep="">
+			<Trigger ID="618" Name="Bia đá cơ quan" CollectTick="10000" PosX="10694" PosY="1149" Index="1" />
+			<Guardian ID="7401" Name="Hung Thần Thủ Vệ" Title="" PosX="10710" PosY="1331" BaseHP="1500000" HPIncreaseEachLevel="0"  AIType="1"  AIScriptID="100001" Auras=""  Skills="50_15_2000" TriggerIndex="1" />
+			<Guardian ID="7401" Name="Hung Thần Thủ Vệ" Title="" PosX="10539" PosY="1219" BaseHP="1500000" HPIncreaseEachLevel="0"  AIType="1"  AIScriptID="100001" Auras=""  Skills="50_15_2000" TriggerIndex="1" />
+			<Guardian ID="7401" Name="Hung Thần Thủ Vệ" Title="" PosX="10420" PosY="1056" BaseHP="1500000" HPIncreaseEachLevel="0"  AIType="1"  AIScriptID="100001" Auras=""  Skills="50_15_2000" TriggerIndex="1" />
+			<Guardian ID="7401" Name="Hung Thần Thủ Vệ" Title="" PosX="10576" PosY="998" BaseHP="1500000" HPIncreaseEachLevel="0"  AIType="1"  AIScriptID="100001" Auras=""  Skills="50_15_2000" TriggerIndex="1" />
+			<Guardian ID="7401" Name="Hung Thần Thủ Vệ" Title="" PosX="10636" PosY="1116" BaseHP="1500000" HPIncreaseEachLevel="0"  AIType="1"  AIScriptID="100001" Auras=""  Skills="50_15_2000" TriggerIndex="1" />
+			<Guardian ID="7401" Name="Hung Thần Thủ Vệ" Title="" PosX="10830" PosY="1097" BaseHP="1500000" HPIncreaseEachLevel="0"  AIType="1"  AIScriptID="100001" Auras=""  Skills="50_15_2000" TriggerIndex="1" />
+			<Guardian ID="7401" Name="Hung Thần Thủ Vệ" Title="" PosX="10950" PosY="1202" BaseHP="1500000" HPIncreaseEachLevel="0"  AIType="1"  AIScriptID="100001" Auras=""  Skills="50_15_2000" TriggerIndex="1" />
+			<Guardian ID="7401" Name="Hung Thần Thủ Vệ" Title="" PosX="11059" PosY="1144" BaseHP="1500000" HPIncreaseEachLevel="0"  AIType="1"  AIScriptID="100001" Auras=""  Skills="50_15_2000" TriggerIndex="1" />
+			<Guardian ID="7401" Name="Hung Thần Thủ Vệ" Title="" PosX="10965" PosY="1075" BaseHP="1500000" HPIncreaseEachLevel="0"  AIType="1"  AIScriptID="100001" Auras=""  Skills="50_15_2000" TriggerIndex="1" />
+			<Guardian ID="7401" Name="Hung Thần Thủ Vệ" Title="" PosX="10724" PosY="976" BaseHP="1500000" HPIncreaseEachLevel="0"  AIType="1"  AIScriptID="100001" Auras=""  Skills="50_15_2000" TriggerIndex="1" />
+			<Teleport Name="Trở lại" PosX="10264" PosY="1284" ToMapID="-1" ToPosX="9673" ToPosY="1934" SpawnImmediate="true" />
+			<Teleport Name="Phòng Chu Tước" PosX="11124" PosY="2464" ToMapID="-1" ToPosX="12145" ToPosY="1952" SpawnImmediate="false" />
+
+		</Step>
+		<Step ID="62" StepName="Phòng Chu Tước" AllowCallBoss="false" NextStep="63" NeedStep="">
+			<Trigger ID="618" Name="Bia đá cơ quan" CollectTick="10000" PosX="12233" PosY="1868" Index="1" />
+			<Guardian ID="7401" Name="Hung Thần Thủ Vệ" Title="" PosX="12285" PosY="2162" BaseHP="1500000" HPIncreaseEachLevel="0"  AIType="1"  AIScriptID="100001" Auras=""  Skills="50_15_2000" TriggerIndex="1" />
+			<Guardian ID="7401" Name="Hung Thần Thủ Vệ" Title="" PosX="12068" PosY="2046" BaseHP="1500000" HPIncreaseEachLevel="0"  AIType="1"  AIScriptID="100001" Auras=""  Skills="50_15_2000" TriggerIndex="1" />
+			<Guardian ID="7401" Name="Hung Thần Thủ Vệ" Title="" PosX="11769" PosY="1935" BaseHP="1500000" HPIncreaseEachLevel="0"  AIType="1"  AIScriptID="100001" Auras=""  Skills="50_15_2000" TriggerIndex="1" />
+			<Guardian ID="7401" Name="Hung Thần Thủ Vệ" Title="" PosX="11765" PosY="1782" BaseHP="1500000" HPIncreaseEachLevel="0"  AIType="1"  AIScriptID="100001" Auras=""  Skills="50_15_2000" TriggerIndex="1" />
+			<Guardian ID="7401" Name="Hung Thần Thủ Vệ" Title="" PosX="11980" PosY="1836" BaseHP="1500000" HPIncreaseEachLevel="0"  AIType="1"  AIScriptID="100001" Auras=""  Skills="50_15_2000" TriggerIndex="1" />
+			<Guardian ID="7401" Name="Hung Thần Thủ Vệ" Title="" PosX="12255" PosY="1951" BaseHP="1500000" HPIncreaseEachLevel="0"  AIType="1"  AIScriptID="100001" Auras=""  Skills="50_15_2000" TriggerIndex="1" />
+			<Guardian ID="7401" Name="Hung Thần Thủ Vệ" Title="" PosX="12502" PosY="2027" BaseHP="1500000" HPIncreaseEachLevel="0"  AIType="1"  AIScriptID="100001" Auras=""  Skills="50_15_2000" TriggerIndex="1" />
+			<Guardian ID="7401" Name="Hung Thần Thủ Vệ" Title="" PosX="12528" PosY="1911" BaseHP="1500000" HPIncreaseEachLevel="0"  AIType="1"  AIScriptID="100001" Auras=""  Skills="50_15_2000" TriggerIndex="1" />
+			<Guardian ID="7401" Name="Hung Thần Thủ Vệ" Title="" PosX="12521" PosY="1784" BaseHP="1500000" HPIncreaseEachLevel="0"  AIType="1"  AIScriptID="100001" Auras=""  Skills="50_15_2000" TriggerIndex="1" />
+			<Guardian ID="7401" Name="Hung Thần Thủ Vệ" Title="" PosX="12257" PosY="1673" BaseHP="1500000" HPIncreaseEachLevel="0"  AIType="1"  AIScriptID="100001" Auras=""  Skills="50_15_2000" TriggerIndex="1" />
+			<Teleport Name="Trở lại" PosX="11826" PosY="2033" ToMapID="-1" ToPosX="11230" ToPosY="2696" SpawnImmediate="true" />
+			<Teleport Name="Phòng Thanh Long" PosX="12700" PosY="3242" ToMapID="-1" ToPosX="13646" ToPosY="2731" SpawnImmediate="false" />
+
+		</Step>
+		<Step ID="63" StepName="Phòng Thanh Long" AllowCallBoss="false" NextStep="64" NeedStep="">	
+	     	<Trigger ID="618" Name="Bia đá cơ quan" CollectTick="10000" PosX="13827" PosY="2719" Index="1" />
+			<Guardian ID="7401" Name="Hung Thần Thủ Vệ" Title="" PosX="13840" PosY="2966" BaseHP="1500000" HPIncreaseEachLevel="0"  AIType="1"  AIScriptID="100001" Auras=""  Skills="50_15_2000" TriggerIndex="1" />
+			<Guardian ID="7401" Name="Hung Thần Thủ Vệ" Title="" PosX="13617" PosY="2878" BaseHP="1500000" HPIncreaseEachLevel="0"  AIType="1"  AIScriptID="100001" Auras=""  Skills="50_15_2000" TriggerIndex="1" />
+			<Guardian ID="7401" Name="Hung Thần Thủ Vệ" Title="" PosX="13463" PosY="2715" BaseHP="1500000" HPIncreaseEachLevel="0"  AIType="1"  AIScriptID="100001" Auras=""  Skills="50_15_2000" TriggerIndex="1" />
+			<Guardian ID="7401" Name="Hung Thần Thủ Vệ" Title="" PosX="13245" PosY="2624" BaseHP="1500000" HPIncreaseEachLevel="0"  AIType="1"  AIScriptID="100001" Auras=""  Skills="50_15_2000" TriggerIndex="1" />
+			<Guardian ID="7401" Name="Hung Thần Thủ Vệ" Title="" PosX="13455" PosY="2507" BaseHP="1500000" HPIncreaseEachLevel="0"  AIType="1"  AIScriptID="100001" Auras=""  Skills="50_15_2000" TriggerIndex="1" />
+			<Guardian ID="7401" Name="Hung Thần Thủ Vệ" Title="" PosX="13668" PosY="2583" BaseHP="1500000" HPIncreaseEachLevel="0"  AIType="1"  AIScriptID="100001" Auras=""  Skills="50_15_2000" TriggerIndex="1" />
+			<Guardian ID="7401" Name="Hung Thần Thủ Vệ" Title="" PosX="13949" PosY="2628" BaseHP="1500000" HPIncreaseEachLevel="0"  AIType="1"  AIScriptID="100001" Auras=""  Skills="50_15_2000" TriggerIndex="1" />
+			<Guardian ID="7401" Name="Hung Thần Thủ Vệ" Title="" PosX="14203" PosY="2793" BaseHP="1500000" HPIncreaseEachLevel="0"  AIType="1"  AIScriptID="100001" Auras=""  Skills="50_15_2000" TriggerIndex="1" />
+			<Guardian ID="7401" Name="Hung Thần Thủ Vệ" Title="" PosX="14288" PosY="2676" BaseHP="1500000" HPIncreaseEachLevel="0"  AIType="1"  AIScriptID="100001" Auras=""  Skills="50_15_2000" TriggerIndex="1" />
+			<Guardian ID="7401" Name="Hung Thần Thủ Vệ" Title="" PosX="13978" PosY="2591" BaseHP="1500000" HPIncreaseEachLevel="0"  AIType="1"  AIScriptID="100001" Auras=""  Skills="50_15_2000" TriggerIndex="1" />
+			<Teleport Name="Trở lại" PosX="13451" PosY="2854" ToMapID="-1" ToPosX="12885" ToPosY="3529" SpawnImmediate="true" />
+			<Teleport Name="Phòng Bạch Hổ" PosX="14283" PosY="4031" ToMapID="-1" ToPosX="15231" ToPosY="3512" SpawnImmediate="false" />
+
+		</Step>			
+		<Step ID="64" StepName="Phòng Bạch Hổ" AllowCallBoss="false" NextStep="" NeedStep="">
+			<Trigger ID="618" Name="Bia đá cơ quan" CollectTick="10000" PosX="15388" PosY="3450" Index="1" />
+			<Guardian ID="7401" Name="Hung Thần Thủ Vệ" Title="" PosX="15422" PosY="3705" BaseHP="1500000" HPIncreaseEachLevel="0"  AIType="1"  AIScriptID="100001" Auras=""  Skills="50_15_2000" TriggerIndex="1" />
+			<Guardian ID="7401" Name="Hung Thần Thủ Vệ" Title="" PosX="15227" PosY="3589" BaseHP="1500000" HPIncreaseEachLevel="0"  AIType="1"  AIScriptID="100001" Auras=""  Skills="50_15_2000" TriggerIndex="1" />
+			<Guardian ID="7401" Name="Hung Thần Thủ Vệ" Title="" PosX="15227" PosY="3589" BaseHP="1500000" HPIncreaseEachLevel="0"  AIType="1"  AIScriptID="100001" Auras=""  Skills="50_15_2000" TriggerIndex="1" />
+			<Guardian ID="7401" Name="Hung Thần Thủ Vệ" Title="" PosX="14947" PosY="3384" BaseHP="1500000" HPIncreaseEachLevel="0"  AIType="1"  AIScriptID="100001" Auras=""  Skills="50_15_2000" TriggerIndex="1" />
+			<Guardian ID="7401" Name="Hung Thần Thủ Vệ" Title="" PosX="15148" PosY="3298" BaseHP="1500000" HPIncreaseEachLevel="0"  AIType="1"  AIScriptID="100001" Auras=""  Skills="50_15_2000" TriggerIndex="1" />
+			<Guardian ID="7401" Name="Hung Thần Thủ Vệ" Title="" PosX="15325" PosY="3399" BaseHP="1500000" HPIncreaseEachLevel="0"  AIType="1"  AIScriptID="100001" Auras=""  Skills="50_15_2000" TriggerIndex="1" />
+			<Guardian ID="7401" Name="Hung Thần Thủ Vệ" Title="" PosX="15635" PosY="3525" BaseHP="1500000" HPIncreaseEachLevel="0"  AIType="1"  AIScriptID="100001" Auras=""  Skills="50_15_2000" TriggerIndex="1" />
+			<Guardian ID="7401" Name="Hung Thần Thủ Vệ" Title="" PosX="15753" PosY="3478" BaseHP="1500000" HPIncreaseEachLevel="0"  AIType="1"  AIScriptID="100001" Auras=""  Skills="50_15_2000" TriggerIndex="1" />
+			<Guardian ID="7401" Name="Hung Thần Thủ Vệ" Title="" PosX="15692" PosY="3361" BaseHP="1500000" HPIncreaseEachLevel="0"  AIType="1"  AIScriptID="100001" Auras=""  Skills="50_15_2000" TriggerIndex="1" />
+			<Guardian ID="7401" Name="Hung Thần Thủ Vệ" Title="" PosX="15442" PosY="3256" BaseHP="1500000" HPIncreaseEachLevel="0"  AIType="1"  AIScriptID="100001" Auras=""  Skills="50_15_2000" TriggerIndex="1" />
+			<Teleport Name="Trở lại" PosX="14934" PosY="3641" ToMapID="-1" ToPosX="13897" ToPosY="4063" SpawnImmediate="true" />
+
+
+		</Step>
+		<Step ID="7" StepName="Phòng Vực Thẳm" AllowCallBoss="false" NextStep="" NeedStep="44_54_58_64">
+			<!-- //Click vào bia đá để gọi ra quái vật,đặc tính là gây choáng tổng cộng 30 con và 1 bia đá -->
+			<Trigger ID="618" Name="Bia đá cơ quan" CollectTick="10000" PosX="9300" PosY="8376" Index="1" />
+			<Guardian ID="7404" Name="Ảnh Tử Võ Sĩ"  Title="" PosX="8470" PosY="8405" BaseHP="1500000" HPIncreaseEachLevel="0" AIType="1" AIScriptID="100001" Auras="" Skills="24_10_2000" TriggerIndex="1" />
+			<Guardian ID="7404" Name="Ảnh Tử Võ Sĩ"  Title="" PosX="8745" PosY="8482" BaseHP="1500000" HPIncreaseEachLevel="0" AIType="1" AIScriptID="100001" Auras="" Skills="24_10_2000" TriggerIndex="1" />
+			<Guardian ID="7404" Name="Ảnh Tử Võ Sĩ"  Title="" PosX="8984" PosY="8567" BaseHP="1500000" HPIncreaseEachLevel="0" AIType="1" AIScriptID="100001" Auras="" Skills="24_10_2000" TriggerIndex="1" />
+			<Guardian ID="7404" Name="Ảnh Tử Võ Sĩ"  Title="" PosX="9165" PosY="8723" BaseHP="1500000" HPIncreaseEachLevel="0" AIType="1" AIScriptID="100001" Auras="" Skills="24_10_2000" TriggerIndex="1" />
+			<Guardian ID="7404" Name="Ảnh Tử Võ Sĩ"  Title="" PosX="9429" PosY="8749" BaseHP="1500000" HPIncreaseEachLevel="0" AIType="1" AIScriptID="100001" Auras="" Skills="24_10_2000" TriggerIndex="1" />
+			<Guardian ID="7404" Name="Ảnh Tử Võ Sĩ"  Title="" PosX="9432" PosY="8631" BaseHP="1500000" HPIncreaseEachLevel="0" AIType="1" AIScriptID="100001" Auras="" Skills="24_10_2000" TriggerIndex="1" />
+			<Guardian ID="7404" Name="Ảnh Tử Võ Sĩ"  Title="" PosX="9329" PosY="8511" BaseHP="1500000" HPIncreaseEachLevel="0" AIType="1" AIScriptID="100001" Auras="" Skills="24_10_2000" TriggerIndex="1" />
+			<Guardian ID="7404" Name="Ảnh Tử Võ Sĩ"  Title="" PosX="9050" PosY="8434" BaseHP="1500000" HPIncreaseEachLevel="0" AIType="1" AIScriptID="100001" Auras="" Skills="24_10_2000" TriggerIndex="1" />
+			<Guardian ID="7404" Name="Ảnh Tử Võ Sĩ"  Title="" PosX="8884" PosY="8457" BaseHP="1500000" HPIncreaseEachLevel="0" AIType="1" AIScriptID="100001" Auras="" Skills="24_10_2000" TriggerIndex="1" />
+			<Guardian ID="7404" Name="Ảnh Tử Võ Sĩ"  Title="" PosX="8774" PosY="8329" BaseHP="1500000" HPIncreaseEachLevel="0" AIType="1" AIScriptID="100001" Auras="" Skills="24_10_2000" TriggerIndex="1" />
+			<Guardian ID="7404" Name="Ảnh Tử Võ Sĩ"  Title="" PosX="8762" PosY="8158" BaseHP="1500000" HPIncreaseEachLevel="0" AIType="1" AIScriptID="100001" Auras="" Skills="24_10_2000" TriggerIndex="1" />
+			<Guardian ID="7404" Name="Ảnh Tử Võ Sĩ"  Title="" PosX="8969" PosY="8084" BaseHP="1500000" HPIncreaseEachLevel="0" AIType="1" AIScriptID="100001" Auras="" Skills="24_10_2000" TriggerIndex="1" />
+			<Guardian ID="7404" Name="Ảnh Tử Võ Sĩ"  Title="" PosX="9233" PosY="7988" BaseHP="1500000" HPIncreaseEachLevel="0" AIType="1" AIScriptID="100001" Auras="" Skills="24_10_2000" TriggerIndex="1" />
+			<Guardian ID="7404" Name="Ảnh Tử Võ Sĩ"  Title="" PosX="9501" PosY="7963" BaseHP="1500000" HPIncreaseEachLevel="0" AIType="1" AIScriptID="100001" Auras="" Skills="24_10_2000" TriggerIndex="1" />
+			<Guardian ID="7404" Name="Ảnh Tử Võ Sĩ"  Title="" PosX="9405" PosY="7963" BaseHP="1500000" HPIncreaseEachLevel="0" AIType="1" AIScriptID="100001" Auras="" Skills="24_10_2000" TriggerIndex="1" />
+			<Guardian ID="7404" Name="Ảnh Tử Võ Sĩ"  Title="" PosX="9454" PosY="8308" BaseHP="1500000" HPIncreaseEachLevel="0" AIType="1" AIScriptID="100001" Auras="" Skills="24_10_2000" TriggerIndex="1" />
+			<Guardian ID="7404" Name="Ảnh Tử Võ Sĩ"  Title="" PosX="9554" PosY="8483" BaseHP="1500000" HPIncreaseEachLevel="0" AIType="1" AIScriptID="100001" Auras="" Skills="24_10_2000" TriggerIndex="1" />
+			<Guardian ID="7404" Name="Ảnh Tử Võ Sĩ"  Title="" PosX="9692" PosY="8587" BaseHP="1500000" HPIncreaseEachLevel="0" AIType="1" AIScriptID="100001" Auras="" Skills="24_10_2000" TriggerIndex="1" />
+			<Guardian ID="7404" Name="Ảnh Tử Võ Sĩ"  Title="" PosX="9850" PosY="8497" BaseHP="1500000" HPIncreaseEachLevel="0" AIType="1" AIScriptID="100001" Auras="" Skills="24_10_2000" TriggerIndex="1" />
+			<Guardian ID="7404" Name="Ảnh Tử Võ Sĩ"  Title="" PosX="9762" PosY="8343" BaseHP="1500000" HPIncreaseEachLevel="0" AIType="1" AIScriptID="100001" Auras="" Skills="24_10_2000" TriggerIndex="1" />
+			<Guardian ID="7404" Name="Ảnh Tử Võ Sĩ"  Title="" PosX="9648" PosY="8220" BaseHP="1500000" HPIncreaseEachLevel="0" AIType="1" AIScriptID="100001" Auras="" Skills="24_10_2000" TriggerIndex="1" />
+			<Guardian ID="7404" Name="Ảnh Tử Võ Sĩ"  Title="" PosX="9698" PosY="8067" BaseHP="1500000" HPIncreaseEachLevel="0" AIType="1" AIScriptID="100001" Auras="" Skills="24_10_2000" TriggerIndex="1" />
+			<Guardian ID="7404" Name="Ảnh Tử Võ Sĩ"  Title="" PosX="9858" PosY="8040" BaseHP="1500000" HPIncreaseEachLevel="0" AIType="1" AIScriptID="100001" Auras="" Skills="24_10_2000" TriggerIndex="1" />
+			<Guardian ID="7404" Name="Ảnh Tử Võ Sĩ"  Title="" PosX="10052" PosY="8135" BaseHP="1500000" HPIncreaseEachLevel="0" AIType="1" AIScriptID="100001" Auras="" Skills="24_10_2000" TriggerIndex="1" />
+			<Guardian ID="7404" Name="Ảnh Tử Võ Sĩ"  Title="" PosX="10219" PosY="8306" BaseHP="1500000" HPIncreaseEachLevel="0" AIType="1" AIScriptID="100001" Auras="" Skills="24_10_2000" TriggerIndex="1" />
+			<Guardian ID="7404" Name="Ảnh Tử Võ Sĩ"  Title="" PosX="10038" PosY="8441" BaseHP="1500000" HPIncreaseEachLevel="0" AIType="1" AIScriptID="100001" Auras="" Skills="24_10_2000" TriggerIndex="1" />
+			<Guardian ID="7404" Name="Ảnh Tử Võ Sĩ"  Title="" PosX="9831" PosY="8593" BaseHP="1500000" HPIncreaseEachLevel="0" AIType="1" AIScriptID="100001" Auras="" Skills="24_10_2000" TriggerIndex="1" />
+			<Guardian ID="7404" Name="Ảnh Tử Võ Sĩ"  Title="" PosX="9697" PosY="8637" BaseHP="1500000" HPIncreaseEachLevel="0" AIType="1" AIScriptID="100001" Auras="" Skills="24_10_2000" TriggerIndex="1" />
+			<Guardian ID="7404" Name="Ảnh Tử Võ Sĩ"  Title="" PosX="9111" PosY="8236" BaseHP="1500000" HPIncreaseEachLevel="0" AIType="1" AIScriptID="100001" Auras="" Skills="24_10_2000" TriggerIndex="1" />
+			<Guardian ID="7404" Name="Ảnh Tử Võ Sĩ"  Title="" PosX="8780" PosY="8648" BaseHP="1500000" HPIncreaseEachLevel="0" AIType="1" AIScriptID="100001" Auras="" Skills="24_10_2000" TriggerIndex="1" />
+			<Teleport Name="Trở lại" PosX="8851" PosY="8000" ToMapID="-1" ToPosX="7859" ToPosY="7445" SpawnImmediate="true" />
+			<Teleport Name="Phòng Vực Thẳm" PosX="8257" PosY="7667" ToMapID="-1" ToPosX="9131" ToPosY="8198" SpawnImmediate="true" />
+		</Step>	
+		<Step ID="8" StepName="Phòng Siêu Tốc" AllowCallBoss="false" NextStep="" NeedStep="44_54_58_64">
+			<!-- //Click vào bia đá để gọi ra quái vật,đặc tính là gây choáng tổng cộng 30 con và 1 bia đá -->
+			<Trigger ID="618" Name="Bia đá cơ quan" CollectTick="10000" PosX="15684" PosY="5037" Index="1" />
+			<Guardian ID="7403" Name="Phi Tốc Cơ Quan Thú" Title="" PosX="14777" PosY="5099" BaseHP="1500000" HPIncreaseEachLevel="0"  AIType="1"  AIScriptID="100001" Auras="78_1" Skills="90_10_2000" TriggerIndex="1" />
+			<Guardian ID="7403" Name="Phi Tốc Cơ Quan Thú" Title="" PosX="15130" PosY="5141" BaseHP="1500000" HPIncreaseEachLevel="0"  AIType="1"  AIScriptID="100001" Auras="78_1" Skills="90_10_2000" TriggerIndex="1" />
+			<Guardian ID="7403" Name="Phi Tốc Cơ Quan Thú" Title="" PosX="15298" PosY="5313" BaseHP="1500000" HPIncreaseEachLevel="0"  AIType="1"  AIScriptID="100001" Auras="78_1" Skills="90_10_2000" TriggerIndex="1" />
+			<Guardian ID="7403" Name="Phi Tốc Cơ Quan Thú" Title="" PosX="15523" PosY="5418" BaseHP="1500000" HPIncreaseEachLevel="0"  AIType="1"  AIScriptID="100001" Auras="78_1" Skills="90_10_2000" TriggerIndex="1" />
+			<Guardian ID="7403" Name="Phi Tốc Cơ Quan Thú" Title="" PosX="15855" PosY="5350" BaseHP="1500000" HPIncreaseEachLevel="0"  AIType="1"  AIScriptID="100001" Auras="78_1" Skills="90_10_2000" TriggerIndex="1" />
+			<Guardian ID="7403" Name="Phi Tốc Cơ Quan Thú" Title="" PosX="15697" PosY="5245" BaseHP="1500000" HPIncreaseEachLevel="0"  AIType="1"  AIScriptID="100001" Auras="78_1" Skills="90_10_2000" TriggerIndex="1" />
+			<Guardian ID="7403" Name="Phi Tốc Cơ Quan Thú" Title="" PosX="15491" PosY="5138" BaseHP="1500000" HPIncreaseEachLevel="0"  AIType="1"  AIScriptID="100001" Auras="78_1" Skills="90_10_2000" TriggerIndex="1" />
+			<Guardian ID="7403" Name="Phi Tốc Cơ Quan Thú" Title="" PosX="15208" PosY="5056" BaseHP="1500000" HPIncreaseEachLevel="0"  AIType="1"  AIScriptID="100001" Auras="78_1" Skills="90_10_2000" TriggerIndex="1" />
+			<Guardian ID="7403" Name="Phi Tốc Cơ Quan Thú" Title="" PosX="15036" PosY="4912" BaseHP="1500000" HPIncreaseEachLevel="0"  AIType="1"  AIScriptID="100001" Auras="78_1" Skills="90_10_2000" TriggerIndex="1" />
+			<Guardian ID="7403" Name="Phi Tốc Cơ Quan Thú" Title="" PosX="15220" PosY="4857" BaseHP="1500000" HPIncreaseEachLevel="0"  AIType="1"  AIScriptID="100001" Auras="78_1" Skills="90_10_2000" TriggerIndex="1" />
+			<Guardian ID="7403" Name="Phi Tốc Cơ Quan Thú" Title="" PosX="15433" PosY="4925" BaseHP="1500000" HPIncreaseEachLevel="0"  AIType="1"  AIScriptID="100001" Auras="78_1" Skills="90_10_2000" TriggerIndex="1" />
+			<Guardian ID="7403" Name="Phi Tốc Cơ Quan Thú" Title="" PosX="15610" PosY="5077" BaseHP="1500000" HPIncreaseEachLevel="0"  AIType="1"  AIScriptID="100001" Auras="78_1" Skills="90_10_2000" TriggerIndex="1" />
+			<Guardian ID="7403" Name="Phi Tốc Cơ Quan Thú" Title="" PosX="15787" PosY="5154" BaseHP="1500000" HPIncreaseEachLevel="0"  AIType="1"  AIScriptID="100001" Auras="78_1" Skills="90_10_2000" TriggerIndex="1" />
+			<Guardian ID="7403" Name="Phi Tốc Cơ Quan Thú" Title="" PosX="15950" PosY="5288" BaseHP="1500000" HPIncreaseEachLevel="0"  AIType="1"  AIScriptID="100001" Auras="78_1" Skills="90_10_2000" TriggerIndex="1" />
+			<Guardian ID="7403" Name="Phi Tốc Cơ Quan Thú" Title="" PosX="16073" PosY="5205" BaseHP="1500000" HPIncreaseEachLevel="0"  AIType="1"  AIScriptID="100001" Auras="78_1" Skills="90_10_2000" TriggerIndex="1" />
+			<Guardian ID="7403" Name="Phi Tốc Cơ Quan Thú" Title="" PosX="15921" PosY="5119" BaseHP="1500000" HPIncreaseEachLevel="0"  AIType="1"  AIScriptID="100001" Auras="78_1" Skills="90_10_2000" TriggerIndex="1" />
+			<Guardian ID="7403" Name="Phi Tốc Cơ Quan Thú" Title="" PosX="15704" PosY="4966" BaseHP="1500000" HPIncreaseEachLevel="0"  AIType="1"  AIScriptID="100001" Auras="78_1" Skills="90_10_2000" TriggerIndex="1" />
+			<Guardian ID="7403" Name="Phi Tốc Cơ Quan Thú" Title="" PosX="15545" PosY="4853" BaseHP="1500000" HPIncreaseEachLevel="0"  AIType="1"  AIScriptID="100001" Auras="78_1" Skills="90_10_2000" TriggerIndex="1" />
+			<Guardian ID="7403" Name="Phi Tốc Cơ Quan Thú" Title="" PosX="15477" PosY="4733" BaseHP="1500000" HPIncreaseEachLevel="0"  AIType="1"  AIScriptID="100001" Auras="78_1" Skills="90_10_2000" TriggerIndex="1" />
+			<Guardian ID="7403" Name="Phi Tốc Cơ Quan Thú" Title="" PosX="15385" PosY="4630" BaseHP="1500000" HPIncreaseEachLevel="0"  AIType="1"  AIScriptID="100001" Auras="78_1" Skills="90_10_2000" TriggerIndex="1" />
+			<Guardian ID="7403" Name="Phi Tốc Cơ Quan Thú" Title="" PosX="15557" PosY="4548" BaseHP="1500000" HPIncreaseEachLevel="0"  AIType="1"  AIScriptID="100001" Auras="78_1" Skills="90_10_2000" TriggerIndex="1" />
+			<Guardian ID="7403" Name="Phi Tốc Cơ Quan Thú" Title="" PosX="15705" PosY="4699" BaseHP="1500000" HPIncreaseEachLevel="0"  AIType="1"  AIScriptID="100001" Auras="78_1" Skills="90_10_2000" TriggerIndex="1" />
+			<Guardian ID="7403" Name="Phi Tốc Cơ Quan Thú" Title="" PosX="15941" PosY="4839" BaseHP="1500000" HPIncreaseEachLevel="0"  AIType="1"  AIScriptID="100001" Auras="78_1" Skills="90_10_2000" TriggerIndex="1" />
+			<Guardian ID="7403" Name="Phi Tốc Cơ Quan Thú" Title="" PosX="16122" PosY="4894" BaseHP="1500000" HPIncreaseEachLevel="0"  AIType="1"  AIScriptID="100001" Auras="78_1" Skills="90_10_2000" TriggerIndex="1" />
+			<Guardian ID="7403" Name="Phi Tốc Cơ Quan Thú" Title="" PosX="16308" PosY="5006" BaseHP="1500000" HPIncreaseEachLevel="0"  AIType="1"  AIScriptID="100001" Auras="78_1" Skills="90_10_2000" TriggerIndex="1" />
+			<Guardian ID="7403" Name="Phi Tốc Cơ Quan Thú" Title="" PosX="16546" PosY="5018" BaseHP="1500000" HPIncreaseEachLevel="0"  AIType="1"  AIScriptID="100001" Auras="78_1" Skills="90_10_2000" TriggerIndex="1" />
+			<Guardian ID="7403" Name="Phi Tốc Cơ Quan Thú" Title="" PosX="16447" PosY="4876" BaseHP="1500000" HPIncreaseEachLevel="0"  AIType="1"  AIScriptID="100001" Auras="78_1" Skills="90_10_2000" TriggerIndex="1" />
+			<Guardian ID="7403" Name="Phi Tốc Cơ Quan Thú" Title="" PosX="16260" PosY="4770" BaseHP="1500000" HPIncreaseEachLevel="0"  AIType="1"  AIScriptID="100001" Auras="78_1" Skills="90_10_2000" TriggerIndex="1" />
+			<Guardian ID="7403" Name="Phi Tốc Cơ Quan Thú" Title="" PosX="16029" PosY="4669" BaseHP="1500000" HPIncreaseEachLevel="0"  AIType="1"  AIScriptID="100001" Auras="78_1" Skills="90_10_2000" TriggerIndex="1" />
+			<Guardian ID="7403" Name="Phi Tốc Cơ Quan Thú" Title="" PosX="15891" PosY="4567" BaseHP="1500000" HPIncreaseEachLevel="0"  AIType="1"  AIScriptID="100001" Auras="78_1" Skills="90_10_2000" TriggerIndex="1" />
+			<Teleport Name="Trở lại" PosX="15100" PosY="4669" ToMapID="-1" ToPosX="13851" ToPosY="4063" SpawnImmediate="true" />
+			<Teleport Name="Phòng Siêu Tốc" PosX="14396" PosY="4313" ToMapID="-1" ToPosX="15349" ToPosY="4835" SpawnImmediate="true" />
+		</Step>
+		<Step ID="9" StepName="Phòng Phục Chế" AllowCallBoss="false" NextStep="" NeedStep="44_58_64">
+			<!-- //Click vào bia đá để gọi ra quái vật,đặc tính là gây choáng tổng cộng 30 con và 1 bia đá -->
+			<!-- //Click vào bia đá để gọi ra quái vật,đặc tính là gây choáng tổng cộng 30 con và 1 bia đá -->
+			<Trigger ID="618" Name="Bia đá cơ quan" CollectTick="10000" PosX="10323" PosY="5761" Index="1" />
+			<Guardian ID="7404" Name="Ảnh Tử Võ Sĩ" Title="" PosX="9459" PosY="5798" BaseHP="1500000" HPIncreaseEachLevel="0"  AIType="1"  AIScriptID="100001" Auras="" Skills="24_10_2000" TriggerIndex="1" />
+			<Guardian ID="7403" Name="Phi Tốc Cơ Quan Thú" Title="" PosX="9665" PosY="5893" BaseHP="1500000" HPIncreaseEachLevel="0"  AIType="1"  AIScriptID="100001" Auras="78_1" Skills="90_10_2000" TriggerIndex="1" />
+			<Guardian ID="7404" Name="Ảnh Tử Võ Sĩ" Title="" PosX="9856" PosY="5999" BaseHP="1500000" HPIncreaseEachLevel="0"  AIType="1"  AIScriptID="100001" Auras="" Skills="24_10_2000" TriggerIndex="1" />
+			<Guardian ID="7403" Name="Phi Tốc Cơ Quan Thú" Title="" PosX="10064" PosY="6081" BaseHP="1500000" HPIncreaseEachLevel="0"  AIType="1"  AIScriptID="100001" Auras="78_1" Skills="90_10_2000" TriggerIndex="1" />
+			<Guardian ID="7404" Name="Ảnh Tử Võ Sĩ" Title="" PosX="10311" PosY="6163" BaseHP="1500000" HPIncreaseEachLevel="0"  AIType="1"  AIScriptID="100001" Auras="" Skills="24_10_2000" TriggerIndex="1" />
+			<Guardian ID="7403" Name="Phi Tốc Cơ Quan Thú" Title="" PosX="10471" PosY="6102" BaseHP="1500000" HPIncreaseEachLevel="0"  AIType="1"  AIScriptID="100001" Auras="78_1" Skills="90_10_2000" TriggerIndex="1" />
+			<Guardian ID="7404" Name="Ảnh Tử Võ Sĩ" Title="" PosX="10288" PosY="5991" BaseHP="1500000" HPIncreaseEachLevel="0"  AIType="1"  AIScriptID="100001" Auras="" Skills="24_10_2000" TriggerIndex="1" />
+			<Guardian ID="7403" Name="Phi Tốc Cơ Quan Thú" Title="" PosX="10043" PosY="5874" BaseHP="1500000" HPIncreaseEachLevel="0"  AIType="1"  AIScriptID="100001" Auras="78_1" Skills="90_10_2000" TriggerIndex="1" />
+			<Guardian ID="7404" Name="Ảnh Tử Võ Sĩ" Title="" PosX="9884" PosY="5796" BaseHP="1500000" HPIncreaseEachLevel="0"  AIType="1"  AIScriptID="100001" Auras="" Skills="24_10_2000" TriggerIndex="1" />
+			<Guardian ID="7403" Name="Phi Tốc Cơ Quan Thú" Title="" PosX="9705" PosY="5652" BaseHP="1500000" HPIncreaseEachLevel="0"  AIType="1"  AIScriptID="100001" Auras="78_1" Skills="90_10_2000" TriggerIndex="1" />
+			<Guardian ID="7404" Name="Ảnh Tử Võ Sĩ" Title="" PosX="9944" PosY="5630" BaseHP="1500000" HPIncreaseEachLevel="0"  AIType="1"  AIScriptID="100001" Auras="" Skills="24_10_2000" TriggerIndex="1" />
+			<Guardian ID="7403" Name="Phi Tốc Cơ Quan Thú" Title="" PosX="10179" PosY="5707" BaseHP="1500000" HPIncreaseEachLevel="0"  AIType="1"  AIScriptID="100001" Auras="78_1" Skills="90_10_2000" TriggerIndex="1" />
+			<Guardian ID="7403" Name="Phi Tốc Cơ Quan Thú" Title="" PosX="10394" PosY="5836" BaseHP="1500000" HPIncreaseEachLevel="0"  AIType="1"  AIScriptID="100001" Auras="78_1" Skills="90_10_2000" TriggerIndex="1" />
+			<Guardian ID="7404" Name="Ảnh Tử Võ Sĩ" Title="" PosX="10528" PosY="5948" BaseHP="1500000" HPIncreaseEachLevel="0"  AIType="1"  AIScriptID="100001" Auras="" Skills="24_10_2000" TriggerIndex="1" />
+			<Guardian ID="7404" Name="Ảnh Tử Võ Sĩ" Title="" PosX="10743" PosY="5935" BaseHP="1500000" HPIncreaseEachLevel="0"  AIType="1"  AIScriptID="100001" Auras="" Skills="24_10_2000" TriggerIndex="1" />
+			<Guardian ID="7403" Name="Phi Tốc Cơ Quan Thú" Title="" PosX="10801" PosY="5793" BaseHP="1500000" HPIncreaseEachLevel="0"  AIType="1"  AIScriptID="100001" Auras="78_1" Skills="90_10_2000" TriggerIndex="1" />
+			<Guardian ID="7404" Name="Ảnh Tử Võ Sĩ" Title="" PosX="10615" PosY="5708" BaseHP="1500000" HPIncreaseEachLevel="0"  AIType="1"  AIScriptID="100001" Auras="" Skills="24_10_2000" TriggerIndex="1" />
+			<Guardian ID="7403" Name="Phi Tốc Cơ Quan Thú" Title="" PosX="10448" PosY="5577" BaseHP="1500000" HPIncreaseEachLevel="0"  AIType="1"  AIScriptID="100001" Auras="78_1" Skills="90_10_2000" TriggerIndex="1" />
+			<Guardian ID="7404" Name="Ảnh Tử Võ Sĩ" Title="" PosX="10268" PosY="5438" BaseHP="1500000" HPIncreaseEachLevel="0"  AIType="1"  AIScriptID="100001" Auras="" Skills="24_10_2000" TriggerIndex="1" />
+			<Guardian ID="7403" Name="Phi Tốc Cơ Quan Thú" Title="" PosX="10266" PosY="5327" BaseHP="1500000" HPIncreaseEachLevel="0"  AIType="1"  AIScriptID="100001" Auras="78_1" Skills="90_10_2000" TriggerIndex="1" />
+			<Guardian ID="7404" Name="Ảnh Tử Võ Sĩ" Title="" PosX="10432" PosY="5272" BaseHP="1500000" HPIncreaseEachLevel="0"  AIType="1"  AIScriptID="100001" Auras="" Skills="24_10_2000" TriggerIndex="1" />
+			<Guardian ID="7403" Name="Phi Tốc Cơ Quan Thú" Title="" PosX="10582" PosY="5349" BaseHP="1500000" HPIncreaseEachLevel="0"  AIType="1"  AIScriptID="100001" Auras="78_1" Skills="90_10_2000" TriggerIndex="1" />
+			<Guardian ID="7404" Name="Ảnh Tử Võ Sĩ" Title="" PosX="10773" PosY="5479" BaseHP="1500000" HPIncreaseEachLevel="0"  AIType="1"  AIScriptID="100001" Auras="" Skills="24_10_2000" TriggerIndex="1" />
+			<Guardian ID="7403" Name="Phi Tốc Cơ Quan Thú" Title="" PosX="10734" PosY="5589" BaseHP="1500000" HPIncreaseEachLevel="0"  AIType="1"  AIScriptID="100001" Auras="78_1" Skills="90_10_2000" TriggerIndex="1" />
+			<Guardian ID="7404" Name="Ảnh Tử Võ Sĩ" Title="" PosX="10908" PosY="5694" BaseHP="1500000" HPIncreaseEachLevel="0"  AIType="1"  AIScriptID="100001" Auras="" Skills="24_10_2000" TriggerIndex="1" />
+			<Guardian ID="7403" Name="Phi Tốc Cơ Quan Thú" Title="" PosX="10262" PosY="5622" BaseHP="1500000" HPIncreaseEachLevel="0"  AIType="1"  AIScriptID="100001" Auras="78_1" Skills="90_10_2000" TriggerIndex="1" />
+			<Guardian ID="7404" Name="Ảnh Tử Võ Sĩ" Title="" PosX="11113" PosY="5789" BaseHP="1500000" HPIncreaseEachLevel="0"  AIType="1"  AIScriptID="100001" Auras="" Skills="24_10_2000" TriggerIndex="1" />
+			<Guardian ID="7403" Name="Phi Tốc Cơ Quan Thú" Title="" PosX="11278" PosY="5739" BaseHP="1500000" HPIncreaseEachLevel="0"  AIType="1"  AIScriptID="100001" Auras="78_1" Skills="90_10_2000" TriggerIndex="1" />
+			<Guardian ID="7404" Name="Ảnh Tử Võ Sĩ" Title="" PosX="11193" PosY="5623" BaseHP="1500000" HPIncreaseEachLevel="0"  AIType="1"  AIScriptID="100001" Auras="" Skills="24_10_2000" TriggerIndex="1" />
+			<Guardian ID="7403" Name="Phi Tốc Cơ Quan Thú" Title="" PosX="11023" PosY="5496" BaseHP="1500000" HPIncreaseEachLevel="0"  AIType="1"  AIScriptID="100001" Auras="78_1" Skills="90_10_2000" TriggerIndex="1" />
+			<Teleport Name="Phòng Cơ Quan" PosX="9796" PosY="5372" ToMapID="-1" ToPosX="8196" ToPosY="4484" SpawnImmediate="true" />
+			<Teleport Name="Phòng Phục Chế" PosX="8538" PosY="4653" ToMapID="-1" ToPosX="10098" ToPosY="5581" SpawnImmediate="true" />
+
+		</Step>
+		<Step ID="10" StepName="Phòng Nghỉ Ngơi" AllowCallBoss="false" NextStep="11" NeedStep="7_8_9">
+			<!-- //THêm đống lửa ở giữa phòng -->
+			<Teleport Name="Phòng Vực Thẳm" PosX="11098" PosY="7256" ToMapID="-1" ToPosX="9603" ToPosY="8176" SpawnImmediate="true" />
+			<Teleport Name="Phòng Phục Chế" PosX="11621" PosY="6425" ToMapID="-1" ToPosX="10597" ToPosY="5855" SpawnImmediate="false" />
+			<Teleport Name="Phòng Siêu Tốc" PosX="13463" PosY="6164" ToMapID="-1" ToPosX="15273" ToPosY="5217" SpawnImmediate="true" />
+			<Teleport Name="Phòng Bùa Chú" PosX="12743" PosY="7002" ToMapID="-1" ToPosX="13700" ToPosY="7641" SpawnImmediate="false" />
+			<Teleport Name="Phòng Nghỉ Ngơi" PosX="9923" PosY="7904" ToMapID="-1" ToPosX="11361" ToPosY="7125" SpawnImmediate="true" />
+			<Teleport Name="Phòng Nghỉ Ngơi" PosX="10889" PosY="5985" ToMapID="-1" ToPosX="11969" ToPosY="6592" SpawnImmediate="true" />
+			<Teleport Name="Phòng Nghỉ Ngơi" PosX="15005" PosY="5295" ToMapID="-1" ToPosX="13227" ToPosY="6294" SpawnImmediate="true" />
+
+		</Step>
+		<Step ID="11" StepName="Phòng Bùa Chú" AllowCallBoss="false" NextStep="12" NeedStep="">
+			<Boss ID="7405" Name="Minh Phủ Oan Hồn" Title="" PosX="14218" PosY="7853" BaseHP="50000000" HPIncreaseEachLevel="0" AIType="3" AIScriptID="100001" Auras="25_30" Skills="199_12_10000;208_7_5000;93_15_3000;134_10_15000;1999_1_30000;198_30_25000;1861_7_10000;2003_6_16000;41_4_15000;190_6_10000;192_6_10000" />
+			<Trigger ID="618" Name="Bia đá cơ quan" CollectTick="10000" PosX="11986" PosY="9362" Index="1" />
+			<Trigger ID="618" Name="Bia đá cơ quan" CollectTick="10000" PosX="11800" PosY="9280" Index="2" />
+			<Trigger ID="618" Name="Bia đá cơ quan" CollectTick="10000" PosX="11543" PosY="9143" Index="3" />
+			<Trigger ID="618" Name="Bia đá cơ quan" CollectTick="10000" PosX="11428" PosY="8930" Index="4" />
+			<Trigger ID="618" Name="Bia đá cơ quan" CollectTick="10000" PosX="11714" PosY="9020" Index="5" />
+			<Trigger ID="618" Name="Bia đá cơ quan" CollectTick="10000" PosX="11919" PosY="9132" Index="6" />
+			<Trigger ID="618" Name="Bia đá cơ quan" CollectTick="10000" PosX="12154" PosY="9250" Index="7" />
+			<Trigger ID="618" Name="Bia đá cơ quan" CollectTick="10000" PosX="12381" PosY="9154" Index="8" />
+			<Trigger ID="618" Name="Bia đá cơ quan" CollectTick="10000" PosX="12118" PosY="9031" Index="9" />
+			<Trigger ID="618" Name="Bia đá cơ quan" CollectTick="10000" PosX="11876" PosY="8898" Index="10" />
+			<Trigger ID="618" Name="Bia đá cơ quan" CollectTick="10000" PosX="11693" PosY="8746" Index="11" />
+			<Trigger ID="618" Name="Bia đá cơ quan" CollectTick="10000" PosX="11915" PosY="8644" Index="12" />
+			<Trigger ID="618" Name="Bia đá cơ quan" CollectTick="10000" PosX="12140" PosY="8753" Index="13" />
+			<Trigger ID="618" Name="Bia đá cơ quan" CollectTick="10000" PosX="12391" PosY="8891" Index="14" />
+			<Trigger ID="618" Name="Bia đá cơ quan" CollectTick="10000" PosX="12620" PosY="8993" Index="15" />
+			<Trigger ID="618" Name="Bia đá cơ quan" CollectTick="10000" PosX="12928" PosY="8959" Index="16" />
+			<Trigger ID="618" Name="Bia đá cơ quan" CollectTick="10000" PosX="12769" PosY="8839" Index="17" />
+			<Trigger ID="618" Name="Bia đá cơ quan" CollectTick="10000" PosX="12535" PosY="8736" Index="18" />
+			<Trigger ID="618" Name="Bia đá cơ quan" CollectTick="10000" PosX="12341" PosY="8659" Index="19" />
+			<Trigger ID="618" Name="Bia đá cơ quan" CollectTick="10000" PosX="12174" PosY="8546" Index="20" />
+			<Trigger ID="618" Name="Bia đá cơ quan" CollectTick="10000" PosX="15388" PosY="6690" Index="21" />
+			<Trigger ID="618" Name="Bia đá cơ quan" CollectTick="10000" PosX="15613" PosY="6791" Index="22" />
+			<Trigger ID="618" Name="Bia đá cơ quan" CollectTick="10000" PosX="15901" PosY="6935" Index="23" />
+			<Trigger ID="618" Name="Bia đá cơ quan" CollectTick="10000" PosX="16164" PosY="7054" Index="24" />
+			<Trigger ID="618" Name="Bia đá cơ quan" CollectTick="10000" PosX="16392" PosY="6955" Index="25" />
+			<Trigger ID="618" Name="Bia đá cơ quan" CollectTick="10000" PosX="16212" PosY="6842" Index="26" />
+			<Trigger ID="618" Name="Bia đá cơ quan" CollectTick="10000" PosX="15943" PosY="6725" Index="27" />
+			<Trigger ID="618" Name="Bia đá cơ quan" CollectTick="10000" PosX="15671" PosY="6564" Index="28" />
+			<Trigger ID="618" Name="Bia đá cơ quan" CollectTick="10000" PosX="15888" PosY="6455" Index="29" />
+			<Trigger ID="618" Name="Bia đá cơ quan" CollectTick="10000" PosX="16113" PosY="6559" Index="30" />
+			<Trigger ID="618" Name="Bia đá cơ quan" CollectTick="10000" PosX="16357" PosY="6689" Index="31" />
+			<Trigger ID="618" Name="Bia đá cơ quan" CollectTick="10000" PosX="16625" PosY="6815" Index="32" />
+			<Trigger ID="618" Name="Bia đá cơ quan" CollectTick="10000" PosX="16869" PosY="6729" Index="33" />
+			<Trigger ID="618" Name="Bia đá cơ quan" CollectTick="10000" PosX="16667" PosY="6637" Index="34" />
+			<Trigger ID="618" Name="Bia đá cơ quan" CollectTick="10000" PosX="16389" PosY="6460" Index="35" />
+			<Trigger ID="618" Name="Bia đá cơ quan" CollectTick="10000" PosX="16145" PosY="6330" Index="36" />
+			<Trigger ID="618" Name="Bia đá cơ quan" CollectTick="10000" PosX="16381" PosY="6298" Index="37" />
+			<Trigger ID="618" Name="Bia đá cơ quan" CollectTick="10000" PosX="16622" PosY="6441" Index="38" />
+			<Trigger ID="618" Name="Bia đá cơ quan" CollectTick="10000" PosX="16879" PosY="6570" Index="39" />
+			<Trigger ID="618" Name="Bia đá cơ quan" CollectTick="10000" PosX="16981" PosY="6691" Index="40" />
+
+			<!-- // cột để bỏ aura  Boss -->
+			<Teleport Name="Phòng Nghỉ Ngơi" PosX="13479" PosY="7492" ToMapID="-1" ToPosX="12455" ToPosY="6846" SpawnImmediate="true" />
+			<Teleport Name="Phòng Bảo Rương" PosX="14735" PosY="8097" ToMapID="-1" ToPosX="15942" ToPosY="8846" SpawnImmediate="true" />
+			<Teleport Name="Phòng Bùa Chú" PosX="15679" PosY="8636" ToMapID="-1" ToPosX="14528" ToPosY="8010" SpawnImmediate="true" />
+			<Teleport Name="Rời Khỏi" PosX="18102" PosY="9961" ToMapID="23" ToPosX="4200" ToPosY="3600" SpawnImmediate="true" />
+		</Step>
+		
+		
+	</GameRule>
+</FamilyFuBen>

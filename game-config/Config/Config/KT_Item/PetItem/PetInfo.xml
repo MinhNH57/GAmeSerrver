@@ -1,0 +1,248 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Pet xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" CanRevice="false">
+  <PetInfo ID="25000" IDMonster="2203" Type="1" BaseRate="100" CardRate="50_50_75_100_100" CNRate="0" />
+  <PetInfo ID="25001" IDMonster="2204" Type="1" BaseRate="100" CardRate="50_50_75_100_100" CNRate="0" />
+  <PetInfo ID="25002" IDMonster="2212" Type="1" BaseRate="100" CardRate="50_50_75_100_100" CNRate="0" />
+  <PetInfo ID="25003" IDMonster="2039" Type="1" BaseRate="100" CardRate="50_50_75_100_100" CNRate="0" />
+  <PetInfo ID="25004" IDMonster="2214" Type="1" BaseRate="100" CardRate="50_50_75_100_100" CNRate="0" />
+  <PetInfo ID="25005" IDMonster="2042" Type="1" BaseRate="100" CardRate="50_50_75_100_100" CNRate="0" />
+  <PetInfo ID="25006" IDMonster="2218" Type="1" BaseRate="100" CardRate="50_50_75_100_100" CNRate="0" />
+  <PetInfo ID="25007" IDMonster="2217" Type="1" BaseRate="100" CardRate="50_50_75_100_100" CNRate="0" />
+  <PetInfo ID="25008" IDMonster="1074" Type="1" BaseRate="100" CardRate="50_50_75_100_100" CNRate="0" />
+  <PetInfo ID="25009" IDMonster="2219" Type="1" BaseRate="100" CardRate="50_50_75_100_100" CNRate="0" />
+  <PetInfo ID="25010" IDMonster="2047" Type="1" BaseRate="100" CardRate="50_50_75_100_100" CNRate="0" />
+  <PetInfo ID="25011" IDMonster="2215" Type="1" BaseRate="100" CardRate="50_50_75_100_100" CNRate="0" />
+  <PetInfo ID="25012" IDMonster="2216" Type="1" BaseRate="100" CardRate="50_50_75_100_100" CNRate="0" />
+  <PetInfo ID="25013" IDMonster="2043" Type="1" BaseRate="100" CardRate="50_50_75_100_100" CNRate="0" />
+  <PetInfo ID="25014" IDMonster="2054" Type="1" BaseRate="100" CardRate="50_50_75_100_100" CNRate="0" />
+  <PetInfo ID="25015" IDMonster="2055" Type="1" BaseRate="100" CardRate="50_50_75_100_100" CNRate="0" />
+  <PetInfo ID="25016" IDMonster="2221" Type="1" BaseRate="100" CardRate="50_50_75_100_100" CNRate="0" />
+  <PetInfo ID="25017" IDMonster="2222" Type="1" BaseRate="100" CardRate="50_50_75_100_100" CNRate="0" />
+  <PetInfo ID="25018" IDMonster="2049" Type="1" BaseRate="100" CardRate="50_50_75_100_100" CNRate="0" />
+  <PetInfo ID="25019" IDMonster="2052" Type="1" BaseRate="100" CardRate="50_50_75_100_100" CNRate="0" />
+  <PetInfo ID="25020" IDMonster="2053" Type="1" BaseRate="100" CardRate="50_50_75_100_100" CNRate="0" />
+  <PetInfo ID="25021" IDMonster="2229" Type="1" BaseRate="100" CardRate="50_50_75_100_100" CNRate="0" />
+  <PetInfo ID="25022" IDMonster="2228" Type="1" BaseRate="100" CardRate="50_50_75_100_100" CNRate="0" />
+  <PetInfo ID="25023" IDMonster="2230" Type="1" BaseRate="100" CardRate="50_50_75_100_100" CNRate="0" />
+  <PetInfo ID="25024" IDMonster="2231" Type="1" BaseRate="100" CardRate="50_50_75_100_100" CNRate="0" />
+  <PetInfo ID="25025" IDMonster="2062" Type="1" BaseRate="100" CardRate="50_50_75_100_100" CNRate="0" />
+  <PetInfo ID="25026" IDMonster="2234" Type="1" BaseRate="100" CardRate="50_50_75_100_100" CNRate="0" />
+  <PetInfo ID="25027" IDMonster="2066" Type="1" BaseRate="100" CardRate="50_50_75_100_100" CNRate="0" />
+  <PetInfo ID="25028" IDMonster="2068" Type="1" BaseRate="100" CardRate="50_50_75_100_100" CNRate="0" />
+  <PetInfo ID="25029" IDMonster="2237" Type="1" BaseRate="100" CardRate="50_50_75_100_100" CNRate="0" />
+  <PetInfo ID="25030" IDMonster="2069" Type="1" BaseRate="100" CardRate="50_50_75_100_100" CNRate="0" />
+  <PetInfo ID="25031" IDMonster="2232" Type="1" BaseRate="100" CardRate="50_50_75_100_100" CNRate="0" />
+  <PetInfo ID="25032" IDMonster="2065" Type="1" BaseRate="100" CardRate="50_50_75_100_100" CNRate="0" />
+  <PetInfo ID="25033" IDMonster="2233" Type="1" BaseRate="100" CardRate="50_50_75_100_100" CNRate="0" />
+  <PetInfo ID="25034" IDMonster="2071" Type="1" BaseRate="100" CardRate="50_50_75_100_100" CNRate="0" />
+  <PetInfo ID="25035" IDMonster="2070" Type="1" BaseRate="100" CardRate="50_50_75_100_100" CNRate="0" />
+  <PetInfo ID="25036" IDMonster="2072" Type="1" BaseRate="100" CardRate="50_50_75_100_100" CNRate="0" />
+  <PetInfo ID="25037" IDMonster="2243" Type="1" BaseRate="100" CardRate="50_50_75_100_100" CNRate="0" />
+  <PetInfo ID="25038" IDMonster="2242" Type="1" BaseRate="100" CardRate="50_50_75_100_100" CNRate="0" />
+  <PetInfo ID="25039" IDMonster="2104" Type="1" BaseRate="100" CardRate="50_50_75_100_100" CNRate="0" />
+  <PetInfo ID="25040" IDMonster="2084" Type="1" BaseRate="100" CardRate="50_50_75_100_100" CNRate="0" />
+  <PetInfo ID="25041" IDMonster="2245" Type="1" BaseRate="100" CardRate="50_50_75_100_100" CNRate="0" />
+  <PetInfo ID="25042" IDMonster="2244" Type="1" BaseRate="100" CardRate="50_50_75_100_100" CNRate="0" />
+  <PetInfo ID="25043" IDMonster="2249" Type="1" BaseRate="100" CardRate="50_50_75_100_100" CNRate="0" />
+  <PetInfo ID="25044" IDMonster="2088" Type="1" BaseRate="100" CardRate="50_50_75_100_100" CNRate="0" />
+  <PetInfo ID="25045" IDMonster="2087" Type="1" BaseRate="100" CardRate="50_50_75_100_100" CNRate="0" />
+  <PetInfo ID="25046" IDMonster="2250" Type="1" BaseRate="100" CardRate="50_50_75_100_100" CNRate="0" />
+  <PetInfo ID="25047" IDMonster="2251" Type="1" BaseRate="100" CardRate="50_50_75_100_100" CNRate="0" />
+  <PetInfo ID="25048" IDMonster="2089" Type="1" BaseRate="100" CardRate="50_50_75_100_100" CNRate="0" />
+  <PetInfo ID="25049" IDMonster="2090" Type="1" BaseRate="100" CardRate="50_50_75_100_100" CNRate="0" />
+  <PetInfo ID="25050" IDMonster="2085" Type="1" BaseRate="100" CardRate="50_50_75_100_100" CNRate="0" />
+  <PetInfo ID="25051" IDMonster="2247" Type="1" BaseRate="100" CardRate="50_50_75_100_100" CNRate="0" />
+  <PetInfo ID="25052" IDMonster="2086" Type="1" BaseRate="100" CardRate="50_50_75_100_100" CNRate="0" />
+  <PetInfo ID="25053" IDMonster="2239" Type="1" BaseRate="100" CardRate="50_50_75_100_100" CNRate="0" />
+  <PetInfo ID="25054" IDMonster="2238" Type="1" BaseRate="100" CardRate="50_50_75_100_100" CNRate="0" />
+  <PetInfo ID="25055" IDMonster="2076" Type="1" BaseRate="100" CardRate="50_50_75_100_100" CNRate="0" />
+  <PetInfo ID="25056" IDMonster="2252" Type="1" BaseRate="100" CardRate="50_50_75_100_100" CNRate="0" />
+  <PetInfo ID="25057" IDMonster="2092" Type="1" BaseRate="100" CardRate="50_50_75_100_100" CNRate="0" />
+  <PetInfo ID="25058" IDMonster="2094" Type="1" BaseRate="100" CardRate="50_50_75_100_100" CNRate="0" />
+  <PetInfo ID="25059" IDMonster="2095" Type="1" BaseRate="100" CardRate="50_50_75_100_100" CNRate="0" />
+  <PetInfo ID="25060" IDMonster="2119" Type="1" BaseRate="100" CardRate="50_50_75_100_100" CNRate="0" />
+  <PetInfo ID="25061" IDMonster="2118" Type="1" BaseRate="100" CardRate="50_50_75_100_100" CNRate="0" />
+  <PetInfo ID="25062" IDMonster="2117" Type="1" BaseRate="100" CardRate="50_50_75_100_100" CNRate="0" />
+  <PetInfo ID="25063" IDMonster="2134" Type="1" BaseRate="100" CardRate="50_50_75_100_100" CNRate="0" />
+  <PetInfo ID="25064" IDMonster="2133" Type="1" BaseRate="100" CardRate="50_50_75_100_100" CNRate="0" />
+  <PetInfo ID="25065" IDMonster="2132" Type="1" BaseRate="100" CardRate="50_50_75_100_100" CNRate="0" />
+  <PetInfo ID="25066" IDMonster="2123" Type="1" BaseRate="100" CardRate="50_50_75_100_100" CNRate="0" />
+  <PetInfo ID="25067" IDMonster="2125" Type="1" BaseRate="100" CardRate="50_50_75_100_100" CNRate="0" />
+  <PetInfo ID="25068" IDMonster="2124" Type="1" BaseRate="100" CardRate="50_50_75_100_100" CNRate="0" />
+  <PetInfo ID="25069" IDMonster="2120" Type="1" BaseRate="100" CardRate="50_50_75_100_100" CNRate="0" />
+  <PetInfo ID="25070" IDMonster="2121" Type="1" BaseRate="100" CardRate="50_50_75_100_100" CNRate="0" />
+  <PetInfo ID="25071" IDMonster="2126" Type="1" BaseRate="100" CardRate="50_50_75_100_100" CNRate="0" />
+  <PetInfo ID="25072" IDMonster="2127" Type="1" BaseRate="100" CardRate="50_50_75_100_100" CNRate="0" />
+  <PetInfo ID="25073" IDMonster="2128" Type="1" BaseRate="100" CardRate="50_50_75_100_100" CNRate="0" />
+  <PetInfo ID="25074" IDMonster="2129" Type="1" BaseRate="100" CardRate="50_50_75_100_100" CNRate="0" />
+  <PetInfo ID="25075" IDMonster="2130" Type="1" BaseRate="100" CardRate="50_50_75_100_100" CNRate="0" />
+  <PetInfo ID="25076" IDMonster="2131" Type="1" BaseRate="100" CardRate="50_50_75_100_100" CNRate="0" />
+  <PetInfo ID="25077" IDMonster="2137" Type="1" BaseRate="100" CardRate="50_50_75_100_100" CNRate="0" />
+  <PetInfo ID="25078" IDMonster="2135" Type="1" BaseRate="100" CardRate="50_50_75_100_100" CNRate="0" />
+  <PetInfo ID="25079" IDMonster="2136" Type="1" BaseRate="100" CardRate="50_50_75_100_100" CNRate="0" />
+  <PetInfo ID="25080" IDMonster="2209" Type="1" BaseRate="100" CardRate="50_50_75_100_100" CNRate="0" />
+  <PetInfo ID="25081" IDMonster="2210" Type="1" BaseRate="100" CardRate="50_50_75_100_100" CNRate="0" />
+  <PetInfo ID="25082" IDMonster="2171" Type="1" BaseRate="100" CardRate="50_50_75_100_100" CNRate="0" />
+  <PetInfo ID="25083" IDMonster="2101" Type="1" BaseRate="100" CardRate="50_50_75_100_100" CNRate="0" />
+  <PetInfo ID="25084" IDMonster="2226" Type="1" BaseRate="100" CardRate="50_50_75_100_100" CNRate="0" />
+  <PetInfo ID="25085" IDMonster="2227" Type="1" BaseRate="100" CardRate="50_50_75_100_100" CNRate="0" />
+  <PetInfo ID="25086" IDMonster="2102" Type="1" BaseRate="100" CardRate="50_50_75_100_100" CNRate="0" />
+  <PetInfo ID="25087" IDMonster="2079" Type="1" BaseRate="100" CardRate="50_50_75_100_100" CNRate="0" />
+  <PetInfo ID="25088" IDMonster="2241" Type="1" BaseRate="100" CardRate="50_50_75_100_100" CNRate="0" />
+  <PetInfo ID="25089" IDMonster="2161" Type="1" BaseRate="100" CardRate="50_50_75_100_100" CNRate="0" />
+  <PetInfo ID="25090" IDMonster="2032" Type="1" BaseRate="100" CardRate="50_50_75_100_100" CNRate="0" />
+  <PetInfo ID="25091" IDMonster="2081" Type="1" BaseRate="100" CardRate="50_50_75_100_100" CNRate="0" />
+  <PetInfo ID="25092" IDMonster="2207" Type="1" BaseRate="100" CardRate="50_50_75_100_100" CNRate="0" />
+  <PetInfo ID="25093" IDMonster="2036" Type="1" BaseRate="100" CardRate="50_50_75_100_100" CNRate="0" />
+  <PetInfo ID="25094" IDMonster="2208" Type="1" BaseRate="100" CardRate="50_50_75_100_100" CNRate="0" />
+  <PetInfo ID="25095" IDMonster="2225" Type="1" BaseRate="100" CardRate="50_50_75_100_100" CNRate="0" />
+  <PetInfo ID="25096" IDMonster="2224" Type="1" BaseRate="100" CardRate="50_50_75_100_100" CNRate="0" />
+  <PetInfo ID="25097" IDMonster="2077" Type="1" BaseRate="100" CardRate="50_50_75_100_100" CNRate="0" />
+  <PetInfo ID="25098" IDMonster="2078" Type="1" BaseRate="100" CardRate="50_50_75_100_100" CNRate="0" />
+  <PetInfo ID="25099" IDMonster="2235" Type="1" BaseRate="100" CardRate="50_50_75_100_100" CNRate="0" />
+  <PetInfo ID="25100" IDMonster="2220" Type="1" BaseRate="100" CardRate="50_50_75_100_100" CNRate="0" />
+  <PetInfo ID="25101" IDMonster="2075" Type="1" BaseRate="100" CardRate="50_50_75_100_100" CNRate="0" />
+  <PetInfo ID="25102" IDMonster="2051" Type="1" BaseRate="100" CardRate="50_50_75_100_100" CNRate="0" />
+  <PetInfo ID="25184" IDMonster="7406" Type="1" BaseRate="100" CardRate="50_50_75_100_100" CNRate="0" />
+  <!-- pet chân nguyên-->
+  <PetInfo ID="25255" IDMonster="2009" Type="1" BaseRate="100" CardRate="50_50_75_100_100" CNRate="30" />
+  <PetInfo ID="25256" IDMonster="2010" Type="1" BaseRate="100" CardRate="50_50_75_100_100" CNRate="30" />
+  <PetInfo ID="25257" IDMonster="2202" Type="1" BaseRate="100" CardRate="50_50_75_100_100" CNRate="30" />
+
+  <PetInfo ID="25259" IDMonster="6156" Type="1" BaseRate="100" CardRate="50_50_75_100_100" CNRate="30" />
+  <PetInfo ID="25260" IDMonster="2006" Type="1" BaseRate="100" CardRate="50_50_75_100_100" CNRate="30" />
+  <PetInfo ID="25261" IDMonster="3159" Type="1" BaseRate="100" CardRate="50_50_75_100_100" CNRate="30" />
+  <PetInfo ID="25262" IDMonster="3250" Type="1" BaseRate="100" CardRate="50_50_75_100_100" CNRate="30" />
+  <PetInfo ID="25263" IDMonster="3176" Type="1" BaseRate="100" CardRate="50_50_75_100_100" CNRate="30" />
+
+  <PetInfo ID="25267" IDMonster="2278" Type="1" BaseRate="100" CardRate="50_50_75_100_100" CNRate="30" />
+  <PetInfo ID="25268" IDMonster="3291" Type="1" BaseRate="100" CardRate="50_50_75_100_100" CNRate="30" />
+  <!---->
+  <!-- pet top tài phú-->
+  <PetInfo ID="25311" IDMonster="22650" Type="1" BaseRate="100" CardRate="50_50_75_100_100" CNRate="0" />
+  <!-- -->
+  <NumberSkill TypePet="1" CardLevel="1" SkillRate="699_290_10_1" IndexSkill="1_2_3_4" />
+  <NumberSkill TypePet="1" CardLevel="2" SkillRate="65_33_2" IndexSkill="2_3_4" />
+  <NumberSkill TypePet="1" CardLevel="3" SkillRate="90_9_1" IndexSkill="3_4_5" />
+  <NumberSkill TypePet="1" CardLevel="4" SkillRate="95_5" IndexSkill="5_6" />
+  <NumberSkill TypePet="2" CardLevel="1" SkillRate="10_40_40_10" IndexSkill="3_4_5_6" />
+  <NumberSkill TypePet="1" CardLevel="5" SkillRate="100" IndexSkill="2" />
+
+  <PetSkill ID="2008" Rate="280" />
+  <PetSkill ID="2009" Rate="300" />
+  <PetSkill ID="2010" Rate="270" />
+  <PetSkill ID="2011" Rate="100" />
+  <PetSkill ID="2012" Rate="10" />
+  <PetSkill ID="2013" Rate="10" />
+  <PetSkill ID="2014" Rate="1" />
+  <PetSkill ID="2015" Rate="1" />
+  <PetSkill ID="2016" Rate="8" />
+  <PetSkill ID="2017" Rate="10" />
+  <PetSkill ID="2018" Rate="10" />
+
+
+  <PetAttr Str="0" Dex="50" Vit="50" Eng="0" />
+  <PetAttr Str="0" Dex="0" Vit="50" Eng="50" />
+  <PetAttr Str="30" Dex="30" Vit="40" Eng="0" />
+  <PetAttr Str="30" Dex="20" Vit="50" Eng="0" />
+  <PetAttr Str="40" Dex="20" Vit="40" Eng="0" />
+  <PetAttr Str="40" Dex="30" Vit="30" Eng="0" />
+  <PetAttr Str="40" Dex="10" Vit="50" Eng="0" />
+  <PetAttr Str="40" Dex="10" Vit="10" Eng="40" />
+  <PetAttr Str="50" Dex="10" Vit="40" Eng="0" />
+
+  <LinhNgo_Value LevelPet="5" Value="100" />
+  <LinhNgo_Value LevelPet="10" Value="100" />
+  <LinhNgo_Value LevelPet="15" Value="100" />
+  <LinhNgo_Value LevelPet="20" Value="100" />
+  <LinhNgo_Value LevelPet="25" Value="100" />
+  <LinhNgo_Value LevelPet="30" Value="100" />
+  <LinhNgo_Value LevelPet="35" Value="100" />
+  <LinhNgo_Value LevelPet="40" Value="100" />
+  <LinhNgo_Value LevelPet="45" Value="100" />
+  <LinhNgo_Value LevelPet="50" Value="100" />
+  <LinhNgo_Value LevelPet="55" Value="100" />
+  <LinhNgo_Value LevelPet="60" Value="100" />
+  <LinhNgo_Value LevelPet="65" Value="100" />
+  <LinhNgo_Value LevelPet="70" Value="100" />
+  <LinhNgo_Value LevelPet="75" Value="100" />
+  <LinhNgo_Value LevelPet="80" Value="100" />
+  <LinhNgo_Value LevelPet="85" Value="100" />
+  <LinhNgo_Value LevelPet="90" Value="100" />
+  <LinhNgo_Value LevelPet="95" Value="100" />
+  <LinhNgo_Value LevelPet="100" Value="100" />
+  <LinhNgo_Value LevelPet="105" Value="100" />
+  <LinhNgo_Value LevelPet="110" Value="100" />
+  <LinhNgo_Value LevelPet="115" Value="100" />
+  <LinhNgo_Value LevelPet="120" Value="0" />
+
+  <!-- <Gift_Value ID="183" Value="100" /> -->
+  <!-- <Gift_Value ID="184" Value="1100" /> -->
+  <!-- <Gift_Value ID="185" Value="2100" /> -->
+  <!-- <Gift_Value ID="186" Value="3100" /> -->
+  <!-- <Gift_Value ID="187" Value="5100" /> -->
+  <!-- <Gift_Value ID="188" Value="1_1_1_0_0_0_0_0_0_0"/> -->
+  <!-- <Gift_Value ID="189" Value="4_4_4_1_1_1_1_1_1_1"/> -->
+  <!-- <Gift_Value ID="190" Value="13_13_13_4_4_4_4_4_4_4"/> -->
+  <!-- <Gift_Value ID="191" Value="52_52_52_13_13_13_13_13_13_13"/> -->
+  <!-- <Gift_Value ID="192" Value="70_70_70_52_52_52_52_52_52_52"/> -->
+  <!-- <Gift_Value ID="193" Value="75_75_75_70_70_70_70_70_70_70"/> -->
+  <!-- <Gift_Value ID="194" Value="80_80_80_75_75_75_75_75_75_75"/> -->
+
+  <Gift_Value ID="189" Value="1_1_1_0_0_0_0_0_0_0" />
+  <Gift_Value ID="190" Value="4_4_4_1_1_1_1_1_1_1" />
+  <Gift_Value ID="191" Value="13_13_13_4_4_4_4_4_4_4" />
+  <Gift_Value ID="192" Value="52_52_52_13_13_13_13_13_13_13" />
+  <Gift_Value ID="193" Value="70_70_70_52_52_52_52_52_52_52" />
+  <Gift_Value ID="194" Value="75_75_75_70_70_70_70_70_70_70" />
+  <!-- <Gift_Value ID="385" Value="100" /> -->
+  <!-- <Gift_Value ID="386" Value="1100" /> -->
+  <!-- <Gift_Value ID="387" Value="2100" /> -->
+  <!-- <Gift_Value ID="388" Value="3100" /> -->
+  <!-- <Gift_Value ID="389" Value="5100" /> -->
+  <!-- <Gift_Value ID="390" Value="1_1_1_0_0_0_0_0_0_0"/> -->
+  <!-- <Gift_Value ID="391" Value="4_4_4_1_1_1_1_1_1_1"/> -->
+  <!-- <Gift_Value ID="392" Value="13_13_13_4_4_4_4_4_4_4"/> -->
+  <!-- <Gift_Value ID="393" Value="52_52_52_13_13_13_13_13_13_13"/> -->
+  <!-- <Gift_Value ID="394" Value="70_70_70_52_52_52_52_52_52_52"/> -->
+  <!-- <Gift_Value ID="395" Value="75_75_75_70_70_70_70_70_70_70"/> -->
+  <!-- <Gift_Value ID="396" Value="80_80_80_75_75_75_75_75_75_75"/> -->
+  <Gift_Value ID="391" Value="1_1_1_0_0_0_0_0_0_0" />
+  <Gift_Value ID="392" Value="4_4_4_1_1_1_1_1_1_1" />
+  <Gift_Value ID="393" Value="13_13_13_4_4_4_4_4_4_4" />
+  <Gift_Value ID="394" Value="52_52_52_13_13_13_13_13_13_13" />
+  <Gift_Value ID="395" Value="70_70_70_52_52_52_52_52_52_52" />
+  <Gift_Value ID="396" Value="75_75_75_70_70_70_70_70_70_70" />
+
+  <TM_Value Level="1" Value="10_10_10_10_5_4_3_3_3_3" />
+  <TM_Value Level="2" Value="15_15_15_15_10_9_8_8_8_8" />
+  <TM_Value Level="3" Value="20_20_20_20_15_14_13_13_13_13" />
+  <TM_Value Level="4" Value="25_25_25_25_20_19_18_18_18_18" />
+
+  <TinhHoa ID="1102" DiemLinhNgo="1" Kind="1" />
+  <TinhHoa ID="1103" DiemLinhNgo="2" Kind="1" />
+  <TinhHoa ID="1104" DiemLinhNgo="5" Kind="1" />
+  <TinhHoa ID="1105" DiemLinhNgo="10" Kind="1" />
+  <TinhHoa ID="25185" DiemLinhNgo="1" Kind="2" />
+  <TinhHoa ID="25186" DiemLinhNgo="2" Kind="2" />
+  <TinhHoa ID="25187" DiemLinhNgo="5" Kind="2" />
+  <TinhHoa ID="25188" DiemLinhNgo="10" Kind="2" />
+
+  <Value_Skill ID="1" Level="0" ValueSkill="0" />
+  <Value_Skill ID="2" Level="0" ValueSkill="0" />
+  <Value_Skill ID="3" Level="0" ValueSkill="0" />
+  <Value_Skill ID="4" Level="2" ValueSkill="30" />
+  <Value_Skill ID="5" Level="18" ValueSkill="168" />
+  <Value_Skill ID="6" Level="90" ValueSkill="720" />
+
+  <PetPoint Star="1" Point="5"/>
+  <PetPoint Star="2" Point="6"/>
+  <PetPoint Star="3" Point="8"/>
+  <PetPoint Star="4" Point="12"/>
+  <PetPoint Star="5" Point="14"/>
+  <PetPoint Star="6" Point="16"/>
+  <PetPoint Star="7" Point="18"/>
+  <PetPoint Star="8" Point="24"/>
+  <PetPoint Star="9" Point="27"/>
+  <PetPoint Star="10" Point="30"/>
+</Pet>

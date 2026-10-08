@@ -1,0 +1,153 @@
+[
+    {
+        "IDBox": 100352,
+        "BoxName": "Rương Huyền Thiết",
+        "Items": [
+            { "ItemID": 1, "Number": 20000, "Rate": -1, "IsPreview": true, "Info": "20000 x Bạc khóa" },
+            { "ItemID": 488, "Number": 1, "Rate": -1, "IsPreview": true, "Info": "1 x Thùng rượu (50 bình)" }
+        ]
+    },
+    {
+        "IDBox": 100353,
+        "BoxName": "Rương Thanh Đồng",
+        "Items": [
+            { "ItemID": 1, "Number": 30000, "Rate": -1, "IsPreview": true, "Info": "30000 x Bạc khóa" },
+            { "ItemID": 20051, "Number": 3, "Rate": -1, "IsPreview": true, "Info": "3 x Rương Mảnh trang bị đồng hành" }
+        ]
+    },
+    {
+        "IDBox": 100354,
+        "BoxName": "Rương Bạch Ngân",
+        "Items": [
+            { "ItemID": 1, "Number": 50000, "Rate": -1, "IsPreview": true, "Info": "50000 x Bạc khóa" },
+            { "ItemID": 20816, "Number": 2, "Rate": -1, "IsPreview": true, "Info": "2 x Tiền Cổ Năng Động" }
+        ]
+    },
+    {
+        "IDBox": 100355,
+        "BoxName": "Rương Hoàng Kim",
+        "Items": [
+            { "ItemID": 187, "Number": 1, "Rate": -1, "IsPreview": true, "Info": "1 x Huyền Tinh Cấp 5" },
+            { "ItemID": 20816, "Number": 3, "Rate": -1, "IsPreview": true, "Info": "3 x Tiền Cổ Năng Động" }
+        ]
+    },
+    {
+        "IDBox": 100356,
+        "BoxName": "Rương Phỉ Thúy",
+        "Items": [
+            { "ItemID": 188, "Rate": -1, "IsPreview": true, "Info": "1 x Huyền Tinh có vết nứt (cấp 6)" },
+            { "ItemID": 20379, "Number": 3, "Rate": -1, "IsPreview": true, "Info": "3 x Rương mảnh trang bị đồng hành (trung cấp)" },
+            { "ItemID": 943, "Number": 2, "Rate": -1, "IsPreview": true, "Info": "2 x Bạc khóa liên server (10 vạn)" },
+            { "ItemID": 20816, "Number": 5, "Rate": -1, "IsPreview": true, "Info": "5 x Tiền Cổ Năng Động" },
+            { "ItemID": 1966, "Number": 1, "Rate": -1, "IsPreview": true, "Info": "1 x Kem sữa" }
+        ]
+    },
+    {
+        "IDBox": 100357,
+        "BoxName": "Rương hoạt động tháng [1]",
+        "Items": [
+            { "ItemID": 190, "Number": 1, "Rate": -1, "IsPreview": true, "Info": "1 x Huyền Tinh có tì vết (cấp 8)" },
+            { "ItemID": 354, "Number": 1, "Rate": -1, "IsPreview": true, "Info": "1 x Càn Khôn phù (100)" },
+            { "ItemID": 20816, "Number": 50, "Rate": -1, "IsPreview": true, "Info": "50 x Tiền Cổ Năng Động" }
+        ]
+    },
+    {
+        "IDBox": 100358,
+        "BoxName": "Rương hoạt động tháng [2]",
+        "Items": [
+            { "ItemID": 590, "Number": 2, "Rate": -1, "IsPreview": true, "Info": "2 x Bản đồ bí cảnh" },
+            { "ItemID": 600, "Number": 5, "Rate": -1, "IsPreview": true, "Info": "5 x Tu Luyện Đơn" },
+            { "ItemID": 20816, "Number": 50, "Rate": -1, "IsPreview": true, "Info": "50 x Tiền Cổ Năng Động" }
+        ]
+    },
+    {
+        "IDBox": 100359,
+        "BoxName": "Rương hoạt động tháng [3]",
+        "Items": [
+            { "ItemID": 191, "Number": 1, "Rate": -1, "IsPreview": true, "Info": "1 x Huyền Tinh vô hạ (cấp 9)" },
+            { "ItemID": 20529, "Number": 20, "Rate": -1, "IsPreview": true, "Info": "20 x Rương mảnh trang bị đồng hành (cao cấp)" },
+            { "ItemID": 1026, "Number": 10, "Rate": -1, "IsPreview": true, "Info": "10 x Chiến Thư-Mật Thất Du Long" },
+            { "ItemID": 20816, "Number": 100, "Rate": -1, "IsPreview": true, "Info": "100 x Tiền Cổ Năng Động" }
+        ]
+    },
+    {
+        "IDBox": 100360,
+        "BoxName": "Rương hoạt động tháng [4]",
+        "Items": [
+            { "ItemID": 191, "Number": 1, "Rate": -1, "IsPreview": true, "Info": "1 x Huyền Tinh vô hạ (cấp 9)" },
+            { "ItemID": 1074, "Number": 50, "Rate": -1, "IsPreview": true, "Info": "50 x Tiền Du Long" },
+            { "ItemID": 11, "Number": 2500, "Rate": -1, "IsPreview": true, "Info": "2500 x Tinh hoạt lực" },
+            { "ItemID": 20816, "Number": 100, "Rate": -1, "IsPreview": true, "Info": "100 x Tiền Cổ Năng Động" }
+        ]
+    },
+    {
+        "IDBox": 100361,
+        "BoxName": "Rương hoạt động tháng [5]",
+        "Items": [
+            { "ItemID": 1074, "Number": 50, "Rate": -1, "IsPreview": true, "Info": "50 x Tiền Du Long" },
+            { "ItemID": 191, "Number": 2, "Rate": -1, "IsPreview": true, "Info": "2 x Huyền Tinh vô hạ (cấp 9)" },
+            { "ItemID": 20529, "Number": 50, "Rate": -1, "IsPreview": true, "Info": "50 x Rương mảnh trang bị đồng hành (cao cấp)" },
+            { "ItemID": 20816, "Number": 300, "Rate": -1, "IsPreview": true, "Info": "300 x Tiền Cổ Năng Động" }
+        ]
+    },
+    {
+        "IDBox": 100400,
+        "BoxName": "Rương Phỉ Thúy [VIP]",
+        "Items": [
+            { "ItemID": 20529, "Number": 3, "Rate": -1, "IsPreview": true, "Info": "3 x Rương mảnh trang bị đồng hành (cao cấp)" },
+            { "ItemID": 11, "Number": 150, "Rate": -1, "IsPreview": true, "Info": "150 x Tinh hoạt lực" },
+            { "ItemID": 506, "Number": 30, "Rate": -1, "IsPreview": true, "Info": "30 x Ngũ Hành Hồn Thạch" },
+            { "ItemID": 20816, "Number": 30, "Rate": -1, "IsPreview": true, "Info": "30 x Tiền Cổ Năng Động" },
+            { "ItemID": 943, "Number": 2, "Rate": -1, "IsPreview": true, "Info": "2 x Bạc khóa liên server (10 vạn)" },
+            { "ItemID": 1966, "Number": 4, "Rate": -1, "IsPreview": true, "Info": "4 x Kem sữa" }
+        ]
+    },
+    {
+        "IDBox": 100401,
+        "BoxName": "Rương hoạt động tháng [1] [VIP]",
+        "Items": [
+            { "ItemID": 190, "Number": 2, "Rate": -1, "IsPreview": true, "Info": "2 x Huyền Tinh có tì vết (cấp 8)" },
+            { "ItemID": 20482, "Number": 1, "Rate": -1, "IsPreview": true, "Info": "1 x Rương trang bị đồng hành Bích Huyết (sơ cấp)" },
+            { "ItemID": 20816, "Number": 100, "Rate": -1, "IsPreview": true, "Info": "100 x Tiền Cổ Năng Động" }
+        ]
+    },
+    {
+        "IDBox": 100402,
+        "BoxName": "Rương hoạt động tháng [2] [VIP]",
+        "Items": [
+            { "ItemID": 590, "Number": 5, "Rate": -1, "IsPreview": true, "Info": "5 x Bản đồ bí cảnh" },
+            { "ItemID": 600, "Number": 10, "Rate": -1, "IsPreview": true, "Info": "10 x Tu Luyện Đơn" },
+            { "ItemID": 20816, "Number": 200, "Rate": -1, "IsPreview": true, "Info": "200 x Tiền Cổ Năng Động" }
+        ]
+    },
+    {
+        "IDBox": 100403,
+        "BoxName": "Rương hoạt động tháng [3] [VIP]",
+        "Items": [
+            { "ItemID": 191, "Number": 1, "Rate": -1, "IsPreview": true, "Info": "1 x Huyền Tinh vô hạ (cấp 9)" },
+            { "ItemID": 1026, "Number": 10, "Rate": -1, "IsPreview": true, "Info": "10 x Chiến Thư-Mật Thất Du Long" },
+            { "ItemID": 20555, "Number": 1, "Rate": -1, "IsPreview": true, "Info": "1 x Rương trang bị đồng hành Bích Huyết (trung cấp)" },
+            { "ItemID": 20816, "Number": 400, "Rate": -1, "IsPreview": true, "Info": "400 x Tiền Cổ Năng Động" }
+        ]
+    },
+    {
+        "IDBox": 100404,
+        "BoxName": "Rương hoạt động tháng [4] [VIP]",
+        "Items": [
+            { "ItemID": 191, "Number": 2, "Rate": -1, "IsPreview": true, "Info": "2 x Huyền Tinh vô hạ (cấp 9)" },
+            { "ItemID": 1074, "Number": 100, "Rate": -1, "IsPreview": true, "Info": "100 x Tiền Du Long" },
+            { "ItemID": 20816, "Number": 600, "Rate": -1, "IsPreview": true, "Info": "600 x Tiền Cổ Năng Động" },
+            { "ItemID": 11, "Number": 7500, "Rate": -1, "IsPreview": true, "Info": "7500 x Tinh hoạt lực" }
+        ]
+    },
+    {
+        "IDBox": 100405,
+        "BoxName": "Rương hoạt động tháng [5] [VIP]",
+        "Items": [
+            { "ItemID": 192, "Number": 1, "Rate": -1, "IsPreview": true, "Info": "1 x Huyền Tinh hoàn mỹ (cấp 10)" },
+            { "ItemID": 1074, "Number": 50, "Rate": -1, "IsPreview": true, "Info": "50 x Tiền Du Long" },
+            { "ItemID": 20365, "Number": 1, "Rate": -1, "IsPreview": true, "Info": "1 x Bùa may mắn đồng hành (Siêu cấp)" },
+            { "ItemID": 20816, "Number": 2500, "Rate": -1, "IsPreview": true, "Info": "2500 x Tiền Cổ Năng Động" }
+        ]
+    }
+]

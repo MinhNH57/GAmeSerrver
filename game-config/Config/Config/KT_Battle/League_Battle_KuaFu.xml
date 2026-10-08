@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LeagueDef xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+   xmlns:xsd="http://www.w3.org/2001/XMLSchema" MAX_ATTEND_PLAYER="200" MIN_ATTEND_PLAYER="4" MIN_LEVEL="90" ITEM_BETTING="25192" WEEK_OPEN="-1" IsKuaFuBalance="true" BET_REFUND_ITEM_ID="943" BET_PRIZE_ITEM_ID="25192" PARTICIPATION_REWARD="29006_1_1;189_1_1">
+   <!-- Ngày nào trong tuần có sự kiện -->
+   <OPEN_WEEK_DATE>4</OPEN_WEEK_DATE>
+
+
+   <!-- Moc dau ngay de che do LSV can bang tu mo lai sau khi ket thuc vong truoc. -->
+   <TimeBattle Hours="21" Minute="30" Second="0" />
+	
+
+
+   <!-- Tọa độ vào map -->
+   <GoIn X="3858" Y="2228" />
+
+
+   <!-- Danh sách các map diễn ra sự kiện-->
+   <MapFactionList FactionID="0" MapId="2222" />
+
+
+
+   <!-- Config tọa độ cho các lôi đài-->
+   <TotalArena ArenaID="0" PosX="5303" PosY="3083" />
+   <TotalArena ArenaID="1" PosX="5855" PosY="4271" />
+   <TotalArena ArenaID="2" PosX="4284" PosY="1707" />
+   <TotalArena ArenaID="3" PosX="7500" PosY="3442" />
+   <TotalArena ArenaID="4" PosX="2596" PosY="2524" />
+   <TotalArena ArenaID="5" PosX="4400" PosY="5000" />
+   <TotalArena ArenaID="6" PosX="5715" PosY="954" />
+   <TotalArena ArenaID="7" PosX="8905" PosY="2723" />
+   <TotalArena ArenaID="8" PosX="1207" PosY="3279" />
+
+
+   <!-- Tọa độ hồi sinh random trong hỗn chiến -->
+   <PVPRandomRevice X="8601" Y="4607" />
+   <PVPRandomRevice X="10198" Y="5406" />
+   <PVPRandomRevice X="8598" Y="6140" />
+   <PVPRandomRevice X="6779" Y="5382" />
+   <PVPRandomRevice X="8697" Y="5321" />
+   <PVPRandomRevice X="8669" Y="4098" />   
+   <PVPRandomRevice X="6035" Y="5378" />
+   <PVPRandomRevice X="6621" Y="5108" />
+   <PVPRandomRevice X="7085" Y="4887" />
+   <PVPRandomRevice X="7689" Y="4567" />
+   <PVPRandomRevice X="8381" Y="4224" />
+   <PVPRandomRevice X="9332" Y="4525" />
+   <PVPRandomRevice X="8422" Y="4788" />
+   <PVPRandomRevice X="7806" Y="5070" />
+   <PVPRandomRevice X="7211" Y="5376" />
+   <PVPRandomRevice X="6731" Y="5697" />
+   <PVPRandomRevice X="7204" Y="6037" />
+   <PVPRandomRevice X="7651" Y="5866" />   
+   <PVPRandomRevice X="8343" Y="5552" />
+   <PVPRandomRevice X="8990" Y="5198" />
+   <PVPRandomRevice X="9611" Y="4896" />
+   <PVPRandomRevice X="10061" Y="4628" />
+   <PVPRandomRevice X="10622" Y="4886" />
+   <PVPRandomRevice X="10083" Y="5222" />
+   <PVPRandomRevice X="9492" Y="5593" />
+   
+    <AwardTop From="1" To="1" ListItems="29012_1_1;191_2_1" />
+    <AwardTop From="2" To="4" ListItems="29007_2_1;191_1_1" />
+    <AwardTop From="5" To="8" ListItems="29007_1_1;191_1_1" />
+    <AwardTop From="9" To="16" ListItems="29007_1_1;190_1_1" />
+   
+
+
+   <!-- Thời gian các sự kiện tính theo giây
+   <TimeAct SIGN_UP_DULATION="1800" MELEE_PVP_DULATION="300" MELEE_PVP_FREE_DUALTION="300" FREE_ELIMINATION="420" ELIMINATION_ROUND_ROUND="420" REVICE_AWARD="600" />
+	-->
+   <!-- Cấu hình thời gian các vòng siêu ngắn phục vụ test nhanh (đơn vị: giây) -->
+   <!-- SIGN_UP_DULATION: Báo danh (60s) | MELEE_PVP_DULATION: Hỗn chiến (60s) | FREE_ELIMINATION: Chuẩn bị solo (30s) | ELIMINATION_ROUND_ROUND: Solo (60s) | REVICE_AWARD: Trao giải/Thư (120s) -->
+   <TimeAct SIGN_UP_DULATION="600" MELEE_PVP_DULATION="420" MELEE_PVP_FREE_DUALTION="60" BETTING_DULATION="300" FREE_ELIMINATION="90" ELIMINATION_ROUND_ROUND="210" REVICE_AWARD="10" />
+</LeagueDef>

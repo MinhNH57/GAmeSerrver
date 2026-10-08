@@ -1,0 +1,709 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!-- HƯỚNG DẪN CONFIG
+<Task 
+    ID="[number]"               ID nhiệm vụ, không trùng lặp          
+    Name="[string]"             Tên nhiệm vụ     
+    Intro="[string]"            Nội dung nhiệm vụ        
+    Type="[0/1]"                Loại nhiệm vụ, 0: Làm 1 lần xong luôn, 1: Làm nhiều lần (cần NumberItem)        
+    NumberItem="[number]"       Số lượng cần làm để hoàn thành nhiệm vụ
+    IndexRepeat="[number]"      Số lần lặp lại nhiệm vụ, 0: không lặp lại, >0: số lần lặp lại nhiệm vụ   
+    EventType="[number]"        Loại sự kiện
+    Param="[number/-1]"         Tham số sự kiện, -1: không có tham số, >0: có tham số, thường là ID của vật phẩm, quái vật, nhiệm vụ      
+    GoTo="[string]">            Nội dung hiển thị thông báo hoặc dữ liệu vị trí cần tới
+    <Award ItemID="[number]"    Number="[number]" />   Thưởng cho người chơi khi hoàn thành nhiệm vụ
+</Task>
+
+Các loại sự kiện hay dùng:
+
+PlayerLevelup = 9           Lên cấp
+Join_TuLuyenBiCanh = 10010  Tham gia Bí Cảnh
+MonsterDead = 11            Tiêu diệt quái vật
+Join_ThiDauMonPhai = 10013  Tham gia Thi đấu môn phái
+Kill_BachHoDuong = 10016    Tiêu diệt quái vật tại Bạch Hổ Đường
+Join_TieuDaoCoc = 10007     Tham gia Tiêu Dao Cốc
+CheckIn_TongKim = 10027     Báo danh Tống Kim
+Kill_TongKim = 10022        Tiêu diệt người chơi khác tại Tống Kim
+Enhance_Weapon = 10025      Cuờng hóa vũ khí
+Enhance_Armor = 10026       Cuờng hóa trang bị phòng cụ hoặc trang sức
+Join_GiaToc = 10028         Gia nhập gia tộc
+Crafting = 10029            Chế tạo vật phẩm
+Capture_Pet = 10030         Bắt pet
+UseItem = 10032             Sử dụng vật phẩm
+
+Id Phần thưởng:
+
+-1: Kinh nghiệm
+-2: Uy danh
+-3: Tinh lực
+-4: Hoạt lực
+-5: Tăng cấp toàn bộ kỹ năng sống
+
+Một số vật phẩm chế tạo chưa có id
+-->
+<SideTasks>
+    <Task ID="101"
+          Name="Tăng cấp lên cấp độ 30"
+          Intro="Người chơi có thể làm nhiệm vụ chính tuyến hoặc tiêu diệt quái vật dã ngoại ngang cấp để tăng kinh nghiệm nhân vật"
+          Type="1"
+          NumberItem="30"
+          IndexRepeat="0"
+          EventType="9"
+          Param="-1"
+          GoTo="Hoàn thành nhiệm vụ chính tuyến hoặc tiêu diệt quái vật ngang cấp độ để tăng cấp">
+        <Award ItemID="590" Number="1"/>
+        <Award ItemID="-5" Number="30"/>
+    </Task>
+
+    <Task ID="102"
+          Name="Tham gia Bí Cảnh 01 lần"
+          Intro="Quan Quân Nhu (Nghĩa Quân) tại các Thôn / Thành thị để vào Bản Đồ Bí Cảnh (Cần tạo tổ đội và có 01 Bản Đồ Bí Cảnh)"
+          Type="1"
+          NumberItem="1"
+          IndexRepeat="0"
+          EventType="10010"
+          Param="-1"
+          GoTo="@GOTO_5_5467_3028">
+        <Award ItemID="20537" Number="1"/>
+    </Task>
+
+    <Task ID="103"
+          Name="Tham gia Bí Cảnh 04 lần"
+          Intro="Quan Quân Nhu (Nghĩa Quân) tại các Thôn / Thành thị để vào Bản Đồ Bí Cảnh (Cần tạo tổ đội và có 01 Bản Đồ Bí Cảnh)"
+          Type="1"
+          NumberItem="4"
+          IndexRepeat="0"
+          EventType="10010"
+          Param="-1"
+          GoTo="@GOTO_5_5467_3028">
+        <Award ItemID="20537" Number="1"/>
+    </Task>
+
+    <Task ID="104"
+          Name="Tham gia Bí Cảnh 12 lần"
+          Intro="Quan Quân Nhu (Nghĩa Quân) tại các Thôn / Thành thị để vào Bản Đồ Bí Cảnh (Cần tạo tổ đội và có 01 Bản Đồ Bí Cảnh)"
+          Type="1"
+          NumberItem="12"
+          IndexRepeat="0"
+          EventType="10010"
+          Param="-1"
+          GoTo="@GOTO_5_5467_3028">
+        <Award ItemID="20537" Number="1"/>
+    </Task>
+
+    <Task ID="105"
+          Name="Cường hóa trang bị Vũ Khí lên +4"
+          Intro="Gặp NPC Dã Luyện Đại Sư ở Thôn / Thành thị, chọn cường hóa trang bị để tiến hành cường hóa vật phẩm."
+          Type="1"
+          NumberItem="4"
+          IndexRepeat="0"
+          EventType="10025"
+          Param="-1"
+          GoTo="@GOTO_5_8080_3380">
+        <Award ItemID="348" Number="1"/>
+        <Award ItemID="351" Number="1"/>
+    </Task>
+
+    <Task ID="106"
+          Name="Cường hóa trang bị Vũ Khí lên +8"
+          Intro="Gặp NPC Dã Luyện Đại Sư ở Thôn / Thành thị, chọn cường hóa trang bị để tiến hành cường hóa vật phẩm."
+          Type="1"
+          NumberItem="8"
+          IndexRepeat="0"
+          EventType="10025"
+          Param="-1"
+          GoTo="@GOTO_5_8080_3380">
+        <Award ItemID="188" Number="2"/>
+    </Task>
+
+    <Task ID="107"
+          Name="Cường hóa trang bị Vũ Khí lên +12"
+          Intro="Gặp NPC Dã Luyện Đại Sư ở Thôn / Thành thị, chọn cường hóa trang bị để tiến hành cường hóa vật phẩm."
+          Type="1"
+          NumberItem="12"
+          IndexRepeat="0"
+          EventType="10025"
+          Param="-1"
+          GoTo="@GOTO_5_8080_3380">
+        <Award ItemID="189" Number="2"/>
+    </Task>
+
+    <Task ID="108"
+          Name="Cường hóa trang bị Phòng Cụ hoặc Trang Sức lên +4"
+          Intro="Gặp NPC Dã Luyện Đại Sư ở Thôn / Thành thị, chọn cường hóa trang bị để tiến hành cường hóa vật phẩm."
+          Type="1"
+          NumberItem="4"
+          IndexRepeat="0"
+          EventType="10026"
+          Param="-1"
+          GoTo="@GOTO_5_8080_3380">
+        <Award ItemID="20537" Number="1"/>
+    </Task>
+
+    <Task ID="109"
+          Name="Cường hóa trang bị Phòng Cụ hoặc Trang Sức lên +8"
+          Intro="Gặp NPC Dã Luyện Đại Sư ở Thôn / Thành thị, chọn cường hóa trang bị để tiến hành cường hóa vật phẩm."
+          Type="1"
+          NumberItem="8"
+          IndexRepeat="0"
+          EventType="10026"
+          Param="-1"
+          GoTo="@GOTO_5_8080_3380">
+        <Award ItemID="188" Number="2"/>
+    </Task>
+
+    <Task ID="110"
+          Name="Cường hóa trang bị Phòng Cụ hoặc Trang Sức lên +12"
+          Intro="Gặp NPC Dã Luyện Đại Sư ở Thôn / Thành thị, chọn cường hóa trang bị để tiến hành cường hóa vật phẩm."
+          Type="1"
+          NumberItem="12"
+          IndexRepeat="0"
+          EventType="10026"
+          Param="-1"
+          GoTo="@GOTO_5_8080_3380">
+        <Award ItemID="189" Number="2"/>
+    </Task>
+
+    <Task ID="111"
+          Name="Tiêu diệt 2.000 Quái vật"
+          Intro="Tiêu diệt 2.000 quái vật tại bản đồ dã ngoại bất kỳ"
+          Type="1"
+          NumberItem="2000"
+          IndexRepeat="0"
+          EventType="11"
+          Param="-1"
+          GoTo="Đến bản đồ dã ngoại bất kỳ và tiêu diệt quái vật để nhận thưởng">
+        <Award ItemID="1055" Number="2"/>
+        <Award ItemID="20880" Number="1"/>
+    </Task>
+    <Task ID="112"
+          Name="Tiêu diệt 10.000 quái vật"
+          Intro="Tiêu diệt 5.000 quái vật tại bản đồ dã ngoại bất kỳ"
+          Type="1"
+          NumberItem="10000"
+          IndexRepeat="0"
+          EventType="11"
+          Param="-1"
+          GoTo="Đến bản đồ dã ngoại bất kỳ và tiêu diệt quái vật để nhận thưởng">
+        <Award ItemID="1055" Number="3"/>
+        <Award ItemID="20880" Number="1"/>
+    </Task>
+    <Task ID="113"
+          Name="Tiêu diệt 25.000 quái vật"
+          Intro="Tiêu diệt 20.000 quái vật tại bản đồ dã ngoại bất kỳ"
+          Type="1"
+          NumberItem="25000"
+          IndexRepeat="0"
+          EventType="11"
+          Param="-1"
+          GoTo="Đến bản đồ dã ngoại bất kỳ và tiêu diệt quái vật để nhận thưởng">
+        <Award ItemID="20270" Number="2"/>
+        <Award ItemID="20880" Number="1"/>
+    </Task>
+    <Task ID="114"
+          Name="Tiêu diệt 100.000 quái vật"
+          Intro="Tiêu diệt 100.000 quái vật tại bản đồ dã ngoại bất kỳ"
+          Type="1"
+          NumberItem="100000"
+          IndexRepeat="0"
+          EventType="11"
+          Param="-1"
+          GoTo="Đến bản đồ dã ngoại bất kỳ và tiêu diệt quái vật để nhận thưởng">
+        <Award ItemID="20270" Number="3"/>
+        <Award ItemID="20880" Number="1"/>
+    </Task>
+    <Task ID="115"
+          Name="Hoàn thành 1 nhiệm vụ Bao Vạn Đồng"
+          Intro="Vào hoạt động, tìm Bao Vạn Đồng và chọn Tham gia để tới NPC nhận nhiệm vụ."
+          Type="1"
+          NumberItem="1"
+          IndexRepeat="0"
+          EventType="10003"
+          Param="2"
+          GoTo="@GOTO_5_5664_2879">
+        <Award ItemID="20880" Number="1"/>
+        <Award ItemID="20879" Number="5"/>
+    </Task>
+    <Task ID="116"
+          Name="Hoàn thành 10 lần nhiệm vụ Bao Vạn Đồng"
+          Intro="Vào hoạt động, tìm Bao Vạn Đồng và chọn Tham gia để tới NPC nhận nhiệm vụ."
+          Type="1"
+          NumberItem="10"
+          IndexRepeat="0"
+          EventType="10003"
+          Param="2"
+          GoTo="@GOTO_5_5664_2879">
+        <Award ItemID="20880" Number="2"/>
+        <Award ItemID="20879" Number="10"/>
+    </Task>
+    <Task ID="117"
+          Name="Hoàn thành 50 lần nhiệm vụ Bao Vạn Đồng"
+          Intro="Vào hoạt động, tìm Bao Vạn Đồng và chọn Tham gia để tới NPC nhận nhiệm vụ."
+          Type="1"
+          NumberItem="50"
+          IndexRepeat="0"
+          EventType="10003"
+          Param="2"
+          GoTo="@GOTO_5_5664_2879">
+        <Award ItemID="20880" Number="2"/>
+        <Award ItemID="2" Number="20000"/>
+    </Task>
+    <Task ID="118"
+          Name="Hoàn thành 100 lần nhiệm vụ Bao Vạn Đồng"
+          Intro="Vào hoạt động, tìm Bao Vạn Đồng và chọn Tham gia để tới NPC nhận nhiệm vụ."
+          Type="1"
+          NumberItem="100"
+          IndexRepeat="0"
+          EventType="10003"
+          Param="2"
+          GoTo="@GOTO_5_5664_2879">
+        <Award ItemID="20880" Number="2"/>
+        <Award ItemID="2" Number="50000"/>
+    </Task>
+    <Task ID="119"
+          Name="Hoàn thành 150 lần nhiệm vụ Bao Vạn Đồng"
+          Intro="Vào hoạt động, tìm Bao Vạn Đồng và chọn Tham gia để tới NPC nhận nhiệm vụ."
+          Type="1"
+          NumberItem="150"
+          IndexRepeat="0"
+          EventType="10003"
+          Param="2"
+          GoTo="@GOTO_5_5664_2879">
+        <Award ItemID="20865" Number="1"/>
+        <!-- <Award ItemID="15074" Number="1" />
+        <Award ItemID="15079" Number="1" />
+        <Award ItemID="15084" Number="1" />
+        <Award ItemID="15089" Number="1" />
+        <Award ItemID="15094" Number="1" />
+        <Award ItemID="15099" Number="1" />
+        <Award ItemID="15104" Number="1" />
+        <Award ItemID="15109" Number="1" />
+        <Award ItemID="15114" Number="1" />
+        <Award ItemID="15119" Number="1" /> -->
+    </Task>
+    <Task ID="120"
+          Name="Hoàn thành 1 lần nhiệm vụ Truy Nã Hải Tặc"
+          Intro="Vào hoạt động, tìm Truy Nã Hải Tặc và chọn Tham gia. Sau đó tiến hành nhận và hoàn thành nhiệm vụ 01 lần."
+          Type="1"
+          NumberItem="1"
+          IndexRepeat="0"
+          EventType="10003"
+          Param="4"
+          GoTo="@GOTO_23_8520_3295">
+        <Award ItemID="600" Number="2"/>
+        <Award ItemID="1" Number="100000"/>
+    </Task>
+    <Task ID="121"
+          Name="Hoàn thành 6 lần nhiệm vụ Truy Nã Hải Tặc"
+          Intro="Vào hoạt động, tìm Truy Nã Hải Tặc và chọn Tham gia. Sau đó tiến hành nhận và hoàn thành nhiệm vụ 01 lần."
+          Type="1"
+          NumberItem="6"
+          IndexRepeat="0"
+          EventType="10003"
+          Param="4"
+          GoTo="@GOTO_23_8520_3295">
+        <Award ItemID="600" Number="2"/>
+        <Award ItemID="1" Number="200000"/>
+    </Task>
+    <Task ID="122"
+          Name="Hoàn thành 12 lần nhiệm vụ Truy Nã Hải Tặc"
+          Intro="Vào hoạt động, tìm Truy Nã Hải Tặc và chọn Tham gia. Sau đó tiến hành nhận và hoàn thành nhiệm vụ 01 lần."
+          Type="1"
+          NumberItem="12"
+          IndexRepeat="0"
+          EventType="10003"
+          Param="4"
+          GoTo="@GOTO_23_8520_3295">
+        <Award ItemID="20866" Number="1"/>
+        <!-- <Award ItemID="15124" Number="1" />
+        <Award ItemID="15129" Number="1" />
+        <Award ItemID="15134" Number="1" />
+        <Award ItemID="15139" Number="1" />
+        <Award ItemID="15144" Number="1" />
+        <Award ItemID="15149" Number="1" />
+        <Award ItemID="15154" Number="1" />
+        <Award ItemID="15159" Number="1" />
+        <Award ItemID="15164" Number="1" />
+        <Award ItemID="15169" Number="1" /> -->
+    </Task>
+    <Task ID="123"
+          Name="Hoàn thành 24 lần nhiệm vụ Truy Nã Hải Tặc"
+          Intro="Vào hoạt động, tìm Truy Nã Hải Tặc và chọn Tham gia. Sau đó tiến hành nhận và hoàn thành nhiệm vụ 01 lần."
+          Type="1"
+          NumberItem="24"
+          IndexRepeat="0"
+          EventType="10003"
+          Param="4"
+          GoTo="@GOTO_23_8520_3295">
+        <Award ItemID="600" Number="2"/>
+        <Award ItemID="2" Number="500000"/>
+    </Task>
+    <Task ID="124"
+          Name="Tham gia Thi đấu môn phái / Hoa Sơn Luận Kiếm"
+          Intro="Vào 19:00 thứ 2 và thứ 6 hàng tuần, tới gặp chưởng môn tại bản đồ môn phái để báo danh tham gia hoạt động"
+          Type="1"
+          NumberItem="1"
+          IndexRepeat="0"
+          EventType="10013"
+          Param="-1"
+          GoTo="Tham gia Thi đấu môn phái / Hoa Sơn Luận Kiếm">
+        <Award ItemID="20867" Number="1"/>
+        <!-- <Award ItemID="5443" Number="1" />
+        <Award ItemID="5467" Number="1" />
+        <Award ItemID="5503" Number="1" />
+        <Award ItemID="5527" Number="1" />
+        <Award ItemID="5539" Number="1" />
+        <Award ItemID="5449" Number="1" />
+        <Award ItemID="5473" Number="1" />
+        <Award ItemID="5509" Number="1" />
+        <Award ItemID="5533" Number="1" />
+        <Award ItemID="5545" Number="1" /> -->
+    </Task>
+    <Task ID="125"
+          Name="Tiêu diệt 10 quái vật tại Bạch Hổ Đường - Tầng 1"
+          Intro="Vào hoạt động, tìm Bạch Hổ Đường và chọn Tham gia để đi đến bản đồ hoạt động, sau đó báo danh tại 1 trong 4 cửa Đông - Tây - Nam - Bắc"
+          Type="1"
+          NumberItem="10"
+          IndexRepeat="0"
+          EventType="11"
+          Param="2660:2662:3683"
+          GoTo="@GOTO_23_6175_2532">
+        <Award ItemID="2" Number="20000"/>
+        <Award ItemID="20879" Number="10"/>
+    </Task>
+    <Task ID="126"
+          Name="Tiêu diệt Hồ Đồ Sứ 01 lần (Boss Tầng 3)"
+          Intro="Tham gia hoạt động Bạch Hổ Đường và tiêu diệt Boss tầng 3 - Hộ Đồ Sứ"
+          Type="1"
+          NumberItem="1"
+          IndexRepeat="0"
+          EventType="11"
+          Param="2686:2688:3688"
+          GoTo="@GOTO_23_6175_2532">
+        <Award ItemID="20868" Number="1"/>
+        <!-- <Award ItemID="15024" Number="1" />
+        <Award ItemID="15029" Number="1" />
+        <Award ItemID="15034" Number="1" />
+        <Award ItemID="15039" Number="1" />
+        <Award ItemID="15044" Number="1" /> -->
+    </Task>
+    <Task ID="127"
+          Name="Tham gia phụ bản Tiêu Dao Cốc (Dễ)"
+          Intro="Vào hoạt động, tìm hoạt động Tiêu Dao Cốc và chọn tham gia"
+          Type="1"
+          NumberItem="1"
+          IndexRepeat="0"
+          EventType="10007"
+          Param="-1"
+          GoTo="@GOTO_341_2266_1120">
+        <Award ItemID="501" Number="10"/>
+        <Award ItemID="20879" Number="10"/>
+    </Task>
+    <Task ID="128"
+          Name="Tham gia phụ bản Tiêu Dao Cốc (Dễ, Trung Bình, Khó) 03 lần"
+          Intro="Vào hoạt động, tìm hoạt động Tiêu Dao Cốc và chọn tham gia."
+          Type="1"
+          NumberItem="3"
+          IndexRepeat="0"
+          EventType="10007"
+          Param="-1"
+          GoTo="@GOTO_341_2266_1120">
+        <Award ItemID="501" Number="20"/>
+        <Award ItemID="20879" Number="20"/>
+    </Task>
+    <Task ID="129"
+          Name="Tham gia phụ bản Tiêu Dao Cốc (Dễ, Trung Bình, Khó) 05 lần"
+          Intro="Vào hoạt động, tìm hoạt động Tiêu Dao Cốc và chọn tham gia."
+          Type="1"
+          NumberItem="5"
+          IndexRepeat="0"
+          EventType="10007"
+          Param="-1"
+          GoTo="@GOTO_341_2266_1120">
+        <Award ItemID="501" Number="40"/>
+        <Award ItemID="20879" Number="30"/>
+    </Task>
+    <Task ID="130"
+          Name="Tham gia phụ bản Tiêu Dao Cốc (Dễ, Trung Bình, Khó) 10 lần"
+          Intro="Vào hoạt động, tìm hoạt động Tiêu Dao Cốc và chọn tham gia."
+          Type="1"
+          NumberItem="10"
+          IndexRepeat="0"
+          EventType="10007"
+          Param="-1"
+          GoTo="@GOTO_341_2266_1120">
+        <Award ItemID="501" Number="80"/>
+        <Award ItemID="20879" Number="20"/>
+    </Task>
+    <Task ID="131"
+          Name="Báo danh Tống Kim (Dương Châu hoặc Phượng Tường)"
+          Intro="Báo danh tại NPC Hiệu Úy Mộ Binh (Tống / Kim) tại bản đồ Biện Kinh Phủ"
+          Type="1"
+          NumberItem="1"
+          IndexRepeat="0"
+          EventType="10027"
+          Param="-1"
+          GoTo="@GOTO_23_6121_4003">
+        <Award ItemID="4" Number="2000"/>
+        <Award ItemID="20879" Number="10"/>
+    </Task>
+    <Task ID="132"
+          Name="Tiêu diệt 10 người chơi khác tại bản đồ tống kim (Dương Châu hoặc Phượng Tường)"
+          Intro="Tham gia hoạt động Tống Kim và tiêu diệt 10 người chơi khác."
+          Type="1"
+          NumberItem="10"
+          IndexRepeat="0"
+          EventType="10022"
+          Param="-1"
+          GoTo="@GOTO_23_6121_4003">
+        <Award ItemID="4" Number="2000"/>
+        <Award ItemID="20879" Number="20"/>
+    </Task>
+    <Task ID="133"
+          Name="Tiêu diệt 20 người chơi khác tại bản đồ tống kim (Dương Châu hoặc Phượng Tường)"
+          Intro="Tham gia hoạt động Tống Kim và tiêu diệt 10 người chơi khác."
+          Type="1"
+          NumberItem="20"
+          IndexRepeat="0"
+          EventType="10022"
+          Param="-1"
+          GoTo="@GOTO_23_6121_4003">
+        <Award ItemID="4" Number="5000"/>
+        <Award ItemID="20879" Number="30"/>
+    </Task>
+    <Task ID="134"
+          Name="Tiêu diệt 100 người chơi khác tại bản đồ tống kim (Dương Châu hoặc Phượng Tường)"
+          Intro="Tham gia hoạt động Tống Kim và tiêu diệt 10 người chơi khác."
+          Type="1"
+          NumberItem="100"
+          IndexRepeat="0"
+          EventType="10022"
+          Param="-1"
+          GoTo="@GOTO_23_6121_4003">
+        <Award ItemID="20869" Number="1"/>
+        <!-- <Award ItemID="6162" Number="1" />
+        <Award ItemID="6172" Number="1" />
+        <Award ItemID="6182" Number="1" />
+        <Award ItemID="6192" Number="1" />
+        <Award ItemID="6202" Number="1" />
+        <Award ItemID="6167" Number="1" />
+        <Award ItemID="6177" Number="1" />
+        <Award ItemID="6187" Number="1" />
+        <Award ItemID="6197" Number="1" />
+        <Award ItemID="6207" Number="1" /> -->
+    </Task>
+    <Task ID="135"
+          Name="Hoàn thành 01 nhiệm vụ Thương Hội"
+          Intro=""
+          Type="1"
+          NumberItem="1"
+          IndexRepeat="0"
+          EventType="10003"
+          Param="3"
+          GoTo="@GOTO_23_6783_5688">
+        <Award ItemID="2" Number="10000"/>
+        <Award ItemID="4" Number="2000"/>
+    </Task>
+    <Task ID="136"
+          Name="Hoàn thành 20 nhiệm vụ Thương Hội"
+          Intro=""
+          Type="1"
+          NumberItem="20"
+          IndexRepeat="0"
+          EventType="10003"
+          Param="3"
+          GoTo="@GOTO_23_6783_5688">
+        <Award ItemID="2" Number="20000"/>
+        <Award ItemID="4" Number="5000"/>
+    </Task>
+    <Task ID="137"
+          Name="Hoàn thành 40 nhiệm vụ Thương Hội"
+          Intro=""
+          Type="1"
+          NumberItem="40"
+          IndexRepeat="0"
+          EventType="10003"
+          Param="3"
+          GoTo="@GOTO_23_6783_5688">
+        <Award ItemID="2" Number="50000"/>
+        <Award ItemID="506" Number="500"/>
+    </Task>
+    <Task ID="138"
+          Name="Hoàn thành 80 nhiệm vụ Thương Hội"
+          Intro=""
+          Type="1"
+          NumberItem="80"
+          IndexRepeat="0"
+          EventType="10003"
+          Param="3"
+          GoTo="@GOTO_23_6783_5688">
+        <Award ItemID="2" Number="50000"/>
+        <Award ItemID="25235" Number="1"/>
+    </Task>
+    <Task ID="139"
+          Name="Hoàn thành 120 nhiệm vụ Thương Hội"
+          Intro=""
+          Type="1"
+          NumberItem="120"
+          IndexRepeat="0"
+          EventType="10003"
+          Param="3"
+          GoTo="@GOTO_23_6783_5688">
+        <Award ItemID="2" Number="100000"/>
+        <Award ItemID="25236" Number="1"/>
+    </Task>
+    <Task ID="140"
+          Name="Tham gia đoán hoa đăng"
+          Intro="Hoạt động sẽ diễn ra vào 20:30 đến 21:30 thứ 2, 3 và 5 hàng tuần. Tìm NPC Nhan Như Ngọc để tham gia trả lời cầu hỏi."
+          Type="1"
+          NumberItem="1"
+          IndexRepeat="0"
+          EventType="10006"
+          Param="-1"
+          GoTo="Tham gia đoán hoa đăng">
+        <Award ItemID="20880" Number="2"/>
+        <Award ItemID="20879" Number="10"/>
+    </Task>
+    <Task ID="141"
+          Name="Gia nhập gia tộc"
+          Intro="Gia nhập một gia tộc bất kỳ"
+          Type="0"
+          NumberItem="1"
+          IndexRepeat="0"
+          EventType="10028"
+          Param="-1"
+          GoTo="Gia nhập gia tộc">
+        <Award ItemID="590" Number="1"/>
+        <Award ItemID="600" Number="2"/>
+    </Task>
+    <Task ID="142"
+          Name="Chế tạo 01 Vũ Hoa Thạch"
+          Intro="Vào Kỹ Năng Sống => Khoáng => Bảo Thạch => Cấp độ 1, tìm Vũ Hoa Thạch để chế tạo. Nguyên liệu Khoáng / Bảo Thạch có thể mua tại NPC Thợ Rèn"
+          Type="1"
+          NumberItem="1"
+          IndexRepeat="0"
+          EventType="10029"
+          Param="2214"
+          GoTo="Chế tạo 01 Vũ Hoa Thạch">
+        <Award ItemID="2" Number="5000"/>
+        <Award ItemID="15607" Number="1"/>
+    </Task>
+    <Task ID="143"
+          Name="Chế tạo 01 Rương Ma Đao Thạch cấp 1"
+          Intro="Vào Kỹ Năng Sống => Vũ Khí => Ma Đao Thạch để chế tạo. Nguyên liệu Vũ Hoa Thạch được chế ở Kỹ Năng Sống Khoáng => Bảo Thạch"
+          Type="1"
+          NumberItem="1"
+          IndexRepeat="0"
+          EventType="10029"
+          Param="301"
+          GoTo="Chế tạo 01 Rương Ma Đao Thạch cấp 1">
+        <Award ItemID="2" Number="5000"/>
+        <Award ItemID="15606" Number="1"/>
+    </Task>
+
+    <Task ID="144"
+          Name="Chế tạo 01 Rương Ngũ Hành Thạch cấp 1"
+          Intro="Vào Kỹ Năng Sống => Trang sức => Ngũ Hành Thạch để chế tạo. Nguyên liệu Vũ Hoa Thạch được chế ở Kỹ Năng Sống Khoáng => Bảo Thạch => Cấp độ 1"
+          Type="1"
+          NumberItem="1"
+          IndexRepeat="0"
+          EventType="10029"
+          Param="321"
+          GoTo="Chế tạo 01 Rương Ngũ Hành Thạch cấp 1">
+        <Award ItemID="2" Number="5000"/>
+        <Award ItemID="20537" Number="1"/>
+    </Task>
+    <Task ID="145"
+          Name="Chế tạo 01 Da Chó"
+          Intro="Vào Kỹ Năng Sống => Da => Da Mềm và tìm Da Chó để chế tạo. Nguyên liệu Da có thể mua tại NPC chủ tiệm tạp hóa hoặc NPC chủ tiệm phòng cụ."
+          Type="1"
+          NumberItem="1"
+          IndexRepeat="0"
+          EventType="10029"
+          Param="2354"
+          GoTo="Chế tạo 01 Da Chó">
+        <Award ItemID="2" Number="5000"/>
+        <Award ItemID="15607" Number="1"/>
+    </Task>
+    <Task ID="146"
+          Name="Chế tạo 01 Rương Hộ Giáp Phiến cấp 1"
+          Intro="Vào Kỹ Năng Sống => Phòng Cụ => Hộ giáp phiến để chế tạo. Nguyên liệu Da Chó được chế ở Kỹ Năng Sống Da => Da Mềm => Cấp độ 1"
+          Type="1"
+          NumberItem="1"
+          IndexRepeat="0"
+          EventType="10029"
+          Param="311"
+          GoTo="Chế tạo 01 Rương Hộ Giáp Phiến cấp 1">
+        <Award ItemID="2" Number="5000"/>
+        <Award ItemID="15606" Number="1"/>
+    </Task>
+    <Task ID="147"
+          Name="Chế tạo 01 Rương Ma Đao Thạch Cấp 4"
+          Intro="Vào Kỹ Năng Sống => Vũ Khí => Ma Đao Thạch để chế tạo. Nguyên liệu Vũ Hoa Thạch được chế ở Kỹ Năng Sống Khoáng => Bảo Thạch"
+          Type="1"
+          NumberItem="1"
+          IndexRepeat="0"
+          EventType="10029"
+          Param="304"
+          GoTo="Chế tạo 01 Rương Ma Đao Thạch Cấp 4">
+        <Award ItemID="20537" Number="1"/>
+    </Task>
+    <Task ID="148"
+          Name="Chế tạo 01 Rương Ngũ Hành Thạch Cấp 4"
+          Intro="Vào Kỹ Năng Sống => Trang sức => Ngũ Hành Thạch để chế tạo. Nguyên liệu Vũ Hoa Thạch được chế ở Kỹ Năng Sống Khoáng => Bảo Thạch"
+          Type="1"
+          NumberItem="1"
+          IndexRepeat="0"
+          EventType="10029"
+          Param="324"
+          GoTo="Chế tạo 01 Rương Ngũ Hành Thạch Cấp 4">
+        <Award ItemID="20537" Number="1"/>
+    </Task>
+    <Task ID="149"
+          Name="Chế tạo 01 Rương Hộ Giáp Phiến Cấp 4"
+          Intro="Vào Kỹ Năng Sống => Phòng Cụ => Hộ giáp phiến để chế tạo. Nguyên liệu Da Chó được chế ở Kỹ Năng Sống Da => Da Mềm"
+          Type="1"
+          NumberItem="1"
+          IndexRepeat="0"
+          EventType="10029"
+          Param="314"
+          GoTo="Chế tạo 01 Rương Hộ Giáp Phiến Cấp 4">
+        <Award ItemID="20537" Number="1"/>
+    </Task>
+    <Task ID="150"
+          Name="Thu phục 01 đồng hành"
+          Intro="Tại bản đồ dã ngoại cấp 5 đến 55, quái vật hình người, có biểu tượng trái tim ở khung thông tin có thể tiến hành thu phục làm đồng hành."
+          Type="1"
+          NumberItem="1"
+          IndexRepeat="0"
+          EventType="10030"
+          Param="-1"
+          GoTo="Thu phục 01 đồng hành">
+        <Award ItemID="20270" Number="1"/>
+        <Award ItemID="1057" Number="2"/>
+    </Task>
+    <Task ID="151"
+          Name="Chọn đồng hành để 'Giúp đỡ', tăng chỉ số nhân vật."
+          Intro="Vào giao diện đồng hành, chọn đồng hành bất kỳ và nhấn 'Giúp đỡ'. Nếu không đủ thân mật, hãy đổi tinh phách thường (cấp 1) tại Tiệm Nguyệt Ảnh Thạch ở NPC Long Ngũ"
+          Type="1"
+          NumberItem="1"
+          IndexRepeat="0"
+          EventType="10019"
+          Param="20"
+          GoTo="Chọn đồng hành để 'Giúp đỡ', tăng chỉ số nhân vật.">
+        <Award ItemID="20270" Number="1"/>
+        <Award ItemID="1057" Number="3"/>
+    </Task>
+    <Task ID="152"
+          Name="Sử dụng 01 sách kinh nghiệm đồng hành (2500)"
+          Intro="Thu hồi đồng hành và sử dụng sách kinh nghiệm cho đồng hành bạn muốn. Lưu ý: Kinh nghiệm cần tăng cấp của đồng hành có thể tích lũy tối đa 10 cấp."
+          Type="1"
+          NumberItem="1"
+          IndexRepeat="0"
+          EventType="10032"
+          Param="1057"
+          GoTo="Sử dụng 01 sách kinh nghiệm đồng hành (2500)">
+        <Award ItemID="20270" Number="1"/>
+        <Award ItemID="1057" Number="5"/>
+    </Task>
+
+</SideTasks>

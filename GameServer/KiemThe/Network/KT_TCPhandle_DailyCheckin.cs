@@ -1,0 +1,146 @@
+﻿using System;
+using System.Text;
+using GameServer.KiemThe.GameEvents.DailyCheckin;
+using GameServer.Logic;
+using GameServer.Server;
+using Server.Protocol;
+using Server.TCP;
+using Server.Tools;
+
+namespace GameServer.KiemThe.Logic
+{
+    public static partial class KT_TCPHandler
+    {
+        public static TCPProcessCmdResults ResponseDailyCheckinUpdate(TCPManager tcpMgr, TMSKSocket socket,
+            TCPClientPool tcpClientPool, TCPRandKey tcpRandKey, TCPOutPacketPool pool, int nID, byte[] data, int count,
+            out TCPOutPacket tcpOutPacket)
+        {
+            tcpOutPacket = null;
+            var cmdData = "";
+            try
+            {
+                /// Giải mã gói tin đẩy về dạng string
+                cmdData = new ASCIIEncoding().GetString(data);
+            }
+            catch (Exception)
+            {
+                LogManager.WriteLog(LogTypes.Error,
+                    string.Format("Error while getting DATA, CMD={0}, Client={1}", (TCPGameServerCmds)nID,
+                        Global.GetSocketRemoteEndPoint(socket)));
+                return TCPProcessCmdResults.RESULT_FAILED;
+            }
+
+            try
+            {
+                var client = GameManager.ClientMgr.FindClient(socket);
+                if (null == client)
+                {
+                    LogManager.WriteLog(LogTypes.Error,
+                        string.Format("Không tìm thấy thông tin người chơi, CMD={0}, Client={1}",
+                            (TCPGameServerCmds)nID, Global.GetSocketRemoteEndPoint(socket)));
+                    return TCPProcessCmdResults.RESULT_FAILED;
+                }
+                DailyCheckinManager.SendClientCheckinUpdate(client);
+                return TCPProcessCmdResults.RESULT_OK;
+            }
+            catch (Exception ex)
+            {
+                DataHelper.WriteFormatExceptionLog(ex, Global.GetDebugHelperInfo(socket), false);
+            }
+
+            return TCPProcessCmdResults.RESULT_FAILED;
+        }
+        
+        public static TCPProcessCmdResults ResponseDailyCheckinCheckin(TCPManager tcpMgr, TMSKSocket socket,
+            TCPClientPool tcpClientPool, TCPRandKey tcpRandKey, TCPOutPacketPool pool, int nID, byte[] data, int count,
+            out TCPOutPacket tcpOutPacket)
+        {
+            tcpOutPacket = null;
+            var cmdData = "";
+            try
+            {
+                /// Giải mã gói tin đẩy về dạng string
+                cmdData = new ASCIIEncoding().GetString(data);
+            }
+            catch (Exception)
+            {
+                LogManager.WriteLog(LogTypes.Error,
+                    string.Format("Error while getting DATA, CMD={0}, Client={1}", (TCPGameServerCmds)nID,
+                        Global.GetSocketRemoteEndPoint(socket)));
+                return TCPProcessCmdResults.RESULT_FAILED;
+            }
+
+            try
+            {
+                var client = GameManager.ClientMgr.FindClient(socket);
+                if (null == client)
+                {
+                    LogManager.WriteLog(LogTypes.Error,
+                        string.Format("Không tìm thấy thông tin người chơi, CMD={0}, Client={1}",
+                            (TCPGameServerCmds)nID, Global.GetSocketRemoteEndPoint(socket)));
+                    return TCPProcessCmdResults.RESULT_FAILED;
+                }
+                int day = -1;
+                int.TryParse(cmdData, out day);
+                DailyCheckinManager.Checkin(client, day);
+                return TCPProcessCmdResults.RESULT_OK;
+            }
+            catch (Exception ex)
+            {
+                DataHelper.WriteFormatExceptionLog(ex, Global.GetDebugHelperInfo(socket), false);
+            }
+
+            return TCPProcessCmdResults.RESULT_FAILED;
+        }
+        
+        
+        public static TCPProcessCmdResults ResponseDailyCheckinReward(TCPManager tcpMgr, TMSKSocket socket,
+            TCPClientPool tcpClientPool, TCPRandKey tcpRandKey, TCPOutPacketPool pool, int nID, byte[] data, int count,
+            out TCPOutPacket tcpOutPacket)
+        {
+            tcpOutPacket = null;
+            var cmdData = "";
+            try
+            {
+                /// Giải mã gói tin đẩy về dạng string
+                cmdData = new ASCIIEncoding().GetString(data);
+            }
+            catch (Exception)
+            {
+                LogManager.WriteLog(LogTypes.Error,
+                    string.Format("Error while getting DATA, CMD={0}, Client={1}", (TCPGameServerCmds)nID,
+                        Global.GetSocketRemoteEndPoint(socket)));
+                return TCPProcessCmdResults.RESULT_FAILED;
+            }
+
+            try
+            {
+                var client = GameManager.ClientMgr.FindClient(socket);
+                if (null == client)
+                {
+                    LogManager.WriteLog(LogTypes.Error,
+                        string.Format("Không tìm thấy thông tin người chơi, CMD={0}, Client={1}",
+                            (TCPGameServerCmds)nID, Global.GetSocketRemoteEndPoint(socket)));
+                    return TCPProcessCmdResults.RESULT_FAILED;
+                }
+
+                if (!int.TryParse(cmdData, out var index))
+                {
+                    LogManager.WriteLog(LogTypes.Error,
+                        string.Format("Error Socket params count not fit CMD={0}, Client={1}, Recv={2}",
+                            (TCPGameServerCmds)nID, Global.GetSocketRemoteEndPoint(socket), cmdData.Length));
+                    return TCPProcessCmdResults.RESULT_FAILED;
+                }
+                
+                DailyCheckinManager.GetRewardMethi(client, index);
+                return TCPProcessCmdResults.RESULT_OK;
+            }
+            catch (Exception ex)
+            {
+                DataHelper.WriteFormatExceptionLog(ex, Global.GetDebugHelperInfo(socket), false);
+            }
+
+            return TCPProcessCmdResults.RESULT_FAILED;
+        }
+    }
+}

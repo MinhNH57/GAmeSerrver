@@ -1,0 +1,300 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfItemData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <ItemData ItemID="25123" Name="Mũ Đồng Hành - Bích Huyết" IconBundleDir="Icon/EquipIcon2.unity3d" IconAtlasName="EquipIcon2"
+    MapSpriteBundleDir="Resources/Item/MapSprite.unity3d" MapSpriteAtlasName="MapSprite"
+    Kind="Trang bị cam PVP_Trường Sinh Phát Kết (Khí Võ, Côn Lôn)" QualityPrefix="5" Category="1" Genre="2" Stack="1" DetailType="21"
+    ParticularType="1000" Level="7" SuiteID="0" Icon="BH_mu" View="BH_mu" Intro="" Help="" ObjID="19" BindType="2" Series="5" ReqLevel="0" CDType="0"
+    Price="10000000" ItemValue="10000000" MakeCost="-1" ResMale="-1" ResFemale="-1" FightPower="1" ScriptID="-1" DeductOnUse="false" BuffID="-1">
+    <ListBasicProp BasicPropType="damage_series_resist" BasicPropPA1Min="50" BasicPropPA1Max="50" BasicPropPA2Min="-1" BasicPropPA2Max="-1"
+      BasicPropPA3Min="-1" BasicPropPA3Max="-1" Index="1" />
+    <ListBasicProp BasicPropType="seriesabate" BasicPropPA1Min="50" BasicPropPA1Max="50" BasicPropPA2Min="-1" BasicPropPA2Max="-1"
+      BasicPropPA3Min="-1" BasicPropPA3Max="-1" Index="2" />
+    <ListBasicProp BasicPropType="defencedeadlystrikedamagetrim" BasicPropPA1Min="10" BasicPropPA1Max="10" BasicPropPA2Min="-1" BasicPropPA2Max="-1"
+      BasicPropPA3Min="-1" BasicPropPA3Max="-1" Index="3" />
+    <UnLockInterval>-1</UnLockInterval>
+  </ItemData>
+  <ItemData ItemID="25124" Name="Mũ Đồng Hành - Kim Lân" IconBundleDir="Icon/EquipIcon2.unity3d" IconAtlasName="EquipIcon2"
+    MapSpriteBundleDir="Resources/Item/MapSprite.unity3d" MapSpriteAtlasName="MapSprite"
+    Kind="Trang bị cam PVP_Trường Sinh Phát Kết (Khí Võ, Côn Lôn)" QualityPrefix="5" Category="1" Genre="2" Stack="1" DetailType="21"
+    ParticularType="1000" Level="8" SuiteID="0" Icon="KL_mu" View="KL_mu" Intro="" Help="" ObjID="19" BindType="2" Series="5"
+    ReqLevel="0" CDType="0" Price="20000000" ItemValue="20000000" MakeCost="-1" ResMale="-1" ResFemale="-1" FightPower="1" ScriptID="-1"
+    DeductOnUse="false" BuffID="-1">
+    <ListBasicProp BasicPropType="damage_series_resist" BasicPropPA1Min="100" BasicPropPA1Max="100" BasicPropPA2Min="-1" BasicPropPA2Max="-1"
+      BasicPropPA3Min="-1" BasicPropPA3Max="-1" Index="1" />
+    <ListBasicProp BasicPropType="seriesabate" BasicPropPA1Min="135" BasicPropPA1Max="135" BasicPropPA2Min="-1" BasicPropPA2Max="-1"
+      BasicPropPA3Min="-1" BasicPropPA3Max="-1" Index="2" />
+    <ListBasicProp BasicPropType="defencedeadlystrikedamagetrim" BasicPropPA1Min="15" BasicPropPA1Max="15" BasicPropPA2Min="-1" BasicPropPA2Max="-1"
+      BasicPropPA3Min="-1" BasicPropPA3Max="-1" Index="3" />
+    <UnLockInterval>-1</UnLockInterval>
+  </ItemData>
+  <ItemData ItemID="25125" Name="Mũ Đồng Hành - Đơn Tâm" IconBundleDir="Icon/EquipIcon2.unity3d" IconAtlasName="EquipIcon2"
+    MapSpriteBundleDir="Resources/Item/MapSprite.unity3d" MapSpriteAtlasName="MapSprite"
+    Kind="Trang bị cam PVP_Trường Sinh Phát Kết (Khí Võ, Côn Lôn)" QualityPrefix="5" Category="1" Genre="2" Stack="1" DetailType="21"
+    ParticularType="1000" Level="9" SuiteID="0" Icon="DT_mu" View="DT_mu" Intro="" Help="" ObjID="19" BindType="2" Series="5"
+    ReqLevel="0" CDType="0" Price="30000000" ItemValue="30000000" MakeCost="-1" ResMale="-1" ResFemale="-1" FightPower="1" ScriptID="-1"
+    DeductOnUse="false" BuffID="-1">
+    <ListBasicProp BasicPropType="damage_series_resist" BasicPropPA1Min="150" BasicPropPA1Max="150" BasicPropPA2Min="-1" BasicPropPA2Max="-1"
+      BasicPropPA3Min="-1" BasicPropPA3Max="-1" Index="1" />
+    <ListBasicProp BasicPropType="seriesabate" BasicPropPA1Min="205" BasicPropPA1Max="205" BasicPropPA2Min="-1" BasicPropPA2Max="-1"
+      BasicPropPA3Min="-1" BasicPropPA3Max="-1" Index="2" />
+    <ListBasicProp BasicPropType="defencedeadlystrikedamagetrim" BasicPropPA1Min="20" BasicPropPA1Max="20" BasicPropPA2Min="-1" BasicPropPA2Max="-1"
+      BasicPropPA3Min="-1" BasicPropPA3Max="-1" Index="3" />
+    <UnLockInterval>-1</UnLockInterval>
+  </ItemData>
+  <ItemData ItemID="25126" Name="Mũ Đồng Hành - Long Đằng" IconBundleDir="Icon/EquipIcon2.unity3d" IconAtlasName="EquipIcon2"
+    MapSpriteBundleDir="Resources/Item/MapSprite.unity3d" MapSpriteAtlasName="MapSprite"
+    Kind="Trang bị cam PVP_Trường Sinh Phát Kết (Khí Võ, Côn Lôn)" QualityPrefix="5" Category="1" Genre="2" Stack="1" DetailType="21"
+    ParticularType="1000" Level="10" SuiteID="0" Icon="LD_mu" View="LD_mu" Intro="" Help="" ObjID="19" BindType="2" Series="5"
+    ReqLevel="0" CDType="0" Price="40000000" ItemValue="40000000" MakeCost="-1" ResMale="-1" ResFemale="-1" FightPower="1" ScriptID="-1"
+    DeductOnUse="false" BuffID="-1">
+    <ListBasicProp BasicPropType="damage_series_resist" BasicPropPA1Min="200" BasicPropPA1Max="200" BasicPropPA2Min="-1" BasicPropPA2Max="-1"
+      BasicPropPA3Min="-1" BasicPropPA3Max="-1" Index="1" />
+    <ListBasicProp BasicPropType="seriesabate" BasicPropPA1Min="265" BasicPropPA1Max="265" BasicPropPA2Min="-1" BasicPropPA2Max="-1"
+      BasicPropPA3Min="-1" BasicPropPA3Max="-1" Index="2" />
+    <ListBasicProp BasicPropType="defencedeadlystrikedamagetrim" BasicPropPA1Min="30" BasicPropPA1Max="30" BasicPropPA2Min="-1" BasicPropPA2Max="-1"
+      BasicPropPA3Min="-1" BasicPropPA3Max="-1" Index="3" />
+    <UnLockInterval>-1</UnLockInterval>
+  </ItemData>
+
+  <ItemData ItemID="25199" Name="Mũ Đồng Hành - Bích Huyết [Kháng Băng]" IconBundleDir="Icon/EquipIcon2.unity3d" IconAtlasName="EquipIcon2"
+    MapSpriteBundleDir="Resources/Item/MapSprite.unity3d" MapSpriteAtlasName="MapSprite"
+    Kind="Trang bị cam PVP_Trường Sinh Phát Kết (Khí Võ, Côn Lôn)" QualityPrefix="5" Category="1" Genre="2" Stack="1" DetailType="21"
+    ParticularType="1000" Level="7" SuiteID="0" Icon="BH_mu" View="BH_mu" Intro="" Help="" ObjID="19" BindType="2" Series="5" ReqLevel="0" CDType="0"
+    Price="10000000" ItemValue="10000000" MakeCost="-1" ResMale="-1" ResFemale="-1" FightPower="1" ScriptID="-1" DeductOnUse="false" BuffID="-1">
+    <ListBasicProp BasicPropType="damage_cold_resist" BasicPropPA1Min="50" BasicPropPA1Max="50" BasicPropPA2Min="-1" BasicPropPA2Max="-1"
+      BasicPropPA3Min="-1" BasicPropPA3Max="-1" Index="1" />
+    <ListBasicProp BasicPropType="defencedeadlystrikedamagetrim" BasicPropPA1Min="10" BasicPropPA1Max="10" BasicPropPA2Min="-1" BasicPropPA2Max="-1"
+      BasicPropPA3Min="-1" BasicPropPA3Max="-1" Index="2" />
+    <UnLockInterval>-1</UnLockInterval>
+  </ItemData>
+  <ItemData ItemID="25200" Name="Mũ Đồng Hành - Kim Lân [Kháng Băng]" IconBundleDir="Icon/EquipIcon2.unity3d" IconAtlasName="EquipIcon2"
+    MapSpriteBundleDir="Resources/Item/MapSprite.unity3d" MapSpriteAtlasName="MapSprite"
+    Kind="Trang bị cam PVP_Trường Sinh Phát Kết (Khí Võ, Côn Lôn)" QualityPrefix="5" Category="1" Genre="2" Stack="1" DetailType="21"
+    ParticularType="1000" Level="8" SuiteID="0" Icon="KL_mu" View="KL_mu" Intro="" Help="" ObjID="19" BindType="2" Series="5"
+    ReqLevel="0" CDType="0" Price="20000000" ItemValue="20000000" MakeCost="-1" ResMale="-1" ResFemale="-1" FightPower="1" ScriptID="-1"
+    DeductOnUse="false" BuffID="-1">
+    <ListBasicProp BasicPropType="damage_cold_resist" BasicPropPA1Min="100" BasicPropPA1Max="100" BasicPropPA2Min="-1" BasicPropPA2Max="-1"
+      BasicPropPA3Min="-1" BasicPropPA3Max="-1" Index="1" />
+    <ListBasicProp BasicPropType="defencedeadlystrikedamagetrim" BasicPropPA1Min="15" BasicPropPA1Max="15" BasicPropPA2Min="-1" BasicPropPA2Max="-1"
+      BasicPropPA3Min="-1" BasicPropPA3Max="-1" Index="2" />
+    <UnLockInterval>-1</UnLockInterval>
+  </ItemData>
+  <ItemData ItemID="25201" Name="Mũ Đồng Hành - Đơn Tâm [Kháng Băng]" IconBundleDir="Icon/EquipIcon2.unity3d" IconAtlasName="EquipIcon2"
+    MapSpriteBundleDir="Resources/Item/MapSprite.unity3d" MapSpriteAtlasName="MapSprite"
+    Kind="Trang bị cam PVP_Trường Sinh Phát Kết (Khí Võ, Côn Lôn)" QualityPrefix="5" Category="1" Genre="2" Stack="1" DetailType="21"
+    ParticularType="1000" Level="9" SuiteID="0" Icon="DT_mu" View="DT_mu" Intro="" Help="" ObjID="19" BindType="2" Series="5"
+    ReqLevel="0" CDType="0" Price="30000000" ItemValue="30000000" MakeCost="-1" ResMale="-1" ResFemale="-1" FightPower="1" ScriptID="-1"
+    DeductOnUse="false" BuffID="-1">
+    <ListBasicProp BasicPropType="damage_cold_resist" BasicPropPA1Min="150" BasicPropPA1Max="150" BasicPropPA2Min="-1" BasicPropPA2Max="-1"
+      BasicPropPA3Min="-1" BasicPropPA3Max="-1" Index="1" />
+    <ListBasicProp BasicPropType="defencedeadlystrikedamagetrim" BasicPropPA1Min="20" BasicPropPA1Max="20" BasicPropPA2Min="-1" BasicPropPA2Max="-1"
+      BasicPropPA3Min="-1" BasicPropPA3Max="-1" Index="2" />
+    <UnLockInterval>-1</UnLockInterval>
+  </ItemData>
+  <ItemData ItemID="25202" Name="Mũ Đồng Hành - Long Đằng [Kháng Băng]" IconBundleDir="Icon/EquipIcon2.unity3d" IconAtlasName="EquipIcon2"
+    MapSpriteBundleDir="Resources/Item/MapSprite.unity3d" MapSpriteAtlasName="MapSprite"
+    Kind="Trang bị cam PVP_Trường Sinh Phát Kết (Khí Võ, Côn Lôn)" QualityPrefix="5" Category="1" Genre="2" Stack="1" DetailType="21"
+    ParticularType="1000" Level="10" SuiteID="0" Icon="LD_mu" View="LD_mu" Intro="" Help="" ObjID="19" BindType="2" Series="5"
+    ReqLevel="0" CDType="0" Price="40000000" ItemValue="40000000" MakeCost="-1" ResMale="-1" ResFemale="-1" FightPower="1" ScriptID="-1"
+    DeductOnUse="false" BuffID="-1">
+    <ListBasicProp BasicPropType="damage_cold_resist" BasicPropPA1Min="200" BasicPropPA1Max="200" BasicPropPA2Min="-1" BasicPropPA2Max="-1"
+      BasicPropPA3Min="-1" BasicPropPA3Max="-1" Index="1" />
+    <ListBasicProp BasicPropType="defencedeadlystrikedamagetrim" BasicPropPA1Min="30" BasicPropPA1Max="30" BasicPropPA2Min="-1" BasicPropPA2Max="-1"
+      BasicPropPA3Min="-1" BasicPropPA3Max="-1" Index="2" />
+    <UnLockInterval>-1</UnLockInterval>
+  </ItemData>
+
+  <ItemData ItemID="25203" Name="Mũ Đồng Hành - Bích Huyết [Kháng Hỏa]" IconBundleDir="Icon/EquipIcon2.unity3d" IconAtlasName="EquipIcon2"
+    MapSpriteBundleDir="Resources/Item/MapSprite.unity3d" MapSpriteAtlasName="MapSprite"
+    Kind="Trang bị cam PVP_Trường Sinh Phát Kết (Khí Võ, Côn Lôn)" QualityPrefix="5" Category="1" Genre="2" Stack="1" DetailType="21"
+    ParticularType="1000" Level="7" SuiteID="0" Icon="BH_mu" View="BH_mu" Intro="" Help="" ObjID="19" BindType="2" Series="5" ReqLevel="0" CDType="0"
+    Price="10000000" ItemValue="10000000" MakeCost="-1" ResMale="-1" ResFemale="-1" FightPower="1" ScriptID="-1" DeductOnUse="false" BuffID="-1">
+    <ListBasicProp BasicPropType="damage_fire_resist" BasicPropPA1Min="50" BasicPropPA1Max="50" BasicPropPA2Min="-1" BasicPropPA2Max="-1"
+      BasicPropPA3Min="-1" BasicPropPA3Max="-1" Index="1" />
+    <ListBasicProp BasicPropType="defencedeadlystrikedamagetrim" BasicPropPA1Min="10" BasicPropPA1Max="10" BasicPropPA2Min="-1" BasicPropPA2Max="-1"
+      BasicPropPA3Min="-1" BasicPropPA3Max="-1" Index="2" />
+    <UnLockInterval>-1</UnLockInterval>
+  </ItemData>
+  <ItemData ItemID="25204" Name="Mũ Đồng Hành - Kim Lân [Kháng Hỏa]" IconBundleDir="Icon/EquipIcon2.unity3d" IconAtlasName="EquipIcon2"
+    MapSpriteBundleDir="Resources/Item/MapSprite.unity3d" MapSpriteAtlasName="MapSprite"
+    Kind="Trang bị cam PVP_Trường Sinh Phát Kết (Khí Võ, Côn Lôn)" QualityPrefix="5" Category="1" Genre="2" Stack="1" DetailType="21"
+    ParticularType="1000" Level="8" SuiteID="0" Icon="KL_mu" View="KL_mu" Intro="" Help="" ObjID="19" BindType="2" Series="5"
+    ReqLevel="0" CDType="0" Price="20000000" ItemValue="20000000" MakeCost="-1" ResMale="-1" ResFemale="-1" FightPower="1" ScriptID="-1"
+    DeductOnUse="false" BuffID="-1">
+    <ListBasicProp BasicPropType="damage_fire_resist" BasicPropPA1Min="100" BasicPropPA1Max="100" BasicPropPA2Min="-1" BasicPropPA2Max="-1"
+      BasicPropPA3Min="-1" BasicPropPA3Max="-1" Index="1" />
+    <ListBasicProp BasicPropType="defencedeadlystrikedamagetrim" BasicPropPA1Min="15" BasicPropPA1Max="15" BasicPropPA2Min="-1" BasicPropPA2Max="-1"
+      BasicPropPA3Min="-1" BasicPropPA3Max="-1" Index="2" />
+    <UnLockInterval>-1</UnLockInterval>
+  </ItemData>
+  <ItemData ItemID="25205" Name="Mũ Đồng Hành - Đơn Tâm [Kháng Hỏa]" IconBundleDir="Icon/EquipIcon2.unity3d" IconAtlasName="EquipIcon2"
+    MapSpriteBundleDir="Resources/Item/MapSprite.unity3d" MapSpriteAtlasName="MapSprite"
+    Kind="Trang bị cam PVP_Trường Sinh Phát Kết (Khí Võ, Côn Lôn)" QualityPrefix="5" Category="1" Genre="2" Stack="1" DetailType="21"
+    ParticularType="1000" Level="9" SuiteID="0" Icon="DT_mu" View="DT_mu" Intro="" Help="" ObjID="19" BindType="2" Series="5"
+    ReqLevel="0" CDType="0" Price="30000000" ItemValue="30000000" MakeCost="-1" ResMale="-1" ResFemale="-1" FightPower="1" ScriptID="-1"
+    DeductOnUse="false" BuffID="-1">
+    <ListBasicProp BasicPropType="damage_fire_resist" BasicPropPA1Min="150" BasicPropPA1Max="150" BasicPropPA2Min="-1" BasicPropPA2Max="-1"
+      BasicPropPA3Min="-1" BasicPropPA3Max="-1" Index="1" />
+    <ListBasicProp BasicPropType="defencedeadlystrikedamagetrim" BasicPropPA1Min="20" BasicPropPA1Max="20" BasicPropPA2Min="-1" BasicPropPA2Max="-1"
+      BasicPropPA3Min="-1" BasicPropPA3Max="-1" Index="2" />
+    <UnLockInterval>-1</UnLockInterval>
+  </ItemData>
+  <ItemData ItemID="25206" Name="Mũ Đồng Hành - Long Đằng [Kháng Hỏa]" IconBundleDir="Icon/EquipIcon2.unity3d" IconAtlasName="EquipIcon2"
+    MapSpriteBundleDir="Resources/Item/MapSprite.unity3d" MapSpriteAtlasName="MapSprite"
+    Kind="Trang bị cam PVP_Trường Sinh Phát Kết (Khí Võ, Côn Lôn)" QualityPrefix="5" Category="1" Genre="2" Stack="1" DetailType="21"
+    ParticularType="1000" Level="10" SuiteID="0" Icon="LD_mu" View="LD_mu" Intro="" Help="" ObjID="19" BindType="2" Series="5"
+    ReqLevel="0" CDType="0" Price="40000000" ItemValue="40000000" MakeCost="-1" ResMale="-1" ResFemale="-1" FightPower="1" ScriptID="-1"
+    DeductOnUse="false" BuffID="-1">
+    <ListBasicProp BasicPropType="damage_fire_resist" BasicPropPA1Min="200" BasicPropPA1Max="200" BasicPropPA2Min="-1" BasicPropPA2Max="-1"
+      BasicPropPA3Min="-1" BasicPropPA3Max="-1" Index="1" />
+    <ListBasicProp BasicPropType="defencedeadlystrikedamagetrim" BasicPropPA1Min="30" BasicPropPA1Max="30" BasicPropPA2Min="-1" BasicPropPA2Max="-1"
+      BasicPropPA3Min="-1" BasicPropPA3Max="-1" Index="2" />
+    <UnLockInterval>-1</UnLockInterval>
+  </ItemData>
+
+  <ItemData ItemID="25207" Name="Mũ Đồng Hành - Bích Huyết [Kháng Lôi]" IconBundleDir="Icon/EquipIcon2.unity3d" IconAtlasName="EquipIcon2"
+    MapSpriteBundleDir="Resources/Item/MapSprite.unity3d" MapSpriteAtlasName="MapSprite"
+    Kind="Trang bị cam PVP_Trường Sinh Phát Kết (Khí Võ, Côn Lôn)" QualityPrefix="5" Category="1" Genre="2" Stack="1" DetailType="21"
+    ParticularType="1000" Level="7" SuiteID="0" Icon="BH_mu" View="BH_mu" Intro="" Help="" ObjID="19" BindType="2" Series="5" ReqLevel="0" CDType="0"
+    Price="10000000" ItemValue="10000000" MakeCost="-1" ResMale="-1" ResFemale="-1" FightPower="1" ScriptID="-1" DeductOnUse="false" BuffID="-1">
+    <ListBasicProp BasicPropType="damage_light_resist" BasicPropPA1Min="50" BasicPropPA1Max="50" BasicPropPA2Min="-1" BasicPropPA2Max="-1"
+      BasicPropPA3Min="-1" BasicPropPA3Max="-1" Index="1" />
+    <ListBasicProp BasicPropType="defencedeadlystrikedamagetrim" BasicPropPA1Min="10" BasicPropPA1Max="10" BasicPropPA2Min="-1" BasicPropPA2Max="-1"
+      BasicPropPA3Min="-1" BasicPropPA3Max="-1" Index="2" />
+    <UnLockInterval>-1</UnLockInterval>
+  </ItemData>
+  <ItemData ItemID="25208" Name="Mũ Đồng Hành - Kim Lân [Kháng Lôi]" IconBundleDir="Icon/EquipIcon2.unity3d" IconAtlasName="EquipIcon2"
+    MapSpriteBundleDir="Resources/Item/MapSprite.unity3d" MapSpriteAtlasName="MapSprite"
+    Kind="Trang bị cam PVP_Trường Sinh Phát Kết (Khí Võ, Côn Lôn)" QualityPrefix="5" Category="1" Genre="2" Stack="1" DetailType="21"
+    ParticularType="1000" Level="8" SuiteID="0" Icon="KL_mu" View="KL_mu" Intro="" Help="" ObjID="19" BindType="2" Series="5"
+    ReqLevel="0" CDType="0" Price="20000000" ItemValue="20000000" MakeCost="-1" ResMale="-1" ResFemale="-1" FightPower="1" ScriptID="-1"
+    DeductOnUse="false" BuffID="-1">
+    <ListBasicProp BasicPropType="damage_light_resist" BasicPropPA1Min="100" BasicPropPA1Max="100" BasicPropPA2Min="-1" BasicPropPA2Max="-1"
+      BasicPropPA3Min="-1" BasicPropPA3Max="-1" Index="1" />
+    <ListBasicProp BasicPropType="defencedeadlystrikedamagetrim" BasicPropPA1Min="15" BasicPropPA1Max="15" BasicPropPA2Min="-1" BasicPropPA2Max="-1"
+      BasicPropPA3Min="-1" BasicPropPA3Max="-1" Index="2" />
+    <UnLockInterval>-1</UnLockInterval>
+  </ItemData>
+  <ItemData ItemID="25209" Name="Mũ Đồng Hành - Đơn Tâm [Kháng Lôi]" IconBundleDir="Icon/EquipIcon2.unity3d" IconAtlasName="EquipIcon2"
+    MapSpriteBundleDir="Resources/Item/MapSprite.unity3d" MapSpriteAtlasName="MapSprite"
+    Kind="Trang bị cam PVP_Trường Sinh Phát Kết (Khí Võ, Côn Lôn)" QualityPrefix="5" Category="1" Genre="2" Stack="1" DetailType="21"
+    ParticularType="1000" Level="9" SuiteID="0" Icon="DT_mu" View="DT_mu" Intro="" Help="" ObjID="19" BindType="2" Series="5"
+    ReqLevel="0" CDType="0" Price="30000000" ItemValue="30000000" MakeCost="-1" ResMale="-1" ResFemale="-1" FightPower="1" ScriptID="-1"
+    DeductOnUse="false" BuffID="-1">
+    <ListBasicProp BasicPropType="damage_light_resist" BasicPropPA1Min="150" BasicPropPA1Max="150" BasicPropPA2Min="-1" BasicPropPA2Max="-1"
+      BasicPropPA3Min="-1" BasicPropPA3Max="-1" Index="1" />
+    <ListBasicProp BasicPropType="defencedeadlystrikedamagetrim" BasicPropPA1Min="20" BasicPropPA1Max="20" BasicPropPA2Min="-1" BasicPropPA2Max="-1"
+      BasicPropPA3Min="-1" BasicPropPA3Max="-1" Index="2" />
+    <UnLockInterval>-1</UnLockInterval>
+  </ItemData>
+  <ItemData ItemID="25210" Name="Mũ Đồng Hành - Long Đằng [Kháng Lôi]" IconBundleDir="Icon/EquipIcon2.unity3d" IconAtlasName="EquipIcon2"
+    MapSpriteBundleDir="Resources/Item/MapSprite.unity3d" MapSpriteAtlasName="MapSprite"
+    Kind="Trang bị cam PVP_Trường Sinh Phát Kết (Khí Võ, Côn Lôn)" QualityPrefix="5" Category="1" Genre="2" Stack="1" DetailType="21"
+    ParticularType="1000" Level="10" SuiteID="0" Icon="LD_mu" View="LD_mu" Intro="" Help="" ObjID="19" BindType="2" Series="5"
+    ReqLevel="0" CDType="0" Price="40000000" ItemValue="40000000" MakeCost="-1" ResMale="-1" ResFemale="-1" FightPower="1" ScriptID="-1"
+    DeductOnUse="false" BuffID="-1">
+    <ListBasicProp BasicPropType="damage_light_resist" BasicPropPA1Min="200" BasicPropPA1Max="200" BasicPropPA2Min="-1" BasicPropPA2Max="-1"
+      BasicPropPA3Min="-1" BasicPropPA3Max="-1" Index="1" />
+    <ListBasicProp BasicPropType="defencedeadlystrikedamagetrim" BasicPropPA1Min="30" BasicPropPA1Max="30" BasicPropPA2Min="-1" BasicPropPA2Max="-1"
+      BasicPropPA3Min="-1" BasicPropPA3Max="-1" Index="2" />
+    <UnLockInterval>-1</UnLockInterval>
+  </ItemData>
+
+  <ItemData ItemID="25211" Name="Mũ Đồng Hành - Bích Huyết [Kháng Vật]" IconBundleDir="Icon/EquipIcon2.unity3d" IconAtlasName="EquipIcon2"
+    MapSpriteBundleDir="Resources/Item/MapSprite.unity3d" MapSpriteAtlasName="MapSprite"
+    Kind="Trang bị cam PVP_Trường Sinh Phát Kết (Khí Võ, Côn Lôn)" QualityPrefix="5" Category="1" Genre="2" Stack="1" DetailType="21"
+    ParticularType="1000" Level="7" SuiteID="0" Icon="BH_mu" View="BH_mu" Intro="" Help="" ObjID="19" BindType="2" Series="5"
+    ReqLevel="0" CDType="0" Price="10000000" ItemValue="10000000" MakeCost="-1" ResMale="-1" ResFemale="-1" FightPower="1" ScriptID="-1"
+    DeductOnUse="false" BuffID="-1">
+    <ListBasicProp BasicPropType="damage_physics_resist" BasicPropPA1Min="50" BasicPropPA1Max="50" BasicPropPA2Min="-1" BasicPropPA2Max="-1"
+      BasicPropPA3Min="-1" BasicPropPA3Max="-1" Index="1" />
+    <ListBasicProp BasicPropType="defencedeadlystrikedamagetrim" BasicPropPA1Min="10" BasicPropPA1Max="10" BasicPropPA2Min="-1" BasicPropPA2Max="-1"
+      BasicPropPA3Min="-1" BasicPropPA3Max="-1" Index="2" />
+    <UnLockInterval>-1</UnLockInterval>
+  </ItemData>
+  <ItemData ItemID="25212" Name="Mũ Đồng Hành - Kim Lân [Kháng Vật]" IconBundleDir="Icon/EquipIcon2.unity3d" IconAtlasName="EquipIcon2"
+    MapSpriteBundleDir="Resources/Item/MapSprite.unity3d" MapSpriteAtlasName="MapSprite"
+    Kind="Trang bị cam PVP_Trường Sinh Phát Kết (Khí Võ, Côn Lôn)" QualityPrefix="5" Category="1" Genre="2" Stack="1" DetailType="21"
+    ParticularType="1000" Level="8" SuiteID="0" Icon="KL_mu" View="KL_mu" Intro="" Help="" ObjID="19" BindType="2" Series="5"
+    ReqLevel="0" CDType="0" Price="20000000" ItemValue="20000000" MakeCost="-1" ResMale="-1" ResFemale="-1" FightPower="1" ScriptID="-1"
+    DeductOnUse="false" BuffID="-1">
+    <ListBasicProp BasicPropType="damage_physics_resist" BasicPropPA1Min="100" BasicPropPA1Max="100" BasicPropPA2Min="-1" BasicPropPA2Max="-1"
+      BasicPropPA3Min="-1" BasicPropPA3Max="-1" Index="1" />
+    <ListBasicProp BasicPropType="defencedeadlystrikedamagetrim" BasicPropPA1Min="15" BasicPropPA1Max="15" BasicPropPA2Min="-1" BasicPropPA2Max="-1"
+      BasicPropPA3Min="-1" BasicPropPA3Max="-1" Index="2" />
+    <UnLockInterval>-1</UnLockInterval>
+  </ItemData>
+  <ItemData ItemID="25213" Name="Mũ Đồng Hành - Đơn Tâm [Kháng Vật]" IconBundleDir="Icon/EquipIcon2.unity3d" IconAtlasName="EquipIcon2"
+    MapSpriteBundleDir="Resources/Item/MapSprite.unity3d" MapSpriteAtlasName="MapSprite"
+    Kind="Trang bị cam PVP_Trường Sinh Phát Kết (Khí Võ, Côn Lôn)" QualityPrefix="5" Category="1" Genre="2" Stack="1" DetailType="21"
+    ParticularType="1000" Level="9" SuiteID="0" Icon="DT_mu" View="DT_mu" Intro="" Help="" ObjID="19" BindType="2" Series="5"
+    ReqLevel="0" CDType="0" Price="30000000" ItemValue="30000000" MakeCost="-1" ResMale="-1" ResFemale="-1" FightPower="1" ScriptID="-1"
+    DeductOnUse="false" BuffID="-1">
+    <ListBasicProp BasicPropType="damage_physics_resist" BasicPropPA1Min="150" BasicPropPA1Max="150" BasicPropPA2Min="-1" BasicPropPA2Max="-1"
+      BasicPropPA3Min="-1" BasicPropPA3Max="-1" Index="1" />
+    <ListBasicProp BasicPropType="defencedeadlystrikedamagetrim" BasicPropPA1Min="20" BasicPropPA1Max="20" BasicPropPA2Min="-1" BasicPropPA2Max="-1"
+      BasicPropPA3Min="-1" BasicPropPA3Max="-1" Index="2" />
+    <UnLockInterval>-1</UnLockInterval>
+  </ItemData>
+  <ItemData ItemID="25214" Name="Mũ Đồng Hành - Long Đằng [Kháng Vật]" IconBundleDir="Icon/EquipIcon2.unity3d" IconAtlasName="EquipIcon2"
+    MapSpriteBundleDir="Resources/Item/MapSprite.unity3d" MapSpriteAtlasName="MapSprite"
+    Kind="Trang bị cam PVP_Trường Sinh Phát Kết (Khí Võ, Côn Lôn)" QualityPrefix="5" Category="1" Genre="2" Stack="1" DetailType="21"
+    ParticularType="1000" Level="10" SuiteID="0" Icon="LD_mu" View="LD_mu" Intro="" Help="" ObjID="19" BindType="2" Series="5"
+    ReqLevel="0" CDType="0" Price="40000000" ItemValue="40000000" MakeCost="-1" ResMale="-1" ResFemale="-1" FightPower="1" ScriptID="-1"
+    DeductOnUse="false" BuffID="-1">
+    <ListBasicProp BasicPropType="damage_physics_resist" BasicPropPA1Min="200" BasicPropPA1Max="200" BasicPropPA2Min="-1" BasicPropPA2Max="-1"
+      BasicPropPA3Min="-1" BasicPropPA3Max="-1" Index="1" />
+    <ListBasicProp BasicPropType="defencedeadlystrikedamagetrim" BasicPropPA1Min="30" BasicPropPA1Max="30" BasicPropPA2Min="-1" BasicPropPA2Max="-1"
+      BasicPropPA3Min="-1" BasicPropPA3Max="-1" Index="2" />
+    <UnLockInterval>-1</UnLockInterval>
+  </ItemData>
+
+  <ItemData ItemID="25215" Name="Mũ Đồng Hành - Bích Huyết [Kháng Độc]" IconBundleDir="Icon/EquipIcon2.unity3d" IconAtlasName="EquipIcon2"
+    MapSpriteBundleDir="Resources/Item/MapSprite.unity3d" MapSpriteAtlasName="MapSprite"
+    Kind="Trang bị cam PVP_Trường Sinh Phát Kết (Khí Võ, Côn Lôn)" QualityPrefix="5" Category="1" Genre="2" Stack="1" DetailType="21"
+    ParticularType="1000" Level="7" SuiteID="0" Icon="BH_mu" View="BH_mu" Intro="" Help="" ObjID="19" BindType="2" Series="5"
+    ReqLevel="0" CDType="0" Price="10000000" ItemValue="10000000" MakeCost="-1" ResMale="-1" ResFemale="-1" FightPower="1" ScriptID="-1"
+    DeductOnUse="false" BuffID="-1">
+    <ListBasicProp BasicPropType="damage_poison_resist" BasicPropPA1Min="50" BasicPropPA1Max="50" BasicPropPA2Min="-1" BasicPropPA2Max="-1"
+      BasicPropPA3Min="-1" BasicPropPA3Max="-1" Index="1" />
+    <ListBasicProp BasicPropType="defencedeadlystrikedamagetrim" BasicPropPA1Min="10" BasicPropPA1Max="10" BasicPropPA2Min="-1" BasicPropPA2Max="-1"
+      BasicPropPA3Min="-1" BasicPropPA3Max="-1" Index="2" />
+    <UnLockInterval>-1</UnLockInterval>
+  </ItemData>
+  <ItemData ItemID="25216" Name="Mũ Đồng Hành - Kim Lân [Kháng Độc]" IconBundleDir="Icon/EquipIcon2.unity3d" IconAtlasName="EquipIcon2"
+    MapSpriteBundleDir="Resources/Item/MapSprite.unity3d" MapSpriteAtlasName="MapSprite"
+    Kind="Trang bị cam PVP_Trường Sinh Phát Kết (Khí Võ, Côn Lôn)" QualityPrefix="5" Category="1" Genre="2" Stack="1" DetailType="21"
+    ParticularType="1000" Level="8" SuiteID="0" Icon="KL_mu" View="KL_mu" Intro="" Help="" ObjID="19" BindType="2" Series="5"
+    ReqLevel="0" CDType="0" Price="20000000" ItemValue="20000000" MakeCost="-1" ResMale="-1" ResFemale="-1" FightPower="1" ScriptID="-1"
+    DeductOnUse="false" BuffID="-1">
+    <ListBasicProp BasicPropType="damage_poison_resist" BasicPropPA1Min="100" BasicPropPA1Max="100" BasicPropPA2Min="-1" BasicPropPA2Max="-1"
+      BasicPropPA3Min="-1" BasicPropPA3Max="-1" Index="1" />
+    <ListBasicProp BasicPropType="defencedeadlystrikedamagetrim" BasicPropPA1Min="15" BasicPropPA1Max="15" BasicPropPA2Min="-1" BasicPropPA2Max="-1"
+      BasicPropPA3Min="-1" BasicPropPA3Max="-1" Index="2" />
+    <UnLockInterval>-1</UnLockInterval>
+  </ItemData>
+  <ItemData ItemID="25217" Name="Mũ Đồng Hành - Đơn Tâm [Kháng Độc]" IconBundleDir="Icon/EquipIcon2.unity3d" IconAtlasName="EquipIcon2"
+    MapSpriteBundleDir="Resources/Item/MapSprite.unity3d" MapSpriteAtlasName="MapSprite"
+    Kind="Trang bị cam PVP_Trường Sinh Phát Kết (Khí Võ, Côn Lôn)" QualityPrefix="5" Category="1" Genre="2" Stack="1" DetailType="21"
+    ParticularType="1000" Level="9" SuiteID="0" Icon="DT_mu" View="DT_mu" Intro="" Help="" ObjID="19" BindType="2" Series="5"
+    ReqLevel="0" CDType="0" Price="30000000" ItemValue="30000000" MakeCost="-1" ResMale="-1" ResFemale="-1" FightPower="1" ScriptID="-1"
+    DeductOnUse="false" BuffID="-1">
+    <ListBasicProp BasicPropType="damage_poison_resist" BasicPropPA1Min="150" BasicPropPA1Max="150" BasicPropPA2Min="-1" BasicPropPA2Max="-1"
+      BasicPropPA3Min="-1" BasicPropPA3Max="-1" Index="1" />
+    <ListBasicProp BasicPropType="defencedeadlystrikedamagetrim" BasicPropPA1Min="20" BasicPropPA1Max="20" BasicPropPA2Min="-1" BasicPropPA2Max="-1"
+      BasicPropPA3Min="-1" BasicPropPA3Max="-1" Index="2" />
+    <UnLockInterval>-1</UnLockInterval>
+  </ItemData>
+  <ItemData ItemID="25218" Name="Mũ Đồng Hành - Long Đằng [Kháng Độc]" IconBundleDir="Icon/EquipIcon2.unity3d" IconAtlasName="EquipIcon2"
+    MapSpriteBundleDir="Resources/Item/MapSprite.unity3d" MapSpriteAtlasName="MapSprite"
+    Kind="Trang bị cam PVP_Trường Sinh Phát Kết (Khí Võ, Côn Lôn)" QualityPrefix="5" Category="1" Genre="2" Stack="1" DetailType="21"
+    ParticularType="1000" Level="10" SuiteID="0" Icon="LD_mu" View="LD_mu" Intro="" Help="" ObjID="19" BindType="2" Series="5"
+    ReqLevel="0" CDType="0" Price="40000000" ItemValue="40000000" MakeCost="-1" ResMale="-1" ResFemale="-1" FightPower="1" ScriptID="-1"
+    DeductOnUse="false" BuffID="-1">
+    <ListBasicProp BasicPropType="damage_poison_resist" BasicPropPA1Min="200" BasicPropPA1Max="200" BasicPropPA2Min="-1" BasicPropPA2Max="-1"
+      BasicPropPA3Min="-1" BasicPropPA3Max="-1" Index="1" />
+    <ListBasicProp BasicPropType="defencedeadlystrikedamagetrim" BasicPropPA1Min="30" BasicPropPA1Max="30" BasicPropPA2Min="-1" BasicPropPA2Max="-1"
+      BasicPropPA3Min="-1" BasicPropPA3Max="-1" Index="2" />
+    <UnLockInterval>-1</UnLockInterval>
+  </ItemData>
+</ArrayOfItemData>

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<UuDaiDisplay TimeKey="UuDaiDisplay_NewServer">
+  <Reward Name="Hàng ngày 1 - 1 ADNXu" Limit="1" LimitType="ngày" Group="0">
+    <Item Id="15000" Count="10"/>
+    <Item Id="188" Count="1"/>
+    <Item Id="20537" Count="1"/>
+  </Reward>
+  <Reward Name="Hàng ngày 2 - 5 ADNXu" Limit="1" LimitType="ngày" Group="0">
+    <Item Id="15712" Count="10"/>
+    <Item Id="189" Count="1"/>
+    <Item Id="20690" Count="2"/>
+  </Reward>
+  <Reward Name="Hàng ngày 3 - 15 ADNXu" Limit="3" LimitType="ngày" Group="0">
+    <Item Id="21001" Count="1"/>
+  </Reward>
+  <Reward Name="Hàng ngày 4 - 30 ADNXu" Limit="5" LimitType="ngày" Group="0">
+    <Item Id="20270" Count="10"/>
+    <Item Id="1102" Count="20"/>
+    <Item Id="1057" Count="5"/>
+  </Reward>
+  <Reward Name="Hàng ngày 5 - 100 ADNXu" Limit="5" LimitType="ngày" Group="0">
+    <Item Id="20406" Count="6"/>
+    <Item Id="1102" Count="50"/>
+    <Item Id="1057" Count="10"/>
+  </Reward>
+  <Reward Name="Hàng ngày 6 - 200 ADNXu" Limit="5" LimitType="ngày" Group="0">
+    <Item Id="1026" Count="100"/>
+  </Reward>
+  <Reward Name="Hàng ngày 7 - 300 ADNXu" Limit="2" LimitType="tuần" Group="0">
+    <Item Id="819" Count="5"/>
+  </Reward>
+  <Reward Name="Hàng ngày 8 - 500 ADNXu" Limit="3" LimitType="tuần" Group="0">
+    <Item Id="20571" Count="1"/>
+  </Reward>
+  <Reward Name="Ngày - 0 ADNXu" Limit="1" LimitType="ngày" Group="1">
+    <Item Id="15000" Count="10"/>
+    <Item Id="188" Count="1"/>
+  </Reward>
+  <Reward Name="Ngày 1 - 0 ADNXu" Limit="1" LimitType="" Group="1">
+    <Item Id="1055" Count="5"/>
+    <Item Id="188" Count="1"/>
+  </Reward>
+  <Reward Name="Ngày 2 - 0 ADNXu" Limit="1" LimitType="" Group="1">
+    <Item Id="590" Count="2"/>
+    <Item Id="600" Count="2"/>
+  </Reward>
+  <Reward Name="Ngày 3 - 0 ADNXu" Limit="1" LimitType="" Group="1">
+    <Item Id="1057" Count="2"/>
+    <Item Id="1102" Count="5"/>
+  </Reward>
+  <Reward Name="Ngày 5 - 0 ADNXu" Limit="1" LimitType="" Group="1">
+    <Item Id="25235" Count="1"/>
+  </Reward>
+  <Reward Name="Ngày 7 - 0 ADNXu" Limit="1" LimitType="" Group="1">
+    <Item Id="1026" Count="20"/>
+  </Reward>
+</UuDaiDisplay>

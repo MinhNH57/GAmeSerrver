@@ -1,0 +1,142 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<DanPhong>
+    <damge_type>
+        <item name="Vật"/>
+        <item name="Hỏa"/>
+        <item name="Băng"/>
+        <item name="Lôi"/>
+        <item name="Độc"/>
+    </damge_type>
+    <ui description="Chế tạo {0} giúp tăng &lt;color=yellow&gt;&lt;b&gt;5&lt;/b&gt;&lt;/color&gt; điểm kháng (công thẳng) vào chỉ số của nhân vật"
+        pack_description="{0} có thể luyện: &lt;color=yellow&gt;{1}/{2}&lt;/color&gt;"
+        error_item_message="Không đủ nguyên liệu {0} và {1}, vui lòng mua thêm ở cửa hàng Sự Kiện"
+        error_out_created="Số lương {0} đã đạt tối đa, vui lòng chọn đan phòng khác để chế tạo"
+    />
+    <list>
+        <item id="300" name="Băng Phòng Đan" ui_name="&lt;color=#33F3FF&gt;Băng&lt;/color&gt; Phòng Đan"
+              description="Kháng Băng đã nhận từ Băng Phòng Đan: &lt;color=yellow&gt;{0}&lt;/color&gt;">
+            <pack id="301" name="Băng Phòng Đan[1]" materials="20774,20773" number="2,2" output="0,0,5,0,0" max="2"/>
+            <pack id="302" name="Băng Phòng Đan[2]" materials="20566,20567" number="2,2" output="0,0,5,0,0" max="2"/>
+            <pack id="303" name="Băng Phòng Đan[3]" materials="20639,20640" number="2,2" output="0,0,5,0,0" max="2"/>
+            <pack id="304" name="Băng Phòng Đan[4]" materials="20613,20614" number="2,2" output="0,0,5,0,0" max="2"/>
+            <pack id="305" name="Băng Phòng Đan[5]" materials="20475,20474" number="2,2" output="0,0,5,0,0" max="2"/>
+            <pack id="306" name="Băng Phòng Đan[6]" materials="20654,20655" number="2,2" output="0,0,5,0,0" max="2"/>
+            <pack id="307" name="Băng Phòng Đan[7]" materials="20686,20687" number="2,2" output="0,0,5,0,0" max="2"/>
+            <pack id="308" name="Băng Phòng Đan[8]" materials="20704,20705" number="2,2" output="0,0,5,0,0" max="2"/>
+            <pack id="309" name="Băng Phòng Đan[9]" materials="20757,20756" number="2,2" output="0,0,5,0,0" max="2"/>
+            <pack id="310" name="Băng Phòng Đan[10]" materials="20740,20739" number="2,2" output="0,0,5,0,0" max="2"/>
+            <pack id="311" name="Băng Phòng Đan[11]" materials="20722,20721" number="2,2" output="0,0,5,0,0" max="2"/>
+            <pack id="312" name="Băng Phòng Đan[12]" materials="20593,20594" number="2,2" output="0,0,5,0,0" max="2"/>
+            <pack id="313" name="Băng Phòng Đan[13]" materials="20355,20356" number="2,2" output="0,0,5,0,0" max="2"/>
+            <pack id="314" name="Băng Phòng Đan[14]" materials="15179,15180" number="2,2" output="0,0,5,0,0" max="2"/>
+            <pack id="315" name="Băng Phòng Đan[15]" materials="20085,20086" number="2,2" output="0,0,5,0,0" max="2"/>
+            <pack id="316" name="Băng Phòng Đan[16]" materials="20305,20306" number="2,2" output="0,0,5,0,0" max="2"/>
+            <pack id="317" name="Băng Phòng Đan[17]" materials="20049,20050" number="2,2" output="0,0,5,0,0" max="2"/>
+            <pack id="318" name="Băng Phòng Đan[18]" materials="15707,15708" number="2,2" output="0,0,5,0,0" max="2"/>
+            <pack id="319" name="Băng Phòng Đan[19]" materials="20266,20267" number="2,2" output="0,0,5,0,0" max="2"/>
+            <pack id="320" name="Băng Phòng Đan[20]" materials="20217,20218" number="2,2" output="0,0,5,0,0" max="2"/>
+            <pack id="321" name="Băng Phòng Đan[21]" materials="20118,20119" number="2,2" output="0,0,5,0,0" max="2"/>
+            <pack id="322" name="Băng Phòng Đan[22]" materials="20791,20792" number="2,2" output="0,0,5,0,0" max="2"/>
+        </item>
+        <item id="200" name="Hỏa Phòng Đan" ui_name="&lt;color=#FF4D33&gt;Hỏa&lt;/color&gt; Phòng Đan" 
+              description="Kháng Hỏa đã nhận từ Hỏa Phòng Đan: &lt;color=yellow&gt;{0}&lt;/color&gt;">
+            <pack id="201" name="Hỏa Phòng Đan[1]" materials="20774,20773" number="2,2" output="0,5,0,0,0" max="2"/>
+            <pack id="202" name="Hỏa Phòng Đan[2]" materials="20566,20567" number="2,2" output="0,5,0,0,0" max="2"/>
+            <pack id="203" name="Hỏa Phòng Đan[3]" materials="20639,20640" number="2,2" output="0,5,0,0,0" max="2"/>
+            <pack id="204" name="Hỏa Phòng Đan[4]" materials="20613,20614" number="2,2" output="0,5,0,0,0" max="2"/>
+            <pack id="205" name="Hỏa Phòng Đan[5]" materials="20475,20474" number="2,2" output="0,5,0,0,0" max="2"/>
+            <pack id="206" name="Hỏa Phòng Đan[6]" materials="20654,20655" number="2,2" output="0,5,0,0,0" max="2"/>
+            <pack id="207" name="Hỏa Phòng Đan[7]" materials="20686,20687" number="2,2" output="0,5,0,0,0" max="2"/>
+            <pack id="208" name="Hỏa Phòng Đan[8]" materials="20704,20705" number="2,2" output="0,5,0,0,0" max="2"/>
+            <pack id="209" name="Hỏa Phòng Đan[9]" materials="20757,20756" number="2,2" output="0,5,0,0,0" max="2"/>
+            <pack id="210" name="Hỏa Phòng Đan[10]" materials="20740,20739" number="2,2" output="0,5,0,0,0" max="2"/>
+            <pack id="211" name="Hỏa Phòng Đan[11]" materials="20722,20721" number="2,2" output="0,5,0,0,0" max="2"/>
+            <pack id="212" name="Hỏa Phòng Đan[12]" materials="20593,20594" number="2,2" output="0,5,0,0,0" max="2"/>
+            <pack id="213" name="Hỏa Phòng Đan[13]" materials="20355,20356" number="2,2" output="0,5,0,0,0" max="2"/>
+            <pack id="214" name="Hỏa Phòng Đan[14]" materials="15179,15180" number="2,2" output="0,5,0,0,0" max="2"/>
+            <pack id="215" name="Hỏa Phòng Đan[15]" materials="20085,20086" number="2,2" output="0,5,0,0,0" max="2"/>
+            <pack id="216" name="Hỏa Phòng Đan[16]" materials="20305,20306" number="2,2" output="0,5,0,0,0" max="2"/>
+            <pack id="217" name="Hỏa Phòng Đan[17]" materials="20049,20050" number="2,2" output="0,5,0,0,0" max="2"/>
+            <pack id="218" name="Hỏa Phòng Đan[18]" materials="15707,15708" number="2,2" output="0,5,0,0,0" max="2"/>
+            <pack id="219" name="Hỏa Phòng Đan[19]" materials="20266,20267" number="2,2" output="0,5,0,0,0" max="2"/>
+            <pack id="220" name="Hỏa Phòng Đan[20]" materials="20217,20218" number="2,2" output="0,5,0,0,0" max="2"/>
+            <pack id="221" name="Hỏa Phòng Đan[21]" materials="20118,20119" number="2,2" output="0,5,0,0,0" max="2"/>
+            <pack id="222" name="Hỏa Phòng Đan[22]" materials="20791,20792" number="2,2" output="0,5,0,0,0" max="2"/>
+        </item>
+        <item id="400" name="Lôi Phòng Đan" ui_name="&lt;color=#FF33EA&gt;Lôi&lt;/color&gt; Phòng Đan"
+              description="Kháng Lôi đã nhận từ Lôi Phòng Đan: &lt;color=yellow&gt;{0}&lt;/color&gt;">
+            <pack id="401" name="Lôi Phòng Đan[1]" materials="20774,20773" number="2,2" output="0,0,0,5,0" max="2"/>
+            <pack id="402" name="Lôi Phòng Đan[2]" materials="20566,20567" number="2,2" output="0,0,0,5,0" max="2"/>
+            <pack id="403" name="Lôi Phòng Đan[3]" materials="20639,20640" number="2,2" output="0,0,0,5,0" max="2"/>
+            <pack id="404" name="Lôi Phòng Đan[4]" materials="20613,20614" number="2,2" output="0,0,0,5,0" max="2"/>
+            <pack id="405" name="Lôi Phòng Đan[5]" materials="20475,20474" number="2,2" output="0,0,0,5,0" max="2"/>
+            <pack id="406" name="Lôi Phòng Đan[6]" materials="20654,20655" number="2,2" output="0,0,0,5,0" max="2"/>
+            <pack id="407" name="Lôi Phòng Đan[7]" materials="20686,20687" number="2,2" output="0,0,0,5,0" max="2"/>
+            <pack id="408" name="Lôi Phòng Đan[8]" materials="20704,20705" number="2,2" output="0,0,0,5,0" max="2"/>
+            <pack id="409" name="Lôi Phòng Đan[9]" materials="20757,20756" number="2,2" output="0,0,0,5,0" max="2"/>
+            <pack id="410" name="Lôi Phòng Đan[10]" materials="20740,20739" number="2,2" output="0,0,0,5,0" max="2"/>
+            <pack id="411" name="Lôi Phòng Đan[11]" materials="20722,20721" number="2,2" output="0,0,0,5,0" max="2"/>
+            <pack id="412" name="Lôi Phòng Đan[12]" materials="20593,20594" number="2,2" output="0,0,0,5,0" max="2"/>
+            <pack id="413" name="Lôi Phòng Đan[13]" materials="20355,20356" number="2,2" output="0,0,0,5,0" max="2"/>
+            <pack id="414" name="Lôi Phòng Đan[14]" materials="15179,15180" number="2,2" output="0,0,0,5,0" max="2"/>
+            <pack id="415" name="Lôi Phòng Đan[15]" materials="20085,20086" number="2,2" output="0,0,0,5,0" max="2"/>
+            <pack id="416" name="Lôi Phòng Đan[16]" materials="20305,20306" number="2,2" output="0,0,0,5,0" max="2"/>
+            <pack id="417" name="Lôi Phòng Đan[17]" materials="20049,20050" number="2,2" output="0,0,0,5,0" max="2"/>
+            <pack id="418" name="Lôi Phòng Đan[18]" materials="15707,15708" number="2,2" output="0,0,0,5,0" max="2"/>
+            <pack id="419" name="Lôi Phòng Đan[19]" materials="20266,20267" number="2,2" output="0,0,0,5,0" max="2"/>
+            <pack id="420" name="Lôi Phòng Đan[20]" materials="20217,20218" number="2,2" output="0,0,0,5,0" max="2"/>
+            <pack id="421" name="Lôi Phòng Đan[21]" materials="20118,20119" number="2,2" output="0,0,0,5,0" max="2"/>
+            <pack id="422" name="Lôi Phòng Đan[22]" materials="20791,20792" number="2,2" output="0,0,0,5,0" max="2"/>
+        </item>
+        <item id="100" name="Vật Phòng Đan" ui_name="&lt;color=#FFEA33&gt;Vật&lt;/color&gt; Phòng Đan"
+              description="Kháng Vật đã nhận từ Vật Phòng Đan: &lt;color=yellow&gt;{0}&lt;/color&gt;">
+            <pack id="101" name="Vật Phòng Đan[1]" materials="20774,20773" number="2,2" output="5,0,0,0,0" max="2"/>
+            <pack id="102" name="Vật Phòng Đan[2]" materials="20566,20567" number="2,2" output="5,0,0,0,0" max="2"/>
+            <pack id="103" name="Vật Phòng Đan[3]" materials="20639,20640" number="2,2" output="5,0,0,0,0" max="2"/>
+            <pack id="104" name="Vật Phòng Đan[4]" materials="20613,20614" number="2,2" output="5,0,0,0,0" max="2"/>
+            <pack id="105" name="Vật Phòng Đan[5]" materials="20475,20474" number="2,2" output="5,0,0,0,0" max="2"/>
+            <pack id="106" name="Vật Phòng Đan[6]" materials="20654,20655" number="2,2" output="5,0,0,0,0" max="2"/>
+            <pack id="107" name="Vật Phòng Đan[7]" materials="20686,20687" number="2,2" output="5,0,0,0,0" max="2"/>
+            <pack id="108" name="Vật Phòng Đan[8]" materials="20704,20705" number="2,2" output="5,0,0,0,0" max="2"/>
+            <pack id="109" name="Vật Phòng Đan[9]" materials="20757,20756" number="2,2" output="5,0,0,0,0" max="2"/>
+            <pack id="110" name="Vật Phòng Đan[10]" materials="20740,20739" number="2,2" output="5,0,0,0,0" max="2"/>
+            <pack id="111" name="Vật Phòng Đan[11]" materials="20722,20721" number="2,2" output="5,0,0,0,0" max="2"/>
+            <pack id="112" name="Vật Phòng Đan[12]" materials="20593,20594" number="2,2" output="5,0,0,0,0" max="2"/>
+            <pack id="113" name="Vật Phòng Đan[13]" materials="20355,20356" number="2,2" output="5,0,0,0,0" max="2"/>
+            <pack id="114" name="Vật Phòng Đan[14]" materials="15179,15180" number="2,2" output="5,0,0,0,0" max="2"/>
+            <pack id="115" name="Vật Phòng Đan[15]" materials="20085,20086" number="2,2" output="5,0,0,0,0" max="2"/>
+            <pack id="116" name="Vật Phòng Đan[16]" materials="20305,20306" number="2,2" output="5,0,0,0,0" max="2"/>
+            <pack id="117" name="Vật Phòng Đan[17]" materials="20049,20050" number="2,2" output="5,0,0,0,0" max="2"/>
+            <pack id="118" name="Vật Phòng Đan[18]" materials="15707,15708" number="2,2" output="5,0,0,0,0" max="2"/>
+            <pack id="119" name="Vật Phòng Đan[19]" materials="20266,20267" number="2,2" output="5,0,0,0,0" max="2"/>
+            <pack id="120" name="Vật Phòng Đan[20]" materials="20217,20218" number="2,2" output="5,0,0,0,0" max="2"/>
+            <pack id="121" name="Vật Phòng Đan[21]" materials="20118,20119" number="2,2" output="5,0,0,0,0" max="2"/>
+            <pack id="122" name="Vật Phòng Đan[22]" materials="20791,20792" number="2,2" output="5,0,0,0,0" max="2"/>
+        </item>
+        <item id="500" name="Độc Phòng Đan" ui_name="&lt;color=#33FF45&gt;Độc&lt;/color&gt; Phòng Đan"
+              description="Kháng Độc đã nhận từ Độc Phòng Đan: &lt;color=yellow&gt;{0}&lt;/color&gt;">
+            <pack id="501" name="Độc Phòng Đan[1]" materials="20774,20773" number="2,2" output="0,0,0,0,5" max="2"/>
+            <pack id="502" name="Độc Phòng Đan[2]" materials="20566,20567" number="2,2" output="0,0,0,0,5" max="2"/>
+            <pack id="503" name="Độc Phòng Đan[3]" materials="20639,20640" number="2,2" output="0,0,0,0,5" max="2"/>
+            <pack id="504" name="Độc Phòng Đan[4]" materials="20613,20614" number="2,2" output="0,0,0,0,5" max="2"/>
+            <pack id="505" name="Độc Phòng Đan[5]" materials="20475,20474" number="2,2" output="0,0,0,0,5" max="2"/>
+            <pack id="506" name="Độc Phòng Đan[6]" materials="20654,20655" number="2,2" output="0,0,0,0,5" max="2"/>
+            <pack id="507" name="Độc Phòng Đan[7]" materials="20686,20687" number="2,2" output="0,0,0,0,5" max="2"/>
+            <pack id="508" name="Độc Phòng Đan[8]" materials="20704,20705" number="2,2" output="0,0,0,0,5" max="2"/>
+            <pack id="509" name="Độc Phòng Đan[9]" materials="20757,20756" number="2,2" output="0,0,0,0,5" max="2"/>
+            <pack id="510" name="Độc Phòng Đan[10]" materials="20740,20739" number="2,2" output="0,0,0,0,5" max="2"/>
+            <pack id="511" name="Độc Phòng Đan[11]" materials="20722,20721" number="2,2" output="0,0,0,0,5" max="2"/>
+            <pack id="512" name="Độc Phòng Đan[12]" materials="20593,20594" number="2,2" output="0,0,0,0,5" max="2"/>
+            <pack id="513" name="Độc Phòng Đan[13]" materials="20355,20356" number="2,2" output="0,0,0,0,5" max="2"/>
+            <pack id="514" name="Độc Phòng Đan[14]" materials="15179,15180" number="2,2" output="0,0,0,0,5" max="2"/>
+            <pack id="515" name="Độc Phòng Đan[15]" materials="20085,20086" number="2,2" output="0,0,0,0,5" max="2"/>
+            <pack id="516" name="Độc Phòng Đan[16]" materials="20305,20306" number="2,2" output="0,0,0,0,5" max="2"/>
+            <pack id="517" name="Độc Phòng Đan[17]" materials="20049,20050" number="2,2" output="0,0,0,0,5" max="2"/>
+            <pack id="518" name="Độc Phòng Đan[18]" materials="15707,15708" number="2,2" output="0,0,0,0,5" max="2"/>
+            <pack id="519" name="Độc Phòng Đan[19]" materials="20266,20267" number="2,2" output="0,0,0,0,5" max="2"/>
+            <pack id="520" name="Độc Phòng Đan[20]" materials="20217,20218" number="2,2" output="0,0,0,0,5" max="2"/>
+            <pack id="521" name="Độc Phòng Đan[21]" materials="20118,20119" number="2,2" output="0,0,0,0,5" max="2"/>
+            <pack id="522" name="Độc Phòng Đan[22]" materials="20791,20792" number="2,2" output="0,0,0,0,5" max="2"/>
+        </item>
+    </list>
+</DanPhong>

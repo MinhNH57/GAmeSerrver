@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DaoTacDisplay TimeKey="DaoTacDisplay">
+
+    <Reward Name="Rương đạo tặc - Tinh Anh">
+        <Item Id="189" Count="1" />
+        <Item Id="190" Count="1" />
+        <Item Id="20270" Count="1" />
+        <Item Id="20406" Count="1" />
+        <Item Id="15005 " Count="1" />
+    </Reward>
+
+    <Reward Name="Rương đạo tặc - Thủ lĩnh">
+        <Item Id="191" Count="1" />
+        <Item Id="192" Count="1" />
+        <Item Id="20345" Count="1" />
+        <Item Id="20344" Count="1" />
+        <Item Id="582" Count="1" />
+    </Reward>
+
+    <Location Name="Cán Hoa Kê" GoTo="1208_90"/>
+    <Location Name="Thái Thạch Cơ" GoTo="827_92"/>
+    <Location Name="Đại Tán Quan" GoTo="552_87"/>
+
+</DaoTacDisplay>

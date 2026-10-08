@@ -1,0 +1,1106 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{F05B7877-D5BF-44F7-9190-D80E0C4A14AF}</ProjectGuid>
+    <OutputType>Exe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>GameServer</RootNamespace>
+    <AssemblyName>GameServer</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <TargetFrameworkProfile>
+    </TargetFrameworkProfile>
+    <FileAlignment>512</FileAlignment>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.0</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE;BetaConfigMy,ç§»æ¤,VERIFY</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+    <NoWarn>0618 0168 0219 0414 0162</NoWarn>
+    <Prefer32Bit>false</Prefer32Bit>
+    <DocumentationFile>
+    </DocumentationFile>
+    <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x64</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE;BetaConfigMy,ç§»æ¤,VERIFY</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject>
+    </StartupObject>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'æµ‹è¯•|x86'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\æµ‹è¯•\</OutputPath>
+    <DefineConstants>TRACE;DEBUG;BetaConfig</DefineConstants>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x64</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+    <UseVSHostingProcess>true</UseVSHostingProcess>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x64'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\x64\Debug\</OutputPath>
+    <DefineConstants>TRACE;DEBUG;</DefineConstants>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x64</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+    <Optimize>false</Optimize>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x64'">
+    <OutputPath>bin\x64\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <Optimize>true</Optimize>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x64</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+    <Prefer32Bit>false</Prefer32Bit>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'æµ‹è¯•|x64'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\x64\æµ‹è¯•\</OutputPath>
+    <DefineConstants>TRACE;DEBUG;BetaConfig</DefineConstants>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x64</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+    <Optimize>false</Optimize>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationManifest>app.manifest</ApplicationManifest>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="EntityFramework, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.2.0\lib\net45\EntityFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="JWT, Version=9.0.0.0, Culture=neutral, PublicKeyToken=6f98bca0f40f2ecf, processorArchitecture=MSIL">
+      <HintPath>..\packages\JWT.9.0.3\lib\net46\JWT.dll</HintPath>
+    </Reference>
+    <Reference Include="MoonSharp.Interpreter, Version=2.0.0.0, Culture=neutral, PublicKeyToken=921e73ce94aa17f8, processorArchitecture=MSIL">
+      <HintPath>..\packages\MoonSharp.2.0.0.0\lib\net40-client\MoonSharp.Interpreter.dll</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json, Version=13.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <HintPath>..\packages\Newtonsoft.Json.13.0.4\lib\net45\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="protobuf-net">
+      <HintPath>dlls\protobuf-net.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.configuration" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Management" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Numerics" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Security" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="UnityEngine, Version=0.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Unity3D.UnityEngine.2018.3.5.1\lib\UnityEngine.dll</HintPath>
+    </Reference>
+    <Reference Include="WindowsBase" />
+    <Reference Include="zlib.net, Version=1.0.3.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>dlls\zlib.net.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Diagnostics.DiagnosticSource, Version=7.0.0.2, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Diagnostics.DiagnosticSource.7.0.2\lib\net462\System.Diagnostics.DiagnosticSource.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Text.Json">
+      <HintPath>..\packages\System.Text.Json.4.7.0\lib\net461\System.Text.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Threading.Tasks.Extensions">
+      <HintPath>..\packages\System.Threading.Tasks.Extensions.4.5.2\lib\netstandard2.0\System.Threading.Tasks.Extensions.dll</HintPath>
+    </Reference>
+    <Reference Include="System.ValueTuple">
+      <HintPath>..\packages\System.ValueTuple.4.5.0\lib\net47\System.ValueTuple.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Memory">
+      <HintPath>..\packages\System.Memory.4.5.3\lib\netstandard2.0\System.Memory.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Buffers">
+      <HintPath>..\packages\System.Buffers.4.5.1\lib\net461\System.Buffers.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.CompilerServices.Unsafe">
+      <HintPath>..\packages\System.Runtime.CompilerServices.Unsafe.6.0.0\lib\net461\System.Runtime.CompilerServices.Unsafe.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Text.Encodings.Web">
+      <HintPath>..\packages\System.Text.Encodings.Web.4.7.0\lib\netstandard2.0\System.Text.Encodings.Web.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Bcl.AsyncInterfaces">
+      <HintPath>..\packages\Microsoft.Bcl.AsyncInterfaces.1.1.0\lib\net461\Microsoft.Bcl.AsyncInterfaces.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Numerics.Vectors">
+      <HintPath>..\packages\System.Numerics.Vectors.4.5.0\lib\net46\System.Numerics.Vectors.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Core\Executor\DelayAsyncTask.cs" />
+    <Compile Include="Core\Executor\ScheduleExecutor2.cs" />
+    <Compile Include="Core\GameEvent\EventOjectImpl\BachHoDuongJoinEventObject.cs" />
+    <Compile Include="Core\GameEvent\EventOjectImpl\BachHoDuongKillEventObject.cs" />
+    <Compile Include="Core\GameEvent\EventOjectImpl\BiCanhEventObject.cs" />
+    <Compile Include="Core\GameEvent\EventOjectImpl\EventComposeEventObject.cs" />
+    <Compile Include="Core\GameEvent\EventOjectImpl\ChangeGatherPointEventObject.cs" />
+    <Compile Include="Core\GameEvent\EventOjectImpl\ChanNguyenEnhanceEventObject.cs" />
+    <Compile Include="Core\GameEvent\EventOjectImpl\ChucPhucEventObject.cs" />
+    <Compile Include="Core\GameEvent\EventOjectImpl\CapturePetEventObject.cs" />
+    <Compile Include="Core\GameEvent\EventOjectImpl\EnhanceArmorEventObject.cs" />
+    <Compile Include="Core\GameEvent\EventOjectImpl\CraftingEventObject.cs" />
+    <Compile Include="Core\GameEvent\EventOjectImpl\RemoveItemByLuaEventObject.cs" />
+    <Compile Include="Core\GameEvent\EventOjectImpl\CheckInLienDau.cs" />
+    <Compile Include="Core\GameEvent\EventOjectImpl\SeaShellEventObject.cs" />
+    <Compile Include="Core\GameEvent\EventOjectImpl\UseItemEventObject.cs" />
+    <Compile Include="Core\GameEvent\EventOjectImpl\EnhanceWeaponEventObject.cs" />
+    <Compile Include="Core\GameEvent\EventOjectImpl\EquipItemEventObject.cs" />
+    <Compile Include="Core\GameEvent\EventOjectImpl\JoinEmperorTombEventObject.cs" />
+    <Compile Include="Core\GameEvent\EventOjectImpl\JoinFishingEventObject.cs" />
+    <Compile Include="Core\GameEvent\EventOjectImpl\MonsterBloodChangeEventObject.cs" />
+    <Compile Include="Core\GameEvent\EventOjectImpl\OpenRandomBoxEventObject.cs" />
+    <Compile Include="Core\GameEvent\EventOjectImpl\CompletedTaskEventObject.cs" />
+    <Compile Include="Core\GameEvent\EventOjectImpl\DoanHoaDangEventObject.cs" />
+    <Compile Include="Core\GameEvent\EventOjectImpl\DuLongChienThuEventObject.cs" />
+    <Compile Include="Core\GameEvent\EventOjectImpl\FamilyFubenJoinEventObject.cs" />
+    <Compile Include="Core\GameEvent\EventOjectImpl\MonsterDeadEventObject.cs" />
+    <Compile Include="Core\GameEvent\EventOjectImpl\MoveToArenaEventObject.cs" />
+    <Compile Include="Core\GameEvent\EventOjectImpl\PlayerDeadEventObject.cs" />
+    <Compile Include="Core\GameEvent\EventOjectImpl\PlayerEnterMap.cs" />
+    <Compile Include="Core\GameEvent\EventOjectImpl\PlayerInitGameEventObject.cs" />
+    <Compile Include="Core\GameEvent\EventOjectImpl\PlayerLevelupEventObject.cs" />
+    <Compile Include="Core\GameEvent\EventOjectImpl\PlayerLogonEventObject.cs" />
+    <Compile Include="Core\GameEvent\EventOjectImpl\PlayerLogoutEventObject.cs" />
+    <Compile Include="Core\GameEvent\EventOjectImpl\RemoveItemEventObject.cs" />
+    <Compile Include="Core\GameEvent\EventOjectImpl\SpinSlotMachineEventObject.cs" />
+    <Compile Include="Core\GameEvent\EventOjectImpl\SpinLuckyEventObject.cs" />
+    <Compile Include="Core\GameEvent\EventOjectImpl\GiaNhapGiaTocEvntObj.cs" />
+    <Compile Include="Core\GameEvent\EventOjectImpl\ThamGiaDuaThuEventObject.cs" />
+    <Compile Include="Core\GameEvent\EventOjectImpl\ThamGiaGiaiDauEventObject.cs" />
+    <Compile Include="Core\GameEvent\EventOjectImpl\ThiDauMonPhaiJoinEventObject.cs" />
+    <Compile Include="Core\GameEvent\EventOjectImpl\ThiDauMonPhaiReceiveRewardEventObject.cs" />
+    <Compile Include="Core\GameEvent\EventOjectImpl\TieuDaoCocEventObject.cs" />
+    <Compile Include="Core\GameEvent\EventOjectImpl\TongKimCheckInEventObject.cs" />
+    <Compile Include="Core\GameEvent\EventOjectImpl\TongKimKillEventObject.cs" />
+    <Compile Include="Core\GameEvent\EventOjectImpl\TongKimReceiveRankingEventObject.cs" />
+    <Compile Include="Core\GameEvent\EventOjectImpl\TranhDoatLanhThoEventObject.cs" />
+    <Compile Include="Core\GameEvent\EventType.cs" />
+    <Compile Include="Core\GameEvent\GlobalEventSource.cs" />
+    <Compile Include="Core\GameEvent\IEventListener.cs" />
+    <Compile Include="Core\GameEvent\EventObject.cs" />
+    <Compile Include="Core\GameEvent\EventSource.cs" />
+    <Compile Include="Core\Executor\ScheduleExecutor.cs" />
+    <Compile Include="Core\GameEvent\SceneEventSource.cs" />
+    <Compile Include="Data\AutoSettingConfig.cs" />
+    <Compile Include="Data\ComposeData.cs" />
+    <Compile Include="Data\GuildWarMiniMap.cs" />
+    <Compile Include="Data\KT_Activity\BonusDownload.cs" />
+    <Compile Include="Data\KT_Activity\GiftCodeModel.cs" />
+    <Compile Include="Data\KT_Guild_Family\GuildTerritoryReport.cs" />
+    <Compile Include="Data\KT_KuaFuServer\KuaFuChatData.cs" />
+    <Compile Include="Data\MiniGuildInfo.cs" />
+    <Compile Include="Data\TerritoryInfo.cs" />
+    <Compile Include="KiemThe\CopySceneEvents\CopySceneEventManager.cs" />
+    <Compile Include="KiemThe\CopySceneEvents\CopySceneEventManager_Logic.cs" />
+    <Compile Include="KiemThe\CopySceneEvents\FamilyFuBen\FamilyFuBen.cs" />
+    <Compile Include="KiemThe\CopySceneEvents\FamilyFuBen\FamilyFuBen_EventScript.cs" />
+    <Compile Include="KiemThe\CopySceneEvents\FamilyFuBen\FamilyFuBen_Script_Main.cs" />
+    <Compile Include="KiemThe\CopySceneEvents\MiJingFuBen\MiJing.cs" />
+    <Compile Include="KiemThe\CopySceneEvents\MiJingFuBen\MiJing_EventScript.cs" />
+    <Compile Include="KiemThe\CopySceneEvents\MiJingFuBen\MiJing_Script_Main.cs" />
+    <Compile Include="KiemThe\CopySceneEvents\Model\CopySceneEvent.cs" />
+    <Compile Include="KiemThe\CopySceneEvents\XiaoYaoGu\XoYo.cs" />
+    <Compile Include="KiemThe\CopySceneEvents\XiaoYaoGu\XoYo_EventScript.cs" />
+    <Compile Include="KiemThe\CopySceneEvents\XiaoYaoGu\XoYo_Script_HideTrapAndKillMonster.cs" />
+    <Compile Include="KiemThe\CopySceneEvents\XiaoYaoGu\XoYo_Script_KillMonster.cs" />
+    <Compile Include="KiemThe\CopySceneEvents\XiaoYaoGu\XoYo_Script_UnlockTriggerAndKillMonster.cs" />
+    <Compile Include="KiemThe\CopySceneEvents\YouLongGe\YouLong.cs" />
+    <Compile Include="KiemThe\CopySceneEvents\YouLongGe\YouLong_EventScript.cs" />
+    <Compile Include="KiemThe\CopySceneEvents\YouLongGe\YouLong_Script_Main.cs" />
+    <Compile Include="KiemThe\Core\Activity\ChargePromotion\ChargePromotionData.cs" />
+    <Compile Include="KiemThe\Core\Activity\ChargePromotion\ChargePromotionManager.cs" />
+    <Compile Include="KiemThe\Core\Activity\DownloadBouns\DownloadBounsManager.cs" />
+    <Compile Include="KiemThe\Core\Activity\EveryDayActivity\DayActivity.cs" />
+    <Compile Include="KiemThe\Core\Activity\EveryDayActivity\DayActivityManager.cs" />
+    <Compile Include="KiemThe\Core\Activity\LuckyCircle\KTLuckyCircleManager.cs" />
+    <Compile Include="KiemThe\Core\Activity\LuckyCircle\KTLuckyCircleObject.cs" />
+    <Compile Include="KiemThe\Core\Activity\PlayerPray\KTPlayerPrayManager.cs" />
+    <Compile Include="KiemThe\Core\Activity\PlayerPray\KTPlayerPrayObject.cs" />
+    <Compile Include="KiemThe\Core\Activity\SeashellCircle\KTSeashellCircleManager.cs" />
+    <Compile Include="KiemThe\Core\Activity\SeashellCircle\KTSeashellCircleObject.cs" />
+    <Compile Include="KiemThe\Core\Activity\SeashellCircle\KT_TCPHandler_SeashellCircle.cs" />
+    <Compile Include="KiemThe\Core\Bot\BotChallengeManager.cs" />
+    <Compile Include="KiemThe\Core\Bot\BotMainQuestCombat.cs" />
+    <Compile Include="KiemThe\Core\Bot\BotMainQuestActions.cs" />
+    <Compile Include="KiemThe\Core\Bot\BotQuestController.cs" />
+    <Compile Include="KiemThe\Core\Bot\BotSongJinController.cs" />
+    <Compile Include="KiemThe\GameEvents\SongJin\SongJinBotManager.cs" />
+    <Compile Include="KiemThe\Logic\Manager\Bot\KTBotManager_SongJin.cs" />
+    <Compile Include="KiemThe\Core\Bot\BotWorkScheduler.cs" />
+    <Compile Include="KiemThe\Core\Bot\BotPathSimplifier.cs" />
+    <Compile Include="KiemThe\Core\Bot\BotRuntimeLog.cs" />
+    <Compile Include="KiemThe\Core\Bot\KTBot_AI.cs" />
+    <Compile Include="KiemThe\Core\BulletinManager\BulletinManager.cs" />
+    <Compile Include="KiemThe\Core\BulletinManager\BulletinModel.cs" />
+    <Compile Include="KiemThe\Core\CrossService\Jackpot\JackpotClient.cs" />
+    <Compile Include="KiemThe\Core\CrossService\KuaFuReward\KuaFuRewardClient.cs" />
+    <Compile Include="KiemThe\Core\CrossService\KuaFuMap\KuaFuMapData.cs" />
+    <Compile Include="KiemThe\Core\CrossService\KuaFuMap\KuaFuMapManager.cs" />
+    <Compile Include="KiemThe\Core\CrossService\KuaFu\KFCopyRpcClient.cs" />
+    <Compile Include="KiemThe\Core\CrossService\KuaFu\KuaFuData.cs" />
+    <Compile Include="KiemThe\Core\CrossService\KuaFu\KuaFuManager.cs" />
+    <Compile Include="KiemThe\Core\CrossService\YongZheZhanChang\YongZheZhanChangClient.cs" />
+    <Compile Include="KiemThe\Core\CrossService\YongZheZhanChang\YongZheZhanChangContextData.cs" />
+    <Compile Include="KiemThe\Core\CrossService\YongZheZhanChang\YongZheZhanChangData.cs" />
+    <Compile Include="KiemThe\Core\CrossService\YongZheZhanChang\YongZheZhanChangManager.cs" />
+    <Compile Include="KiemThe\Core\CrossService\YongZheZhanChang\YongZheZhanChangProbufData.cs" />
+    <Compile Include="KiemThe\Core\CrossService\YongZheZhanChang\YongZheZhanChangScene.cs" />
+    <Compile Include="KiemThe\Core\Item\GiftCodeManager.cs" />
+    <Compile Include="KiemThe\Core\Item\ItemBoxSpecial.cs" />
+    <Compile Include="KiemThe\Core\Item\ItemDateTime.cs" />
+    <Compile Include="KiemThe\Core\Item\ItemEnhance - New.cs" />
+    <Compile Include="KiemThe\Core\Item\ItemRandomBox.cs" />
+    <Compile Include="KiemThe\Core\Item\ItemRefine.cs" />
+    <Compile Include="KiemThe\Core\Item\ItemXiuLianZhuDef.cs" />
+    <Compile Include="KiemThe\Core\Item\ItemXiuLianZhuManager.cs" />
+    <Compile Include="KiemThe\Core\Item\PropsUpArtifactItem.cs" />
+    <Compile Include="KiemThe\Core\Monster\AIScript\KTMonsterAIScriptManager.cs" />
+    <Compile Include="KiemThe\Core\Monster\AIScript\KTMonsterAI_ScriptCustomSkills.cs" />
+    <Compile Include="KiemThe\Core\Monster\AIScript\KTMonsterAI_ScriptDefault.cs" />
+    <Compile Include="KiemThe\Core\Monster\BossModel.cs" />
+    <Compile Include="KiemThe\Core\Monster\EliteMonsterManager.cs" />
+    <Compile Include="KiemThe\Core\Monster\Monster_Event.cs" />
+    <Compile Include="KiemThe\Core\Player\KPlayer_Baothach.cs" />
+    <Compile Include="KiemThe\Core\Player\KPlayer_Compose.cs" />
+    <Compile Include="KiemThe\Core\Player\KPlayer_DailyCheckin.cs" />
+    <Compile Include="KiemThe\Core\Player\KPlayer_Danphong.cs" />
+    <Compile Include="KiemThe\Core\Player\KPlayer_BonusPlayerAttr.cs" />
+    <Compile Include="KiemThe\Core\Player\KPlayer_EventReset.cs" />
+    <Compile Include="KiemThe\Core\Player\KPlayer_LuckySpin.cs" />
+    <Compile Include="KiemThe\Core\Player\KPlayer_RefundEvent.cs" />
+    <Compile Include="KiemThe\Core\Rechage\RechageServiceManager.cs" />
+    <Compile Include="KiemThe\Core\Rechage\RechageModel.cs" />
+    <Compile Include="KiemThe\Core\Shop\ShopSalePrestige.cs" />
+    <Compile Include="KiemThe\Core\Task\TaskManager\MainTaskManager.cs" />
+    <Compile Include="KiemThe\Core\Task\TaskManager\FirmTaskManager.cs" />
+    <Compile Include="KiemThe\Core\Task\TaskManager\PirateTaskManager.cs" />
+    <Compile Include="KiemThe\Core\Task\TaskManager\SideTaskManager.cs" />
+    <Compile Include="KiemThe\Core\Task\TaskManager\TaskAwardManager.cs" />
+    <Compile Include="KiemThe\Core\Task\TaskManager\TaskDailyArmyManager.cs" />
+    <Compile Include="KiemThe\Core\Title\KTTitleManager.cs" />
+    <Compile Include="KiemThe\Diagnostic.cs" />
+    <Compile Include="KiemThe\Entities\DropHaiTac\DropHaiTacXML.cs" />
+    <Compile Include="KiemThe\Entities\GiftCode\GiftCodeXML.cs" />
+    <Compile Include="KiemThe\Entities\Player\GuildTagManager.cs" />
+    <Compile Include="KiemThe\Entities\Player\KPlayer_Captcha.cs" />
+    <Compile Include="KiemThe\Entities\Player\KTitleXML.cs" />
+    <Compile Include="KiemThe\Entities\Player\PKPunish.cs" />
+    <Compile Include="KiemThe\Entities\RandomName\RandomNames.cs" />
+    <Compile Include="KiemThe\Entities\Sprite\SpriteDamageInfo.cs" />
+    <Compile Include="KiemThe\Entities\SystemGlobalParameterIndexes.cs" />
+    <Compile Include="KiemThe\GameEvents\BaiHuTang\BaiHuTang_ActivityScript.cs" />
+    <Compile Include="KiemThe\GameEvents\BaiHuTang\BaiHuTang_Script_Prepare.cs" />
+    <Compile Include="KiemThe\GameEvents\BaiHuTang\BaiHuTang.cs" />
+    <Compile Include="KiemThe\GameEvents\BaiHuTang\BaiHuTang_Script_Round1.cs" />
+    <Compile Include="KiemThe\GameEvents\BaiHuTang\BaiHuTang_Script_Round2.cs" />
+    <Compile Include="KiemThe\GameEvents\BaiHuTang\BaiHuTang_Script_Round3.cs" />
+    <Compile Include="KiemThe\GameEvents\EventAutoResetManager.cs" />
+    <Compile Include="KiemThe\GameEvents\EventDataResetHelper.cs" />
+    <Compile Include="KiemThe\GameEvents\BattlePass\BattlePassManager.cs" />
+    <Compile Include="KiemThe\GameEvents\BaoThach\BaoThachManager.cs" />
+    <Compile Include="KiemThe\GameEvents\BaoThach\DoThachManager.cs" />
+    <Compile Include="KiemThe\GameEvents\Medal\MedalManager.cs" />
+    <Compile Include="KiemThe\GameEvents\BossUnicon\BossUnicon.cs" />
+    <Compile Include="KiemThe\GameEvents\BossUnicon\BossUnicon_ActivityScript.cs" />
+    <Compile Include="KiemThe\GameEvents\BossUnicon\BossUnicon_Script_Main.cs" />
+    <Compile Include="KiemThe\GameEvents\CheckIn\CheckInManager.cs" />
+    <Compile Include="KiemThe\GameEvents\CheckIn\ComeBackManager.cs" />
+    <Compile Include="KiemThe\GameEvents\ExchangeTicketEvent.cs" />
+    <Compile Include="KiemThe\GameEvents\ServerMergeRewardManager.cs" />
+    <Compile Include="KiemThe\GameEvents\DailyCheckin\DailyCheckinManager.cs" />
+    <Compile Include="KiemThe\GameEvents\DaoPhong\DanphongManager.cs" />
+    <Compile Include="KiemThe\GameEvents\EventTimeManager.cs" />
+    <Compile Include="KiemThe\GameEvents\FishingManager.cs" />
+    <Compile Include="KiemThe\GameEvents\FlowerBetManager.cs" />
+    <Compile Include="KiemThe\GameEvents\CauCaMuaThuManager.cs" />
+    <Compile Include="KiemThe\GameEvents\EmperorTomb\EmperorTomb.cs" />
+    <Compile Include="KiemThe\GameEvents\EmperorTomb\EmperorTomb_ActivityScript.cs" />
+    <Compile Include="KiemThe\GameEvents\EmperorTomb\EmperorTomb_Script_Main.cs" />
+    <Compile Include="KiemThe\GameEvents\FactionBattle\FactionBattle.cs" />
+    <Compile Include="KiemThe\GameEvents\FactionBattle\FactionBattleManager.cs" />
+    <Compile Include="KiemThe\GameEvents\FactionBattle\FactionModel.cs" />
+    <Compile Include="KiemThe\GameEvents\GiftExchange\GiftExchangePlayerManager.cs" />
+    <Compile Include="KiemThe\GameEvents\QuestEventManager.cs" />
+    <Compile Include="KiemThe\GameEvents\RechargeEvent\DailyRechargeEventManager.cs" />
+    <Compile Include="KiemThe\GameEvents\RechargeEvent\RechargeEventManager.cs" />
+    <Compile Include="KiemThe\GameEvents\OfferingManager.cs" />
+    <Compile Include="KiemThe\GameEvents\RefundEventManager.cs" />
+    <Compile Include="KiemThe\GameEvents\Core\IGameEvent.cs" />
+    <Compile Include="KiemThe\GameEvents\Core\BaseGameEvent.cs" />
+    <Compile Include="KiemThe\GameEvents\Core\GameEventRegistry.cs" />
+    <Compile Include="KiemThe\GameEvents\SlotMachineManager.cs" />
+    <Compile Include="KiemThe\GameEvents\FlowerTowerManager.cs" />
+    <Compile Include="KiemThe\GameEvents\GameMapEventsManager_Define.cs" />
+    <Compile Include="KiemThe\GameEvents\GameMapEventsManager.cs" />
+    <Compile Include="KiemThe\GameEvents\TowerDefense\TowerDefenseManager.cs" />
+    <Compile Include="KiemThe\GameEvents\TowerDefense\TowerDefenseState.cs" />
+    <Compile Include="KiemThe\GameEvents\GiftExchange\GiftExchangeManager.cs" />
+    <Compile Include="KiemThe\GameEvents\GuildWarManager\GuidWarManager.cs" />
+    <Compile Include="KiemThe\GameEvents\GuildWarManager\GuidWarModel.cs" />
+    <Compile Include="KiemThe\GameEvents\GuildWarManager\GuildWarMap.cs" />
+    <Compile Include="KiemThe\GameEvents\GuildWarManager\KuaFuGuildWarLogic.cs" />
+    <Compile Include="KiemThe\GameEvents\KuaFuBalance\KuaFuBalanceManager.cs" />
+    <Compile Include="KiemThe\GameEvents\KuaFuBalance\KuaFuBalanceConfig.cs" />
+    <Compile Include="KiemThe\GameEvents\KuaFuBalance\KuaFuBalanceManager.Equipment.cs" />
+    <Compile Include="KiemThe\GameEvents\KuaFuBalance\KuaFuBalanceManager.Lifecycle.cs" />
+    <Compile Include="KiemThe\GameEvents\KuaFuBalance\KuaFuBalanceManager.Profile.cs" />
+    <Compile Include="KiemThe\GameEvents\KuaFuBalance\KuaFuBalanceManager.State.cs" />
+    <Compile Include="KiemThe\GameEvents\KuaFuBalance\KuaFuBalanceManager.Support.cs" />
+    <Compile Include="KiemThe\GameEvents\KuaFuBalance\KuaFuBalanceManager.Inventory.cs" />
+    <Compile Include="KiemThe\GameEvents\KuaFuBalance\KuaFuBalanceProfile.cs" />
+    <Compile Include="KiemThe\GameEvents\KuaFuBalance\KuaFuBalanceSession.cs" />
+    <Compile Include="KiemThe\GameEvents\KuaFuBalance\KuaFuBalanceOriginalSnapshot.cs" />
+    <Compile Include="KiemThe\GameEvents\KnowledgeChallenge\KnowledgeChallenge.cs" />
+    <Compile Include="KiemThe\GameEvents\KnowledgeChallenge\KnowledgeChallenge_ActivityScript.cs" />
+    <Compile Include="KiemThe\GameEvents\KnowledgeChallenge\KnowledgeChallenge_Script_Main.cs" />
+    <Compile Include="KiemThe\GameEvents\LeagueBattle\LeagueBattle.cs" />
+    <Compile Include="KiemThe\GameEvents\LeagueBattle\LeagueBattleManager.cs" />
+    <Compile Include="KiemThe\GameEvents\LeagueBattle\LeagueBattleModel.cs" />
+    <Compile Include="KiemThe\GameEvents\LotteryEvent\LotteryManager.cs" />
+    <Compile Include="KiemThe\GameEvents\LotteryEvent\Lottery_ActivityScript.cs" />
+    <Compile Include="KiemThe\GameEvents\Model\GameMapEvent.cs" />
+    <Compile Include="KiemThe\GameEvents\Model\IActivityScript.cs" />
+    <Compile Include="KiemThe\GameEvents\MonthlyEvents\ComposeEventManager.cs" />
+    <Compile Include="KiemThe\GameEvents\MonthlyEvents\Event_2024Apr.cs" />
+    <Compile Include="KiemThe\GameEvents\MonthlyEvents\TopEventRanking.cs" />
+    <Compile Include="KiemThe\GameEvents\MonthlyEvents\UnionShop.cs" />
+    <Compile Include="KiemThe\GameEvents\OTT\OTT.cs" />
+    <Compile Include="KiemThe\GameEvents\OTT\OTT_ActivityScript.cs" />
+    <Compile Include="KiemThe\GameEvents\OTT\OTT_Result.cs" />
+    <Compile Include="KiemThe\GameEvents\OTT\OTT_Script_Main.cs" />
+    <Compile Include="KiemThe\GameEvents\PetRace\PetRace.cs" />
+    <Compile Include="KiemThe\GameEvents\PetRace\PetRace_ActivityScript.cs" />
+    <Compile Include="KiemThe\GameEvents\PetRace\PetRace_Script_Main.cs" />
+    <Compile Include="KiemThe\GameEvents\SpecialEvent\SpecialEvent.cs" />
+    <Compile Include="KiemThe\GameEvents\SpecialEvent\SpecialEventManager.cs" />
+    <Compile Include="KiemThe\GameEvents\SpecialEvent\SpecialEventManager_Logic.cs" />
+    <Compile Include="KiemThe\GameEvents\SpecialEvent\SpecialEventManager_Timer.cs" />
+    <Compile Include="KiemThe\GameEvents\SpecialEvent\SpecialEvent_Logic.cs" />
+    <Compile Include="KiemThe\GameEvents\TangBaoDo\TangBaoDo.cs" />
+    <Compile Include="KiemThe\GameEvents\TeamBattle\TeamBattle.cs" />
+    <Compile Include="KiemThe\GameEvents\TeamBattle\TeamBattle_ActivityScript.cs" />
+    <Compile Include="KiemThe\GameEvents\TeamBattle\TeamBattle_Script_Main.cs" />
+    <Compile Include="KiemThe\GameEvents\TeamBattle\TeamBattle_Timer.cs" />
+    <Compile Include="KiemThe\GameEvents\ThienPhuc\ThienPhucConfig.cs" />
+    <Compile Include="KiemThe\GameEvents\ThienPhuc\ThienPhucInfo.cs" />
+    <Compile Include="KiemThe\GameEvents\ThienPhuc\ThienPhucManager.cs" />
+    <Compile Include="KiemThe\GameEvents\ThienPhuc\ThienPhucSpinRequest.cs" />
+    <Compile Include="KiemThe\GameEvents\ThienPhuc\ThienPhucSpinResult.cs" />
+    <Compile Include="KiemThe\GameEvents\VongQuayMayMan\LuckySpinManager.cs" />
+    <Compile Include="KiemThe\HotFix\HotFixVuKhiTanLang.cs" />
+    <Compile Include="KiemThe\KTGlobal-New.cs" />
+    <Compile Include="KiemThe\Logic\Manager\Bot\KTBotManager.cs" />
+    <Compile Include="KiemThe\Logic\Manager\Bot\KTBotManager_Base.cs" />
+    <Compile Include="KiemThe\Logic\Manager\Bot\KTBotTimerManager.cs" />
+    <Compile Include="KiemThe\Logic\Manager\Captcha\KTCaptchaManager_Define.cs" />
+    <Compile Include="KiemThe\Logic\Manager\Captcha\KTCaptchaManager_Logic.cs" />
+    <Compile Include="KiemThe\Logic\Manager\Captcha\KTCaptchaManager_Timer.cs" />
+    <Compile Include="KiemThe\Logic\Manager\ChanNguyen\ChanNguyen.cs" />
+    <Compile Include="KiemThe\Logic\Manager\ChanNguyen\ChanNguyenManager.cs" />
+    <Compile Include="KiemThe\Logic\Manager\ClientLua\KTClientLuaPacketManager.cs" />
+    <Compile Include="KiemThe\Logic\Manager\Monster\KTMonsterTimerManager_Boss.cs" />
+    <Compile Include="KiemThe\Logic\Manager\Monster\KTMonsterTimerManager_Core.cs" />
+    <Compile Include="KiemThe\Logic\Manager\Monster\KTMonsterTimerManager_DynamicNPC.cs" />
+    <Compile Include="KiemThe\Logic\Manager\Monster\KTMonsterTimerManager_Define.cs" />
+    <Compile Include="KiemThe\Logic\Manager\Monster\KTMonsterTimerManager_Logic.cs" />
+    <Compile Include="KiemThe\Logic\Manager\Monster\KTMonsterTimerManager_Monster.cs" />
+    <Compile Include="KiemThe\Logic\Manager\Monster\KTMonsterTimerManager_SpecialBoss.cs" />
+    <Compile Include="KiemThe\Logic\Manager\Monster\KTMonsterTimerManager_SpecialMonster.cs" />
+    <Compile Include="KiemThe\Logic\Manager\Monster\KTMonsterTimerManager_SystemMonsterManager.cs" />
+    <Compile Include="KiemThe\Logic\Manager\Pet\PetGiftManager.cs" />
+    <Compile Include="KiemThe\Logic\Manager\Pet\PetInfo.cs" />
+    <Compile Include="KiemThe\Logic\Manager\Pet\PetItemManager.cs" />
+    <Compile Include="KiemThe\Logic\Manager\Pet\PetManager.cs" />
+    <Compile Include="KiemThe\Logic\Manager\Player\KTPlayerTimerManager.cs" />
+    <Compile Include="KiemThe\Logic\Manager\Skill\Bullet\KTBulletManager_BulletExplode.cs" />
+    <Compile Include="KiemThe\Logic\Manager\Skill\Bullet\KTBulletManager_ChaseTarget.cs" />
+    <Compile Include="KiemThe\Logic\Manager\Skill\Bullet\KTBulletManager_Core.cs" />
+    <Compile Include="KiemThe\Logic\Manager\Skill\Bullet\KTBulletManager_Define.cs" />
+    <Compile Include="KiemThe\Logic\Manager\Skill\Bullet\KTBulletManager_FromTo.cs" />
+    <Compile Include="KiemThe\Logic\Manager\Skill\Bullet\KTBulletManager_Logic.cs" />
+    <Compile Include="KiemThe\Logic\Manager\Skill\Bullet\KTBulletManager_Static.cs" />
+    <Compile Include="KiemThe\Logic\Manager\Skill\Bullet\KTBulletManager_BulletTimer.cs" />
+    <Compile Include="KiemThe\Logic\Manager\Skill\Bullet\KTBulletManager_Trap.cs" />
+    <Compile Include="KiemThe\Logic\Manager\Skill\KTSkillManager_Timer.cs" />
+    <Compile Include="KiemThe\Logic\Manager\Skill\PoisonTimer\KTPoisonTimerManager.cs" />
+    <Compile Include="KiemThe\Logic\Manager\Storyboard\KTOtherObjectStoryBoard.cs" />
+    <Compile Include="KiemThe\Logic\Manager\Storyboard\Monster\KTMonsterStoryBoardEx.cs" />
+    <Compile Include="KiemThe\Logic\Manager\Storyboard\Monster\KTMonsterStoryBoardEx_API.cs" />
+    <Compile Include="KiemThe\Logic\Manager\Storyboard\Monster\KTMonsterStoryBoardEx_Logic.cs" />
+    <Compile Include="KiemThe\Logic\Manager\Storyboard\Monster\KTMonsterStoryBoardEx_Network.cs" />
+    <Compile Include="KiemThe\Logic\Manager\Storyboard\Monster\KTMonsterStoryBoardEx_Timer.cs" />
+    <Compile Include="KiemThe\Logic\Manager\Storyboard\Player\KTPlayerStoryBoardEx.cs" />
+    <Compile Include="KiemThe\Logic\Manager\Storyboard\Player\KTPlayerStoryBoardEx_API.cs" />
+    <Compile Include="KiemThe\Logic\Manager\Storyboard\Player\KTPlayerStoryBoardEx_Logic.cs" />
+    <Compile Include="KiemThe\Logic\Manager\Storyboard\Player\KTPlayerStoryBoardEx_Network.cs" />
+    <Compile Include="KiemThe\Logic\Manager\Storyboard\Player\KTPlayerStoryBoardEx_Timer.cs" />
+    <Compile Include="KiemThe\Logic\Manager\Captcha\KTCaptchaManager.cs" />
+    <Compile Include="KiemThe\Logic\Manager\Ultilities\KTScheduleTaskManager.cs" />
+    <Compile Include="KiemThe\LuaSystem\Entities\Builder\Lua_BotBuilder.cs" />
+    <Compile Include="KiemThe\LuaSystem\Entities\Builder\Lua_ItemDropBuilder.cs" />
+    <Compile Include="KiemThe\LuaSystem\Entities\GUI\Lua_ItemSelectionInfo.cs" />
+    <Compile Include="KiemThe\LuaSystem\Entities\Object\Lua_Bot.cs" />
+    <Compile Include="KiemThe\LuaSystem\Logic\KTLuaLib_MonthlyEvent.cs" />
+    <Compile Include="KiemThe\LuaSystem\Logic\KTLuaLib_Pet.cs" />
+    <Compile Include="KiemThe\MxDatabaseController\MixDataSet.Context.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>MixDataSet.Context.tt</DependentUpon>
+    </Compile>
+    <Compile Include="KiemThe\MxDatabaseController\MixDataSet.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>MixDataSet.tt</DependentUpon>
+    </Compile>
+    <Compile Include="KiemThe\MxDatabaseController\MixDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>MixDataSet.edmx</DependentUpon>
+    </Compile>
+    <Compile Include="KiemThe\MxDatabaseController\RoleParamInt.cs">
+      <DependentUpon>MixDataSet.tt</DependentUpon>
+    </Compile>
+    <Compile Include="KiemThe\MxDatabaseController\RoleParamString.cs">
+      <DependentUpon>MixDataSet.tt</DependentUpon>
+    </Compile>
+    <Compile Include="KiemThe\MxDatabaseController\RolePramDatabase.cs" />
+    <Compile Include="KiemThe\Network\KT_TCPHandler_BattlePass.cs" />
+    <Compile Include="KiemThe\Network\KT_TCPHandler_Baothach.cs" />
+    <Compile Include="KiemThe\Network\KT_TCPHandler_Medal.cs" />
+    <Compile Include="KiemThe\Network\KT_TCPHandler_DanPhong.cs" />
+    <Compile Include="KiemThe\Network\KT_TCPHandler_DailyRechargeAccumulate.cs" />
+    <Compile Include="KiemThe\Network\KT_TCPHandler_Fishing.cs" />
+    <Compile Include="KiemThe\Network\KT_TCPHandler_CrystalBag.cs" />
+    <Compile Include="KiemThe\Network\KT_TCPHandler_Offering.cs" />
+    <Compile Include="KiemThe\Network\Data\Activity\ActivityIconStateData.cs" />
+    <Compile Include="Data\KT_Role\RoleDataRecore.cs" />
+    <Compile Include="Data\KT_Goods\AddGoodsData.cs" />
+    <Compile Include="KiemThe\Core\Activity\SevenDayLogin\SevenDayLoginDef.cs" />
+    <Compile Include="KiemThe\Core\Activity\SevenDayLogin\SevenDayLoginManager.cs" />
+    <Compile Include="KiemThe\Network\Data\Activity\G2C_LuckyCircle.cs" />
+    <Compile Include="KiemThe\Network\Data\Guild\BangHuiDetailData.cs" />
+    <Compile Include="KiemThe\Network\Data\Guild\BangHuiLingDiItemData.cs" />
+    <Compile Include="KiemThe\Network\Data\Guild\BangHuiMemberData.cs" />
+    <Compile Include="KiemThe\Network\Data\Guild\BangHuiMiniData.cs" />
+    <Compile Include="Data\BufferData.cs" />
+    <Compile Include="Data\ChangeEquipData.cs" />
+    <Compile Include="Data\LifeSkillData.cs" />
+    <Compile Include="Data\GroupMailData.cs" />
+    <Compile Include="Data\KT_Task\QuestInfo.cs" />
+    <Compile Include="Data\ReputeInfo.cs" />
+    <Compile Include="KiemThe\Core\Activity\EveryDayOnlineEvent\EveryDayOnlineManager.cs" />
+    <Compile Include="KiemThe\Core\Activity\EveryDayOnlineEvent\EveryDayOnlineModel.cs" />
+    <Compile Include="KiemThe\Core\Activity\LevelUpEvent\LevelUpEventManager.cs" />
+    <Compile Include="KiemThe\Core\Activity\LevelUpEvent\LevelUpEventModel.cs" />
+    <Compile Include="KiemThe\Core\Activity\RechageEvent\RechageManager.cs" />
+    <Compile Include="KiemThe\Core\Activity\RechageEvent\RechageModel.cs" />
+    <Compile Include="KiemThe\Core\Activity\TotalLoginEvent\TotalLoginManager.cs" />
+    <Compile Include="KiemThe\Core\Activity\TotalLoginEvent\TotalLoginModel.cs" />
+    <Compile Include="KiemThe\Core\Buff\BuffTree_Aura.cs" />
+    <Compile Include="KiemThe\Core\Buff\BuffTree_AvoidBuff.cs" />
+    <Compile Include="KiemThe\Core\Buff\BuffTree_Buff.cs" />
+    <Compile Include="KiemThe\Core\DynamicArea\KDynamicArea.cs" />
+    <Compile Include="KiemThe\Core\GrowPoint\GrowPoint.cs" />
+    <Compile Include="KiemThe\Logic\Manager\IconStateManager\IconModel.cs" />
+    <Compile Include="KiemThe\Core\Item\ItemCraftingDef.cs" />
+    <Compile Include="KiemThe\Core\Item\ItemCraftingManager.cs" />
+    <Compile Include="KiemThe\Core\Item\ItemDef.cs" />
+    <Compile Include="KiemThe\Core\Item\ItemDropDef.cs" />
+    <Compile Include="KiemThe\Core\Item\ItemDropManager.cs" />
+    <Compile Include="KiemThe\Core\Item\ItemEnhance.cs" />
+    <Compile Include="KiemThe\Core\Item\ItemManager.cs" />
+    <Compile Include="KiemThe\Core\Item\ItemValueObject.cs" />
+    <Compile Include="KiemThe\Core\Item\KItem.cs" />
+    <Compile Include="KiemThe\Core\Item\KPlayerEquipBody.cs" />
+    <Compile Include="KiemThe\Core\Item\MagicAttribLevel.cs" />
+    <Compile Include="KiemThe\Core\Item\SuiteActiveProp.cs" />
+    <Compile Include="KiemThe\Core\Mail\KTMailManager_Send.cs" />
+    <Compile Include="KiemThe\Core\Monster\MonsterDeadHelper.cs" />
+    <Compile Include="KiemThe\Core\NPC\NPC.cs" />
+    <Compile Include="KiemThe\Core\Repute\ReputeManager.cs" />
+    <Compile Include="KiemThe\Core\Repute\ReputeModel.cs" />
+    <Compile Include="KiemThe\Core\Skill\SkillTree_Condition.cs" />
+    <Compile Include="KiemThe\Core\Skill\SkillTree_Cooldown.cs" />
+    <Compile Include="KiemThe\Core\Skill\SkillTree_EnchantSkill.cs" />
+    <Compile Include="KiemThe\Core\Skill\SkillTree_Passive.cs" />
+    <Compile Include="KiemThe\Core\Skill\SkillTree_PassiveAppendDamage.cs" />
+    <Compile Include="KiemThe\Core\Skill\SkillTree_Skill.cs" />
+    <Compile Include="KiemThe\Core\Task\TaskManager.cs" />
+    <Compile Include="KiemThe\Core\Task\TaskModel\TaskObject.cs" />
+    <Compile Include="KiemThe\Core\Trade\GoodsExchangeManager.cs" />
+    <Compile Include="KiemThe\Entities\Activity\ActivityXML.cs" />
+    <Compile Include="KiemThe\Entities\AutoPath\AutoPathXML.cs" />
+    <Compile Include="KiemThe\Entities\Chat\KTChatFilter.cs" />
+    <Compile Include="KiemThe\Entities\GrowPoint\GrowPointXML.cs" />
+    <Compile Include="KiemThe\Entities\Player\KPlayer_ActiveFightInfo.cs" />
+    <Compile Include="KiemThe\Entities\Player\KPlayer_ChallengeInfo.cs" />
+    <Compile Include="KiemThe\Core\Shop\ShopDef.cs" />
+    <Compile Include="KiemThe\Core\Shop\ShopManager.cs" />
+    <Compile Include="KiemThe\Entities\Player\KPlayer_ImmuneToAllDamagesOf.cs" />
+    <Compile Include="KiemThe\Entities\Player\KPlayer_Progress.cs" />
+    <Compile Include="KiemThe\Entities\Player\KRoleAvarta.cs" />
+    <Compile Include="KiemThe\Entities\Player\RoleAvartaXML.cs" />
+    <Compile Include="KiemThe\Logic\Manager\Activity\KTActivity.cs" />
+    <Compile Include="KiemThe\Logic\Manager\Activity\KTActivityManager.cs" />
+    <Compile Include="KiemThe\GameEvents\SongJin\Battel_SongJin_Manager.cs" />
+    <Compile Include="KiemThe\GameEvents\SongJin\Battle_SongJin.cs" />
+    <Compile Include="KiemThe\GameEvents\SongJin\BattleModel.cs" />
+    <Compile Include="KiemThe\Logic\Manager\CopyScene\KTCopyScene.cs" />
+    <Compile Include="KiemThe\Logic\Manager\AutoPath\KTAutoPathManager.cs" />
+    <Compile Include="KiemThe\Logic\Manager\DynamicArea\KTDynamicAreaManager.cs" />
+    <Compile Include="KiemThe\Logic\Manager\DynamicArea\KTDynamicAreaManager_Base.cs" />
+    <Compile Include="KiemThe\Logic\Manager\DynamicArea\KTDynamicAreaManager_Logic.cs" />
+    <Compile Include="KiemThe\Logic\Manager\DynamicArea\KTDynamicAreaTimerManager.cs" />
+    <Compile Include="KiemThe\Logic\Manager\GrowPoint\KTGrowPointManager.cs" />
+    <Compile Include="KiemThe\Logic\Manager\GrowPoint\KTGrowPointManager_Base.cs" />
+    <Compile Include="KiemThe\Logic\Manager\GrowPoint\KTGrowPointManager_Logic.cs" />
+    <Compile Include="KiemThe\Logic\Manager\Skill\KTSkillManager_Logic_Action.cs" />
+    <Compile Include="KiemThe\Logic\Manager\Skill\KTSkillManager_Logic_Arua.cs" />
+    <Compile Include="KiemThe\Logic\Manager\Skill\KTSkillManager_Logic_Blink.cs" />
+    <Compile Include="KiemThe\Logic\Manager\Skill\KTSkillManager_Logic_Buff.cs" />
+    <Compile Include="KiemThe\Logic\Manager\Skill\KTSkillManager_Logic_Bullet.cs" />
+    <Compile Include="KiemThe\Logic\Manager\Skill\KTSkillManager_Logic_Event.cs" />
+    <Compile Include="KiemThe\Logic\Manager\Skill\KTSkillManager_Logic_Passive.cs" />
+    <Compile Include="KiemThe\Logic\Manager\UI\KItemDialog.cs" />
+    <Compile Include="KiemThe\Logic\Manager\UI\KMessageBox.cs" />
+    <Compile Include="KiemThe\Logic\Manager\UI\KNPCDialog.cs" />
+    <Compile Include="KiemThe\Logic\Manager\UI\KTItemDialogManager.cs" />
+    <Compile Include="KiemThe\Logic\Manager\UI\KTMessageBoxManager.cs" />
+    <Compile Include="KiemThe\Logic\Manager\UI\KTNPCDialogManager.cs" />
+    <Compile Include="KiemThe\LuaSystem\Entities\Builder\Lua_DynamicAreaBuilder.cs" />
+    <Compile Include="KiemThe\LuaSystem\Entities\Builder\Lua_GrowPointBuilder.cs" />
+    <Compile Include="KiemThe\LuaSystem\Entities\Builder\Lua_MonsterBuilder.cs" />
+    <Compile Include="KiemThe\LuaSystem\Entities\Builder\Lua_NPCBuilder.cs" />
+    <Compile Include="KiemThe\LuaSystem\Entities\GUI\Lua_ItemDialog.cs" />
+    <Compile Include="KiemThe\LuaSystem\Entities\Object\Lua_DynamicArea.cs" />
+    <Compile Include="KiemThe\LuaSystem\Entities\Object\Lua_GrowPoint.cs" />
+    <Compile Include="KiemThe\LuaSystem\Entities\Object\Lua_Item.cs" />
+    <Compile Include="KiemThe\LuaSystem\Entities\Timer\Lua_Task.cs" />
+    <Compile Include="KiemThe\LuaSystem\Entities\Timer\Lua_Timer.cs" />
+    <Compile Include="KiemThe\LuaSystem\Logic\KTLuaLib_Event.cs" />
+    <Compile Include="KiemThe\LuaSystem\Logic\KTLuaLib_String.cs" />
+    <Compile Include="KiemThe\LuaSystem\Logic\KTLuaLib_Timer.cs" />
+    <Compile Include="KiemThe\Network\Data\AutoPath\C2G_AutoPathChangeMap.cs" />
+    <Compile Include="KiemThe\Network\Data\DynamicObject\DynamicArea.cs" />
+    <Compile Include="KiemThe\Network\Data\Events\G2C_EventNotification.cs" />
+    <Compile Include="KiemThe\Network\Data\Events\G2C_EventState.cs" />
+    <Compile Include="KiemThe\Network\Data\Events\G2C_KillStreak.cs" />
+    <Compile Include="KiemThe\Network\Data\GrowPoint\GrowPointObject.cs" />
+    <Compile Include="KiemThe\Network\Data\Guild\GuildChangeSlogan.cs" />
+    <Compile Include="KiemThe\Network\Data\Item\CrystalStoneCompose.cs" />
+    <Compile Include="KiemThe\Network\Data\Item\CrystalStoneSplit.cs" />
+    <Compile Include="KiemThe\Network\Data\Item\DialogItemSelectionInfo.cs" />
+    <Compile Include="KiemThe\Network\Data\Item\EquipEnhance.cs" />
+    <Compile Include="KiemThe\Network\Data\Item\G2C_EquipRefine.cs" />
+    <Compile Include="KiemThe\Network\Data\Item\MakeEquipPet.cs" />
+    <Compile Include="KiemThe\Network\Data\Item\SendGiftPet.cs" />
+    <Compile Include="KiemThe\Network\Data\Item\SignetEnhance.cs" />
+    <Compile Include="KiemThe\Network\Data\LuaItemDialog\C2G_LuaItemDialog.cs" />
+    <Compile Include="KiemThe\Network\Data\LuaItemDialog\G2C_LuaItemDialog.cs" />
+    <Compile Include="KiemThe\Network\Data\Monster\LocalMapMonsterData.cs" />
+    <Compile Include="KiemThe\Network\Data\Ranking\PlayerRanking.cs" />
+    <Compile Include="KiemThe\Network\Data\Ranking\RecoreRanking.cs" />
+    <Compile Include="KiemThe\Network\Data\Role\G2C_RoleNameChanged.cs" />
+    <Compile Include="KiemThe\Network\Data\Role\G2C_RoleTitleChanged.cs" />
+    <Compile Include="KiemThe\Network\Data\Shop\G2C_PlayerSellItemToNPCShop.cs" />
+    <Compile Include="KiemThe\Network\Data\Skill\G2C_AttackSpeedChanged.cs" />
+    <Compile Include="KiemThe\Network\Data\Team\TeamMemberChanged.cs" />
+    <Compile Include="KiemThe\Network\Data\Team\TeamInfo.cs" />
+    <Compile Include="KiemThe\Network\Data\Team\TeamMemberAttributes.cs" />
+    <Compile Include="KiemThe\Network\Data\Skill\G2C_DistributeSkillPoint.cs" />
+    <Compile Include="KiemThe\Network\Data\Sprite\G2C_SpriteInvisibleStateChanged.cs" />
+    <Compile Include="KiemThe\Network\Data\Sprite\LoadAlreadyData.cs" />
+    <Compile Include="KiemThe\Core\Bot\KTBot.cs" />
+    <Compile Include="KiemThe\Core\Monster\Monster_AI.cs" />
+    <Compile Include="KiemThe\Core\Trap\Trap.cs" />
+    <Compile Include="KiemThe\Entities\Skill\Kind\KNpcAutoSkill.cs" />
+    <Compile Include="KiemThe\Logic\Manager\GM\KTGMCommandManager.cs" />
+    <Compile Include="KiemThe\Logic\Manager\Player\Features\KTTeamManager.cs" />
+    <Compile Include="KiemThe\Logic\Manager\Skill\Trap\KTTrapManager.cs" />
+    <Compile Include="KiemThe\Logic\Manager\Storyboard\KTStoryBoardLogic.cs" />
+    <Compile Include="KiemThe\LuaSystem\Entities\Object\Lua_Object.cs" />
+    <Compile Include="KiemThe\Network\Data\Debug\G2C_ShowDebugObjects.cs" />
+    <Compile Include="KiemThe\Network\Data\Monster\MonsterRealiveData.cs" />
+    <Compile Include="Data\NameRegisterData.cs" />
+    <Compile Include="Data\NewGoodsPackData.cs" />
+    <Compile Include="Data\KT_ReceiveData\CS_ClickOn.cs" />
+    <Compile Include="Data\KT_ReceiveData\CS_SprUseGoods.cs" />
+    <Compile Include="Data\KT_ReceiveData\CSPropAddPoint.cs" />
+    <Compile Include="Data\KT_Role\RoleKuaFuDayLogData.cs" />
+    <Compile Include="Data\SaleGoodsSearchResultData.cs" />
+    <Compile Include="Data\SecondPasswordData.cs" />
+    <Compile Include="KiemThe\Network\Data\Role\SCClientHeart.cs" />
+    <Compile Include="KiemThe\Network\Data\Sprite\SCMapChange.cs" />
+    <Compile Include="Data\KT_SendData\SCModGoods.cs" />
+    <Compile Include="Data\KT_SendData\SCMoveEnd.cs" />
+    <Compile Include="Data\KT_Role\UserMiniData.cs" />
+    <Compile Include="Data\KT_Activity\YueKaData.cs" />
+    <Compile Include="Keyboard.cs" />
+    <Compile Include="KiemThe\Core\GameObject\GameObject.cs" />
+    <Compile Include="KiemThe\Core\GameObject\GameObject_BaseProperties.cs" />
+    <Compile Include="KiemThe\Core\GameObject\GameObject_Data.cs" />
+    <Compile Include="KiemThe\Core\GameObject\GameObject_Events.cs" />
+    <Compile Include="KiemThe\Core\GameObject\GameObject_FightProperties.cs" />
+    <Compile Include="KiemThe\Core\Player\KPlayer_BaseProperties.cs" />
+    <Compile Include="KiemThe\Core\Player\KPlayer_Data.cs" />
+    <Compile Include="KiemThe\Core\Player\KPlayer_Events.cs" />
+    <Compile Include="KiemThe\Core\Player\KPlayer_FightProperties.cs" />
+    <Compile Include="KiemThe\Entities\Skill\Buff\BuffDataEx.cs" />
+    <Compile Include="KiemThe\Core\Buff\BuffTree.cs" />
+    <Compile Include="KiemThe\Entities\Skill\Bullet\BulletConfig.cs" />
+    <Compile Include="KiemThe\Entities\Skill\Kind\EnchantSkill.cs" />
+    <Compile Include="KiemThe\Entities\Enumeration.cs" />
+    <Compile Include="KiemThe\Entities\Skill\Kind\AutoSkill.cs" />
+    <Compile Include="KiemThe\Entities\Faction\KFaction.cs" />
+    <Compile Include="KiemThe\Entities\Skill\Component\KNpcAttribGroup_Damage.cs" />
+    <Compile Include="KiemThe\Entities\Skill\Component\KNpcAttribGroup_State.cs" />
+    <Compile Include="KiemThe\Entities\Setting\KNpcSetting.cs" />
+    <Compile Include="KiemThe\Entities\Faction\KPlayerFaction.cs" />
+    <Compile Include="KiemThe\Entities\Skill\Series\KSpecialState.cs" />
+    <Compile Include="KiemThe\LuaSystem\KTLuaScript.cs" />
+    <Compile Include="KiemThe\Entities\Skill\Series\MAGIC_ATTRIB.cs" />
+    <Compile Include="KiemThe\Entities\Village\NewbieVillage.cs" />
+    <Compile Include="KiemThe\Entities\Skill\KSkill.cs" />
+    <Compile Include="KiemThe\Entities\Skill\SkillConfigAttribute.cs" />
+    <Compile Include="KiemThe\Entities\Skill\SkillCooldown.cs" />
+    <Compile Include="KiemThe\Entities\Skill\SkillDataEx.cs" />
+    <Compile Include="KiemThe\Entities\Skill\SkillLevelRef.cs" />
+    <Compile Include="KiemThe\Core\Skill\SkillTree.cs" />
+    <Compile Include="KiemThe\GameDbController\GameDb.cs" />
+    <Compile Include="KiemThe\KTGlobal.cs" />
+    <Compile Include="KiemThe\KTMain.cs" />
+    <Compile Include="KiemThe\Logic\Core\AlgorithmProperty.cs" />
+    <Compile Include="KiemThe\Logic\Core\CoMoEffects.cs" />
+    <Compile Include="KiemThe\Entities\Setting\KPlayerSetting.cs" />
+    <Compile Include="KiemThe\Logic\Player\ClientManager.cs" />
+    <Compile Include="KiemThe\Logic\Core\GameDataDef.cs" />
+    <Compile Include="KiemThe\Logic\Core\KSpecialStateManager.cs" />
+    <Compile Include="KiemThe\Logic\Core\KTAttributesModifier.cs" />
+    <Compile Include="KiemThe\Logic\Manager\Skill\Bullet\KTBulletManager.cs" />
+    <Compile Include="KiemThe\Logic\Core\KTLogic.cs" />
+    <Compile Include="KiemThe\Logic\Manager\Monster\KTMonsterTimerManager.cs" />
+    <Compile Include="KiemThe\Logic\Manager\Skill\Buff\KTBuffManager.cs" />
+    <Compile Include="KiemThe\Logic\Manager\Skill\KTSkillManager.cs" />
+    <Compile Include="KiemThe\Logic\Manager\Skill\KTSkillManager_Logic.cs" />
+    <Compile Include="KiemThe\Logic\Manager\Ultilities\KTTaskManager.cs" />
+    <Compile Include="KiemThe\Network\Data\Skill\G2C_UseSkillResult.cs" />
+    <Compile Include="KiemThe\Network\Data\Skill\G2C_FlyToPosition.cs" />
+    <Compile Include="KiemThe\Network\Data\Skill\G2C_MoveSpeedChanged.cs" />
+    <Compile Include="KiemThe\Network\Data\Sprite\SpriteStopMove.cs" />
+    <Compile Include="KiemThe\Network\Data\Sprite\G2C_SpriteChangeAction.cs" />
+    <Compile Include="KiemThe\Network\Data\Skill\G2C_SpriteSeriesState.cs" />
+    <Compile Include="KiemThe\Network\Data\Sprite\C2G_SpriteChangeAction.cs" />
+    <Compile Include="KiemThe\Network\Data\Trap\TrapRole.cs" />
+    <Compile Include="KiemThe\Network\Data\UI\C2G_ClientRevive.cs" />
+    <Compile Include="KiemThe\Network\Data\UI\C2G_ComposeDialog.cs" />
+    <Compile Include="KiemThe\Network\Data\UI\C2G_InputEquipAndMaterials.cs" />
+    <Compile Include="KiemThe\Network\Data\UI\C2G_InputItems.cs" />
+    <Compile Include="KiemThe\Network\Data\UI\ClientLuaPacket.cs" />
+    <Compile Include="KiemThe\Network\Data\UI\G2C_Captcha.cs" />
+    <Compile Include="KiemThe\Network\Data\UI\G2C_ComposeDialog.cs" />
+    <Compile Include="KiemThe\Network\Data\UI\G2C_InputEquipAndMaterials.cs" />
+    <Compile Include="KiemThe\Network\Data\UI\G2C_InputItems.cs" />
+    <Compile Include="KiemThe\Network\Data\UI\G2C_OpenUI.cs" />
+    <Compile Include="KiemThe\Network\Data\UI\G2C_ProgressBar.cs" />
+    <Compile Include="KiemThe\Network\Data\UI\G2C_ShowReviveFrame.cs" />
+    <Compile Include="KiemThe\Network\Data\Sprite\SpriteChat.cs" />
+    <Compile Include="KiemThe\Network\Data\UI\G2C_ShowMessageBox.cs" />
+    <Compile Include="KiemThe\Network\Data\Skill\SkillResultPacketBuilder.cs" />
+    <Compile Include="KiemThe\Network\Data\VoiceChat\VoiceChatInfo.cs" />
+    <Compile Include="KiemThe\Network\KT_TCPHandler.cs" />
+    <Compile Include="KiemThe\Logic\Player\PlayerManager.cs" />
+    <Compile Include="KiemThe\LuaSystem\Entities\GUI\Lua_NPCDialog.cs" />
+    <Compile Include="KiemThe\LuaSystem\Entities\Math\Lua_Vector2.cs" />
+    <Compile Include="KiemThe\LuaSystem\Entities\Object\Lua_Monster.cs" />
+    <Compile Include="KiemThe\LuaSystem\Entities\Object\Lua_NPC.cs" />
+    <Compile Include="KiemThe\LuaSystem\Entities\Object\Lua_Player.cs" />
+    <Compile Include="KiemThe\LuaSystem\Entities\Object\Lua_Scene.cs" />
+    <Compile Include="KiemThe\LuaSystem\KTLuaEnvironment.cs" />
+    <Compile Include="KiemThe\LuaSystem\KTLuaEnvironment_Methods.cs" />
+    <Compile Include="KiemThe\LuaSystem\Logic\KTLuaLib_GUI.cs" />
+    <Compile Include="KiemThe\LuaSystem\Logic\KTLuaLib_Math.cs" />
+    <Compile Include="KiemThe\LuaSystem\Logic\KTLuaLib_Player.cs" />
+    <Compile Include="KiemThe\LuaSystem\Logic\KTLuaLib_System.cs" />
+    <Compile Include="KiemThe\Network\Data\LuaNPCDialog\C2G_LuaNPCDialog.cs" />
+    <Compile Include="KiemThe\Network\Data\LuaNPCDialog\G2C_LuaNPCDialog.cs" />
+    <Compile Include="KiemThe\Network\Data\Role\RoleAttributes.cs" />
+    <Compile Include="KiemThe\Network\Data\Role\RoleData.cs" />
+    <Compile Include="KiemThe\Network\Data\Role\RoleDataEx.cs" />
+    <Compile Include="KiemThe\Network\Data\Role\RoleDataMini.cs" />
+    <Compile Include="KiemThe\Network\Data\Role\RoleFactionChanged.cs" />
+    <Compile Include="KiemThe\Network\Data\Skill\C2G_UseSkill.cs" />
+    <Compile Include="KiemThe\Network\Data\Skill\G2C_BlinkToPosition.cs" />
+    <Compile Include="KiemThe\Network\Data\Skill\G2C_BulletExplode.cs" />
+    <Compile Include="KiemThe\Network\Data\Skill\G2C_CreateBullet.cs" />
+    <Compile Include="KiemThe\Network\Data\Skill\G2C_SpriteBuff.cs" />
+    <Compile Include="KiemThe\Network\Data\Skill\G2C_UseSkill.cs" />
+    <Compile Include="KiemThe\Network\Data\Skill\G2C_SkillCooldown.cs" />
+    <Compile Include="KiemThe\Network\Data\Skill\SkillResult.cs" />
+    <Compile Include="KiemThe\Network\Data\Skill\BulletExplodePacketBuilder.cs" />
+    <Compile Include="KiemThe\Network\Data\Skill\BulletPacketBuilder.cs" />
+    <Compile Include="KiemThe\Network\KT_TCPHandler_Action.cs" />
+    <Compile Include="KiemThe\Network\KT_TCPHandler_Activity.cs" />
+    <Compile Include="KiemThe\Network\KT_TCPHandler_AntiBot.cs" />
+    <Compile Include="KiemThe\Network\KT_TCPHandler_Avarta.cs" />
+    <Compile Include="KiemThe\Network\KT_TCPHandler_BrowsePlayer.cs" />
+    <Compile Include="KiemThe\Network\KT_TCPHandler_SlotMachine.cs" />
+    <Compile Include="KiemThe\Network\KT_TCPHandler_FlowerTower.cs" />
+    <Compile Include="KiemThe\Network\KT_TCPHandler_LeagueBattle.cs" />
+    <Compile Include="KiemThe\Network\KT_TCPHandler_Compose.cs" />
+    <Compile Include="KiemThe\Network\KT_TCPHandler_LuckyCircle.cs" />
+    <Compile Include="KiemThe\Network\KT_TCPHandler_Map.cs" />
+    <Compile Include="KiemThe\Network\KT_TCPHandler_Chat.cs" />
+    <Compile Include="KiemThe\Network\KT_TCPHandler_ClientLua.cs" />
+    <Compile Include="KiemThe\Network\KT_TCPHandler_Core.cs" />
+    <Compile Include="KiemThe\Network\KT_TCPHandler_Family.cs" />
+    <Compile Include="KiemThe\Network\KT_TCPHandler_FirstDownload.cs" />
+    <Compile Include="KiemThe\Network\KT_TCPHandler_Input.cs" />
+    <Compile Include="KiemThe\Network\KT_TCPHandler_Mail.cs" />
+    <Compile Include="KiemThe\Network\KT_TCPHandler_Moving.cs" />
+    <Compile Include="KiemThe\Network\KT_TCPHandler_PlayerPray.cs" />
+    <Compile Include="KiemThe\Network\KT_TCPHandler_Position.cs" />
+    <Compile Include="KiemThe\Network\KT_TCPHandler_Racing_Pet.cs" />
+    <Compile Include="KiemThe\Network\KT_TCPHandler_Ranking.cs" />
+    <Compile Include="KiemThe\Network\KT_TCPHandler_FactionBattle.cs" />
+    <Compile Include="KiemThe\Network\KT_TCPHandler_FlowerBet.cs" />
+    <Compile Include="KiemThe\Network\KT_TCPHandler_RechargeAward.cs" />
+    <Compile Include="KiemThe\Network\KT_TCPHandler_SongJinBattle.cs" />
+    <Compile Include="KiemThe\Network\KT_TCPHandler_CopyScene.cs" />
+    <Compile Include="KiemThe\Network\KT_TCPHandler_Crafting.cs" />
+    <Compile Include="KiemThe\Network\KT_TCPHandler_Debug.cs" />
+    <Compile Include="KiemThe\Network\KT_TCPHandler_Equip.cs" />
+    <Compile Include="KiemThe\Network\KT_TCPHandler_FactionAndRoute.cs" />
+    <Compile Include="KiemThe\Network\KT_TCPHandler_Friend.cs" />
+    <Compile Include="KiemThe\Network\KT_TCPHandler_GMCommand.cs" />
+    <Compile Include="KiemThe\Network\KT_TCPHandler_Guild.cs" />
+    <Compile Include="KiemThe\Network\KT_TCPHandler_NPCAndItem.cs" />
+    <Compile Include="KiemThe\Network\KT_TCPHandler_PK.cs" />
+    <Compile Include="KiemThe\Network\KT_TCPHandler_Revive.cs" />
+    <Compile Include="KiemThe\Network\KT_TCPHandler_RoleFightProperties.cs" />
+    <Compile Include="KiemThe\Network\KT_TCPHandler_Shop.cs" />
+    <Compile Include="KiemThe\Network\KT_TCPHandler_Skill.cs" />
+    <Compile Include="KiemThe\Network\KT_TCPHandler_Stall.cs" />
+    <Compile Include="KiemThe\Network\KT_TCPHandler_StoreMoney.cs" />
+    <Compile Include="KiemThe\Network\KT_TCPHandler_SystemAndAuto.cs" />
+    <Compile Include="KiemThe\Network\KT_TCPHandler_TamLong.cs" />
+    <Compile Include="KiemThe\Network\KT_TCPHandler_Team.cs" />
+    <Compile Include="KiemThe\Network\KT_TCPHandler_TitleAndName.cs" />
+    <Compile Include="KiemThe\Network\KT_TCPHandler_Trade.cs" />
+    <Compile Include="KiemThe\Network\KT_TCPHandler_UI.cs" />
+    <Compile Include="KiemThe\Network\KT_TCPHandler_UnionShop.cs" />
+    <Compile Include="KiemThe\Network\KT_TCPHandler_Version.cs" />
+    <Compile Include="KiemThe\Network\KT_TCPHandler_YouLong.cs" />
+    <Compile Include="KiemThe\Network\KT_TCPhandle_DailyCheckin.cs" />
+    <Compile Include="KiemThe\ServerConfig.cs" />
+    <Compile Include="KiemThe\Utilities\Algorithms\AlgebraicExpression.cs" />
+    <Compile Include="KiemThe\Utilities\Algorithms\AutoIndexReusablePattern.cs" />
+    <Compile Include="KiemThe\Utilities\Algorithms\BinaryTree.cs" />
+    <Compile Include="KiemThe\Utilities\Algorithms\Dijkstra.cs" />
+    <Compile Include="KiemThe\Utilities\Algorithms\LineSmoother.cs" />
+    <Compile Include="KiemThe\Utilities\KTCrypto.cs" />
+    <Compile Include="KiemThe\Utilities\KTFormValidation.cs" />
+    <Compile Include="KiemThe\Utilities\KTMath.cs" />
+    <Compile Include="KiemThe\Utilities\KTMemory.cs" />
+    <Compile Include="KiemThe\Utilities\KTMoveUtils.cs" />
+    <Compile Include="KiemThe\Utilities\KTTimerManager.cs" />
+    <Compile Include="KiemThe\Utilities\Libraries\CaptchaImageGenerator.cs" />
+    <Compile Include="KiemThe\Utilities\Libraries\ImageProcessor.cs" />
+    <Compile Include="KiemThe\Utilities\MaxLevelGreenProp.cs" />
+    <Compile Include="KiemThe\Utilities\PropertyDictionary.cs" />
+    <Compile Include="KiemThe\Utilities\PropertyDictionaryManager.cs" />
+    <Compile Include="KiemThe\Utilities\KTTimer.cs" />
+    <Compile Include="KiemThe\Utilities\ScheduleTask.cs" />
+    <Compile Include="KiemThe\Utils.cs" />
+    <Compile Include="Logic\BandManager\CreateRoleLimitMgr.cs" />
+    <Compile Include="Logic\BandManager\GetInterestingDataMgr.cs" />
+    <Compile Include="Logic\BandManager\FileBanLogic.cs" />
+    <Compile Include="Logic\BandManager\RobotTaskValidator.cs" />
+    <Compile Include="Logic\BandManager\SpeedUpTickCheck.cs" />
+    <Compile Include="Logic\CheckCheat.cs" />
+    <Compile Include="Logic\EventLog\EventLogData.cs" />
+    <Compile Include="Logic\EventLog\EventLogManager.cs" />
+    <Compile Include="KiemThe\Core\Item\GoodsPackManager.cs" />
+    <Compile Include="Logic\LoginWaiting_QUANLYLOGIN\LoginWaitLogic.cs" />
+    <Compile Include="KiemThe\Logic\Manager\Player\Features\NameManager.cs" />
+    <Compile Include="Logic\ProtoCheck\ProtoChecker.cs" />
+    <Compile Include="Logic\CorInterface.cs" />
+    <Compile Include="Logic\Global\GlobalNew.cs" />
+    <Compile Include="Logic\GroupMailManager.cs" />
+    <Compile Include="Logic\LogDBCmdManager.cs" />
+    <Compile Include="Logic\RangeKey.cs" />
+    <Compile Include="Data\KT_Task\DailyTaskData.cs" />
+    <Compile Include="KiemThe\Network\Data\Trade\ExchangeData.cs" />
+    <Compile Include="KiemThe\Network\Data\Friend\FriendData.cs" />
+    <Compile Include="Data\KT_Goods\GoodsData.cs" />
+    <Compile Include="Data\KT_Goods\GoodsLimitData.cs" />
+    <Compile Include="Data\KT_Goods\GoodsPackListData.cs" />
+    <Compile Include="Data\HuodongData.cs" />
+    <Compile Include="KiemThe\Network\Data\Mail\MailData.cs" />
+    <Compile Include="KiemThe\Network\Data\Monster\MonsterData.cs" />
+    <Compile Include="KiemThe\Network\Data\Task\NPCTaskState.cs" />
+    <Compile Include="Data\KT_Task\OldTaskData.cs" />
+    <Compile Include="Data\PortableBagData.cs" />
+    <Compile Include="Data\KT_Role\RoleDailyData.cs" />
+    <Compile Include="Data\KT_Role\RoleData4Selector.cs" />
+    <Compile Include="Data\KT_Role\RoleParamsData.cs" />
+    <Compile Include="Data\KT_Goods\SaleGoodsData.cs" />
+    <Compile Include="Data\SaleRoleData.cs" />
+    <Compile Include="Data\SearchRoleData.cs" />
+    <Compile Include="KiemThe\Network\Data\Skill\SkillData.cs" />
+    <Compile Include="KiemThe\Network\Data\Sprite\SpriteLifeChangeData.cs" />
+    <Compile Include="KiemThe\Network\Data\Sprite\SpriteMoveData.cs" />
+    <Compile Include="KiemThe\Network\Data\Sprite\SpriteNotifyOtherMoveData.cs" />
+    <Compile Include="KiemThe\Network\Data\Sprite\SpritePositionData.cs" />
+    <Compile Include="KiemThe\Network\Data\Sprite\SpriteRelifeData.cs" />
+    <Compile Include="KiemThe\Network\Data\Stall\StallData.cs" />
+    <Compile Include="KiemThe\Network\Data\Task\TaskData.cs" />
+    <Compile Include="KiemThe\Network\Data\NPC\NPCRole.cs" />
+    <Compile Include="Data\LuaCallResultData.cs" />
+    <Compile Include="Interface\IObject.cs" />
+    <Compile Include="Logic\BandManager\BanChatManager.cs" />
+    <Compile Include="Logic\BandManager\BanManager.cs" />
+    <Compile Include="Logic\ChengJiuManager.cs" />
+    <Compile Include="Data\KT_Role\MapModel.cs" />
+    <Compile Include="Logic\DateTimeRange.cs" />
+    <Compile Include="KiemThe\GameDbController\DBCmdManager.cs" />
+    <Compile Include="KiemThe\GameDbController\DBCmdPool.cs" />
+    <Compile Include="KiemThe\GameDbController\DBCommand.cs" />
+    <Compile Include="Logic\Enumeration.cs" />
+    <Compile Include="KiemThe\Core\Player\KPlayer.cs" />
+    <Compile Include="Logic\GameConfig.cs" />
+    <Compile Include="Logic\GameManager.cs" />
+    <Compile Include="KiemThe\Logic\Map\GameMap.cs" />
+    <Compile Include="Logic\GeneralCachingXmlMgr.cs" />
+    <Compile Include="Logic\Global\Global.cs" />
+    <Compile Include="KiemThe\Logic\GlobalServiceManager.cs" />
+    <Compile Include="Logic\HuodongCachingMgr.cs" />
+    <Compile Include="KiemThe\Logic\Map\MapGrid.cs" />
+    <Compile Include="KiemThe\Logic\Map\MapGridManager.cs" />
+    <Compile Include="KiemThe\Logic\Map\MapManager.cs" />
+    <Compile Include="KiemThe\Core\Monster\Monster.cs" />
+    <Compile Include="KiemThe\Logic\Monster\MonsterContainer.cs" />
+    <Compile Include="KiemThe\Logic\Monster\MonsterIDManager.cs" />
+    <Compile Include="KiemThe\Logic\Monster\MonsterManager.cs" />
+    <Compile Include="KiemThe\Logic\Monster\MonsterNameManager.cs" />
+    <Compile Include="KiemThe\Logic\Monster\MonsterZone.cs" />
+    <Compile Include="KiemThe\Logic\Monster\MonsterZoneManager.cs" />
+    <Compile Include="KiemThe\Logic\NPC\NPCGeneralManager.cs" />
+    <Compile Include="KiemThe\Core\NPC\NPCTasksManager.cs" />
+    <Compile Include="Logic\PorcessCmdMoniter.cs" />
+    <Compile Include="KiemThe\Core\Task\TaskProsecc\ProcessSessionTask.cs" />
+    <Compile Include="KiemThe\Core\Task\TaskProsecc\ProcessTask.cs" />
+    <Compile Include="KiemThe\Logic\Manager\IconStateManager\IconStateManager.cs" />
+    <Compile Include="Logic\SaleManager.cs" />
+    <Compile Include="Logic\SearchTable.cs" />
+    <Compile Include="Logic\SecondPassword_PASS2CHOTUIDO\SecondPasswordError.cs" />
+    <Compile Include="Logic\SecondPassword_PASS2CHOTUIDO\SecondPasswordManager.cs" />
+    <Compile Include="Logic\RoleName2IDs.cs" />
+    <Compile Include="Logic\SaleGoodsManager.cs" />
+    <Compile Include="Logic\SaleRoleManager.cs" />
+    <Compile Include="Logic\ServerEvents.cs" />
+    <Compile Include="Logic\SpriteContainer.cs" />
+    <Compile Include="Logic\SystemXmlItem.cs" />
+    <Compile Include="Logic\SystemXmlItems.cs" />
+    <Compile Include="Logic\UnhandedException.cs" />
+    <Compile Include="Logic\UnregisterUserIDMgr.cs" />
+    <Compile Include="Logic\UserSession.cs" />
+    <Compile Include="KiemThe\Core\Activity\CardMonth\YueKaDetail.cs" />
+    <Compile Include="KiemThe\Core\Activity\CardMonth\YueKaError.cs" />
+    <Compile Include="KiemThe\Core\Activity\CardMonth\CardMonthManager.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Protocol\CmdPacket.cs" />
+    <Compile Include="Protocol\TCPConsts.cs" />
+    <Compile Include="Protocol\TCPInPacket.cs" />
+    <Compile Include="Protocol\TCPInPacketPool.cs" />
+    <Compile Include="Protocol\TCPOutPacket.cs" />
+    <Compile Include="Protocol\TCPOutPacketPool.cs" />
+    <Compile Include="Protocol\TCPPolicy.cs" />
+    <Compile Include="Protocol\UserLoginToken.cs" />
+    <Compile Include="Server\CacheManager.cs" />
+    <Compile Include="Server\CmdProcesser\CmdRegisterTriggerManager.cs" />
+    <Compile Include="Server\CmdProcesser\GetSweepWanMoTaAwardCmdProcessor.cs" />
+    <Compile Include="Server\CmdProcesser\GetWanMoTaDetailCmdProcessor.cs" />
+    <Compile Include="Server\CmdProcesser\ICmdProcessor.cs" />
+    <Compile Include="Server\CmdProcesser\SaleCmdsProcessor.cs" />
+    <Compile Include="Server\CmdProcesser\SweepWanMoTaCmdProcessor.cs" />
+    <Compile Include="Server\CmdProcesser\UpGradeChengLevelCmdProcessor.cs" />
+    <Compile Include="Server\SendCmdManager.cs" />
+    <Compile Include="Server\SendCmdWrapper.cs" />
+    <Compile Include="Server\TCPCmdEnum.cs" />
+    <Compile Include="Server\TCPCmdWrapper.cs" />
+    <Compile Include="Server\TCPClient.cs" />
+    <Compile Include="Server\TCPClientPool.cs" />
+    <Compile Include="Server\TCPCmdHandler.cs" />
+    <Compile Include="Server\PacketMonitoringManager.cs" />
+    <Compile Include="Server\TCPCmdDispatcher.cs" />
+    <Compile Include="Server\TCPManager.cs" />
+    <Compile Include="Logic\TCPRandKey.cs" />
+    <Compile Include="Server\TCPSession.cs" />
+    <Compile Include="TCPSOCKET\BufferManager.cs" />
+    <Compile Include="TCPSOCKET\FullBufferManager.cs" />
+    <Compile Include="TCPSOCKET\SendBuffer.cs" />
+    <Compile Include="TCPSOCKET\SendBufferManager.cs" />
+    <Compile Include="TCPSOCKET\SocketAsyncEventArgsPool.cs" />
+    <Compile Include="TCPSOCKET\SocketHelper.cs" />
+    <Compile Include="TCPSOCKET\SocketListener.cs" />
+    <Compile Include="TCPSOCKET\MemoryManager.cs" />
+    <Compile Include="TCPSOCKET\TMSKSocket.cs" />
+    <Compile Include="Tools\AStarEx\ANode.cs" />
+    <Compile Include="Tools\AStarEx\AStar.cs" />
+    <Compile Include="Tools\AStarEx\BinaryStack.cs" />
+    <Compile Include="Tools\AStarEx\NodeGrid.cs" />
+    <Compile Include="Tools\AStar\IPathFinder.cs" />
+    <Compile Include="Tools\AStar\PathFinder.cs" />
+    <Compile Include="Tools\AStar\PathFinderFast.cs" />
+    <Compile Include="Tools\AStar\PathPoint.cs" />
+    <Compile Include="Tools\AStar\PriorityQueueB.cs" />
+    <Compile Include="Tools\CheckHelper.cs" />
+    <Compile Include="Logic\ServerMonitorManager.cs" />
+    <Compile Include="Tools\DataHelper.cs" />
+    <Compile Include="Tools\DBHelper.cs" />
+    <Compile Include="Tools\MUJson.cs" />
+    <Compile Include="Tools\Pattern\SingletonTemplate.cs" />
+    <Compile Include="Tools\ProtoUtil.cs" />
+    <Compile Include="Tools\SHA2Helper.cs" />
+    <Compile Include="Tools\SysConOut.cs" />
+    <Compile Include="Tools\TMSKThreadStaticClass.cs" />
+    <Compile Include="Tools\Win32API.cs" />
+    <Compile Include="KiemThe\GameEvents\DailyCheckin\DailyCheckinManager.cs" />
+    <None Include="app.manifest" />
+    <EntityDeploy Include="KiemThe\MxDatabaseController\MixDataSet.edmx">
+      <Generator>EntityModelCodeGenerator</Generator>
+      <LastGenOutput>MixDataSet.Designer.cs</LastGenOutput>
+    </EntityDeploy>
+    <None Include="KiemThe\MxDatabaseController\MixDataSet.edmx.diagram">
+      <DependentUpon>MixDataSet.edmx</DependentUpon>
+    </None>
+    <None Include="packages.config" />
+    <Compile Include="Tools\SerilogBootstrap.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config">
+      <SubType>Designer</SubType>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.0">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4 %28x86 å’Œ x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.3.1">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 3.1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Tmsk.Contract\Tmsk.Contract.csproj">
+      <Project>{a9cb8bc5-f139-490f-9ce9-1e26edce4103}</Project>
+      <Name>Tmsk.Contract</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Data\KT_VoiceChat\" />
+    <Folder Include="Properties\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="KiemThe\MxDatabaseController\MixDataSet.Context.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <LastGenOutput>MixDataSet.Context.cs</LastGenOutput>
+      <DependentUpon>MixDataSet.edmx</DependentUpon>
+    </Content>
+    <Content Include="KiemThe\MxDatabaseController\MixDataSet.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <DependentUpon>MixDataSet.edmx</DependentUpon>
+      <LastGenOutput>MixDataSet.cs</LastGenOutput>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{508349B6-6B84-4DF5-91F0-309BEEBAD82D}" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <PropertyGroup>
+    <PreBuildEvent>
+    </PreBuildEvent>
+  </PropertyGroup>
+  <PropertyGroup>
+    <PostBuildEvent>
+    </PostBuildEvent>
+  </PropertyGroup>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it.
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

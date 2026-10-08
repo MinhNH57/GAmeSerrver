@@ -1,0 +1,67 @@
+<ArrayOfItemData>
+  <ItemData ItemID="15011" Name="Túi da thú" IconBundleDir="Icon/EquipIcon2.unity3d" IconAtlasName="EquipIcon2"
+    MapSpriteBundleDir="Resources/Item/MapSprite.unity3d" MapSpriteAtlasName="MapSprite" Category="0" Genre="21" Stack="1" DetailType="19"
+    ParticularType="4" Level="1" SuiteID="0" Icon="ext_bag_[15011]" View="ext_bag_[15011]" Intro="Túi 4 ô." Help="" ObjID="32" BindType="2" Series="0"
+    ReqLevel="0" CDType="0" Price="500" ItemValue="500" MakeCost="-1" ResMale="0" ResFemale="0" FightPower="0" ScriptID="-1" DeductOnUse="false"
+    BuffID="-1"> </ItemData>
+
+  <ItemData ItemID="15012" Name="Túi Tử Lăng" IconBundleDir="Icon/EquipIcon2.unity3d" IconAtlasName="EquipIcon2"
+    MapSpriteBundleDir="Resources/Item/MapSprite.unity3d" MapSpriteAtlasName="MapSprite" Category="0" Genre="21" Stack="1" DetailType="19"
+    ParticularType="6" Level="1" SuiteID="0" Icon="ext_bag_[15012]" View="ext_bag_[15012]" Intro="Túi 6 ô." Help="" ObjID="32" BindType="2" Series="0"
+    ReqLevel="0" CDType="0" Price="1600" ItemValue="1600" MakeCost="-1" ResMale="0" ResFemale="0" FightPower="0" ScriptID="-1" DeductOnUse="false"
+    BuffID="-1"> </ItemData>
+
+  <ItemData ItemID="15013" Name="Túi Cẩm Ti" IconBundleDir="Icon/EquipIcon2.unity3d" IconAtlasName="EquipIcon2"
+    MapSpriteBundleDir="Resources/Item/MapSprite.unity3d" MapSpriteAtlasName="MapSprite" Category="0" Genre="21" Stack="1" DetailType="19"
+    ParticularType="8" Level="1" SuiteID="0" Icon="ext_bag_[15013]" View="ext_bag_[15013]" Intro="Túi 8 ô." Help="" ObjID="32" BindType="2" Series="0"
+    ReqLevel="0" CDType="0" Price="4400" ItemValue="4400" MakeCost="-6600" ResMale="0" ResFemale="0" FightPower="0" ScriptID="-1" DeductOnUse="false"
+    BuffID="-1"> </ItemData>
+
+  <ItemData ItemID="15014" Name="Túi Hoàng Trù" IconBundleDir="Icon/EquipIcon2.unity3d" IconAtlasName="EquipIcon2"
+    MapSpriteBundleDir="Resources/Item/MapSprite.unity3d" MapSpriteAtlasName="MapSprite" Category="0" Genre="21" Stack="1" DetailType="19"
+    ParticularType="10" Level="1" SuiteID="0" Icon="ext_bag_[15014]" View="ext_bag_[15014]" Intro="Túi 10 ô." Help="" ObjID="32" BindType="2"
+    Series="0" ReqLevel="0" CDType="0" Price="12200" ItemValue="12200" MakeCost="18300" ResMale="0" ResFemale="0" FightPower="0" ScriptID="-1"
+    DeductOnUse="false" BuffID="-1"> </ItemData>
+
+  <ItemData ItemID="15015" Name="Túi Tâm Ấn" IconBundleDir="Icon/EquipIcon2.unity3d" IconAtlasName="EquipIcon2"
+    MapSpriteBundleDir="Resources/Item/MapSprite.unity3d" MapSpriteAtlasName="MapSprite" Category="0" Genre="21" Stack="1" DetailType="19"
+    ParticularType="12" Level="1" SuiteID="0" Icon="ext_bag_[15015]" View="ext_bag_[15015]" Intro="Túi 12 ô." Help="" ObjID="32" BindType="2"
+    Series="0" ReqLevel="0" CDType="0" Price="40000" ItemValue="40000" MakeCost="60000" ResMale="0" ResFemale="0" FightPower="0" ScriptID="-1"
+    DeductOnUse="false" BuffID="-1"> </ItemData>
+
+  <ItemData ItemID="15016" Name="Túi da chồn" IconBundleDir="Icon/EquipIcon2.unity3d" IconAtlasName="EquipIcon2"
+    MapSpriteBundleDir="Resources/Item/MapSprite.unity3d" MapSpriteAtlasName="MapSprite" Category="0" Genre="21" Stack="1" DetailType="19"
+    ParticularType="15" Level="1" SuiteID="0" Icon="ext_bag_[15016]" View="ext_bag_[15016]" Intro="Túi 15 ô." Help="" ObjID="32" BindType="2"
+    Series="0" ReqLevel="0" CDType="0" Price="120000" ItemValue="120000" MakeCost="180000" ResMale="0" ResFemale="0" FightPower="0" ScriptID="-1"
+    DeductOnUse="false" BuffID="-1"> </ItemData>
+
+  <ItemData ItemID="15017" Name="Túi Kim Ngọc" IconBundleDir="Icon/EquipIcon2.unity3d" IconAtlasName="EquipIcon2"
+    MapSpriteBundleDir="Resources/Item/MapSprite.unity3d" MapSpriteAtlasName="MapSprite" Category="0" Genre="21" Stack="1" DetailType="19"
+    ParticularType="18" Level="1" SuiteID="0" Icon="ext_bag_[15017]" View="ext_bag_[15017]" Intro="Túi 18 ô." Help="" ObjID="32" BindType="2"
+    Series="0" ReqLevel="0" CDType="0" Price="350000" ItemValue="350000" MakeCost="525000" ResMale="0" ResFemale="0" FightPower="0" ScriptID="-1"
+    DeductOnUse="false" BuffID="-1"> </ItemData>
+
+  <ItemData ItemID="15710" Name="Túi Kim Ngọc (Admin)" IconBundleDir="Icon/EquipIcon2.unity3d" IconAtlasName="EquipIcon2"
+    MapSpriteBundleDir="Resources/Item/MapSprite.unity3d" MapSpriteAtlasName="MapSprite" Category="0" Genre="21" Stack="1" DetailType="19"
+    ParticularType="200" Level="1" SuiteID="0" Icon="ext_bag_[15017]" View="ext_bag_[15017]" Intro="Túi 200 ô." Help="" ObjID="32" BindType="2"
+    Series="0" ReqLevel="0" CDType="0" Price="350000" ItemValue="350000" MakeCost="525000" ResMale="0" ResFemale="0" FightPower="0" ScriptID="-1"
+    DeductOnUse="false" BuffID="-1"> </ItemData>
+
+    <ItemData ItemID="15249" Name="Túi Kim Cang" IconBundleDir="Icon/EquipIcon2.unity3d" IconAtlasName="EquipIcon2"
+    MapSpriteBundleDir="Resources/Item/MapSprite.unity3d" MapSpriteAtlasName="MapSprite" Category="0" Genre="21" Stack="1" DetailType="19"
+    ParticularType="24" Level="1" SuiteID="0" Icon="tui_kim_cang" View="ext_bag_[15017]" Intro="Túi 24 ô." Help="" ObjID="32" BindType="2"
+    Series="0" ReqLevel="0" CDType="0" Price="350000" ItemValue="350000" MakeCost="525000" ResMale="0" ResFemale="0" FightPower="0" ScriptID="-1"
+    DeductOnUse="false" BuffID="-1"> </ItemData>
+
+    <ItemData ItemID="15250" Name="Túi Ngọc Bích" IconBundleDir="Icon/EquipIcon2.unity3d" IconAtlasName="EquipIcon2"
+    MapSpriteBundleDir="Resources/Item/MapSprite.unity3d" MapSpriteAtlasName="MapSprite" Category="0" Genre="21" Stack="1" DetailType="19"
+    ParticularType="30" Level="1" SuiteID="0" Icon="tui_ngoc_bich" View="ext_bag_[15017]" Intro="Túi 30 ô." Help="" ObjID="32" BindType="2"
+    Series="0" ReqLevel="0" CDType="0" Price="350000" ItemValue="350000" MakeCost="525000" ResMale="0" ResFemale="0" FightPower="0" ScriptID="-1"
+    DeductOnUse="false" BuffID="-1"> </ItemData>
+
+    <ItemData ItemID="15251" Name="Túi Huyền Vũ" IconBundleDir="Icon/EquipIcon2.unity3d" IconAtlasName="EquipIcon2"
+    MapSpriteBundleDir="Resources/Item/MapSprite.unity3d" MapSpriteAtlasName="MapSprite" Category="0" Genre="21" Stack="1" DetailType="19"
+    ParticularType="35" Level="1" SuiteID="0" Icon="tui_huyen_vu" View="ext_bag_[15017]" Intro="Túi 35 ô." Help="" ObjID="32" BindType="2"
+    Series="0" ReqLevel="0" CDType="0" Price="350000" ItemValue="350000" MakeCost="525000" ResMale="0" ResFemale="0" FightPower="0" ScriptID="-1"
+    DeductOnUse="false" BuffID="-1"> </ItemData>
+</ArrayOfItemData>

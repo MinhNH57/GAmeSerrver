@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfItemData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <ItemData ItemID="25115" Name="Giày Đồng Hành - Bích Huyết" IconBundleDir="Icon/EquipIcon2.unity3d" IconAtlasName="EquipIcon2"
+    MapSpriteBundleDir="Resources/Item/MapSprite.unity3d" MapSpriteAtlasName="MapSprite" Kind="Giày Đồng Hành" QualityPrefix="7" Category="1"
+    Genre="2" Stack="1" DetailType="25" ParticularType="522" Level="7" SuiteID="0" Icon="BH_giay" View="BH_giay" Intro="" Help=""
+    ObjID="22" BindType="2" Series="1" ReqLevel="0" CDType="0" Price="160000" ItemValue="10000000" MakeCost="-1" ResMale="-1" ResFemale="-1"
+    FightPower="16" ScriptID="-1" DeductOnUse="false" BuffID="-1">
+    <ListBasicProp BasicPropType="addphysicsdamage_v" BasicPropPA1Min="2560" BasicPropPA1Max="2560" BasicPropPA2Min="-1" BasicPropPA2Max="-1"
+      BasicPropPA3Min="-1" BasicPropPA3Max="-1" Index="1" />
+    <ListBasicProp BasicPropType="addphysicsmagic_v" BasicPropPA1Min="2560" BasicPropPA1Max="2560" BasicPropPA2Min="-1" BasicPropPA2Max="-1"
+      BasicPropPA3Min="-1" BasicPropPA3Max="-1" Index="2" />
+    <ListBasicProp BasicPropType="fatallystrikeenhance_p" BasicPropPA1Min="10" BasicPropPA1Max="10" BasicPropPA2Min="-1" BasicPropPA2Max="-1"
+      BasicPropPA3Min="-1" BasicPropPA3Max="-1" Index="3" />
+    <UnLockInterval>-1</UnLockInterval>
+  </ItemData>
+  <ItemData ItemID="25116" Name="Giày Đồng Hành - Kim Lân" IconBundleDir="Icon/EquipIcon2.unity3d" IconAtlasName="EquipIcon2"
+    MapSpriteBundleDir="Resources/Item/MapSprite.unity3d" MapSpriteAtlasName="MapSprite" Kind="Giày Đồng Hành" QualityPrefix="7" Category="1"
+    Genre="2" Stack="1" DetailType="25" ParticularType="522" Level="8" SuiteID="0" Icon="KL_giay" View="KL_giay" Intro="" Help=""
+    ObjID="22" BindType="2" Series="1" ReqLevel="0" CDType="0" Price="160000" ItemValue="20000000" MakeCost="-1" ResMale="-1" ResFemale="-1"
+    FightPower="16" ScriptID="-1" DeductOnUse="false" BuffID="-1">
+    <ListBasicProp BasicPropType="addphysicsdamage_v" BasicPropPA1Min="4100" BasicPropPA1Max="4100" BasicPropPA2Min="-1" BasicPropPA2Max="-1"
+      BasicPropPA3Min="-1" BasicPropPA3Max="-1" Index="1" />
+    <ListBasicProp BasicPropType="addphysicsmagic_v" BasicPropPA1Min="4100" BasicPropPA1Max="4100" BasicPropPA2Min="-1" BasicPropPA2Max="-1"
+      BasicPropPA3Min="-1" BasicPropPA3Max="-1" Index="2" />
+    <ListBasicProp BasicPropType="fatallystrikeenhance_p" BasicPropPA1Min="15" BasicPropPA1Max="15" BasicPropPA2Min="-1" BasicPropPA2Max="-1"
+      BasicPropPA3Min="-1" BasicPropPA3Max="-1" Index="3" />
+    <UnLockInterval>-1</UnLockInterval>
+  </ItemData>
+  <ItemData ItemID="25117" Name="Giày Đồng Hành - Đơn Tâm" IconBundleDir="Icon/EquipIcon2.unity3d" IconAtlasName="EquipIcon2"
+    MapSpriteBundleDir="Resources/Item/MapSprite.unity3d" MapSpriteAtlasName="MapSprite" Kind="Giày Đồng Hành" QualityPrefix="7" Category="1"
+    Genre="2" Stack="1" DetailType="25" ParticularType="522" Level="9" SuiteID="0" Icon="DT_giay" View="DT_giay" Intro="" Help=""
+    ObjID="22" BindType="2" Series="1" ReqLevel="0" CDType="0" Price="160000" ItemValue="30000000" MakeCost="-1" ResMale="-1" ResFemale="-1"
+    FightPower="16" ScriptID="-1" DeductOnUse="false" BuffID="-1">
+    <ListBasicProp BasicPropType="addphysicsdamage_v" BasicPropPA1Min="5120" BasicPropPA1Max="5120" BasicPropPA2Min="-1" BasicPropPA2Max="-1"
+      BasicPropPA3Min="-1" BasicPropPA3Max="-1" Index="1" />
+    <ListBasicProp BasicPropType="addphysicsmagic_v" BasicPropPA1Min="5120" BasicPropPA1Max="5120" BasicPropPA2Min="-1" BasicPropPA2Max="-1"
+      BasicPropPA3Min="-1" BasicPropPA3Max="-1" Index="2" />
+    <ListBasicProp BasicPropType="fatallystrikeenhance_p" BasicPropPA1Min="20" BasicPropPA1Max="20" BasicPropPA2Min="-1" BasicPropPA2Max="-1"
+      BasicPropPA3Min="-1" BasicPropPA3Max="-1" Index="3" />
+    <UnLockInterval>-1</UnLockInterval>
+  </ItemData>
+  <ItemData ItemID="25118" Name="Giày Đồng Hành - Long Đằng" IconBundleDir="Icon/EquipIcon2.unity3d" IconAtlasName="EquipIcon2"
+    MapSpriteBundleDir="Resources/Item/MapSprite.unity3d" MapSpriteAtlasName="MapSprite" Kind="Giày Đồng Hành" QualityPrefix="7" Category="1"
+    Genre="2" Stack="1" DetailType="25" ParticularType="522" Level="10" SuiteID="0" Icon="LD_giay" View="LD_giay" Intro="" Help=""
+    ObjID="22" BindType="2" Series="1" ReqLevel="0" CDType="0" Price="160000" ItemValue="40000000" MakeCost="-1" ResMale="-1" ResFemale="-1"
+    FightPower="16" ScriptID="-1" DeductOnUse="false" BuffID="-1">
+    <ListBasicProp BasicPropType="addphysicsdamage_v" BasicPropPA1Min="6140" BasicPropPA1Max="6140" BasicPropPA2Min="-1" BasicPropPA2Max="-1"
+      BasicPropPA3Min="-1" BasicPropPA3Max="-1" Index="1" />
+    <ListBasicProp BasicPropType="addphysicsmagic_v" BasicPropPA1Min="6140" BasicPropPA1Max="6140" BasicPropPA2Min="-1" BasicPropPA2Max="-1"
+      BasicPropPA3Min="-1" BasicPropPA3Max="-1" Index="2" />
+    <ListBasicProp BasicPropType="fatallystrikeenhance_p" BasicPropPA1Min="25" BasicPropPA1Max="25" BasicPropPA2Min="-1" BasicPropPA2Max="-1"
+      BasicPropPA3Min="-1" BasicPropPA3Max="-1" Index="3" />
+    <UnLockInterval>-1</UnLockInterval>
+  </ItemData>
+</ArrayOfItemData>

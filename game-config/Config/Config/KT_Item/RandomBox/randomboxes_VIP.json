@@ -1,0 +1,49 @@
+[
+    {
+        "IDBox": 200405,
+        "BoxName": "Rương tri ân <color=#eba0ac>VIP</color>",
+        "Items": [
+            { "ItemID": 310, "Number": 2, "Rate": -1, "Info": "2 x Ma Đao Thạch (cấp 10)-Rương" },
+            { "ItemID": 320, "Number": 2, "Rate": -1, "Info": "2 x Hộ Giáp Phiến (cấp 10)-Rương" },
+            { "ItemID": 330, "Number": 2, "Rate": -1, "Info": "2 x Ngũ Hành Thạch (cấp 10)-Rương" },
+            { "ItemID": 20270, "Number": 3, "Rate": -1, "Info": "3 x Thiệp vàng (cấp 3)" },
+            { "ItemID": 20345, "Number": 5, "Rate": -1, "Info": "5 x Mảnh Lôi đình ấn" },
+            { "ItemID": 20344, "Number": 10, "Rate": -1, "Info": "10 x Cờ chiến công" },
+            { "ItemID": 20529, "Number": 50, "Rate": -1, "Info": "50 x Rương mảnh trang bị đồng hành (cao cấp)" },
+            { "ItemID": 20181, "Number": 1, "Rate": -1, "Time": 43201, "ExpiryDate": "2024-12-31 05:00:00", "Info": "1 x Mạch Thượng Phi Sương" },
+            { "ItemID": 20580, "Number": 1, "Rate": -1, "Time": 43201, "ExpiryDate": "2024-12-31 05:00:00", "Info": "1 x Thẻ tên [VIP]" }
+        ]
+    },
+    {
+        "IDBox": 200406,
+        "BoxName": "Rương tri ân <color=#eba0ac>V-VIP</color>",
+        "Items": [
+            { "ItemID": 310, "Number": 2, "Rate": -1, "Info": "2 x Ma Đao Thạch (cấp 10)-Rương" },
+            { "ItemID": 320, "Number": 2, "Rate": -1, "Info": "2 x Hộ Giáp Phiến (cấp 10)-Rương" },
+            { "ItemID": 330, "Number": 2, "Rate": -1, "Info": "2 x Ngũ Hành Thạch (cấp 10)-Rương" },
+            { "ItemID": 20270, "Number": 5, "Rate": -1, "Info": "5 x Thiệp vàng (cấp 3)" },
+            { "ItemID": 20345, "Number": 10, "Rate": -1, "Info": "10 x Mảnh Lôi đình ấn" },
+            { "ItemID": 20344, "Number": 20, "Rate": -1, "Info": "20 x Cờ chiến công" },
+            { "ItemID": 20529, "Number": 80, "Rate": -1, "Info": "80 x Rương mảnh trang bị đồng hành (cao cấp)" },
+            { "ItemID": 20365, "Number": 1, "Rate": -1, "Info": "1 x Bùa may mắn đồng hành (Siêu cấp)" },
+            { "ItemID": 20181, "Number": 1, "Rate": -1, "Time": 43201, "ExpiryDate": "2024-12-31 05:00:00", "Info": "1 x Mạch Thượng Phi Sương" },
+            { "ItemID": 20581, "Number": 1, "Rate": -1, "Time": 43201, "ExpiryDate": "2024-12-31 05:00:00", "Info": "1 x Thẻ tên [VVIP]" }
+        ]
+    },
+    {
+        "IDBox": 200407,
+        "BoxName": "Rương tri ân <color=#eba0ac>S-VIP</color>",
+        "Items": [
+            { "ItemID": 310, "Number": 2, "Rate": -1, "Info": "2 x Ma Đao Thạch (cấp 10)-Rương" },
+            { "ItemID": 320, "Number": 2, "Rate": -1, "Info": "2 x Hộ Giáp Phiến (cấp 10)-Rương" },
+            { "ItemID": 330, "Number": 2, "Rate": -1, "Info": "2 x Ngũ Hành Thạch (cấp 10)-Rương" },
+            { "ItemID": 20406, "Number": 1, "Rate": -1, "Info": "1 x Thiệp bạch kim (cấp 4)" },
+            { "ItemID": 20345, "Number": 20, "Rate": -1, "Info": "20 x Mảnh Lôi đình ấn" },
+            { "ItemID": 20344, "Number": 50, "Rate": -1, "Info": "50 x Cờ chiến công" },
+            { "ItemID": 20529, "Number": 100, "Rate": -1, "Info": "100 x Rương mảnh trang bị đồng hành (cao cấp)" },
+            { "ItemID": 20366, "Number": 1, "Rate": -1, "Info": "1 x Bùa may mắn đồng hành (Thần cấp)" },
+            { "ItemID": 20181, "Number": 1, "Rate": -1, "Time": 43201, "ExpiryDate": "2024-12-31 05:00:00", "Info": "1 x Mạch Thượng Phi Sương" },
+            { "ItemID": 20582, "Number": 1, "Rate": -1, "Time": 43201, "ExpiryDate": "2024-12-31 05:00:00", "Info": "1 x Thẻ tên [SVIP]" }
+        ]
+    }
+]

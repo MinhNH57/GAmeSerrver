@@ -1,0 +1,1867 @@
+[
+    {
+        "ID": 0,
+        "Text": "Tân Thủ Kiếm Vương 1 ADNX Mobile",
+        "Duration": -1,
+        "Description": "Danh hiệu Vĩnh viễn"
+    },
+    {
+        "ID": 1,
+        "Text": "Tân Thủ Kiếm Vương 1 ADNX Mobile",
+        "Duration": 1,
+        "Description": "Danh hiệu Có thời hạn"
+    },
+    {
+        "ID": 100,
+        "Text": "Tân nhân vương - Thiếu Lâm",
+        "Duration": 168,
+        "Description": "Danh hiệu dành cho quán quân vô địch đấu trường thi đấu môn phái Thiếu Lâm. Có hiệu lực trong vòng 1 tuần."
+    },
+    {
+        "ID": 101,
+        "Text": "Tân nhân vương - Thiên Vương",
+        "Duration": 168,
+        "Description": "Danh hiệu dành cho quán quân vô địch đấu trường thi đấu môn phái Thiên Vương. Có hiệu lực trong vòng 1 tuần."
+    },
+    {
+        "ID": 102,
+        "Text": "Tân nhân vương - Cái Bang",
+        "Duration": 168,
+        "Description": "Danh hiệu dành cho quán quân vô địch đấu trường thi đấu môn phái Cái Bang. Có hiệu lực trong vòng 1 tuần."
+    },
+    {
+        "ID": 103,
+        "Text": "Tân nhân vương - Thiên Nhẫn",
+        "Duration": 168,
+        "Description": "Danh hiệu dành cho quán quân vô địch đấu trường thi đấu môn phái Thiên Nhẫn. Có hiệu lực trong vòng 1 tuần."
+    },
+    {
+        "ID": 104,
+        "Text": "Tân nhân vương - Nga My",
+        "Duration": 168,
+        "Description": "Danh hiệu dành cho quán quân vô địch đấu trường thi đấu môn phái Nga My. Có hiệu lực trong vòng 1 tuần."
+    },
+    {
+        "ID": 105,
+        "Text": "Tân nhân vương - Thúy Yên",
+        "Duration": 168,
+        "Description": "Danh hiệu dành cho quán quân vô địch đấu trường thi đấu môn phái Thúy Yên. Có hiệu lực trong vòng 1 tuần."
+    },
+    {
+        "ID": 106,
+        "Text": "Tân nhân vương - Đoàn Thị",
+        "Duration": 168,
+        "Description": "Danh hiệu dành cho quán quân vô địch đấu trường thi đấu môn phái Đại Lý Đoàn Thị. Có hiệu lực trong vòng 1 tuần."
+    },
+    {
+        "ID": 107,
+        "Text": "Tân nhân vương - Võ Đang",
+        "Duration": 168,
+        "Description": "Danh hiệu dành cho quán quân vô địch đấu trường thi đấu môn phái Võ Đang. Có hiệu lực trong vòng 1 tuần."
+    },
+    {
+        "ID": 108,
+        "Text": "Tân nhân vương - Côn Lôn",
+        "Duration": 168,
+        "Description": "Danh hiệu dành cho quán quân vô địch đấu trường thi đấu môn phái Côn Lôn. Có hiệu lực trong vòng 1 tuần."
+    },
+    {
+        "ID": 109,
+        "Text": "Tân nhân vương - Ngũ Độc",
+        "Duration": 168,
+        "Description": "Danh hiệu dành cho quán quân vô địch đấu trường thi đấu môn phái Ngũ Độc. Có hiệu lực trong vòng 1 tuần."
+    },
+    {
+        "ID": 110,
+        "Text": "Tân nhân vương - Đường Môn",
+        "Duration": 168,
+        "Description": "Danh hiệu dành cho quán quân vô địch đấu trường thi đấu môn phái Đường Môn. Có hiệu lực trong vòng 1 tuần."
+    },
+    {
+        "ID": 111,
+        "Text": "Tân nhân vương - Minh Giáo",
+        "Duration": 168,
+        "Description": "Danh hiệu dành cho quán quân vô địch đấu trường thi đấu môn phái Minh Giáo. Có hiệu lực trong vòng 1 tuần."
+    },
+    {
+        "ID": 112,
+        "Text": "Nhất Đẳng Vương Gia",
+        "Duration": -1,
+        "AnimatedObject": "nhatdangvuonggia",
+        "Description": "Danh hiệu dành cho Top Tài Phú."
+    },
+    {
+        "ID": 113,
+        "Text": "Phú Nhị Đại Gia",
+        "Duration": -1,
+        "AnimatedObject": "phunhidaigia",
+        "Description": "Danh hiệu dành cho Top 2 Tài Phú."
+    },
+    {
+        "ID": 114,
+        "Text": "Phú Hào Kiếm Vương",
+        "Duration": -1,
+        "AnimatedObject": "phuhaokiemvuong",
+        "Description": "Danh hiệu dành cho Top 3 Tài Phú."
+    },
+    {
+        "ID": 115,
+        "Text": "Sứ Giả Mùa Hè",
+        "Duration": 720,
+        "Description": "Danh hiệu dành cho người chơi hoạt động tích cực trong Sự kiện Giải Nhiệt Mùa Hè. Có hiệu lực trong vòng 30 ngày."
+    },
+    {
+        "ID": 116,
+        "Text": "Sứ Giả Mùa Hè",
+        "Duration": -1,
+        "Description": "Danh hiệu dành cho người chơi hoạt động tích cực trong Sự kiện Giải Nhiệt Mùa Hè."
+    },
+    {
+        "ID": 117,
+        "Text": "Chiến Thần",
+        "Duration": 720,
+        "AnimatedObject": "chienthan",
+        "Description": "Danh hiệu dành cho quán quân vô địch giải đấu. Có hiệu lực trong vòng 1 tháng."
+    },
+    {
+        "ID": 118,
+        "Text": "Ngưu Lang",
+        "Duration": 720,
+        "AnimatedObject": "nguulang",
+        "Description": "Danh hiệu dành cho người chơi hoạt động tích cực trong Sự kiện Đậu đỏ Kết Duyên. Có hiệu lực trong vòng 30 ngày."
+    },
+    {
+        "ID": 119,
+        "Text": "Ngưu Lang",
+        "Duration": -1,
+        "AnimatedObject": "nguulang",
+        "Description": "Danh hiệu dành cho người chơi hoạt động tích cực trong Sự kiện Đậu đỏ Kết Duyên."
+    },
+    {
+        "ID": 120,
+        "Text": "Chức Nữ",
+        "Duration": 720,
+        "AnimatedObject": "chucnu",
+        "Description": "Danh hiệu dành cho người chơi hoạt động tích cực trong Sự kiện Đậu đỏ Kết Duyên. Có hiệu lực trong vòng 30 ngày."
+    },
+    {
+        "ID": 121,
+        "Text": "Chức Nữ",
+        "Duration": -1,
+        "AnimatedObject": "chucnu",
+        "Description": "Danh hiệu dành cho người chơi hoạt động tích cực trong Sự kiện Đậu đỏ Kết Duyên."
+    },
+    {
+        "ID": 122,
+        "Text": "Ngưu Lang",
+        "Duration": 168,
+        "AnimatedObject": "nguulang",
+        "Description": "Danh hiệu dành cho người chơi hoạt động tích cực trong Sự kiện Đậu đỏ Kết Duyên. Có hiệu lực trong vòng 7 ngày."
+    },
+    {
+        "ID": 123,
+        "Text": "Chức Nữ",
+        "Duration": 168,
+        "AnimatedObject": "chucnu",
+        "Description": "Danh hiệu dành cho người chơi hoạt động tích cực trong Sự kiện Đậu đỏ Kết Duyên. Có hiệu lực trong vòng 7 ngày."
+    },
+    {
+        "ID": 124,
+        "Text": "Chú Cuội",
+        "Duration": 168,
+        "AnimatedObject": "chucuoi",
+        "Description": "Danh hiệu dành cho người chơi hoạt động tích cực trong Sự kiện Phá cỗ Trung thu. Có hiệu lực trong vòng 7 ngày."
+    },
+    {
+        "ID": 125,
+        "Text": "Chị Hằng",
+        "Duration": 168,
+        "AnimatedObject": "chihang",
+        "Description": "Danh hiệu dành cho người chơi hoạt động tích cực trong Sự kiện Phá cỗ Trung thu. Có hiệu lực trong vòng 7 ngày."
+    },
+    {
+        "ID": 126,
+        "Text": "Minh Chủ Võ Lâm",
+        "Duration": 720,
+        "AnimatedObject": "minhchuvolam",
+        "Description": "Danh hiệu dành cho bang chủ bang hội vô địch sự kiện Bang Hội Vô Song. Có hiệu lực trong vòng 30 ngày."
+    },
+    {
+        "ID": 127,
+        "Text": "Vô Song Đệ Nhất Bang",
+        "Duration": 720,
+        "AnimatedObject": "vosongdenhatbang",
+        "Description": "Danh hiệu dành cho bang hội vô địch sự kiện Bang Hội Vô Song. Có hiệu lực trong vòng 30 ngày."
+    },
+    {
+        "ID": 128,
+        "Text": "Lãng Tử Độc Hành",
+        "Duration": 72,
+        "AnimatedObject": "langtudochanh",
+        "Description": "Danh hiệu nhận được trong sự kiện Câu cá Mùa thu. Có hiệu lực trong vòng 3 ngày."
+    },
+    {
+        "ID": 129,
+        "Text": "Lãng Tử Độc Hành",
+        "Duration": 720,
+        "AnimatedObject": "langtudochanh",
+        "Description": "Danh hiệu nhận được trong sự kiện Câu cá Mùa thu. Có hiệu lực trong vòng 30 ngày."
+    },
+    {
+        "ID": 130,
+        "Text": "Lãng Tử Độc Hành",
+        "Duration": -1,
+        "AnimatedObject": "langtudochanh",
+        "Description": "Danh hiệu nhận được trong sự kiện Câu cá Mùa thu."
+    },
+    {
+        "ID": 131,
+        "Text": "Lãng Tử Độc Hành",
+        "Duration": 168,
+        "AnimatedObject": "langtudochanh",
+        "Description": "Danh hiệu nhận được trong sự kiện Câu cá Mùa thu. Có hiệu lực trong vòng 7 ngày."
+    },
+    {
+        "ID": 132,
+        "Text": "Danh hiệu Anh Hùng Hội Tụ",
+        "Duration": 336,
+        "Description": "Danh hiệu nhận được từ sự kiện ADNX Day. Có hiệu lực trong vòng 14 ngày."
+    },
+    {
+        "ID": 133,
+        "Text": "Danh hiệu Kề Vai Sát Cánh (VIP)",
+        "Duration": 168,
+        "Description": "Danh hiệu nhận được từ sự kiện Sinh nhật. Có hiệu lực trong vòng 7 ngày.",
+        "MagicProps": [
+            {
+                "Name": "lifemax_v",
+                "Value": [500, 0, 0]
+            },
+            {
+                "Name": "damage_all_resist",
+                "Value": [10, 0, 0]
+            },
+            {
+                "Name": "expenhance_p",
+                "Value": [30, 0, 0]
+            }
+        ]
+    },
+    {
+        "ID": 134,
+        "Text": "Danh hiệu Song Long Xuất Hải",
+        "Duration": 1440,
+        "AnimatedObject": "songlongxuathai",
+        "Description": "Danh hiệu nhận được từ sự kiện Song Long Xuất Hải. Có hiệu lực trong vòng 60 ngày. Tốc độ di chuyển +10%.",
+        "MagicProps": [
+            {
+                "Name": "fastwalkrun_p",
+                "Value": [10, 0, 0]
+            }
+        ]
+    },
+    {
+        "ID": 135,
+        "Text": "Danh hiệu Kề Vai Sát Cánh",
+        "Duration": 168,
+        "AnimatedObject": "kevaisatcanh",
+        "Description": "Danh hiệu nhận được từ sự kiện Sinh nhật. Có hiệu lực trong vòng 7 ngày."
+    },
+    {
+        "ID": 136,
+        "Text": "Danh hiệu Võ Lâm Minh Chủ",
+        "Duration": 720,
+        "AnimatedObject": "volamminhchu",
+        "Description": "Danh hiệu nhận được từ hoạt động Võ Lâm Minh Chủ. Có hiệu lực trong vòng 30 ngày. Tốc độ di chuyển +10%. Kinh nghiệm giết quái: +20%. May mắn: +20 điểm.",
+        "MagicProps": [
+            {
+                "Name": "fastwalkrun_p",
+                "Value": [10, 0, 0]
+            },
+            {
+                "Name": "expenhance_p",
+                "Value": [20, 0, 0]
+            },
+            {
+                "Name": "lucky_v",
+                "Value": [20, 0, 0]
+            }
+        ]
+    },
+    {
+        "ID": 137,
+        "Text": "Danh hiệu Quốc Sắc Thiên Hương",
+        "Duration": 72,
+        "AnimatedObject": "quocsacthienhuong",
+        "Description": "Danh hiệu nhận được từ sự kiện Quốc Sắc Thiên Hương. Có hiệu lực trong vòng 3 ngày.",
+        "MagicProps": [
+            {
+                "Name": "lifemax_v",
+                "Value": [500, 0, 0]
+            },
+            {
+                "Name": "allseriesstateresistrate",
+                "Value": [50, 0, 0]
+            },
+            {
+                "Name": "allspecialstateresisttime",
+                "Value": [10, 0, 0]
+            }
+        ]
+    },
+    {
+        "ID": 138,
+        "Text": "Danh hiệu Quốc Sắc Thiên Hương",
+        "Duration": 168,
+        "AnimatedObject": "quocsacthienhuong",
+        "Description": "Danh hiệu nhận được từ sự kiện Quốc Sắc Thiên Hương. Có hiệu lực trong vòng 7 ngày.",
+        "MagicProps": [
+            {
+                "Name": "lifemax_v",
+                "Value": [500, 0, 0]
+            },
+            {
+                "Name": "allseriesstateresistrate",
+                "Value": [50, 0, 0]
+            },
+            {
+                "Name": "allspecialstateresisttime",
+                "Value": [10, 0, 0]
+            }
+        ]
+    },
+    {
+        "ID": 139,
+        "Text": "Danh hiệu Quốc Sắc Thiên Hương",
+        "Duration": 336,
+        "AnimatedObject": "quocsacthienhuong",
+        "Description": "Danh hiệu nhận được từ sự kiện Quốc Sắc Thiên Hương. Có hiệu lực trong vòng 14 ngày.",
+        "MagicProps": [
+            {
+                "Name": "lifemax_v",
+                "Value": [700, 0, 0]
+            },
+            {
+                "Name": "allseriesstateresistrate",
+                "Value": [75, 0, 0]
+            },
+            {
+                "Name": "allspecialstateresisttime",
+                "Value": [15, 0, 0]
+            }
+        ]
+    },
+    {
+        "ID": 140,
+        "Text": "Danh hiệu Quốc Sắc Thiên Hương",
+        "Duration": 720,
+        "AnimatedObject": "quocsacthienhuong",
+        "Description": "Danh hiệu nhận được từ sự kiện Quốc Sắc Thiên Hương. Có hiệu lực trong vòng 30 ngày.",
+        "MagicProps": [
+            {
+                "Name": "lifemax_v",
+                "Value": [1000, 0, 0]
+            },
+            {
+                "Name": "allseriesstateresistrate",
+                "Value": [100, 0, 0]
+            },
+            {
+                "Name": "allspecialstateresisttime",
+                "Value": [20, 0, 0]
+            }
+        ]
+    },
+    {
+        "ID": 141,
+        "Text": "Danh hiệu Ngoan Xinh Yêu",
+        "Duration": 336,
+        "AnimatedObject": "ngoanxinhyeu",
+        "Description": "Có hiệu lực trong vòng 14 ngày."
+    },
+    {
+        "ID": 142,
+        "Text": "Danh hiệu Tôi Kể Với Bạn Thôi Đấy (3 ngày)",
+        "Duration": 72,
+        "Description": "Có hiệu lực trong vòng 3 ngày. Sinh lực +500. Tốc độ xuất chiêu nội/ngoại công: +3",
+        "MagicProps": [
+            {
+                "Name": "lifemax_v",
+                "Value": [500, 0, 0]
+            },
+            {
+                "Name": "attackspeed_v",
+                "Value": [3, 0, 0]
+            },
+            {
+                "Name": "castspeed_v",
+                "Value": [3, 0, 0]
+            }
+        ]
+    },
+    {
+        "ID": 143,
+        "Text": "Danh hiệu Tôi Kể Với Bạn Thôi Đấy (7 ngày)",
+        "Duration": 168,
+        "Description": "Có hiệu lực trong vòng 7 ngày. Sinh lực +500. Tốc độ xuất chiêu nội/ngoại công: +3",
+        "MagicProps": [
+            {
+                "Name": "lifemax_v",
+                "Value": [500, 0, 0]
+            },
+            {
+                "Name": "attackspeed_v",
+                "Value": [3, 0, 0]
+            },
+            {
+                "Name": "castspeed_v",
+                "Value": [3, 0, 0]
+            }
+        ]
+    },
+    {
+        "ID": 144,
+        "Text": "Danh hiệu Tôi Kể Với Bạn Thôi Đấy (14 ngày)",
+        "Duration": 336,
+        "Description": "Có hiệu lực trong vòng 14 ngày. Sinh lực +700. Tốc độ xuất chiêu nội/ngoại công: +3",
+        "MagicProps": [
+            {
+                "Name": "lifemax_v",
+                "Value": [700, 0, 0]
+            },
+            {
+                "Name": "attackspeed_v",
+                "Value": [3, 0, 0]
+            },
+            {
+                "Name": "castspeed_v",
+                "Value": [3, 0, 0]
+            }
+        ]
+    },
+    {
+        "ID": 145,
+        "Text": "Danh hiệu Tôi Kể Với Bạn Thôi Đấy (30 ngày)",
+        "Duration": 720,
+        "Description": "Có hiệu lực trong vòng 30 ngày. Sinh lực +1000. Tốc độ xuất chiêu nội/ngoại công: +3",
+        "MagicProps": [
+            {
+                "Name": "lifemax_v",
+                "Value": [1000, 0, 0]
+            },
+            {
+                "Name": "attackspeed_v",
+                "Value": [3, 0, 0]
+            },
+            {
+                "Name": "castspeed_v",
+                "Value": [3, 0, 0]
+            }
+        ]
+    },
+    {
+        "ID": 146,
+        "Text": "Danh hiệu Lao Động Là Vinh Quang (3 ngày)",
+        "Duration": 72,
+        "AnimatedObject": "laodonglavinhquang",
+        "Description": "Có hiệu lực trong vòng 3 ngày. Sinh lực +1000. May mắn: +20. Kinh nghiệm tiêu diệt quái: +30%",
+        "MagicProps": [
+            {
+                "Name": "lifemax_v",
+                "Value": [500, 0, 0]
+            },
+            {
+                "Name": "lucky_v",
+                "Value": [20, 0, 0]
+            },
+            {
+                "Name": "expenhance_p",
+                "Value": [30, 0, 0]
+            }
+        ]
+    },
+    {
+        "ID": 147,
+        "Text": "Danh hiệu Lao Động Là Vinh Quang (7 ngày)",
+        "Duration": 168,
+        "AnimatedObject": "laodonglavinhquang",
+        "Description": "Có hiệu lực trong vòng 7 ngày. Sinh lực +1000. May mắn: +20. Kinh nghiệm tiêu diệt quái: +30%",
+        "MagicProps": [
+            {
+                "Name": "lifemax_v",
+                "Value": [500, 0, 0]
+            },
+            {
+                "Name": "lucky_v",
+                "Value": [20, 0, 0]
+            },
+            {
+                "Name": "expenhance_p",
+                "Value": [30, 0, 0]
+            }
+        ]
+    },
+    {
+        "ID": 148,
+        "Text": "Danh hiệu Lao Động Là Vinh Quang (14 ngày)",
+        "Duration": 336,
+        "AnimatedObject": "laodonglavinhquang",
+        "Description": "Có hiệu lực trong vòng 14 ngày. Sinh lực +1000. May mắn: +20. Kinh nghiệm tiêu diệt quái: +30%",
+        "MagicProps": [
+            {
+                "Name": "lifemax_v",
+                "Value": [500, 0, 0]
+            },
+            {
+                "Name": "lucky_v",
+                "Value": [20, 0, 0]
+            },
+            {
+                "Name": "expenhance_p",
+                "Value": [30, 0, 0]
+            }
+        ]
+    },
+    {
+        "ID": 149,
+        "Text": "Danh hiệu Lao Động Là Vinh Quang (30 ngày)",
+        "Duration": 720,
+        "AnimatedObject": "laodonglavinhquang",
+        "Description": "Có hiệu lực trong vòng 30 ngày. Sinh lực +1000. May mắn: +20. Kinh nghiệm tiêu diệt quái: +30%",
+        "MagicProps": [
+            {
+                "Name": "lifemax_v",
+                "Value": [500, 0, 0]
+            },
+            {
+                "Name": "lucky_v",
+                "Value": [20, 0, 0]
+            },
+            {
+                "Name": "expenhance_p",
+                "Value": [30, 0, 0]
+            }
+        ]
+    },
+    {
+        "ID": 150,
+        "Text": "Danh hiệu Con Ong Chăm Chỉ (30 ngày)",
+        "Duration": 720,
+        "AnimatedObject": "conongchamchi",
+        "Description": "Có hiệu lực trong vòng 30 ngày.",
+        "MagicProps": [
+            {
+                "Name": "lifemax_v",
+                "Value": [1000, 0, 0]
+            },
+            {
+                "Name": "reduce_received_damage_p",
+                "Value": [5, 0, 0]
+            },
+            {
+                "Name": "damage_all_resist",
+                "Value": [50, 0, 0]
+            }
+        ]
+    },
+    {
+        "ID": 151,
+        "Text": "Danh hiệu Chiến Thần Kiếm Vương (30 ngày)",
+        "Duration": 720,
+        "AnimatedObject": "chienthankiemvuong",
+        "Description": "Có hiệu lực trong vòng 30 ngày.",
+        "MagicProps": [
+            {
+                "Name": "lifemax_v",
+                "Value": [1000, 0, 0]
+            },
+            {
+                "Name": "reduce_received_damage_p",
+                "Value": [5, 0, 0]
+            },
+            {
+                "Name": "increase_output_damage_p",
+                "Value": [5, 0, 0]
+            },
+            {
+                "Name": "damage_all_resist",
+                "Value": [75, 0, 0]
+            }
+        ]
+    },
+    {
+        "ID": 152,
+        "Text": "Danh hiệu Độc Cô Cầu Bại (30 ngày)",
+        "Duration": 720,
+        "Description": "Có hiệu lực trong vòng 30 ngày.",
+        "MagicProps": [
+            {
+                "Name": "lifemax_v",
+                "Value": [2000, 0, 0]
+            },
+            {
+                "Name": "reduce_received_damage_p",
+                "Value": [8, 0, 0]
+            },
+            {
+                "Name": "increase_output_damage_p",
+                "Value": [8, 0, 0]
+            },
+            {
+                "Name": "damage_all_resist",
+                "Value": [100, 0, 0]
+            },
+            {
+                "Name": "allskill_v",
+                "Value": [1, 0, 0]
+            }
+        ]
+    },
+
+    {
+        "ID": 153,
+        "Text": "Danh hiệu Bé Khỏe Bé Ngoan (3 ngày)",
+        "Duration": 72,
+        "AnimatedObject": "bekhoebengoan",
+        "Description": "Có hiệu lực trong vòng 3 ngày. Sinh lực +1000. Nội lực: +500. Giảm xác suất bị trạng thái ngũ hành: +100",
+        "MagicProps": [
+            {
+                "Name": "lifemax_v",
+                "Value": [1000, 0, 0]
+            },
+            {
+                "Name": "manamax_v",
+                "Value": [500, 0, 0]
+            },
+            {
+                "Name": "allseriesstateresistrate",
+                "Value": [100, 0, 0]
+            }
+        ]
+    },
+    {
+        "ID": 154,
+        "Text": "Danh hiệu Bé Khỏe Bé Ngoan (7 ngày)",
+        "Duration": 168,
+        "AnimatedObject": "bekhoebengoan",
+        "Description": "Có hiệu lực trong vòng 7 ngày. Sinh lực +1000. Nội lực: +500. Giảm xác suất bị trạng thái ngũ hành: +100",
+        "MagicProps": [
+            {
+                "Name": "lifemax_v",
+                "Value": [1000, 0, 0]
+            },
+            {
+                "Name": "manamax_v",
+                "Value": [500, 0, 0]
+            },
+            {
+                "Name": "allseriesstateresistrate",
+                "Value": [100, 0, 0]
+            }
+        ]
+    },
+    {
+        "ID": 155,
+        "Text": "Danh hiệu Bé Khỏe Bé Ngoan (14 ngày)",
+        "Duration": 336,
+        "AnimatedObject": "bekhoebengoan",
+        "Description": "Có hiệu lực trong vòng 14 ngày. Sinh lực +1000. Nội lực: +500. Giảm xác suất bị trạng thái ngũ hành: +100",
+        "MagicProps": [
+            {
+                "Name": "lifemax_v",
+                "Value": [1000, 0, 0]
+            },
+            {
+                "Name": "manamax_v",
+                "Value": [500, 0, 0]
+            },
+            {
+                "Name": "allseriesstateresistrate",
+                "Value": [100, 0, 0]
+            }
+        ]
+    },
+    {
+        "ID": 156,
+        "Text": "Danh hiệu Vua Phá Lưới (3 ngày)",
+        "Duration": 72,
+        "AnimatedObject": "vuaphaluoi",
+        "Description": "Có hiệu lực trong vòng 3 ngày. Sinh lực +1000. Nội lực: +500. Giảm xác suất bị trạng thái ngũ hành: +100",
+        "MagicProps": [
+            { "Name": "lifemax_v", "Value": [1000, 0, 0] },
+            { "Name": "manamax_v", "Value": [500, 0, 0] },
+            { "Name": "allseriesstateresistrate", "Value": [100, 0, 0] }
+        ]
+    },
+    {
+        "ID": 157,
+        "Text": "Danh hiệu Vua Phá Lưới (7 ngày)",
+        "Duration": 168,
+        "AnimatedObject": "vuaphaluoi",
+        "Description": "Có hiệu lực trong vòng 7 ngày. Sinh lực +1000. Nội lực: +500. Giảm xác suất bị trạng thái ngũ hành: +100",
+        "MagicProps": [
+            { "Name": "lifemax_v", "Value": [1000, 0, 0] },
+            { "Name": "manamax_v", "Value": [500, 0, 0] },
+            { "Name": "allseriesstateresistrate", "Value": [100, 0, 0] }
+        ]
+    },
+    {
+        "ID": 158,
+        "Text": "Danh hiệu Vua Phá Lưới (14 ngày)",
+        "Duration": 336,
+        "AnimatedObject": "vuaphaluoi",
+        "Description": "Có hiệu lực trong vòng 14 ngày. Sinh lực +1000. Nội lực: +500. Giảm xác suất bị trạng thái ngũ hành: +100",
+        "MagicProps": [
+            { "Name": "lifemax_v", "Value": [1000, 0, 0] },
+            { "Name": "manamax_v", "Value": [500, 0, 0] },
+            { "Name": "allseriesstateresistrate", "Value": [100, 0, 0] }
+        ]
+    },
+    {
+        "ID": 159,
+        "Text": "Danh hiệu Vua Phá Lưới (30 ngày)",
+        "Duration": 720,
+        "AnimatedObject": "vuaphaluoi",
+        "Description": "Có hiệu lực trong vòng 30 ngày. Sinh lực +1000. Nội lực: +500. Giảm xác suất bị trạng thái ngũ hành: +100",
+        "MagicProps": [
+            { "Name": "lifemax_v", "Value": [1000, 0, 0] },
+            { "Name": "manamax_v", "Value": [500, 0, 0] },
+            { "Name": "allseriesstateresistrate", "Value": [100, 0, 0] }
+        ]
+    },
+
+    {
+        "ID": 160,
+        "Text": "Danh hiệu Cánh Diều Tuổi Thơ (3 ngày)",
+        "Duration": 72,
+        "AnimatedObject": "canhdieutuoitho",
+        "Description": "Có hiệu lực trong vòng 3 ngày. Sinh lực +1000. Nội lực: +500. Giảm xác suất bị trạng thái ngũ hành: +100",
+        "MagicProps": [
+            { "Name": "lifemax_v", "Value": [1000, 0, 0] },
+            { "Name": "manamax_v", "Value": [500, 0, 0] },
+            { "Name": "allseriesstateresistrate", "Value": [100, 0, 0] }
+        ]
+    },
+    {
+        "ID": 161,
+        "Text": "Danh hiệu Cánh Diều Tuổi Thơ (7 ngày)",
+        "Duration": 168,
+        "AnimatedObject": "canhdieutuoitho",
+        "Description": "Có hiệu lực trong vòng 7 ngày. Sinh lực +1000. Nội lực: +500. Giảm xác suất bị trạng thái ngũ hành: +100",
+        "MagicProps": [
+            { "Name": "lifemax_v", "Value": [1000, 0, 0] },
+            { "Name": "manamax_v", "Value": [500, 0, 0] },
+            { "Name": "allseriesstateresistrate", "Value": [100, 0, 0] }
+        ]
+    },
+    {
+        "ID": 162,
+        "Text": "Danh hiệu Cánh Diều Tuổi Thơ (14 ngày)",
+        "Duration": 336,
+        "AnimatedObject": "canhdieutuoitho",
+        "Description": "Có hiệu lực trong vòng 14 ngày. Sinh lực +1000. Nội lực: +500. Giảm xác suất bị trạng thái ngũ hành: +100",
+        "MagicProps": [
+            { "Name": "lifemax_v", "Value": [1000, 0, 0] },
+            { "Name": "manamax_v", "Value": [500, 0, 0] },
+            { "Name": "allseriesstateresistrate", "Value": [100, 0, 0] }
+        ]
+    },
+    {
+        "ID": 163,
+        "Text": "Danh hiệu Cánh Diều Tuổi Thơ (30 ngày)",
+        "Duration": 720,
+        "AnimatedObject": "canhdieutuoitho",
+        "Description": "Có hiệu lực trong vòng 30 ngày. Sinh lực +1000. Nội lực: +500. Giảm xác suất bị trạng thái ngũ hành: +100",
+        "MagicProps": [
+            { "Name": "lifemax_v", "Value": [1000, 0, 0] },
+            { "Name": "manamax_v", "Value": [500, 0, 0] },
+            { "Name": "allseriesstateresistrate", "Value": [100, 0, 0] }
+        ]
+    },
+    {
+        "ID": 164,
+        "Text": "Danh hiệu Thước Kiều Nhân Duyên (3 ngày)",
+        "Duration": 72,
+        "AnimatedObject": "thuockieunhanduyen",
+        "Description": "Có hiệu lực trong vòng 3 ngày. Sinh lực +1000. Nội lực: +500. Tốc độ di chuyển: +10%. May mắn: +20.",
+        "MagicProps": [
+            { "Name": "lifemax_v", "Value": [1000, 0, 0] },
+            { "Name": "manamax_v", "Value": [500, 0, 0] },
+            { "Name": "fastwalkrun_p", "Value": [10, 0, 0] },
+            { "Name": "lucky_v", "Value": [20, 0, 0] }
+        ]
+    },
+    {
+        "ID": 165,
+        "Text": "Danh hiệu Thước Kiều Nhân Duyên (7 ngày)",
+        "Duration": 168,
+        "AnimatedObject": "thuockieunhanduyen",
+        "Description": "Có hiệu lực trong vòng 7 ngày. Sinh lực +1000. Nội lực: +500. Tốc độ di chuyển: +10%. May mắn: +20.",
+        "MagicProps": [
+            { "Name": "lifemax_v", "Value": [1000, 0, 0] },
+            { "Name": "manamax_v", "Value": [500, 0, 0] },
+            { "Name": "fastwalkrun_p", "Value": [10, 0, 0] },
+            { "Name": "lucky_v", "Value": [20, 0, 0] }
+        ]
+    },
+    {
+        "ID": 166,
+        "Text": "Danh hiệu Thước Kiều Nhân Duyên (14 ngày)",
+        "Duration": 336,
+        "AnimatedObject": "thuockieunhanduyen",
+        "Description": "Có hiệu lực trong vòng 14 ngày. Sinh lực +1000. Nội lực: +500. Tốc độ di chuyển: +10%. May mắn: +20.",
+        "MagicProps": [
+            { "Name": "lifemax_v", "Value": [1000, 0, 0] },
+            { "Name": "manamax_v", "Value": [500, 0, 0] },
+            { "Name": "fastwalkrun_p", "Value": [10, 0, 0] },
+            { "Name": "lucky_v", "Value": [20, 0, 0] }
+        ]
+    },
+    {
+        "ID": 167,
+        "Text": "Danh hiệu Thước Kiều Nhân Duyên (30 ngày)",
+        "Duration": 720,
+        "AnimatedObject": "thuockieunhanduyen",
+        "Description": "Có hiệu lực trong vòng 30 ngày. Sinh lực +1000. Nội lực: +500. Tốc độ di chuyển: +10%. Tốc độ xuất chiêu nội/ngoại công: +3.",
+        "MagicProps": [
+            { "Name": "lifemax_v", "Value": [1000, 0, 0] },
+            { "Name": "manamax_v", "Value": [500, 0, 0] },
+            { "Name": "fastwalkrun_p", "Value": [10, 0, 0] },
+            { "Name": "attackspeed_v", "Value": [3, 0, 0] },
+            { "Name": "castspeed_v", "Value": [3, 0, 0] }
+        ]
+    },
+    {
+        "ID": 168,
+        "Text": "Danh hiệu Dạ Thu Thưởng Nguyệt (3 ngày)",
+        "Duration": 72,
+        "AnimatedObject": "dathuthuongnguyet",
+        "Description": "Có hiệu lực trong vòng 3 ngày. Sinh lực +1000. Nội lực: +500. Tốc độ di chuyển: +10%. May mắn: +20. Kháng thời gian Ngũ hành: +30.",
+        "MagicProps": [
+            { "Name": "lifemax_v", "Value": [1000, 0, 0] },
+            { "Name": "manamax_v", "Value": [500, 0, 0] },
+            { "Name": "fastwalkrun_p", "Value": [10, 0, 0] },
+            { "Name": "lucky_v", "Value": [20, 0, 0] },
+            { "Name": "allseriesstateresisttime", "Value": [30, 0, 0] }
+        ]
+    },
+    {
+        "ID": 169,
+        "Text": "Danh hiệu Dạ Thu Thưởng Nguyệt (7 ngày)",
+        "Duration": 168,
+        "AnimatedObject": "dathuthuongnguyet",
+        "Description": "Có hiệu lực trong vòng 7 ngày. Sinh lực +1000. Nội lực: +500. Tốc độ di chuyển: +10%. May mắn: +20. Kháng thời gian Ngũ hành: +30.",
+        "MagicProps": [
+            { "Name": "lifemax_v", "Value": [1000, 0, 0] },
+            { "Name": "manamax_v", "Value": [500, 0, 0] },
+            { "Name": "fastwalkrun_p", "Value": [10, 0, 0] },
+            { "Name": "lucky_v", "Value": [20, 0, 0] },
+            { "Name": "allseriesstateresisttime", "Value": [30, 0, 0] }
+        ]
+    },
+    {
+        "ID": 170,
+        "Text": "Danh hiệu Dạ Thu Thưởng Nguyệt (14 ngày)",
+        "Duration": 336,
+        "AnimatedObject": "dathuthuongnguyet",
+        "Description": "Có hiệu lực trong vòng 14 ngày. Sinh lực +1000. Nội lực: +500. Tốc độ di chuyển: +10%. May mắn: +20. Kháng thời gian Ngũ hành: +30.",
+        "MagicProps": [
+            { "Name": "lifemax_v", "Value": [1000, 0, 0] },
+            { "Name": "manamax_v", "Value": [500, 0, 0] },
+            { "Name": "fastwalkrun_p", "Value": [10, 0, 0] },
+            { "Name": "lucky_v", "Value": [20, 0, 0] },
+            { "Name": "allseriesstateresisttime", "Value": [30, 0, 0] }
+        ]
+    },
+    {
+        "ID": 171,
+        "Text": "Danh hiệu Dạ Thu Thưởng Nguyệt (30 ngày)",
+        "Duration": 720,
+        "AnimatedObject": "dathuthuongnguyet",
+        "Description": "Có hiệu lực trong vòng 30 ngày. Sinh lực +1000. Nội lực: +500. Tốc độ di chuyển: +10%. Tốc độ xuất chiêu: +3. Kháng thời gian Ngũ hành: +30.",
+        "MagicProps": [
+            { "Name": "lifemax_v", "Value": [1000, 0, 0] },
+            { "Name": "manamax_v", "Value": [500, 0, 0] },
+            { "Name": "fastwalkrun_p", "Value": [10, 0, 0] },
+            { "Name": "allseriesstateresisttime", "Value": [50, 0, 0] },
+            { "Name": "attackspeed_v", "Value": [3, 0, 0] },
+            { "Name": "castspeed_v", "Value": [3, 0, 0] }
+        ]
+    },
+    {
+        "ID": 172,
+        "Text": "Danh hiệu Chứng Nhận Nạp Đầu (15 ngày)",
+        "Duration": 360,
+        "AnimatedObject": "chungnhannapdau",
+        "Description": "Có hiệu lực trong vòng 15 ngày. Sinh lực +1000. Nội lực: +500. Mỗi nửa giây phục hồi sinh lực/nội lực: +50. Kinh nghiệm giết quái vật: +15%.",
+        "MagicProps": [
+            { "Name": "lifemax_v", "Value": [1000, 0, 0] },
+            { "Name": "manamax_v", "Value": [500, 0, 0] },
+            { "Name": "fastlifereplenish_v", "Value": [50, 0, 0] },
+            { "Name": "fastmanareplenish_v", "Value": [50, 0, 0] },
+            { "Name": "expenhance_p", "Value": [15, 0, 0] }
+        ]
+    },
+    {
+        "ID": 173,
+        "Text": "Danh hiệu Nam Đế",
+        "AnimatedObject": "namde",
+        "Duration": 168,
+        "Description": "Danh hiệu dành cho quán quân vô địch đấu trường Hoa Sơn Luận Kiếm hệ Kim. Có hiệu lực trong vòng 1 tuần.",
+        "MagicProps": [
+            { "Name": "lifemax_v", "Value": [2000, 0, 0] },
+            { "Name": "manamax_v", "Value": [1000, 0, 0] },
+            { "Name": "damage_all_resist", "Value": [75, 0, 0] },
+            { "Name": "allseriesstateresistrate", "Value": [75, 0, 0] }
+        ]
+    },
+    {
+        "ID": 174,
+        "Text": "Danh hiệu Tây Độc",
+        "AnimatedObject": "taydoc",
+        "Duration": 168,
+        "Description": "Danh hiệu dành cho quán quân vô địch đấu trường Hoa Sơn Luận Kiếm hệ Mộc. Có hiệu lực trong vòng 1 tuần.",
+        "MagicProps": [
+            { "Name": "lifemax_v", "Value": [2000, 0, 0] },
+            { "Name": "manamax_v", "Value": [1000, 0, 0] },
+            { "Name": "damage_all_resist", "Value": [75, 0, 0] },
+            { "Name": "allseriesstateresistrate", "Value": [75, 0, 0] }
+        ]
+    },
+    {
+        "ID": 175,
+        "Text": "Danh hiệu Đông Tà",
+        "AnimatedObject": "dongta",
+        "Duration": 168,
+        "Description": "Danh hiệu dành cho quán quân vô địch đấu trường Hoa Sơn Luận Kiếm hệ Thủy. Có hiệu lực trong vòng 1 tuần.",
+        "MagicProps": [
+            { "Name": "lifemax_v", "Value": [2000, 0, 0] },
+            { "Name": "manamax_v", "Value": [1000, 0, 0] },
+            { "Name": "damage_all_resist", "Value": [75, 0, 0] },
+            { "Name": "allseriesstateresistrate", "Value": [75, 0, 0] }
+        ]
+    },
+    {
+        "ID": 176,
+        "Text": "Danh hiệu Bắc Cái",
+        "Duration": 168,
+        "AnimatedObject": "baccai",
+        "Description": "Danh hiệu dành cho quán quân vô địch đấu trường Hoa Sơn Luận Kiếm hệ Hỏa. Có hiệu lực trong vòng 1 tuần.",
+        "MagicProps": [
+            { "Name": "lifemax_v", "Value": [2000, 0, 0] },
+            { "Name": "manamax_v", "Value": [1000, 0, 0] },
+            { "Name": "damage_all_resist", "Value": [75, 0, 0] },
+            { "Name": "allseriesstateresistrate", "Value": [75, 0, 0] }
+        ]
+    },
+    {
+        "ID": 177,
+        "Text": "Danh hiệu Trung Thần Thông",
+        "AnimatedObject": "trungthanthong",
+        "Duration": 168,
+        "Description": "Danh hiệu dành cho quán quân vô địch đấu trường Hoa Sơn Luận Kiếm hệ Thổ. Có hiệu lực trong vòng 1 tuần.",
+        "MagicProps": [
+            { "Name": "lifemax_v", "Value": [2000, 0, 0] },
+            { "Name": "manamax_v", "Value": [1000, 0, 0] },
+            { "Name": "damage_all_resist", "Value": [75, 0, 0] },
+            { "Name": "allseriesstateresistrate", "Value": [75, 0, 0] }
+        ]
+    },
+    {
+        "ID": 178,
+        "Text": "Danh hiệu Mầm Non Đất Nước (3 ngày)",
+        "Duration": 72,
+        "AnimatedObject": "mamnondatnuoc",
+        "Description": "Có hiệu lực trong vòng 3 ngày. Sinh lực +1000. Nội lực: +500. Tốc độ di chuyển: +10%. May mắn: +20. Kháng thời gian Ngũ hành: +30.",
+        "MagicProps": [
+            { "Name": "lifemax_v", "Value": [1000, 0, 0] },
+            { "Name": "manamax_v", "Value": [500, 0, 0] },
+            { "Name": "fastwalkrun_p", "Value": [10, 0, 0] },
+            { "Name": "lucky_v", "Value": [20, 0, 0] },
+            { "Name": "allseriesstateresisttime", "Value": [30, 0, 0] }
+        ]
+    },
+    {
+        "ID": 179,
+        "Text": "Danh hiệu Mầm Non Đất Nước (7 ngày)",
+        "Duration": 168,
+        "AnimatedObject": "mamnondatnuoc",
+        "Description": "Có hiệu lực trong vòng 7 ngày. Sinh lực +1000. Nội lực: +500. Tốc độ di chuyển: +10%. May mắn: +20. Kháng thời gian Ngũ hành: +30.",
+        "MagicProps": [
+            { "Name": "lifemax_v", "Value": [1000, 0, 0] },
+            { "Name": "manamax_v", "Value": [500, 0, 0] },
+            { "Name": "fastwalkrun_p", "Value": [10, 0, 0] },
+            { "Name": "lucky_v", "Value": [20, 0, 0] },
+            { "Name": "allseriesstateresisttime", "Value": [30, 0, 0] }
+        ]
+    },
+    {
+        "ID": 180,
+        "Text": "Danh hiệu Mầm Non Đất Nước (14 ngày)",
+        "Duration": 336,
+        "AnimatedObject": "mamnondatnuoc",
+        "Description": "Có hiệu lực trong vòng 14 ngày. Sinh lực +1000. Nội lực: +500. Tốc độ di chuyển: +10%. May mắn: +20. Kháng thời gian Ngũ hành: +30.",
+        "MagicProps": [
+            { "Name": "lifemax_v", "Value": [1000, 0, 0] },
+            { "Name": "manamax_v", "Value": [500, 0, 0] },
+            { "Name": "fastwalkrun_p", "Value": [10, 0, 0] },
+            { "Name": "lucky_v", "Value": [20, 0, 0] },
+            { "Name": "allseriesstateresisttime", "Value": [30, 0, 0] }
+        ]
+    },
+    {
+        "ID": 181,
+        "Text": "Danh hiệu Mầm Non Đất Nước (30 ngày)",
+        "Duration": 720,
+        "AnimatedObject": "mamnondatnuoc",
+        "Description": "Có hiệu lực trong vòng 30 ngày. Sinh lực +1000. Nội lực: +500. Tốc độ di chuyển: +10%. Giảm sát thương nhận vào: +15. Kháng thời gian Ngũ hành: +50.",
+        "MagicProps": [
+            { "Name": "lifemax_v", "Value": [1000, 0, 0] },
+            { "Name": "manamax_v", "Value": [500, 0, 0] },
+            { "Name": "fastwalkrun_p", "Value": [10, 0, 0] },
+            { "Name": "reduce_received_damage_p", "Value": [15, 0, 0] },
+            { "Name": "allseriesstateresisttime", "Value": [50, 0, 0] }
+        ]
+    },
+    {
+        "ID": 182,
+        "Text": "Danh hiệu Tuyệt Thế Giai Nhân (3 ngày)",
+        "Duration": 72,
+        "AnimatedObject": "tuyetthegiainhan",
+        "Description": "Có hiệu lực trong vòng 3 ngày. Sinh lực +1000. Nội lực: +500. Tốc độ di chuyển: +10%. Giảm sát thương chí mạng: +20%. Kháng tất cả: +100.",
+        "MagicProps": [
+            { "Name": "lifemax_v", "Value": [1000, 0, 0] },
+            { "Name": "manamax_v", "Value": [500, 0, 0] },
+            { "Name": "fastwalkrun_p", "Value": [10, 0, 0] },
+            { "Name": "defencedeadlystrikedamagetrim", "Value": [20, 0, 0] },
+            { "Name": "damage_all_resist", "Value": [100, 0, 0] }
+        ]
+    },
+    {
+        "ID": 183,
+        "Text": "Danh hiệu Tuyệt Thế Giai Nhân (7 ngày)",
+        "Duration": 168,
+        "AnimatedObject": "tuyetthegiainhan",
+        "Description": "Có hiệu lực trong vòng 7 ngày. Sinh lực +1000. Nội lực: +500. Tốc độ di chuyển: +10%. Giảm sát thương chí mạng: +20%. Kháng tất cả: +100.",
+        "MagicProps": [
+            { "Name": "lifemax_v", "Value": [1000, 0, 0] },
+            { "Name": "manamax_v", "Value": [500, 0, 0] },
+            { "Name": "fastwalkrun_p", "Value": [10, 0, 0] },
+            { "Name": "defencedeadlystrikedamagetrim", "Value": [20, 0, 0] },
+            { "Name": "damage_all_resist", "Value": [100, 0, 0] }
+        ]
+    },
+    {
+        "ID": 184,
+        "Text": "Danh hiệu Tuyệt Thế Giai Nhân (14 ngày)",
+        "Duration": 336,
+        "AnimatedObject": "tuyetthegiainhan",
+        "Description": "Có hiệu lực trong vòng 14 ngày. Sinh lực +1000. Nội lực: +500. Tốc độ di chuyển: +10%. Giảm sát thương chí mạng: +20%. Kháng tất cả: +100.",
+        "MagicProps": [
+            { "Name": "lifemax_v", "Value": [1000, 0, 0] },
+            { "Name": "manamax_v", "Value": [500, 0, 0] },
+            { "Name": "fastwalkrun_p", "Value": [10, 0, 0] },
+            { "Name": "defencedeadlystrikedamagetrim", "Value": [20, 0, 0] },
+            { "Name": "damage_all_resist", "Value": [100, 0, 0] }
+        ]
+    },
+    {
+        "ID": 185,
+        "Text": "Danh hiệu Tuyệt Thế Giai Nhân (30 ngày)",
+        "Duration": 720,
+        "AnimatedObject": "tuyetthegiainhan",
+        "Description": "Có hiệu lực trong vòng 30 ngày. Sinh lực +1000. Nội lực: +500. Tốc độ di chuyển: +10%. May mắn: +20. Kháng thời gian Ngũ hành: +30.",
+        "MagicProps": [
+            { "Name": "lifemax_v", "Value": [1000, 0, 0] },
+            { "Name": "manamax_v", "Value": [500, 0, 0] },
+            { "Name": "fastwalkrun_p", "Value": [10, 0, 0] },
+            { "Name": "lucky_v", "Value": [20, 0, 0] },
+            { "Name": "allseriesstateresisttime", "Value": [30, 0, 0] }
+        ]
+    },
+    {
+        "ID": 186,
+        "Text": "Danh hiệu Phong Lưu Tài Tử (3 ngày)",
+        "Duration": 72,
+        "AnimatedObject": "phongluutaitu",
+        "Description": "Có hiệu lực trong vòng 3 ngày. Sinh lực +1000. Nội lực: +500. Tốc độ di chuyển: +10%. Giảm sát thương chí mạng: +10%. Kháng tất cả: +75.",
+        "MagicProps": [
+            { "Name": "lifemax_v", "Value": [1000, 0, 0] },
+            { "Name": "manamax_v", "Value": [500, 0, 0] },
+            { "Name": "fastwalkrun_p", "Value": [10, 0, 0] },
+            { "Name": "defencedeadlystrikedamagetrim", "Value": [10, 0, 0] },
+            { "Name": "damage_all_resist", "Value": [75, 0, 0] }
+        ]
+    },
+    {
+        "ID": 187,
+        "Text": "Danh hiệu Phong Lưu Tài Tử (7 ngày)",
+        "Duration": 168,
+        "AnimatedObject": "phongluutaitu",
+        "Description": "Có hiệu lực trong vòng 7 ngày. Sinh lực +1000. Nội lực: +500. Tốc độ di chuyển: +10%. Giảm sát thương chí mạng: +10%. Kháng tất cả: +75.",
+        "MagicProps": [
+            { "Name": "lifemax_v", "Value": [1000, 0, 0] },
+            { "Name": "manamax_v", "Value": [500, 0, 0] },
+            { "Name": "fastwalkrun_p", "Value": [10, 0, 0] },
+            { "Name": "defencedeadlystrikedamagetrim", "Value": [10, 0, 0] },
+            { "Name": "damage_all_resist", "Value": [75, 0, 0] }
+        ]
+    },
+    {
+        "ID": 188,
+        "Text": "Danh hiệu Phong Lưu Tài Tử (14 ngày)",
+        "Duration": 336,
+        "AnimatedObject": "phongluutaitu",
+        "Description": "Có hiệu lực trong vòng 14 ngày. Sinh lực +1000. Nội lực: +500. Tốc độ di chuyển: +10%. Giảm sát thương chí mạng: +10%. Kháng tất cả: +75.",
+        "MagicProps": [
+            { "Name": "lifemax_v", "Value": [1000, 0, 0] },
+            { "Name": "manamax_v", "Value": [500, 0, 0] },
+            { "Name": "fastwalkrun_p", "Value": [10, 0, 0] },
+            { "Name": "defencedeadlystrikedamagetrim", "Value": [10, 0, 0] },
+            { "Name": "damage_all_resist", "Value": [75, 0, 0] }
+        ]
+    },
+    {
+        "ID": 189,
+        "Text": "Danh hiệu Phong Lưu Tài Tử (30 ngày)",
+        "Duration": 720,
+        "AnimatedObject": "phongluutaitu",
+        "Description": "Có hiệu lực trong vòng 30 ngày. Sinh lực +1000. Nội lực: +500. Tốc độ di chuyển: +10%. May mắn: +20. Kháng thời gian Ngũ hành: +30.",
+        "MagicProps": [
+            { "Name": "lifemax_v", "Value": [1000, 0, 0] },
+            { "Name": "manamax_v", "Value": [500, 0, 0] },
+            { "Name": "fastwalkrun_p", "Value": [10, 0, 0] },
+            { "Name": "lucky_v", "Value": [20, 0, 0] },
+            { "Name": "allseriesstateresisttime", "Value": [30, 0, 0] }
+        ]
+    },
+    {
+        "ID": 190,
+        "Text": "Danh hiệu Tôn Sư Trọng Đạo (3 ngày)",
+        "Duration": 72,
+        "AnimatedObject": "tonsutrongdao",
+        "Description": "Có hiệu lực trong vòng 3 ngày. Sinh lực +1000. Nội lực: +500. Giảm sát thương chí mạng: +10%. Kháng tất cả: +50.",
+        "MagicProps": [
+            { "Name": "lifemax_v", "Value": [1000, 0, 0] },
+            { "Name": "manamax_v", "Value": [500, 0, 0] },
+            { "Name": "defencedeadlystrikedamagetrim", "Value": [10, 0, 0] },
+            { "Name": "damage_all_resist", "Value": [50, 0, 0] }
+        ]
+    },
+    {
+        "ID": 191,
+        "Text": "Danh hiệu Tôn Sư Trọng Đạo (7 ngày)",
+        "Duration": 168,
+        "AnimatedObject": "tonsutrongdao",
+        "Description": "Có hiệu lực trong vòng 7 ngày. Sinh lực +1000. Nội lực: +500. Giảm sát thương chí mạng: +10%. Kháng tất cả: +50.",
+        "MagicProps": [
+            { "Name": "lifemax_v", "Value": [1000, 0, 0] },
+            { "Name": "manamax_v", "Value": [500, 0, 0] },
+            { "Name": "defencedeadlystrikedamagetrim", "Value": [10, 0, 0] },
+            { "Name": "damage_all_resist", "Value": [50, 0, 0] }
+        ]
+    },
+    {
+        "ID": 192,
+        "Text": "Danh hiệu Tôn Sư Trọng Đạo (14 ngày)",
+        "Duration": 336,
+        "AnimatedObject": "tonsutrongdao",
+        "Description": "Có hiệu lực trong vòng 14 ngày. Sinh lực +1000. Nội lực: +500. Giảm sát thương chí mạng: +10%. Kháng tất cả: +50.",
+        "MagicProps": [
+            { "Name": "lifemax_v", "Value": [1000, 0, 0] },
+            { "Name": "manamax_v", "Value": [500, 0, 0] },
+            { "Name": "defencedeadlystrikedamagetrim", "Value": [10, 0, 0] },
+            { "Name": "damage_all_resist", "Value": [50, 0, 0] }
+        ]
+    },
+    {
+        "ID": 193,
+        "Text": "Danh hiệu Tôn Sư Trọng Đạo (30 ngày)",
+        "Duration": 720,
+        "AnimatedObject": "tonsutrongdao",
+        "Description": "Có hiệu lực trong vòng 30 ngày. Sinh lực +2000. Nội lực: +1000. Giảm sát thương chí mạng: +20%. Kháng tất cả: +100. Vật công nội/ngoại: +300",
+        "MagicProps": [
+            { "Name": "lifemax_v", "Value": [2000, 0, 0] },
+            { "Name": "manamax_v", "Value": [1000, 0, 0] },
+            { "Name": "defencedeadlystrikedamagetrim", "Value": [20, 0, 0] },
+            { "Name": "damage_all_resist", "Value": [100, 0, 0] },
+            { "Name": "addphysicsmagic_p", "Value": [300, 0, 0] },
+            { "Name": "addphysicsdamage_p", "Value": [300, 0, 0] }
+        ]
+    },
+    {
+        "ID": 194,
+        "Text": "Danh hiệu Học Hải Vô Nhai (15 ngày)",
+        "Duration": 360,
+        "AnimatedObject": "hochaivonhai",
+        "Description": "Có hiệu lực trong vòng 15 ngày. Sinh lực +1000. Nội lực: +500. Tốc độ di chuyển: +10%. Kháng tất cả: +50. Xác suất bị trạng thái bất lợi: -50. Thời gian bị trạng thái bất lợi: -50",
+        "MagicProps": [
+            { "Name": "lifemax_v", "Value": [1000, 0, 0] },
+            { "Name": "manamax_v", "Value": [500, 0, 0] },
+            { "Name": "fastwalkrun_p", "Value": [10, 0, 0] },
+            { "Name": "damage_all_resist", "Value": [50, 0, 0] },
+            { "Name": "allspecialstateresisttime", "Value": [50, 0, 0] },
+            { "Name": "allspecialstateresistrate", "Value": [50, 0, 0] }
+        ]
+    },
+    {
+        "ID": 195,
+        "Text": "Danh hiệu Nhất Đẳng Tông Sư (15 ngày)",
+        "Duration": 360,
+        "AnimatedObject": "nhatdangtongsu",
+        "Description": "Có hiệu lực trong vòng 15 ngày. Sinh lực +2000. Nội lực: +1000. Giảm sát thương chí mạng: +10%. Kháng tất cả: +75. Tốc độ xuất chiêu nội/ngoại công: +3",
+        "MagicProps": [
+            { "Name": "lifemax_v", "Value": [1000, 0, 0] },
+            { "Name": "manamax_v", "Value": [500, 0, 0] },
+            { "Name": "defencedeadlystrikedamagetrim", "Value": [10, 0, 0] },
+            { "Name": "damage_all_resist", "Value": [75, 0, 0] },
+            { "Name": "attackspeed_v", "Value": [3, 0, 0] },
+            { "Name": "castspeed_v", "Value": [3, 0, 0] }
+        ]
+    },
+    {
+        "ID": 196,
+        "Text": "Danh hiệu Nhị Niên Kiếm Vương 1 (3 ngày)",
+        "Duration": 72,
+        "AnimatedObject": "nhinienkiemvuong1",
+        "Description": "Có hiệu lực trong vòng 3 ngày. Sinh lực +1000. Nội lực: +500. Giảm sát thương chí mạng: +10%. Kháng tất cả: +50.",
+        "MagicProps": [
+            { "Name": "lifemax_v", "Value": [1000, 0, 0] },
+            { "Name": "manamax_v", "Value": [500, 0, 0] },
+            { "Name": "defencedeadlystrikedamagetrim", "Value": [10, 0, 0] },
+            { "Name": "damage_all_resist", "Value": [50, 0, 0] }
+        ]
+    },
+    {
+        "ID": 197,
+        "Text": "Danh hiệu Nhị Niên Kiếm Vương 1 (7 ngày)",
+        "Duration": 168,
+        "AnimatedObject": "nhinienkiemvuong1",
+        "Description": "Có hiệu lực trong vòng 7 ngày. Sinh lực +1000. Nội lực: +500. Giảm sát thương chí mạng: +10%. Kháng tất cả: +50.",
+        "MagicProps": [
+            { "Name": "lifemax_v", "Value": [1000, 0, 0] },
+            { "Name": "manamax_v", "Value": [500, 0, 0] },
+            { "Name": "defencedeadlystrikedamagetrim", "Value": [10, 0, 0] },
+            { "Name": "damage_all_resist", "Value": [50, 0, 0] }
+        ]
+    },
+    {
+        "ID": 198,
+        "Text": "Danh hiệu Nhị Niên Kiếm Vương 1 (14 ngày)",
+        "Duration": 336,
+        "AnimatedObject": "nhinienkiemvuong1",
+        "Description": "Có hiệu lực trong vòng 14 ngày. Sinh lực +1000. Nội lực: +500. Giảm sát thương chí mạng: +10%. Kháng tất cả: +50.",
+        "MagicProps": [
+            { "Name": "lifemax_v", "Value": [1000, 0, 0] },
+            { "Name": "manamax_v", "Value": [500, 0, 0] },
+            { "Name": "defencedeadlystrikedamagetrim", "Value": [10, 0, 0] },
+            { "Name": "damage_all_resist", "Value": [50, 0, 0] }
+        ]
+    },
+    {
+        "ID": 199,
+        "Text": "Danh hiệu Nhị Niên Kiếm Vương 1 (30 ngày)",
+        "Duration": 720,
+        "AnimatedObject": "nhinienkiemvuong1",
+        "Description": "Có hiệu lực trong vòng 30 ngày. Sinh lực +2000. Nội lực: +1000. Giảm sát thương chí mạng: +15%. Kháng tất cả: +100. Khuếch đại sát thương: 5%. Tốc độ xuất chiêu: +3",
+        "MagicProps": [
+            { "Name": "lifemax_v", "Value": [2000, 0, 0] },
+            { "Name": "manamax_v", "Value": [1000, 0, 0] },
+            { "Name": "defencedeadlystrikedamagetrim", "Value": [15, 0, 0] },
+            { "Name": "damage_all_resist", "Value": [100, 0, 0] },
+            { "Name": "increase_output_damage_p", "Value": [5, 0, 0] },
+            { "Name": "attackspeed_v", "Value": [3, 0, 0] },
+            { "Name": "castspeed_v", "Value": [3, 0, 0] }
+        ]
+    },
+    {
+        "ID": 200,
+        "Text": "Danh hiệu Song Long Bá Vương (60 ngày)",
+        "Duration": 1440,
+        "AnimatedObject": "songlongbavuong",
+        "Description": "Có hiệu lực trong vòng 60 ngày. Sinh lực +5000. Nội lực: +3000. Kháng tất cả: +100. Giảm sát thương nhận vào: 10%. Khuếch đại sát thương: 10%.",
+        "MagicProps": [
+            { "Name": "lifemax_v", "Value": [5000, 0, 0] },
+            { "Name": "manamax_v", "Value": [3000, 0, 0] },
+            { "Name": "damage_all_resist", "Value": [100, 0, 0] },
+            { "Name": "reduce_received_damage_p", "Value": [10, 0, 0] },
+            { "Name": "increase_output_damage_p", "Value": [10, 0, 0] }
+        ]
+    },
+    {
+        "ID": 201,
+        "Text": "Danh hiệu Song Long Chiến Tướng (60 ngày)",
+        "Duration": 1440,
+        "AnimatedObject": "songlongchientuong",
+        "Description": "Có hiệu lực trong vòng 60 ngày. Sinh lực +3000. Nội lực: +1500. Kháng tất cả: +75. Giảm sát thương nhận vào: 7%. Khuếch đại sát thương: 7%.",
+        "MagicProps": [
+            { "Name": "lifemax_v", "Value": [3000, 0, 0] },
+            { "Name": "manamax_v", "Value": [1500, 0, 0] },
+            { "Name": "damage_all_resist", "Value": [75, 0, 0] },
+            { "Name": "reduce_received_damage_p", "Value": [7, 0, 0] },
+            { "Name": "increase_output_damage_p", "Value": [7, 0, 0] }
+        ]
+    },
+    {
+        "ID": 202,
+        "Text": "Danh hiệu Song Long Hộ Vệ (60 ngày)",
+        "Duration": 1440,
+        "AnimatedObject": "songlonghove",
+        "Description": "Có hiệu lực trong vòng 60 ngày. Sinh lực +3000. Nội lực: +1500. Kháng tất cả: +50. Giảm sát thương nhận vào: 5%. Khuếch đại sát thương: 5%.",
+        "MagicProps": [
+            { "Name": "lifemax_v", "Value": [3000, 0, 0] },
+            { "Name": "manamax_v", "Value": [1500, 0, 0] },
+            { "Name": "damage_all_resist", "Value": [50, 0, 0] },
+            { "Name": "reduce_received_damage_p", "Value": [5, 0, 0] },
+            { "Name": "increase_output_damage_p", "Value": [5, 0, 0] }
+        ]
+    },
+    {
+        "ID": 203,
+        "Text": "Danh hiệu Tam Long Tinh Anh (60 ngày)",
+        "Duration": 1440,
+        "AnimatedObject": "tamlongtinhanh",
+        "Description": "Có hiệu lực trong vòng 60 ngày. Sinh lực +3000. Nội lực: +1500. Kháng tất cả: +75. Giảm sát thương nhận vào: 3%.",
+        "MagicProps": [
+            { "Name": "lifemax_v", "Value": [3000, 0, 0] },
+            { "Name": "manamax_v", "Value": [1500, 0, 0] },
+            { "Name": "damage_all_resist", "Value": [75, 0, 0] },
+            { "Name": "reduce_received_damage_p", "Value": [3, 0, 0] }
+        ]
+    },
+    {
+        "ID": 204,
+        "Text": "Danh hiệu Ất Tỵ Khai Xuân (3 ngày)",
+        "Duration": 72,
+        "AnimatedObject": "attykhaixuan",
+        "Description": "Có hiệu lực trong vòng 3 ngày. Sinh lực +1000. Nội lực: +500. Giảm sát thương chí mạng: +10%. Kháng tất cả: +50. May mắn: +10%.",
+        "MagicProps": [
+            { "Name": "lifemax_v", "Value": [1000, 0, 0] },
+            { "Name": "manamax_v", "Value": [500, 0, 0] },
+            { "Name": "defencedeadlystrikedamagetrim", "Value": [10, 0, 0] },
+            { "Name": "damage_all_resist", "Value": [50, 0, 0] },
+            { "Name": "lucky_p", "Value": [10, 0, 0] }
+        ]
+    },
+    {
+        "ID": 205,
+        "Text": "Danh hiệu Ất Tỵ Khai Xuân (7 ngày)",
+        "Duration": 168,
+        "AnimatedObject": "attykhaixuan",
+        "Description": "Có hiệu lực trong vòng 7 ngày. Sinh lực +1000. Nội lực: +500. Giảm sát thương chí mạng: +10%. Kháng tất cả: +50. May mắn: +10%.",
+        "MagicProps": [
+            { "Name": "lifemax_v", "Value": [1000, 0, 0] },
+            { "Name": "manamax_v", "Value": [500, 0, 0] },
+            { "Name": "defencedeadlystrikedamagetrim", "Value": [10, 0, 0] },
+            { "Name": "damage_all_resist", "Value": [50, 0, 0] },
+            { "Name": "lucky_p", "Value": [10, 0, 0] }
+        ]
+    },
+    {
+        "ID": 206,
+        "Text": "Danh hiệu Ất Tỵ Khai Xuân (14 ngày)",
+        "Duration": 336,
+        "AnimatedObject": "attykhaixuan",
+        "Description": "Có hiệu lực trong vòng 14 ngày. Sinh lực +1000. Nội lực: +500. Giảm sát thương chí mạng: +10%. Kháng tất cả: +50. May mắn: +10%.",
+        "MagicProps": [
+            { "Name": "lifemax_v", "Value": [1000, 0, 0] },
+            { "Name": "manamax_v", "Value": [500, 0, 0] },
+            { "Name": "defencedeadlystrikedamagetrim", "Value": [10, 0, 0] },
+            { "Name": "damage_all_resist", "Value": [50, 0, 0] },
+            { "Name": "lucky_p", "Value": [10, 0, 0] }
+        ]
+    },
+    {
+        "ID": 207,
+        "Text": "Danh hiệu Ất Tỵ Khai Xuân (30 ngày)",
+        "Duration": 720,
+        "AnimatedObject": "attykhaixuan",
+        "Description": "Có hiệu lực trong vòng 30 ngày. Sinh lực +2000. Nội lực: +1000. Giảm sát thương chí mạng: +15%. Kháng tất cả: +100. May mắn: +20%. Giảm sát thương nhận: 10%. Khuếch đại sát thương: 5%",
+        "MagicProps": [
+            { "Name": "lifemax_v", "Value": [2000, 0, 0] },
+            { "Name": "manamax_v", "Value": [1000, 0, 0] },
+            { "Name": "defencedeadlystrikedamagetrim", "Value": [15, 0, 0] },
+            { "Name": "damage_all_resist", "Value": [100, 0, 0] },
+            { "Name": "lucky_p", "Value": [10, 0, 0] },
+            { "Name": "reduce_received_damage_p", "Value": [10, 0, 0] },
+            { "Name": "increase_output_damage_p", "Value": [5, 0, 0] }
+        ]
+    },
+    {
+        "ID": 208,
+        "Text": "Danh hiệu Hạnh Vận Giả (30 ngày)",
+        "Duration": 720,
+        "AnimatedObject": "hanhvangia",
+        "Description": "Có hiệu lực trong vòng 30 ngày. Sinh lực +30%. Nội lực: +15%. Tốc độ di chuyển: +10%. Kháng tất cả: +75. May mắn: +30.",
+        "MagicProps": [
+            { "Name": "lifemax_p", "Value": [30, 0, 0] },
+            { "Name": "manamax_p", "Value": [15, 0, 0] },
+            { "Name": "fastwalkrun_p", "Value": [10, 0, 0] },
+            { "Name": "damage_all_resist", "Value": [75, 0, 0] },
+            { "Name": "lucky_v", "Value": [30, 0, 0] }
+        ]
+    },
+    {
+        "ID": 209,
+        "Text": "Danh hiệu Hạnh Vận Giả (15 ngày)",
+        "Duration": 360,
+        "AnimatedObject": "hanhvangia",
+        "Description": "Có hiệu lực trong vòng 15 ngày. Sinh lực +30%. Nội lực: +15%. Tốc độ di chuyển: +10%. Kháng tất cả: +75. May mắn: +30.",
+        "MagicProps": [
+            { "Name": "lifemax_p", "Value": [30, 0, 0] },
+            { "Name": "manamax_p", "Value": [15, 0, 0] },
+            { "Name": "fastwalkrun_p", "Value": [10, 0, 0] },
+            { "Name": "damage_all_resist", "Value": [75, 0, 0] },
+            { "Name": "lucky_v", "Value": [30, 0, 0] }
+        ]
+    },
+    {
+        "ID": 210,
+        "Text": "Danh hiệu Hạnh Vận Giả (7 ngày)",
+        "Duration": 168,
+        "AnimatedObject": "hanhvangia",
+        "Description": "Có hiệu lực trong vòng 7 ngày. Sinh lực +30%. Nội lực: +15%. Tốc độ di chuyển: +10%. Kháng tất cả: +75. May mắn: +30.",
+        "MagicProps": [
+            { "Name": "lifemax_p", "Value": [30, 0, 0] },
+            { "Name": "manamax_p", "Value": [15, 0, 0] },
+            { "Name": "fastwalkrun_p", "Value": [10, 0, 0] },
+            { "Name": "damage_all_resist", "Value": [75, 0, 0] },
+            { "Name": "lucky_v", "Value": [30, 0, 0] }
+        ]
+    },
+    {
+        "ID": 211,
+        "Text": "Danh hiệu Đệ Nhất Phú Hào (30 ngày)",
+        "Duration": 720,
+        "AnimatedObject": "denhatphuhao",
+        "Description": "Có hiệu lực trong vòng 30 ngày. Sinh lực +40%. Nội lực: +20%. Giảm sát thương chí mạng: 10%. Tấn công khi đánh chí mạng: 10%. Tốc độ di chuyển: +10%.",
+        "MagicProps": [
+            { "Name": "lifemax_p", "Value": [40, 0, 0] },
+            { "Name": "manamax_p", "Value": [20, 0, 0] },
+            { "Name": "defencedeadlystrikedamagetrim", "Value": [10, 0, 0] },
+            { "Name": "fastwalkrun_p", "Value": [10, 0, 0] },
+            { "Name": "deadlystrikedamageenhance_p", "Value": [10, 0, 0] }
+        ]
+    },
+    {
+        "ID": 212,
+        "Text": "Danh hiệu Đệ Nhất Phú Hào (15 ngày)",
+        "Duration": 360,
+        "AnimatedObject": "denhatphuhao",
+        "Description": "Có hiệu lực trong vòng 15 ngày. Sinh lực +40%. Nội lực: +20%. Giảm sát thương chí mạng: 20%. Tấn công khi đánh chí mạng: 10%. Tốc độ di chuyển: +10%.",
+        "MagicProps": [
+            { "Name": "lifemax_p", "Value": [40, 0, 0] },
+            { "Name": "manamax_p", "Value": [20, 0, 0] },
+            { "Name": "defencedeadlystrikedamagetrim", "Value": [20, 0, 0] },
+            { "Name": "fastwalkrun_p", "Value": [10, 0, 0] },
+            { "Name": "deadlystrikedamageenhance_p", "Value": [10, 0, 0] }
+        ]
+    },
+    {
+        "ID": 213,
+        "Text": "Danh hiệu Song Long Bá Vương (60 ngày)",
+        "Duration": 1440,
+        "AnimatedObject": "songlongbavuong",
+        "Description": "Có hiệu lực trong vòng 60 ngày. Sinh lực +5000. Nội lực: +3000. Kháng tất cả: +75. Giảm sát thương nhận vào: 15%. Khuếch đại sát thương: 10%.",
+        "MagicProps": [
+            { "Name": "lifemax_v", "Value": [5000, 0, 0] },
+            { "Name": "manamax_v", "Value": [3000, 0, 0] },
+            { "Name": "damage_all_resist", "Value": [75, 0, 0] },
+            { "Name": "reduce_received_damage_p", "Value": [15, 0, 0] },
+            { "Name": "increase_output_damage_p", "Value": [10, 0, 0] }
+        ]
+    },
+    {
+        "ID": 214,
+        "Text": "Danh hiệu Song Long Chiến Tướng (60 ngày)",
+        "Duration": 1440,
+        "AnimatedObject": "songlongchientuong",
+        "Description": "Có hiệu lực trong vòng 60 ngày. Sinh lực +3000. Nội lực: +1500. Kháng tất cả: +50. Giảm sát thương nhận vào: 8%. Khuếch đại sát thương: 5%.",
+        "MagicProps": [
+            { "Name": "lifemax_v", "Value": [3000, 0, 0] },
+            { "Name": "manamax_v", "Value": [1500, 0, 0] },
+            { "Name": "damage_all_resist", "Value": [50, 0, 0] },
+            { "Name": "reduce_received_damage_p", "Value": [8, 0, 0] },
+            { "Name": "increase_output_damage_p", "Value": [5, 0, 0] }
+        ]
+    },
+    {
+        "ID": 215,
+        "Text": "Danh hiệu Song Long Hộ Vệ (60 ngày)",
+        "Duration": 1440,
+        "AnimatedObject": "songlonghove",
+        "Description": "Có hiệu lực trong vòng 60 ngày. Sinh lực +3000. Nội lực: +1500. Kháng tất cả: +50. Giảm sát thương nhận vào: 5%. Khuếch đại sát thương: 3%.",
+        "MagicProps": [
+            { "Name": "lifemax_v", "Value": [3000, 0, 0] },
+            { "Name": "manamax_v", "Value": [1500, 0, 0] },
+            { "Name": "damage_all_resist", "Value": [50, 0, 0] },
+            { "Name": "reduce_received_damage_p", "Value": [5, 0, 0] },
+            { "Name": "increase_output_damage_p", "Value": [3, 0, 0] }
+        ]
+    },
+    {
+        "ID": 216,
+        "Text": "Danh hiệu Song Long Tinh Anh (60 ngày)",
+        "Duration": 1440,
+        "AnimatedObject": "songlongtinhanh",
+        "Description": "Có hiệu lực trong vòng 60 ngày. Sinh lực +3000. Nội lực: +1500. Kháng tất cả: +75. Giảm sát thương nhận vào: 3%.",
+        "MagicProps": [
+            { "Name": "lifemax_v", "Value": [3000, 0, 0] },
+            { "Name": "manamax_v", "Value": [1500, 0, 0] },
+            { "Name": "damage_all_resist", "Value": [75, 0, 0] },
+            { "Name": "reduce_received_damage_p", "Value": [3, 0, 0] }
+        ]
+    },
+    {
+        "ID": 217,
+        "Text": "Danh hiệu Châu Liên Hợp Bích (3 ngày)",
+        "Duration": 72,
+        "AnimatedObject": "chaulienhopbich",
+        "Description": "Có hiệu lực trong vòng 3 ngày. Sinh lực +1000. Nội lực: +500. Giảm sát thương chí mạng: +10%. Kháng tất cả: +50. May mắn: +10%.",
+        "MagicProps": [
+            { "Name": "lifemax_v", "Value": [1000, 0, 0] },
+            { "Name": "manamax_v", "Value": [500, 0, 0] },
+            { "Name": "defencedeadlystrikedamagetrim", "Value": [10, 0, 0] },
+            { "Name": "damage_all_resist", "Value": [50, 0, 0] },
+            { "Name": "lucky_p", "Value": [10, 0, 0] }
+        ]
+    },
+    {
+        "ID": 218,
+        "Text": "Danh hiệu Châu Liên Hợp Bích (7 ngày)",
+        "Duration": 168,
+        "AnimatedObject": "chaulienhopbich",
+        "Description": "Có hiệu lực trong vòng 7 ngày. Sinh lực +1000. Nội lực: +500. Giảm sát thương chí mạng: +10%. Kháng tất cả: +50. May mắn: +10%.",
+        "MagicProps": [
+            { "Name": "lifemax_v", "Value": [1000, 0, 0] },
+            { "Name": "manamax_v", "Value": [500, 0, 0] },
+            { "Name": "defencedeadlystrikedamagetrim", "Value": [10, 0, 0] },
+            { "Name": "damage_all_resist", "Value": [50, 0, 0] },
+            { "Name": "lucky_p", "Value": [10, 0, 0] }
+        ]
+    },
+    {
+        "ID": 219,
+        "Text": "Danh hiệu Châu Liên Hợp Bích (14 ngày)",
+        "Duration": 336,
+        "AnimatedObject": "chaulienhopbich",
+        "Description": "Có hiệu lực trong vòng 14 ngày. Sinh lực +1000. Nội lực: +500. Giảm sát thương chí mạng: +10%. Kháng tất cả: +50. May mắn: +10%.",
+        "MagicProps": [
+            { "Name": "lifemax_v", "Value": [1000, 0, 0] },
+            { "Name": "manamax_v", "Value": [500, 0, 0] },
+            { "Name": "defencedeadlystrikedamagetrim", "Value": [10, 0, 0] },
+            { "Name": "damage_all_resist", "Value": [50, 0, 0] },
+            { "Name": "lucky_p", "Value": [10, 0, 0] }
+        ]
+    },
+    {
+        "ID": 220,
+        "Text": "Danh hiệu Châu Liên Hợp Bích (30 ngày)",
+        "Duration": 720,
+        "AnimatedObject": "chaulienhopbich",
+        "Description": "Có hiệu lực trong vòng 30 ngày. Sinh lực +2000. Nội lực: +1000. Giảm sát thương chí mạng: +15%. Kháng tất cả: +100. Giảm sát thương nhận: 5%. Khuếch đại sát thương: 5%. Vật công nội/ngoại: +300.",
+        "MagicProps": [
+            { "Name": "lifemax_v", "Value": [2000, 0, 0] },
+            { "Name": "manamax_v", "Value": [1000, 0, 0] },
+            { "Name": "defencedeadlystrikedamagetrim", "Value": [15, 0, 0] },
+            { "Name": "damage_all_resist", "Value": [100, 0, 0] },
+            { "Name": "reduce_received_damage_p", "Value": [5, 0, 0] },
+            { "Name": "increase_output_damage_p", "Value": [5, 0, 0] },
+            { "Name": "addphysicsdamage_v", "Value": [300, 0, 0]},
+            { "Name": "addphysicsmagic_v", "Value": [300, 0, 0]}
+        ]
+    },
+    {
+        "ID": 221,
+        "Text": "Danh hiệu Hào Khí Lạc Hồng (3 ngày)",
+        "Duration": 72,
+        "AnimatedObject": "haokhilachong",
+        "Description": "Có hiệu lực trong vòng 3 ngày. Sinh lực +1000. Nội lực: +500. Giảm sát thương chí mạng: +10%. Kháng tất cả: +50. May mắn: +10%.",
+        "MagicProps": [
+            { "Name": "lifemax_v", "Value": [1000, 0, 0] },
+            { "Name": "manamax_v", "Value": [500, 0, 0] },
+            { "Name": "defencedeadlystrikedamagetrim", "Value": [10, 0, 0] },
+            { "Name": "damage_all_resist", "Value": [50, 0, 0] },
+            { "Name": "lucky_p", "Value": [10, 0, 0] }
+        ]
+    },
+    {
+        "ID": 222,
+        "Text": "Danh hiệu Hào Khí Lạc Hồng (7 ngày)",
+        "Duration": 168,
+        "AnimatedObject": "haokhilachong",
+        "Description": "Có hiệu lực trong vòng 7 ngày. Sinh lực +1000. Nội lực: +500. Giảm sát thương chí mạng: +10%. Kháng tất cả: +50. May mắn: +10%.",
+        "MagicProps": [
+            { "Name": "lifemax_v", "Value": [1000, 0, 0] },
+            { "Name": "manamax_v", "Value": [500, 0, 0] },
+            { "Name": "defencedeadlystrikedamagetrim", "Value": [10, 0, 0] },
+            { "Name": "damage_all_resist", "Value": [50, 0, 0] },
+            { "Name": "lucky_p", "Value": [10, 0, 0] }
+        ]
+    },
+    {
+        "ID": 223,
+        "Text": "Danh hiệu Hào Khí Lạc Hồng (14 ngày)",
+        "Duration": 336,
+        "AnimatedObject": "haokhilachong",
+        "Description": "Có hiệu lực trong vòng 14 ngày. Sinh lực +1000. Nội lực: +500. Giảm sát thương chí mạng: +10%. Kháng tất cả: +50. May mắn: +10%.",
+        "MagicProps": [
+            { "Name": "lifemax_v", "Value": [1000, 0, 0] },
+            { "Name": "manamax_v", "Value": [500, 0, 0] },
+            { "Name": "defencedeadlystrikedamagetrim", "Value": [10, 0, 0] },
+            { "Name": "damage_all_resist", "Value": [50, 0, 0] },
+            { "Name": "lucky_p", "Value": [10, 0, 0] }
+        ]
+    },
+    {
+        "ID": 224,
+        "Text": "Danh hiệu Hào Khí Lạc Hồng (30 ngày)",
+        "Duration": 720,
+        "AnimatedObject": "haokhilachong",
+        "Description": "Có hiệu lực trong vòng 30 ngày. Sinh lực +2000. Nội lực: +1000. Giảm sát thương chí mạng: +15%. Kháng tất cả: +100. Tốc độ xuất chiêu: +3. Khuếch đại sát thương: +5%. Kháng thời gian ngũ hành: +100",
+        "MagicProps": [
+            { "Name": "lifemax_v", "Value": [2000, 0, 0] },
+            { "Name": "manamax_v", "Value": [1000, 0, 0] },
+            { "Name": "defencedeadlystrikedamagetrim", "Value": [15, 0, 0] },
+            { "Name": "damage_all_resist", "Value": [100, 0, 0] },
+            { "Name": "increase_output_damage_p", "Value": [5, 0, 0] },
+            { "Name": "attackspeed_v", "Value": [3, 0, 0] },
+            { "Name": "castspeed_v", "Value": [3, 0, 0] },
+            { "Name": "allseriesstateresisttime", "Value": [100, 0, 0] }
+        ]
+    },
+    {
+        "ID": 225,
+        "Text": "Danh hiệu Chiến Thần Mukbang (3 ngày)",
+        "Duration": 72,
+        "AnimatedObject": "chienthanmukbang",
+        "Description": "Có hiệu lực trong vòng 3 ngày. Sinh lực +1000. Nội lực: +500. Kháng tất cả: +50. May mắn: +10%.",
+        "MagicProps": [
+            { "Name": "lifemax_v", "Value": [1000, 0, 0] },
+            { "Name": "manamax_v", "Value": [500, 0, 0] },
+            { "Name": "damage_all_resist", "Value": [50, 0, 0] },
+            { "Name": "lucky_p", "Value": [10, 0, 0] }
+        ]
+    },
+    {
+        "ID": 226,
+        "Text": "Danh hiệu Chiến Thần Mukbang (7 ngày)",
+        "Duration": 168,
+        "AnimatedObject": "chienthanmukbang",
+        "Description": "Có hiệu lực trong vòng 7 ngày. Sinh lực +1000. Nội lực: +500. Kháng tất cả: +50. May mắn: +10%.",
+        "MagicProps": [
+            { "Name": "lifemax_v", "Value": [1000, 0, 0] },
+            { "Name": "manamax_v", "Value": [500, 0, 0] },
+            { "Name": "damage_all_resist", "Value": [50, 0, 0] },
+            { "Name": "lucky_p", "Value": [10, 0, 0] }
+        ]
+    },
+    {
+        "ID": 227,
+        "Text": "Danh hiệu Chiến Thần Mukbang (14 ngày)",
+        "Duration": 336,
+        "AnimatedObject": "chienthanmukbang",
+        "Description": "Có hiệu lực trong vòng 14 ngày. Sinh lực +1000. Nội lực: +500. Kháng tất cả: +50. May mắn: +10%.",
+        "MagicProps": [
+            { "Name": "lifemax_v", "Value": [1000, 0, 0] },
+            { "Name": "manamax_v", "Value": [500, 0, 0] },
+            { "Name": "damage_all_resist", "Value": [50, 0, 0] },
+            { "Name": "lucky_p", "Value": [10, 0, 0] }
+        ]
+    },
+    {
+        "ID": 228,
+        "Text": "Danh hiệu Chiến Thần Mukbang (30 ngày)",
+        "Duration": 720,
+        "AnimatedObject": "chienthanmukbang",
+        "Description": "Có hiệu lực trong vòng 30 ngày. Sinh lực +2000. Nội lực: +1000. Giảm sát thương chí mạng: +10%. Kháng tất cả: +100. Vật công nội/ngoại: +300.",
+        "MagicProps": [
+            { "Name": "lifemax_v", "Value": [2000, 0, 0] },
+            { "Name": "manamax_v", "Value": [1000, 0, 0] },
+            { "Name": "defencedeadlystrikedamagetrim", "Value": [10, 0, 0] },
+            { "Name": "damage_all_resist", "Value": [100, 0, 0] },
+            { "Name": "addphysicsmagic_v", "Value": [300, 0, 0] },
+            { "Name": "addphysicsdamage_v", "Value": [300, 0, 0] }
+        ]
+    },
+    {
+    "ID": 229,
+    "Text": "Danh hiệu thành viên thân thiết (30 ngày)",
+    "Duration": 720,
+    "AnimatedObject": "thanhvienthanthiet",
+    "Description": "Danh hiệu đặc biệt dành cho thành viên thân thiết có đóng góp cho Kiếm Vương 1. Sinh lực: +2000. Nội lực: +1000. Kháng tất cả: +50.",
+    "MagicProps": [
+        { "Name": "lifemax_v", "Value": [2000, 0, 0] },
+        { "Name": "manamax_v", "Value": [1000, 0, 0] },
+        { "Name": "damage_all_resist", "Value": [50, 0, 0] }
+    ]
+    },
+    {
+        "ID": 230,
+        "Text": "Danh hiệu nhà tài trợ bạc (30 ngày)",
+        "Duration": 720,
+        "AnimatedObject": "nhataitrobac",
+        "Description": "Danh hiệu đặc biệt dành cho nhà tài trợ bạc có đóng góp cho Kiếm Vương 1. Sinh lực: +3000. Nội lực: +1500. Kháng tất cả: +50. Giảm sát thương nhận vào: +3%.",
+        "MagicProps": [
+            { "Name": "lifemax_v", "Value": [3000, 0, 0] },
+            { "Name": "manamax_v", "Value": [1500, 0, 0] },
+            { "Name": "damage_all_resist", "Value": [50, 0, 0] },
+            { "Name": "reduce_received_damage_p", "Value": [3, 0, 0] }
+        ]
+    },
+    {
+        "ID": 231,
+        "Text": "Danh hiệu nhà tài trợ vàng (30 ngày)",
+        "Duration": 720,
+        "AnimatedObject": "nhataitrovang",
+        "Description": "Danh hiệu đặc biệt dành cho nhà tài trợ vàng có đóng góp cho Kiếm Vương 1. Sinh lực: +4000. Nội lực: +2000. Kháng tất cả: +75. Giảm sát thương nhận vào: +5%.",
+        "MagicProps": [
+            { "Name": "lifemax_v", "Value": [4000, 0, 0] },
+            { "Name": "manamax_v", "Value": [2000, 0, 0] },
+            { "Name": "damage_all_resist", "Value": [75, 0, 0] },
+            { "Name": "reduce_received_damage_p", "Value": [5, 0, 0] }
+        ]
+    },
+    {
+        "ID": 232,
+        "Text": "Danh hiệu nhà tài trợ bạch kim (30 ngày)",
+        "Duration": 720,
+        "AnimatedObject": "nhataitrobachkim",
+        "Description": "Danh hiệu đặc biệt dành cho nhà tài trợ bạch kim có đóng góp lớn cho Kiếm Vương 1. Sinh lực: +6000. Nội lực: +3000. Kháng tất cả: +100. Giảm sát thương nhận vào: +8%. Khuếch đại sát thương đánh ra: +3%.",
+        "MagicProps": [
+            { "Name": "lifemax_v", "Value": [6000, 0, 0] },
+            { "Name": "manamax_v", "Value": [3000, 0, 0] },
+            { "Name": "damage_all_resist", "Value": [100, 0, 0] },
+            { "Name": "reduce_received_damage_p", "Value": [8, 0, 0] },
+            { "Name": "increase_output_damage_p", "Value": [3, 0, 0] }
+        ]
+    },
+    {
+        "ID": 233,
+        "Text": "Danh hiệu nhà tài trợ kim cương (30 ngày)",
+        "Duration": 720,
+        "AnimatedObject": "nhataitrokimcuong",
+        "Description": "Danh hiệu đặc biệt dành cho nhà tài trợ kim cương có đóng góp đặc biệt lớn cho Kiếm Vương 1. Sinh lực: +7500. Nội lực: +3000. Kháng tất cả: +125. Giảm sát thương nhận vào: +10%. Khuếch đại sát thương đánh ra: +5%.",
+        "MagicProps": [
+            { "Name": "lifemax_v", "Value": [7500, 0, 0] },
+            { "Name": "manamax_v", "Value": [3000, 0, 0] },
+            { "Name": "damage_all_resist", "Value": [125, 0, 0] },
+            { "Name": "reduce_received_damage_p", "Value": [10, 0, 0] },
+            { "Name": "increase_output_damage_p", "Value": [5, 0, 0] }
+        ]
+    },
+    {
+        "ID": 234,
+        "Text": "Danh hiệu Tam Long Bá Vương (60 ngày)",
+        "Duration": 1440,
+        "AnimatedObject": "tamlongbavuong",
+        "Description": "Có hiệu lực trong vòng 60 ngày. Sinh lực +3000. Nội lực: +1500. Kháng tất cả: +75. Giảm sát thương nhận vào: 3%.",
+        "MagicProps": [
+            { "Name": "lifemax_v", "Value": [5000, 0, 0] },
+            { "Name": "manamax_v", "Value": [3000, 0, 0] },
+            { "Name": "damage_all_resist", "Value": [100, 0, 0] },
+            { "Name": "reduce_received_damage_p", "Value": [10, 0, 0] },
+            { "Name": "increase_output_damage_p", "Value": [10, 0, 0] }
+        ]
+    },
+    {
+        "ID": 235,
+        "Text": "Danh hiệu Tam Long Chiến Tướng (60 ngày)",
+        "Duration": 1440,
+        "AnimatedObject": "tamlongchientuong",
+        "Description": "Có hiệu lực trong vòng 60 ngày. Sinh lực +3000. Nội lực: +1500. Kháng tất cả: +75. Giảm sát thương nhận vào: 3%.",
+        "MagicProps": [
+            { "Name": "lifemax_v", "Value": [3000, 0, 0] },
+            { "Name": "manamax_v", "Value": [1500, 0, 0] },
+            { "Name": "damage_all_resist", "Value": [75, 0, 0] },
+            { "Name": "reduce_received_damage_p", "Value": [7, 0, 0] },
+            { "Name": "increase_output_damage_p", "Value": [7, 0, 0] }
+        ]
+    },
+    {
+        "ID": 236,
+        "Text": "Danh hiệu Tam Long Hộ Vệ (60 ngày)",
+        "Duration": 1440,
+        "AnimatedObject": "tamlonghove",
+        "Description": "Có hiệu lực trong vòng 60 ngày. Sinh lực +3000. Nội lực: +1500. Kháng tất cả: +75. Giảm sát thương nhận vào: 3%.",
+        "MagicProps": [
+            { "Name": "lifemax_v", "Value": [3000, 0, 0] },
+            { "Name": "manamax_v", "Value": [1500, 0, 0] },
+            { "Name": "damage_all_resist", "Value": [50, 0, 0] },
+            { "Name": "reduce_received_damage_p", "Value": [5, 0, 0] },
+            { "Name": "increase_output_damage_p", "Value": [5, 0, 0] }
+        ]
+    },
+    {
+        "ID": 237,
+        "Text": "Danh hiệu Tam Niên Kiếm Vương 1 (3 ngày)",
+        "Duration": 72,
+        "AnimatedObject": "tamnienkiemvuong1",
+        "Description": "Có hiệu lực trong vòng 3 ngày. Sinh lực +3000. Nội lực: +1000. May mắn: +30. Kinh nghiệm giết quái vật: +20%. Lực tấn công cơ bản: 5%. Lực tấn công kỹ năng: 5%",
+        "MagicProps": [
+            { "Name": "lifemax_v", "Value": [3000, 0, 0] },
+            { "Name": "manamax_v", "Value": [1000, 0, 0] },
+            { "Name": "lucky_v", "Value": [20, 0, 0] },
+            { "Name": "expenhance_p", "Value": [20, 0, 0] },
+            { "Name": "skillselfdamagetrim", "Value": [5, 0, 0] },
+            { "Name": "skilldamageptrim", "Value": [5, 0, 0] }
+        ]
+    },
+    {
+        "ID": 238,
+        "Text": "Danh hiệu Tam Niên Kiếm Vương 1 (7 ngày)",
+        "Duration": 168,
+        "AnimatedObject": "tamnienkiemvuong1",
+        "Description": "Có hiệu lực trong vòng 7 ngày. Sinh lực +3000. Nội lực: +1000. May mắn: +30. Kinh nghiệm giết quái vật: +20%. Lực tấn công cơ bản: 5%. Lực tấn công kỹ năng: 5%",
+        "MagicProps": [
+            { "Name": "lifemax_v", "Value": [3000, 0, 0] },
+            { "Name": "manamax_v", "Value": [1000, 0, 0] },
+            { "Name": "lucky_v", "Value": [20, 0, 0] },
+            { "Name": "expenhance_p", "Value": [20, 0, 0] },
+            { "Name": "skillselfdamagetrim", "Value": [5, 0, 0] },
+            { "Name": "skilldamageptrim", "Value": [5, 0, 0] }
+        ]
+    },
+    {
+        "ID": 239,
+        "Text": "Danh hiệu Tam Niên Kiếm Vương 1 (14 ngày)",
+        "Duration": 336,
+        "AnimatedObject": "tamnienkiemvuong1",
+        "Description": "Có hiệu lực trong vòng 14 ngày. Sinh lực +3000. Nội lực: +1000. May mắn: +30. Kinh nghiệm giết quái vật: +20%. Lực tấn công cơ bản: 5%. Lực tấn công kỹ năng: 5%",
+        "MagicProps": [
+            { "Name": "lifemax_v", "Value": [3000, 0, 0] },
+            { "Name": "manamax_v", "Value": [1000, 0, 0] },
+            { "Name": "lucky_v", "Value": [20, 0, 0] },
+            { "Name": "expenhance_p", "Value": [20, 0, 0] },
+            { "Name": "skillselfdamagetrim", "Value": [5, 0, 0] },
+            { "Name": "skilldamageptrim", "Value": [5, 0, 0] }
+        ]
+    },
+    {
+        "ID": 240,
+        "Text": "Danh hiệu Tam Niên Kiếm Vương 1 (30 ngày)",
+        "Duration": 720,
+        "AnimatedObject": "tamnienkiemvuong1",
+        "Description": "Có hiệu lực trong vòng 30 ngày. Sinh lực +3000. Nội lực: +1000. May mắn: +30. Kinh nghiệm giết quái vật: +20%. Lực tấn công cơ bản: 5%. Lực tấn công kỹ năng: 5%",
+        "MagicProps": [
+            { "Name": "lifemax_v", "Value": [3000, 0, 0] },
+            { "Name": "manamax_v", "Value": [1000, 0, 0] },
+            { "Name": "lucky_v", "Value": [20, 0, 0] },
+            { "Name": "expenhance_p", "Value": [20, 0, 0] },
+            { "Name": "skillselfdamagetrim", "Value": [5, 0, 0] },
+            { "Name": "skilldamageptrim", "Value": [5, 0, 0] }
+        ]
+    },
+    {
+        "ID": 999,
+        "Text": "Admin",
+        "Duration": -1,
+        "Description": "Danh hiệu dành cho Admin",
+        "MagicProps": [
+            {
+                "Name": "fastwalkrun_v",
+                "Value": [100, 0, 0]
+            }
+        ]
+    }
+]

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<KuaFuRewardMailTemplates>
+  <Template ID="TDLT_LSV_MEMBER_REWARD" Title="Thưởng Tranh đoạt lãnh thổ LSV">
+    <Content>Bang của bạn đạt hạng {guild_rank}. Bạn đạt hạng {member_rank} trong bang với {score} điểm tích lũy. Phần thưởng đã được gửi kèm thư.</Content>
+  </Template>
+  <Template ID="LEAGUE_BATTLE_TOP_REWARD" Title="Thưởng Top Võ Lâm Minh Chủ Liên Server">
+    <Content>Chúc mừng bạn đạt Top {rank} Võ Lâm Minh Chủ Liên Server. Phần thưởng đã được gửi kèm thư.</Content>
+  </Template>
+  <Template ID="LEAGUE_BATTLE_JOIN_REWARD" Title="Thưởng Tham Gia VLMC Liên Server">
+    <Content>Cảm ơn bạn đã tham gia Võ Lâm Minh Chủ Liên Server. Phần thưởng đã được gửi kèm thư.</Content>
+  </Template>
+</KuaFuRewardMailTemplates>

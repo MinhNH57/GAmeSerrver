@@ -1,0 +1,1593 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GuildWardConfig xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <!-- Danh sách bản đồ sẽ mở tranh đoạt lãnh thổ -->
+  <!-- <WarMapConfigs MapID="1" MapName="Vân Trung Trấn" FightMapID="30" Star="2"> -->
+
+  
+	<!-- Tọa độ các đối tượng trong bản đồ-->
+    <!-- <ObjectPostion Name="Long Trụ Thành Chính" ID="3424"  BaseHP="100000000" KillPoint="600"  Posx="3731" PosY="2407" IsMonster="false" TriggerIndex="1"/> -->
+    <!-- <ObjectPostion Name="Long Trụ Thành Chính" ID="3424"  BaseHP="100000000" KillPoint="600"  Posx="3451" PosY="2163" IsMonster="false" TriggerIndex="1"/> -->
+	<!-- <ObjectPostion Name="Long Trụ Thành Chính" ID="3424"  BaseHP="100000000" KillPoint="600"  Posx="3472" PosY="1768" IsMonster="false" TriggerIndex="1"/> -->
+    <!-- <ObjectPostion Name="Long Trụ Thành Chính" ID="3424"  BaseHP="100000000" KillPoint="600"  Posx="4043" PosY="1347" IsMonster="false" TriggerIndex="1"/> -->
+	<!-- <ObjectPostion Name="Long Trụ Thành Chính" ID="3424"  BaseHP="100000000" KillPoint="600"  Posx="4480" PosY="1604" IsMonster="false" TriggerIndex="1"/> -->
+    <!-- <ObjectPostion Name="Long Trụ Thành Chính" ID="3424"  BaseHP="100000000" KillPoint="600"  Posx="4296" PosY="2048" IsMonster="false" TriggerIndex="1"/> -->
+	<!-- Danh sách quái mở lần đầu khi bắt đầu sẽ gọi ra-->
+    <!-- <ObjectPostion Name="Binh sĩ công thành" ID="3413" BaseHP="1000000" KillPoint="5" Posx="4113" PosY="2176" IsMonster="true" TriggerIndex="1" /> -->
+	<!-- <ObjectPostion Name="Binh sĩ công thành" ID="3413" BaseHP="1000000" KillPoint="5" Posx="3933" PosY="2314" IsMonster="true" TriggerIndex="1" /> -->
+	<!-- <ObjectPostion Name="Binh sĩ công thành" ID="3413" BaseHP="1000000" KillPoint="5" Posx="3664" PosY="2147" IsMonster="true" TriggerIndex="1" /> -->
+	<!-- <ObjectPostion Name="Binh sĩ công thành" ID="3413" BaseHP="1000000" KillPoint="5" Posx="3719" PosY="1900" IsMonster="true" TriggerIndex="1" /> -->
+	<!-- <ObjectPostion Name="Binh sĩ công thành" ID="3413" BaseHP="1000000" KillPoint="5" Posx="3865" PosY="1708" IsMonster="true" TriggerIndex="1" /> -->
+	<!-- <ObjectPostion Name="Binh sĩ công thành" ID="3413" BaseHP="1000000" KillPoint="5" Posx="3715" PosY="1575" IsMonster="true" TriggerIndex="1" /> -->
+	<!-- <ObjectPostion Name="Binh sĩ công thành" ID="3413" BaseHP="1000000" KillPoint="5" Posx="4008" PosY="1446" IsMonster="true" TriggerIndex="1" /> -->
+	<!-- <ObjectPostion Name="Binh sĩ công thành" ID="3413" BaseHP="1000000" KillPoint="5" Posx="3595" PosY="1312" IsMonster="true" TriggerIndex="1" /> -->
+	<!-- <ObjectPostion Name="Binh sĩ công thành" ID="3413" BaseHP="1000000" KillPoint="5" Posx="3244" PosY="1310" IsMonster="true" TriggerIndex="1" /> -->
+	<!-- <ObjectPostion Name="Binh sĩ công thành" ID="3413" BaseHP="1000000" KillPoint="5" Posx="3106" PosY="1580" IsMonster="true" TriggerIndex="1" /> -->
+	<!-- <ObjectPostion Name="Binh sĩ công thành" ID="3413" BaseHP="1000000" KillPoint="5" Posx="3140" PosY="1942" IsMonster="true" TriggerIndex="1" /> -->
+	<!-- <ObjectPostion Name="Binh sĩ công thành" ID="3413" BaseHP="1000000" KillPoint="5" Posx="3328" PosY="2361" IsMonster="true" TriggerIndex="1" /> -->
+	
+	<!-- <ObjectPostion Name="Tướng lĩnh công thành" ID="3418" BaseHP="50000000" KillPoint="20" Posx="3589" PosY="2319" IsMonster="true" TriggerIndex="1" /> -->
+	<!-- <ObjectPostion Name="Tướng lĩnh công thành" ID="3418" BaseHP="50000000" KillPoint="20" Posx="4172" PosY="2161" IsMonster="true" TriggerIndex="1" /> -->
+	<!-- <ObjectPostion Name="Tướng lĩnh công thành" ID="3418" BaseHP="50000000" KillPoint="20" Posx="3745" PosY="1815" IsMonster="true" TriggerIndex="1" /> -->
+	<!-- <ObjectPostion Name="Tướng lĩnh công thành" ID="3418" BaseHP="50000000" KillPoint="20" Posx="4405" PosY="1559" IsMonster="true" TriggerIndex="1" /> -->
+	
+	<!-- Boss lãnh thổ nếu có -->
+	<!-- <ObjectPostion Name="Nguyên Soái Thủ Thành" ID="3408" BaseHP="150000000" KillPoint="300" Posx="4752" PosY="2561" IsMonster="true" TriggerIndex="1" /> -->
+	
+  <!-- </WarMapConfigs> -->
+  <!-- <WarMapConfigs MapID="7" MapName="Long Tuyền Thôn" FightMapID="36" Star="2"> -->
+  
+	<!-- Tọa độ các đối tượng trong bản đồ-->
+    <!-- <ObjectPostion Name="Long Trụ Thành Chính" ID="3424"  BaseHP="100000000" KillPoint="600"  Posx="2067" PosY="3532" IsMonster="false" TriggerIndex="1"/> -->
+    <!-- <ObjectPostion Name="Long Trụ Thành Chính" ID="3424"  BaseHP="100000000" KillPoint="600"  Posx="2566" PosY="3293" IsMonster="false" TriggerIndex="1"/> -->
+	<!-- <ObjectPostion Name="Long Trụ Thành Chính" ID="3424"  BaseHP="100000000" KillPoint="600"  Posx="2553" PosY="2848" IsMonster="false" TriggerIndex="1"/> -->
+    <!-- <ObjectPostion Name="Long Trụ Thành Chính" ID="3424"  BaseHP="100000000" KillPoint="600"  Posx="2040" PosY="2711" IsMonster="false" TriggerIndex="1"/> -->
+	<!-- <ObjectPostion Name="Long Trụ Thành Chính" ID="3424"  BaseHP="100000000" KillPoint="600"  Posx="1640" PosY="3013" IsMonster="false" TriggerIndex="1"/> -->
+    <!-- <ObjectPostion Name="Long Trụ Thành Chính" ID="3424"  BaseHP="100000000" KillPoint="600"  Posx="1541" PosY="3472" IsMonster="false" TriggerIndex="1"/> -->
+	<!-- Danh sách quái mở lần đầu khi bắt đầu sẽ gọi ra-->
+    <!-- <ObjectPostion Name="Binh sĩ công thành" ID="3413" BaseHP="1000000" KillPoint="5" Posx="1900" PosY="3088" IsMonster="true" TriggerIndex="1" /> -->
+	<!-- <ObjectPostion Name="Binh sĩ công thành" ID="3413" BaseHP="1000000" KillPoint="5" Posx="1971" PosY="2916" IsMonster="true" TriggerIndex="1" /> -->
+	<!-- <ObjectPostion Name="Binh sĩ công thành" ID="3413" BaseHP="1000000" KillPoint="5" Posx="2238" PosY="2811" IsMonster="true" TriggerIndex="1" /> -->
+	<!-- <ObjectPostion Name="Binh sĩ công thành" ID="3413" BaseHP="1000000" KillPoint="5" Posx="2628" PosY="2892" IsMonster="true" TriggerIndex="1" /> -->
+	<!-- <ObjectPostion Name="Binh sĩ công thành" ID="3413" BaseHP="1000000" KillPoint="5" Posx="2511" PosY="3197" IsMonster="true" TriggerIndex="1" /> -->
+	<!-- <ObjectPostion Name="Binh sĩ công thành" ID="3413" BaseHP="1000000" KillPoint="5" Posx="2907" PosY="3143" IsMonster="true" TriggerIndex="1" /> -->
+	<!-- <ObjectPostion Name="Binh sĩ công thành" ID="3413" BaseHP="1000000" KillPoint="5" Posx="2776" PosY="3478" IsMonster="true" TriggerIndex="1" /> -->
+	<!-- <ObjectPostion Name="Binh sĩ công thành" ID="3413" BaseHP="1000000" KillPoint="5" Posx="2412" PosY="3508" IsMonster="true" TriggerIndex="1" /> -->
+	<!-- <ObjectPostion Name="Binh sĩ công thành" ID="3413" BaseHP="1000000" KillPoint="5" Posx="2072" PosY="3367" IsMonster="true" TriggerIndex="1" /> -->
+	<!-- <ObjectPostion Name="Binh sĩ công thành" ID="3413" BaseHP="1000000" KillPoint="5" Posx="1919" PosY="3538" IsMonster="true" TriggerIndex="1" /> -->
+	<!-- <ObjectPostion Name="Binh sĩ công thành" ID="3413" BaseHP="1000000" KillPoint="5" Posx="1704" PosY="3409" IsMonster="true" TriggerIndex="1" /> -->
+	<!-- <ObjectPostion Name="Binh sĩ công thành" ID="3413" BaseHP="1000000" KillPoint="5" Posx="2061" PosY="3264" IsMonster="true" TriggerIndex="1" /> -->
+	<!-- <ObjectPostion Name="Binh sĩ công thành" ID="3413" BaseHP="1000000" KillPoint="5" Posx="2191" PosY="3053" IsMonster="true" TriggerIndex="1" /> -->
+	
+	<!-- <ObjectPostion Name="Tướng lĩnh công thành" ID="3418" BaseHP="50000000" KillPoint="20" Posx="1995" PosY="3516" IsMonster="true" TriggerIndex="1" /> -->
+	<!-- <ObjectPostion Name="Tướng lĩnh công thành" ID="3418" BaseHP="50000000" KillPoint="20" Posx="2643" PosY="3125" IsMonster="true" TriggerIndex="1" /> -->
+	<!-- <ObjectPostion Name="Tướng lĩnh công thành" ID="3418" BaseHP="50000000" KillPoint="20" Posx="1816" PosY="2979" IsMonster="true" TriggerIndex="1" /> -->
+	<!-- <ObjectPostion Name="Tướng lĩnh công thành" ID="3418" BaseHP="50000000" KillPoint="20" Posx="2684" PosY="2747" IsMonster="true" TriggerIndex="1" /> -->
+	
+	<!-- Boss lãnh thổ nếu có -->
+	<!-- <ObjectPostion Name="Nguyên Soái Thủ Thành" ID="3408" BaseHP="150000000" KillPoint="300" Posx="1255" PosY="3100" IsMonster="true" TriggerIndex="1" /> -->
+	
+  <!-- </WarMapConfigs> -->
+  <WarMapConfigs MapID="3" MapName="Vĩnh Lạc Trấn" FightMapID="32" Star="2">
+  
+	<!-- Tọa độ các đối tượng trong bản đồ-->
+    <ObjectPostion Name="Long Trụ Thành Chính" ID="3424"  BaseHP="100000000" KillPoint="600"  Posx="7100" PosY="5200" IsMonster="false" TriggerIndex="1"/>
+    <ObjectPostion Name="Long Trụ Thành Chính" ID="3424"  BaseHP="100000000" KillPoint="600"  Posx="5500" PosY="5000" IsMonster="false" TriggerIndex="1"/>
+	<ObjectPostion Name="Long Trụ Thành Chính" ID="3424"  BaseHP="100000000" KillPoint="600"  Posx="6000" PosY="3600" IsMonster="false" TriggerIndex="1"/>
+    <ObjectPostion Name="Long Trụ Thành Chính" ID="3424"  BaseHP="100000000" KillPoint="600"  Posx="7700" PosY="3400" IsMonster="false" TriggerIndex="1"/>
+	<ObjectPostion Name="Long Trụ Thành Chính" ID="3424"  BaseHP="100000000" KillPoint="600"  Posx="8700" PosY="4200" IsMonster="false" TriggerIndex="1"/>
+    <ObjectPostion Name="Long Trụ Thành Chính" ID="3424"  BaseHP="100000000" KillPoint="600"  Posx="8600" PosY="5300" IsMonster="false" TriggerIndex="1"/>
+	<!-- Danh sách quái mở lần đầu khi bắt đầu sẽ gọi ra-->
+        <ObjectPostion Name="Binh sĩ công thành" ID="3413" BaseHP="1000000" KillPoint="5" Posx="6800" PosY="5100" IsMonster="true" TriggerIndex="1" />
+	<ObjectPostion Name="Binh sĩ công thành" ID="3413" BaseHP="1000000" KillPoint="5" Posx="7100" PosY="5500" IsMonster="true" TriggerIndex="1" />
+	<ObjectPostion Name="Binh sĩ công thành" ID="3413" BaseHP="1000000" KillPoint="5" Posx="7400" PosY="5100" IsMonster="true" TriggerIndex="1" />
+	<ObjectPostion Name="Binh sĩ công thành" ID="3413" BaseHP="1000000" KillPoint="5" Posx="5500" PosY="5300" IsMonster="true" TriggerIndex="1" />
+	<ObjectPostion Name="Binh sĩ công thành" ID="3413" BaseHP="1000000" KillPoint="5" Posx="5200" PosY="4900" IsMonster="true" TriggerIndex="1" />
+	<ObjectPostion Name="Binh sĩ công thành" ID="3413" BaseHP="1000000" KillPoint="5" Posx="5800" PosY="4900" IsMonster="true" TriggerIndex="1" />
+	<ObjectPostion Name="Binh sĩ công thành" ID="3413" BaseHP="1000000" KillPoint="5" Posx="6000" PosY="3900" IsMonster="true" TriggerIndex="1" />
+	<ObjectPostion Name="Binh sĩ công thành" ID="3413" BaseHP="1000000" KillPoint="5" Posx="5700" PosY="3500" IsMonster="true" TriggerIndex="1" />
+	<ObjectPostion Name="Binh sĩ công thành" ID="3413" BaseHP="1000000" KillPoint="5" Posx="6300" PosY="3500" IsMonster="true" TriggerIndex="1" />
+	<ObjectPostion Name="Binh sĩ công thành" ID="3413" BaseHP="1000000" KillPoint="5" Posx="7700" PosY="3700" IsMonster="true" TriggerIndex="1" />
+	<ObjectPostion Name="Binh sĩ công thành" ID="3413" BaseHP="1000000" KillPoint="5" Posx="8000" PosY="3300" IsMonster="true" TriggerIndex="1" />
+	<ObjectPostion Name="Binh sĩ công thành" ID="3413" BaseHP="1000000" KillPoint="5" Posx="7400" PosY="3300" IsMonster="true" TriggerIndex="1" />
+	<ObjectPostion Name="Binh sĩ công thành" ID="3413" BaseHP="1000000" KillPoint="5" Posx="8700" PosY="4500" IsMonster="true" TriggerIndex="1" />
+	<ObjectPostion Name="Binh sĩ công thành" ID="3413" BaseHP="1000000" KillPoint="5" Posx="8400" PosY="4100" IsMonster="true" TriggerIndex="1" />
+	<ObjectPostion Name="Binh sĩ công thành" ID="3413" BaseHP="1000000" KillPoint="5" Posx="9000" PosY="4100" IsMonster="true" TriggerIndex="1" />
+	<ObjectPostion Name="Binh sĩ công thành" ID="3413" BaseHP="1000000" KillPoint="5" Posx="8600" PosY="5600" IsMonster="true" TriggerIndex="1" />
+	<ObjectPostion Name="Binh sĩ công thành" ID="3413" BaseHP="1000000" KillPoint="5" Posx="8900" PosY="5200" IsMonster="true" TriggerIndex="1" />
+	<ObjectPostion Name="Binh sĩ công thành" ID="3413" BaseHP="1000000" KillPoint="5" Posx="8300" PosY="5200" IsMonster="true" TriggerIndex="1" />
+	
+	<ObjectPostion Name="Tướng lĩnh công thành" ID="3418" BaseHP="50000000" KillPoint="20" Posx="7100" PosY="5100" IsMonster="true" TriggerIndex="1" />
+	<ObjectPostion Name="Tướng lĩnh công thành" ID="3418" BaseHP="50000000" KillPoint="20" Posx="5500" PosY="4300" IsMonster="true" TriggerIndex="1" />
+	<ObjectPostion Name="Tướng lĩnh công thành" ID="3418" BaseHP="50000000" KillPoint="20" Posx="6000" PosY="3800" IsMonster="true" TriggerIndex="1" />
+	<ObjectPostion Name="Tướng lĩnh công thành" ID="3418" BaseHP="50000000" KillPoint="20" Posx="7700" PosY="3300" IsMonster="true" TriggerIndex="1" />
+	<ObjectPostion Name="Tướng lĩnh công thành" ID="3418" BaseHP="50000000" KillPoint="20" Posx="8700" PosY="4100" IsMonster="true" TriggerIndex="1" />
+	<ObjectPostion Name="Tướng lĩnh công thành" ID="3418" BaseHP="50000000" KillPoint="20" Posx="8600" PosY="5200" IsMonster="true" TriggerIndex="1" />
+
+	<!-- Boss lãnh thổ nếu có -->
+	<ObjectPostion Name="Nguyên Soái Thủ Thành" ID="3408" BaseHP="150000000" KillPoint="300" Posx="7329" PosY="4397" IsMonster="true" TriggerIndex="1" />
+	<!-- Boss lãnh thổ nếu có -->
+	
+  </WarMapConfigs>
+  <WarMapConfigs MapID="4" MapName="Đạo Hương Thôn" FightMapID="33" Star="2">
+  
+	<!-- Tọa độ các đối tượng trong bản đồ-->
+	<!-- Tọa độ các đối tượng trong bản đồ-->
+    <ObjectPostion Name="Long Trụ Thành Chính" ID="3424"  BaseHP="100000000" KillPoint="600"  Posx="5100" PosY="4300" IsMonster="false" TriggerIndex="1"/>
+    <ObjectPostion Name="Long Trụ Thành Chính" ID="3424"  BaseHP="100000000" KillPoint="600"  Posx="3600" PosY="3300" IsMonster="false" TriggerIndex="1"/>
+	<ObjectPostion Name="Long Trụ Thành Chính" ID="3424"  BaseHP="100000000" KillPoint="600"  Posx="4200" PosY="2500" IsMonster="false" TriggerIndex="1"/>
+    <ObjectPostion Name="Long Trụ Thành Chính" ID="3424"  BaseHP="100000000" KillPoint="600"  Posx="5800" PosY="2100" IsMonster="false" TriggerIndex="1"/>
+	<ObjectPostion Name="Long Trụ Thành Chính" ID="3424"  BaseHP="100000000" KillPoint="600"  Posx="7400" PosY="2700" IsMonster="false" TriggerIndex="1"/>
+    <ObjectPostion Name="Long Trụ Thành Chính" ID="3424"  BaseHP="100000000" KillPoint="600"  Posx="7000" PosY="4400" IsMonster="false" TriggerIndex="1"/>
+	<!-- Danh sách quái mở lần đầu khi bắt đầu sẽ gọi ra-->
+    <ObjectPostion Name="Binh sĩ công thành" ID="3413" BaseHP="1000000" KillPoint="5" Posx="5100" PosY="4600" IsMonster="true" TriggerIndex="1" />
+	<ObjectPostion Name="Binh sĩ công thành" ID="3413" BaseHP="1000000" KillPoint="5" Posx="4800" PosY="4200" IsMonster="true" TriggerIndex="1" />
+	<ObjectPostion Name="Binh sĩ công thành" ID="3413" BaseHP="1000000" KillPoint="5" Posx="5400" PosY="4200" IsMonster="true" TriggerIndex="1" />
+	<ObjectPostion Name="Binh sĩ công thành" ID="3413" BaseHP="1000000" KillPoint="5" Posx="3600" PosY="3600" IsMonster="true" TriggerIndex="1" />
+	<ObjectPostion Name="Binh sĩ công thành" ID="3413" BaseHP="1000000" KillPoint="5" Posx="3300" PosY="3200" IsMonster="true" TriggerIndex="1" />
+	<ObjectPostion Name="Binh sĩ công thành" ID="3413" BaseHP="1000000" KillPoint="5" Posx="3900" PosY="3200" IsMonster="true" TriggerIndex="1" />
+	<ObjectPostion Name="Binh sĩ công thành" ID="3413" BaseHP="1000000" KillPoint="5" Posx="4200" PosY="2800" IsMonster="true" TriggerIndex="1" />
+	<ObjectPostion Name="Binh sĩ công thành" ID="3413" BaseHP="1000000" KillPoint="5" Posx="3900" PosY="2400" IsMonster="true" TriggerIndex="1" />
+	<ObjectPostion Name="Binh sĩ công thành" ID="3413" BaseHP="1000000" KillPoint="5" Posx="4500" PosY="2400" IsMonster="true" TriggerIndex="1" />
+	<ObjectPostion Name="Binh sĩ công thành" ID="3413" BaseHP="1000000" KillPoint="5" Posx="5800" PosY="2400" IsMonster="true" TriggerIndex="1" />
+	<ObjectPostion Name="Binh sĩ công thành" ID="3413" BaseHP="1000000" KillPoint="5" Posx="6100" PosY="2000" IsMonster="true" TriggerIndex="1" />
+	<ObjectPostion Name="Binh sĩ công thành" ID="3413" BaseHP="1000000" KillPoint="5" Posx="5500" PosY="2000" IsMonster="true" TriggerIndex="1" />
+	<ObjectPostion Name="Binh sĩ công thành" ID="3413" BaseHP="1000000" KillPoint="5" Posx="7400" PosY="3000" IsMonster="true" TriggerIndex="1" />
+	<ObjectPostion Name="Binh sĩ công thành" ID="3413" BaseHP="1000000" KillPoint="5" Posx="7700" PosY="2600" IsMonster="true" TriggerIndex="1" />
+	<ObjectPostion Name="Binh sĩ công thành" ID="3413" BaseHP="1000000" KillPoint="5" Posx="7100" PosY="2600" IsMonster="true" TriggerIndex="1" />
+	<ObjectPostion Name="Binh sĩ công thành" ID="3413" BaseHP="1000000" KillPoint="5" Posx="7000" PosY="4700" IsMonster="true" TriggerIndex="1" />
+	<ObjectPostion Name="Binh sĩ công thành" ID="3413" BaseHP="1000000" KillPoint="5" Posx="6700" PosY="4300" IsMonster="true" TriggerIndex="1" />
+	<ObjectPostion Name="Binh sĩ công thành" ID="3413" BaseHP="1000000" KillPoint="5" Posx="7300" PosY="4300" IsMonster="true" TriggerIndex="1" />
+	
+	<ObjectPostion Name="Tướng lĩnh công thành" ID="3418" BaseHP="50000000" KillPoint="20" Posx="5100" PosY="4200" IsMonster="true" TriggerIndex="1" />
+	<ObjectPostion Name="Tướng lĩnh công thành" ID="3418" BaseHP="50000000" KillPoint="20" Posx="3600" PosY="3200" IsMonster="true" TriggerIndex="1" />
+	<ObjectPostion Name="Tướng lĩnh công thành" ID="3418" BaseHP="50000000" KillPoint="20" Posx="4200" PosY="2400" IsMonster="true" TriggerIndex="1" />
+	<ObjectPostion Name="Tướng lĩnh công thành" ID="3418" BaseHP="50000000" KillPoint="20" Posx="5800" PosY="2000" IsMonster="true" TriggerIndex="1" />
+	<ObjectPostion Name="Tướng lĩnh công thành" ID="3418" BaseHP="50000000" KillPoint="20" Posx="7400" PosY="2600" IsMonster="true" TriggerIndex="1" />
+	<ObjectPostion Name="Tướng lĩnh công thành" ID="3418" BaseHP="50000000" KillPoint="20" Posx="7000" PosY="4300" IsMonster="true" TriggerIndex="1" />
+	
+	<!-- Boss lãnh thổ nếu có -->
+	<ObjectPostion Name="Nguyên Soái Thủ Thành" ID="3408" BaseHP="150000000" KillPoint="300" Posx="6000" PosY="3700" IsMonster="true" TriggerIndex="1" />	
+	
+  </WarMapConfigs>
+  <!-- <WarMapConfigs MapID="5" MapName="Giang Tân Thôn" FightMapID="34" Star="2"> -->
+  
+	<!-- Tọa độ các đối tượng trong bản đồ-->
+    <!-- <ObjectPostion Name="Long Trụ Thành Chính" ID="3424"  BaseHP="100000000" KillPoint="600"  Posx="2760" PosY="3627" IsMonster="false" TriggerIndex="1"/> -->
+    <!-- <ObjectPostion Name="Long Trụ Thành Chính" ID="3424"  BaseHP="100000000" KillPoint="600"  Posx="2380" PosY="2920" IsMonster="false" TriggerIndex="1"/> -->
+	<!-- <ObjectPostion Name="Long Trụ Thành Chính" ID="3424"  BaseHP="100000000" KillPoint="600"  Posx="3396" PosY="3104" IsMonster="false" TriggerIndex="1"/> -->
+    <!-- <ObjectPostion Name="Long Trụ Thành Chính" ID="3424"  BaseHP="100000000" KillPoint="600"  Posx="3017" PosY="2251" IsMonster="false" TriggerIndex="1"/> -->
+	<!-- <ObjectPostion Name="Long Trụ Thành Chính" ID="3424"  BaseHP="100000000" KillPoint="600"  Posx="3932" PosY="2333" IsMonster="false" TriggerIndex="1"/> -->
+    <!-- <ObjectPostion Name="Long Trụ Thành Chính" ID="3424"  BaseHP="100000000" KillPoint="600"  Posx="3901" PosY="1752" IsMonster="false" TriggerIndex="1"/> -->
+	<!-- Danh sách quái mở lần đầu khi bắt đầu sẽ gọi ra-->
+    <!-- <ObjectPostion Name="Binh sĩ công thành" ID="3413" BaseHP="1000000" KillPoint="5" Posx="3674" PosY="1690" IsMonster="true" TriggerIndex="1" /> -->
+	<!-- <ObjectPostion Name="Binh sĩ công thành" ID="3413" BaseHP="1000000" KillPoint="5" Posx="4245" PosY="1456" IsMonster="true" TriggerIndex="1" /> -->
+	<!-- <ObjectPostion Name="Binh sĩ công thành" ID="3413" BaseHP="1000000" KillPoint="5" Posx="4587" PosY="1978" IsMonster="true" TriggerIndex="1" /> -->
+	<!-- <ObjectPostion Name="Binh sĩ công thành" ID="3413" BaseHP="1000000" KillPoint="5" Posx="4373" PosY="2372" IsMonster="true" TriggerIndex="1" /> -->
+	<!-- <ObjectPostion Name="Binh sĩ công thành" ID="3413" BaseHP="1000000" KillPoint="5" Posx="3617" PosY="2268" IsMonster="true" TriggerIndex="1" /> -->
+	<!-- <ObjectPostion Name="Binh sĩ công thành" ID="3413" BaseHP="1000000" KillPoint="5" Posx="2864" PosY="1873" IsMonster="true" TriggerIndex="1" /> -->
+	<!-- <ObjectPostion Name="Binh sĩ công thành" ID="3413" BaseHP="1000000" KillPoint="5" Posx="2901" PosY="2426" IsMonster="true" TriggerIndex="1" /> -->
+	<!-- <ObjectPostion Name="Binh sĩ công thành" ID="3413" BaseHP="1000000" KillPoint="5" Posx="3328" PosY="2574" IsMonster="true" TriggerIndex="1" /> -->
+	<!-- <ObjectPostion Name="Binh sĩ công thành" ID="3413" BaseHP="1000000" KillPoint="5" Posx="3828" PosY="2837" IsMonster="true" TriggerIndex="1" /> -->
+	<!-- <ObjectPostion Name="Binh sĩ công thành" ID="3413" BaseHP="1000000" KillPoint="5" Posx="3234" PosY="2961" IsMonster="true" TriggerIndex="1" /> -->
+	<!-- <ObjectPostion Name="Binh sĩ công thành" ID="3413" BaseHP="1000000" KillPoint="5" Posx="2676" PosY="2919" IsMonster="true" TriggerIndex="1" /> -->
+	<!-- <ObjectPostion Name="Binh sĩ công thành" ID="3413" BaseHP="1000000" KillPoint="5" Posx="2092" PosY="2702" IsMonster="true" TriggerIndex="1" /> -->
+	<!-- <ObjectPostion Name="Binh sĩ công thành" ID="3413" BaseHP="1000000" KillPoint="5" Posx="1889" PosY="3087" IsMonster="true" TriggerIndex="1" /> -->
+	<!-- <ObjectPostion Name="Binh sĩ công thành" ID="3413" BaseHP="1000000" KillPoint="5" Posx="2484" PosY="3292" IsMonster="true" TriggerIndex="1" /> -->
+	<!-- <ObjectPostion Name="Binh sĩ công thành" ID="3413" BaseHP="1000000" KillPoint="5" Posx="3041" PosY="3616" IsMonster="true" TriggerIndex="1" /> -->
+	<!-- <ObjectPostion Name="Binh sĩ công thành" ID="3413" BaseHP="1000000" KillPoint="5" Posx="2411" PosY="3900" IsMonster="true" TriggerIndex="1" /> -->
+	<!-- <ObjectPostion Name="Binh sĩ công thành" ID="3413" BaseHP="1000000" KillPoint="5" Posx="3462" PosY="3690" IsMonster="true" TriggerIndex="1" /> -->
+	<!-- <ObjectPostion Name="Binh sĩ công thành" ID="3413" BaseHP="1000000" KillPoint="5" Posx="3652" PosY="3211" IsMonster="true" TriggerIndex="1" /> -->
+	<!-- <ObjectPostion Name="Binh sĩ công thành" ID="3413" BaseHP="1000000" KillPoint="5" Posx="2008" PosY="3395" IsMonster="true" TriggerIndex="1" /> -->
+	<!-- <ObjectPostion Name="Binh sĩ công thành" ID="3413" BaseHP="1000000" KillPoint="5" Posx="3757" PosY="3813" IsMonster="true" TriggerIndex="1" /> -->
+	
+	<!-- <ObjectPostion Name="Tướng lĩnh công thành" ID="3418" BaseHP="50000000" KillPoint="20" Posx="4272" PosY="1719" IsMonster="true" TriggerIndex="1" /> -->
+	<!-- <ObjectPostion Name="Tướng lĩnh công thành" ID="3418" BaseHP="50000000" KillPoint="20" Posx="3955" PosY="2449" IsMonster="true" TriggerIndex="1" /> -->
+	<!-- <ObjectPostion Name="Tướng lĩnh công thành" ID="3418" BaseHP="50000000" KillPoint="20" Posx="3013" PosY="2180" IsMonster="true" TriggerIndex="1" /> -->
+	<!-- <ObjectPostion Name="Tướng lĩnh công thành" ID="3418" BaseHP="50000000" KillPoint="20" Posx="3027" PosY="2883" IsMonster="true" TriggerIndex="1" /> -->
+	
+	<!-- Boss lãnh thổ nếu có -->
+	<!-- <ObjectPostion Name="Nguyên Soái Thủ Thành" ID="3408" BaseHP="150000000" KillPoint="300" Posx="2781" PosY="1756" IsMonster="true" TriggerIndex="1" /> -->
+	
+  <!-- </WarMapConfigs> -->
+  <!-- <WarMapConfigs MapID="8" MapName="Ba Lăng Huyện" FightMapID="37" Star="2"> -->
+  
+	<!-- Tọa độ các đối tượng trong bản đồ-->
+    <!-- <ObjectPostion Name="Long Trụ Thành Chính" ID="3424"  BaseHP="100000000" KillPoint="600"  Posx=3725" PosY="4422" IsMonster="false" TriggerIndex="1"/> -->
+    <!-- <ObjectPostion Name="Long Trụ Thành Chính" ID="3424"  BaseHP="100000000" KillPoint="600"  Posx=3842" PosY="3284" IsMonster="false" TriggerIndex="1"/> -->
+	<!-- <ObjectPostion Name="Long Trụ Thành Chính" ID="3424"  BaseHP="100000000" KillPoint="600"  Posx=5792" PosY="3195" IsMonster="false" TriggerIndex="1"/> -->
+    <!-- <ObjectPostion Name="Long Trụ Thành Chính" ID="3424"  BaseHP="100000000" KillPoint="600"  Posx=6481" PosY="4082" IsMonster="false" TriggerIndex="1"/> -->
+	<!-- <ObjectPostion Name="Long Trụ Thành Chính" ID="3424"  BaseHP="100000000" KillPoint="600"  Posx=5322" PosY="5348" IsMonster="false" TriggerIndex="1"/> -->
+    <!-- <ObjectPostion Name="Long Trụ Thành Chính" ID="3424"  BaseHP="100000000" KillPoint="600"  Posx=3127" PosY="5570" IsMonster="false" TriggerIndex="1"/> -->
+	<!-- Danh sách quái mở lần đầu khi bắt đầu sẽ gọi ra-->
+	<!-- <ObjectPostion Name="Binh sĩ công thành" ID="3413" BaseHP="1000000" KillPoint="5" Posx=3695" PosY="4604" IsMonster="true" TriggerIndex="1" /> -->
+	<!-- <ObjectPostion Name="Binh sĩ công thành" ID="3413" BaseHP="1000000" KillPoint="5" Posx=3481" PosY="4310" IsMonster="true" TriggerIndex="1" /> -->
+	<!-- <ObjectPostion Name="Binh sĩ công thành" ID="3413" BaseHP="1000000" KillPoint="5" Posx=4017" PosY="4298" IsMonster="true" TriggerIndex="1" /> -->
+	<!-- <ObjectPostion Name="Binh sĩ công thành" ID="3413" BaseHP="1000000" KillPoint="5" Posx=3822" PosY="3497" IsMonster="true" TriggerIndex="1" /> -->
+	<!-- <ObjectPostion Name="Binh sĩ công thành" ID="3413" BaseHP="1000000" KillPoint="5" Posx=3594" PosY="3149" IsMonster="true" TriggerIndex="1" /> -->
+	<!-- <ObjectPostion Name="Binh sĩ công thành" ID="3413" BaseHP="1000000" KillPoint="5" Posx=4123" PosY="3151" IsMonster="true" TriggerIndex="1" /> -->
+	<!-- <ObjectPostion Name="Binh sĩ công thành" ID="3413" BaseHP="1000000" KillPoint="5" Posx=5778" PosY="3434" IsMonster="true" TriggerIndex="1" /> -->
+	<!-- <ObjectPostion Name="Binh sĩ công thành" ID="3413" BaseHP="1000000" KillPoint="5" Posx=5533" PosY="3108" IsMonster="true" TriggerIndex="1" /> -->
+	<!-- <ObjectPostion Name="Binh sĩ công thành" ID="3413" BaseHP="1000000" KillPoint="5" Posx=6096" PosY="3099" IsMonster="true" TriggerIndex="1" /> -->
+	<!-- <ObjectPostion Name="Binh sĩ công thành" ID="3413" BaseHP="1000000" KillPoint="5" Posx=6479" PosY="4309" IsMonster="true" TriggerIndex="1" /> -->
+	<!-- <ObjectPostion Name="Binh sĩ công thành" ID="3413" BaseHP="1000000" KillPoint="5" Posx=6228" PosY="3971" IsMonster="true" TriggerIndex="1" /> -->
+	<!-- <ObjectPostion Name="Binh sĩ công thành" ID="3413" BaseHP="1000000" KillPoint="5" Posx=6876" PosY="4007" IsMonster="true" TriggerIndex="1" /> -->
+	<!-- <ObjectPostion Name="Binh sĩ công thành" ID="3413" BaseHP="1000000" KillPoint="5" Posx=5297" PosY="5540" IsMonster="true" TriggerIndex="1" /> -->
+	<!-- <ObjectPostion Name="Binh sĩ công thành" ID="3413" BaseHP="1000000" KillPoint="5" Posx=5103" PosY="5226" IsMonster="true" TriggerIndex="1" /> -->
+	<!-- <ObjectPostion Name="Binh sĩ công thành" ID="3413" BaseHP="1000000" KillPoint="5" Posx=5598" PosY="3223" IsMonster="true" TriggerIndex="1" /> -->
+	<!-- <ObjectPostion Name="Binh sĩ công thành" ID="3413" BaseHP="1000000" KillPoint="5" Posx=3071" PosY="5786" IsMonster="true" TriggerIndex="1" /> -->
+	<!-- <ObjectPostion Name="Binh sĩ công thành" ID="3413" BaseHP="1000000" KillPoint="5" Posx=2845" PosY="5431" IsMonster="true" TriggerIndex="1" /> -->
+	<!-- <ObjectPostion Name="Binh sĩ công thành" ID="3413" BaseHP="1000000" KillPoint="5" Posx=3451" PosY="5486" IsMonster="true" TriggerIndex="1" /> -->	
+
+	<!-- <ObjectPostion Name="Tướng lĩnh công thành" ID="3418" BaseHP="50000000" KillPoint="20" Posx=3747" PosY="4319" IsMonster="true" TriggerIndex="1" /> -->
+	<!-- <ObjectPostion Name="Tướng lĩnh công thành" ID="3418" BaseHP="50000000" KillPoint="20" Posx=3840" PosY="3184" IsMonster="true" TriggerIndex="1" /> -->
+	<!-- <ObjectPostion Name="Tướng lĩnh công thành" ID="3418" BaseHP="50000000" KillPoint="20" Posx=5804" PosY="3128" IsMonster="true" TriggerIndex="1" /> -->
+	<!-- <ObjectPostion Name="Tướng lĩnh công thành" ID="3418" BaseHP="50000000" KillPoint="20" Posx=6615" PosY="4024" IsMonster="true" TriggerIndex="1" /> -->
+	<!-- <ObjectPostion Name="Tướng lĩnh công thành" ID="3418" BaseHP="50000000" KillPoint="20" Posx=5341" PosY="5223" IsMonster="true" TriggerIndex="1" /> -->
+	<!-- <ObjectPostion Name="Tướng lĩnh công thành" ID="3418" BaseHP="50000000" KillPoint="20" Posx=3130" PosY="5481" IsMonster="true" TriggerIndex="1" /> -->
+
+	<!-- Boss lãnh thổ nếu có -->
+	<!-- <ObjectPostion Name="Nguyên Soái Thủ Thành" ID="3408" BaseHP="150000000" KillPoint="300" Posx=5056" PosY="4162" IsMonster="true" TriggerIndex="1" /> -->
+	
+  <!-- </WarMapConfigs> -->
+  <WarMapConfigs MapID="86" MapName="Thái Hành Cổ Kính" FightMapID="-1" Star="3">
+  
+	<!-- Tọa độ các đối tượng trong bản đồ-->
+    <ObjectPostion Name="Long Trụ Thành Chính" ID="3424"  BaseHP="100000000" KillPoint="600"  Posx="2842" PosY="2090" IsMonster="false" TriggerIndex="1"/>
+    <ObjectPostion Name="Long Trụ Thành Chính" ID="3424"  BaseHP="100000000" KillPoint="600"  Posx="3853" PosY="2728" IsMonster="false" TriggerIndex="1"/>
+	<ObjectPostion Name="Long Trụ Thành Chính" ID="3424"  BaseHP="100000000" KillPoint="600"  Posx="5108" PosY="2732" IsMonster="false" TriggerIndex="1"/>
+    <ObjectPostion Name="Long Trụ Thành Chính" ID="3424"  BaseHP="100000000" KillPoint="600"  Posx="6134" PosY="2112" IsMonster="false" TriggerIndex="1"/>
+	<ObjectPostion Name="Long Trụ Thành Chính" ID="3424"  BaseHP="100000000" KillPoint="600"  Posx="5129" PosY="1424" IsMonster="false" TriggerIndex="1"/>
+    <ObjectPostion Name="Long Trụ Thành Chính" ID="3424"  BaseHP="100000000" KillPoint="600"  Posx="3656" PosY="1655" IsMonster="false" TriggerIndex="1"/>
+	<!-- Danh sách quái mở lần đầu khi bắt đầu sẽ gọi ra-->
+    <ObjectPostion Name="Binh sĩ công thành" ID="3413" BaseHP="1000000" KillPoint="5" Posx="3368" PosY="1702" IsMonster="true" TriggerIndex="1" />
+    <ObjectPostion Name="Binh sĩ công thành" ID="3413" BaseHP="1000000" KillPoint="5" Posx="3679" PosY="1876" IsMonster="true" TriggerIndex="1" />	 
+    <ObjectPostion Name="Binh sĩ công thành" ID="3413" BaseHP="1000000" KillPoint="5" Posx="4001" PosY="1588" IsMonster="true" TriggerIndex="1" />
+    <ObjectPostion Name="Binh sĩ công thành" ID="3413" BaseHP="1000000" KillPoint="5" Posx="2673" PosY="2017" IsMonster="true" TriggerIndex="1" />
+    <ObjectPostion Name="Binh sĩ công thành" ID="3413" BaseHP="1000000" KillPoint="5" Posx="2857" PosY="2069" IsMonster="true" TriggerIndex="1" />	 
+    <ObjectPostion Name="Binh sĩ công thành" ID="3413" BaseHP="1000000" KillPoint="5" Posx="2864" PosY="2360" IsMonster="true" TriggerIndex="1" />
+    <ObjectPostion Name="Binh sĩ công thành" ID="3413" BaseHP="1000000" KillPoint="5" Posx="3658" PosY="2589" IsMonster="true" TriggerIndex="1" />
+    <ObjectPostion Name="Binh sĩ công thành" ID="3413" BaseHP="1000000" KillPoint="5" Posx="4040" PosY="2542" IsMonster="true" TriggerIndex="1" />	 
+    <ObjectPostion Name="Binh sĩ công thành" ID="3413" BaseHP="1000000" KillPoint="5" Posx="4077" PosY="2822" IsMonster="true" TriggerIndex="1" />
+    <ObjectPostion Name="Binh sĩ công thành" ID="3413" BaseHP="1000000" KillPoint="5" Posx="4863" PosY="2839" IsMonster="true" TriggerIndex="1" />
+    <ObjectPostion Name="Binh sĩ công thành" ID="3413" BaseHP="1000000" KillPoint="5" Posx="5081" PosY="2549" IsMonster="true" TriggerIndex="1" />	 
+    <ObjectPostion Name="Binh sĩ công thành" ID="3413" BaseHP="1000000" KillPoint="5" Posx="5412" PosY="2738" IsMonster="true" TriggerIndex="1" />
+    <ObjectPostion Name="Binh sĩ công thành" ID="3413" BaseHP="1000000" KillPoint="5" Posx="5853" PosY="2318" IsMonster="true" TriggerIndex="1" />
+    <ObjectPostion Name="Binh sĩ công thành" ID="3413" BaseHP="1000000" KillPoint="5" Posx="5851" PosY="2091" IsMonster="true" TriggerIndex="1" />	 
+    <ObjectPostion Name="Binh sĩ công thành" ID="3413" BaseHP="1000000" KillPoint="5" Posx="6353" PosY="2082" IsMonster="true" TriggerIndex="1" />
+    <ObjectPostion Name="Binh sĩ công thành" ID="3413" BaseHP="1000000" KillPoint="5" Posx="5326" PosY="1537" IsMonster="true" TriggerIndex="1" />
+    <ObjectPostion Name="Binh sĩ công thành" ID="3413" BaseHP="1000000" KillPoint="5" Posx="4981" PosY="1627" IsMonster="true" TriggerIndex="1" />	 
+    <ObjectPostion Name="Binh sĩ công thành" ID="3413" BaseHP="1000000" KillPoint="5" Posx="4844" PosY="1367" IsMonster="true" TriggerIndex="1" />
+		
+
+	<ObjectPostion Name="Tướng lĩnh công thành" ID="3418" BaseHP="50000000" KillPoint="20" Posx="5084" PosY="1722" IsMonster="true" TriggerIndex="1" />
+	<ObjectPostion Name="Tướng lĩnh công thành" ID="3418" BaseHP="50000000" KillPoint="20" Posx="3522" PosY="1838" IsMonster="true" TriggerIndex="1" />
+	<ObjectPostion Name="Tướng lĩnh công thành" ID="3418" BaseHP="50000000" KillPoint="20" Posx="2985" PosY="2240" IsMonster="true" TriggerIndex="1" />
+	<ObjectPostion Name="Tướng lĩnh công thành" ID="3418" BaseHP="50000000" KillPoint="20" Posx="3885" PosY="2516" IsMonster="true" TriggerIndex="1" />
+	<ObjectPostion Name="Tướng lĩnh công thành" ID="3418" BaseHP="50000000" KillPoint="20" Posx="4940" PosY="2659" IsMonster="true" TriggerIndex="1" />
+	<ObjectPostion Name="Tướng lĩnh công thành" ID="3418" BaseHP="50000000" KillPoint="20" Posx="5894" PosY="2002" IsMonster="true" TriggerIndex="1" />	
+	<!-- Boss lãnh thổ nếu có -->
+	<ObjectPostion Name="Nguyên Soái Thủ Thành" ID="3408" BaseHP="150000000" KillPoint="300" Posx="4556" PosY="2177" IsMonster="true" TriggerIndex="1" />
+	
+  </WarMapConfigs>
+  <!-- <WarMapConfigs MapID="87" MapName="Đại Tán Quan" FightMapID="-1" Star="3"> -->
+  
+	<!-- Tọa độ các đối tượng trong bản đồ-->
+    <!-- <ObjectPostion Name="Long Trụ Thành Chính" ID="3424"  BaseHP="100000000" KillPoint="600"  Posx="2806" PosY="3705" IsMonster="false" TriggerIndex="1"/> -->
+    <!-- <ObjectPostion Name="Long Trụ Thành Chính" ID="3424"  BaseHP="100000000" KillPoint="600"  Posx="3618" PosY="4154" IsMonster="false" TriggerIndex="1"/> -->
+	<!-- <ObjectPostion Name="Long Trụ Thành Chính" ID="3424"  BaseHP="100000000" KillPoint="600"  Posx="4781" PosY="4276" IsMonster="false" TriggerIndex="1"/> -->
+    <!-- <ObjectPostion Name="Long Trụ Thành Chính" ID="3424"  BaseHP="100000000" KillPoint="600"  Posx="5890" PosY="3758" IsMonster="false" TriggerIndex="1"/> -->
+	<!-- <ObjectPostion Name="Long Trụ Thành Chính" ID="3424"  BaseHP="100000000" KillPoint="600"  Posx="5123" PosY="3124" IsMonster="false" TriggerIndex="1"/> -->
+    <!-- <ObjectPostion Name="Long Trụ Thành Chính" ID="3424"  BaseHP="100000000" KillPoint="600"  Posx="4005" PosY="3029" IsMonster="false" TriggerIndex="1"/> -->
+	<!-- Danh sách quái mở lần đầu khi bắt đầu sẽ gọi ra-->
+    <!-- <ObjectPostion Name="Binh sĩ công thành" ID="3413" BaseHP="1000000" KillPoint="5" Posx="4416" PosY="2851" IsMonster="true" TriggerIndex="1" /> -->
+	<!-- <ObjectPostion Name="Binh sĩ công thành" ID="3413" BaseHP="1000000" KillPoint="5" Posx="5050" PosY="2907" IsMonster="true" TriggerIndex="1" /> -->
+	<!-- <ObjectPostion Name="Binh sĩ công thành" ID="3413" BaseHP="1000000" KillPoint="5" Posx="5834" PosY="3297" IsMonster="true" TriggerIndex="1" /> -->
+	<!-- <ObjectPostion Name="Binh sĩ công thành" ID="3413" BaseHP="1000000" KillPoint="5" Posx="6275" PosY="3700" IsMonster="true" TriggerIndex="1" /> -->
+	<!-- <ObjectPostion Name="Binh sĩ công thành" ID="3413" BaseHP="1000000" KillPoint="5" Posx="5709" PosY="4053" IsMonster="true" TriggerIndex="1" /> -->
+	<!-- <ObjectPostion Name="Binh sĩ công thành" ID="3413" BaseHP="1000000" KillPoint="5" Posx="5058" PosY="3870" IsMonster="true" TriggerIndex="1" /> -->
+	<!-- <ObjectPostion Name="Binh sĩ công thành" ID="3413" BaseHP="1000000" KillPoint="5" Posx="4603" PosY="3473" IsMonster="true" TriggerIndex="1" /> -->
+	<!-- <ObjectPostion Name="Binh sĩ công thành" ID="3413" BaseHP="1000000" KillPoint="5" Posx="4344" PosY="3942" IsMonster="true" TriggerIndex="1" /> -->
+	<!-- <ObjectPostion Name="Binh sĩ công thành" ID="3413" BaseHP="1000000" KillPoint="5" Posx="3528" PosY="3761" IsMonster="true" TriggerIndex="1" /> -->
+	<!-- <ObjectPostion Name="Binh sĩ công thành" ID="3413" BaseHP="1000000" KillPoint="5" Posx="3052" PosY="3174" IsMonster="true" TriggerIndex="1" /> -->
+	<!-- <ObjectPostion Name="Binh sĩ công thành" ID="3413" BaseHP="1000000" KillPoint="5" Posx="2385" PosY="3688" IsMonster="true" TriggerIndex="1" /> -->
+	<!-- <ObjectPostion Name="Binh sĩ công thành" ID="3413" BaseHP="1000000" KillPoint="5" Posx="2884" PosY="4115" IsMonster="true" TriggerIndex="1" /> -->
+	<!-- <ObjectPostion Name="Binh sĩ công thành" ID="3413" BaseHP="1000000" KillPoint="5" Posx="3543" PosY="4518" IsMonster="true" TriggerIndex="1" /> -->
+	<!-- <ObjectPostion Name="Binh sĩ công thành" ID="3413" BaseHP="1000000" KillPoint="5" Posx="4220" PosY="4710" IsMonster="true" TriggerIndex="1" /> -->
+	<!-- <ObjectPostion Name="Binh sĩ công thành" ID="3413" BaseHP="1000000" KillPoint="5" Posx="4810" PosY="4557" IsMonster="true" TriggerIndex="1" /> -->
+	<!-- <ObjectPostion Name="Binh sĩ công thành" ID="3413" BaseHP="1000000" KillPoint="5" Posx="5214" PosY="4229" IsMonster="true" TriggerIndex="1" /> -->
+	<!-- <ObjectPostion Name="Binh sĩ công thành" ID="3413" BaseHP="1000000" KillPoint="5" Posx="4074" PosY="3638" IsMonster="true" TriggerIndex="1" /> -->
+	<!-- <ObjectPostion Name="Binh sĩ công thành" ID="3413" BaseHP="1000000" KillPoint="5" Posx="3848" PosY="2764" IsMonster="true" TriggerIndex="1" /> -->
+	
+	<!-- <ObjectPostion Name="Tướng lĩnh công thành" ID="3418" BaseHP="50000000" KillPoint="20" Posx="4838" PosY="2823" IsMonster="true" TriggerIndex="1" /> -->
+	<!-- <ObjectPostion Name="Tướng lĩnh công thành" ID="3418" BaseHP="50000000" KillPoint="20" Posx="5931" PosY="3596" IsMonster="true" TriggerIndex="1" /> -->
+	<!-- <ObjectPostion Name="Tướng lĩnh công thành" ID="3418" BaseHP="50000000" KillPoint="20" Posx="4644" PosY="4600" IsMonster="true" TriggerIndex="1" /> -->
+	<!-- <ObjectPostion Name="Tướng lĩnh công thành" ID="3418" BaseHP="50000000" KillPoint="20" Posx="2705" PosY="3997" IsMonster="true" TriggerIndex="1" /> -->
+	
+	<!-- Boss lãnh thổ nếu có -->
+	<!-- <ObjectPostion Name="Nguyên Soái Thủ Thành" ID="3408" BaseHP="150000000" KillPoint="300" Posx="4282" PosY="3660" IsMonster="true" TriggerIndex="1" /> -->
+	
+  <!-- </WarMapConfigs> -->
+  <!-- <WarMapConfigs MapID="100" MapName="Phong Lăng Độ" FightMapID="-1" Star="1"> -->
+  
+	<!-- Tọa độ các đối tượng trong bản đồ-->
+    <!-- <ObjectPostion Name="Long Trụ Thành Chính" ID="3424"  BaseHP="100000000" KillPoint="600"  Posx="3386" PosY="2105" IsMonster="false" TriggerIndex="1"/> -->
+    <!-- <ObjectPostion Name="Long Trụ Thành Chính" ID="3424"  BaseHP="100000000" KillPoint="600"  Posx="4539" PosY="2007" IsMonster="false" TriggerIndex="1"/> -->
+	<!-- <ObjectPostion Name="Long Trụ Thành Chính" ID="3424"  BaseHP="100000000" KillPoint="600"  Posx="5224" PosY="1557" IsMonster="false" TriggerIndex="1"/> -->
+    <!-- <ObjectPostion Name="Long Trụ Thành Chính" ID="3424"  BaseHP="100000000" KillPoint="600"  Posx="5204" PosY="1041" IsMonster="false" TriggerIndex="1"/> -->
+	<!-- <ObjectPostion Name="Long Trụ Thành Chính" ID="3424"  BaseHP="100000000" KillPoint="600"  Posx="4309" PosY="1064" IsMonster="false" TriggerIndex="1"/> -->
+    <!-- <ObjectPostion Name="Long Trụ Thành Chính" ID="3424"  BaseHP="100000000" KillPoint="600"  Posx="3331" PosY="1385" IsMonster="false" TriggerIndex="1"/> -->
+	<!-- Danh sách quái mở lần đầu khi bắt đầu sẽ gọi ra-->
+    <!-- <ObjectPostion Name="Binh sĩ công thành" ID="3413" BaseHP="1000000" KillPoint="5" Posx="3106" PosY="2366" IsMonster="true" TriggerIndex="1" /> -->
+	<!-- <ObjectPostion Name="Binh sĩ công thành" ID="3413" BaseHP="1000000" KillPoint="5" Posx="3445" PosY="1778" IsMonster="true" TriggerIndex="1" /> -->
+	<!-- <ObjectPostion Name="Binh sĩ công thành" ID="3413" BaseHP="1000000" KillPoint="5" Posx="4045" PosY="2002" IsMonster="true" TriggerIndex="1" /> -->
+	<!-- <ObjectPostion Name="Binh sĩ công thành" ID="3413" BaseHP="1000000" KillPoint="5" Posx="5212" PosY="1974" IsMonster="true" TriggerIndex="1" /> -->
+	<!-- <ObjectPostion Name="Binh sĩ công thành" ID="3413" BaseHP="1000000" KillPoint="5" Posx="4976" PosY="1633" IsMonster="true" TriggerIndex="1" /> -->
+	<!-- <ObjectPostion Name="Binh sĩ công thành" ID="3413" BaseHP="1000000" KillPoint="5" Posx="5326" PosY="1298" IsMonster="true" TriggerIndex="1" /> -->
+	<!-- <ObjectPostion Name="Binh sĩ công thành" ID="3413" BaseHP="1000000" KillPoint="5" Posx="4717" PosY="1333" IsMonster="true" TriggerIndex="1" /> -->
+	<!-- <ObjectPostion Name="Binh sĩ công thành" ID="3413" BaseHP="1000000" KillPoint="5" Posx="5710" PosY="963" IsMonster="true" TriggerIndex="1" /> -->
+	<!-- <ObjectPostion Name="Binh sĩ công thành" ID="3413" BaseHP="1000000" KillPoint="5" Posx="5338" PosY="730" IsMonster="true" TriggerIndex="1" /> -->
+	<!-- <ObjectPostion Name="Binh sĩ công thành" ID="3413" BaseHP="1000000" KillPoint="5" Posx="4640" PosY="887" IsMonster="true" TriggerIndex="1" /> -->
+	<!-- <ObjectPostion Name="Binh sĩ công thành" ID="3413" BaseHP="1000000" KillPoint="5" Posx="3883" PosY="922" IsMonster="true" TriggerIndex="1" /> -->
+	<!-- <ObjectPostion Name="Binh sĩ công thành" ID="3413" BaseHP="1000000" KillPoint="5" Posx="4022" PosY="1358" IsMonster="true" TriggerIndex="1" /> -->
+	<!-- <ObjectPostion Name="Binh sĩ công thành" ID="3413" BaseHP="1000000" KillPoint="5" Posx="3536" PosY="1062" IsMonster="true" TriggerIndex="1" /> -->
+	<!-- <ObjectPostion Name="Binh sĩ công thành" ID="3413" BaseHP="1000000" KillPoint="5" Posx="3179" PosY="836" IsMonster="true" TriggerIndex="1" /> -->
+	<!-- <ObjectPostion Name="Binh sĩ công thành" ID="3413" BaseHP="1000000" KillPoint="5" Posx="3761" PosY="1650" IsMonster="true" TriggerIndex="1" /> -->
+	<!-- <ObjectPostion Name="Binh sĩ công thành" ID="3413" BaseHP="1000000" KillPoint="5" Posx="3110" PosY="1520" IsMonster="true" TriggerIndex="1" /> -->
+	<!-- <ObjectPostion Name="Binh sĩ công thành" ID="3413" BaseHP="1000000" KillPoint="5" Posx="3234" PosY="1242" IsMonster="true" TriggerIndex="1" /> -->
+	<!-- <ObjectPostion Name="Binh sĩ công thành" ID="3413" BaseHP="1000000" KillPoint="5" Posx="4031" PosY="1788" IsMonster="true" TriggerIndex="1" /> -->
+	
+	<!-- <ObjectPostion Name="Tướng lĩnh công thành" ID="3418" BaseHP="50000000" KillPoint="20" Posx="5267" PosY="1269" IsMonster="true" TriggerIndex="1" /> -->
+	<!-- <ObjectPostion Name="Tướng lĩnh công thành" ID="3418" BaseHP="50000000" KillPoint="20" Posx="3969" PosY="888" IsMonster="true" TriggerIndex="1" /> -->
+	<!-- <ObjectPostion Name="Tướng lĩnh công thành" ID="3418" BaseHP="50000000" KillPoint="20" Posx="3062" PosY="1324" IsMonster="true" TriggerIndex="1" /> -->
+	<!-- <ObjectPostion Name="Tướng lĩnh công thành" ID="3418" BaseHP="50000000" KillPoint="20" Posx="4121" PosY="2100" IsMonster="true" TriggerIndex="1" /> -->
+	
+	<!-- Boss lãnh thổ nếu có -->
+	<!-- <ObjectPostion Name="Nguyên Soái Thủ Thành" ID="3408" BaseHP="150000000" KillPoint="300" Posx="2594" PosY="2280" IsMonster="true" TriggerIndex="1" /> -->
+	
+  <!-- </WarMapConfigs> -->
+  <WarMapConfigs MapID="107" MapName="Long Môn Thạch Quật" FightMapID="-1" Star="2">
+  
+	<!-- Tọa độ các đối tượng trong bản đồ-->
+    <ObjectPostion Name="Long Trụ Thành Chính" ID="3424"  BaseHP="100000000" KillPoint="600"  Posx="5018" PosY="5581" IsMonster="false" TriggerIndex="1"/>
+    <ObjectPostion Name="Long Trụ Thành Chính" ID="3424"  BaseHP="100000000" KillPoint="600"  Posx="4090" PosY="5283" IsMonster="false" TriggerIndex="1"/>
+	<ObjectPostion Name="Long Trụ Thành Chính" ID="3424"  BaseHP="100000000" KillPoint="600"  Posx="5011" PosY="4799" IsMonster="false" TriggerIndex="1"/>
+    <ObjectPostion Name="Long Trụ Thành Chính" ID="3424"  BaseHP="100000000" KillPoint="600"  Posx="4868" PosY="4227" IsMonster="false" TriggerIndex="1"/>
+	<ObjectPostion Name="Long Trụ Thành Chính" ID="3424"  BaseHP="100000000" KillPoint="600"  Posx="3557" PosY="4447" IsMonster="false" TriggerIndex="1"/>
+    <ObjectPostion Name="Long Trụ Thành Chính" ID="3424"  BaseHP="100000000" KillPoint="600"  Posx="3956" PosY="3618" IsMonster="false" TriggerIndex="1"/>
+	<!-- Danh sách quái mở lần đầu khi bắt đầu sẽ gọi ra-->
+    <ObjectPostion Name="Binh sĩ công thành" ID="3413" BaseHP="1000000" KillPoint="5" Posx="4052" PosY="3814" IsMonster="true" TriggerIndex="1" />
+    <ObjectPostion Name="Binh sĩ công thành" ID="3413" BaseHP="1000000" KillPoint="5" Posx="3722" PosY="3675" IsMonster="true" TriggerIndex="1" />	 
+    <ObjectPostion Name="Binh sĩ công thành" ID="3413" BaseHP="1000000" KillPoint="5" Posx="4363" PosY="3587" IsMonster="true" TriggerIndex="1" />
+    <ObjectPostion Name="Binh sĩ công thành" ID="3413" BaseHP="1000000" KillPoint="5" Posx="4568" PosY="4351" IsMonster="true" TriggerIndex="1" />
+    <ObjectPostion Name="Binh sĩ công thành" ID="3413" BaseHP="1000000" KillPoint="5" Posx="4601" PosY="4150" IsMonster="true" TriggerIndex="1" />	 
+    <ObjectPostion Name="Binh sĩ công thành" ID="3413" BaseHP="1000000" KillPoint="5" Posx="5065" PosY="4244" IsMonster="true" TriggerIndex="1" />
+    <ObjectPostion Name="Binh sĩ công thành" ID="3413" BaseHP="1000000" KillPoint="5" Posx="4847" PosY="4987" IsMonster="true" TriggerIndex="1" />
+    <ObjectPostion Name="Binh sĩ công thành" ID="3413" BaseHP="1000000" KillPoint="5" Posx="4667" PosY="4834" IsMonster="true" TriggerIndex="1" />	 
+    <ObjectPostion Name="Binh sĩ công thành" ID="3413" BaseHP="1000000" KillPoint="5" Posx="5090" PosY="4990" IsMonster="true" TriggerIndex="1" />
+    <ObjectPostion Name="Binh sĩ công thành" ID="3413" BaseHP="1000000" KillPoint="5" Posx="4796" PosY="5629" IsMonster="true" TriggerIndex="1" />
+    <ObjectPostion Name="Binh sĩ công thành" ID="3413" BaseHP="1000000" KillPoint="5" Posx="4988" PosY="5421" IsMonster="true" TriggerIndex="1" />	 
+    <ObjectPostion Name="Binh sĩ công thành" ID="3413" BaseHP="1000000" KillPoint="5" Posx="5304" PosY="5539" IsMonster="true" TriggerIndex="1" />
+    <ObjectPostion Name="Binh sĩ công thành" ID="3413" BaseHP="1000000" KillPoint="5" Posx="4291" PosY="5362" IsMonster="true" TriggerIndex="1" />
+    <ObjectPostion Name="Binh sĩ công thành" ID="3413" BaseHP="1000000" KillPoint="5" Posx="4267" PosY="5126" IsMonster="true" TriggerIndex="1" />	 
+    <ObjectPostion Name="Binh sĩ công thành" ID="3413" BaseHP="1000000" KillPoint="5" Posx="3820" PosY="5266" IsMonster="true" TriggerIndex="1" />
+    <ObjectPostion Name="Binh sĩ công thành" ID="3413" BaseHP="1000000" KillPoint="5" Posx="3486" PosY="4656" IsMonster="true" TriggerIndex="1" />
+    <ObjectPostion Name="Binh sĩ công thành" ID="3413" BaseHP="1000000" KillPoint="5" Posx="3781" PosY="4517" IsMonster="true" TriggerIndex="1" />	 
+    <ObjectPostion Name="Binh sĩ công thành" ID="3413" BaseHP="1000000" KillPoint="5" Posx="3397" PosY="4185" IsMonster="true" TriggerIndex="1" />
+		
+
+	<ObjectPostion Name="Tướng lĩnh công thành" ID="3418" BaseHP="50000000" KillPoint="20" Posx="4094" PosY="3708" IsMonster="true" TriggerIndex="1" />
+	<ObjectPostion Name="Tướng lĩnh công thành" ID="3418" BaseHP="50000000" KillPoint="20" Posx="3737" PosY="4445" IsMonster="true" TriggerIndex="1" />
+	<ObjectPostion Name="Tướng lĩnh công thành" ID="3418" BaseHP="50000000" KillPoint="20" Posx="4275" PosY="5221" IsMonster="true" TriggerIndex="1" />
+	<ObjectPostion Name="Tướng lĩnh công thành" ID="3418" BaseHP="50000000" KillPoint="20" Posx="4919" PosY="5478" IsMonster="true" TriggerIndex="1" />
+	<ObjectPostion Name="Tướng lĩnh công thành" ID="3418" BaseHP="50000000" KillPoint="20" Posx="4769" PosY="4913" IsMonster="true" TriggerIndex="1" />
+	<ObjectPostion Name="Tướng lĩnh công thành" ID="3418" BaseHP="50000000" KillPoint="20" Posx="4699" PosY="4353" IsMonster="true" TriggerIndex="1" />	
+	<!-- Boss lãnh thổ nếu có -->
+	<ObjectPostion Name="Nguyên Soái Thủ Thành" ID="3408" BaseHP="150000000" KillPoint="300" Posx="4321" PosY="4624" IsMonster="true" TriggerIndex="1" />
+
+  </WarMapConfigs>
+  <WarMapConfigs MapID="116" MapName="Hoa Sơn" FightMapID="-1" Star="1">
+  
+	<!-- Tọa độ các đối tượng trong bản đồ-->
+    <ObjectPostion Name="Long Trụ Thành Chính" ID="3424"  BaseHP="100000000" KillPoint="600"  Posx="2345" PosY="5369" IsMonster="false" TriggerIndex="1"/>
+    <ObjectPostion Name="Long Trụ Thành Chính" ID="3424"  BaseHP="100000000" KillPoint="600"  Posx="2523" PosY="6213" IsMonster="false" TriggerIndex="1"/>
+	<ObjectPostion Name="Long Trụ Thành Chính" ID="3424"  BaseHP="100000000" KillPoint="600"  Posx="3593" PosY="6481" IsMonster="false" TriggerIndex="1"/>
+    <ObjectPostion Name="Long Trụ Thành Chính" ID="3424"  BaseHP="100000000" KillPoint="600"  Posx="4810" PosY="6158" IsMonster="false" TriggerIndex="1"/>
+	<ObjectPostion Name="Long Trụ Thành Chính" ID="3424"  BaseHP="100000000" KillPoint="600"  Posx="4848" PosY="5380" IsMonster="false" TriggerIndex="1"/>
+    <ObjectPostion Name="Long Trụ Thành Chính" ID="3424"  BaseHP="100000000" KillPoint="600"  Posx="3754" PosY="5114" IsMonster="false" TriggerIndex="1"/>
+	<!-- Danh sách quái mở lần đầu khi bắt đầu sẽ gọi ra-->
+    <ObjectPostion Name="Binh sĩ công thành" ID="3413" BaseHP="1000000" KillPoint="5" Posx="3672" PosY="5340" IsMonster="true" TriggerIndex="1" />
+    <ObjectPostion Name="Binh sĩ công thành" ID="3413" BaseHP="1000000" KillPoint="5" Posx="3329" PosY="5155" IsMonster="true" TriggerIndex="1" />	 
+    <ObjectPostion Name="Binh sĩ công thành" ID="3413" BaseHP="1000000" KillPoint="5" Posx="4157" PosY="5049" IsMonster="true" TriggerIndex="1" />
+    <ObjectPostion Name="Binh sĩ công thành" ID="3413" BaseHP="1000000" KillPoint="5" Posx="2044" PosY="5371" IsMonster="true" TriggerIndex="1" />
+    <ObjectPostion Name="Binh sĩ công thành" ID="3413" BaseHP="1000000" KillPoint="5" Posx="2293" PosY="5626" IsMonster="true" TriggerIndex="1" />	 
+    <ObjectPostion Name="Binh sĩ công thành" ID="3413" BaseHP="1000000" KillPoint="5" Posx="2706" PosY="5261" IsMonster="true" TriggerIndex="1" />
+    <ObjectPostion Name="Binh sĩ công thành" ID="3413" BaseHP="1000000" KillPoint="5" Posx="2486" PosY="6483" IsMonster="true" TriggerIndex="1" />
+    <ObjectPostion Name="Binh sĩ công thành" ID="3413" BaseHP="1000000" KillPoint="5" Posx="2244" PosY="6169" IsMonster="true" TriggerIndex="1" />	 
+    <ObjectPostion Name="Binh sĩ công thành" ID="3413" BaseHP="1000000" KillPoint="5" Posx="2810" PosY="6146" IsMonster="true" TriggerIndex="1" />
+    <ObjectPostion Name="Binh sĩ công thành" ID="3413" BaseHP="1000000" KillPoint="5" Posx="3303" PosY="6333" IsMonster="true" TriggerIndex="1" />
+    <ObjectPostion Name="Binh sĩ công thành" ID="3413" BaseHP="1000000" KillPoint="5" Posx="3749" PosY="6270" IsMonster="true" TriggerIndex="1" />	 
+    <ObjectPostion Name="Binh sĩ công thành" ID="3413" BaseHP="1000000" KillPoint="5" Posx="3950" PosY="6598" IsMonster="true" TriggerIndex="1" />
+    <ObjectPostion Name="Binh sĩ công thành" ID="3413" BaseHP="1000000" KillPoint="5" Posx="5084" PosY="6343" IsMonster="true" TriggerIndex="1" />
+    <ObjectPostion Name="Binh sĩ công thành" ID="3413" BaseHP="1000000" KillPoint="5" Posx="4402" PosY="6372" IsMonster="true" TriggerIndex="1" />	 
+    <ObjectPostion Name="Binh sĩ công thành" ID="3413" BaseHP="1000000" KillPoint="5" Posx="4522" PosY="6027" IsMonster="true" TriggerIndex="1" />
+    <ObjectPostion Name="Binh sĩ công thành" ID="3413" BaseHP="1000000" KillPoint="5" Posx="4572" PosY="5518" IsMonster="true" TriggerIndex="1" />
+    <ObjectPostion Name="Binh sĩ công thành" ID="3413" BaseHP="1000000" KillPoint="5" Posx="5160" PosY="5405" IsMonster="true" TriggerIndex="1" />	 
+    <ObjectPostion Name="Binh sĩ công thành" ID="3413" BaseHP="1000000" KillPoint="5" Posx="4770" PosY="5107" IsMonster="true" TriggerIndex="1" />
+		
+
+	<ObjectPostion Name="Tướng lĩnh công thành" ID="3418" BaseHP="50000000" KillPoint="20" Posx="4044" PosY="5311" IsMonster="true" TriggerIndex="1" />
+	<ObjectPostion Name="Tướng lĩnh công thành" ID="3418" BaseHP="50000000" KillPoint="20" Posx="2293" PosY="5193" IsMonster="true" TriggerIndex="1" />
+	<ObjectPostion Name="Tướng lĩnh công thành" ID="3418" BaseHP="50000000" KillPoint="20" Posx="3998" PosY="6461" IsMonster="true" TriggerIndex="1" />
+	<ObjectPostion Name="Tướng lĩnh công thành" ID="3418" BaseHP="50000000" KillPoint="20" Posx="2161" PosY="6202" IsMonster="true" TriggerIndex="1" />
+	<ObjectPostion Name="Tướng lĩnh công thành" ID="3418" BaseHP="50000000" KillPoint="20" Posx="4787" PosY="6451" IsMonster="true" TriggerIndex="1" />
+	<ObjectPostion Name="Tướng lĩnh công thành" ID="3418" BaseHP="50000000" KillPoint="20" Posx="4547" PosY="5385" IsMonster="true" TriggerIndex="1" />	
+	<!-- Boss lãnh thổ nếu có -->
+	<ObjectPostion Name="Nguyên Soái Thủ Thành" ID="3408" BaseHP="150000000" KillPoint="300" Posx="4089" PosY="5892" IsMonster="true" TriggerIndex="1" />
+
+  </WarMapConfigs>
+  <WarMapConfigs MapID="111" MapName="Kiếm Môn Quan" FightMapID="-1" Star="4">
+  
+	<!-- Tọa độ các đối tượng trong bản đồ-->
+    <ObjectPostion Name="Long Trụ Thành Chính" ID="3424"  BaseHP="100000000" KillPoint="600"  Posx="6788" PosY="2405" IsMonster="false" TriggerIndex="1"/>
+    <ObjectPostion Name="Long Trụ Thành Chính" ID="3424"  BaseHP="100000000" KillPoint="600"  Posx="6694" PosY="3467" IsMonster="false" TriggerIndex="1"/>
+	<ObjectPostion Name="Long Trụ Thành Chính" ID="3424"  BaseHP="100000000" KillPoint="600"  Posx="5492" PosY="3778" IsMonster="false" TriggerIndex="1"/>
+    <ObjectPostion Name="Long Trụ Thành Chính" ID="3424"  BaseHP="100000000" KillPoint="600"  Posx="4606" PosY="3519" IsMonster="false" TriggerIndex="1"/>
+	<ObjectPostion Name="Long Trụ Thành Chính" ID="3424"  BaseHP="100000000" KillPoint="600"  Posx="4544" PosY="2494" IsMonster="false" TriggerIndex="1"/>
+    <ObjectPostion Name="Long Trụ Thành Chính" ID="3424"  BaseHP="100000000" KillPoint="600"  Posx="5596" PosY="2096" IsMonster="false" TriggerIndex="1"/>
+	<!-- Danh sách quái mở lần đầu khi bắt đầu sẽ gọi ra-->
+    <ObjectPostion Name="Binh sĩ công thành" ID="3413" BaseHP="1000000" KillPoint="5" Posx="5397" PosY="2256" IsMonster="true" TriggerIndex="1" />
+    <ObjectPostion Name="Binh sĩ công thành" ID="3413" BaseHP="1000000" KillPoint="5" Posx="5191" PosY="2051" IsMonster="true" TriggerIndex="1" />	 
+    <ObjectPostion Name="Binh sĩ công thành" ID="3413" BaseHP="1000000" KillPoint="5" Posx="6056" PosY="2067" IsMonster="true" TriggerIndex="1" />
+    <ObjectPostion Name="Binh sĩ công thành" ID="3413" BaseHP="1000000" KillPoint="5" Posx="4756" PosY="2652" IsMonster="true" TriggerIndex="1" />
+    <ObjectPostion Name="Binh sĩ công thành" ID="3413" BaseHP="1000000" KillPoint="5" Posx="4323" PosY="2706" IsMonster="true" TriggerIndex="1" />	 
+    <ObjectPostion Name="Binh sĩ công thành" ID="3413" BaseHP="1000000" KillPoint="5" Posx="4449" PosY="2309" IsMonster="true" TriggerIndex="1" />
+    <ObjectPostion Name="Binh sĩ công thành" ID="3413" BaseHP="1000000" KillPoint="5" Posx="4239" PosY="3434" IsMonster="true" TriggerIndex="1" />
+    <ObjectPostion Name="Binh sĩ công thành" ID="3413" BaseHP="1000000" KillPoint="5" Posx="4764" PosY="3320" IsMonster="true" TriggerIndex="1" />	 
+    <ObjectPostion Name="Binh sĩ công thành" ID="3413" BaseHP="1000000" KillPoint="5" Posx="4996" PosY="3582" IsMonster="true" TriggerIndex="1" />
+    <ObjectPostion Name="Binh sĩ công thành" ID="3413" BaseHP="1000000" KillPoint="5" Posx="5703" PosY="3604" IsMonster="true" TriggerIndex="1" />
+    <ObjectPostion Name="Binh sĩ công thành" ID="3413" BaseHP="1000000" KillPoint="5" Posx="5382" PosY="3686" IsMonster="true" TriggerIndex="1" />	 
+    <ObjectPostion Name="Binh sĩ công thành" ID="3413" BaseHP="1000000" KillPoint="5" Posx="5233" PosY="3935" IsMonster="true" TriggerIndex="1" />
+    <ObjectPostion Name="Binh sĩ công thành" ID="3413" BaseHP="1000000" KillPoint="5" Posx="6402" PosY="3595" IsMonster="true" TriggerIndex="1" />
+    <ObjectPostion Name="Binh sĩ công thành" ID="3413" BaseHP="1000000" KillPoint="5" Posx="6732" PosY="3300" IsMonster="true" TriggerIndex="1" />	 
+    <ObjectPostion Name="Binh sĩ công thành" ID="3413" BaseHP="1000000" KillPoint="5" Posx="7011" PosY="3535" IsMonster="true" TriggerIndex="1" />
+    <ObjectPostion Name="Binh sĩ công thành" ID="3413" BaseHP="1000000" KillPoint="5" Posx="6422" PosY="2295" IsMonster="true" TriggerIndex="1" />
+    <ObjectPostion Name="Binh sĩ công thành" ID="3413" BaseHP="1000000" KillPoint="5" Posx="6508" PosY="2571" IsMonster="true" TriggerIndex="1" />	 
+    <ObjectPostion Name="Binh sĩ công thành" ID="3413" BaseHP="1000000" KillPoint="5" Posx="6858" PosY="2251" IsMonster="true" TriggerIndex="1" />
+		
+
+	<ObjectPostion Name="Tướng lĩnh công thành" ID="3418" BaseHP="50000000" KillPoint="20" Posx="5582" PosY="1894" IsMonster="true" TriggerIndex="1" />
+	<ObjectPostion Name="Tướng lĩnh công thành" ID="3418" BaseHP="50000000" KillPoint="20" Posx="4625" PosY="2801" IsMonster="true" TriggerIndex="1" />
+	<ObjectPostion Name="Tướng lĩnh công thành" ID="3418" BaseHP="50000000" KillPoint="20" Posx="4383" PosY="3732" IsMonster="true" TriggerIndex="1" />
+	<ObjectPostion Name="Tướng lĩnh công thành" ID="3418" BaseHP="50000000" KillPoint="20" Posx="5920" PosY="3798" IsMonster="true" TriggerIndex="1" />
+	<ObjectPostion Name="Tướng lĩnh công thành" ID="3418" BaseHP="50000000" KillPoint="20" Posx="6343" PosY="3314" IsMonster="true" TriggerIndex="1" />
+	<ObjectPostion Name="Tướng lĩnh công thành" ID="3418" BaseHP="50000000" KillPoint="20" Posx="7025" PosY="2643" IsMonster="true" TriggerIndex="1" />	
+	<!-- Boss lãnh thổ nếu có -->
+	<ObjectPostion Name="Nguyên Soái Thủ Thành" ID="3408" BaseHP="150000000" KillPoint="300" Posx="5545" PosY="3074" IsMonster="true" TriggerIndex="1" />
+
+  </WarMapConfigs>
+  <!-- <WarMapConfigs MapID="104" MapName="Kiếm Các Thục Đạo" FightMapID="-1" Star="1"> -->
+  
+	<!-- Tọa độ các đối tượng trong bản đồ-->
+    <!-- <ObjectPostion Name="Long Trụ Thành Chính" ID="3424"  BaseHP="100000000" KillPoint="600"  Posx="6064" PosY="4056" IsMonster="false" TriggerIndex="1"/> -->
+    <!-- <ObjectPostion Name="Long Trụ Thành Chính" ID="3424"  BaseHP="100000000" KillPoint="600"  Posx="5208" PosY="4351" IsMonster="false" TriggerIndex="1"/> -->
+	<!-- <ObjectPostion Name="Long Trụ Thành Chính" ID="3424"  BaseHP="100000000" KillPoint="600"  Posx="4401" PosY="4785" IsMonster="false" TriggerIndex="1"/> -->
+    <!-- <ObjectPostion Name="Long Trụ Thành Chính" ID="3424"  BaseHP="100000000" KillPoint="600"  Posx="5237" PosY="5216" IsMonster="false" TriggerIndex="1"/> -->
+	<!-- <ObjectPostion Name="Long Trụ Thành Chính" ID="3424"  BaseHP="100000000" KillPoint="600"  Posx="6206" PosY="5575" IsMonster="false" TriggerIndex="1"/> -->
+    <!-- <ObjectPostion Name="Long Trụ Thành Chính" ID="3424"  BaseHP="100000000" KillPoint="600"  Posx="6170" PosY="4770" IsMonster="false" TriggerIndex="1"/> -->
+	<!-- Danh sách quái mở lần đầu khi bắt đầu sẽ gọi ra-->
+    <!-- <ObjectPostion Name="Binh sĩ công thành" ID="3413" BaseHP="1000000" KillPoint="5" Posx="6679" PosY="5063" IsMonster="true" TriggerIndex="1" /> -->
+	<!-- <ObjectPostion Name="Binh sĩ công thành" ID="3413" BaseHP="1000000" KillPoint="5" Posx="6519" PosY="5727" IsMonster="true" TriggerIndex="1" /> -->
+	<!-- <ObjectPostion Name="Binh sĩ công thành" ID="3413" BaseHP="1000000" KillPoint="5" Posx="5742" PosY="5732" IsMonster="true" TriggerIndex="1" /> -->
+	<!-- <ObjectPostion Name="Binh sĩ công thành" ID="3413" BaseHP="1000000" KillPoint="5" Posx="5739" PosY="5240" IsMonster="true" TriggerIndex="1" /> -->
+	<!-- <ObjectPostion Name="Binh sĩ công thành" ID="3413" BaseHP="1000000" KillPoint="5" Posx="5864" PosY="4815" IsMonster="true" TriggerIndex="1" /> -->
+	<!-- <ObjectPostion Name="Binh sĩ công thành" ID="3413" BaseHP="1000000" KillPoint="5" Posx="6193" PosY="4317" IsMonster="true" TriggerIndex="1" /> -->
+	<!-- <ObjectPostion Name="Binh sĩ công thành" ID="3413" BaseHP="1000000" KillPoint="5" Posx="6068" PosY="3762" IsMonster="true" TriggerIndex="1" /> -->
+	<!-- <ObjectPostion Name="Binh sĩ công thành" ID="3413" BaseHP="1000000" KillPoint="5" Posx="5605" PosY="4123" IsMonster="true" TriggerIndex="1" /> -->
+	<!-- <ObjectPostion Name="Binh sĩ công thành" ID="3413" BaseHP="1000000" KillPoint="5" Posx="5163" PosY="4621" IsMonster="true" TriggerIndex="1" /> -->
+	<!-- <ObjectPostion Name="Binh sĩ công thành" ID="3413" BaseHP="1000000" KillPoint="5" Posx="4685" PosY="4271" IsMonster="true" TriggerIndex="1" /> -->
+	<!-- <ObjectPostion Name="Binh sĩ công thành" ID="3413" BaseHP="1000000" KillPoint="5" Posx="4056" PosY="4440" IsMonster="true" TriggerIndex="1" /> -->
+	<!-- <ObjectPostion Name="Binh sĩ công thành" ID="3413" BaseHP="1000000" KillPoint="5" Posx="4174" PosY="4984" IsMonster="true" TriggerIndex="1" /> -->
+	<!-- <ObjectPostion Name="Binh sĩ công thành" ID="3413" BaseHP="1000000" KillPoint="5" Posx="4753" PosY="5235" IsMonster="true" TriggerIndex="1" /> -->
+	<!-- <ObjectPostion Name="Binh sĩ công thành" ID="3413" BaseHP="1000000" KillPoint="5" Posx="5137" PosY="5464" IsMonster="true" TriggerIndex="1" /> -->
+	<!-- <ObjectPostion Name="Binh sĩ công thành" ID="3413" BaseHP="1000000" KillPoint="5" Posx="5909" PosY="5291" IsMonster="true" TriggerIndex="1" /> -->
+	<!-- <ObjectPostion Name="Binh sĩ công thành" ID="3413" BaseHP="1000000" KillPoint="5" Posx="5872" PosY="4398" IsMonster="true" TriggerIndex="1" /> -->
+	<!-- <ObjectPostion Name="Binh sĩ công thành" ID="3413" BaseHP="1000000" KillPoint="5" Posx="4967" PosY="4757" IsMonster="true" TriggerIndex="1" /> -->
+	<!-- <ObjectPostion Name="Binh sĩ công thành" ID="3413" BaseHP="1000000" KillPoint="5" Posx="5722" PosY="5463" IsMonster="true" TriggerIndex="1" /> -->
+	
+	<!-- <ObjectPostion Name="Tướng lĩnh công thành" ID="3418" BaseHP="50000000" KillPoint="20" Posx="6183" PosY="5485" IsMonster="true" TriggerIndex="1" /> -->
+	<!-- <ObjectPostion Name="Tướng lĩnh công thành" ID="3418" BaseHP="50000000" KillPoint="20" Posx="4665" PosY="4876" IsMonster="true" TriggerIndex="1" /> -->
+	<!-- <ObjectPostion Name="Tướng lĩnh công thành" ID="3418" BaseHP="50000000" KillPoint="20" Posx="5984" PosY="4149" IsMonster="true" TriggerIndex="1" /> -->
+	<!-- <ObjectPostion Name="Tướng lĩnh công thành" ID="3418" BaseHP="50000000" KillPoint="20" Posx="6016" PosY="4959" IsMonster="true" TriggerIndex="1" /> -->
+	
+	<!-- Boss lãnh thổ nếu có -->
+	<!-- <ObjectPostion Name="Nguyên Soái Thủ Thành" ID="3408" BaseHP="150000000" KillPoint="300" Posx="5538" PosY="4748" IsMonster="true" TriggerIndex="1" /> -->
+	
+  <!-- </WarMapConfigs> -->
+  <!-- <WarMapConfigs MapID="90" MapName="Cán Hoa Khê" FightMapID="-1" Star="4"> -->
+  
+	<!-- Tọa độ các đối tượng trong bản đồ-->
+    <!-- <ObjectPostion Name="Long Trụ Thành Chính" ID="3424"  BaseHP="100000000" KillPoint="600"  Posx="4130" PosY="4414" IsMonster="false" TriggerIndex="1"/> -->
+    <!-- <ObjectPostion Name="Long Trụ Thành Chính" ID="3424"  BaseHP="100000000" KillPoint="600"  Posx="5063" PosY="4686" IsMonster="false" TriggerIndex="1"/> -->
+	<!-- <ObjectPostion Name="Long Trụ Thành Chính" ID="3424"  BaseHP="100000000" KillPoint="600"  Posx="5713" PosY="5065" IsMonster="false" TriggerIndex="1"/> -->
+    <!-- <ObjectPostion Name="Long Trụ Thành Chính" ID="3424"  BaseHP="100000000" KillPoint="600"  Posx="4823" PosY="5591" IsMonster="false" TriggerIndex="1"/> -->
+	<!-- <ObjectPostion Name="Long Trụ Thành Chính" ID="3424"  BaseHP="100000000" KillPoint="600"  Posx="3853" PosY="5354" IsMonster="false" TriggerIndex="1"/> -->
+    <!-- <ObjectPostion Name="Long Trụ Thành Chính" ID="3424"  BaseHP="100000000" KillPoint="600"  Posx="3070" PosY="4863" IsMonster="false" TriggerIndex="1"/> -->
+	<!-- Danh sách quái mở lần đầu khi bắt đầu sẽ gọi ra-->
+    <!-- <ObjectPostion Name="Binh sĩ công thành" ID="3413" BaseHP="1000000" KillPoint="5" Posx="2715" PosY="4867" IsMonster="true" TriggerIndex="1" /> -->
+	<!-- <ObjectPostion Name="Binh sĩ công thành" ID="3413" BaseHP="1000000" KillPoint="5" Posx="2925" PosY="4541" IsMonster="true" TriggerIndex="1" /> -->
+	<!-- <ObjectPostion Name="Binh sĩ công thành" ID="3413" BaseHP="1000000" KillPoint="5" Posx="3785" PosY="4498" IsMonster="true" TriggerIndex="1" /> -->
+	<!-- <ObjectPostion Name="Binh sĩ công thành" ID="3413" BaseHP="1000000" KillPoint="5" Posx="3852" PosY="4855" IsMonster="true" TriggerIndex="1" /> -->
+	<!-- <ObjectPostion Name="Binh sĩ công thành" ID="3413" BaseHP="1000000" KillPoint="5" Posx="3316" PosY="5276" IsMonster="true" TriggerIndex="1" /> -->
+	<!-- <ObjectPostion Name="Binh sĩ công thành" ID="3413" BaseHP="1000000" KillPoint="5" Posx="4084" PosY="5610" IsMonster="true" TriggerIndex="1" /> -->
+	<!-- <ObjectPostion Name="Binh sĩ công thành" ID="3413" BaseHP="1000000" KillPoint="5" Posx="4553" PosY="5170" IsMonster="true" TriggerIndex="1" /> -->
+	<!-- <ObjectPostion Name="Binh sĩ công thành" ID="3413" BaseHP="1000000" KillPoint="5" Posx="4798" PosY="4756" IsMonster="true" TriggerIndex="1" /> -->
+	<!-- <ObjectPostion Name="Binh sĩ công thành" ID="3413" BaseHP="1000000" KillPoint="5" Posx="5349" PosY="4521" IsMonster="true" TriggerIndex="1" /> -->
+	<!-- <ObjectPostion Name="Binh sĩ công thành" ID="3413" BaseHP="1000000" KillPoint="5" Posx="5872" PosY="4782" IsMonster="true" TriggerIndex="1" /> -->
+	<!-- <ObjectPostion Name="Binh sĩ công thành" ID="3413" BaseHP="1000000" KillPoint="5" Posx="6141" PosY="5115" IsMonster="true" TriggerIndex="1" /> -->
+	<!-- <ObjectPostion Name="Binh sĩ công thành" ID="3413" BaseHP="1000000" KillPoint="5" Posx="5768" PosY="5578" IsMonster="true" TriggerIndex="1" /> -->
+	<!-- <ObjectPostion Name="Binh sĩ công thành" ID="3413" BaseHP="1000000" KillPoint="5" Posx="5117" PosY="5299" IsMonster="true" TriggerIndex="1" /> -->
+	<!-- <ObjectPostion Name="Binh sĩ công thành" ID="3413" BaseHP="1000000" KillPoint="5" Posx="4821" PosY="5871" IsMonster="true" TriggerIndex="1" /> -->
+	<!-- <ObjectPostion Name="Binh sĩ công thành" ID="3413" BaseHP="1000000" KillPoint="5" Posx="4360" PosY="5700" IsMonster="true" TriggerIndex="1" /> -->
+	<!-- <ObjectPostion Name="Binh sĩ công thành" ID="3413" BaseHP="1000000" KillPoint="5" Posx="4269" PosY="5360" IsMonster="true" TriggerIndex="1" /> -->
+	<!-- <ObjectPostion Name="Binh sĩ công thành" ID="3413" BaseHP="1000000" KillPoint="5" Posx="3183" PosY="5209" IsMonster="true" TriggerIndex="1" /> -->
+	<!-- <ObjectPostion Name="Binh sĩ công thành" ID="3413" BaseHP="1000000" KillPoint="5" Posx="5213" PosY="5313" IsMonster="true" TriggerIndex="1" /> -->
+	
+	<!-- <ObjectPostion Name="Tướng lĩnh công thành" ID="3418" BaseHP="50000000" KillPoint="20" Posx="5643" PosY="4893" IsMonster="true" TriggerIndex="1" /> -->
+	<!-- <ObjectPostion Name="Tướng lĩnh công thành" ID="3418" BaseHP="50000000" KillPoint="20" Posx="4397" PosY="4540" IsMonster="true" TriggerIndex="1" /> -->
+	<!-- <ObjectPostion Name="Tướng lĩnh công thành" ID="3418" BaseHP="50000000" KillPoint="20" Posx="3437" PosY="4842" IsMonster="true" TriggerIndex="1" /> -->
+	<!-- <ObjectPostion Name="Tướng lĩnh công thành" ID="3418" BaseHP="50000000" KillPoint="20" Posx="4646" PosY="5476" IsMonster="true" TriggerIndex="1" /> -->
+	
+	<!-- Boss lãnh thổ nếu có -->
+	<!-- <ObjectPostion Name="Nguyên Soái Thủ Thành" ID="3408" BaseHP="150000000" KillPoint="300" Posx="2205" PosY="4054" IsMonster="true" TriggerIndex="1" /> -->
+	
+  <!-- </WarMapConfigs> -->
+  <!-- <WarMapConfigs MapID="127" MapName="Tam Hiệp Sạn Đạo" FightMapID="-1" Star="2"> -->
+  
+	<!-- Tọa độ các đối tượng trong bản đồ-->
+    <!-- <ObjectPostion Name="Long Trụ Thành Chính" ID="3424"  BaseHP="100000000" KillPoint="600"  Posx="7590" PosY="2005" IsMonster="false" TriggerIndex="1"/> -->
+    <!-- <ObjectPostion Name="Long Trụ Thành Chính" ID="3424"  BaseHP="100000000" KillPoint="600"  Posx="7656" PosY="2905" IsMonster="false" TriggerIndex="1"/> -->
+	<!-- <ObjectPostion Name="Long Trụ Thành Chính" ID="3424"  BaseHP="100000000" KillPoint="600"  Posx="6030" PosY="2030" IsMonster="false" TriggerIndex="1"/> -->
+    <!-- <ObjectPostion Name="Long Trụ Thành Chính" ID="3424"  BaseHP="100000000" KillPoint="600"  Posx="5729" PosY="2637" IsMonster="false" TriggerIndex="1"/> -->
+	<!-- <ObjectPostion Name="Long Trụ Thành Chính" ID="3424"  BaseHP="100000000" KillPoint="600"  Posx="5899" PosY="3661" IsMonster="false" TriggerIndex="1"/> -->
+    <!-- <ObjectPostion Name="Long Trụ Thành Chính" ID="3424"  BaseHP="100000000" KillPoint="600"  Posx="6722" PosY="3757" IsMonster="false" TriggerIndex="1"/> -->
+	<!-- Danh sách quái mở lần đầu khi bắt đầu sẽ gọi ra-->
+    <!-- <ObjectPostion Name="Binh sĩ công thành" ID="3413" BaseHP="1000000" KillPoint="5" Posx="7809" PosY="1781" IsMonster="true" TriggerIndex="1" /> -->
+	<!-- <ObjectPostion Name="Binh sĩ công thành" ID="3413" BaseHP="1000000" KillPoint="5" Posx="7137" PosY="1854" IsMonster="true" TriggerIndex="1" /> -->
+	<!-- <ObjectPostion Name="Binh sĩ công thành" ID="3413" BaseHP="1000000" KillPoint="5" Posx="7785" PosY="2283" IsMonster="true" TriggerIndex="1" /> -->
+	<!-- <ObjectPostion Name="Binh sĩ công thành" ID="3413" BaseHP="1000000" KillPoint="5" Posx="7080" PosY="2315" IsMonster="true" TriggerIndex="1" /> -->
+	<!-- <ObjectPostion Name="Binh sĩ công thành" ID="3413" BaseHP="1000000" KillPoint="5" Posx="7141" PosY="2804" IsMonster="true" TriggerIndex="1" /> -->
+	<!-- <ObjectPostion Name="Binh sĩ công thành" ID="3413" BaseHP="1000000" KillPoint="5" Posx="6472" PosY="2712" IsMonster="true" TriggerIndex="1" /> -->
+	<!-- <ObjectPostion Name="Binh sĩ công thành" ID="3413" BaseHP="1000000" KillPoint="5" Posx="6248" PosY="2378" IsMonster="true" TriggerIndex="1" /> -->
+	<!-- <ObjectPostion Name="Binh sĩ công thành" ID="3413" BaseHP="1000000" KillPoint="5" Posx="5765" PosY="2190" IsMonster="true" TriggerIndex="1" /> -->
+	<!-- <ObjectPostion Name="Binh sĩ công thành" ID="3413" BaseHP="1000000" KillPoint="5" Posx="5220" PosY="2116" IsMonster="true" TriggerIndex="1" /> -->
+	<!-- <ObjectPostion Name="Binh sĩ công thành" ID="3413" BaseHP="1000000" KillPoint="5" Posx="6074" PosY="2513" IsMonster="true" TriggerIndex="1" /> -->
+	<!-- <ObjectPostion Name="Binh sĩ công thành" ID="3413" BaseHP="1000000" KillPoint="5" Posx="6089" PosY="2879" IsMonster="true" TriggerIndex="1" /> -->
+	<!-- <ObjectPostion Name="Binh sĩ công thành" ID="3413" BaseHP="1000000" KillPoint="5" Posx="5814" PosY="3137" IsMonster="true" TriggerIndex="1" /> -->
+	<!-- <ObjectPostion Name="Binh sĩ công thành" ID="3413" BaseHP="1000000" KillPoint="5" Posx="5584" PosY="3578" IsMonster="true" TriggerIndex="1" /> -->
+	<!-- <ObjectPostion Name="Binh sĩ công thành" ID="3413" BaseHP="1000000" KillPoint="5" Posx="5660" PosY="3896" IsMonster="true" TriggerIndex="1" /> -->
+	<!-- <ObjectPostion Name="Binh sĩ công thành" ID="3413" BaseHP="1000000" KillPoint="5" Posx="6190" PosY="3919" IsMonster="true" TriggerIndex="1" /> -->
+	<!-- <ObjectPostion Name="Binh sĩ công thành" ID="3413" BaseHP="1000000" KillPoint="5" Posx="6716" PosY="3992" IsMonster="true" TriggerIndex="1" /> -->
+	<!-- <ObjectPostion Name="Binh sĩ công thành" ID="3413" BaseHP="1000000" KillPoint="5" Posx="6974" PosY="3427" IsMonster="true" TriggerIndex="1" /> -->
+	<!-- <ObjectPostion Name="Binh sĩ công thành" ID="3413" BaseHP="1000000" KillPoint="5" Posx="6442" PosY="3254" IsMonster="true" TriggerIndex="1" /> -->
+	
+	<!-- <ObjectPostion Name="Tướng lĩnh công thành" ID="3418" BaseHP="50000000" KillPoint="20" Posx="7365" PosY="2425" IsMonster="true" TriggerIndex="1" /> -->
+	<!-- <ObjectPostion Name="Tướng lĩnh công thành" ID="3418" BaseHP="50000000" KillPoint="20" Posx="6148" PosY="2149" IsMonster="true" TriggerIndex="1" /> -->
+	<!-- <ObjectPostion Name="Tướng lĩnh công thành" ID="3418" BaseHP="50000000" KillPoint="20" Posx="6823" PosY="3055" IsMonster="true" TriggerIndex="1" /> -->
+	<!-- <ObjectPostion Name="Tướng lĩnh công thành" ID="3418" BaseHP="50000000" KillPoint="20" Posx="5754" PosY="3421" IsMonster="true" TriggerIndex="1" /> -->
+	
+	<!-- Boss lãnh thổ nếu có -->
+	<!-- <ObjectPostion Name="Nguyên Soái Thủ Thành" ID="3408" BaseHP="150000000" KillPoint="300" Posx="7912" PosY="3686" IsMonster="true" TriggerIndex="1" /> -->
+	
+  <!-- </WarMapConfigs> -->
+  <!-- <WarMapConfigs MapID="118" MapName="Phong Đô Quỷ Thành" FightMapID="-1" Star="2"> -->
+  
+	<!-- Tọa độ các đối tượng trong bản đồ-->
+    <!-- <ObjectPostion Name="Long Trụ Thành Chính" ID="3424"  BaseHP="100000000" KillPoint="600"  Posx="4182" PosY="6100" IsMonster="false" TriggerIndex="1"/> -->
+    <!-- <ObjectPostion Name="Long Trụ Thành Chính" ID="3424"  BaseHP="100000000" KillPoint="600"  Posx="5199" PosY="6247" IsMonster="false" TriggerIndex="1"/> -->
+	<!-- <ObjectPostion Name="Long Trụ Thành Chính" ID="3424"  BaseHP="100000000" KillPoint="600"  Posx="5101" PosY="5638" IsMonster="false" TriggerIndex="1"/> -->
+    <!-- <ObjectPostion Name="Long Trụ Thành Chính" ID="3424"  BaseHP="100000000" KillPoint="600"  Posx="4183" PosY="5206" IsMonster="false" TriggerIndex="1"/> -->
+	<!-- <ObjectPostion Name="Long Trụ Thành Chính" ID="3424"  BaseHP="100000000" KillPoint="600"  Posx="3380" PosY="5632" IsMonster="false" TriggerIndex="1"/> -->
+    <!-- <ObjectPostion Name="Long Trụ Thành Chính" ID="3424"  BaseHP="100000000" KillPoint="600"  Posx="3360" PosY="4980" IsMonster="false" TriggerIndex="1"/> -->
+	<!-- Danh sách quái mở lần đầu khi bắt đầu sẽ gọi ra-->
+    <!-- <ObjectPostion Name="Binh sĩ công thành" ID="3413" BaseHP="1000000" KillPoint="5" Posx="3570" PosY="4752" IsMonster="true" TriggerIndex="1" /> -->
+	<!-- <ObjectPostion Name="Binh sĩ công thành" ID="3413" BaseHP="1000000" KillPoint="5" Posx="2912" PosY="4971" IsMonster="true" TriggerIndex="1" /> -->
+	<!-- <ObjectPostion Name="Binh sĩ công thành" ID="3413" BaseHP="1000000" KillPoint="5" Posx="3046" PosY="5386" IsMonster="true" TriggerIndex="1" /> -->
+	<!-- <ObjectPostion Name="Binh sĩ công thành" ID="3413" BaseHP="1000000" KillPoint="5" Posx="3781" PosY="5443" IsMonster="true" TriggerIndex="1" /> -->
+	<!-- <ObjectPostion Name="Binh sĩ công thành" ID="3413" BaseHP="1000000" KillPoint="5" Posx="4183" PosY="5071" IsMonster="true" TriggerIndex="1" /> -->
+	<!-- <ObjectPostion Name="Binh sĩ công thành" ID="3413" BaseHP="1000000" KillPoint="5" Posx="4486" PosY="5404" IsMonster="true" TriggerIndex="1" /> -->
+	<!-- <ObjectPostion Name="Binh sĩ công thành" ID="3413" BaseHP="1000000" KillPoint="5" Posx="4959" PosY="5230" IsMonster="true" TriggerIndex="1" /> -->
+	<!-- <ObjectPostion Name="Binh sĩ công thành" ID="3413" BaseHP="1000000" KillPoint="5" Posx="4145" PosY="5701" IsMonster="true" TriggerIndex="1" /> -->
+	<!-- <ObjectPostion Name="Binh sĩ công thành" ID="3413" BaseHP="1000000" KillPoint="5" Posx="3607" PosY="5892" IsMonster="true" TriggerIndex="1" /> -->
+	<!-- <ObjectPostion Name="Binh sĩ công thành" ID="3413" BaseHP="1000000" KillPoint="5" Posx="3310" PosY="6054" IsMonster="true" TriggerIndex="1" /> -->
+	<!-- <ObjectPostion Name="Binh sĩ công thành" ID="3413" BaseHP="1000000" KillPoint="5" Posx="4120" PosY="6168" IsMonster="true" TriggerIndex="1" /> -->
+	<!-- <ObjectPostion Name="Binh sĩ công thành" ID="3413" BaseHP="1000000" KillPoint="5" Posx="4668" PosY="5856" IsMonster="true" TriggerIndex="1" /> -->
+	<!-- <ObjectPostion Name="Binh sĩ công thành" ID="3413" BaseHP="1000000" KillPoint="5" Posx="5274" PosY="5659" IsMonster="true" TriggerIndex="1" /> -->
+	<!-- <ObjectPostion Name="Binh sĩ công thành" ID="3413" BaseHP="1000000" KillPoint="5" Posx="5426" PosY="5997" IsMonster="true" TriggerIndex="1" /> -->
+	<!-- <ObjectPostion Name="Binh sĩ công thành" ID="3413" BaseHP="1000000" KillPoint="5" Posx="5244" PosY="6412" IsMonster="true" TriggerIndex="1" /> -->
+	<!-- <ObjectPostion Name="Binh sĩ công thành" ID="3413" BaseHP="1000000" KillPoint="5" Posx="4695" PosY="6377" IsMonster="true" TriggerIndex="1" /> -->
+	<!-- <ObjectPostion Name="Binh sĩ công thành" ID="3413" BaseHP="1000000" KillPoint="5" Posx="5493" PosY="5429" IsMonster="true" TriggerIndex="1" /> -->
+	<!-- <ObjectPostion Name="Binh sĩ công thành" ID="3413" BaseHP="1000000" KillPoint="5" Posx="3753" PosY="6294" IsMonster="true" TriggerIndex="1" /> -->
+	
+	<!-- <ObjectPostion Name="Tướng lĩnh công thành" ID="3418" BaseHP="50000000" KillPoint="20" Posx="5166" PosY="5898" IsMonster="true" TriggerIndex="1" /> -->
+	<!-- <ObjectPostion Name="Tướng lĩnh công thành" ID="3418" BaseHP="50000000" KillPoint="20" Posx="4006" PosY="5945" IsMonster="true" TriggerIndex="1" /> -->
+	<!-- <ObjectPostion Name="Tướng lĩnh công thành" ID="3418" BaseHP="50000000" KillPoint="20" Posx="3468" PosY="5357" IsMonster="true" TriggerIndex="1" /> -->
+	<!-- <ObjectPostion Name="Tướng lĩnh công thành" ID="3418" BaseHP="50000000" KillPoint="20" Posx="4466" PosY="5295" IsMonster="true" TriggerIndex="1" /> -->
+	
+	<!-- Boss lãnh thổ nếu có -->
+	<!-- <ObjectPostion Name="Nguyên Soái Thủ Thành" ID="3408" BaseHP="150000000" KillPoint="300" Posx="5390" PosY="5153" IsMonster="true" TriggerIndex="1" /> -->
+	
+  <!-- </WarMapConfigs> -->
+  <!-- <WarMapConfigs MapID="121" MapName="Vũ Lăng Sơn" FightMapID="-1" Star="2"> -->
+  
+	<!-- Tọa độ các đối tượng trong bản đồ-->
+    <!-- <ObjectPostion Name="Long Trụ Thành Chính" ID="3424"  BaseHP="100000000" KillPoint="600"  Posx="4463" PosY="3653" IsMonster="false" TriggerIndex="1"/> -->
+    <!-- <ObjectPostion Name="Long Trụ Thành Chính" ID="3424"  BaseHP="100000000" KillPoint="600"  Posx="4337" PosY="3037" IsMonster="false" TriggerIndex="1"/> -->
+	<!-- <ObjectPostion Name="Long Trụ Thành Chính" ID="3424"  BaseHP="100000000" KillPoint="600"  Posx="5564" PosY="2208" IsMonster="false" TriggerIndex="1"/> -->
+    <!-- <ObjectPostion Name="Long Trụ Thành Chính" ID="3424"  BaseHP="100000000" KillPoint="600"  Posx="6941" PosY="2250" IsMonster="false" TriggerIndex="1"/> -->
+	<!-- <ObjectPostion Name="Long Trụ Thành Chính" ID="3424"  BaseHP="100000000" KillPoint="600"  Posx="6790" PosY="3032" IsMonster="false" TriggerIndex="1"/> -->
+    <!-- <ObjectPostion Name="Long Trụ Thành Chính" ID="3424"  BaseHP="100000000" KillPoint="600"  Posx="5466" PosY="3647" IsMonster="false" TriggerIndex="1"/> -->
+	<!-- Danh sách quái mở lần đầu khi bắt đầu sẽ gọi ra-->
+    <!-- <ObjectPostion Name="Binh sĩ công thành" ID="3413" BaseHP="1000000" KillPoint="5" Posx="5099" PosY="3853" IsMonster="true" TriggerIndex="1" /> -->
+	<!-- <ObjectPostion Name="Binh sĩ công thành" ID="3413" BaseHP="1000000" KillPoint="5" Posx="4945" PosY="3358" IsMonster="true" TriggerIndex="1" /> -->
+	<!-- <ObjectPostion Name="Binh sĩ công thành" ID="3413" BaseHP="1000000" KillPoint="5" Posx="4281" PosY="3398" IsMonster="true" TriggerIndex="1" /> -->
+	<!-- <ObjectPostion Name="Binh sĩ công thành" ID="3413" BaseHP="1000000" KillPoint="5" Posx="4157" PosY="4102" IsMonster="true" TriggerIndex="1" /> -->
+	<!-- <ObjectPostion Name="Binh sĩ công thành" ID="3413" BaseHP="1000000" KillPoint="5" Posx="3878" PosY="3128" IsMonster="true" TriggerIndex="1" /> -->
+	<!-- <ObjectPostion Name="Binh sĩ công thành" ID="3413" BaseHP="1000000" KillPoint="5" Posx="5029" PosY="2417" IsMonster="true" TriggerIndex="1" /> -->
+	<!-- <ObjectPostion Name="Binh sĩ công thành" ID="3413" BaseHP="1000000" KillPoint="5" Posx="4113" PosY="2847" IsMonster="true" TriggerIndex="1" /> -->
+	<!-- <ObjectPostion Name="Binh sĩ công thành" ID="3413" BaseHP="1000000" KillPoint="5" Posx="4400" PosY="2446" IsMonster="true" TriggerIndex="1" /> -->
+	<!-- <ObjectPostion Name="Binh sĩ công thành" ID="3413" BaseHP="1000000" KillPoint="5" Posx="5203" PosY="2296" IsMonster="true" TriggerIndex="1" /> -->
+	<!-- <ObjectPostion Name="Binh sĩ công thành" ID="3413" BaseHP="1000000" KillPoint="5" Posx="5946" PosY="2103" IsMonster="true" TriggerIndex="1" /> -->
+	<!-- <ObjectPostion Name="Binh sĩ công thành" ID="3413" BaseHP="1000000" KillPoint="5" Posx="5994" PosY="2589" IsMonster="true" TriggerIndex="1" /> -->
+	<!-- <ObjectPostion Name="Binh sĩ công thành" ID="3413" BaseHP="1000000" KillPoint="5" Posx="6764" PosY="2386" IsMonster="true" TriggerIndex="1" /> -->
+	<!-- <ObjectPostion Name="Binh sĩ công thành" ID="3413" BaseHP="1000000" KillPoint="5" Posx="7376" PosY="2078" IsMonster="true" TriggerIndex="1" /> -->
+	<!-- <ObjectPostion Name="Binh sĩ công thành" ID="3413" BaseHP="1000000" KillPoint="5" Posx="7277" PosY="2884" IsMonster="true" TriggerIndex="1" /> -->
+	<!-- <ObjectPostion Name="Binh sĩ công thành" ID="3413" BaseHP="1000000" KillPoint="5" Posx="6910" PosY="3323" IsMonster="true" TriggerIndex="1" /> -->
+	<!-- <ObjectPostion Name="Binh sĩ công thành" ID="3413" BaseHP="1000000" KillPoint="5" Posx="6079" PosY="3182" IsMonster="true" TriggerIndex="1" /> -->
+	<!-- <ObjectPostion Name="Binh sĩ công thành" ID="3413" BaseHP="1000000" KillPoint="5" Posx="5476" PosY="3222" IsMonster="true" TriggerIndex="1" /> -->
+	<!-- <ObjectPostion Name="Binh sĩ công thành" ID="3413" BaseHP="1000000" KillPoint="5" Posx="5697" PosY="3808" IsMonster="true" TriggerIndex="1" /> -->
+	
+	<!-- <ObjectPostion Name="Tướng lĩnh công thành" ID="3418" BaseHP="50000000" KillPoint="20" Posx="6279" PosY="2304" IsMonster="true" TriggerIndex="1" /> -->
+	<!-- <ObjectPostion Name="Tướng lĩnh công thành" ID="3418" BaseHP="50000000" KillPoint="20" Posx="6456" PosY="3351" IsMonster="true" TriggerIndex="1" /> -->
+	<!-- <ObjectPostion Name="Tướng lĩnh công thành" ID="3418" BaseHP="50000000" KillPoint="20" Posx="5135" PosY="3600" IsMonster="true" TriggerIndex="1" /> -->
+	<!-- <ObjectPostion Name="Tướng lĩnh công thành" ID="3418" BaseHP="50000000" KillPoint="20" Posx="4346" PosY="2765" IsMonster="true" TriggerIndex="1" /> -->
+	
+	<!-- Boss lãnh thổ nếu có -->
+	<!-- <ObjectPostion Name="Nguyên Soái Thủ Thành" ID="3408" BaseHP="150000000" KillPoint="300" Posx="3806" PosY="2147" IsMonster="true" TriggerIndex="1" /> -->
+	
+  <!-- </WarMapConfigs> -->
+  <!-- <WarMapConfigs MapID="106" MapName="Cửu Nghi Khê" FightMapID="-1" Star="2"> -->
+  
+	<!-- Tọa độ các đối tượng trong bản đồ-->
+    <!-- <ObjectPostion Name="Long Trụ Thành Chính" ID="3424"  BaseHP="100000000" KillPoint="600"  Posx="6945" PosY="2766" IsMonster="false" TriggerIndex="1"/> -->
+    <!-- <ObjectPostion Name="Long Trụ Thành Chính" ID="3424"  BaseHP="100000000" KillPoint="600"  Posx="7747" PosY="3063" IsMonster="false" TriggerIndex="1"/> -->
+	<!-- <ObjectPostion Name="Long Trụ Thành Chính" ID="3424"  BaseHP="100000000" KillPoint="600"  Posx="7115" PosY="3554" IsMonster="false" TriggerIndex="1"/> -->
+    <!-- <ObjectPostion Name="Long Trụ Thành Chính" ID="3424"  BaseHP="100000000" KillPoint="600"  Posx="6420" PosY="4042" IsMonster="false" TriggerIndex="1"/> -->
+	<!-- <ObjectPostion Name="Long Trụ Thành Chính" ID="3424"  BaseHP="100000000" KillPoint="600"  Posx="5746" PosY="3637" IsMonster="false" TriggerIndex="1"/> -->
+    <!-- <ObjectPostion Name="Long Trụ Thành Chính" ID="3424"  BaseHP="100000000" KillPoint="600"  Posx="6157" PosY="2961" IsMonster="false" TriggerIndex="1"/> -->
+	<!-- Danh sách quái mở lần đầu khi bắt đầu sẽ gọi ra-->
+    <!-- <ObjectPostion Name="Binh sĩ công thành" ID="3413" BaseHP="1000000" KillPoint="5" Posx="5828" PosY="2874" IsMonster="true" TriggerIndex="1" /> -->
+	<!-- <ObjectPostion Name="Binh sĩ công thành" ID="3413" BaseHP="1000000" KillPoint="5" Posx="6426" PosY="2745" IsMonster="true" TriggerIndex="1" /> -->
+	<!-- <ObjectPostion Name="Binh sĩ công thành" ID="3413" BaseHP="1000000" KillPoint="5" Posx="7175" PosY="2870" IsMonster="true" TriggerIndex="1" /> -->
+	<!-- <ObjectPostion Name="Binh sĩ công thành" ID="3413" BaseHP="1000000" KillPoint="5" Posx="7066" PosY="3244" IsMonster="true" TriggerIndex="1" /> -->
+	<!-- <ObjectPostion Name="Binh sĩ công thành" ID="3413" BaseHP="1000000" KillPoint="5" Posx="6494" PosY="3446" IsMonster="true" TriggerIndex="1" /> -->
+	<!-- <ObjectPostion Name="Binh sĩ công thành" ID="3413" BaseHP="1000000" KillPoint="5" Posx="5619" PosY="3471" IsMonster="true" TriggerIndex="1" /> -->
+	<!-- <ObjectPostion Name="Binh sĩ công thành" ID="3413" BaseHP="1000000" KillPoint="5" Posx="5463" PosY="3939" IsMonster="true" TriggerIndex="1" /> -->
+	<!-- <ObjectPostion Name="Binh sĩ công thành" ID="3413" BaseHP="1000000" KillPoint="5" Posx="5835" PosY="4333" IsMonster="true" TriggerIndex="1" /> -->
+	<!-- <ObjectPostion Name="Binh sĩ công thành" ID="3413" BaseHP="1000000" KillPoint="5" Posx="6422" PosY="4142" IsMonster="true" TriggerIndex="1" /> -->
+	<!-- <ObjectPostion Name="Binh sĩ công thành" ID="3413" BaseHP="1000000" KillPoint="5" Posx="6443" PosY="3726" IsMonster="true" TriggerIndex="1" /> -->
+	<!-- <ObjectPostion Name="Binh sĩ công thành" ID="3413" BaseHP="1000000" KillPoint="5" Posx="6927" PosY="4128" IsMonster="true" TriggerIndex="1" /> -->
+	<!-- <ObjectPostion Name="Binh sĩ công thành" ID="3413" BaseHP="1000000" KillPoint="5" Posx="7435" PosY="4011" IsMonster="true" TriggerIndex="1" /> -->
+	<!-- <ObjectPostion Name="Binh sĩ công thành" ID="3413" BaseHP="1000000" KillPoint="5" Posx="7651" PosY="3570" IsMonster="true" TriggerIndex="1" /> -->
+	<!-- <ObjectPostion Name="Binh sĩ công thành" ID="3413" BaseHP="1000000" KillPoint="5" Posx="7075" PosY="3346" IsMonster="true" TriggerIndex="1" /> -->
+	<!-- <ObjectPostion Name="Binh sĩ công thành" ID="3413" BaseHP="1000000" KillPoint="5" Posx="7116" PosY="2561" IsMonster="true" TriggerIndex="1" /> -->
+	<!-- <ObjectPostion Name="Binh sĩ công thành" ID="3413" BaseHP="1000000" KillPoint="5" Posx="7566" PosY="2974" IsMonster="true" TriggerIndex="1" /> -->
+	<!-- <ObjectPostion Name="Binh sĩ công thành" ID="3413" BaseHP="1000000" KillPoint="5" Posx="7920" PosY="3386" IsMonster="true" TriggerIndex="1" /> -->
+	<!-- <ObjectPostion Name="Binh sĩ công thành" ID="3413" BaseHP="1000000" KillPoint="5" Posx="6398" PosY="2864" IsMonster="true" TriggerIndex="1" /> -->
+	
+	<!-- <ObjectPostion Name="Tướng lĩnh công thành" ID="3418" BaseHP="50000000" KillPoint="20" Posx="7448" PosY="2973" IsMonster="true" TriggerIndex="1" /> -->
+	<!-- <ObjectPostion Name="Tướng lĩnh công thành" ID="3418" BaseHP="50000000" KillPoint="20" Posx="6673" PosY="2691" IsMonster="true" TriggerIndex="1" /> -->
+	<!-- <ObjectPostion Name="Tướng lĩnh công thành" ID="3418" BaseHP="50000000" KillPoint="20" Posx="6193" PosY="3364" IsMonster="true" TriggerIndex="1" /> -->
+	<!-- <ObjectPostion Name="Tướng lĩnh công thành" ID="3418" BaseHP="50000000" KillPoint="20" Posx="6856" PosY="4007" IsMonster="true" TriggerIndex="1" /> -->
+	
+	<!-- Boss lãnh thổ nếu có -->
+	<!-- <ObjectPostion Name="Nguyên Soái Thủ Thành" ID="3408" BaseHP="150000000" KillPoint="300" Posx="5255" PosY="3074" IsMonster="true" TriggerIndex="1" /> -->
+	
+  <!-- </WarMapConfigs> -->
+  <WarMapConfigs MapID="88" MapName="Hán Thủy Cổ Độ" FightMapID="-1" Star="3">
+  
+	<!-- Tọa độ các đối tượng trong bản đồ-->
+    <ObjectPostion Name="Long Trụ Thành Chính" ID="3424"  BaseHP="100000000" KillPoint="600"  Posx="4900" PosY="4000" IsMonster="false" TriggerIndex="1"/>
+    <ObjectPostion Name="Long Trụ Thành Chính" ID="3424"  BaseHP="100000000" KillPoint="600"  Posx="4300" PosY="3000" IsMonster="false" TriggerIndex="1"/>
+	<ObjectPostion Name="Long Trụ Thành Chính" ID="3424"  BaseHP="100000000" KillPoint="600"  Posx="4400" PosY="2000" IsMonster="false" TriggerIndex="1"/>
+    <ObjectPostion Name="Long Trụ Thành Chính" ID="3424"  BaseHP="100000000" KillPoint="600"  Posx="5900" PosY="2200" IsMonster="false" TriggerIndex="1"/>
+	<ObjectPostion Name="Long Trụ Thành Chính" ID="3424"  BaseHP="100000000" KillPoint="600"  Posx="6800" PosY="2900" IsMonster="false" TriggerIndex="1"/>
+    <ObjectPostion Name="Long Trụ Thành Chính" ID="3424"  BaseHP="100000000" KillPoint="600"  Posx="6900" PosY="4200" IsMonster="false" TriggerIndex="1"/>
+	<!-- Danh sách quái mở lần đầu khi bắt đầu sẽ gọi ra-->
+    <ObjectPostion Name="Binh sĩ công thành" ID="3413" BaseHP="1000000" KillPoint="5" Posx="4900" PosY="4300" IsMonster="true" TriggerIndex="1" />
+	<ObjectPostion Name="Binh sĩ công thành" ID="3413" BaseHP="1000000" KillPoint="5" Posx="5200" PosY="3900" IsMonster="true" TriggerIndex="1" />
+	<ObjectPostion Name="Binh sĩ công thành" ID="3413" BaseHP="1000000" KillPoint="5" Posx="4600" PosY="3900" IsMonster="true" TriggerIndex="1" />
+	<ObjectPostion Name="Binh sĩ công thành" ID="3413" BaseHP="1000000" KillPoint="5" Posx="4300" PosY="3300" IsMonster="true" TriggerIndex="1" />
+	<ObjectPostion Name="Binh sĩ công thành" ID="3413" BaseHP="1000000" KillPoint="5" Posx="4000" PosY="2900" IsMonster="true" TriggerIndex="1" />
+	<ObjectPostion Name="Binh sĩ công thành" ID="3413" BaseHP="1000000" KillPoint="5" Posx="3700" PosY="2900" IsMonster="true" TriggerIndex="1" />
+	<ObjectPostion Name="Binh sĩ công thành" ID="3413" BaseHP="1000000" KillPoint="5" Posx="4400" PosY="2300" IsMonster="true" TriggerIndex="1" />
+	<ObjectPostion Name="Binh sĩ công thành" ID="3413" BaseHP="1000000" KillPoint="5" Posx="4300" PosY="1900" IsMonster="true" TriggerIndex="1" />
+	<ObjectPostion Name="Binh sĩ công thành" ID="3413" BaseHP="1000000" KillPoint="5" Posx="4700" PosY="1900" IsMonster="true" TriggerIndex="1" />
+	<ObjectPostion Name="Binh sĩ công thành" ID="3413" BaseHP="1000000" KillPoint="5" Posx="5900" PosY="2500" IsMonster="true" TriggerIndex="1" />
+	<ObjectPostion Name="Binh sĩ công thành" ID="3413" BaseHP="1000000" KillPoint="5" Posx="6200" PosY="2100" IsMonster="true" TriggerIndex="1" />
+	<ObjectPostion Name="Binh sĩ công thành" ID="3413" BaseHP="1000000" KillPoint="5" Posx="5600" PosY="2100" IsMonster="true" TriggerIndex="1" />
+	<ObjectPostion Name="Binh sĩ công thành" ID="3413" BaseHP="1000000" KillPoint="5" Posx="6800" PosY="3200" IsMonster="true" TriggerIndex="1" />
+	<ObjectPostion Name="Binh sĩ công thành" ID="3413" BaseHP="1000000" KillPoint="5" Posx="7100" PosY="2800" IsMonster="true" TriggerIndex="1" />
+	<ObjectPostion Name="Binh sĩ công thành" ID="3413" BaseHP="1000000" KillPoint="5" Posx="6500" PosY="2800" IsMonster="true" TriggerIndex="1" />
+	<ObjectPostion Name="Binh sĩ công thành" ID="3413" BaseHP="1000000" KillPoint="5" Posx="6900" PosY="4500" IsMonster="true" TriggerIndex="1" />
+	<ObjectPostion Name="Binh sĩ công thành" ID="3413" BaseHP="1000000" KillPoint="5" Posx="7200" PosY="4100" IsMonster="true" TriggerIndex="1" />
+	<ObjectPostion Name="Binh sĩ công thành" ID="3413" BaseHP="1000000" KillPoint="5" Posx="6600" PosY="4100" IsMonster="true" TriggerIndex="1" />
+	
+	<ObjectPostion Name="Tướng lĩnh công thành" ID="3418" BaseHP="50000000" KillPoint="20" Posx="4900" PosY="3900" IsMonster="true" TriggerIndex="1" />
+	<ObjectPostion Name="Tướng lĩnh công thành" ID="3418" BaseHP="50000000" KillPoint="20" Posx="4300" PosY="2900" IsMonster="true" TriggerIndex="1" />
+	<ObjectPostion Name="Tướng lĩnh công thành" ID="3418" BaseHP="50000000" KillPoint="20" Posx="4400" PosY="1900" IsMonster="true" TriggerIndex="1" />
+	<ObjectPostion Name="Tướng lĩnh công thành" ID="3418" BaseHP="50000000" KillPoint="20" Posx="5900" PosY="2100" IsMonster="true" TriggerIndex="1" />
+	<ObjectPostion Name="Tướng lĩnh công thành" ID="3418" BaseHP="50000000" KillPoint="20" Posx="6800" PosY="2800" IsMonster="true" TriggerIndex="1" />
+        <ObjectPostion Name="Tướng lĩnh công thành" ID="3418" BaseHP="50000000" KillPoint="20" Posx="6900" PosY="4100" IsMonster="true" TriggerIndex="1" />
+
+	<!-- Boss lãnh thổ nếu có -->
+	<ObjectPostion Name="Nguyên Soái Thủ Thành" ID="3408" BaseHP="150000000" KillPoint="300" Posx="5300" PosY="2900" IsMonster="true" TriggerIndex="1" />
+	
+  </WarMapConfigs>
+  <WarMapConfigs MapID="109" MapName="Hoàng Hạc Lâu" FightMapID="-1" Star="2">
+  
+	<!-- Tọa độ các đối tượng trong bản đồ-->
+    <ObjectPostion Name="Long Trụ Thành Chính" ID="3424"  BaseHP="100000000" KillPoint="600"  Posx="2900" PosY="5800" IsMonster="false" TriggerIndex="1"/>
+    <ObjectPostion Name="Long Trụ Thành Chính" ID="3424"  BaseHP="100000000" KillPoint="600"  Posx="5100" PosY="5300" IsMonster="false" TriggerIndex="1"/>
+	<ObjectPostion Name="Long Trụ Thành Chính" ID="3424"  BaseHP="100000000" KillPoint="600"  Posx="6500" PosY="4200" IsMonster="false" TriggerIndex="1"/>
+    <ObjectPostion Name="Long Trụ Thành Chính" ID="3424"  BaseHP="100000000" KillPoint="600"  Posx="4900" PosY="3400" IsMonster="false" TriggerIndex="1"/>
+	<ObjectPostion Name="Long Trụ Thành Chính" ID="3424"  BaseHP="100000000" KillPoint="600"  Posx="3200" PosY="4200" IsMonster="false" TriggerIndex="1"/>
+    <ObjectPostion Name="Long Trụ Thành Chính" ID="3424"  BaseHP="100000000" KillPoint="600"  Posx="5200" PosY="4300" IsMonster="false" TriggerIndex="1"/>
+	<!-- Danh sách quái mở lần đầu khi bắt đầu sẽ gọi ra-->
+    <ObjectPostion Name="Binh sĩ công thành" ID="3413" BaseHP="1000000" KillPoint="5" Posx="2900" PosY="6100" IsMonster="true" TriggerIndex="1" />
+	<ObjectPostion Name="Binh sĩ công thành" ID="3413" BaseHP="1000000" KillPoint="5" Posx="2600" PosY="5700" IsMonster="true" TriggerIndex="1" />
+	<ObjectPostion Name="Binh sĩ công thành" ID="3413" BaseHP="1000000" KillPoint="5" Posx="3200" PosY="5700" IsMonster="true" TriggerIndex="1" />
+	<ObjectPostion Name="Binh sĩ công thành" ID="3413" BaseHP="1000000" KillPoint="5" Posx="5100" PosY="5600" IsMonster="true" TriggerIndex="1" />
+	<ObjectPostion Name="Binh sĩ công thành" ID="3413" BaseHP="1000000" KillPoint="5" Posx="5400" PosY="5200" IsMonster="true" TriggerIndex="1" />
+	<ObjectPostion Name="Binh sĩ công thành" ID="3413" BaseHP="1000000" KillPoint="5" Posx="4800" PosY="5200" IsMonster="true" TriggerIndex="1" />
+	<ObjectPostion Name="Binh sĩ công thành" ID="3413" BaseHP="1000000" KillPoint="5" Posx="6500" PosY="4500" IsMonster="true" TriggerIndex="1" />
+	<ObjectPostion Name="Binh sĩ công thành" ID="3413" BaseHP="1000000" KillPoint="5" Posx="5800" PosY="4100" IsMonster="true" TriggerIndex="1" />
+	<ObjectPostion Name="Binh sĩ công thành" ID="3413" BaseHP="1000000" KillPoint="5" Posx="5200" PosY="4100" IsMonster="true" TriggerIndex="1" />
+	<ObjectPostion Name="Binh sĩ công thành" ID="3413" BaseHP="1000000" KillPoint="5" Posx="4900" PosY="3700" IsMonster="true" TriggerIndex="1" />
+	<ObjectPostion Name="Binh sĩ công thành" ID="3413" BaseHP="1000000" KillPoint="5" Posx="4600" PosY="3300" IsMonster="true" TriggerIndex="1" />
+	<ObjectPostion Name="Binh sĩ công thành" ID="3413" BaseHP="1000000" KillPoint="5" Posx="5200" PosY="3300" IsMonster="true" TriggerIndex="1" />
+	<ObjectPostion Name="Binh sĩ công thành" ID="3413" BaseHP="1000000" KillPoint="5" Posx="3200" PosY="4500" IsMonster="true" TriggerIndex="1" />
+	<ObjectPostion Name="Binh sĩ công thành" ID="3413" BaseHP="1000000" KillPoint="5" Posx="3500" PosY="4100" IsMonster="true" TriggerIndex="1" />
+	<ObjectPostion Name="Binh sĩ công thành" ID="3413" BaseHP="1000000" KillPoint="5" Posx="2900" PosY="4100" IsMonster="true" TriggerIndex="1" />
+	<ObjectPostion Name="Binh sĩ công thành" ID="3413" BaseHP="1000000" KillPoint="5" Posx="4500" PosY="4600" IsMonster="true" TriggerIndex="1" />
+	<ObjectPostion Name="Binh sĩ công thành" ID="3413" BaseHP="1000000" KillPoint="5" Posx="4200" PosY="4200" IsMonster="true" TriggerIndex="1" />
+	<ObjectPostion Name="Binh sĩ công thành" ID="3413" BaseHP="1000000" KillPoint="5" Posx="4800" PosY="4200" IsMonster="true" TriggerIndex="1" />
+	
+	<ObjectPostion Name="Tướng lĩnh công thành" ID="3418" BaseHP="50000000" KillPoint="20" Posx="2900" PosY="5700" IsMonster="true" TriggerIndex="1" />
+	<ObjectPostion Name="Tướng lĩnh công thành" ID="3418" BaseHP="50000000" KillPoint="20" Posx="5100" PosY="2500" IsMonster="true" TriggerIndex="1" />
+	<ObjectPostion Name="Tướng lĩnh công thành" ID="3418" BaseHP="50000000" KillPoint="20" Posx="6500" PosY="4100" IsMonster="true" TriggerIndex="1" />
+	<ObjectPostion Name="Tướng lĩnh công thành" ID="3418" BaseHP="50000000" KillPoint="20" Posx="4900" PosY="3300" IsMonster="true" TriggerIndex="1" />
+	<ObjectPostion Name="Tướng lĩnh công thành" ID="3418" BaseHP="50000000" KillPoint="20" Posx="3200" PosY="4100" IsMonster="true" TriggerIndex="1" />
+	<ObjectPostion Name="Tướng lĩnh công thành" ID="3418" BaseHP="50000000" KillPoint="20" Posx="4500" PosY="4200" IsMonster="true" TriggerIndex="1" />
+
+<!-- Boss lãnh thổ nếu có -->
+	<ObjectPostion Name="Nguyên Soái Thủ Thành" ID="3408" BaseHP="150000000" KillPoint="300" Posx="4700" PosY="4500" IsMonster="true" TriggerIndex="1" />
+	
+  </WarMapConfigs>
+  <!-- <WarMapConfigs MapID="92" MapName="Thái Thạch Cơ" FightMapID="-1" Star="2"> -->
+  
+	<!-- Tọa độ các đối tượng trong bản đồ-->
+    <!-- <ObjectPostion Name="Long Trụ Thành Chính" ID="3424"  BaseHP="100000000" KillPoint="600"  Posx="4927" PosY="2864" IsMonster="false" TriggerIndex="1"/> -->
+    <!-- <ObjectPostion Name="Long Trụ Thành Chính" ID="3424"  BaseHP="100000000" KillPoint="600"  Posx="5851" PosY="2906" IsMonster="false" TriggerIndex="1"/> -->
+	<!-- <ObjectPostion Name="Long Trụ Thành Chính" ID="3424"  BaseHP="100000000" KillPoint="600"  Posx="6557" PosY="2742" IsMonster="false" TriggerIndex="1"/> -->
+    <!-- <ObjectPostion Name="Long Trụ Thành Chính" ID="3424"  BaseHP="100000000" KillPoint="600"  Posx="6473" PosY="2065" IsMonster="false" TriggerIndex="1"/> -->
+	<!-- <ObjectPostion Name="Long Trụ Thành Chính" ID="3424"  BaseHP="100000000" KillPoint="600"  Posx="5692" PosY="1853" IsMonster="false" TriggerIndex="1"/> -->
+    <!-- <ObjectPostion Name="Long Trụ Thành Chính" ID="3424"  BaseHP="100000000" KillPoint="600"  Posx="4773" PosY="2061" IsMonster="false" TriggerIndex="1"/> -->
+	<!-- Danh sách quái mở lần đầu khi bắt đầu sẽ gọi ra-->
+    <!-- <ObjectPostion Name="Binh sĩ công thành" ID="3413" BaseHP="1000000" KillPoint="5" Posx="4545" PosY="1863" IsMonster="true" TriggerIndex="1" /> -->
+	<!-- <ObjectPostion Name="Binh sĩ công thành" ID="3413" BaseHP="1000000" KillPoint="5" Posx="5250" PosY="1815" IsMonster="true" TriggerIndex="1" /> -->
+	<!-- <ObjectPostion Name="Binh sĩ công thành" ID="3413" BaseHP="1000000" KillPoint="5" Posx="6082" PosY="1990" IsMonster="true" TriggerIndex="1" /> -->
+	<!-- <ObjectPostion Name="Binh sĩ công thành" ID="3413" BaseHP="1000000" KillPoint="5" Posx="6730" PosY="1827" IsMonster="true" TriggerIndex="1" /> -->
+	<!-- <ObjectPostion Name="Binh sĩ công thành" ID="3413" BaseHP="1000000" KillPoint="5" Posx="6987" PosY="2297" IsMonster="true" TriggerIndex="1" /> -->
+	<!-- <ObjectPostion Name="Binh sĩ công thành" ID="3413" BaseHP="1000000" KillPoint="5" Posx="6286" PosY="2302" IsMonster="true" TriggerIndex="1" /> -->
+	<!-- <ObjectPostion Name="Binh sĩ công thành" ID="3413" BaseHP="1000000" KillPoint="5" Posx="5487" PosY="2295" IsMonster="true" TriggerIndex="1" /> -->
+	<!-- <ObjectPostion Name="Binh sĩ công thành" ID="3413" BaseHP="1000000" KillPoint="5" Posx="4619" PosY="2301" IsMonster="true" TriggerIndex="1" /> -->
+	<!-- <ObjectPostion Name="Binh sĩ công thành" ID="3413" BaseHP="1000000" KillPoint="5" Posx="4400" PosY="2769" IsMonster="true" TriggerIndex="1" /> -->
+	<!-- <ObjectPostion Name="Binh sĩ công thành" ID="3413" BaseHP="1000000" KillPoint="5" Posx="4935" PosY="2980" IsMonster="true" TriggerIndex="1" /> -->
+	<!-- <ObjectPostion Name="Binh sĩ công thành" ID="3413" BaseHP="1000000" KillPoint="5" Posx="5521" PosY="3078" IsMonster="true" TriggerIndex="1" /> -->
+	<!-- <ObjectPostion Name="Binh sĩ công thành" ID="3413" BaseHP="1000000" KillPoint="5" Posx="6176" PosY="2996" IsMonster="true" TriggerIndex="1" /> -->
+	<!-- <ObjectPostion Name="Binh sĩ công thành" ID="3413" BaseHP="1000000" KillPoint="5" Posx="6232" PosY="2660" IsMonster="true" TriggerIndex="1" /> -->
+	<!-- <ObjectPostion Name="Binh sĩ công thành" ID="3413" BaseHP="1000000" KillPoint="5" Posx="5680" PosY="2722" IsMonster="true" TriggerIndex="1" /> -->
+	<!-- <ObjectPostion Name="Binh sĩ công thành" ID="3413" BaseHP="1000000" KillPoint="5" Posx="5125" PosY="2559" IsMonster="true" TriggerIndex="1" /> -->
+	<!-- <ObjectPostion Name="Binh sĩ công thành" ID="3413" BaseHP="1000000" KillPoint="5" Posx="4907" PosY="2812" IsMonster="true" TriggerIndex="1" /> -->
+	<!-- <ObjectPostion Name="Binh sĩ công thành" ID="3413" BaseHP="1000000" KillPoint="5" Posx="5063" PosY="3260" IsMonster="true" TriggerIndex="1" /> -->
+	<!-- <ObjectPostion Name="Binh sĩ công thành" ID="3413" BaseHP="1000000" KillPoint="5" Posx="5801" PosY="1550" IsMonster="true" TriggerIndex="1" /> -->
+	
+	<!-- <ObjectPostion Name="Tướng lĩnh công thành" ID="3418" BaseHP="50000000" KillPoint="20" Posx="6563" PosY="2639" IsMonster="true" TriggerIndex="1" /> -->
+	<!-- <ObjectPostion Name="Tướng lĩnh công thành" ID="3418" BaseHP="50000000" KillPoint="20" Posx="5866" PosY="2268" IsMonster="true" TriggerIndex="1" /> -->
+	<!-- <ObjectPostion Name="Tướng lĩnh công thành" ID="3418" BaseHP="50000000" KillPoint="20" Posx="5473" PosY="2862" IsMonster="true" TriggerIndex="1" /> -->
+	<!-- <ObjectPostion Name="Tướng lĩnh công thành" ID="3418" BaseHP="50000000" KillPoint="20" Posx="4887" PosY="2531" IsMonster="true" TriggerIndex="1" /> -->
+	
+	<!-- Boss lãnh thổ nếu có -->
+	<!-- <ObjectPostion Name="Nguyên Soái Thủ Thành" ID="3408" BaseHP="150000000" KillPoint="300" Posx="5056" PosY="1867" IsMonster="true" TriggerIndex="1" /> -->
+	
+  <!-- </WarMapConfigs> -->
+  <!-- <WarMapConfigs MapID="96" MapName="Hổ Khâu Kiếm Trì" FightMapID="-1" Star="2"> -->
+  
+	<!-- Tọa độ các đối tượng trong bản đồ-->
+    <!-- <ObjectPostion Name="Long Trụ Thành Chính" ID="3424"  BaseHP="100000000" KillPoint="600"  Posx="3617" PosY="4986" IsMonster="false" TriggerIndex="1"/> -->
+    <!-- <ObjectPostion Name="Long Trụ Thành Chính" ID="3424"  BaseHP="100000000" KillPoint="600"  Posx="4376" PosY="5144" IsMonster="false" TriggerIndex="1"/> -->
+	<!-- <ObjectPostion Name="Long Trụ Thành Chính" ID="3424"  BaseHP="100000000" KillPoint="600"  Posx="3894" PosY="5729" IsMonster="false" TriggerIndex="1"/> -->
+    <!-- <ObjectPostion Name="Long Trụ Thành Chính" ID="3424"  BaseHP="100000000" KillPoint="600"  Posx="4350" PosY="6322" IsMonster="false" TriggerIndex="1"/> -->
+	<!-- <ObjectPostion Name="Long Trụ Thành Chính" ID="3424"  BaseHP="100000000" KillPoint="600"  Posx="2956" PosY="6120" IsMonster="false" TriggerIndex="1"/> -->
+    <!-- <ObjectPostion Name="Long Trụ Thành Chính" ID="3424"  BaseHP="100000000" KillPoint="600"  Posx="3362" PosY="5459" IsMonster="false" TriggerIndex="1"/> -->
+	<!-- Danh sách quái mở lần đầu khi bắt đầu sẽ gọi ra-->
+    <!-- <ObjectPostion Name="Binh sĩ công thành" ID="3413" BaseHP="1000000" KillPoint="5" Posx="3061" PosY="5173" IsMonster="true" TriggerIndex="1" /> -->
+	<!-- <ObjectPostion Name="Binh sĩ công thành" ID="3413" BaseHP="1000000" KillPoint="5" Posx="3396" PosY="4741" IsMonster="true" TriggerIndex="1" /> -->
+	<!-- <ObjectPostion Name="Binh sĩ công thành" ID="3413" BaseHP="1000000" KillPoint="5" Posx="4109" PosY="4951" IsMonster="true" TriggerIndex="1" /> -->
+	<!-- <ObjectPostion Name="Binh sĩ công thành" ID="3413" BaseHP="1000000" KillPoint="5" Posx="4285" PosY="5408" IsMonster="true" TriggerIndex="1" /> -->
+	<!-- <ObjectPostion Name="Binh sĩ công thành" ID="3413" BaseHP="1000000" KillPoint="5" Posx="3569" PosY="5357" IsMonster="true" TriggerIndex="1" /> -->
+	<!-- <ObjectPostion Name="Binh sĩ công thành" ID="3413" BaseHP="1000000" KillPoint="5" Posx="3157" PosY="5834" IsMonster="true" TriggerIndex="1" /> -->
+	<!-- <ObjectPostion Name="Binh sĩ công thành" ID="3413" BaseHP="1000000" KillPoint="5" Posx="3688" PosY="6174" IsMonster="true" TriggerIndex="1" /> -->
+	<!-- <ObjectPostion Name="Binh sĩ công thành" ID="3413" BaseHP="1000000" KillPoint="5" Posx="3134" PosY="6440" IsMonster="true" TriggerIndex="1" /> -->
+	<!-- <ObjectPostion Name="Binh sĩ công thành" ID="3413" BaseHP="1000000" KillPoint="5" Posx="2569" PosY="6050" IsMonster="true" TriggerIndex="1" /> -->
+	<!-- <ObjectPostion Name="Binh sĩ công thành" ID="3413" BaseHP="1000000" KillPoint="5" Posx="2594" PosY="5652" IsMonster="true" TriggerIndex="1" /> -->
+	<!-- <ObjectPostion Name="Binh sĩ công thành" ID="3413" BaseHP="1000000" KillPoint="5" Posx="4069" PosY="6462" IsMonster="true" TriggerIndex="1" /> -->
+	<!-- <ObjectPostion Name="Binh sĩ công thành" ID="3413" BaseHP="1000000" KillPoint="5" Posx="4409" PosY="6007" IsMonster="true" TriggerIndex="1" /> -->
+	<!-- <ObjectPostion Name="Binh sĩ công thành" ID="3413" BaseHP="1000000" KillPoint="5" Posx="4779" PosY="6446" IsMonster="true" TriggerIndex="1" /> -->
+	<!-- <ObjectPostion Name="Binh sĩ công thành" ID="3413" BaseHP="1000000" KillPoint="5" Posx="4407" PosY="6596" IsMonster="true" TriggerIndex="1" /> -->
+	<!-- <ObjectPostion Name="Binh sĩ công thành" ID="3413" BaseHP="1000000" KillPoint="5" Posx="4516" PosY="5586" IsMonster="true" TriggerIndex="1" /> -->
+	<!-- <ObjectPostion Name="Binh sĩ công thành" ID="3413" BaseHP="1000000" KillPoint="5" Posx="3770" PosY="5313" IsMonster="true" TriggerIndex="1" /> -->
+	<!-- <ObjectPostion Name="Binh sĩ công thành" ID="3413" BaseHP="1000000" KillPoint="5" Posx="2634" PosY="6449" IsMonster="true" TriggerIndex="1" /> -->
+	<!-- <ObjectPostion Name="Binh sĩ công thành" ID="3413" BaseHP="1000000" KillPoint="5" Posx="4817" PosY="6588" IsMonster="true" TriggerIndex="1" /> -->
+	
+	<!-- <ObjectPostion Name="Tướng lĩnh công thành" ID="3418" BaseHP="50000000" KillPoint="20" Posx="4274" PosY="4934" IsMonster="true" TriggerIndex="1" /> -->
+	<!-- <ObjectPostion Name="Tướng lĩnh công thành" ID="3418" BaseHP="50000000" KillPoint="20" Posx="3228" PosY="5160" IsMonster="true" TriggerIndex="1" /> -->
+	<!-- <ObjectPostion Name="Tướng lĩnh công thành" ID="3418" BaseHP="50000000" KillPoint="20" Posx="3202" PosY="5904" IsMonster="true" TriggerIndex="1" /> -->
+	<!-- <ObjectPostion Name="Tướng lĩnh công thành" ID="3418" BaseHP="50000000" KillPoint="20" Posx="4226" PosY="6202" IsMonster="true" TriggerIndex="1" /> -->
+	
+	<!-- Boss lãnh thổ nếu có -->
+	<!-- <ObjectPostion Name="Nguyên Soái Thủ Thành" ID="3408" BaseHP="150000000" KillPoint="300" Posx="2707" PosY="6554" IsMonster="true" TriggerIndex="1" /> -->
+	
+  <!-- </WarMapConfigs> -->
+  <!-- <WarMapConfigs MapID="89" MapName="Hàn Sơn Cổ Sát" FightMapID="-1" Star="1"> -->
+  
+	<!-- Tọa độ các đối tượng trong bản đồ-->
+    <!-- <ObjectPostion Name="Long Trụ Thành Chính" ID="3424"  BaseHP="100000000" KillPoint="600"  Posx="3208" PosY="4641" IsMonster="false" TriggerIndex="1"/> -->
+    <!-- <ObjectPostion Name="Long Trụ Thành Chính" ID="3424"  BaseHP="100000000" KillPoint="600"  Posx="2216" PosY="4901" IsMonster="false" TriggerIndex="1"/> -->
+	<!-- <ObjectPostion Name="Long Trụ Thành Chính" ID="3424"  BaseHP="100000000" KillPoint="600"  Posx="2679" PosY="5623" IsMonster="false" TriggerIndex="1"/> -->
+    <!-- <ObjectPostion Name="Long Trụ Thành Chính" ID="3424"  BaseHP="100000000" KillPoint="600"  Posx="3458" PosY="5945" IsMonster="false" TriggerIndex="1"/> -->
+	<!-- <ObjectPostion Name="Long Trụ Thành Chính" ID="3424"  BaseHP="100000000" KillPoint="600"  Posx="4166" PosY="5418" IsMonster="false" TriggerIndex="1"/> -->
+    <!-- <ObjectPostion Name="Long Trụ Thành Chính" ID="3424"  BaseHP="100000000" KillPoint="600"  Posx="4042" PosY="4843" IsMonster="false" TriggerIndex="1"/> -->
+	<!-- Danh sách quái mở lần đầu khi bắt đầu sẽ gọi ra-->
+    <!-- <ObjectPostion Name="Binh sĩ công thành" ID="3413" BaseHP="1000000" KillPoint="5" Posx="4042" PosY="4546" IsMonster="true" TriggerIndex="1" /> -->
+	<!-- <ObjectPostion Name="Binh sĩ công thành" ID="3413" BaseHP="1000000" KillPoint="5" Posx="3571" PosY="4816" IsMonster="true" TriggerIndex="1" /> -->
+	<!-- <ObjectPostion Name="Binh sĩ công thành" ID="3413" BaseHP="1000000" KillPoint="5" Posx="2827" PosY="4681" IsMonster="true" TriggerIndex="1" /> -->
+	<!-- <ObjectPostion Name="Binh sĩ công thành" ID="3413" BaseHP="1000000" KillPoint="5" Posx="1898" PosY="4926" IsMonster="true" TriggerIndex="1" /> -->
+	<!-- <ObjectPostion Name="Binh sĩ công thành" ID="3413" BaseHP="1000000" KillPoint="5" Posx="1774" PosY="4530" IsMonster="true" TriggerIndex="1" /> -->
+	<!-- <ObjectPostion Name="Binh sĩ công thành" ID="3413" BaseHP="1000000" KillPoint="5" Posx="2719" PosY="5164" IsMonster="true" TriggerIndex="1" /> -->
+	<!-- <ObjectPostion Name="Binh sĩ công thành" ID="3413" BaseHP="1000000" KillPoint="5" Posx="2353" PosY="5440" IsMonster="true" TriggerIndex="1" /> -->
+	<!-- <ObjectPostion Name="Binh sĩ công thành" ID="3413" BaseHP="1000000" KillPoint="5" Posx="2820" PosY="5877" IsMonster="true" TriggerIndex="1" /> -->
+	<!-- <ObjectPostion Name="Binh sĩ công thành" ID="3413" BaseHP="1000000" KillPoint="5" Posx="2260" PosY="5920" IsMonster="true" TriggerIndex="1" /> -->
+	<!-- <ObjectPostion Name="Binh sĩ công thành" ID="3413" BaseHP="1000000" KillPoint="5" Posx="3375" PosY="5499" IsMonster="true" TriggerIndex="1" /> -->
+	<!-- <ObjectPostion Name="Binh sĩ công thành" ID="3413" BaseHP="1000000" KillPoint="5" Posx="4103" PosY="5329" IsMonster="true" TriggerIndex="1" /> -->
+	<!-- <ObjectPostion Name="Binh sĩ công thành" ID="3413" BaseHP="1000000" KillPoint="5" Posx="4123" PosY="5682" IsMonster="true" TriggerIndex="1" /> -->
+	<!-- <ObjectPostion Name="Binh sĩ công thành" ID="3413" BaseHP="1000000" KillPoint="5" Posx="3277" PosY="6078" IsMonster="true" TriggerIndex="1" /> -->
+	<!-- <ObjectPostion Name="Binh sĩ công thành" ID="3413" BaseHP="1000000" KillPoint="5" Posx="3782" PosY="6192" IsMonster="true" TriggerIndex="1" /> -->
+	<!-- <ObjectPostion Name="Binh sĩ công thành" ID="3413" BaseHP="1000000" KillPoint="5" Posx="3366" PosY="5569" IsMonster="true" TriggerIndex="1" /> -->
+	<!-- <ObjectPostion Name="Binh sĩ công thành" ID="3413" BaseHP="1000000" KillPoint="5" Posx="3889" PosY="5296" IsMonster="true" TriggerIndex="1" /> -->
+	<!-- <ObjectPostion Name="Binh sĩ công thành" ID="3413" BaseHP="1000000" KillPoint="5" Posx="3274" PosY="4877" IsMonster="true" TriggerIndex="1" /> -->
+	<!-- <ObjectPostion Name="Binh sĩ công thành" ID="3413" BaseHP="1000000" KillPoint="5" Posx="2862" PosY="5407" IsMonster="true" TriggerIndex="1" /> -->
+	
+	<!-- <ObjectPostion Name="Tướng lĩnh công thành" ID="3418" BaseHP="50000000" KillPoint="20" Posx="4346" PosY="5163" IsMonster="true" TriggerIndex="1" /> -->
+	<!-- <ObjectPostion Name="Tướng lĩnh công thành" ID="3418" BaseHP="50000000" KillPoint="20" Posx="3266" PosY="4771" IsMonster="true" TriggerIndex="1" /> -->
+	<!-- <ObjectPostion Name="Tướng lĩnh công thành" ID="3418" BaseHP="50000000" KillPoint="20" Posx="2490" PosY="5113" IsMonster="true" TriggerIndex="1" /> -->
+	<!-- <ObjectPostion Name="Tướng lĩnh công thành" ID="3418" BaseHP="50000000" KillPoint="20" Posx="3238" PosY="5773" IsMonster="true" TriggerIndex="1" /> -->
+	
+	<!-- Boss lãnh thổ nếu có -->
+	<!-- <ObjectPostion Name="Nguyên Soái Thủ Thành" ID="3408" BaseHP="150000000" KillPoint="300" Posx="1497" PosY="4348" IsMonster="true" TriggerIndex="1" /> -->
+	
+  <!-- </WarMapConfigs> -->
+  <WarMapConfigs MapID="103" MapName="Thục Cương Sơn" FightMapID="-1" Star="2">
+  
+	<!-- Tọa độ các đối tượng trong bản đồ-->
+    <ObjectPostion Name="Long Trụ Thành Chính" ID="3424"  BaseHP="100000000" KillPoint="600"  Posx="4309" PosY="2407" IsMonster="false" TriggerIndex="1"/>
+    <ObjectPostion Name="Long Trụ Thành Chính" ID="3424"  BaseHP="100000000" KillPoint="600"  Posx="3346" PosY="1809" IsMonster="false" TriggerIndex="1"/>
+	<ObjectPostion Name="Long Trụ Thành Chính" ID="3424"  BaseHP="100000000" KillPoint="600"  Posx="2370" PosY="1685" IsMonster="false" TriggerIndex="1"/>
+    <ObjectPostion Name="Long Trụ Thành Chính" ID="3424"  BaseHP="100000000" KillPoint="600"  Posx="2008" PosY="2242" IsMonster="false" TriggerIndex="1"/>
+	<ObjectPostion Name="Long Trụ Thành Chính" ID="3424"  BaseHP="100000000" KillPoint="600"  Posx="2188" PosY="3062" IsMonster="false" TriggerIndex="1"/>
+    <ObjectPostion Name="Long Trụ Thành Chính" ID="3424"  BaseHP="100000000" KillPoint="600"  Posx="3384" PosY="2812" IsMonster="false" TriggerIndex="1"/>
+	<!-- Danh sách quái mở lần đầu khi bắt đầu sẽ gọi ra-->
+    <ObjectPostion Name="Binh sĩ công thành" ID="3413" BaseHP="1000000" KillPoint="5" Posx="3282" PosY="2958" IsMonster="true" TriggerIndex="1" />
+    <ObjectPostion Name="Binh sĩ công thành" ID="3413" BaseHP="1000000" KillPoint="5" Posx="3116" PosY="2696" IsMonster="true" TriggerIndex="1" />	 
+    <ObjectPostion Name="Binh sĩ công thành" ID="3413" BaseHP="1000000" KillPoint="5" Posx="3454" PosY="2511" IsMonster="true" TriggerIndex="1" />
+    <ObjectPostion Name="Binh sĩ công thành" ID="3413" BaseHP="1000000" KillPoint="5" Posx="4323" PosY="2559" IsMonster="true" TriggerIndex="1" />
+    <ObjectPostion Name="Binh sĩ công thành" ID="3413" BaseHP="1000000" KillPoint="5" Posx="4048" PosY="2375" IsMonster="true" TriggerIndex="1" />	 
+    <ObjectPostion Name="Binh sĩ công thành" ID="3413" BaseHP="1000000" KillPoint="5" Posx="4211" PosY="2180" IsMonster="true" TriggerIndex="1" />
+    <ObjectPostion Name="Binh sĩ công thành" ID="3413" BaseHP="1000000" KillPoint="5" Posx="3638" PosY="1916" IsMonster="true" TriggerIndex="1" />
+    <ObjectPostion Name="Binh sĩ công thành" ID="3413" BaseHP="1000000" KillPoint="5" Posx="3362" PosY="2129" IsMonster="true" TriggerIndex="1" />	 
+    <ObjectPostion Name="Binh sĩ công thành" ID="3413" BaseHP="1000000" KillPoint="5" Posx="3035" PosY="2009" IsMonster="true" TriggerIndex="1" />
+    <ObjectPostion Name="Binh sĩ công thành" ID="3413" BaseHP="1000000" KillPoint="5" Posx="2521" PosY="1532" IsMonster="true" TriggerIndex="1" />
+    <ObjectPostion Name="Binh sĩ công thành" ID="3413" BaseHP="1000000" KillPoint="5" Posx="2582" PosY="1843" IsMonster="true" TriggerIndex="1" />	 
+    <ObjectPostion Name="Binh sĩ công thành" ID="3413" BaseHP="1000000" KillPoint="5" Posx="2294" PosY="1818" IsMonster="true" TriggerIndex="1" />
+    <ObjectPostion Name="Binh sĩ công thành" ID="3413" BaseHP="1000000" KillPoint="5" Posx="2004" PosY="2444" IsMonster="true" TriggerIndex="1" />
+    <ObjectPostion Name="Binh sĩ công thành" ID="3413" BaseHP="1000000" KillPoint="5" Posx="2212" PosY="2362" IsMonster="true" TriggerIndex="1" />	 
+    <ObjectPostion Name="Binh sĩ công thành" ID="3413" BaseHP="1000000" KillPoint="5" Posx="1788" PosY="2168" IsMonster="true" TriggerIndex="1" />
+    <ObjectPostion Name="Binh sĩ công thành" ID="3413" BaseHP="1000000" KillPoint="5" Posx="1994" PosY="3281" IsMonster="true" TriggerIndex="1" />
+    <ObjectPostion Name="Binh sĩ công thành" ID="3413" BaseHP="1000000" KillPoint="5" Posx="1826" PosY="3063" IsMonster="true" TriggerIndex="1" />	 
+    <ObjectPostion Name="Binh sĩ công thành" ID="3413" BaseHP="1000000" KillPoint="5" Posx="2343" PosY="3199" IsMonster="true" TriggerIndex="1" />
+		
+
+	<ObjectPostion Name="Tướng lĩnh công thành" ID="3418" BaseHP="50000000" KillPoint="20" Posx="3678" PosY="2761" IsMonster="true" TriggerIndex="1" />
+	<ObjectPostion Name="Tướng lĩnh công thành" ID="3418" BaseHP="50000000" KillPoint="20" Posx="4648" PosY="2358" IsMonster="true" TriggerIndex="1" />
+	<ObjectPostion Name="Tướng lĩnh công thành" ID="3418" BaseHP="50000000" KillPoint="20" Posx="3632" PosY="1727" IsMonster="true" TriggerIndex="1" />
+	<ObjectPostion Name="Tướng lĩnh công thành" ID="3418" BaseHP="50000000" KillPoint="20" Posx="2145" PosY="1589" IsMonster="true" TriggerIndex="1" />
+	<ObjectPostion Name="Tướng lĩnh công thành" ID="3418" BaseHP="50000000" KillPoint="20" Posx="1691" PosY="2310" IsMonster="true" TriggerIndex="1" />
+	<ObjectPostion Name="Tướng lĩnh công thành" ID="3418" BaseHP="50000000" KillPoint="20" Posx="2064" PosY="3176" IsMonster="true" TriggerIndex="1" />	
+	<!-- Boss lãnh thổ nếu có -->
+	<ObjectPostion Name="Nguyên Soái Thủ Thành" ID="3408" BaseHP="150000000" KillPoint="300" Posx="2854" PosY="2522" IsMonster="true" TriggerIndex="1" />
+
+  </WarMapConfigs>
+  <WarMapConfigs MapID="117" MapName="Thục Cương Bí Cảnh" FightMapID="-1" Star="2">
+  
+	<!-- Tọa độ các đối tượng trong bản đồ-->
+    <ObjectPostion Name="Long Trụ Thành Chính" ID="3424"  BaseHP="100000000" KillPoint="600"  Posx="756" PosY="1485" IsMonster="false" TriggerIndex="1"/>
+    <ObjectPostion Name="Long Trụ Thành Chính" ID="3424"  BaseHP="100000000" KillPoint="600"  Posx="1275" PosY="2909" IsMonster="false" TriggerIndex="1"/>
+	<ObjectPostion Name="Long Trụ Thành Chính" ID="3424"  BaseHP="100000000" KillPoint="600"  Posx="1776" PosY="943" IsMonster="false" TriggerIndex="1"/>
+    <ObjectPostion Name="Long Trụ Thành Chính" ID="3424"  BaseHP="100000000" KillPoint="600"  Posx="2945" PosY="1214" IsMonster="false" TriggerIndex="1"/>
+	<ObjectPostion Name="Long Trụ Thành Chính" ID="3424"  BaseHP="100000000" KillPoint="600"  Posx="2839" PosY="2038" IsMonster="false" TriggerIndex="1"/>
+    <ObjectPostion Name="Long Trụ Thành Chính" ID="3424"  BaseHP="100000000" KillPoint="600"  Posx="2739" PosY="3002" IsMonster="false" TriggerIndex="1"/>
+	<!-- Danh sách quái mở lần đầu khi bắt đầu sẽ gọi ra-->
+    <ObjectPostion Name="Binh sĩ công thành" ID="3413" BaseHP="1000000" KillPoint="5" Posx="2457" PosY="3176" IsMonster="true" TriggerIndex="1" />
+    <ObjectPostion Name="Binh sĩ công thành" ID="3413" BaseHP="1000000" KillPoint="5" Posx="2303" PosY="2977" IsMonster="true" TriggerIndex="1" />	 
+    <ObjectPostion Name="Binh sĩ công thành" ID="3413" BaseHP="1000000" KillPoint="5" Posx="2582" PosY="2799" IsMonster="true" TriggerIndex="1" />
+    <ObjectPostion Name="Binh sĩ công thành" ID="3413" BaseHP="1000000" KillPoint="5" Posx="2635" PosY="2263" IsMonster="true" TriggerIndex="1" />
+    <ObjectPostion Name="Binh sĩ công thành" ID="3413" BaseHP="1000000" KillPoint="5" Posx="2982" PosY="2371" IsMonster="true" TriggerIndex="1" />	 
+    <ObjectPostion Name="Binh sĩ công thành" ID="3413" BaseHP="1000000" KillPoint="5" Posx="2564" PosY="1848" IsMonster="true" TriggerIndex="1" />
+    <ObjectPostion Name="Binh sĩ công thành" ID="3413" BaseHP="1000000" KillPoint="5" Posx="3177" PosY="1035" IsMonster="true" TriggerIndex="1" />
+    <ObjectPostion Name="Binh sĩ công thành" ID="3413" BaseHP="1000000" KillPoint="5" Posx="2817" PosY="998" IsMonster="true" TriggerIndex="1" />	 
+    <ObjectPostion Name="Binh sĩ công thành" ID="3413" BaseHP="1000000" KillPoint="5" Posx="2532" PosY="1180" IsMonster="true" TriggerIndex="1" />
+    <ObjectPostion Name="Binh sĩ công thành" ID="3413" BaseHP="1000000" KillPoint="5" Posx="1472" PosY="836" IsMonster="true" TriggerIndex="1" />
+    <ObjectPostion Name="Binh sĩ công thành" ID="3413" BaseHP="1000000" KillPoint="5" Posx="1548" PosY="1118" IsMonster="true" TriggerIndex="1" />	 
+    <ObjectPostion Name="Binh sĩ công thành" ID="3413" BaseHP="1000000" KillPoint="5" Posx="1314" PosY="920" IsMonster="true" TriggerIndex="1" />
+    <ObjectPostion Name="Binh sĩ công thành" ID="3413" BaseHP="1000000" KillPoint="5" Posx="786" PosY="1793" IsMonster="true" TriggerIndex="1" />
+    <ObjectPostion Name="Binh sĩ công thành" ID="3413" BaseHP="1000000" KillPoint="5" Posx="1126" PosY="1656" IsMonster="true" TriggerIndex="1" />	 
+    <ObjectPostion Name="Binh sĩ công thành" ID="3413" BaseHP="1000000" KillPoint="5" Posx="1142" PosY="1402" IsMonster="true" TriggerIndex="1" />
+    <ObjectPostion Name="Binh sĩ công thành" ID="3413" BaseHP="1000000" KillPoint="5" Posx="1475" PosY="3140" IsMonster="true" TriggerIndex="1" />
+    <ObjectPostion Name="Binh sĩ công thành" ID="3413" BaseHP="1000000" KillPoint="5" Posx="1109" PosY="3192" IsMonster="true" TriggerIndex="1" />	 
+    <ObjectPostion Name="Binh sĩ công thành" ID="3413" BaseHP="1000000" KillPoint="5" Posx="902" PosY="2952" IsMonster="true" TriggerIndex="1" />
+		
+
+	<ObjectPostion Name="Tướng lĩnh công thành" ID="3418" BaseHP="50000000" KillPoint="20" Posx="3052" PosY="2878" IsMonster="true" TriggerIndex="1" />
+	<ObjectPostion Name="Tướng lĩnh công thành" ID="3418" BaseHP="50000000" KillPoint="20" Posx="2975" PosY="1752" IsMonster="true" TriggerIndex="1" />
+	<ObjectPostion Name="Tướng lĩnh công thành" ID="3418" BaseHP="50000000" KillPoint="20" Posx="3378" PosY="1182" IsMonster="true" TriggerIndex="1" />
+	<ObjectPostion Name="Tướng lĩnh công thành" ID="3418" BaseHP="50000000" KillPoint="20" Posx="1777" PosY="674" IsMonster="true" TriggerIndex="1" />
+	<ObjectPostion Name="Tướng lĩnh công thành" ID="3418" BaseHP="50000000" KillPoint="20" Posx="888" PosY="1269" IsMonster="true" TriggerIndex="1" />
+	<ObjectPostion Name="Tướng lĩnh công thành" ID="3418" BaseHP="50000000" KillPoint="20" Posx="1245" PosY="2668" IsMonster="true" TriggerIndex="1" />	
+	<!-- Boss lãnh thổ nếu có -->
+	<ObjectPostion Name="Nguyên Soái Thủ Thành" ID="3408" BaseHP="150000000" KillPoint="300" Posx="1777" PosY="2286" IsMonster="true" TriggerIndex="1" />
+
+  </WarMapConfigs>
+  <WarMapConfigs MapID="95" MapName="Phục Ngưu Sơn" FightMapID="-1" Star="5">
+  
+	<!-- Tọa độ các đối tượng trong bản đồ-->
+    <ObjectPostion Name="Long Trụ Thành Chính" ID="3424"  BaseHP="100000000" KillPoint="600"  Posx="4544" PosY="881" IsMonster="false" TriggerIndex="1"/>
+    <ObjectPostion Name="Long Trụ Thành Chính" ID="3424"  BaseHP="100000000" KillPoint="600"  Posx="3868" PosY="1547" IsMonster="false" TriggerIndex="1"/>
+	<ObjectPostion Name="Long Trụ Thành Chính" ID="3424"  BaseHP="100000000" KillPoint="600"  Posx="3248" PosY="2202" IsMonster="false" TriggerIndex="1"/>
+    <ObjectPostion Name="Long Trụ Thành Chính" ID="3424"  BaseHP="100000000" KillPoint="600"  Posx="4023" PosY="2813" IsMonster="false" TriggerIndex="1"/>
+	<ObjectPostion Name="Long Trụ Thành Chính" ID="3424"  BaseHP="100000000" KillPoint="600"  Posx="5184" PosY="2580" IsMonster="false" TriggerIndex="1"/>
+    <ObjectPostion Name="Long Trụ Thành Chính" ID="3424"  BaseHP="100000000" KillPoint="600"  Posx="5830" PosY="1957" IsMonster="false" TriggerIndex="1"/>
+	<!-- Danh sách quái mở lần đầu khi bắt đầu sẽ gọi ra-->
+    <ObjectPostion Name="Binh sĩ công thành" ID="3413" BaseHP="1000000" KillPoint="5" Posx="5633" PosY="2147" IsMonster="true" TriggerIndex="1" />
+    <ObjectPostion Name="Binh sĩ công thành" ID="3413" BaseHP="1000000" KillPoint="5" Posx="5514" PosY="2028" IsMonster="true" TriggerIndex="1" />	 
+    <ObjectPostion Name="Binh sĩ công thành" ID="3413" BaseHP="1000000" KillPoint="5" Posx="5699" PosY="2026" IsMonster="true" TriggerIndex="1" />
+    <ObjectPostion Name="Binh sĩ công thành" ID="3413" BaseHP="1000000" KillPoint="5" Posx="5285" PosY="2634" IsMonster="true" TriggerIndex="1" />
+    <ObjectPostion Name="Binh sĩ công thành" ID="3413" BaseHP="1000000" KillPoint="5" Posx="4867" PosY="2574" IsMonster="true" TriggerIndex="1" />	 
+    <ObjectPostion Name="Binh sĩ công thành" ID="3413" BaseHP="1000000" KillPoint="5" Posx="5373" PosY="2437" IsMonster="true" TriggerIndex="1" />
+    <ObjectPostion Name="Binh sĩ công thành" ID="3413" BaseHP="1000000" KillPoint="5" Posx="3748" PosY="2734" IsMonster="true" TriggerIndex="1" />
+    <ObjectPostion Name="Binh sĩ công thành" ID="3413" BaseHP="1000000" KillPoint="5" Posx="4083" PosY="2605" IsMonster="true" TriggerIndex="1" />	 
+    <ObjectPostion Name="Binh sĩ công thành" ID="3413" BaseHP="1000000" KillPoint="5" Posx="4505" PosY="2933" IsMonster="true" TriggerIndex="1" />
+    <ObjectPostion Name="Binh sĩ công thành" ID="3413" BaseHP="1000000" KillPoint="5" Posx="3109" PosY="2338" IsMonster="true" TriggerIndex="1" />
+    <ObjectPostion Name="Binh sĩ công thành" ID="3413" BaseHP="1000000" KillPoint="5" Posx="3119" PosY="2103" IsMonster="true" TriggerIndex="1" />	 
+    <ObjectPostion Name="Binh sĩ công thành" ID="3413" BaseHP="1000000" KillPoint="5" Posx="3363" PosY="2004" IsMonster="true" TriggerIndex="1" />
+    <ObjectPostion Name="Binh sĩ công thành" ID="3413" BaseHP="1000000" KillPoint="5" Posx="3966" PosY="1403" IsMonster="true" TriggerIndex="1" />
+    <ObjectPostion Name="Binh sĩ công thành" ID="3413" BaseHP="1000000" KillPoint="5" Posx="4181" PosY="1593" IsMonster="true" TriggerIndex="1" />	 
+    <ObjectPostion Name="Binh sĩ công thành" ID="3413" BaseHP="1000000" KillPoint="5" Posx="4059" PosY="1785" IsMonster="true" TriggerIndex="1" />
+    <ObjectPostion Name="Binh sĩ công thành" ID="3413" BaseHP="1000000" KillPoint="5" Posx="4238" PosY="1056" IsMonster="true" TriggerIndex="1" />
+    <ObjectPostion Name="Binh sĩ công thành" ID="3413" BaseHP="1000000" KillPoint="5" Posx="4384" PosY="1206" IsMonster="true" TriggerIndex="1" />	 
+    <ObjectPostion Name="Binh sĩ công thành" ID="3413" BaseHP="1000000" KillPoint="5" Posx="4738" PosY="1185" IsMonster="true" TriggerIndex="1" />
+		
+
+	<ObjectPostion Name="Tướng lĩnh công thành" ID="3418" BaseHP="50000000" KillPoint="20" Posx="6120" PosY="1652" IsMonster="true" TriggerIndex="1" />
+	<ObjectPostion Name="Tướng lĩnh công thành" ID="3418" BaseHP="50000000" KillPoint="20" Posx="5095" PosY="2378" IsMonster="true" TriggerIndex="1" />
+	<ObjectPostion Name="Tướng lĩnh công thành" ID="3418" BaseHP="50000000" KillPoint="20" Posx="4187" PosY="3009" IsMonster="true" TriggerIndex="1" />
+	<ObjectPostion Name="Tướng lĩnh công thành" ID="3418" BaseHP="50000000" KillPoint="20" Posx="3591" PosY="2184" IsMonster="true" TriggerIndex="1" />
+	<ObjectPostion Name="Tướng lĩnh công thành" ID="3418" BaseHP="50000000" KillPoint="20" Posx="3768" PosY="1802" IsMonster="true" TriggerIndex="1" />
+	<ObjectPostion Name="Tướng lĩnh công thành" ID="3418" BaseHP="50000000" KillPoint="20" Posx="4682" PosY="694" IsMonster="true" TriggerIndex="1" />	
+	<!-- Boss lãnh thổ nếu có -->
+	<ObjectPostion Name="Nguyên Soái Thủ Thành" ID="3408" BaseHP="150000000" KillPoint="300" Posx="4601" PosY="2093" IsMonster="true" TriggerIndex="1" />
+
+  </WarMapConfigs>
+  <!-- <WarMapConfigs MapID="125" MapName="Đại Vũ Đài" FightMapID="-1" Star="1"> -->
+  
+	<!-- Tọa độ các đối tượng trong bản đồ-->
+    <!-- <ObjectPostion Name="Long Trụ Thành Chính" ID="3424"  BaseHP="100000000" KillPoint="600"  Posx="4838" PosY="3954" IsMonster="false" TriggerIndex="1"/> -->
+    <!-- <ObjectPostion Name="Long Trụ Thành Chính" ID="3424"  BaseHP="100000000" KillPoint="600"  Posx="5618" PosY="4298" IsMonster="false" TriggerIndex="1"/> -->
+	<!-- <ObjectPostion Name="Long Trụ Thành Chính" ID="3424"  BaseHP="100000000" KillPoint="600"  Posx="6053" PosY="4875" IsMonster="false" TriggerIndex="1"/> -->
+    <!-- <ObjectPostion Name="Long Trụ Thành Chính" ID="3424"  BaseHP="100000000" KillPoint="600"  Posx="5106" PosY="5068" IsMonster="false" TriggerIndex="1"/> -->
+	<!-- <ObjectPostion Name="Long Trụ Thành Chính" ID="3424"  BaseHP="100000000" KillPoint="600"  Posx="4164" PosY="5084" IsMonster="false" TriggerIndex="1"/> -->
+    <!-- <ObjectPostion Name="Long Trụ Thành Chính" ID="3424"  BaseHP="100000000" KillPoint="600"  Posx="3734" PosY="4406" IsMonster="false" TriggerIndex="1"/> -->
+	<!-- Danh sách quái mở lần đầu khi bắt đầu sẽ gọi ra-->
+    <!-- <ObjectPostion Name="Binh sĩ công thành" ID="3413" BaseHP="1000000" KillPoint="5" Posx="3358" PosY="4235" IsMonster="true" TriggerIndex="1" /> -->
+	<!-- <ObjectPostion Name="Binh sĩ công thành" ID="3413" BaseHP="1000000" KillPoint="5" Posx="3276" PosY="4678" IsMonster="true" TriggerIndex="1" /> -->
+	<!-- <ObjectPostion Name="Binh sĩ công thành" ID="3413" BaseHP="1000000" KillPoint="5" Posx="3912" PosY="4936" IsMonster="true" TriggerIndex="1" /> -->
+	<!-- <ObjectPostion Name="Binh sĩ công thành" ID="3413" BaseHP="1000000" KillPoint="5" Posx="4386" PosY="4737" IsMonster="true" TriggerIndex="1" /> -->
+	<!-- <ObjectPostion Name="Binh sĩ công thành" ID="3413" BaseHP="1000000" KillPoint="5" Posx="3879" PosY="5400" IsMonster="true" TriggerIndex="1" /> -->
+	<!-- <ObjectPostion Name="Binh sĩ công thành" ID="3413" BaseHP="1000000" KillPoint="5" Posx="4745" PosY="5421" IsMonster="true" TriggerIndex="1" /> -->
+	<!-- <ObjectPostion Name="Binh sĩ công thành" ID="3413" BaseHP="1000000" KillPoint="5" Posx="4789" PosY="5004" IsMonster="true" TriggerIndex="1" /> -->
+	<!-- <ObjectPostion Name="Binh sĩ công thành" ID="3413" BaseHP="1000000" KillPoint="5" Posx="5250" PosY="4871" IsMonster="true" TriggerIndex="1" /> -->
+	<!-- <ObjectPostion Name="Binh sĩ công thành" ID="3413" BaseHP="1000000" KillPoint="5" Posx="5941" PosY="4915" IsMonster="true" TriggerIndex="1" /> -->
+	<!-- <ObjectPostion Name="Binh sĩ công thành" ID="3413" BaseHP="1000000" KillPoint="5" Posx="6440" PosY="5195" IsMonster="true" TriggerIndex="1" /> -->
+	<!-- <ObjectPostion Name="Binh sĩ công thành" ID="3413" BaseHP="1000000" KillPoint="5" Posx="6639" PosY="4545" IsMonster="true" TriggerIndex="1" /> -->
+	<!-- <ObjectPostion Name="Binh sĩ công thành" ID="3413" BaseHP="1000000" KillPoint="5" Posx="6110" PosY="4313" IsMonster="true" TriggerIndex="1" /> -->
+	<!-- <ObjectPostion Name="Binh sĩ công thành" ID="3413" BaseHP="1000000" KillPoint="5" Posx="5466" PosY="3989" IsMonster="true" TriggerIndex="1" /> -->
+	<!-- <ObjectPostion Name="Binh sĩ công thành" ID="3413" BaseHP="1000000" KillPoint="5" Posx="4574" PosY="3649" IsMonster="true" TriggerIndex="1" /> -->
+	<!-- <ObjectPostion Name="Binh sĩ công thành" ID="3413" BaseHP="1000000" KillPoint="5" Posx="4338" PosY="3966" IsMonster="true" TriggerIndex="1" /> -->
+	<!-- <ObjectPostion Name="Binh sĩ công thành" ID="3413" BaseHP="1000000" KillPoint="5" Posx="4529" PosY="4404" IsMonster="true" TriggerIndex="1" /> -->
+	<!-- <ObjectPostion Name="Binh sĩ công thành" ID="3413" BaseHP="1000000" KillPoint="5" Posx="5188" PosY="4646" IsMonster="true" TriggerIndex="1" /> -->
+	<!-- <ObjectPostion Name="Binh sĩ công thành" ID="3413" BaseHP="1000000" KillPoint="5" Posx="5347" PosY="5140" IsMonster="true" TriggerIndex="1" /> -->
+	
+	<!-- <ObjectPostion Name="Tướng lĩnh công thành" ID="3418" BaseHP="50000000" KillPoint="20" Posx="6173" PosY="4609" IsMonster="true" TriggerIndex="1" /> -->
+	<!-- <ObjectPostion Name="Tướng lĩnh công thành" ID="3418" BaseHP="50000000" KillPoint="20" Posx="5298" PosY="4040" IsMonster="true" TriggerIndex="1" /> -->
+	<!-- <ObjectPostion Name="Tướng lĩnh công thành" ID="3418" BaseHP="50000000" KillPoint="20" Posx="3978" PosY="4354" IsMonster="true" TriggerIndex="1" /> -->
+	<!-- <ObjectPostion Name="Tướng lĩnh công thành" ID="3418" BaseHP="50000000" KillPoint="20" Posx="4915" PosY="5071" IsMonster="true" TriggerIndex="1" /> -->
+	
+	<!-- Boss lãnh thổ nếu có -->
+	<!-- <ObjectPostion Name="Nguyên Soái Thủ Thành" ID="3408" BaseHP="150000000" KillPoint="300" Posx="3559" PosY="5747" IsMonster="true" TriggerIndex="1" /> -->
+	
+  <!-- </WarMapConfigs> -->
+  <!-- <WarMapConfigs MapID="120" MapName="Vũ Di Sơn" FightMapID="-1" Star="1"> -->
+  
+	<!-- Tọa độ các đối tượng trong bản đồ-->
+    <!-- <ObjectPostion Name="Long Trụ Thành Chính" ID="3424"  BaseHP="100000000" KillPoint="600"  Posx="7175" PosY="6849" IsMonster="false" TriggerIndex="1"/> -->
+    <!-- <ObjectPostion Name="Long Trụ Thành Chính" ID="3424"  BaseHP="100000000" KillPoint="600"  Posx="6147" PosY="6041" IsMonster="false" TriggerIndex="1"/> -->
+	<!-- <ObjectPostion Name="Long Trụ Thành Chính" ID="3424"  BaseHP="100000000" KillPoint="600"  Posx="6267" PosY="5599" IsMonster="false" TriggerIndex="1"/> -->
+    <!-- <ObjectPostion Name="Long Trụ Thành Chính" ID="3424"  BaseHP="100000000" KillPoint="600"  Posx="5980" PosY="5237" IsMonster="false" TriggerIndex="1"/> -->
+	<!-- <ObjectPostion Name="Long Trụ Thành Chính" ID="3424"  BaseHP="100000000" KillPoint="600"  Posx="5311" PosY="5677" IsMonster="false" TriggerIndex="1"/> -->
+    <!-- <ObjectPostion Name="Long Trụ Thành Chính" ID="3424"  BaseHP="100000000" KillPoint="600"  Posx="4433" PosY="6547" IsMonster="false" TriggerIndex="1"/> -->
+	<!-- Danh sách quái mở lần đầu khi bắt đầu sẽ gọi ra-->
+    <!-- <ObjectPostion Name="Binh sĩ công thành" ID="3413" BaseHP="1000000" KillPoint="5" Posx="7287" PosY="6690" IsMonster="true" TriggerIndex="1" /> -->
+	<!-- <ObjectPostion Name="Binh sĩ công thành" ID="3413" BaseHP="1000000" KillPoint="5" Posx="6942" PosY="6832" IsMonster="true" TriggerIndex="1" /> -->
+	<!-- <ObjectPostion Name="Binh sĩ công thành" ID="3413" BaseHP="1000000" KillPoint="5" Posx="6856" PosY="7054" IsMonster="true" TriggerIndex="1" /> -->
+	<!-- <ObjectPostion Name="Binh sĩ công thành" ID="3413" BaseHP="1000000" KillPoint="5" Posx="7342" PosY="7076" IsMonster="true" TriggerIndex="1" /> -->
+	<!-- <ObjectPostion Name="Binh sĩ công thành" ID="3413" BaseHP="1000000" KillPoint="5" Posx="6867" PosY="6464" IsMonster="true" TriggerIndex="1" /> -->
+	<!-- <ObjectPostion Name="Binh sĩ công thành" ID="3413" BaseHP="1000000" KillPoint="5" Posx="6498" PosY="6227" IsMonster="true" TriggerIndex="1" /> -->
+	<!-- <ObjectPostion Name="Binh sĩ công thành" ID="3413" BaseHP="1000000" KillPoint="5" Posx="5830" PosY="6125" IsMonster="true" TriggerIndex="1" /> -->
+	<!-- <ObjectPostion Name="Binh sĩ công thành" ID="3413" BaseHP="1000000" KillPoint="5" Posx="6296" PosY="5903" IsMonster="true" TriggerIndex="1" /> -->
+	<!-- <ObjectPostion Name="Binh sĩ công thành" ID="3413" BaseHP="1000000" KillPoint="5" Posx="5952" PosY="5737" IsMonster="true" TriggerIndex="1" /> -->
+	<!-- <ObjectPostion Name="Binh sĩ công thành" ID="3413" BaseHP="1000000" KillPoint="5" Posx="6521" PosY="5494" IsMonster="true" TriggerIndex="1" /> -->
+	<!-- <ObjectPostion Name="Binh sĩ công thành" ID="3413" BaseHP="1000000" KillPoint="5" Posx="6613" PosY="5283" IsMonster="true" TriggerIndex="1" /> -->
+	<!-- <ObjectPostion Name="Binh sĩ công thành" ID="3413" BaseHP="1000000" KillPoint="5" Posx="5742" PosY="5352" IsMonster="true" TriggerIndex="1" /> -->
+	<!-- <ObjectPostion Name="Binh sĩ công thành" ID="3413" BaseHP="1000000" KillPoint="5" Posx="5681" PosY="5646" IsMonster="true" TriggerIndex="1" /> -->
+	<!-- <ObjectPostion Name="Binh sĩ công thành" ID="3413" BaseHP="1000000" KillPoint="5" Posx="5336" PosY="5867" IsMonster="true" TriggerIndex="1" /> -->
+	<!-- <ObjectPostion Name="Binh sĩ công thành" ID="3413" BaseHP="1000000" KillPoint="5" Posx="5102" PosY="5968" IsMonster="true" TriggerIndex="1" /> -->
+	<!-- <ObjectPostion Name="Binh sĩ công thành" ID="3413" BaseHP="1000000" KillPoint="5" Posx="4949" PosY="6192" IsMonster="true" TriggerIndex="1" /> -->
+	<!-- <ObjectPostion Name="Binh sĩ công thành" ID="3413" BaseHP="1000000" KillPoint="5" Posx="4696" PosY="6336" IsMonster="true" TriggerIndex="1" /> -->
+	<!-- <ObjectPostion Name="Binh sĩ công thành" ID="3413" BaseHP="1000000" KillPoint="5" Posx="4686" PosY="6601" IsMonster="true" TriggerIndex="1" /> -->
+	<!-- <ObjectPostion Name="Binh sĩ công thành" ID="3413" BaseHP="1000000" KillPoint="5" Posx="4443" PosY="6741" IsMonster="true" TriggerIndex="1" /> -->
+	<!-- <ObjectPostion Name="Binh sĩ công thành" ID="3413" BaseHP="1000000" KillPoint="5" Posx="4164" PosY="6481" IsMonster="true" TriggerIndex="1" /> -->
+	
+	<!-- <ObjectPostion Name="Tướng lĩnh công thành" ID="3418" BaseHP="50000000" KillPoint="20" Posx="6333" PosY="5388" IsMonster="true" TriggerIndex="1" /> -->
+	<!-- <ObjectPostion Name="Tướng lĩnh công thành" ID="3418" BaseHP="50000000" KillPoint="20" Posx="5548" PosY="5546" IsMonster="true" TriggerIndex="1" /> -->
+	<!-- <ObjectPostion Name="Tướng lĩnh công thành" ID="3418" BaseHP="50000000" KillPoint="20" Posx="6457" PosY="6013" IsMonster="true" TriggerIndex="1" /> -->
+	<!-- <ObjectPostion Name="Tướng lĩnh công thành" ID="3418" BaseHP="50000000" KillPoint="20" Posx="5162" PosY="6055" IsMonster="true" TriggerIndex="1" /> -->
+	
+	<!-- Boss lãnh thổ nếu có -->
+	<!-- <ObjectPostion Name="Nguyên Soái Thủ Thành" ID="3408" BaseHP="150000000" KillPoint="300" Posx="4364" PosY="7060" IsMonster="true" TriggerIndex="1" /> -->
+	
+  <!-- </WarMapConfigs> -->
+  <!-- <WarMapConfigs MapID="128" MapName="Tỏa Vân Uyên" FightMapID="-1" Star="2"> -->
+  
+	<!-- Tọa độ các đối tượng trong bản đồ-->
+    <!-- <ObjectPostion Name="Long Trụ Thành Chính" ID="3424"  BaseHP="100000000" KillPoint="600"  Posx="4585" PosY="4416" IsMonster="false" TriggerIndex="1"/> -->
+    <!-- <ObjectPostion Name="Long Trụ Thành Chính" ID="3424"  BaseHP="100000000" KillPoint="600"  Posx="4119" PosY="5092" IsMonster="false" TriggerIndex="1"/> -->
+	<!-- <ObjectPostion Name="Long Trụ Thành Chính" ID="3424"  BaseHP="100000000" KillPoint="600"  Posx="2549" PosY="5723" IsMonster="false" TriggerIndex="1"/> -->
+    <!-- <ObjectPostion Name="Long Trụ Thành Chính" ID="3424"  BaseHP="100000000" KillPoint="600"  Posx="1337" PosY="5986" IsMonster="false" TriggerIndex="1"/> -->
+	<!-- <ObjectPostion Name="Long Trụ Thành Chính" ID="3424"  BaseHP="100000000" KillPoint="600"  Posx="1724" PosY="5268" IsMonster="false" TriggerIndex="1"/> -->
+    <!-- <ObjectPostion Name="Long Trụ Thành Chính" ID="3424"  BaseHP="100000000" KillPoint="600"  Posx="2836" PosY="4836" IsMonster="false" TriggerIndex="1"/> -->
+	<!-- Danh sách quái mở lần đầu khi bắt đầu sẽ gọi ra-->
+    <!-- <ObjectPostion Name="Binh sĩ công thành" ID="3413" BaseHP="1000000" KillPoint="5" Posx="2741" PosY="4633" IsMonster="true" TriggerIndex="1" /> -->
+	<!-- <ObjectPostion Name="Binh sĩ công thành" ID="3413" BaseHP="1000000" KillPoint="5" Posx="3364" PosY="4681" IsMonster="true" TriggerIndex="1" /> -->
+	<!-- <ObjectPostion Name="Binh sĩ công thành" ID="3413" BaseHP="1000000" KillPoint="5" Posx="3596" PosY="5039" IsMonster="true" TriggerIndex="1" /> -->
+	<!-- <ObjectPostion Name="Binh sĩ công thành" ID="3413" BaseHP="1000000" KillPoint="5" Posx="4642" PosY="4851" IsMonster="true" TriggerIndex="1" /> -->
+	<!-- <ObjectPostion Name="Binh sĩ công thành" ID="3413" BaseHP="1000000" KillPoint="5" Posx="4900" PosY="4243" IsMonster="true" TriggerIndex="1" /> -->
+	<!-- <ObjectPostion Name="Binh sĩ công thành" ID="3413" BaseHP="1000000" KillPoint="5" Posx="4188" PosY="4662" IsMonster="true" TriggerIndex="1" /> -->
+	<!-- <ObjectPostion Name="Binh sĩ công thành" ID="3413" BaseHP="1000000" KillPoint="5" Posx="3383" PosY="5334" IsMonster="true" TriggerIndex="1" /> -->
+	<!-- <ObjectPostion Name="Binh sĩ công thành" ID="3413" BaseHP="1000000" KillPoint="5" Posx="3314" PosY="5797" IsMonster="true" TriggerIndex="1" /> -->
+	<!-- <ObjectPostion Name="Binh sĩ công thành" ID="3413" BaseHP="1000000" KillPoint="5" Posx="2811" PosY="5545" IsMonster="true" TriggerIndex="1" /> -->
+	<!-- <ObjectPostion Name="Binh sĩ công thành" ID="3413" BaseHP="1000000" KillPoint="5" Posx="2361" PosY="6046" IsMonster="true" TriggerIndex="1" /> -->
+	<!-- <ObjectPostion Name="Binh sĩ công thành" ID="3413" BaseHP="1000000" KillPoint="5" Posx="1669" PosY="6030" IsMonster="true" TriggerIndex="1" /> -->
+	<!-- <ObjectPostion Name="Binh sĩ công thành" ID="3413" BaseHP="1000000" KillPoint="5" Posx="1191" PosY="6314" IsMonster="true" TriggerIndex="1" /> -->
+	<!-- <ObjectPostion Name="Binh sĩ công thành" ID="3413" BaseHP="1000000" KillPoint="5" Posx="1259" PosY="5727" IsMonster="true" TriggerIndex="1" /> -->
+	<!-- <ObjectPostion Name="Binh sĩ công thành" ID="3413" BaseHP="1000000" KillPoint="5" Posx="1846" PosY="5572" IsMonster="true" TriggerIndex="1" /> -->
+	<!-- <ObjectPostion Name="Binh sĩ công thành" ID="3413" BaseHP="1000000" KillPoint="5" Posx="1520" PosY="5300" IsMonster="true" TriggerIndex="1" /> -->
+	<!-- <ObjectPostion Name="Binh sĩ công thành" ID="3413" BaseHP="1000000" KillPoint="5" Posx="2229" PosY="5239" IsMonster="true" TriggerIndex="1" /> -->
+	<!-- <ObjectPostion Name="Binh sĩ công thành" ID="3413" BaseHP="1000000" KillPoint="5" Posx="1839" PosY="4744" IsMonster="true" TriggerIndex="1" /> -->
+	<!-- <ObjectPostion Name="Binh sĩ công thành" ID="3413" BaseHP="1000000" KillPoint="5" Posx="2663" PosY="5139" IsMonster="true" TriggerIndex="1" /> -->
+	
+	<!-- <ObjectPostion Name="Tướng lĩnh công thành" ID="3418" BaseHP="50000000" KillPoint="20" Posx="4321" PosY="4865" IsMonster="true" TriggerIndex="1" /> -->
+	<!-- <ObjectPostion Name="Tướng lĩnh công thành" ID="3418" BaseHP="50000000" KillPoint="20" Posx="2741" PosY="4854" IsMonster="true" TriggerIndex="1" /> -->
+	<!-- <ObjectPostion Name="Tướng lĩnh công thành" ID="3418" BaseHP="50000000" KillPoint="20" Posx="1663" PosY="5539" IsMonster="true" TriggerIndex="1" /> -->
+	<!-- <ObjectPostion Name="Tướng lĩnh công thành" ID="3418" BaseHP="50000000" KillPoint="20" Posx="2661" PosY="5593" IsMonster="true" TriggerIndex="1" /> -->
+	
+	<!-- Boss lãnh thổ nếu có -->
+	<!-- <ObjectPostion Name="Nguyên Soái Thủ Thành" ID="3408" BaseHP="150000000" KillPoint="300" Posx="1301" PosY="4364" IsMonster="true" TriggerIndex="1" /> -->
+	
+  <!-- </WarMapConfigs> -->
+  <WarMapConfigs MapID="131" MapName="Tàn Tích Cung A Phòng" FightMapID="-1" Star="2">
+  
+	<!-- Tọa độ các đối tượng trong bản đồ-->
+    <ObjectPostion Name="Long Trụ Thành Chính" ID="3424"  BaseHP="100000000" KillPoint="600"  Posx="5350" PosY="1612" IsMonster="false" TriggerIndex="1"/>
+    <ObjectPostion Name="Long Trụ Thành Chính" ID="3424"  BaseHP="100000000" KillPoint="600"  Posx="5467" PosY="2911" IsMonster="false" TriggerIndex="1"/>
+	<ObjectPostion Name="Long Trụ Thành Chính" ID="3424"  BaseHP="100000000" KillPoint="600"  Posx="6723" PosY="2945" IsMonster="false" TriggerIndex="1"/>
+    <ObjectPostion Name="Long Trụ Thành Chính" ID="3424"  BaseHP="100000000" KillPoint="600"  Posx="7760" PosY="3005" IsMonster="false" TriggerIndex="1"/>
+	<ObjectPostion Name="Long Trụ Thành Chính" ID="3424"  BaseHP="100000000" KillPoint="600"  Posx="8079" PosY="1615" IsMonster="false" TriggerIndex="1"/>
+    <ObjectPostion Name="Long Trụ Thành Chính" ID="3424"  BaseHP="100000000" KillPoint="600"  Posx="6888" PosY="1306" IsMonster="false" TriggerIndex="1"/>
+	<!-- Danh sách quái mở lần đầu khi bắt đầu sẽ gọi ra-->
+    <ObjectPostion Name="Binh sĩ công thành" ID="3413" BaseHP="1000000" KillPoint="5" Posx="6711" PosY="1475" IsMonster="true" TriggerIndex="1" />
+    <ObjectPostion Name="Binh sĩ công thành" ID="3413" BaseHP="1000000" KillPoint="5" Posx="7251" PosY="1395" IsMonster="true" TriggerIndex="1" />	 
+    <ObjectPostion Name="Binh sĩ công thành" ID="3413" BaseHP="1000000" KillPoint="5" Posx="7045" PosY="1077" IsMonster="true" TriggerIndex="1" />
+    <ObjectPostion Name="Binh sĩ công thành" ID="3413" BaseHP="1000000" KillPoint="5" Posx="5654" PosY="1707" IsMonster="true" TriggerIndex="1" />
+    <ObjectPostion Name="Binh sĩ công thành" ID="3413" BaseHP="1000000" KillPoint="5" Posx="5437" PosY="1880" IsMonster="true" TriggerIndex="1" />	 
+    <ObjectPostion Name="Binh sĩ công thành" ID="3413" BaseHP="1000000" KillPoint="5" Posx="4966" PosY="1555" IsMonster="true" TriggerIndex="1" />
+    <ObjectPostion Name="Binh sĩ công thành" ID="3413" BaseHP="1000000" KillPoint="5" Posx="6433" PosY="2751" IsMonster="true" TriggerIndex="1" />
+    <ObjectPostion Name="Binh sĩ công thành" ID="3413" BaseHP="1000000" KillPoint="5" Posx="6967" PosY="2715" IsMonster="true" TriggerIndex="1" />	 
+    <ObjectPostion Name="Binh sĩ công thành" ID="3413" BaseHP="1000000" KillPoint="5" Posx="7144" PosY="3014" IsMonster="true" TriggerIndex="1" />
+    <ObjectPostion Name="Binh sĩ công thành" ID="3413" BaseHP="1000000" KillPoint="5" Posx="8047" PosY="2967" IsMonster="true" TriggerIndex="1" />
+    <ObjectPostion Name="Binh sĩ công thành" ID="3413" BaseHP="1000000" KillPoint="5" Posx="7815" PosY="2819" IsMonster="true" TriggerIndex="1" />	 
+    <ObjectPostion Name="Binh sĩ công thành" ID="3413" BaseHP="1000000" KillPoint="5" Posx="7548" PosY="3235" IsMonster="true" TriggerIndex="1" />
+    <ObjectPostion Name="Binh sĩ công thành" ID="3413" BaseHP="1000000" KillPoint="5" Posx="8156" PosY="1876" IsMonster="true" TriggerIndex="1" />
+    <ObjectPostion Name="Binh sĩ công thành" ID="3413" BaseHP="1000000" KillPoint="5" Posx="8398" PosY="1689" IsMonster="true" TriggerIndex="1" />	 
+    <ObjectPostion Name="Binh sĩ công thành" ID="3413" BaseHP="1000000" KillPoint="5" Posx="8185" PosY="1391" IsMonster="true" TriggerIndex="1" />
+    <ObjectPostion Name="Binh sĩ công thành" ID="3413" BaseHP="1000000" KillPoint="5" Posx="6631" PosY="1415" IsMonster="true" TriggerIndex="1" />
+    <ObjectPostion Name="Binh sĩ công thành" ID="3413" BaseHP="1000000" KillPoint="5" Posx="6742" PosY="1082" IsMonster="true" TriggerIndex="1" />	 
+    <ObjectPostion Name="Binh sĩ công thành" ID="3413" BaseHP="1000000" KillPoint="5" Posx="7270" PosY="1166" IsMonster="true" TriggerIndex="1" />
+		
+
+	<ObjectPostion Name="Tướng lĩnh công thành" ID="3418" BaseHP="50000000" KillPoint="20" Posx="6496" PosY="1346" IsMonster="true" TriggerIndex="1" />
+	<ObjectPostion Name="Tướng lĩnh công thành" ID="3418" BaseHP="50000000" KillPoint="20" Posx="5440" PosY="1378" IsMonster="true" TriggerIndex="1" />
+	<ObjectPostion Name="Tướng lĩnh công thành" ID="3418" BaseHP="50000000" KillPoint="20" Posx="6641" PosY="2551" IsMonster="true" TriggerIndex="1" />
+	<ObjectPostion Name="Tướng lĩnh công thành" ID="3418" BaseHP="50000000" KillPoint="20" Posx="8248" PosY="2891" IsMonster="true" TriggerIndex="1" />
+	<ObjectPostion Name="Tướng lĩnh công thành" ID="3418" BaseHP="50000000" KillPoint="20" Posx="7746" PosY="1838" IsMonster="true" TriggerIndex="1" />
+	<ObjectPostion Name="Tướng lĩnh công thành" ID="3418" BaseHP="50000000" KillPoint="20" Posx="7035" PosY="1586" IsMonster="true" TriggerIndex="1" />	
+	<!-- Boss lãnh thổ nếu có -->
+	<ObjectPostion Name="Nguyên Soái Thủ Thành" ID="3408" BaseHP="150000000" KillPoint="300" Posx="6902" PosY="2135" IsMonster="true" TriggerIndex="1" />
+
+  </WarMapConfigs>
+  <!-- <WarMapConfigs MapID="99" MapName="Bành Lãi Cổ Trạch" FightMapID="-1" Star="1"> -->
+  
+	<!--  Tọa độ các đối tượng trong bản đồ-->
+    <!-- <ObjectPostion Name="Long Trụ Thành Chính" ID="3424"  BaseHP="100000000" KillPoint="600"  Posx="5526" PosY="2889" IsMonster="false" TriggerIndex="1"/> -->
+    <!-- <ObjectPostion Name="Long Trụ Thành Chính" ID="3424"  BaseHP="100000000" KillPoint="600"  Posx="7350" PosY="2992" IsMonster="false" TriggerIndex="1"/> -->
+	<!-- <ObjectPostion Name="Long Trụ Thành Chính" ID="3424"  BaseHP="100000000" KillPoint="600"  Posx="8712" PosY="2720" IsMonster="false" TriggerIndex="1"/> -->
+    <!-- <ObjectPostion Name="Long Trụ Thành Chính" ID="3424"  BaseHP="100000000" KillPoint="600"  Posx="8120" PosY="1444" IsMonster="false" TriggerIndex="1"/> -->
+	<!-- <ObjectPostion Name="Long Trụ Thành Chính" ID="3424"  BaseHP="100000000" KillPoint="600"  Posx="6573" PosY="1381" IsMonster="false" TriggerIndex="1"/> -->
+    <!-- <ObjectPostion Name="Long Trụ Thành Chính" ID="3424"  BaseHP="100000000" KillPoint="600"  Posx="4922" PosY="1638" IsMonster="false" TriggerIndex="1"/> -->
+	 <!-- Danh sách quái mở lần đầu khi bắt đầu sẽ gọi ra--> 
+    <!-- <ObjectPostion Name="Binh sĩ công thành" ID="3413" BaseHP="1000000" KillPoint="5" Posx="4602" PosY="1630" IsMonster="true" TriggerIndex="1" /> -->
+	<!-- <ObjectPostion Name="Binh sĩ công thành" ID="3413" BaseHP="1000000" KillPoint="5" Posx="5082" PosY="1334" IsMonster="true" TriggerIndex="1" /> -->
+	<!-- <ObjectPostion Name="Binh sĩ công thành" ID="3413" BaseHP="1000000" KillPoint="5" Posx="5499" PosY="1727" IsMonster="true" TriggerIndex="1" /> -->
+	<!-- <ObjectPostion Name="Binh sĩ công thành" ID="3413" BaseHP="1000000" KillPoint="5" Posx="6171" PosY="1490" IsMonster="true" TriggerIndex="1" /> -->
+	<!-- <ObjectPostion Name="Binh sĩ công thành" ID="3413" BaseHP="1000000" KillPoint="5" Posx="6670" PosY="2066" IsMonster="true" TriggerIndex="1" /> -->
+	<!-- <ObjectPostion Name="Binh sĩ công thành" ID="3413" BaseHP="1000000" KillPoint="5" Posx="6105" PosY="2532" IsMonster="true" TriggerIndex="1" /> -->
+	<!-- <ObjectPostion Name="Binh sĩ công thành" ID="3413" BaseHP="1000000" KillPoint="5" Posx="5731" PosY="2908" IsMonster="true" TriggerIndex="1" /> -->
+	<!-- <ObjectPostion Name="Binh sĩ công thành" ID="3413" BaseHP="1000000" KillPoint="5" Posx="5193" PosY="3147" IsMonster="true" TriggerIndex="1" /> -->
+	<!-- <ObjectPostion Name="Binh sĩ công thành" ID="3413" BaseHP="1000000" KillPoint="5" Posx="6359" PosY="2871" IsMonster="true" TriggerIndex="1" /> -->
+	<!-- <ObjectPostion Name="Binh sĩ công thành" ID="3413" BaseHP="1000000" KillPoint="5" Posx="6531" PosY="2335" IsMonster="true" TriggerIndex="1" /> -->
+	<!-- <ObjectPostion Name="Binh sĩ công thành" ID="3413" BaseHP="1000000" KillPoint="5" Posx="7071" PosY="2822" IsMonster="true" TriggerIndex="1" /> -->
+	<!-- <ObjectPostion Name="Binh sĩ công thành" ID="3413" BaseHP="1000000" KillPoint="5" Posx="7774" PosY="3041" IsMonster="true" TriggerIndex="1" /> -->
+	<!-- <ObjectPostion Name="Binh sĩ công thành" ID="3413" BaseHP="1000000" KillPoint="5" Posx="7728" PosY="2471" IsMonster="true" TriggerIndex="1" /> -->
+	<!-- <ObjectPostion Name="Binh sĩ công thành" ID="3413" BaseHP="1000000" KillPoint="5" Posx="7672" PosY="2076" IsMonster="true" TriggerIndex="1" /> -->
+	<!-- <ObjectPostion Name="Binh sĩ công thành" ID="3413" BaseHP="1000000" KillPoint="5" Posx="8183" PosY="2707" IsMonster="true" TriggerIndex="1" /> -->
+	<!-- <ObjectPostion Name="Binh sĩ công thành" ID="3413" BaseHP="1000000" KillPoint="5" Posx="8957" PosY="2459" IsMonster="true" TriggerIndex="1" /> -->
+	<!-- <ObjectPostion Name="Binh sĩ công thành" ID="3413" BaseHP="1000000" KillPoint="5" Posx="8005" PosY="1431" IsMonster="true" TriggerIndex="1" /> -->
+	<!-- <ObjectPostion Name="Binh sĩ công thành" ID="3413" BaseHP="1000000" KillPoint="5" Posx="7621" PosY="1143" IsMonster="true" TriggerIndex="1" />	 -->
+	<!-- <ObjectPostion Name="Binh sĩ công thành" ID="3413" BaseHP="1000000" KillPoint="5" Posx="7025" PosY="1068" IsMonster="true" TriggerIndex="1" /> -->
+	<!-- <ObjectPostion Name="Binh sĩ công thành" ID="3413" BaseHP="1000000" KillPoint="5" Posx="6824" PosY="1482" IsMonster="true" TriggerIndex="1" /> -->
+	<!-- <ObjectPostion Name="Binh sĩ công thành" ID="3413" BaseHP="1000000" KillPoint="5" Posx="7755" PosY="1597" IsMonster="true" TriggerIndex="1" /> -->
+	<!-- <ObjectPostion Name="Binh sĩ công thành" ID="3413" BaseHP="1000000" KillPoint="5" Posx="8536" PosY="1384" IsMonster="true" TriggerIndex="1" /> -->
+	<!-- <ObjectPostion Name="Binh sĩ công thành" ID="3413" BaseHP="1000000" KillPoint="5" Posx="8785" PosY="2814" IsMonster="true" TriggerIndex="1" /> -->
+	
+	<!-- <ObjectPostion Name="Tướng lĩnh công thành" ID="3418" BaseHP="50000000" KillPoint="20" Posx="8249" PosY="2575" IsMonster="true" TriggerIndex="1" /> -->
+	<!-- <ObjectPostion Name="Tướng lĩnh công thành" ID="3418" BaseHP="50000000" KillPoint="20" Posx="6839" PosY="2731" IsMonster="true" TriggerIndex="1" /> -->
+	<!-- <ObjectPostion Name="Tướng lĩnh công thành" ID="3418" BaseHP="50000000" KillPoint="20" Posx="5636" PosY="2669" IsMonster="true" TriggerIndex="1" /> -->
+	<!-- <ObjectPostion Name="Tướng lĩnh công thành" ID="3418" BaseHP="50000000" KillPoint="20" Posx="5539" PosY="1582" IsMonster="true" TriggerIndex="1" /> -->
+	<!-- <ObjectPostion Name="Tướng lĩnh công thành" ID="3418" BaseHP="50000000" KillPoint="20" Posx="7116" PosY="1264" IsMonster="true" TriggerIndex="1" /> -->
+	
+	 <!-- Boss lãnh thổ nếu có --> 
+	<!-- <ObjectPostion Name="Nguyên Soái Thủ Thành" ID="3408" BaseHP="150000000" KillPoint="300" Posx="6951" PosY="1985" IsMonster="true" TriggerIndex="1" /> -->
+	
+  <!-- </WarMapConfigs> -->
+  <!-- <WarMapConfigs MapID="133" MapName="Lương Sơn Bạc" FightMapID="-1" Star="3"> -->
+  
+	<!--  Tọa độ các đối tượng trong bản đồ--> 
+    <!-- <ObjectPostion Name="Long Trụ Thành Chính" ID="3424"  BaseHP="100000000" KillPoint="600"  Posx="5526" PosY="2889" IsMonster="false" TriggerIndex="1"/> -->
+    <!-- <ObjectPostion Name="Long Trụ Thành Chính" ID="3424"  BaseHP="100000000" KillPoint="600"  Posx="7350" PosY="2992" IsMonster="false" TriggerIndex="1"/> -->
+	<!-- <ObjectPostion Name="Long Trụ Thành Chính" ID="3424"  BaseHP="100000000" KillPoint="600"  Posx="8712" PosY="2720" IsMonster="false" TriggerIndex="1"/> -->
+    <!-- <ObjectPostion Name="Long Trụ Thành Chính" ID="3424"  BaseHP="100000000" KillPoint="600"  Posx="8120" PosY="1444" IsMonster="false" TriggerIndex="1"/> -->
+	<!-- <ObjectPostion Name="Long Trụ Thành Chính" ID="3424"  BaseHP="100000000" KillPoint="600"  Posx="6573" PosY="1381" IsMonster="false" TriggerIndex="1"/> -->
+    <!-- <ObjectPostion Name="Long Trụ Thành Chính" ID="3424"  BaseHP="100000000" KillPoint="600"  Posx="4922" PosY="1638" IsMonster="false" TriggerIndex="1"/> -->
+	<!--  Danh sách quái mở lần đầu khi bắt đầu sẽ gọi ra--> 
+    <!-- <ObjectPostion Name="Binh sĩ công thành" ID="3413" BaseHP="1000000" KillPoint="5" Posx="4602" PosY="1630" IsMonster="true" TriggerIndex="1" /> -->
+	<!-- <ObjectPostion Name="Binh sĩ công thành" ID="3413" BaseHP="1000000" KillPoint="5" Posx="5082" PosY="1334" IsMonster="true" TriggerIndex="1" /> -->
+	<!-- <ObjectPostion Name="Binh sĩ công thành" ID="3413" BaseHP="1000000" KillPoint="5" Posx="5499" PosY="1727" IsMonster="true" TriggerIndex="1" /> -->
+	<!-- <ObjectPostion Name="Binh sĩ công thành" ID="3413" BaseHP="1000000" KillPoint="5" Posx="6171" PosY="1490" IsMonster="true" TriggerIndex="1" /> -->
+	<!-- <ObjectPostion Name="Binh sĩ công thành" ID="3413" BaseHP="1000000" KillPoint="5" Posx="6670" PosY="2066" IsMonster="true" TriggerIndex="1" /> -->
+	<!-- <ObjectPostion Name="Binh sĩ công thành" ID="3413" BaseHP="1000000" KillPoint="5" Posx="6105" PosY="2532" IsMonster="true" TriggerIndex="1" /> -->
+	<!-- <ObjectPostion Name="Binh sĩ công thành" ID="3413" BaseHP="1000000" KillPoint="5" Posx="5731" PosY="2908" IsMonster="true" TriggerIndex="1" /> -->
+	<!-- <ObjectPostion Name="Binh sĩ công thành" ID="3413" BaseHP="1000000" KillPoint="5" Posx="5193" PosY="3147" IsMonster="true" TriggerIndex="1" /> -->
+	<!-- <ObjectPostion Name="Binh sĩ công thành" ID="3413" BaseHP="1000000" KillPoint="5" Posx="6359" PosY="2871" IsMonster="true" TriggerIndex="1" /> -->
+	<!-- <ObjectPostion Name="Binh sĩ công thành" ID="3413" BaseHP="1000000" KillPoint="5" Posx="6531" PosY="2335" IsMonster="true" TriggerIndex="1" /> -->
+	<!-- <ObjectPostion Name="Binh sĩ công thành" ID="3413" BaseHP="1000000" KillPoint="5" Posx="7071" PosY="2822" IsMonster="true" TriggerIndex="1" /> -->
+	<!-- <ObjectPostion Name="Binh sĩ công thành" ID="3413" BaseHP="1000000" KillPoint="5" Posx="7774" PosY="3041" IsMonster="true" TriggerIndex="1" /> -->
+	<!-- <ObjectPostion Name="Binh sĩ công thành" ID="3413" BaseHP="1000000" KillPoint="5" Posx="7728" PosY="2471" IsMonster="true" TriggerIndex="1" /> -->
+	<!-- <ObjectPostion Name="Binh sĩ công thành" ID="3413" BaseHP="1000000" KillPoint="5" Posx="7672" PosY="2076" IsMonster="true" TriggerIndex="1" /> -->
+	<!-- <ObjectPostion Name="Binh sĩ công thành" ID="3413" BaseHP="1000000" KillPoint="5" Posx="8183" PosY="2707" IsMonster="true" TriggerIndex="1" /> -->
+	<!-- <ObjectPostion Name="Binh sĩ công thành" ID="3413" BaseHP="1000000" KillPoint="5" Posx="8957" PosY="2459" IsMonster="true" TriggerIndex="1" /> -->
+	<!-- <ObjectPostion Name="Binh sĩ công thành" ID="3413" BaseHP="1000000" KillPoint="5" Posx="8005" PosY="1431" IsMonster="true" TriggerIndex="1" /> -->
+	<!-- <ObjectPostion Name="Binh sĩ công thành" ID="3413" BaseHP="1000000" KillPoint="5" Posx="7621" PosY="1143" IsMonster="true" TriggerIndex="1" />	 -->
+	<!-- <ObjectPostion Name="Binh sĩ công thành" ID="3413" BaseHP="1000000" KillPoint="5" Posx="7025" PosY="1068" IsMonster="true" TriggerIndex="1" /> -->
+	<!-- <ObjectPostion Name="Binh sĩ công thành" ID="3413" BaseHP="1000000" KillPoint="5" Posx="6824" PosY="1482" IsMonster="true" TriggerIndex="1" /> -->
+	<!-- <ObjectPostion Name="Binh sĩ công thành" ID="3413" BaseHP="1000000" KillPoint="5" Posx="7755" PosY="1597" IsMonster="true" TriggerIndex="1" /> -->
+	<!-- <ObjectPostion Name="Binh sĩ công thành" ID="3413" BaseHP="1000000" KillPoint="5" Posx="8536" PosY="1384" IsMonster="true" TriggerIndex="1" /> -->
+	<!-- <ObjectPostion Name="Binh sĩ công thành" ID="3413" BaseHP="1000000" KillPoint="5" Posx="8785" PosY="2814" IsMonster="true" TriggerIndex="1" /> -->
+	
+	<!-- <ObjectPostion Name="Tướng lĩnh công thành" ID="3418" BaseHP="50000000" KillPoint="20" Posx="8249" PosY="2575" IsMonster="true" TriggerIndex="1" /> -->
+	<!-- <ObjectPostion Name="Tướng lĩnh công thành" ID="3418" BaseHP="50000000" KillPoint="20" Posx="6839" PosY="2731" IsMonster="true" TriggerIndex="1" /> -->
+	<!-- <ObjectPostion Name="Tướng lĩnh công thành" ID="3418" BaseHP="50000000" KillPoint="20" Posx="5636" PosY="2669" IsMonster="true" TriggerIndex="1" /> -->
+	<!-- <ObjectPostion Name="Tướng lĩnh công thành" ID="3418" BaseHP="50000000" KillPoint="20" Posx="5539" PosY="1582" IsMonster="true" TriggerIndex="1" /> -->
+	<!-- <ObjectPostion Name="Tướng lĩnh công thành" ID="3418" BaseHP="50000000" KillPoint="20" Posx="7116" PosY="1264" IsMonster="true" TriggerIndex="1" /> -->
+	
+	<!--  Boss lãnh thổ nếu có --> 
+	<!-- <ObjectPostion Name="Nguyên Soái Thủ Thành" ID="3408" BaseHP="150000000" KillPoint="300" Posx="6951" PosY="1985" IsMonster="true" TriggerIndex="1" /> -->
+	
+  <!-- </WarMapConfigs> -->
+  <!-- <WarMapConfigs MapID="134" MapName="Thần Nữ Phong" FightMapID="-1" Star="2"> -->
+  
+	<!--  Tọa độ các đối tượng trong bản đồ-->
+    <!-- <ObjectPostion Name="Long Trụ Thành Chính" ID="3424"  BaseHP="100000000" KillPoint="600"  Posx="5526" PosY="2889" IsMonster="false" TriggerIndex="1"/> -->
+    <!-- <ObjectPostion Name="Long Trụ Thành Chính" ID="3424"  BaseHP="100000000" KillPoint="600"  Posx="7350" PosY="2992" IsMonster="false" TriggerIndex="1"/> -->
+	<!-- <ObjectPostion Name="Long Trụ Thành Chính" ID="3424"  BaseHP="100000000" KillPoint="600"  Posx="8712" PosY="2720" IsMonster="false" TriggerIndex="1"/> -->
+    <!-- <ObjectPostion Name="Long Trụ Thành Chính" ID="3424"  BaseHP="100000000" KillPoint="600"  Posx="8120" PosY="1444" IsMonster="false" TriggerIndex="1"/> -->
+	<!-- <ObjectPostion Name="Long Trụ Thành Chính" ID="3424"  BaseHP="100000000" KillPoint="600"  Posx="6573" PosY="1381" IsMonster="false" TriggerIndex="1"/> -->
+    <!-- <ObjectPostion Name="Long Trụ Thành Chính" ID="3424"  BaseHP="100000000" KillPoint="600"  Posx="4922" PosY="1638" IsMonster="false" TriggerIndex="1"/> -->
+	<!--  Danh sách quái mở lần đầu khi bắt đầu sẽ gọi ra--> 
+    <!-- <ObjectPostion Name="Binh sĩ công thành" ID="3413" BaseHP="1000000" KillPoint="5" Posx="4602" PosY="1630" IsMonster="true" TriggerIndex="1" /> -->
+	<!-- <ObjectPostion Name="Binh sĩ công thành" ID="3413" BaseHP="1000000" KillPoint="5" Posx="5082" PosY="1334" IsMonster="true" TriggerIndex="1" /> -->
+	<!-- <ObjectPostion Name="Binh sĩ công thành" ID="3413" BaseHP="1000000" KillPoint="5" Posx="5499" PosY="1727" IsMonster="true" TriggerIndex="1" /> -->
+	<!-- <ObjectPostion Name="Binh sĩ công thành" ID="3413" BaseHP="1000000" KillPoint="5" Posx="6171" PosY="1490" IsMonster="true" TriggerIndex="1" /> -->
+	<!-- <ObjectPostion Name="Binh sĩ công thành" ID="3413" BaseHP="1000000" KillPoint="5" Posx="6670" PosY="2066" IsMonster="true" TriggerIndex="1" /> -->
+	<!-- <ObjectPostion Name="Binh sĩ công thành" ID="3413" BaseHP="1000000" KillPoint="5" Posx="6105" PosY="2532" IsMonster="true" TriggerIndex="1" /> -->
+	<!-- <ObjectPostion Name="Binh sĩ công thành" ID="3413" BaseHP="1000000" KillPoint="5" Posx="5731" PosY="2908" IsMonster="true" TriggerIndex="1" /> -->
+	<!-- <ObjectPostion Name="Binh sĩ công thành" ID="3413" BaseHP="1000000" KillPoint="5" Posx="5193" PosY="3147" IsMonster="true" TriggerIndex="1" /> -->
+	<!-- <ObjectPostion Name="Binh sĩ công thành" ID="3413" BaseHP="1000000" KillPoint="5" Posx="6359" PosY="2871" IsMonster="true" TriggerIndex="1" /> -->
+	<!-- <ObjectPostion Name="Binh sĩ công thành" ID="3413" BaseHP="1000000" KillPoint="5" Posx="6531" PosY="2335" IsMonster="true" TriggerIndex="1" /> -->
+	<!-- <ObjectPostion Name="Binh sĩ công thành" ID="3413" BaseHP="1000000" KillPoint="5" Posx="7071" PosY="2822" IsMonster="true" TriggerIndex="1" /> -->
+	<!-- <ObjectPostion Name="Binh sĩ công thành" ID="3413" BaseHP="1000000" KillPoint="5" Posx="7774" PosY="3041" IsMonster="true" TriggerIndex="1" /> -->
+	<!-- <ObjectPostion Name="Binh sĩ công thành" ID="3413" BaseHP="1000000" KillPoint="5" Posx="7728" PosY="2471" IsMonster="true" TriggerIndex="1" /> -->
+	<!-- <ObjectPostion Name="Binh sĩ công thành" ID="3413" BaseHP="1000000" KillPoint="5" Posx="7672" PosY="2076" IsMonster="true" TriggerIndex="1" /> -->
+	<!-- <ObjectPostion Name="Binh sĩ công thành" ID="3413" BaseHP="1000000" KillPoint="5" Posx="8183" PosY="2707" IsMonster="true" TriggerIndex="1" /> -->
+	<!-- <ObjectPostion Name="Binh sĩ công thành" ID="3413" BaseHP="1000000" KillPoint="5" Posx="8957" PosY="2459" IsMonster="true" TriggerIndex="1" /> -->
+	<!-- <ObjectPostion Name="Binh sĩ công thành" ID="3413" BaseHP="1000000" KillPoint="5" Posx="8005" PosY="1431" IsMonster="true" TriggerIndex="1" /> -->
+	<!-- <ObjectPostion Name="Binh sĩ công thành" ID="3413" BaseHP="1000000" KillPoint="5" Posx="7621" PosY="1143" IsMonster="true" TriggerIndex="1" />	 -->
+	<!-- <ObjectPostion Name="Binh sĩ công thành" ID="3413" BaseHP="1000000" KillPoint="5" Posx="7025" PosY="1068" IsMonster="true" TriggerIndex="1" /> -->
+	<!-- <ObjectPostion Name="Binh sĩ công thành" ID="3413" BaseHP="1000000" KillPoint="5" Posx="6824" PosY="1482" IsMonster="true" TriggerIndex="1" /> -->
+	<!-- <ObjectPostion Name="Binh sĩ công thành" ID="3413" BaseHP="1000000" KillPoint="5" Posx="7755" PosY="1597" IsMonster="true" TriggerIndex="1" /> -->
+	<!-- <ObjectPostion Name="Binh sĩ công thành" ID="3413" BaseHP="1000000" KillPoint="5" Posx="8536" PosY="1384" IsMonster="true" TriggerIndex="1" /> -->
+	<!-- <ObjectPostion Name="Binh sĩ công thành" ID="3413" BaseHP="1000000" KillPoint="5" Posx="8785" PosY="2814" IsMonster="true" TriggerIndex="1" /> -->
+	
+	<!-- <ObjectPostion Name="Tướng lĩnh công thành" ID="3418" BaseHP="50000000" KillPoint="20" Posx="8249" PosY="2575" IsMonster="true" TriggerIndex="1" /> -->
+	<!-- <ObjectPostion Name="Tướng lĩnh công thành" ID="3418" BaseHP="50000000" KillPoint="20" Posx="6839" PosY="2731" IsMonster="true" TriggerIndex="1" /> -->
+	<!-- <ObjectPostion Name="Tướng lĩnh công thành" ID="3418" BaseHP="50000000" KillPoint="20" Posx="5636" PosY="2669" IsMonster="true" TriggerIndex="1" /> -->
+	<!-- <ObjectPostion Name="Tướng lĩnh công thành" ID="3418" BaseHP="50000000" KillPoint="20" Posx="5539" PosY="1582" IsMonster="true" TriggerIndex="1" /> -->
+	<!-- <ObjectPostion Name="Tướng lĩnh công thành" ID="3418" BaseHP="50000000" KillPoint="20" Posx="7116" PosY="1264" IsMonster="true" TriggerIndex="1" /> -->
+	
+	<!--  Boss lãnh thổ nếu có --> 
+	<!-- <ObjectPostion Name="Nguyên Soái Thủ Thành" ID="3408" BaseHP="150000000" KillPoint="300" Posx="6951" PosY="1985" IsMonster="true" TriggerIndex="1" /> -->
+	
+  <!-- </WarMapConfigs> -->
+  <!-- <WarMapConfigs MapID="136" MapName="Cổ Lãng Dữ" FightMapID="-1" Star="1"> -->
+  
+	<!-- Tọa độ các đối tượng trong bản đồ--> 
+    <!-- <ObjectPostion Name="Long Trụ Thành Chính" ID="3424"  BaseHP="100000000" KillPoint="600"  Posx="5526" PosY="2889" IsMonster="false" TriggerIndex="1"/> -->
+    <!-- <ObjectPostion Name="Long Trụ Thành Chính" ID="3424"  BaseHP="100000000" KillPoint="600"  Posx="7350" PosY="2992" IsMonster="false" TriggerIndex="1"/> -->
+	<!-- <ObjectPostion Name="Long Trụ Thành Chính" ID="3424"  BaseHP="100000000" KillPoint="600"  Posx="8712" PosY="2720" IsMonster="false" TriggerIndex="1"/> -->
+    <!-- <ObjectPostion Name="Long Trụ Thành Chính" ID="3424"  BaseHP="100000000" KillPoint="600"  Posx="8120" PosY="1444" IsMonster="false" TriggerIndex="1"/> -->
+	<!-- <ObjectPostion Name="Long Trụ Thành Chính" ID="3424"  BaseHP="100000000" KillPoint="600"  Posx="6573" PosY="1381" IsMonster="false" TriggerIndex="1"/> -->
+    <!-- <ObjectPostion Name="Long Trụ Thành Chính" ID="3424"  BaseHP="100000000" KillPoint="600"  Posx="4922" PosY="1638" IsMonster="false" TriggerIndex="1"/> -->
+	<!-- Danh sách quái mở lần đầu khi bắt đầu sẽ gọi ra-->
+    <!-- <ObjectPostion Name="Binh sĩ công thành" ID="3413" BaseHP="1000000" KillPoint="5" Posx="4602" PosY="1630" IsMonster="true" TriggerIndex="1" /> -->
+	<!-- <ObjectPostion Name="Binh sĩ công thành" ID="3413" BaseHP="1000000" KillPoint="5" Posx="5082" PosY="1334" IsMonster="true" TriggerIndex="1" /> -->
+	<!-- <ObjectPostion Name="Binh sĩ công thành" ID="3413" BaseHP="1000000" KillPoint="5" Posx="5499" PosY="1727" IsMonster="true" TriggerIndex="1" /> -->
+	<!-- <ObjectPostion Name="Binh sĩ công thành" ID="3413" BaseHP="1000000" KillPoint="5" Posx="6171" PosY="1490" IsMonster="true" TriggerIndex="1" /> -->
+	<!-- <ObjectPostion Name="Binh sĩ công thành" ID="3413" BaseHP="1000000" KillPoint="5" Posx="6670" PosY="2066" IsMonster="true" TriggerIndex="1" /> -->
+	<!-- <ObjectPostion Name="Binh sĩ công thành" ID="3413" BaseHP="1000000" KillPoint="5" Posx="6105" PosY="2532" IsMonster="true" TriggerIndex="1" /> -->
+	<!-- <ObjectPostion Name="Binh sĩ công thành" ID="3413" BaseHP="1000000" KillPoint="5" Posx="5731" PosY="2908" IsMonster="true" TriggerIndex="1" /> -->
+	<!-- <ObjectPostion Name="Binh sĩ công thành" ID="3413" BaseHP="1000000" KillPoint="5" Posx="5193" PosY="3147" IsMonster="true" TriggerIndex="1" /> -->
+	<!-- <ObjectPostion Name="Binh sĩ công thành" ID="3413" BaseHP="1000000" KillPoint="5" Posx="6359" PosY="2871" IsMonster="true" TriggerIndex="1" /> -->
+	<!-- <ObjectPostion Name="Binh sĩ công thành" ID="3413" BaseHP="1000000" KillPoint="5" Posx="6531" PosY="2335" IsMonster="true" TriggerIndex="1" /> -->
+	<!-- <ObjectPostion Name="Binh sĩ công thành" ID="3413" BaseHP="1000000" KillPoint="5" Posx="7071" PosY="2822" IsMonster="true" TriggerIndex="1" /> -->
+	<!-- <ObjectPostion Name="Binh sĩ công thành" ID="3413" BaseHP="1000000" KillPoint="5" Posx="7774" PosY="3041" IsMonster="true" TriggerIndex="1" /> -->
+	<!-- <ObjectPostion Name="Binh sĩ công thành" ID="3413" BaseHP="1000000" KillPoint="5" Posx="7728" PosY="2471" IsMonster="true" TriggerIndex="1" /> -->
+	<!-- <ObjectPostion Name="Binh sĩ công thành" ID="3413" BaseHP="1000000" KillPoint="5" Posx="7672" PosY="2076" IsMonster="true" TriggerIndex="1" /> -->
+	<!-- <ObjectPostion Name="Binh sĩ công thành" ID="3413" BaseHP="1000000" KillPoint="5" Posx="8183" PosY="2707" IsMonster="true" TriggerIndex="1" /> -->
+	<!-- <ObjectPostion Name="Binh sĩ công thành" ID="3413" BaseHP="1000000" KillPoint="5" Posx="8957" PosY="2459" IsMonster="true" TriggerIndex="1" /> -->
+	<!-- <ObjectPostion Name="Binh sĩ công thành" ID="3413" BaseHP="1000000" KillPoint="5" Posx="8005" PosY="1431" IsMonster="true" TriggerIndex="1" /> -->
+	<!-- <ObjectPostion Name="Binh sĩ công thành" ID="3413" BaseHP="1000000" KillPoint="5" Posx="7621" PosY="1143" IsMonster="true" TriggerIndex="1" />	 -->
+	<!-- <ObjectPostion Name="Binh sĩ công thành" ID="3413" BaseHP="1000000" KillPoint="5" Posx="7025" PosY="1068" IsMonster="true" TriggerIndex="1" /> -->
+	<!-- <ObjectPostion Name="Binh sĩ công thành" ID="3413" BaseHP="1000000" KillPoint="5" Posx="6824" PosY="1482" IsMonster="true" TriggerIndex="1" /> -->
+	<!-- <ObjectPostion Name="Binh sĩ công thành" ID="3413" BaseHP="1000000" KillPoint="5" Posx="7755" PosY="1597" IsMonster="true" TriggerIndex="1" /> -->
+	<!-- <ObjectPostion Name="Binh sĩ công thành" ID="3413" BaseHP="1000000" KillPoint="5" Posx="8536" PosY="1384" IsMonster="true" TriggerIndex="1" /> -->
+	<!-- <ObjectPostion Name="Binh sĩ công thành" ID="3413" BaseHP="1000000" KillPoint="5" Posx="8785" PosY="2814" IsMonster="true" TriggerIndex="1" /> -->
+	
+	<!-- <ObjectPostion Name="Tướng lĩnh công thành" ID="3418" BaseHP="50000000" KillPoint="20" Posx="8249" PosY="2575" IsMonster="true" TriggerIndex="1" /> -->
+	<!-- <ObjectPostion Name="Tướng lĩnh công thành" ID="3418" BaseHP="50000000" KillPoint="20" Posx="6839" PosY="2731" IsMonster="true" TriggerIndex="1" /> -->
+	<!-- <ObjectPostion Name="Tướng lĩnh công thành" ID="3418" BaseHP="50000000" KillPoint="20" Posx="5636" PosY="2669" IsMonster="true" TriggerIndex="1" /> -->
+	<!-- <ObjectPostion Name="Tướng lĩnh công thành" ID="3418" BaseHP="50000000" KillPoint="20" Posx="5539" PosY="1582" IsMonster="true" TriggerIndex="1" /> -->
+	<!-- <ObjectPostion Name="Tướng lĩnh công thành" ID="3418" BaseHP="50000000" KillPoint="20" Posx="7116" PosY="1264" IsMonster="true" TriggerIndex="1" /> -->
+	
+	<!-- Boss lãnh thổ nếu có --> 
+	<!-- <ObjectPostion Name="Nguyên Soái Thủ Thành" ID="3408" BaseHP="150000000" KillPoint="300" Posx="6951" PosY="1985" IsMonster="true" TriggerIndex="1" /> -->
+	
+  <!-- </WarMapConfigs> -->
+  <!-- <WarMapConfigs MapID="137" MapName="Đào Hoa Nguyên" FightMapID="-1" Star="1"> -->
+  
+	<!-- Tọa độ các đối tượng trong bản đồ--> 
+    <!-- <ObjectPostion Name="Long Trụ Thành Chính" ID="3424"  BaseHP="100000000" KillPoint="600"  Posx="5526" PosY="2889" IsMonster="false" TriggerIndex="1"/> -->
+    <!-- <ObjectPostion Name="Long Trụ Thành Chính" ID="3424"  BaseHP="100000000" KillPoint="600"  Posx="7350" PosY="2992" IsMonster="false" TriggerIndex="1"/> -->
+	<!-- <ObjectPostion Name="Long Trụ Thành Chính" ID="3424"  BaseHP="100000000" KillPoint="600"  Posx="8712" PosY="2720" IsMonster="false" TriggerIndex="1"/> -->
+    <!-- <ObjectPostion Name="Long Trụ Thành Chính" ID="3424"  BaseHP="100000000" KillPoint="600"  Posx="8120" PosY="1444" IsMonster="false" TriggerIndex="1"/> -->
+	<!-- <ObjectPostion Name="Long Trụ Thành Chính" ID="3424"  BaseHP="100000000" KillPoint="600"  Posx="6573" PosY="1381" IsMonster="false" TriggerIndex="1"/> -->
+    <!-- <ObjectPostion Name="Long Trụ Thành Chính" ID="3424"  BaseHP="100000000" KillPoint="600"  Posx="4922" PosY="1638" IsMonster="false" TriggerIndex="1"/> -->
+	<!-- Danh sách quái mở lần đầu khi bắt đầu sẽ gọi ra--> 
+    <!-- <ObjectPostion Name="Binh sĩ công thành" ID="3413" BaseHP="1000000" KillPoint="5" Posx="4602" PosY="1630" IsMonster="true" TriggerIndex="1" /> -->
+	<!-- <ObjectPostion Name="Binh sĩ công thành" ID="3413" BaseHP="1000000" KillPoint="5" Posx="5082" PosY="1334" IsMonster="true" TriggerIndex="1" /> -->
+	<!-- <ObjectPostion Name="Binh sĩ công thành" ID="3413" BaseHP="1000000" KillPoint="5" Posx="5499" PosY="1727" IsMonster="true" TriggerIndex="1" /> -->
+	<!-- <ObjectPostion Name="Binh sĩ công thành" ID="3413" BaseHP="1000000" KillPoint="5" Posx="6171" PosY="1490" IsMonster="true" TriggerIndex="1" /> -->
+	<!-- <ObjectPostion Name="Binh sĩ công thành" ID="3413" BaseHP="1000000" KillPoint="5" Posx="6670" PosY="2066" IsMonster="true" TriggerIndex="1" /> -->
+	<!-- <ObjectPostion Name="Binh sĩ công thành" ID="3413" BaseHP="1000000" KillPoint="5" Posx="6105" PosY="2532" IsMonster="true" TriggerIndex="1" /> -->
+	<!-- <ObjectPostion Name="Binh sĩ công thành" ID="3413" BaseHP="1000000" KillPoint="5" Posx="5731" PosY="2908" IsMonster="true" TriggerIndex="1" /> -->
+	<!-- <ObjectPostion Name="Binh sĩ công thành" ID="3413" BaseHP="1000000" KillPoint="5" Posx="5193" PosY="3147" IsMonster="true" TriggerIndex="1" /> -->
+	<!-- <ObjectPostion Name="Binh sĩ công thành" ID="3413" BaseHP="1000000" KillPoint="5" Posx="6359" PosY="2871" IsMonster="true" TriggerIndex="1" /> -->
+	<!-- <ObjectPostion Name="Binh sĩ công thành" ID="3413" BaseHP="1000000" KillPoint="5" Posx="6531" PosY="2335" IsMonster="true" TriggerIndex="1" /> -->
+	<!-- <ObjectPostion Name="Binh sĩ công thành" ID="3413" BaseHP="1000000" KillPoint="5" Posx="7071" PosY="2822" IsMonster="true" TriggerIndex="1" /> -->
+	<!-- <ObjectPostion Name="Binh sĩ công thành" ID="3413" BaseHP="1000000" KillPoint="5" Posx="7774" PosY="3041" IsMonster="true" TriggerIndex="1" /> -->
+	<!-- <ObjectPostion Name="Binh sĩ công thành" ID="3413" BaseHP="1000000" KillPoint="5" Posx="7728" PosY="2471" IsMonster="true" TriggerIndex="1" /> -->
+	<!-- <ObjectPostion Name="Binh sĩ công thành" ID="3413" BaseHP="1000000" KillPoint="5" Posx="7672" PosY="2076" IsMonster="true" TriggerIndex="1" /> -->
+	<!-- <ObjectPostion Name="Binh sĩ công thành" ID="3413" BaseHP="1000000" KillPoint="5" Posx="8183" PosY="2707" IsMonster="true" TriggerIndex="1" /> -->
+	<!-- <ObjectPostion Name="Binh sĩ công thành" ID="3413" BaseHP="1000000" KillPoint="5" Posx="8957" PosY="2459" IsMonster="true" TriggerIndex="1" /> -->
+	<!-- <ObjectPostion Name="Binh sĩ công thành" ID="3413" BaseHP="1000000" KillPoint="5" Posx="8005" PosY="1431" IsMonster="true" TriggerIndex="1" /> -->
+	<!-- <ObjectPostion Name="Binh sĩ công thành" ID="3413" BaseHP="1000000" KillPoint="5" Posx="7621" PosY="1143" IsMonster="true" TriggerIndex="1" />	 -->
+	<!-- <ObjectPostion Name="Binh sĩ công thành" ID="3413" BaseHP="1000000" KillPoint="5" Posx="7025" PosY="1068" IsMonster="true" TriggerIndex="1" /> -->
+	<!-- <ObjectPostion Name="Binh sĩ công thành" ID="3413" BaseHP="1000000" KillPoint="5" Posx="6824" PosY="1482" IsMonster="true" TriggerIndex="1" /> -->
+	<!-- <ObjectPostion Name="Binh sĩ công thành" ID="3413" BaseHP="1000000" KillPoint="5" Posx="7755" PosY="1597" IsMonster="true" TriggerIndex="1" /> -->
+	<!-- <ObjectPostion Name="Binh sĩ công thành" ID="3413" BaseHP="1000000" KillPoint="5" Posx="8536" PosY="1384" IsMonster="true" TriggerIndex="1" /> -->
+	<!-- <ObjectPostion Name="Binh sĩ công thành" ID="3413" BaseHP="1000000" KillPoint="5" Posx="8785" PosY="2814" IsMonster="true" TriggerIndex="1" /> -->
+	
+	<!-- <ObjectPostion Name="Tướng lĩnh công thành" ID="3418" BaseHP="50000000" KillPoint="20" Posx="8249" PosY="2575" IsMonster="true" TriggerIndex="1" /> -->
+	<!-- <ObjectPostion Name="Tướng lĩnh công thành" ID="3418" BaseHP="50000000" KillPoint="20" Posx="6839" PosY="2731" IsMonster="true" TriggerIndex="1" /> -->
+	<!-- <ObjectPostion Name="Tướng lĩnh công thành" ID="3418" BaseHP="50000000" KillPoint="20" Posx="5636" PosY="2669" IsMonster="true" TriggerIndex="1" /> -->
+	<!-- <ObjectPostion Name="Tướng lĩnh công thành" ID="3418" BaseHP="50000000" KillPoint="20" Posx="5539" PosY="1582" IsMonster="true" TriggerIndex="1" /> -->
+	<!-- <ObjectPostion Name="Tướng lĩnh công thành" ID="3418" BaseHP="50000000" KillPoint="20" Posx="7116" PosY="1264" IsMonster="true" TriggerIndex="1" /> -->
+	
+	<!-- Boss lãnh thổ nếu có --> 
+	<!-- <ObjectPostion Name="Nguyên Soái Thủ Thành" ID="3408" BaseHP="150000000" KillPoint="300" Posx="6951" PosY="1985" IsMonster="true" TriggerIndex="1" /> -->
+	
+  <!-- </WarMapConfigs> -->
+  
+  
+   <!-- End danh sách bản đồ mở tranh đoạt -->
+   
+   
+   <!--Thời gian mở tranh đoat thứ 7 và chủ nhật hàng tuần lúc 20h bắt đầu -->
+	
+	
+  
+  
+  
+    <!-- Danh sách các bản đồ liền kề -->
+  
+  <!-- <NearMapConfig MapId="1" MapName="Vân Trung Trấn" MapType="Tân Thủ Thôn" FightMapId="30" Star="2"> -->
+  <!-- </NearMapConfig> -->
+  <NearMapConfig MapId="3" MapName="Vĩnh Lạc Trấn" MapType="Tân Thủ Thôn" FightMapId="32" Star="2">
+    <NearMap>116</NearMap>
+	<NearMap>131</NearMap>
+  </NearMapConfig>
+  <NearMapConfig MapId="4" MapName="Đạo Hương Thôn" MapType="Tân Thủ Thôn" FightMapId="33" Star="2">
+    <NearMap>103</NearMap>
+    <NearMap>117</NearMap>    
+  </NearMapConfig>
+  <!-- <NearMapConfig MapId="5" MapName="Giang Tân Thôn" MapType="Tân Thủ Thôn" FightMapId="34" Star="2"> -->
+    <!-- <NearMap>118</NearMap>     -->
+    <!-- <NearMap>127</NearMap>     -->
+  <!-- </NearMapConfig>   -->
+  <!-- <NearMapConfig MapId="7" MapName="Long Tuyền Thôn" MapType="Tân Thủ Thôn" FightMapId="36" Star="2"> -->
+    <!-- <NearMap>106</NearMap> -->
+    <!-- <NearMap>120</NearMap>     -->
+  <!-- </NearMapConfig> -->
+  <!-- <NearMapConfig MapId="8" MapName="Ba Lăng Huyện" MapType="Tân Thủ Thôn" FightMapId="37" Star="2"> -->
+    <!-- <NearMap>121</NearMap>     -->
+  <!-- </NearMapConfig> -->
+  <NearMapConfig MapId="86" MapName="Thái Hành Cổ Kính" MapType="Khu Lãnh Thổ" FightMapId="-1" Star="3">
+    <!-- <NearMap>100</NearMap> -->
+    <NearMap>107</NearMap>    
+  </NearMapConfig>  
+  <!-- <NearMapConfig MapId="87" MapName="Đại Tán Quan" MapType="Khu Lãnh Thổ" FightMapId="-1" Star="3"> -->
+    <!-- <NearMap>104</NearMap> -->
+    <!-- <NearMap>111</NearMap> -->
+	<!-- <NearMap>131</NearMap> -->
+  <!-- </NearMapConfig> -->
+  <NearMapConfig MapId="88" MapName="Hán Thủy Cổ Độ" MapType="Khu Lãnh Thổ" FightMapId="-1" Star="3">
+    <NearMap>109</NearMap>
+    <NearMap>95</NearMap>
+	<!-- <NearMap>134</NearMap> -->
+  </NearMapConfig>
+  <!-- <NearMapConfig MapId="89" MapName="Hàn Sơn Cổ Sát" MapType="Khu Lãnh Thổ" FightMapId="-1" Star="1"> -->
+    <!-- <NearMap>103</NearMap> -->
+    <!-- <NearMap>96</NearMap>     -->
+  <!-- </NearMapConfig> -->
+  <!-- <NearMapConfig MapId="90" MapName="Cán Hoa Khê" MapType="Khu Lãnh Thổ" FightMapId="-1" Star="4"> -->
+    <!-- <NearMap>104</NearMap>     -->
+  <!-- </NearMapConfig>   -->
+  <!-- <NearMapConfig MapId="92" MapName="Thái Thạch Cơ" MapType="Khu Lãnh Thổ" FightMapId="-1" Star="2"> -->
+    <!-- <NearMap>106</NearMap> -->
+    <!-- <NearMap>109</NearMap> -->
+    <!-- <NearMap>96</NearMap> -->
+	<!-- <NearMap>99</NearMap> -->
+  <!-- </NearMapConfig>   -->
+  <NearMapConfig MapId="95" MapName="Phục Ngưu Sơn" MapType="Khu Lãnh Thổ" FightMapId="-1" Star="5">
+    <NearMap>107</NearMap>
+    <NearMap>117</NearMap>
+    <NearMap>88</NearMap>
+	<NearMap>109</NearMap>    
+  </NearMapConfig>
+  <!-- <NearMapConfig MapId="96" MapName="Hổ Khâu Kiếm Trì" MapType="Khu Lãnh Thổ" FightMapId="-1" Star="2"> -->
+    <!-- <NearMap>89</NearMap> -->
+    <!-- <NearMap>92</NearMap> -->
+    <!-- </NearMapConfig>   -->
+  <!-- <NearMapConfig MapId="100" MapName="Phong Lăng Độ" MapType="Khu Lãnh Thổ" FightMapId="-1" Star="1"> -->
+    <!-- <NearMap>86</NearMap> -->
+    <!-- <NearMap>107</NearMap> -->
+  <!-- </NearMapConfig>   -->
+  <NearMapConfig MapId="103" MapName="Thục Cương Sơn" MapType="Khu Lãnh Thổ" FightMapId="-1" Star="2">
+    <!-- <NearMap>89</NearMap> -->
+    <NearMap>117</NearMap>
+    <!-- <NearMap>33</NearMap>	 -->
+	<!-- <NearMap>133</NearMap> -->
+  </NearMapConfig>
+  <!-- <NearMapConfig MapId="104" MapName="Kiếm Các Thục Đạo" MapType="Khu Lãnh Thổ" FightMapId="-1" Star="1"> -->
+    <!-- <NearMap>111</NearMap> -->
+    <!-- <NearMap>87</NearMap> -->
+    <!-- <NearMap>90</NearMap> -->
+  <!-- </NearMapConfig> -->
+  <!-- <NearMapConfig MapId="106" MapName="Cửu Nghi Khê" MapType="Khu Lãnh Thổ" FightMapId="-1" Star="2"> -->
+    <!-- <NearMap>120</NearMap> -->
+    <!-- <NearMap>36</NearMap> -->
+    <!-- <NearMap>92</NearMap> -->
+	<!-- <NearMap>99</NearMap> -->
+  <!-- </NearMapConfig> -->
+  <NearMapConfig MapId="107" MapName="Long Môn Thạch Quật" MapType="Khu Lãnh Thổ" FightMapId="-1" Star="2">
+    <NearMap>86</NearMap>
+    <!-- <NearMap>100</NearMap> -->
+    <NearMap>116</NearMap> 
+	<NearMap>95</NearMap>
+  </NearMapConfig>
+  <NearMapConfig MapId="109" MapName="Hoàng Hạc Lâu" MapType="Khu Lãnh Thổ" FightMapId="-1" Star="2">
+    <NearMap>95</NearMap>
+    <NearMap>88</NearMap>
+    <!-- <NearMap>92</NearMap> -->
+	<!-- <NearMap>99</NearMap> -->
+  </NearMapConfig>
+  <NearMapConfig MapId="111" MapName="Kiếm Môn Quan" MapType="Khu Lãnh Thổ" FightMapId="-1" Star="4">
+    <!-- <NearMap>104</NearMap> -->
+    <!-- <NearMap>87</NearMap> -->
+	<NearMap>131</NearMap>
+	<!-- <NearMap>127</NearMap> -->
+  </NearMapConfig>
+  <NearMapConfig MapId="116" MapName="Hoa Sơn" MapType="Khu Lãnh Thổ" FightMapId="-1" Star="1">
+    <!-- <NearMap>32</NearMap> -->
+    <NearMap>107</NearMap>
+	<NearMap>131</NearMap>
+  </NearMapConfig>
+  <NearMapConfig MapId="117" MapName="Thục Cương Bí Cảnh" MapType="Khu Lãnh Thổ" FightMapId="-1" Star="2">
+    <!-- <NearMap>33</NearMap> -->
+    <NearMap>103</NearMap>
+    <NearMap>95</NearMap>
+	<!-- <NearMap>133</NearMap> -->
+	<!-- <NearMap>125</NearMap> -->
+  </NearMapConfig>
+  <!-- <NearMapConfig MapId="118" MapName="Phong Đô Quỷ Thành" MapType="Khu Lãnh Thổ" FightMapId="-1" Star="2"> -->
+    <!-- <NearMap>34</NearMap> -->
+	<!-- <NearMap>134</NearMap> -->
+	<!-- <NearMap>127</NearMap> -->
+  <!-- </NearMapConfig>  -->
+  <!-- <NearMapConfig MapId="120" MapName="Vũ Di Sơn" MapType="Khu Lãnh Thổ" FightMapId="-1" Star="1"> -->
+    <!-- <NearMap>106</NearMap> -->
+    <!-- <NearMap>36</NearMap> -->
+	<!-- <NearMap>136</NearMap> -->
+	<!-- <NearMap>128</NearMap> -->
+  <!-- </NearMapConfig> -->
+  <!-- <NearMapConfig MapId="121" MapName="Vũ Lăng Sơn" MapType="Khu Lãnh Thổ" FightMapId="-1" Star="2"> -->
+    <!-- <NearMap>37</NearMap> -->
+	<!-- <NearMap>134</NearMap> -->
+	<!-- <NearMap>137</NearMap> -->
+  <!-- </NearMapConfig> -->
+  <!-- <NearMapConfig MapId="127" MapName="Tam Hiệp Sạn Đạo" MapType="Khu Lãnh Thổ" FightMapId="-1" Star="2"> -->
+    <!-- <NearMap>34</NearMap> -->
+	<!-- <NearMap>118</NearMap> -->
+	<!-- <NearMap>134</NearMap> -->
+	<!-- <NearMap>111</NearMap> -->
+  <!-- </NearMapConfig> -->
+  <!-- <NearMapConfig MapId="128" MapName="Tỏa Vân Uyên" MapType="Khu Lãnh Thổ" FightMapId="-1" Star="2"> -->
+    <!-- <NearMap>136</NearMap> -->
+	<!-- <NearMap>120</NearMap> -->
+	<!-- <NearMap>137</NearMap> -->
+  <!-- </NearMapConfig> -->
+  <!-- <NearMapConfig MapId="127" MapName="Đại Vũ Đài" MapType="Khu Lãnh Thổ" FightMapId="-1" Star="1"> -->
+    <!-- <NearMap>117</NearMap> -->
+	<!-- <NearMap>133</NearMap> -->
+  <!-- </NearMapConfig> -->
+  <!-- <NearMapConfig MapId="99" MapName="Bành Lãi Cổ Trạch" MapType="Khu Lãnh Thổ" FightMapId="-1" Star="1"> -->
+    <!-- <NearMap>109</NearMap> -->
+	<!-- <NearMap>106</NearMap> -->
+	<!-- <NearMap>92</NearMap> -->
+  <!-- </NearMapConfig> -->
+  <NearMapConfig MapId="131" MapName="Tàn Tích Cung A Phòng" MapType="Khu Lãnh Thổ" FightMapId="-1" Star="2">
+    <!-- <NearMap>32</NearMap> -->
+    <!-- <NearMap>32</NearMap> -->
+	<NearMap>116</NearMap>
+	<NearMap>111</NearMap>
+	<!-- <NearMap>87</NearMap> -->
+  </NearMapConfig>
+  <!-- <NearMapConfig MapId="133" MapName="Lương Sơn Bạc" MapType="Khu Lãnh Thổ" FightMapId="-1" Star="3"> -->
+    <!-- <NearMap>103</NearMap> -->
+	<!-- <NearMap>117</NearMap> -->
+	<!-- <NearMap>127</NearMap>	 -->
+  <!-- </NearMapConfig> -->
+  <!-- <NearMapConfig MapId="136" MapName="Cổ Lãng Dữ" MapType="Khu Lãnh Thổ" FightMapId="-1" Star="1"> -->
+    <!-- <NearMap>120</NearMap> -->
+	<!-- <NearMap>128</NearMap>		 -->
+  <!-- </NearMapConfig> -->
+  <!-- <NearMapConfig MapId="137" MapName="Đào Hoa Nguyên" MapType="Khu Lãnh Thổ" FightMapId="-1" Star="1"> -->
+    <!-- <NearMap>121</NearMap> -->
+	<!-- <NearMap>128</NearMap>		 -->
+  <!-- </NearMapConfig> -->
+  <!-- <NearMapConfig MapId="134" MapName="Thần Nữ Phong" MapType="Khu Lãnh Thổ" FightMapId="-1" Star="2"> -->
+    <!-- <NearMap>88</NearMap> -->
+	<!-- <NearMap>127</NearMap> -->
+	<!-- <NearMap>118</NearMap> -->
+	<!-- <NearMap>121</NearMap> -->
+  <!-- </NearMapConfig> -->
+  
+  
+     <!--Danh sách phần thưởng -->
+  <Award Point="2000" Rank="1" BoxCount="0" Prestige="20" Exp="100000" BacKhoa="200000" DanhVongTDLT="30" type="rank"/>
+  <Award Point="2000" Rank="2:5" BoxCount="0" Prestige="10" Exp="50000" BacKhoa="150000" DanhVongTDLT="15" type="rank"/>
+  <Award Point="2000" Rank="6:10" BoxCount="0" Prestige="5" Exp="30000" BacKhoa="50000" DanhVongTDLT="10" type="rank"/>
+  <Award Point="2000" Rank="11:20" BoxCount="0" Prestige="2" Exp="30000" BacKhoa="30000" DanhVongTDLT="5" type="rank"/>
+  <Award Point="2000" Rank="21:50" BoxCount="0" Prestige="1" Exp="10000" BacKhoa="20000" DanhVongTDLT="2" type="rank"/>
+  <!-- <Award Point="2000" Rank="51:100" BoxCount="0" Prestige="5" Exp="5000" BacKhoa="10000" DanhVongTDLT="18" type="rank"/> -->
+  
+  <Award Point="2000" Rank="0" BoxCount="1" Prestige="0" Exp="0" BacKhoa="0" DanhVongTDLT="0" type="Point"/>
+  <Award Point="3000" Rank="0" BoxCount="2" Prestige="0" Exp="0" BacKhoa="0" DanhVongTDLT="0" type="Point"/>
+  <Award Point="4000" Rank="0" BoxCount="3" Prestige="0" Exp="0" BacKhoa="0" DanhVongTDLT="0" type="Point"/>
+  <Award Point="5000" Rank="0" BoxCount="5" Prestige="0" Exp="0" BacKhoa="0" DanhVongTDLT="0" type="Point"/>
+  
+  
+	<DayOfWeek>6</DayOfWeek>
+	<DayOfWeek>7</DayOfWeek>
+  
+   <!-- Thời gian mở tranh đoạt -->
+  <OpenTime Hours="20" Minute="00" />
+   <!-- Thời gian diễn ra sự kiện -->
+  <Activity SIGN_UP_DULATION="1800" WAR_DULATION="1800" WAR_STOP="1800" WAR_CLEAR="1800" />
+</GuildWardConfig>

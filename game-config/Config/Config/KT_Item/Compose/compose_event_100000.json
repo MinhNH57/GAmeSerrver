@@ -1,0 +1,29 @@
+{
+  "recipes": [
+    {
+      "compose_id": 100001,
+      "compose_name": "Nấu Gỏi Cá Koi",
+      "compose_description": "",
+      "allow_multiple": true,
+      "enable_source": false,
+      "enable_rate_up": false,
+      "materials": [
+        {
+          "id": 20847,
+          "number": 1
+        },
+        {
+          "id": 20851,
+          "number": 1
+        }
+      ],
+      "output": {
+        "id": 20848,
+        "number": 1,
+        "force_binding": 0
+      },
+      "output_based_on_input": false,
+      "default_rate": 100
+    }
+  ]
+}

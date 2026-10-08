@@ -1,0 +1,12 @@
+<Map ID="2000" MapCode="como" Name="Cổ Mộ" Width="4850" Height="2950"
+     MusicBundle="Resources/Map/como/Music.unity3d"
+     ImageFolder="Resources/Map/como/Image"
+     PartWidth="970" PartHeight="984" HorizontalCount="5" VerticalCount="3"
+     Obstruction="Assets/MapConfig/como/Obs.xml"
+     teleports="Assets/MapConfig/como/teleports.xml"
+     zones="Assets/MapConfig/como/zones.xml"
+     npcs="Assets/MapConfig/como/npcs.xml"
+     Monsters="Assets/MapConfig/como/Monsters.xml"
+     GrowPoints=""
+     Setting="Assets/MapConfig/como/MapSetting.xml"
+     ShowMiniMap="true" MapLevel="0" MapType="faction" />

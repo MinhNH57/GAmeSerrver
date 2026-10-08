@@ -1,0 +1,1348 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--
+	=== Hướng dẫn config randombox ===
+	=== Hướng dẫn config randombox ===
+	
+	Khai báo 1 Boxs ID mới thì IDBox cần phải khác nhau không được giống nhau
+	Tổng số lượng RATE phải điền đúng nếu ko sẽ gây lỗi
+	LimitWeek : Tối đa 1 tuần được mở mấy lần  | Nếu để là 0 thì không giới hạn
+	LimitDay : Tối đa 1 ngày được mở mấy lần | Nếu để là 0 thì không giới hạn
+	Lock : 0 Là không khóa | 1 là có khóa
+	Type : Là kiểu tong đó : 0 là vật phẩm | 1 là bạc khóa , 2: là bạc , 3 là đồng khóa , 4 là đồng	| 5 là Exp
+  Serier : là đồ theo hệ
+  TimeLimit : thời gian đồ có thể dùng
+  ItemID là ID đồ của vật phẩm 
+	Number : Là số lượng tương ứng của mỗi vật phẩm | Nếu type là tiền thì Number là số tiền
+-->
+<ConfigBox>
+  <Boxs IDBox="1" BoxName="初级令牌（30声望）" TotalRate="10000" LimitWeek="0" LimitDay="0">
+    <Items Type="0" ItemID="338" Number="1" Series="0" TimeLimit="0" Rate="3000" Lock="0" ExpiryDate="" />
+    <Items Type="0" ItemID="339" Number="1" Series="0" TimeLimit="0" Rate="2000" Lock="0" ExpiryDate="" />
+    <Items Type="0" ItemID="340" Number="1" Series="0" TimeLimit="0" Rate="1000" Lock="0" ExpiryDate="" />
+    <Items Type="2" ItemID="-1" Number="10000" Series="0" TimeLimit="0" Rate="1500" Lock="0" ExpiryDate="" />
+    <Items Type="2" ItemID="-1" Number="20000" Series="0" TimeLimit="0" Rate="500" Lock="0" ExpiryDate="" />
+    <Items Type="2" ItemID="-1" Number="30000" Series="0" TimeLimit="0" Rate="300" Lock="0" ExpiryDate="" />
+    <Items Type="2" ItemID="-1" Number="50000" Series="0" TimeLimit="0" Rate="200" Lock="0" ExpiryDate="" />
+    <Items Type="2" ItemID="-1" Number="100000" Series="0" TimeLimit="0" Rate="100" Lock="0" ExpiryDate="" />
+    <Items Type="0" ItemID="187" Number="1" Series="0" TimeLimit="0" Rate="1000" Lock="0" ExpiryDate="" />
+    <Items Type="0" ItemID="188" Number="1" Series="0" TimeLimit="0" Rate="300" Lock="0" ExpiryDate="" />
+    <Items Type="0" ItemID="189" Number="1" Series="0" TimeLimit="0" Rate="100" Lock="0" ExpiryDate="" />
+  </Boxs>
+  <Boxs IDBox="2" BoxName="家族令牌（初级）" TotalRate="10000" LimitWeek="0" LimitDay="0">
+    <Items Type="0" ItemID="-1" Number="1" Series="0" TimeLimit="0" Rate="1000" Lock="0" ExpiryDate="" />
+    <Items Type="0" ItemID="-1" Number="1" Series="0" TimeLimit="0" Rate="500" Lock="0" ExpiryDate="" />
+    <Items Type="0" ItemID="-1" Number="1" Series="0" TimeLimit="0" Rate="300" Lock="0" ExpiryDate="" />
+    <Items Type="0" ItemID="187" Number="1" Series="0" TimeLimit="0" Rate="5000" Lock="1" ExpiryDate="" />
+    <Items Type="0" ItemID="188" Number="1" Series="0" TimeLimit="0" Rate="3090" Lock="1" ExpiryDate="" />
+    <Items Type="0" ItemID="189" Number="1" Series="0" TimeLimit="0" Rate="100" Lock="1" ExpiryDate="" />
+    <Items Type="0" ItemID="190" Number="1" Series="0" TimeLimit="0" Rate="10" Lock="1" ExpiryDate="" />
+  </Boxs>
+  <Boxs IDBox="3" BoxName="6级玄晶" TotalRate="10000" LimitWeek="0" LimitDay="0">
+    <Items Type="0" ItemID="188" Number="1" Series="0" TimeLimit="0" Rate="7000" Lock="0" ExpiryDate="" />
+    <Items Type="2" ItemID="-1" Number="100000" Series="0" TimeLimit="0" Rate="2000" Lock="0" ExpiryDate="" />
+    <Items Type="0" ItemID="189" Number="1" Series="0" TimeLimit="0" Rate="1000" Lock="0" ExpiryDate="" />
+  </Boxs>
+  <Boxs IDBox="4" BoxName="7级玄晶" TotalRate="10000" LimitWeek="0" LimitDay="0">
+    <Items Type="0" ItemID="189" Number="1" Series="0" TimeLimit="0" Rate="8400" Lock="0" ExpiryDate="" />
+    <Items Type="2" ItemID="-1" Number="300000" Series="0" TimeLimit="0" Rate="1500" Lock="0" ExpiryDate="" />
+    <Items Type="0" ItemID="190" Number="1" Series="0" TimeLimit="0" Rate="100" Lock="0" ExpiryDate="" />
+  </Boxs>
+  <Boxs IDBox="5" BoxName="7级玄晶" TotalRate="10000" LimitWeek="0" LimitDay="0">
+    <Items Type="0" ItemID="189" Number="1" Series="0" TimeLimit="0" Rate="7700" Lock="0" ExpiryDate="" />
+    <Items Type="2" ItemID="-1" Number="600000" Series="0" TimeLimit="0" Rate="1500" Lock="0" ExpiryDate="" />
+    <Items Type="0" ItemID="190" Number="1" Series="0" TimeLimit="0" Rate="800" Lock="0" ExpiryDate="" />
+  </Boxs>
+  <Boxs IDBox="6" BoxName="8级玄晶" TotalRate="10000" LimitWeek="0" LimitDay="0">
+    <Items Type="0" ItemID="190" Number="1" Series="0" TimeLimit="0" Rate="8700" Lock="0" ExpiryDate="" />
+    <Items Type="2" ItemID="-1" Number="1000000" Series="0" TimeLimit="0" Rate="1000" Lock="0" ExpiryDate="" />
+    <Items Type="0" ItemID="191" Number="1" Series="0" TimeLimit="0" Rate="300" Lock="0" ExpiryDate="" />
+  </Boxs>
+  <Boxs IDBox="7" BoxName="牛栏寨腰牌" TotalRate="10000" LimitWeek="0" LimitDay="0">
+    <Items Type="0" ItemID="2951" Number="1" Series="0" TimeLimit="0" Rate="200" Lock="0" ExpiryDate="" />
+    <Items Type="0" ItemID="2952" Number="1" Series="0" TimeLimit="0" Rate="800" Lock="0" ExpiryDate="" />
+    <Items Type="0" ItemID="2953" Number="1" Series="0" TimeLimit="0" Rate="100" Lock="0" ExpiryDate="" />
+    <Items Type="0" ItemID="2954" Number="1" Series="0" TimeLimit="0" Rate="500" Lock="0" ExpiryDate="" />
+    <Items Type="0" ItemID="2955" Number="1" Series="0" TimeLimit="0" Rate="400" Lock="0" ExpiryDate="" />
+    <Items Type="5" ItemID="-1" Number="10000" Series="0" TimeLimit="0" Rate="4500" Lock="0" ExpiryDate="" />
+    <Items Type="1" ItemID="-1" Number="300" Series="0" TimeLimit="0" Rate="1500" Lock="0" ExpiryDate="" />
+    <Items Type="0" ItemID="506" Number="1" Series="0" TimeLimit="0" Rate="2000" Lock="1" ExpiryDate="" />
+  </Boxs>
+  <Boxs IDBox="8" BoxName="4级玄晶" TotalRate="9999" LimitWeek="0" LimitDay="0">
+    <Items Type="0" ItemID="186" Number="1" Series="0" TimeLimit="0" Rate="3879" Lock="1" ExpiryDate="" />
+    <Items Type="0" ItemID="187" Number="1" Series="0" TimeLimit="0" Rate="1000" Lock="1" ExpiryDate="" />
+    <Items Type="0" ItemID="188" Number="1" Series="0" TimeLimit="0" Rate="100" Lock="1" ExpiryDate="" />
+    <Items Type="0" ItemID="189" Number="1" Series="0" TimeLimit="0" Rate="10" Lock="1" ExpiryDate="" />
+    <Items Type="0" ItemID="190" Number="1" Series="0" TimeLimit="0" Rate="1" Lock="1" ExpiryDate="" />
+    <Items Type="0" ItemID="599" Number="1" Series="0" TimeLimit="43200" Rate="3000" Lock="0" ExpiryDate="" />
+    <Items Type="0" ItemID="590" Number="1" Series="0" TimeLimit="0" Rate="10" Lock="1" ExpiryDate="" />
+    <Items Type="0" ItemID="2398" Number="1" Series="0" TimeLimit="0" Rate="400" Lock="0" ExpiryDate="" />
+    <Items Type="0" ItemID="2406" Number="1" Series="0" TimeLimit="0" Rate="400" Lock="0" ExpiryDate="" />
+    <Items Type="0" ItemID="2400" Number="1" Series="0" TimeLimit="0" Rate="400" Lock="0" ExpiryDate="" />
+    <Items Type="0" ItemID="2404" Number="1" Series="0" TimeLimit="0" Rate="400" Lock="0" ExpiryDate="" />
+    <Items Type="0" ItemID="2402" Number="1" Series="0" TimeLimit="0" Rate="400" Lock="0" ExpiryDate="" />
+    <Items Type="3" ItemID="-1" Number="500" Series="0" TimeLimit="0" Rate="-1" Lock="1" ExpiryDate="" />
+  </Boxs>
+  <Boxs IDBox="9" BoxName="4级玄晶" TotalRate="9998" LimitWeek="0" LimitDay="0">
+    <Items Type="0" ItemID="186" Number="1" Series="0" TimeLimit="0" Rate="4790" Lock="1" ExpiryDate="" />
+    <Items Type="0" ItemID="187" Number="1" Series="0" TimeLimit="0" Rate="3600" Lock="1" ExpiryDate="" />
+    <Items Type="0" ItemID="188" Number="1" Series="0" TimeLimit="0" Rate="1500" Lock="1" ExpiryDate="" />
+    <Items Type="0" ItemID="189" Number="1" Series="0" TimeLimit="0" Rate="100" Lock="1" ExpiryDate="" />
+    <Items Type="0" ItemID="190" Number="1" Series="0" TimeLimit="0" Rate="10" Lock="1" ExpiryDate="" />
+    <Items Type="0" ItemID="337" Number="1" Series="0" TimeLimit="0" Rate="-1" Lock="1" ExpiryDate="" />
+    <Items Type="0" ItemID="337" Number="1" Series="0" TimeLimit="0" Rate="-1" Lock="1" ExpiryDate="" />
+  </Boxs>
+  <Boxs IDBox="10" BoxName="玄铁原木" TotalRate="10000" LimitWeek="0" LimitDay="0">
+    <Items Type="0" ItemID="1814" Number="1" Series="0" TimeLimit="0" Rate="2000" Lock="0" ExpiryDate="" />
+    <Items Type="0" ItemID="1818" Number="1" Series="0" TimeLimit="0" Rate="2000" Lock="0" ExpiryDate="" />
+    <Items Type="0" ItemID="1808" Number="1" Series="0" TimeLimit="0" Rate="2000" Lock="0" ExpiryDate="" />
+    <Items Type="0" ItemID="1809" Number="1" Series="0" TimeLimit="0" Rate="2000" Lock="0" ExpiryDate="" />
+    <Items Type="0" ItemID="1820" Number="1" Series="0" TimeLimit="0" Rate="2000" Lock="0" ExpiryDate="" />
+  </Boxs>
+  <Boxs IDBox="11" BoxName="Rương Hoạt động Gia tộc" TotalRate="10000" LimitWeek="0" LimitDay="0">
+    <Items Type="0" ItemID="20690" Number="2" Series="0" TimeLimit="0" Rate="-1" Lock="1" ExpiryDate="" />
+    <Items Type="0" ItemID="189" Number="1" Series="0" TimeLimit="0" Rate="400" Lock="1" ExpiryDate="" />
+    <Items Type="0" ItemID="188" Number="1" Series="0" TimeLimit="0" Rate="800" Lock="1" ExpiryDate="" />
+    <Items Type="0" ItemID="187" Number="2" Series="0" TimeLimit="0" Rate="1558" Lock="1" ExpiryDate="" />
+    <Items Type="0" ItemID="25195" Number="3" Series="0" TimeLimit="0" Rate="1557" Lock="1" ExpiryDate="" />
+    <Items Type="0" ItemID="25195" Number="5" Series="0" TimeLimit="0" Rate="1257" Lock="1" ExpiryDate="" />
+    <Items Type="0" ItemID="25195" Number="7" Series="0" TimeLimit="0" Rate="657" Lock="1" ExpiryDate="" />
+    <Items Type="0" ItemID="20816" Number="50" Series="0" TimeLimit="0" Rate="1857" Lock="1" ExpiryDate="" />
+    <Items Type="0" ItemID="20816" Number="70" Series="0" TimeLimit="0" Rate="1257" Lock="1" ExpiryDate="" />
+    <Items Type="0" ItemID="20816" Number="100" Series="0" TimeLimit="0" Rate="657" Lock="1" ExpiryDate="" />
+    
+  </Boxs>
+  <Boxs IDBox="12" BoxName="4级玄晶（绑定的）" TotalRate="1000" LimitWeek="0" LimitDay="0">
+    <Items Type="0" ItemID="388" Number="1" Series="0" TimeLimit="0" Rate="517" Lock="0" ExpiryDate="" />
+    <Items Type="0" ItemID="389" Number="1" Series="0" TimeLimit="0" Rate="200" Lock="0" ExpiryDate="" />
+    <Items Type="0" ItemID="390" Number="1" Series="0" TimeLimit="0" Rate="30" Lock="0" ExpiryDate="" />
+    <Items Type="0" ItemID="391" Number="1" Series="0" TimeLimit="0" Rate="3" Lock="0" ExpiryDate="" />
+    <Items Type="1" ItemID="-1" Number="10000" Series="0" TimeLimit="0" Rate="150" Lock="0" ExpiryDate="" />
+    <Items Type="1" ItemID="-1" Number="20000" Series="0" TimeLimit="0" Rate="60" Lock="0" ExpiryDate="" />
+    <Items Type="1" ItemID="-1" Number="50000" Series="0" TimeLimit="0" Rate="20" Lock="0" ExpiryDate="" />
+    <Items Type="1" ItemID="-1" Number="100000" Series="0" TimeLimit="0" Rate="5" Lock="0" ExpiryDate="" />
+    <Items Type="0" ItemID="627" Number="1" Series="0" TimeLimit="0" Rate="5" Lock="1" ExpiryDate="" />
+    <Items Type="0" ItemID="630" Number="1" Series="0" TimeLimit="0" Rate="10" Lock="0" ExpiryDate="" />
+  </Boxs>
+  <Boxs IDBox="13" BoxName="5级玄晶（绑定的）" TotalRate="1000" LimitWeek="0" LimitDay="0">
+    <Items Type="0" ItemID="389" Number="1" Series="0" TimeLimit="0" Rate="467" Lock="0" ExpiryDate="" />
+    <Items Type="0" ItemID="390" Number="1" Series="0" TimeLimit="0" Rate="150" Lock="0" ExpiryDate="" />
+    <Items Type="0" ItemID="391" Number="1" Series="0" TimeLimit="0" Rate="30" Lock="0" ExpiryDate="" />
+    <Items Type="0" ItemID="392" Number="1" Series="0" TimeLimit="0" Rate="10" Lock="0" ExpiryDate="" />
+    <Items Type="1" ItemID="-1" Number="20000" Series="0" TimeLimit="0" Rate="200" Lock="0" ExpiryDate="" />
+    <Items Type="1" ItemID="-1" Number="50000" Series="0" TimeLimit="0" Rate="100" Lock="0" ExpiryDate="" />
+    <Items Type="1" ItemID="-1" Number="100000" Series="0" TimeLimit="0" Rate="30" Lock="0" ExpiryDate="" />
+    <Items Type="1" ItemID="-1" Number="200000" Series="0" TimeLimit="0" Rate="10" Lock="0" ExpiryDate="" />
+    <Items Type="1" ItemID="-1" Number="500000" Series="0" TimeLimit="0" Rate="3" Lock="0" ExpiryDate="" />
+  </Boxs>
+  <Boxs IDBox="14" BoxName="499绑金" TotalRate="996" LimitWeek="0" LimitDay="0">
+    <Items Type="3" ItemID="-1" Number="499" Series="0" TimeLimit="0" Rate="840" Lock="1" ExpiryDate="" />
+    <Items Type="3" ItemID="-1" Number="999" Series="0" TimeLimit="0" Rate="119" Lock="0" ExpiryDate="" />
+    <Items Type="3" ItemID="-1" Number="1999" Series="0" TimeLimit="0" Rate="30" Lock="0" ExpiryDate="" />
+    <Items Type="3" ItemID="-1" Number="2999" Series="0" TimeLimit="0" Rate="10" Lock="0" ExpiryDate="" />
+    <Items Type="3" ItemID="-1" Number="4999" Series="0" TimeLimit="0" Rate="1" Lock="0" ExpiryDate="" />
+    <Items Type="0" ItemID="1073" Number="1" Series="0" TimeLimit="0" Rate="-1" Lock="0" ExpiryDate="" />
+    <Items Type="0" ItemID="1079" Number="1" Series="0" TimeLimit="0" Rate="-1" Lock="0" ExpiryDate="" />
+    <Items Type="0" ItemID="1082" Number="1" Series="0" TimeLimit="0" Rate="-1" Lock="0" ExpiryDate="" />
+    <Items Type="0" ItemID="-1" Number="0" Series="0" TimeLimit="0" Rate="-1" Lock="0" ExpiryDate="" />
+  </Boxs>
+  <Boxs IDBox="15" BoxName="熟牛肉" TotalRate="10000" LimitWeek="0" LimitDay="0">
+    <Items Type="0" ItemID="2954" Number="1" Series="0" TimeLimit="0" Rate="800" Lock="0" ExpiryDate="" />
+    <Items Type="0" ItemID="2955" Number="1" Series="0" TimeLimit="0" Rate="500" Lock="0" ExpiryDate="" />
+    <Items Type="5" ItemID="-1" Number="12000" Series="0" TimeLimit="0" Rate="4800" Lock="0" ExpiryDate="" />
+    <Items Type="2" ItemID="-1" Number="400" Series="0" TimeLimit="0" Rate="1900" Lock="0" ExpiryDate="" />
+    <Items Type="0" ItemID="506" Number="1" Series="0" TimeLimit="0" Rate="2000" Lock="1" ExpiryDate="" />
+  </Boxs>
+  <Boxs IDBox="16" BoxName="6级玄晶" TotalRate="10000" LimitWeek="0" LimitDay="0">
+    <Items Type="0" ItemID="390" Number="1" Series="0" TimeLimit="0" Rate="6000" Lock="0" ExpiryDate="" />
+    <Items Type="0" ItemID="391" Number="1" Series="0" TimeLimit="0" Rate="700" Lock="0" ExpiryDate="" />
+    <Items Type="0" ItemID="392" Number="1" Series="0" TimeLimit="0" Rate="100" Lock="0" ExpiryDate="" />
+    <Items Type="0" ItemID="658" Number="1" Series="0" TimeLimit="0" Rate="3200" Lock="1" ExpiryDate="" />
+  </Boxs>
+  <Boxs IDBox="17" BoxName="经验" TotalRate="10000" LimitWeek="0" LimitDay="0">
+    <Items Type="5" ItemID="-1" Number="40000000" Series="0" TimeLimit="0" Rate="2500" Lock="0" ExpiryDate="" />
+    <Items Type="1" ItemID="-1" Number="50000" Series="0" TimeLimit="0" Rate="1600" Lock="0" ExpiryDate="" />
+    <Items Type="1" ItemID="-1" Number="150000" Series="0" TimeLimit="0" Rate="1200" Lock="0" ExpiryDate="" />
+    <Items Type="0" ItemID="307" Number="1" Series="0" TimeLimit="43200" Rate="1200" Lock="0" ExpiryDate="" />
+    <Items Type="0" ItemID="317" Number="1" Series="0" TimeLimit="43200" Rate="1200" Lock="0" ExpiryDate="" />
+    <Items Type="0" ItemID="327" Number="1" Series="0" TimeLimit="43200" Rate="1200" Lock="0" ExpiryDate="" />
+    <Items Type="0" ItemID="390" Number="1" Series="0" TimeLimit="43200" Rate="900" Lock="1" ExpiryDate="" />
+    <Items Type="0" ItemID="391" Number="1" Series="0" TimeLimit="43200" Rate="150" Lock="1" ExpiryDate="" />
+    <Items Type="0" ItemID="1483" Number="1" Series="0" TimeLimit="0" Rate="0" Lock="1" ExpiryDate="" />
+    <Items Type="0" ItemID="392" Number="1" Series="0" TimeLimit="43200" Rate="50" Lock="1" ExpiryDate="" />
+  </Boxs>
+  <Boxs IDBox="18" BoxName="6玄（绑定1个月期限）" TotalRate="10000" LimitWeek="0" LimitDay="0">
+    <Items Type="0" ItemID="390" Number="1" Series="0" TimeLimit="43200" Rate="7190" Lock="0" ExpiryDate="" />
+    <Items Type="0" ItemID="391" Number="1" Series="0" TimeLimit="43200" Rate="2500" Lock="0" ExpiryDate="" />
+    <Items Type="0" ItemID="392" Number="1" Series="0" TimeLimit="43200" Rate="300" Lock="0" ExpiryDate="" />
+    <Items Type="0" ItemID="393" Number="1" Series="0" TimeLimit="43200" Rate="10" Lock="0" ExpiryDate="" />
+  </Boxs>
+  <Boxs IDBox="19" BoxName="5玄" TotalRate="10000" LimitWeek="0" LimitDay="0">
+    <Items Type="0" ItemID="389" Number="1" Series="0" TimeLimit="0" Rate="8650" Lock="0" ExpiryDate="" />
+    <Items Type="0" ItemID="390" Number="1" Series="0" TimeLimit="0" Rate="1000" Lock="0" ExpiryDate="" />
+    <Items Type="0" ItemID="391" Number="1" Series="0" TimeLimit="43200" Rate="300" Lock="0" ExpiryDate="" />
+    <Items Type="0" ItemID="392" Number="1" Series="0" TimeLimit="43200" Rate="50" Lock="0" ExpiryDate="" />
+  </Boxs>
+  <Boxs IDBox="20" BoxName="4玄" TotalRate="10000" LimitWeek="0" LimitDay="0">
+    <Items Type="0" ItemID="388" Number="1" Series="0" TimeLimit="0" Rate="8650" Lock="0" ExpiryDate="" />
+    <Items Type="0" ItemID="389" Number="1" Series="0" TimeLimit="0" Rate="1000" Lock="0" ExpiryDate="" />
+    <Items Type="0" ItemID="390" Number="1" Series="0" TimeLimit="0" Rate="300" Lock="0" ExpiryDate="" />
+    <Items Type="0" ItemID="391" Number="1" Series="0" TimeLimit="43200" Rate="50" Lock="0" ExpiryDate="" />
+  </Boxs>
+  <Boxs IDBox="21" BoxName="3玄" TotalRate="10000" LimitWeek="0" LimitDay="0">
+    <Items Type="0" ItemID="387" Number="1" Series="0" TimeLimit="0" Rate="8580" Lock="0" ExpiryDate="" />
+    <Items Type="0" ItemID="388" Number="1" Series="0" TimeLimit="0" Rate="1250" Lock="0" ExpiryDate="" />
+    <Items Type="0" ItemID="389" Number="1" Series="0" TimeLimit="0" Rate="150" Lock="0" ExpiryDate="" />
+    <Items Type="0" ItemID="390" Number="1" Series="0" TimeLimit="0" Rate="20" Lock="0" ExpiryDate="" />
+  </Boxs>
+  <Boxs IDBox="22" BoxName="6玄" TotalRate="10000" LimitWeek="0" LimitDay="0">
+    <Items Type="0" ItemID="390" Number="1" Series="0" TimeLimit="0" Rate="8580" Lock="0" ExpiryDate="" />
+    <Items Type="0" ItemID="391" Number="1" Series="0" TimeLimit="43200" Rate="1250" Lock="0" ExpiryDate="" />
+    <Items Type="0" ItemID="392" Number="1" Series="0" TimeLimit="43200" Rate="150" Lock="0" ExpiryDate="" />
+    <Items Type="0" ItemID="393" Number="1" Series="0" TimeLimit="43200" Rate="20" Lock="0" ExpiryDate="" />
+  </Boxs>
+  <Boxs IDBox="23" BoxName="熟牛肉" TotalRate="9700" LimitWeek="0" LimitDay="0">
+    <Items Type="0" ItemID="2954" Number="1" Series="0" TimeLimit="0" Rate="800" Lock="0" ExpiryDate="" />
+    <Items Type="0" ItemID="2955" Number="1" Series="0" TimeLimit="0" Rate="500" Lock="0" ExpiryDate="" />
+    <Items Type="5" ItemID="-1" Number="13500" Series="0" TimeLimit="0" Rate="4500" Lock="0" ExpiryDate="" />
+    <Items Type="2" ItemID="-1" Number="500" Series="0" TimeLimit="0" Rate="1900" Lock="0" ExpiryDate="" />
+    <Items Type="0" ItemID="506" Number="1" Series="0" TimeLimit="0" Rate="2000" Lock="1" ExpiryDate="" />
+  </Boxs>
+  <Boxs IDBox="24" BoxName="6级玄晶（绑定的）" TotalRate="10000" LimitWeek="0" LimitDay="0">
+    <Items Type="0" ItemID="390" Number="1" Series="0" TimeLimit="43200" Rate="3450" Lock="0" ExpiryDate="" />
+    <Items Type="0" ItemID="391" Number="1" Series="0" TimeLimit="43200" Rate="4000" Lock="0" ExpiryDate="" />
+    <Items Type="0" ItemID="392" Number="1" Series="0" TimeLimit="43200" Rate="500" Lock="0" ExpiryDate="" />
+    <Items Type="0" ItemID="393" Number="1" Series="0" TimeLimit="43200" Rate="50" Lock="0" ExpiryDate="" />
+    <Items Type="0" ItemID="750" Number="1" Series="0" TimeLimit="0" Rate="700" Lock="0" ExpiryDate="" />
+    <Items Type="0" ItemID="747" Number="1" Series="0" TimeLimit="0" Rate="1260" Lock="0" ExpiryDate="" />
+    <Items Type="0" ItemID="748" Number="1" Series="0" TimeLimit="0" Rate="20" Lock="0" ExpiryDate="" />
+    <Items Type="0" ItemID="749" Number="1" Series="0" TimeLimit="0" Rate="20" Lock="0" ExpiryDate="" />
+  </Boxs>
+  <Boxs IDBox="25" BoxName="6级玄晶（绑定的）" TotalRate="10000" LimitWeek="0" LimitDay="0">
+    <Items Type="0" ItemID="390" Number="1" Series="0" TimeLimit="43200" Rate="6280" Lock="0" ExpiryDate="" />
+    <Items Type="0" ItemID="391" Number="1" Series="0" TimeLimit="43200" Rate="1500" Lock="0" ExpiryDate="" />
+    <Items Type="0" ItemID="392" Number="1" Series="0" TimeLimit="43200" Rate="200" Lock="0" ExpiryDate="" />
+    <Items Type="0" ItemID="393" Number="1" Series="0" TimeLimit="43200" Rate="20" Lock="0" ExpiryDate="" />
+    <Items Type="0" ItemID="750" Number="1" Series="0" TimeLimit="0" Rate="700" Lock="0" ExpiryDate="" />
+    <Items Type="0" ItemID="747" Number="1" Series="0" TimeLimit="0" Rate="1260" Lock="0" ExpiryDate="" />
+    <Items Type="0" ItemID="748" Number="1" Series="0" TimeLimit="0" Rate="20" Lock="0" ExpiryDate="" />
+    <Items Type="0" ItemID="749" Number="1" Series="0" TimeLimit="0" Rate="20" Lock="0" ExpiryDate="" />
+  </Boxs>
+  <Boxs IDBox="26" BoxName="6级玄晶（绑定的）" TotalRate="10000" LimitWeek="0" LimitDay="0">
+    <Items Type="0" ItemID="390" Number="1" Series="0" TimeLimit="43200" Rate="4090" Lock="0" ExpiryDate="" />
+    <Items Type="0" ItemID="390" Number="1" Series="0" TimeLimit="43200" Rate="3300" Lock="0" ExpiryDate="" />
+    <Items Type="0" ItemID="391" Number="1" Series="0" TimeLimit="43200" Rate="1000" Lock="0" ExpiryDate="" />
+    <Items Type="0" ItemID="392" Number="1" Series="0" TimeLimit="43200" Rate="100" Lock="0" ExpiryDate="" />
+    <Items Type="0" ItemID="393" Number="1" Series="0" TimeLimit="43200" Rate="10" Lock="0" ExpiryDate="" />
+    <Items Type="0" ItemID="750" Number="1" Series="0" TimeLimit="0" Rate="525" Lock="0" ExpiryDate="" />
+    <Items Type="0" ItemID="747" Number="1" Series="0" TimeLimit="0" Rate="945" Lock="0" ExpiryDate="" />
+    <Items Type="0" ItemID="748" Number="1" Series="0" TimeLimit="0" Rate="15" Lock="0" ExpiryDate="" />
+    <Items Type="0" ItemID="749" Number="1" Series="0" TimeLimit="0" Rate="15" Lock="0" ExpiryDate="" />
+  </Boxs>
+  <Boxs IDBox="27" BoxName="龙舟：破浪" TotalRate="10000" LimitWeek="0" LimitDay="0">
+    <Items Type="0" ItemID="751" Number="1" Series="0" TimeLimit="0" Rate="3100" Lock="0" ExpiryDate="" />
+    <Items Type="0" ItemID="752" Number="1" Series="0" TimeLimit="0" Rate="3100" Lock="0" ExpiryDate="" />
+    <Items Type="0" ItemID="753" Number="1" Series="0" TimeLimit="0" Rate="3100" Lock="0" ExpiryDate="" />
+    <Items Type="0" ItemID="754" Number="1" Series="0" TimeLimit="0" Rate="700" Lock="0" ExpiryDate="" />
+  </Boxs>
+  <Boxs IDBox="28" BoxName="8级玄晶" TotalRate="10000" LimitWeek="0" LimitDay="0">
+    <Items Type="0" ItemID="392" Number="1" Series="0" TimeLimit="43200" Rate="8350" Lock="0" ExpiryDate="" />
+    <Items Type="0" ItemID="393" Number="1" Series="0" TimeLimit="43200" Rate="1500" Lock="0" ExpiryDate="" />
+    <Items Type="0" ItemID="394" Number="1" Series="0" TimeLimit="43200" Rate="150" Lock="0" ExpiryDate="" />
+  </Boxs>
+  <Boxs IDBox="29" BoxName="6级玄晶" TotalRate="10000" LimitWeek="0" LimitDay="0">
+    <Items Type="0" ItemID="390" Number="1" Series="0" TimeLimit="43200" Rate="1200" Lock="0" ExpiryDate="" />
+    <Items Type="0" ItemID="391" Number="1" Series="0" TimeLimit="43200" Rate="100" Lock="0" ExpiryDate="" />
+    <Items Type="0" ItemID="392" Number="1" Series="0" TimeLimit="43200" Rate="10" Lock="0" ExpiryDate="" />
+    <Items Type="1" ItemID="-1" Number="100000" Series="0" TimeLimit="0" Rate="1200" Lock="0" ExpiryDate="" />
+    <Items Type="1" ItemID="-1" Number="200000" Series="0" TimeLimit="0" Rate="300" Lock="0" ExpiryDate="" />
+    <Items Type="1" ItemID="-1" Number="500000" Series="0" TimeLimit="0" Rate="30" Lock="0" ExpiryDate="" />
+    <Items Type="1" ItemID="-1" Number="1000000" Series="0" TimeLimit="0" Rate="10" Lock="0" ExpiryDate="" />
+    <Items Type="3" ItemID="-1" Number="300" Series="0" TimeLimit="0" Rate="5040" Lock="1" ExpiryDate="" />
+    <Items Type="3" ItemID="-1" Number="500" Series="0" TimeLimit="0" Rate="1500" Lock="1" ExpiryDate="" />
+    <Items Type="3" ItemID="-1" Number="1000" Series="0" TimeLimit="0" Rate="500" Lock="1" ExpiryDate="" />
+    <Items Type="3" ItemID="-1" Number="2000" Series="0" TimeLimit="0" Rate="100" Lock="1" ExpiryDate="" />
+    <Items Type="3" ItemID="-1" Number="5000" Series="0" TimeLimit="0" Rate="10" Lock="1" ExpiryDate="" />
+  </Boxs>
+  <Boxs IDBox="30" BoxName="10级玄晶（绑定）" TotalRate="10000" LimitWeek="0" LimitDay="0">
+    <Items Type="0" ItemID="394" Number="1" Series="0" TimeLimit="43200" Rate="100" Lock="0" ExpiryDate="" />
+    <Items Type="0" ItemID="393" Number="1" Series="0" TimeLimit="43200" Rate="1000" Lock="0" ExpiryDate="" />
+    <Items Type="0" ItemID="392" Number="1" Series="0" TimeLimit="43200" Rate="7400" Lock="0" ExpiryDate="" />
+    <Items Type="0" ItemID="822" Number="1" Series="0" TimeLimit="43200" Rate="1500" Lock="1" ExpiryDate="" />
+  </Boxs>
+  <Boxs IDBox="31" BoxName="9级玄晶（绑定）" TotalRate="10000" LimitWeek="0" LimitDay="0">
+    <Items Type="0" ItemID="393" Number="1" Series="0" TimeLimit="43200" Rate="500" Lock="0" ExpiryDate="" />
+    <Items Type="0" ItemID="392" Number="1" Series="0" TimeLimit="43200" Rate="2500" Lock="0" ExpiryDate="" />
+    <Items Type="0" ItemID="391" Number="1" Series="0" TimeLimit="43200" Rate="7000" Lock="0" ExpiryDate="" />
+  </Boxs>
+  <Boxs IDBox="32" BoxName="8级玄晶" TotalRate="10000" LimitWeek="0" LimitDay="0">
+    <Items Type="0" ItemID="392" Number="1" Series="0" TimeLimit="43200" Rate="9600" Lock="0" ExpiryDate="" />
+    <Items Type="0" ItemID="393" Number="1" Series="0" TimeLimit="43200" Rate="350" Lock="0" ExpiryDate="" />
+    <Items Type="0" ItemID="394" Number="1" Series="0" TimeLimit="43200" Rate="50" Lock="0" ExpiryDate="" />
+  </Boxs>
+  <Boxs IDBox="33" BoxName="兰花箱" TotalRate="-3" LimitWeek="0" LimitDay="0">
+    <Items Type="0" ItemID="837" Number="1" Series="0" TimeLimit="10080" Rate="-1" Lock="1" ExpiryDate="" />
+    <Items Type="0" ItemID="838" Number="1" Series="0" TimeLimit="10080" Rate="-1" Lock="1" ExpiryDate="" />
+    <Items Type="0" ItemID="839" Number="1" Series="0" TimeLimit="10080" Rate="-1" Lock="1" ExpiryDate="" />
+  </Boxs>
+  <Boxs IDBox="34" BoxName="紫檀箱" TotalRate="-3" LimitWeek="0" LimitDay="0">
+    <Items Type="0" ItemID="840" Number="1" Series="0" TimeLimit="10080" Rate="-1" Lock="1" ExpiryDate="" />
+    <Items Type="0" ItemID="841" Number="1" Series="0" TimeLimit="10080" Rate="-1" Lock="1" ExpiryDate="" />
+    <Items Type="0" ItemID="842" Number="1" Series="0" TimeLimit="10080" Rate="-1" Lock="1" ExpiryDate="" />
+  </Boxs>
+  <Boxs IDBox="35" BoxName="[面具]靖哥哥" TotalRate="10000" LimitWeek="0" LimitDay="0">
+    <Items Type="0" ItemID="-1" Number="1" Series="0" TimeLimit="0" Rate="800" Lock="0" ExpiryDate="" />
+    <Items Type="0" ItemID="-1" Number="1" Series="0" TimeLimit="0" Rate="800" Lock="0" ExpiryDate="" />
+    <Items Type="0" ItemID="747" Number="1" Series="0" TimeLimit="43200" Rate="2500" Lock="0" ExpiryDate="" />
+    <Items Type="0" ItemID="223" Number="1" Series="0" TimeLimit="43200" Rate="5900" Lock="1" ExpiryDate="" />
+  </Boxs>
+  <Boxs IDBox="36" BoxName="精气散（回500）" TotalRate="10000" LimitWeek="0" LimitDay="0">
+    <Items Type="0" ItemID="348" Number="1" Series="0" TimeLimit="43200" Rate="3700" Lock="1" ExpiryDate="" />
+    <Items Type="0" ItemID="349" Number="1" Series="0" TimeLimit="43200" Rate="1300" Lock="1" ExpiryDate="" />
+    <Items Type="0" ItemID="351" Number="1" Series="0" TimeLimit="43200" Rate="3700" Lock="1" ExpiryDate="" />
+    <Items Type="0" ItemID="352" Number="1" Series="0" TimeLimit="43200" Rate="1300" Lock="1" ExpiryDate="" />
+  </Boxs>
+  <Boxs IDBox="37" BoxName="优惠券：3折购买1个7级玄晶" TotalRate="10000" LimitWeek="0" LimitDay="0">
+    <Items Type="0" ItemID="845" Number="1" Series="0" TimeLimit="43200" Rate="400" Lock="1" ExpiryDate="" />
+    <Items Type="0" ItemID="846" Number="1" Series="0" TimeLimit="43200" Rate="80" Lock="1" ExpiryDate="" />
+    <Items Type="0" ItemID="843" Number="1" Series="0" TimeLimit="43200" Rate="1900" Lock="1" ExpiryDate="" />
+    <Items Type="0" ItemID="299" Number="1" Series="0" TimeLimit="43200" Rate="5900" Lock="1" ExpiryDate="" />
+    <Items Type="0" ItemID="556" Number="1" Series="0" TimeLimit="43200" Rate="1720" Lock="1" ExpiryDate="" />
+  </Boxs>
+  <Boxs IDBox="38" BoxName="精气散（回1000）" TotalRate="10000" LimitWeek="0" LimitDay="0">
+    <Items Type="0" ItemID="349" Number="1" Series="0" TimeLimit="43200" Rate="3690" Lock="1" ExpiryDate="" />
+    <Items Type="0" ItemID="350" Number="1" Series="0" TimeLimit="43200" Rate="1300" Lock="1" ExpiryDate="" />
+    <Items Type="0" ItemID="352" Number="1" Series="0" TimeLimit="43200" Rate="3690" Lock="1" ExpiryDate="" />
+    <Items Type="0" ItemID="353" Number="1" Series="0" TimeLimit="43200" Rate="1300" Lock="1" ExpiryDate="" />
+    <Items Type="0" ItemID="668" Number="1" Series="0" TimeLimit="43200" Rate="20" Lock="1" ExpiryDate="" />
+  </Boxs>
+  <Boxs IDBox="39" BoxName="特效白驹丸" TotalRate="10000" LimitWeek="0" LimitDay="0">
+    <Items Type="0" ItemID="300" Number="1" Series="0" TimeLimit="43200" Rate="170" Lock="1" ExpiryDate="" />
+    <Items Type="0" ItemID="-1" Number="1" Series="0" TimeLimit="43200" Rate="1200" Lock="1" ExpiryDate="" />
+    <Items Type="0" ItemID="344" Number="1" Series="0" TimeLimit="43200" Rate="2140" Lock="1" ExpiryDate="" />
+    <Items Type="0" ItemID="187" Number="1" Series="0" TimeLimit="43200" Rate="4340" Lock="1" ExpiryDate="" />
+    <Items Type="0" ItemID="188" Number="1" Series="0" TimeLimit="43200" Rate="1130" Lock="1" ExpiryDate="" />
+    <Items Type="0" ItemID="189" Number="1" Series="0" TimeLimit="43200" Rate="40" Lock="1" ExpiryDate="" />
+    <Items Type="0" ItemID="582" Number="1" Series="0" TimeLimit="43200" Rate="880" Lock="1" ExpiryDate="" />
+    <Items Type="0" ItemID="584" Number="1" Series="0" TimeLimit="43200" Rate="100" Lock="1" ExpiryDate="" />
+  </Boxs>
+  <Boxs IDBox="40" BoxName="磨刀石(5级)" TotalRate="10000" LimitWeek="0" LimitDay="0">
+    <Items Type="0" ItemID="269" Number="1" Series="0" TimeLimit="43200" Rate="2270" Lock="1" ExpiryDate="" />
+    <Items Type="0" ItemID="279" Number="1" Series="0" TimeLimit="43200" Rate="2410" Lock="1" ExpiryDate="" />
+    <Items Type="0" ItemID="289" Number="1" Series="0" TimeLimit="43200" Rate="2570" Lock="1" ExpiryDate="" />
+    <Items Type="0" ItemID="272" Number="1" Series="0" TimeLimit="43200" Rate="770" Lock="1" ExpiryDate="" />
+    <Items Type="0" ItemID="282" Number="1" Series="0" TimeLimit="43200" Rate="910" Lock="1" ExpiryDate="" />
+    <Items Type="0" ItemID="292" Number="1" Series="0" TimeLimit="43200" Rate="1060" Lock="1" ExpiryDate="" />
+    <Items Type="0" ItemID="846" Number="1" Series="0" TimeLimit="43200" Rate="10" Lock="1" ExpiryDate="" />
+  </Boxs>
+  <Boxs IDBox="41" BoxName="7级玄晶（绑定的）" TotalRate="10000" LimitWeek="0" LimitDay="0">
+    <Items Type="0" ItemID="391" Number="1" Series="0" TimeLimit="43200" Rate="8400" Lock="1" ExpiryDate="" />
+    <Items Type="0" ItemID="392" Number="1" Series="0" TimeLimit="43200" Rate="1500" Lock="1" ExpiryDate="" />
+    <Items Type="0" ItemID="393" Number="1" Series="0" TimeLimit="43200" Rate="100" Lock="1" ExpiryDate="" />
+  </Boxs>
+  <Boxs IDBox="42" BoxName="8级玄晶（绑定的）" TotalRate="10000" LimitWeek="0" LimitDay="0">
+    <Items Type="0" ItemID="392" Number="1" Series="0" TimeLimit="43200" Rate="8400" Lock="1" ExpiryDate="" />
+    <Items Type="0" ItemID="393" Number="1" Series="0" TimeLimit="43200" Rate="1500" Lock="1" ExpiryDate="" />
+    <Items Type="0" ItemID="394" Number="1" Series="0" TimeLimit="43200" Rate="100" Lock="1" ExpiryDate="" />
+  </Boxs>
+  <Boxs IDBox="43" BoxName="5级玄晶（绑定)" TotalRate="10000" LimitWeek="0" LimitDay="0">
+    <Items Type="0" ItemID="389" Number="1" Series="0" TimeLimit="43200" Rate="5600" Lock="1" ExpiryDate="" />
+    <Items Type="0" ItemID="390" Number="1" Series="0" TimeLimit="43200" Rate="1000" Lock="1" ExpiryDate="" />
+    <Items Type="0" ItemID="391" Number="1" Series="0" TimeLimit="43200" Rate="300" Lock="1" ExpiryDate="" />
+    <Items Type="0" ItemID="392" Number="1" Series="0" TimeLimit="43200" Rate="100" Lock="1" ExpiryDate="" />
+    <Items Type="0" ItemID="915" Number="1" Series="0" TimeLimit="43200" Rate="2900" Lock="0" ExpiryDate="" />
+    <Items Type="0" ItemID="916" Number="1" Series="0" TimeLimit="43200" Rate="50" Lock="0" ExpiryDate="" />
+    <Items Type="0" ItemID="917" Number="1" Series="0" TimeLimit="43200" Rate="50" Lock="0" ExpiryDate="" />
+  </Boxs>
+  <Boxs IDBox="44" BoxName="白驹丸" TotalRate="10000" LimitWeek="0" LimitDay="0">
+    <Items Type="0" ItemID="297" Number="1" Series="0" TimeLimit="43200" Rate="194" Lock="0" ExpiryDate="" />
+    <Items Type="0" ItemID="298" Number="1" Series="0" TimeLimit="43200" Rate="200" Lock="0" ExpiryDate="" />
+    <Items Type="0" ItemID="299" Number="1" Series="0" TimeLimit="43200" Rate="200" Lock="0" ExpiryDate="" />
+    <Items Type="0" ItemID="403" Number="1" Series="0" TimeLimit="43200" Rate="10" Lock="0" ExpiryDate="" />
+    <Items Type="0" ItemID="183" Number="1" Series="0" TimeLimit="43200" Rate="200" Lock="0" ExpiryDate="" />
+    <Items Type="0" ItemID="185" Number="1" Series="0" TimeLimit="43200" Rate="200" Lock="0" ExpiryDate="" />
+    <Items Type="0" ItemID="187" Number="1" Series="0" TimeLimit="43200" Rate="200" Lock="0" ExpiryDate="" />
+    <Items Type="0" ItemID="189" Number="1" Series="0" TimeLimit="43200" Rate="50" Lock="0" ExpiryDate="" />
+    <Items Type="0" ItemID="402" Number="1" Series="0" TimeLimit="43200" Rate="150" Lock="0" ExpiryDate="" />
+    <Items Type="0" ItemID="487" Number="1" Series="0" TimeLimit="43200" Rate="200" Lock="0" ExpiryDate="" />
+    <Items Type="0" ItemID="488" Number="1" Series="0" TimeLimit="43200" Rate="200" Lock="0" ExpiryDate="" />
+    <Items Type="0" ItemID="496" Number="1" Series="0" TimeLimit="43200" Rate="200" Lock="0" ExpiryDate="" />
+    <Items Type="0" ItemID="555" Number="1" Series="0" TimeLimit="43200" Rate="200" Lock="0" ExpiryDate="" />
+    <Items Type="0" ItemID="222" Number="1" Series="0" TimeLimit="43200" Rate="200" Lock="0" ExpiryDate="" />
+    <Items Type="0" ItemID="554" Number="1" Series="0" TimeLimit="43200" Rate="200" Lock="0" ExpiryDate="" />
+    <Items Type="0" ItemID="344" Number="1" Series="0" TimeLimit="43200" Rate="200" Lock="0" ExpiryDate="" />
+    <Items Type="0" ItemID="-1" Number="1" Series="0" TimeLimit="43200" Rate="200" Lock="0" ExpiryDate="" />
+    <Items Type="0" ItemID="400" Number="1" Series="0" TimeLimit="43200" Rate="200" Lock="0" ExpiryDate="" />
+    <Items Type="0" ItemID="223" Number="1" Series="0" TimeLimit="43200" Rate="200" Lock="0" ExpiryDate="" />
+    <Items Type="0" ItemID="216" Number="1" Series="0" TimeLimit="43200" Rate="200" Lock="0" ExpiryDate="" />
+    <Items Type="0" ItemID="2929" Number="1" Series="0" TimeLimit="43200" Rate="200" Lock="0" ExpiryDate="" />
+    <Items Type="0" ItemID="2930" Number="1" Series="0" TimeLimit="43200" Rate="200" Lock="0" ExpiryDate="" />
+    <Items Type="0" ItemID="2931" Number="1" Series="0" TimeLimit="43200" Rate="200" Lock="0" ExpiryDate="" />
+    <Items Type="0" ItemID="198" Number="1" Series="0" TimeLimit="43200" Rate="10" Lock="0" ExpiryDate="" />
+    <Items Type="0" ItemID="197" Number="1" Series="0" TimeLimit="43200" Rate="200" Lock="0" ExpiryDate="" />
+    <Items Type="0" ItemID="336" Number="1" Series="0" TimeLimit="43200" Rate="200" Lock="0" ExpiryDate="" />
+    <Items Type="0" ItemID="3473" Number="1" Series="0" TimeLimit="43200" Rate="200" Lock="0" ExpiryDate="" />
+    <Items Type="0" ItemID="3474" Number="1" Series="0" TimeLimit="43200" Rate="200" Lock="0" ExpiryDate="" />
+    <Items Type="0" ItemID="348" Number="1" Series="0" TimeLimit="43200" Rate="200" Lock="0" ExpiryDate="" />
+    <Items Type="0" ItemID="349" Number="1" Series="0" TimeLimit="43200" Rate="200" Lock="0" ExpiryDate="" />
+    <Items Type="0" ItemID="350" Number="1" Series="0" TimeLimit="43200" Rate="200" Lock="0" ExpiryDate="" />
+    <Items Type="0" ItemID="351" Number="1" Series="0" TimeLimit="43200" Rate="200" Lock="0" ExpiryDate="" />
+    <Items Type="0" ItemID="352" Number="1" Series="0" TimeLimit="43200" Rate="200" Lock="0" ExpiryDate="" />
+    <Items Type="0" ItemID="353" Number="1" Series="0" TimeLimit="43200" Rate="200" Lock="0" ExpiryDate="" />
+    <Items Type="0" ItemID="507" Number="1" Series="0" TimeLimit="43200" Rate="200" Lock="0" ExpiryDate="" />
+    <Items Type="0" ItemID="513" Number="1" Series="0" TimeLimit="43200" Rate="100" Lock="0" ExpiryDate="" />
+    <Items Type="0" ItemID="514" Number="1" Series="0" TimeLimit="43200" Rate="10" Lock="0" ExpiryDate="" />
+    <Items Type="0" ItemID="191" Number="1" Series="0" TimeLimit="43200" Rate="5" Lock="0" ExpiryDate="" />
+    <Items Type="0" ItemID="300" Number="1" Series="0" TimeLimit="43200" Rate="100" Lock="0" ExpiryDate="" />
+    <Items Type="0" ItemID="557" Number="1" Series="0" TimeLimit="43200" Rate="100" Lock="0" ExpiryDate="" />
+    <Items Type="0" ItemID="491" Number="1" Series="0" TimeLimit="43200" Rate="50" Lock="0" ExpiryDate="" />
+    <Items Type="0" ItemID="493" Number="1" Series="0" TimeLimit="43200" Rate="50" Lock="0" ExpiryDate="" />
+    <Items Type="0" ItemID="343" Number="1" Series="0" TimeLimit="43200" Rate="200" Lock="0" ExpiryDate="" />
+    <Items Type="0" ItemID="340" Number="1" Series="0" TimeLimit="43200" Rate="200" Lock="0" ExpiryDate="" />
+    <Items Type="0" ItemID="378" Number="1" Series="0" TimeLimit="43200" Rate="200" Lock="0" ExpiryDate="" />
+    <Items Type="0" ItemID="-1" Number="1" Series="0" TimeLimit="43200" Rate="200" Lock="0" ExpiryDate="" />
+    <Items Type="0" ItemID="379" Number="1" Series="0" TimeLimit="43200" Rate="200" Lock="0" ExpiryDate="" />
+    <Items Type="0" ItemID="380" Number="1" Series="0" TimeLimit="43200" Rate="200" Lock="0" ExpiryDate="" />
+    <Items Type="0" ItemID="433" Number="1" Series="0" TimeLimit="43200" Rate="10" Lock="0" ExpiryDate="" />
+    <Items Type="0" ItemID="556" Number="1" Series="0" TimeLimit="43200" Rate="150" Lock="0" ExpiryDate="" />
+    <Items Type="0" ItemID="582" Number="1" Series="0" TimeLimit="43200" Rate="180" Lock="0" ExpiryDate="" />
+    <Items Type="0" ItemID="583" Number="1" Series="0" TimeLimit="43200" Rate="10" Lock="0" ExpiryDate="" />
+    <Items Type="0" ItemID="590" Number="1" Series="0" TimeLimit="43200" Rate="100" Lock="0" ExpiryDate="" />
+    <Items Type="0" ItemID="515" Number="1" Series="0" TimeLimit="43200" Rate="1" Lock="0" ExpiryDate="" />
+    <Items Type="0" ItemID="634" Number="1" Series="0" TimeLimit="43200" Rate="200" Lock="0" ExpiryDate="" />
+    <Items Type="0" ItemID="635" Number="1" Series="0" TimeLimit="43200" Rate="10" Lock="0" ExpiryDate="" />
+    <Items Type="0" ItemID="769" Number="1" Series="0" TimeLimit="43200" Rate="10" Lock="0" ExpiryDate="" />
+    <Items Type="0" ItemID="825" Number="1" Series="0" TimeLimit="43200" Rate="10" Lock="0" ExpiryDate="" />
+    <Items Type="0" ItemID="827" Number="1" Series="0" TimeLimit="43200" Rate="10" Lock="0" ExpiryDate="" />
+    <Items Type="0" ItemID="579" Number="1" Series="0" TimeLimit="43200" Rate="200" Lock="0" ExpiryDate="" />
+    <Items Type="0" ItemID="580" Number="1" Series="0" TimeLimit="43200" Rate="200" Lock="0" ExpiryDate="" />
+    <Items Type="0" ItemID="581" Number="1" Series="0" TimeLimit="43200" Rate="200" Lock="0" ExpiryDate="" />
+    <Items Type="0" ItemID="770" Number="1" Series="0" TimeLimit="43200" Rate="200" Lock="0" ExpiryDate="" />
+    <Items Type="0" ItemID="527" Number="1" Series="0" TimeLimit="43200" Rate="50" Lock="0" ExpiryDate="" />
+    <Items Type="0" ItemID="530" Number="1" Series="0" TimeLimit="43200" Rate="10" Lock="0" ExpiryDate="" />
+    <Items Type="0" ItemID="607" Number="1" Series="0" TimeLimit="43200" Rate="200" Lock="0" ExpiryDate="" />
+    <Items Type="0" ItemID="805" Number="1" Series="0" TimeLimit="43200" Rate="200" Lock="0" ExpiryDate="" />
+    <Items Type="0" ItemID="748" Number="1" Series="0" TimeLimit="43200" Rate="10" Lock="0" ExpiryDate="" />
+    <Items Type="0" ItemID="749" Number="1" Series="0" TimeLimit="43200" Rate="10" Lock="0" ExpiryDate="" />
+  </Boxs>
+  <Boxs IDBox="45" BoxName="6级玄晶（绑定的）" TotalRate="10000" LimitWeek="0" LimitDay="0">
+    <Items Type="0" ItemID="390" Number="1" Series="0" TimeLimit="43200" Rate="1450" Lock="0" ExpiryDate="" />
+    <Items Type="0" ItemID="391" Number="1" Series="0" TimeLimit="43200" Rate="6000" Lock="0" ExpiryDate="" />
+    <Items Type="0" ItemID="392" Number="1" Series="0" TimeLimit="43200" Rate="500" Lock="0" ExpiryDate="" />
+    <Items Type="0" ItemID="393" Number="1" Series="0" TimeLimit="43200" Rate="50" Lock="0" ExpiryDate="" />
+    <Items Type="0" ItemID="927" Number="1" Series="0" TimeLimit="0" Rate="2000" Lock="0" ExpiryDate="" />
+  </Boxs>
+  <Boxs IDBox="46" BoxName="6级玄晶（绑定的）" TotalRate="10000" LimitWeek="0" LimitDay="0">
+    <Items Type="0" ItemID="390" Number="1" Series="0" TimeLimit="43200" Rate="6380" Lock="0" ExpiryDate="" />
+    <Items Type="0" ItemID="391" Number="1" Series="0" TimeLimit="43200" Rate="3000" Lock="0" ExpiryDate="" />
+    <Items Type="0" ItemID="392" Number="1" Series="0" TimeLimit="43200" Rate="200" Lock="0" ExpiryDate="" />
+    <Items Type="0" ItemID="393" Number="1" Series="0" TimeLimit="43200" Rate="20" Lock="0" ExpiryDate="" />
+    <Items Type="0" ItemID="927" Number="1" Series="0" TimeLimit="0" Rate="400" Lock="0" ExpiryDate="" />
+  </Boxs>
+  <Boxs IDBox="47" BoxName="5级玄晶（绑定的）" TotalRate="10000" LimitWeek="0" LimitDay="0">
+    <Items Type="0" ItemID="389" Number="1" Series="0" TimeLimit="43200" Rate="5690" Lock="0" ExpiryDate="" />
+    <Items Type="0" ItemID="390" Number="1" Series="0" TimeLimit="43200" Rate="3000" Lock="0" ExpiryDate="" />
+    <Items Type="0" ItemID="391" Number="1" Series="0" TimeLimit="43200" Rate="1000" Lock="0" ExpiryDate="" />
+    <Items Type="0" ItemID="392" Number="1" Series="0" TimeLimit="43200" Rate="100" Lock="0" ExpiryDate="" />
+    <Items Type="0" ItemID="393" Number="1" Series="0" TimeLimit="43200" Rate="10" Lock="0" ExpiryDate="" />
+    <Items Type="0" ItemID="927" Number="1" Series="0" TimeLimit="0" Rate="200" Lock="0" ExpiryDate="" />
+  </Boxs>
+  <Boxs IDBox="48" BoxName="武林大会英雄令牌" TotalRate="10000" LimitWeek="0" LimitDay="0">
+    <Items Type="0" ItemID="939" Number="1" Series="0" TimeLimit="0" Rate="2000" Lock="0" ExpiryDate="" />
+    <Items Type="0" ItemID="392" Number="1" Series="0" TimeLimit="43200" Rate="6900" Lock="0" ExpiryDate="" />
+    <Items Type="0" ItemID="393" Number="1" Series="0" TimeLimit="43200" Rate="1000" Lock="0" ExpiryDate="" />
+    <Items Type="0" ItemID="394" Number="1" Series="0" TimeLimit="43200" Rate="100" Lock="0" ExpiryDate="" />
+  </Boxs>
+  <Boxs IDBox="49" BoxName="酒箱（50瓶）" TotalRate="-3" LimitWeek="0" LimitDay="0">
+    <Items Type="0" ItemID="488" Number="1" Series="0" TimeLimit="43200" Rate="-1" Lock="0" ExpiryDate="" />
+    <Items Type="0" ItemID="600" Number="1" Series="0" TimeLimit="43200" Rate="-1" Lock="0" ExpiryDate="" />
+    <Items Type="0" ItemID="590" Number="1" Series="0" TimeLimit="43200" Rate="-1" Lock="0" ExpiryDate="" />
+  </Boxs>
+  <Boxs IDBox="50" BoxName="酒箱（50瓶）" TotalRate="-3" LimitWeek="0" LimitDay="0">
+    <Items Type="0" ItemID="488" Number="1" Series="0" TimeLimit="43200" Rate="-1" Lock="0" ExpiryDate="" />
+    <Items Type="0" ItemID="600" Number="1" Series="0" TimeLimit="43200" Rate="-1" Lock="0" ExpiryDate="" />
+    <Items Type="0" ItemID="590" Number="1" Series="0" TimeLimit="43200" Rate="-1" Lock="0" ExpiryDate="" />
+  </Boxs>
+  <Boxs IDBox="51" BoxName="酒箱（50瓶）" TotalRate="-3" LimitWeek="0" LimitDay="0">
+    <Items Type="0" ItemID="488" Number="1" Series="0" TimeLimit="43200" Rate="-1" Lock="1" ExpiryDate="" />
+    <Items Type="0" ItemID="600" Number="1" Series="0" TimeLimit="43200" Rate="-1" Lock="1" ExpiryDate="" />
+    <Items Type="0" ItemID="590" Number="1" Series="0" TimeLimit="43200" Rate="-1" Lock="1" ExpiryDate="" />
+  </Boxs>
+  <Boxs IDBox="52" BoxName="8888绑金" TotalRate="10000" LimitWeek="0" LimitDay="0">
+    <Items Type="3" ItemID="-1" Number="8888" Series="0" TimeLimit="0" Rate="200" Lock="1" ExpiryDate="" />
+    <Items Type="3" ItemID="-1" Number="4888" Series="0" TimeLimit="0" Rate="300" Lock="1" ExpiryDate="" />
+    <Items Type="0" ItemID="739" Number="1" Series="0" TimeLimit="43200" Rate="3000" Lock="1" ExpiryDate="" />
+    <Items Type="0" ItemID="582" Number="1" Series="0" TimeLimit="0" Rate="4000" Lock="1" ExpiryDate="" />
+    <Items Type="0" ItemID="947" Number="1" Series="0" TimeLimit="43200" Rate="2500" Lock="1" ExpiryDate="" />
+  </Boxs>
+  <Boxs IDBox="53" BoxName="特别的精魄" TotalRate="10000" LimitWeek="0" LimitDay="0">
+    <Items Type="0" ItemID="1060" Number="1" Series="0" TimeLimit="43200" Rate="2000" Lock="1" ExpiryDate="" />
+    <Items Type="3" ItemID="-1" Number="4888" Series="0" TimeLimit="0" Rate="500" Lock="1" ExpiryDate="" />
+    <Items Type="0" ItemID="1027" Number="1" Series="0" TimeLimit="0" Rate="4000" Lock="1" ExpiryDate="" />
+    <Items Type="0" ItemID="1055" Number="1" Series="0" TimeLimit="0" Rate="2000" Lock="1" ExpiryDate="" />
+    <Items Type="0" ItemID="947" Number="1" Series="0" TimeLimit="43200" Rate="1500" Lock="1" ExpiryDate="" />
+  </Boxs>
+  <Boxs IDBox="54" BoxName="5级玄晶（绑定)" TotalRate="9998" LimitWeek="0" LimitDay="0">
+    <Items Type="0" ItemID="187" Number="1" Series="0" TimeLimit="0" Rate="6889" Lock="1" ExpiryDate="" />
+    <Items Type="0" ItemID="188" Number="1" Series="0" TimeLimit="0" Rate="3000" Lock="1" ExpiryDate="" />
+    <Items Type="0" ItemID="189" Number="1" Series="0" TimeLimit="0" Rate="100" Lock="1" ExpiryDate="" />
+    <Items Type="0" ItemID="190" Number="1" Series="0" TimeLimit="43200" Rate="10" Lock="1" ExpiryDate="" />
+    <Items Type="0" ItemID="191" Number="1" Series="0" TimeLimit="43200" Rate="1" Lock="1" ExpiryDate="" />
+    <Items Type="0" ItemID="337" Number="1" Series="0" TimeLimit="0" Rate="-1" Lock="1" ExpiryDate="" />
+    <Items Type="0" ItemID="337" Number="1" Series="0" TimeLimit="0" Rate="-1" Lock="1" ExpiryDate="" />
+  </Boxs>
+  <Boxs IDBox="55" BoxName="7级玄晶" TotalRate="1000" LimitWeek="0" LimitDay="0">
+    <Items Type="0" ItemID="391" Number="1" Series="0" TimeLimit="43200" Rate="668" Lock="0" ExpiryDate="" />
+    <Items Type="0" ItemID="392" Number="1" Series="0" TimeLimit="43200" Rate="30" Lock="0" ExpiryDate="" />
+    <Items Type="0" ItemID="393" Number="1" Series="0" TimeLimit="43200" Rate="2" Lock="0" ExpiryDate="" />
+    <Items Type="1" ItemID="-1" Number="99999" Series="0" TimeLimit="0" Rate="300" Lock="0" ExpiryDate="" />
+  </Boxs>
+  <Boxs IDBox="56" BoxName="同伴特殊材料（不绑定）" TotalRate="10000" LimitWeek="0" LimitDay="0">
+    <Items Type="0" ItemID="1081" Number="1" Series="0" TimeLimit="0" Rate="1000" Lock="0" ExpiryDate="" />
+    <Items Type="0" ItemID="1100" Number="1" Series="0" TimeLimit="43200" Rate="50" Lock="0" ExpiryDate="" />
+    <Items Type="0" ItemID="391" Number="1" Series="0" TimeLimit="43200" Rate="7639" Lock="0" ExpiryDate="" />
+    <Items Type="0" ItemID="392" Number="1" Series="0" TimeLimit="43200" Rate="1200" Lock="0" ExpiryDate="" />
+    <Items Type="0" ItemID="393" Number="1" Series="0" TimeLimit="43200" Rate="100" Lock="0" ExpiryDate="" />
+    <Items Type="0" ItemID="394" Number="1" Series="0" TimeLimit="43200" Rate="10" Lock="0" ExpiryDate="" />
+    <Items Type="0" ItemID="1066" Number="1" Series="0" TimeLimit="0" Rate="1" Lock="0" ExpiryDate="" />
+  </Boxs>
+  <Boxs IDBox="57" BoxName="29999绑定银两" TotalRate="999" LimitWeek="0" LimitDay="0">
+    <Items Type="1" ItemID="-1" Number="29999" Series="0" TimeLimit="0" Rate="300" Lock="0" ExpiryDate="" />
+    <Items Type="0" ItemID="1057" Number="1" Series="0" TimeLimit="0" Rate="215" Lock="0" ExpiryDate="" />
+    <Items Type="0" ItemID="390" Number="1" Series="0" TimeLimit="43200" Rate="300" Lock="0" ExpiryDate="" />
+    <Items Type="0" ItemID="391" Number="1" Series="0" TimeLimit="43200" Rate="100" Lock="0" ExpiryDate="" />
+    <Items Type="0" ItemID="392" Number="1" Series="0" TimeLimit="43200" Rate="10" Lock="0" ExpiryDate="" />
+    <Items Type="0" ItemID="393" Number="1" Series="0" TimeLimit="43200" Rate="1" Lock="0" ExpiryDate="" />
+    <Items Type="0" ItemID="-1" Number="1" Series="0" TimeLimit="43200" Rate="10" Lock="0" ExpiryDate="" />
+    <Items Type="0" ItemID="-1" Number="1" Series="0" TimeLimit="43200" Rate="10" Lock="0" ExpiryDate="" />
+    <Items Type="0" ItemID="1071" Number="1" Series="0" TimeLimit="43200" Rate="50" Lock="1" ExpiryDate="" />
+    <Items Type="0" ItemID="1081" Number="1" Series="0" TimeLimit="0" Rate="1" Lock="0" ExpiryDate="" />
+    <Items Type="0" ItemID="1099" Number="1" Series="0" TimeLimit="43200" Rate="3" Lock="0" ExpiryDate="" />
+    <Items Type="0" ItemID="-1" Number="0" Series="0" TimeLimit="0" Rate="-1" Lock="0" ExpiryDate="" />
+  </Boxs>
+  <Boxs IDBox="58" BoxName="7级玄晶（绑定）" TotalRate="1000" LimitWeek="0" LimitDay="0">
+    <Items Type="0" ItemID="391" Number="1" Series="0" TimeLimit="43200" Rate="859" Lock="0" ExpiryDate="" />
+    <Items Type="0" ItemID="392" Number="1" Series="0" TimeLimit="43200" Rate="100" Lock="0" ExpiryDate="" />
+    <Items Type="0" ItemID="393" Number="1" Series="0" TimeLimit="43200" Rate="10" Lock="0" ExpiryDate="" />
+    <Items Type="0" ItemID="394" Number="1" Series="0" TimeLimit="43200" Rate="1" Lock="0" ExpiryDate="" />
+    <Items Type="0" ItemID="914" Number="1" Series="0" TimeLimit="0" Rate="30" Lock="0" ExpiryDate="" />
+  </Boxs>
+  <Boxs IDBox="59" BoxName="29999绑定银两" TotalRate="9999" LimitWeek="0" LimitDay="0">
+    <Items Type="1" ItemID="-1" Number="29999" Series="0" TimeLimit="0" Rate="2000" Lock="0" ExpiryDate="" />
+    <Items Type="0" ItemID="389" Number="1" Series="0" TimeLimit="43200" Rate="3967" Lock="0" ExpiryDate="" />
+    <Items Type="0" ItemID="390" Number="1" Series="0" TimeLimit="43200" Rate="3000" Lock="0" ExpiryDate="" />
+    <Items Type="0" ItemID="391" Number="1" Series="0" TimeLimit="43200" Rate="300" Lock="0" ExpiryDate="" />
+    <Items Type="0" ItemID="392" Number="1" Series="0" TimeLimit="43200" Rate="30" Lock="0" ExpiryDate="" />
+    <Items Type="0" ItemID="393" Number="1" Series="0" TimeLimit="43200" Rate="3" Lock="0" ExpiryDate="" />
+    <Items Type="0" ItemID="-1" Number="1" Series="0" TimeLimit="43200" Rate="100" Lock="0" ExpiryDate="" />
+    <Items Type="0" ItemID="-1" Number="1" Series="0" TimeLimit="43200" Rate="100" Lock="0" ExpiryDate="" />
+    <Items Type="0" ItemID="1071" Number="1" Series="0" TimeLimit="0" Rate="500" Lock="1" ExpiryDate="" />
+    <Items Type="0" ItemID="-1" Number="0" Series="0" TimeLimit="0" Rate="-1" Lock="0" ExpiryDate="" />
+  </Boxs>
+  <Boxs IDBox="60" BoxName="50000绑银" TotalRate="1000000" LimitWeek="0" LimitDay="0">
+    <Items Type="1" ItemID="-1" Number="50000" Series="0" TimeLimit="0" Rate="660000" Lock="0" ExpiryDate="" />
+    <Items Type="1" ItemID="-1" Number="100000" Series="0" TimeLimit="0" Rate="280000" Lock="0" ExpiryDate="" />
+    <Items Type="1" ItemID="-1" Number="300000" Series="0" TimeLimit="0" Rate="50000" Lock="0" ExpiryDate="" />
+    <Items Type="1" ItemID="-1" Number="500000" Series="0" TimeLimit="0" Rate="10000" Lock="0" ExpiryDate="" />
+  </Boxs>
+  <Boxs IDBox="61" BoxName="20000绑银" TotalRate="1000000" LimitWeek="0" LimitDay="0">
+    <Items Type="1" ItemID="-1" Number="20000" Series="0" TimeLimit="0" Rate="216000" Lock="0" ExpiryDate="" />
+    <Items Type="1" ItemID="-1" Number="50000" Series="0" TimeLimit="0" Rate="630000" Lock="0" ExpiryDate="" />
+    <Items Type="1" ItemID="-1" Number="100000" Series="0" TimeLimit="0" Rate="140000" Lock="0" ExpiryDate="" />
+    <Items Type="1" ItemID="-1" Number="300000" Series="0" TimeLimit="0" Rate="14000" Lock="0" ExpiryDate="" />
+  </Boxs>
+  <Boxs IDBox="62" BoxName="20000绑银" TotalRate="1000000" LimitWeek="0" LimitDay="0">
+    <Items Type="1" ItemID="-1" Number="20000" Series="0" TimeLimit="0" Rate="282000" Lock="0" ExpiryDate="" />
+    <Items Type="1" ItemID="-1" Number="50000" Series="0" TimeLimit="0" Rate="630000" Lock="0" ExpiryDate="" />
+    <Items Type="1" ItemID="-1" Number="100000" Series="0" TimeLimit="0" Rate="80000" Lock="0" ExpiryDate="" />
+    <Items Type="1" ItemID="-1" Number="300000" Series="0" TimeLimit="0" Rate="8000" Lock="0" ExpiryDate="" />
+  </Boxs>
+  <Boxs IDBox="63" BoxName="20000绑银" TotalRate="1000000" LimitWeek="0" LimitDay="0">
+    <Items Type="1" ItemID="-1" Number="20000" Series="0" TimeLimit="0" Rate="456000" Lock="0" ExpiryDate="" />
+    <Items Type="1" ItemID="-1" Number="50000" Series="0" TimeLimit="0" Rate="500000" Lock="0" ExpiryDate="" />
+    <Items Type="1" ItemID="-1" Number="100000" Series="0" TimeLimit="0" Rate="40000" Lock="0" ExpiryDate="" />
+    <Items Type="1" ItemID="-1" Number="300000" Series="0" TimeLimit="0" Rate="4000" Lock="0" ExpiryDate="" />
+  </Boxs>
+  <Boxs IDBox="64" BoxName="7级玄晶（绑定的）" TotalRate="10000" LimitWeek="0" LimitDay="0">
+    <Items Type="0" ItemID="391" Number="1" Series="0" TimeLimit="43200" Rate="8400" Lock="1" ExpiryDate="" />
+    <Items Type="0" ItemID="392" Number="1" Series="0" TimeLimit="43200" Rate="1500" Lock="1" ExpiryDate="" />
+    <Items Type="0" ItemID="393" Number="1" Series="0" TimeLimit="43200" Rate="100" Lock="1" ExpiryDate="" />
+  </Boxs>
+  <Boxs IDBox="65" BoxName="8级玄晶（绑定的）" TotalRate="10000" LimitWeek="0" LimitDay="0">
+    <Items Type="0" ItemID="392" Number="1" Series="0" TimeLimit="43200" Rate="8400" Lock="1" ExpiryDate="" />
+    <Items Type="0" ItemID="393" Number="1" Series="0" TimeLimit="43200" Rate="1500" Lock="1" ExpiryDate="" />
+    <Items Type="0" ItemID="394" Number="1" Series="0" TimeLimit="43200" Rate="100" Lock="1" ExpiryDate="" />
+  </Boxs>
+  <Boxs IDBox="66" BoxName="7级玄晶（绑定的）" TotalRate="10000" LimitWeek="0" LimitDay="0">
+    <Items Type="0" ItemID="391" Number="1" Series="0" TimeLimit="43200" Rate="8400" Lock="1" ExpiryDate="" />
+    <Items Type="0" ItemID="392" Number="1" Series="0" TimeLimit="43200" Rate="1500" Lock="1" ExpiryDate="" />
+    <Items Type="0" ItemID="393" Number="1" Series="0" TimeLimit="43200" Rate="100" Lock="1" ExpiryDate="" />
+  </Boxs>
+  <Boxs IDBox="67" BoxName="6级玄晶" TotalRate="10000" LimitWeek="0" LimitDay="0">
+    <Items Type="0" ItemID="390" Number="1" Series="0" TimeLimit="43200" Rate="1200" Lock="0" ExpiryDate="" />
+    <Items Type="0" ItemID="391" Number="1" Series="0" TimeLimit="43200" Rate="100" Lock="0" ExpiryDate="" />
+    <Items Type="0" ItemID="392" Number="1" Series="0" TimeLimit="43200" Rate="10" Lock="0" ExpiryDate="" />
+    <Items Type="1" ItemID="-1" Number="100000" Series="0" TimeLimit="0" Rate="1200" Lock="0" ExpiryDate="" />
+    <Items Type="1" ItemID="-1" Number="200000" Series="0" TimeLimit="0" Rate="300" Lock="0" ExpiryDate="" />
+    <Items Type="1" ItemID="-1" Number="500000" Series="0" TimeLimit="0" Rate="30" Lock="0" ExpiryDate="" />
+    <Items Type="1" ItemID="-1" Number="1000000" Series="0" TimeLimit="0" Rate="10" Lock="0" ExpiryDate="" />
+    <Items Type="3" ItemID="-1" Number="300" Series="0" TimeLimit="0" Rate="5040" Lock="1" ExpiryDate="" />
+    <Items Type="3" ItemID="-1" Number="500" Series="0" TimeLimit="0" Rate="1500" Lock="1" ExpiryDate="" />
+    <Items Type="3" ItemID="-1" Number="1000" Series="0" TimeLimit="0" Rate="500" Lock="1" ExpiryDate="" />
+    <Items Type="3" ItemID="-1" Number="2000" Series="0" TimeLimit="0" Rate="100" Lock="1" ExpiryDate="" />
+    <Items Type="3" ItemID="-1" Number="5000" Series="0" TimeLimit="0" Rate="10" Lock="1" ExpiryDate="" />
+  </Boxs>
+  <Boxs IDBox="68" BoxName="6级玄晶" TotalRate="10000" LimitWeek="0" LimitDay="0">
+    <Items Type="0" ItemID="390" Number="1" Series="0" TimeLimit="43200" Rate="120" Lock="0" ExpiryDate="" />
+    <Items Type="0" ItemID="391" Number="1" Series="0" TimeLimit="43200" Rate="10" Lock="0" ExpiryDate="" />
+    <Items Type="0" ItemID="392" Number="1" Series="0" TimeLimit="43200" Rate="1" Lock="0" ExpiryDate="" />
+    <Items Type="1" ItemID="-1" Number="10000" Series="0" TimeLimit="0" Rate="2379" Lock="0" ExpiryDate="" />
+    <Items Type="1" ItemID="-1" Number="20000" Series="0" TimeLimit="0" Rate="300" Lock="0" ExpiryDate="" />
+    <Items Type="1" ItemID="-1" Number="50000" Series="0" TimeLimit="0" Rate="30" Lock="0" ExpiryDate="" />
+    <Items Type="1" ItemID="-1" Number="100000" Series="0" TimeLimit="0" Rate="10" Lock="0" ExpiryDate="" />
+    <Items Type="3" ItemID="-1" Number="30" Series="0" TimeLimit="0" Rate="5040" Lock="1" ExpiryDate="" />
+    <Items Type="3" ItemID="-1" Number="50" Series="0" TimeLimit="0" Rate="1500" Lock="1" ExpiryDate="" />
+    <Items Type="3" ItemID="-1" Number="100" Series="0" TimeLimit="0" Rate="500" Lock="1" ExpiryDate="" />
+    <Items Type="3" ItemID="-1" Number="200" Series="0" TimeLimit="0" Rate="100" Lock="1" ExpiryDate="" />
+    <Items Type="3" ItemID="-1" Number="500" Series="0" TimeLimit="0" Rate="10" Lock="1" ExpiryDate="" />
+  </Boxs>
+  <Boxs IDBox="69" BoxName="2010绑定金币" TotalRate="-7" LimitWeek="0" LimitDay="0">
+    <Items Type="3" ItemID="-1" Number="2010" Series="0" TimeLimit="0" Rate="-1" Lock="1" ExpiryDate="" />
+    <Items Type="1" ItemID="-1" Number="200000" Series="0" TimeLimit="0" Rate="-1" Lock="1" ExpiryDate="" />
+    <Items Type="0" ItemID="3461" Number="1" Series="0" TimeLimit="0" Rate="-1" Lock="1" ExpiryDate="" />
+    <Items Type="0" ItemID="230" Number="1" Series="0" TimeLimit="0" Rate="-1" Lock="1" ExpiryDate="" />
+    <Items Type="0" ItemID="231" Number="1" Series="0" TimeLimit="0" Rate="-1" Lock="1" ExpiryDate="" />
+    <Items Type="0" ItemID="232" Number="1" Series="0" TimeLimit="0" Rate="-1" Lock="1" ExpiryDate="" />
+    <Items Type="0" ItemID="506" Number="1" Series="0" TimeLimit="30" Rate="-1" Lock="1" ExpiryDate="" />
+  </Boxs>
+  <Boxs IDBox="70" BoxName="Rương liên đấu liên server" TotalRate="10000" LimitWeek="0" LimitDay="0">
+    <Items Type="0" ItemID="1026" Number="1" Series="0" TimeLimit="0" Rate="700" Lock="1" ExpiryDate="" /> <!-- Chiến Thư-Mật Thất Du Long -->
+   
+    <Items Type="0" ItemID="191" Number="1" Series="0" TimeLimit="0" Rate="400" Lock="1" ExpiryDate="" /> <!-- Huyền Tinh Cấp 9-->
+    <Items Type="0" ItemID="190" Number="1" Series="0" TimeLimit="0" Rate="700" Lock="1" ExpiryDate="" /> <!-- Huyền Tinh cấp 8 -->
+    <Items Type="0" ItemID="189" Number="1" Series="0" TimeLimit="0" Rate="900" Lock="1" ExpiryDate="" /> <!-- Huyền Tinh cấp 7-->
+    
+    <Items Type="0" ItemID="15606" Number="1" Series="0" TimeLimit="0" Rate="500" Lock="1" ExpiryDate="" /> <!-- Tinh Khí Tán (500) [VIP]-->
+    <Items Type="0" ItemID="15607" Number="1" Series="0" TimeLimit="0" Rate="500" Lock="1" ExpiryDate="" /> <!-- Hoạt Khí Tán (500) [VIP] -->
+
+    <Items Type="0" ItemID="13097" Number="1" Series="0" TimeLimit="0" Rate="1000" Lock="1" ExpiryDate="" /> <!-- Danh vọng Liên đấu Liên Server -->
+    <Items Type="0" ItemID="13097" Number="3" Series="0" TimeLimit="0" Rate="700" Lock="1" ExpiryDate="" /> 
+    <Items Type="0" ItemID="13097" Number="5" Series="0" TimeLimit="0" Rate="300" Lock="1" ExpiryDate="" />
+    
+    <Items Type="0" ItemID="1074" Number="5" Series="0" TimeLimit="0" Rate="900" Lock="1" ExpiryDate="" /> 
+    <Items Type="0" ItemID="1074" Number="10" Series="0" TimeLimit="0" Rate="600" Lock="1" ExpiryDate="" /> <!-- Tiền Du Long -->
+    <Items Type="0" ItemID="1074" Number="10" Series="0" TimeLimit="0" Rate="300" Lock="1" ExpiryDate="" /> 
+
+    <Items Type="0" ItemID="20529" Number="2" Series="0" TimeLimit="0" Rate="900" Lock="1" ExpiryDate="" />
+    <Items Type="0" ItemID="20529" Number="4" Series="0" TimeLimit="0" Rate="600" Lock="1" ExpiryDate="" />
+    <Items Type="0" ItemID="20529" Number="6" Series="0" TimeLimit="0" Rate="300" Lock="1" ExpiryDate="" /> <!-- Rương mảnh trang bị đồng hành (Cao)-->
+    
+    <Items Type="0" ItemID="506" Number="100" Series="0" TimeLimit="0" Rate="450" Lock="1" ExpiryDate="" /> <!-- Ngũ Hành 100 -->
+    <Items Type="0" ItemID="506" Number="200" Series="0" TimeLimit="0" Rate="220" Lock="1" ExpiryDate="" /> <!-- Ngũ Hành 200 -->
+
+    <Items Type="0" ItemID="2017" Number="1" Series="0" TimeLimit="0" Rate="30" Lock="1" ExpiryDate="" /> <!-- Rương Tiểu Du Long (Ngẫu Nhiên) -->
+  </Boxs>
+  <Boxs IDBox="71" BoxName="6级玄晶（绑定的）" TotalRate="10450" LimitWeek="0" LimitDay="0">
+    <Items Type="0" ItemID="390" Number="1" Series="0" TimeLimit="0" Rate="1400" Lock="0" ExpiryDate="" />
+    <Items Type="0" ItemID="391" Number="1" Series="0" TimeLimit="43200" Rate="5500" Lock="0" ExpiryDate="" />
+    <Items Type="0" ItemID="392" Number="1" Series="0" TimeLimit="43200" Rate="500" Lock="0" ExpiryDate="" />
+    <Items Type="0" ItemID="393" Number="1" Series="0" TimeLimit="43200" Rate="50" Lock="0" ExpiryDate="" />
+    <Items Type="0" ItemID="1254" Number="1" Series="0" TimeLimit="0" Rate="1000" Lock="0" ExpiryDate="" />
+    <Items Type="0" ItemID="927" Number="1" Series="0" TimeLimit="0" Rate="2000" Lock="0" ExpiryDate="" />
+  </Boxs>
+  <Boxs IDBox="72" BoxName="6级玄晶（绑定的）" TotalRate="10000" LimitWeek="0" LimitDay="0">
+    <Items Type="0" ItemID="390" Number="1" Series="0" TimeLimit="0" Rate="4080" Lock="0" ExpiryDate="" />
+    <Items Type="0" ItemID="391" Number="1" Series="0" TimeLimit="43200" Rate="4300" Lock="0" ExpiryDate="" />
+    <Items Type="0" ItemID="392" Number="1" Series="0" TimeLimit="43200" Rate="200" Lock="0" ExpiryDate="" />
+    <Items Type="0" ItemID="393" Number="1" Series="0" TimeLimit="43200" Rate="20" Lock="0" ExpiryDate="" />
+    <Items Type="0" ItemID="1254" Number="1" Series="0" TimeLimit="0" Rate="1000" Lock="0" ExpiryDate="" />
+    <Items Type="0" ItemID="927" Number="1" Series="0" TimeLimit="0" Rate="400" Lock="0" ExpiryDate="" />
+  </Boxs>
+  <Boxs IDBox="73" BoxName="6级玄晶（绑定的）" TotalRate="9800" LimitWeek="0" LimitDay="0">
+    <Items Type="0" ItemID="390" Number="1" Series="0" TimeLimit="0" Rate="7190" Lock="0" ExpiryDate="" />
+    <Items Type="0" ItemID="391" Number="1" Series="0" TimeLimit="43200" Rate="2000" Lock="0" ExpiryDate="" />
+    <Items Type="0" ItemID="392" Number="1" Series="0" TimeLimit="43200" Rate="100" Lock="0" ExpiryDate="" />
+    <Items Type="0" ItemID="393" Number="1" Series="0" TimeLimit="43200" Rate="10" Lock="0" ExpiryDate="" />
+    <Items Type="0" ItemID="1254" Number="1" Series="0" TimeLimit="0" Rate="300" Lock="0" ExpiryDate="" />
+    <Items Type="0" ItemID="927" Number="1" Series="0" TimeLimit="0" Rate="200" Lock="0" ExpiryDate="" />
+  </Boxs>
+  <Boxs IDBox="74" BoxName="7级玄晶（绑定的）" TotalRate="10109" LimitWeek="0" LimitDay="0">
+    <Items Type="0" ItemID="391" Number="1" Series="0" TimeLimit="43200" Rate="8000" Lock="0" ExpiryDate="" />
+    <Items Type="0" ItemID="392" Number="1" Series="0" TimeLimit="43200" Rate="1000" Lock="0" ExpiryDate="" />
+    <Items Type="0" ItemID="393" Number="1" Series="0" TimeLimit="43200" Rate="100" Lock="0" ExpiryDate="" />
+    <Items Type="0" ItemID="394" Number="1" Series="0" TimeLimit="43200" Rate="10" Lock="0" ExpiryDate="" />
+    <Items Type="0" ItemID="927" Number="1" Series="0" TimeLimit="43200" Rate="1000" Lock="0" ExpiryDate="" />
+    <Items Type="5" ItemID="-1" Number="10000000" Series="0" TimeLimit="0" Rate="-1" Lock="0" ExpiryDate="" />
+  </Boxs>
+  <Boxs IDBox="75" BoxName="1000000经验" TotalRate="10000" LimitWeek="0" LimitDay="0">
+    <Items Type="5" ItemID="-1" Number="1000000" Series="0" TimeLimit="0" Rate="2330" Lock="0" ExpiryDate="" />
+    <Items Type="5" ItemID="-1" Number="2000000" Series="0" TimeLimit="0" Rate="1250" Lock="0" ExpiryDate="" />
+    <Items Type="1" ItemID="-1" Number="60000" Series="0" TimeLimit="0" Rate="2000" Lock="0" ExpiryDate="" />
+    <Items Type="1" ItemID="-1" Number="100000" Series="0" TimeLimit="0" Rate="1000" Lock="0" ExpiryDate="" />
+    <Items Type="1" ItemID="-1" Number="200000" Series="0" TimeLimit="0" Rate="300" Lock="0" ExpiryDate="" />
+    <Items Type="0" ItemID="390" Number="1" Series="0" TimeLimit="43200" Rate="2000" Lock="0" ExpiryDate="" />
+    <Items Type="0" ItemID="391" Number="1" Series="0" TimeLimit="43200" Rate="1000" Lock="0" ExpiryDate="" />
+    <Items Type="0" ItemID="392" Number="1" Series="0" TimeLimit="43200" Rate="100" Lock="0" ExpiryDate="" />
+    <Items Type="0" ItemID="393" Number="1" Series="0" TimeLimit="43200" Rate="10" Lock="0" ExpiryDate="" />
+    <Items Type="0" ItemID="491" Number="1" Series="0" TimeLimit="43200" Rate="10" Lock="0" ExpiryDate="" />
+  </Boxs>
+  <Boxs IDBox="76" BoxName="1000000 绑银" TotalRate="10000" LimitWeek="0" LimitDay="0">
+    <Items Type="1" ItemID="-1" Number="1000000" Series="0" TimeLimit="0" Rate="1500" Lock="0" ExpiryDate="" />
+    <Items Type="1" ItemID="-1" Number="2000000" Series="0" TimeLimit="0" Rate="1000" Lock="0" ExpiryDate="" />
+    <Items Type="0" ItemID="393" Number="1" Series="0" TimeLimit="43200" Rate="2000" Lock="0" ExpiryDate="" />
+    <Items Type="0" ItemID="394" Number="1" Series="0" TimeLimit="43200" Rate="1200" Lock="0" ExpiryDate="" />
+    <Items Type="0" ItemID="395" Number="1" Series="0" TimeLimit="43200" Rate="800" Lock="0" ExpiryDate="" />
+    <Items Type="0" ItemID="310" Number="1" Series="0" TimeLimit="43200" Rate="500" Lock="0" ExpiryDate="" />
+    <Items Type="0" ItemID="320" Number="1" Series="0" TimeLimit="43200" Rate="500" Lock="0" ExpiryDate="" />
+    <Items Type="0" ItemID="330" Number="1" Series="0" TimeLimit="43200" Rate="500" Lock="0" ExpiryDate="" />
+    <Items Type="0" ItemID="914" Number="1" Series="0" TimeLimit="43200" Rate="1000" Lock="0" ExpiryDate="" />
+    <Items Type="0" ItemID="491" Number="1" Series="0" TimeLimit="43200" Rate="1000" Lock="0" ExpiryDate="" />
+  </Boxs>
+  <Boxs IDBox="77" BoxName="9級玄晶" TotalRate="10000" LimitWeek="0" LimitDay="0">
+    <Items Type="0" ItemID="191" Number="1" Series="0" TimeLimit="0" Rate="100" Lock="0" ExpiryDate="" />
+    <Items Type="0" ItemID="1480" Number="1" Series="1" TimeLimit="0" Rate="500" Lock="1" ExpiryDate="" />
+    <Items Type="0" ItemID="190" Number="1" Series="0" TimeLimit="0" Rate="200" Lock="0" ExpiryDate="" />
+    <Items Type="0" ItemID="189" Number="1" Series="0" TimeLimit="0" Rate="400" Lock="0" ExpiryDate="" />
+    <Items Type="0" ItemID="300" Number="1" Series="1" TimeLimit="0" Rate="800" Lock="0" ExpiryDate="" />
+    <Items Type="0" ItemID="1481" Number="1" Series="1" TimeLimit="0" Rate="800" Lock="0" ExpiryDate="" />
+    <Items Type="0" ItemID="300" Number="1" Series="1" TimeLimit="0" Rate="800" Lock="0" ExpiryDate="" />
+    <Items Type="0" ItemID="197" Number="1" Series="1" TimeLimit="0" Rate="800" Lock="0" ExpiryDate="" />
+    <Items Type="0" ItemID="507" Number="1" Series="1" TimeLimit="0" Rate="800" Lock="0" ExpiryDate="" />
+    <Items Type="0" ItemID="383" Number="1" Series="1" TimeLimit="0" Rate="800" Lock="0" ExpiryDate="" />
+    <Items Type="0" ItemID="353" Number="1" Series="1" TimeLimit="0" Rate="800" Lock="0" ExpiryDate="" />
+    <Items Type="0" ItemID="350" Number="1" Series="1" TimeLimit="0" Rate="800" Lock="0" ExpiryDate="" />
+    <Items Type="0" ItemID="344" Number="1" Series="1" TimeLimit="0" Rate="800" Lock="0" ExpiryDate="" />
+    <Items Type="0" ItemID="223" Number="1" Series="1" TimeLimit="0" Rate="800" Lock="0" ExpiryDate="" />
+    <Items Type="3" ItemID="-1" Number="1000" Series="0" TimeLimit="0" Rate="800" Lock="1" ExpiryDate="" />
+  </Boxs>
+  <Boxs IDBox="78" BoxName="中級祈福令牌" TotalRate="10000" LimitWeek="0" LimitDay="0">
+    <Items Type="0" ItemID="514" Number="1" Series="1" TimeLimit="0" Rate="200" Lock="0" ExpiryDate="" />
+    <Items Type="0" ItemID="378" Number="1" Series="0" TimeLimit="0" Rate="500" Lock="0" ExpiryDate="" />
+    <Items Type="0" ItemID="-1" Number="1" Series="0" TimeLimit="0" Rate="500" Lock="0" ExpiryDate="" />
+    <Items Type="0" ItemID="216" Number="1" Series="1" TimeLimit="0" Rate="800" Lock="0" ExpiryDate="" />
+    <Items Type="0" ItemID="300" Number="1" Series="1" TimeLimit="0" Rate="800" Lock="0" ExpiryDate="" />
+    <Items Type="0" ItemID="1481" Number="1" Series="1" TimeLimit="0" Rate="800" Lock="0" ExpiryDate="" />
+    <Items Type="0" ItemID="402" Number="1" Series="1" TimeLimit="0" Rate="400" Lock="0" ExpiryDate="" />
+    <Items Type="0" ItemID="556" Number="1" Series="0" TimeLimit="0" Rate="400" Lock="0" ExpiryDate="" />
+    <Items Type="0" ItemID="507" Number="1" Series="1" TimeLimit="0" Rate="800" Lock="0" ExpiryDate="" />
+    <Items Type="0" ItemID="383" Number="1" Series="1" TimeLimit="0" Rate="800" Lock="0" ExpiryDate="" />
+    <Items Type="0" ItemID="353" Number="1" Series="1" TimeLimit="0" Rate="800" Lock="0" ExpiryDate="" />
+    <Items Type="0" ItemID="350" Number="1" Series="1" TimeLimit="0" Rate="800" Lock="0" ExpiryDate="" />
+    <Items Type="0" ItemID="344" Number="1" Series="1" TimeLimit="0" Rate="800" Lock="0" ExpiryDate="" />
+    <Items Type="0" ItemID="223" Number="1" Series="1" TimeLimit="0" Rate="800" Lock="0" ExpiryDate="" />
+    <Items Type="0" ItemID="488" Number="1" Series="1" TimeLimit="0" Rate="800" Lock="0" ExpiryDate="" />
+  </Boxs>
+  <Boxs IDBox="79" BoxName="9级玄晶（绑定的）" TotalRate="10000" LimitWeek="0" LimitDay="0">
+    <Items Type="0" ItemID="393" Number="1" Series="0" TimeLimit="43200" Rate="6500" Lock="0" ExpiryDate="" />
+    <Items Type="0" ItemID="394" Number="1" Series="0" TimeLimit="43200" Rate="3000" Lock="0" ExpiryDate="" />
+    <Items Type="0" ItemID="1074" Number="1" Series="0" TimeLimit="0" Rate="500" Lock="0" ExpiryDate="" />
+  </Boxs>
+  <Boxs IDBox="100" BoxName="Rương vừa đẹp vừa cao quý" TotalRate="10000" LimitWeek="5" LimitDay="0">
+    <Items Type="0" ItemID="190" Series="0" TimeLimit="0" Number="1" Rate="9300" Lock="1" ExpiryDate="" />
+     <Items Type="0" ItemID="191" Series="0" TimeLimit="0" Number="1" Rate="500" Lock="1" ExpiryDate="" />
+     <Items Type="0" ItemID="192" Series="0" TimeLimit="0" Number="1" Rate="150" Lock="1" ExpiryDate="" />
+    <Items Type="0" ItemID="193" Series="0" TimeLimit="0" Number="1" Rate="50" Lock="1" ExpiryDate="" />
+     <Items Type="0" ItemID="194" Series="0" TimeLimit="0" Number="1" Rate="0" Lock="1" ExpiryDate="" />
+  </Boxs>
+   <Boxs IDBox="337" BoxName="Túi Phúc Hoàng Kim" TotalRate="6200" LimitWeek="0" LimitDay="0">
+    <Items Type="3" ItemID="-1" Series="0" TimeLimit="0" Number="25" Rate="2000" Lock="1" ExpiryDate="" />
+	<Items Type="1" ItemID="-1" Series="0" TimeLimit="0" Number="2000" Rate="2000" Lock="1" ExpiryDate="" />
+	<Items Type="1" ItemID="-1" Series="0" TimeLimit="0" Number="3000" Rate="1000" Lock="1" ExpiryDate="" />
+	<Items Type="1" ItemID="-1" Series="0" TimeLimit="0" Number="5000" Rate="500" Lock="1" ExpiryDate="" />
+    <Items Type="1" ItemID="-1" Series="0" TimeLimit="0" Number="7000" Rate="300" Lock="1" ExpiryDate="" />
+    <Items Type="3" ItemID="-1" Series="0" TimeLimit="0" Number="50" Rate="200" Lock="1" ExpiryDate="" />
+    <Items Type="3" ItemID="-1" Series="0" TimeLimit="0" Number="100" Rate="100" Lock="1" ExpiryDate="" />
+    <Items Type="1" ItemID="-1" Series="0" TimeLimit="0" Number="10000" Rate="100" Lock="1" ExpiryDate="" />
+  </Boxs>
+  <Boxs IDBox="335" BoxName="Rương thi đấu môn phái" TotalRate="10000" LimitWeek="0" LimitDay="0">
+    <Items Type="2" ItemID="-1" Series="0" TimeLimit="0" Number="10000" Rate="-1" Lock="0" ExpiryDate="" />
+    <Items Type="0" ItemID="187" Series="0" TimeLimit="0" Number="1" Rate="1500" Lock="0" ExpiryDate="" />
+    <Items Type="0" ItemID="188" Series="0" TimeLimit="0" Number="1" Rate="1000" Lock="0" ExpiryDate="" />
+	  <Items Type="0" ItemID="189" Series="0" TimeLimit="0" Number="1" Rate="400" Lock="0" ExpiryDate="" />
+    <Items Type="0" ItemID="338" Series="0" TimeLimit="0" Number="1" Rate="1717" Lock="0" ExpiryDate="" />
+    <Items Type="0" ItemID="339" Series="0" TimeLimit="0" Number="1" Rate="1217" Lock="0" ExpiryDate="" />
+    <Items Type="0" ItemID="340" Series="0" TimeLimit="0" Number="1" Rate="818" Lock="0" ExpiryDate="" />
+    <Items Type="0" ItemID="15018" Series="0" TimeLimit="0" Number="2" Rate="1817" Lock="0" ExpiryDate="" />
+    <Items Type="0" ItemID="15018" Series="0" TimeLimit="0" Number="3" Rate="1016" Lock="0" ExpiryDate="" />
+    <Items Type="0" ItemID="15018" Series="0" TimeLimit="0" Number="5" Rate="516" Lock="0" ExpiryDate="" />
+  </Boxs>
+  
+  <Boxs IDBox="100340" BoxName="Gói ưu đãi ngày [1]" TotalRate="-1" LimitWeek="0" LimitDay="1">
+    <Items Type="0" ItemID="389" Series="0" TimeLimit="0" Number="1" Rate="-1" Lock="1" ExpiryDate="" />
+    <Items Type="3" ItemID="-1" Series="0" TimeLimit="0" Number="1000" Rate="-1" Lock="0" ExpiryDate="" />
+    <Items Type="1" ItemID="-1" Series="0" TimeLimit="0" Number="50000" Rate="-1" Lock="0" ExpiryDate="" />
+  </Boxs>
+  <Boxs IDBox="100341" BoxName="Gói ưu đãi ngày [2]" TotalRate="-1" LimitWeek="0" LimitDay="1">
+    <Items Type="0" ItemID="349" Series="0" TimeLimit="0" Number="1" Rate="-1" Lock="1" ExpiryDate="" /> <!--tinh khí tán 1000-->
+    <Items Type="0" ItemID="352" Series="0" TimeLimit="0" Number="1" Rate="-1" Lock="1" ExpiryDate="" /> <!--hoạt khí tán 1000-->
+    <Items Type="0" ItemID="389" Series="0" TimeLimit="0" Number="2" Rate="-1" Lock="1" ExpiryDate="" /> <!--huyền tinh 5-->
+    <Items Type="3" ItemID="-1" Series="0" TimeLimit="0" Number="3000" Rate="-1" Lock="0" ExpiryDate="" />
+    <Items Type="1" ItemID="-1" Series="0" TimeLimit="0" Number="100000" Rate="-1" Lock="0" ExpiryDate="" />
+  </Boxs>
+  <Boxs IDBox="100342" BoxName="Gói ưu đãi ngày [3]" TotalRate="-1" LimitWeek="0" LimitDay="1">
+    <Items Type="0" ItemID="600" Series="0" TimeLimit="0" Number="1" Rate="-1" Lock="1" ExpiryDate="" /> <!--tu luyện đơn-->
+    <Items Type="0" ItemID="349" Series="0" TimeLimit="0" Number="2" Rate="-1" Lock="1" ExpiryDate="" /> <!--tinh khí tán 1000-->
+    <Items Type="0" ItemID="352" Series="0" TimeLimit="0" Number="2" Rate="-1" Lock="1" ExpiryDate="" /> <!--hoạt khí tán 1000-->
+    <Items Type="0" ItemID="390" Series="0" TimeLimit="0" Number="1" Rate="-1" Lock="1" ExpiryDate="" /> <!--huyền tinh 6-->
+    <Items Type="3" ItemID="-1" Series="0" TimeLimit="0" Number="5000" Rate="-1" Lock="0" ExpiryDate="" />
+    <Items Type="1" ItemID="-1" Series="0" TimeLimit="0" Number="500000" Rate="-1" Lock="0" ExpiryDate="" />
+    <Items Type="2" ItemID="-1" Series="0" TimeLimit="0" Number="50000" Rate="-1" Lock="0" ExpiryDate="" />
+  </Boxs>
+  <Boxs IDBox="100343" BoxName="Gói ưu đãi ngày [4]" TotalRate="-1" LimitWeek="0" LimitDay="1">
+    <Items Type="0" ItemID="600" Series="0" TimeLimit="0" Number="1" Rate="-1" Lock="1" ExpiryDate="" /> <!--tu luyện đơn-->
+    <Items Type="0" ItemID="349" Series="0" TimeLimit="0" Number="2" Rate="-1" Lock="1" ExpiryDate="" /> <!--tinh khí tán 1000-->
+    <Items Type="0" ItemID="352" Series="0" TimeLimit="0" Number="2" Rate="-1" Lock="1" ExpiryDate="" /> <!--hoạt khí tán 1000-->
+    <Items Type="0" ItemID="391" Series="0" TimeLimit="0" Number="1" Rate="-1" Lock="1" ExpiryDate="" /> <!--huyền tinh 7-->
+    <Items Type="3" ItemID="-1" Series="0" TimeLimit="0" Number="20000" Rate="-1" Lock="0" ExpiryDate="" />
+    <Items Type="2" ItemID="-1" Series="0" TimeLimit="0" Number="200000" Rate="-1" Lock="0" ExpiryDate="" />
+    <Items Type="0" ItemID="590" Series="0" TimeLimit="0" Number="1" Rate="-1" Lock="1" ExpiryDate="" /> <!--bản đồ bí cảnh-->
+  </Boxs>
+  <Boxs IDBox="100344" BoxName="Gói ưu đãi ngày [5]" TotalRate="-1" LimitWeek="0" LimitDay="1">
+    <Items Type="0" ItemID="391" Series="0" TimeLimit="0" Number="2" Rate="-1" Lock="1" ExpiryDate="" /> <!--huyền tinh 7-->
+    <Items Type="3" ItemID="-1" Series="0" TimeLimit="0" Number="30000" Rate="-1" Lock="0" ExpiryDate="" />
+    <Items Type="2" ItemID="-1" Series="0" TimeLimit="0" Number="500000" Rate="-1" Lock="0" ExpiryDate="" />
+    <Items Type="0" ItemID="514" Series="0" TimeLimit="0" Number="1" Rate="-1" Lock="1" ExpiryDate="" /> <!--lệnh bài chúc phúc trung-->
+  </Boxs>
+  <Boxs IDBox="100345" BoxName="Rương Tống Kim Liên Server" TotalRate="1000000" LimitWeek="0" LimitDay="0">
+    <Items Type="5" ItemID="-1" Series="0" TimeLimit="0" Number="2000000" Rate="300000" Lock="1" ExpiryDate="" /> <!--200 vạn EXP-->
+    <Items Type="1" ItemID="-1" Series="0" TimeLimit="0" Number="50000" Rate="200000" Lock="1" ExpiryDate="" /> <!--5 vạn bạc khóa-->
+    <Items Type="3" ItemID="-1" Series="0" TimeLimit="0" Number="50" Rate="120000" Lock="0" ExpiryDate="" /> <!--50 KNB khóa-->
+    <Items Type="0" ItemID="20344" Series="0" TimeLimit="0" Number="1" Rate="50000" Lock="1" ExpiryDate="" /> <!--1 cờ chiến công-->
+    <Items Type="0" ItemID="506" Series="0" TimeLimit="0" Number="100" Rate="200000" Lock="1" ExpiryDate="" /> <!--100 ngũ hành hồn thạch-->
+    <Items Type="0" ItemID="390" Series="0" TimeLimit="0" Number="1" Rate="100000" Lock="1" ExpiryDate="" /> <!--1 huyền tinh 6-->
+    <Items Type="0" ItemID="391" Series="0" TimeLimit="0" Number="1" Rate="20000" Lock="1" ExpiryDate="" /> <!--1 huyền tinh 7-->
+    <Items Type="0" ItemID="392" Series="0" TimeLimit="0" Number="1" Rate="4000" Lock="1" ExpiryDate="" /> <!--1 huyền tinh 8-->
+    <Items Type="0" ItemID="3486" Series="0" TimeLimit="10080" Number="1" Rate="6000" Lock="1" ExpiryDate="" /> <!--1 ngựa mã bài trục nhật-->
+  </Boxs>
+  <Boxs IDBox="100346" BoxName="Túi nguyên liệu 8/3" TotalRate="1000000" LimitWeek="0" LimitDay="0">
+    <Items Type="0" ItemID="15190" Series="0" TimeLimit="0" Number="1" Rate="450000" Lock="0" ExpiryDate="" /> <!--giấy gói hoa-->
+    <Items Type="0" ItemID="15191" Series="0" TimeLimit="0" Number="1" Rate="450000" Lock="0" ExpiryDate="" /> <!--dây ruy băng-->
+    <Items Type="0" ItemID="15192" Series="0" TimeLimit="0" Number="1" Rate="100000" Lock="1" ExpiryDate="" /> <!--hoa hồng đỏ (khóa)-->
+  </Boxs>
+  <Boxs IDBox="100347" BoxName="Bó hoa hồng đỏ (khóa)" TotalRate="1000000" LimitWeek="0" LimitDay="0" LimitLifetime="500">
+    <Items Type="3" ItemID="-1" Series="0" TimeLimit="0" Number="2" Rate="7000" Lock="0" ExpiryDate="" /> <!--2 KNB khóa-->
+    <Items Type="3" ItemID="-1" Series="0" TimeLimit="0" Number="5" Rate="2000" Lock="0" ExpiryDate="" /> <!--5 KNB khóa-->
+    <Items Type="3" ItemID="-1" Series="0" TimeLimit="0" Number="10" Rate="1000" Lock="0" ExpiryDate="" /> <!--10 KNB khóa-->
+
+    <Items Type="1" ItemID="-1" Series="0" TimeLimit="0" Number="10000" Rate="37500" Lock="0" ExpiryDate="" /> <!--1 vạn bạc khóa-->
+    <Items Type="1" ItemID="-1" Series="0" TimeLimit="0" Number="20000" Rate="10000" Lock="0" ExpiryDate="" /> <!--2 vạn bạc khóa-->
+    <Items Type="1" ItemID="-1" Series="0" TimeLimit="0" Number="50000" Rate="2500" Lock="0" ExpiryDate="" /> <!--5 vạn bạc khóa-->
+    
+    <Items Type="0" ItemID="506" Series="0" TimeLimit="0" Number="1" Rate="19500" Lock="1" ExpiryDate="" /> <!--1 ngũ hành hồn thạch-->
+    <Items Type="0" ItemID="506" Series="0" TimeLimit="0" Number="2" Rate="9000" Lock="1" ExpiryDate="" /> <!--2 ngũ hành hồn thạch-->
+    <Items Type="0" ItemID="506" Series="0" TimeLimit="0" Number="3" Rate="1500" Lock="1" ExpiryDate="" /> <!--3 ngũ hành hồn thạch-->
+
+    <Items Type="0" ItemID="386" Series="0" TimeLimit="0" Number="1" Rate="70000" Lock="1" ExpiryDate="" /> <!--1 huyền tinh 2-->
+    <Items Type="0" ItemID="387" Series="0" TimeLimit="0" Number="1" Rate="25000" Lock="1" ExpiryDate="" /> <!--1 huyền tinh 3-->
+    <Items Type="0" ItemID="388" Series="0" TimeLimit="0" Number="1" Rate="4000" Lock="1" ExpiryDate="" /> <!--1 huyền tinh 4-->
+    <Items Type="0" ItemID="389" Series="0" TimeLimit="0" Number="1" Rate="1000" Lock="1" ExpiryDate="" /> <!--1 huyền tinh 5-->
+
+    <Items Type="0" ItemID="15211" Series="0" TimeLimit="10081" Number="1" Rate="1000" Lock="1" ExpiryDate="" /> <!--ô vân đạp tuyết 7 ngày-->
+    <Items Type="0" ItemID="15211" Series="0" TimeLimit="21601" Number="1" Rate="500" Lock="1" ExpiryDate="" /> <!--ô vân đạp tuyết 15 ngày-->
+
+    <Items Type="5" ItemID="-1" Series="0" TimeLimit="0" Number="50000" Rate="565950" Lock="1" ExpiryDate="" /> <!--5 vạn EXP-->
+    <Items Type="5" ItemID="-1" Series="0" TimeLimit="0" Number="100000" Rate="161700" Lock="1" ExpiryDate="" /> <!--10 vạn EXP-->
+    <Items Type="5" ItemID="-1" Series="0" TimeLimit="0" Number="150000" Rate="80850" Lock="1" ExpiryDate="" /> <!--15 vạn EXP-->
+  </Boxs>
+  <Boxs IDBox="100348" BoxName="Dây cương Ô Vân Đạp Tuyết đặc biệt (ngẫu nhiên)" TotalRate="4000" LimitWeek="0" LimitDay="0" LimitLifetime="0"> <!--dây cương thần bí 9x-->
+    <Items Type="0" ItemID="15211" Series="0" TimeLimit="43201" ExpiryDate="2023-05-30 00:00:00" Number="1" Rate="3000" Lock="1" />
+    <Items Type="0" ItemID="15211" Series="0" TimeLimit="0" Number="1" Rate="1000" Lock="1" ExpiryDate="" />
+  </Boxs>
+  <Boxs IDBox="100349" BoxName="Dây cương Ô Vân Đạp Tuyết (ngẫu nhiên)" TotalRate="4650" LimitWeek="0" LimitDay="0" LimitLifetime="0"> <!--dây cương thần bí 6x-->
+    <Items Type="0" ItemID="15211" Series="0" TimeLimit="10081" ExpiryDate="2023-05-07 00:00:00" Number="1" Rate="4000" Lock="1" />
+    <Items Type="0" ItemID="15211" Series="0" TimeLimit="21601" ExpiryDate="2023-05-15 00:00:00" Number="1" Rate="500" Lock="1" />
+    <Items Type="0" ItemID="15211" Series="0" TimeLimit="43201" ExpiryDate="2023-05-30 00:00:00" Number="1" Rate="130" Lock="1" />
+    <Items Type="0" ItemID="15211" Series="0" TimeLimit="0" Number="1" Rate="20" Lock="1" ExpiryDate="" />
+  </Boxs>
+  <Boxs IDBox="100350" BoxName="Bó hoa hồng đỏ" TotalRate="100000000" LimitWeek="0" LimitDay="0" LimitLifetime="3000">
+    <Items Type="3" ItemID="-1" Series="0" TimeLimit="0" Number="30" Rate="20542500" Lock="0" ExpiryDate="" /> <!--30 KNB khóa-->
+    <Items Type="3" ItemID="-1" Series="0" TimeLimit="0" Number="50" Rate="14940000" Lock="0" ExpiryDate="" /> <!--5 KNB khóa-->
+    <Items Type="3" ItemID="-1" Series="0" TimeLimit="0" Number="100" Rate="1867500" Lock="0" ExpiryDate="" /> <!--10 KNB khóa-->
+
+    <Items Type="2" ItemID="-1" Series="0" TimeLimit="0" Number="2000" Rate="9000000" Lock="0" ExpiryDate="" /> <!--2000 bạc-->
+    <Items Type="2" ItemID="-1" Series="0" TimeLimit="0" Number="3000" Rate="8100000" Lock="0" ExpiryDate="" /> <!--3000 bạc-->
+    <Items Type="2" ItemID="-1" Series="0" TimeLimit="0" Number="5000" Rate="900000" Lock="0" ExpiryDate="" /> <!--5000 bạc-->
+
+    <Items Type="1" ItemID="-1" Series="0" TimeLimit="0" Number="30000" Rate="7975000" Lock="0" ExpiryDate="" /> <!--3 vạn bạc khóa-->
+    <Items Type="1" ItemID="-1" Series="0" TimeLimit="0" Number="50000" Rate="5800000" Lock="0" ExpiryDate="" /> <!--5 vạn bạc khóa-->
+    <Items Type="1" ItemID="-1" Series="0" TimeLimit="0" Number="100000" Rate="725000" Lock="0" ExpiryDate="" /> <!--10 vạn bạc khóa-->
+
+    <Items Type="0" ItemID="15214" Series="0" TimeLimit="0" Number="1" Rate="7200000" Lock="0" ExpiryDate="" /> <!--10 ngũ hành hồn thạch-->
+    <Items Type="0" ItemID="15215" Series="0" TimeLimit="0" Number="1" Rate="3600000" Lock="0" ExpiryDate="" /> <!--20 ngũ hành hồn thạch-->
+    <Items Type="0" ItemID="15216" Series="0" TimeLimit="0" Number="1" Rate="1200000" Lock="0" ExpiryDate="" /> <!--30 ngũ hành hồn thạch-->
+    
+    <Items Type="0" ItemID="506" Series="0" TimeLimit="0" Number="10" Rate="4227500" Lock="0" ExpiryDate="" /> <!--10 ngũ hành hồn thạch-->
+    <Items Type="0" ItemID="506" Series="0" TimeLimit="0" Number="20" Rate="3804750" Lock="0" ExpiryDate="" /> <!--20 ngũ hành hồn thạch-->
+    <Items Type="0" ItemID="506" Series="0" TimeLimit="0" Number="30" Rate="422750" Lock="0" ExpiryDate="" /> <!--30 ngũ hành hồn thạch-->
+
+    <Items Type="0" ItemID="187" Series="0" TimeLimit="0" Number="1" Rate="5600000" Lock="0" ExpiryDate="" /> <!--1 huyền tinh 5-->
+    <Items Type="0" ItemID="188" Series="0" TimeLimit="0" Number="1" Rate="1050000" Lock="0" ExpiryDate="" /> <!--1 huyền tinh 6-->
+    <Items Type="0" ItemID="189" Series="0" TimeLimit="0" Number="1" Rate="280000" Lock="0" Notify="1" ExpiryDate="" /> <!--1 huyền tinh 7-->
+    <Items Type="0" ItemID="190" Series="0" TimeLimit="0" Number="1" Rate="70000" Lock="0" Notify="1" ExpiryDate="" /> <!--1 huyền tinh 8-->
+
+    <Items Type="0" ItemID="349" Series="0" TimeLimit="0" Number="1" Rate="250000" Lock="0" Notify="1" ExpiryDate="" /> <!--tinh khí tán 1000-->
+    <Items Type="0" ItemID="352" Series="0" TimeLimit="0" Number="1" Rate="250000" Lock="0" Notify="1" ExpiryDate="" /> <!--hoạt khí tán 1000-->
+
+    <Items Type="0" ItemID="15208" Series="0" TimeLimit="0" Number="1" Rate="465000" Lock="0" Notify="1" ExpiryDate="" /> <!--dây cương 8/3-->
+
+    <Items Type="0" ItemID="432" Series="0" TimeLimit="0" Number="1" Rate="100000" Lock="0" Notify="1" ExpiryDate="" /> <!--câu hồn ngọc 7x-->
+    <Items Type="0" ItemID="433" Series="0" TimeLimit="0" Number="1" Rate="100000" Lock="0" Notify="1" ExpiryDate="" /> <!--câu hồn ngọc 9x-->
+    <Items Type="0" ItemID="491" Series="0" TimeLimit="0" Number="1" Rate="10000" Lock="0" Notify="1" ExpiryDate="" /> <!--võ lâm mật tịch-->
+    <Items Type="0" ItemID="493" Series="0" TimeLimit="0" Number="1" Rate="10000" Lock="0" Notify="1" ExpiryDate="" /> <!--tẩy tủy kinh-->
+    <Items Type="0" ItemID="2167" Series="0" TimeLimit="0" Number="1" Rate="10000" Lock="0" Notify="1" ExpiryDate="" /> <!--thẻ đổi tên-->
+    <Items Type="0" ItemID="15213" Series="0" TimeLimit="0" Number="1" Rate="500000" Lock="0" ExpiryDate="" /> <!--hoa đặc biệt-->
+    <Items Type="0" ItemID="1074" Series="0" TimeLimit="0" Number="1" Rate="1000000" Lock="0" ExpiryDate="" /> <!--tiền du long-->
+
+    <Items Type="5" ItemID="-1" Series="0" TimeLimit="0" Number="100000" Rate="-1" Lock="0" ExpiryDate="" /> <!--10 vạn EXP-->
+  </Boxs>
+  <Boxs IDBox="100351" BoxName="Bó hoa hồng đỏ đặc biệt" TotalRate="100000000" LimitWeek="0" LimitDay="0" LimitLifetime="100">
+    <Items Type="0" ItemID="506" Series="0" TimeLimit="0" Number="100" Rate="55000000" Lock="0" ExpiryDate="" /> <!--100 ngũ hành hồn thạch-->
+
+    <Items Type="0" ItemID="188" Series="0" TimeLimit="0" Number="1" Rate="12600000" Lock="0" Notify="1" ExpiryDate="" /> <!--1 huyền tinh 6-->
+    <Items Type="0" ItemID="189" Series="0" TimeLimit="0" Number="1" Rate="6300000" Lock="0" Notify="1" ExpiryDate="" /> <!--1 huyền tinh 7-->
+    <Items Type="0" ItemID="190" Series="0" TimeLimit="0" Number="1" Rate="2100000" Lock="0" Notify="1" ExpiryDate="" /> <!--1 huyền tinh 8-->
+
+    <Items Type="0" ItemID="15209" Series="0" TimeLimit="0" Number="1" Rate="4000000" Lock="0" ExpiryDate="" /> <!--dây cương 8/3-->
+
+    <Items Type="0" ItemID="432" Series="0" TimeLimit="0" Number="1" Rate="6500000" Lock="0" ExpiryDate="" /> <!--câu hồn ngọc 7x-->
+    <Items Type="0" ItemID="433" Series="0" TimeLimit="0" Number="1" Rate="6500000" Lock="0" ExpiryDate="" /> <!--câu hồn ngọc 9x-->
+    <Items Type="0" ItemID="491" Series="0" TimeLimit="0" Number="1" Rate="2000000" Lock="0" Notify="1" ExpiryDate="" /> <!--võ lâm mật tịch-->
+    <Items Type="0" ItemID="493" Series="0" TimeLimit="0" Number="1" Rate="2000000" Lock="0" Notify="1" ExpiryDate="" /> <!--tẩy tủy kinh-->
+    <Items Type="0" ItemID="2167" Series="0" TimeLimit="0" Number="1" Rate="3000000" Lock="0" Notify="1" ExpiryDate="" /> <!--thẻ đổi tên-->
+  </Boxs>
+
+  <Boxs IDBox="100362" BoxName="Túi nguyên liệu Vụ mùa bội thu" TotalRate="1000000" LimitWeek="0" LimitDay="0">
+    <Items Type="0" ItemID="15194" Series="0" TimeLimit="0" Number="1" Rate="450000" Lock="0" ExpiryDate="" /> <!--nước-->
+    <Items Type="0" ItemID="15195" Series="0" TimeLimit="0" Number="1" Rate="450000" Lock="0" ExpiryDate="" /> <!--đất màu mỡ-->
+    <Items Type="0" ItemID="15196" Series="0" TimeLimit="0" Number="1" Rate="100000" Lock="1" ExpiryDate="" /> <!--hạt giống (khóa)-->
+  </Boxs>
+
+  <Boxs IDBox="100363" BoxName="Bao thóc" TotalRate="100000" LimitWeek="0" LimitDay="0" LimitLifetime="500">
+    <Items Type="3" ItemID="-1" Series="0" TimeLimit="0" Number="2" Rate="700" Lock="0" ExpiryDate="" /> <!--2 KNB khóa-->
+    <Items Type="3" ItemID="-1" Series="0" TimeLimit="0" Number="5" Rate="200" Lock="0" ExpiryDate="" /> <!--5 KNB khóa-->
+    <Items Type="3" ItemID="-1" Series="0" TimeLimit="0" Number="10" Rate="100" Lock="0" ExpiryDate="" /> <!--10 KNB khóa-->
+
+    <Items Type="1" ItemID="-1" Series="0" TimeLimit="0" Number="10000" Rate="3750" Lock="0" ExpiryDate="" /> <!--1 vạn bạc khóa-->
+    <Items Type="1" ItemID="-1" Series="0" TimeLimit="0" Number="20000" Rate="1000" Lock="0" ExpiryDate="" /> <!--2 vạn bạc khóa-->
+    <Items Type="1" ItemID="-1" Series="0" TimeLimit="0" Number="50000" Rate="250" Lock="0" ExpiryDate="" /> <!--5 vạn bạc khóa-->
+    
+    <Items Type="0" ItemID="506" Series="0" TimeLimit="0" Number="1" Rate="1950" Lock="1" ExpiryDate="" /> <!--1 ngũ hành hồn thạch-->
+    <Items Type="0" ItemID="506" Series="0" TimeLimit="0" Number="2" Rate="900" Lock="1" ExpiryDate="" /> <!--2 ngũ hành hồn thạch-->
+    <Items Type="0" ItemID="506" Series="0" TimeLimit="0" Number="3" Rate="150" Lock="1" ExpiryDate="" /> <!--3 ngũ hành hồn thạch-->
+
+    <Items Type="0" ItemID="386" Series="0" TimeLimit="0" Number="1" Rate="7000" Lock="1" ExpiryDate="" /> <!--1 huyền tinh 2-->
+    <Items Type="0" ItemID="387" Series="0" TimeLimit="0" Number="1" Rate="2500" Lock="1" ExpiryDate="" /> <!--1 huyền tinh 3-->
+    <Items Type="0" ItemID="388" Series="0" TimeLimit="0" Number="1" Rate="400" Lock="1" ExpiryDate="" /> <!--1 huyền tinh 4-->
+    <Items Type="0" ItemID="389" Series="0" TimeLimit="0" Number="1" Rate="100" Lock="1" ExpiryDate="" /> <!--1 huyền tinh 5-->
+
+    <Items Type="0" ItemID="15220" Series="0" TimeLimit="10081" Number="1" Rate="100" Lock="1" ExpiryDate="" /> <!--ngựa mới 7 ngày-->
+    <Items Type="0" ItemID="15220" Series="0" TimeLimit="21601" Number="1" Rate="50" Lock="1" ExpiryDate="" /> <!--ngựa mới 15 ngày-->
+
+    <Items Type="5" ItemID="-1" Series="0" TimeLimit="0" Number="50000" Rate="48510" Lock="1" ExpiryDate="" /> <!--5 vạn EXP-->
+    <Items Type="5" ItemID="-1" Series="0" TimeLimit="0" Number="100000" Rate="24255" Lock="1" ExpiryDate="" /> <!--10 vạn EXP-->
+    <Items Type="5" ItemID="-1" Series="0" TimeLimit="0" Number="150000" Rate="8085" Lock="1" ExpiryDate="" /> <!--15 vạn EXP-->
+  </Boxs>
+
+  <Boxs IDBox="100364" BoxName="Bao gạo" TotalRate="1000000" LimitWeek="0" LimitDay="0" LimitLifetime="3000">
+    <Items Type="3" ItemID="-1" Series="0" TimeLimit="0" Number="30" Rate="226545" Lock="0" ExpiryDate="" /> <!--30 KNB khóa-->
+    <Items Type="3" ItemID="-1" Series="0" TimeLimit="0" Number="50" Rate="164760" Lock="0" ExpiryDate="" /> <!--50 KNB khóa-->
+    <Items Type="3" ItemID="-1" Series="0" TimeLimit="0" Number="100" Rate="20595" Lock="0" ExpiryDate="" /> <!--10 KNB khóa-->
+
+    <Items Type="2" ItemID="-1" Series="0" TimeLimit="0" Number="2000" Rate="115270" Lock="0" ExpiryDate="" /> <!--2000 bạc-->
+    <Items Type="2" ItemID="-1" Series="0" TimeLimit="0" Number="3000" Rate="103743" Lock="0" ExpiryDate="" /> <!--3000 bạc-->
+    <Items Type="2" ItemID="-1" Series="0" TimeLimit="0" Number="5000" Rate="11527" Lock="0" ExpiryDate="" /> <!--5000 bạc-->
+
+    <Items Type="1" ItemID="-1" Series="0" TimeLimit="0" Number="30000" Rate="82500" Lock="0" ExpiryDate="" /> <!--3 vạn bạc khóa-->
+    <Items Type="1" ItemID="-1" Series="0" TimeLimit="0" Number="50000" Rate="60000" Lock="0" ExpiryDate="" /> <!--5 vạn bạc khóa-->
+    <Items Type="1" ItemID="-1" Series="0" TimeLimit="0" Number="100000" Rate="7500" Lock="0" ExpiryDate="" /> <!--10 vạn bạc khóa-->
+
+    <!-- <Items Type="0" ItemID="15214" Series="0" TimeLimit="0" Number="1" Rate="25000" Lock="0"/> mật tịch đơn 500
+    <Items Type="0" ItemID="15215" Series="0" TimeLimit="0" Number="1" Rate="22500" Lock="0"/> mật tịch đơn 1000
+    <Items Type="0" ItemID="15216" Series="0" TimeLimit="0" Number="1" Rate="2500" Lock="0"/> mật tịch đơn 2000 -->
+    
+    <Items Type="0" ItemID="506" Series="0" TimeLimit="0" Number="10" Rate="25000" Lock="0" ExpiryDate="" /> <!--10 ngũ hành hồn thạch-->
+    <Items Type="0" ItemID="506" Series="0" TimeLimit="0" Number="20" Rate="22500" Lock="0" ExpiryDate="" /> <!--20 ngũ hành hồn thạch-->
+    <Items Type="0" ItemID="506" Series="0" TimeLimit="0" Number="30" Rate="2500" Lock="0" ExpiryDate="" /> <!--30 ngũ hành hồn thạch-->
+
+    <Items Type="0" ItemID="15502" Series="0" TimeLimit="0" Number="1" Rate="30000" Lock="0" ExpiryDate="" /> <!--Lệnh bài danh vọng-->
+	
+    <Items Type="0" ItemID="187" Series="0" TimeLimit="0" Number="1" Rate="96000" Lock="0" ExpiryDate="" /> <!--1 huyền tinh 5-->
+    <Items Type="0" ItemID="188" Series="0" TimeLimit="0" Number="1" Rate="18000" Lock="0" ExpiryDate="" /> <!--1 huyền tinh 6-->
+    <Items Type="0" ItemID="189" Series="0" TimeLimit="0" Number="1" Rate="4800" Lock="0" Notify="1" ExpiryDate="" /> <!--1 huyền tinh 7-->
+    <Items Type="0" ItemID="190" Series="0" TimeLimit="0" Number="1" Rate="1200" Lock="0" Notify="1" ExpiryDate="" /> <!--1 huyền tinh 8-->
+
+    <Items Type="0" ItemID="349" Series="0" TimeLimit="0" Number="1" Rate="2500" Lock="0" Notify="1" ExpiryDate="" /> <!--tinh khí tán 1000-->
+    <Items Type="0" ItemID="352" Series="0" TimeLimit="0" Number="1" Rate="2500" Lock="0" Notify="1" ExpiryDate="" /> <!--hoạt khí tán 1000-->
+
+    <Items Type="0" ItemID="15503" Series="0" TimeLimit="0" Number="1" Rate="1560" Lock="0" Notify="1" ExpiryDate="" /> <!--dây cương thần bí-->
+
+    <Items Type="0" ItemID="432" Series="0" TimeLimit="0" Number="1" Rate="100" Lock="0" Notify="1" ExpiryDate="" /> <!--câu hồn ngọc 7x-->
+    <Items Type="0" ItemID="433" Series="0" TimeLimit="0" Number="1" Rate="100" Lock="0" Notify="1" ExpiryDate="" /> <!--câu hồn ngọc 9x-->
+    <Items Type="0" ItemID="15501" Series="0" TimeLimit="0" Number="1" Rate="100" Lock="0" Notify="1" ExpiryDate="" /> <!--võ lâm mật tịch(event)-->
+    <Items Type="0" ItemID="15500" Series="0" TimeLimit="0" Number="1" Rate="100" Lock="0" Notify="1" ExpiryDate="" /> <!--tẩy tủy kinh(event)-->
+    <Items Type="0" ItemID="2167" Series="0" TimeLimit="0" Number="1" Rate="100" Lock="0" Notify="1" ExpiryDate="" /> <!--thẻ đổi tên-->
+	
+    <Items Type="0" ItemID="15219" Series="0" TimeLimit="0" Number="1" Rate="500" Lock="0" ExpiryDate="" /> <!--bao gạo đặc biệt-->
+	
+
+    <!-- <Items Type="0" ItemID="1074" Series="0" TimeLimit="0" Number="1" Rate="1000000" Lock="0"/> tiền du long -->
+
+    <Items Type="5" ItemID="-1" Series="0" TimeLimit="0" Number="100000" Rate="-1" Lock="0" ExpiryDate="" /> <!--10 vạn EXP-->
+  </Boxs>
+
+  <Boxs IDBox="100365" BoxName="Bao gạo đặc biệt" TotalRate="100000" LimitWeek="0" LimitDay="0" LimitLifetime="100">
+    <Items Type="0" ItemID="506" Series="0" TimeLimit="0" Number="100" Rate="45000" Lock="0" ExpiryDate="" /> <!--100 ngũ hành hồn thạch-->
+	
+    <Items Type="0" ItemID="188" Series="0" TimeLimit="0" Number="1" Rate="4500" Lock="0" Notify="1" ExpiryDate="" /> <!--1 huyền tinh 6-->
+    <Items Type="0" ItemID="189" Series="0" TimeLimit="0" Number="1" Rate="3600" Lock="0" Notify="1" ExpiryDate="" /> <!--1 huyền tinh 7-->
+    <Items Type="0" ItemID="190" Series="0" TimeLimit="0" Number="1" Rate="900" Lock="0" Notify="1" ExpiryDate="" /> <!--1 huyền tinh 8-->
+
+    <Items Type="0" ItemID="15504" Series="0" TimeLimit="0" Number="1" Rate="11000" Lock="0" ExpiryDate="" /> <!--dây cương thần bí đặc biệt-->
+	
+    <Items Type="0" ItemID="15505" Series="0" TimeLimit="0" Number="1" Rate="7000" Lock="0" ExpiryDate="" /> <!--Rương danh vọng-->
+
+    <Items Type="0" ItemID="432" Series="0" TimeLimit="0" Number="1" Rate="7000" Lock="0" ExpiryDate="" /> <!--câu hồn ngọc 7x-->
+    <Items Type="0" ItemID="433" Series="0" TimeLimit="0" Number="1" Rate="6000" Lock="0" ExpiryDate="" /> <!--câu hồn ngọc 9x-->
+	
+    <Items Type="0" ItemID="15501" Series="0" TimeLimit="0" Number="1" Rate="5000" Lock="0" Notify="1" ExpiryDate="" /> <!--võ lâm mật tịch-->
+    <Items Type="0" ItemID="15500" Series="0" TimeLimit="0" Number="1" Rate="5000" Lock="0" Notify="1" ExpiryDate="" /> <!--tẩy tủy kinh-->
+	
+    <Items Type="0" ItemID="2167" Series="0" TimeLimit="0" Number="1" Rate="5000" Lock="0" Notify="1" ExpiryDate="" /> <!--thẻ đổi tên-->
+  </Boxs>
+
+  <Boxs IDBox="200001" BoxName="Rương Boss Tần Lăng - Tinh Anh" TotalRate="10000" LimitDay="0" LimitWeek="0" LimitLifetime="0">
+	  <Items Type="0" ItemID="188" Series="0" TimeLimit="0" Number="2" Rate="3000" Lock="0" ExpiryDate="" />
+	  <Items Type="0" ItemID="189" Series="0" TimeLimit="0" Number="1" Rate="2900" Lock="0" ExpiryDate="" />
+	  <Items Type="0" ItemID="2444" Series="0" TimeLimit="0" Number="1" Rate="100" Lock="0" ExpiryDate="" />
+    <Items Type="5" ItemID="0" Series="0" TimeLimit="0" Number="1000" Rate="4000" Lock="0" ExpiryDate="" />
+    <Items Type="0" ItemID="187" Series="0" TimeLimit="0" Number="5" Rate="-1" Lock="0" ExpiryDate="" />
+    <Items Type="0" ItemID="796" Series="0" TimeLimit="0" Number="2" Rate="-1" Lock="0" ExpiryDate="" />
+  </Boxs>
+  
+  <Boxs IDBox="200002" BoxName="Rương Boss Tần Lăng - Thủ vệ lăng" TotalRate="10000" LimitDay="0" LimitWeek="0" LimitLifetime="0">
+    <Items Type="0" ItemID="188" Series="0" TimeLimit="0" Number="1" Rate="2000" Lock="0" ExpiryDate="" />
+	  <Items Type="0" ItemID="189" Series="0" TimeLimit="0" Number="1" Rate="1500" Lock="0" ExpiryDate="" />
+	  <Items Type="0" ItemID="190" Series="0" TimeLimit="0" Number="1" Rate="500" Lock="0" ExpiryDate="" />
+	  <Items Type="0" ItemID="2444" Series="0" TimeLimit="0" Number="1" Rate="3000" Lock="0" ExpiryDate="" />
+    <Items Type="5" ItemID="0" Series="0" TimeLimit="0" Number="5000" Rate="3000" Lock="0" ExpiryDate="" />
+    <Items Type="0" ItemID="187" Series="0" TimeLimit="0" Number="5" Rate="-1" Lock="0" ExpiryDate="" />
+    <Items Type="0" ItemID="188" Series="0" TimeLimit="0" Number="3" Rate="-1" Lock="0" ExpiryDate="" />
+    <Items Type="0" ItemID="796" Series="0" TimeLimit="0" Number="2" Rate="-1" Lock="0" ExpiryDate="" />
+  </Boxs>
+  
+  <Boxs IDBox="200003" BoxName="Rương Boss Tần Lăng - Tần Thủy Hoàng (thường)" TotalRate="10000" LimitDay="0" LimitWeek="0" LimitLifetime="0">
+    <Items Type="0" ItemID="188" Series="0" TimeLimit="0" Number="5" Rate="-1" Lock="0" ExpiryDate="" />
+    <Items Type="0" ItemID="189" Series="0" TimeLimit="0" Number="3" Rate="-1" Lock="0" ExpiryDate="" />
+    <Items Type="0" ItemID="796" Series="0" TimeLimit="0" Number="20" Rate="-1" Lock="0" ExpiryDate="" />
+    <Items Type="0" ItemID="189" Series="0" TimeLimit="0" Number="2" Rate="909" Lock="0" ExpiryDate="" />
+    <Items Type="0" ItemID="189" Series="0" TimeLimit="0" Number="3" Rate="833" Lock="0" ExpiryDate="" />
+	  <Items Type="0" ItemID="190" Series="0" TimeLimit="0" Number="1" Rate="758" Lock="0" ExpiryDate="" />
+	  <Items Type="0" ItemID="190" Series="0" TimeLimit="0" Number="2" Rate="682" Lock="0" ExpiryDate="" />
+	  <Items Type="0" ItemID="799" Series="0" TimeLimit="0" Number="3" Rate="455" Lock="0" ExpiryDate="" />
+    <Items Type="0" ItemID="802" Series="0" TimeLimit="0" Number="3" Rate="455" Lock="0" ExpiryDate="" />
+    <Items Type="0" ItemID="805" Series="0" TimeLimit="0" Number="3" Rate="454" Lock="0" ExpiryDate="" />
+    <Items Type="0" ItemID="20816" Series="0" TimeLimit="0" Number="30" Rate="1379" Lock="0" ExpiryDate="" />
+    <Items Type="0" ItemID="20816" Series="0" TimeLimit="0" Number="50" Rate="1254" Lock="0" ExpiryDate="" />
+    <Items Type="0" ItemID="20816" Series="0" TimeLimit="0" Number="70" Rate="1003" Lock="0" ExpiryDate="" />
+    <Items Type="0" ItemID="2444" Series="0" TimeLimit="0" Number="1" Rate="1454" Lock="0" ExpiryDate="" />
+    <Items Type="0" ItemID="819" Series="0" TimeLimit="0" Number="1" Rate="364" Lock="0" ExpiryDate="" />    
+  </Boxs> 
+
+  <Boxs IDBox="200572" BoxName="Rương Boss Tần Lăng - Tần Thủy Hoàng (lsv s1 - s24)" TotalRate="10000" LimitDay="0" LimitWeek="0" LimitLifetime="0">
+    <Items Type="0" ItemID="189" Series="0" TimeLimit="0" Number="5" Rate="-1" Lock="0" ExpiryDate="" />
+    <Items Type="0" ItemID="190" Series="0" TimeLimit="0" Number="2" Rate="-1" Lock="0" ExpiryDate="" />
+    <Items Type="0" ItemID="190" Series="0" TimeLimit="0" Number="1" Rate="1850" Lock="0" ExpiryDate="" />
+	  <Items Type="0" ItemID="190" Series="0" TimeLimit="0" Number="2" Rate="1450" Lock="0" ExpiryDate="" />
+	  <Items Type="0" ItemID="191" Series="0" TimeLimit="0" Number="1" Rate="825" Lock="0" ExpiryDate="" />
+	  <Items Type="0" ItemID="973" Series="0" TimeLimit="0" Number="1" Rate="813" Lock="0" ExpiryDate="" />
+    <Items Type="0" ItemID="973" Series="0" TimeLimit="0" Number="2" Rate="487" Lock="0" ExpiryDate="" />
+    <Items Type="0" ItemID="973" Series="0" TimeLimit="0" Number="3" Rate="325" Lock="0" ExpiryDate="" />
+    <Items Type="0" ItemID="974" Series="0" TimeLimit="0" Number="1" Rate="813" Lock="0" ExpiryDate="" />
+    <Items Type="0" ItemID="974" Series="0" TimeLimit="0" Number="2" Rate="487" Lock="0" ExpiryDate="" />
+    <Items Type="0" ItemID="974" Series="0" TimeLimit="0" Number="3" Rate="325" Lock="0" ExpiryDate="" />
+    <Items Type="0" ItemID="972" Series="0" TimeLimit="0" Number="1" Rate="313" Lock="0" ExpiryDate="" />
+    <Items Type="0" ItemID="972" Series="0" TimeLimit="0" Number="2" Rate="187" Lock="0" ExpiryDate="" />
+    <Items Type="0" ItemID="972" Series="0" TimeLimit="0" Number="3" Rate="125" Lock="0" ExpiryDate="" />
+    <Items Type="0" ItemID="2165" Series="0" TimeLimit="0" Number="1" Rate="750" Lock="0" ExpiryDate="" />
+    <Items Type="0" ItemID="2165" Series="0" TimeLimit="0" Number="2" Rate="600" Lock="0" ExpiryDate="" />
+    <Items Type="0" ItemID="2165" Series="0" TimeLimit="0" Number="3" Rate="150" Lock="0" ExpiryDate="" />
+    <Items Type="0" ItemID="819" Series="0" TimeLimit="0" Number="1" Rate="500" Lock="0" ExpiryDate="" />    
+  </Boxs>
+
+  <Boxs IDBox="200573" BoxName="Rương Boss Tần Lăng - Tần Thủy Hoàng (lsv s25 - s29)" TotalRate="10000" LimitDay="0" LimitWeek="0" LimitLifetime="0">
+    <Items Type="0" ItemID="189" Series="0" TimeLimit="0" Number="5" Rate="-1" Lock="0" ExpiryDate="" />
+    <Items Type="0" ItemID="190" Series="0" TimeLimit="0" Number="2" Rate="-1" Lock="0" ExpiryDate="" />
+    <Items Type="0" ItemID="190" Series="0" TimeLimit="0" Number="1" Rate="1860" Lock="0" ExpiryDate="" />
+    <Items Type="0" ItemID="190" Series="0" TimeLimit="0" Number="2" Rate="1305" Lock="0" ExpiryDate="" />
+	  <Items Type="0" ItemID="190" Series="0" TimeLimit="0" Number="3" Rate="1060" Lock="0" ExpiryDate="" />
+	  <Items Type="0" ItemID="191" Series="0" TimeLimit="0" Number="1" Rate="750" Lock="0" ExpiryDate="" />
+    <Items Type="0" ItemID="191" Series="0" TimeLimit="0" Number="2" Rate="225" Lock="0" ExpiryDate="" />
+	  <Items Type="0" ItemID="2165" Series="0" TimeLimit="0" Number="1" Rate="1550" Lock="0" ExpiryDate="" />
+    <Items Type="0" ItemID="2165" Series="0" TimeLimit="0" Number="2" Rate="1175" Lock="0" ExpiryDate="" />
+    <Items Type="0" ItemID="2165" Series="0" TimeLimit="0" Number="3" Rate="625" Lock="0" ExpiryDate="" />
+    <Items Type="0" ItemID="2165" Series="0" TimeLimit="0" Number="4" Rate="150" Lock="0" ExpiryDate="" />
+    <Items Type="0" ItemID="819" Series="0" TimeLimit="0" Number="1" Rate="1000" Lock="0" ExpiryDate="" />
+    <Items Type="0" ItemID="819" Series="0" TimeLimit="0" Number="2" Rate="300" Lock="0" ExpiryDate="" />    
+  </Boxs>
+
+   <Boxs IDBox="200004" BoxName="Dây cương thần bí" TotalRate="4650" LimitWeek="0" LimitDay="0" LimitLifetime="0"> <!--dây cương thần bí 9x-->
+    <Items Type="0" ItemID="15220" Series="0" TimeLimit="10081" ExpiryDate="2023-06-30 00:00:00" Number="1" Rate="4000" Lock="1" />
+    <Items Type="0" ItemID="15220" Series="0" TimeLimit="21601" ExpiryDate="2023-07-07 00:00:00" Number="1" Rate="500" Lock="1" />
+    <Items Type="0" ItemID="15220" Series="0" TimeLimit="43201" ExpiryDate="2023-07-15 00:00:00" Number="1" Rate="130" Lock="1" />
+    <Items Type="0" ItemID="15220" Series="0" TimeLimit="0" Number="1" Rate="20" Lock="1" ExpiryDate="" />
+  </Boxs>
+   <Boxs IDBox="200005" BoxName="Dây cương thần bí đặc biệt" TotalRate="4000" LimitWeek="0" LimitDay="0" LimitLifetime="0"> <!--dây cương thần bí 9x-->
+    <Items Type="0" ItemID="15220" Series="0" TimeLimit="43201" ExpiryDate="2023-07-23 00:00:00" Number="1" Rate="3000" Lock="1" />
+    <Items Type="0" ItemID="15220" Series="0" TimeLimit="0" Number="1" Rate="1000" Lock="1" ExpiryDate="" />
+  </Boxs>
+  <Boxs IDBox="200006" BoxName="Rương danh vọng" TotalRate="100" LimitWeek="0" LimitDay="0" LimitLifetime="0"> 
+    <Items Type="7" ItemID="503" Number="10" Rate="40" ExpiryDate="" /> <!--Danh vọng tiêu dao cốc-->
+    <Items Type="7" ItemID="504" Number="10" Rate="30" ExpiryDate="" /> <!--Danh vọng chúc phúc-->
+    <Items Type="7" ItemID="901" Number="10" Rate="30" ExpiryDate="" /> <!--Danh vọng tần lăng - ???? quan phủ -->
+  </Boxs>
+    <Boxs IDBox="200007" BoxName="Lệnh bài danh vọng" TotalRate="1000" LimitWeek="0" LimitDay="0" LimitLifetime="0"> 
+    <Items Type="7" ItemID="501" Number="20" Rate="500" ExpiryDate="" /> <!--Danh vọng bạch hổ đường-->
+    <Items Type="7" ItemID="503" Number="10" Rate="90" ExpiryDate="" /> <!--Danh vọng Tiêu Dao Cốc-->
+	  <Items Type="7" ItemID="504" Number="10" Rate="1" ExpiryDate="" /> <!--Danh vọng chúc phúc-->
+    <Items Type="7" ItemID="901" Number="10" Rate="9" ExpiryDate="" /> <!--Danh vọng tần lăng - ???? quan phủ -->
+    <Items Type="7" ItemID="-1" Number="20" Rate="400" ExpiryDate="" /> <!--Danh vọng Môn Phái-->
+  </Boxs>
+  <Boxs IDBox="200008" BoxName="Rương danh vọng" TotalRate="10000" LimitWeek="0" LimitDay="0" LimitLifetime="0"> 
+    <Items Type="0" ItemID="187" Number="1" Rate="4500" Lock="1" ExpiryDate="" /> 
+    <Items Type="0" ItemID="188" Number="1" Rate="3200" Lock="1" ExpiryDate="" /> 
+    <Items Type="0" ItemID="189" Number="1" Rate="1400" Lock="1" ExpiryDate="" /> 
+    <Items Type="0" ItemID="190" Number="1" Rate="500" Lock="0" ExpiryDate="" />
+    <Items Type="0" ItemID="528" Number="1" Rate="100" Lock="0" ExpiryDate="" />
+    <Items Type="0" ItemID="527" Number="1" Rate="300" Lock="0" ExpiryDate="" />
+  </Boxs>
+  
+  <Boxs IDBox="100505" BoxName="Lệnh bài Danh vọng Bạch Hổ Đường" TotalRate="-1" LimitWeek="0" LimitDay="0" LimitLifetime="0"> 
+    <Items Type="7" ItemID="501" Number="20" Rate="-1" ExpiryDate="" /> <!--Danh vọng bạch hổ đường-->
+  </Boxs>
+     <Boxs IDBox="100506" BoxName="Lệnh bài danh vọng Tiêu Dao Cốc" TotalRate="-1" LimitWeek="0" LimitDay="0" LimitLifetime="0"> 
+    <Items Type="7" ItemID="503" Number="10" Rate="-1" ExpiryDate="" /> <!--Danh vọng Tiêu Dao Cốc-->
+  </Boxs>
+     <Boxs IDBox="100507" BoxName="Lệnh bài Danh vọng Chúc phúc" TotalRate="-1" LimitWeek="0" LimitDay="0" LimitLifetime="0"> 
+    <Items Type="7" ItemID="504" Number="10" Rate="-1" ExpiryDate="" /> <!--Danh vọng chúc phúc-->
+  </Boxs>
+     <Boxs IDBox="100508" BoxName="Lệnh bài Danh vọng Tần Lăng - Quan phủ" TotalRate="-1" LimitWeek="0" LimitDay="0" LimitLifetime="0"> 
+    <Items Type="7" ItemID="901" Number="10" Rate="-1" ExpiryDate="" /> <!--Danh vọng tần lăng - ???? quan phủ -->
+  </Boxs>
+   <Boxs IDBox="100509" BoxName="Lệnh bài Danh vọng Môn phái" TotalRate="-1" LimitWeek="0" LimitDay="0" LimitLifetime="0"> 
+    <Items Type="7" ItemID="-1" Number="20" Rate="-1" ExpiryDate="" /> <!--Danh vọng Môn Phái-->
+  </Boxs>
+  <Boxs IDBox="100510" BoxName="Lệnh bài Danh vọng Tranh đoạt lãnh thổ" TotalRate="-1" LimitWeek="0" LimitDay="0" LimitLifetime="0"> 
+    <Items Type="7" ItemID="801" Number="20" Rate="-1" ExpiryDate="" /> 
+  </Boxs>
+
+  <Boxs IDBox="100511" BoxName="Rương Huyền Tinh Thần Bí - Sơ [Giải Đấu]" TotalRate="10000" LimitWeek="0" LimitDay="0" LimitLifetime="0"> 
+    <Items Type="0" ItemID="189" Number="1" Rate="5000" Lock="1" ExpiryDate="" /> 
+    <Items Type="0" ItemID="189" Number="2" Rate="4200" Lock="1" ExpiryDate="" /> 
+    <Items Type="0" ItemID="190" Number="1" Rate="600" Lock="1" ExpiryDate="" /> 
+    <Items Type="0" ItemID="190" Number="2" Rate="200" Lock="1" ExpiryDate="" />
+  </Boxs>
+  <Boxs IDBox="100512" BoxName="Rương Huyền Tinh Thần Bí - Trung [Giải Đấu]" TotalRate="10000" LimitWeek="0" LimitDay="0" LimitLifetime="0"> 
+    <Items Type="0" ItemID="190" Number="1" Rate="5000" Lock="1" ExpiryDate="" /> 
+    <Items Type="0" ItemID="190" Number="2" Rate="3900" Lock="1" ExpiryDate="" /> 
+    <Items Type="0" ItemID="191" Number="1" Rate="800" Lock="1" ExpiryDate="" /> 
+    <Items Type="0" ItemID="191" Number="2" Rate="300" Lock="1" ExpiryDate="" />
+  </Boxs>
+  <Boxs IDBox="100513" BoxName="Rương thần bí [Giải đấu]" TotalRate="10000" LimitWeek="0" LimitDay="0" LimitLifetime="0"> 
+    <Items Type="11" ItemID="-1" Number="500" Rate="5000" Lock="1" ExpiryDate="" /> 
+    <Items Type="0" ItemID="1057" Number="5" Rate="1500" Lock="1" ExpiryDate="" /> 
+    <Items Type="0" ItemID="20378" Number="5" Rate="2000" Lock="1" ExpiryDate="" /> 
+    <Items Type="0" ItemID="1026" Number="5" Rate="1500" Lock="1" ExpiryDate="" />
+  </Boxs>
+
+  <Boxs IDBox="100514" BoxName="Rương Hỏa Kỳ Lân [cá nhân]" TotalRate="10000" LimitWeek="0" LimitDay="0" LimitLifetime="0"> 
+    <Items Type="0" ItemID="943" Number="2" Rate="-1" Lock="1" ExpiryDate="" /> 
+    <Items Type="0" ItemID="189" Number="3" Rate="-1" Lock="1" ExpiryDate="" /> 
+    <Items Type="0" ItemID="20537" Number="1" Rate="-1" Lock="1" ExpiryDate="" /> 
+    <Items Type="0" ItemID="2017" Number="1" Rate="100" Lock="1" ExpiryDate="" /> 
+    <Items Type="0" ItemID="191" Number="1" Rate="600" Lock="1" ExpiryDate="" /> 
+    <Items Type="0" ItemID="190" Number="1" Rate="1500" Lock="1" ExpiryDate="" /> 
+    <Items Type="0" ItemID="2165" Number="1" Rate="2040" Lock="1" ExpiryDate="" />
+    <Items Type="0" ItemID="2165" Number="2" Rate="1040" Lock="1" ExpiryDate="" />
+    <Items Type="0" ItemID="20529" Number="5" Rate="2040" Lock="1" ExpiryDate="" />
+    <Items Type="0" ItemID="20529" Number="10" Rate="1740" Lock="1" ExpiryDate="" />
+    <Items Type="0" ItemID="20529" Number="15" Rate="940" Lock="1" ExpiryDate="" />
+  </Boxs>
+
+  <Boxs IDBox="100518" BoxName="Rương quà hoạt động LVS" TotalRate="10000" LimitWeek="0" LimitDay="0" LimitLifetime="0"> 
+    <Items Type="0" ItemID="190" Number="1" Rate="1050" Lock="1" ExpiryDate="" /> 
+    <Items Type="0" ItemID="191" Number="1" Rate="450" Lock="1" ExpiryDate="" /> 
+    <Items Type="0" ItemID="506" Number="100" Rate="1050" Lock="1" ExpiryDate="" /> 
+    <Items Type="0" ItemID="506" Number="200" Rate="390" Lock="1" ExpiryDate="" /> 
+    <Items Type="0" ItemID="506" Number="500" Rate="60" Lock="1" ExpiryDate="" /> 
+    <Items Type="0" ItemID="1055" Number="1" Rate="1050" Lock="1" ExpiryDate="" />
+    <Items Type="0" ItemID="20270" Number="1" Rate="390" Lock="1" ExpiryDate="" />
+    <Items Type="0" ItemID="20406" Number="1" Rate="60" Lock="1" ExpiryDate="" />
+    <Items Type="0" ItemID="20378" Number="5" Rate="1050" Lock="1" ExpiryDate="" />
+    <Items Type="0" ItemID="20485" Number="5" Rate="450" Lock="1" ExpiryDate="" />
+    <Items Type="0" ItemID="20051" Number="5" Rate="1050" Lock="1" ExpiryDate="" />
+    <Items Type="0" ItemID="20379" Number="5" Rate="390" Lock="1" ExpiryDate="" />
+    <Items Type="0" ItemID="20529" Number="5" Rate="60" Lock="1" ExpiryDate="" />
+    <Items Type="0" ItemID="13097" Number="1" Rate="700" Lock="1" ExpiryDate="" />
+    <Items Type="0" ItemID="13097" Number="3" Rate="260" Lock="1" ExpiryDate="" />
+    <Items Type="0" ItemID="13097" Number="5" Rate="40" Lock="1" ExpiryDate="" />
+    <Items Type="2" ItemID="-1" Number="100000" Rate="375" Lock="0" ExpiryDate="" />
+    <Items Type="1" ItemID="-1" Number="200000" Rate="750" Lock="0" ExpiryDate="" />
+    <Items Type="3" ItemID="-1" Number="1000" Rate="375" Lock="0" ExpiryDate="" />
+  </Boxs>
+  <Boxs IDBox="100516" BoxName="Lệnh bài Danh vọng Liên đấu" TotalRate="-1" LimitWeek="0" LimitDay="0" LimitLifetime="0"> 
+    <Items Type="7" ItemID="701" Number="20" Rate="-1" ExpiryDate="" /> 
+  </Boxs>
+  <Boxs IDBox="100517" BoxName="Lệnh bài Danh vọng Liên đấu Liên Server" TotalRate="-1" LimitWeek="0" LimitDay="0" LimitLifetime="0"> 
+    <Items Type="7" ItemID="1201" Number="10" Rate="-1" ExpiryDate="" /> 
+  </Boxs>
+   <Boxs IDBox="200100" BoxName="Dây cương thần bí" TotalRate="4650" LimitWeek="0" LimitDay="0" LimitLifetime="0"> 
+    <Items Type="0" ItemID="15221" Series="0" TimeLimit="10081" ExpiryDate="2023-07-10 05:00:00" Number="1" Rate="4010" Lock="1" />
+    <Items Type="0" ItemID="15221" Series="0" TimeLimit="21601" ExpiryDate="2023-07-17 05:00:00" Number="1" Rate="500" Lock="1" />
+    <Items Type="0" ItemID="15221" Series="0" TimeLimit="43201" ExpiryDate="2023-08-03 05:00:00" Number="1" Rate="130" Lock="1" />
+    <Items Type="0" ItemID="15221" Series="0" TimeLimit="0" Number="1" Rate="10" Lock="0" ExpiryDate="" />
+  </Boxs>
+  <Boxs IDBox="200101" BoxName="Dây cương thần bí đặc biệt" TotalRate="4000" LimitWeek="0" LimitDay="0" LimitLifetime="0"> 
+    <Items Type="0" ItemID="15221" Series="0" TimeLimit="43201" ExpiryDate="2023-08-03 05:00:00" Number="1" Rate="3500" Lock="1" />
+    <Items Type="0" ItemID="15221" Series="0" TimeLimit="0" Number="1" Rate="500" Lock="0" ExpiryDate="" />
+  </Boxs>
+
+  <Boxs IDBox="200111" BoxName="Rương quán quân (giải đấu)" TotalRate="-1" LimitWeek="0" LimitDay="0" LimitLifetime="0"> 
+    <Items Type="0" ItemID="394" Series="0" TimeLimit="0" Number="1" Rate="-1" Lock="1" ExpiryDate="" />
+    <Items Type="0" ItemID="20071" Series="0" TimeLimit="43201" Number="1" Rate="-1" Lock="1" ExpiryDate="" />
+  </Boxs>
+
+  <Boxs IDBox="200112" BoxName="Rương á quân (giải đấu)" TotalRate="-1" LimitWeek="0" LimitDay="0" LimitLifetime="0"> 
+    <Items Type="0" ItemID="393" Series="0" TimeLimit="0" Number="2" Rate="-1" Lock="1" ExpiryDate="" />
+    <Items Type="0" ItemID="20071" Series="0" TimeLimit="43201" Number="1" Rate="-1" Lock="1" ExpiryDate="" />
+  </Boxs>
+
+  <Boxs IDBox="200113" BoxName="Rương top 8 (giải đấu)" TotalRate="1000" LimitWeek="0" LimitDay="0" LimitLifetime="0"> 
+    <Items Type="0" ItemID="393" Series="0" TimeLimit="0" Number="1" Rate="100" Lock="1" ExpiryDate="" />
+    <Items Type="0" ItemID="392" Series="0" TimeLimit="0" Number="2" Rate="300" Lock="1" ExpiryDate="" />
+    <Items Type="0" ItemID="391" Series="0" TimeLimit="0" Number="3" Rate="600" Lock="1" ExpiryDate="" />
+    <Items Type="0" ItemID="20071" Series="0" TimeLimit="10081" Number="1" Rate="-1" Lock="1" ExpiryDate="" />
+  </Boxs>
+
+  <Boxs IDBox="200135" BoxName="Danh hiệu Minh Chủ Võ Lâm" TotalRate="1000" LimitWeek="0" LimitDay="0" LimitLifetime="0"> 
+    <Items Type="8" ItemID="-1" Series="0" TimeLimit="0" Number="126" Rate="-1" Lock="1" ExpiryDate="" />
+  </Boxs>
+
+  <Boxs IDBox="200136" BoxName="Danh hiệu Vô Song Đệ Nhất Bang" TotalRate="1000" LimitWeek="0" LimitDay="0" LimitLifetime="0"> 
+    <Items Type="8" ItemID="-1" Series="0" TimeLimit="0" Number="127" Rate="-1" Lock="1" ExpiryDate="" />
+  </Boxs>
+
+  <Boxs IDBox="200137" BoxName="Rương mảnh đồng hành" TotalRate="100" LimitWeek="0" LimitDay="0" LimitLifetime="0"> 
+    <Items Type="0" ItemID="25147" Series="0" TimeLimit="0" Number="1" Rate="40" Lock="1" ExpiryDate="" />
+    <Items Type="0" ItemID="25175" Series="0" TimeLimit="0" Number="1" Rate="35" Lock="1" ExpiryDate="" />
+    <Items Type="0" ItemID="25159" Series="0" TimeLimit="0" Number="1" Rate="25" Lock="1" ExpiryDate="" />
+  </Boxs>
+
+  <Boxs IDBox="200164" BoxName="Rương ngựa Ngọc Tiêu Dao" TotalRate="-1" LimitWeek="0" LimitDay="0" LimitLifetime="0"> 
+    <Items Type="0" ItemID="20183" Series="0" TimeLimit="10081" Number="1" Rate="-1" Lock="1" ExpiryDate="" />
+  </Boxs>
+
+  <Boxs IDBox="200165" BoxName="Danh hiệu Anh Hùng Hội Tụ" TotalRate="-1" LimitWeek="0" LimitDay="0" LimitLifetime="0"> 
+    <Items Type="8" ItemID="-1" Series="0" TimeLimit="0" Number="132" Rate="-1" Lock="1" ExpiryDate="" />
+  </Boxs>
+
+  <Boxs IDBox="200183" BoxName="Rương Dạ Minh Châu" TotalRate="-1" LimitWeek="0" LimitDay="0" LimitLifetime="0"> 
+    <Items Type="0" ItemID="796" Series="0" TimeLimit="0" Number="20" Rate="-1" Lock="0" ExpiryDate="" />
+  </Boxs>
+
+  <Boxs IDBox="200184" BoxName="Phiếu Bạc (1 vạn)" TotalRate="-1" LimitWeek="0" LimitDay="0" LimitLifetime="0"> 
+    <Items Type="2" ItemID="-1" Series="0" TimeLimit="0" Number="10000" Rate="-1" Lock="0" ExpiryDate="" />
+  </Boxs>
+
+  <Boxs IDBox="200185" BoxName="Phiếu Bạc Khóa (1 vạn)" TotalRate="-1" LimitWeek="0" LimitDay="0" LimitLifetime="0"> 
+    <Items Type="1" ItemID="-1" Series="0" TimeLimit="0" Number="10000" Rate="-1" Lock="0" ExpiryDate="" />
+  </Boxs>
+
+  <Boxs IDBox="200186" BoxName="Phiếu Bạc Khóa (100)" TotalRate="-1" LimitWeek="0" LimitDay="0" LimitLifetime="0"> 
+    <Items Type="1" ItemID="-1" Series="0" TimeLimit="0" Number="100" Rate="-1" Lock="0" ExpiryDate="" />
+  </Boxs>
+
+  <Boxs IDBox="200187" BoxName="Phiếu Bạc Khóa (500)" TotalRate="-1" LimitWeek="0" LimitDay="0" LimitLifetime="0"> 
+    <Items Type="1" ItemID="-1" Series="0" TimeLimit="0" Number="500" Rate="-1" Lock="0" ExpiryDate="" />
+  </Boxs>
+  <Boxs IDBox="200206" BoxName="Lệnh bài Danh vọng Nghĩa Quân" TotalRate="-1" LimitWeek="0" LimitDay="0" LimitLifetime="0"> 
+    <Items Type="7" ItemID="101" Number="20" Rate="-1" ExpiryDate="" /> 
+  </Boxs>
+  <Boxs IDBox="200207" BoxName="Lệnh bài Danh vọng Ải Gia Tộc" TotalRate="-1" LimitWeek="0" LimitDay="0" LimitLifetime="0"> 
+    <Items Type="7" ItemID="401" Number="20" Rate="-1" ExpiryDate="" /> 
+  </Boxs>
+  <Boxs IDBox="200208" BoxName="Lệnh bài Danh vọng Tống Kim - Phượng Tường" TotalRate="-1" LimitWeek="0" LimitDay="0" LimitLifetime="0"> 
+    <Items Type="7" ItemID="202" Number="10" Rate="-1" ExpiryDate="" /> 
+  </Boxs>
+  <Boxs IDBox="200216" BoxName="Rương danh vọng Chân Long" TotalRate="-1" LimitWeek="0" LimitDay="0" LimitLifetime="3"> 
+    <Items Type="7" ItemID="101" Number="500" Rate="-1" ExpiryDate="" /> 
+    <Items Type="7" ItemID="401" Number="500" Rate="-1" ExpiryDate="" /> 
+    <Items Type="7" ItemID="202" Number="500" Rate="-1" ExpiryDate="" /> 
+    <Items Type="7" ItemID="501" Number="500" Rate="-1" ExpiryDate="" />
+    <Items Type="7" ItemID="-1" Number="500" Rate="-1" ExpiryDate="" /> 
+  </Boxs>
+  <Boxs IDBox="200513" BoxName="Rương điểm danh vọng (check-in)" TotalRate="-1" LimitWeek="0" LimitDay="0" LimitLifetime="0"> 
+    <Items Type="7" ItemID="501" Number="60" Rate="-1" ExpiryDate="" /> <!--Danh vọng bạch hổ đường-->
+    <Items Type="7" ItemID="-1" Number="60" Rate="-1" ExpiryDate="" /> <!--Danh vọng Môn Phái-->
+    <Items Type="7" ItemID="101" Number="60" Rate="-1" ExpiryDate="" /> <!--Danh vọng Môn Phái-->
+    <Items Type="7" ItemID="401" Number="60" Rate="-1" ExpiryDate="" /> <!--Danh vọng Môn Phái-->
+    <Items Type="7" ItemID="202" Number="30" Rate="-1" ExpiryDate="" /> <!--Danh vọng Môn Phái-->
+  </Boxs>
+</ConfigBox>
+<!--
+	=== Hướng dẫn config randombox ===
+	=== Hướng dẫn config randombox ===
+	
+	Khai báo 1 Boxs ID mới thì IDBox cần phải khác nhau không được giống nhau
+	Tổng số lượng RATE phải điền đúng nếu ko sẽ gây lỗi
+  Nếu TotalRate là -1 tức là box cố định, sẽ mở ra toàn bộ item
+	LimitWeek : Tối đa 1 tuần được mở mấy lần  | Nếu để là 0 thì không giới hạn
+	LimitDay : Tối đa 1 ngày được mở mấy lần | Nếu để là 0 thì không giới hạn
+	Lock : 0 Là không khóa | 1 là có khóa
+	Type : Là kiểu tong đó : 0 là vật phẩm | 1 là bạc khóa , 2: là bạc , 3 là đồng khóa , 4 là đồng	| 5 là Exp | 7 là điểm danh vọng
+  Serier : là đồ theo hệ
+  TimeLimit : thời gian đồ có thể dùng
+  ItemID là ID đồ của vật phẩm , nếu là 7 thì ItemID là ID để cộng điểm danh vọng, ItemID = -1 thì là danh vọng môn phái 
+	Number : Là số lượng tương ứng của mỗi vật phẩm | Nếu type là tiền thì Number là số tiền
+  Notify: Nếu là 1 thì sẽ thông báo nhận vật phẩm tới toàn server, 2 là thông báo gia tộc, 4 là thông báo bang hội. Nếu muốn thông báo nhiều kênh thì dùng tổng.
+  TimeExpiry: Hạn sử dụng tối đa. Nếu chỉ có trường này thì item sẽ có hạn như vậy. Còn nếu có thêm TimeLimit thì item sẽ có hạn là thời điểm nhỏ hơn giữa TimeLimit và ExpiryDate
+-->
+
+	<!-- [101]={NameActivity="Lệnh Bài Nghĩa Quân"}, -->
+	<!-- [102]={NameActivity="Lệnh Bài Quân doanh"}, -->
+	<!-- [103]={NameActivity="Lệnh Bài Học Tạo Đồ"}, -->
+	<!-- [201]={NameActivity="Lệnh Bài Dương Châu"}, -->
+	<!-- [202]={NameActivity="Lệnh Bài Phượng Tường"}, -->
+	<!-- [203]={NameActivity="Lệnh Bài Tương Dương"}, -->
+	<!-- [301]={NameActivity="Lệnh Bài Thiếu Lâm"}, -->
+	<!-- [302]={NameActivity="Lệnh Bài Thiên Vương"}, -->
+	<!-- [303]={NameActivity="Lệnh Bài Đường Môn"}, -->
+	<!-- [304]={NameActivity="Lệnh Bài Ngũ Độc"}, -->
+	<!-- [305]={NameActivity="Lệnh Bài Nga My"}, -->
+	<!-- [306]={NameActivity="Lệnh Bài Thúy Yên"}, -->
+	<!-- [307]={NameActivity="Lệnh Bài Cái Bang"}, -->
+	<!-- [308]={NameActivity="Lệnh Bài Thiên Nhẫn"}, -->
+	<!-- [309]={NameActivity="Lệnh Bài Võ Đang"}, -->
+	<!-- [310]={NameActivity="Lệnh Bài Côn Lôn"}, -->
+	<!-- [311]={NameActivity="Lệnh Bài Minh Giáo"}, -->
+	<!-- [312]={NameActivity="Lệnh Bài Đại Lý Đoàn Thị"}, -->
+	<!-- [401]={NameActivity="Lệnh Bài Ải gia tộc"}, -->
+	<!-- [501]={NameActivity="Lệnh Bài Bạch Hổ-"}, -->
+	<!-- [502]={NameActivity="Lệnh Bài Thịnh Hạ 2008"}, -->
+	<!-- [503]={NameActivity="Lệnh Bài Tiêu Dao Cốc"}, -->
+	<!-- [504]={NameActivity="Lệnh Bài Chúc phúc"}, -->
+	<!-- [505]={NameActivity="Lệnh Bài Hoạt động Thịnh Hạ 2010"}, -->
+	<!-- [506]={NameActivity="Lệnh Bài Di tích Hàn Vũ"}, -->
+	<!-- [507]={NameActivity="Lệnh Bài Mỹ nhân"}, -->
+	<!-- [508]={NameActivity="Lệnh Bài VIP"}, -->
+	<!-- [601]={NameActivity="Lệnh Bài Cao thủ (kim)"}, -->
+	<!-- [602]={NameActivity="Lệnh Bài Cao thủ (mộc)"}, -->
+	<!-- [603]={NameActivity="Lệnh Bài Cao thủ (thủy)"}, -->
+	<!-- [604]={NameActivity="Lệnh Bài Cao thủ (hỏa)"}, -->
+	<!-- [605]={NameActivity="Lệnh Bài Cao thủ (thổ)"}, -->
+	<!-- [701]={NameActivity="Lệnh Bài Võ Lâm Liên Đấu"}, -->
+	<!-- [801]={NameActivity="Lệnh Bài Tranh Đoạt Lãnh Thổ"}, -->
+	<!-- [901]={NameActivity="Lệnh Bài Tần Lăng-Quan Phủ"}, -->
+	<!-- [902]={NameActivity="Lệnh Bài Tần Lăng-Phát Khâu Môn"}, -->
+	<!-- [1001]={NameActivity="Lệnh Bài Đoàn viên dân tộc"}, -->
+	<!-- [1101]={NameActivity="Lệnh Bài Đại Hội Võ Lâm"}, -->
+	<!-- [1201]={NameActivity="Lệnh Bài Liên đấu liên server"}, -->

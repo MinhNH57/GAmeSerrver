@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RefundEvent TimeKey="RefundEvent" MaxPurchaseDays="7">
+    <RefundPack id="0" knb="1000">
+        <Milestone day="1" type="item" rewardId="20920" amount="1"/>
+        <Milestone day="3" type="money" rewardId="2" amount="200"/>
+        <Milestone day="5" type="item" rewardId="20921" amount="1"/>
+        <Milestone day="7" type="money" rewardId="2" amount="800"/>
+    </RefundPack>
+
+    <RefundPack id="1" knb="2000">
+        <Milestone day="1" type="item" rewardId="20922" amount="1"/>
+        <Milestone day="3" type="money" rewardId="2" amount="400"/>
+        <Milestone day="5" type="item" rewardId="20923" amount="1"/>
+        <Milestone day="7" type="money" rewardId="2" amount="1600"/>
+    </RefundPack>
+
+    <RefundPack id="2" knb="5000">
+        <Milestone day="1" type="item" rewardId="20924" amount="1"/>
+        <Milestone day="3" type="money" rewardId="2" amount="1000"/>
+        <Milestone day="5" type="item" rewardId="20925" amount="1"/>
+        <Milestone day="7" type="money" rewardId="2" amount="4000"/>
+    </RefundPack>
+
+    <RefundPack id="3" knb="10000">
+        <Milestone day="1" type="item" rewardId="20926" amount="1"/>
+        <Milestone day="3" type="money" rewardId="2" amount="2000"/>
+        <Milestone day="5" type="item" rewardId="20927" amount="1"/>
+        <Milestone day="7" type="money" rewardId="2" amount="8000"/>
+    </RefundPack>
+
+    <RefundPack id="4" knb="50000">
+        <Milestone day="1" type="item" rewardId="20928" amount="1"/>
+        <Milestone day="3" type="item" rewardId="20929" amount="1"/>
+        <Milestone day="5" type="item" rewardId="20930" amount="1"/>
+        <Milestone day="7" type="money" rewardId="2" amount="50000"/>
+    </RefundPack>
+
+    <RefundPack id="5" knb="100000">
+        <Milestone day="1" type="item" rewardId="20931" amount="1"/>
+        <Milestone day="3" type="item" rewardId="20932" amount="1"/>
+        <Milestone day="5" type="item" rewardId="20933" amount="1"/>
+        <Milestone day="7" type="money" rewardId="2" amount="100000"/>
+    </RefundPack>
+</RefundEvent>

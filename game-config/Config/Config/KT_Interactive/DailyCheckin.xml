@@ -1,0 +1,32 @@
+<?xml version="1.0" ?>
+<Config>
+    <Step Info="Hằng ngày" Index="-1" Counter="1" />
+    <Step Info="3 ngày" Index="0" Counter="3" />
+    <Step Info="7 ngày" Index="1"  Counter="7" />
+    <Step Info="14 ngày" Index="2"  Counter="14" />
+    <Step Info="21 ngày" Index="3"  Counter="21" />
+    <Step Info="28 ngày" Index="4"  Counter="28" />
+    <Price Money="2:20" />
+<!-- Thưởng hàng ngày -->
+    <Reward Counter="1" Info="10 Phiếu bạc khóa (1 vạn)" Type="Item" ItemID="15000" Number="10" Repeat="Daily"/>
+    <Reward Counter="1" Info="1 Đại Bạch Câu Hoàn" Type="Item" ItemID="298" Number="1" Repeat="Daily"/>
+<!-- Thưởng 3 ngày  -->
+    <Reward Counter="3" Info="1 Rương vừa đẹp vừa cao quý" Type="Item" ItemID="745" Number="1" Repeat="Monthly"/>
+    <Reward Counter="3" Info="3 Bản đồ bí cảnh" Type="Item" ItemID="590" Number="3" Repeat="Monthly"/>
+    <Reward Counter="3" Info="50 Phiếu bạc khóa (1 vạn)" Type="Item" ItemID="15000" Number="50" Repeat="Monthly"/>
+<!-- Thưởng 7 ngày -->
+    <Reward Counter="7" Info="2 Rương vừa đẹp vừa cao quý" Type="Item" ItemID="745" Number="2" Repeat="Monthly"/>
+    <Reward Counter="7" Info="5 Tu luyện đơn" Type="Item" ItemID="600" Number="5" Repeat="Monthly" />
+    <Reward Counter="7" Info="05 Chiến Thư Mật Thất Du Long" Type="Item" ItemID="1026" Number="5" Repeat="Monthly" />
+<!-- Thưởng 14 ngày -->
+    <!-- <Reward Counter="14" Info="20 Vạn Bạc Khóa liên Server" Type="Money" ItemID="6" Number="200000" Repeat="Monthly"/> -->
+    <Reward Counter="14" Info="200 Ngũ Hành Hồn Thạch" Type="Item" ItemID="506" Number="200" Repeat="Monthly"/>
+    <Reward Counter="14" Info="50 Rương mảnh trang bị đồng hành Cao cấp" Type="Item" ItemID="20529" Number="50" Repeat="Monthly"/>
+    <Reward Counter="14" Info="10 Bạc Khóa Chuyên Dụng Liên Server (10 vạn)" Type="Item" ItemID="943" Number="10" Repeat="Monthly"/>
+<!-- Thưởng 21 ngày -->
+    <Reward Counter="21" Info="500 Ngũ hành hồn thạch" Type="Item" ItemID="506" Number="500" Repeat="Monthly"/>
+    <Reward Counter="21" Info="50 Cờ Chiến Công" Type="Item" ItemID="20344" Number="50" Repeat="Monthly"/>
+    <Reward Counter="21" Info="5 Mảnh Lôi Đình Ấn" Type="Item" ItemID="20345" Number="5" Repeat="Monthly"/>
+<!-- Thưởng 28 ngày -->
+    <Reward Counter="28" Info="1 Rương Tiểu Du Long (Ngẫu Nhiên)" Type="Item" ItemID="2017" Number="1" Repeat="Monthly"/>
+</Config>

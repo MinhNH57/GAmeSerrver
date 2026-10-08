@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Map>
+  <NPCs>
+    <NPC Code="6780" Name="Tr&#432;&#417;ng Tr&#7843;m Kinh" MinimapName="Thu&#7889;c" VisibleOnMinimap="1" Title="Ch&#7911; Ti&#7879;m Thu&#7889;c - Li&#234;n M&#225;y Ch&#7911;" X="7741" Y="4660" Dir="7" ScriptID="27" />
+    <NPC Code="6782" Name="&#272;&#7841;i L&#227;o B&#7841;ch" MinimapName="T&#7917;u L&#7847;u" VisibleOnMinimap="1" Title="Ch&#7911; T&#7917;u L&#7847;u" X="7421" Y="4330" Dir="5" ScriptID="24" />
+    <NPC Code="6786" Name="B&#7841;ch Thu L&#226;m" MinimapName="Ch&#7885;n ph&#225;i c&#226;n b&#7857;ng" VisibleOnMinimap="1" Title="Li&#234;n server c&#226;n b&#7857;ng" X="9052" Y="4385" Dir="0" ScriptID="400040" />
+    <NPC Code="2606" Name="Ho&#224;ng Th&#432;&#7901;ng" MinimapName="V&#245; L&#226;m Minh Ch&#7911;" VisibleOnMinimap="1" Title="&#272;&#7863;c s&#7913; V&#245; L&#226;m Minh Ch&#7911;" X="8410" Y="5370" Dir="7" ScriptID="229" />
+    <NPC Code="3406" Name="Quan L&#227;nh Th&#7893;" MinimapName="Tranh &#272;o&#7841;t L&#227;nh Th&#7893;" VisibleOnMinimap="1" Title="Tranh &#272;o&#7841;t L&#227;nh Th&#7893; LSV" X="8163" Y="4601" Dir="1" ScriptID="16" />
+  </NPCs>
+</Map>

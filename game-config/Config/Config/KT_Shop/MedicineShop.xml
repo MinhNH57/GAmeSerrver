@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<MedicineNPC xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema" CheckAllNPCPosition="true">
+    <Pos MapCode="qinshihuangling_1" MapID="1536" MapName="Tần Lăng" X="3546" Y="6608" />
+    <Pos MapCode="linanfu" MapID="29" MapName="Lâm An Phủ" X="7750" Y="5190" />
+    <Pos MapCode="menpaijingjichang_shaolin" MapID="241" MapName="Đấu trường môn phái (Thiếu Lâm)" X="3665" Y="2852" />
+    <Pos MapCode="baimanshan" MapID="560" MapName="Bách Man Sơn" X="3370" Y="646" />
+    <Pos MapCode="daoxiangcun" MapID="4" MapName="Đạo Hương Thôn" X="5470" Y="4170" />
+    <Pos MapCode="menpaijingjichang_wudu" MapID="244" MapName="Đấu trường môn phái (Ngũ Độc)" X="3665" Y="2852" />
+    <Pos MapCode="wudangpai" MapID="14" MapName="Võ Đang Phái" X="4370" Y="1250" />
+    <Pos MapCode="menpaijingjichang_tianwang" MapID="242" MapName="Đấu trường môn phái (Thiên Vương)" X="3665" Y="2852" />
+    <Pos MapCode="dalifu" MapID="28" MapName="Đại Lý Phủ" X="5390" Y="3850" />
+    <Pos MapCode="hoangcheng" MapID="1616" MapName="Hoàng Thành Liên Sever" X="7741" Y="4660" />
+    <Pos MapCode="zhanchang_pingyuan_fengxiang_1" MapID="1638" MapName="Gia Dụ Quan Chiến-Liên Sever 1" X="16126" Y="8095" />
+    <Pos MapCode="zhanchang_pingyuan_fengxiang_1" MapID="1638" MapName="Gia Dụ Quan Chiến-Liên Sever 1" X="1984" Y="1649" />
+    <Pos MapCode="yonglezhen" MapID="3" MapName="Vĩnh Lạc Trấn" X="8870" Y="3910" />
+    <Pos MapCode="menpaijingjichang_tianren" MapID="248" MapName="Đấu trường môn phái (Thiên Nhẫn)" X="3665" Y="2852" />
+    <Pos MapCode="longmenzhen" MapID="2" MapName="Long Môn Trấn" X="6245" Y="3124" />
+    <Pos MapCode="balingxian" MapID="8" MapName="Ba Lăng Huyện" X="4751" Y="4540" />
+    <Pos MapCode="tianwangbang" MapID="22" MapName="Thiên Vương Bang" X="2550" Y="2937" />
+    <Pos MapCode="menpaijingjichang_gaibang" MapID="247" MapName="Đấu trường môn phái (Cái Bang)" X="3665" Y="2852" />
+    <Pos MapCode="tangmen" MapID="18" MapName="Đường Môn" X="5250" Y="4510" />
+    <Pos MapCode="cuiyanmen" MapID="17" MapName="Thúy Yên Môn" X="3266" Y="3133" />
+    <Pos MapCode="mingjiao" MapID="224" MapName="Minh Giáo" X="4846" Y="1722" />
+    <Pos MapCode="menpaijingjichang_kunlun" MapID="250" MapName="Đấu trường môn phái (Côn Lôn)" X="3665" Y="2852" />
+    <Pos MapCode="wudujiao" MapID="20" MapName="Ngũ Độc Giáo" X="4824" Y="1932" />
+    <Pos MapCode="shiguzhen" MapID="6" MapName="Thạch Cổ Trấn" X="7590" Y="4130" />
+    <Pos MapCode="fengxiangfu" MapID="24" MapName="Phượng Tường Phủ" X="8701" Y="4978" />
+    <Pos MapCode="tianrenjiao" MapID="10" MapName="Thiên Nhẫn Giáo" X="4210" Y="3210" />
+    <Pos MapCode="funiushanjunying" MapID="556" MapName="Phục Ngưu Sơn Quân Doanh" X="748" Y="3596" />
+    <Pos MapCode="daliduanshi" MapID="19" MapName="Đại Lý Đoàn Thị" X="6206" Y="1386" />
+    <Pos MapCode="menpaijingjichang_emei" MapID="245" MapName="Đấu trường môn phái (Nga My)" X="3665" Y="2852" />
+    <Pos MapCode="shaolinpai" MapID="9" MapName="Thiếu Lâm Phái" X="5450" Y="2430" />
+    <Pos MapCode="kunlunpai" MapID="12" MapName="Côn Lôn Phái" X="6707" Y="2324" />
+    <Pos MapCode="emeipai" MapID="16" MapName="Nga My Phái" X="8610" Y="3930" />
+    <Pos MapCode="yunzhongzhen" MapID="1" MapName="Vân Trung Trấn" X="3750" Y="3590" />
+    <Pos MapCode="yangzhoufu" MapID="26" MapName="Dương Châu Phủ" X="7510" Y="3930" />
+    <Pos MapCode="menpaijingjichang_mingjiao" MapID="251" MapName="Đấu trường môn phái (Minh Giáo)" X="3665" Y="2852" />
+    <Pos MapCode="liansaihuichang" MapID="1401" MapName="Hội trường liên đấu (sơ) (1)" X="6651" Y="4227" />
+    <Pos MapCode="liansaihuichang" MapID="1401" MapName="Hội trường liên đấu (sơ) (1)" X="3301" Y="2992" />
+    <Pos MapCode="liansaihuichang" MapID="1401" MapName="Hội trường liên đấu (sơ) (1)" X="8885" Y="3097" />
+    <Pos MapCode="liansaihuichang" MapID="1401" MapName="Hội trường liên đấu (sơ) (1)" X="5522" Y="1860" />
+    <Pos MapCode="hailingwangmu" MapID="493" MapName="Hải Lăng Vương Mộ" X="908" Y="7328" />
+    <Pos MapCode="jiangjincun" MapID="5" MapName="Giang Tân Thôn" X="5970" Y="4050" />
+    <Pos MapCode="zhanchang_pingyuan_xiangyang" MapID="1641" MapName="Gia Dụ Quan Chiến-Phượng Tường 1" X="15400" Y="8600" />
+    <Pos MapCode="zhanchang_pingyuan_xiangyang" MapID="1641" MapName="Gia Dụ Quan Chiến-Phượng Tường 1" X="2000" Y="1660" />
+    <Pos MapCode="chengdufu" MapID="27" MapName="Thành Đô Phủ" X="5690" Y="4490" />
+    <Pos MapCode="menpaijingjichang_cuiyan" MapID="246" MapName="Đấu trường môn phái (Thúy Yên)" X="3665" Y="2852" />
+    <Pos MapCode="xisuidao" MapID="255" MapName="Tẩy Tủy Đảo" X="1590" Y="2170" />
+    <Pos MapCode="xiaoyaogu_lv7" MapID="304" MapName="Khu chờ Tiêu Dao Cốc" X="2502" Y="1367" />
+    <Pos MapCode="bianjingfu" MapID="23" MapName="Biện Kinh Phủ" X="7050" Y="4650" />
+    <Pos MapCode="xiaoyaogu_lv6" MapID="303" MapName="Tiêu Dao Cốc" X="2502" Y="1367" />
+    <Pos MapCode="zhanchang_pingyuan_yangzhou" MapID="1635" MapName="Gia Dụ Quan Chiến-Dương Châu 1" X="15400" Y="8600" />
+    <Pos MapCode="zhanchang_pingyuan_yangzhou" MapID="1635" MapName="Gia Dụ Quan Chiến-Dương Châu 1" X="2000" Y="1660" />
+    <Pos MapCode="menpaijingjichang_duanshi" MapID="252" MapName="Đấu trường môn phái (Đoàn Thị)" X="3665" Y="2852" />
+    <Pos MapCode="longquancun" MapID="7" MapName="Long Tuyền Thôn" X="5210" Y="5090" />
+    <Pos MapCode="xiangyangfu" MapID="25" MapName="Tương Dương Phủ" X="8510" Y="5070" />
+    <Pos MapCode="menpaijingjichang_wudang" MapID="249" MapName="Đấu trường môn phái (Võ Đang)" X="3665" Y="2852" />
+    <Pos MapCode="menpaijingjichang_tangmen" MapID="243" MapName="Đấu trường môn phái (Đường Môn)" X="3665" Y="2852" />
+    <Pos MapCode="gaibang" MapID="15" MapName="Cái Bang" X="1590" Y="1790" />
+</MedicineNPC>

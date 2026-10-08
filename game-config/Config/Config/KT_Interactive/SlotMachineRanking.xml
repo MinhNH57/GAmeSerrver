@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SlotMachineRanking>
+    <NumberRanking>
+        <Record RoleID="1234567" RoleName="Warrior" RoleFactionID="0" SelfRecord="84537"/>
+        <Record RoleID="2345678" RoleName="Mage" RoleFactionID="1" SelfRecord="29475"/>
+        <Record RoleID="3456789" RoleName="Assassin" RoleFactionID="2" SelfRecord="63845"/>
+        <Record RoleID="4567890" RoleName="Healer" RoleFactionID="1" SelfRecord="10482"/>
+        <Record RoleID="5678901" RoleName="Tank" RoleFactionID="0" SelfRecord="75132"/>
+        <Record RoleID="6789012" RoleName="Rogue" RoleFactionID="2" SelfRecord="51236"/>
+        <Record RoleID="7890123" RoleName="Sorcerer" RoleFactionID="0" SelfRecord="96258"/>
+        <Record RoleID="8901234" RoleName="Paladin" RoleFactionID="1" SelfRecord="38421"/>
+        <Record RoleID="9012345" RoleName="Necromancer" RoleFactionID="2" SelfRecord="87213"/>
+        <Record RoleID="0123456" RoleName="Shaman" RoleFactionID="0" SelfRecord="52847"/>
+        <Record RoleID="1123456" RoleName="Priest" RoleFactionID="1" SelfRecord="49372"/>
+        <Record RoleID="2123457" RoleName="Druid" RoleFactionID="2" SelfRecord="71045"/>
+        <Record RoleID="3123458" RoleName="Wizard" RoleFactionID="0" SelfRecord="18647"/>
+        <Record RoleID="4123459" RoleName="Warlock" RoleFactionID="1" SelfRecord="65432"/>
+        <Record RoleID="5123460" RoleName="Knight" RoleFactionID="2" SelfRecord="47281"/>
+        <Record RoleID="6123461" RoleName="Berserker" RoleFactionID="0" SelfRecord="23516"/>
+        <Record RoleID="7123462" RoleName="Guardian" RoleFactionID="1" SelfRecord="95247"/>
+        <Record RoleID="8123463" RoleName="Assassin" RoleFactionID="2" SelfRecord="76139"/>
+        <Record RoleID="9123464" RoleName="Barbarian" RoleFactionID="0" SelfRecord="43126"/>
+        <Record RoleID="0123465" RoleName="Sorcerer" RoleFactionID="1" SelfRecord="14538"/>
+        <Record RoleID="1123466" RoleName="Hunter" RoleFactionID="2" SelfRecord="59247"/>
+        <Record RoleID="2123467" RoleName="Knight" RoleFactionID="0" SelfRecord="80234"/>
+        <Record RoleID="3123468" RoleName="Paladin" RoleFactionID="1" SelfRecord="35462"/>
+        <Record RoleID="4123469" RoleName="Warlock" RoleFactionID="2" SelfRecord="97134"/>
+        <Record RoleID="5123470" RoleName="Priest" RoleFactionID="0" SelfRecord="74831"/>
+        <Record RoleID="6123471" RoleName="Shaman" RoleFactionID="1" SelfRecord="25864"/>
+        <Record RoleID="7123472" RoleName="Wizard" RoleFactionID="2" SelfRecord="48725"/>
+        <Record RoleID="8123473" RoleName="Druid" RoleFactionID="0" SelfRecord="93627"/>
+        <Record RoleID="9123474" RoleName="Rogue" RoleFactionID="1" SelfRecord="35182"/>
+        <Record RoleID="0123475" RoleName="Healer" RoleFactionID="2" SelfRecord="61428"/>
+        <Record RoleID="1123476" RoleName="Berserker" RoleFactionID="0" SelfRecord="52813"/>
+        <Record RoleID="2123477" RoleName="Tank" RoleFactionID="1" SelfRecord="27346"/>
+        <Record RoleID="3123478" RoleName="Necromancer" RoleFactionID="2" SelfRecord="78142"/>
+        <Record RoleID="4123479" RoleName="Hunter" RoleFactionID="0" SelfRecord="64938"/>
+        <Record RoleID="5123480" RoleName="Barbarian" RoleFactionID="1" SelfRecord="91547"/>
+        <Record RoleID="6123481" RoleName="Knight" RoleFactionID="2" SelfRecord="48273"/>
+        <Record RoleID="7123482" RoleName="Sorcerer" RoleFactionID="0" SelfRecord="52739"/>
+        <Record RoleID="8123483" RoleName="Warrior" RoleFactionID="1" SelfRecord="21837"/>
+        <Record RoleID="9123484" RoleName="Shaman" RoleFactionID="2" SelfRecord="74816"/>
+        <Record RoleID="0123485" RoleName="Paladin" RoleFactionID="0" SelfRecord="31952"/>
+        <Record RoleID="1123486" RoleName="Warlock" RoleFactionID="1" SelfRecord="82574"/>
+        <Record RoleID="2123487" RoleName="Berserker" RoleFactionID="2" SelfRecord="16743"/>
+        <Record RoleID="3123488" RoleName="Druid" RoleFactionID="0" SelfRecord="48731"/>
+        <Record RoleID="4123489" RoleName="Tank" RoleFactionID="1" SelfRecord="92615"/>
+        <Record RoleID="5123490" RoleName="Rogue" RoleFactionID="2" SelfRecord="41367"/>
+        <Record RoleID="6123491" RoleName="Wizard" RoleFactionID="0" SelfRecord="37842"/>
+        <Record RoleID="7123492" RoleName="Necromancer" RoleFactionID="1" SelfRecord="81257"/>
+        <Record RoleID="215722" RoleName="[GM] 123453" RoleFactionID="1" SelfRecord="87213"/>
+        
+    </NumberRanking>
+    <PointsRanking>
+        <Record RoleID="9123494" RoleName="Warrior" RoleFactionID="0" SelfRecord="543"/>
+        <Record RoleID="0123495" RoleName="Mage" RoleFactionID="1" SelfRecord="175"/>
+        <Record RoleID="1123496" RoleName="Assassin" RoleFactionID="2" SelfRecord="932"/>
+        <Record RoleID="2123497" RoleName="Healer" RoleFactionID="1" SelfRecord="651"/>
+        <Record RoleID="3123498" RoleName="Tank" RoleFactionID="0" SelfRecord="128"/>
+        <Record RoleID="4123499" RoleName="Rogue" RoleFactionID="2" SelfRecord="347"/>
+        <Record RoleID="5123500" RoleName="Sorcerer" RoleFactionID="0" SelfRecord="598"/>
+        <Record RoleID="6123501" RoleName="Paladin" RoleFactionID="1" SelfRecord="473"/>
+        <Record RoleID="7123502" RoleName="Necromancer" RoleFactionID="2" SelfRecord="721"/>
+        <Record RoleID="8123503" RoleName="Shaman" RoleFactionID="0" SelfRecord="194"/>
+        <Record RoleID="9123504" RoleName="Priest" RoleFactionID="1" SelfRecord="862"/>
+        <Record RoleID="0123505" RoleName="Druid" RoleFactionID="2" SelfRecord="329"/>
+        <Record RoleID="1123506" RoleName="Wizard" RoleFactionID="0" SelfRecord="158"/>
+        <Record RoleID="2123507" RoleName="Warlock" RoleFactionID="1" SelfRecord="463"/>
+        <Record RoleID="3123508" RoleName="Knight" RoleFactionID="2" SelfRecord="981"/>
+        <Record RoleID="4123509" RoleName="Berserker" RoleFactionID="0" SelfRecord="527"/>
+        <Record RoleID="5123510" RoleName="Guardian" RoleFactionID="1" SelfRecord="672"/>
+        <Record RoleID="6123511" RoleName="Assassin" RoleFactionID="2" SelfRecord="751"/>
+        <Record RoleID="7123512" RoleName="Barbarian" RoleFactionID="0" SelfRecord="241"/>
+        <Record RoleID="8123513" RoleName="Sorcerer" RoleFactionID="1" SelfRecord="638"/>
+        <Record RoleID="9123514" RoleName="Hunter" RoleFactionID="2" SelfRecord="512"/>
+        <Record RoleID="0123515" RoleName="Knight" RoleFactionID="0" SelfRecord="371"/>
+        <Record RoleID="1123516" RoleName="Paladin" RoleFactionID="1" SelfRecord="752"/>
+        <Record RoleID="2123517" RoleName="Warlock" RoleFactionID="2" SelfRecord="428"/>
+        <Record RoleID="3123518" RoleName="Priest" RoleFactionID="0" SelfRecord="183"/>
+        <Record RoleID="4123519" RoleName="Shaman" RoleFactionID="1" SelfRecord="946"/>
+        <Record RoleID="5123520" RoleName="Wizard" RoleFactionID="2" SelfRecord="735"/>
+        <Record RoleID="6123521" RoleName="Druid" RoleFactionID="0" SelfRecord="561"/>
+        <Record RoleID="7123522" RoleName="Rogue" RoleFactionID="1" SelfRecord="473"/>
+        <Record RoleID="8123523" RoleName="Healer" RoleFactionID="2" SelfRecord="391"/>
+        <Record RoleID="9123524" RoleName="Berserker" RoleFactionID="0" SelfRecord="812"/>
+        <Record RoleID="0123525" RoleName="Tank" RoleFactionID="1" SelfRecord="149"/>
+        <Record RoleID="1123526" RoleName="Necromancer" RoleFactionID="2" SelfRecord="563"/>
+        <Record RoleID="2123527" RoleName="Hunter" RoleFactionID="0" SelfRecord="918"/>
+        <Record RoleID="3123528" RoleName="Barbarian" RoleFactionID="1" SelfRecord="275"/>
+        <Record RoleID="4123529" RoleName="Knight" RoleFactionID="2" SelfRecord="817"/>
+        <Record RoleID="5123530" RoleName="Sorcerer" RoleFactionID="0" SelfRecord="163"/>
+        <Record RoleID="6123531" RoleName="Warrior" RoleFactionID="1" SelfRecord="341"/>
+        <Record RoleID="7123532" RoleName="Shaman" RoleFactionID="2" SelfRecord="732"/>
+        <Record RoleID="8123533" RoleName="Paladin" RoleFactionID="0" SelfRecord="249"/>
+        <Record RoleID="9123534" RoleName="Warlock" RoleFactionID="1" SelfRecord="943"/>
+        <Record RoleID="0123535" RoleName="Berserker" RoleFactionID="2" SelfRecord="193"/>
+        <Record RoleID="1123536" RoleName="Druid" RoleFactionID="0" SelfRecord="362"/>
+        <Record RoleID="2123537" RoleName="Tank" RoleFactionID="1" SelfRecord="471"/>
+        <Record RoleID="3123538" RoleName="Rogue" RoleFactionID="2" SelfRecord="624"/>
+        <Record RoleID="4123539" RoleName="Wizard" RoleFactionID="0" SelfRecord="735"/>
+        <Record RoleID="5123540" RoleName="Necromancer" RoleFactionID="1" SelfRecord="451"/>
+        <Record RoleID="215722" RoleName="[GM] 123453" RoleFactionID="1" SelfRecord="934"/>
+    </PointsRanking>
+</SlotMachineRanking>

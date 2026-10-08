@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfItemData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <ItemData ItemID="25219" Name="Ấn đồng hành" IconBundleDir="Icon/EquipIcon2.unity3d" IconAtlasName="EquipIcon2"
+    MapSpriteBundleDir="Resources/Item/MapSprite.unity3d" MapSpriteAtlasName="MapSprite" Kind="Ấn đồng hành" QualityPrefix="3" Category="12" Genre="2"
+    Stack="1" DetailType="31" ParticularType="1" Level="7" SuiteID="0" Icon="DongHanh_An" View="DongHanh_An" Intro="" Help="" ObjID="9" BindType="1"
+    Series="0" ReqLevel="0" CDType="0" Price="1" ItemValue="5000000" MakeCost="-1" ResMale="1" ResFemale="1" FightPower="0" ScriptID="-1"
+    DeductOnUse="false" BuffID="-1" NumberSelection="2">
+    <ListBasicProp BasicPropType="strength_v" BasicPropPA1Min="10" BasicPropPA1Max="10" BasicPropPA2Min="-1" BasicPropPA2Max="-1" BasicPropPA3Min="0"
+      BasicPropPA3Max="0" Index="1" />
+    <ListBasicProp BasicPropType="dexterity_v" BasicPropPA1Min="10" BasicPropPA1Max="10" BasicPropPA2Min="-1" BasicPropPA2Max="-1" BasicPropPA3Min="0"
+      BasicPropPA3Max="0" Index="2" />
+    <ListBasicProp BasicPropType="vitality_v" BasicPropPA1Min="10" BasicPropPA1Max="10" BasicPropPA2Min="-1" BasicPropPA2Max="-1" BasicPropPA3Min="0"
+      BasicPropPA3Max="0" Index="3" />
+    <ListBasicProp BasicPropType="energy_v" BasicPropPA1Min="10" BasicPropPA1Max="10" BasicPropPA2Min="-1" BasicPropPA2Max="-1" BasicPropPA3Min="0"
+      BasicPropPA3Max="0" Index="4" />
+    <ListBasicProp BasicPropType="fastlifereplenish_v" BasicPropPA1Min="25" BasicPropPA1Max="10" BasicPropPA2Min="-1" BasicPropPA2Max="-1"
+      BasicPropPA3Min="0" BasicPropPA3Max="0" Index="5" />
+    <ListBasicProp BasicPropType="fastmanareplenish_v" BasicPropPA1Min="25" BasicPropPA1Max="10" BasicPropPA2Min="-1" BasicPropPA2Max="-1"
+      BasicPropPA3Min="0" BasicPropPA3Max="0" Index="6" />
+    <UnLockInterval>-1</UnLockInterval>
+  </ItemData>
+  <ItemData ItemID="25220" Name="Ấn đồng hành - Bích Huyết" IconBundleDir="Icon/EquipIcon2.unity3d" IconAtlasName="EquipIcon2"
+    MapSpriteBundleDir="Resources/Item/MapSprite.unity3d" MapSpriteAtlasName="MapSprite" Kind="Ấn đồng hành" QualityPrefix="3" Category="12" Genre="2"
+    Stack="1" DetailType="31" ParticularType="1" Level="7" SuiteID="0" Icon="BH_an" View="BH_an" Intro="" Help="" ObjID="9" BindType="1" Series="0"
+    ReqLevel="0" CDType="0" Price="1" ItemValue="20000000" MakeCost="-1" ResMale="1" ResFemale="1" FightPower="0" ScriptID="-1" DeductOnUse="false"
+    BuffID="-1" NumberSelection="2">
+    <ListBasicProp BasicPropType="skilldamageptrim" BasicPropPA1Min="5" BasicPropPA1Max="5" BasicPropPA2Min="-1" BasicPropPA2Max="-1"
+      BasicPropPA3Min="0" BasicPropPA3Max="0" Index="1" />
+    <ListBasicProp BasicPropType="lifemax_p" BasicPropPA1Min="30" BasicPropPA1Max="30" BasicPropPA2Min="-1" BasicPropPA2Max="-1" BasicPropPA3Min="0"
+      BasicPropPA3Max="0" Index="2" />
+    <ListBasicProp BasicPropType="manamax_p" BasicPropPA1Min="30" BasicPropPA1Max="30" BasicPropPA2Min="-1" BasicPropPA2Max="-1" BasicPropPA3Min="0"
+      BasicPropPA3Max="0" Index="3" />
+    <ListBasicProp BasicPropType="defencedeadlystrikedamagetrim" BasicPropPA1Min="10" BasicPropPA1Max="10" BasicPropPA2Min="-1" BasicPropPA2Max="-1"
+      BasicPropPA3Min="0" BasicPropPA3Max="0" Index="4" />
+    <ListBasicProp BasicPropType="seriesenhance" BasicPropPA1Min="50" BasicPropPA1Max="50" BasicPropPA2Min="-1" BasicPropPA2Max="-1"
+      BasicPropPA3Min="0" BasicPropPA3Max="0" Index="5" />
+    <ListBasicProp BasicPropType="seriesabate" BasicPropPA1Min="50" BasicPropPA1Max="50" BasicPropPA2Min="-1" BasicPropPA2Max="-1" BasicPropPA3Min="0"
+      BasicPropPA3Max="0" Index="6" />
+
+    <UnLockInterval>-1</UnLockInterval>
+  </ItemData>
+  <ItemData ItemID="25221" Name="Ấn đồng hành - Kim Lân" IconBundleDir="Icon/EquipIcon2.unity3d" IconAtlasName="EquipIcon2"
+    MapSpriteBundleDir="Resources/Item/MapSprite.unity3d" MapSpriteAtlasName="MapSprite" Kind="Ấn đồng hành" QualityPrefix="3" Category="12" Genre="2"
+    Stack="1" DetailType="31" ParticularType="1" Level="8" SuiteID="0" Icon="KL_an" View="KL_an" Intro="" Help="" ObjID="9" BindType="1" Series="0"
+    ReqLevel="0" CDType="0" Price="1" ItemValue="50000000" MakeCost="-1" ResMale="1" ResFemale="1" FightPower="0" ScriptID="-1" DeductOnUse="false"
+    BuffID="-1" NumberSelection="2">
+    <ListBasicProp BasicPropType="skilldamageptrim" BasicPropPA1Min="7" BasicPropPA1Max="7" BasicPropPA2Min="-1" BasicPropPA2Max="-1"
+      BasicPropPA3Min="0" BasicPropPA3Max="0" Index="1" />
+    <ListBasicProp BasicPropType="lifemax_p" BasicPropPA1Min="50" BasicPropPA1Max="50" BasicPropPA2Min="-1" BasicPropPA2Max="-1" BasicPropPA3Min="0"
+      BasicPropPA3Max="0" Index="2" />
+    <ListBasicProp BasicPropType="manamax_p" BasicPropPA1Min="50" BasicPropPA1Max="50" BasicPropPA2Min="-1" BasicPropPA2Max="-1" BasicPropPA3Min="0"
+      BasicPropPA3Max="0" Index="3" />
+    <ListBasicProp BasicPropType="defencedeadlystrikedamagetrim" BasicPropPA1Min="15" BasicPropPA1Max="15" BasicPropPA2Min="-1" BasicPropPA2Max="-1"
+      BasicPropPA3Min="0" BasicPropPA3Max="0" Index="4" />
+    <ListBasicProp BasicPropType="seriesenhance" BasicPropPA1Min="100" BasicPropPA1Max="100" BasicPropPA2Min="-1" BasicPropPA2Max="-1"
+      BasicPropPA3Min="0" BasicPropPA3Max="0" Index="5" />
+    <ListBasicProp BasicPropType="seriesabate" BasicPropPA1Min="100" BasicPropPA1Max="100" BasicPropPA2Min="-1" BasicPropPA2Max="-1"
+      BasicPropPA3Min="0" BasicPropPA3Max="0" Index="6" />
+    <UnLockInterval>-1</UnLockInterval>
+  </ItemData>
+  <ItemData ItemID="25222" Name="Ấn đồng hành - Đơn Tâm" IconBundleDir="Icon/EquipIcon2.unity3d" IconAtlasName="EquipIcon2"
+    MapSpriteBundleDir="Resources/Item/MapSprite.unity3d" MapSpriteAtlasName="MapSprite" Kind="Ấn đồng hành" QualityPrefix="3" Category="12" Genre="2"
+    Stack="1" DetailType="31" ParticularType="1" Level="9" SuiteID="0" Icon="DT_an" View="DT_an" Intro="" Help="" ObjID="9" BindType="1" Series="0"
+    ReqLevel="0" CDType="0" Price="1" ItemValue="80000000" MakeCost="-1" ResMale="1" ResFemale="1" FightPower="0" ScriptID="-1" DeductOnUse="false"
+    BuffID="-1" NumberSelection="2">
+    <ListBasicProp BasicPropType="skilldamageptrim" BasicPropPA1Min="9" BasicPropPA1Max="9" BasicPropPA2Min="-1" BasicPropPA2Max="-1"
+      BasicPropPA3Min="0" BasicPropPA3Max="0" Index="1" />
+    <ListBasicProp BasicPropType="lifemax_p" BasicPropPA1Min="75" BasicPropPA1Max="75" BasicPropPA2Min="-1" BasicPropPA2Max="-1" BasicPropPA3Min="0"
+      BasicPropPA3Max="0" Index="2" />
+    <ListBasicProp BasicPropType="manamax_p" BasicPropPA1Min="55" BasicPropPA1Max="55" BasicPropPA2Min="-1" BasicPropPA2Max="-1" BasicPropPA3Min="0"
+      BasicPropPA3Max="0" Index="3" />
+    <ListBasicProp BasicPropType="defencedeadlystrikedamagetrim" BasicPropPA1Min="25" BasicPropPA1Max="25" BasicPropPA2Min="-1" BasicPropPA2Max="-1"
+      BasicPropPA3Min="0" BasicPropPA3Max="0" Index="4" />
+    <ListBasicProp BasicPropType="seriesenhance" BasicPropPA1Min="150" BasicPropPA1Max="150" BasicPropPA2Min="-1" BasicPropPA2Max="-1"
+      BasicPropPA3Min="0" BasicPropPA3Max="0" Index="5" />
+    <ListBasicProp BasicPropType="seriesabate" BasicPropPA1Min="150" BasicPropPA1Max="150" BasicPropPA2Min="-1" BasicPropPA2Max="-1"
+      BasicPropPA3Min="0" BasicPropPA3Max="0" Index="6" />
+    <ListBasicProp BasicPropType="allseriesstateresisttime" BasicPropPA1Min="50" BasicPropPA1Max="50" BasicPropPA2Min="-1" BasicPropPA2Max="-1"
+      BasicPropPA3Min="0" BasicPropPA3Max="0" Index="7" />
+    <UnLockInterval>-1</UnLockInterval>
+  </ItemData>
+  <ItemData ItemID="25223" Name="Ấn đồng hành - Long Đằng" IconBundleDir="Icon/EquipIcon2.unity3d" IconAtlasName="EquipIcon2"
+    MapSpriteBundleDir="Resources/Item/MapSprite.unity3d" MapSpriteAtlasName="MapSprite" Kind="Ấn đồng hành" QualityPrefix="3" Category="12" Genre="2"
+    Stack="1" DetailType="31" ParticularType="1" Level="10" SuiteID="0" Icon="LD_an" View="LD_an" Intro="" Help="" ObjID="9" BindType="1" Series="0"
+    ReqLevel="0" CDType="0" Price="1" ItemValue="120000000" MakeCost="-1" ResMale="1" ResFemale="1" FightPower="0" ScriptID="-1" DeductOnUse="false"
+    BuffID="-1" NumberSelection="2">
+    <ListBasicProp BasicPropType="skilldamageptrim" BasicPropPA1Min="14" BasicPropPA1Max="14" BasicPropPA2Min="-1" BasicPropPA2Max="-1"
+      BasicPropPA3Min="0" BasicPropPA3Max="0" Index="1" />
+    <ListBasicProp BasicPropType="lifemax_p" BasicPropPA1Min="100" BasicPropPA1Max="100" BasicPropPA2Min="-1" BasicPropPA2Max="-1" BasicPropPA3Min="0"
+      BasicPropPA3Max="0" Index="2" />
+    <ListBasicProp BasicPropType="manamax_p" BasicPropPA1Min="70" BasicPropPA1Max="70" BasicPropPA2Min="-1" BasicPropPA2Max="-1" BasicPropPA3Min="0"
+      BasicPropPA3Max="0" Index="3" />
+    <ListBasicProp BasicPropType="defencedeadlystrikedamagetrim" BasicPropPA1Min="25" BasicPropPA1Max="25" BasicPropPA2Min="-1" BasicPropPA2Max="-1"
+      BasicPropPA3Min="0" BasicPropPA3Max="0" Index="4" />
+    <ListBasicProp BasicPropType="seriesenhance" BasicPropPA1Min="200" BasicPropPA1Max="200" BasicPropPA2Min="-1" BasicPropPA2Max="-1"
+      BasicPropPA3Min="0" BasicPropPA3Max="0" Index="5" />
+    <ListBasicProp BasicPropType="seriesabate" BasicPropPA1Min="200" BasicPropPA1Max="200" BasicPropPA2Min="-1" BasicPropPA2Max="-1"
+      BasicPropPA3Min="0" BasicPropPA3Max="0" Index="6" />
+    <ListBasicProp BasicPropType="allseriesstateresisttime" BasicPropPA1Min="75" BasicPropPA1Max="75" BasicPropPA2Min="-1" BasicPropPA2Max="-1"
+      BasicPropPA3Min="0" BasicPropPA3Max="0" Index="7" />
+    <ListBasicProp BasicPropType="ignoreskill" BasicPropPA1Min="5" BasicPropPA1Max="5" BasicPropPA2Min="-1" BasicPropPA2Max="-1" BasicPropPA3Min="0"
+      BasicPropPA3Max="0" Index="7" />
+    <UnLockInterval>-1</UnLockInterval>
+  </ItemData>
+
+
+</ArrayOfItemData>

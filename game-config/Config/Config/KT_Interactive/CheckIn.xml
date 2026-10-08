@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<CheckInEvent TimeKey="CheckInEvent">
+  <CheckInPackage Name="Thường" Limit="5" Price="500000" Money="1" ID="9980004" Record="CheckIn_Low" RecordAccumulate="CheckIn_Low_Acc">
+    <Item ID="189" Count="2"/>
+    <Item ID="20881" Count="1"/>
+    <Item ID="506" Count="50"/>
+    <AccumulatedReward Count="30" ID="25236"/>
+  </CheckInPackage>
+  <CheckInPackage Name="Trung" Limit="10" Price="300" Money="2" ID="9980005" Record="CheckIn_Mid" RecordAccumulate="CheckIn_Mid_Acc">
+    <Item ID="20628" Count="1"/>
+    <Item ID="506" Count="150"/>
+    <Item ID="1026" Count="2"/>
+    <Item ID="25270" Count="200"/>
+    <AccumulatedReward Count="30" ID="2017"/>
+    <AccumulatedReward Count="60" ID="20571"/>
+  </CheckInPackage>
+  <CheckInPackage Name="Cao" Limit="6" Price="2000" Money="2" ID="9980006" Record="CheckIn_High" RecordAccumulate="CheckIn_High_Acc">
+    <Item ID="20629" Count="1"/>
+    <Item ID="506" Count="1500"/>
+    <Item ID="1026" Count="10"/>
+    <Item ID="25270" Count="2000"/>
+    <AccumulatedReward Count="20" ID="20571"/>
+    <AccumulatedReward Count="40" ID="20571"/>
+  </CheckInPackage>
+</CheckInEvent>

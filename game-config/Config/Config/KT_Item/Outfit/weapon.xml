@@ -1,0 +1,928 @@
+<?xml version='1.0' encoding='utf-8'?>
+<ArrayOfItemData>
+    <ItemData ItemID="15728" Name="[Ngoại trang] Song Long Bá Vương - Kiếm" IconBundleDir="Icon/EquipIcon2.unity3d" IconAtlasName="EquipIcon2"
+        MapSpriteBundleDir="Resources/Item/MapSprite.unity3d" MapSpriteAtlasName="MapSprite" Kind="Ngoại trang - Kiếm" QualityPrefix="0" Category="12"
+        Genre="1" Stack="1" DetailType="35" ParticularType="502" Level="1" SuiteID="-1" Icon="n_jian_platinum_5" View="n_jian_platinum_5_s" Intro=""
+        Help="" ObjID="1" BindType="1" Series="0" ReqLevel="0" CDType="0" Price="0" ItemValue="28880000" MakeCost="-1" ResMale="37" ResFemale="37"
+        FightPower="0" ScriptID="-1" DeductOnUse="false" BuffID="-1">
+        <ListBasicProp BasicPropType="skillselfdamagetrim" BasicPropPA1Min="5" BasicPropPA1Max="5" BasicPropPA2Min="0" BasicPropPA2Max="0"
+            BasicPropPA3Min="0" BasicPropPA3Max="0" Index="1" />
+        <ListBasicProp BasicPropType="skilldamageptrim" BasicPropPA1Min="5" BasicPropPA1Max="5" BasicPropPA2Min="0" BasicPropPA2Max="0"
+            BasicPropPA3Min="0" BasicPropPA3Max="0" Index="2" />
+    </ItemData>
+    <ItemData ItemID="15729" Name="[Ngoại trang] Song Long Hộ Vệ - Côn" IconBundleDir="Icon/EquipIcon2.unity3d" IconAtlasName="EquipIcon2"
+        MapSpriteBundleDir="Resources/Item/MapSprite.unity3d" MapSpriteAtlasName="MapSprite" Kind="Ngoại trang - Côn" QualityPrefix="0" Category="14"
+        Genre="1" Stack="1" DetailType="35" ParticularType="504" Level="1" SuiteID="-1" Icon="n_gun_platinum_5" View="n_gun_platinum_5_s" Intro=""
+        Help="" ObjID="1" BindType="1" Series="0" ReqLevel="0" CDType="0" Price="0" ItemValue="28880000" MakeCost="-1" ResMale="43" ResFemale="43"
+        FightPower="0" ScriptID="-1" DeductOnUse="false" BuffID="-1">
+        <ListBasicProp BasicPropType="skillselfdamagetrim" BasicPropPA1Min="3" BasicPropPA1Max="3" BasicPropPA2Min="0" BasicPropPA2Max="0"
+            BasicPropPA3Min="0" BasicPropPA3Max="0" Index="1" />
+    </ItemData>
+    <ItemData ItemID="15730" Name="[Ngoại trang] Tam Long Bá Vương - Thương" IconBundleDir="Icon/EquipIcon2.unity3d" IconAtlasName="EquipIcon2"
+        MapSpriteBundleDir="Resources/Item/MapSprite.unity3d" MapSpriteAtlasName="MapSprite" Kind="Ngoại trang - Thương" QualityPrefix="0" Category="15"
+        Genre="1" Stack="1" DetailType="35" ParticularType="505" Level="1" SuiteID="-1" Icon="n_qiang_platinum_5" View="n_qiang_platinum_5_s" Intro=""
+        Help="" ObjID="1" BindType="1" Series="0" ReqLevel="0" CDType="0" Price="0" ItemValue="28880000" MakeCost="-1" ResMale="45" ResFemale="45"
+        FightPower="0" ScriptID="-1" DeductOnUse="false" BuffID="-1">
+        <ListBasicProp BasicPropType="skillselfdamagetrim" BasicPropPA1Min="5" BasicPropPA1Max="5" BasicPropPA2Min="0" BasicPropPA2Max="0"
+            BasicPropPA3Min="0" BasicPropPA3Max="0" Index="1" />
+        <ListBasicProp BasicPropType="skilldamageptrim" BasicPropPA1Min="5" BasicPropPA1Max="5" BasicPropPA2Min="0" BasicPropPA2Max="0"
+            BasicPropPA3Min="0" BasicPropPA3Max="0" Index="2" />
+    </ItemData>
+    <ItemData ItemID="15731" Name="[Ngoại trang] Tam Long Chiến Tướng - Kiếm" IconBundleDir="Icon/EquipIcon2.unity3d" IconAtlasName="EquipIcon2"
+        MapSpriteBundleDir="Resources/Item/MapSprite.unity3d" MapSpriteAtlasName="MapSprite" Kind="Ngoại trang - Kiếm" QualityPrefix="0" Category="12"
+        Genre="1" Stack="1" DetailType="35" ParticularType="502" Level="1" SuiteID="-1" Icon="n_jian_platinum_5" View="n_jian_platinum_5_s" Intro=""
+        Help="" ObjID="1" BindType="1" Series="0" ReqLevel="0" CDType="0" Price="0" ItemValue="18880000" MakeCost="-1" ResMale="37" ResFemale="37"
+        FightPower="0" ScriptID="-1" DeductOnUse="false" BuffID="-1">
+        <ListBasicProp BasicPropType="skillselfdamagetrim" BasicPropPA1Min="3" BasicPropPA1Max="3" BasicPropPA2Min="0" BasicPropPA2Max="0"
+            BasicPropPA3Min="0" BasicPropPA3Max="0" Index="1" />
+        <ListBasicProp BasicPropType="skilldamageptrim" BasicPropPA1Min="3" BasicPropPA1Max="3" BasicPropPA2Min="0" BasicPropPA2Max="0"
+            BasicPropPA3Min="0" BasicPropPA3Max="0" Index="2" />
+    </ItemData>
+    <ItemData ItemID="15732" Name="[Ngoại trang] Song long Bá Vương - Đao" IconBundleDir="Icon/EquipIcon2.unity3d" IconAtlasName="EquipIcon2"
+        MapSpriteBundleDir="Resources/Item/MapSprite.unity3d" MapSpriteAtlasName="MapSprite" Kind="Ngoại trang - Đao" QualityPrefix="0" Category="13"
+        Genre="1" Stack="1" DetailType="35" ParticularType="503" Level="1" SuiteID="-1" Icon="n_dao_platinum_5" View="n_dao_platinum_5_s" Intro=""
+        Help="" ObjID="1" BindType="1" Series="0" ReqLevel="0" CDType="0" Price="0" ItemValue="18880000" MakeCost="-1" ResMale="39" ResFemale="39"
+        FightPower="0" ScriptID="-1" DeductOnUse="false" BuffID="-1">
+        <ListBasicProp BasicPropType="skillselfdamagetrim" BasicPropPA1Min="5" BasicPropPA1Max="5" BasicPropPA2Min="0" BasicPropPA2Max="0"
+            BasicPropPA3Min="0" BasicPropPA3Max="0" Index="1" />
+        <ListBasicProp BasicPropType="skilldamageptrim" BasicPropPA1Min="5" BasicPropPA1Max="5" BasicPropPA2Min="0" BasicPropPA2Max="0"
+            BasicPropPA3Min="0" BasicPropPA3Max="0" Index="2" />
+    </ItemData>
+    <ItemData ItemID="15733" Name="[Ngoại trang] Song Long Hộ Vệ - Kiếm" IconBundleDir="Icon/EquipIcon2.unity3d" IconAtlasName="EquipIcon2"
+        MapSpriteBundleDir="Resources/Item/MapSprite.unity3d" MapSpriteAtlasName="MapSprite" Kind="Ngoại trang - Kiếm" QualityPrefix="0"
+        Category="12" Genre="1" Stack="1" DetailType="35" ParticularType="302" Level="1" SuiteID="-1" Icon="n_jian_platinum_4"
+        View="n_jian_platinum_4_s" Intro="" Help="" ObjID="1" BindType="1" Series="0" ReqLevel="0" CDType="0" Price="0" ItemValue="8880000" MakeCost="-1"
+        ResMale="36" ResFemale="36" FightPower="0" ScriptID="-1" DeductOnUse="false" BuffID="-1">
+        <ListBasicProp BasicPropType="skillselfdamagetrim" BasicPropPA1Min="3" BasicPropPA1Max="3" BasicPropPA2Min="0" BasicPropPA2Max="0"
+            BasicPropPA3Min="0" BasicPropPA3Max="0" Index="1" />
+    </ItemData>
+    <ItemData ItemID="15734" Name="[Ngoại trang] Tam Long Hộ Vệ - Đao" IconBundleDir="Icon/EquipIcon2.unity3d" IconAtlasName="EquipIcon2"
+        MapSpriteBundleDir="Resources/Item/MapSprite.unity3d" MapSpriteAtlasName="MapSprite" Kind="Ngoại trang - Đao" QualityPrefix="0"
+        Category="13" Genre="1" Stack="1" DetailType="35" ParticularType="303" Level="1" SuiteID="-1" Icon="n_dao_platinum_4"
+        View="n_dao_platinum_4_s" Intro="" Help="" ObjID="1" BindType="1" Series="0" ReqLevel="0" CDType="0" Price="0" ItemValue="0" MakeCost="-1"
+        ResMale="38" ResFemale="38" FightPower="0" ScriptID="-1" DeductOnUse="false" BuffID="-1">
+        <ListBasicProp BasicPropType="skillselfdamagetrim" BasicPropPA1Min="3" BasicPropPA1Max="3" BasicPropPA2Min="0" BasicPropPA2Max="0"
+            BasicPropPA3Min="0" BasicPropPA3Max="0" Index="1" />
+    </ItemData>
+    <ItemData ItemID="15741" Name="[Ngoại trang] Duyên-Tâm Như Hải" IconBundleDir="Icon/EquipIcon2.unity3d" IconAtlasName="EquipIcon2"
+        MapSpriteBundleDir="Resources/Item/MapSprite.unity3d" MapSpriteAtlasName="MapSprite" Kind="Duyên-Tâm Như Hải" QualityPrefix="0" Category="0"
+        Genre="1" Stack="1" DetailType="35" ParticularType="101" Level="1" SuiteID="-1" View="n_jian_meigui02_s" Icon="n_jian_meigui02" Intro=""
+        Help="" ObjID="1" BindType="1" Series="0" ReqLevel="0" CDType="0" Price="0" ItemValue="0" MakeCost="-1" ResMale="35" ResFemale="35"
+        FightPower="0" ScriptID="-1" DeductOnUse="false" BuffID="-1">
+        <!-- cấp 0 -->
+        <ListBasicProp BasicPropType="lifereplenish_p" BasicPropPA1Min="10" BasicPropPA1Max="10" BasicPropPA2Min="0" BasicPropPA2Max="0"
+            BasicPropPA3Min="0" BasicPropPA3Max="0" Index="1" />
+        <ListBasicProp BasicPropType="manareplenish_p" BasicPropPA1Min="5" BasicPropPA1Max="5" BasicPropPA2Min="0" BasicPropPA2Max="0"
+            BasicPropPA3Min="0" BasicPropPA3Max="0" Index="2" />
+        <ListBasicProp BasicPropType="skilldamageptrim" BasicPropPA1Min="2" BasicPropPA1Max="2" BasicPropPA2Min="0" BasicPropPA2Max="0"
+            BasicPropPA3Min="0" BasicPropPA3Max="0" Index="3" />
+        <ListBasicProp BasicPropType="skillselfdamagetrim" BasicPropPA1Min="2" BasicPropPA1Max="2" BasicPropPA2Min="0" BasicPropPA2Max="0"
+            BasicPropPA3Min="0" BasicPropPA3Max="0" Index="4" />
+
+        <!-- cấp 1 -->
+        <ListBasicProp BasicPropType="lifereplenish_p" BasicPropPA1Min="15" BasicPropPA1Max="15" BasicPropPA2Min="1" BasicPropPA2Max="1"
+            BasicPropPA3Min="0" BasicPropPA3Max="0" Index="5" />
+        <ListBasicProp BasicPropType="manareplenish_p" BasicPropPA1Min="7" BasicPropPA1Max="7" BasicPropPA2Min="1" BasicPropPA2Max="1"
+            BasicPropPA3Min="0" BasicPropPA3Max="0" Index="6" />
+        <ListBasicProp BasicPropType="skilldamageptrim" BasicPropPA1Min="4" BasicPropPA1Max="4" BasicPropPA2Min="1" BasicPropPA2Max="1"
+            BasicPropPA3Min="0" BasicPropPA3Max="0" Index="7" />
+        <ListBasicProp BasicPropType="skillselfdamagetrim" BasicPropPA1Min="4" BasicPropPA1Max="4" BasicPropPA2Min="1" BasicPropPA2Max="1"
+            BasicPropPA3Min="0" BasicPropPA3Max="0" Index="8" />
+
+        <!-- cấp 2 -->
+        <ListBasicProp BasicPropType="lifereplenish_p" BasicPropPA1Min="20" BasicPropPA1Max="20" BasicPropPA2Min="2" BasicPropPA2Max="2"
+            BasicPropPA3Min="0" BasicPropPA3Max="0" Index="9" />
+        <ListBasicProp BasicPropType="manareplenish_p" BasicPropPA1Min="10" BasicPropPA1Max="10" BasicPropPA2Min="2" BasicPropPA2Max="2"
+            BasicPropPA3Min="0" BasicPropPA3Max="0" Index="10" />
+        <ListBasicProp BasicPropType="skilldamageptrim" BasicPropPA1Min="6" BasicPropPA1Max="6" BasicPropPA2Min="2" BasicPropPA2Max="2"
+            BasicPropPA3Min="0" BasicPropPA3Max="0" Index="11" />
+        <ListBasicProp BasicPropType="skillselfdamagetrim" BasicPropPA1Min="6" BasicPropPA1Max="6" BasicPropPA2Min="2" BasicPropPA2Max="2"
+            BasicPropPA3Min="0" BasicPropPA3Max="0" Index="12" />
+
+        <!-- cấp 3 -->
+        <ListBasicProp BasicPropType="lifereplenish_p" BasicPropPA1Min="25" BasicPropPA1Max="25" BasicPropPA2Min="3" BasicPropPA2Max="3"
+            BasicPropPA3Min="0" BasicPropPA3Max="0" Index="13" />
+        <ListBasicProp BasicPropType="manareplenish_p" BasicPropPA1Min="12" BasicPropPA1Max="12" BasicPropPA2Min="3" BasicPropPA2Max="3"
+            BasicPropPA3Min="0" BasicPropPA3Max="0" Index="14" />
+        <ListBasicProp BasicPropType="skilldamageptrim" BasicPropPA1Min="8" BasicPropPA1Max="8" BasicPropPA2Min="3" BasicPropPA2Max="3"
+            BasicPropPA3Min="0" BasicPropPA3Max="0" Index="15" />
+        <ListBasicProp BasicPropType="skillselfdamagetrim" BasicPropPA1Min="8" BasicPropPA1Max="8" BasicPropPA2Min="3" BasicPropPA2Max="3"
+            BasicPropPA3Min="0" BasicPropPA3Max="0" Index="16" />
+
+        <!-- cấp 4 -->
+        <ListBasicProp BasicPropType="lifereplenish_p" BasicPropPA1Min="30" BasicPropPA1Max="30" BasicPropPA2Min="4" BasicPropPA2Max="4"
+            BasicPropPA3Min="0" BasicPropPA3Max="0" Index="17" />
+        <ListBasicProp BasicPropType="manareplenish_p" BasicPropPA1Min="15" BasicPropPA1Max="15" BasicPropPA2Min="4" BasicPropPA2Max="4"
+            BasicPropPA3Min="0" BasicPropPA3Max="0" Index="18" />
+        <ListBasicProp BasicPropType="skilldamageptrim" BasicPropPA1Min="11" BasicPropPA1Max="11" BasicPropPA2Min="4" BasicPropPA2Max="4"
+            BasicPropPA3Min="0" BasicPropPA3Max="0" Index="19" />
+        <ListBasicProp BasicPropType="skillselfdamagetrim" BasicPropPA1Min="11" BasicPropPA1Max="11" BasicPropPA2Min="4" BasicPropPA2Max="4"
+            BasicPropPA3Min="0" BasicPropPA3Max="0" Index="20" />
+
+        <!-- cấp 5 -->
+        <ListBasicProp BasicPropType="lifereplenish_p" BasicPropPA1Min="30" BasicPropPA1Max="30" BasicPropPA2Min="5" BasicPropPA2Max="5"
+            BasicPropPA3Min="0" BasicPropPA3Max="0" Index="21" />
+        <ListBasicProp BasicPropType="manareplenish_p" BasicPropPA1Min="15" BasicPropPA1Max="15" BasicPropPA2Min="5" BasicPropPA2Max="5"
+            BasicPropPA3Min="0" BasicPropPA3Max="0" Index="22" />
+        <ListBasicProp BasicPropType="skilldamageptrim" BasicPropPA1Min="15" BasicPropPA1Max="15" BasicPropPA2Min="5" BasicPropPA2Max="5"
+            BasicPropPA3Min="0" BasicPropPA3Max="0" Index="23" />
+        <ListBasicProp BasicPropType="skillselfdamagetrim" BasicPropPA1Min="15" BasicPropPA1Max="15" BasicPropPA2Min="5" BasicPropPA2Max="5"
+            BasicPropPA3Min="0" BasicPropPA3Max="0" Index="24" />
+    </ItemData>
+
+    <ItemData ItemID="30500" Name="[Ngoại trang] Thanh Long Triền Thủ" IconBundleDir="Icon/EquipIcon2.unity3d" IconAtlasName="EquipIcon2"
+        MapSpriteBundleDir="Resources/Item/MapSprite.unity3d" MapSpriteAtlasName="MapSprite" Kind="Thanh Long Triền Thủ" QualityPrefix="0"
+        Category="11" Genre="0" Stack="1" DetailType="35" ParticularType="1" Level="1" SuiteID="-1" View="n_chanshou_610_s" Icon="n_chanshou_610"
+        Intro="" Help="" ObjID="1" BindType="1" Series="0" ReqLevel="0" CDType="0" Price="0" ItemValue="0" MakeCost="-1" ResMale="0" ResFemale="0"
+        FightPower="0" ScriptID="-1" DeductOnUse="false" BuffID="-1">
+        <ListBasicProp BasicPropType="lifemax_p" BasicPropPA1Min="100" BasicPropPA1Max="100" BasicPropPA2Min="0" BasicPropPA2Max="0"
+            BasicPropPA3Min="0" BasicPropPA3Max="0" Index="1" />
+    </ItemData>
+    <ItemData ItemID="30501" Name="[Ngoại trang] Nhuyễn Đồng Kiếm" IconBundleDir="Icon/EquipIcon2.unity3d" IconAtlasName="EquipIcon2"
+        MapSpriteBundleDir="Resources/Item/MapSprite.unity3d" MapSpriteAtlasName="MapSprite" Kind="Nhuyễn Đồng Kiếm" QualityPrefix="0" Category="12"
+        Genre="0" Stack="1" DetailType="35" ParticularType="7" Level="1" SuiteID="-1" View="n_jian_101_s" Icon="n_jian_101" Intro="" Help="" ObjID="1"
+        BindType="1" Series="0" ReqLevel="0" CDType="0" Price="0" ItemValue="0" MakeCost="-1" ResMale="1" ResFemale="1" FightPower="0" ScriptID="-1"
+        DeductOnUse="false" BuffID="-1">
+        <ListBasicProp BasicPropType="lifemax_p" BasicPropPA1Min="100" BasicPropPA1Max="100" BasicPropPA2Min="0" BasicPropPA2Max="0"
+            BasicPropPA3Min="0" BasicPropPA3Max="0" Index="1" />
+    </ItemData>
+    <ItemData ItemID="30502" Name="[Ngoại trang] Thanh Phong Kiếm" IconBundleDir="Icon/EquipIcon2.unity3d" IconAtlasName="EquipIcon2"
+        MapSpriteBundleDir="Resources/Item/MapSprite.unity3d" MapSpriteAtlasName="MapSprite" Kind="Thanh Phong Kiếm" QualityPrefix="0" Category="12"
+        Genre="0" Stack="1" DetailType="35" ParticularType="2" Level="1" SuiteID="-1" View="n_jian_104_s" Icon="n_jian_104" Intro="" Help="" ObjID="1"
+        BindType="1" Series="0" ReqLevel="0" CDType="0" Price="0" ItemValue="0" MakeCost="-1" ResMale="2" ResFemale="2" FightPower="0" ScriptID="-1"
+        DeductOnUse="false" BuffID="-1">
+        <ListBasicProp BasicPropType="lifemax_p" BasicPropPA1Min="100" BasicPropPA1Max="100" BasicPropPA2Min="0" BasicPropPA2Max="0"
+            BasicPropPA3Min="0" BasicPropPA3Max="0" Index="1" />
+    </ItemData>
+    <ItemData ItemID="30503" Name="[Ngoại trang] Vạn Nhẫn Kiếm" IconBundleDir="Icon/EquipIcon2.unity3d" IconAtlasName="EquipIcon2"
+        MapSpriteBundleDir="Resources/Item/MapSprite.unity3d" MapSpriteAtlasName="MapSprite" Kind="Vạn Nhẫn Kiếm" QualityPrefix="0" Category="12"
+        Genre="0" Stack="1" DetailType="35" ParticularType="2" Level="1" SuiteID="-1" View="n_jian_106_s" Icon="n_jian_106" Intro="" Help="" ObjID="1"
+        BindType="1" Series="0" ReqLevel="0" CDType="0" Price="0" ItemValue="0" MakeCost="-1" ResMale="3" ResFemale="3" FightPower="0" ScriptID="-1"
+        DeductOnUse="false" BuffID="-1">
+        <ListBasicProp BasicPropType="lifemax_p" BasicPropPA1Min="100" BasicPropPA1Max="100" BasicPropPA2Min="0" BasicPropPA2Max="0"
+            BasicPropPA3Min="0" BasicPropPA3Max="0" Index="1" />
+    </ItemData>
+    <ItemData ItemID="30504" Name="[Ngoại trang] Thanh Sương Kiếm" IconBundleDir="Icon/EquipIcon2.unity3d" IconAtlasName="EquipIcon2"
+        MapSpriteBundleDir="Resources/Item/MapSprite.unity3d" MapSpriteAtlasName="MapSprite" Kind="Thanh Sương Kiếm" QualityPrefix="0" Category="12"
+        Genre="0" Stack="1" DetailType="35" ParticularType="2" Level="1" SuiteID="-1" View="n_jian_108_s" Icon="n_jian_108" Intro="" Help="" ObjID="1"
+        BindType="1" Series="0" ReqLevel="0" CDType="0" Price="0" ItemValue="0" MakeCost="-1" ResMale="4" ResFemale="4" FightPower="0" ScriptID="-1"
+        DeductOnUse="false" BuffID="-1">
+        <ListBasicProp BasicPropType="lifemax_p" BasicPropPA1Min="100" BasicPropPA1Max="100" BasicPropPA2Min="0" BasicPropPA2Max="0"
+            BasicPropPA3Min="0" BasicPropPA3Max="0" Index="1" />
+    </ItemData>
+    <ItemData ItemID="30505" Name="[Ngoại trang] Long Uyên Kiếm" IconBundleDir="Icon/EquipIcon2.unity3d" IconAtlasName="EquipIcon2"
+        MapSpriteBundleDir="Resources/Item/MapSprite.unity3d" MapSpriteAtlasName="MapSprite" Kind="Long Uyên Kiếm" QualityPrefix="0" Category="12"
+        Genre="0" Stack="1" DetailType="35" ParticularType="2" Level="1" SuiteID="-1" View="n_jian_110_s" Icon="n_jian_110" Intro="" Help="" ObjID="1"
+        BindType="1" Series="0" ReqLevel="0" CDType="0" Price="0" ItemValue="0" MakeCost="-1" ResMale="5" ResFemale="5" FightPower="0" ScriptID="-1"
+        DeductOnUse="false" BuffID="-1">
+        <ListBasicProp BasicPropType="lifemax_p" BasicPropPA1Min="100" BasicPropPA1Max="100" BasicPropPA2Min="0" BasicPropPA2Max="0"
+            BasicPropPA3Min="0" BasicPropPA3Max="0" Index="1" />
+    </ItemData>
+    <ItemData ItemID="30506" Name="[Ngoại trang] Thái Hư-Kiếp Diệm Hoan Kiếm" IconBundleDir="Icon/EquipIcon2.unity3d" IconAtlasName="EquipIcon2"
+        MapSpriteBundleDir="Resources/Item/MapSprite.unity3d" MapSpriteAtlasName="MapSprite" Kind="Lâu lan hoàng kim PVP_Tiêu dao kiếm"
+        QualityPrefix="0" Category="12" Genre="0" Stack="1" DetailType="35" ParticularType="20000" Level="1" SuiteID="-1" View="n_jian_gold_s"
+        Icon="n_jian_gold" Intro="" Help="" ObjID="1" BindType="1" Series="0" ReqLevel="0" CDType="0" Price="0" ItemValue="0" MakeCost="-1"
+        ResMale="6" ResFemale="6" FightPower="0" ScriptID="-1" DeductOnUse="false" BuffID="-1">
+        <ListBasicProp BasicPropType="lifemax_p" BasicPropPA1Min="100" BasicPropPA1Max="100" BasicPropPA2Min="0" BasicPropPA2Max="0"
+            BasicPropPA3Min="0" BasicPropPA3Max="0" Index="1" />
+    </ItemData>
+    <ItemData ItemID="30507" Name="[Ngoại trang] Quỷ Đầu Đao" IconBundleDir="Icon/EquipIcon2.unity3d" IconAtlasName="EquipIcon2"
+        MapSpriteBundleDir="Resources/Item/MapSprite.unity3d" MapSpriteAtlasName="MapSprite" Kind="Quỷ Đầu Đao" QualityPrefix="0" Category="13"
+        Genre="0" Stack="1" DetailType="35" ParticularType="3" Level="1" SuiteID="-1" View="n_dao_202_s" Icon="n_dao_202" Intro="" Help="" ObjID="1"
+        BindType="1" Series="0" ReqLevel="0" CDType="0" Price="0" ItemValue="0" MakeCost="-1" ResMale="7" ResFemale="7" FightPower="0" ScriptID="-1"
+        DeductOnUse="false" BuffID="-1">
+        <ListBasicProp BasicPropType="lifemax_p" BasicPropPA1Min="100" BasicPropPA1Max="100" BasicPropPA2Min="0" BasicPropPA2Max="0"
+            BasicPropPA3Min="0" BasicPropPA3Max="0" Index="1" />
+    </ItemData>
+    <ItemData ItemID="30508" Name="[Ngoại trang] Nhạn Linh Đao" IconBundleDir="Icon/EquipIcon2.unity3d" IconAtlasName="EquipIcon2"
+        MapSpriteBundleDir="Resources/Item/MapSprite.unity3d" MapSpriteAtlasName="MapSprite" Kind="Nhạn Linh Đao" QualityPrefix="0" Category="13"
+        Genre="0" Stack="1" DetailType="35" ParticularType="3" Level="1" SuiteID="-1" View="n_dao_204_s" Icon="n_dao_204" Intro="" Help="" ObjID="1"
+        BindType="1" Series="0" ReqLevel="0" CDType="0" Price="0" ItemValue="0" MakeCost="-1" ResMale="8" ResFemale="8" FightPower="0" ScriptID="-1"
+        DeductOnUse="false" BuffID="-1">
+        <ListBasicProp BasicPropType="lifemax_p" BasicPropPA1Min="100" BasicPropPA1Max="100" BasicPropPA2Min="0" BasicPropPA2Max="0"
+            BasicPropPA3Min="0" BasicPropPA3Max="0" Index="1" />
+    </ItemData>
+    <ItemData ItemID="30509" Name="[Ngoại trang] Liệt Diệm Đao" IconBundleDir="Icon/EquipIcon2.unity3d" IconAtlasName="EquipIcon2"
+        MapSpriteBundleDir="Resources/Item/MapSprite.unity3d" MapSpriteAtlasName="MapSprite" Kind="Liệt Diệm Đao" QualityPrefix="0" Category="13"
+        Genre="0" Stack="1" DetailType="35" ParticularType="3" Level="1" SuiteID="-1" View="n_dao_206_s" Icon="n_dao_206" Intro="" Help="" ObjID="1"
+        BindType="1" Series="0" ReqLevel="0" CDType="0" Price="0" ItemValue="0" MakeCost="-1" ResMale="9" ResFemale="9" FightPower="0" ScriptID="-1"
+        DeductOnUse="false" BuffID="-1">
+        <ListBasicProp BasicPropType="lifemax_p" BasicPropPA1Min="100" BasicPropPA1Max="100" BasicPropPA2Min="0" BasicPropPA2Max="0"
+            BasicPropPA3Min="0" BasicPropPA3Max="0" Index="1" />
+    </ItemData>
+    <ItemData ItemID="30510" Name="[Ngoại trang] Phá Sơn Đao" IconBundleDir="Icon/EquipIcon2.unity3d" IconAtlasName="EquipIcon2"
+        MapSpriteBundleDir="Resources/Item/MapSprite.unity3d" MapSpriteAtlasName="MapSprite" Kind="Phá Sơn Đao" QualityPrefix="0" Category="13"
+        Genre="0" Stack="1" DetailType="35" ParticularType="3" Level="1" SuiteID="-1" View="n_dao_208_s" Icon="n_dao_208" Intro="" Help="" ObjID="1"
+        BindType="1" Series="0" ReqLevel="0" CDType="0" Price="0" ItemValue="0" MakeCost="-1" ResMale="10" ResFemale="10" FightPower="0" ScriptID="-1"
+        DeductOnUse="false" BuffID="-1">
+        <ListBasicProp BasicPropType="lifemax_p" BasicPropPA1Min="100" BasicPropPA1Max="100" BasicPropPA2Min="0" BasicPropPA2Max="0"
+            BasicPropPA3Min="0" BasicPropPA3Max="0" Index="1" />
+    </ItemData>
+    <ItemData ItemID="30511" Name="[Ngoại trang] Yển Nguyệt Đao" IconBundleDir="Icon/EquipIcon2.unity3d" IconAtlasName="EquipIcon2"
+        MapSpriteBundleDir="Resources/Item/MapSprite.unity3d" MapSpriteAtlasName="MapSprite" Kind="Yển Nguyệt Đao" QualityPrefix="0" Category="13"
+        Genre="0" Stack="1" DetailType="35" ParticularType="3" Level="1" SuiteID="-1" View="n_dao_210_s" Icon="n_dao_210" Intro="" Help="" ObjID="1"
+        BindType="1" Series="0" ReqLevel="0" CDType="0" Price="0" ItemValue="0" MakeCost="-1" ResMale="11" ResFemale="11" FightPower="0" ScriptID="-1"
+        DeductOnUse="false" BuffID="-1">
+        <ListBasicProp BasicPropType="lifemax_p" BasicPropPA1Min="100" BasicPropPA1Max="100" BasicPropPA2Min="0" BasicPropPA2Max="0"
+            BasicPropPA3Min="0" BasicPropPA3Max="0" Index="1" />
+    </ItemData>
+    <ItemData ItemID="30512" Name="[Ngoại trang] Thái Hư-Đoạn Quang Tà Nhẫn" IconBundleDir="Icon/EquipIcon2.unity3d" IconAtlasName="EquipIcon2"
+        MapSpriteBundleDir="Resources/Item/MapSprite.unity3d" MapSpriteAtlasName="MapSprite" Kind="Hoàng kim PVP_Đao Côn" QualityPrefix="0"
+        Category="13" Genre="0" Stack="1" DetailType="35" ParticularType="1461" Level="1" SuiteID="-1" View="n_dao_gold_s" Icon="n_dao_gold" Intro=""
+        Help="" ObjID="1" BindType="1" Series="0" ReqLevel="0" CDType="0" Price="0" ItemValue="0" MakeCost="-1" ResMale="12" ResFemale="12"
+        FightPower="0" ScriptID="-1" DeductOnUse="false" BuffID="-1">
+        <ListBasicProp BasicPropType="lifemax_p" BasicPropPA1Min="100" BasicPropPA1Max="100" BasicPropPA2Min="0" BasicPropPA2Max="0"
+            BasicPropPA3Min="0" BasicPropPA3Max="0" Index="1" />
+    </ItemData>
+    <ItemData ItemID="30513" Name="[Ngoại trang] Tề Mi Côn" IconBundleDir="Icon/EquipIcon2.unity3d" IconAtlasName="EquipIcon2"
+        MapSpriteBundleDir="Resources/Item/MapSprite.unity3d" MapSpriteAtlasName="MapSprite" Kind="Tề Mi Côn" QualityPrefix="0" Category="14"
+        Genre="0" Stack="1" DetailType="35" ParticularType="4" Level="1" SuiteID="-1" View="n_gun_302_s" Icon="n_gun_302" Intro="" Help="" ObjID="1"
+        BindType="1" Series="0" ReqLevel="0" CDType="0" Price="0" ItemValue="0" MakeCost="-1" ResMale="13" ResFemale="13" FightPower="0" ScriptID="-1"
+        DeductOnUse="false" BuffID="-1">
+        <ListBasicProp BasicPropType="lifemax_p" BasicPropPA1Min="100" BasicPropPA1Max="100" BasicPropPA2Min="0" BasicPropPA2Max="0"
+            BasicPropPA3Min="0" BasicPropPA3Max="0" Index="1" />
+    </ItemData>
+    <ItemData ItemID="30514" Name="[Ngoại trang] Bàn Hoa Côn" IconBundleDir="Icon/EquipIcon2.unity3d" IconAtlasName="EquipIcon2"
+        MapSpriteBundleDir="Resources/Item/MapSprite.unity3d" MapSpriteAtlasName="MapSprite" Kind="Bàn Hoa Côn" QualityPrefix="0" Category="14"
+        Genre="0" Stack="1" DetailType="35" ParticularType="4" Level="1" SuiteID="-1" View="n_gun_304_s" Icon="n_gun_304" Intro="" Help="" ObjID="1"
+        BindType="1" Series="0" ReqLevel="0" CDType="0" Price="0" ItemValue="0" MakeCost="-1" ResMale="14" ResFemale="14" FightPower="0" ScriptID="-1"
+        DeductOnUse="false" BuffID="-1">
+        <ListBasicProp BasicPropType="lifemax_p" BasicPropPA1Min="100" BasicPropPA1Max="100" BasicPropPA2Min="0" BasicPropPA2Max="0"
+            BasicPropPA3Min="0" BasicPropPA3Max="0" Index="1" />
+    </ItemData>
+    <ItemData ItemID="30515" Name="[Ngoại trang] Hổ Vĩ Côn" IconBundleDir="Icon/EquipIcon2.unity3d" IconAtlasName="EquipIcon2"
+        MapSpriteBundleDir="Resources/Item/MapSprite.unity3d" MapSpriteAtlasName="MapSprite" Kind="Hổ Vĩ Côn" QualityPrefix="0" Category="14"
+        Genre="0" Stack="1" DetailType="35" ParticularType="4" Level="1" SuiteID="-1" View="n_gun_306_s" Icon="n_gun_306" Intro="" Help="" ObjID="1"
+        BindType="1" Series="0" ReqLevel="0" CDType="0" Price="0" ItemValue="0" MakeCost="-1" ResMale="15" ResFemale="15" FightPower="0" ScriptID="-1"
+        DeductOnUse="false" BuffID="-1">
+        <ListBasicProp BasicPropType="lifemax_p" BasicPropPA1Min="100" BasicPropPA1Max="100" BasicPropPA2Min="0" BasicPropPA2Max="0"
+            BasicPropPA3Min="0" BasicPropPA3Max="0" Index="1" />
+    </ItemData>
+    <ItemData ItemID="30516" Name="[Ngoại trang] Phổ Độ Côn" IconBundleDir="Icon/EquipIcon2.unity3d" IconAtlasName="EquipIcon2"
+        MapSpriteBundleDir="Resources/Item/MapSprite.unity3d" MapSpriteAtlasName="MapSprite" Kind="Phổ Độ Côn" QualityPrefix="0" Category="14"
+        Genre="0" Stack="1" DetailType="35" ParticularType="4" Level="1" SuiteID="-1" View="n_gun_308_s" Icon="n_gun_308" Intro="" Help="" ObjID="1"
+        BindType="1" Series="0" ReqLevel="0" CDType="0" Price="0" ItemValue="0" MakeCost="-1" ResMale="16" ResFemale="16" FightPower="0" ScriptID="-1"
+        DeductOnUse="false" BuffID="-1">
+        <ListBasicProp BasicPropType="lifemax_p" BasicPropPA1Min="100" BasicPropPA1Max="100" BasicPropPA2Min="0" BasicPropPA2Max="0"
+            BasicPropPA3Min="0" BasicPropPA3Max="0" Index="1" />
+    </ItemData>
+    <ItemData ItemID="30517" Name="[Ngoại trang] Kim Cô Bổng" IconBundleDir="Icon/EquipIcon2.unity3d" IconAtlasName="EquipIcon2"
+        MapSpriteBundleDir="Resources/Item/MapSprite.unity3d" MapSpriteAtlasName="MapSprite" Kind="Kim Cô Bổng" QualityPrefix="0" Category="14"
+        Genre="0" Stack="1" DetailType="35" ParticularType="4" Level="1" SuiteID="-1" View="n_gun_310_s" Icon="n_gun_310" Intro="" Help="" ObjID="1"
+        BindType="1" Series="0" ReqLevel="0" CDType="0" Price="0" ItemValue="0" MakeCost="-1" ResMale="17" ResFemale="17" FightPower="0" ScriptID="-1"
+        DeductOnUse="false" BuffID="-1">
+        <ListBasicProp BasicPropType="lifemax_p" BasicPropPA1Min="100" BasicPropPA1Max="100" BasicPropPA2Min="0" BasicPropPA2Max="0"
+            BasicPropPA3Min="0" BasicPropPA3Max="0" Index="1" />
+    </ItemData>
+    <ItemData ItemID="30518" Name="[Ngoại trang] Tế Diệm-Dao Quang Quân Thiên Côn" IconBundleDir="Icon/EquipIcon2.unity3d" IconAtlasName="EquipIcon2"
+        MapSpriteBundleDir="Resources/Item/MapSprite.unity3d" MapSpriteAtlasName="MapSprite" Kind="Hoàng kim PVP_Côn Cái" QualityPrefix="0"
+        Category="14" Genre="0" Stack="1" DetailType="35" ParticularType="1457" Level="1" SuiteID="-1" View="n_gun_gold_s" Icon="n_gun_gold" Intro=""
+        Help="" ObjID="1" BindType="1" Series="0" ReqLevel="0" CDType="0" Price="0" ItemValue="0" MakeCost="-1" ResMale="18" ResFemale="18"
+        FightPower="0" ScriptID="-1" DeductOnUse="false" BuffID="-1">
+        <ListBasicProp BasicPropType="lifemax_p" BasicPropPA1Min="100" BasicPropPA1Max="100" BasicPropPA2Min="0" BasicPropPA2Max="0"
+            BasicPropPA3Min="0" BasicPropPA3Max="0" Index="1" />
+    </ItemData>
+    <ItemData ItemID="30519" Name="[Ngoại trang] Hồng Anh Thương" IconBundleDir="Icon/EquipIcon2.unity3d" IconAtlasName="EquipIcon2"
+        MapSpriteBundleDir="Resources/Item/MapSprite.unity3d" MapSpriteAtlasName="MapSprite" Kind="Hồng Anh Thương" QualityPrefix="0" Category="15"
+        Genre="0" Stack="1" DetailType="35" ParticularType="5" Level="1" SuiteID="-1" View="n_qiang_402_s" Icon="n_qiang_402" Intro="" Help=""
+        ObjID="1" BindType="1" Series="0" ReqLevel="0" CDType="0" Price="0" ItemValue="0" MakeCost="-1" ResMale="19" ResFemale="19" FightPower="0"
+        ScriptID="-1" DeductOnUse="false" BuffID="-1">
+        <ListBasicProp BasicPropType="lifemax_p" BasicPropPA1Min="100" BasicPropPA1Max="100" BasicPropPA2Min="0" BasicPropPA2Max="0"
+            BasicPropPA3Min="0" BasicPropPA3Max="0" Index="1" />
+    </ItemData>
+    <ItemData ItemID="30520" Name="[Ngoại trang] Hoàn Tử Thương" IconBundleDir="Icon/EquipIcon2.unity3d" IconAtlasName="EquipIcon2"
+        MapSpriteBundleDir="Resources/Item/MapSprite.unity3d" MapSpriteAtlasName="MapSprite" Kind="Hoàn Tử Thương" QualityPrefix="0" Category="15"
+        Genre="0" Stack="1" DetailType="35" ParticularType="5" Level="1" SuiteID="-1" View="n_qiang_404_s" Icon="n_qiang_404" Intro="" Help=""
+        ObjID="1" BindType="1" Series="0" ReqLevel="0" CDType="0" Price="0" ItemValue="0" MakeCost="-1" ResMale="20" ResFemale="20" FightPower="0"
+        ScriptID="-1" DeductOnUse="false" BuffID="-1">
+        <ListBasicProp BasicPropType="lifemax_p" BasicPropPA1Min="100" BasicPropPA1Max="100" BasicPropPA2Min="0" BasicPropPA2Max="0"
+            BasicPropPA3Min="0" BasicPropPA3Max="0" Index="1" />
+    </ItemData>
+    <ItemData ItemID="30521" Name="[Ngoại trang] Báo Vĩ Thương" IconBundleDir="Icon/EquipIcon2.unity3d" IconAtlasName="EquipIcon2"
+        MapSpriteBundleDir="Resources/Item/MapSprite.unity3d" MapSpriteAtlasName="MapSprite" Kind="Báo Vĩ Thương" QualityPrefix="0" Category="15"
+        Genre="0" Stack="1" DetailType="35" ParticularType="5" Level="1" SuiteID="-1" View="n_qiang_406_s" Icon="n_qiang_406" Intro="" Help=""
+        ObjID="1" BindType="1" Series="0" ReqLevel="0" CDType="0" Price="0" ItemValue="0" MakeCost="-1" ResMale="21" ResFemale="21" FightPower="0"
+        ScriptID="-1" DeductOnUse="false" BuffID="-1">
+        <ListBasicProp BasicPropType="lifemax_p" BasicPropPA1Min="100" BasicPropPA1Max="100" BasicPropPA2Min="0" BasicPropPA2Max="0"
+            BasicPropPA3Min="0" BasicPropPA3Max="0" Index="1" />
+    </ItemData>
+    <ItemData ItemID="30522" Name="[Ngoại trang] Thấu Cốt Thương" IconBundleDir="Icon/EquipIcon2.unity3d" IconAtlasName="EquipIcon2"
+        MapSpriteBundleDir="Resources/Item/MapSprite.unity3d" MapSpriteAtlasName="MapSprite" Kind="Thấu Cốt Thương" QualityPrefix="0" Category="15"
+        Genre="0" Stack="1" DetailType="35" ParticularType="5" Level="1" SuiteID="-1" View="n_qiang_408_s" Icon="n_qiang_408" Intro="" Help=""
+        ObjID="1" BindType="1" Series="0" ReqLevel="0" CDType="0" Price="0" ItemValue="0" MakeCost="-1" ResMale="22" ResFemale="22" FightPower="0"
+        ScriptID="-1" DeductOnUse="false" BuffID="-1">
+        <ListBasicProp BasicPropType="lifemax_p" BasicPropPA1Min="100" BasicPropPA1Max="100" BasicPropPA2Min="0" BasicPropPA2Max="0"
+            BasicPropPA3Min="0" BasicPropPA3Max="0" Index="1" />
+    </ItemData>
+    <ItemData ItemID="30523" Name="[Ngoại trang] Phá Thiên Kích" IconBundleDir="Icon/EquipIcon2.unity3d" IconAtlasName="EquipIcon2"
+        MapSpriteBundleDir="Resources/Item/MapSprite.unity3d" MapSpriteAtlasName="MapSprite" Kind="Phá Thiên Kích" QualityPrefix="0" Category="15"
+        Genre="0" Stack="1" DetailType="35" ParticularType="5" Level="1" SuiteID="-1" View="n_qiang_410_s" Icon="n_qiang_410" Intro="" Help=""
+        ObjID="1" BindType="1" Series="0" ReqLevel="0" CDType="0" Price="0" ItemValue="0" MakeCost="-1" ResMale="23" ResFemale="23" FightPower="0"
+        ScriptID="-1" DeductOnUse="false" BuffID="-1">
+        <ListBasicProp BasicPropType="lifemax_p" BasicPropPA1Min="100" BasicPropPA1Max="100" BasicPropPA2Min="0" BasicPropPA2Max="0"
+            BasicPropPA3Min="0" BasicPropPA3Max="0" Index="1" />
+    </ItemData>
+    <ItemData ItemID="30524" Name="[Ngoại trang] Tế Diệm-Liệt Hồn Kích" IconBundleDir="Icon/EquipIcon2.unity3d" IconAtlasName="EquipIcon2"
+        MapSpriteBundleDir="Resources/Item/MapSprite.unity3d" MapSpriteAtlasName="MapSprite" Kind="Hoàng kim PVP_Chiến Nhẫn" QualityPrefix="0"
+        Category="15" Genre="0" Stack="1" DetailType="35" ParticularType="1458" Level="1" SuiteID="-1" View="n_qiang_gold_s" Icon="n_qiang_gold"
+        Intro="" Help="" ObjID="1" BindType="1" Series="0" ReqLevel="0" CDType="0" Price="0" ItemValue="0" MakeCost="-1" ResMale="24" ResFemale="24"
+        FightPower="0" ScriptID="-1" DeductOnUse="false" BuffID="-1">
+        <ListBasicProp BasicPropType="lifemax_p" BasicPropPA1Min="100" BasicPropPA1Max="100" BasicPropPA2Min="0" BasicPropPA2Max="0"
+            BasicPropPA3Min="0" BasicPropPA3Max="0" Index="1" />
+    </ItemData>
+    <ItemData ItemID="30525" Name="[Ngoại trang] Bát Lăng Chùy" IconBundleDir="Icon/EquipIcon2.unity3d" IconAtlasName="EquipIcon2"
+        MapSpriteBundleDir="Resources/Item/MapSprite.unity3d" MapSpriteAtlasName="MapSprite" Kind="Bát Lăng Chùy" QualityPrefix="0" Category="16"
+        Genre="0" Stack="1" DetailType="35" ParticularType="6" Level="1" SuiteID="-1" View="n_chui_502_s" Icon="n_chui_502" Intro="" Help="" ObjID="1"
+        BindType="1" Series="0" ReqLevel="0" CDType="0" Price="0" ItemValue="0" MakeCost="-1" ResMale="25" ResFemale="25" FightPower="0" ScriptID="-1"
+        DeductOnUse="false" BuffID="-1">
+        <ListBasicProp BasicPropType="lifemax_p" BasicPropPA1Min="100" BasicPropPA1Max="100" BasicPropPA2Min="0" BasicPropPA2Max="0"
+            BasicPropPA3Min="0" BasicPropPA3Max="0" Index="1" />
+    </ItemData>
+    <ItemData ItemID="30526" Name="[Ngoại trang] Lượng Ngân Chùy" IconBundleDir="Icon/EquipIcon2.unity3d" IconAtlasName="EquipIcon2"
+        MapSpriteBundleDir="Resources/Item/MapSprite.unity3d" MapSpriteAtlasName="MapSprite" Kind="Lượng Ngân Chùy" QualityPrefix="0" Category="16"
+        Genre="0" Stack="1" DetailType="35" ParticularType="6" Level="1" SuiteID="-1" View="n_chui_504_s" Icon="n_chui_504" Intro="" Help="" ObjID="1"
+        BindType="1" Series="0" ReqLevel="0" CDType="0" Price="0" ItemValue="0" MakeCost="-1" ResMale="26" ResFemale="26" FightPower="0" ScriptID="-1"
+        DeductOnUse="false" BuffID="-1">
+        <ListBasicProp BasicPropType="lifemax_p" BasicPropPA1Min="100" BasicPropPA1Max="100" BasicPropPA2Min="0" BasicPropPA2Max="0"
+            BasicPropPA3Min="0" BasicPropPA3Max="0" Index="1" />
+    </ItemData>
+    <ItemData ItemID="30527" Name="[Ngoại trang] Lang Nha Chùy" IconBundleDir="Icon/EquipIcon2.unity3d" IconAtlasName="EquipIcon2"
+        MapSpriteBundleDir="Resources/Item/MapSprite.unity3d" MapSpriteAtlasName="MapSprite" Kind="Lang Nha Chùy" QualityPrefix="0" Category="16"
+        Genre="0" Stack="1" DetailType="35" ParticularType="6" Level="1" SuiteID="-1" View="n_chui_506_s" Icon="n_chui_506" Intro="" Help="" ObjID="1"
+        BindType="1" Series="0" ReqLevel="0" CDType="0" Price="0" ItemValue="0" MakeCost="-1" ResMale="27" ResFemale="27" FightPower="0" ScriptID="-1"
+        DeductOnUse="false" BuffID="-1">
+        <ListBasicProp BasicPropType="lifemax_p" BasicPropPA1Min="100" BasicPropPA1Max="100" BasicPropPA2Min="0" BasicPropPA2Max="0"
+            BasicPropPA3Min="0" BasicPropPA3Max="0" Index="1" />
+    </ItemData>
+    <ItemData ItemID="30528" Name="[Ngoại trang] Kim Qua Chùy" IconBundleDir="Icon/EquipIcon2.unity3d" IconAtlasName="EquipIcon2"
+        MapSpriteBundleDir="Resources/Item/MapSprite.unity3d" MapSpriteAtlasName="MapSprite" Kind="Kim Qua Chùy" QualityPrefix="0" Category="16"
+        Genre="0" Stack="1" DetailType="35" ParticularType="6" Level="1" SuiteID="-1" View="n_chui_508_s" Icon="n_chui_508" Intro="" Help="" ObjID="1"
+        BindType="1" Series="0" ReqLevel="0" CDType="0" Price="0" ItemValue="0" MakeCost="-1" ResMale="28" ResFemale="28" FightPower="0" ScriptID="-1"
+        DeductOnUse="false" BuffID="-1">
+        <ListBasicProp BasicPropType="lifemax_p" BasicPropPA1Min="100" BasicPropPA1Max="100" BasicPropPA2Min="0" BasicPropPA2Max="0"
+            BasicPropPA3Min="0" BasicPropPA3Max="0" Index="1" />
+    </ItemData>
+    <ItemData ItemID="30529" Name="[Ngoại trang] Phá Thiên Chùy" IconBundleDir="Icon/EquipIcon2.unity3d" IconAtlasName="EquipIcon2"
+        MapSpriteBundleDir="Resources/Item/MapSprite.unity3d" MapSpriteAtlasName="MapSprite" Kind="Phá Thiên Chùy" QualityPrefix="0" Category="16"
+        Genre="0" Stack="1" DetailType="35" ParticularType="6" Level="1" SuiteID="-1" View="n_chui_510_s" Icon="n_chui_510" Intro="" Help="" ObjID="1"
+        BindType="1" Series="0" ReqLevel="0" CDType="0" Price="0" ItemValue="0" MakeCost="-1" ResMale="29" ResFemale="29" FightPower="0" ScriptID="-1"
+        DeductOnUse="false" BuffID="-1">
+        <ListBasicProp BasicPropType="lifemax_p" BasicPropPA1Min="100" BasicPropPA1Max="100" BasicPropPA2Min="0" BasicPropPA2Max="0"
+            BasicPropPA3Min="0" BasicPropPA3Max="0" Index="1" />
+    </ItemData>
+    <ItemData ItemID="30530" Name="[Ngoại trang] Tru Hồn-Thần Chùy Kinh Lôi" IconBundleDir="Icon/EquipIcon2.unity3d" IconAtlasName="EquipIcon2"
+        MapSpriteBundleDir="Resources/Item/MapSprite.unity3d" MapSpriteAtlasName="MapSprite" Kind="Hoàng kim PVP_Chùy Minh" QualityPrefix="0"
+        Category="16" Genre="0" Stack="1" DetailType="35" ParticularType="1465" Level="1" SuiteID="-1" View="n_chui_gold_s" Icon="n_chui_gold"
+        Intro="" Help="" ObjID="1" BindType="1" Series="0" ReqLevel="0" CDType="0" Price="0" ItemValue="0" MakeCost="-1" ResMale="30" ResFemale="30"
+        FightPower="0" ScriptID="-1" DeductOnUse="false" BuffID="-1">
+        <ListBasicProp BasicPropType="lifemax_p" BasicPropPA1Min="100" BasicPropPA1Max="100" BasicPropPA2Min="0" BasicPropPA2Max="0"
+            BasicPropPA3Min="0" BasicPropPA3Max="0" Index="1" />
+    </ItemData>
+    <ItemData ItemID="30531" Name="[Ngoại trang] Thiên Ngoại Phi Tiên" IconBundleDir="Icon/EquipIcon2.unity3d" IconAtlasName="EquipIcon2"
+        MapSpriteBundleDir="Resources/Item/MapSprite.unity3d" MapSpriteAtlasName="MapSprite" Kind="Thiên Ngoại Phi Tiên" QualityPrefix="0"
+        Category="23" Genre="0" Stack="1" DetailType="35" ParticularType="3" Level="1" SuiteID="-1" View="n_xiujian_310_s" Icon="n_xiujian_310"
+        Intro="" Help="" ObjID="1" BindType="1" Series="0" ReqLevel="0" CDType="0" Price="0" ItemValue="0" MakeCost="-1" ResMale="32" ResFemale="32"
+        FightPower="0" ScriptID="-1" DeductOnUse="false" BuffID="-1">
+        <ListBasicProp BasicPropType="lifemax_p" BasicPropPA1Min="100" BasicPropPA1Max="100" BasicPropPA2Min="0" BasicPropPA2Max="0"
+            BasicPropPA3Min="0" BasicPropPA3Max="0" Index="1" />
+    </ItemData>
+    <ItemData ItemID="30532" Name="[Ngoại trang] Duyên-Tiếng Sét Ái Tình" IconBundleDir="Icon/EquipIcon2.unity3d" IconAtlasName="EquipIcon2"
+        MapSpriteBundleDir="Resources/Item/MapSprite.unity3d" MapSpriteAtlasName="MapSprite" Kind="Duyên-Tiếng Sét Ái Tình" QualityPrefix="0"
+        Category="12" Genre="0" Stack="1" DetailType="35" ParticularType="101" Level="1" SuiteID="-1" View="n_jian_meigui01_s" Icon="n_jian_meigui01"
+        Intro="" Help="" ObjID="1" BindType="1" Series="0" ReqLevel="0" CDType="0" Price="0" ItemValue="0" MakeCost="-1" ResMale="34" ResFemale="34"
+        FightPower="0" ScriptID="-1" DeductOnUse="false" BuffID="-1">
+        <ListBasicProp BasicPropType="lifemax_p" BasicPropPA1Min="100" BasicPropPA1Max="100" BasicPropPA2Min="0" BasicPropPA2Max="0"
+            BasicPropPA3Min="0" BasicPropPA3Max="0" Index="1" />
+    </ItemData>
+    <ItemData ItemID="30533" Name="[Ngoại trang] Duyên-Tâm Như Hải" IconBundleDir="Icon/EquipIcon2.unity3d" IconAtlasName="EquipIcon2"
+        MapSpriteBundleDir="Resources/Item/MapSprite.unity3d" MapSpriteAtlasName="MapSprite" Kind="Duyên-Tâm Như Hải" QualityPrefix="0" Category="0"
+        Genre="1" Stack="1" DetailType="35" ParticularType="101" Level="1" SuiteID="-1" View="n_jian_meigui02_s" Icon="n_jian_meigui02" Intro=""
+        Help="" ObjID="1" BindType="1" Series="0" ReqLevel="0" CDType="0" Price="0" ItemValue="0" MakeCost="-1" ResMale="35" ResFemale="35"
+        FightPower="0" ScriptID="-1" DeductOnUse="false" BuffID="-1">
+        <ListBasicProp BasicPropType="lifemax_p" BasicPropPA1Min="100" BasicPropPA1Max="100" BasicPropPA2Min="0" BasicPropPA2Max="0"
+            BasicPropPA3Min="0" BasicPropPA3Max="0" Index="1" />
+    </ItemData>
+    <ItemData ItemID="30534" Name="[Ngoại trang] Khuynh Phong Đoạn Ảnh kình tiếu" IconBundleDir="Icon/EquipIcon2.unity3d" IconAtlasName="EquipIcon2"
+        MapSpriteBundleDir="Resources/Item/MapSprite.unity3d" MapSpriteAtlasName="MapSprite" Kind="Bạch Kim loại 4_Kiếm" QualityPrefix="0"
+        Category="12" Genre="0" Stack="1" DetailType="35" ParticularType="302" Level="1" SuiteID="-1" View="n_jian_platinum_4_s"
+        Icon="n_jian_platinum_4" Intro="" Help="" ObjID="1" BindType="1" Series="0" ReqLevel="0" CDType="0" Price="0" ItemValue="0" MakeCost="-1"
+        ResMale="36" ResFemale="36" FightPower="0" ScriptID="-1" DeductOnUse="false" BuffID="-1">
+        <ListBasicProp BasicPropType="lifemax_p" BasicPropPA1Min="100" BasicPropPA1Max="100" BasicPropPA2Min="0" BasicPropPA2Max="0"
+            BasicPropPA3Min="0" BasicPropPA3Max="0" Index="1" />
+    </ItemData>
+    <ItemData ItemID="30535" Name="[Ngoại trang] Vô Cực-Khuynh Phong Đoạn Ảnh" IconBundleDir="Icon/EquipIcon2.unity3d" IconAtlasName="EquipIcon2"
+        MapSpriteBundleDir="Resources/Item/MapSprite.unity3d" MapSpriteAtlasName="MapSprite" Kind="Bạch Kim 6_Kiếm" QualityPrefix="0" Category="12"
+        Genre="0" Stack="1" DetailType="35" ParticularType="502" Level="1" SuiteID="-1" View="n_jian_platinum_5_s" Icon="n_jian_platinum_5" Intro=""
+        Help="" ObjID="1" BindType="1" Series="0" ReqLevel="0" CDType="0" Price="0" ItemValue="0" MakeCost="-1" ResMale="37" ResFemale="37"
+        FightPower="0" ScriptID="-1" DeductOnUse="false" BuffID="-1">
+        <ListBasicProp BasicPropType="lifemax_p" BasicPropPA1Min="100" BasicPropPA1Max="100" BasicPropPA2Min="0" BasicPropPA2Max="0"
+            BasicPropPA3Min="0" BasicPropPA3Max="0" Index="1" />
+    </ItemData>
+    <ItemData ItemID="30536" Name="[Ngoại trang] Áp Tuyết Đao kình tiếu" IconBundleDir="Icon/EquipIcon2.unity3d" IconAtlasName="EquipIcon2"
+        MapSpriteBundleDir="Resources/Item/MapSprite.unity3d" MapSpriteAtlasName="MapSprite" Kind="Bạch Kim loại 4_Đao" QualityPrefix="0"
+        Category="13" Genre="0" Stack="1" DetailType="35" ParticularType="303" Level="1" SuiteID="-1" View="n_dao_platinum_4_s"
+        Icon="n_dao_platinum_4" Intro="" Help="" ObjID="1" BindType="1" Series="0" ReqLevel="0" CDType="0" Price="0" ItemValue="0" MakeCost="-1"
+        ResMale="38" ResFemale="38" FightPower="0" ScriptID="-1" DeductOnUse="false" BuffID="-1">
+        <ListBasicProp BasicPropType="lifemax_p" BasicPropPA1Min="100" BasicPropPA1Max="100" BasicPropPA2Min="0" BasicPropPA2Max="0"
+            BasicPropPA3Min="0" BasicPropPA3Max="0" Index="1" />
+    </ItemData>
+    <ItemData ItemID="30537" Name="[Ngoại trang] Vô Cực-Áp Tuyết Đao" IconBundleDir="Icon/EquipIcon2.unity3d" IconAtlasName="EquipIcon2"
+        MapSpriteBundleDir="Resources/Item/MapSprite.unity3d" MapSpriteAtlasName="MapSprite" Kind="Bạch Kim 6_Đao" QualityPrefix="0" Category="13"
+        Genre="0" Stack="1" DetailType="35" ParticularType="503" Level="1" SuiteID="-1" View="n_dao_platinum_5_s" Icon="n_dao_platinum_5" Intro=""
+        Help="" ObjID="1" BindType="1" Series="0" ReqLevel="0" CDType="0" Price="0" ItemValue="0" MakeCost="-1" ResMale="39" ResFemale="39"
+        FightPower="0" ScriptID="-1" DeductOnUse="false" BuffID="-1">
+        <ListBasicProp BasicPropType="lifemax_p" BasicPropPA1Min="100" BasicPropPA1Max="100" BasicPropPA2Min="0" BasicPropPA2Max="0"
+            BasicPropPA3Min="0" BasicPropPA3Max="0" Index="1" />
+    </ItemData>
+    <ItemData ItemID="30538" Name="[Ngoại trang] Quyện Long Chùy kình tiếu" IconBundleDir="Icon/EquipIcon2.unity3d" IconAtlasName="EquipIcon2"
+        MapSpriteBundleDir="Resources/Item/MapSprite.unity3d" MapSpriteAtlasName="MapSprite" Kind="Bạch Kim loại 4_Chùy" QualityPrefix="0"
+        Category="16" Genre="0" Stack="1" DetailType="35" ParticularType="306" Level="1" SuiteID="-1" View="n_chui_platinum_4_s"
+        Icon="n_chui_platinum_4" Intro="" Help="" ObjID="1" BindType="1" Series="0" ReqLevel="0" CDType="0" Price="0" ItemValue="0" MakeCost="-1"
+        ResMale="40" ResFemale="40" FightPower="0" ScriptID="-1" DeductOnUse="false" BuffID="-1">
+        <ListBasicProp BasicPropType="lifemax_p" BasicPropPA1Min="100" BasicPropPA1Max="100" BasicPropPA2Min="0" BasicPropPA2Max="0"
+            BasicPropPA3Min="0" BasicPropPA3Max="0" Index="1" />
+    </ItemData>
+    <ItemData ItemID="30539" Name="[Ngoại trang] Vô Cực-Quyện Long Chùy" IconBundleDir="Icon/EquipIcon2.unity3d" IconAtlasName="EquipIcon2"
+        MapSpriteBundleDir="Resources/Item/MapSprite.unity3d" MapSpriteAtlasName="MapSprite" Kind="Bạch Kim 6_Chùy" QualityPrefix="0" Category="16"
+        Genre="0" Stack="1" DetailType="35" ParticularType="506" Level="1" SuiteID="-1" View="n_chui_platinum_5_s" Icon="n_chui_platinum_5" Intro=""
+        Help="" ObjID="1" BindType="1" Series="0" ReqLevel="0" CDType="0" Price="0" ItemValue="0" MakeCost="-1" ResMale="41" ResFemale="41"
+        FightPower="0" ScriptID="-1" DeductOnUse="false" BuffID="-1">
+        <ListBasicProp BasicPropType="lifemax_p" BasicPropPA1Min="100" BasicPropPA1Max="100" BasicPropPA2Min="0" BasicPropPA2Max="0"
+            BasicPropPA3Min="0" BasicPropPA3Max="0" Index="1" />
+    </ItemData>
+    <ItemData ItemID="30540" Name="[Ngoại trang] Vô Nhẫn Trảm Nghiệp kình tiếu" IconBundleDir="Icon/EquipIcon2.unity3d" IconAtlasName="EquipIcon2"
+        MapSpriteBundleDir="Resources/Item/MapSprite.unity3d" MapSpriteAtlasName="MapSprite" Kind="Bạch Kim loại 4_Côn" QualityPrefix="0"
+        Category="14" Genre="0" Stack="1" DetailType="35" ParticularType="304" Level="1" SuiteID="-1" View="n_gun_platinum_4_s"
+        Icon="n_gun_platinum_4" Intro="" Help="" ObjID="1" BindType="1" Series="0" ReqLevel="0" CDType="0" Price="0" ItemValue="0" MakeCost="-1"
+        ResMale="42" ResFemale="42" FightPower="0" ScriptID="-1" DeductOnUse="false" BuffID="-1">
+        <ListBasicProp BasicPropType="lifemax_p" BasicPropPA1Min="100" BasicPropPA1Max="100" BasicPropPA2Min="0" BasicPropPA2Max="0"
+            BasicPropPA3Min="0" BasicPropPA3Max="0" Index="1" />
+    </ItemData>
+    <ItemData ItemID="30541" Name="[Ngoại trang] Vô Cực-Vô Nhẫn Trảm Nghiệp" IconBundleDir="Icon/EquipIcon2.unity3d" IconAtlasName="EquipIcon2"
+        MapSpriteBundleDir="Resources/Item/MapSprite.unity3d" MapSpriteAtlasName="MapSprite" Kind="Bạch Kim 6_Côn" QualityPrefix="0" Category="14"
+        Genre="0" Stack="1" DetailType="35" ParticularType="504" Level="1" SuiteID="-1" View="n_gun_platinum_5_s" Icon="n_gun_platinum_5" Intro=""
+        Help="" ObjID="1" BindType="1" Series="0" ReqLevel="0" CDType="0" Price="0" ItemValue="0" MakeCost="-1" ResMale="43" ResFemale="43"
+        FightPower="0" ScriptID="-1" DeductOnUse="false" BuffID="-1">
+        <ListBasicProp BasicPropType="lifemax_p" BasicPropPA1Min="100" BasicPropPA1Max="100" BasicPropPA2Min="0" BasicPropPA2Max="0"
+            BasicPropPA3Min="0" BasicPropPA3Max="0" Index="1" />
+    </ItemData>
+    <ItemData ItemID="30542" Name="[Ngoại trang] Ngự Phượng Thương kình tiếu" IconBundleDir="Icon/EquipIcon2.unity3d" IconAtlasName="EquipIcon2"
+        MapSpriteBundleDir="Resources/Item/MapSprite.unity3d" MapSpriteAtlasName="MapSprite" Kind="Bạch Kim loại 4_Thương" QualityPrefix="0"
+        Category="15" Genre="0" Stack="1" DetailType="35" ParticularType="305" Level="1" SuiteID="-1" View="n_qiang_platinum_4_s"
+        Icon="n_qiang_platinum_4" Intro="" Help="" ObjID="1" BindType="1" Series="0" ReqLevel="0" CDType="0" Price="0" ItemValue="0" MakeCost="-1"
+        ResMale="44" ResFemale="44" FightPower="0" ScriptID="-1" DeductOnUse="false" BuffID="-1">
+        <ListBasicProp BasicPropType="lifemax_p" BasicPropPA1Min="100" BasicPropPA1Max="100" BasicPropPA2Min="0" BasicPropPA2Max="0"
+            BasicPropPA3Min="0" BasicPropPA3Max="0" Index="1" />
+    </ItemData>
+    <ItemData ItemID="30543" Name="[Ngoại trang] Vô Cực-Ngự Phượng Thương" IconBundleDir="Icon/EquipIcon2.unity3d" IconAtlasName="EquipIcon2"
+        MapSpriteBundleDir="Resources/Item/MapSprite.unity3d" MapSpriteAtlasName="MapSprite" Kind="Bạch Kim 6_Thương" QualityPrefix="0" Category="15"
+        Genre="0" Stack="1" DetailType="35" ParticularType="505" Level="1" SuiteID="-1" View="n_qiang_platinum_5_s" Icon="n_qiang_platinum_5" Intro=""
+        Help="" ObjID="1" BindType="1" Series="0" ReqLevel="0" CDType="0" Price="0" ItemValue="0" MakeCost="-1" ResMale="45" ResFemale="45"
+        FightPower="0" ScriptID="-1" DeductOnUse="false" BuffID="-1">
+        <ListBasicProp BasicPropType="lifemax_p" BasicPropPA1Min="100" BasicPropPA1Max="100" BasicPropPA2Min="0" BasicPropPA2Max="0"
+            BasicPropPA3Min="0" BasicPropPA3Max="0" Index="1" />
+    </ItemData>
+    <ItemData ItemID="30544" Name="[Ngoại trang] Vô Cực Trường Kình Đao" IconBundleDir="Icon/EquipIcon2.unity3d" IconAtlasName="EquipIcon2"
+        MapSpriteBundleDir="Resources/Item/MapSprite.unity3d" MapSpriteAtlasName="MapSprite" Kind="Bạch Kim 6_Trường Đao" QualityPrefix="0"
+        Category="17" Genre="0" Stack="1" DetailType="35" ParticularType="509" Level="1" SuiteID="-1" View="n_changdao_lv15_s" Icon="n_changdao_lv15"
+        Intro="" Help="" ObjID="1" BindType="1" Series="0" ReqLevel="0" CDType="0" Price="0" ItemValue="0" MakeCost="-1" ResMale="46" ResFemale="46"
+        FightPower="0" ScriptID="-1" DeductOnUse="false" BuffID="-1">
+        <ListBasicProp BasicPropType="lifemax_p" BasicPropPA1Min="100" BasicPropPA1Max="100" BasicPropPA2Min="0" BasicPropPA2Max="0"
+            BasicPropPA3Min="0" BasicPropPA3Max="0" Index="1" />
+    </ItemData>
+    <ItemData ItemID="30545" Name="[Ngoại trang] Kình Tiếu Trường Kình Đao" IconBundleDir="Icon/EquipIcon2.unity3d" IconAtlasName="EquipIcon2"
+        MapSpriteBundleDir="Resources/Item/MapSprite.unity3d" MapSpriteAtlasName="MapSprite" Kind="Bạch Kim 4_Trường Đao" QualityPrefix="0"
+        Category="17" Genre="0" Stack="1" DetailType="35" ParticularType="309" Level="1" SuiteID="-1" View="n_changdao_lv14_s" Icon="n_changdao_lv14"
+        Intro="" Help="" ObjID="1" BindType="1" Series="0" ReqLevel="0" CDType="0" Price="0" ItemValue="0" MakeCost="-1" ResMale="47" ResFemale="47"
+        FightPower="0" ScriptID="-1" DeductOnUse="false" BuffID="-1">
+        <ListBasicProp BasicPropType="lifemax_p" BasicPropPA1Min="100" BasicPropPA1Max="100" BasicPropPA2Min="0" BasicPropPA2Max="0"
+            BasicPropPA3Min="0" BasicPropPA3Max="0" Index="1" />
+    </ItemData>
+    <ItemData ItemID="30546" Name="[Ngoại trang] Bá Đạo-Tuyệt Sát" IconBundleDir="Icon/EquipIcon2.unity3d" IconAtlasName="EquipIcon2"
+        MapSpriteBundleDir="Resources/Item/MapSprite.unity3d" MapSpriteAtlasName="MapSprite" Kind="Lâu Lan Hoàng Kim PVP_Tử Dương Bá Đao_Kim"
+        QualityPrefix="0" Category="17" Genre="0" Stack="1" DetailType="35" ParticularType="1873" Level="1" SuiteID="-1" View="n_dao_gold_s"
+        Icon="n_dao_gold" Intro="" Help="" ObjID="1" BindType="1" Series="0" ReqLevel="0" CDType="0" Price="0" ItemValue="0" MakeCost="-1"
+        ResMale="48" ResFemale="48" FightPower="0" ScriptID="-1" DeductOnUse="false" BuffID="-1">
+        <ListBasicProp BasicPropType="lifemax_p" BasicPropPA1Min="100" BasicPropPA1Max="100" BasicPropPA2Min="0" BasicPropPA2Max="0"
+            BasicPropPA3Min="0" BasicPropPA3Max="0" Index="1" />
+    </ItemData>
+    <ItemData ItemID="30547" Name="[Ngoại trang] Bạch Lộc Đao" IconBundleDir="Icon/EquipIcon2.unity3d" IconAtlasName="EquipIcon2"
+        MapSpriteBundleDir="Resources/Item/MapSprite.unity3d" MapSpriteAtlasName="MapSprite" Kind="Bạch Lộc Đao" QualityPrefix="0" Category="17"
+        Genre="0" Stack="1" DetailType="35" ParticularType="7" Level="1" SuiteID="-1" View="n_changdao_lv10_s" Icon="n_changdao_lv10" Intro="" Help=""
+        ObjID="1" BindType="1" Series="0" ReqLevel="0" CDType="0" Price="0" ItemValue="0" MakeCost="-1" ResMale="49" ResFemale="49" FightPower="0"
+        ScriptID="-1" DeductOnUse="false" BuffID="-1">
+        <ListBasicProp BasicPropType="lifemax_p" BasicPropPA1Min="100" BasicPropPA1Max="100" BasicPropPA2Min="0" BasicPropPA2Max="0"
+            BasicPropPA3Min="0" BasicPropPA3Max="0" Index="1" />
+    </ItemData>
+    <ItemData ItemID="30548" Name="[Ngoại trang] Cổ Đĩnh Đao" IconBundleDir="Icon/EquipIcon2.unity3d" IconAtlasName="EquipIcon2"
+        MapSpriteBundleDir="Resources/Item/MapSprite.unity3d" MapSpriteAtlasName="MapSprite" Kind="Cổ Đĩnh Đao" QualityPrefix="0" Category="17"
+        Genre="0" Stack="1" DetailType="35" ParticularType="7" Level="1" SuiteID="-1" View="n_changdao_lv8_s" Icon="n_changdao_lv8" Intro="" Help=""
+        ObjID="1" BindType="1" Series="0" ReqLevel="0" CDType="0" Price="0" ItemValue="0" MakeCost="-1" ResMale="50" ResFemale="50" FightPower="0"
+        ScriptID="-1" DeductOnUse="false" BuffID="-1">
+        <ListBasicProp BasicPropType="lifemax_p" BasicPropPA1Min="100" BasicPropPA1Max="100" BasicPropPA2Min="0" BasicPropPA2Max="0"
+            BasicPropPA3Min="0" BasicPropPA3Max="0" Index="1" />
+    </ItemData>
+    <ItemData ItemID="30549" Name="[Ngoại trang] Minh Hồng Đao" IconBundleDir="Icon/EquipIcon2.unity3d" IconAtlasName="EquipIcon2"
+        MapSpriteBundleDir="Resources/Item/MapSprite.unity3d" MapSpriteAtlasName="MapSprite" Kind="Minh Hồng Đao" QualityPrefix="0" Category="17"
+        Genre="0" Stack="1" DetailType="35" ParticularType="7" Level="1" SuiteID="-1" View="n_changdao_lv6_s" Icon="n_changdao_lv6" Intro="" Help=""
+        ObjID="1" BindType="1" Series="0" ReqLevel="0" CDType="0" Price="0" ItemValue="0" MakeCost="-1" ResMale="51" ResFemale="51" FightPower="0"
+        ScriptID="-1" DeductOnUse="false" BuffID="-1">
+        <ListBasicProp BasicPropType="lifemax_p" BasicPropPA1Min="100" BasicPropPA1Max="100" BasicPropPA2Min="0" BasicPropPA2Max="0"
+            BasicPropPA3Min="0" BasicPropPA3Max="0" Index="1" />
+    </ItemData>
+    <ItemData ItemID="30550" Name="[Ngoại trang] Ôn Đồng Đao" IconBundleDir="Icon/EquipIcon2.unity3d" IconAtlasName="EquipIcon2"
+        MapSpriteBundleDir="Resources/Item/MapSprite.unity3d" MapSpriteAtlasName="MapSprite" Kind="Ôn Đồng Đao" QualityPrefix="0" Category="17"
+        Genre="0" Stack="1" DetailType="35" ParticularType="7" Level="1" SuiteID="-1" View="n_changdao_lv4_s" Icon="n_changdao_lv4" Intro="" Help=""
+        ObjID="1" BindType="1" Series="0" ReqLevel="0" CDType="0" Price="0" ItemValue="0" MakeCost="-1" ResMale="52" ResFemale="52" FightPower="0"
+        ScriptID="-1" DeductOnUse="false" BuffID="-1">
+        <ListBasicProp BasicPropType="lifemax_p" BasicPropPA1Min="100" BasicPropPA1Max="100" BasicPropPA2Min="0" BasicPropPA2Max="0"
+            BasicPropPA3Min="0" BasicPropPA3Max="0" Index="1" />
+    </ItemData>
+    <ItemData ItemID="30551" Name="[Ngoại trang] Phá Phong Đao" IconBundleDir="Icon/EquipIcon2.unity3d" IconAtlasName="EquipIcon2"
+        MapSpriteBundleDir="Resources/Item/MapSprite.unity3d" MapSpriteAtlasName="MapSprite" Kind="Phá Phong Đao" QualityPrefix="0" Category="17"
+        Genre="0" Stack="1" DetailType="35" ParticularType="7" Level="1" SuiteID="-1" View="n_changdao_lv2_s" Icon="n_changdao_lv2" Intro="" Help=""
+        ObjID="1" BindType="1" Series="0" ReqLevel="0" CDType="0" Price="0" ItemValue="0" MakeCost="-1" ResMale="53" ResFemale="53" FightPower="0"
+        ScriptID="-1" DeductOnUse="false" BuffID="-1">
+        <ListBasicProp BasicPropType="lifemax_p" BasicPropPA1Min="100" BasicPropPA1Max="100" BasicPropPA2Min="0" BasicPropPA2Max="0"
+            BasicPropPA3Min="0" BasicPropPA3Max="0" Index="1" />
+    </ItemData>
+    <ItemData ItemID="30552" Name="[Ngoại trang] danshoujian09" IconBundleDir="Icon/EquipIcon2.unity3d" IconAtlasName="EquipIcon2"
+        MapSpriteBundleDir="Resources/Item/MapSprite.unity3d" MapSpriteAtlasName="MapSprite" Kind="danshoujian09" QualityPrefix="0" Category="12"
+        Genre="0" Stack="1" DetailType="35" ParticularType="1" Level="1" SuiteID="-1" View="" Icon="" Intro="" Help="" ObjID="1" BindType="1"
+        Series="0" ReqLevel="0" CDType="0" Price="0" ItemValue="0" MakeCost="-1" ResMale="54" ResFemale="54" FightPower="0" ScriptID="-1"
+        DeductOnUse="false" BuffID="-1">
+        <ListBasicProp BasicPropType="lifemax_p" BasicPropPA1Min="100" BasicPropPA1Max="100" BasicPropPA2Min="0" BasicPropPA2Max="0"
+            BasicPropPA3Min="0" BasicPropPA3Max="0" Index="1" />
+    </ItemData>
+    <ItemData ItemID="30553" Name="[Ngoại trang] danshoudao09" IconBundleDir="Icon/EquipIcon2.unity3d" IconAtlasName="EquipIcon2"
+        MapSpriteBundleDir="Resources/Item/MapSprite.unity3d" MapSpriteAtlasName="MapSprite" Kind="danshoudao09" QualityPrefix="0" Category="13"
+        Genre="0" Stack="1" DetailType="35" ParticularType="1" Level="1" SuiteID="-1" View="" Icon="" Intro="" Help="" ObjID="1" BindType="1"
+        Series="0" ReqLevel="0" CDType="0" Price="0" ItemValue="0" MakeCost="-1" ResMale="55" ResFemale="55" FightPower="0" ScriptID="-1"
+        DeductOnUse="false" BuffID="-1">
+        <ListBasicProp BasicPropType="lifemax_p" BasicPropPA1Min="100" BasicPropPA1Max="100" BasicPropPA2Min="0" BasicPropPA2Max="0"
+            BasicPropPA3Min="0" BasicPropPA3Max="0" Index="1" />
+    </ItemData>
+    <ItemData ItemID="30554" Name="[Ngoại trang] changqiang09" IconBundleDir="Icon/EquipIcon2.unity3d" IconAtlasName="EquipIcon2"
+        MapSpriteBundleDir="Resources/Item/MapSprite.unity3d" MapSpriteAtlasName="MapSprite" Kind="changqiang09" QualityPrefix="0" Category="14"
+        Genre="0" Stack="1" DetailType="35" ParticularType="1" Level="1" SuiteID="-1" View="" Icon="" Intro="" Help="" ObjID="1" BindType="1"
+        Series="0" ReqLevel="0" CDType="0" Price="0" ItemValue="0" MakeCost="-1" ResMale="56" ResFemale="56" FightPower="0" ScriptID="-1"
+        DeductOnUse="false" BuffID="-1">
+        <ListBasicProp BasicPropType="lifemax_p" BasicPropPA1Min="100" BasicPropPA1Max="100" BasicPropPA2Min="0" BasicPropPA2Max="0"
+            BasicPropPA3Min="0" BasicPropPA3Max="0" Index="1" />
+    </ItemData>
+    <ItemData ItemID="30555" Name="[Ngoại trang] changgun09" IconBundleDir="Icon/EquipIcon2.unity3d" IconAtlasName="EquipIcon2"
+        MapSpriteBundleDir="Resources/Item/MapSprite.unity3d" MapSpriteAtlasName="MapSprite" Kind="changgun09" QualityPrefix="0" Category="15"
+        Genre="0" Stack="1" DetailType="35" ParticularType="1" Level="1" SuiteID="-1" View="" Icon="" Intro="" Help="" ObjID="1" BindType="1"
+        Series="0" ReqLevel="0" CDType="0" Price="0" ItemValue="0" MakeCost="-1" ResMale="57" ResFemale="57" FightPower="0" ScriptID="-1"
+        DeductOnUse="false" BuffID="-1">
+        <ListBasicProp BasicPropType="lifemax_p" BasicPropPA1Min="100" BasicPropPA1Max="100" BasicPropPA2Min="0" BasicPropPA2Max="0"
+            BasicPropPA3Min="0" BasicPropPA3Max="0" Index="1" />
+    </ItemData>
+    <ItemData ItemID="30556" Name="[Ngoại trang] shuangchui09" IconBundleDir="Icon/EquipIcon2.unity3d" IconAtlasName="EquipIcon2"
+        MapSpriteBundleDir="Resources/Item/MapSprite.unity3d" MapSpriteAtlasName="MapSprite" Kind="shuangchui09" QualityPrefix="0" Category="16"
+        Genre="0" Stack="1" DetailType="35" ParticularType="1" Level="1" SuiteID="-1" View="" Icon="" Intro="" Help="" ObjID="1" BindType="1"
+        Series="0" ReqLevel="0" CDType="0" Price="0" ItemValue="0" MakeCost="-1" ResMale="58" ResFemale="58" FightPower="0" ScriptID="-1"
+        DeductOnUse="false" BuffID="-1">
+        <ListBasicProp BasicPropType="lifemax_p" BasicPropPA1Min="100" BasicPropPA1Max="100" BasicPropPA2Min="0" BasicPropPA2Max="0"
+            BasicPropPA3Min="0" BasicPropPA3Max="0" Index="1" />
+    </ItemData>
+    <ItemData ItemID="30557" Name="[Ngoại trang] Tuyệt Sát" IconBundleDir="Icon/EquipIcon2.unity3d" IconAtlasName="EquipIcon2"
+        MapSpriteBundleDir="Resources/Item/MapSprite.unity3d" MapSpriteAtlasName="MapSprite" Kind="Hoàng Kim PVE_Đại Đao Nhất Phẩm Đường_Hỏa"
+        QualityPrefix="0" Category="19" Genre="0" Stack="1" DetailType="35" ParticularType="20016" Level="1" SuiteID="-1" View="n_dadao_09_s"
+        Icon="n_dadao_09" Intro="" Help="" ObjID="1" BindType="1" Series="0" ReqLevel="0" CDType="0" Price="0" ItemValue="0" MakeCost="-1"
+        ResMale="59" ResFemale="59" FightPower="0" ScriptID="-1" DeductOnUse="false" BuffID="-1">
+        <ListBasicProp BasicPropType="lifemax_p" BasicPropPA1Min="100" BasicPropPA1Max="100" BasicPropPA2Min="0" BasicPropPA2Max="0"
+            BasicPropPA3Min="0" BasicPropPA3Max="0" Index="1" />
+    </ItemData>
+    <ItemData ItemID="30558" Name="[Ngoại trang] Bạch Lộc Nhẫn" IconBundleDir="Icon/EquipIcon2.unity3d" IconAtlasName="EquipIcon2"
+        MapSpriteBundleDir="Resources/Item/MapSprite.unity3d" MapSpriteAtlasName="MapSprite" Kind="Bạch Lộc Nhẫn" QualityPrefix="0" Category="18"
+        Genre="0" Stack="1" DetailType="35" ParticularType="8" Level="1" SuiteID="-1" View="n_ren_01_s" Icon="n_ren_01" Intro="" Help="" ObjID="1"
+        BindType="1" Series="0" ReqLevel="0" CDType="0" Price="0" ItemValue="0" MakeCost="-1" ResMale="60" ResFemale="60" FightPower="0" ScriptID="-1"
+        DeductOnUse="false" BuffID="-1">
+        <ListBasicProp BasicPropType="lifemax_p" BasicPropPA1Min="100" BasicPropPA1Max="100" BasicPropPA2Min="0" BasicPropPA2Max="0"
+            BasicPropPA3Min="0" BasicPropPA3Max="0" Index="1" />
+    </ItemData>
+    <ItemData ItemID="30559" Name="[Ngoại trang] ren02" IconBundleDir="Icon/EquipIcon2.unity3d" IconAtlasName="EquipIcon2"
+        MapSpriteBundleDir="Resources/Item/MapSprite.unity3d" MapSpriteAtlasName="MapSprite" Kind="ren02" QualityPrefix="0" Category="18" Genre="0"
+        Stack="1" DetailType="35" ParticularType="1" Level="1" SuiteID="-1" View="" Icon="" Intro="" Help="" ObjID="1" BindType="1" Series="0"
+        ReqLevel="0" CDType="0" Price="0" ItemValue="0" MakeCost="-1" ResMale="61" ResFemale="61" FightPower="0" ScriptID="-1" DeductOnUse="false"
+        BuffID="-1">
+        <ListBasicProp BasicPropType="lifemax_p" BasicPropPA1Min="100" BasicPropPA1Max="100" BasicPropPA2Min="0" BasicPropPA2Max="0"
+            BasicPropPA3Min="0" BasicPropPA3Max="0" Index="1" />
+    </ItemData>
+    <ItemData ItemID="30560" Name="[Ngoại trang] ren03" IconBundleDir="Icon/EquipIcon2.unity3d" IconAtlasName="EquipIcon2"
+        MapSpriteBundleDir="Resources/Item/MapSprite.unity3d" MapSpriteAtlasName="MapSprite" Kind="ren03" QualityPrefix="0" Category="18" Genre="0"
+        Stack="1" DetailType="35" ParticularType="1" Level="1" SuiteID="-1" View="" Icon="" Intro="" Help="" ObjID="1" BindType="1" Series="0"
+        ReqLevel="0" CDType="0" Price="0" ItemValue="0" MakeCost="-1" ResMale="62" ResFemale="62" FightPower="0" ScriptID="-1" DeductOnUse="false"
+        BuffID="-1">
+        <ListBasicProp BasicPropType="lifemax_p" BasicPropPA1Min="100" BasicPropPA1Max="100" BasicPropPA2Min="0" BasicPropPA2Max="0"
+            BasicPropPA3Min="0" BasicPropPA3Max="0" Index="1" />
+    </ItemData>
+    <ItemData ItemID="30561" Name="[Ngoại trang] Vô Cực  Thừa Ảnh Nhẫn" IconBundleDir="Icon/EquipIcon2.unity3d" IconAtlasName="EquipIcon2"
+        MapSpriteBundleDir="Resources/Item/MapSprite.unity3d" MapSpriteAtlasName="MapSprite" Kind="Bạch Kim Bậc 6_Đoản Nhẫn" QualityPrefix="0"
+        Category="18" Genre="0" Stack="1" DetailType="35" ParticularType="511" Level="1" SuiteID="-1" View="n_ren_05_s" Icon="n_ren_05" Intro=""
+        Help="" ObjID="1" BindType="1" Series="0" ReqLevel="0" CDType="0" Price="0" ItemValue="0" MakeCost="-1" ResMale="63" ResFemale="63"
+        FightPower="0" ScriptID="-1" DeductOnUse="false" BuffID="-1">
+        <ListBasicProp BasicPropType="lifemax_p" BasicPropPA1Min="100" BasicPropPA1Max="100" BasicPropPA2Min="0" BasicPropPA2Max="0"
+            BasicPropPA3Min="0" BasicPropPA3Max="0" Index="1" />
+    </ItemData>
+    <ItemData ItemID="30562" Name="[Ngoại trang] ren05" IconBundleDir="Icon/EquipIcon2.unity3d" IconAtlasName="EquipIcon2"
+        MapSpriteBundleDir="Resources/Item/MapSprite.unity3d" MapSpriteAtlasName="MapSprite" Kind="ren05" QualityPrefix="0" Category="18" Genre="0"
+        Stack="1" DetailType="35" ParticularType="1" Level="1" SuiteID="-1" View="" Icon="" Intro="" Help="" ObjID="1" BindType="1" Series="0"
+        ReqLevel="0" CDType="0" Price="0" ItemValue="0" MakeCost="-1" ResMale="64" ResFemale="64" FightPower="0" ScriptID="-1" DeductOnUse="false"
+        BuffID="-1">
+        <ListBasicProp BasicPropType="lifemax_p" BasicPropPA1Min="100" BasicPropPA1Max="100" BasicPropPA2Min="0" BasicPropPA2Max="0"
+            BasicPropPA3Min="0" BasicPropPA3Max="0" Index="1" />
+    </ItemData>
+    <ItemData ItemID="30563" Name="[Ngoại trang] Hạo Thiên Thừa Ảnh Nhẫn" IconBundleDir="Icon/EquipIcon2.unity3d" IconAtlasName="EquipIcon2"
+        MapSpriteBundleDir="Resources/Item/MapSprite.unity3d" MapSpriteAtlasName="MapSprite" Kind="Bạch Kim Bậc 7_Đoản Nhẫn" QualityPrefix="0"
+        Category="18" Genre="0" Stack="1" DetailType="35" ParticularType="611" Level="1" SuiteID="-1" View="ty_ren_3a" Icon="ty_ren_3" Intro=""
+        Help="" ObjID="1" BindType="1" Series="0" ReqLevel="0" CDType="0" Price="0" ItemValue="0" MakeCost="-1" ResMale="65" ResFemale="65"
+        FightPower="0" ScriptID="-1" DeductOnUse="false" BuffID="-1">
+        <ListBasicProp BasicPropType="lifemax_p" BasicPropPA1Min="100" BasicPropPA1Max="100" BasicPropPA2Min="0" BasicPropPA2Max="0"
+            BasicPropPA3Min="0" BasicPropPA3Max="0" Index="1" />
+    </ItemData>
+    <ItemData ItemID="30564" Name="[Ngoại trang] ren07" IconBundleDir="Icon/EquipIcon2.unity3d" IconAtlasName="EquipIcon2"
+        MapSpriteBundleDir="Resources/Item/MapSprite.unity3d" MapSpriteAtlasName="MapSprite" Kind="ren07" QualityPrefix="0" Category="18" Genre="0"
+        Stack="1" DetailType="35" ParticularType="1" Level="1" SuiteID="-1" View="" Icon="" Intro="" Help="" ObjID="1" BindType="1" Series="0"
+        ReqLevel="0" CDType="0" Price="0" ItemValue="0" MakeCost="-1" ResMale="66" ResFemale="66" FightPower="0" ScriptID="-1" DeductOnUse="false"
+        BuffID="-1">
+        <ListBasicProp BasicPropType="lifemax_p" BasicPropPA1Min="100" BasicPropPA1Max="100" BasicPropPA2Min="0" BasicPropPA2Max="0"
+            BasicPropPA3Min="0" BasicPropPA3Max="0" Index="1" />
+    </ItemData>
+    <ItemData ItemID="30565" Name="[Ngoại trang] Hạo Thiên Khuynh Phong Đoạn Ảnh" IconBundleDir="Icon/EquipIcon2.unity3d" IconAtlasName="EquipIcon2"
+        MapSpriteBundleDir="Resources/Item/MapSprite.unity3d" MapSpriteAtlasName="MapSprite" Kind="Bạch Kim Bậc 7_Kiếm" QualityPrefix="0"
+        Category="12" Genre="0" Stack="1" DetailType="35" ParticularType="602" Level="1" SuiteID="-1" View="ty_jian_3a" Icon="ty_jian_3" Intro=""
+        Help="" ObjID="1" BindType="1" Series="0" ReqLevel="0" CDType="0" Price="0" ItemValue="0" MakeCost="-1" ResMale="67" ResFemale="67"
+        FightPower="0" ScriptID="-1" DeductOnUse="false" BuffID="-1">
+        <ListBasicProp BasicPropType="lifemax_p" BasicPropPA1Min="100" BasicPropPA1Max="100" BasicPropPA2Min="0" BasicPropPA2Max="0"
+            BasicPropPA3Min="0" BasicPropPA3Max="0" Index="1" />
+    </ItemData>
+    <ItemData ItemID="30566" Name="[Ngoại trang] Hạo Thiên Áp Tuyết Đao" IconBundleDir="Icon/EquipIcon2.unity3d" IconAtlasName="EquipIcon2"
+        MapSpriteBundleDir="Resources/Item/MapSprite.unity3d" MapSpriteAtlasName="MapSprite" Kind="Bạch Kim Bậc 7_Đao" QualityPrefix="0" Category="13"
+        Genre="0" Stack="1" DetailType="35" ParticularType="603" Level="1" SuiteID="-1" View="ty_dao_3a" Icon="ty_dao_3" Intro="" Help="" ObjID="1"
+        BindType="1" Series="0" ReqLevel="0" CDType="0" Price="0" ItemValue="0" MakeCost="-1" ResMale="68" ResFemale="68" FightPower="0" ScriptID="-1"
+        DeductOnUse="false" BuffID="-1">
+        <ListBasicProp BasicPropType="lifemax_p" BasicPropPA1Min="100" BasicPropPA1Max="100" BasicPropPA2Min="0" BasicPropPA2Max="0"
+            BasicPropPA3Min="0" BasicPropPA3Max="0" Index="1" />
+    </ItemData>
+    <ItemData ItemID="30567" Name="[Ngoại trang] Hạo Thiên Ngự Phượng Thương" IconBundleDir="Icon/EquipIcon2.unity3d" IconAtlasName="EquipIcon2"
+        MapSpriteBundleDir="Resources/Item/MapSprite.unity3d" MapSpriteAtlasName="MapSprite" Kind="Bạch Kim Bậc 7_Thương" QualityPrefix="0"
+        Category="15" Genre="0" Stack="1" DetailType="35" ParticularType="605" Level="1" SuiteID="-1" View="ty_qiang_3a" Icon="ty_qiang_3" Intro=""
+        Help="" ObjID="1" BindType="1" Series="0" ReqLevel="0" CDType="0" Price="0" ItemValue="0" MakeCost="-1" ResMale="69" ResFemale="69"
+        FightPower="0" ScriptID="-1" DeductOnUse="false" BuffID="-1">
+        <ListBasicProp BasicPropType="lifemax_p" BasicPropPA1Min="100" BasicPropPA1Max="100" BasicPropPA2Min="0" BasicPropPA2Max="0"
+            BasicPropPA3Min="0" BasicPropPA3Max="0" Index="1" />
+    </ItemData>
+    <ItemData ItemID="30568" Name="[Ngoại trang] Hạo Thiên Vô Nhẫn Trảm Nghiệp" IconBundleDir="Icon/EquipIcon2.unity3d" IconAtlasName="EquipIcon2"
+        MapSpriteBundleDir="Resources/Item/MapSprite.unity3d" MapSpriteAtlasName="MapSprite" Kind="Bạch Kim Bậc 7_Côn" QualityPrefix="0" Category="14"
+        Genre="0" Stack="1" DetailType="35" ParticularType="604" Level="1" SuiteID="-1" View="ty_gun_3a" Icon="ty_gun_3" Intro="" Help="" ObjID="1"
+        BindType="1" Series="0" ReqLevel="0" CDType="0" Price="0" ItemValue="0" MakeCost="-1" ResMale="70" ResFemale="70" FightPower="0" ScriptID="-1"
+        DeductOnUse="false" BuffID="-1">
+        <ListBasicProp BasicPropType="lifemax_p" BasicPropPA1Min="100" BasicPropPA1Max="100" BasicPropPA2Min="0" BasicPropPA2Max="0"
+            BasicPropPA3Min="0" BasicPropPA3Max="0" Index="1" />
+    </ItemData>
+    <ItemData ItemID="30569" Name="[Ngoại trang] Hạo Thiên Quyện Long Chùy" IconBundleDir="Icon/EquipIcon2.unity3d" IconAtlasName="EquipIcon2"
+        MapSpriteBundleDir="Resources/Item/MapSprite.unity3d" MapSpriteAtlasName="MapSprite" Kind="Bạch Kim Bậc 7_Chùy" QualityPrefix="0"
+        Category="16" Genre="0" Stack="1" DetailType="35" ParticularType="606" Level="1" SuiteID="-1" View="ty_chui_3a" Icon="ty_chui_3" Intro=""
+        Help="" ObjID="1" BindType="1" Series="0" ReqLevel="0" CDType="0" Price="0" ItemValue="0" MakeCost="-1" ResMale="71" ResFemale="71"
+        FightPower="0" ScriptID="-1" DeductOnUse="false" BuffID="-1">
+        <ListBasicProp BasicPropType="lifemax_p" BasicPropPA1Min="100" BasicPropPA1Max="100" BasicPropPA2Min="0" BasicPropPA2Max="0"
+            BasicPropPA3Min="0" BasicPropPA3Max="0" Index="1" />
+    </ItemData>
+    <ItemData ItemID="30570" Name="[Ngoại trang] Hạo Thiên Trường Kình Đao" IconBundleDir="Icon/EquipIcon2.unity3d" IconAtlasName="EquipIcon2"
+        MapSpriteBundleDir="Resources/Item/MapSprite.unity3d" MapSpriteAtlasName="MapSprite" Kind="Bạch Kim Bậc 7_Trường Đao" QualityPrefix="0"
+        Category="17" Genre="0" Stack="1" DetailType="35" ParticularType="609" Level="1" SuiteID="-1" View="ty_changdao_3a" Icon="ty_changdao_3"
+        Intro="" Help="" ObjID="1" BindType="1" Series="0" ReqLevel="0" CDType="0" Price="0" ItemValue="0" MakeCost="-1" ResMale="72" ResFemale="72"
+        FightPower="0" ScriptID="-1" DeductOnUse="false" BuffID="-1">
+        <ListBasicProp BasicPropType="lifemax_p" BasicPropPA1Min="100" BasicPropPA1Max="100" BasicPropPA2Min="0" BasicPropPA2Max="0"
+            BasicPropPA3Min="0" BasicPropPA3Max="0" Index="1" />
+    </ItemData>
+    <ItemData ItemID="30571" Name="[Ngoại trang] ren10" IconBundleDir="Icon/EquipIcon2.unity3d" IconAtlasName="EquipIcon2"
+        MapSpriteBundleDir="Resources/Item/MapSprite.unity3d" MapSpriteAtlasName="MapSprite" Kind="ren10" QualityPrefix="0" Category="18" Genre="0"
+        Stack="1" DetailType="35" ParticularType="1" Level="1" SuiteID="-1" View="" Icon="" Intro="" Help="" ObjID="1" BindType="1" Series="0"
+        ReqLevel="0" CDType="0" Price="0" ItemValue="0" MakeCost="-1" ResMale="73" ResFemale="73" FightPower="0" ScriptID="-1" DeductOnUse="false"
+        BuffID="-1">
+        <ListBasicProp BasicPropType="lifemax_p" BasicPropPA1Min="100" BasicPropPA1Max="100" BasicPropPA2Min="0" BasicPropPA2Max="0"
+            BasicPropPA3Min="0" BasicPropPA3Max="0" Index="1" />
+    </ItemData>
+    <ItemData ItemID="30572" Name="[Ngoại trang] Phong Đình Đại Đao" IconBundleDir="Icon/EquipIcon2.unity3d" IconAtlasName="EquipIcon2"
+        MapSpriteBundleDir="Resources/Item/MapSprite.unity3d" MapSpriteAtlasName="MapSprite" Kind="Phong Đình Đại Đao" QualityPrefix="0" Category="19"
+        Genre="0" Stack="1" DetailType="35" ParticularType="9" Level="1" SuiteID="-1" View="n_dadao_01_s" Icon="n_dadao_01" Intro="" Help="" ObjID="1"
+        BindType="1" Series="0" ReqLevel="0" CDType="0" Price="0" ItemValue="0" MakeCost="-1" ResMale="74" ResFemale="74" FightPower="0" ScriptID="-1"
+        DeductOnUse="false" BuffID="-1">
+        <ListBasicProp BasicPropType="lifemax_p" BasicPropPA1Min="100" BasicPropPA1Max="100" BasicPropPA2Min="0" BasicPropPA2Max="0"
+            BasicPropPA3Min="0" BasicPropPA3Max="0" Index="1" />
+    </ItemData>
+    <ItemData ItemID="30573" Name="[Ngoại trang] Băng Kinh Đại Đao" IconBundleDir="Icon/EquipIcon2.unity3d" IconAtlasName="EquipIcon2"
+        MapSpriteBundleDir="Resources/Item/MapSprite.unity3d" MapSpriteAtlasName="MapSprite" Kind="Băng Kinh Đại Đao" QualityPrefix="0" Category="19"
+        Genre="0" Stack="1" DetailType="35" ParticularType="9" Level="1" SuiteID="-1" View="n_dadao_02_s" Icon="n_dadao_02" Intro="" Help="" ObjID="1"
+        BindType="1" Series="0" ReqLevel="0" CDType="0" Price="0" ItemValue="0" MakeCost="-1" ResMale="75" ResFemale="75" FightPower="0" ScriptID="-1"
+        DeductOnUse="false" BuffID="-1">
+        <ListBasicProp BasicPropType="lifemax_p" BasicPropPA1Min="100" BasicPropPA1Max="100" BasicPropPA2Min="0" BasicPropPA2Max="0"
+            BasicPropPA3Min="0" BasicPropPA3Max="0" Index="1" />
+    </ItemData>
+    <ItemData ItemID="30574" Name="[Ngoại trang] Thiên Tả Đại Đao" IconBundleDir="Icon/EquipIcon2.unity3d" IconAtlasName="EquipIcon2"
+        MapSpriteBundleDir="Resources/Item/MapSprite.unity3d" MapSpriteAtlasName="MapSprite" Kind="Thiên Tả Đại Đao" QualityPrefix="0" Category="19"
+        Genre="0" Stack="1" DetailType="35" ParticularType="9" Level="1" SuiteID="-1" View="n_dadao_03_s" Icon="n_dadao_03" Intro="" Help="" ObjID="1"
+        BindType="1" Series="0" ReqLevel="0" CDType="0" Price="0" ItemValue="0" MakeCost="-1" ResMale="76" ResFemale="76" FightPower="0" ScriptID="-1"
+        DeductOnUse="false" BuffID="-1">
+        <ListBasicProp BasicPropType="lifemax_p" BasicPropPA1Min="100" BasicPropPA1Max="100" BasicPropPA2Min="0" BasicPropPA2Max="0"
+            BasicPropPA3Min="0" BasicPropPA3Max="0" Index="1" />
+    </ItemData>
+    <ItemData ItemID="30575" Name="[Ngoại trang] Nhạc Yến Đại Đao" IconBundleDir="Icon/EquipIcon2.unity3d" IconAtlasName="EquipIcon2"
+        MapSpriteBundleDir="Resources/Item/MapSprite.unity3d" MapSpriteAtlasName="MapSprite" Kind="Nhạc Yến Đại Đao" QualityPrefix="0" Category="19"
+        Genre="0" Stack="1" DetailType="35" ParticularType="9" Level="1" SuiteID="-1" View="n_dadao_04_s" Icon="n_dadao_04" Intro="" Help="" ObjID="1"
+        BindType="1" Series="0" ReqLevel="0" CDType="0" Price="0" ItemValue="0" MakeCost="-1" ResMale="77" ResFemale="77" FightPower="0" ScriptID="-1"
+        DeductOnUse="false" BuffID="-1">
+        <ListBasicProp BasicPropType="lifemax_p" BasicPropPA1Min="100" BasicPropPA1Max="100" BasicPropPA2Min="0" BasicPropPA2Max="0"
+            BasicPropPA3Min="0" BasicPropPA3Max="0" Index="1" />
+    </ItemData>
+    <ItemData ItemID="30576" Name="[Ngoại trang] Hồ Bạch Đại Đao" IconBundleDir="Icon/EquipIcon2.unity3d" IconAtlasName="EquipIcon2"
+        MapSpriteBundleDir="Resources/Item/MapSprite.unity3d" MapSpriteAtlasName="MapSprite" Kind="Hồ Bạch Đại Đao" QualityPrefix="0" Category="19"
+        Genre="0" Stack="1" DetailType="35" ParticularType="9" Level="1" SuiteID="-1" View="n_dadao_05_s" Icon="n_dadao_05" Intro="" Help="" ObjID="1"
+        BindType="1" Series="0" ReqLevel="0" CDType="0" Price="0" ItemValue="0" MakeCost="-1" ResMale="78" ResFemale="78" FightPower="0" ScriptID="-1"
+        DeductOnUse="false" BuffID="-1">
+        <ListBasicProp BasicPropType="lifemax_p" BasicPropPA1Min="100" BasicPropPA1Max="100" BasicPropPA2Min="0" BasicPropPA2Max="0"
+            BasicPropPA3Min="0" BasicPropPA3Max="0" Index="1" />
+    </ItemData>
+    <ItemData ItemID="30577" Name="[Ngoại trang] Phí Huyết" IconBundleDir="Icon/EquipIcon2.unity3d" IconAtlasName="EquipIcon2"
+        MapSpriteBundleDir="Resources/Item/MapSprite.unity3d" MapSpriteAtlasName="MapSprite" Kind="Thanh Đồng PVE_Đại Đao Nhất Phẩm Đường_Thổ"
+        QualityPrefix="0" Category="19" Genre="0" Stack="1" DetailType="35" ParticularType="4471" Level="1" SuiteID="-1" View="n_dadao_07_s"
+        Icon="n_dadao_07" Intro="" Help="" ObjID="1" BindType="1" Series="0" ReqLevel="0" CDType="0" Price="0" ItemValue="0" MakeCost="-1"
+        ResMale="79" ResFemale="79" FightPower="0" ScriptID="-1" DeductOnUse="false" BuffID="-1">
+        <ListBasicProp BasicPropType="lifemax_p" BasicPropPA1Min="100" BasicPropPA1Max="100" BasicPropPA2Min="0" BasicPropPA2Max="0"
+            BasicPropPA3Min="0" BasicPropPA3Max="0" Index="1" />
+    </ItemData>
+    <ItemData ItemID="30578" Name="[Ngoại trang] Phí Huyết" IconBundleDir="Icon/EquipIcon2.unity3d" IconAtlasName="EquipIcon2"
+        MapSpriteBundleDir="Resources/Item/MapSprite.unity3d" MapSpriteAtlasName="MapSprite" Kind="Thanh Đồng PVP_Đại Đao Nhất Phẩm Đường_Thổ"
+        QualityPrefix="0" Category="19" Genre="0" Stack="1" DetailType="35" ParticularType="4489" Level="1" SuiteID="-1" View="n_dadao_07_s"
+        Icon="n_dadao_07" Intro="" Help="" ObjID="1" BindType="1" Series="0" ReqLevel="0" CDType="0" Price="0" ItemValue="0" MakeCost="-1"
+        ResMale="80" ResFemale="80" FightPower="0" ScriptID="-1" DeductOnUse="false" BuffID="-1">
+        <ListBasicProp BasicPropType="lifemax_p" BasicPropPA1Min="100" BasicPropPA1Max="100" BasicPropPA2Min="0" BasicPropPA2Max="0"
+            BasicPropPA3Min="0" BasicPropPA3Max="0" Index="1" />
+    </ItemData>
+    <ItemData ItemID="30579" Name="[Ngoại trang] Hổ Dực" IconBundleDir="Icon/EquipIcon2.unity3d" IconAtlasName="EquipIcon2"
+        MapSpriteBundleDir="Resources/Item/MapSprite.unity3d" MapSpriteAtlasName="MapSprite" Kind="Bạch Ngân PVP_Đại Đao Nhất Phẩm Đường_Hỏa"
+        QualityPrefix="0" Category="19" Genre="0" Stack="1" DetailType="35" ParticularType="20017" Level="1" SuiteID="-1" View="n_dadao_08_s"
+        Icon="n_dadao_08" Intro="" Help="" ObjID="1" BindType="1" Series="0" ReqLevel="0" CDType="0" Price="0" ItemValue="0" MakeCost="-1"
+        ResMale="81" ResFemale="81" FightPower="0" ScriptID="-1" DeductOnUse="false" BuffID="-1">
+        <ListBasicProp BasicPropType="lifemax_p" BasicPropPA1Min="100" BasicPropPA1Max="100" BasicPropPA2Min="0" BasicPropPA2Max="0"
+            BasicPropPA3Min="0" BasicPropPA3Max="0" Index="1" />
+    </ItemData>
+    <ItemData ItemID="30580" Name="[Ngoại trang] Tuyệt Sát" IconBundleDir="Icon/EquipIcon2.unity3d" IconAtlasName="EquipIcon2"
+        MapSpriteBundleDir="Resources/Item/MapSprite.unity3d" MapSpriteAtlasName="MapSprite" Kind="Hoàng Kim PVP_Đại Đao Nhất Phẩm Đường_Hỏa"
+        QualityPrefix="0" Category="19" Genre="0" Stack="1" DetailType="35" ParticularType="20018" Level="1" SuiteID="-1" View="n_dadao_09_s"
+        Icon="n_dadao_09" Intro="" Help="" ObjID="1" BindType="1" Series="0" ReqLevel="0" CDType="0" Price="0" ItemValue="0" MakeCost="-1"
+        ResMale="82" ResFemale="82" FightPower="0" ScriptID="-1" DeductOnUse="false" BuffID="-1">
+        <ListBasicProp BasicPropType="lifemax_p" BasicPropPA1Min="100" BasicPropPA1Max="100" BasicPropPA2Min="0" BasicPropPA2Max="0"
+            BasicPropPA3Min="0" BasicPropPA3Max="0" Index="1" />
+    </ItemData>
+    <ItemData ItemID="30581" Name="[Ngoại trang] dadao10" IconBundleDir="Icon/EquipIcon2.unity3d" IconAtlasName="EquipIcon2"
+        MapSpriteBundleDir="Resources/Item/MapSprite.unity3d" MapSpriteAtlasName="MapSprite" Kind="dadao10" QualityPrefix="0" Category="19" Genre="0"
+        Stack="1" DetailType="35" ParticularType="1" Level="1" SuiteID="-1" View="" Icon="" Intro="" Help="" ObjID="1" BindType="1" Series="0"
+        ReqLevel="0" CDType="0" Price="0" ItemValue="0" MakeCost="-1" ResMale="83" ResFemale="83" FightPower="0" ScriptID="-1" DeductOnUse="false"
+        BuffID="-1">
+        <ListBasicProp BasicPropType="lifemax_p" BasicPropPA1Min="100" BasicPropPA1Max="100" BasicPropPA2Min="0" BasicPropPA2Max="0"
+            BasicPropPA3Min="0" BasicPropPA3Max="0" Index="1" />
+    </ItemData>
+    <ItemData ItemID="30582" Name="[Ngoại trang] dadao11" IconBundleDir="Icon/EquipIcon2.unity3d" IconAtlasName="EquipIcon2"
+        MapSpriteBundleDir="Resources/Item/MapSprite.unity3d" MapSpriteAtlasName="MapSprite" Kind="dadao11" QualityPrefix="0" Category="19" Genre="0"
+        Stack="1" DetailType="35" ParticularType="1" Level="1" SuiteID="-1" View="" Icon="" Intro="" Help="" ObjID="1" BindType="1" Series="0"
+        ReqLevel="0" CDType="0" Price="0" ItemValue="0" MakeCost="-1" ResMale="84" ResFemale="84" FightPower="0" ScriptID="-1" DeductOnUse="false"
+        BuffID="-1">
+        <ListBasicProp BasicPropType="lifemax_p" BasicPropPA1Min="100" BasicPropPA1Max="100" BasicPropPA2Min="0" BasicPropPA2Max="0"
+            BasicPropPA3Min="0" BasicPropPA3Max="0" Index="1" />
+    </ItemData>
+    <ItemData ItemID="30583" Name="[Ngoại trang] dadao12" IconBundleDir="Icon/EquipIcon2.unity3d" IconAtlasName="EquipIcon2"
+        MapSpriteBundleDir="Resources/Item/MapSprite.unity3d" MapSpriteAtlasName="MapSprite" Kind="dadao12" QualityPrefix="0" Category="19" Genre="0"
+        Stack="1" DetailType="35" ParticularType="1" Level="1" SuiteID="-1" View="" Icon="" Intro="" Help="" ObjID="1" BindType="1" Series="0"
+        ReqLevel="0" CDType="0" Price="0" ItemValue="0" MakeCost="-1" ResMale="85" ResFemale="85" FightPower="0" ScriptID="-1" DeductOnUse="false"
+        BuffID="-1">
+        <ListBasicProp BasicPropType="lifemax_p" BasicPropPA1Min="100" BasicPropPA1Max="100" BasicPropPA2Min="0" BasicPropPA2Max="0"
+            BasicPropPA3Min="0" BasicPropPA3Max="0" Index="1" />
+    </ItemData>
+    <ItemData ItemID="30584" Name="[Ngoại trang] danshoujian11" IconBundleDir="Icon/EquipIcon2.unity3d" IconAtlasName="EquipIcon2"
+        MapSpriteBundleDir="Resources/Item/MapSprite.unity3d" MapSpriteAtlasName="MapSprite" Kind="danshoujian11" QualityPrefix="0" Category="12"
+        Genre="0" Stack="1" DetailType="35" ParticularType="1" Level="1" SuiteID="-1" View="" Icon="" Intro="" Help="" ObjID="1" BindType="1"
+        Series="0" ReqLevel="0" CDType="0" Price="0" ItemValue="0" MakeCost="-1" ResMale="86" ResFemale="86" FightPower="0" ScriptID="-1"
+        DeductOnUse="false" BuffID="-1">
+        <ListBasicProp BasicPropType="lifemax_p" BasicPropPA1Min="100" BasicPropPA1Max="100" BasicPropPA2Min="0" BasicPropPA2Max="0"
+            BasicPropPA3Min="0" BasicPropPA3Max="0" Index="1" />
+    </ItemData>
+    <ItemData ItemID="30585" Name="[Ngoại trang] danshoudao11" IconBundleDir="Icon/EquipIcon2.unity3d" IconAtlasName="EquipIcon2"
+        MapSpriteBundleDir="Resources/Item/MapSprite.unity3d" MapSpriteAtlasName="MapSprite" Kind="danshoudao11" QualityPrefix="0" Category="13"
+        Genre="0" Stack="1" DetailType="35" ParticularType="1" Level="1" SuiteID="-1" View="" Icon="" Intro="" Help="" ObjID="1" BindType="1"
+        Series="0" ReqLevel="0" CDType="0" Price="0" ItemValue="0" MakeCost="-1" ResMale="87" ResFemale="87" FightPower="0" ScriptID="-1"
+        DeductOnUse="false" BuffID="-1">
+        <ListBasicProp BasicPropType="lifemax_p" BasicPropPA1Min="100" BasicPropPA1Max="100" BasicPropPA2Min="0" BasicPropPA2Max="0"
+            BasicPropPA3Min="0" BasicPropPA3Max="0" Index="1" />
+    </ItemData>
+    <ItemData ItemID="30586" Name="[Ngoại trang] changqiang11" IconBundleDir="Icon/EquipIcon2.unity3d" IconAtlasName="EquipIcon2"
+        MapSpriteBundleDir="Resources/Item/MapSprite.unity3d" MapSpriteAtlasName="MapSprite" Kind="changqiang11" QualityPrefix="0" Category="14"
+        Genre="0" Stack="1" DetailType="35" ParticularType="1" Level="1" SuiteID="-1" View="" Icon="" Intro="" Help="" ObjID="1" BindType="1"
+        Series="0" ReqLevel="0" CDType="0" Price="0" ItemValue="0" MakeCost="-1" ResMale="88" ResFemale="88" FightPower="0" ScriptID="-1"
+        DeductOnUse="false" BuffID="-1">
+        <ListBasicProp BasicPropType="lifemax_p" BasicPropPA1Min="100" BasicPropPA1Max="100" BasicPropPA2Min="0" BasicPropPA2Max="0"
+            BasicPropPA3Min="0" BasicPropPA3Max="0" Index="1" />
+    </ItemData>
+    <ItemData ItemID="30587" Name="[Ngoại trang] changgun11" IconBundleDir="Icon/EquipIcon2.unity3d" IconAtlasName="EquipIcon2"
+        MapSpriteBundleDir="Resources/Item/MapSprite.unity3d" MapSpriteAtlasName="MapSprite" Kind="changgun11" QualityPrefix="0" Category="15"
+        Genre="0" Stack="1" DetailType="35" ParticularType="1" Level="1" SuiteID="-1" View="" Icon="" Intro="" Help="" ObjID="1" BindType="1"
+        Series="0" ReqLevel="0" CDType="0" Price="0" ItemValue="0" MakeCost="-1" ResMale="89" ResFemale="89" FightPower="0" ScriptID="-1"
+        DeductOnUse="false" BuffID="-1">
+        <ListBasicProp BasicPropType="lifemax_p" BasicPropPA1Min="100" BasicPropPA1Max="100" BasicPropPA2Min="0" BasicPropPA2Max="0"
+            BasicPropPA3Min="0" BasicPropPA3Max="0" Index="1" />
+    </ItemData>
+    <ItemData ItemID="30588" Name="[Ngoại trang] shuangchui11" IconBundleDir="Icon/EquipIcon2.unity3d" IconAtlasName="EquipIcon2"
+        MapSpriteBundleDir="Resources/Item/MapSprite.unity3d" MapSpriteAtlasName="MapSprite" Kind="shuangchui11" QualityPrefix="0" Category="16"
+        Genre="0" Stack="1" DetailType="35" ParticularType="1" Level="1" SuiteID="-1" View="" Icon="" Intro="" Help="" ObjID="1" BindType="1"
+        Series="0" ReqLevel="0" CDType="0" Price="0" ItemValue="0" MakeCost="-1" ResMale="90" ResFemale="90" FightPower="0" ScriptID="-1"
+        DeductOnUse="false" BuffID="-1">
+        <ListBasicProp BasicPropType="lifemax_p" BasicPropPA1Min="100" BasicPropPA1Max="100" BasicPropPA2Min="0" BasicPropPA2Max="0"
+            BasicPropPA3Min="0" BasicPropPA3Max="0" Index="1" />
+    </ItemData>
+    <ItemData ItemID="30589" Name="[Ngoại trang] changdao11" IconBundleDir="Icon/EquipIcon2.unity3d" IconAtlasName="EquipIcon2"
+        MapSpriteBundleDir="Resources/Item/MapSprite.unity3d" MapSpriteAtlasName="MapSprite" Kind="changdao11" QualityPrefix="0" Category="17"
+        Genre="0" Stack="1" DetailType="35" ParticularType="1" Level="1" SuiteID="-1" View="" Icon="" Intro="" Help="" ObjID="1" BindType="1"
+        Series="0" ReqLevel="0" CDType="0" Price="0" ItemValue="0" MakeCost="-1" ResMale="91" ResFemale="91" FightPower="0" ScriptID="-1"
+        DeductOnUse="false" BuffID="-1">
+        <ListBasicProp BasicPropType="lifemax_p" BasicPropPA1Min="100" BasicPropPA1Max="100" BasicPropPA2Min="0" BasicPropPA2Max="0"
+            BasicPropPA3Min="0" BasicPropPA3Max="0" Index="1" />
+    </ItemData>
+    <ItemData ItemID="30590" Name="[Ngoại trang] ren11" IconBundleDir="Icon/EquipIcon2.unity3d" IconAtlasName="EquipIcon2"
+        MapSpriteBundleDir="Resources/Item/MapSprite.unity3d" MapSpriteAtlasName="MapSprite" Kind="ren11" QualityPrefix="0" Category="18" Genre="0"
+        Stack="1" DetailType="35" ParticularType="1" Level="1" SuiteID="-1" View="" Icon="" Intro="" Help="" ObjID="1" BindType="1" Series="0"
+        ReqLevel="0" CDType="0" Price="0" ItemValue="0" MakeCost="-1" ResMale="92" ResFemale="92" FightPower="0" ScriptID="-1" DeductOnUse="false"
+        BuffID="-1">
+        <ListBasicProp BasicPropType="lifemax_p" BasicPropPA1Min="100" BasicPropPA1Max="100" BasicPropPA2Min="0" BasicPropPA2Max="0"
+            BasicPropPA3Min="0" BasicPropPA3Max="0" Index="1" />
+    </ItemData>
+    <ItemData ItemID="30591" Name="[Ngoại trang] danshoujian12" IconBundleDir="Icon/EquipIcon2.unity3d" IconAtlasName="EquipIcon2"
+        MapSpriteBundleDir="Resources/Item/MapSprite.unity3d" MapSpriteAtlasName="MapSprite" Kind="danshoujian12" QualityPrefix="0" Category="12"
+        Genre="0" Stack="1" DetailType="35" ParticularType="1" Level="1" SuiteID="-1" View="" Icon="" Intro="" Help="" ObjID="1" BindType="1"
+        Series="0" ReqLevel="0" CDType="0" Price="0" ItemValue="0" MakeCost="-1" ResMale="93" ResFemale="93" FightPower="0" ScriptID="-1"
+        DeductOnUse="false" BuffID="-1">
+        <ListBasicProp BasicPropType="lifemax_p" BasicPropPA1Min="100" BasicPropPA1Max="100" BasicPropPA2Min="0" BasicPropPA2Max="0"
+            BasicPropPA3Min="0" BasicPropPA3Max="0" Index="1" />
+    </ItemData>
+    <ItemData ItemID="30592" Name="[Ngoại trang] danshoudao12" IconBundleDir="Icon/EquipIcon2.unity3d" IconAtlasName="EquipIcon2"
+        MapSpriteBundleDir="Resources/Item/MapSprite.unity3d" MapSpriteAtlasName="MapSprite" Kind="danshoudao12" QualityPrefix="0" Category="13"
+        Genre="0" Stack="1" DetailType="35" ParticularType="1" Level="1" SuiteID="-1" View="" Icon="" Intro="" Help="" ObjID="1" BindType="1"
+        Series="0" ReqLevel="0" CDType="0" Price="0" ItemValue="0" MakeCost="-1" ResMale="94" ResFemale="94" FightPower="0" ScriptID="-1"
+        DeductOnUse="false" BuffID="-1">
+        <ListBasicProp BasicPropType="lifemax_p" BasicPropPA1Min="100" BasicPropPA1Max="100" BasicPropPA2Min="0" BasicPropPA2Max="0"
+            BasicPropPA3Min="0" BasicPropPA3Max="0" Index="1" />
+    </ItemData>
+    <ItemData ItemID="30593" Name="[Ngoại trang] changqiang12" IconBundleDir="Icon/EquipIcon2.unity3d" IconAtlasName="EquipIcon2"
+        MapSpriteBundleDir="Resources/Item/MapSprite.unity3d" MapSpriteAtlasName="MapSprite" Kind="changqiang12" QualityPrefix="0" Category="14"
+        Genre="0" Stack="1" DetailType="35" ParticularType="1" Level="1" SuiteID="-1" View="" Icon="" Intro="" Help="" ObjID="1" BindType="1"
+        Series="0" ReqLevel="0" CDType="0" Price="0" ItemValue="0" MakeCost="-1" ResMale="95" ResFemale="95" FightPower="0" ScriptID="-1"
+        DeductOnUse="false" BuffID="-1">
+        <ListBasicProp BasicPropType="lifemax_p" BasicPropPA1Min="100" BasicPropPA1Max="100" BasicPropPA2Min="0" BasicPropPA2Max="0"
+            BasicPropPA3Min="0" BasicPropPA3Max="0" Index="1" />
+    </ItemData>
+    <ItemData ItemID="30594" Name="[Ngoại trang] changgun12" IconBundleDir="Icon/EquipIcon2.unity3d" IconAtlasName="EquipIcon2"
+        MapSpriteBundleDir="Resources/Item/MapSprite.unity3d" MapSpriteAtlasName="MapSprite" Kind="changgun12" QualityPrefix="0" Category="15"
+        Genre="0" Stack="1" DetailType="35" ParticularType="1" Level="1" SuiteID="-1" View="" Icon="" Intro="" Help="" ObjID="1" BindType="1"
+        Series="0" ReqLevel="0" CDType="0" Price="0" ItemValue="0" MakeCost="-1" ResMale="96" ResFemale="96" FightPower="0" ScriptID="-1"
+        DeductOnUse="false" BuffID="-1">
+        <ListBasicProp BasicPropType="lifemax_p" BasicPropPA1Min="100" BasicPropPA1Max="100" BasicPropPA2Min="0" BasicPropPA2Max="0"
+            BasicPropPA3Min="0" BasicPropPA3Max="0" Index="1" />
+    </ItemData>
+    <ItemData ItemID="30595" Name="[Ngoại trang] shuangchui12" IconBundleDir="Icon/EquipIcon2.unity3d" IconAtlasName="EquipIcon2"
+        MapSpriteBundleDir="Resources/Item/MapSprite.unity3d" MapSpriteAtlasName="MapSprite" Kind="shuangchui12" QualityPrefix="0" Category="16"
+        Genre="0" Stack="1" DetailType="35" ParticularType="1" Level="1" SuiteID="-1" View="" Icon="" Intro="" Help="" ObjID="1" BindType="1"
+        Series="0" ReqLevel="0" CDType="0" Price="0" ItemValue="0" MakeCost="-1" ResMale="97" ResFemale="97" FightPower="0" ScriptID="-1"
+        DeductOnUse="false" BuffID="-1">
+        <ListBasicProp BasicPropType="lifemax_p" BasicPropPA1Min="100" BasicPropPA1Max="100" BasicPropPA2Min="0" BasicPropPA2Max="0"
+            BasicPropPA3Min="0" BasicPropPA3Max="0" Index="1" />
+    </ItemData>
+    <ItemData ItemID="30596" Name="[Ngoại trang] changdao12" IconBundleDir="Icon/EquipIcon2.unity3d" IconAtlasName="EquipIcon2"
+        MapSpriteBundleDir="Resources/Item/MapSprite.unity3d" MapSpriteAtlasName="MapSprite" Kind="changdao12" QualityPrefix="0" Category="17"
+        Genre="0" Stack="1" DetailType="35" ParticularType="1" Level="1" SuiteID="-1" View="" Icon="" Intro="" Help="" ObjID="1" BindType="1"
+        Series="0" ReqLevel="0" CDType="0" Price="0" ItemValue="0" MakeCost="-1" ResMale="98" ResFemale="98" FightPower="0" ScriptID="-1"
+        DeductOnUse="false" BuffID="-1">
+        <ListBasicProp BasicPropType="lifemax_p" BasicPropPA1Min="100" BasicPropPA1Max="100" BasicPropPA2Min="0" BasicPropPA2Max="0"
+            BasicPropPA3Min="0" BasicPropPA3Max="0" Index="1" />
+    </ItemData>
+    <ItemData ItemID="30597" Name="[Ngoại trang] ren12" IconBundleDir="Icon/EquipIcon2.unity3d" IconAtlasName="EquipIcon2"
+        MapSpriteBundleDir="Resources/Item/MapSprite.unity3d" MapSpriteAtlasName="MapSprite" Kind="ren12" QualityPrefix="0" Category="18" Genre="0"
+        Stack="1" DetailType="35" ParticularType="1" Level="1" SuiteID="-1" View="" Icon="" Intro="" Help="" ObjID="1" BindType="1" Series="0"
+        ReqLevel="0" CDType="0" Price="0" ItemValue="0" MakeCost="-1" ResMale="99" ResFemale="99" FightPower="0" ScriptID="-1" DeductOnUse="false"
+        BuffID="-1">
+        <ListBasicProp BasicPropType="lifemax_p" BasicPropPA1Min="100" BasicPropPA1Max="100" BasicPropPA2Min="0" BasicPropPA2Max="0"
+            BasicPropPA3Min="0" BasicPropPA3Max="0" Index="1" />
+    </ItemData>
+
+    <ItemData ItemID="15750" Name="[Ngoại trang] Song Long Chiến Tướng - Côn" IconBundleDir="Icon/EquipIcon2.unity3d" IconAtlasName="EquipIcon2"
+        MapSpriteBundleDir="Resources/Item/MapSprite.unity3d" MapSpriteAtlasName="MapSprite" Kind="Ngoại trang - Côn" QualityPrefix="0" Category="14"
+        Genre="1" Stack="1" DetailType="35" ParticularType="504" Level="1" SuiteID="-1" Icon="n_gun_platinum_5" View="n_gun_platinum_5_s" Intro=""
+        Help="" ObjID="1" BindType="1" Series="0" ReqLevel="0" CDType="0" Price="0" ItemValue="28880000" MakeCost="-1" ResMale="43" ResFemale="43"
+        FightPower="0" ScriptID="-1" DeductOnUse="false" BuffID="-1">
+        <ListBasicProp BasicPropType="skillselfdamagetrim" BasicPropPA1Min="3" BasicPropPA1Max="3" BasicPropPA2Min="0" BasicPropPA2Max="0"
+            BasicPropPA3Min="0" BasicPropPA3Max="0" Index="1" />
+        <ListBasicProp BasicPropType="skilldamageptrim" BasicPropPA1Min="3" BasicPropPA1Max="3" BasicPropPA2Min="0" BasicPropPA2Max="0"
+            BasicPropPA3Min="0" BasicPropPA3Max="0" Index="2" />
+    </ItemData>
+</ArrayOfItemData>

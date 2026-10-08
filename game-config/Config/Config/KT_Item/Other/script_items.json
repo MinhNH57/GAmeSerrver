@@ -1,0 +1,3382 @@
+[
+    {
+        "ItemID": 1,
+        "Name": "Bạc khóa",
+        "Icon": "Icon_BacKhoa",
+        "Intro": "1 bạc khóa."
+    },
+    {
+        "ItemID": 2,
+        "Name": "Bạc",
+        "Icon": "Icon_Bac",
+        "Intro": "1 bạc."
+    },
+    {
+        "ItemID": 3,
+        "Name": "KNB",
+        "Icon": "Icon_Dong",
+        "Intro": "1 KNB."
+    },
+    {
+        "ItemID": 4,
+        "Name": "KNB Khóa",
+        "Icon": "Icon_DongKhoa",
+        "Intro": "1 KNB khóa."
+    },
+    {
+        "ItemID": 5,
+        "Name": "Tinh lực",
+        "Icon": "jingqisan",
+        "Intro": "1 tinh lực."
+    },
+    {
+        "ItemID": 6,
+        "Name": "Hoạt lực",
+        "Icon": "huoqisan",
+        "Intro": "1 hoạt lực."
+    },
+    {
+        "ItemID": 7,
+        "Name": " ",
+        "Icon": "arrow_left",
+        "Intro": ""
+    },
+    {
+        "ItemID": 10,
+        "Name": " ",
+        "Icon": "ott_rock",
+        "Intro": "Chiến thuật ra BÚA trong trò chơi Oẳn Tù Tì"
+    },
+    {
+        "ItemID": 11,
+        "Name": " ",
+        "Icon": "ott_paper",
+        "Intro": "Chiến thuật ra BAO trong trò chơi Oẳn Tù Tì"
+    },
+    {
+        "ItemID": 12,
+        "Name": " ",
+        "Icon": "ott_scissors",
+        "Intro": "Chiến thuật ra KÉO trong trò chơi Oẳn Tù Tì"
+    },
+    {
+        "ItemID": 1055,
+        "Name": "Thiệp bạc (cấp 2)",
+        "Icon": "partner_shuofu_2",
+        "Intro": "Tấm thiệp tinh xảo.<enter><color=gold>Đứng cạnh đối tượng đã chọn và Nhấn sử dụng dể dùng<color><enter><color=green>Với xác suất nhất định thuyết phục quái hình người ở bản đồ cấp 15 - 55 làm đồng hành.<color>",
+        "Level": 2,
+        "ScriptID": 200109,
+        "Stack": 10000
+    },
+    {
+        "ItemID": 20270,
+        "Name": "Thiệp vàng (cấp 3)",
+        "Icon": "partner_shuofu_3",
+        "Intro": "Tấm thiệp tinh xảo.<enter><color=#f9e2af>Đứng cạnh đối tượng đã chọn và Nhấn sử dụng dể dùng<color><enter><color=#a6e3a1>Với xác suất nhất định thuyết phục quái hình người ở bản đồ cấp 15 - 55 làm đồng hành.<color>",
+        "Level": 3,
+        "ScriptID": 200109,
+        "Stack": 10000
+    },
+    {
+        "ItemID": 20271,
+        "Name": "Xu Sinh nhật",
+        "Icon": "birthday_coin",
+        "Intro": "Dùng để tham gia hoạt động Bách Bảo Rương đặc biệt.",
+        "Stack": 10000
+    },
+    {
+        "ItemID": 20272,
+        "Name": "Sách Kỹ năng Đồng hành (cấp 1)",
+        "Icon": "pet_skill_book_1",
+        "Level": 1,
+        "Intro": "Sử dụng có tỉ lệ bồi dưỡng thêm một kỹ năng cho bạn đồng hành được chỉ định.",
+        "Stack": 100,
+        "ScriptID": 200123
+    },
+    {
+        "ItemID": 20273,
+        "Name": "Sách Kỹ năng Đồng hành (cấp 2)",
+        "Icon": "pet_skill_book_2",
+        "Level": 2,
+        "Intro": "Sử dụng có tỉ lệ bồi dưỡng thêm một kỹ năng cho bạn đồng hành được chỉ định.",
+        "Stack": 100,
+        "ScriptID": 200123
+    },
+    {
+        "ItemID": 20274,
+        "Name": "Sách Kỹ năng Đồng hành (cấp 3)",
+        "Icon": "pet_skill_book_3",
+        "Level": 3,
+        "Intro": "Sử dụng có tỉ lệ bồi dưỡng thêm một kỹ năng cho bạn đồng hành được chỉ định.",
+        "Stack": 100,
+        "ScriptID": 200123
+    },
+    {
+        "ItemID": 20275,
+        "Name": "Sách Kỹ năng Đồng hành - Cam Vũ Lâm Hoa (cấp 1)",
+        "Icon": "xindeshu_4_s",
+        "Level": 1,
+        "ItemValue": 2008,
+        "Intro": "Sử dụng có tỉ lệ bồi dưỡng thêm kỹ năng Cam Vũ Lâm Hoa cho bạn đồng hành được chỉ định.",
+        "Stack": 100,
+        "ScriptID": 200945
+    },
+    {
+        "ItemID": 20276,
+        "Name": "Sách Kỹ năng Đồng hành - Đạp Bộ Mê Tung (cấp 1)",
+        "Icon": "xindeshu_4_s",
+        "Level": 1,
+        "ItemValue": 2009,
+        "Intro": "Sử dụng có tỉ lệ bồi dưỡng thêm kỹ năng Đạp Bộ Mê Tung cho bạn đồng hành được chỉ định.",
+        "Stack": 100,
+        "ScriptID": 200945
+    },
+    {
+        "ItemID": 20277,
+        "Name": "Sách Kỹ năng Đồng hành - Diệu Thủ Hồi Xuân (cấp 1)",
+        "Icon": "xindeshu_4_s",
+        "Level": 1,
+        "ItemValue": 2010,
+        "Intro": "Sử dụng có tỉ lệ bồi dưỡng thêm kỹ năng Diệu Thủ Hồi Xuân cho bạn đồng hành được chỉ định.",
+        "Stack": 100,
+        "ScriptID": 200945
+    },
+    {
+        "ItemID": 20278,
+        "Name": "Sách Kỹ năng Đồng hành - Hội Thần Tĩnh Tâm (cấp 1)",
+        "Icon": "xindeshu_4_s",
+        "Level": 1,
+        "ItemValue": 2011,
+        "Intro": "Sử dụng có tỉ lệ bồi dưỡng thêm kỹ năng Hội Thần Tĩnh Tâm cho bạn đồng hành được chỉ định.",
+        "Stack": 100,
+        "ScriptID": 200945
+    },
+    {
+        "ItemID": 20279,
+        "Name": "Sách Kỹ năng Đồng hành - Ích Thọ Âm Dương (cấp 1)",
+        "Icon": "xindeshu_4_s",
+        "Level": 1,
+        "ItemValue": 2012,
+        "Intro": "Sử dụng có tỉ lệ bồi dưỡng thêm kỹ năng Ích Thọ Âm Dương cho bạn đồng hành được chỉ định.",
+        "Stack": 100,
+        "ScriptID": 200945
+    },
+    {
+        "ItemID": 20280,
+        "Name": "Sách Kỹ năng Đồng hành - Kinh Hồng Nhất Kích (cấp 1)",
+        "Icon": "xindeshu_4_s",
+        "Level": 1,
+        "ItemValue": 2013,
+        "Intro": "Sử dụng có tỉ lệ bồi dưỡng thêm kỹ năng Kinh Hồng Nhất Kích cho bạn đồng hành được chỉ định.",
+        "Stack": 100,
+        "ScriptID": 200945
+    },
+    {
+        "ItemID": 20281,
+        "Name": "Sách Kỹ năng Đồng hành - Ngũ Hành Vô Tướng (cấp 1)",
+        "Icon": "xindeshu_4_s",
+        "Level": 1,
+        "ItemValue": 2014,
+        "Intro": "Sử dụng có tỉ lệ bồi dưỡng thêm kỹ năng Ngũ Hành Vô Tướng cho bạn đồng hành được chỉ định.",
+        "Stack": 100,
+        "ScriptID": 200945
+    },
+    {
+        "ItemID": 20282,
+        "Name": "Sách Kỹ năng Đồng hành - Phá Không Trảm Ảnh (cấp 1)",
+        "Icon": "xindeshu_4_s",
+        "Level": 1,
+        "ItemValue": 2015,
+        "Intro": "Sử dụng có tỉ lệ bồi dưỡng thêm kỹ năng Phá Không Trảm Ảnh cho bạn đồng hành được chỉ định.",
+        "Stack": 100,
+        "ScriptID": 200945
+    },
+    {
+        "ItemID": 20283,
+        "Name": "Sách Kỹ năng Đồng hành - Truy Ảnh Quyết (cấp 1)",
+        "Icon": "xindeshu_4_s",
+        "Level": 1,
+        "ItemValue": 2016,
+        "Intro": "Sử dụng có tỉ lệ bồi dưỡng thêm kỹ năng Truy Ảnh Quyết cho bạn đồng hành được chỉ định.",
+        "Stack": 100,
+        "ScriptID": 200945
+    },
+    {
+        "ItemID": 20284,
+        "Name": "Sách Kỹ năng Đồng hành - Từ Bi Tế Vũ (cấp 1)",
+        "Icon": "xindeshu_4_s",
+        "Level": 1,
+        "ItemValue": 2017,
+        "Intro": "Sử dụng có tỉ lệ bồi dưỡng thêm kỹ năng Từ Bi Tế Vũ cho bạn đồng hành được chỉ định.",
+        "Stack": 100,
+        "ScriptID": 200945
+    },
+    {
+        "ItemID": 20285,
+        "Name": "Sách Kỹ năng Đồng hành - Vô Niệm Kinh (cấp 1)",
+        "Icon": "xindeshu_4_s",
+        "Level": 1,
+        "ItemValue": 2018,
+        "Intro": "Sử dụng có tỉ lệ bồi dưỡng thêm kỹ năng Đạp Bộ Mê Tung cho bạn đồng hành được chỉ định.",
+        "Stack": 100,
+        "ScriptID": 200945
+    },
+    {
+        "ItemID": 20290,
+        "Name": "Phiếu đổi quà Sinh nhật",
+        "Icon": "birthday_coupon",
+        "Intro": "Dùng để đổi quà tặng sinh nhật mừng Kiếm Vương 1 ADNX tròn 1 tuổi.",
+        "Stack": 100
+    },
+    {
+        "ItemID": 20291,
+        "Name": "Tinh hoạt lực (1 vạn)",
+        "Icon": "zhanshenjiu",
+        "Intro": "Trực tiếp nhận được 1 vạn tinh lực, 1 vạn hoạt lực.",
+        "Stack": 10000,
+        "ScriptID": 200060,
+        "ItemValue": 200175,
+        "ListExtPram": [
+            {
+                "Pram": 2,
+                "Index": 1
+            }
+        ]
+    },
+    {
+        "ItemID": 20292,
+        "Name": "Bạch Hổ Đường Luyện hóa đồ",
+        "Icon": "luyenhoado_bachho",
+        "Intro": "Giấy ghi cách luyện hóa vật phẩm từ Bạch Hổ Đường.",
+        "Genre": 18,
+        "DetailType": 2
+    },
+    {
+        "ItemID": 20307,
+        "Name": "Rương Dạ Minh Châu",
+        "Icon": "qinling_yemingzhu_xiang",
+        "Intro": "Chứa 20 viên Dạ Minh Châu.",
+        "ScriptID": 200060,
+        "ItemValue": 200183,
+        "Stack": 10
+    },
+    {
+        "ItemID": 20308,
+        "Name": "Yên ngựa",
+        "Icon": "vn_yibandemaantohorse",
+        "Intro": "Dùng để nâng cấp thú cưỡi tại Tuệ Nhãn Tướng Ngựa",
+        "Stack": 100
+    },
+    {
+        "ItemID": 20309,
+        "Name": "Dây cương",
+        "Icon": "vn_majiangsheng",
+        "Intro": "Dùng để nâng cấp thú cưỡi tại Tuệ Nhãn Tướng Ngựa",
+        "Stack": 100
+    },
+    {
+        "ItemID": 20312,
+        "Name": "Nghĩa Quân Luyện hóa đồ",
+        "Icon": "luyenhoado_nghiaquan",
+        "Intro": "Giấy ghi cách luyện hóa vật phẩm từ Nghĩa Quân.",
+        "Genre": 18,
+        "DetailType": 2
+    },
+    {
+        "ItemID": 20313,
+        "Name": "Gia tộc Luyện hóa đồ",
+        "Icon": "luyenhoado_nghiaquan",
+        "Intro": "Giấy ghi cách luyện hóa vật phẩm từ Gia tộc.",
+        "Genre": 18,
+        "DetailType": 2
+    },
+    {
+        "ItemID": 20314,
+        "Name": "Môn phái Luyện hóa đồ",
+        "Icon": "luyenhoado_monphai",
+        "Intro": "Giấy ghi cách luyện hóa vật phẩm từ Môn phái.",
+        "Genre": 18,
+        "DetailType": 2
+    },
+    {
+        "ItemID": 20315,
+        "Name": "Tống Kim Luyện hóa đồ",
+        "Icon": "luyenhoado_tongkim",
+        "Intro": "Giấy ghi cách luyện hóa vật phẩm từ Tống Kim.",
+        "Genre": 18,
+        "DetailType": 2
+    },
+    {
+        "ItemID": 20316,
+        "Name": "Rương Song Long Xuất Hải",
+        "Icon": "ruong_rong",
+        "Intro": "Phần thưởng sự kiện Song Long Xuất Hải, chứa nhiều vật phẩm quý hiếm.",
+        "ScriptID": 200060,
+        "ItemValue": 200190,
+        "Stack": 100
+    },
+    {
+        "ItemID": 20317,
+        "Name": "Danh hiệu Song Long Xuất Hải",
+        "Icon": "quest_0084_s",
+        "Intro": "Phần thưởng sự kiện Song Long Xuất Hải. Sử dụng nhận được danh hiệu Song Long Xuất Hải (60 ngày).",
+        "ScriptID": 200060,
+        "ItemValue": 200191
+    },
+    {
+        "ItemID": 20318,
+        "Name": "Chúc phúc Song Long Xuất Hải - TOP 1",
+        "Icon": "quest_0084_s",
+        "Intro": "Phần thưởng sự kiện Song Long Xuất Hải. Sử dụng nhận được chúc phúc.",
+        "ScriptID": 200120,
+        "ListExtPram": [
+            {
+                "Pram": 2028,
+                "Index": 1
+            },
+            {
+                "Pram": 86401,
+                "Index": 2
+            }
+        ],
+        "Stack": 1
+    },
+    {
+        "ItemID": 20319,
+        "Name": "Chúc phúc Song Long Xuất Hải - TOP 2",
+        "Icon": "quest_0084_s",
+        "Intro": "Phần thưởng sự kiện Song Long Xuất Hải. Sử dụng nhận được chúc phúc.",
+        "ScriptID": 200120,
+        "ListExtPram": [
+            {
+                "Pram": 2029,
+                "Index": 1
+            },
+            {
+                "Pram": 86401,
+                "Index": 2
+            }
+        ],
+        "Stack": 1
+    },
+    {
+        "ItemID": 20320,
+        "Name": "Chúc phúc Song Long Xuất Hải - TOP 3",
+        "Icon": "quest_0084_s",
+        "Intro": "Phần thưởng sự kiện Song Long Xuất Hải. Sử dụng nhận được chúc phúc.",
+        "ScriptID": 200120,
+        "ListExtPram": [
+            {
+                "Pram": 2040,
+                "Index": 1
+            },
+            {
+                "Pram": 43201,
+                "Index": 2
+            }
+        ],
+        "Stack": 1
+    },
+    {
+        "ItemID": 20321,
+        "Name": "Rương Vui Game Dân Gian - Chiến Thắng (100KNB)",
+        "Icon": "huangjbaoxiang",
+        "Intro": "Phần thưởng giành cho người chơi chiến thắng trong hoạt động Vui Game Dân Gian.",
+        "Stack": 100,
+        "ScriptID": 200060,
+        "ItemValue": 200194
+    },
+    {
+        "ItemID": 20322,
+        "Name": "Rương Vui Game Dân Gian - An Ủi (100KNB)",
+        "Icon": "heitiebaoxiang",
+        "Intro": "Phần thưởng giành cho người chơi hòa/thua trong hoạt động Vui Game Dân Gian.",
+        "Stack": 100,
+        "ScriptID": 200060,
+        "ItemValue": 200195
+    },
+    {
+        "ItemID": 20323,
+        "Name": "Rương Vui Game Dân Gian - Chiến Thắng (1000KNB)",
+        "Icon": "huangjbaoxiang",
+        "Intro": "Phần thưởng giành cho người chơi chiến thắng trong hoạt động Vui Game Dân Gian.",
+        "Stack": 100,
+        "ScriptID": 200060,
+        "ItemValue": 200196
+    },
+    {
+        "ItemID": 20324,
+        "Name": "Rương Vui Game Dân Gian - An Ủi (1000KNB)",
+        "Icon": "heitiebaoxiang",
+        "Intro": "Phần thưởng giành cho người chơi hòa/thua trong hoạt động Vui Game Dân Gian.",
+        "Stack": 100,
+        "ScriptID": 200060,
+        "ItemValue": 200197
+    },
+    {
+        "ItemID": 20325,
+        "Name": "Rương Vui Game Dân Gian - Chiến Thắng (100 vạn bạc khóa)",
+        "Icon": "huangjbaoxiang",
+        "Intro": "Phần thưởng giành cho người chơi chiến thắng trong hoạt động Vui Game Dân Gian.",
+        "Stack": 100,
+        "ScriptID": 200060,
+        "ItemValue": 200192
+    },
+    {
+        "ItemID": 20326,
+        "Name": "Rương Vui Game Dân Gian - An Ủi (100 vạn bạc khóa)",
+        "Icon": "heitiebaoxiang",
+        "Intro": "Phần thưởng giành cho người chơi hòa/thua trong hoạt động Vui Game Dân Gian.",
+        "Stack": 100,
+        "ScriptID": 200060,
+        "ItemValue": 200193
+    },
+    {
+        "ItemID": 20327,
+        "Name": "Rương Vui Game Dân Gian - Tích Lũy 5",
+        "Icon": "baiyinbaoxiang",
+        "Intro": "Phần thưởng giành cho người chơi tích lũy được 5 lần chiến thắng với gói cược 1000KNB trong hoạt động Vui Game Dân Gian.",
+        "Stack": 100,
+        "ScriptID": 200060,
+        "ItemValue": 200198
+    },
+    {
+        "ItemID": 20328,
+        "Name": "Rương Vui Game Dân Gian - Tích Lũy 10",
+        "Icon": "baiyinbaoxiang",
+        "Intro": "Phần thưởng giành cho người chơi tích lũy được 10 lần chiến thắng với gói cược 1000KNB trong hoạt động Vui Game Dân Gian.",
+        "Stack": 100,
+        "ScriptID": 200060,
+        "ItemValue": 200199
+    },
+    {
+        "ItemID": 20329,
+        "Name": "Danh hiệu Nhất Đẳng Vương Gia",
+        "Icon": "quest_0084_s",
+        "Intro": "Phần thưởng giành cho người chơi đạt TOP 1 trong sự kiện Đua TOP Tài phú.",
+        "Stack": 1,
+        "ScriptID": 200060,
+        "ItemValue": 200200
+    },
+    {
+        "ItemID": 20330,
+        "Name": "Danh hiệu Phú Nhị Đại Gia",
+        "Icon": "quest_0084_s",
+        "Intro": "Phần thưởng giành cho người chơi đạt TOP 2 trong sự kiện Đua TOP Tài phú.",
+        "Stack": 1,
+        "ScriptID": 200060,
+        "ItemValue": 200201
+    },
+    {
+        "ItemID": 20331,
+        "Name": "Danh hiệu Phú Hào Kiếm Vương",
+        "Icon": "quest_0084_s",
+        "Intro": "Phần thưởng giành cho người chơi đạt TOP 3 trong sự kiện Đua TOP Tài phú.",
+        "Stack": 1,
+        "ScriptID": 200060,
+        "ItemValue": 200202
+    },
+    {
+        "ItemID": 20332,
+        "Name": "Rương Tuần lộc Giáng Sinh cấp 5 - 15 ngày",
+        "Icon": "horsebox_g",
+        "Intro": "Sử dụng nhận được <color=#f9e2af>Túy Nguyệt [Trục Quân] - Tuần lộc Giáng Sinh (cấp 5)</color>, thời hạn 15 ngày, tối đa đến 14/2/2024.",
+        "Stack": 1,
+        "ScriptID": 200060,
+        "ItemValue": 200203
+    },
+    {
+        "ItemID": 20333,
+        "Name": "Rương Tuần lộc Giáng Sinh cấp 3 - 15 ngày",
+        "Icon": "horsebox_g",
+        "Intro": "Sử dụng nhận được <color=#f9e2af>Túy Nguyệt [Thanh Huy] - Tuần lộc Giáng Sinh (cấp 3)</color>, thời hạn 15 ngày, tối đa đến 14/2/2024.",
+        "Stack": 1,
+        "ScriptID": 200060,
+        "ItemValue": 200204
+    },
+    {
+        "ItemID": 20334,
+        "Name": "Bạch Hổ Đường Luyện hóa đồ (mảnh lớn)",
+        "Icon": "luyenhoado_bachho_lon",
+        "Intro": "Giấy ghi cách luyện hóa vật phẩm từ Bạch Hổ Đường.",
+        "Genre": 22,
+        "DetailType": 2,
+        "Stack": 100
+    },
+    {
+        "ItemID": 20335,
+        "Name": "Bạch Hổ Đường Luyện hóa đồ (mảnh nhỏ)",
+        "Icon": "luyenhoado_bachho_nho",
+        "Intro": "Giấy ghi cách luyện hóa vật phẩm từ Bạch Hổ Đường.",
+        "Genre": 22,
+        "DetailType": 2,
+        "Price": 150000,
+        "Stack": 100
+    },
+    {
+        "ItemID": 20336,
+        "Name": "Nghĩa quân Luyện hóa đồ (mảnh lớn)",
+        "Icon": "luyenhoado_nghiaquan_lon",
+        "Intro": "Giấy ghi cách luyện hóa vật phẩm từ cửa hàng Nghĩa Quân.",
+        "Genre": 22,
+        "DetailType": 2,
+        "Stack": 100
+    },
+    {
+        "ItemID": 20337,
+        "Name": "Nghĩa quân Luyện hóa đồ (mảnh nhỏ)",
+        "Icon": "luyenhoado_nghiaquan_nho",
+        "Intro": "Giấy ghi cách luyện hóa vật phẩm từ cửa hàng Nghĩa Quân.",
+        "Genre": 22,
+        "DetailType": 2,
+        "Price": 150000,
+        "Stack": 100
+    },
+    {
+        "ItemID": 20338,
+        "Name": "Tống Kim Luyện hóa đồ (mảnh lớn)",
+        "Icon": "luyenhoado_tongkim_lon",
+        "Intro": "Giấy ghi cách luyện hóa vật phẩm từ cửa hàng Tống Kim.",
+        "Genre": 22,
+        "DetailType": 2,
+        "Stack": 100
+    },
+    {
+        "ItemID": 20339,
+        "Name": "Tống Kim Luyện hóa đồ (mảnh nhỏ)",
+        "Icon": "luyenhoado_tongkim_nho",
+        "Intro": "Giấy ghi cách luyện hóa vật phẩm từ cửa hàng Tống Kim.",
+        "Genre": 22,
+        "DetailType": 2,
+        "Price": 150000,
+        "Stack": 100
+    },
+    {
+        "ItemID": 20340,
+        "Name": "Gia tộc Luyện hóa đồ (mảnh lớn)",
+        "Icon": "luyenhoado_giatoc_lon",
+        "Intro": "Giấy ghi cách luyện hóa vật phẩm từ cửa hàng Gia tộc.",
+        "Genre": 22,
+        "DetailType": 2,
+        "Stack": 100
+    },
+    {
+        "ItemID": 20341,
+        "Name": "Gia tộc Luyện hóa đồ (mảnh nhỏ)",
+        "Icon": "luyenhoado_giatoc_nho",
+        "Intro": "Giấy ghi cách luyện hóa vật phẩm từ cửa hàng Gia tộc.",
+        "Genre": 22,
+        "DetailType": 2,
+        "Price": 150000,
+        "Stack": 100
+    },
+    {
+        "ItemID": 20342,
+        "Name": "Môn phái Luyện hóa đồ (mảnh lớn)",
+        "Icon": "luyenhoado_monphai_lon",
+        "Intro": "Giấy ghi cách luyện hóa vật phẩm từ cửa hàng Môn phái.",
+        "Genre": 22,
+        "DetailType": 2,
+        "Stack": 100
+    },
+    {
+        "ItemID": 20343,
+        "Name": "Môn phái Luyện hóa đồ (mảnh nhỏ)",
+        "Icon": "luyenhoado_monphai_nho",
+        "Intro": "Giấy ghi cách luyện hóa vật phẩm từ cửa hàng Môn phái.",
+        "Genre": 22,
+        "DetailType": 2,
+        "Price": 150000,
+        "Stack": 100
+    },
+    {
+        "ItemID": 20344,
+        "Name": "Cờ chiến công",
+        "Icon": "qizhi_guyongbing",
+        "Intro": "Có thể dùng để nâng cấp Lôi Đình Ấn.",
+        "Genre": 22,
+        "DetailType": 2,
+        "Stack": 1000
+    },
+    {
+        "ItemID": 20345,
+        "Name": "Mảnh Lôi đình ấn",
+        "Icon": "leitingyinsuipian",
+        "Intro": "Có thể dùng để đúc Lôi Đình Ấn cấp cao hơn.",
+        "Genre": 22,
+        "DetailType": 2,
+        "Stack": 1000
+    },
+    {
+        "ItemID": 20361,
+        "Name": "Rương mặt nạ Tần Thủy Hoàng (90 ngày)",
+        "Icon": "ruong_rong",
+        "Intro": "Mở ra nhận được Mặt nạ Tần Thủy Hoàng, thời hạn 90 ngày.",
+        "Genre": 18,
+        "ScriptID": 200060,
+        "ItemValue": 200215
+    },
+    {
+        "ItemID": 20362,
+        "Name": "Bùa may mắn đồng hành (Sơ)",
+        "Icon": "luckycharm_5",
+        "Intro": "Sử dụng khi nâng cấp trang bị đồng hành (Bích Huyết, Kim Lân) để tăng thêm 5% tỷ lệ thành công.",
+        "Genre": 22,
+        "ItemValue": 5,
+        "Stack": 100
+    },
+    {
+        "ItemID": 20363,
+        "Name": "Bùa may mắn đồng hành (Trung)",
+        "Icon": "luckycharm_10",
+        "Intro": "Sử dụng khi nâng cấp trang bị đồng hành (Bích Huyết, Kim Lân) để tăng thêm 10% tỷ lệ thành công.",
+        "Genre": 22,
+        "ItemValue": 10,
+        "Stack": 100
+    },
+    {
+        "ItemID": 20364,
+        "Name": "Bùa may mắn đồng hành (Cao)",
+        "Icon": "luckycharm_15",
+        "Intro": "Sử dụng khi nâng cấp trang bị đồng hành (Bích Huyết, Kim Lân) để tăng thêm 15% tỷ lệ thành công.",
+        "Genre": 22,
+        "ItemValue": 15,
+        "Stack": 100
+    },
+    {
+        "ItemID": 20365,
+        "Name": "Bùa may mắn đồng hành (Siêu cấp)",
+        "Icon": "luckycharm_20",
+        "Intro": "Sử dụng khi nâng cấp trang bị đồng hành (Bích Huyết, Kim Lân) để tăng thêm 20% tỷ lệ thành công.",
+        "Genre": 22,
+        "ItemValue": 20,
+        "Stack": 100
+    },
+    {
+        "ItemID": 20366,
+        "Name": "Bùa may mắn đồng hành (Thần cấp)",
+        "Icon": "luckycharm_25",
+        "Intro": "Sử dụng khi nâng cấp trang bị đồng hành (Bích Huyết, Kim Lân) để tăng thêm 25% tỷ lệ thành công.",
+        "Genre": 22,
+        "ItemValue": 25,
+        "Stack": 100
+    },
+    {
+        "ItemID": 20367,
+        "Name": "Bùa may mắn đồng hành [Đặc biệt] (Sơ)",
+        "Icon": "luckycharm_5_sp",
+        "Intro": "Sử dụng khi nâng cấp trang bị đồng hành (Đơn Tâm, Long Đằng) để tăng thêm 5% tỷ lệ thành công.",
+        "Genre": 22,
+        "ItemValue": 5,
+        "Stack": 100
+    },
+    {
+        "ItemID": 20368,
+        "Name": "Bùa may mắn đồng hành [Đặc biệt] (Trung)",
+        "Icon": "luckycharm_10_sp",
+        "Intro": "Sử dụng khi nâng cấp trang bị đồng hành (Đơn Tâm, Long Đằng) để tăng thêm 10% tỷ lệ thành công.",
+        "Genre": 22,
+        "ItemValue": 10,
+        "Stack": 100
+    },
+    {
+        "ItemID": 20369,
+        "Name": "Bùa may mắn đồng hành [Đặc biệt] (Cao)",
+        "Icon": "luckycharm_15_sp",
+        "Intro": "Sử dụng khi nâng cấp trang bị đồng hành (Đơn Tâm, Long Đằng) để tăng thêm 15% tỷ lệ thành công.",
+        "Genre": 22,
+        "ItemValue": 15,
+        "Stack": 100
+    },
+    {
+        "ItemID": 20370,
+        "Name": "Bùa may mắn đồng hành [Đặc biệt] (Siêu cấp)",
+        "Icon": "luckycharm_20_sp",
+        "Intro": "Sử dụng khi nâng cấp trang bị đồng hành (Đơn Tâm, Long Đằng) để tăng thêm 20% tỷ lệ thành công.",
+        "Genre": 22,
+        "ItemValue": 20,
+        "Stack": 100
+    },
+    {
+        "ItemID": 20371,
+        "Name": "Bùa may mắn đồng hành [Đặc biệt] (Thần cấp)",
+        "Icon": "luckycharm_25_sp",
+        "Intro": "Sử dụng khi nâng cấp trang bị đồng hành (Đơn Tâm, Long Đằng) để tăng thêm 25% tỷ lệ thành công.",
+        "Genre": 22,
+        "ItemValue": 25,
+        "Stack": 100
+    },
+    {
+        "ItemID": 20372,
+        "Name": "Chân Long Bảo Rương",
+        "Icon": "ruong_rong",
+        "Intro": "Sử dụng nhận được ngẫu nhiên trang bị Chân Long hoặc điểm danh vọng.",
+        "Genre": 18,
+        "ScriptID": 200124
+    },
+    {
+        "ItemID": 20373,
+        "Name": "Chân Long Chi Liên Bảo Rương",
+        "Icon": "ruong_rong",
+        "Intro": "Sử dụng nhận được trang bị Chân Long Chi Liên theo hệ phái.",
+        "Genre": 18,
+        "ScriptID": 200125
+    },
+    {
+        "ItemID": 20374,
+        "Name": "Chân Long Thúc Thiết Giáp Bảo Rương",
+        "Icon": "ruong_rong",
+        "Intro": "Sử dụng nhận được trang bị Chân Long Thúc Thiết Giáp theo hệ phái.",
+        "Genre": 18,
+        "ScriptID": 200125
+    },
+    {
+        "ItemID": 20375,
+        "Name": "Chân Long Yêu Đái Bảo Rương",
+        "Icon": "ruong_rong",
+        "Intro": "Sử dụng nhận được trang bị Chân Long Yêu Đái theo hệ phái.",
+        "Genre": 18,
+        "ScriptID": 200125
+    },
+    {
+        "ItemID": 20376,
+        "Name": "Chân Long Thúc Thiết Uyển Bảo Rương",
+        "Icon": "ruong_rong",
+        "Intro": "Sử dụng nhận được trang bị Chân Long Thúc Thiết Uyển theo hệ phái.",
+        "Genre": 18,
+        "ScriptID": 200125
+    },
+    {
+        "ItemID": 20377,
+        "Name": "Chân Long Vân Bội Bảo Rương",
+        "Icon": "ruong_rong",
+        "Intro": "Sử dụng nhận được trang bị Chân Long Vân Bội theo hệ phái.",
+        "Genre": 18,
+        "ScriptID": 200125
+    },
+    {
+        "ItemID": 20378,
+        "Name": "Rương danh vọng (sơ cấp)",
+        "Icon": "huangjbaoxiang",
+        "Intro": "Sử dụng nhận được danh vọng cao quý",
+        "Stack": 100,
+        "Genre": 18,
+        "ScriptID": 200060,
+        "ItemValue": 200226,
+        "ListExtPram": [
+            {
+                "Pram": 2,
+                "Index": 1
+            }
+        ]
+    },
+    {
+        "ItemID": 20379,
+        "Name": "Rương mảnh trang bị đồng hành (trung cấp)",
+        "Icon": "shishang_0002",
+        "Intro": "Nhận được mảnh trang bị đồng hành.",
+        "Stack": 10000,
+        "Genre": 18,
+        "ScriptID": 200060,
+        "ItemValue": 200217,
+        "ListExtPram": [
+            {
+                "Pram": 2,
+                "Index": 1
+            }
+        ]
+    },
+    {
+        "ItemID": 20388,
+        "Name": "Chữ TẾT",
+        "Icon": "TET_icon",
+        "Intro": "Thư pháp chữ Tết do Thần Tài ban tặng. Sử dụng nhận được nhiều phần quà hấp dẫn.",
+        "Stack": 100,
+        "Genre": 18,
+        "ScriptID": 200060,
+        "ItemValue": 200227
+    },
+    {
+        "ItemID": 20389,
+        "Name": "Câu đối Tết [Đặc biệt 1]",
+        "Icon": "CAU_DOI_icon",
+        "Intro": "Câu đối Tết do Thần Tài ban tặng. Sử dụng nhận được nhiều phần quà hấp dẫn.",
+        "Stack": 100,
+        "Genre": 18,
+        "ScriptID": 200060,
+        "ItemValue": 200228
+    },
+    {
+        "ItemID": 20390,
+        "Name": "Câu đối Tết [Đặc biệt 2]",
+        "Icon": "CAU_DOI_icon",
+        "Intro": "Câu đối Tết do Thần Tài ban tặng. Sử dụng nhận được nhiều phần quà hấp dẫn.",
+        "Stack": 100,
+        "Genre": 18,
+        "ScriptID": 200060,
+        "ItemValue": 200229
+    },
+    {
+        "ItemID": 20391,
+        "Name": "Túi huyền tinh ngẫu nhiên [Sơ]",
+        "Icon": "tb_libao",
+        "Intro": "Sử dụng nhận được Huyền tinh ngẫu nhiên.",
+        "Stack": 100,
+        "Genre": 18,
+        "ScriptID": 200060,
+        "ItemValue": 200230
+    },
+    {
+        "ItemID": 20392,
+        "Name": "Phần quà Huyền tinh (Câu Đối Mừng Xuân) [Trung]",
+        "Icon": "tb_libao",
+        "Intro": "Sử dụng nhận được Huyền tinh ngẫu nhiên.",
+        "Stack": 100,
+        "Genre": 18,
+        "ScriptID": 200060,
+        "ItemValue": 200231
+    },
+    {
+        "ItemID": 20393,
+        "Name": "Phần quà Huyền tinh (Câu Đối Mừng Xuân) [Cao]",
+        "Icon": "tb_libao",
+        "Intro": "Sử dụng nhận được Huyền tinh ngẫu nhiên.",
+        "Stack": 100,
+        "Genre": 18,
+        "ScriptID": 200060,
+        "ItemValue": 200232
+    },
+    {
+        "ItemID": 20394,
+        "Name": "Phần quà Danh vọng (Câu Đối Mừng Xuân) [1]",
+        "Icon": "tb_daijinquan",
+        "Intro": "Sử dụng nhận được Lệnh bài danh vọng ngẫu nhiên.",
+        "Stack": 100,
+        "Genre": 18,
+        "ScriptID": 200060,
+        "ItemValue": 200233,
+        "ListExtPram": [
+            {
+                "Pram": 2,
+                "Index": 1
+            }
+        ]
+    },
+    {
+        "ItemID": 20395,
+        "Name": "Phần quà Danh vọng (Câu Đối Mừng Xuân) [2]",
+        "Icon": "tb_daijinquan",
+        "Intro": "Sử dụng nhận được Lệnh bài danh vọng ngẫu nhiên.",
+        "Stack": 100,
+        "Genre": 18,
+        "ScriptID": 200060,
+        "ItemValue": 200234,
+        "ListExtPram": [
+            {
+                "Pram": 2,
+                "Index": 1
+            }
+        ]
+    },
+    {
+        "ItemID": 20396,
+        "Name": "Phần quà Tinh hoạt lực (Câu Đối Mừng Xuân)",
+        "Icon": "medicine_516_s",
+        "Intro": "Sử dụng nhận được 500 Tinh Hoạt Lực.",
+        "Stack": 100,
+        "Genre": 18,
+        "ScriptID": 200060,
+        "ItemValue": 200235
+    },
+    {
+        "ItemID": 20397,
+        "Name": "Phần quà Vật phẩm (Câu Đối Mừng Xuân) [Sơ]",
+        "Icon": "tb_lihe",
+        "Intro": "Sử dụng nhận được các vật phẩm giá trị.",
+        "Stack": 100,
+        "Genre": 18,
+        "ScriptID": 200060,
+        "ItemValue": 200236
+    },
+    {
+        "ItemID": 20398,
+        "Name": "Phần quà Vật phẩm (Câu Đối Mừng Xuân) [Trung]",
+        "Icon": "tb_lihe",
+        "Intro": "Sử dụng nhận được các vật phẩm giá trị.",
+        "Stack": 100,
+        "Genre": 18,
+        "ScriptID": 200060,
+        "ItemValue": 200237
+    },
+    {
+        "ItemID": 20399,
+        "Name": "Phần quà Vật phẩm (Câu Đối Mừng Xuân) [Cao]",
+        "Icon": "tb_lihe",
+        "Intro": "Sử dụng nhận được các vật phẩm giá trị.",
+        "Stack": 100,
+        "Genre": 18,
+        "ScriptID": 200060,
+        "ItemValue": 200238
+    },
+    {
+        "ItemID": 20400,
+        "Name": "Chữ TẾT",
+        "Icon": "TET_icon",
+        "Intro": "Thư pháp chữ Tết do Thần Tài ban tặng. Sử dụng nhận được nhiều phần quà hấp dẫn.",
+        "Stack": 100,
+        "Genre": 18,
+        "ScriptID": 200060,
+        "ItemValue": 200239
+    },
+    {
+        "ItemID": 20401,
+        "Name": "Câu đối Tết [Đặc biệt 1]",
+        "Icon": "CAU_DOI_icon",
+        "Intro": "Câu đối Tết do Thần Tài ban tặng. Sử dụng nhận được nhiều phần quà hấp dẫn.",
+        "Stack": 100,
+        "Genre": 18,
+        "ScriptID": 200060,
+        "ItemValue": 200240
+    },
+    {
+        "ItemID": 20402,
+        "Name": "Câu đối Tết [Đặc biệt 2]",
+        "Icon": "CAU_DOI_icon",
+        "Intro": "Câu đối Tết do Thần Tài ban tặng. Sử dụng nhận được nhiều phần quà hấp dẫn.",
+        "Stack": 100,
+        "Genre": 18,
+        "ScriptID": 200060,
+        "ItemValue": 200241
+    },
+    {
+        "ItemID": 20403,
+        "Name": "Phần quà Huyền tinh (Câu Đối Mừng Xuân) [Sơ]",
+        "Icon": "tb_libao",
+        "Intro": "Sử dụng nhận được Huyền tinh ngẫu nhiên.",
+        "Stack": 100,
+        "Genre": 18,
+        "ScriptID": 200060,
+        "ItemValue": 200242
+    },
+    {
+        "ItemID": 20404,
+        "Name": "Phần quà Huyền tinh (Câu Đối Mừng Xuân) [Trung]",
+        "Icon": "tb_libao",
+        "Intro": "Sử dụng nhận được Huyền tinh ngẫu nhiên.",
+        "Stack": 100,
+        "Genre": 18,
+        "ScriptID": 200060,
+        "ItemValue": 200243
+    },
+    {
+        "ItemID": 20405,
+        "Name": "Phần quà Huyền tinh (Câu Đối Mừng Xuân) [Cao]",
+        "Icon": "tb_libao",
+        "Intro": "Sử dụng nhận được Huyền tinh ngẫu nhiên.",
+        "Stack": 100,
+        "Genre": 18,
+        "ScriptID": 200060,
+        "ItemValue": 200244
+    },
+    {
+        "ItemID": 20406,
+        "Name": "Thiệp bạch kim (cấp 4)",
+        "Icon": "thiep_bachkim",
+        "Intro": "Tấm thiệp tinh xảo.<enter><color=#f9e2af>Đứng cạnh đối tượng đã chọn và Nhấn sử dụng dể dùng<color><enter><color=#a6e3a1>Với xác suất nhất định thuyết phục quái hình người ở bản đồ cấp 15 - 55 làm đồng hành.<color>",
+        "Level": 4,
+        "ScriptID": 200109,
+        "Stack": 10000
+    },
+    {
+        "ItemID": 20407,
+        "Name": "Rương Đua thú - Chiến thắng (100v bạc khóa)",
+        "Icon": "suijilingpaihe_jin",
+        "Intro": "Phần thưởng giành cho người chơi lựa chọn chính xác thú cưng giành chiến thắng, gói bình chọn 100v bạc khóa.",
+        "Stack": 10,
+        "ScriptID": 200060,
+        "ItemValue": 200245
+    },
+    {
+        "ItemID": 20408,
+        "Name": "Rương Đua thú - Chiến thắng (150 KNB)",
+        "Icon": "suijilingpaihe_jin",
+        "Intro": "Phần thưởng giành cho người chơi lựa chọn chính xác thú cưng giành chiến thắng, gói bình chọn 150 KNB.",
+        "Stack": 10,
+        "ScriptID": 200060,
+        "ItemValue": 200247
+    },
+    {
+        "ItemID": 20409,
+        "Name": "Rương Đua thú - Chiến thắng (1000 KNB)",
+        "Icon": "suijilingpaihe_jin",
+        "Intro": "Phần thưởng giành cho người chơi lựa chọn chính xác thú cưng giành chiến thắng, gói bình chọn 1000 KNB.",
+        "Stack": 10,
+        "ScriptID": 200060,
+        "ItemValue": 200249
+    },
+    {
+        "ItemID": 20410,
+        "Name": "Rương Đua thú - An ủi (100v bạc khóa)",
+        "Icon": "suijilingpaihe_tie",
+        "Intro": "Phần thưởng giành cho người chơi lựa chọn chưa chính xác thú cưng giành chiến thắng, gói bình chọn 100v bạc khóa.",
+        "Stack": 10,
+        "ScriptID": 200060,
+        "ItemValue": 200246
+    },
+    {
+        "ItemID": 20411,
+        "Name": "Rương Đua thú - An ủi (150 KNB)",
+        "Icon": "suijilingpaihe_tie",
+        "Intro": "Phần thưởng giành cho người chơi lựa chọn chưa chính xác thú cưng giành chiến thắng, gói bình chọn 150 KNB.",
+        "Stack": 10,
+        "ScriptID": 200060,
+        "ItemValue": 200248
+    },
+    {
+        "ItemID": 20412,
+        "Name": "Rương Đua thú - An ủi (1000 KNB)",
+        "Icon": "suijilingpaihe_tie",
+        "Intro": "Phần thưởng giành cho người chơi lựa chọn chưa chính xác thú cưng giành chiến thắng, gói bình chọn 1000 KNB.",
+        "Stack": 10,
+        "ScriptID": 200060,
+        "ItemValue": 200250
+    },
+    {
+        "ItemID": 20413,
+        "Name": "Rương Đua thú - Thần cơ diệu toán [cao] [5]",
+        "Hint": "S1",
+        "Icon": "suijilingpaihe_tong",
+        "Intro": "Phần thưởng giành cho người chơi tích lũy 5 lần lựa chọn chính xác thú cưng chiến thắng trong hoạt động Cuộc Đua Thú Cưng với gói bình chọn 1000 KNB.",
+        "Stack": 10,
+        "ScriptID": 200060,
+        "ItemValue": 200251,
+        "Override": {
+            "25-99": {
+                "ItemValue": 200254
+            }
+        }
+    },
+    {
+        "ItemID": 20414,
+        "Name": "Rương Đua thú - Thần cơ diệu toán [cao] [10]",
+        "Hint": "S1",
+        "Icon": "suijilingpaihe_tong",
+        "Intro": "Phần thưởng giành cho người chơi tích lũy 10 lần lựa chọn chính xác thú cưng chiến thắng trong hoạt động Cuộc Đua Thú Cưng với gói bình chọn 1000 KNB.",
+        "Stack": 10,
+        "ScriptID": 200060,
+        "ItemValue": 200252,
+        "Override": {
+            "25-99": {
+                "ItemValue": 200255
+            }
+        }
+    },
+    {
+        "ItemID": 20415,
+        "Name": "Rương Đua thú - Thần cơ diệu toán [cao] [15]",
+        "Hint": "S1",
+        "Icon": "suijilingpaihe_tong",
+        "Intro": "Phần thưởng giành cho người chơi tích lũy 15 lần lựa chọn chính xác thú cưng chiến thắng trong hoạt động Cuộc Đua Thú Cưng với gói bình chọn 1000 KNB.",
+        "Stack": 10,
+        "ScriptID": 200060,
+        "ItemValue": 200253,
+        "Override": {
+            "25-99": {
+                "ItemValue": 200256
+            }
+        }
+    },
+    {
+        "ItemID": 20416,
+        "Name": "Rương Đua thú - Thần cơ diệu toán [5]",
+        "Hint": "S20",
+        "Icon": "suijilingpaihe_tong",
+        "Intro": "Phần thưởng giành cho người chơi tích lũy 5 lần lựa chọn chính xác thú cưng chiến thắng trong hoạt động Cuộc Đua Thú Cưng với gói bình chọn 1000 KNB.",
+        "Stack": 10,
+        "ScriptID": 200060,
+        "ItemValue": 200254
+    },
+    {
+        "ItemID": 20417,
+        "Name": "Rương Đua thú - Thần cơ diệu toán [10]",
+        "Hint": "S20",
+        "Icon": "suijilingpaihe_tong",
+        "Intro": "Phần thưởng giành cho người chơi tích lũy 10 lần lựa chọn chính xác thú cưng chiến thắng trong hoạt động Cuộc Đua Thú Cưng với gói bình chọn 1000 KNB.",
+        "Stack": 10,
+        "ScriptID": 200060,
+        "ItemValue": 200255
+    },
+    {
+        "ItemID": 20418,
+        "Name": "Rương Đua thú - Thần cơ diệu toán [15]",
+        "Hint": "S20",
+        "Icon": "suijilingpaihe_tong",
+        "Intro": "Phần thưởng giành cho người chơi tích lũy 15 lần lựa chọn chính xác thú cưng chiến thắng trong hoạt động Cuộc Đua Thú Cưng với gói bình chọn 1000 KNB.",
+        "Stack": 10,
+        "ScriptID": 200060,
+        "ItemValue": 200256
+    },
+    {
+        "ItemID": 20419,
+        "Name": "Xu Tết 2024",
+        "Icon": "birthday_coin",
+        "Intro": "Dùng để tham gia hoạt động Bách Bảo Rương đặc biệt.",
+        "Stack": 10000
+    },
+    {
+        "ItemID": 20420,
+        "Name": "Phiếu Quà Tết 2024",
+        "Icon": "birthday_coupon",
+        "Intro": "Dùng để đổi quà tặng Tết Giáp Thìn 2024.",
+        "Stack": 10000
+    },
+    {
+        "ItemID": 20421,
+        "Name": "Rương Trang bị Tái Xuất Giang Hồ +12 - Thiếu Lâm",
+        "Icon": "ruong_rong",
+        "Intro": "Trang bị Thiếu Lâm +12",
+        "ScriptID": 200060,
+        "ItemValue": 200257
+    },
+    {
+        "ItemID": 20422,
+        "Name": "Rương Trang bị Tái Xuất Giang Hồ +14 - Thiếu Lâm",
+        "Icon": "ruong_rong",
+        "Intro": "Trang bị Thiếu Lâm +14",
+        "ScriptID": 200060,
+        "ItemValue": 200258
+    },
+    {
+        "ItemID": 20423,
+        "Name": "Rương Trang bị Tái Xuất Giang Hồ +12 - Thiên Vương",
+        "Icon": "ruong_rong",
+        "Intro": "Trang bị Thiên Vương +12",
+        "ScriptID": 200060,
+        "ItemValue": 200259
+    },
+    {
+        "ItemID": 20424,
+        "Name": "Rương Trang bị Tái Xuất Giang Hồ +14 - Thiên Vương",
+        "Icon": "ruong_rong",
+        "Intro": "Trang bị Thiên Vương +14",
+        "ScriptID": 200060,
+        "ItemValue": 200260
+    },
+    {
+        "ItemID": 20425,
+        "Name": "Rương Trang bị Tái Xuất Giang Hồ +12 - Đường Môn",
+        "Icon": "ruong_rong",
+        "Intro": "Trang bị Đường Môn +12",
+        "ScriptID": 200060,
+        "ItemValue": 200261
+    },
+    {
+        "ItemID": 20426,
+        "Name": "Rương Trang bị Tái Xuất Giang Hồ +14 - Đường Môn",
+        "Icon": "ruong_rong",
+        "Intro": "Trang bị Đường Môn +14",
+        "ScriptID": 200060,
+        "ItemValue": 200262
+    },
+    {
+        "ItemID": 20427,
+        "Name": "Rương Trang bị Tái Xuất Giang Hồ +12 - Ngũ Độc",
+        "Icon": "ruong_rong",
+        "Intro": "Trang bị Ngũ Độc +12",
+        "ScriptID": 200060,
+        "ItemValue": 200263
+    },
+    {
+        "ItemID": 20428,
+        "Name": "Rương Trang bị Tái Xuất Giang Hồ +14 - Ngũ Độc",
+        "Icon": "ruong_rong",
+        "Intro": "Trang bị Ngũ Độc +14",
+        "ScriptID": 200060,
+        "ItemValue": 200264
+    },
+    {
+        "ItemID": 20429,
+        "Name": "Rương Trang bị Tái Xuất Giang Hồ +12 - Nga My",
+        "Icon": "ruong_rong",
+        "Intro": "Trang bị Nga My +12",
+        "ScriptID": 200060,
+        "ItemValue": 200265
+    },
+    {
+        "ItemID": 20430,
+        "Name": "Rương Trang bị Tái Xuất Giang Hồ +14 - Nga My",
+        "Icon": "ruong_rong",
+        "Intro": "Trang bị Nga My +14",
+        "ScriptID": 200060,
+        "ItemValue": 200266
+    },
+    {
+        "ItemID": 20431,
+        "Name": "Rương Trang bị Tái Xuất Giang Hồ +12 - Thúy Yên",
+        "Icon": "ruong_rong",
+        "Intro": "Trang bị Thúy Yên +12",
+        "ScriptID": 200060,
+        "ItemValue": 200267
+    },
+    {
+        "ItemID": 20432,
+        "Name": "Rương Trang bị Tái Xuất Giang Hồ +14 - Thúy Yên",
+        "Icon": "ruong_rong",
+        "Intro": "Trang bị Thúy Yên +14",
+        "ScriptID": 200060,
+        "ItemValue": 200268
+    },
+    {
+        "ItemID": 20433,
+        "Name": "Rương Trang bị Tái Xuất Giang Hồ +12 - Cái Bang",
+        "Icon": "ruong_rong",
+        "Intro": "Trang bị Cái Bang +12",
+        "ScriptID": 200060,
+        "ItemValue": 200269
+    },
+    {
+        "ItemID": 20434,
+        "Name": "Rương Trang bị Tái Xuất Giang Hồ +14 - Cái Bang",
+        "Icon": "ruong_rong",
+        "Intro": "Trang bị Cái Bang +14",
+        "ScriptID": 200060,
+        "ItemValue": 200270
+    },
+    {
+        "ItemID": 20435,
+        "Name": "Rương Trang bị Tái Xuất Giang Hồ +12 - Thiên Nhẫn",
+        "Icon": "ruong_rong",
+        "Intro": "Trang bị Thiên Nhẫn +12",
+        "ScriptID": 200060,
+        "ItemValue": 200271
+    },
+    {
+        "ItemID": 20436,
+        "Name": "Rương Trang bị Tái Xuất Giang Hồ +14 - Thiên Nhẫn",
+        "Icon": "ruong_rong",
+        "Intro": "Trang bị Thiên Nhẫn +14",
+        "ScriptID": 200060,
+        "ItemValue": 200272
+    },
+    {
+        "ItemID": 20437,
+        "Name": "Rương Trang bị Tái Xuất Giang Hồ +12 - Võ Đang",
+        "Icon": "ruong_rong",
+        "Intro": "Trang bị Võ Đang +12",
+        "ScriptID": 200060,
+        "ItemValue": 200273
+    },
+    {
+        "ItemID": 20438,
+        "Name": "Rương Trang bị Tái Xuất Giang Hồ +14 - Võ Đang",
+        "Icon": "ruong_rong",
+        "Intro": "Trang bị Võ Đang +14",
+        "ScriptID": 200060,
+        "ItemValue": 200274
+    },
+    {
+        "ItemID": 20439,
+        "Name": "Rương Trang bị Tái Xuất Giang Hồ +12 - Côn Lôn",
+        "Icon": "ruong_rong",
+        "Intro": "Trang bị Côn Lôn +12",
+        "ScriptID": 200060,
+        "ItemValue": 200275
+    },
+    {
+        "ItemID": 20440,
+        "Name": "Rương Trang bị Tái Xuất Giang Hồ +14 - Côn Lôn",
+        "Icon": "ruong_rong",
+        "Intro": "Trang bị Côn Lôn +14",
+        "ScriptID": 200060,
+        "ItemValue": 200276
+    },
+    {
+        "ItemID": 20441,
+        "Name": "Rương Trang bị Tái Xuất Giang Hồ +12 - Minh Giáo",
+        "Icon": "ruong_rong",
+        "Intro": "Trang bị Minh Giáo +12",
+        "ScriptID": 200060,
+        "ItemValue": 200277
+    },
+    {
+        "ItemID": 20442,
+        "Name": "Rương Trang bị Tái Xuất Giang Hồ +14 - Minh Giáo",
+        "Icon": "ruong_rong",
+        "Intro": "Trang bị Minh Giáo +14",
+        "ScriptID": 200060,
+        "ItemValue": 200278
+    },
+    {
+        "ItemID": 20443,
+        "Name": "Rương Trang bị Tái Xuất Giang Hồ +12 - Đoàn Thị",
+        "Icon": "ruong_rong",
+        "Intro": "Trang bị Đoàn Thị +12",
+        "ScriptID": 200060,
+        "ItemValue": 200279
+    },
+    {
+        "ItemID": 20444,
+        "Name": "Rương Trang bị Tái Xuất Giang Hồ +14 - Đoàn Thị",
+        "Icon": "ruong_rong",
+        "Intro": "Trang bị Đoàn Thị +14",
+        "ScriptID": 200060,
+        "ItemValue": 200280
+    },
+    {
+        "ItemID": 20445,
+        "Name": "Rương thú cưỡi - Tuyết Hồn",
+        "Icon": "horsebox_c",
+        "Intro": "Nhận được thú cưỡi Tuyết Hồn, hạn sử dụng 15 ngày.",
+        "ScriptID": 200060,
+        "ItemValue": 200281
+    },
+    {
+        "ItemID": 20446,
+        "Name": "Rương hỗ trợ - Tái Xuất Giang Hồ",
+        "Icon": "ruong_rong",
+        "Intro": "Nhận được các vật phẩm ưu đãi hoạt động Tái Xuất Giang Hồ",
+        "ScriptID": 200060,
+        "ItemValue": 200282
+    },
+    {
+        "ItemID": 20447,
+        "Name": "Rương hỗ trợ - Tái Xuất Giang Hồ",
+        "Icon": "ruong_rong",
+        "Intro": "Nhận được các vật phẩm ưu đãi hoạt động Tái Xuất Giang Hồ",
+        "ScriptID": 200060,
+        "ItemValue": 200283
+    },
+    {
+        "ItemID": 20448,
+        "Name": "Sách kinh nghiệm đồng hành (thần thoại)",
+        "Icon": "partner_exp_book",
+        "Intro": "Quyển sách rớt ra từ quái Tinh Anh hoặc Thủ Lĩnh ở các bản đồ cấp cao.<enter><color=gold>Nhấn sử dụng dể dùng<color><enter><color=green>Có thể sử dụng để tăng 200k kinh nghiệm cho đồng hành được chọn<color>",
+        "Stack": 100,
+        "ScriptID": 200055,
+        "ItemValue": 800000
+    },
+    {
+        "ItemID": 20449,
+        "Name": "Danh hiệu Võ Lâm Minh Chủ",
+        "Icon": "quest_0084_s",
+        "Intro": "Phần thưởng sự kiện Võ Lâm Minh Chủ. Sử dụng nhận được danh hiệu Võ Lâm Minh Chủ (30 ngày).",
+        "ScriptID": 200060,
+        "ItemValue": 200284
+    },
+    {
+        "ItemID": 20450,
+        "Name": "Rương thú cưỡi - Thỏ Ngọc (60 ngày)",
+        "Icon": "horsebox_g",
+        "Intro": "Phần thưởng sự kiện Dạ Thu Thưởng Nguyệt. Sử dụng nhận được thú cưỡi Thỏ Ngọc.",
+        "ScriptID": 200060,
+        "ItemValue": 200285
+    },
+    {
+        "ItemID": 20451,
+        "Name": "Rương thú cưỡi - Sứ Giả Truy Phong (15 ngày)",
+        "Icon": "horsebox_g",
+        "Intro": "Phần thưởng hoạt động Vui Game Dân Gian. Sử dụng nhận được thú cưỡi Sứ Giả Truy Phong.",
+        "ScriptID": 200060,
+        "ItemValue": 200286
+    },
+    {
+        "ItemID": 20452,
+        "Name": "Nhân Sâm Đại Bổ Tán - Rương",
+        "Icon": "medicine_117_xiang",
+        "Intro": "Sử dụng nhận được 100 Nhân Sâm Đại Bổ Tán",
+        "ScriptID": 200060,
+        "ItemValue": 200287,
+        "Stack": 100
+    },
+    {
+        "ItemID": 20453,
+        "Name": "Nhân Sâm Tục Mệnh Hoàn - Rương",
+        "Icon": "medicine_new_1_chest",
+        "Intro": "Sử dụng nhận được 100 Nhân Sâm Tục Mệnh Hoàn",
+        "ScriptID": 200060,
+        "ItemValue": 200288,
+        "Stack": 100
+    },
+    {
+        "ItemID": 20454,
+        "Name": "Tuyết Liên Ngưng Thần Đơn - Rương",
+        "Icon": "medicine_217_xiang",
+        "Intro": "Sử dụng nhận được 100 Tuyết Liên Ngưng Thần Đơn",
+        "ScriptID": 200060,
+        "ItemValue": 200289,
+        "Stack": 100
+    },
+    {
+        "ItemID": 20455,
+        "Name": "Tuyết Liên Phản Khí Hoàn - Rương",
+        "Icon": "medicine_new_2_chest",
+        "Intro": "Sử dụng nhận được 100 Tuyết Liên Phản Khí Hoàn",
+        "ScriptID": 200060,
+        "ItemValue": 200290,
+        "Stack": 100
+    },
+    {
+        "ItemID": 20456,
+        "Name": "Ích Thọ Ngọc Lộ Hoàn - Rương",
+        "Icon": "medicine_317_xiang",
+        "Intro": "Sử dụng nhận được 100 Ích Thọ Ngọc Lộ Hoàn",
+        "ScriptID": 200060,
+        "ItemValue": 200291,
+        "Stack": 100
+    },
+    {
+        "ItemID": 20457,
+        "Name": "Ích Thọ Đại Hoàn Đơn - Rương",
+        "Icon": "medicine_new_3_chest",
+        "Intro": "Sử dụng nhận được 100 Ích Thọ Đại Hoàn Đơn",
+        "ScriptID": 200060,
+        "ItemValue": 200292,
+        "Stack": 100
+    },
+    {
+        "ItemID": 20482,
+        "Name": "Rương trang bị đồng hành Bích Huyết (sơ cấp)",
+        "Icon": "ruong_rong",
+        "Intro": "Sử dụng nhận được trang bị đồng hành Bích Huyết.",
+        "Stack": 100,
+        "ScriptID": 200060,
+        "ItemValue": 200314
+    },
+    {
+        "ItemID": 20483,
+        "Name": "Chân Long Chi Rương - Ngẫu Nhiên",
+        "Icon": "ruong_rong",
+        "Intro": "Sử dụng nhận được ngẫu nhiên rương trang bị Chân Long.",
+        "Genre": 18,
+        "ScriptID": 200060,
+        "ItemValue": 200214
+    },
+    {
+        "ItemID": 20484,
+        "Name": "Chân Long Chi Rương - Lựa Chọn",
+        "Icon": "ruong_rong",
+        "Intro": "Sử dụng có thể lựa chọn nhận được rương trang bị Chân Long theo ý muốn.",
+        "Genre": 18,
+        "ScriptID": 200125
+    },
+    {
+        "ItemID": 20485,
+        "Name": "Rương danh vọng (trung cấp)",
+        "Icon": "ruong_rong",
+        "Intro": "Sử dụng nhận được danh vọng cao quý.",
+        "Genre": 18,
+        "Stack": 1000,
+        "ScriptID": 200060,
+        "ItemValue": 200315,
+        "ListExtPram": [
+            {
+                "Pram": 2,
+                "Index": 1
+            }
+        ]
+    },
+    {
+        "ItemID": 20486,
+        "Name": "Gói ưu đãi danh vọng [1]",
+        "Icon": "ruong_rong",
+        "Intro": "Gói ưu đãi danh vọng [1] gồm:\n\t-01 Huyền Tinh 7\n\t-10 Rương danh vọng - Sơ\n\t-20 vạn bạc khoá",
+        "Genre": 18,
+        "ScriptID": 200060,
+        "ItemValue": 200316
+    },
+    {
+        "ItemID": 20487,
+        "Name": "Gói ưu đãi danh vọng [2]",
+        "Icon": "ruong_rong",
+        "Intro": "Gói ưu đãi danh vọng [2] gồm:\n\t-1000 KNB Khóa\n\t-01 Huyền Tinh 8\n\t-20 Rương danh vọng - Sơ\n\t-30 vạn bạc khoá",
+        "Genre": 18,
+        "ScriptID": 200060,
+        "ItemValue": 200317
+    },
+    {
+        "ItemID": 20488,
+        "Name": "Gói ưu đãi danh vọng [3]",
+        "Icon": "ruong_rong",
+        "Intro": "Gói ưu đãi danh vọng [3] gồm:\n\t-2000 KNB Khoá\n\t-40 Rương danh vọng - Sơ\n\t-02 Huyền Tinh 8\n\t-LB Chúc Phúc - Sơ\n\t-50 vạn bạc khoá",
+        "Genre": 18,
+        "ScriptID": 200060,
+        "ItemValue": 200318
+    },
+    {
+        "ItemID": 20489,
+        "Name": "Gói ưu đãi danh vọng [4]",
+        "Icon": "ruong_rong",
+        "Intro": "Gói ưu đãi danh vọng [4] gồm:\n\t-5000 KNB Khoá\n\t-150 vạn bạc khoá\n\t-80 Rương danh vọng - Trung\n\t-2 Huyền Tinh 9\n\t-LB Chúc Phúc - Trung",
+        "Genre": 18,
+        "ScriptID": 200060,
+        "ItemValue": 200319
+    },
+    {
+        "ItemID": 20490,
+        "Name": "Gói ưu đãi danh vọng [5]",
+        "Icon": "ruong_rong",
+        "Intro": "Gói ưu đãi danh vọng [5] gồm:\n\t-10000 KNB Khoá\n\t-200 vạn bạc khoá\n\t-120 Rương danh vọng - Trung\n\t-01 Huyền Tinh 10\n\t-LB Chúc Phúc - Trung",
+        "Genre": 18,
+        "ScriptID": 200060,
+        "ItemValue": 200320
+    },
+    {
+        "ItemID": 20491,
+        "Name": "Gói tinh hoạt lực [1]",
+        "Icon": "ruong_rong",
+        "Intro": "Gói Tinh Hoạt Lực [1] gồm:\n\t-20 vạn bạc khoá\n\t-1500 Tinh Hoạt Lực\n\t-01 Huyền Tinh 7",
+        "Genre": 18,
+        "ScriptID": 200060,
+        "ItemValue": 200321
+    },
+    {
+        "ItemID": 20492,
+        "Name": "Gói tinh hoạt lực [2]",
+        "Icon": "ruong_rong",
+        "Intro": "Gói Tinh Hoạt Lực [2] gồm:\n\t-50 vạn bạc khoá\n\t-3000 Tinh Hoạt Lực\n\t-01 Huyền Tinh 8",
+        "Genre": 18,
+        "ScriptID": 200060,
+        "ItemValue": 200322
+    },
+    {
+        "ItemID": 20493,
+        "Name": "Gói tinh hoạt lực [3]",
+        "Icon": "ruong_rong",
+        "Intro": "Gói Tinh Hoạt Lực [3] gồm:\n\t-20 vạn bạc thường\n\t-70 vạn bạc khoá\n\t-5000 Tinh Hoạt Lực\n\t-02 Huyền Tinh 8",
+        "Genre": 18,
+        "ScriptID": 200060,
+        "ItemValue": 200323
+    },
+    {
+        "ItemID": 20494,
+        "Name": "Gói tinh hoạt lực [4]",
+        "Icon": "ruong_rong",
+        "Intro": "Gói Tinh Hoạt Lực [4] gồm:\n\t-50 vạn bạc thường\n\t-150 vạn bạc khoá\n\t-1 Hòa Thị Bích\n\t-1 Hòa Thị Ngọc\n\t-30000 Tinh Hoạt Lực",
+        "Genre": 18,
+        "ScriptID": 200060,
+        "ItemValue": 200324
+    },
+    {
+        "ItemID": 20495,
+        "Name": "Gói tinh hoạt lực [5]",
+        "Icon": "ruong_rong",
+        "Intro": "Gói Tinh Hoạt Lực [5] gồm:\n\t-80 vạn bạc thường\n\t-200 vạn bạc khoá\n\t-60000 Tinh Hoạt Lực\n\t-1 Tần Lăng - Hoà Thị Bích\n\t-2 Hòa Thị Ngọc",
+        "Genre": 18,
+        "ScriptID": 200060,
+        "ItemValue": 200325
+    },
+    {
+        "ItemID": 20496,
+        "Name": "Gói bạc liên máy chủ [1]",
+        "Icon": "ruong_rong",
+        "Intro": "Gói Bạc Liên Server [1] gồm:\n\t- 50 vạn Bạc Khoá Liên Server\n\t- 20 vạn bạc khoá",
+        "Genre": 18,
+        "ScriptID": 200060,
+        "ItemValue": 200326
+    },
+    {
+        "ItemID": 20497,
+        "Name": "Gói bạc liên máy chủ [2]",
+        "Icon": "ruong_rong",
+        "Intro": "Gói Bạc Liên Server [2] gồm:\n\t- 120 vạn Bạc Khoá Liên Server\n\t- 30 vạn bạc khoá",
+        "Genre": 18,
+        "ScriptID": 200060,
+        "ItemValue": 200327
+    },
+    {
+        "ItemID": 20498,
+        "Name": "Gói bạc liên máy chủ [3]",
+        "Icon": "ruong_rong",
+        "Intro": "Gói Bạc Liên Server [3] gồm:\n\t- 250 vạn Bạc Khoá Liên Server\n\t- 50 vạn bạc khoá",
+        "Genre": 18,
+        "ScriptID": 200060,
+        "ItemValue": 200328
+    },
+    {
+        "ItemID": 20499,
+        "Name": "Gói đồng hành [1]",
+        "Icon": "ruong_rong",
+        "Intro": "Gói đồng hành [1] gồm:\n\t-05 Thiệp Bạc\n\t-10 Rương mảnh trang bị đồng hành - Trung\n\t-3 Sách kinh nghiệm đồng hành",
+        "Genre": 18,
+        "ScriptID": 200060,
+        "ItemValue": 200329
+    },
+    {
+        "ItemID": 20500,
+        "Name": "Gói đồng hành [2]",
+        "Icon": "ruong_rong",
+        "Intro": "Gói đồng hành [2] gồm:\n\t-01 Thiệp Vàng\n\t-15 Rương mảnh trang bị đồng hành - Trung\n\t-7 Sách kinh nghiệm đồng hành",
+        "Genre": 18,
+        "ScriptID": 200060,
+        "ItemValue": 200330
+    },
+    {
+        "ItemID": 20501,
+        "Name": "Gói đồng hành [3]",
+        "Icon": "ruong_rong",
+        "Intro": "Gói đồng hành [3] gồm:\n\t-02 Thiệp Vàng\n\t-30 Rương mảnh trang bị đồng hành - Trung\n\t-15 Sách kinh nghiệm đồng hành\n\t-Rương bùa may mắn đồng hành [Trung Cấp]",
+        "Genre": 18,
+        "ScriptID": 200060,
+        "ItemValue": 200331
+    },
+    {
+        "ItemID": 20502,
+        "Name": "Gói đồng hành [4]",
+        "Icon": "ruong_rong",
+        "Intro": "Gói đồng hành [4] gồm:\n\t-1 Thiệp Bạch Kim\n\t-50 Rương mảnh trang bị đồng hành - Cao\n\t-60 Sách kinh nghiệm đồng hành\n\t-1 Rương lựa chọn trang bị đồng hành Bích Huyết [Sơ]",
+        "Genre": 18,
+        "ScriptID": 200060,
+        "ItemValue": 200332
+    },
+    {
+        "ItemID": 20503,
+        "Name": "Gói đồng hành [5]",
+        "Icon": "ruong_rong",
+        "Intro": "Gói đồng hành [5] gồm:\n\t-2 Thiệp Bạch Kim\n\t-80 Rương Mảnh trang bị đồng hành - Cao\n\t-1 Sách kinh nghiệm đồng hành [truyền thuyết]\n\t-Rương bùa may mắn đồng hành [Cao Cấp]",
+        "Genre": 18,
+        "ScriptID": 200060,
+        "ItemValue": 200333
+    },
+    {
+        "ItemID": 20504,
+        "Name": "Gói tổng hợp [1]",
+        "Icon": "ruong_rong",
+        "Intro": "Gói ưu đãi tổng hợp [1] gồm:\n\t- 1000 KNB Khoá\n\t- 10 vạn bạc khoá\n\t- 01 Huyền Tinh 6",
+        "Genre": 18,
+        "ScriptID": 200060,
+        "ItemValue": 200334
+    },
+    {
+        "ItemID": 20505,
+        "Name": "Gói tổng hợp [2]",
+        "Icon": "ruong_rong",
+        "Intro": "Gói ưu đãi tổng hợp [2]:\n\t- 2500 KNB Khoá\n\t- 20 vạn bạc khoá\n\t- 01 Huyền Tinh 7\n\t- 01 Tinh Khí Tán [1000]\n\t- 01 HoạtKhí Tán [1000]",
+        "Genre": 18,
+        "ScriptID": 200060,
+        "ItemValue": 200335
+    },
+    {
+        "ItemID": 20506,
+        "Name": "Gói tổng hợp [3]",
+        "Icon": "ruong_rong",
+        "Intro": "Gói ưu đãi tổng hợp [3] gồm:\n\t- 4000 KNB Khoá\n\t- 40 vạn bạc khoá\n\t- 01 Huyền Tinh 8\n\t- 02 Tinh Khí Tán [1000]\n\t- 02 HoạtKhí Tán [1000]\n -01 Tu Luyện Đơn ",
+        "Genre": 18,
+        "ScriptID": 200060,
+        "ItemValue": 200336
+    },
+    {
+        "ItemID": 20507,
+        "Name": "Gói tổng hợp [4]",
+        "Icon": "ruong_rong",
+        "Intro": "Gói ưu đãi tổng hợp [4] gồm:\n\t- 15000 KNB Khoá\n\t- 80 vạn bạc khoá\n\t- 01 Huyền Tinh 9\n\t- 03 Tinh Khí Tán [1500]\n\t- 03 HoạtKhí Tán [1500]",
+        "Genre": 18,
+        "ScriptID": 200060,
+        "ItemValue": 200337
+    },
+    {
+        "ItemID": 20508,
+        "Name": "Gói tổng hợp [5]",
+        "Icon": "ruong_rong",
+        "Intro": "Gói ưu đãi tổng hợp [5] gồm: \n\t- 30000 KNB Khoá\n\t- 200 vạn bạc khoá\n\t- 02 Huyền Tinh 9\n\t- 05 Bí Cảnh\n\t- 10 Tu Luyện Đơn ",
+        "Genre": 18,
+        "ScriptID": 200060,
+        "ItemValue": 200338
+    },
+    {
+        "ItemID": 20509,
+        "Name": "Rương người yêu",
+        "Icon": "xingyuexia",
+        "Intro": "Sử dụng nhận được nhiều vật phẩm giá trị.",
+        "Genre": 18,
+        "ScriptID": 200060,
+        "ItemValue": 200339
+    },
+    {
+        "ItemID": 20510,
+        "Name": "Danh hiệu Ngoan Xinh Yêu",
+        "Icon": "quest_0084_s",
+        "Intro": "Sử dụng nhận được danh hiệu Ngoan Xinh Yêu (14 ngày).",
+        "ScriptID": 200060,
+        "ItemValue": 200340
+    },
+    {
+        "ItemID": 20511,
+        "Name": "Gói hỗ trợ gộp máy chủ (VIP)",
+        "Icon": "ruong_rong",
+        "Intro": "Sử dụng nhận được gói hỗ trợ gộp máy chủ (VIP).",
+        "ScriptID": 200060,
+        "ItemValue": 200341
+    },
+    {
+        "ItemID": 20512,
+        "Name": "Gói hỗ trợ gộp máy chủ (VIP)",
+        "Icon": "ruong_rong",
+        "Intro": "Sử dụng nhận được gói hỗ trợ gộp máy chủ (VIP).",
+        "ScriptID": 200060,
+        "ItemValue": 200342
+    },
+    {
+        "ItemID": 20529,
+        "Name": "Rương mảnh trang bị đồng hành (cao cấp)",
+        "Icon": "shishang_0002",
+        "Intro": "Nhận được mảnh trang bị đồng hành.",
+        "Stack": 10000,
+        "Genre": 18,
+        "ScriptID": 200060,
+        "ItemValue": 200351,
+        "ListExtPram": [
+            {
+                "Pram": 2,
+                "Index": 1
+            }
+        ]
+    },
+    {
+        "ItemID": 20530,
+        "Name": "Rương bùa may mắn đồng hành (sơ)",
+        "Icon": "suijilingpaihe_tie",
+        "Intro": "Nhận bùa may mắn đồng hành.",
+        "Stack": 100,
+        "Genre": 18,
+        "ScriptID": 200060,
+        "ItemValue": 200352,
+        "ListExtPram": [
+            {
+                "Pram": 2,
+                "Index": 1
+            }
+        ]
+    },
+    {
+        "ItemID": 20531,
+        "Name": "Rương bùa may mắn đồng hành (trung)",
+        "Icon": "suijilingpaihe_yin",
+        "Intro": "Nhận bùa may mắn đồng hành.",
+        "Stack": 100,
+        "Genre": 18,
+        "ScriptID": 200060,
+        "ItemValue": 200353,
+        "ListExtPram": [
+            {
+                "Pram": 2,
+                "Index": 1
+            }
+        ]
+    },
+    {
+        "ItemID": 20532,
+        "Name": "Rương bùa may mắn đồng hành (cao)",
+        "Icon": "suijilingpaihe_jin",
+        "Intro": "Nhận bùa may mắn đồng hành.",
+        "Stack": 100,
+        "Genre": 18,
+        "ScriptID": 200060,
+        "ItemValue": 200354,
+        "ListExtPram": [
+            {
+                "Pram": 2,
+                "Index": 1
+            }
+        ]
+    },
+    {
+        "ItemID": 20533,
+        "Name": "Mảnh lôi đình ấn (x10)",
+        "Icon": "leitingyinsuipian",
+        "Intro": "Nhận 10 mảnh lôi đình ấn.",
+        "Stack": 100,
+        "Genre": 18,
+        "ScriptID": 200060,
+        "ItemValue": 200355,
+        "ListExtPram": [
+            {
+                "Pram": 2,
+                "Index": 1
+            }
+        ]
+    },
+    {
+        "ItemID": 20534,
+        "Name": "Gói Ưu đãi Kết Đoàn",
+        "Icon": "haohua",
+        "Intro": "Nhận được:\n- 2 Huyền tinh 8\n-15 Rương Điểm Danh vọng (sự kiện)",
+        "Stack": 100,
+        "Genre": 18,
+        "ScriptID": 200060,
+        "ItemValue": 200356,
+        "ListExtPram": [
+            {
+                "Pram": 2,
+                "Index": 1
+            }
+        ]
+    },
+    {
+        "ItemID": 20535,
+        "Name": "Sách kinh nghiệm đồng hành (x10)",
+        "Icon": "partner_exp_book",
+        "Intro": "Nhận 10 sách kinh nghiệm đồng hành.",
+        "Stack": 100,
+        "Genre": 18,
+        "ScriptID": 200060,
+        "ItemValue": 200357,
+        "ListExtPram": [
+            {
+                "Pram": 2,
+                "Index": 1
+            }
+        ]
+    },
+    {
+        "ItemID": 20536,
+        "Name": "Cờ chiến công (x10)",
+        "Icon": "qizhi_guyongbing",
+        "Intro": "Nhận 10 cờ chiến công.",
+        "Stack": 100,
+        "Genre": 18,
+        "ScriptID": 200060,
+        "ItemValue": 200358,
+        "ListExtPram": [
+            {
+                "Pram": 2,
+                "Index": 1
+            }
+        ]
+    },
+    {
+        "ItemID": 20537,
+        "Name": "Tinh hoạt lực (500)",
+        "Icon": "zhanshenjiu",
+        "Intro": "Trực tiếp nhận được 500 tinh lực, 500 hoạt lực.",
+        "Stack": 10000,
+        "ScriptID": 200060,
+        "ItemValue": 200360,
+        "ListExtPram": [
+            {
+                "Pram": 2,
+                "Index": 1
+            }
+        ]
+    },
+    {
+        "ItemID": 20538,
+        "Name": "Tinh hoạt lực (1000)",
+        "Icon": "zhanshenjiu",
+        "Intro": "Trực tiếp nhận được 1000 tinh lực, 1000 hoạt lực.",
+        "Stack": 10000,
+        "ScriptID": 200060,
+        "ItemValue": 200361,
+        "ListExtPram": [
+            {
+                "Pram": 2,
+                "Index": 1
+            }
+        ]
+    },
+    {
+        "ItemID": 21001,
+        "Name": "Tinh hoạt lực (5000)",
+        "Icon": "zhanshenjiu",
+        "Intro": "Trực tiếp nhận được 5000 tinh lực, 5000 hoạt lực.",
+        "Stack": 10000,
+        "ScriptID": 200060,
+        "ItemValue": 202000,
+        "ListExtPram": [
+            {
+                "Pram": 2,
+                "Index": 1
+            }
+        ]
+    },
+    {
+        "ItemID": 20539,
+        "Name": "Gói Ưu đãi Kết Đoàn (1)",
+        "Icon": "haohua",
+        "Intro": "Nhận được:\n- 2 Huyền tinh 7\n-10 Rương Điểm Danh vọng (sự kiện)\n-2 Cường hiệu Bạch Câu Hoàn",
+        "Stack": 100,
+        "Genre": 18,
+        "ScriptID": 200060,
+        "ItemValue": 200362,
+        "ListExtPram": [
+            {
+                "Pram": 2,
+                "Index": 1
+            }
+        ]
+    },
+    {
+        "ItemID": 20540,
+        "Name": "Gói Ưu đãi Kết Đoàn (2)",
+        "Icon": "haohua",
+        "Intro": "Nhận được:\n- 1 bản đồ bí cảnh\n-2 tu luyện đơn",
+        "Stack": 100,
+        "Genre": 18,
+        "ScriptID": 200060,
+        "ItemValue": 200363,
+        "ListExtPram": [
+            {
+                "Pram": 2,
+                "Index": 1
+            }
+        ]
+    },
+    {
+        "ItemID": 20547,
+        "Name": "Rương thú cưỡi - Ngọc Tiêu Dao (3 ngày)",
+        "Icon": "horsebox_g",
+        "Intro": "Sử dụng nhận được thú cưỡi Ngọc Tiêu Dao, thời hạn 3 ngày.",
+        "Stack": 1,
+        "Genre": 18,
+        "ScriptID": 200060,
+        "ItemValue": 200380
+    },
+    {
+        "ItemID": 20548,
+        "Name": "Một Vốn Bốn Lời",
+        "Icon": "baibaoxiang_box",
+        "Intro": "Rương vật phẩm 1 Vốn 4 Lời. Chứa nhiều vật phẩm giá trị.\nSử dụng <color=#a6e3a1>1 lần/ngày</color>. Sử dụng tối đa <color=#a6e3a1>4 lần/tuần hiện tại</color>.",
+        "Stack": 1,
+        "Genre": 18,
+        "ScriptID": 200126
+    },
+    {
+        "ItemID": 20549,
+        "Name": "Rương Đạo tặc [Tinh Anh]",
+        "Icon": "ruong_dao_tac_tinh_anh",
+        "Intro": "Phần thưởng nhận được do tiêu diệt boss Đạo tặc Sinh nhật",
+        "Stack": 10,
+        "Genre": 18,
+        "ScriptID": 200060,
+        "ItemValue": 200381
+    },
+    {
+        "ItemID": 20550,
+        "Name": "Rương Đạo tặc [Thủ Lĩnh]",
+        "Icon": "ruong_dao_tac_thu_linh",
+        "Intro": "Phần thưởng nhận được do tiêu diệt boss Đạo tặc Sinh nhật",
+        "Stack": 10,
+        "Genre": 18,
+        "ScriptID": 200060,
+        "ItemValue": 200382
+    },
+    {
+        "ItemID": 20551,
+        "Name": "Phiếu hoàn trả KNB - Tiệm Ưu đãi Đoàn kết",
+        "Icon": "jh_kapian3",
+        "Intro": "Sử dụng nhận được KNB hoàn trả từ tiệm Ưu đãi Đoàn kết.",
+        "Stack": 1,
+        "Genre": 18,
+        "ScriptID": 200127
+    },
+    {
+        "ItemID": 20552,
+        "Name": "Vé diệt phỉ",
+        "Icon": "ve_diet_phi",
+        "Intro": "Sử dụng để khiêu chiến boss sự kiện Đạo tặc Sinh nhật [Thủ lĩnh].",
+        "Stack": 100
+    },
+    {
+        "ItemID": 20553,
+        "Name": "Lệnh bài Du Long",
+        "Icon": "lenh_bai_you_long",
+        "Intro": "Sử dụng nhận thêm 100 lượt khiêu chiến Mật thất Du Long trong ngày.",
+        "Stack": 100,
+        "ScriptID": 200946
+    },
+    {
+        "ItemID": 20554,
+        "Name": "Rương danh vọng (cao cấp)",
+        "Icon": "huangjbaoxiang",
+        "Intro": "Sử dụng nhận được danh vọng cao quý.",
+        "Stack": 100,
+        "ScriptID": 200060,
+        "ItemValue": 200383,
+        "ListExtPram": [
+            {
+                "Pram": 2,
+                "Index": 1
+            }
+        ]
+    },
+    {
+        "ItemID": 20555,
+        "Name": "Rương trang bị đồng hành Bích Huyết (trung cấp)",
+        "Icon": "ruong_rong",
+        "Intro": "Sử dụng nhận được trang bị đồng hành Bích Huyết (mũ, đai lưng, hạng liên).",
+        "Stack": 100,
+        "ScriptID": 200060,
+        "ItemValue": 200384
+    },
+    {
+        "ItemID": 20568,
+        "Name": "Danh hiệu Con Ong Chăm Chỉ",
+        "Icon": "quest_0084_s",
+        "Intro": "Phần thưởng sự kiện Song Long Xuất Hải. Sử dụng nhận được danh hiệu Con Ong Chăm Chỉ (30 ngày).",
+        "ScriptID": 200060,
+        "ItemValue": 200395
+    },
+    {
+        "ItemID": 20569,
+        "Name": "Danh hiệu Chiến Thần Kiếm Vương",
+        "Icon": "quest_0084_s",
+        "Intro": "Phần thưởng sự kiện Song Long Xuất Hải. Sử dụng nhận được danh hiệu Chiến Thần Kiếm Vương (30 ngày).",
+        "ScriptID": 200060,
+        "ItemValue": 200396
+    },
+    {
+        "ItemID": 20570,
+        "Name": "Danh hiệu Độc Cô Cầu Bại",
+        "Icon": "quest_0084_s",
+        "Intro": "Phần thưởng sự kiện Song Long Xuất Hải. Sử dụng nhận được danh hiệu Độc Cô Cầu Bại (30 ngày).",
+        "ScriptID": 200060,
+        "ItemValue": 200397
+    },
+    {
+        "ItemID": 20571,
+        "Name": "Rương Tiểu Du Long Danh Vọng Lệnh (lựa chọn)",
+        "Icon": "huangjbaoxiang",
+        "Intro": "Sử dụng nhận được Tiểu Du Long Danh Vọng Lệnh theo ý muốn.",
+        "ScriptID": 200125,
+        "ItemValue": 200397,
+        "Stack": 10000
+    },
+    {
+        "ItemID": 20572,
+        "Name": "Gói đồng hành [1]",
+        "Icon": "ruong_rong",
+        "Description": "Dup 1 gói do có user không chịu dùng.",
+        "Intro": "Gói đồng hành [1] gồm:\n\t- 05 Thiệp Lụa\n\t- 10 Rương mảnh trang bị đồng hành\n\t- 3 Sách kinh nghiệm đồng hành",
+        "Genre": 18,
+        "ScriptID": 200060,
+        "ItemValue": 200399
+    },
+    {
+        "ItemID": 20573,
+        "Name": "Rương Check-in Đại Lễ [trung]",
+        "Icon": "2023nov_qua_bi_an",
+        "Intro": "Phần quà ngẫu nhiên khi tham gia hoạt động Check-in Đại Lễ",
+        "Genre": 18,
+        "ScriptID": 200060,
+        "ItemValue": 200400
+    },
+    {
+        "ItemID": 20574,
+        "Name": "Rương Check-in Đại Lễ [cao]",
+        "Icon": "2023nov_qua_bi_an",
+        "Intro": "Phần quà ngẫu nhiên khi tham gia hoạt động Check-in Đại Lễ",
+        "Genre": 18,
+        "ScriptID": 200060,
+        "ItemValue": 200401
+    },
+    {
+        "ItemID": 20575,
+        "Name": "Túi quà Check-in Đại Lễ [trung]",
+        "Icon": "quest_0078_s",
+        "Intro": "Phần quà vật phẩm [trung] khi tham gia hoạt động Check-in Đại Lễ",
+        "Genre": 18,
+        "ScriptID": 200060,
+        "ItemValue": 200402
+    },
+    {
+        "ItemID": 20576,
+        "Name": "Túi quà Check-in Đại Lễ [cao]",
+        "Icon": "quest_0078_s",
+        "Intro": "Phần quà vật phẩm [cao] khi tham gia hoạt động Check-in Đại Lễ",
+        "Genre": 18,
+        "ScriptID": 200060,
+        "ItemValue": 200403
+    },
+    {
+        "ItemID": 20577,
+        "Name": "Rương Vui Game Dân Gian - Tích Lũy 15",
+        "Icon": "baiyinbaoxiang",
+        "Intro": "Phần thưởng giành cho người chơi tích lũy được 15 lần chiến thắng với gói cược 1000KNB trong hoạt động Vui Game Dân Gian.",
+        "Stack": 100,
+        "ScriptID": 200060,
+        "ItemValue": 200404
+    },
+    {
+        "ItemID": 20578,
+        "Name": "Xu Đại Lễ",
+        "Icon": "birthday_coin",
+        "Intro": "Dùng để tham gia hoạt động Bách Bảo Rương đặc biệt.",
+        "Stack": 10000
+    },
+    {
+        "ItemID": 20579,
+        "Name": "Phiếu Quà Đại Lễ",
+        "Icon": "birthday_coupon",
+        "Intro": "Dùng để đổi quà tặng Đại Lễ 2024.",
+        "Stack": 10000
+    },
+    {
+        "ItemID": 20580,
+        "Name": "Thẻ tên [VIP]",
+        "Icon": "quest_0084_s",
+        "Intro": "Sử dụng nhận được thẻ tên [VIP] và chúc phúc VIP cấp 1.",
+        "Stack": 1,
+        "ScriptID": 200120,
+        "ListExtPram": [
+            {
+                "Pram": 2049,
+                "Index": 1
+            },
+            {
+                "Pram": 43201,
+                "Index": 2
+            },
+            {
+                "Pram": 1,
+                "Index": 3
+            }
+        ]
+    },
+    {
+        "ItemID": 20581,
+        "Name": "Thẻ tên [VVIP]",
+        "Icon": "quest_0084_s",
+        "Intro": "Sử dụng nhận được thẻ tên [VVIP] và chúc phúc VIP cấp 2.",
+        "Stack": 1,
+        "ScriptID": 200120,
+        "ListExtPram": [
+            {
+                "Pram": 2049,
+                "Index": 1
+            },
+            {
+                "Pram": 43201,
+                "Index": 2
+            },
+            {
+                "Pram": 2,
+                "Index": 3
+            }
+        ]
+    },
+    {
+        "ItemID": 20582,
+        "Name": "Thẻ tên [SVIP]",
+        "Icon": "quest_0084_s",
+        "Intro": "Sử dụng nhận được thẻ tên [SVIP] và chúc phúc VIP cấp 3.",
+        "Stack": 1,
+        "ScriptID": 200120,
+        "ListExtPram": [
+            {
+                "Pram": 2049,
+                "Index": 1
+            },
+            {
+                "Pram": 43201,
+                "Index": 2
+            },
+            {
+                "Pram": 3,
+                "Index": 3
+            }
+        ]
+    },
+    {
+        "ItemID": 20583,
+        "Name": "Rương tri ân <color=#eba0ac>VIP</color>",
+        "Icon": "ruong_rong",
+        "Intro": "Phần quà tri ân, đặc quyền dành cho VIP.",
+        "ScriptID": 200060,
+        "ItemValue": 200405,
+        "Stack": 10
+    },
+    {
+        "ItemID": 20584,
+        "Name": "Rương tri ân <color=#eba0ac>V-VIP</color>",
+        "Icon": "ruong_rong",
+        "Intro": "Phần quà tri ân, đặc quyền dành cho V-VIP.",
+        "ScriptID": 200060,
+        "ItemValue": 200406,
+        "Stack": 10
+    },
+    {
+        "ItemID": 20585,
+        "Name": "Rương tri ân <color=#eba0ac>S-VIP</color>",
+        "Icon": "ruong_rong",
+        "Intro": "Phần quà tri ân, đặc quyền dành cho S-VIP.",
+        "ScriptID": 200060,
+        "ItemValue": 200407,
+        "Stack": 10
+    },
+    {
+        "ItemID": 20586,
+        "Name": "Rương Hỗ trợ cấp độ",
+        "Icon": "huangjbaoxiang",
+        "Intro": "Rương hỗ trợ cấp độ cho người chơi mới, nhận thưởng trong 2 ngày <color=#a6e3a1><br>- Ngày 1: Dưới level 50 thăng cấp lên level 50, trên level 50 thăng cấp lên level 52.<br>- Ngày 2: Dưới level 60 thăng cấp lên level 60, trên level 60 thăng cấp lên level 62<br>*Chú ý: Khi đã vượt cấp ở các mốc bạn sẽ không nhận được thêm Exp.",
+        "ScriptID": 200200,
+        "ItemValue": 4,
+        "Stack": 10
+    },
+    {
+        "ItemID": 20601,
+        "Name": "Mảnh đồng hành Yến Tiểu Lâu",
+        "Icon": "manhdonghanh",
+        "Intro": "Nguyên liệu để ghép đồng hành Yến Tiểu Lâu (7 kỹ năng). Ấn <color=#a6e3a1>Sử dụng</color> để tiến hành ghép.",
+        "ScriptID": 200128,
+        "Stack": 10000
+    },
+    {
+        "ItemID": 20604,
+        "Name": "Túi quà Ấn Đồng hành Bích Huyết - 7 ngày",
+        "Icon": "quest_0078_s",
+        "Intro": "Nhận được Ấn đồng hành Bích Huyết, hạn sử dụng 7 ngày",
+        "ScriptID": 200060,
+        "ItemValue": 200419
+    },
+    {
+        "ItemID": 20605,
+        "Name": "Túi quà Ấn Đồng hành Kim Lân - 7 ngày",
+        "Icon": "quest_0078_s",
+        "Intro": "Nhận được Ấn đồng hành Kim Lân, hạn sử dụng 7 ngày",
+        "ScriptID": 200060,
+        "ItemValue": 200420
+    },
+    {
+        "ItemID": 13096,
+        "Name": "Danh vọng Liên đấu",
+        "Icon": "lenh_bai_lien_dau",
+        "Intro": "Mở ra được 20 điểm Danh vọng Liên đấu.",
+        "ScriptID": 200060,
+        "ItemValue": 100516,
+        "ListExtPram": [
+            {
+                "Pram": 2,
+                "Index": 1
+            }
+        ]
+    },
+    {
+        "ItemID": 13097,
+        "Name": "Danh vọng Liên đấu Liên Server",
+        "Icon": "lenh_bai_lien_dau_lsv",
+        "Intro": "Mở ra được 10 điểm Danh vọng Liên đấu Liên Server.",
+        "ScriptID": 200060,
+        "ItemValue": 100517,
+        "Stack": 100,
+        "ListExtPram": [
+            {
+                "Pram": 2,
+                "Index": 1
+            }
+        ]
+    },
+    {
+        "ItemID": 20121,
+        "Name": "Rương lựa chọn trang bị đồng hành Bích Huyết [Sơ]",
+        "Icon": "ruong_dong_hanh_lua_chon_so",
+        "Intro": "Sử dụng được quyền lựa chọn trang bị đồng hành Bích Huyết (Y phục, Phù, Vũ khí, Nhẫn, Hộ uyển).",
+        "ScriptID": 200125
+    },
+    {
+        "ItemID": 20122,
+        "Name": "Rương lựa chọn trang bị đồng hành Bích Huyết [Trung]",
+        "Icon": "ruong_dong_hanh_lua_chon_trung",
+        "Intro": "Sử dụng được quyền lựa chọn trang bị đồng hành Bích Huyết (Đai lưng, Mũ, Hạng liên).",
+        "ScriptID": 200125
+    },
+    {
+        "ItemID": 20123,
+        "Name": "Rương lựa chọn trang bị đồng hành Bích Huyết [Cao]",
+        "Icon": "ruong_dong_hanh_lua_chon_cao",
+        "Intro": "Sử dụng được quyền lựa chọn trang bị đồng hành Bích Huyết (Giày, Bội).",
+        "ScriptID": 200125
+    },
+    {
+        "ItemID": 20124,
+        "Name": "Rương trang bị đồng hành Bích Huyết (cao cấp)",
+        "Icon": "ruong_dong_hanh_cao",
+        "Intro": "Sử dụng nhận được ngẫu nhiên trang bị đồng hành Bích Huyết (giày, bội, hạng liên).",
+        "Stack": 100,
+        "ScriptID": 200060,
+        "ItemValue": 200427
+    },
+    {
+        "ItemID": 20622,
+        "Name": "Rương sách kỹ năng đồng hành [Sơ]",
+        "Icon": "ruong_ky_nang_dong_hanh_so",
+        "Intro": "Sử dụng nhận được sách kỹ năng đồng hành ngẫu nhiên.",
+        "ScriptID": 200060,
+        "ItemValue": 200428
+    },
+    {
+        "ItemID": 20623,
+        "Name": "Rương sách kỹ năng đồng hành [Trung]",
+        "Icon": "ruong_ky_nang_dong_hanh_trung",
+        "Intro": "Sử dụng nhận được sách kỹ năng đồng hành ngẫu nhiên.",
+        "ScriptID": 200060,
+        "ItemValue": 200429
+    },
+    {
+        "ItemID": 20624,
+        "Name": "Rương sách kỹ năng đồng hành [Cao]",
+        "Icon": "ruong_ky_nang_dong_hanh_cao",
+        "Intro": "Sử dụng nhận được sách kỹ năng đồng hành ngẫu nhiên.",
+        "ScriptID": 200060,
+        "ItemValue": 200430
+    },
+    {
+        "ItemID": 20625,
+        "Name": "Rương Cúp Vô Địch",
+        "Icon": "ruong_cup_vo_dich",
+        "Intro": "Sử dụng nhận được ngẫu nhiên 5 - 100 Cúp Vô Địch.",
+        "ScriptID": 200060,
+        "ItemValue": 200431,
+        "Stack": 100
+    },
+    {
+        "ItemID": 20626,
+        "Name": "Rương Rực Lửa",
+        "Icon": "Fifa_baoxiang",
+        "Intro": "Phần thưởng giá trị nhận được từ hoạt động Vòng quay Rực lửa.",
+        "ScriptID": 200060,
+        "ItemValue": 200433,
+        "Stack": 100
+    },
+    {
+        "ItemID": 20627,
+        "Name": "Rương thú cưỡi - Voi Bản Đôn (15 ngày)",
+        "Icon": "horsebox_g",
+        "Intro": "Nhận được ngẫu nhiên Voi Bản Đôn cấp 3 - 5, thời hạn 15 ngày.",
+        "ScriptID": 200060,
+        "ItemValue": 200434,
+        "Stack": 100
+    },
+    {
+        "ItemID": 20628,
+        "Name": "Túi huyền tinh ngẫu nhiên [Trung]",
+        "Icon": "tb_libao",
+        "Intro": "Sử dụng nhận được Huyền tinh ngẫu nhiên.",
+        "Stack": 100,
+        "Genre": 18,
+        "ScriptID": 200060,
+        "ItemValue": 200435
+    },
+    {
+        "ItemID": 20629,
+        "Name": "Túi huyền tinh ngẫu nhiên [Cao]",
+        "Icon": "tb_libao",
+        "Intro": "Sử dụng nhận được Huyền tinh ngẫu nhiên.",
+        "Stack": 100,
+        "Genre": 18,
+        "ScriptID": 200060,
+        "ItemValue": 200436
+    },
+    {
+        "ItemID": 20630,
+        "Name": "Phiếu đổi quà EURO",
+        "Icon": "Fifa_zuqiu",
+        "Intro": "Dùng để đổi quà tặng trong Tiệm Tạp hóa EURO Rực Lửa.",
+        "Stack": 10000
+    },
+    {
+        "ItemID": 20644,
+        "Name": "Rương Đua thú - Thần cơ diệu toán [sơ] [5]",
+        "Hint": "S1",
+        "Icon": "suijilingpaihe_tong",
+        "Intro": "Phần thưởng giành cho người chơi tích lũy 5 lần lựa chọn chính xác thú cưng chiến thắng trong hoạt động Cuộc Đua Thú Cưng với gói bình chọn 150 KNB.",
+        "Stack": 10,
+        "ScriptID": 200060,
+        "ItemValue": 200445
+    },
+    {
+        "ItemID": 20645,
+        "Name": "Rương Đua thú - Thần cơ diệu toán [sơ] [10]",
+        "Hint": "S1",
+        "Icon": "suijilingpaihe_tong",
+        "Intro": "Phần thưởng giành cho người chơi tích lũy 10 lần lựa chọn chính xác thú cưng chiến thắng trong hoạt động Cuộc Đua Thú Cưng với gói bình chọn 150 KNB.",
+        "Stack": 10,
+        "ScriptID": 200060,
+        "ItemValue": 200446
+    },
+    {
+        "ItemID": 20646,
+        "Name": "Rương Đua thú - Thần cơ diệu toán [sơ] [15]",
+        "Hint": "S1",
+        "Icon": "suijilingpaihe_tong",
+        "Intro": "Phần thưởng giành cho người chơi tích lũy 15 lần lựa chọn chính xác thú cưng chiến thắng trong hoạt động Cuộc Đua Thú Cưng với gói bình chọn 150 KNB.",
+        "Stack": 10,
+        "ScriptID": 200060,
+        "ItemValue": 200447
+    },
+    {
+        "ItemID": 25269,
+        "Name": "Thiệp Như Ý",
+        "Icon": "partner_shuofu_4",
+        "Intro": "Tấm thiệp tinh xảo.<enter><color=#f9e2af>Đứng cạnh đối tượng đã chọn và Nhấn sử dụng dể dùng<color><enter><color=#a6e3a1>Với xác suất nhất định thuyết phục quái ở bản đồ Tiêu Dao Cốc làm đồng hành.<color>",
+        "Level": 5,
+        "ScriptID": 200109,
+        "Stack": 100
+    },
+    {
+        "ItemID": 25273,
+        "Name": "Rương quà Online (15 phút)",
+        "Hint": "",
+        "Icon": "suijilingpaihe_tong",
+        "Intro": "Phần thưởng giành cho người chơi online đủ thời gian",
+        "Stack": 10,
+        "ScriptID": 200060,
+        "ItemValue": 200458
+    },
+    {
+        "ItemID": 25274,
+        "Name": "Rương quà Online (30 phút)",
+        "Hint": "",
+        "Icon": "suijilingpaihe_tong",
+        "Intro": "Phần thưởng giành cho người chơi online đủ thời gian",
+        "Stack": 10,
+        "ScriptID": 200060,
+        "ItemValue": 200459
+    },
+    {
+        "ItemID": 25275,
+        "Name": "Rương quà Online (60 phút)",
+        "Hint": "",
+        "Icon": "suijilingpaihe_tong",
+        "Intro": "Phần thưởng giành cho người chơi online đủ thời gian",
+        "Stack": 10,
+        "ScriptID": 200060,
+        "ItemValue": 200460
+    },
+    {
+        "ItemID": 25276,
+        "Name": "Rương quà Online (120 phút)",
+        "Hint": "",
+        "Icon": "suijilingpaihe_tong",
+        "Intro": "Phần thưởng giành cho người chơi online đủ thời gian",
+        "Stack": 10,
+        "ScriptID": 200060,
+        "ItemValue": 200461
+    },
+    {
+        "ItemID": 25277,
+        "Name": "Danh hiệu Chứng Nhận Nạp Đầu (15 ngày)",
+        "Icon": "quest_0084_s",
+        "Intro": "Phần thưởng sự kiện nạp lần đầu. Sử dụng nhận được Danh hiệu Chứng Nhận Nạp Đầu (15 ngày).",
+        "ScriptID": 200060,
+        "ItemValue": 200462
+    },
+    {
+        "ItemID": 20671,
+        "Name": "Chúc phúc Du Long (30 ngày)",
+        "Stack": 1,
+        "Icon": "2023sep_vong_sang",
+        "Intro": "Phần thưởng xếp hạng khiêu chiến Du Long Các hàng tháng",
+        "ScriptID": 200120,
+        "ListExtPram": [
+            {
+                "Pram": 2052,
+                "Index": 1
+            },
+            {
+                "Pram": 43201,
+                "Index": 2
+            }
+        ]
+    },
+    {
+        "ItemID": 20672,
+        "Name": "Chúc phúc Du Long (15 ngày)",
+        "Stack": 1,
+        "Icon": "2023sep_vong_sang",
+        "Intro": "Phần thưởng xếp hạng khiêu chiến Du Long Các hàng tháng",
+        "ScriptID": 200120,
+        "ListExtPram": [
+            {
+                "Pram": 2052,
+                "Index": 1
+            },
+            {
+                "Pram": 21601,
+                "Index": 2
+            }
+        ]
+    },
+    {
+        "ItemID": 20673,
+        "Name": "Chúc phúc Du Long (7 ngày)",
+        "Stack": 1,
+        "Icon": "2023sep_vong_sang",
+        "Intro": "Phần thưởng xếp hạng khiêu chiến Du Long Các hàng tháng",
+        "ScriptID": 200120,
+        "ListExtPram": [
+            {
+                "Pram": 2052,
+                "Index": 1
+            },
+            {
+                "Pram": 10081,
+                "Index": 2
+            }
+        ]
+    },
+    {
+        "ItemID": 20674,
+        "Name": "Rương Du Long May Mắn 1",
+        "Stack": 1,
+        "Icon": "icon_ruong_top_8",
+        "Intro": "Phần thưởng tích lũy khi tham gia Du Long Các hàng tháng đạt 150 lượt.",
+        "ScriptID": 200125
+    },
+    {
+        "ItemID": 20675,
+        "Name": "Rương Du Long May Mắn 2",
+        "Stack": 1,
+        "Icon": "icon_ruong_top_7",
+        "Intro": "Phần thưởng tích lũy khi tham gia Du Long Các hàng tháng đạt 400 lượt.",
+        "ScriptID": 200125
+    },
+    {
+        "ItemID": 20676,
+        "Name": "Rương Du Long May Mắn 3",
+        "Stack": 1,
+        "Icon": "icon_ruong_top_4",
+        "Intro": "Phần thưởng tích lũy khi tham gia Du Long Các hàng tháng đạt 800 lượt.",
+        "ScriptID": 200125
+    },
+    {
+        "ItemID": 20677,
+        "Name": "Rương Du Long May Mắn 4",
+        "Stack": 1,
+        "Icon": "icon_ruong_top_5",
+        "Intro": "Phần thưởng tích lũy khi tham gia Du Long Các hàng tháng đạt 2000 lượt.",
+        "ScriptID": 200125
+    },
+    {
+        "ItemID": 20678,
+        "Name": "Túi quà Ấn Đồng hành Đơn Tâm - 7 ngày",
+        "Icon": "quest_0078_s",
+        "Intro": "Nhận được Ấn đồng hành Đơn Tâm, hạn sử dụng 7 ngày",
+        "ScriptID": 200060,
+        "ItemValue": 200456
+    },
+    {
+        "ItemID": 20689,
+        "Name": "Gói đồng hành [6]",
+        "Icon": "ruong_rong",
+        "Intro": "Gói đồng hành [6] gồm:\n\t- 1 Rương lựa chọn trang bị đồng hành Bích Huyết [Trung]\n\t- 2 Sách kinh nghiệm đồng hành (Truyền thuyết)\n\t- 1 Rương bùa may mắn đồng hành (cao)\n\t- 120 Rương mảnh trang bị đồng hành (cao cấp)",
+        "Genre": 18,
+        "ScriptID": 200060,
+        "ItemValue": 200468
+    },
+    {
+        "ItemID": 20693,
+        "Name": "Rương Sách Kỹ năng Đồng hành (ngẫu nhiên)",
+        "Stack": 10000,
+        "Icon": "jul23_ruong_kho_bau",
+        "Intro": "Sử dụng có tỉ lệ nhận được Rương sách kỹ năng đồng hành sơ/trung/cao.",
+        "ScriptID": 200060,
+        "ItemValue": 200470
+    },
+    {
+        "ItemID": 20694,
+        "Name": "Bùa bảo hộ Kim Lân",
+        "Icon": "bua_bao_ho_1",
+        "Intro": "Bùa bảo hộ Kim Lân. Sử dụng khi nâng cấp vật phẩm đồng hành Kim Lân. Nếu thất bại sẽ được hoàn trả lại một phần nguyên liệu.",
+        "Genre": 22,
+        "Stack": 1000
+    },
+    {
+        "ItemID": 20695,
+        "Name": "Bùa bảo hộ Đơn Tâm",
+        "Icon": "bua_bao_ho_2",
+        "Intro": "Bùa bảo hộ Đơn Tâm. Sử dụng khi nâng cấp vật phẩm đồng hành Đơn Tâm. Nếu thất bại sẽ được hoàn trả lại một phần nguyên liệu.",
+        "Genre": 22,
+        "Stack": 1000
+    },
+    {
+        "ItemID": 20696,
+        "Name": "Bùa bảo hộ Long Đằng",
+        "Icon": "bua_bao_ho_3",
+        "Intro": "Bùa bảo hộ Long Đằng. Sử dụng khi nâng cấp vật phẩm đồng hành Long Đằng. Nếu thất bại sẽ được hoàn trả lại một phần nguyên liệu.",
+        "Genre": 22,
+        "Stack": 1000
+    },
+    {
+        "ItemID": 20729,
+        "Name": "Rương Kiểm Tra Bài Cũ - An ủi (200 KNB)",
+        "Icon": "suijilingpaihe_tie",
+        "Intro": "",
+        "Stack": 10,
+        "ScriptID": 200060,
+        "ItemValue": 200488
+    },
+    {
+        "ItemID": 20730,
+        "Name": "Rương Kiểm Tra Bài Cũ - An ủi (1000 KNB)",
+        "Icon": "suijilingpaihe_tie",
+        "Intro": "",
+        "Stack": 10,
+        "ScriptID": 200060,
+        "ItemValue": 200489
+    },
+    {
+        "ItemID": 20731,
+        "Name": "Rương Kiểm Tra Bài Cũ - An ủi (5000 KNB)",
+        "Icon": "suijilingpaihe_tie",
+        "Intro": "",
+        "Stack": 10,
+        "ScriptID": 200060,
+        "ItemValue": 200490
+    },
+    {
+        "ItemID": 20747,
+        "Name": "Rương Du Long Danh Vọng Lệnh (ngẫu nhiên)",
+        "Icon": "youlongbuff",
+        "Intro": "",
+        "Stack": 100,
+        "ScriptID": 200060,
+        "ItemValue": 200516
+    },
+    {
+        "ItemID": 20748,
+        "Name": "Rương Du Long Danh Vọng Lệnh (lựa chọn)",
+        "Icon": "youlongbuff",
+        "Intro": "",
+        "Stack": 100,
+        "ScriptID": 200125
+    },
+    {
+        "ItemID": 20749,
+        "Name": "Rương Du Long Thần Bí",
+        "Icon": "youlongbuff",
+        "Intro": "",
+        "Stack": 100,
+        "ScriptID": 200060,
+        "ItemValue": 200517
+    },
+    {
+        "ItemID": 20807,
+        "Name": "Phiếu 1 KNB",
+        "Icon": "2024jan_lixi",
+        "Intro": "Đổi được 1 KNB.",
+        "Stack": 100000,
+        "ScriptID": 200948
+    },
+    {
+        "ItemID": 20808,
+        "Name": "Dự đoán Tam Long - Phần quà An ủi (200 KNB)",
+        "Icon": "suijilingpaihe_tie",
+        "Intro": "",
+        "Stack": 10,
+        "ScriptID": 200060,
+        "ItemValue": 200488
+    },
+    {
+        "ItemID": 20809,
+        "Name": "Dự đoán Tam Long - Phần quà An ủi (1000 KNB)",
+        "Icon": "suijilingpaihe_tie",
+        "Intro": "",
+        "Stack": 10,
+        "ScriptID": 200060,
+        "ItemValue": 200489
+    },
+    {
+        "ItemID": 20810,
+        "Name": "Dự đoán Tam Long - Phần quà An ủi (5000 KNB)",
+        "Icon": "suijilingpaihe_tie",
+        "Intro": "",
+        "Stack": 10,
+        "ScriptID": 200060,
+        "ItemValue": 200490
+    },
+    {
+        "ItemID": 20690,
+        "Name": "Rương danh vọng (sự kiện)",
+        "Icon": "huangjbaoxiang",
+        "Intro": "Sử dụng nhận được điểm danh vọng Nghĩa quân (60), Bạch hổ đường (60), Tống Kim (30), Gia tộc (60), Môn phái (60).",
+        "Stack": 100,
+        "Genre": 18,
+        "ScriptID": 200060,
+        "ItemValue": 200513,
+        "ListExtPram": [
+            {
+                "Pram": 2,
+                "Index": 1
+            }
+        ]
+    },
+    {
+        "ItemID": 20811,
+        "Name": "Danh hiệu Tam Long Bá Vương",
+        "Icon": "quest_0084_s",
+        "Intro": "Phần thưởng hoạt động Tam Long Tranh Bá. Sử dụng nhận được danh hiệu Tam Long Bá Vương (60 ngày).",
+        "ScriptID": 200060,
+        "ItemValue": 100519
+    },
+    {
+        "ItemID": 20812,
+        "Name": "Danh hiệu Tam Long Chiến Tướng",
+        "Icon": "quest_0084_s",
+        "Intro": "Phần thưởng hoạt động Tam Long Tranh Bá. Sử dụng nhận được danh hiệu Tam Long Chiến Tướng (60 ngày).",
+        "ScriptID": 200060,
+        "ItemValue": 100520
+    },
+    {
+        "ItemID": 20813,
+        "Name": "Danh hiệu Tam Long Hộ Vệ",
+        "Icon": "quest_0084_s",
+        "Intro": "Phần thưởng hoạt động Tam Long Tranh Bá. Sử dụng nhận được danh hiệu Tam Long Hộ Vệ (60 ngày).",
+        "ScriptID": 200060,
+        "ItemValue": 100521
+    },
+    {
+        "ItemID": 20814,
+        "Name": "Danh hiệu Tam Long Tinh Anh",
+        "Icon": "quest_0084_s",
+        "Intro": "Phần thưởng hoạt động Tam Long Tranh Bá. Sử dụng nhận được danh hiệu Tam Long Tinh Anh (60 ngày).",
+        "ScriptID": 200060,
+        "ItemValue": 100522
+    },
+    {
+        "ItemID": 20815,
+        "Name": "Rương Ngoại trang Nhị Niên Chiến Bào",
+        "Icon": "ruong_rong",
+        "Intro": "Nhận được ngoại trang Nhị Niên Chiến Bào.",
+        "ScriptID": 200060,
+        "ItemValue": 100523
+    },
+    {
+        "ItemID": 20816,
+        "Name": "Tiền Cổ Năng Động",
+        "Stack": 10000,
+        "Icon": "tienconangdong",
+        "Intro": "Nhận được khi tích luỹ điểm năng động. Dùng để trao đổi lấy các vật phẩm giá trị."
+    },
+    {
+        "ItemID": 20817,
+        "Name": "Danh hiệu Hạnh Vận Giả (30 ngày)",
+        "Icon": "quest_0084_s",
+        "Intro": "Phần thưởng hoạt động Ngũ Phúc Lâm Môn. Sử dụng nhận được danh hiệu Hạnh Vận Giả (30 ngày).",
+        "ScriptID": 200060,
+        "ItemValue": 100366
+    },
+    {
+        "ItemID": 20818,
+        "Name": "Danh hiệu Hạnh Vận Giả (15 ngày)",
+        "Icon": "quest_0084_s",
+        "Intro": "Phần thưởng hoạt động Ngũ Phúc Lâm Môn. Sử dụng nhận được danh hiệu Hạnh Vận Giả (15 ngày).",
+        "ScriptID": 200060,
+        "ItemValue": 100367
+    },
+    {
+        "ItemID": 20819,
+        "Name": "Danh hiệu Hạnh Vận Giả (7 ngày)",
+        "Icon": "quest_0084_s",
+        "Intro": "Phần thưởng hoạt động Ngũ Phúc Lâm Môn. Sử dụng nhận được danh hiệu Hạnh Vận Giả (7 ngày).",
+        "ScriptID": 200060,
+        "ItemValue": 100368
+    },
+    {
+        "ItemID": 20820,
+        "Name": "Danh hiệu Đệ Nhất Phú Hào (30 ngày)",
+        "Icon": "quest_0084_s",
+        "Intro": "Phần thưởng hoạt động Ngũ Phúc Lâm Môn. Sử dụng nhận được danh hiệu Đệ Nhất Phú Hào (30 ngày).",
+        "ScriptID": 200060,
+        "ItemValue": 100369
+    },
+    {
+        "ItemID": 20821,
+        "Name": "Danh hiệu Đệ Nhất Phú Hào (15 ngày)",
+        "Icon": "quest_0084_s",
+        "Intro": "Phần thưởng hoạt động Ngũ Phúc Lâm Môn. Sử dụng nhận được danh hiệu Đệ Nhất Phú Hào (15 ngày).",
+        "ScriptID": 200060,
+        "ItemValue": 100370
+    },
+    {
+        "ItemID": 20822,
+        "Name": "Tinh hoạt lực (2000)",
+        "Icon": "zhanshenjiu",
+        "Intro": "Trực tiếp nhận được 2000 tinh lực, 2000 hoạt lực.",
+        "Stack": 10000,
+        "ScriptID": 200060,
+        "ItemValue": 100371,
+        "ListExtPram": [
+            {
+                "Pram": 2,
+                "Index": 1
+            }
+        ]
+    },
+    {
+        "ItemID": 25308,
+        "Name": "Lì xì Ất Tỵ",
+        "Icon": "2024jan_lixi",
+        "Intro": "Trong bao Lì Xì Ất Tỵ là món quà Hoa Nhi gửi tặng tới các anh hùng hào kiệt nhân dịp Tết Nguyên Đán Ất Tỵ 2025.",
+        "ScriptID": 200060,
+        "ItemValue": 200539
+    },
+    {
+        "ItemID": 25309,
+        "Name": "Lì xì Đại Phúc Đại Cát",
+        "Icon": "2024jan_lixirongvang",
+        "Intro": "Lì Xì Đại Phúc Đại Cát bên trong là những kỳ trân dị bảo do chính Hoa Nhi chuẩn bị, dành tặng các Võ Lâm Cao Thủ nhân dịp Tết Nguyên Đán Ất Tỵ 2025. Xin chân thành cảm ơn Quý anh hùng hào kiệt đã luôn ủng hộ Kiếm Vương 1 trong suốt thời gian qua.",
+        "ScriptID": 200060,
+        "ItemValue": 200540
+    },
+    {
+        "ItemID": 20844,
+        "Name": "Gói Ưu đãi Kết Đoàn (1)",
+        "Icon": "haohua",
+        "Intro": "Nhận được:\n- 2 Huyền tinh 7\n-10 Rương Điểm Danh vọng (sự kiện)",
+        "Stack": 100,
+        "Genre": 18,
+        "ScriptID": 200060,
+        "ItemValue": 100372,
+        "ListExtPram": [
+            {
+                "Pram": 2,
+                "Index": 1
+            }
+        ]
+    },
+    {
+        "ItemID": 20845,
+        "Name": "Túi huyền tinh ngẫu nhiên [Sơ]",
+        "Icon": "tb_libao",
+        "Intro": "Sử dụng nhận được Huyền tinh ngẫu nhiên.",
+        "Stack": 100,
+        "Genre": 18,
+        "ScriptID": 200060,
+        "ItemValue": 100373
+    },
+    {
+        "ItemID": 20846,
+        "Name": "Túi Quà Thần Binh",
+        "Icon": "2025_03_hopquathanbinh",
+        "Intro": "Sử dụng nhận được quà.",
+        "Stack": 100,
+        "Genre": 18,
+        "ScriptID": 200060,
+        "ItemValue": 100374
+    },
+    {
+        "ItemID": 20865,
+        "Name": "Rương 150 lần nhiệm vụ Bao Vạn Đồng",
+        "Icon": "ruong_rong",
+        "Intro": "Sử dụng nhận được trang bị theo hệ phái.",
+        "Genre": 18,
+        "ScriptID": 200125
+    },
+    {
+        "ItemID": 20866,
+        "Name": "Rương 12 lần nhiệm vụ Truy Nã Hải Tặc",
+        "Icon": "ruong_rong",
+        "Intro": "Sử dụng nhận được trang bị theo hệ phái.",
+        "Genre": 18,
+        "ScriptID": 200125
+    },
+    {
+        "ItemID": 20867,
+        "Name": "Rương tham gia Thi đấu môn phái / Hoa Sơn Luận Kiếm",
+        "Icon": "ruong_rong",
+        "Intro": "Sử dụng nhận được trang bị theo hệ phái.",
+        "Genre": 18,
+        "ScriptID": 200125
+    },
+    {
+        "ItemID": 20868,
+        "Name": "Rương tiêu diệt Hộ Đồ Sứ",
+        "Icon": "ruong_rong",
+        "Intro": "Sử dụng nhận được trang bị theo hệ phái.",
+        "Genre": 18,
+        "ScriptID": 200125
+    },
+    {
+        "ItemID": 20869,
+        "Name": "Rương Tiêu diệt 100 người chơi khác tại bản đồ tống kim",
+        "Icon": "ruong_rong",
+        "Intro": "Sử dụng nhận được trang bị theo hệ phái.",
+        "Genre": 18,
+        "ScriptID": 200125
+    },
+    {
+        "ItemID": 20900,
+        "Name": "Túi Huyền Tinh",
+        "Icon": "tb_libao",
+        "Intro": "Sử dụng để lưu trữ Huyền Tinh.",
+        "Stack": 1,
+        "Genre": 18,
+        "ScriptID": 206969,
+        "ItemValue": 100375
+    },
+    {
+        "ItemID": 20901,
+        "Name": "Danh hiệu thành viên thân thiết",
+        "Icon": "quest_0084_s",
+        "Intro": "Danh hiệu đặc biệt dành cho thành viên thân thiết có đóng góp cho Kiếm Vương 1. Sử dụng nhận được danh hiệu Thành viên thân thiết (30 ngày).",
+        "ScriptID": 200060,
+        "ItemValue": 200583
+    },
+    {
+        "ItemID": 20902,
+        "Name": "Danh hiệu nhà tài trợ bạc",
+        "Icon": "quest_0084_s",
+        "Intro": "Danh hiệu đặc biệt dành cho nhà tài trợ bạc có đóng góp cho Kiếm Vương 1. Sử dụng nhận được danh hiệu Nhà tài trợ bạc (30 ngày).",
+        "ScriptID": 200060,
+        "ItemValue": 200584
+    },
+    {
+        "ItemID": 20903,
+        "Name": "Danh hiệu nhà tài trợ vàng",
+        "Icon": "quest_0084_s",
+        "Intro": "Danh hiệu đặc biệt dành cho nhà tài trợ vàng có đóng góp cho Kiếm Vương 1. Sử dụng nhận được danh hiệu Nhà tài trợ vàng (30 ngày).",
+        "ScriptID": 200060,
+        "ItemValue": 200585
+    },
+    {
+        "ItemID": 20904,
+        "Name": "Danh hiệu nhà tài trợ bạch kim",
+        "Icon": "quest_0084_s",
+        "Intro": "Danh hiệu đặc biệt dành cho nhà tài trợ bạch kim có đóng góp lớn cho Kiếm Vương 1. Sử dụng nhận được danh hiệu Nhà tài trợ bạch kim (30 ngày).",
+        "ScriptID": 200060,
+        "ItemValue": 200586
+    },
+    {
+        "ItemID": 20905,
+        "Name": "Danh hiệu nhà tài trợ kim cương",
+        "Icon": "quest_0084_s",
+        "Intro": "Danh hiệu đặc biệt dành cho nhà tài trợ kim cương có đóng góp đặc biệt lớn cho Kiếm Vương 1. Sử dụng nhận được danh hiệu Nhà tài trợ kim cương (30 ngày).",
+        "ScriptID": 200060,
+        "ItemValue": 200587
+    },
+    {
+        "ItemID": 20906,
+        "Name": "Hộp lưu trữ bảo thạch",
+        "Icon": "ruong_rong",
+        "Intro": "Hộp bảo thạch may mắn, mở ra sẽ nhận bảo thạch cấp 3 ngẫu nhiên.",
+        "ScriptID": 200060,
+        "ItemValue": 200590
+    },
+    {
+        "ItemID": 20908,
+        "Name": "Hộp quà bảo thạch",
+        "Icon": "ruong_rong",
+        "Intro": "Mở hộp sẽ nhận được bảo thạch ngẫu nhiên.",
+        "Stack": 10000,
+        "ScriptID": 200060,
+        "ItemValue": 200591
+    },
+    {
+        "ItemID": 20909,
+        "Name": "Buff Kiếm Vương Lệnh [15 ngày]",
+        "Icon": "quest_0084_s",
+        "Intro": "Sử dụng nhận được <color=#f9e2af>Buff Kiếm Vương Lệnh [15 ngày]</color>.\n<color=#a6e3a1>Sinh lực: +1500</color> \n<color=#a6e3a1>Kháng tất cả: +30</color> \n<color=#a6e3a1>Giảm sát thương nhận vào: +3%</color>",
+        "Stack": 1,
+        "ScriptID": 200120,
+        "ListExtPram": [
+            {
+                "Pram": 2062,
+                "Index": 1
+            },
+            {
+                "Pram": 21600,
+                "Index": 2
+            },
+            {
+                "Pram": 1,
+                "Index": 3
+            }
+        ]
+    },
+    {
+        "ItemID": 20910,
+        "Name": "Buff Kiếm Vương Lệnh [30 ngày]",
+        "Icon": "quest_0084_s",
+        "Intro": "Sử dụng nhận được <color=#f9e2af>Buff Kiếm Vương Lệnh [30 ngày]</color>.\n<color=#a6e3a1>Sinh lực: +1500</color> \n<color=#a6e3a1>Kháng tất cả: +30</color> \n<color=#a6e3a1>Giảm sát thương nhận vào: +3%</color>",
+        "Stack": 1,
+        "ScriptID": 200120,
+        "ListExtPram": [
+            {
+                "Pram": 2062,
+                "Index": 1
+            },
+            {
+                "Pram": 43201,
+                "Index": 2
+            },
+            {
+                "Pram": 1,
+                "Index": 3
+            }
+        ]
+    },
+    {
+        "ItemID": 20911,
+        "Name": "Kiếm Vương Lệnh [Cao Cấp]",
+        "Icon": "quest_0084_s",
+        "Intro": "Sử dụng mở khóa <color=#f9e2af>Kiếm Vương Lệnh [Cao Cấp]</color>.",
+        "Stack": 1,
+        "ScriptID": 206971,
+        "ListExtPram": [
+            {
+                "Pram": 1,
+                "Index": 1
+            }
+        ]
+    },
+    {
+        "ItemID": 20912,
+        "Name": "Kiếm Vương Lệnh [Siêu Cấp]",
+        "Icon": "quest_0084_s",
+        "Intro": "Sử dụng mở khóa <color=#f9e2af>Kiếm Vương Lệnh [Siêu Cấp]</color>.",
+        "Stack": 1,
+        "ScriptID": 206971,
+        "ListExtPram": [
+            {
+                "Pram": 2,
+                "Index": 1
+            }
+        ]
+    },
+    {
+        "ItemID": 20913,
+        "Name": "Sách Kinh nghiệm Kiếm Vương Lệnh (50)",
+        "Icon": "zhongjimiji_s",
+        "Intro": "Nhận được 50 Kinh nghiệm <color=#f9e2af>Kiếm Vương Lệnh</color>.",
+        "Stack": 10000,
+        "ScriptID": 206972,
+        "ListExtPram": [
+            {
+                "Pram": 50,
+                "Index": 1
+            }
+        ]
+    },
+    {
+        "ItemID": 20914,
+        "Name": "Sách Kinh nghiệm Kiếm Vương Lệnh (100)",
+        "Icon": "zhongjimiji_s",
+        "Intro": "Nhận được 100 Kinh nghiệm <color=#f9e2af>Kiếm Vương Lệnh</color>.",
+        "Stack": 10000,
+        "ScriptID": 206972,
+        "ListExtPram": [
+            {
+                "Pram": 100,
+                "Index": 1
+            }
+        ]
+    },
+    {
+        "ItemID": 20920,
+        "Name": "Rương sự kiện hoàn trả 1000 KNB(ngày 1)",
+        "Icon": "ruong_rong",
+        "Intro": "\nSử dụng rương sẽ nhận được: \n- 1 x Huyền tinh 8 \n- 1 x Thiệp Vàng \n- 10 x Rương danh vọng - Trungg",
+        "Stack": 10000,
+        "ScriptID": 200060,
+        "ItemValue": 201000
+    },
+    {
+        "ItemID": 20921,
+        "Name": "Rương sự kiện hoàn trả 1000 KNB(ngày 5)",
+        "Icon": "ruong_rong",
+        "Intro": "\nSử dụng rương sẽ nhận được: \n- 1 x Tinh hoạt Lực (1000) \n- 100 x Ngũ Hành Hồn Thạch",
+        "Stack": 10000,
+        "ScriptID": 200060,
+        "ItemValue": 201001
+    },
+    {
+        "ItemID": 20922,
+        "Name": "Rương sự kiện hoàn trả 2000 KNB(ngày 1)",
+        "Icon": "ruong_rong",
+        "Intro": "\nSử dụng rương sẽ nhận được: \n- 1 x Huyền tinh 8 \n- 10 x Sách Kinh Nghiệm Đồng Hành",
+        "Stack": 10000,
+        "ScriptID": 200060,
+        "ItemValue": 201002
+    },
+    {
+        "ItemID": 20923,
+        "Name": "Rương sự kiện hoàn trả 2000 KNB(ngày 5)",
+        "Icon": "ruong_rong",
+        "Intro": "\nSử dụng rương sẽ nhận được: \n- 2 x Tinh Hoạt Lực (1000) \n- 10 x Chiến Thư Du Long \n- 20 x Rương mảnh trang bị đồng hành - trung",
+        "Stack": 10000,
+        "ScriptID": 200060,
+        "ItemValue": 201003
+    },
+    {
+        "ItemID": 20924,
+        "Name": "Rương sự kiện hoàn trả 5000 KNB(ngày 1)",
+        "Icon": "ruong_rong",
+        "Intro": "\nSử dụng rương sẽ nhận được: \n- 1 x Huyền Tinh 9 \n- 3 x Tinh Hoạt Lực 1000 \n- 30 x Rương mảnh trang bị đồng hành - cao cấp",
+        "Stack": 10000,
+        "ScriptID": 200060,
+        "ItemValue": 201004
+    },
+    {
+        "ItemID": 20925,
+        "Name": "Rương sự kiện hoàn trả 5000 KNB(ngày 5)",
+        "Icon": "ruong_rong",
+        "Intro": "\nSử dụng rương sẽ nhận được: \n- 2 x Thiệp Như Ý \n- 800 x Ngũ Hành Hồn Thạch",
+        "Stack": 10000,
+        "ScriptID": 200060,
+        "ItemValue": 201005
+    },
+    {
+        "ItemID": 20926,
+        "Name": "Rương sự kiện hoàn trả 10000 KNB(ngày 1)",
+        "Icon": "ruong_rong",
+        "Intro": "\nSử dụng rương sẽ nhận được: \n- 5 x Tinh Hoạt Lực 1000 \n- 2 x Thiệp Bạch Kim \n- 30 x Bạch Ngân Tinh Hoa",
+        "Stack": 10000,
+        "ScriptID": 200060,
+        "ItemValue": 201006
+    },
+    {
+        "ItemID": 20927,
+        "Name": "Rương sự kiện hoàn trả 10000 KNB(ngày 5)",
+        "Icon": "ruong_rong",
+        "Intro": "\nSử dụng rương sẽ nhận được: \n- 2000 x Ngũ Hành Hồn Thạch \n- 300 x Kinh nghiệm Chân Nguyên",
+        "Stack": 10000,
+        "ScriptID": 200060,
+        "ItemValue": 201007
+    },
+    {
+        "ItemID": 20928,
+        "Name": "Rương sự kiện hoàn trả 50000 KNB(ngày 1)",
+        "Icon": "ruong_rong",
+        "Intro": "\nSử dụng rương sẽ nhận được: \n- 2 x Tinh Hoạt Lực (1 vạn) \n- 2 x Sách kinh nghiệm đồng hành - truyền thuyết",
+        "Stack": 10000,
+        "ScriptID": 200060,
+        "ItemValue": 201008
+    },
+    {
+        "ItemID": 20929,
+        "Name": "Rương sự kiện hoàn trả 50000 KNB(ngày 3)",
+        "Icon": "ruong_rong",
+        "Intro": "\nSử dụng rương sẽ nhận được: \n- 1 x Rương trang bị đồng hành bích huyết - Lựa Chọn [Trung] \n- 1000 x Ngũ hành hồn thạch",
+        "Stack": 10000,
+        "ScriptID": 200060,
+        "ItemValue": 201009
+    },
+    {
+        "ItemID": 20930,
+        "Name": "Rương sự kiện hoàn trả 50000 KNB(ngày 5)",
+        "Icon": "ruong_rong",
+        "Intro": "\nSử dụng rương sẽ nhận được: \n- 1 x Thiệp Bạch Kim \n- 2 x Tần Lăng - Hòa Thị Bích",
+        "Stack": 10000,
+        "ScriptID": 200060,
+        "ItemValue": 201010
+    },
+    {
+        "ItemID": 20931,
+        "Name": "Rương sự kiện hoàn trả 100000 KNB(ngày 1)",
+        "Icon": "ruong_rong",
+        "Intro": "\nSử dụng rương sẽ nhận được: \n- 5000 x Ngũ Hành Hồn Thạch \n- 2 x Thiệp Bạch Kim ",
+        "Stack": 10000,
+        "ScriptID": 200060,
+        "ItemValue": 201011
+    },
+    {
+        "ItemID": 20932,
+        "Name": "Rương sự kiện hoàn trả 100000 KNB(ngày 3)",
+        "Icon": "ruong_rong",
+        "Intro": "\nSử dụng rương sẽ nhận được: \n- 1 x Rương Tiểu Du Long \n- 3 x Sách kinh nghiệm đồng hành - truyền thuyết",
+        "Stack": 10000,
+        "ScriptID": 200060,
+        "ItemValue": 201012
+    },
+    {
+        "ItemID": 20933,
+        "Name": "Rương sự kiện hoàn trả 100000 KNB(ngày 5)",
+        "Icon": "ruong_rong",
+        "Intro": "\nSử dụng rương sẽ nhận được: \n- 1 x Vũ khí Thanh Đồng-Luyện Hóa Đồ",
+        "Stack": 10000,
+        "ScriptID": 200060,
+        "ItemValue": 201013
+    },
+    {
+        "ItemID": 20781,
+        "Name": "Rương bách bảo [sự kiện]",
+        "Stack": 10000,
+        "Icon": "202501_ruongkhaixuan",
+        "Intro": "Phần thưởng đặc biệt từ Vòng quay Bách bảo rương đặc biệt.",
+        "Genre": 18,
+        "ScriptID": 200060,
+        "ItemValue": 200550
+    },
+    {
+        "ItemID": 20944,
+        "Name": "Blind Box Mặt Nạ - Trung cấp (7 Ngày)",
+        "Icon": "202505_blindboxmatna",
+        "Intro": "Mở ra nhận được ngẫu nhiên mặt nạ cấp 2 - 3 (hạn sử dụng 7 ngày).",
+        "Stack": 100,
+        "Genre": 18,
+        "ScriptID": 200060,
+        "ItemValue": 101391
+    },
+    {
+        "ItemID": 20945,
+        "Name": "Blind Box Mặt Nạ - Cao cấp (7 Ngày)",
+        "Icon": "202505_blindboxmatna",
+        "Intro": "Mở ra nhận được ngẫu nhiên mặt nạ cấp 3 - 4 (hạn sử dụng 7 ngày).",
+        "Stack": 100,
+        "Genre": 18,
+        "ScriptID": 200060,
+        "ItemValue": 101392
+    },
+    {
+        "ItemID": 20946,
+        "Name": "Blind Box Mặt Nạ - Siêu cấp (7 Ngày)",
+        "Icon": "202505_blindboxmatna",
+        "Intro": "Mở ra nhận được ngẫu nhiên mặt nạ cấp 5 - 6 (hạn sử dụng 7 ngày).",
+        "Stack": 100,
+        "Genre": 18,
+        "ScriptID": 200060,
+        "ItemValue": 101393
+    },
+    {
+        "ItemID": 20947,
+        "Name": "Hộp lưu trữ bảo thạch (Trung)",
+        "Icon": "ruong_rong",
+        "Intro": "Hộp bảo thạch may mắn, mở ra sẽ nhận bảo thạch cấp 5 ngẫu nhiên.",
+        "ScriptID": 200060,
+        "ItemValue": 200592
+    },
+    {
+        "ItemID": 29004,
+        "Name": "Trục cuốn Công trạng (Cao)",
+        "Icon": "HC_Truc_Cuon_Cong_Trang",
+        "Intro": "Sử dụng để nhận công trạng.<enter>* Không giới hạn số lần sử dụng<enter>* Không giới hạn tích lũy điểm Công trạng<enter>* Điểm nhận được: 200 Điểm",
+        "Stack": 10000,
+        "Genre": 18,
+        "ScriptID": 200131,
+        "ListExtPram": [
+            {
+                "Pram": 200,
+                "Index": 1
+            }
+        ]
+    },
+    {
+        "ItemID": 29005,
+        "Name": "Trục cuốn Công trạng (Trung)",
+        "Icon": "HC_Truc_Cuon_Cong_Trang",
+        "Intro": "Sử dụng để nhận công trạng.<enter>* Không giới hạn số lần sử dụng<enter>* Không giới hạn tích lũy điểm Công trạng<enter>* Điểm nhận được: 100 Điểm",
+        "Stack": 10000,
+        "Genre": 18,
+        "ScriptID": 200131,
+        "ListExtPram": [
+            {
+                "Pram": 100,
+                "Index": 1
+            }
+        ]
+    },
+    {
+        "ItemID": 29006,
+        "Name": "Trục cuốn Công trạng (Sơ)",
+        "Icon": "HC_Truc_Cuon_Cong_Trang",
+        "Intro": "Sử dụng để nhận công trạng.<enter>* Không giới hạn số lần sử dụng<enter>* Không giới hạn tích lũy điểm Công trạng<enter>* Điểm nhận được: 50 Điểm",
+        "Stack": 10000,
+        "Genre": 18,
+        "ScriptID": 200131,
+        "ListExtPram": [
+            {
+                "Pram": 50,
+                "Index": 1
+            }
+        ]
+    },
+    {
+        "ItemID": 29007,
+        "Name": "Sao Đồng",
+        "Icon": "HC_Sao_dong",
+        "Intro": "Tăng thuộc tính Ma pháp.<enter>- Chế tạo: 100 Danh Bổ Lệnh + 1 vạn Bạc + 100 ngũ hành hỗn thạch = 1 Sao Đồng (khóa).",
+        "Stack": 10000,
+        "Genre": 18,
+        "ScriptID": -1,
+        "ItemValue": 1
+    },
+    {
+        "ItemID": 29008,
+        "Name": "Lệnh bài Hoàng Đế",
+        "Icon": "HC_LB_Hoang_de",
+        "Intro": "Vật phẩm dùng để mua quan ấn tương ứng tại cửa hàng Lãnh thổ tạp hóa.",
+        "Stack": 10000,
+        "Genre": 18,
+        "ScriptID": -1,
+        "ItemValue": 1
+    },
+    {
+        "ItemID": 29009,
+        "Name": "Lệnh bài Thừa Tướng",
+        "Icon": "HC_LB_Thua_Tuong",
+        "Intro": "Vật phẩm dùng để mua quan ấn tương ứng tại cửa hàng Lãnh thổ tạp hóa.",
+        "Stack": 10000,
+        "Genre": 18,
+        "ScriptID": -1,
+        "ItemValue": 1
+    },
+    {
+        "ItemID": 29010,
+        "Name": "Lệnh bài Quốc Công",
+        "Icon": "HC_LB_Quoc_Cong",
+        "Intro": "Vật phẩm dùng để mua quan ấn tương ứng tại cửa hàng Lãnh thổ tạp hóa.",
+        "Stack": 10000,
+        "Genre": 18,
+        "ScriptID": -1,
+        "ItemValue": 1
+    },
+    {
+        "ItemID": 29011,
+        "Name": "Lệnh bài Thượng Khanh",
+        "Icon": "HC_LB_thuong_khanh",
+        "Intro": "Vật phẩm dùng để mua quan ấn tương ứng tại cửa hàng Lãnh thổ tạp hóa.",
+        "Stack": 10000,
+        "Genre": 18,
+        "ScriptID": -1,
+        "ItemValue": 1
+    },
+    {
+        "ItemID": 29012,
+        "Name": "Sao Bạc",
+        "Icon": "HC_Sao_bac",
+        "Intro": "Tăng cấp phẩm chất và thuộc tính ma pháp.<enter>- Nhận tại cửa Hàng Sự kiện hoặc tham gia sự kiện đặc biệt.",
+        "Stack": 10000,
+        "Genre": 18,
+        "ScriptID": -1,
+        "ItemValue": 1
+    },
+    {
+        "ItemID": 29013,
+        "Name": "Sao Vàng",
+        "Icon": "HC_Sao_vang",
+        "Intro": "Dùng để đổi thuộc tính hoàng kim.<enter>- Nhận trong sự kiện sắp tới",
+        "Stack": 10000,
+        "Genre": 18,
+        "ScriptID": -1,
+        "ItemValue": 1
+    },
+    {
+        "ItemID": 29014,
+        "Name": "Sao Đỏ",
+        "Icon": "HC_Sao_do",
+        "Intro": "Dùng để mở khóa Huy chương.<enter>- Nhận trong sự kiện sắp tới",
+        "Stack": 10000,
+        "Genre": 18,
+        "ScriptID": -1,
+        "ItemValue": 1
+    },
+    {
+        "ItemID": 29019,
+        "Name": "Tẩy Luyện Châu",
+        "Icon": "HC_Tay_Luyen_Chau",
+        "Intro": "Dùng để tẩy luyện chỉ số.<enter>- Nhận được khi tham gia sự kiện.",
+        "Stack": 10000,
+        "Genre": 18,
+        "ScriptID": -1,
+        "ItemValue": 1
+    },
+    {
+        "ItemID": 29020,
+        "Name": "Khóa Cố Định",
+        "Icon": "HC_Khoa_co_dinh",
+        "Intro": "Dùng để khóa lại dòng thuộc tính.<enter>- Nhận được khi tham gia sự kiện.",
+        "Stack": 10000,
+        "Genre": 18,
+        "ScriptID": -1,
+        "ItemValue": 1
+    }
+]

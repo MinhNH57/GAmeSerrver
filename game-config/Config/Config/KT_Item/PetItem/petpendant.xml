@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfItemData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <ItemData ItemID="25131" Name="Bội Đồng Hành - Bích Huyết" IconBundleDir="Icon/EquipIcon2.unity3d" IconAtlasName="EquipIcon2"
+    MapSpriteBundleDir="Resources/Item/MapSprite.unity3d" MapSpriteAtlasName="MapSprite" Kind="土系祈福黄金护身符_vn" QualityPrefix="7" Category="1" Genre="2"
+    Stack="1" DetailType="27" ParticularType="281" Level="7" SuiteID="0" Icon="BH_boi" View="BH_boi" Intro=""
+    Help="" ObjID="25" BindType="4" Series="1" ReqLevel="0" CDType="0" Price="160000" ItemValue="10000000" MakeCost="-1" ResMale="-1" ResFemale="-1"
+    FightPower="16" ScriptID="-1" DeductOnUse="false" BuffID="-1">
+    <ListBasicProp BasicPropType="skilldamageptrim" BasicPropPA1Min="5" BasicPropPA1Max="5" BasicPropPA2Min="-1" BasicPropPA2Max="-1"
+      BasicPropPA3Min="0" BasicPropPA3Max="0" Index="1" />
+    <ListBasicProp BasicPropType="skillselfdamagetrim" BasicPropPA1Min="5" BasicPropPA1Max="5" BasicPropPA2Min="-1" BasicPropPA2Max="-1"
+      BasicPropPA3Min="0" BasicPropPA3Max="0" Index="2" />
+    <ListBasicProp BasicPropType="reduce_received_damage_p" BasicPropPA1Min="5" BasicPropPA1Max="5" BasicPropPA2Min="-1" BasicPropPA2Max="-1"
+      BasicPropPA3Min="0" BasicPropPA3Max="0" Index="3" />
+    <UnLockInterval>-1</UnLockInterval>
+  </ItemData>
+  <ItemData ItemID="25132" Name="Bội Đồng Hành - Kim Lân" IconBundleDir="Icon/EquipIcon2.unity3d" IconAtlasName="EquipIcon2"
+    MapSpriteBundleDir="Resources/Item/MapSprite.unity3d" MapSpriteAtlasName="MapSprite" Kind="土系祈福黄金护身符_vn" QualityPrefix="7" Category="1" Genre="2"
+    Stack="1" DetailType="27" ParticularType="281" Level="8" SuiteID="0" Icon="KL_boi" View="KL_boi" Intro=""
+    Help="" ObjID="25" BindType="4" Series="1" ReqLevel="0" CDType="0" Price="160000" ItemValue="20000000" MakeCost="-1" ResMale="-1" ResFemale="-1"
+    FightPower="16" ScriptID="-1" DeductOnUse="false" BuffID="-1">
+    <ListBasicProp BasicPropType="skilldamageptrim" BasicPropPA1Min="10" BasicPropPA1Max="10" BasicPropPA2Min="-1" BasicPropPA2Max="-1"
+      BasicPropPA3Min="0" BasicPropPA3Max="0" Index="1" />
+    <ListBasicProp BasicPropType="skillselfdamagetrim" BasicPropPA1Min="10" BasicPropPA1Max="10" BasicPropPA2Min="-1" BasicPropPA2Max="-1"
+      BasicPropPA3Min="0" BasicPropPA3Max="0" Index="2" />
+    <ListBasicProp BasicPropType="reduce_received_damage_p" BasicPropPA1Min="7" BasicPropPA1Max="7" BasicPropPA2Min="-1" BasicPropPA2Max="-1"
+      BasicPropPA3Min="0" BasicPropPA3Max="0" Index="3" />
+    <UnLockInterval>-1</UnLockInterval>
+  </ItemData>
+  <ItemData ItemID="25133" Name="Bội Đồng Hành - Đơn Tâm" IconBundleDir="Icon/EquipIcon2.unity3d" IconAtlasName="EquipIcon2"
+    MapSpriteBundleDir="Resources/Item/MapSprite.unity3d" MapSpriteAtlasName="MapSprite" Kind="土系祈福黄金护身符_vn" QualityPrefix="7" Category="1" Genre="2"
+    Stack="1" DetailType="27" ParticularType="281" Level="9" SuiteID="0" Icon="DT_boi" View="DT_boi" Intro=""
+    Help="" ObjID="25" BindType="4" Series="1" ReqLevel="0" CDType="0" Price="160000" ItemValue="30000000" MakeCost="-1" ResMale="-1" ResFemale="-1"
+    FightPower="16" ScriptID="-1" DeductOnUse="false" BuffID="-1">
+    <ListBasicProp BasicPropType="skilldamageptrim" BasicPropPA1Min="15" BasicPropPA1Max="15" BasicPropPA2Min="-1" BasicPropPA2Max="-1"
+      BasicPropPA3Min="0" BasicPropPA3Max="0" Index="1" />
+    <ListBasicProp BasicPropType="skillselfdamagetrim" BasicPropPA1Min="15" BasicPropPA1Max="15" BasicPropPA2Min="-1" BasicPropPA2Max="-1"
+      BasicPropPA3Min="0" BasicPropPA3Max="0" Index="2" />
+    <ListBasicProp BasicPropType="reduce_received_damage_p" BasicPropPA1Min="10" BasicPropPA1Max="10" BasicPropPA2Min="-1" BasicPropPA2Max="-1"
+      BasicPropPA3Min="0" BasicPropPA3Max="0" Index="3" />
+    <UnLockInterval>-1</UnLockInterval>
+  </ItemData>
+  <ItemData ItemID="25134" Name="Bội Đồng Hành - Long Đằng" IconBundleDir="Icon/EquipIcon2.unity3d" IconAtlasName="EquipIcon2"
+    MapSpriteBundleDir="Resources/Item/MapSprite.unity3d" MapSpriteAtlasName="MapSprite" Kind="土系祈福黄金护身符_vn" QualityPrefix="7" Category="1" Genre="2"
+    Stack="1" DetailType="27" ParticularType="281" Level="10" SuiteID="0" Icon="LD_boi" View="LD_boi" Intro=""
+    Help="" ObjID="25" BindType="4" Series="1" ReqLevel="0" CDType="0" Price="160000" ItemValue="40000000" MakeCost="-1" ResMale="-1" ResFemale="-1"
+    FightPower="16" ScriptID="-1" DeductOnUse="false" BuffID="-1">
+    <ListBasicProp BasicPropType="skilldamageptrim" BasicPropPA1Min="20" BasicPropPA1Max="20" BasicPropPA2Min="-1" BasicPropPA2Max="-1"
+      BasicPropPA3Min="0" BasicPropPA3Max="0" Index="1" />
+    <ListBasicProp BasicPropType="skillselfdamagetrim" BasicPropPA1Min="20" BasicPropPA1Max="20" BasicPropPA2Min="-1" BasicPropPA2Max="-1"
+      BasicPropPA3Min="0" BasicPropPA3Max="0" Index="2" />
+    <ListBasicProp BasicPropType="reduce_received_damage_p" BasicPropPA1Min="15" BasicPropPA1Max="15" BasicPropPA2Min="-1" BasicPropPA2Max="-1"
+      BasicPropPA3Min="0" BasicPropPA3Max="0" Index="3" />
+    <UnLockInterval>-1</UnLockInterval>
+  </ItemData>
+</ArrayOfItemData>

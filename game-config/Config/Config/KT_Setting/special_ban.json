@@ -1,0 +1,12 @@
+[
+    [
+        {
+            "condition": "family",
+            "value": 999900270
+        },
+        {
+            "condition": "totalvalue_smaller",
+            "value": 120000000
+        }
+    ]
+]

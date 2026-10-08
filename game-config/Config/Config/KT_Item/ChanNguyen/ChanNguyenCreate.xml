@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfRandomCN xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" CanRevice="false">
+    <RandomCN IDCN="25244" RateApear="14" RateProps1="4_3_2_1" RateProp2="4_3_2_1" RateProp3="4_3_2_1" RateProp4="4_3_2_1"/>
+    <RandomCN IDCN="25245" RateApear="14" RateProps1="4_3_2_1" RateProp2="4_3_2_1" RateProp3="4_3_2_1" RateProp4="4_3_2_1"/>
+    <RandomCN IDCN="25246" RateApear="16" RateProps1="4_3_2_1" RateProp2="4_3_2_1" RateProp3="4_3_2_1" RateProp4="4_3_2_1"/>
+    <RandomCN IDCN="25247" RateApear="14" RateProps1="4_3_2_1" RateProp2="4_3_2_1" RateProp3="4_3_2_1" RateProp4="4_3_2_1"/>
+    <RandomCN IDCN="25248" RateApear="14" RateProps1="4_3_2_1" RateProp2="4_3_2_1" RateProp3="4_3_2_1" RateProp4="4_3_2_1"/>
+    <RandomCN IDCN="25249" RateApear="14" RateProps1="4_3_2_1" RateProp2="4_3_2_1" RateProp3="4_3_2_1" RateProp4="4_3_2_1"/>
+    <RandomCN IDCN="25250" RateApear="14" RateProps1="4_3_2_1" RateProp2="4_3_2_1" RateProp3="4_3_2_1" RateProp4="4_3_2_1"/>
+</ArrayOfRandomCN>

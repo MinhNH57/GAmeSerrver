@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfAnhHungInfo xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" CanRevice="false">
+    <AnhHungInfo BasicPropType="lifemax_v" BasicPropPA1Min="200" BasicPropPA1Max="500" BasicPropPA2Min="-1" BasicPropPA2Max="-1" BasicPropPA3Min="0" BasicPropPA3Max="0" Rate="100"/>
+    <AnhHungInfo BasicPropType="fastlifereplenish_v" BasicPropPA1Min="10" BasicPropPA1Max="30" BasicPropPA2Min="-1" BasicPropPA2Max="-1" BasicPropPA3Min="0" BasicPropPA3Max="0" Rate="100"/>
+    <AnhHungInfo BasicPropType="damage_all_resist" BasicPropPA1Min="10" BasicPropPA1Max="30" BasicPropPA2Min="-1" BasicPropPA2Max="-1" BasicPropPA3Min="0" BasicPropPA3Max="0" Rate="90"/>
+    <AnhHungInfo BasicPropType="skilldamageptrim" BasicPropPA1Min="1" BasicPropPA1Max="5" BasicPropPA2Min="-1" BasicPropPA2Max="-1" BasicPropPA3Min="0" BasicPropPA3Max="0" Rate="10"/>
+    <AnhHungInfo BasicPropType="defencedeadlystrikedamagetrim" BasicPropPA1Min="1" BasicPropPA1Max="5" BasicPropPA2Min="-1" BasicPropPA2Max="-1" BasicPropPA3Min="0" BasicPropPA3Max="0" Rate="70"/>
+    <AnhHungInfo BasicPropType="deadlystrikedamageenhance_p" BasicPropPA1Min="1" BasicPropPA1Max="5" BasicPropPA2Min="-1" BasicPropPA2Max="-1" BasicPropPA3Min="0" BasicPropPA3Max="0" Rate="21"/>
+    <AnhHungInfo BasicPropType="allseriesstateresisttime" BasicPropPA1Min="10" BasicPropPA1Max="30" BasicPropPA2Min="-1" BasicPropPA2Max="-1" BasicPropPA3Min="0" BasicPropPA3Max="0" Rate="100"/>
+    <AnhHungInfo BasicPropType="allseriesstateresistrate" BasicPropPA1Min="10" BasicPropPA1Max="30" BasicPropPA2Min="-1" BasicPropPA2Max="-1" BasicPropPA3Min="0" BasicPropPA3Max="0" Rate="100"/>
+    <AnhHungInfo BasicPropType="adddefense_v" BasicPropPA1Min="30" BasicPropPA1Max="60" BasicPropPA2Min="-1" BasicPropPA2Max="-1" BasicPropPA3Min="0" BasicPropPA3Max="0" Rate="100"/>
+    <AnhHungInfo BasicPropType="ignoredefenseenhance_v" BasicPropPA1Min="30" BasicPropPA1Max="60" BasicPropPA2Min="-1" BasicPropPA2Max="-1" BasicPropPA3Min="0" BasicPropPA3Max="0" Rate="100"/>
+
+    <AnhHungInfo BasicPropType="life_mana_replenish_p" BasicPropPA1Min="5" BasicPropPA1Max="5" BasicPropPA2Min="2" BasicPropPA2Max="2" BasicPropPA3Min="0" BasicPropPA3Max="0" Rate="100"/>
+    <AnhHungInfo BasicPropType="life_mana_max_p" BasicPropPA1Min="10" BasicPropPA1Max="10" BasicPropPA2Min="5" BasicPropPA2Max="5" BasicPropPA3Min="0" BasicPropPA3Max="0" Rate="20"/>
+    <AnhHungInfo BasicPropType="melee_range_damagereturn_p" BasicPropPA1Min="1" BasicPropPA1Max="1" BasicPropPA2Min="1" BasicPropPA2Max="1" BasicPropPA3Min="0" BasicPropPA3Max="0" Rate="48"/>
+    <AnhHungInfo BasicPropType="deadlystrikeenhance_r" BasicPropPA1Min="30" BasicPropPA1Max="30" BasicPropPA2Min="-1" BasicPropPA2Max="-1" BasicPropPA3Min="0" BasicPropPA3Max="0" Rate="21"/>
+    <AnhHungInfo BasicPropType="ignoreskill" BasicPropPA1Min="1" BasicPropPA1Max="1" BasicPropPA2Min="-1" BasicPropPA2Max="-1" BasicPropPA3Min="0" BasicPropPA3Max="0" Rate="5"/>
+    <AnhHungInfo BasicPropType="ignoreresist_p" BasicPropPA1Min="1" BasicPropPA1Max="1" BasicPropPA2Min="-1" BasicPropPA2Max="-1" BasicPropPA3Min="0" BasicPropPA3Max="0" Rate="5"/>
+    <AnhHungInfo BasicPropType="reduce_received_damage_p" BasicPropPA1Min="1" BasicPropPA1Max="1" BasicPropPA2Min="-1" BasicPropPA2Max="-1" BasicPropPA3Min="0" BasicPropPA3Max="0" Rate="5"/>
+    <AnhHungInfo BasicPropType="increase_output_damage_p" BasicPropPA1Min="1" BasicPropPA1Max="1" BasicPropPA2Min="-1" BasicPropPA2Max="-1" BasicPropPA3Min="0" BasicPropPA3Max="0" Rate="5"/>
+
+</ArrayOfAnhHungInfo>

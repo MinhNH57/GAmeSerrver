@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfBetPack xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" CanRevice="false">
+	<BetPack ID="1" PackName="100v bạc khóa" Amount="1000000" MoneyType="0" WinItem="20407" LoseItem="20410" JoinRecord="5000146" WinRecord="5000147" LuckyChest5="20644" LuckyChest10="20645" LuckyChest15="20646" TotalWin="0"/>
+	<BetPack ID="2" PackName="150 KNB" Amount="150" MoneyType="2" WinItem="20408" LoseItem="20411" JoinRecord="5000146" WinRecord="5000147" LuckyChest5="20644" LuckyChest10="20645" LuckyChest15="20646" TotalWin="0"/>
+	<BetPack ID="3" PackName="1000 KNB" Amount="1000" MoneyType="2" WinItem="20409" LoseItem="20412" JoinRecord="5000148" WinRecord="5000149" LuckyChest5="20413" LuckyChest10="20414" LuckyChest15="20415" TotalWin="0"/>
+</ArrayOfBetPack>

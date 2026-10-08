@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfItemData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <ItemData ItemID="25111" Name="Đai Lưng Đồng Hành - Bích Huyết" IconBundleDir="Icon/EquipIcon2.unity3d" IconAtlasName="EquipIcon2"
+    MapSpriteBundleDir="Resources/Item/MapSprite.unity3d" MapSpriteAtlasName="MapSprite" Kind="土系女08金腰带_vn" QualityPrefix="7" Category="1" Genre="2"
+    Stack="1" DetailType="23" ParticularType="690" Level="7" SuiteID="0" Icon="BH_lung" View="BH_lung" Intro="" Help=""
+    ObjID="28" BindType="4" Series="2" ReqLevel="0" CDType="0" Price="160000" ItemValue="10000000" MakeCost="-1" ResMale="-1" ResFemale="-1"
+    FightPower="16" ScriptID="-1" DeductOnUse="false" BuffID="-1">
+    <ListBasicProp BasicPropType="damage_all_resist" BasicPropPA1Min="70" BasicPropPA1Max="70" BasicPropPA2Min="-1" BasicPropPA2Max="-1"
+      BasicPropPA3Min="-1" BasicPropPA3Max="-1" Index="1" />
+    <ListBasicProp BasicPropType="lifemax_v" BasicPropPA1Min="500" BasicPropPA1Max="500" BasicPropPA2Min="-1" BasicPropPA2Max="-1"
+      BasicPropPA3Min="-1" BasicPropPA3Max="-1" Index="2" />
+    <ListBasicProp BasicPropType="seriesabate" BasicPropPA1Min="55" BasicPropPA1Max="55" BasicPropPA2Min="-1" BasicPropPA2Max="-1"
+      BasicPropPA3Min="-1" BasicPropPA3Max="-1" Index="3" />
+    <UnLockInterval>-1</UnLockInterval>
+  </ItemData>
+  <ItemData ItemID="25112" Name="Đai Lưng Đồng Hành - Kim Lân" IconBundleDir="Icon/EquipIcon2.unity3d" IconAtlasName="EquipIcon2"
+    MapSpriteBundleDir="Resources/Item/MapSprite.unity3d" MapSpriteAtlasName="MapSprite" Kind="土系女08金腰带_vn" QualityPrefix="7" Category="1" Genre="2"
+    Stack="1" DetailType="23" ParticularType="690" Level="8" SuiteID="0" Icon="KL_lung" View="KL_lung" Intro="" Help=""
+    ObjID="28" BindType="4" Series="2" ReqLevel="0" CDType="0" Price="160000" ItemValue="20000000" MakeCost="-1" ResMale="-1" ResFemale="-1"
+    FightPower="16" ScriptID="-1" DeductOnUse="false" BuffID="-1">
+    <ListBasicProp BasicPropType="damage_all_resist" BasicPropPA1Min="105" BasicPropPA1Max="105" BasicPropPA2Min="-1" BasicPropPA2Max="-1"
+      BasicPropPA3Min="-1" BasicPropPA3Max="-1" Index="1" />
+    <ListBasicProp BasicPropType="lifemax_v" BasicPropPA1Min="1000" BasicPropPA1Max="1000" BasicPropPA2Min="-1" BasicPropPA2Max="-1"
+      BasicPropPA3Min="-1" BasicPropPA3Max="-1" Index="2" />
+    <ListBasicProp BasicPropType="seriesabate" BasicPropPA1Min="135" BasicPropPA1Max="135" BasicPropPA2Min="-1" BasicPropPA2Max="-1"
+      BasicPropPA3Min="-1" BasicPropPA3Max="-1" Index="3" />
+    <UnLockInterval>-1</UnLockInterval>
+  </ItemData>
+  <ItemData ItemID="25113" Name="Đai Lưng Đồng Hành - Đơn Tâm" IconBundleDir="Icon/EquipIcon2.unity3d" IconAtlasName="EquipIcon2"
+    MapSpriteBundleDir="Resources/Item/MapSprite.unity3d" MapSpriteAtlasName="MapSprite" Kind="土系女08金腰带_vn" QualityPrefix="7" Category="1" Genre="2"
+    Stack="1" DetailType="23" ParticularType="690" Level="9" SuiteID="0" Icon="DT_lung" View="DT_lung" Intro="" Help=""
+    ObjID="28" BindType="4" Series="2" ReqLevel="0" CDType="0" Price="160000" ItemValue="30000000" MakeCost="-1" ResMale="-1" ResFemale="-1"
+    FightPower="16" ScriptID="-1" DeductOnUse="false" BuffID="-1">
+    <ListBasicProp BasicPropType="damage_all_resist" BasicPropPA1Min="140" BasicPropPA1Max="140" BasicPropPA2Min="-1" BasicPropPA2Max="-1"
+      BasicPropPA3Min="-1" BasicPropPA3Max="-1" Index="1" />
+    <ListBasicProp BasicPropType="lifemax_v" BasicPropPA1Min="1500" BasicPropPA1Max="1500" BasicPropPA2Min="-1" BasicPropPA2Max="-1"
+      BasicPropPA3Min="-1" BasicPropPA3Max="-1" Index="2" />
+    <ListBasicProp BasicPropType="seriesabate" BasicPropPA1Min="205" BasicPropPA1Max="205" BasicPropPA2Min="-1" BasicPropPA2Max="-1"
+      BasicPropPA3Min="-1" BasicPropPA3Max="-1" Index="3" />
+    <UnLockInterval>-1</UnLockInterval>
+  </ItemData>
+  <ItemData ItemID="25114" Name="Đai Lưng Đồng Hành - Long Đằng" IconBundleDir="Icon/EquipIcon2.unity3d" IconAtlasName="EquipIcon2"
+    MapSpriteBundleDir="Resources/Item/MapSprite.unity3d" MapSpriteAtlasName="MapSprite" Kind="土系女08金腰带_vn" QualityPrefix="7" Category="1" Genre="2"
+    Stack="1" DetailType="23" ParticularType="690" Level="10" SuiteID="0" Icon="LD_lung" View="LD_lung" Intro="" Help=""
+    ObjID="28" BindType="4" Series="2" ReqLevel="0" CDType="0" Price="160000" ItemValue="40000000" MakeCost="-1" ResMale="-1" ResFemale="-1"
+    FightPower="16" ScriptID="-1" DeductOnUse="false" BuffID="-1">
+    <ListBasicProp BasicPropType="damage_all_resist" BasicPropPA1Min="175" BasicPropPA1Max="175" BasicPropPA2Min="-1" BasicPropPA2Max="-1"
+      BasicPropPA3Min="-1" BasicPropPA3Max="-1" Index="1" />
+    <ListBasicProp BasicPropType="lifemax_v" BasicPropPA1Min="2000" BasicPropPA1Max="2000" BasicPropPA2Min="-1" BasicPropPA2Max="-1"
+      BasicPropPA3Min="-1" BasicPropPA3Max="-1" Index="2" />
+    <ListBasicProp BasicPropType="seriesabate" BasicPropPA1Min="265" BasicPropPA1Max="265" BasicPropPA2Min="-1" BasicPropPA2Max="-1"
+      BasicPropPA3Min="-1" BasicPropPA3Max="-1" Index="3" />
+    <UnLockInterval>-1</UnLockInterval>
+  </ItemData>
+</ArrayOfItemData>

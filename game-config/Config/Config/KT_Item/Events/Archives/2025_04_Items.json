@@ -1,0 +1,101 @@
+{
+    "RandomBoxes": [
+        {
+            "ItemID": 20847,
+            "Name": "Cá Koi",
+            "LimitLifeTime": 300,
+            "Icon": "202504_cakoi",
+            "Intro": "Vật phẩm sự kiện Chiến Thần Mukbang.",
+            "ItemValue": 200565
+        },
+        {
+            "ItemID": 20848,
+            "Name": "Gỏi Cá Koi",
+            "Icon": "202504_goicakoi",
+            "Intro": "Vật phẩm sự kiện Chiến Thần Mukbang.",
+            "ItemValue": 200566,
+            "Override": {
+                "25": { "ItemValue": 200571 },
+                "26": { "ItemValue": 200571 },
+                "27": { "ItemValue": 200571 },
+                "28": { "ItemValue": 200571 },
+                "29": { "ItemValue": 200571 }
+            }
+        },
+        {
+            "ItemID": 20849,
+            "Name": "[Đặc biệt] Cá Hề Đột Biến",
+            "Icon": "202504_cahedotbien",
+            "Intro": "Vật phẩm sự kiện Chiến Thần Mukbang.",
+            "ItemValue": 200567
+        },
+        {
+            "ItemID": 20850,
+            "Name": "Thú cưỡi Nụ Hôn Hắc Ám (ngẫu nhiên)",
+            "Icon": "horsebox_c",
+            "Intro": "Vật phẩm sự kiện Chiến Thần Mukbang.<br>Sử dụng nhận được thú cưỡi <color=#eba0ac>Nụ Hôn Hắc Ám</color>, thời hạn ngẫu nhiên.",
+            "ItemValue": 200569
+        },
+        {
+            "ItemID": 20854,
+            "Name": "Danh hiệu Chiến Thần Mukbang (ngẫu nhiên)",
+            "Icon": "quest_0084_s",
+            "Intro": "Vật phẩm sự kiện Chiến Thần Mukbang.<br>Sử dụng nhận được danh hiệu <color=#eba0ac>Chiến Thần Mukbang</color>, thời hạn ngẫu nhiên.",
+            "ItemValue": 200568
+        },
+        {
+            "ItemID": 20855,
+            "Name": "Danh hiệu Chiến Thần Mukbang (30 ngày)",
+            "Icon": "quest_0084_s",
+            "Intro": "Vật phẩm sự kiện Chiến Thần Mukbang.<br>Sử dụng nhận được danh hiệu <color=#eba0ac>Chiến Thần Mukbang</color>, thời hạn ngẫu nhiên.",
+            "ItemValue": 200570
+        }
+    ],
+    "Normal": [
+        {
+            "ItemID": 20851,
+            "Name": "Chẩm Chéo",
+            "ParticularType": 32001,
+            "Stack": 10000,
+            "Icon": "202504_chamcheo",
+            "Intro": "Vật phẩm sự kiện Chiến Thần Mukbang.",
+            "ScriptID": 200121
+        },
+        {
+            "ItemID": 20852,
+            "Name": "Long Diên Hương",
+            "Icon": "202504_longdienhuong",
+            "Intro": "Vật phẩm sự kiện Chiến Thần Mukbang. <br>Sử dụng nhận được <color=#a6e3a1>1 điểm kỹ năng</color>. Mỗi người tối đa sử dụng <color=#eba0ac>2 vật phẩm</color>.",
+            "ScriptID": 200097,
+            "ListExtPram": [
+                { "Pram": 700549, "Index": 1 },
+                { "Pram": 1, "Index": 2 },
+                { "Pram": 2, "Index": 3 }
+            ]
+        },
+        {
+            "ItemID": 20853,
+            "Name": "Xạ Hương",
+            "Icon": "202504_dahuong",
+            "Intro": "Vật phẩm sự kiện Chiến Thần Mukbang. <br>Sử dụng nhận được <color=#a6e3a1>10 điểm tiềm năng</color>. Mỗi người tối đa sử dụng <color=#eba0ac>2 vật phẩm</color>.",
+            "ScriptID": 200096,
+            "ListExtPram": [
+                { "Pram": 700550, "Index": 1 },
+                { "Pram": 10, "Index": 2 },
+                { "Pram": 2, "Index": 3 }
+            ]
+        },
+        {
+            "ItemID": 20856,
+            "Name": "Vòng Sáng Lạc Long Hộ Quốc",
+            "Stack": 1,
+            "Icon": "2023sep_vong_sang",
+            "Intro": "Vòng sáng Lạc Long Hộ Quốc.",
+            "ScriptID": 200120,
+            "ListExtPram": [
+                { "Pram": 2061, "Index": 1 },
+                { "Pram": 21601, "Index": 2 }
+            ]
+        }
+    ]
+}

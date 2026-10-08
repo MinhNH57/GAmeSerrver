@@ -1,0 +1,108 @@
+{
+    "Help": {
+        "Help1": "cấu hình vật phẩm sự kiện bằng json",
+        "Help2": "Genre: 18: scriptitem, 22: normal item",
+        "Help3": "ParticularType: > 32000 nếu drop tại map, bỏ qua nếu không phải",
+        "Help4": "ScriptID: 200060 nếu là RandomBox (khai báo ItemValue là ID của box)",
+        "StartID": 20587
+    },
+    "RandomBoxes": [
+        {
+            "ItemID": 20632,
+            "Name": "Cánh Diều Tuổi Thơ",
+            "LimitLifeTime": 300,
+            "Icon": "202407_canhdieutuoitho",
+            "Intro": "Vật phẩm sự kiện Cánh diều Tuổi thơ.",
+            "ItemValue": 200439
+        },
+        {
+            "ItemID": 20633,
+            "Name": "Diều Sáo Lung Linh",
+            "Icon": "202407_dieusaolunglinh",
+            "Intro": "Vật phẩm sự kiện Cánh diều Tuổi thơ.",
+            "ItemValue": 200440
+        },
+        {
+            "ItemID": 20634,
+            "Name": "[Đặc biệt] Diều Vàng",
+            "Icon": "202407_dieuvang",
+            "Intro": "Vật phẩm sự kiện Cánh diều Tuổi thơ.",
+            "ItemValue": 200441
+        },
+        {
+            "ItemID": 20635,
+            "Name": "Thú cưỡi Giáp Trùng (ngẫu nhiên)",
+            "Icon": "horsebox_c",
+            "Intro": "Vật phẩm sự kiện Cánh diều Tuổi thơ.<br>Sử dụng nhận được thú cưỡi <color=#eba0ac>Giáp Trùng</color>, thời hạn ngẫu nhiên.",
+            "ItemValue": 200443
+        },
+        {
+            "ItemID": 20641,
+            "Name": "Danh hiệu Cánh Diều Tuổi Thơ (ngẫu nhiên)",
+            "Icon": "quest_0084_s",
+            "Intro": "Vật phẩm sự kiện Cánh diều Tuổi thơ.<br>Sử dụng nhận được danh hiệu <color=#eba0ac>Cánh Diều Tuổi Thơ</color>, thời hạn ngẫu nhiên.",
+            "ItemValue": 200442
+        },
+        {
+            "ItemID": 20643,
+            "Name": "Danh hiệu Cánh Diều Tuổi Thơ (30 ngày)",
+            "Icon": "quest_0084_s",
+            "Intro": "Vật phẩm sự kiện Cánh diều Tuổi thơ.<br>Sử dụng nhận được danh hiệu <color=#eba0ac>Cánh Diều Tuổi Thơ</color>, thời hạn 30 ngày.",
+            "ItemValue": 200444
+        }
+    ],
+    "Normal": [
+        {
+            "ItemID": 20636,
+            "Name": "Thanh Tre",
+            "ParticularType": 32001,
+            "Stack": 10000,
+            "Icon": "202407_thanhtre",
+            "Intro": "Vật phẩm sự kiện Cánh diều Tuổi thơ.",
+            "ScriptID": 200121
+        },
+        {
+            "ItemID": 20637,
+            "Name": "Dây Thừng",
+            "ParticularType": 32001,
+            "Stack": 10000,
+            "Icon": "202407_daythung",
+            "Intro": "Vật phẩm sự kiện Cánh diều Tuổi thơ.",
+            "ScriptID": 200121
+        },
+        {
+            "ItemID": 20638,
+            "Name": "Sáo Trúc",
+            "ParticularType": 32001,
+            "Stack": 10000,
+            "Icon": "202407_saotruc",
+            "Intro": "Vật phẩm sự kiện Cánh diều Tuổi thơ.",
+            "ScriptID": 200121
+        },
+        {
+            "ItemID": 20639,
+            "Name": "Trà Đá",
+            "Icon": "202407_trada",
+            "Intro": "Vật phẩm sự kiện Cánh diều Tuổi thơ. <br>Sử dụng nhận được <color=#a6e3a1>1 điểm kỹ năng</color>. Mỗi người tối đa sử dụng <color=#eba0ac>2 vật phẩm</color>.",
+            "ScriptID": 200097,
+            "ListExtPram": [
+                { "Pram": 700529, "Index": 1 },
+                { "Pram": 1, "Index": 2 },
+                { "Pram": 2, "Index": 3 }
+            ]
+        },
+        {
+            "ItemID": 20640,
+            "Name": "Kẹo Lạc",
+            "Icon": "202407_keolac",
+            "Intro": "Vật phẩm sự kiện Cánh diều Tuổi thơ. <br>Sử dụng nhận được <color=#a6e3a1>10 điểm tiềm năng</color>. Mỗi người tối đa sử dụng <color=#eba0ac>2 vật phẩm</color>.",
+            "ScriptID": 200096,
+            "ListExtPram": [
+                { "Pram": 700530, "Index": 1 },
+                { "Pram": 10, "Index": 2 },
+                { "Pram": 2, "Index": 3 }
+            ]
+        },
+        { "ItemID": 20642, "Name": "Vàng Lá", "Stack": 10000, "Icon": "202407_vangla", "Intro": "Vật phẩm sự kiện Cánh diều Tuổi thơ." }
+    ]
+}

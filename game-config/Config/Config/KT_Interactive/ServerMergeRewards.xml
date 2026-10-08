@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<MergeRewards RechargeStartDate="2026-03-16 05:00:00" RechargeEndDate="2026-04-16 23:59:59" RechargeRequirement="1000" MantleRequirement="6" SetLevel="125" StartDate="2025-12-24T05:00" EndDate="2025-12-31T23:59:59" MaxNumber="99999">
+    <!--
+    <Package ID="1" CreatedZoneID="25,26,27,28,29" Name="Gói Liên Thông" MoneyType="2" Money="0" Limit="1" ApplyCondition="true">
+        <Items>
+            <Item ItemID="192" Number="3" Binding="1" />
+            <Item ItemID="20406" Number="2" Binding="1" />
+            <Item ItemID="15716" Number="75" Binding="1" />
+            <Item ItemID="530" Number="2" Binding="1" />
+        </Items>
+    </Package>
+
+    <Package ID="2" CreatedZoneID="25,26,27,28,29" Name="Gói Liên Thông - Bạch Kim" MoneyType="2" Money="2000" Limit="1" ApplyCondition="false">
+        <Items>
+            <Item ItemID="192" Number="2" Binding="1" />
+            <Item ItemID="1104" Number="30" Binding="1" />
+            <Item ItemID="1057" Number="100" Binding="1" />
+            <Item ItemID="20529" Number="100" Binding="1" />
+        </Items>
+    </Package>
+
+    <Package ID="3" CreatedZoneID="25,26,27,28,29" Name="Gói Liên Thông - Kim Cương" MoneyType="2" Money="5000" Limit="1" ApplyCondition="false">
+        <Items>
+            <Item ItemID="192" Number="3" Binding="1" />
+            <Item ItemID="506" Number="5000" Binding="1" />
+            <Item ItemID="20345" Number="50" Binding="1" />
+            <Item ItemID="20344" Number="200" Binding="1" />
+        </Items>
+    </Package>
+
+    <Package ID="4" CreatedZoneID="25,26,27,28,29" Name="Gói Liên Thông - Ruby" MoneyType="2" Money="20000" Limit="1" ApplyCondition="false">
+        <Items>
+            <Item ItemID="20571" Number="1" Binding="1" />
+            <Item ItemID="506" Number="7500" Binding="1" />
+            <Item ItemID="1058" Number="5" Binding="1" />
+            <Item ItemID="20529" Number="300" Binding="1" />
+        </Items>
+    </Package>
+
+    <Package ID="5" CreatedZoneID="30,31" Name="Gói Liên Thông" MoneyType="2" Money="0" Limit="1" ApplyCondition="true">
+        <Items>
+            <Item ItemID="192" Number="1" Binding="1" />
+            <Item ItemID="20406" Number="1" Binding="1" />
+            <Item ItemID="15716" Number="25" Binding="1" />
+            <Item ItemID="530" Number="1" Binding="1" />
+        </Items>
+    </Package>
+
+    <Package ID="6" CreatedZoneID="30,31" Name="Gói Liên Thông - Bạch Kim" MoneyType="2" Money="2000" Limit="2" ApplyCondition="false">
+        <Items>
+            <Item ItemID="192" Number="2" Binding="1" />
+            <Item ItemID="1104" Number="30" Binding="1" />
+            <Item ItemID="1057" Number="100" Binding="1" />
+            <Item ItemID="20529" Number="100" Binding="1" />
+        </Items>
+    </Package>
+
+    <Package ID="7" CreatedZoneID="30,31" Name="Gói Liên Thông - Kim Cương" MoneyType="2" Money="5000" Limit="2" ApplyCondition="false">
+        <Items>
+            <Item ItemID="192" Number="3" Binding="1" />
+            <Item ItemID="506" Number="5000" Binding="1" />
+            <Item ItemID="20345" Number="50" Binding="1" />
+            <Item ItemID="20344" Number="200" Binding="1" />
+        </Items>
+    </Package>
+
+    <Package ID="8" CreatedZoneID="30,31" Name="Gói Liên Thông - Ruby" MoneyType="2" Money="20000" Limit="2" ApplyCondition="false">
+        <Items>
+            <Item ItemID="20571" Number="1" Binding="1" />
+            <Item ItemID="506" Number="7500" Binding="1" />
+            <Item ItemID="1058" Number="5" Binding="1" />
+            <Item ItemID="20529" Number="300" Binding="1" />
+        </Items>
+    </Package>
+    
+
+    <Package ID="9" CreatedZoneID="33,32" Name="Gói Liên Thông" MoneyType="2" Money="0" Limit="1" ApplyCondition="true">
+        <Items>
+            <Item ItemID="192" Number="1" Binding="1" />
+            <Item ItemID="20406" Number="1" Binding="1" />
+            <Item ItemID="15716" Number="25" Binding="1" />
+            <Item ItemID="530" Number="1" Binding="1" />
+        </Items>
+    </Package>
+
+    <Package ID="10" CreatedZoneID="33,32" Name="Gói Liên Thông - Bạch Kim" MoneyType="2" Money="2000" Limit="2" ApplyCondition="false">
+        <Items>
+            <Item ItemID="192" Number="2" Binding="1" />
+            <Item ItemID="1104" Number="30" Binding="1" />
+            <Item ItemID="1057" Number="100" Binding="1" />
+            <Item ItemID="20529" Number="100" Binding="1" />
+        </Items>
+    </Package>
+
+    <Package ID="11" CreatedZoneID="33,32" Name="Gói Liên Thông - Kim Cương" MoneyType="2" Money="5000" Limit="2" ApplyCondition="false">
+        <Items>
+            <Item ItemID="192" Number="3" Binding="1" />
+            <Item ItemID="506" Number="5000" Binding="1" />
+            <Item ItemID="20345" Number="50" Binding="1" />
+            <Item ItemID="20344" Number="200" Binding="1" />
+        </Items>
+    </Package>
+
+    <Package ID="12" CreatedZoneID="33,32" Name="Gói Liên Thông - Ruby" MoneyType="2" Money="20000" Limit="2" ApplyCondition="false">
+        <Items>
+            <Item ItemID="20571" Number="1" Binding="1" />
+            <Item ItemID="506" Number="7500" Binding="1" />
+            <Item ItemID="1058" Number="5" Binding="1" />
+            <Item ItemID="20529" Number="300" Binding="1" />
+        </Items>
+    </Package>
+    <Package ID="901" Name="Gói Liên Thông" CreatedZoneID="25,26,27,28,29,30,31,32,33" Money="0" MoneyType="2" Limit="1" ApplyCondition="true">
+        <Items>
+            <Item ItemID="1058" Number="1" Binding="1"/>
+            <Item ItemID="20571" Number="1" Binding="1"/>
+            <Item ItemID="20344" Number="50" Binding="1"/>
+            <Item ItemID="530" Number="2" Binding="1"/>
+        </Items>
+    </Package>
+    <Package ID="902" Name="Gói Liên Thông - Bạch Kim" CreatedZoneID="25,26,27,28,29,30,31,32,33" Money="2000" MoneyType="2" Limit="3" ApplyCondition="false">
+        <Items>
+            <Item ItemID="1058" Number="1" Binding="1"/>
+            <Item ItemID="1104" Number="30" Binding="1"/>
+            <Item ItemID="1057" Number="100" Binding="1"/>
+            <Item ItemID="20529" Number="100" Binding="1"/>
+        </Items>
+    </Package>
+    <Package ID="903" Name="Gói Liên Thông - Kim Cương" CreatedZoneID="25,26,27,28,29,30,31,32,33" Money="5000" MoneyType="2" Limit="3" ApplyCondition="false">
+        <Items>
+            <Item ItemID="193" Number="1" Binding="1"/>
+            <Item ItemID="506" Number="5000" Binding="1"/>
+            <Item ItemID="20571" Number="1" Binding="1"/>
+            <Item ItemID="20344" Number="200" Binding="1"/>
+        </Items>
+    </Package>
+    <Package ID="904" Name="Gói Liên Thông - Ruby" CreatedZoneID="25,26,27,28,29,30,31,32,33" Money="20000" MoneyType="2" Limit="2" ApplyCondition="false">
+        <Items>
+            <Item ItemID="20571" Number="3" Binding="1"/>
+            <Item ItemID="506" Number="10000" Binding="1"/>
+            <Item ItemID="1058" Number="10" Binding="1"/>
+            <Item ItemID="20529" Number="1000" Binding="1"/>
+        </Items>
+    </Package> -->
+    <Package ID="29" Name="Gói Liên Thông (25-33)" CreatedZoneID="25,26,27,28,29,30,31,32,33,997" Money="0" MoneyType="2" Limit="1" ApplyCondition="true">
+        <Items>
+            <Item ItemID="1058" Number="1" Binding="1"/>
+            <Item ItemID="20571" Number="1" Binding="1"/>
+            <Item ItemID="506" Number="5000" Binding="1"/>
+            <Item ItemID="530" Number="2" Binding="1"/>
+        </Items>
+    </Package>
+    <Package ID="30" Name="Gói Liên Thông - Bạch Kim (25-33)" CreatedZoneID="25,26,27,28,29,30,31,32,33,997" Money="2000" MoneyType="2" Limit="3" ApplyCondition="false">
+        <Items>
+            <Item ItemID="1058" Number="1" Binding="1"/>
+            <Item ItemID="1104" Number="30" Binding="1"/>
+            <Item ItemID="506" Number="2000" Binding="1"/>
+            <Item ItemID="20529" Number="100" Binding="1"/>
+        </Items>
+    </Package>
+    <Package ID="31" Name="Gói Liên Thông - Kim Cương (25-33)" CreatedZoneID="25,26,27,28,29,30,31,32,33,997" Money="5000" MoneyType="2" Limit="3" ApplyCondition="false">
+        <Items>
+            <Item ItemID="193" Number="1" Binding="1"/>
+            <Item ItemID="506" Number="5000" Binding="1"/>
+            <Item ItemID="20571" Number="1" Binding="1"/>
+            <Item ItemID="20344" Number="200" Binding="1"/>
+        </Items>
+    </Package>
+    <Package ID="32" Name="Gói Liên Thông - Ruby (25-33)" CreatedZoneID="25,26,27,28,29,30,31,32,33,997" Money="20000" MoneyType="2" Limit="3" ApplyCondition="false">
+        <Items>
+            <Item ItemID="20571" Number="3" Binding="1"/>
+            <Item ItemID="506" Number="10000" Binding="1"/>
+            <Item ItemID="1058" Number="10" Binding="1"/>
+            <Item ItemID="20529" Number="1000" Binding="1"/>
+        </Items>
+    </Package>
+</MergeRewards>

@@ -1,0 +1,129 @@
+{
+    "Help": {
+        "Help1": "cấu hình vật phẩm sự kiện bằng json",
+        "Help2": "Genre: 18: scriptitem, 22: normal item",
+        "Help3": "ParticularType: > 32000 nếu drop tại map, bỏ qua nếu không phải",
+        "Help4": "ScriptID: 200060 nếu là RandomBox (khai báo ItemValue là ID của box)",
+        "StartID": 20556
+    },
+    "RandomBoxes": [
+        {
+            "ItemID": 20556,
+            "Name": "Hộp Quà Đại Lễ",
+            "LimitLifeTime": 300,
+            "Icon": "202404_hop_qua_dai_le",
+            "Intro": "Vật phẩm sự kiện Pháo Hoa Chiến Thắng.",
+            "ItemValue": 200388
+        },
+        {
+            "ItemID": 20557,
+            "Name": "Pháo Hoa Chiến Thắng",
+            "LimitLifeTime": 5000,
+            "Icon": "202404_phao_hoa_chien_thang",
+            "Intro": "Vật phẩm sự kiện Pháo Hoa Chiến Thắng.",
+            "ItemValue": 200389,
+            "Override": {
+                "21": {
+                    "ItemValue": 200389
+                },
+                "22": {
+                    "ItemValue": 200408
+                }
+            }
+        },
+        {
+            "ItemID": 20558,
+            "Name": "[Đặc biệt] Hộp Quà Thống Nhất",
+            "LimitLifeTime": 300,
+            "Icon": "202404_hop_qua_thong_nhat",
+            "Intro": "Vật phẩm sự kiện Pháo Hoa Chiến Thắng.",
+            "ItemValue": 200390,
+            "Override": {
+                "22": {
+                    "ItemValue": 200409
+                }
+            }
+        },
+        {
+            "ItemID": 20559,
+            "Name": "Rương thú cưỡi [Pháo Hoa Chiến Thắng]",
+            "Icon": "horsebox_c",
+            "Intro": "Sử dụng nhận được thú cưỡi sự kiện Pháo Hoa Chiến Thắng.",
+            "ItemValue": 200391
+        },
+        {
+            "ItemID": 20560,
+            "Name": "Danh hiệu Lao Động Là Vinh Quang (ngẫu nhiên)",
+            "Icon": "quest_0084_s",
+            "Intro": "Sử dụng nhận được Danh hiệu và chúc phúc Lao Động Là Vinh Quang cấp ngẫu nhiên.",
+            "ItemValue": 200392
+        },
+        {
+            "ItemID": 20561,
+            "Name": "Danh hiệu Lao Động Là Vinh Quang (30 ngày)",
+            "Icon": "quest_0084_s",
+            "Intro": "Sử dụng nhận được Danh hiệu và chúc phúc Lao Động Là Vinh Quang cấp 3.",
+            "ItemValue": 200393
+        },
+        {
+            "ItemID": 20562,
+            "Name": "Rương Mặt nạ [Pháo Hoa Chiến Thắng]",
+            "Icon": "merchant_box",
+            "Intro": "Mặt nạ",
+            "ItemValue": 200394
+        }
+    ],
+    "Normal": [
+        {
+            "ItemID": 20563,
+            "Name": "Xe Tăng",
+            "ParticularType": 32001,
+            "Stack": 10000,
+            "Icon": "202404_xe_tang",
+            "Intro": "Vật phẩm sự kiện Pháo Hoa Chiến Thắng.",
+            "ScriptID": 200121
+        },
+        {
+            "ItemID": 20564,
+            "Name": "Hàng Rào Sắt",
+            "ParticularType": 32001,
+            "Stack": 10000,
+            "Icon": "202404_hang_rao_sat",
+            "Intro": "Vật phẩm sự kiện Pháo Hoa Chiến Thắng.",
+            "ScriptID": 200121
+        },
+        {
+            "ItemID": 20565,
+            "Name": "Sao Vàng May Mắn",
+            "ParticularType": 32001,
+            "Stack": 10000,
+            "Icon": "202404_sao_vang_may_man",
+            "Intro": "Vật phẩm sự kiện Pháo Hoa Chiến Thắng.",
+            "ScriptID": 200121
+        },
+        {
+            "ItemID": 20566,
+            "Name": "Búa",
+            "Icon": "202404_bua",
+            "Intro": "Vật phẩm sự kiện Pháo Hoa Chiến Thắng. <br>Sử dụng nhận được <color=#a6e3a1>1 điểm kỹ năng</color>. Mỗi người tối đa sử dụng <color=#eba0ac>2 vật phẩm</color>.",
+            "ScriptID": 200097,
+            "ListExtPram": [
+                { "Pram": 700523, "Index": 1 },
+                { "Pram": 1, "Index": 2 },
+                { "Pram": 2, "Index": 3 }
+            ]
+        },
+        {
+            "ItemID": 20567,
+            "Name": "Liềm",
+            "Icon": "202404_liem",
+            "Intro": "Vật phẩm sự kiện Pháo Hoa Chiến Thắng. <br>Sử dụng nhận được <color=#a6e3a1>10 điểm tiềm năng</color>. Mỗi người tối đa sử dụng <color=#eba0ac>2 vật phẩm.</color>",
+            "ScriptID": 200096,
+            "ListExtPram": [
+                { "Pram": 700524, "Index": 1 },
+                { "Pram": 10, "Index": 2 },
+                { "Pram": 2, "Index": 3 }
+            ]
+        }
+    ]
+}

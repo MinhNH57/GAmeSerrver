@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SpecialItems>
+    <CannotDestroy>
+        <Item ID="20900" />
+    </CannotDestroy>
+</SpecialItems>

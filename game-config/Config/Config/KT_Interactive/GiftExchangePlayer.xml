@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GiftExchangePlayer TimeKey="GiftExchangePlayer">
+    <Gift ItemID="20831" Point="1"/>
+    <Gift ItemID="20832" Point="4"/>
+    <Gift ItemID="20794" Point="12"/>
+    <Gift ItemID="20795" Point="60"/>
+    
+    <Milestone Count="1000">
+        <Item ID="25236" Count="1"/>
+    </Milestone>
+    <Milestone Count="2500">
+        <Item ID="530" Count="1"/>
+    </Milestone>
+    <Milestone Count="2500">
+        <Item ID="15716" Count="50"/>
+    </Milestone>
+    <Milestone Count="7500">
+        <Item ID="20571" Count="1"/>
+    </Milestone>
+    <Milestone Count="15000">
+        <Item ID="20124" Count="1"/>
+    </Milestone>
+</GiftExchangePlayer>

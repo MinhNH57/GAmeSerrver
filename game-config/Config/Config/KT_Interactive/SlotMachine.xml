@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<SlotMachineRewards TicketId="20765" TicketNeededForX1="2" TicketNeededForX10="19" RewardId="20780" TriggerSysNoti="31" ShopID="1493" TimeKey="SlotMachine" ExchangeTicketTimeKey="SlotMachine_ExchangeTicket">
+  <Points value="300">
+    <Condition Pattern="99999" Reward="0" ItemReward="20745"/>
+    <Condition Pattern="88888" Reward="0" ItemReward="20745"/>
+    <Condition Pattern="55555" Reward="0" ItemReward="20745"/>
+    <Condition Pattern="66666" Reward="0" ItemReward="20745"/>
+  </Points>
+  <Points value="100">
+    <Condition Pattern="6666*" Reward="30"/>
+    <Condition Pattern="666*6" Reward="30"/>
+    <Condition Pattern="6*666" Reward="30"/>
+    <Condition Pattern="*6666" Reward="30"/>
+    <Condition Pattern="8888*" Reward="30"/>
+    <Condition Pattern="888*8" Reward="30"/>
+    <Condition Pattern="8*888" Reward="30"/>
+    <Condition Pattern="*8888" Reward="30"/>
+    <Condition Pattern="3333*" Reward="30"/>
+    <Condition Pattern="333*3" Reward="30"/>
+    <Condition Pattern="3*333" Reward="30"/>
+    <Condition Pattern="*3333" Reward="30"/>
+    <Condition Pattern="5555*" Reward="30"/>
+    <Condition Pattern="555*5" Reward="30"/>
+    <Condition Pattern="5*555" Reward="30"/>
+    <Condition Pattern="*5555" Reward="30"/>
+    <Condition Pattern="7777*" Reward="30"/>
+    <Condition Pattern="777*7" Reward="30"/>
+    <Condition Pattern="7*777" Reward="30"/>
+    <Condition Pattern="*7777" Reward="30"/>
+  </Points>
+  <Points value="31">
+    <Condition Pattern="**000" Reward="15"/>
+    <Condition Pattern="**666" Reward="15"/>
+    <Condition Pattern="333**" Reward="15"/>
+    <Condition Pattern="444**" Reward="15"/>
+    <Condition Pattern="555**" Reward="15"/>
+  </Points>
+  <Points value="10">
+    <Condition Pattern="*66**" Reward="3"/>
+    <Condition Pattern="*88**" Reward="3"/>
+    <Condition Pattern="6***6" Reward="3"/>
+  </Points>
+  <Points value="3">
+    <Condition Pattern="***3*" Reward="1"/>
+    <Condition Pattern="****1" Reward="1"/>
+    <Condition Pattern="**8**" Reward="1"/>
+    <Condition Pattern="**6**" Reward="1"/>
+    <Condition Pattern="*9***" Reward="1"/>
+  </Points>
+  <Points value="1">
+    <Condition Pattern="*****" Reward="0"/>
+  </Points>
+  <NumberRankRewards>
+    <Rank Range="1-1">
+      <Reward ItemID="506" Quantity="18888"/>
+      <Reward ItemID="20571" Quantity="1"/>
+    </Rank>
+    <Rank Range="2-3">
+      <Reward ItemID="506" Quantity="8888"/>
+      <Reward ItemID="20571" Quantity="1"/>
+    </Rank>
+    <Rank Range="4-10">
+      <Reward ItemID="506" Quantity="4888"/>
+      <Reward ItemID="2017" Quantity="1"/>
+    </Rank>
+  </NumberRankRewards>
+  <PointsRankRewards>
+    <Rank Range="1-1" MinimumPoints="3888">
+      <Reward ItemID="20763" Quantity="2222"/>
+      <Reward ItemID="506" Quantity="18888"/>
+    </Rank>
+    <Rank Range="2-3" MinimumPoints="2688">
+      <Reward ItemID="20763" Quantity="1888"/>
+      <Reward ItemID="506" Quantity="8888"/>
+    </Rank>
+    <Rank Range="4-10" MinimumPoints="1688">
+      <Reward ItemID="20763" Quantity="488"/>
+      <Reward ItemID="506" Quantity="4888"/>
+    </Rank>
+    <Rank Range="11-99999" MinimumPoints="488">
+      <Reward ItemID="20763" Quantity="88"/>
+      <Reward ItemID="506" Quantity="888"/>
+    </Rank>
+  </PointsRankRewards>
+  <NumberLimit StartDate="2026-06-02 05:00" EndDate="2026-06-15 04:59:59" MaxNumber="97666"/>
+  <NumberLimit StartDate="2026-06-15 05:00" EndDate="2026-06-24 04:59:59" MaxNumber="98888"/>
+  <NumberLimit StartDate="2026-06-24 05:00" EndDate="2026-06-30 23:59:59" MaxNumber="99999"/>
+</SlotMachineRewards>

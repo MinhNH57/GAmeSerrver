@@ -1,0 +1,674 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KV1 Event Configurator</title>
+    <!-- Bootstrap 5 CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Bootstrap Icons -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" rel="stylesheet">
+    <!-- Inter Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <!-- Bootstrap 5 CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Bootstrap Icons -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" rel="stylesheet">
+    <!-- Custom Pro Max Styles -->
+    <link href="style.css" rel="stylesheet">
+    <style>
+        /* Keep any minimal inline overrides if absolutely necessary, but preferred to use style.css */
+    </style>
+</head>
+<body>
+
+<div class="container-fluid">
+    <div class="row">
+        <!-- Sidebar -->
+        <div class="col-md-2 p-0 sidebar">
+            <div class="p-4">
+                <h4 class="mb-4 text-center">KV1 Events</h4>
+            </div>
+            <a href="#global" class="active" onclick="switchTab('global')"><i class="bi bi-clock"></i> Cấu Hình Thời Gian Chung</a>
+            <a href="#compose" onclick="switchTab('compose')"><i class="bi bi-boxes"></i> Event ghép</a>
+            <a href="#slotmachine" onclick="switchTab('slotmachine')"><i class="bi bi-7-square text-warning"></i> Event Ngũ Phúc Lâm Môn</a>
+            <a href="#recharge" onclick="switchTab('recharge')"><i class="bi bi-credit-card"></i> Event Tích Lũy Nạp Liên Tiếp</a>
+            <a href="#exchange-ticket" onclick="switchTab('exchange-ticket')"><i class="bi bi-ticket-detailed text-info"></i> Event Chuyển xu nhận quà</a>
+            <a href="#checkin" onclick="switchTab('checkin')"><i class="bi bi-calendar-check"></i> Event Check-in</a>
+            <a href="#seashell" onclick="switchTab('seashell')"><i class="bi bi-heptagon"></i> Event Bách Bảo Rương</a>
+            <a href="#flowertower" onclick="switchTab('flowertower')"><i class="bi bi-layers-half text-success"></i> Event Thiên Tầng Tháp</a>
+            <a href="#recharge-management" onclick="switchTab('recharge-management')"><i class="bi bi-wallet2 text-info"></i> Quản lý UDND và TLCX</a>
+            <a href="#uudai" onclick="switchTab('uudai')"><i class="bi bi-gift text-danger"></i> Giao diện Ưu Đãi</a>
+            <a href="#luckyspin" onclick="switchTab('luckyspin')"><i class="bi bi-stars text-warning"></i> Tân Niên Bí Bảo</a>
+            <a href="#servermerge" onclick="switchTab('servermerge')"><i class="bi bi-diagram-3 text-primary"></i> Event Liên Thông Server</a>
+            <a href="#battlepass" onclick="switchTab('battlepass')"><i class="bi bi-shield-check text-info"></i> Event Battle Pass</a>
+        </div>
+
+        <!-- Main Content -->
+        <div class="col-md-10 p-0 main-content">
+            <div class="d-flex justify-content-between align-items-center mb-5">
+                <h2 class="m-0"><i class="bi bi-grid-1x2-fill me-2"></i> Dashboard Configurator</h2>
+                <div class="d-flex align-items-center gap-3">
+                    <span class="badge bg-secondary mb-0"><i class="bi bi-info-circle"></i> Công cụ chạy local, lưu trực tiếp vào thư mục cấu hình đã chọn</span>
+                    <div class="form-check form-switch fs-5 mb-0">
+                        <input class="form-check-input" type="checkbox" id="exportModeToggle">
+                        <label class="form-check-label" for="exportModeToggle" style="line-height: 1.2;">
+                            <i class="bi bi-box-arrow-down"></i> <strong>Chế độ Xuất File (Export)</strong>
+                            <br><small class="text-muted fs-6" style="display:block; margin-top: -5px;">Bật: Lưu thư mục /exports</small>
+                        </label>
+                    </div>
+                </div>
+            </div>
+
+            <div id="alert-container"></div>
+
+            <!-- Global Times Section -->
+            <div id="global-section" class="tab-section card p-4">
+                <h4><i class="bi bi-clock"></i> Cấu Hình Thời Gian Chung (EventsTimeConfig.xml)</h4>
+                <div class="alert alert-info py-2 mb-3" style="font-size: 0.9rem;">
+                    <b>HƯỚNG DẪN CONFIG EVENT TIME</b><br>
+                    <b>Server Id="[number/-1/range]":</b> ID server hoặc range server (vd: 1-28), -1 là server mặc định<br>
+                    <b>StartDateEvtBtn / EndDateEvtBtn:</b> Thời gian xuất hiện nút event<br>
+                    <b>StartDateNewServerBtn / EndDateNewServerBtn:</b> Thời gian xuất hiện nút event server mới<br>
+                    <b>IsNewServer:</b> Có phải server mới hay không<br><br>
+                    <b>Event Key="[string]":</b> Key event (Ví dụ: DayRecharge, SeashellEvent...)<br>
+                    <b>StartDate / EndDate:</b> Thời gian bắt đầu và kết thúc sự kiện<br>
+                    <b>Enable:</b> Bật/tắt event | <b>NewServerEvent:</b> Có phải event server mới không
+                </div>
+                <hr class="mt-0">
+                <div class="search-container mb-3">
+                    <i class="bi bi-search"></i>
+                    <input type="text" class="form-control" id="search-global" placeholder="Tìm kiếm server, key event..." onkeyup="filterSection('global-times-form', this.value)">
+                </div>
+                <div id="global-times-form" class="fade-in">
+                    <p class="text-muted">Đang tải dữ liệu từ server...</p>
+                </div>
+                <div class="mt-3">
+                    <button class="btn btn-primary" onclick="saveGlobalTimes()"><i class="bi bi-save"></i> Lưu Thời Gian Chung</button>
+                </div>
+            </div>
+
+            <!-- Event Compose Section -->
+            <div id="compose-section" class="tab-section card p-4 d-none">
+                <h4><i class="bi bi-boxes"></i> Event ghép</h4>
+                <div class="alert alert-info py-2 mb-3" style="font-size: 0.85rem;">
+                    <b>HƯỚNG DẪN CẤU HÌNH HUB GHÉP:</b><br>
+                    - <b>Trọng số rớt nguyên liệu:</b> Danh sách ID vật phẩm và trọng số rớt khi đánh quái (Vật phẩm có ID nằm trong bảng này sẽ có tỉ lệ rớt dựa trên trọng số).<br>
+                    - <b>Tỉ lệ rớt Nguyên liệu (DropRate):</b> Cấu hình tỉ lệ rớt nguyên liệu chung theo Server áp dụng. Định dạng <i>ServerMin-ServerMax</i> (vd: 1-150).
+                </div>
+                <hr class="mt-0">
+                
+                <h5>1. Thông số chung ghép (MonthlyCompose.json)</h5>
+                <div class="search-container mb-3">
+                    <i class="bi bi-search"></i>
+                    <input type="text" class="form-control" id="search-compose" placeholder="Tìm kiếm vật phẩm, server..." onkeyup="filterSection('compose-form', this.value)">
+                </div>
+                <div id="compose-form" class="fade-in">
+                    <p class="text-muted">Đang tải dữ liệu từ server...</p>
+                </div>
+                <div class="mt-3 mb-4">
+                    <button class="btn btn-primary" onclick="saveComposeConfig()"><i class="bi bi-save"></i> Lưu MonthlyCompose.json</button>
+                    <!-- Small note -->
+                    <p class="text-muted mt-2"><small>* Bạn cần restart game server sau khi lưu JSON.</small></p>
+                </div>
+
+                <h5>2. Công thức ghép (EventCompose.xml)</h5>
+                <div class="alert alert-info py-2 mb-3" style="font-size: 0.85rem;">
+                    <b>HƯỚNG DẪN CẤU HÌNH CÔNG THỨC:</b><br>
+                    - <b>Vật phẩm nhận:</b> ID vật phẩm sau khi ghép (ví dụ: 100). | <b>SL:</b> Số lượng nhận được.<br>
+                    - <b>Loại giới hạn:</b> Chọn chu kỳ giới hạn (Day, Week, Month, Lifetime hoặc None).<br>
+                    - <b>Số lần:</b> Số lần ghép tối đa cho phép trong chu kỳ đã chọn.<br>
+                    - <b>Nhóm:</b> Phân loại hiển thị (0=Nông dân, 1=Năng động, 2=Sự kiện).<br>
+                    - <b>Nguyên liệu:</b> Các vật phẩm cần tiêu hao (ID & Số lượng).<br>
+                    - <b>Chi phí:</b> Chọn loại tiền cần dùng (Đồng, KNB, Đồng Khóa, KNB Khóa).
+                </div>
+                <!-- Thanh lọc + Replace nhanh -->
+                <div class="card mb-3 border-0 bg-light">
+                    <div class="card-body py-2 px-3">
+                        <div class="row g-2 align-items-end">
+                            <!-- Search text -->
+                            <div class="col-md-4">
+                                <label class="form-label small fw-bold mb-1"><i class="bi bi-search"></i> Tìm kiếm</label>
+                                <input type="text" class="form-control form-control-sm" id="search-compose-xml" placeholder="ID vật phẩm, nguyên liệu..." oninput="filterComposeXml()">
+                            </div>
+                            <!-- Lọc theo Group -->
+                            <div class="col-md-2">
+                                <label class="form-label small fw-bold mb-1"><i class="bi bi-collection"></i> Nhóm</label>
+                                <select class="form-select form-select-sm" id="filter-compose-group" onchange="filterComposeXml()">
+                                    <option value="">Tất cả nhóm</option>
+                                    <option value="0">Nông dân (0)</option>
+                                    <option value="1">Năng động (1)</option>
+                                    <option value="2">Sự kiện (2)</option>
+                                    <option value="5">Du Long (5)</option>
+                                </select>
+                            </div>
+                            <!-- Lọc theo LimitType -->
+                            <div class="col-md-2">
+                                <label class="form-label small fw-bold mb-1"><i class="bi bi-clock-history"></i> Giới hạn</label>
+                                <select class="form-select form-select-sm" id="filter-compose-limit" onchange="filterComposeXml()">
+                                    <option value="">Tất cả loại</option>
+                                    <option value="None">None</option>
+                                    <option value="Day">Day</option>
+                                    <option value="Week">Week</option>
+                                    <option value="Month">Month</option>
+                                    <option value="Lifetime">Lifetime</option>
+                                </select>
+                            </div>
+                            <!-- Đếm kết quả -->
+                            <div class="col-md-2 d-flex align-items-center">
+                                <span id="compose-filter-count" class="badge bg-secondary fs-6 px-3">0 công thức</span>
+                            </div>
+                            <!-- Nút reset -->
+                            <div class="col-md-2 d-flex align-items-center">
+                                <button class="btn btn-sm btn-outline-secondary w-100" onclick="resetComposeFilter()"><i class="bi bi-x-circle"></i> Xóa lọc</button>
+                            </div>
+                        </div>
+
+                        <!-- Panel Replace nhanh -->
+                        <div class="border-top mt-2 pt-2">
+                            <div class="d-flex align-items-center gap-1 mb-1">
+                                <i class="bi bi-find text-warning"></i>
+                                <span class="fw-bold small text-warning">Replace nhanh</span>
+                                <span class="text-muted small ms-1">(áp dụng trên TẤT CẢ công thức đang hiển thị)</span>
+                            </div>
+                            <div class="row g-2 align-items-end">
+                                <div class="col-md-3">
+                                    <label class="form-label small mb-1">Field cần thay</label>
+                                    <select class="form-select form-select-sm" id="replace-compose-field">
+                                        <option value="Output">Vật phẩm nhận (Output)</option>
+                                        <option value="OutputNumber">Số lượng nhận (OutputNumber)</option>
+                                        <option value="LimitValue">Số lần ghép (LimitValue)</option>
+                                        <option value="LimitType">Loại giới hạn (LimitType)</option>
+                                        <option value="Group">Nhóm (Group)</option>
+                                        <option value="material_id">Nguyên liệu - ID vật phẩm</option>
+                                        <option value="material_number">Nguyên liệu - Số lượng</option>
+                                        <option value="fee_id">Chi phí - Loại tiền (ID)</option>
+                                        <option value="fee_number">Chi phí - Số lượng</option>
+                                    </select>
+                                </div>
+                                <div class="col-md-2">
+                                    <label class="form-label small mb-1">Giá trị cũ</label>
+                                    <input type="text" class="form-control form-control-sm" id="replace-compose-from" placeholder="Ví dụ: 20482">
+                                </div>
+                                <div class="col-md-2">
+                                    <label class="form-label small mb-1">Giá trị mới</label>
+                                    <input type="text" class="form-control form-control-sm" id="replace-compose-to" placeholder="Ví dụ: 20490">
+                                </div>
+                                <div class="col-md-2">
+                                    <button class="btn btn-sm btn-warning w-100" onclick="replaceComposeXmlField()">
+                                        <i class="bi bi-arrow-left-right"></i> Replace All
+                                    </button>
+                                </div>
+                                <div class="col-md-3">
+                                    <div id="replace-compose-result" class="small text-muted"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div id="compose-xml-form">
+                    <p class="text-muted">Đang tải dữ liệu từ server...</p>
+                </div>
+                <div class="mt-3">
+                    <button class="btn btn-primary" onclick="saveComposeXml()"><i class="bi bi-save"></i> Lưu Công thức (XML)</button>
+                    <button class="btn btn-success ms-2" onclick="addComposeXmlRecipe()"><i class="bi bi-plus-circle"></i> Thêm Công thức mới</button>
+                </div>
+            </div>
+
+            <div id="slotmachine-section" class="tab-section card p-4 d-none">
+                <h4><i class="bi bi-7-square text-warning"></i> Event Ngũ Phúc Lâm Môn (SlotMachine.xml)</h4>
+                <div class="alert alert-info py-2">Chỉ hỗ trợ cấu hình mốc giới hạn quay <b>NumberLimit</b> (nếu cần đổi phần thưởng xin chỉnh trực tiếp trong file XML).</div>
+                <hr>
+                <div id="slotmachine-form">
+                    <p class="text-muted">Đang tải dữ liệu từ server...</p>
+                </div>
+                <div class="mt-3">
+                    <button class="btn btn-primary" onclick="saveSlotMachine()"><i class="bi bi-save"></i> Lưu Ngũ Phúc Lâm Môn</button>
+                    <button class="btn btn-success ms-2" onclick="addSlotMachineLimit()"><i class="bi bi-plus"></i> Thêm Mốc Giới Hạn</button>
+                </div>
+            </div>
+
+            <div id="recharge-section" class="tab-section card p-4 d-none">
+                <h4><i class="bi bi-credit-card"></i> Event Tích Lũy Nạp Liên Tiếp</h4>
+                <hr>
+                
+                <h5>Cấu hình Ưu Đãi Nạp (RechargeEvent_OldServer.xml) - Gói Quà</h5>
+                <div class="mb-4">
+                    <div id="recharge-xml-form">
+                        <p class="text-muted">Đang tải dữ liệu từ server...</p>
+                    </div>
+                </div>
+                <!-- Controls for Recharge XML -->
+                <div class="mt-3">
+                    <button class="btn btn-primary" onclick="saveRechargeXml()"><i class="bi bi-save"></i> Lưu Gói Quà (XML)</button>
+                    <button class="btn btn-success ms-2" onclick="addRechargeMilestone()"><i class="bi bi-plus-circle"></i> Thêm Mốc Nạp Mới</button>
+                </div>
+            </div>
+
+            <!-- New Recharge Management Section -->
+            <div id="recharge-management-section" class="tab-section card p-4 d-none">
+                <h4><i class="bi bi-wallet2 text-info"></i> Quản lý Ưu Đãi Nạp Đơn (UDND) & Tích Lũy Chuyển Xu (TLCX)</h4>
+                <div class="search-container mb-4">
+                    <i class="bi bi-search"></i>
+                    <input type="text" class="form-control" id="search-recharge-mgmt" placeholder="Tìm kiếm mốc nạp, vật phẩm..." onkeyup="filterSection('recharge-management-section', this.value)">
+                </div>
+                <hr>
+
+                <h5>1. Event Ưu Đãi Nạp Đơn (DayRecharge) & Event Tích Lũy Chuyển Xu (AccumulateRecharge)</h5>
+                <div class="row mb-4">
+                    <!-- DayRecharge -->
+                    <div class="col-md-6 border-end">
+                        <div class="d-flex justify-content-between align-items-center mb-2">
+                            <h6 class="text-primary mb-0">Event Ưu Đãi Nạp Đơn (DayRecharge)</h6>
+                            <button class="btn btn-sm btn-outline-success" onclick="addDayRecharge()"><i class="bi bi-plus"></i></button>
+                        </div>
+                        <div id="uudai-dayrecharge-form" class="mb-3">
+                            <p class="text-muted">Đang tải...</p>
+                        </div>
+                    </div>
+                    <!-- AccumulateRecharge -->
+                    <div class="col-md-6">
+                        <div class="d-flex justify-content-between align-items-center mb-2">
+                            <h6 class="text-success mb-0">Event Tích Lũy Chuyển Xu (AccumulateRecharge)</h6>
+                            <button class="btn btn-sm btn-outline-success" onclick="addAccRecharge()"><i class="bi bi-plus"></i></button>
+                        </div>
+                        <div id="uudai-accrecharge-form" class="mb-3">
+                            <p class="text-muted">Đang tải...</p>
+                        </div>
+                    </div>
+                    <div class="col-12 text-center mt-2">
+                         <button class="btn btn-primary" onclick="saveRechargeAward()"><i class="bi bi-save"></i> Lưu Nạp Đơn & Tích Lũy (XML)</button>
+                    </div>
+                </div>
+
+                <hr>
+                <h5>2. Vật Phẩm Quà Nạp (script_items_recharge.json)</h5>
+                <div class="alert alert-info py-2 mb-3" style="font-size: 0.85rem;">
+                    Cấu hình ID vật phẩm quà, icon và đặc biệt là <b>Override</b> (Ghi đè cho server cụ thể).<br>
+                    - <b>Override Key:</b> Có thể là ID server lẻ (vd: 38) hoặc khoảng (vd: 25-99).
+                </div>
+                <div id="recharge-script-items-container">
+                    <p class="text-muted">Đang tải...</p>
+                </div>
+                <div class="mt-2 mb-4">
+                    <button class="btn btn-primary" onclick="saveRechargeScriptItems()"><i class="bi bi-save"></i> Lưu Script Items (JSON)</button>
+                    <button class="btn btn-success ms-2" onclick="addRechargeScriptItem()"><i class="bi bi-plus-circle"></i> Thêm Item mới</button>
+                </div>
+
+                <hr>
+                <h5>3. Quản lý Random Box (Vật phẩm trong túi quà)</h5>
+                <div class="row">
+                    <div class="col-md-6 border-end">
+                        <h6>Box Gói Quà (Packages)</h6>
+                        <div id="randombox-packages-container">
+                            <p class="text-muted">Đang tải...</p>
+                        </div>
+                        <div class="mt-2 text-center">
+                            <button class="btn btn-sm btn-outline-primary" onclick="saveRandomBoxPackages()"><i class="bi bi-save"></i> Lưu Packages JSON</button>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <h6>Box Mốc Nạp (Milestones)</h6>
+                        <div id="randombox-milestones-container">
+                            <p class="text-muted">Đang tải...</p>
+                        </div>
+                        <div class="mt-2 text-center">
+                            <button class="btn btn-sm btn-outline-primary" onclick="saveRandomBoxMilestones()"><i class="bi bi-save"></i> Lưu Milestones JSON</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div id="checkin-section" class="tab-section card p-4 d-none">
+                <h4><i class="bi bi-calendar-check"></i> Event Check-in (CheckIn.xml)</h4>
+                <hr>
+                <div id="checkin-form">
+                    <p class="text-muted">Đang tải dữ liệu từ server...</p>
+                </div>
+                <div class="mt-3">
+                    <button class="btn btn-primary" onclick="saveCheckIn()"><i class="bi bi-save"></i> Lưu Cấu Hình Check-In</button>
+                </div>
+            </div>
+
+            <div id="seashell-section" class="tab-section card p-4 d-none">
+                <h4><i class="bi bi-heptagon"></i> Event Bách Bảo Rương (KTSeashellCircle-EVENT.xml)</h4>
+                <div class="alert alert-info py-2 mb-3" style="font-size: 0.85rem;">
+                    <b>HƯỚNG DẪN CẤU HÌNH BÁCH BẢO RƯƠNG:</b><br>
+                    - <b>Thông số chung:</b> Cấu hình ID vật phẩm, thời gian quay và tỷ lệ xuất hiện Rương Báu.<br>
+                    - <b>Ô vật phẩm (Cells):</b> <br>
+                    &nbsp;&nbsp;+ <i>StageValues:</i> Giá trị nhận được ứng với mỗi tầng (1-6), phân cách bởi dấu ";".<br>
+                    &nbsp;&nbsp;+ <i>Positions:</i> Danh sách vị trí các ô trên vòng quay (0-21) thuộc loại đó.<br>
+                    - <b>Tỷ lệ quay (TurnRate):</b> Tỷ lệ vào ô cùng loại (SameType) và tỷ lệ phẩm chất (1-3 sao). <b>Tổng Pos 1+2+3 phải = 1000.</b><br>
+                    - <b>Đổi Sò & Cược:</b> <br>
+                    &nbsp;&nbsp;+ <i>Exchange:</i> Tỷ lệ đổi Sò nhấn vào từng tầng (Value) và Điểm nhận được (Score).<br>
+                    &nbsp;&nbsp;+ <i>BetRate:</i> Hệ số nhân phần thưởng khi đặt cược 2, 10, hoặc 50 Sò.
+                </div>
+                <hr class="mt-0">
+                <div class="search-container mb-3">
+                    <i class="bi bi-search"></i>
+                    <input type="text" class="form-control" id="search-seashell" placeholder="Tìm kiếm ô, tỷ lệ, vật phẩm..." onkeyup="filterSection('seashell-form', this.value)">
+                </div>
+                <div id="seashell-form">
+                    <p class="text-muted">Đang tải dữ liệu từ server...</p>
+                </div>
+                <div class="mt-3">
+                    <button class="btn btn-primary" onclick="saveSeashell()"><i class="bi bi-save"></i> Lưu Cấu Hình BBR</button>
+                </div>
+            </div>
+
+            <div id="flowertower-section" class="tab-section card p-4 d-none">
+                <h4><i class="bi bi-layers-half"></i> Event Thiên Tầng Tháp (FlowerTower.xml)</h4>
+                <div class="alert alert-info py-2">Quản lý nhiệm vụ từng tầng. Lưu ý: Nhiệm vụ nạp là cộng dồn của các tầng trước.</div>
+                <hr>
+                <div class="search-container mb-3">
+                    <i class="bi bi-search"></i>
+                    <input type="text" class="form-control" id="search-flowertower" placeholder="Tìm kiếm tầng, nhiệm vụ..." onkeyup="filterSection('flowertower-form', this.value)">
+                </div>
+                <div id="flowertower-form">
+                    <p class="text-muted">Đang tải dữ liệu từ server...</p>
+                </div>
+                <div class="mt-3">
+                    <button class="btn btn-primary" onclick="saveFlowerTower()"><i class="bi bi-save"></i> Lưu Nhiệm Vụ TTT</button>
+                </div>
+            </div>
+
+            <div id="exchange-ticket-section" class="tab-section card p-4 d-none">
+                <h4><i class="bi bi-ticket-detailed text-info"></i> Event Chuyển xu nhận quà (ExchangeTicketEvent.xml)</h4>
+                <div class="alert alert-info py-2 mb-3" style="font-size: 0.9rem;">
+                    Cấu hình chuyển KNB vào nhân vật nhận quà tương ứng. Lưu ý: <b>TimeKey</b> phải khớp với Key trong <b>EventsTimeConfig.xml</b>.
+                </div>
+                <hr>
+                <div id="exchange-ticket-form">
+                    <p class="text-muted">Đang tải dữ liệu từ server...</p>
+                </div>
+                <div class="mt-3">
+                    <button class="btn btn-primary" onclick="saveExchangeTicket()"><i class="bi bi-save"></i> Lưu Cấu Hình Chuyển Xu</button>
+                    <button class="btn btn-success ms-2" onclick="addExchangeTicketConfig()"><i class="bi bi-plus-circle"></i> Thêm cấu hình mới</button>
+                </div>
+            </div>
+
+            <!-- Ưu Đãi & Tích Lũy Section -->
+            <div id="uudai-section" class="tab-section card p-4 d-none">
+                <div class="d-flex justify-content-between align-items-center mb-0">
+                    <h4><i class="bi bi-gift text-danger"></i> Giao diện Ưu Đãi</h4>
+                    <div class="btn-group btn-group-sm" role="group">
+                        <input type="radio" class="btn-check" name="uudai-type" id="uudai-type-normal" value="normal" checked onchange="changeUuDaiType('normal')">
+                        <label class="btn btn-outline-primary" for="uudai-type-normal">Server Thường</label>
+
+                        <input type="radio" class="btn-check" name="uudai-type" id="uudai-type-newserver" value="newserver" onchange="changeUuDaiType('newserver')">
+                        <label class="btn btn-outline-primary" for="uudai-type-newserver">Server Mới</label>
+                    </div>
+                </div>
+                <div class="alert alert-info py-2 mb-3" style="font-size: 0.9rem;">
+                    Quản lý danh sách các gói ưu đãi và mốc phần thưởng hiển thị trong giao diện event. 
+                    <span id="uudai-current-file" class="fw-bold text-primary">(Đang sửa: UuDaiDisplay.xml)</span>
+                </div>
+                <div class="search-container mb-4">
+                    <i class="bi bi-search"></i>
+                    <input type="text" class="form-control" id="search-uudai" placeholder="Tìm kiếm gói quà, mốc..." onkeyup="filterSection('uudai-section', this.value)">
+                </div>
+                <hr>
+
+                <div class="row">
+                    <div class="col-md-4 border-end">
+                        <div class="d-flex justify-content-between align-items-center mb-2">
+                            <h6 class="mb-0 text-primary">Hàng ngày (0)</h6>
+                            <button class="btn btn-sm btn-success" onclick="addUuDaiReward('0')"><i class="bi bi-plus-circle"></i> Thêm</button>
+                        </div>
+                        <div id="uudai-reward-daily-form" class="mb-3"></div>
+                    </div>
+                    <div class="col-md-4 border-end">
+                        <div class="d-flex justify-content-between align-items-center mb-2">
+                            <h6 class="mb-0 text-success">Giới hạn (1)</h6>
+                            <button class="btn btn-sm btn-success" onclick="addUuDaiReward('1')"><i class="bi bi-plus-circle"></i> Thêm</button>
+                        </div>
+                        <div id="uudai-reward-limit-form" class="mb-3"></div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="d-flex justify-content-between align-items-center mb-2">
+                            <h6 class="mb-0 text-danger">Tài Nguyên (2)</h6>
+                            <button class="btn btn-sm btn-success" onclick="addUuDaiReward('2')"><i class="bi bi-plus-circle"></i> Thêm</button>
+                        </div>
+                        <div id="uudai-reward-resource-form" class="mb-3"></div>
+                    </div>
+                </div>
+                <div class="mt-4 text-center border-top pt-3">
+                    <button class="btn btn-lg btn-primary shadow" onclick="saveUuDaiDisplay()"><i class="bi bi-save"></i> Lưu Giao diện Ưu Đãi (XML)</button>
+                </div>
+            </div>
+
+            <div id="luckyspin-section" class="tab-section card p-4 d-none">
+                <h4><i class="bi bi-stars text-warning"></i> Cấu Hình Tân Niên Bí Bảo (VongQuayMayMan.xml)</h4>
+                <div class="alert alert-info py-2 mb-3" style="font-size: 0.9rem;">
+                    Quản lý thông số quay thưởng, quà tích lũy và xếp hạng sự kiện Tân Niên Bí Bảo.
+                </div>
+                <hr class="mt-0">
+                <div class="search-container mb-3">
+                    <i class="bi bi-search"></i>
+                    <input type="text" class="form-control" id="search-luckyspin" placeholder="Tìm kiếm vật phẩm, mốc thưởng..." onkeyup="filterSection('luckyspin-form', this.value)">
+                </div>
+                <div id="luckyspin-form" class="fade-in">
+                    <p class="text-muted text-center">Đang tải dữ liệu từ server...</p>
+                </div>
+                <div class="mt-4 border-top pt-3">
+                    <button class="btn btn-primary btn-lg px-5 shadow" onclick="saveLuckySpin()"><i class="bi bi-save"></i> Lưu Cấu Hình Tân Niên Bí Bảo</button>
+                </div>
+            </div>
+
+            <div id="servermerge-section" class="tab-section card p-4 d-none">
+                <h4><i class="bi bi-diagram-3 text-primary"></i> Cấu Hình Event Liên Thông (ServerMergeRewards.xml)</h4>
+                <div class="alert alert-info py-2 mb-3" style="font-size: 0.9rem;">
+                    Quản lý thông số phần thưởng Liên Thông Server.
+                </div>
+                <hr class="mt-0">
+                <div class="search-container mb-3">
+                    <i class="bi bi-search"></i>
+                    <input type="text" class="form-control" id="search-servermerge" placeholder="Tìm kiếm gói quà, vật phẩm..." onkeyup="filterSection('servermerge-form', this.value)">
+                </div>
+                <div id="servermerge-form" class="fade-in">
+                    <p class="text-muted text-center">Đang tải dữ liệu từ server...</p>
+                </div>
+                <div class="mt-4 border-top pt-3">
+                    <button class="btn btn-primary btn-lg px-5 shadow" onclick="saveServerMerge()"><i class="bi bi-save"></i> Lưu Cấu Hình Liên Thông Server</button>
+                </div>
+            </div>
+
+            <!-- BATTLE PASS SECTION -->
+            <div id="battlepass-section" class="tab-section card p-4 d-none">
+                <h4><i class="bi bi-shield-check text-info"></i> Cấu Hình Battle Pass (BattlePassSeason.xml)</h4>
+                <div class="alert alert-info py-2 mb-3" style="font-size: 0.9rem;">
+                    Quản lý các cấp độ, nhiệm vụ, gói nạp và phần thưởng hệ thống Battle Pass.
+                </div>
+                <hr class="mt-0">
+                
+                <div id="battlepass-form" class="fade-in">
+                    <p class="text-muted text-center">Đang tải dữ liệu từ server...</p>
+                </div>
+
+                <div class="mt-4 border-top pt-3 text-center">
+                    <button class="btn btn-info btn-lg px-5 shadow text-white fw-bold" onclick="saveBattlePass()"><i class="bi bi-save"></i> Lưu Mùa Giải Battle Pass</button>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</div>
+
+<!-- UuDai Editor Modal -->
+<div class="modal fade" id="uudaiEditorModal" tabindex="-1" aria-labelledby="uudaiEditorModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-lg modal-dialog-centered">
+    <div class="modal-content">
+      <div class="modal-header bg-danger text-white">
+        <h5 class="modal-title" id="uudaiEditorModalLabel">Chỉnh Sửa Gói Ưu Đãi</h5>
+        <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <input type="hidden" id="edit-uudai-type">
+        <input type="hidden" id="edit-uudai-idx">
+        <div class="row g-3 mb-4">
+          <div class="col-md-6">
+            <label class="form-label fw-bold">Tên Gói (Name)</label>
+            <input type="text" class="form-control" id="edit-uudai-name">
+          </div>
+          <div class="col-md-3">
+            <label class="form-label fw-bold">Giới hạn (Limit)</label>
+            <input type="number" class="form-control" id="edit-uudai-limit">
+          </div>
+          <div class="col-md-3">
+            <label class="form-label fw-bold">Loại (LimitType)</label>
+            <input type="text" class="form-control" id="edit-uudai-limittype" placeholder="ngày, tuần...">
+          </div>
+        </div>
+        
+        <div class="border rounded p-3 bg-light">
+            <div class="d-flex justify-content-between align-items-center mb-2">
+                <h6 class="mb-0 fw-bold">Danh sách vật phẩm (Items)</h6>
+                <button class="btn btn-sm btn-success" onclick="addUuDaiEditorItem()"><i class="bi bi-plus"></i> Thêm Vật Phẩm</button>
+            </div>
+            <div class="table-responsive">
+                <table class="table table-sm table-hover mb-0">
+                    <thead class="table-secondary">
+                        <tr>
+                            <th>ItemID</th>
+                            <th>Số lượng (Count)</th>
+                            <th width="80">Xóa</th>
+                        </tr>
+                    </thead>
+                    <tbody id="uudai-editor-items-tbody">
+                    </tbody>
+                </table>
+            </div>
+        </div>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Đóng</button>
+        <button type="button" class="btn btn-danger" onclick="saveUuDaiEditorChanges()">Lưu Thay Đổi</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Box Editor Modal -->
+<div class="modal fade" id="boxEditorModal" tabindex="-1" aria-labelledby="boxEditorModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-xl modal-dialog-centered">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="boxEditorModalLabel">Chỉnh Sửa Box Quà</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+         <div class="row mb-2">
+             <div class="col-md-6">
+                 <label class="form-label mb-0 small fw-bold">Tên Box (BoxName)</label>
+                 <input type="text" class="form-control form-control-sm" id="edit-box-name">
+             </div>
+             <div class="col-md-6">
+                 <label class="form-label mb-0 small fw-bold">Ghi chú (_comment)</label>
+                 <input type="text" class="form-control form-control-sm" id="edit-box-comment">
+             </div>
+         </div>
+         <div class="alert alert-info py-1 mb-2" id="boxEditorAlert" style="font-size: 0.85rem"></div>
+         <div class="d-flex justify-content-end mb-3">
+             <button class="btn btn-sm btn-success" onclick="addBoxItemRow()"><i class="bi bi-plus-circle"></i> Thêm Vật Phẩm</button>
+         </div>
+         <div class="table-responsive">
+             <table class="table table-bordered table-sm">
+                 <thead class="table-dark">
+                     <tr>
+                         <th>ItemID</th>
+                         <th>Số lượng (Number)</th>
+                         <th>Tỉ lệ (Rate)</th>
+                         <th>Tên / Info</th>
+                         <th>Preview</th>
+                         <th>Xóa</th>
+                     </tr>
+                 </thead>
+                 <tbody id="boxEditorTbody">
+                 </tbody>
+             </table>
+         </div>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Đóng</button>
+        <button type="button" class="btn btn-primary" onclick="saveBoxEditorChanges()">Lưu Các Thay Đổi Này</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Script Item Editor Modal -->
+<div class="modal fade" id="scriptItemModal" tabindex="-1" aria-labelledby="scriptItemModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-lg modal-dialog-centered">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="scriptItemModalLabel">Chỉnh Sửa Vật Phẩm Quà</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <input type="hidden" id="edit-script-item-idx">
+        <div class="row g-3">
+          <div class="col-md-4">
+            <label class="form-label">ItemID</label>
+            <input type="number" class="form-control" id="edit-script-item-id">
+          </div>
+          <div class="col-md-8">
+            <label class="form-label">Tên (Name)</label>
+            <input type="text" class="form-control" id="edit-script-item-name">
+          </div>
+          <div class="col-md-4">
+            <label class="form-label">Cấp (Level)</label>
+            <input type="number" class="form-control" id="edit-script-item-level">
+          </div>
+          <div class="col-md-4">
+            <label class="form-label">Xếp chồng (Stack)</label>
+            <input type="number" class="form-control" id="edit-script-item-stack">
+          </div>
+          <div class="col-md-4">
+            <label class="form-label">Box ID (ItemValue)</label>
+            <div class="input-group">
+                <input type="number" class="form-control" id="edit-script-item-value">
+                <button class="btn btn-outline-primary" type="button" onclick="openBoxEditorFromModal()"><i class="bi bi-pencil-square"></i> Sửa Box</button>
+            </div>
+          </div>
+          <div class="col-12">
+            <label class="form-label">Mô tả (Intro)</label>
+            <textarea class="form-control" id="edit-script-item-intro" rows="2"></textarea>
+          </div>
+          <div class="col-12">
+            <hr>
+            <h6>Override Server (Ghi đè)</h6>
+            <div id="edit-script-item-overrides" class="mb-2"></div>
+            <button class="btn btn-sm btn-outline-info" onclick="addModalOverride()"><i class="bi bi-plus"></i> Thêm Override</button>
+          </div>
+        </div>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Đóng</button>
+        <button type="button" class="btn btn-primary" onclick="saveScriptItemModal()">Lưu Thay Đổi</button>
+      </div>
+    </div>
+  </div>
+</div>
+  </div>
+</div>
+
+
+<!-- Toast Notification Container -->
+<div class="toast-container position-fixed bottom-0 end-0 p-3" style="z-index: 9999;">
+  <div id="saveToast" class="toast align-items-center text-bg-success border-0" role="alert" aria-live="assertive" aria-atomic="true">
+    <div class="d-flex">
+      <div class="toast-body" id="toast-message">
+        <i class="bi bi-check-circle-fill me-2"></i> Lưu thành công!
+      </div>
+      <button type="button" class="btn-close btn-close-white me-2 m-auto" data-bs-dismiss="toast" aria-label="Close"></button>
+    </div>
+  </div>
+</div>
+
+<!-- Bootstrap JS Bundle -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+<!-- App JS -->
+<script src="app.js"></script>
+</body>
+</html>

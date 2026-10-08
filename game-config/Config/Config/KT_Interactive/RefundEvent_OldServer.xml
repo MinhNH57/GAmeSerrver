@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RefundEvent TimeKey="RefundEvent" MaxPurchaseDays="7">
+    <RefundPack id="0" knb="3000">
+        <Milestone day="1" type="item" rewardId="20344" amount="100"/>
+        <Milestone day="3" type="money" rewardId="2" amount="500"/>
+        <Milestone day="7" type="money" rewardId="2" amount="1500"/>
+    </RefundPack>
+
+    <RefundPack id="1" knb="5000">
+        <Milestone day="1" type="item" rewardId="20571" amount="1"/>
+        <Milestone day="3" type="money" rewardId="2" amount="1000"/>
+        <Milestone day="7" type="money" rewardId="2" amount="2000"/>
+    </RefundPack>
+
+    <RefundPack id="2" knb="5000">
+        <Milestone day="1" type="item" rewardId="20291" amount="3"/>
+        <Milestone day="3" type="money" rewardId="2" amount="1000"/>
+        <Milestone day="7" type="money" rewardId="2" amount="2000"/>
+    </RefundPack>
+
+    <RefundPack id="3" knb="5000">
+        <Milestone day="1" type="item" rewardId="819" amount="5"/>
+        <Milestone day="3" type="money" rewardId="2" amount="500"/>
+        <Milestone day="7" type="money" rewardId="2" amount="2000"/>
+    </RefundPack>
+
+    <RefundPack id="4" knb="6000">
+        <Milestone day="1" type="item" rewardId="1058" amount="3"/>
+        <Milestone day="3" type="money" rewardId="2" amount="1500"/>
+        <Milestone day="7" type="money" rewardId="2" amount="2500"/>
+    </RefundPack>
+
+    <RefundPack id="5" knb="10000">
+        <Milestone day="1" type="item" rewardId="506" amount="5000"/>
+        <Milestone day="3" type="money" rewardId="2" amount="2000"/>
+        <Milestone day="7" type="money" rewardId="2" amount="5000"/>
+    </RefundPack>
+</RefundEvent>

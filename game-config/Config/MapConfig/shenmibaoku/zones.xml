@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Map>
+	<Zones>
+	    <Zone Name="Sảnh Chờ" X="1184" Y="867" />
+		<Zone Name="Phòng Thủ Vệ" X="2716" Y="1687" />
+		<Zone Name="Phòng Tuyển Chọn" X="4160" Y="2604" />
+<!-- Cánh phải -->		
+		<Zone Name="Phòng Choáng" X="8156" Y="1278" />
+		<Zone Name="Phòng Huyền Vũ" X="10683" Y="1138" />
+		<Zone Name="Phòng Chu Tước" X="12261" Y="1935" />
+		<Zone Name="Phòng Thanh Long" X="13840" Y="2738" />
+		<Zone Name="Phòng Bạch Hổ" X="15389" Y="3498" />
+		
+		<Zone Name="Phòng Siêu Tốc" X="15655" Y="5066" />
+<!-- Cánh giữa -->
+		<Zone Name="Phòng Cơ Quan" X="7978" Y="4391" />
+		<Zone Name="Phòng Bí Văn 1" X="6654" Y="5141" />
+		<Zone Name="Phòng Bí Văn 2" X="5404" Y="4466" />
+		<Zone Name="Phòng Bí Văn 3" X="5868" Y="5711" />
+		<Zone Name="Phòng Bí Văn 4" X="7770" Y="5951" />
+		<Zone Name="Phòng Bí Văn 5" X="9463" Y="3689" />
+		<Zone Name="Phòng Bí Văn 6" X="11614" Y="4034" />
+		<Zone Name="Phòng Bí Văn 7" X="10467" Y="3225" />
+		<Zone Name="Phòng Bí Văn 8" X="8236" Y="3031" />
+		
+		<Zone Name="Phòng Phục Chế" X="10362" Y="5747" />
+<!-- Cánh Trái -->
+		<Zone Name="Phòng Phản Đòn" X="2086" Y="4519" />
+		<Zone Name="Phòng Nguyệt Tự" X="1906" Y="5911" />
+		<Zone Name="Phòng Nhật Tự" X="3568" Y="6682" />
+		<Zone Name="Phòng Địa Tự" X="5224" Y="7507" />
+		<Zone Name="Phòng Thiên Tự" X="6851" Y="8317" />
+		
+		<Zone Name="Phòng Vực Thẳm" X="9366" Y="8356" />
+<!-- Cuối giữa map -->		
+		<Zone Name="Phòng Nghỉ Ngơi" X="12154" Y="6831" />
+<!-- Boss Phản Đoàn -->		
+		<Zone Name="Phòng Bùa Chú" X="14229" Y="7839" />
+		<Zone Name="Phòng Bí Dược" X="12104" Y="9022" />
+		<Zone Name="Phòng Bí Dược" X="16259" Y="6704" />
+		
+<!-- Phòng cuối có NPC đổi thưởng -->		
+		<Zone Name="Phòng Bảo Rương" X="16322" Y="8989" />
+		
+		<Zone Name="Lối Ra" X="17795" Y="9851" />
+
+	</Zones>
+</Map>

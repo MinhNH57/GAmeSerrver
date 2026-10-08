@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Count: 0..500. SpawnRadius: 0..2000 world units around NewbieVillages.xml positions. -->
+<StartupBots
+    Enabled="true"
+    InitialCount="3"
+    MaxCount="5000"
+    SpawnIntervalMinutes="15"
+    SpawnRadius="500"
+    MainQuestsEnabled="true"
+    FirstMainQuestId="100" />

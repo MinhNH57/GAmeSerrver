@@ -1,0 +1,501 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Factions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<Faction ID="0" Name="Tân thủ" Elemental="0" Gender="-1" Map="-1" LeaderX="-1" LeaderY="-1" LeaderName="">
+	</Faction>
+	<Faction ID="1" Name="Thiếu Lâm" Elemental="1" Gender="0" Map="9" LeaderX="5770" LeaderY="3490" LeaderName="Trụ trì Huyền Từ">
+		<Sub ID="1" Name="Đao Thiếu" IsPhysical="1" UseAS="true">
+			<Points Dexterity="2" Vitality="3" Strength="5" Energy="0"/>
+			<Skill ID="21" AutoAdd="true" />
+			<Skill ID="22" />
+			<Skill ID="23" />
+			<Skill ID="25" />
+			<Skill ID="24" AutoAdd="true" />
+			<Skill ID="250" />
+			<Skill ID="26" />
+			<Skill ID="28" />
+			<Skill ID="27" AutoAdd="true"/>
+			<Skill ID="252" />
+			<Skill ID="819" />
+			<Skill ID="820" />
+		</Sub>
+		<Sub ID="2" Name="Côn Thiếu" IsPhysical="1" UseAS="true">
+			<Points Dexterity="2" Vitality="3" Strength="5" Energy="0"/>
+			<Skill ID="29" AutoAdd="true"/>
+			<Skill ID="30" />
+			<Skill ID="31" AutoAdd="true" />
+			<Skill ID="25" />
+			<Skill ID="33" AutoAdd="true"/>
+			<Skill ID="34" />
+			<Skill ID="254" />
+			<Skill ID="37" />
+			<Skill ID="36" AutoAdd="true" />
+			<Skill ID="255" />
+			<Skill ID="821" AutoAdd="true"/>
+			<Skill ID="822" />
+		</Sub>
+	</Faction>
+	<Faction ID="2" Name="Thiên Vương" Elemental="1" Gender="-1" Map="22" LeaderX="5716" LeaderY="4364" LeaderName="Bang chủ Dương Thiết Tâm">
+		<Sub ID="1" Name="Thương Thiên" IsPhysical="1" UseAS="false">
+			<Points Dexterity="2" Vitality="3" Strength="5" Energy="0"/>
+			<Skill ID="38" AutoAdd="true"/>
+			<Skill ID="40" />
+			<Skill ID="41" AutoAdd="true"/>
+			<Skill ID="45" />
+			<Skill ID="43" AutoAdd="true"/>
+			<Skill ID="256" />
+			<Skill ID="46" />
+			<Skill ID="49" />
+			<Skill ID="47" AutoAdd="true"/>
+			<Skill ID="259" />
+			<Skill ID="823" AutoAdd="true"/>
+			<Skill ID="824" />
+		</Sub>
+		<Sub ID="2" Name="Chùy Thiên" IsPhysical="1" UseAS="false">
+			<Points Dexterity="2" Vitality="3" Strength="5" Energy="0"/>
+			<Skill ID="50" AutoAdd="true"/>
+			<Skill ID="52" />
+			<Skill ID="41" AutoAdd="true"/>
+			<Skill ID="781" />
+			<Skill ID="53" AutoAdd="true"/>
+			<Skill ID="260" />
+			<Skill ID="55" />
+			<Skill ID="58" />
+			<Skill ID="56" AutoAdd="true"/>
+			<Skill ID="262" />
+			<Skill ID="825" />
+			<Skill ID="826" />
+		</Sub>
+	</Faction>
+	<Faction ID="3" Name="Đường Môn" Elemental="2" Gender="-1" Map="18" LeaderX="4490" LeaderY="3430" LeaderName="Môn chủ Đường Hiểu">
+		<Sub ID="1" Name="Hãm Tĩnh" IsPhysical="1" UseAS="true">
+			<Points Dexterity="7" Vitality="3" Strength="0" Energy="0"/>
+			<Skill ID="69" AutoAdd="true"/>
+			<Skill ID="70" />
+			<Skill ID="64" />
+			<Skill ID="71" AutoAdd="true"/>
+			<Skill ID="72" AutoAdd="true"/>
+			<Skill ID="263" AutoAdd="true"/>
+			<Skill ID="73" AutoAdd="true"/>
+			<Skill ID="75" />
+			<Skill ID="74" AutoAdd="true"/>
+			<Skill ID="265" />
+			<Skill ID="827" />
+			<Skill ID="828" />
+		</Sub>
+		<Sub ID="2" Name="Tụ Tiễn" IsPhysical="1" UseAS="true">
+			<Points Dexterity="6" Vitality="4" Strength="0" Energy="0"/>
+			<Skill ID="59" AutoAdd="true"/>
+			<Skill ID="60" />
+			<Skill ID="64" />
+			<Skill ID="61" />
+			<Skill ID="62" AutoAdd="true"/>
+			<Skill ID="266" AutoAdd="true"/>
+			<Skill ID="65" />
+			<Skill ID="68" />
+			<Skill ID="66" AutoAdd="true"/>
+			<Skill ID="268" />
+			<Skill ID="829" />
+			<Skill ID="830" />
+		</Sub>
+	</Faction>
+	<Faction ID="4" Name="Ngũ Độc" Elemental="2" Gender="-1" Map="20" LeaderX="818" LeaderY="4121" LeaderName="Giáo chủ Cổ Yên Nhiên">
+		<Sub ID="1" Name="Đao Độc" IsPhysical="1" UseAS="true">
+			<Points Dexterity="2" Vitality="2" Strength="6" Energy="0"/>
+			<Skill ID="76" AutoAdd="true"/>
+			<Skill ID="77" />
+			<Skill ID="78" />
+			<Skill ID="81" />
+			<Skill ID="80" AutoAdd="true"/>
+			<Skill ID="269" />
+			<Skill ID="82" />
+			<Skill ID="85" />
+			<Skill ID="83" AutoAdd="true"/>
+			<Skill ID="271" />
+			<Skill ID="831" AutoAdd="true"/>
+			<Skill ID="832" />
+		</Sub>
+		<Sub ID="2" Name="Chưởng Độc" IsPhysical="0" UseAS="true">
+			<Points Dexterity="0" Vitality="4" Strength="0" Energy="6"/>
+			<Skill ID="86" AutoAdd="true"/>
+			<Skill ID="87" />
+			<Skill ID="92" />
+			<Skill ID="91" />
+			<Skill ID="90" AutoAdd="true"/>
+			<Skill ID="272" />
+			<Skill ID="88" />
+			<Skill ID="95" />
+			<Skill ID="93" AutoAdd="true"/>
+			<Skill ID="274" />
+			<Skill ID="833" AutoAdd="true"/>
+			<Skill ID="834" />
+		</Sub>
+	</Faction>
+	<Faction ID="5" Name="Nga My" Elemental="3" Gender="1" Map="16" LeaderX="10910" LeaderY="7330" LeaderName="Vô Tưởng sư thái">
+		<Sub ID="1" Name="Chưởng Nga" IsPhysical="0" UseAS="true">
+			<Points Dexterity="0" Vitality="4" Strength="0" Energy="6"/>
+			<Skill ID="96" AutoAdd="true"/>
+			<Skill ID="97" />
+			<Skill ID="98" />
+			<Skill ID="101" />
+			<Skill ID="99" AutoAdd="true"/>
+			<Skill ID="479" />
+			<Skill ID="782" />
+			<Skill ID="105" />
+			<Skill ID="103" AutoAdd="true"/>
+			<Skill ID="280" />
+			<Skill ID="835" />
+			<Skill ID="836" />
+		</Sub>
+		<Sub ID="2" Name="Phụ Trợ" IsPhysical="0" UseAS="true">
+			<Points Dexterity="0" Vitality="6" Strength="0" Energy="4"/>
+			<Skill ID="107" AutoAdd="true"/>
+			<Skill ID="106" />
+			<Skill ID="98" />
+			<Skill ID="101" />
+			<Skill ID="109" />
+			<Skill ID="110" />
+			<Skill ID="102" />
+			<Skill ID="481" />
+			<Skill ID="108" />
+			<Skill ID="482" />
+			<Skill ID="837" AutoAdd="true"/>
+			<Skill ID="838" />
+		</Sub>
+	</Faction>
+	<Faction ID="6" Name="Thúy Yên" Elemental="3" Gender="-1" Map="17" LeaderX="2398" LeaderY="5430" LeaderName="Môn chủ Doãn Tiêu Vũ">
+		<Sub ID="1" Name="Kiếm Thúy" IsPhysical="0" UseAS="true">
+			<Points Dexterity="0" Vitality="4" Strength="0" Energy="6"/>
+			<Skill ID="111" AutoAdd="true"/>
+			<Skill ID="112" />
+			<Skill ID="113" />
+			<Skill ID="115" />
+			<Skill ID="114" AutoAdd="true"/>
+			<Skill ID="483" />
+			<Skill ID="116" />
+			<Skill ID="119" />
+			<Skill ID="117" AutoAdd="true"/>
+			<Skill ID="485" />
+			<Skill ID="839" />
+			<Skill ID="840" />
+		</Sub>
+		<Sub ID="2" Name="Đao Thúy" IsPhysical="1" UseAS="true">
+			<Points Dexterity="2" Vitality="2" Strength="6" Energy="0"/>
+			<Skill ID="15000" />
+			<Skill ID="120" AutoAdd="true"/>
+			<Skill ID="121" />
+			<Skill ID="122" />
+			<Skill ID="115" />
+			<Skill ID="123" AutoAdd="true"/>
+			<Skill ID="483" />
+			<Skill ID="124" />
+			<Skill ID="127" />
+			<Skill ID="125" AutoAdd="true"/>
+			<Skill ID="486" />
+			<Skill ID="841" />
+			<Skill ID="842" />
+		</Sub>
+	</Faction>
+	<Faction ID="7" Name="Cái Bang" Elemental="4" Gender="-1" Map="15" LeaderX="4622" LeaderY="3280" LeaderName="Bang chủ Thạch Hiên Viên">
+		<Sub ID="1" Name="Chưởng Cái" IsPhysical="0" UseAS="true">
+			<Points Dexterity="0" Vitality="5" Strength="0" Energy="5"/>
+			<Skill ID="128" AutoAdd="true"/>
+			<Skill ID="129" />
+			<Skill ID="130" />
+			<Skill ID="132" />
+			<Skill ID="131" AutoAdd="true"/>
+			<Skill ID="489" AutoAdd="true"/>
+			<Skill ID="133" />
+			<Skill ID="136" />
+			<Skill ID="134" AutoAdd="true"/>
+			<Skill ID="487" />
+			<Skill ID="843" />
+			<Skill ID="844" />
+		</Sub>
+		<Sub ID="2" Name="Côn Cái" IsPhysical="1" UseAS="true">
+			<Points Dexterity="2" Vitality="3" Strength="5" Energy="0"/>
+			<Skill ID="137" AutoAdd="true"/>
+			<Skill ID="138" />
+			<Skill ID="139" />
+			<Skill ID="132" />
+			<Skill ID="140" AutoAdd="true"/>
+			<Skill ID="491" AutoAdd="true"/>
+			<Skill ID="238" />
+			<Skill ID="142" />
+			<Skill ID="141" AutoAdd="true"/>
+			<Skill ID="488" />
+			<Skill ID="845" AutoAdd="true"/>
+			<Skill ID="846" />
+		</Sub>
+	</Faction>
+	<Faction ID="8" Name="Thiên Nhẫn" Elemental="4" Gender="-1" Map="10" LeaderX="7510" LeaderY="4770" LeaderName="Giáo chủ Hoàn Nhan Tương">
+		<Sub ID="1" Name="Chiến Nhẫn" IsPhysical="1" UseAS="true">
+			<Points Dexterity="2" Vitality="3" Strength="5" Energy="0"/>
+			<Skill ID="143" AutoAdd="true"/>
+			<Skill ID="144" />
+			<Skill ID="492" AutoAdd="true"/>
+			<Skill ID="145" />
+			<Skill ID="146" AutoAdd="true"/>
+			<Skill ID="147" />
+			<Skill ID="148" AutoAdd="true"/>
+			<Skill ID="150" />
+			<Skill ID="149" AutoAdd="true"/>
+			<Skill ID="493" />
+			<Skill ID="847" AutoAdd="true"/>
+			<Skill ID="848" />
+		</Sub>
+		<Sub ID="2" Name="Ma Nhẫn" IsPhysical="0" UseAS="true">
+			<Points Dexterity="0" Vitality="4" Strength="0" Energy="6"/>
+			<Skill ID="151" AutoAdd="true"/>
+			<Skill ID="152" />
+			<Skill ID="154" AutoAdd="true"/>
+			<Skill ID="145" />
+			<Skill ID="153" AutoAdd="true"/>
+			<Skill ID="494" AutoAdd="true"/>
+			<Skill ID="155" AutoAdd="true"/>
+			<Skill ID="158" />
+			<Skill ID="156" AutoAdd="true"/>
+			<Skill ID="496" />
+			<Skill ID="849" />
+			<Skill ID="850" />
+		</Sub>
+	</Faction>
+	<Faction ID="9" Name="Võ Đang" Elemental="5" Gender="-1" Map="14" LeaderX="4010" LeaderY="3730" LeaderName="Chưởng môn Vương Trùng Dương">
+		<Sub ID="1" Name="Khí Võ" IsPhysical="0" UseAS="true">
+			<Points Dexterity="0" Vitality="4" Strength="0" Energy="6"/>
+			<Skill ID="159" AutoAdd="true"/>
+			<Skill ID="160" />
+			<Skill ID="161" />
+			<Skill ID="163" />
+			<Skill ID="162" AutoAdd="true"/>
+			<Skill ID="497" />
+			<Skill ID="164" />
+			<Skill ID="166" />
+			<Skill ID="165" AutoAdd="true"/>
+			<Skill ID="498" />
+			<Skill ID="851" />
+			<Skill ID="852" />
+			<Skill ID="15001" />
+		</Sub>
+		<Sub ID="2" Name="Kiếm Võ" IsPhysical="1" UseAS="true">
+			<Points Dexterity="3" Vitality="3" Strength="4" Energy="0"/>
+			<Skill ID="167" AutoAdd="true"/>
+			<Skill ID="168" />
+			<Skill ID="783" />
+			<Skill ID="163" />
+			<Skill ID="169" AutoAdd="true"/>
+			<Skill ID="499" />
+			<Skill ID="170" />
+			<Skill ID="174" />
+			<Skill ID="171" AutoAdd="true"/>
+			<Skill ID="500" />
+			<Skill ID="853" />
+			<Skill ID="854" />
+		</Sub>
+	</Faction>
+	<Faction ID="10" Name="Côn Lôn" Elemental="5" Gender="-1" Map="12" LeaderX="2302" LeaderY="3043" LeaderName="Chưởng môn Tống Thu Thạch">
+		<Sub ID="1" Name="Đao Côn" IsPhysical="1" UseAS="true">
+			<Points Dexterity="2" Vitality="3" Strength="5" Energy="0"/>
+			<Skill ID="175" AutoAdd="true"/>
+			<Skill ID="176" />
+			<Skill ID="179" />
+			<Skill ID="177" />
+			<Skill ID="178" AutoAdd="true"/>
+			<Skill ID="697" />
+			<Skill ID="180" />
+			<Skill ID="183" />
+			<Skill ID="181" AutoAdd="true"/>
+			<Skill ID="698" />
+			<Skill ID="855" />
+			<Skill ID="856" />
+		</Sub>
+		<Sub ID="2" Name="Kiếm Côn" IsPhysical="0" UseAS="true">
+			<Points Dexterity="0" Vitality="4" Strength="0" Energy="6"/>
+			<Skill ID="188" AutoAdd="true"/>
+			<Skill ID="189" />
+			<Skill ID="179" />
+			<Skill ID="177" />
+			<Skill ID="190" AutoAdd="true"/>
+			<Skill ID="699" AutoAdd="true"/>
+			<Skill ID="191" />
+			<Skill ID="193" />
+			<Skill ID="192" AutoAdd="true"/>
+			<Skill ID="767" />
+			<Skill ID="857" />
+			<Skill ID="858" />
+		</Sub>
+	</Faction>
+	<Faction ID="11" Name="Minh Giáo" Elemental="2" Gender="-1" Map="224" LeaderX="8730" LeaderY="5561" LeaderName="Giáo chủ Phương Hành Giác">
+		<Sub ID="1" Name="Chùy Minh" IsPhysical="1" UseAS="false">
+			<Points Dexterity="2" Vitality="3" Strength="5" Energy="0"/>
+			<Skill ID="194" AutoAdd="true"/>
+			<Skill ID="196" />
+			<Skill ID="199" AutoAdd="true"/>
+			<Skill ID="768" />
+			<Skill ID="198" AutoAdd="true"/>
+			<Skill ID="201" />
+			<Skill ID="197" />
+			<Skill ID="204" />
+			<Skill ID="202" AutoAdd="true"/>
+			<Skill ID="769" />
+			<Skill ID="859" />
+			<Skill ID="860" />
+		</Sub>
+		<Sub ID="2" Name="Kiếm Minh" IsPhysical="0" UseAS="true">
+			<Points Dexterity="0" Vitality="4" Strength="0" Energy="6"/>
+			<Skill ID="205" AutoAdd="true"/>
+			<Skill ID="206" />
+			<Skill ID="207" />
+			<Skill ID="209" />
+			<Skill ID="208" AutoAdd="true"/>
+			<Skill ID="210" AutoAdd="true"/>
+			<Skill ID="770" AutoAdd="true"/>
+			<Skill ID="212" />
+			<Skill ID="211" AutoAdd="true"/>
+			<Skill ID="772" />
+			<Skill ID="861" />
+			<Skill ID="862" />
+		</Sub>
+	</Faction>
+	<Faction ID="12" Name="Đoàn Thị" Elemental="3" Gender="-1" Map="19" LeaderX="6195" LeaderY="3289" LeaderName="Gia chủ Đoàn Trí Hưng">
+		<Sub ID="1" Name="Chỉ Đoàn" IsPhysical="1" UseAS="false">
+			<Points Dexterity="2" Vitality="2" Strength="6" Energy="0"/>
+			<Skill ID="213" AutoAdd="true"/>
+			<Skill ID="215" />
+			<Skill ID="216" AutoAdd="true"/>
+			<Skill ID="219" AutoAdd="true"/>
+			<Skill ID="217" AutoAdd="true"/>
+			<Skill ID="773" />
+			<Skill ID="220" />
+			<Skill ID="225" />
+			<Skill ID="223" AutoAdd="true"/>
+			<Skill ID="775" />
+			<Skill ID="863" />
+			<Skill ID="864" />
+		</Sub>
+		<Sub ID="2" Name="Khí Đoàn" IsPhysical="0" UseAS="true">
+			<Points Dexterity="0" Vitality="4" Strength="0" Energy="6"/>
+			<Skill ID="226" AutoAdd="true"/>
+			<Skill ID="227" />
+			<Skill ID="228" />
+			<Skill ID="230" />
+			<Skill ID="229" AutoAdd="true"/>
+			<Skill ID="776" />
+			<Skill ID="231" />
+			<Skill ID="233" />
+			<Skill ID="232" AutoAdd="true"/>
+			<Skill ID="778" />
+			<Skill ID="865" AutoAdd="true"/>
+			<Skill ID="866" />
+		</Sub>
+	</Faction>
+
+	<Faction ID="13" Name="Cổ Mộ" Elemental="5"	Gender="-1"	Map="2000"	LeaderX="2430"	LeaderY="850"	LeaderName="Chưởng môn Cổ Mộ">
+		<Sub ID="1" Name="Cổ Mộ Kiếm" IsPhysical="1" UseAS="false">
+			<Points Dexterity="2" Vitality="2" Strength="6" Energy="0"/>
+			<Skill ID="16001" AutoAdd="true"/>
+			<Skill ID="16002" />
+			<Skill ID="16003" AutoAdd="true"/>
+			<Skill ID="16004" AutoAdd="true"/>
+			<Skill ID="16005" AutoAdd="true"/>
+			<Skill ID="16006" />
+			<Skill ID="16007" />
+			<Skill ID="16008" />
+			<Skill ID="16009" AutoAdd="true"/>
+			<Skill ID="16010" />
+			<Skill ID="16011" />
+			<Skill ID="16012" />
+		</Sub>
+		<Sub ID="2" Name="Cổ Mộ Châm" IsPhysical="0" UseAS="true">
+			<Points Dexterity="0" Vitality="4" Strength="0" Energy="6"/>
+			<Skill ID="16013" AutoAdd="true"/>
+			<Skill ID="16014" />
+			<Skill ID="16015" />
+			<Skill ID="16016" />
+			<Skill ID="16017" AutoAdd="true"/>
+			<Skill ID="16018" />
+			<Skill ID="16019" />
+			<Skill ID="16020" />
+			<Skill ID="16021" AutoAdd="true"/>
+			<Skill ID="16022" />
+			<Skill ID="16023" AutoAdd="true"/>
+			<Skill ID="16024" />
+		</Sub>
+	</Faction>
+
+		<Faction ID="14" Name="Bá Đao" Elemental="5" Gender="-1"	Map="2000"	LeaderX="2430"	LeaderY="850"	LeaderName="Chưởng môn Bá Đao">
+		<Sub ID="1" Name="Tử Dương Bá Đao" IsPhysical="1" UseAS="false">
+			<Points Dexterity="2" Vitality="2" Strength="6" Energy="0"/>
+			<Skill ID="16518" AutoAdd="true"/><Skill ID="16519"/><Skill ID="16520" AutoAdd="true"/><Skill ID="16521" AutoAdd="true"/><Skill ID="16522" AutoAdd="true"/><Skill ID="16523"/><Skill ID="16524" AutoAdd="true"/><Skill ID="16525"/><Skill ID="16526" AutoAdd="true"/><Skill ID="16527"/><Skill ID="16528"/><Skill ID="16529"/>
+		</Sub>
+		<Sub ID="2" Name="Thiên La Bá Đao" IsPhysical="0" UseAS="true">
+			<Points Dexterity="0" Vitality="4" Strength="0" Energy="6"/>
+			<Skill ID="16530" AutoAdd="true"/><Skill ID="16531"/><Skill ID="16532" AutoAdd="true"/><Skill ID="16533"/><Skill ID="16534" AutoAdd="true"/><Skill ID="16535"/><Skill ID="16536" AutoAdd="true"/><Skill ID="16537"/><Skill ID="16538" AutoAdd="true"/><Skill ID="16539"/><Skill ID="16540" AutoAdd="true"/><Skill ID="16541"/>
+		</Sub>
+	</Faction>
+
+  <!-- Tiêu Dao: chỉ số cấp 1 giữ nguyên tới cấp tối đa; xem TIEU_DAO.md. -->
+  <Faction ID="15" Name="Tiêu Dao" Elemental="4" Gender="-1" Map="2000" LeaderX="2430" LeaderY="850" LeaderName="Chưởng môn Tiêu Dao">
+  <Sub ID="1" Name="Tiêu Dao Kiếm" IsPhysical="1" UseAS="true">
+    <Points Dexterity="2" Vitality="2" Strength="6" Energy="0" />
+    <Skill ID="17001" AutoAdd="true" />
+    <Skill ID="17002" />
+    <Skill ID="17003" />
+    <Skill ID="17004" />
+    <Skill ID="17005" AutoAdd="true" />
+    <Skill ID="17006" />
+    <Skill ID="17007" />
+    <Skill ID="17008" />
+    <Skill ID="17009" AutoAdd="true" />
+    <Skill ID="17010" />
+    <Skill ID="17011" />
+    <Skill ID="17012" />
+  </Sub>
+  <Sub ID="2" Name="Tiêu Dao Chưởng" IsPhysical="0" UseAS="true">
+    <Points Dexterity="0" Vitality="4" Strength="0" Energy="6" />
+    <Skill ID="17013" AutoAdd="true" />
+    <Skill ID="17014" />
+    <Skill ID="17015" />
+    <Skill ID="17016" />
+    <Skill ID="17017" AutoAdd="true" />
+    <Skill ID="17018" />
+    <Skill ID="17019" />
+    <Skill ID="17020" />
+    <Skill ID="17021" AutoAdd="true" />
+    <Skill ID="17022" />
+    <Skill ID="17023" />
+    <Skill ID="17024" />
+  </Sub>
+</Faction>
+</Factions>
+
+<!-- 
+====================================================================================================
+HƯỚNG DẪN CẤU HÌNH MÔN PHÁI VÀ NHÁNH HỆ PHÁI (FACTION & ROUTE)
+====================================================================================================
+
+1. THUỘC TÍNH CỦA THẺ <Sub ...>:
+   - ID         : Mã định danh nhánh phái (1: Nhánh 1, 2: Nhánh 2).
+   - Name       : Tên nhánh hệ phái (ví dụ: Cổ Mộ Kiếm, Cổ Mộ Châm).
+   - IsPhysical : 1 = Hệ Ngoại công (Physical), 0 = Hệ Nội công (Magic).
+   - UseAS (Use Attack Speed):
+     * true  : Nhánh này CÓ áp dụng Tốc độ đánh / Tốc độ xuất chiêu từ trang bị, buff.
+     * false : Nhánh này KHÔNG bị ảnh hưởng bởi Tốc độ đánh (GetCurrentAttackSpeed() = 0),
+               nhân vật xuất chiêu theo hoạt ảnh và thời gian chờ (delay/cooldown) cố định của chiêu.
+               (Ví dụ: Thương Thiên, Chùy Thiên, Chỉ Đoàn, Cổ Mộ Kiếm, Tử Dương Bá Đao).
+
+2. THẺ <Points .../> - TỶ LỆ TỰ ĐỘNG PHÂN BỔ ĐIỂM TIỀM NĂNG (AUTO ALLOCATION):
+   - Đây là tỷ lệ phân chia điểm tiềm năng tự động cho người chơi dưới cấp 50 hoặc khi bấm "Tự động phân phối điểm".
+   - [BẮT BUỘC]: Tổng 4 chỉ số (Dexterity + Vitality + Strength + Energy) PHẢI BẰNG ĐÚNG 10.
+     Nếu tổng khác 10, server sẽ báo lỗi khi khởi động: "Lỗi cấu hình phân phối tiềm năng của FactionID:RouteID".
+   - Ý nghĩa từng thuộc tính:
+     * Dexterity : Số điểm tự động chia vào Thân pháp.
+     * Vitality  : Số điểm tự động chia vào Thể chất / Ngoại công (tăng máu).
+     * Strength  : Số điểm tự động chia vào Sức mạnh (tăng ngoại công).
+     * Energy    : Số điểm tự động chia vào Nội công (tăng nội công / mana).
+
+3. PHÂN BIỆT VỚI FACTIONATTRIBUTES.XML:
+   - Thẻ <Points> ở file này chỉ là TỶ LỆ GỢI Ý TỰ ĐỘNG CỘNG 10 ĐIỂM mỗi khi lên cấp.
+   - Mức trần giới hạn tối đa được phép cộng (Max Cap) và Hệ số quy đổi Sức/Ngoại/Nội sang HP, MP, Damage
+     được cấu hình riêng biệt tại file Config/KT_Faction/FactionAttributes.xml.
+====================================================================================================
+-->

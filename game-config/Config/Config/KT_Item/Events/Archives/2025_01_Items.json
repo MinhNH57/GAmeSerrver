@@ -1,0 +1,160 @@
+{
+    "RandomBoxes": [
+        {
+            "ItemID": 20766,
+            "Name": "Thạch Linh Xà",
+            "LimitLifeTime": 300,
+            "Icon": "202501_thachlinhxa",
+            "Intro": "Vật phẩm sự kiện Ất Tỵ Khai Xuân.",
+            "ItemValue": 200528
+        },
+        {
+            "ItemID": 20767,
+            "Name": "Thú Linh Bảo Thạch",
+            "Icon": "202501_thuhonbaothach",
+            "Intro": "Vật phẩm sự kiện Ất Tỵ Khai Xuân.",
+            "ItemValue": 200529
+        },
+        {
+            "ItemID": 20768,
+            "Name": "[Đặc biệt] Nội Đan",
+            "Icon": "202501_noidan",
+            "Intro": "Vật phẩm sự kiện Ất Tỵ Khai Xuân.",
+            "ItemValue": 200530
+        },
+        {
+            "ItemID": 20769,
+            "Name": "Thú cưỡi Tuyết Vũ Thiên Hương (ngẫu nhiên)",
+            "Icon": "horsebox_c",
+            "Intro": "Vật phẩm sự kiện Ất Tỵ Khai Xuân.<br>Sử dụng nhận được thú cưỡi <color=#eba0ac>Tuyết Vũ Thiên Hương</color>, thời hạn ngẫu nhiên.",
+            "ItemValue": 200532
+        },
+        {
+            "ItemID": 20775,
+            "Name": "Danh hiệu Ất Tỵ Khai Xuân (ngẫu nhiên)",
+            "Icon": "quest_0084_s",
+            "Intro": "Vật phẩm sự kiện Ất Tỵ Khai Xuân.<br>Sử dụng nhận được danh hiệu <color=#eba0ac>Ất Tỵ Khai Xuân</color>, thời hạn ngẫu nhiên.",
+            "ItemValue": 200531
+        },
+        {
+            "ItemID": 20776,
+            "Name": "Danh hiệu Ất Tỵ Khai Xuân (30 ngày)",
+            "Icon": "quest_0084_s",
+            "Intro": "Vật phẩm sự kiện Ất Tỵ Khai Xuân.<br>Sử dụng nhận được danh hiệu <color=#eba0ac>Ất Tỵ Khai Xuân</color>, thời hạn 30 ngày.",
+            "ItemValue": 200533
+        },
+        {
+            "ItemID": 20777,
+            "Name": "Rương ngoại trang Ất Tỵ (15 ngày)",
+            "Icon": "ruong_rong",
+            "Intro": "Vật phẩm sự kiện Ất Tỵ Khai Xuân.<br>Sử dụng nhận được ngoại trang Ất Tỵ.",
+            "ItemValue": 200534
+        },
+        {
+            "ItemID": 20782,
+            "Name": "Rương mặt nạ Ất Tỵ (ngẫu nhiên)",
+            "Icon": "quest_0084_s",
+            "Intro": "Vật phẩm sự kiện Ất Tỵ Khai Xuân.<br>Sử dụng nhận được mặt nạ Ất Tỵ Khai Xuân, thời hạn ngẫu nhiên.",
+            "ItemValue": 200536
+        },
+        {
+            "ItemID": 20783,
+            "Name": "Rương ngoại trang Cửu Ngũ Chí Tôn (30 ngày)",
+            "Icon": "ruong_rong",
+            "Intro": "Vật phẩm hoạt động Thiên Tầng Tháp - Ất Tỵ Khai Xuân.<br>Sử dụng nhận được ngoại trang Cửu Ngũ Chí Tôn.",
+            "ItemValue": 200537
+        }
+    ],
+    "Normal": [
+        {
+            "ItemID": 20770,
+            "Name": "Đá Vạn Năm",
+            "ParticularType": 32001,
+            "Stack": 10000,
+            "Icon": "202501_davannam",
+            "Intro": "Vật phẩm sự kiện Ất Tỵ Khai Xuân.",
+            "ScriptID": 200121
+        },
+        {
+            "ItemID": 20771,
+            "Name": "Huyết Long",
+            "ParticularType": 32001,
+            "Stack": 10000,
+            "Icon": "202501_huyetlong",
+            "Intro": "Vật phẩm sự kiện Ất Tỵ Khai Xuân.",
+            "ScriptID": 200121
+        },
+        {
+            "ItemID": 20772,
+            "Name": "Ngọc Hồn Thú",
+            "ParticularType": 32001,
+            "Stack": 10000,
+            "Icon": "202501_ngochonthu",
+            "Intro": "Vật phẩm sự kiện Ất Tỵ Khai Xuân.",
+            "ScriptID": 200121
+        },
+        {
+            "ItemID": 20773,
+            "Name": "Vảy Rắn",
+            "Icon": "202501_vayran",
+            "Intro": "Vật phẩm sự kiện Ất Tỵ Khai Xuân. <br>Sử dụng nhận được <color=#a6e3a1>1 điểm kỹ năng</color>. Mỗi người tối đa sử dụng <color=#eba0ac>2 vật phẩm</color>.",
+            "ScriptID": 200097,
+            "ListExtPram": [
+                {
+                    "Pram": 700543,
+                    "Index": 1
+                },
+                {
+                    "Pram": 1,
+                    "Index": 2
+                },
+                {
+                    "Pram": 2,
+                    "Index": 3
+                }
+            ]
+        },
+        {
+            "ItemID": 20774,
+            "Name": "Mật Rắn",
+            "Icon": "202501_matran",
+            "Intro": "Vật phẩm sự kiện Ất Tỵ Khai Xuân. <br>Sử dụng nhận được <color=#a6e3a1>10 điểm tiềm năng</color>. Mỗi người tối đa sử dụng <color=#eba0ac>2 vật phẩm</color>.",
+            "ScriptID": 200096,
+            "ListExtPram": [
+                {
+                    "Pram": 700544,
+                    "Index": 1
+                },
+                {
+                    "Pram": 10,
+                    "Index": 2
+                },
+                {
+                    "Pram": 2,
+                    "Index": 3
+                }
+            ]
+        },
+        {
+            "ItemID": 20778,
+            "Name": "Bùa chú",
+            "Icon": "202501_buachu",
+            "Stack": 10000,
+            "Intro": "Vật phẩm sự kiện Ất Tỵ Khai Xuân. Nguyên liệu chế tạo đặc biệt để luyện Nội Đan."
+        },
+        {
+            "ItemID": 20779,
+            "Name": "Vé Bách bảo rương [sự kiện]",
+            "Stack": 10000,
+            "Icon": "202501_vekhaixuan",
+            "Intro": "Dùng để tham gia hoạt động Bách Bảo Rương đặc biệt."
+        },
+        {
+            "ItemID": 20780,
+            "Name": "Phiếu đổi thưởng [sự kiện]",
+            "Stack": 10000,
+            "Icon": "202501_phieukhaixuan",
+            "Intro": "Dùng để đổi quà tặng tại cửa hàng hoạt động."
+        }
+    ]
+}

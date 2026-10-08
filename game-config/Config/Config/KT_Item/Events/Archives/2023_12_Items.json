@@ -1,0 +1,153 @@
+{
+    "Help": {
+        "Help1": "cấu hình vật phẩm sự kiện bằng json",
+        "Help2": "Genre: 18: scriptitem, 22: normal item",
+        "Help3": "ParticularType: > 32000 nếu drop tại map, bỏ qua nếu không phải",
+        "Help4": "ScriptID: 200060 nếu là RandomBox (khai báo ItemValue là ID của box)",
+        "StartID": 20293
+    },
+    "RandomBoxes": [
+        {
+            "ItemID": 20293,
+            "Name": "Túi vật phẩm Giáng sinh",
+            "ParticularType": 32001,
+            "Icon": "2023dec_tui_vat_pham",
+            "Intro": "Vật phẩm sự kiện Đêm Giáng Sinh.",
+            "ItemValue": 200176
+        },
+        {
+            "ItemID": 20294,
+            "Name": "Hộp quà Giáng Sinh",
+            "LimitLifeTime": 300,
+            "Icon": "2023dec_hop_qua_giang_sinh",
+            "Intro": "Vật phẩm sự kiện Đêm Giáng Sinh.",
+            "ItemValue": 200177
+        },
+        {
+            "ItemID": 20295,
+            "Name": "Hộp quà Giáng Sinh (đặc biệt)",
+            "LimitLifeTime": 5000,
+            "Icon": "2023dec_hop_qua_dac_biet",
+            "Intro": "Vật phẩm sự kiện Đêm Giáng Sinh.",
+            "ItemValue": 200178
+        },
+        {
+            "ItemID": 20296,
+            "Name": "Hộp quà Giáng Sinh (bí ẩn)",
+            "LimitLifeTime": 300,
+            "Icon": "2023dec_qua_bi_an",
+            "Intro": "Vật phẩm sự kiện Đêm Giáng Sinh.",
+            "ItemValue": 200179
+        },
+        {
+            "ItemID": 20297,
+            "Name": "Rương Thú cưỡi Giáng sinh",
+            "Icon": "horsebox_c",
+            "Intro": "Sử dụng nhận được thú cưỡi sự kiện Đêm Giáng Sinh.",
+            "ItemValue": 200181
+        },
+        {
+            "ItemID": 20298,
+            "Name": "Rương Thú cưỡi Giáng sinh (cao cấp)",
+            "Icon": "horsebox_c",
+            "Intro": "Sử dụng nhận được thú cưỡi sự kiện Đêm Giáng Sinh.",
+            "ItemValue": 200182
+        },
+        {
+            "ItemID": 20299,
+            "Name": "Vòng sáng sự kiện Đêm Giáng Sinh (7 ngày)",
+            "Icon": "quest_0084_s",
+            "Intro": "",
+            "ScriptID": 200120,
+            "ListExtPram": [
+                { "Pram": 2039, "Index": 1 },
+                { "Pram": 10081, "Index": 2 }
+            ],
+            "Stack": 1
+        },
+        {
+            "ItemID": 20300,
+            "Name": "Vòng sáng sự kiện Đêm Giáng Sinh (30 ngày)",
+            "Icon": "quest_0084_s",
+            "Intro": "Sử dụng nhận được vòng sáng sự kiện Sinh nhật.",
+            "ScriptID": 200120,
+            "ListExtPram": [
+                { "Pram": 2030, "Index": 1 },
+                { "Pram": 43201, "Index": 2 }
+            ],
+            "Stack": 1
+        },
+        {
+            "ItemID": 20310,
+            "Name": "Hộp quà bất ngờ (huyền tinh)",
+            "Icon": "haohua",
+            "Intro": "Món quà bất ngờ dành tặng bằng hữu nhân dịp Giáng Sinh.",
+            "ItemValue": 200188
+        },
+        {
+            "ItemID": 20311,
+            "Name": "Hộp quà bất ngờ (VIP)",
+            "Icon": "haohua",
+            "Intro": "Món quà VIP bất ngờ dành tặng bằng hữu nhân dịp Giáng Sinh.",
+            "ItemValue": 200189
+        }
+    ],
+    "Normal": [
+        {
+            "ItemID": 20301,
+            "Name": "Đèn trang trí",
+            "Stack": 10000,
+            "Icon": "2023dec_den_trang_tri",
+            "Intro": "Vật phẩm sự kiện Đêm Giáng Sinh.",
+            "ScriptID": 200121
+        },
+        {
+            "ItemID": 20302,
+            "Name": "Đồ chơi trang trí",
+            "Stack": 10000,
+            "Icon": "2023dec_do_choi_trang_tri",
+            "Intro": "Vật phẩm sự kiện Đêm Giáng Sinh.",
+            "ScriptID": 200121
+        },
+        {
+            "ItemID": 20303,
+            "Name": "Ngôi sao trang trí",
+            "Stack": 10000,
+            "Icon": "2023dec_ngoi_sao_trang_tri",
+            "Intro": "Vật phẩm sự kiện Đêm Giáng Sinh.",
+            "ScriptID": 200121
+        },
+        {
+            "ItemID": 20304,
+            "Name": "Hộp quà trang trí",
+            "Stack": 10000,
+            "Icon": "2023dec_hop_qua_trang_tri",
+            "Intro": "Vật phẩm sự kiện Đêm Giáng Sinh.",
+            "ScriptID": 200121
+        },
+        {
+            "ItemID": 20305,
+            "Name": "Bánh kem Giáng Sinh",
+            "Icon": "2023dec_banh_kem",
+            "Intro": "Vật phẩm sự kiện Đêm Giáng Sinh. <br>Sử dụng nhận được <color=#a6e3a1>1 điểm kỹ năng</color>. Mỗi người tối đa sử dụng <color=#eba0ac>2 vật phẩm</color>.",
+            "ScriptID": 200097,
+            "ListExtPram": [
+                { "Pram": 700515, "Index": 1 },
+                { "Pram": 1, "Index": 2 },
+                { "Pram": 2, "Index": 3 }
+            ]
+        },
+        {
+            "ItemID": 20306,
+            "Name": "Kẹo sô-cô-la Giáng Sinh",
+            "Icon": "2023dec_keo_chocolate",
+            "Intro": "Vật phẩm sự kiện Đêm Giáng Sinh. <br>Sử dụng nhận được <color=#a6e3a1>10 điểm tiềm năng</color>. Mỗi người tối đa sử dụng <color=#eba0ac>2 vật phẩm.</color>",
+            "ScriptID": 200096,
+            "ListExtPram": [
+                { "Pram": 700516, "Index": 1 },
+                { "Pram": 10, "Index": 2 },
+                { "Pram": 2, "Index": 3 }
+            ]
+        }
+    ]
+}

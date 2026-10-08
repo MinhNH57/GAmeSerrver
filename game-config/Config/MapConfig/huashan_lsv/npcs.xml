@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Map>
+  <NPCs>
+    <NPC Code="3406" Name="Quan Lãnh Thổ" MinimapName="Quan Lãnh Thổ" VisibleOnMinimap="1" Title="" X="3860" Y="5480" Dir="1" ScriptID="16"/>
+  </NPCs>
+</Map>

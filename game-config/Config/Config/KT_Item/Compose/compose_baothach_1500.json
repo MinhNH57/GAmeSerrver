@@ -1,0 +1,192 @@
+﻿{
+    "recipes": [
+        {
+            "compose_id": 1500,
+            "compose_name": "Phổ thông bảo thạch cấp 1",
+            "compose_description": "",
+            "allow_multiple": true,
+            "enable_source": false,
+            "enable_rate_up": false,
+            "materials": [
+                {
+                    "id": 191,
+                    "number": 1
+                },
+                {
+                    "id": 506,
+                    "number": 150
+                }
+            ],
+            "fees": [
+                {
+                    "type": 1,
+                    "number": 300000
+                }
+            ],
+            "output": {
+                "id": 14201,
+                "number": 1
+            },
+            "output_based_on_input": false,
+            "default_rate": 100,
+            "limit": {
+                "type": 0,
+                "number": 25
+            }
+        },
+        {
+            "compose_id": 1501,
+            "compose_name": "Đặc thù bảo thạch cấp 1",
+            "compose_description": "",
+            "allow_multiple": true,
+            "enable_source": false,
+            "enable_rate_up": false,
+            "materials": [
+                {
+                    "id": 191,
+                    "number": 3
+                },
+                {
+                    "id": 506,
+                    "number": 300
+                }
+            ],
+            "fees": [
+                {
+                    "type": 1,
+                    "number": 500000
+                }
+            ],
+            "output": {
+                "id": 14211,
+                "number": 1
+            },
+            "output_based_on_input": false,
+            "default_rate": 100,
+            "limit": {
+                "type": 0,
+                "number": 10
+            }
+        },
+        {
+            "compose_id": 1502,
+            "compose_name": "Kỹ năng bảo thạch cấp 1",
+            "compose_description": "",
+            "allow_multiple": true,
+            "enable_source": false,
+            "enable_rate_up": false,
+            "materials": [
+                {
+                    "id": 14241,
+                    "number": 500
+                },
+                {
+                    "id": 506,
+                    "number": 10000
+                }
+            ],
+            "fees": [
+                {
+                    "type": 1,
+                    "number": 1000000
+                }
+            ],
+            "output": {
+                "id": 14221,
+                "number": 1
+            },
+            "output_based_on_input": false,
+            "default_rate": 100
+        },
+        {
+            "compose_id": 1503,
+            "compose_name": "Trang bị bảo thạch cấp 1",
+            "compose_description": "",
+            "allow_multiple": true,
+            "enable_source": false,
+            "enable_rate_up": false,
+            "materials": [
+                {
+                    "id": 14241,
+                    "number": 700
+                },
+                {
+                    "id": 506,
+                    "number": 15000
+                }
+            ],
+            "fees": [
+                {
+                    "type": 1,
+                    "number": 1000000
+                }
+            ],
+            "output": {
+                "id": 14231,
+                "number": 1
+            },
+            "output_based_on_input": false,
+            "default_rate": 100
+        },
+        {
+            "compose_id": 1504,
+            "compose_name": "Kim cương toản",
+            "compose_description": "",
+            "allow_multiple": true,
+            "enable_source": false,
+            "enable_rate_up": false,
+            "materials": [
+                {
+                    "id": 1074,
+                    "number": 50
+                },
+                {
+                    "id": 506,
+                    "number": 100
+                }
+            ],
+            "fees": [
+                {
+                    "type": 5,
+                    "number": 1000
+                }
+            ],
+            "output": {
+                "id": 14242,
+                "number": 1
+            },
+            "output_based_on_input": false,
+            "default_rate": 75
+        },
+        {
+            "compose_id": 1505,
+            "compose_name": "Điểm kim chi tiễn",
+            "compose_description": "",
+            "allow_multiple": true,
+            "enable_source": false,
+            "enable_rate_up": false,
+            "materials": [
+                {
+                    "id": 14242,
+                    "number": 10
+                },
+                {
+                    "id": 506,
+                    "number": 2000
+                }
+            ],
+            "fees": [
+                {
+                    "type": 5,
+                    "number": 5000
+                }
+            ],
+            "output": {
+                "id": 14243,
+                "number": 1
+            },
+            "output_based_on_input": false,
+            "default_rate": 100
+        }
+    ]
+}

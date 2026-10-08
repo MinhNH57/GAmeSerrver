@@ -1,0 +1,605 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+
+<!-- Hướng dẫn cấu hình BattlePass
+Cấu hình Level BP
+
+<Level ID="[number]"               
+ID cấp độ, không trùng lặp, bắt đầu từ 1, tăng dần ExpRequired="[number]"      
+Kinh nghiệm cần để lên cấp độ này (cấp độ 1 cần 0 kinh nghiệm)
+>
+    <FreeReward ItemID="[number]"       
+    ID vật phẩm nhận được ở cấp độ này (nếu có) Number="[number]"       
+    Số lượng vật phẩm nhận được ở cấp độ này (nếu có)        
+    />
+    <EliteReward ItemID="[number]"       
+    ID vật phẩm nhận được ở cấp độ này nếu là Elite (nếu có) Number="[number]"       
+    Số lượng vật phẩm nhận được ở cấp độ này nếu là Elite (nếu có)        
+    />    
+</Level>
+
+Cấu hình task
+
+  <Task ID="[number]"         ID nhiệm vụ, không trùng lặp Name="[string]"             Tên nhiệm vụ Type="[0/1]"                Loại nhiệm vụ, 0: Làm 1 lần xong luôn, 1: Làm nhiều lần (cần NumberItem) NumberItem="[number]"       Số lượng cần làm để hoàn thành nhiệm vụ IndexRepeat="[number]"      Số lần lặp lại nhiệm vụ, 0: hằng ngày, 1: hằng tuần, 2: mùa giải EventType="[number]"        Loại sự kiện Param="[number/-1]"         Tham số sự kiện, -1: không có tham số, >0: có tham số, thường là ID của vật phẩm, quái vật, nhiệm vụ Exp="[number]"              Điểm Battle Pass nhận được khi hoàn thành nhiệm vụ
+  </Task>
+
+Cấu hình gói BP
+  <Bundle ID="[number]"          ID gói BP, không trùng lặp (1: Cao Cấp, 2: Siêu Cấp) Title="[string]"              Tên hiển thị của gói BP Price="[decimal]"            Giá tiền thật (USD) Currency="[string]"          Đơn vị tiền tệ (USD, VND, ...)
+  >
+      <InstantReward ItemID="[number]"      ID vật phẩm nhận ngay khi mua gói Number="[number]"       Số lượng vật phẩm nhận được
+      />
+      <ExclusiveReward ItemID="[number]"    ID vật phẩm độc quyền của BP Number="[number]"     Số lượng vật phẩm nhận được
+      />
+      <BundleExclusiveReward ItemID="[number]"    ID vật phẩm độc quyền của gói Siêu Cấp Number="[number]"      Số lượng vật phẩm nhận được
+      />
+  </Bundle>
+
+Cấu hình phần thưởng nhận được khi đầy cấp
+
+  <BonusChest ExpRequired="[number]"     Số điểm kinh nghiệm cần để nhận thưởng
+  >
+      <Reward ItemID="[number]"          ID vật phẩm trong Rương Phần Thưởng Number="[number]"          Số lượng vật phẩm nhận được
+      />
+  </BonusChest>
+-->
+
+<BattlePass SeasonID="202509" BuyLevelCost="200" BuyLevelExp="1000">
+    <Levels>
+        <Level ID="1" ExpRequired="1000">
+            <FreeReward ItemID="15000" Number="20"/>
+            <FreeReward ItemID="20816" Number="5"/>
+            <FreeReward ItemID="943" Number="2"/>
+            <EliteReward ItemID="2017" Number="1"/>
+            <EliteReward ItemID="20816" Number="10"/>
+            <EliteReward ItemID="943" Number="2"/>
+        </Level>
+        <Level ID="2" ExpRequired="1000">
+            <FreeReward ItemID="189" Number="1"/>
+            <FreeReward ItemID="20816" Number="5"/>
+            <FreeReward ItemID="943" Number="2"/>
+            <EliteReward ItemID="15018" Number="10"/>
+            <EliteReward ItemID="20816" Number="10"/>
+            <EliteReward ItemID="943" Number="2"/>
+        </Level>
+        <Level ID="3" ExpRequired="1000">
+            <FreeReward ItemID="600" Number="2"/>
+            <FreeReward ItemID="20816" Number="5"/>
+            <FreeReward ItemID="943" Number="2"/>
+            <EliteReward ItemID="20537" Number="1"/>
+            <EliteReward ItemID="20816" Number="10"/>
+            <EliteReward ItemID="943" Number="2"/>
+        </Level>
+        <Level ID="4" ExpRequired="1000">
+            <FreeReward ItemID="590" Number="1"/>
+            <FreeReward ItemID="20816" Number="5"/>
+            <FreeReward ItemID="943" Number="2"/>
+            <EliteReward ItemID="1026" Number="5"/>
+            <EliteReward ItemID="20816" Number="10"/>
+            <EliteReward ItemID="943" Number="2"/>
+        </Level>
+        <Level ID="5" ExpRequired="1000">
+            <FreeReward ItemID="354" Number="1"/>
+            <FreeReward ItemID="20816" Number="50"/>
+            <FreeReward ItemID="943" Number="2"/>
+            <EliteReward ItemID="20529" Number="30"/>
+            <EliteReward ItemID="20816" Number="100"/>
+            <EliteReward ItemID="943" Number="2"/>
+        </Level>
+        <Level ID="6" ExpRequired="1000">
+            <FreeReward ItemID="20051" Number="20"/>
+            <FreeReward ItemID="20816" Number="5"/>
+            <FreeReward ItemID="943" Number="2"/>
+            <EliteReward ItemID="1057" Number="5"/>
+            <EliteReward ItemID="20816" Number="10"/>
+            <EliteReward ItemID="943" Number="2"/>
+        </Level>
+        <Level ID="7" ExpRequired="1000">
+            <FreeReward ItemID="189" Number="2"/>
+            <FreeReward ItemID="20816" Number="5"/>
+            <FreeReward ItemID="943" Number="2"/>
+            <EliteReward ItemID="506" Number="200"/>
+            <EliteReward ItemID="20816" Number="10"/>
+            <EliteReward ItemID="943" Number="2"/>
+        </Level>
+        <Level ID="8" ExpRequired="1000">
+            <FreeReward ItemID="1074" Number="10"/>
+            <FreeReward ItemID="20816" Number="5"/>
+            <FreeReward ItemID="943" Number="2"/>
+            <EliteReward ItemID="20344" Number="20"/>
+            <EliteReward ItemID="20816" Number="10"/>
+            <EliteReward ItemID="943" Number="2"/>
+        </Level>
+        <Level ID="9" ExpRequired="1000">
+            <FreeReward ItemID="20537" Number="1"/>
+            <FreeReward ItemID="20816" Number="5"/>
+            <FreeReward ItemID="943" Number="2"/>
+            <EliteReward ItemID="25270" Number="500"/>
+            <EliteReward ItemID="20816" Number="10"/>
+            <EliteReward ItemID="943" Number="2"/>
+        </Level>
+        <Level ID="10" ExpRequired="1000">
+            <FreeReward ItemID="1057" Number="5"/>
+            <FreeReward ItemID="20816" Number="50"/>
+            <FreeReward ItemID="943" Number="2"/>
+            <EliteReward ItemID="25235" Number="1"/>
+            <EliteReward ItemID="20816" Number="100"/>
+            <EliteReward ItemID="943" Number="2"/>
+        </Level>
+        <Level ID="11" ExpRequired="1000">
+            <FreeReward ItemID="15000" Number="20"/>
+            <FreeReward ItemID="20816" Number="5"/>
+            <FreeReward ItemID="943" Number="2"/>
+            <EliteReward ItemID="1074" Number="30"/>
+            <EliteReward ItemID="20816" Number="20"/>
+            <EliteReward ItemID="943" Number="2"/>
+        </Level>
+        <Level ID="12" ExpRequired="1000">
+            <FreeReward ItemID="190" Number="1"/>
+            <FreeReward ItemID="20816" Number="5"/>
+            <FreeReward ItemID="943" Number="2"/>
+            <EliteReward ItemID="15018" Number="10"/>
+            <EliteReward ItemID="20816" Number="20"/>
+            <EliteReward ItemID="943" Number="2"/>
+        </Level>
+        <Level ID="13" ExpRequired="1000">
+            <FreeReward ItemID="600" Number="3"/>
+            <FreeReward ItemID="20816" Number="5"/>
+            <FreeReward ItemID="943" Number="2"/>
+            <EliteReward ItemID="20537" Number="1"/>
+            <EliteReward ItemID="20816" Number="20"/>
+            <EliteReward ItemID="943" Number="2"/>
+        </Level>
+        <Level ID="14" ExpRequired="1000">
+            <FreeReward ItemID="590" Number="2"/>
+            <FreeReward ItemID="20816" Number="5"/>
+            <FreeReward ItemID="943" Number="2"/>
+            <EliteReward ItemID="1026" Number="5"/>
+            <EliteReward ItemID="20816" Number="20"/>
+            <EliteReward ItemID="943" Number="2"/>
+        </Level>
+        <Level ID="15" ExpRequired="1000">
+            <FreeReward ItemID="20379" Number="20"/>
+            <FreeReward ItemID="20816" Number="50"/>
+            <FreeReward ItemID="943" Number="2"/>
+            <EliteReward ItemID="20529" Number="50"/>
+            <EliteReward ItemID="20816" Number="100"/>
+            <EliteReward ItemID="943" Number="2"/>
+        </Level>
+        <Level ID="16" ExpRequired="1000">
+            <FreeReward ItemID="1026" Number="3"/>
+            <FreeReward ItemID="20816" Number="10"/>
+            <FreeReward ItemID="943" Number="2"/>
+            <EliteReward ItemID="1057" Number="5"/>
+            <EliteReward ItemID="20816" Number="20"/>
+            <EliteReward ItemID="943" Number="2"/>
+        </Level>
+        <Level ID="17" ExpRequired="1000">
+            <FreeReward ItemID="190" Number="1"/>
+            <FreeReward ItemID="20816" Number="10"/>
+            <FreeReward ItemID="943" Number="2"/>
+            <EliteReward ItemID="506" Number="300"/>
+            <EliteReward ItemID="20816" Number="20"/>
+            <EliteReward ItemID="943" Number="2"/>
+        </Level>
+        <Level ID="18" ExpRequired="1000">
+            <FreeReward ItemID="1074" Number="10"/>
+            <FreeReward ItemID="20816" Number="10"/>
+            <FreeReward ItemID="943" Number="2"/>
+            <EliteReward ItemID="20344" Number="20"/>
+            <EliteReward ItemID="20816" Number="20"/>
+            <EliteReward ItemID="943" Number="2"/>
+        </Level>
+        <Level ID="19" ExpRequired="1000">
+            <FreeReward ItemID="20537" Number="1"/>
+            <FreeReward ItemID="20816" Number="10"/>
+            <FreeReward ItemID="943" Number="2"/>
+            <EliteReward ItemID="25270" Number="500"/>
+            <EliteReward ItemID="20816" Number="20"/>
+            <EliteReward ItemID="943" Number="2"/>
+        </Level>
+        <Level ID="20" ExpRequired="1000">
+            <FreeReward ItemID="20379" Number="20"/>
+            <FreeReward ItemID="20816" Number="50"/>
+            <FreeReward ItemID="943" Number="2"/>
+            <EliteReward ItemID="25236" Number="1"/>
+            <EliteReward ItemID="20816" Number="100"/>
+            <EliteReward ItemID="943" Number="2"/>
+        </Level>
+        <Level ID="21" ExpRequired="1000">
+            <FreeReward ItemID="15000" Number="30"/>
+            <FreeReward ItemID="20816" Number="10"/>
+            <FreeReward ItemID="943" Number="2"/>
+            <EliteReward ItemID="1074" Number="50"/>
+            <EliteReward ItemID="20816" Number="20"/>
+            <EliteReward ItemID="943" Number="2"/>
+        </Level>
+        <Level ID="22" ExpRequired="1000">
+            <FreeReward ItemID="190" Number="1"/>
+            <FreeReward ItemID="20816" Number="10"/>
+            <FreeReward ItemID="943" Number="2"/>
+            <EliteReward ItemID="15018" Number="30"/>
+            <EliteReward ItemID="20816" Number="20"/>
+            <EliteReward ItemID="943" Number="2"/>
+        </Level>
+        <Level ID="23" ExpRequired="1000">
+            <FreeReward ItemID="1074" Number="20"/>
+            <FreeReward ItemID="20816" Number="10"/>
+            <FreeReward ItemID="943" Number="2"/>
+            <EliteReward ItemID="20537" Number="2"/>
+            <EliteReward ItemID="20816" Number="20"/>
+            <EliteReward ItemID="943" Number="2"/>
+        </Level>
+        <Level ID="24" ExpRequired="1000">
+            <FreeReward ItemID="590" Number="2"/>
+            <FreeReward ItemID="20816" Number="10"/>
+            <FreeReward ItemID="943" Number="2"/>
+            <EliteReward ItemID="1026" Number="10"/>
+            <EliteReward ItemID="20816" Number="20"/>
+            <EliteReward ItemID="943" Number="2"/>
+        </Level>
+        <Level ID="25" ExpRequired="1000">
+            <FreeReward ItemID="20345" Number="20"/>
+            <FreeReward ItemID="20816" Number="50"/>
+            <FreeReward ItemID="943" Number="2"/>
+            <EliteReward ItemID="20529" Number="100"/>
+            <EliteReward ItemID="20816" Number="100"/>
+            <EliteReward ItemID="943" Number="2"/>
+        </Level>
+        <Level ID="26" ExpRequired="1000">
+            <FreeReward ItemID="1026" Number="3"/>
+            <FreeReward ItemID="20816" Number="15"/>
+            <FreeReward ItemID="943" Number="2"/>
+            <EliteReward ItemID="1057" Number="10"/>
+            <EliteReward ItemID="20816" Number="20"/>
+            <EliteReward ItemID="943" Number="2"/>
+        </Level>
+        <Level ID="27" ExpRequired="1000">
+            <FreeReward ItemID="190" Number="1"/>
+            <FreeReward ItemID="20816" Number="15"/>
+            <FreeReward ItemID="943" Number="2"/>
+            <EliteReward ItemID="506" Number="300"/>
+            <EliteReward ItemID="20816" Number="20"/>
+            <EliteReward ItemID="943" Number="2"/>
+        </Level>
+        <Level ID="28" ExpRequired="1000">
+            <FreeReward ItemID="1074" Number="20"/>
+            <FreeReward ItemID="20816" Number="15"/>
+            <FreeReward ItemID="943" Number="2"/>
+            <EliteReward ItemID="20344" Number="50"/>
+            <EliteReward ItemID="20816" Number="20"/>
+            <EliteReward ItemID="943" Number="2"/>
+        </Level>
+        <Level ID="29" ExpRequired="1000">
+            <FreeReward ItemID="20537" Number="1"/>
+            <FreeReward ItemID="20816" Number="15"/>
+            <FreeReward ItemID="943" Number="2"/>
+            <EliteReward ItemID="25270" Number="500"/>
+            <EliteReward ItemID="20816" Number="20"/>
+            <EliteReward ItemID="943" Number="2"/>
+        </Level>
+        <Level ID="30" ExpRequired="1000">
+            <FreeReward ItemID="14202" Number="1"/>
+            <FreeReward ItemID="20816" Number="100"/>
+            <FreeReward ItemID="943" Number="2"/>
+            <EliteReward ItemID="14203" Number="1"/>
+            <EliteReward ItemID="20816" Number="200"/>
+            <EliteReward ItemID="943" Number="2"/>
+        </Level>
+        <Level ID="31" ExpRequired="1000">
+            <FreeReward ItemID="15000" Number="30"/>
+            <FreeReward ItemID="20816" Number="15"/>
+            <FreeReward ItemID="943" Number="2"/>
+            <EliteReward ItemID="1074" Number="50"/>
+            <EliteReward ItemID="20816" Number="30"/>
+            <EliteReward ItemID="943" Number="2"/>
+        </Level>
+        <Level ID="32" ExpRequired="1000">
+            <FreeReward ItemID="191" Number="1"/>
+            <FreeReward ItemID="20816" Number="15"/>
+            <FreeReward ItemID="943" Number="2"/>
+            <EliteReward ItemID="15018" Number="30"/>
+            <EliteReward ItemID="20816" Number="30"/>
+            <EliteReward ItemID="943" Number="2"/>
+        </Level>
+        <Level ID="33" ExpRequired="1000">
+            <FreeReward ItemID="1074" Number="30"/>
+            <FreeReward ItemID="20816" Number="15"/>
+            <FreeReward ItemID="943" Number="2"/>
+            <EliteReward ItemID="20537" Number="2"/>
+            <EliteReward ItemID="20816" Number="30"/>
+            <EliteReward ItemID="943" Number="2"/>
+        </Level>
+        <Level ID="34" ExpRequired="1000">
+            <FreeReward ItemID="15018" Number="10"/>
+            <FreeReward ItemID="20816" Number="15"/>
+            <FreeReward ItemID="943" Number="2"/>
+            <EliteReward ItemID="1026" Number="10"/>
+            <EliteReward ItemID="20816" Number="30"/>
+            <EliteReward ItemID="943" Number="2"/>
+        </Level>
+        <Level ID="35" ExpRequired="1000">
+            <FreeReward ItemID="20344" Number="50"/>
+            <FreeReward ItemID="20816" Number="100"/>
+            <FreeReward ItemID="943" Number="2"/>
+            <EliteReward ItemID="191" Number="2"/>
+            <EliteReward ItemID="20816" Number="200"/>
+            <EliteReward ItemID="943" Number="2"/>
+        </Level>
+        <Level ID="36" ExpRequired="1000">
+            <FreeReward ItemID="1026" Number="5"/>
+            <FreeReward ItemID="20816" Number="20"/>
+            <FreeReward ItemID="943" Number="2"/>
+            <EliteReward ItemID="1057" Number="10"/>
+            <EliteReward ItemID="20816" Number="30"/>
+            <EliteReward ItemID="943" Number="2"/>
+        </Level>
+        <Level ID="37" ExpRequired="1000">
+            <FreeReward ItemID="191" Number="1"/>
+            <FreeReward ItemID="20816" Number="20"/>
+            <FreeReward ItemID="943" Number="2"/>
+            <EliteReward ItemID="506" Number="300"/>
+            <EliteReward ItemID="20816" Number="30"/>
+            <EliteReward ItemID="943" Number="2"/>
+        </Level>
+        <Level ID="38" ExpRequired="1000">
+            <FreeReward ItemID="1074" Number="30"/>
+            <FreeReward ItemID="20816" Number="20"/>
+            <FreeReward ItemID="943" Number="2"/>
+            <EliteReward ItemID="20344" Number="50"/>
+            <EliteReward ItemID="20816" Number="30"/>
+            <EliteReward ItemID="943" Number="2"/>
+        </Level>
+        <Level ID="39" ExpRequired="1000">
+            <FreeReward ItemID="20537" Number="2"/>
+            <FreeReward ItemID="20816" Number="20"/>
+            <FreeReward ItemID="943" Number="2"/>
+            <EliteReward ItemID="25270" Number="1000"/>
+            <EliteReward ItemID="20816" Number="30"/>
+            <EliteReward ItemID="943" Number="2"/>
+        </Level>
+        <Level ID="40" ExpRequired="1000">
+            <FreeReward ItemID="14212" Number="1"/>
+            <FreeReward ItemID="20816" Number="100"/>
+            <FreeReward ItemID="943" Number="2"/>
+            <EliteReward ItemID="14213" Number="1"/>
+            <EliteReward ItemID="20816" Number="200"/>
+            <EliteReward ItemID="943" Number="2"/>
+        </Level>
+        <Level ID="41" ExpRequired="1000">
+            <FreeReward ItemID="15000" Number="30"/>
+            <FreeReward ItemID="20816" Number="20"/>
+            <FreeReward ItemID="943" Number="2"/>
+            <EliteReward ItemID="1074" Number="100"/>
+            <EliteReward ItemID="20816" Number="40"/>
+            <EliteReward ItemID="943" Number="2"/>
+        </Level>
+        <Level ID="42" ExpRequired="1000">
+            <FreeReward ItemID="191" Number="1"/>
+            <FreeReward ItemID="20816" Number="20"/>
+            <FreeReward ItemID="943" Number="2"/>
+            <EliteReward ItemID="15018" Number="30"/>
+            <EliteReward ItemID="20816" Number="40"/>
+            <EliteReward ItemID="943" Number="2"/>
+        </Level>
+        <Level ID="43" ExpRequired="1000">
+            <FreeReward ItemID="1074" Number="30"/>
+            <FreeReward ItemID="20816" Number="20"/>
+            <FreeReward ItemID="943" Number="2"/>
+            <EliteReward ItemID="20537" Number="2"/>
+            <EliteReward ItemID="20816" Number="40"/>
+            <EliteReward ItemID="943" Number="2"/>
+        </Level>
+        <Level ID="44" ExpRequired="1000">
+            <FreeReward ItemID="15018" Number="10"/>
+            <FreeReward ItemID="20816" Number="20"/>
+            <FreeReward ItemID="943" Number="2"/>
+            <EliteReward ItemID="1026" Number="10"/>
+            <EliteReward ItemID="20816" Number="40"/>
+            <EliteReward ItemID="943" Number="2"/>
+        </Level>
+        <Level ID="45" ExpRequired="1000">
+            <FreeReward ItemID="20555" Number="1"/>
+            <FreeReward ItemID="20816" Number="100"/>
+            <FreeReward ItemID="943" Number="2"/>
+            <EliteReward ItemID="20370" Number="1"/>
+            <EliteReward ItemID="20816" Number="300"/>
+            <EliteReward ItemID="943" Number="2"/>
+        </Level>
+        <Level ID="46" ExpRequired="1000">
+            <FreeReward ItemID="1026" Number="5"/>
+            <FreeReward ItemID="20816" Number="25"/>
+            <FreeReward ItemID="943" Number="2"/>
+            <EliteReward ItemID="1057" Number="10"/>
+            <EliteReward ItemID="20816" Number="40"/>
+            <EliteReward ItemID="943" Number="2"/>
+        </Level>
+        <Level ID="47" ExpRequired="1000">
+            <FreeReward ItemID="191" Number="1"/>
+            <FreeReward ItemID="20816" Number="25"/>
+            <FreeReward ItemID="943" Number="2"/>
+            <EliteReward ItemID="506" Number="500"/>
+            <EliteReward ItemID="20816" Number="40"/>
+            <EliteReward ItemID="943" Number="2"/>
+        </Level>
+        <Level ID="48" ExpRequired="1000">
+            <FreeReward ItemID="1074" Number="30"/>
+            <FreeReward ItemID="20816" Number="25"/>
+            <FreeReward ItemID="943" Number="2"/>
+            <EliteReward ItemID="20344" Number="50"/>
+            <EliteReward ItemID="20816" Number="40"/>
+            <EliteReward ItemID="943" Number="2"/>
+        </Level>
+        <Level ID="49" ExpRequired="1000">
+            <FreeReward ItemID="20537" Number="2"/>
+            <FreeReward ItemID="20816" Number="25"/>
+            <FreeReward ItemID="943" Number="2"/>
+            <EliteReward ItemID="25270" Number="1000"/>
+            <EliteReward ItemID="20816" Number="40"/>
+            <EliteReward ItemID="943" Number="2"/>
+        </Level>
+        <Level ID="50" ExpRequired="1000">
+            <FreeReward ItemID="25270" Number="700"/>
+            <FreeReward ItemID="20816" Number="150"/>
+            <FreeReward ItemID="943" Number="2"/>
+            <EliteReward ItemID="20571" Number="1"/>
+            <EliteReward ItemID="20816" Number="300"/>
+            <EliteReward ItemID="943" Number="2"/>
+        </Level>
+        <Level ID="51" ExpRequired="1000">
+            <FreeReward ItemID="15000" Number="50"/>
+            <FreeReward ItemID="20816" Number="25"/>
+            <FreeReward ItemID="943" Number="2"/>
+            <EliteReward ItemID="1074" Number="100"/>
+            <EliteReward ItemID="20816" Number="50"/>
+            <EliteReward ItemID="943" Number="2"/>
+        </Level>
+        <Level ID="52" ExpRequired="1000">
+            <FreeReward ItemID="191" Number="1"/>
+            <FreeReward ItemID="20816" Number="25"/>
+            <FreeReward ItemID="943" Number="2"/>
+            <EliteReward ItemID="15018" Number="50"/>
+            <EliteReward ItemID="20816" Number="50"/>
+            <EliteReward ItemID="943" Number="2"/>
+        </Level>
+        <Level ID="53" ExpRequired="1000">
+            <FreeReward ItemID="1074" Number="50"/>
+            <FreeReward ItemID="20816" Number="25"/>
+            <FreeReward ItemID="943" Number="2"/>
+            <EliteReward ItemID="20537" Number="4"/>
+            <EliteReward ItemID="20816" Number="50"/>
+            <EliteReward ItemID="943" Number="2"/>
+        </Level>
+        <Level ID="54" ExpRequired="1000">
+            <FreeReward ItemID="15018" Number="20"/>
+            <FreeReward ItemID="20816" Number="25"/>
+            <FreeReward ItemID="943" Number="2"/>
+            <EliteReward ItemID="1026" Number="10"/>
+            <EliteReward ItemID="20816" Number="50"/>
+            <EliteReward ItemID="943" Number="2"/>
+        </Level>
+        <Level ID="55" ExpRequired="1000">
+            <FreeReward ItemID="506" Number="500"/>
+            <FreeReward ItemID="20816" Number="150"/>
+            <FreeReward ItemID="943" Number="2"/>
+            <EliteReward ItemID="20371" Number="1"/>
+            <EliteReward ItemID="20816" Number="500"/>
+            <EliteReward ItemID="943" Number="2"/>
+        </Level>
+        <Level ID="56" ExpRequired="1000">
+            <FreeReward ItemID="20529" Number="50"/>
+            <FreeReward ItemID="20816" Number="25"/>
+            <FreeReward ItemID="943" Number="2"/>
+            <EliteReward ItemID="1057" Number="10"/>
+            <EliteReward ItemID="20816" Number="50"/>
+            <EliteReward ItemID="943" Number="2"/>
+        </Level>
+        <Level ID="57" ExpRequired="1000">
+            <FreeReward ItemID="1026" Number="5"/>
+            <FreeReward ItemID="20816" Number="25"/>
+            <FreeReward ItemID="943" Number="2"/>
+            <EliteReward ItemID="506" Number="500"/>
+            <EliteReward ItemID="20816" Number="50"/>
+            <EliteReward ItemID="943" Number="2"/>
+        </Level>
+        <Level ID="58" ExpRequired="1000">
+            <FreeReward ItemID="1074" Number="50"/>
+            <FreeReward ItemID="20816" Number="25"/>
+            <FreeReward ItemID="943" Number="2"/>
+            <EliteReward ItemID="20344" Number="100"/>
+            <EliteReward ItemID="20816" Number="50"/>
+            <EliteReward ItemID="943" Number="2"/>
+        </Level>
+        <Level ID="59" ExpRequired="1000">
+            <FreeReward ItemID="20537" Number="2"/>
+            <FreeReward ItemID="20816" Number="25"/>
+            <FreeReward ItemID="943" Number="2"/>
+            <EliteReward ItemID="25270" Number="2000"/>
+            <EliteReward ItemID="20816" Number="50"/>
+            <EliteReward ItemID="943" Number="2"/>
+        </Level>
+        <Level ID="60" ExpRequired="1000">
+            <FreeReward ItemID="2017" Number="1"/>
+            <FreeReward ItemID="20816" Number="150"/>
+            <FreeReward ItemID="943" Number="2"/>
+            <EliteReward ItemID="20124" Number="1"/>
+            <EliteReward ItemID="20816" Number="500"/>
+            <EliteReward ItemID="943" Number="2"/>
+        </Level>
+    </Levels>
+    <Tasks>
+        <Task ID="101" Name="Đăng nhập vào game" IndexRepeat="0" Type="0" NumberItem="1" Exp="50" EventType="10001" Param="-1"/>
+        <Task ID="102" Name="Hoàn thành 01 lần Chúc Phúc" IndexRepeat="0" Type="0" NumberItem="1" Exp="50" EventType="10004" Param="-1"/>
+        <Task ID="103" Name="Mở 20 túi phúc" IndexRepeat="0" Type="1" NumberItem="20" Exp="50" EventType="10002" Param="337"/>
+        <Task ID="104" Name="Tiêu diệt 05 Tinh anh hoặc Thủ lĩnh" IndexRepeat="0" Type="1" NumberItem="5" Exp="50" EventType="11" Param="1:2"/>
+        <Task ID="105" Name="Sử dụng 01 Trứng Du Long" IndexRepeat="0" Type="0" NumberItem="1" Exp="150" EventType="10002" Param="1031"/>
+        <Task ID="106" Name="Nhận 150 tinh lực - hoạt lực" IndexRepeat="0" Type="1" NumberItem="150" Exp="150" EventType="10012" Param="-1"/>
+        <Task ID="107" Name="Tổ đội tiêu diệt 01 boss Võ Lâm Cao Thủ" IndexRepeat="0" Type="0" NumberItem="1" Exp="50" EventType="11" Param="3"/>
+        <Task ID="108" Name="Hoàn thành 06 nhiệm vụ Truy nã Hải Tặc" IndexRepeat="0" Type="1" NumberItem="6" Exp="50" EventType="10003" Param="4"/>
+        <Task ID="109" Name="Hoàn thành 10 nhiệm vụ Bao Vạn Đồng" IndexRepeat="0" Type="1" NumberItem="10" Exp="50" EventType="10003" Param="2"/>
+        <Task ID="110" Name="Hoàn thành 50 nhiệm vụ Bao Vạn Đồng" IndexRepeat="0" Type="1" NumberItem="50" Exp="100" EventType="10003" Param="2"/>
+        <Task ID="111" Name="Tham gia 01 trận Bạch Hổ Đường" IndexRepeat="0" Type="0" NumberItem="1" Exp="50" EventType="10008" Param="0"/>
+        <Task ID="112" Name="Tham gia 01 lần chiến trường Tống Kim" IndexRepeat="0" Type="0" NumberItem="1" Exp="50" EventType="10027" Param="0"/>
+        <Task ID="113" Name="Tham gia vượt ải Tiêu Đao Cốc 01 lần" IndexRepeat="0" Type="0" NumberItem="1" Exp="50" EventType="10007" Param="-1"/>
+        <Task ID="114" Name="Tham gia Vượt ải Gia Tộc 01 lần" IndexRepeat="0" Type="0" NumberItem="1" Exp="50" EventType="10017" Param="-1"/>
+        <Task ID="115" Name="Tham gia 01 lần bí cảnh tu luyện" IndexRepeat="0" Type="0" NumberItem="1" Exp="100" EventType="10010" Param="-1"/>
+        <Task ID="116" Name="Tham gia hoạt động Tần Lăng" IndexRepeat="0" Type="0" NumberItem="1" Exp="100" EventType="10034" Param="-1"/>
+        <Task ID="117" Name="Tham gia 01 trận Bạch Hổ Đường liên server" IndexRepeat="0" Type="0" NumberItem="1" Exp="100" EventType="10008" Param="1"/>
+        <Task ID="118" Name="Tham gia 01 lần chiến trường Tống Kim liên server" IndexRepeat="0" Type="0" NumberItem="1" Exp="100" EventType="10027" Param="1"/>
+        <Task ID="119" Name="Báo danh 01 lần Liên đấu Liên server" IndexRepeat="0" Type="0" NumberItem="1" Exp="100" EventType="10039" Param="1"/>
+        <Task ID="201" Name="Tham gia hoạt động Tranh Đoạt Lãnh Thổ" IndexRepeat="1" Type="0" NumberItem="1" Exp="100" EventType="10011" Param="-1"/>
+        <Task ID="202" Name="Tham gia 01 lần Thi Đấu Môn Phái" IndexRepeat="1" Type="0" NumberItem="1" Exp="100" EventType="10013" Param="-1"/>
+        <Task ID="203" Name="Đoán hoa đăng 01 lần" IndexRepeat="1" Type="0" NumberItem="1" Exp="100" EventType="10006" Param="-1"/>
+        <Task ID="204" Name="Sử dụng 50 Chiến Thư Du Long" IndexRepeat="1" Type="1" NumberItem="50" Exp="400" EventType="10002" Param="1026"/>
+        <Task ID="205" Name="Hoàn thành 20 lần Chúc Phúc" IndexRepeat="1" Type="1" NumberItem="20" Exp="400" EventType="10004" Param="-1"/>
+        <Task ID="206" Name="Hoàn thành 42 nhiệm vụ Truy nã Hải Tặc" IndexRepeat="1" Type="1" NumberItem="42" Exp="200" EventType="10003" Param="4"/>
+        <Task ID="207" Name="Hoàn thành 350 nhiệm vụ Bao Vạn Đồng" IndexRepeat="1" Type="1" NumberItem="350" Exp="200" EventType="10003" Param="2"/>
+        <Task ID="208" Name="Hoàn thành 20 nhiệm vụ thương hội" IndexRepeat="1" Type="1" NumberItem="20" Exp="200" EventType="10003" Param="3"/>
+        <Task ID="209" Name="Tổ đội tiêu diệt 20 boss Võ Lâm Cao Thủ" IndexRepeat="1" Type="1" NumberItem="20" Exp="200" EventType="11" Param="3"/>
+        <Task ID="210" Name="Tham gia 10 lần bí cảnh tu luyện" IndexRepeat="1" Type="1" NumberItem="10" Exp="400" EventType="10010" Param="-1"/>
+        <Task ID="301" Name="Hoàn thành tất cả Nhiệm vụ Tuần" IndexRepeat="2" Type="1" NumberItem="4" Exp="1000" EventType="10038" Param="-1"/>
+        <Task ID="302" Name="Hoàn thành 1400 nhiệm vụ Bao Vạn Đồng" IndexRepeat="2" Type="1" NumberItem="1400" Exp="2000" EventType="10003" Param="2"/>
+        <Task ID="303" Name="Sử dụng 300 Chiến Thư Du Long" IndexRepeat="2" Type="1" NumberItem="300" Exp="2000" EventType="10002" Param="1026"/>
+        <Task ID="304" Name="Tổ đội tiêu diệt 100 boss Võ Lâm Cao Thủ" IndexRepeat="2" Type="1" NumberItem="100" Exp="1000" EventType="11" Param="3"/>
+        <Task ID="305" Name="Hoàn thành 100 nhiệm vụ thương hội" IndexRepeat="2" Type="1" NumberItem="100" Exp="2000" EventType="10003" Param="3"/>
+        <Task ID="306" Name="Tích lũy điểm danh 28 ngày" IndexRepeat="2" Type="1" NumberItem="28" Exp="2000" EventType="10001" Param="-1"/>
+        <Task ID="307" Name="Sử dụng 40 sách kinh nghiệm đồng hành" IndexRepeat="2" Type="1" NumberItem="40" Exp="2000" EventType="10002" Param="1057"/>
+        <Task ID="308" Name="Sử dụng 40 bình Tinh - Hoạt khí tán (1000)" IndexRepeat="2" Type="1" NumberItem="40" Exp="1500" EventType="10002" Param="349:352"/>
+        <Task ID="309" Name="Sử dụng 40 bình Tinh - Hoạt khí tán (1500)" IndexRepeat="2" Type="1" NumberItem="40" Exp="2000" EventType="10002" Param="350:353"/>
+        <Task ID="310" Name="Quay 400 lượt Tân Niên Bí Bảo" IndexRepeat="2" Type="1" NumberItem="400" Exp="2000" EventType="10041" Param="-1"/>
+        <Task ID="311" Name="Quay bách bảo rương 100 lần" IndexRepeat="2" Type="1" NumberItem="100" Exp="2000" EventType="10037" Param="-1"/>
+    </Tasks>
+    <Bundles>
+        <Bundle ID="1" Title="Kiếm Vương Lệnh - Cao Cấp" Price="9.99" Currency="USD" MoneyBonus="1000" LevelGain="1">
+            <InstantReward ItemID="20909" Number="1"/>
+            <ExclusiveReward ItemID="20909" Number="1"/>
+            <ExclusiveReward ItemID="20124" Number="1"/>
+            <ExclusiveReward ItemID="20371" Number="1"/>
+            <ExclusiveReward ItemID="14213" Number="1"/>
+            <ExclusiveReward ItemID="14203" Number="1"/>
+            <ExclusiveReward ItemID="25236" Number="1"/>
+            <ExclusiveReward ItemID="20529" Number="1"/>
+            <ExclusiveReward ItemID="3" Number="1000"/>
+        </Bundle>
+        <Bundle ID="2" Title="Kiếm Vương Lệnh - Siêu Cấp" Price="19.99" Currency="USD" MoneyBonus="2000" LevelGain="20">
+            <InstantReward ItemID="20910" Number="1"/>
+            <InstantReward ItemID="20571" Number="1"/>
+            <InstantReward ItemID="20906" Number="1"/>
+            <ExclusiveReward ItemID="20910" Number="1"/>
+            <ExclusiveReward ItemID="20124" Number="1"/>
+            <ExclusiveReward ItemID="20371" Number="1"/>
+            <ExclusiveReward ItemID="14213" Number="1"/>
+            <ExclusiveReward ItemID="14203" Number="1"/>
+            <ExclusiveReward ItemID="25236" Number="1"/>
+            <ExclusiveReward ItemID="20529" Number="1"/>
+            <ExclusiveReward ItemID="3" Number="1000"/>
+            <BundleExclusiveReward ItemID="20571" Number="1"/>
+            <BundleExclusiveReward ItemID="20906" Number="1"/>
+            <BundleExclusiveReward ItemID="3" Number="1000"/>
+        </Bundle>
+    </Bundles>
+    <BonusChest ExpRequired="1000">
+        <Reward ItemID="20816" Number="10"/>
+        <Reward ItemID="506" Number="20"/>
+        <RewardElite ItemID="20816" Number="20"/>
+        <RewardElite ItemID="506" Number="30"/>
+    </BonusChest>
+</BattlePass>

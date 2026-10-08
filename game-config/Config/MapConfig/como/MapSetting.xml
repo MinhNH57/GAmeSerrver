@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<MapSetting xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <RateConfig DropRate="100" ExpRate="100" MoneyRate="100" />
+  <Base IsCopyScene="false" FreePK="false" AllowPK="false" AllowStall="true" AllowTrade="true" PKAllSubStamina="0" SitHealHP="10" SitHealMP="10" SitHealStamina="100" />
+  <PK SubPKValueTick="-1" ForceChangePKStatusTo="-1" AllowChangePKStatus="true" AllowFightTarget="false" />
+  <Challenge AllowChallenge="false" />
+  <Skill AllowUseSkill="true" AllowUseOffensiveSkill="false" BanSkills="" />
+  <Team AllowTeam="true" AllowCreateTeam="true" AllowInviteToTeam="true" AllowKickFromTeam="true" AllowLeaveTeam="true" AllowJoinTeam="true" AllowChangeTeamLeader="true" />
+  <Item AllowUseItem="true" BanItems="" />
+  <Revive AllowReviveAtPos="false" AllowUseReviveMedicine="false" />
+</MapSetting>

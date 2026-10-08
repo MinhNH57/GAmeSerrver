@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TokenShop xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <!-- Tiệm Đồng -->
+    <Token>
+        <!-- Khuyến mãi -->
+        <Shop ID="203"/>
+        <!-- Gói ưu đãi ngày -->
+        <!-- <Shop ID="227" /> -->
+        <!-- gói ưu đãi tuần -->
+        <Shop ID="1463"/>
+        <Shop ID="1464"/>
+        <Shop ID="1466"/>
+
+        <Shop ID="1465"/>
+        <!-- <Shop ID="1466"/> -->
+        <Shop ID="1467"/>
+        <!-- huyền tinh -->
+        <Shop ID="212"/>
+        <!-- <Shop ID="228" /> -->
+        <Shop ID="1450"/>
+        <!-- thường dùng -->
+        <Shop ID="211"/>
+        <!-- thường dùng sale 80% s15 -->
+        <Shop ID="1451"/>
+        <!-- đạo cụ -->
+        <Shop ID="213"/>
+        <!-- đạo cụ sale 80% s15 -->
+        <Shop ID="1452"/>
+    </Token>
+    <!-- End -->
+
+    <!-- Tiệm Đồng Khóa -->
+    <BoundToken>
+        <!-- Khuyến mãi -->
+        <Shop ID="207"/>
+        <!-- Huyền tinh -->
+        <Shop ID="214"/>
+        <!-- huyền tinh sale 80% s15 -->
+        <Shop ID="1453"/>
+        <!-- thường dùng -->
+        <Shop ID="215"/>
+        <!-- thường dùng sale 80% s15 -->
+        <Shop ID="1454"/>
+    </BoundToken>
+    <!-- End -->
+
+    <!-- Store-Product -->
+    <StoreProduct>
+        <Product ID="com.kv1.mobi.pack1" Token="200" Name="200 KNB"
+                 Hint="" Icon="icon_goi_1" FirstBonus="200" Price="25000"
+                 Recommend="false"/>
+        <Product ID="com.kv1.mobi.pack2" Token="500" Name="500 KNB"
+                 Hint="" Icon="icon_goi_2" FirstBonus="500" Price="79000"
+                 Recommend="true"/>
+        <Product ID="com.kv1.mobi.pack3" Token="1000" Name="1000 KNB"
+                 Hint="" Icon="icon_goi_3" FirstBonus="1000"
+                 Price="129000" Recommend="false"/>
+        <Product ID="com.kv1.mobi.pack4" Token="2000" Name="2000 KNB"
+                 Hint="" Icon="icon_goi_4" FirstBonus="2000"
+                 Price="259000" Recommend="true"/>
+        <Product ID="com.kv1.mobi.pack5" Token="5000" Name="5000 KNB"
+                 Hint="" Icon="icon_goi_5" FirstBonus="5000"
+                 Price="659000" Recommend="false"/>
+        <Product ID="com.kv1.mobi.pack6" Token="10000" Name="10000 KNB"
+                 Hint="" Icon="icon_goi_6" FirstBonus="10000"
+                 Price="1309000" Recommend="true"/>
+    </StoreProduct>
+    <!-- End -->
+</TokenShop>

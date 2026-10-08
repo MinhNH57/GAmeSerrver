@@ -1,0 +1,12 @@
+{
+    "RandomBoxes": [
+        {
+            "ItemID": 20936,
+            "Name": "[Đặc biệt] Bánh Chưng",
+            "Icon": "tet2023_banhchung",
+            "Intro": "Bên trong chứ nhiều vật phẩm giá trị. Ghép tại giao diện sự kiện Tết Nguyên Đán.",
+            "Stack": 10000,
+            "ItemValue": 200579
+        }
+    ]
+}

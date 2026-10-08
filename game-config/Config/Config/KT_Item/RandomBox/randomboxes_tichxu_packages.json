@@ -1,0 +1,1421 @@
+[
+    {
+        "IDBox": 200293,
+        "BoxName": "Phần thưởng Ưu đãi Nạp Đơn - 200 KNB",
+        "Items": [
+            {
+                "ItemID": 189,
+                "Rate": -1,
+                "Number": 2,
+                "Info": "2 x Huyền Tinh thường (cấp 7)",
+                "IsPreview": true
+            },
+            {
+                "ItemID": 11,
+                "Rate": -1,
+                "Number": 1000,
+                "Info": "1000 x Tinh hoạt lực",
+                "IsPreview": true
+            },
+            {
+                "ItemID": 1,
+                "Rate": -1,
+                "Number": 500000,
+                "Info": "500000 x Bạc khóa",
+                "IsPreview": true
+            },
+            {
+                "ItemID": 25270,
+                "Rate": -1,
+                "Number": 250,
+                "Info": "250 x Kinh Nghiệm Chân Nguyên",
+                "IsPreview": false
+            }
+        ],
+        "_comment": "S1-24"
+    },
+    {
+        "IDBox": 200294,
+        "BoxName": "Phần thưởng Ưu đãi Nạp Đơn - 500 KNB",
+        "Items": [
+            {
+                "ItemID": 190,
+                "Rate": -1,
+                "Number": 1,
+                "Info": "1 x Huyền Tinh có tì vết (cấp 8)",
+                "IsPreview": true
+            },
+            {
+                "ItemID": 11,
+                "Rate": -1,
+                "Number": 1500,
+                "Info": "1500 x Tinh hoạt lực",
+                "IsPreview": true
+            },
+            {
+                "ItemID": 20485,
+                "Rate": -1,
+                "Number": 5,
+                "Info": "5 x Rương danh vọng (trung cấp)",
+                "IsPreview": true
+            },
+            {
+                "ItemID": 25270,
+                "Rate": -1,
+                "Number": 600,
+                "Info": "600 x Kinh Nghiệm Chân Nguyên",
+                "IsPreview": false
+            }
+        ],
+        "_comment": "S1-24"
+    },
+    {
+        "IDBox": 200295,
+        "BoxName": "Phần thưởng Ưu đãi Nạp Đơn - 1000 KNB",
+        "Items": [
+            {
+                "ItemID": 190,
+                "Rate": -1,
+                "Number": 2,
+                "Info": "2 x Huyền Tinh có tì vết (cấp 8)",
+                "IsPreview": true
+            },
+            {
+                "ItemID": 11,
+                "Rate": -1,
+                "Number": 2500,
+                "Info": "2500 x Tinh hoạt lực",
+                "IsPreview": true
+            },
+            {
+                "ItemID": 1026,
+                "Rate": -1,
+                "Number": 10,
+                "Info": "10 x Chiến Thư-Mật Thất Du Long",
+                "IsPreview": true
+            },
+            {
+                "ItemID": 25270,
+                "Rate": -1,
+                "Number": 1200,
+                "Info": "1200 x Kinh Nghiệm Chân Nguyên",
+                "IsPreview": true
+            }
+        ],
+        "_comment": "S1-24"
+    },
+    {
+        "IDBox": 200296,
+        "BoxName": "Phần thưởng Ưu đãi Nạp Đơn - 2000 KNB",
+        "Items": [
+            {
+                "ItemID": 191,
+                "Rate": -1,
+                "Number": 1,
+                "Info": "1 x Huyền Tinh vô hạ (cấp 9)",
+                "IsPreview": true
+            },
+            {
+                "ItemID": 11,
+                "Rate": -1,
+                "Number": 4000,
+                "Info": "4000 x Tinh hoạt lực",
+                "IsPreview": true
+            },
+            {
+                "ItemID": 20529,
+                "Rate": -1,
+                "Number": 20,
+                "Info": "20 x Rương mảnh trang bị đồng hành (cao cấp)",
+                "IsPreview": true
+            },
+            {
+                "ItemID": 25270,
+                "Rate": -1,
+                "Number": 3000,
+                "Info": "3000 x Kinh Nghiệm Chân Nguyên",
+                "IsPreview": true
+            }
+        ],
+        "_comment": "S1-24"
+    },
+    {
+        "IDBox": 200297,
+        "BoxName": "Phần thưởng Ưu đãi Nạp Đơn - 5000 KNB",
+        "Items": [
+            {
+                "ItemID": 191,
+                "Rate": -1,
+                "Number": 2,
+                "Info": "2 x Huyền Tinh vô hạ (cấp 9)",
+                "IsPreview": true
+            },
+            {
+                "ItemID": 1026,
+                "Rate": -1,
+                "Number": 10,
+                "Info": "10 x Chiến Thư-Mật Thất Du Long",
+                "IsPreview": true
+            },
+            {
+                "ItemID": 20344,
+                "Rate": -1,
+                "Number": 50,
+                "Info": "50 x Cờ chiến công",
+                "IsPreview": true
+            },
+            {
+                "ItemID": 25270,
+                "Rate": -1,
+                "Number": 2500,
+                "Info": "2500 x Kinh Nghiệm Chân Nguyên",
+                "IsPreview": true
+            },
+            {
+                "ItemID": 14203,
+                "Number": 1,
+                "Rate": -1,
+                "Info": "1 x Bảo thạch phổ thông Cấp 3",
+                "IsPreview": false
+            },
+            {
+                "ItemID": 14213,
+                "Number": 1,
+                "Rate": -1,
+                "Info": "1 x Bảo thạch đặc thù Cấp 3",
+                "IsPreview": false
+            }
+        ],
+        "_comment": "S1-24"
+    },
+    {
+        "IDBox": 200298,
+        "BoxName": "Phần thưởng Ưu đãi Nạp Đơn - 10000 KNB",
+        "Items": [
+            {
+                "ItemID": 192,
+                "Rate": -1,
+                "Number": 1,
+                "Info": "1 x Huyền Tinh hoàn mỹ (cấp 10)",
+                "IsPreview": true
+            },
+            {
+                "ItemID": 14247,
+                "Rate": -1,
+                "Number": 1,
+                "Info": "1 x Bảo thạch hợp thành phù",
+                "IsPreview": true
+            },
+            {
+                "ItemID": 20345,
+                "Rate": -1,
+                "Number": 30,
+                "Info": "30 x Mảnh Lôi đình ấn",
+                "IsPreview": true
+            },
+            {
+                "ItemID": 20344,
+                "Rate": -1,
+                "Number": 100,
+                "Info": "100 x Cờ chiến công",
+                "IsPreview": true
+            },
+            {
+                "ItemID": 25270,
+                "Rate": -1,
+                "Number": 8000,
+                "Info": "8000 x Kinh Nghiệm Chân Nguyên",
+                "IsPreview": true
+            }
+        ],
+        "_comment": "S1-24"
+    },
+    {
+        "IDBox": 200437,
+        "BoxName": "Phần thưởng Ưu đãi Nạp Đơn - 20000 KNB",
+        "Items": [
+            {
+                "ItemID": 20291,
+                "Rate": -1,
+                "Number": 3,
+                "Info": "3 x Tinh hoạt lực (1 vạn)",
+                "IsPreview": true
+            },
+            {
+                "ItemID": 20345,
+                "Rate": -1,
+                "Number": 50,
+                "Info": "50 x Mảnh Lôi đình ấn",
+                "IsPreview": true
+            },
+            {
+                "ItemID": 20344,
+                "Rate": -1,
+                "Number": 150,
+                "Info": "150 x Cờ chiến công",
+                "IsPreview": true
+            },
+            {
+                "ItemID": 14247,
+                "Rate": -1,
+                "Number": 3,
+                "Info": "2 x Bảo thạch hợp thành phù",
+                "IsPreview": true
+            },
+            {
+                "ItemID": 25270,
+                "Rate": -1,
+                "Number": 15000,
+                "Info": "15000 x Kinh Nghiệm Chân Nguyên",
+                "IsPreview": true
+            },
+            {
+                "ItemID": 20529,
+                "Rate": -1,
+                "Number": 100,
+                "Info": "100 x Rương mảnh trang bị đồng hành (cao cấp)",
+                "IsPreview": true
+            }
+        ],
+        "_comment": "S1-24"
+    },
+    {
+        "IDBox": 200481,
+        "BoxName": "Phần thưởng Ưu đãi Nạp Đơn - 50000 KNB",
+        "Items": [
+            {
+                "ItemID": 20458,
+                "Rate": -1,
+                "Number": 1,
+                "Info": "1 x Phần thưởng Ưu đãi Nạp Đơn - 200KNB",
+                "IsPreview": true
+            },
+            {
+                "ItemID": 20459,
+                "Rate": -1,
+                "Number": 1,
+                "Info": "1 x Phần thưởng Ưu đãi Nạp Đơn - 500KNB",
+                "IsPreview": true
+            },
+            {
+                "ItemID": 20460,
+                "Rate": -1,
+                "Number": 1,
+                "Info": "1 x Phần thưởng Ưu đãi Nạp Đơn - 1000KNB",
+                "IsPreview": true
+            },
+            {
+                "ItemID": 20461,
+                "Rate": -1,
+                "Number": 1,
+                "Info": "1 x Phần thưởng Ưu đãi Nạp Đơn - 2000KNB",
+                "IsPreview": true
+            },
+            {
+                "ItemID": 20462,
+                "Rate": -1,
+                "Number": 1,
+                "Info": "1 x Phần thưởng Ưu đãi Nạp Đơn - 5000KNB",
+                "IsPreview": true
+            },
+            {
+                "ItemID": 20463,
+                "Rate": -1,
+                "Number": 1,
+                "Info": "1 x Phần thưởng Ưu đãi Nạp Đơn - 10000KNB",
+                "IsPreview": true
+            },
+            {
+                "ItemID": 20631,
+                "Rate": -1,
+                "Number": 1,
+                "Info": "1 x Phần thưởng Ưu đãi Nạp Đơn - 20000KNB",
+                "IsPreview": true
+            }
+        ],
+        "_comment": "Server ALL"
+    },
+    {
+        "IDBox": 100375,
+        "BoxName": "Phần thưởng Ưu đãi Nạp 5 Đơn - 200 KNB",
+        "Items": [
+            {
+                "ItemID": 11,
+                "Rate": -1,
+                "Number": 1500,
+                "Info": "1500 x Tinh hoạt lực"
+            },
+            {
+                "ItemID": 25270,
+                "Rate": -1,
+                "Number": 500,
+                "Info": "500 x Kinh Nghiệm Chân Nguyên"
+            }
+        ],
+        "_comment": "S1-24"
+    },
+    {
+        "IDBox": 100376,
+        "BoxName": "Phần thưởng Ưu đãi Nạp 5 Đơn - 500 KNB",
+        "Items": [
+            {
+                "ItemID": 25270,
+                "Rate": -1,
+                "Number": 600,
+                "Info": "600 x Kinh Nghiệm Chân Nguyên",
+                "IsPreview": false
+            },
+            {
+                "ItemID": 506,
+                "Rate": -1,
+                "Number": 600,
+                "Info": "600 x Ngũ Hành Hồn Thạch",
+                "IsPreview": false
+            },
+            {
+                "ItemID": 11,
+                "Rate": -1,
+                "Number": 2500,
+                "Info": "2500 x Tinh hoạt lực",
+                "IsPreview": false
+            }
+        ],
+        "_comment": "S1-24"
+    },
+    {
+        "IDBox": 100377,
+        "BoxName": "Phần thưởng Ưu đãi Nạp 5 Đơn - 1000 KNB",
+        "Items": [
+            {
+                "ItemID": 25270,
+                "Rate": -1,
+                "Number": 1000,
+                "Info": "1000 x Kinh Nghiệm Chân Nguyên",
+                "IsPreview": false
+            },
+            {
+                "ItemID": 11,
+                "Rate": -1,
+                "Number": 3000,
+                "Info": "3000 x Tinh hoạt lực",
+                "IsPreview": false
+            },
+            {
+                "ItemID": 1026,
+                "Rate": -1,
+                "Number": 20,
+                "Info": "20 x Chiến Thư-Mật Thất Du Long",
+                "IsPreview": false
+            }
+        ],
+        "_comment": "S1-24"
+    },
+    {
+        "IDBox": 100378,
+        "BoxName": "Phần thưởng Ưu đãi Nạp 5 Đơn - 2000 KNB",
+        "Items": [
+            {
+                "ItemID": 25270,
+                "Rate": -1,
+                "Number": 3000,
+                "Info": "3000 x Kinh Nghiệm Chân Nguyên",
+                "IsPreview": false
+            },
+            {
+                "ItemID": 11,
+                "Rate": -1,
+                "Number": 6000,
+                "Info": "6000 x Tinh hoạt lực",
+                "IsPreview": false
+            },
+            {
+                "ItemID": 20529,
+                "Rate": -1,
+                "Number": 300,
+                "Info": "300 x Rương mảnh trang bị đồng hành (cao cấp)",
+                "IsPreview": false
+            }
+        ],
+        "_comment": "S1-24"
+    },
+    {
+        "IDBox": 100379,
+        "BoxName": "Phần thưởng Ưu đãi Nạp 5 Đơn - 5000 KNB",
+        "Items": [
+            {
+                "ItemID": 25270,
+                "Rate": -1,
+                "Number": 5000,
+                "Info": "5000 x Kinh Nghiệm Chân Nguyên",
+                "IsPreview": false
+            },
+            {
+                "ItemID": 20344,
+                "Rate": -1,
+                "Number": 250,
+                "Info": "250 x Cờ chiến công",
+                "IsPreview": false
+            },
+            {
+                "ItemID": 20529,
+                "Rate": -1,
+                "Number": 400,
+                "Info": "400 x Rương trang bị đồng hành (Cao Cấp)",
+                "IsPreview": false
+            }
+        ],
+        "_comment": "S1-24"
+    },
+    {
+        "IDBox": 100380,
+        "BoxName": "Phần thưởng Ưu đãi Nạp 5 Đơn - 10000 KNB",
+        "Items": [
+            {
+                "ItemID": 20124,
+                "Rate": -1,
+                "Number": 1,
+                "Info": "1 x Rương trang bị đồng hành (Cao cấp)",
+                "IsPreview": false
+            }
+        ],
+        "_comment": "S1-24"
+    },
+    {
+        "IDBox": 100381,
+        "BoxName": "Phần thưởng Ưu đãi Nạp 5 Đơn - 20000 KNB",
+        "Items": [
+            {
+                "ItemID": 25305,
+                "Rate": -1,
+                "Number": 1,
+                "Info": "1 x Rương Chân nguyên lựa chọn (+120)",
+                "IsPreview": false
+            }
+        ],
+        "_comment": "S1-24"
+    },
+    {
+        "IDBox": 100382,
+        "BoxName": "Phần thưởng Ưu đãi Nạp 5 Đơn - 50000 KNB",
+        "Items": [
+            {
+                "ItemID": 25312,
+                "Rate": -1,
+                "Number": 1,
+                "Info": "1 x Rương Chân nguyên Anh Hùng [Sự Kiện]",
+                "IsPreview": false
+            }
+        ],
+        "_comment": "S1-24"
+    },
+    {
+        "IDBox": 200557,
+        "BoxName": "Phần thưởng Ưu đãi Nạp Đơn - 200 KNB",
+        "Items": [
+            {
+                "ItemID": 189,
+                "Rate": -1,
+                "Number": 1,
+                "Info": "1 x Huyền Tinh thường (cấp 7)",
+                "IsPreview": true
+            },
+            {
+                "ItemID": 11,
+                "Rate": -1,
+                "Number": 500,
+                "Info": "500 x Tinh hoạt lực",
+                "IsPreview": true
+            },
+            {
+                "ItemID": 1,
+                "Rate": -1,
+                "Number": 500000,
+                "Info": "500000 x Bạc khóa",
+                "IsPreview": true
+            }
+        ],
+        "_comment": "S25-999"
+    },
+    {
+        "IDBox": 200558,
+        "BoxName": "Phần thưởng Ưu đãi Nạp Đơn - 500 KNB",
+        "Items": [
+            {
+                "ItemID": 189,
+                "Rate": -1,
+                "Number": 2,
+                "Info": "2 x Huyền Tinh thường (cấp 7)",
+                "IsPreview": true
+            },
+            {
+                "ItemID": 11,
+                "Rate": -1,
+                "Number": 1000,
+                "Info": "1000 x Tinh hoạt lực",
+                "IsPreview": true
+            },
+            {
+                "ItemID": 1055,
+                "Rate": -1,
+                "Number": 3,
+                "Info": "3 x Thiệp bạc (cấp 2)",
+                "IsPreview": true
+            },
+            {
+                "ItemID": 1,
+                "Rate": -1,
+                "Number": 1000000,
+                "Info": "1000000 x Bạc khóa",
+                "IsPreview": true
+            }
+        ],
+        "_comment": "S25-999"
+    },
+    {
+        "IDBox": 200559,
+        "BoxName": "Phần thưởng Ưu đãi Nạp Đơn - 1000 KNB",
+        "Items": [
+            {
+                "ItemID": 190,
+                "Rate": -1,
+                "Number": 1,
+                "Info": "1 x Huyền Tinh có tì vết (cấp 8)",
+                "IsPreview": true
+            },
+            {
+                "ItemID": 11,
+                "Rate": -1,
+                "Number": 1000,
+                "Info": "1000 x Tinh hoạt lực",
+                "IsPreview": true
+            },
+            {
+                "ItemID": 1026,
+                "Rate": -1,
+                "Number": 3,
+                "Info": "3 x Chiến Thư-Mật Thất Du Long",
+                "IsPreview": true
+            },
+            {
+                "ItemID": 1,
+                "Rate": -1,
+                "Number": 1500000,
+                "Info": "1500000 x Bạc khóa",
+                "IsPreview": true
+            },
+            {
+                "ItemID": 20270,
+                "Rate": -1,
+                "Number": 1,
+                "Info": "1 x Thiệp vàng (cấp 3)",
+                "IsPreview": true
+            }
+        ],
+        "_comment": "S25-999"
+    },
+    {
+        "IDBox": 200560,
+        "BoxName": "Phần thưởng Ưu đãi Nạp Đơn - 2000 KNB",
+        "Items": [
+            {
+                "ItemID": 190,
+                "Rate": -1,
+                "Number": 2,
+                "Info": "2 x Huyền Tinh có tì vết (cấp 8)",
+                "IsPreview": true
+            },
+            {
+                "ItemID": 11,
+                "Rate": -1,
+                "Number": 2000,
+                "Info": "2000 x Tinh hoạt lực",
+                "IsPreview": true
+            },
+            {
+                "ItemID": 20270,
+                "Rate": -1,
+                "Number": 2,
+                "Info": "2 x Thiệp vàng (cấp 3)",
+                "IsPreview": true
+            },
+            {
+                "ItemID": 1026,
+                "Rate": -1,
+                "Number": 7,
+                "Info": "7 x Chiến Thư-Mật Thất Du Long",
+                "IsPreview": true
+            },
+            {
+                "ItemID": 1057,
+                "Rate": -1,
+                "Number": 10,
+                "Info": "10 x Sách kinh nghiệm đồng hành",
+                "IsPreview": true
+            }
+        ],
+        "_comment": "S25-999"
+    },
+    {
+        "IDBox": 200561,
+        "BoxName": "Phần thưởng Ưu đãi Nạp Đơn - 5000 KNB",
+        "Items": [
+            {
+                "ItemID": 191,
+                "Rate": -1,
+                "Number": 1,
+                "Info": "1 x Huyền Tinh vô hạ (cấp 9)",
+                "IsPreview": true
+            },
+            {
+                "ItemID": 506,
+                "Rate": -1,
+                "Number": 1000,
+                "Info": "1000 x Ngũ Hành Hồn Thạch",
+                "IsPreview": true
+            },
+            {
+                "ItemID": 20529,
+                "Rate": -1,
+                "Number": 20,
+                "Info": "20 x Rương mảnh trang bị đồng hành (cao cấp)",
+                "IsPreview": true
+            },
+            {
+                "ItemID": 25269,
+                "Rate": -1,
+                "Number": 2,
+                "Info": "2 x Thiệp Như Ý",
+                "IsPreview": true
+            },
+            {
+                "ItemID": 25270,
+                "Rate": -1,
+                "Number": 300,
+                "Info": "300 x Kinh Nghiệm Chân Nguyên",
+                "IsPreview": true
+            }
+        ],
+        "_comment": "S25-999"
+    },
+    {
+        "IDBox": 200562,
+        "BoxName": "Phần thưởng Ưu đãi Nạp Đơn - 10000 KNB",
+        "Items": [
+            {
+                "ItemID": 191,
+                "Rate": -1,
+                "Number": 2,
+                "Info": "2 x Huyền Tinh vô hạ (cấp 9)",
+                "IsPreview": true
+            },
+            {
+                "ItemID": 20529,
+                "Rate": -1,
+                "Number": 30,
+                "Info": "30 x Rương mảnh trang bị đồng hành (cao cấp)",
+                "IsPreview": true
+            },
+            {
+                "ItemID": 506,
+                "Rate": -1,
+                "Number": 2000,
+                "Info": "2000 x Ngũ Hành Hồn Thạch",
+                "IsPreview": true
+            },
+            {
+                "ItemID": 20344,
+                "Rate": -1,
+                "Number": 50,
+                "Info": "50 x Cờ chiến công",
+                "IsPreview": true
+            },
+            {
+                "ItemID": 25270,
+                "Rate": -1,
+                "Number": 300,
+                "Info": "300 x Kinh Nghiệm Chân Nguyên",
+                "IsPreview": true
+            }
+        ],
+        "_comment": "S25-999"
+    },
+    {
+        "IDBox": 200563,
+        "BoxName": "Phần thưởng Ưu đãi Nạp Đơn - 20000 KNB",
+        "Items": [
+            {
+                "ItemID": 20291,
+                "Rate": -1,
+                "Number": 2,
+                "Info": "2 x Tinh hoạt lực (1 vạn)",
+                "IsPreview": true
+            },
+            {
+                "ItemID": 20345,
+                "Rate": -1,
+                "Number": 20,
+                "Info": "20 x Mảnh Lôi đình ấn",
+                "IsPreview": true
+            },
+            {
+                "ItemID": 20344,
+                "Rate": -1,
+                "Number": 80,
+                "Info": "80 x Cờ chiến công",
+                "IsPreview": true
+            },
+            {
+                "ItemID": 819,
+                "Rate": -1,
+                "Number": 2,
+                "Info": "2 x Tần Lăng-Hòa Thị Bích",
+                "IsPreview": true
+            },
+            {
+                "ItemID": 25235,
+                "Rate": -1,
+                "Number": 1,
+                "Info": "1 x Rương Trang bị đồng hành Bích Huyết - Tự Chọn (Sơ Cấp)",
+                "IsPreview": true
+            }
+        ],
+        "_comment": "S25-999"
+    },
+    {
+        "IDBox": 100383,
+        "BoxName": "Phần thưởng Ưu đãi Nạp 5 Đơn - 200 KNB",
+        "Items": [
+            {
+                "ItemID": 11,
+                "Rate": -1,
+                "Number": 2000,
+                "Info": "2000 x Tinh hoạt lực"
+            },
+            {
+                "ItemID": 15018,
+                "Rate": -1,
+                "Number": 30,
+                "Info": "30 x Phiếu Bạc - 1 Vạn"
+            }
+        ],
+        "_comment": "S25-999"
+    },
+    {
+        "IDBox": 100384,
+        "BoxName": "Phần thưởng Ưu đãi Nạp 5 Đơn - 500 KNB",
+        "Items": [
+            {
+                "ItemID": 25270,
+                "Rate": -1,
+                "Number": 500,
+                "Info": "500 x Kinh Nghiệm Chân Nguyên"
+            },
+            {
+                "ItemID": 506,
+                "Rate": -1,
+                "Number": 500,
+                "Info": "500 x Ngũ Hành Hồn Thạch"
+            },
+            {
+                "ItemID": 11,
+                "Rate": -1,
+                "Number": 2000,
+                "Info": "2000 x Tinh hoạt lực"
+            }
+        ],
+        "_comment": "S25-999"
+    },
+    {
+        "IDBox": 100385,
+        "BoxName": "Phần thưởng Ưu đãi Nạp 5 Đơn - 1000 KNB",
+        "Items": [
+            {
+                "ItemID": 11,
+                "Rate": -1,
+                "Number": 2000,
+                "Info": "2000 x Tinh hoạt lực"
+            },
+            {
+                "ItemID": 1026,
+                "Rate": -1,
+                "Number": 10,
+                "Info": "10 x Chiến Thư-Mật Thất Du Long"
+            },
+            {
+                "ItemID": 15018,
+                "Rate": -1,
+                "Number": 50,
+                "Info": "50 x Phiếu Bạc - 1 Vạn"
+            }
+        ],
+        "_comment": "S25-999"
+    },
+    {
+        "IDBox": 100386,
+        "BoxName": "Phần thưởng Ưu đãi Nạp 5 Đơn - 2000 KNB",
+        "Items": [
+            {
+                "ItemID": 11,
+                "Rate": -1,
+                "Number": 3000,
+                "Info": "3000 x Tinh hoạt lực"
+            },
+            {
+                "ItemID": 20406,
+                "Rate": -1,
+                "Number": 2,
+                "Info": "2 x Thiệp bạch kim (cấp 4)"
+            },
+            {
+                "ItemID": 1102,
+                "Rate": -1,
+                "Number": 30,
+                "Info": "30 x Bạch Ngân Tinh Hoa (Cấp 1)"
+            }
+        ],
+        "_comment": "S25-999"
+    },
+    {
+        "IDBox": 100387,
+        "BoxName": "Phần thưởng Ưu đãi Nạp 5 Đơn - 5000 KNB",
+        "Items": [
+            {
+                "ItemID": 25270,
+                "Rate": -1,
+                "Number": 5000,
+                "Info": "5000 x Kinh Nghiệm Chân Nguyên"
+            },
+            {
+                "ItemID": 506,
+                "Rate": -1,
+                "Number": 2000,
+                "Info": "2000 x Ngũ Hành Hồn Thạch"
+            },
+            {
+                "ItemID": 20529,
+                "Rate": -1,
+                "Number": 1000,
+                "Info": "1000 x Rương mảnh trang bị đồng hành (cao cấp)"
+            }
+        ],
+        "_comment": "S25-999"
+    },
+    {
+        "IDBox": 100388,
+        "BoxName": "Phần thưởng Ưu đãi Nạp 5 Đơn - 10000 KNB",
+        "Items": [
+            {
+                "ItemID": 506,
+                "Rate": -1,
+                "Number": 5000,
+                "Info": "5000 x Ngũ Hành Hồn Thạch"
+            },
+            {
+                "ItemID": 20344,
+                "Rate": -1,
+                "Number": 200,
+                "Info": "200 x Cờ chiến công"
+            },
+            {
+                "ItemID": 20345,
+                "Rate": -1,
+                "Number": 100,
+                "Info": "100 x Mảnh Lôi đình ấn"
+            }
+        ],
+        "_comment": "S25-999"
+    },
+    {
+        "IDBox": 100389,
+        "BoxName": "Phần thưởng Ưu đãi Nạp 5 Đơn - 20000 KNB",
+        "Items": [
+            {
+                "ItemID": 819,
+                "Rate": -1,
+                "Number": 3,
+                "Info": "3 x Tần Lăng-Hòa Thị Bích"
+            },
+            {
+                "ItemID": 20291,
+                "Rate": -1,
+                "Number": 3,
+                "Info": "3 x Tinh hoạt lực (1 vạn)"
+            },
+            {
+                "ItemID": 20124,
+                "Rate": -1,
+                "Number": 1,
+                "Info": "1 x Rương trang bị đồng hành Bích Huyết (cao cấp)"
+            }
+        ],
+        "_comment": "S25-999"
+    },
+    {
+        "IDBox": 100390,
+        "BoxName": "Phần thưởng Ưu đãi Nạp 5 Đơn - 50000 KNB",
+        "Items": [
+            {
+                "ItemID": 25305,
+                "Rate": -1,
+                "Number": 1,
+                "Info": "1 x Rương chân nguyên lựa chọn (+120)"
+            }
+        ],
+        "_comment": "S25-999"
+    },
+    {
+        "IDBox": 201557,
+        "BoxName": "Phần thưởng Ưu đãi Nạp Đơn - 200 KNB",
+        "Items": [
+            {
+                "ItemID": 189,
+                "Rate": -1,
+                "Number": 1,
+                "Info": "1 x Huyền Tinh thường (cấp 7)",
+                "IsPreview": true
+            },
+            {
+                "ItemID": 11,
+                "Rate": -1,
+                "Number": 500,
+                "Info": "500 x Tinh hoạt lực",
+                "IsPreview": true
+            },
+            {
+                "ItemID": 1,
+                "Rate": -1,
+                "Number": 500000,
+                "Info": "500000 x Bạc khóa",
+                "IsPreview": true
+            }
+        ],
+        "_comment": "Server New"
+    },
+    {
+        "IDBox": 201558,
+        "BoxName": "Phần thưởng Ưu đãi Nạp Đơn - 500 KNB",
+        "Items": [
+            {
+                "ItemID": 189,
+                "Rate": -1,
+                "Number": 2,
+                "Info": "2 x Huyền Tinh thường (cấp 7)",
+                "IsPreview": true
+            },
+            {
+                "ItemID": 11,
+                "Rate": -1,
+                "Number": 1000,
+                "Info": "1000 x Tinh hoạt lực",
+                "IsPreview": true
+            },
+            {
+                "ItemID": 1055,
+                "Rate": -1,
+                "Number": 3,
+                "Info": "3 x Thiệp bạc (cấp 2)",
+                "IsPreview": true
+            },
+            {
+                "ItemID": 1,
+                "Rate": -1,
+                "Number": 1000000,
+                "Info": "1000000 x Bạc khóa",
+                "IsPreview": true
+            }
+        ],
+        "_comment": "Server New"
+    },
+    {
+        "IDBox": 201559,
+        "BoxName": "Phần thưởng Ưu đãi Nạp Đơn - 1000 KNB",
+        "Items": [
+            {
+                "ItemID": 190,
+                "Rate": -1,
+                "Number": 1,
+                "Info": "1 x Huyền Tinh có tì vết (cấp 8)",
+                "IsPreview": true
+            },
+            {
+                "ItemID": 11,
+                "Rate": -1,
+                "Number": 1000,
+                "Info": "1000 x Tinh hoạt lực",
+                "IsPreview": true
+            },
+            {
+                "ItemID": 1026,
+                "Rate": -1,
+                "Number": 3,
+                "Info": "3 x Chiến Thư-Mật Thất Du Long",
+                "IsPreview": true
+            },
+            {
+                "ItemID": 1,
+                "Rate": -1,
+                "Number": 1500000,
+                "Info": "1500000 x Bạc khóa",
+                "IsPreview": true
+            },
+            {
+                "ItemID": 20270,
+                "Rate": -1,
+                "Number": 1,
+                "Info": "1 x Thiệp vàng (cấp 3)",
+                "IsPreview": true
+            }
+        ],
+        "_comment": "Server New"
+    },
+    {
+        "IDBox": 201560,
+        "BoxName": "Phần thưởng Ưu đãi Nạp Đơn - 2000 KNB",
+        "Items": [
+            {
+                "ItemID": 190,
+                "Rate": -1,
+                "Number": 2,
+                "Info": "2 x Huyền Tinh có tì vết (cấp 8)",
+                "IsPreview": true
+            },
+            {
+                "ItemID": 11,
+                "Rate": -1,
+                "Number": 2000,
+                "Info": "2000 x Tinh hoạt lực",
+                "IsPreview": true
+            },
+            {
+                "ItemID": 20270,
+                "Rate": -1,
+                "Number": 2,
+                "Info": "2 x Thiệp vàng (cấp 3)",
+                "IsPreview": true
+            },
+            {
+                "ItemID": 1026,
+                "Rate": -1,
+                "Number": 7,
+                "Info": "7 x Chiến Thư-Mật Thất Du Long",
+                "IsPreview": true
+            },
+            {
+                "ItemID": 1057,
+                "Rate": -1,
+                "Number": 10,
+                "Info": "10 x Sách kinh nghiệm đồng hành",
+                "IsPreview": true
+            }
+        ],
+        "_comment": "Server New"
+    },
+    {
+        "IDBox": 201561,
+        "BoxName": "Phần thưởng Ưu đãi Nạp Đơn - 5000 KNB",
+        "Items": [
+            {
+                "ItemID": 191,
+                "Rate": -1,
+                "Number": 1,
+                "Info": "1 x Huyền Tinh vô hạ (cấp 9)",
+                "IsPreview": true
+            },
+            {
+                "ItemID": 506,
+                "Rate": -1,
+                "Number": 1000,
+                "Info": "1000 x Ngũ Hành Hồn Thạch",
+                "IsPreview": true
+            },
+            {
+                "ItemID": 20529,
+                "Rate": -1,
+                "Number": 20,
+                "Info": "20 x Rương mảnh trang bị đồng hành (cao cấp)",
+                "IsPreview": true
+            },
+            {
+                "ItemID": 25269,
+                "Rate": -1,
+                "Number": 2,
+                "Info": "2 x Thiệp Như Ý",
+                "IsPreview": true
+            },
+            {
+                "ItemID": 25270,
+                "Rate": -1,
+                "Number": 300,
+                "Info": "300 x Kinh Nghiệm Chân Nguyên",
+                "IsPreview": true
+            }
+        ],
+        "_comment": "Server New"
+    },
+    {
+        "IDBox": 201562,
+        "BoxName": "Phần thưởng Ưu đãi Nạp Đơn - 10000 KNB",
+        "Items": [
+            {
+                "ItemID": 191,
+                "Rate": -1,
+                "Number": 2,
+                "Info": "2 x Huyền Tinh vô hạ (cấp 9)",
+                "IsPreview": true
+            },
+            {
+                "ItemID": 20529,
+                "Rate": -1,
+                "Number": 30,
+                "Info": "30 x Rương mảnh trang bị đồng hành (cao cấp)",
+                "IsPreview": true
+            },
+            {
+                "ItemID": 506,
+                "Rate": -1,
+                "Number": 2000,
+                "Info": "2000 x Ngũ Hành Hồn Thạch",
+                "IsPreview": true
+            },
+            {
+                "ItemID": 20344,
+                "Rate": -1,
+                "Number": 50,
+                "Info": "50 x Cờ chiến công",
+                "IsPreview": true
+            },
+            {
+                "ItemID": 25270,
+                "Rate": -1,
+                "Number": 300,
+                "Info": "300 x Kinh Nghiệm Chân Nguyên",
+                "IsPreview": true
+            }
+        ],
+        "_comment": "Server New"
+    },
+    {
+        "IDBox": 201563,
+        "BoxName": "Phần thưởng Ưu đãi Nạp Đơn - 20000 KNB",
+        "Items": [
+            {
+                "ItemID": 20291,
+                "Rate": -1,
+                "Number": 2,
+                "Info": "2 x Tinh hoạt lực (1 vạn)",
+                "IsPreview": true
+            },
+            {
+                "ItemID": 20345,
+                "Rate": -1,
+                "Number": 20,
+                "Info": "20 x Mảnh Lôi đình ấn",
+                "IsPreview": true
+            },
+            {
+                "ItemID": 20344,
+                "Rate": -1,
+                "Number": 80,
+                "Info": "80 x Cờ chiến công",
+                "IsPreview": true
+            },
+            {
+                "ItemID": 819,
+                "Rate": -1,
+                "Number": 1,
+                "Info": "1 x Tần Lăng-Hòa Thị Bích",
+                "IsPreview": true
+            },
+            {
+                "ItemID": 25235,
+                "Rate": -1,
+                "Number": 1,
+                "Info": "1 x Rương Trang bị đồng hành Bích Huyết - Tự Chọn (Sơ Cấp)",
+                "IsPreview": true
+            }
+        ],
+        "_comment": "Server New"
+    },
+    {
+        "IDBox": 101383,
+        "BoxName": "Phần thưởng Ưu đãi Nạp 5 Đơn - 200 KNB",
+        "Items": [
+            {
+                "ItemID": 11,
+                "Rate": -1,
+                "Number": 1500,
+                "Info": "1500 x Tinh hoạt lực"
+            },
+            {
+                "ItemID": 15018,
+                "Rate": -1,
+                "Number": 30,
+                "Info": "30 x Phiếu Bạc - 1 Vạn"
+            }
+        ],
+        "_comment": "Server New"
+    },
+    {
+        "IDBox": 101384,
+        "BoxName": "Phần thưởng Ưu đãi Nạp 5 Đơn - 500 KNB",
+        "Items": [
+            {
+                "ItemID": 25270,
+                "Rate": -1,
+                "Number": 500,
+                "Info": "500 x Kinh Nghiệm Chân Nguyên"
+            },
+            {
+                "ItemID": 506,
+                "Rate": -1,
+                "Number": 500,
+                "Info": "500 x Ngũ Hành Hồn Thạch"
+            },
+            {
+                "ItemID": 11,
+                "Rate": -1,
+                "Number": 1000,
+                "Info": "1000 x Tinh hoạt lực"
+            }
+        ],
+        "_comment": "Server New"
+    },
+    {
+        "IDBox": 101385,
+        "BoxName": "Phần thưởng Ưu đãi Nạp 5 Đơn - 1000 KNB",
+        "Items": [
+            {
+                "ItemID": 11,
+                "Rate": -1,
+                "Number": 2000,
+                "Info": "2000 x Tinh hoạt lực"
+            },
+            {
+                "ItemID": 1026,
+                "Rate": -1,
+                "Number": 10,
+                "Info": "10 x Chiến Thư-Mật Thất Du Long"
+            },
+            {
+                "ItemID": 15018,
+                "Rate": -1,
+                "Number": 50,
+                "Info": "50 x Phiếu Bạc - 1 Vạn"
+            }
+        ],
+        "_comment": "Server New"
+    },
+    {
+        "IDBox": 101386,
+        "BoxName": "Phần thưởng Ưu đãi Nạp 5 Đơn - 2000 KNB",
+        "Items": [
+            {
+                "ItemID": 11,
+                "Rate": -1,
+                "Number": 2000,
+                "Info": "2000 x Tinh hoạt lực"
+            },
+            {
+                "ItemID": 20406,
+                "Rate": -1,
+                "Number": 2,
+                "Info": "2 x Thiệp bạch kim (cấp 4)"
+            },
+            {
+                "ItemID": 1102,
+                "Rate": -1,
+                "Number": 30,
+                "Info": "30 x Bạch Ngân Tinh Hoa (Cấp 1)"
+            }
+        ],
+        "_comment": "Server New"
+    },
+    {
+        "IDBox": 101387,
+        "BoxName": "Phần thưởng Ưu đãi Nạp 5 Đơn - 5000 KNB",
+        "Items": [
+            {
+                "ItemID": 25270,
+                "Rate": -1,
+                "Number": 5000,
+                "Info": "5000 x Kinh Nghiệm Chân Nguyên"
+            },
+            {
+                "ItemID": 506,
+                "Rate": -1,
+                "Number": 2000,
+                "Info": "2000 x Ngũ Hành Hồn Thạch"
+            },
+            {
+                "ItemID": 20529,
+                "Rate": -1,
+                "Number": 1000,
+                "Info": "1000 x Rương mảnh trang bị đồng hành (cao cấp)"
+            }
+        ],
+        "_comment": "Server New"
+    },
+    {
+        "IDBox": 101388,
+        "BoxName": "Phần thưởng Ưu đãi Nạp 5 Đơn - 10000 KNB",
+        "Items": [
+            {
+                "ItemID": 506,
+                "Rate": -1,
+                "Number": 5000,
+                "Info": "5000 x Ngũ Hành Hồn Thạch"
+            },
+            {
+                "ItemID": 20344,
+                "Rate": -1,
+                "Number": 200,
+                "Info": "200 x Cờ chiến công"
+            },
+            {
+                "ItemID": 20345,
+                "Rate": -1,
+                "Number": 100,
+                "Info": "100 x Mảnh Lôi đình ấn"
+            }
+        ],
+        "_comment": "Server New"
+    },
+    {
+        "IDBox": 101389,
+        "BoxName": "Phần thưởng Ưu đãi Nạp 5 Đơn - 20000 KNB",
+        "Items": [
+            {
+                "ItemID": 819,
+                "Rate": -1,
+                "Number": 3,
+                "Info": "3 x Tần Lăng-Hòa Thị Bích"
+            },
+            {
+                "ItemID": 20291,
+                "Rate": -1,
+                "Number": 3,
+                "Info": "3 x Tinh hoạt lực (1 vạn)"
+            },
+            {
+                "ItemID": 20124,
+                "Rate": -1,
+                "Number": 1,
+                "Info": "1 x Rương trang bị đồng hành Bích Huyết (cao cấp)"
+            }
+        ],
+        "_comment": "Server New"
+    },
+    {
+        "IDBox": 101390,
+        "BoxName": "Phần thưởng Ưu đãi Nạp 5 Đơn - 50000 KNB",
+        "Items": [
+            {
+                "ItemID": 25305,
+                "Rate": -1,
+                "Number": 1,
+                "Info": "1 x Rương chân nguyên lựa chọn (+120)"
+            }
+        ],
+        "_comment": "Server New"
+    }
+]

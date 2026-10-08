@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DailyRecharge StartDate="2025-05-12 05:00:00" ActiveDay="5">
+    <!-- Nạp đầu ngày -->
+    <RechargeMilestone ID="0" KNB="500">
+        <Item ID="20529" Count="10"/>
+        <Item ID="20538" Count="1"/>
+    </RechargeMilestone>
+    <RechargeMilestone ID="1" KNB="2000">
+        <Item ID="506" Count="300"/>
+        <Item ID="20822" Count="1"/>
+    </RechargeMilestone>
+</DailyRecharge>

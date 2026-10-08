@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfTask xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+ <!-- BVĐ-->
+    <Task ID="1" Type="1" Count="10" Rate="100" Money="0" BoundMoney="50000" Token="0" BoundToken="0" Prestige="2" Exp="0">
+        <Item ID="337" Name="Túi Phúc" Number="1" Binding="1"/>
+        <Item ID="343" Name="Lệnh bài nghĩa quân" Number="1" Binding="0"/>
+        <Item ID="389" Name="Huyền tinh cấp 5" Number="1" Binding="1"/>
+    </Task>
+    <Task ID="2" Type="1" Count="20" Rate="100" Money="5000" BoundMoney="50000" Token="0" BoundToken="0" Prestige="2" Exp="0">
+        <Item ID="20690" Name="Rương danh vọng sự kiện" Number="2" Binding="1"/>
+    </Task>
+    <Task ID="3" Type="1" Count="30" Rate="100" Money="5000" BoundMoney="50000" Token="0" BoundToken="0" Prestige="2" Exp="0">
+        <Item ID="20378" Name="Rương danh vọng sơ cấp" Number="5" Binding="1"/>
+    </Task>
+    <Task ID="4" Type="1" Count="40" Rate="100" Money="5000" BoundMoney="50000" Token="0" BoundToken="0" Prestige="2" Exp="0">
+        <Item ID="20378" Name="Rương danh vọng sơ cấp" Number="5" Binding="1"/>
+    </Task>
+    <Task ID="5" Type="1" Count="50" Rate="100" Money="10000" BoundMoney="100000" Token="0" BoundToken="0" Prestige="2" Exp="0">
+        <Item ID="20485" Name="Rương danh vọng trung cấp" Number="5" Binding="1"/>
+    </Task>
+<!-- thương hội-->
+    <Task ID="6" Type="2" Count="10" Rate="100" Money="50000" BoundMoney="100000" Token="0" BoundToken="50" Prestige="5" Exp="2000000">
+        <Item ID="186" Name="Huyền tinh cấp 4" Number="1" Binding="1"/>
+    </Task>
+
+    <Task ID="7" Type="2" Count="20" Rate="100" Money="50000" BoundMoney="150000" Token="0" BoundToken="50" Prestige="5" Exp="2000000">
+        <Item ID="187" Name="Huyền tinh cấp 5" Number="1" Binding="1"/>
+    </Task>
+
+    <Task ID="8" Type="2" Count="30" Rate="100" Money="50000" BoundMoney="200000" Token="0" BoundToken="50" Prestige="10" Exp="2000000">
+        <Item ID="188" Name="Huyền tinh cấp 6" Number="1" Binding="1"/>
+    </Task>
+
+    <Task ID="9" Type="2" Count="40" Rate="100" Money="100000" BoundMoney="500000" Token="0" BoundToken="50" Prestige="50" Exp="10000000">
+        <Item ID="189" Name="Huyền tinh cấp 7" Number="1" Binding="1"/>
+    </Task>
+
+    <Task ID="10" Type="2" Count="60" Rate="100" Money="400000" BoundMoney="800000" Token="0" BoundToken="0" Prestige="2" Exp="0">
+        <Item ID="506" Name="Ngũ hành hồn thạch" Number="500" Binding="1"/>
+    </Task>
+
+    <Task ID="11" Type="2" Count="80" Rate="100" Money="0" BoundMoney="0" Token="0" BoundToken="0" Prestige="2" Exp="0">
+        <Item ID="1026" Name="Chiến thư du long" Number="10" Binding="1"/>
+        <Item ID="1057" Name="Sách kinh nghiệm đồng hành" Number="20" Binding="1"/>
+        <Item ID="20529" Name="Rương mảnh trang bị đồng hành" Number="20" Binding="1"/>
+    </Task>
+
+    <!-- Hải tặc-->
+    <Task ID="12" Type="3" Count="1" Rate="100" Money="0" BoundMoney="0" Token="0" BoundToken="0" Prestige="0" Exp="0">
+        <Item ID="25307" Name="Rương Quà Hải Tặc May Mắn" Number="1" Binding="1"/>
+    </Task>
+    <Task ID="13" Type="3" Count="2" Rate="70" Money="0" BoundMoney="0" Token="0" BoundToken="0" Prestige="0" Exp="0">
+        <Item ID="25307" Name="Rương Quà Hải Tặc May Mắn" Number="1" Binding="1"/>
+    </Task>
+    <Task ID="14" Type="3" Count="3" Rate="50" Money="0" BoundMoney="0" Token="0" BoundToken="0" Prestige="0" Exp="0">
+        <Item ID="25307" Name="Rương Quà Hải Tặc May Mắn" Number="1" Binding="1"/>
+    </Task>
+    <Task ID="15" Type="3" Count="4" Rate="30" Money="0" BoundMoney="0" Token="0" BoundToken="0" Prestige="0" Exp="0">
+        <Item ID="25307" Name="Rương Quà Hải Tặc May Mắn" Number="1" Binding="1"/>
+    </Task>
+    <Task ID="16" Type="3" Count="5" Rate="20" Money="0" BoundMoney="0" Token="0" BoundToken="0" Prestige="0" Exp="0">
+        <Item ID="25307" Name="Rương Quà Hải Tặc May Mắn" Number="1" Binding="1"/>
+    </Task>
+    <Task ID="17" Type="3" Count="6" Rate="10" Money="0" BoundMoney="0" Token="0" BoundToken="0" Prestige="0" Exp="0">
+        <Item ID="25307" Name="Rương Quà Hải Tặc May Mắn" Number="1" Binding="1"/>
+    </Task>
+
+</ArrayOfTask>
+<!-- 
+Type: loại nhiệm vụ
+    + = 1: Bao vạn đồng
+    + = 2: Thương hội
+    + = 3: Hải tặc
+Count: mốc nhận thưởng
+Rate: tỷ lệ nhận thưởng
+
+-->

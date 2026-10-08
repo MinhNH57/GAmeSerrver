@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<FishingEvent TimeKey="FishingEvent">
+    <BaitID ID="20214" PriceKNB="30" PriceKNBKhoa="500" LimitBuyCount="5"/>
+    <RewardID>20816</RewardID>
+    <ShopID>1491</ShopID>
+
+    <MantleRequire ServerMin="1" ServerMax="25" Level="5" />
+    <MantleRequire ServerMin="26" ServerMax="99" Level="4" />
+    <MantleRequire ServerMin="900" ServerMax="999" Level="4" />
+
+    <Fish ID="1" Name="Cá Đuối" RewardMoney="8" MakePoint="100" />
+    <Fish ID="2" Name="Cá Kiếm" RewardMoney="10" MakePoint="100" />
+    <Fish ID="3" Name="Cá Biết Nói" RewardMoney="15" MakePoint="120" />
+    <Fish ID="4" Name="Cá Nóc Tấu Hài" RewardMoney="25" MakePoint="150" />
+    <Fish ID="5" Name="Cá Hoàng Kim" RewardMoney="30" MakePoint="150" />
+
+    <Zone Type="red" Range="0-0.3,0.7-1" Rate="70">
+        <Fish ID="1" Rate="35" />
+        <Fish ID="2" Rate="35" />
+        <Fish ID="3" Rate="30" />
+        <Fish ID="4" Rate="0" />
+        <Fish ID="5" Rate="0" />
+    </Zone>
+
+    <Zone Type="yellow" Range="0.3-0.45,0.55-0.7" Rate="20">
+        <Fish ID="1" Rate="30" />
+        <Fish ID="2" Rate="30" />
+        <Fish ID="3" Rate="25" />
+        <Fish ID="4" Rate="15" />
+        <Fish ID="5" Rate="0" />
+    </Zone>
+
+    <Zone Type="green" Range="0.45-0.55" Rate="10">
+        <Fish ID="1" Rate="26" />
+        <Fish ID="2" Rate="26" />
+        <Fish ID="3" Rate="25" />
+        <Fish ID="4" Rate="15" />
+        <Fish ID="5" Rate="8" />
+    </Zone>
+</FishingEvent>

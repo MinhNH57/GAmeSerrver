@@ -1,0 +1,168 @@
+{
+    "Help": {
+        "Help1": "cấu hình vật phẩm sự kiện bằng json",
+        "Help2": "Genre: 18: scriptitem, 22: normal item",
+        "Help3": "ParticularType: > 32000 nếu drop tại map, bỏ qua nếu không phải",
+        "Help4": "ScriptID: 200060 nếu là RandomBox (khai báo ItemValue là ID của box)",
+        "StartID": 20587
+    },
+    "RandomBoxes": [
+        {
+            "ItemID": 20587,
+            "Name": "Phiếu Bé ngoan",
+            "LimitLifeTime": 300,
+            "Icon": "202405_phieubengoan",
+            "Intro": "Vật phẩm sự kiện Trở Về Tuổi Thơ.",
+            "ItemValue": 200410
+        },
+        {
+            "ItemID": 20588,
+            "Name": "Vé Tuổi thơ Vui vẻ",
+            "LimitLifeTime": 5000,
+            "Icon": "202405_vetuoithovuive",
+            "Intro": "Vật phẩm sự kiện Trở Về Tuổi Thơ.",
+            "ItemValue": 200411,
+            "Override": {
+                "21": {
+                    "ItemValue": 200417
+                },
+                "22": {
+                    "ItemValue": 200417
+                } 
+            }
+        },
+        {
+            "ItemID": 20589,
+            "Name": "[Đặc biệt] Vé Tuổi thơ Hạnh phúc",
+            "LimitLifeTime": 300,
+            "Icon": "202405_vetuoithohanhphuc",
+            "Intro": "Vật phẩm sự kiện Trở Về Tuổi Thơ.",
+            "ItemValue": 200412,
+            "Override": {
+                "21": {
+                    "ItemValue": 200418
+                },
+                "22": {
+                    "ItemValue": 200418
+                } 
+            }
+        },
+        {
+            "ItemID": 20603,
+            "Name": "Rương tri ân Tuổi thơ Vui vẻ",
+            "Icon": "merchant_box",
+            "Intro": "Phần quà tri ân bằng hữu đã tham gia nhiệt tình sự kiện Trở Về Tuổi Thơ",
+            "ItemValue": 200413
+        },
+        {
+            "ItemID": 20596,
+            "Name": "Danh hiệu Bé Khỏe Bé Ngoan (ngẫu nhiên)",
+            "Icon": "quest_0084_s",
+            "Intro": "Vật phẩm sự kiện Trở Về Tuổi Thơ.<br>Sử dụng nhận được danh hiệu <color=#eba0ac>Bé Khỏe Bé Ngoan</color>, thời hạn ngẫu nhiên.",
+            "ItemValue": 200414
+        },
+        {
+            "ItemID": 20597,
+            "Name": "Vòng Sáng - Trở Về Tuổi Thơ (ngẫu nhiên)",
+            "Icon": "2023sep_vong_sang",
+            "Intro": "Vật phẩm sự kiện Trở Về Tuổi Thơ.<br>Sử dụng nhận được vòng sáng và chúc phúc <color=#eba0ac>Trở Về Tuổi Thơ</color>, thời hạn ngẫu nhiên.",
+            "ItemValue": 200415
+        },
+        {
+            "ItemID": 20598,
+            "Name": "Thú cưỡi Voi Bản Đôn (ngẫu nhiên)",
+            "Icon": "horsebox_c",
+            "Intro": "Vật phẩm sự kiện Trở Về Tuổi Thơ.<br>Sử dụng nhận được thú cưỡi <color=#eba0ac>Voi Bản Đôn</color>, thời hạn ngẫu nhiên.",
+            "ItemValue": 200416
+        }
+    ],
+    "Normal": [
+        {
+            "ItemID": 20590,
+            "Name": "Máy bay giấy",
+            "ParticularType": 32001,
+            "Stack": 10000,
+            "Icon": "202405_maybaygiay",
+            "Intro": "Vật phẩm sự kiện Trở Về Tuổi Thơ.",
+            "ScriptID": 200121
+        },
+        {
+            "ItemID": 20591,
+            "Name": "Bi thủy tinh",
+            "ParticularType": 32001,
+            "Stack": 10000,
+            "Icon": "202405_bi",
+            "Intro": "Vật phẩm sự kiện Trở Về Tuổi Thơ.",
+            "ScriptID": 200121
+        },
+        {
+            "ItemID": 20592,
+            "Name": "Cỗ máy Thời gian",
+            "ParticularType": 32001,
+            "Stack": 10000,
+            "Icon": "202405_comaythoigian",
+            "Intro": "Vật phẩm sự kiện Trở Về Tuổi Thơ.",
+            "ScriptID": 200121
+        },
+        {
+            "ItemID": 20593,
+            "Name": "Bánh Chocopie",
+            "Icon": "202405_chocopie",
+            "Intro": "Vật phẩm sự kiện Trở Về Tuổi Thơ. <br>Sử dụng nhận được <color=#a6e3a1>1 điểm kỹ năng</color>. Mỗi người tối đa sử dụng <color=#eba0ac>2 vật phẩm</color>.",
+            "ScriptID": 200097,
+            "ListExtPram": [
+                { "Pram": 700525, "Index": 1 },
+                { "Pram": 1, "Index": 2 },
+                { "Pram": 2, "Index": 3 }
+            ]
+        },
+        {
+            "ItemID": 20594,
+            "Name": "Kẹo bông gòn",
+            "Icon": "202405_keobonggon",
+            "Intro": "Vật phẩm sự kiện Trở Về Tuổi Thơ. <br>Sử dụng nhận được <color=#a6e3a1>10 điểm tiềm năng</color>. Mỗi người tối đa sử dụng <color=#eba0ac>2 vật phẩm.</color>",
+            "ScriptID": 200096,
+            "ListExtPram": [
+                { "Pram": 700526, "Index": 1 },
+                { "Pram": 10, "Index": 2 },
+                { "Pram": 2, "Index": 3 }
+            ]
+        },
+        {
+            "ItemID": 20599,
+            "Name": "Robot",
+            "Icon": "202405_robot",
+            "Intro": "Vật phẩm sự kiện Trở Về Tuổi Thơ. Dùng để tặng cho NPC Bé Trai Vui Vẻ.",
+            "ScriptID": -1,
+            "Stack": 10000
+        },
+        {
+            "ItemID": 20600,
+            "Name": "Búp bê",
+            "Icon": "202405_bupbe",
+            "Intro": "Vật phẩm sự kiện Trở Về Tuổi Thơ. Dùng để tặng cho NPC Bé Gái Hạnh Phúc.",
+            "ScriptID": -1,
+            "Stack": 10000
+        },
+        {
+            "ItemID": 20602,
+            "Name": "Vòng Sáng - Trở Về Tuổi Thơ",
+            "Stack": 1,
+            "Icon": "2023sep_vong_sang",
+            "Intro": "Vòng sáng sự kiện Trở Về Tuổi Thơ.",
+            "ScriptID": 200120,
+            "ListExtPram": [
+                { "Pram": 2022, "Index": 1 },
+                { "Pram": 10081, "Index": 2 }
+            ]
+        },
+        {
+            "ItemID": 20595,
+            "Name": "Chìa khóa Cỗ máy thời gian",
+            "Stack": 1000,
+            "Icon": "jinyaoshi",
+            "Intro": "Vật phẩm đặc biệt (không tiêu hao), có thể mở khóa công thức đặc biệt để nhận Vé Tuổi thơ Hạnh phúc.",
+            "ScriptID": 200128
+        }
+    ]
+}

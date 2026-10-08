@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+	=== DANH SÁCH SỰ KIỆN TRONG GAME ===
+	
+	ID: ID sự kiện
+	Name: Tên sự kiện
+	Type: Loại thời gian
+			- -1: Đóng
+			- 0: 1 lần duy nhất sau khi khởi động lại Server
+			- 1: Mỗi ngày
+			- 2: Mỗi tuần
+			- 3: Mỗi tháng vào ngày chỉ định
+			- 4: Mỗi tháng vào tuần chỉ định
+			- 5: Thời gian cố định
+	Time: Thiết lập thời gian, ngăn cách nhau bởi dấu _ giữa các mốc
+			- Nếu Type = 0 thì sẽ là chuỗi rỗng ""
+			- Nếu Type = 1, thì sẽ là dạng "HH;MM" tương ứng Giờ, phút
+			- Nếu Type = 2, thì sẽ là dạng "dd;HH;MM" tương ứng Thứ tự ngày trong tuần (0-6), Giờ, phút
+			- Nếu Type = 3, thì sẽ là dạng "DD;HH;MM" tương ứng Thứ tự ngày trong tháng (1-31), Giờ, phút
+			- Nếu Type = 4, thì sẽ là dạng "WW;dd;HH;MM" tương ứng Thứ tự tuần trong tháng (0-3), Thứ tự ngày trong tuần (0-6, tương ứng Chủ nhật - Thứ 7), Giờ, phút
+			- Nếu Type = 5, thì sẽ là dạng "DD;MM;YYYY;HH;MM" tương ứng Ngày, tháng, năm, Giờ, phút
+			- Nếu Type = 6, thì sẽ là dạng "StartHour:StartMin_EndHour:EndMin_Interval" (interval tính theo phút)
+	DurationTicks: Thời gian duy trì sự kiện (đơn vị Mili-giây)
+	CoreScript: Tên Script được viết trong CORE C# điều khiển sự kiện
+-->
+
+<Activities xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"> 
+	<!-- Bạch Hổ Đường -->
+	<Activity ID="100" Name="Chuẩn bị Bạch Hổ Đường" Type="1" Time="09;50_13;50_16;50_19:50" DurationTicks="590000" CoreScript="BaiHuTang" />
+	
+	<Activity ID="101" Name="Bắt đầu Bạch Hổ Đường - 1 (sơ)" Type="1" Time="10;00_14;00_17;00_20:00" DurationTicks="1200000" CoreScript="BaiHuTang" />
+	<Activity ID="102" Name="Bắt đầu Bạch Hổ Đường - 2 (sơ)" Type="1" Time="10;10_14;10_17;10_20:00" DurationTicks="1200000" CoreScript="BaiHuTang" />
+	<Activity ID="103" Name="Bắt đầu Bạch Hổ Đường - 3 (sơ)" Type="1" Time="10;20_14;20_17;20_20:00" DurationTicks="1200000" CoreScript="BaiHuTang" />
+	
+	<Activity ID="106" Name="Bắt đầu Bạch Hổ Đường - 1 (cao)" Type="1" Time="10;00_14;00_17;00_20:00" DurationTicks="1200000" CoreScript="BaiHuTang" />
+	<Activity ID="107" Name="Bắt đầu Bạch Hổ Đường - 2 (cao)" Type="1" Time="10;10_14;10_17;10_20:00" DurationTicks="1200000" CoreScript="BaiHuTang" />
+	<Activity ID="108" Name="Bắt đầu Bạch Hổ Đường - 3 (cao)" Type="1" Time="10;20_14;20_17;20_20:00" DurationTicks="1200000" CoreScript="BaiHuTang" />
+	
+	<Activity ID="104" Name="Kết thúc Bạch Hổ Đường" Type="1" Time="10;40_14;40_17;40_20:40" DurationTicks="0" CoreScript="BaiHuTang" />
+	<!-- End -->
+
+	<!-- Đoán Hoa Đăng -->
+	<Activity ID="300" Name="Thông báo chuẩn bị Đoán Hoa Đăng" Type="2" Time="00;20;20_02;20;20_03;20;20" DurationTicks="600000" CoreScript="KnowledgeChallenge" />
+	<Activity ID="301" Name="Bắt đầu Đoán Hoa Đăng" Type="2" Time="00;20;30_02;20;30_03;20;30" DurationTicks="3000000" CoreScript="KnowledgeChallenge" />
+	<Activity ID="302" Name="Kết thúc Đoán Hoa Đăng" Type="2" Time="00;21;20_02;21;20_03;21;20" DurationTicks="600000" CoreScript="KnowledgeChallenge" />
+	<!-- End -->
+	
+	<!-- Tần Lăng -->
+	<Activity ID="400" Name="Khai mở Tần Lăng" Type="1" Time="07;00" DurationTicks="36000000" CoreScript="EmperorTomb" />
+	<!-- <Activity ID="400" Name="Khai mở Tần Lăng" Type="1" Time="18;05" DurationTicks="21600000" CoreScript="EmperorTomb" /> -->
+	<Activity ID="401" Name="Thông báo xuất hiện Boss Tần Thủy Hoàng" Type="1" Time="15;00" DurationTicks="60000" CoreScript="EmperorTomb" />
+	<Activity ID="402" Name="Đóng Tần Lăng" Type="1" Time="16;59" DurationTicks="60000" CoreScript="EmperorTomb" />
+	<Activity ID="403" Name="Đăng ký Tần Lăng" Type="1" Time="06;59" DurationTicks="36000000" CoreScript="EmperorTomb" />
+	<!-- <Activity ID="403" Name="Đăng ký Tần Lăng" Type="1" Time="18;04" DurationTicks="21600000" CoreScript="EmperorTomb" /> -->
+	
+	<!-- Liên Đấu -->
+	<Activity ID="200" Name="Báo danh Liên Đấu" Type="3" Time="01;00;00_02;00;00_03;00;00_04;00;00" DurationTicks="60000" CoreScript="TeamBattle" />
+	<Activity ID="203" Name="Khai mở Liên Đấu" Type="3" Time="05;20;50_06;20;50_07;20;50_08;20;50_09;20;50" DurationTicks="60000" CoreScript="TeamBattle" />
+	<Activity ID="204" Name="Khai mở Liên Đấu" Type="3" Time="10;20;50_11;20;50_12;20;50_13;20;50_14;20;50" DurationTicks="60000" CoreScript="TeamBattle" />
+	<Activity ID="205" Name="Khai mở Liên Đấu" Type="3" Time="15;20;50_16;20;50_17;20;50_18;20;50_19;20;50" DurationTicks="60000" CoreScript="TeamBattle" />
+	<Activity ID="206" Name="Khai mở Liên Đấu" Type="3" Time="20;20;50_21;20;50_22;20;50_23;20;50_24;20;50_25;20;50" DurationTicks="60000" CoreScript="TeamBattle" />
+	<Activity ID="215" Name="Kết thúc Liên Đấu" Type="3" Time="26;00;00_27;00;00_28;00;00_29;00;00" DurationTicks="60000" CoreScript="TeamBattle" />
+
+	<Activity ID="500" Name="Chuẩn bị Cuộc đua kỳ thú" Type="6" Time="07:00_23:30_120" Begin="2025-12-08 05:00:00" End="2025-12-18 23:59:59" DurationTicks="3000000" CoreScript="PetRace" />
+<!--    <Activity ID="600" Name="Chuẩn bị Vui Đón Xuân" Type="6" Time="07:00_23:30_120" Begin="2024-12-26 05:00:00" End="2025-01-02 05:00:00" DurationTicks="3000000" CoreScript="OTT" /> -->
+	
+	<!-- Quay số trúng thưởng -->
+	<!-- <Activity ID="500" Name="Thông báo số trúng thưởng" Type="1" Time="10;00_11;00" DurationTicks="0" CoreScript="LotteryEvent" /> -->
+	<!-- <Activity ID="501" Name="Quay số trúng thưởng" Type="1" Time="18;30" DurationTicks="0" CoreScript="LotteryEvent" /> -->
+	<!-- <Activity ID="502" Name="Kiểm tra vé trúng thưởng" Type="1" Time="0;01" DurationTicks="0" CoreScript="LotteryEvent" /> -->
+	
+	<!-- Đạo tặc Sinh nhật -->
+	 <Activity ID="700" Name="Chuẩn bị Đạo tặc" Type="6" Time="08:55_22:30_120" Begin="2025-06-16 05:00:00" End="2025-07-06 23:59:59" DurationTicks="300000" CoreScript="DaoTac"/> 
+	 <Activity ID="701" Name="Đạo tặc xuất hiện" Type="6" Time="09:00_22:30_120" Begin="2025-06-16 05:00:00" End="2025-07-06 23:59:59" DurationTicks="300000" CoreScript="DaoTac"/> 
+	 <Activity ID="702" Name="Đạo tặc chạy trốn" Type="6" Time="10:00_22:30_120" Begin="2025-06-16 05:00:00" End="2025-07-06 23:59:59" DurationTicks="300000" CoreScript="DaoTac"/> 
+
+	<Activity ID="800" Name="Bắt đầu Cắt bánh Sinh nhật" Type="6" Time="08:00_23:00_120" Begin="2024-12-16 05:00:00" End="2024-12-26 05:00:00" DurationTicks="900000" CoreScript="FlowerBet"/>
+	<Activity ID="801" Name="Nhận thưởng Cắt bánh Sinh nhật" Type="6" Time="08:20_23:00_120" Begin="2024-12-16 05:00:00" End="2024-12-26 05:00:00" DurationTicks="3600000" CoreScript="FlowerBet"/>
+	<Activity ID="802" Name="Kết thúc Cắt bánh Sinh nhật" Type="6" Time="09:20_23:00_120" Begin="2024-12-16 05:00:00" End="2024-12-26 05:00:00" DurationTicks="60000" CoreScript="FlowerBet"/>
+
+</Activities>

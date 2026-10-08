@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfItemData
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+>
+    <ItemData
+        ItemID="15700" Name="Túi nguyên liệu Kem"
+        IconBundleDir="Icon/EquipIcon2.unity3d" IconAtlasName="EquipIcon2"
+        MapSpriteBundleDir="Resources/Item/MapSprite.unity3d" MapSpriteAtlasName="MapSprite"
+        Kind="" QualityPrefix="0" Category="0" Genre="18"
+        Stack="10000" DetailType="1" ParticularType="32001" Level="0" SuiteID="0"
+        Icon="106_tui_nguyen_lieu_kem" View="106_tui_nguyen_lieu_kem"
+        Intro="Vật phẩm Sự kiện Giải Nhiệt Mùa Hè.&lt;br&gt;Sử dụng nhận được nguyên liệu hợp thành Kem Trái Cây, Kem Vani."
+        Help=""
+        ObjID="32" BindType="0" Series="0" ReqLevel="0" CDType="0"
+        Price="1" ItemValue="100500" MakeCost="-1" ResMale="0" ResFemale="0" FightPower="0"
+        ScriptID="200060" DeductOnUse="false" BuffID="-1"
+    >
+        <ListExtPram Pram="2" Index="1" />
+        <UnLockInterval>0</UnLockInterval>
+    </ItemData>
+
+    <ItemData
+        ItemID="15701" Name="Kem Vani (khóa)"
+        IconBundleDir="Icon/EquipIcon2.unity3d" IconAtlasName="EquipIcon2"
+        MapSpriteBundleDir="Resources/Item/MapSprite.unity3d" MapSpriteAtlasName="MapSprite"
+        Kind="" QualityPrefix="0" Category="0" Genre="18"
+        Stack="10000" DetailType="1" ParticularType="32001" Level="0" SuiteID="0"
+        Icon="106_Kem_vani" View="106_Kem_vani"
+        Intro="Vật phẩm Sự kiện Giải Nhiệt Mùa Hè.&lt;br&gt;Sử dụng để nhận được các vật phẩm quý hiếm."
+        Help=""
+        ObjID="32" BindType="0" Series="0" ReqLevel="0" CDType="0"
+        Price="1" ItemValue="100501" MakeCost="-1" ResMale="0" ResFemale="0" FightPower="0"
+        ScriptID="200060" DeductOnUse="false" BuffID="-1"
+    >
+        <ListExtPram Pram="2" Index="1" />
+        <UnLockInterval>0</UnLockInterval>
+    </ItemData>
+
+    <ItemData
+        ItemID="15702" Name="Kem Trái Cây"
+        IconBundleDir="Icon/EquipIcon2.unity3d" IconAtlasName="EquipIcon2"
+        MapSpriteBundleDir="Resources/Item/MapSprite.unity3d" MapSpriteAtlasName="MapSprite"
+        Kind="" QualityPrefix="0" Category="0" Genre="18"
+        Stack="10000" DetailType="1" ParticularType="32001" Level="0" SuiteID="0"
+        Icon="106_Kem_trai_cay" View="106_Kem_trai_cay"
+        Intro="Vật phẩm Sự kiện Giải Nhiệt Mùa Hè.&lt;br&gt;Sử dụng để nhận được các vật phẩm quý hiếm."
+        Help=""
+        ObjID="32" BindType="0" Series="0" ReqLevel="0" CDType="0"
+        Price="1" ItemValue="100502" MakeCost="-1" ResMale="0" ResFemale="0" FightPower="0"
+        ScriptID="200060" DeductOnUse="false" BuffID="-1"
+    >
+        <ListExtPram Pram="2" Index="1" />
+        <UnLockInterval>0</UnLockInterval>
+    </ItemData>
+
+    <ItemData
+        ItemID="15703" Name="Kem Dát Vàng"
+        IconBundleDir="Icon/EquipIcon2.unity3d" IconAtlasName="EquipIcon2"
+        MapSpriteBundleDir="Resources/Item/MapSprite.unity3d" MapSpriteAtlasName="MapSprite"
+        Kind="" QualityPrefix="0" Category="0" Genre="18"
+        Stack="10000" DetailType="1" ParticularType="32001" Level="0" SuiteID="0"
+        Icon="106_Kem_dac_biet" View="106_Kem_dac_biet"
+        Intro="Vật phẩm Sự kiện Giải Nhiệt Mùa Hè.&lt;br&gt;Sử dụng để nhận được các vật phẩm quý hiếm."
+        Help=""
+        ObjID="32" BindType="0" Series="0" ReqLevel="0" CDType="0"
+        Price="1" ItemValue="100503" MakeCost="-1" ResMale="0" ResFemale="0" FightPower="0"
+        ScriptID="200060" DeductOnUse="false" BuffID="-1"
+    >
+        <ListExtPram Pram="2" Index="1" />
+        <UnLockInterval>0</UnLockInterval>
+    </ItemData>
+
+    <ItemData
+        ItemID="15704" Name="Thùng kem"
+        IconBundleDir="Icon/EquipIcon2.unity3d" IconAtlasName="EquipIcon2"
+        MapSpriteBundleDir="Resources/Item/MapSprite.unity3d" MapSpriteAtlasName="MapSprite"
+        Kind="" QualityPrefix="0" Category="0" Genre="18"
+        Stack="10000" DetailType="1" ParticularType="32001" Level="0" SuiteID="0"
+        Icon="106_thung_kem" View="106_thung_kem"
+        Intro="Vật phẩm Sự kiện Giải Nhiệt Mùa Hè.&lt;br&gt;Sử dụng để nhận được 50 Túi nguyên liệu Kem và có cơ hội nhận thêm các phần thưởng ngẫu nhiên."
+        Help=""
+        ObjID="32" BindType="0" Series="0" ReqLevel="0" CDType="0"
+        Price="1" ItemValue="100504" MakeCost="-1" ResMale="0" ResFemale="0" FightPower="0"
+        ScriptID="200060" DeductOnUse="false" BuffID="-1"
+    >
+        <ListExtPram Pram="2" Index="1" />
+        <UnLockInterval>0</UnLockInterval>
+    </ItemData>
+    <ItemData
+        ItemID="15705" Name="Dây cương thần bí (Sự kiện Giải nhiệt mùa hè)"
+        IconBundleDir="Icon/EquipIcon2.unity3d" IconAtlasName="EquipIcon2"
+        MapSpriteBundleDir="Resources/Item/MapSprite.unity3d" MapSpriteAtlasName="MapSprite"
+        Kind="" QualityPrefix="0" Category="0" Genre="18"
+        Stack="1" DetailType="1" ParticularType="913" Level="1" SuiteID="0"
+        Icon="quest_0009_s" View="quest_0009_s"
+        Intro="Sử dụng nhận được thú cưỡi Giải nhiệt mùa hè (hạn sử dụng ngẫu nhiên)."
+        Help=""
+        ObjID="32" BindType="1" Series="0" ReqLevel="0" CDType="0"
+        Price="1" ItemValue="200100" MakeCost="-1" ResMale="0" ResFemale="0" FightPower="0"
+        ScriptID="200060" DeductOnUse="false" BuffID="-1"
+    >
+        <UnLockInterval>0</UnLockInterval>
+    </ItemData>
+    <ItemData
+        ItemID="15706" Name="Dây cương thần bí đặc biệt (Sự kiện Giải nhiệt mùa hè)"
+        IconBundleDir="Icon/EquipIcon2.unity3d" IconAtlasName="EquipIcon2"
+        MapSpriteBundleDir="Resources/Item/MapSprite.unity3d" MapSpriteAtlasName="MapSprite"
+        Kind="" QualityPrefix="0" Category="0" Genre="18"
+        Stack="1" DetailType="1" ParticularType="913" Level="1" SuiteID="0"
+        Icon="quest_0009_s" View="quest_0009_s"
+        Intro="Sử dụng nhận được thú cưỡi Giải nhiệt mùa hè (hạn sử dụng ngẫu nhiên)."
+        Help=""
+        ObjID="32" BindType="1" Series="0" ReqLevel="0" CDType="0"
+        Price="1" ItemValue="200101" MakeCost="-1" ResMale="0" ResFemale="0" FightPower="0"
+        ScriptID="200060" DeductOnUse="false" BuffID="-1"
+    >
+        <UnLockInterval>0</UnLockInterval>
+    </ItemData>
+    <ItemData
+        ItemID="15707" Name="Kem Socola"
+        Kind="Tẩy tủy kinh (sự kiện)" QualityPrefix="0" Category="0" Genre="18"
+        Stack="1" DetailType="1" ParticularType="192" Level="0" SuiteID="0"
+        ObjID="32" BindType="0" Series="0" ReqLevel="0" CDType="0"
+        Price="1" ItemValue="111" MakeCost="-1" ResMale="0" ResFemale="0" FightPower="0"
+        DeductOnUse="false" BuffID="-1"
+        MapSpriteBundleDir="Resources/Item/MapSprite.unity3d" MapSpriteAtlasName="MapSprite"
+        IconBundleDir="Icon/EquipIcon2.unity3d" IconAtlasName="EquipIcon2"
+        Icon="106_Kem_socola" View="106_Kem_socola"
+        Intro="Vật phẩm sự kiện. &lt;br&gt;Sử nhận được &lt;color=#a6e3a1&gt;10 điểm tiềm năng&lt;/color&gt;. Mỗi người tối đa sử dụng &lt;color=#eba0ac&gt;2 vật phẩm&lt;/color&gt;."
+        Help=""
+        ScriptID="200096"
+    >
+        <UnLockInterval>0</UnLockInterval>
+        <ListExtPram Pram="700502" Index="1" /> <!--record
+        để lưu lại số lần dùng-->
+        <ListExtPram Pram="10" Index="2" /> <!--điểm
+        tiềm năng được +-->
+        <ListExtPram Pram="2" Index="3" /> <!--limit
+        số lượt dùng-->
+    </ItemData>
+
+    <ItemData
+        ItemID="15708" Name="Kem Ốc Quế dát vàng"
+        Kind="Võ Lâm Mật Tịch (sự kiện)" QualityPrefix="0" Category="0" Genre="18"
+        Stack="1" DetailType="1" ParticularType="191" Level="0" SuiteID="0"
+        ObjID="32" BindType="0" Series="0" ReqLevel="0" CDType="0"
+        Price="1" ItemValue="111" MakeCost="-1" ResMale="0" ResFemale="0" FightPower="0"
+        DeductOnUse="false" BuffID="-1"
+        MapSpriteBundleDir="Resources/Item/MapSprite.unity3d" MapSpriteAtlasName="MapSprite"
+        IconBundleDir="Icon/EquipIcon2.unity3d" IconAtlasName="EquipIcon2"
+        Icon="106_Kem_oc_que" View="106_Kem_oc_que"
+        Intro="Vật phẩm sự kiện. &lt;br&gt;Sử nhận được &lt;color=#a6e3a1&gt;1 điểm kỹ năng&lt;/color&gt;. Mỗi người tối đa sử dụng &lt;color=#eba0ac&gt;2 vật phẩm&lt;/color&gt;."
+        Help=""
+        ScriptID="200097"
+    >
+        <UnLockInterval>0</UnLockInterval>
+        <ListExtPram Pram="700503" Index="1" /> <!--record
+        để lưu lại số lần dùng-->
+        <ListExtPram Pram="1" Index="2" /> <!--điểm
+        kỹ năng được +-->
+        <ListExtPram Pram="2" Index="3" /> <!--limit
+        số lượt dùng-->
+    </ItemData>
+
+
+    <ItemData
+        ItemID="15696" Name="Que làm Kem"
+        IconBundleDir="Icon/EquipIcon2.unity3d" IconAtlasName="EquipIcon2"
+        MapSpriteBundleDir="Resources/Item/MapSprite.unity3d" MapSpriteAtlasName="MapSprite"
+        Kind="Vật phẩm sự kiện" QualityPrefix="0" Category="0" Genre="22"
+        Stack="10000" DetailType="1" ParticularType="108" Level="0" SuiteID="0"
+        Icon="106_Que_lam_kem" View="106_Que_lam_kem"
+        Intro="Vật phẩm Sự kiện Giải Nhiệt Mùa Hè. Nguyên liệu hợp thành Kem Vani, Kem Trái Cây."
+        Help=""
+        ObjID="32" BindType="0" Series="0" ReqLevel="0" CDType="0"
+        Price="1" ItemValue="1" MakeCost="-1" ResMale="0" ResFemale="0" FightPower="0"
+        ScriptID="-1" DeductOnUse="false" BuffID="-1"
+    >
+        <UnLockInterval>0</UnLockInterval>
+    </ItemData>
+
+    <ItemData
+        ItemID="15697" Name="Sữa tươi"
+        IconBundleDir="Icon/EquipIcon2.unity3d" IconAtlasName="EquipIcon2"
+        MapSpriteBundleDir="Resources/Item/MapSprite.unity3d" MapSpriteAtlasName="MapSprite"
+        Kind="Vật phẩm sự kiện" QualityPrefix="0" Category="0" Genre="22"
+        Stack="10000" DetailType="1" ParticularType="108" Level="0" SuiteID="0"
+        Icon="106_sua_tuoi" View="106_sua_tuoi"
+        Intro="Vật phẩm Sự kiện Giải Nhiệt Mùa Hè. Nguyên liệu hợp thành Kem Vani, Kem Trái Cây."
+        Help=""
+        ObjID="32" BindType="0" Series="0" ReqLevel="0" CDType="0"
+        Price="1" ItemValue="1" MakeCost="-1" ResMale="0" ResFemale="0" FightPower="0"
+        ScriptID="-1" DeductOnUse="false" BuffID="-1"
+    >
+        <UnLockInterval>0</UnLockInterval>
+    </ItemData>
+
+    <ItemData
+        ItemID="15698" Name="Hương liệu"
+        IconBundleDir="Icon/EquipIcon2.unity3d" IconAtlasName="EquipIcon2"
+        MapSpriteBundleDir="Resources/Item/MapSprite.unity3d" MapSpriteAtlasName="MapSprite"
+        Kind="Vật phẩm sự kiện" QualityPrefix="0" Category="0" Genre="22"
+        Stack="10000" DetailType="1" ParticularType="108" Level="0" SuiteID="0"
+        Icon="106_Huong_lieu" View="106_Huong_lieu"
+        Intro="Vật phẩm Sự kiện Giải Nhiệt Mùa Hè. Nguyên liệu hợp thành Kem Vani."
+        Help=""
+        ObjID="32" BindType="0" Series="0" ReqLevel="0" CDType="0"
+        Price="1" ItemValue="1" MakeCost="-1" ResMale="0" ResFemale="0" FightPower="0"
+        ScriptID="-1" DeductOnUse="false" BuffID="-1"
+    >
+        <UnLockInterval>0</UnLockInterval>
+    </ItemData>
+
+    <ItemData
+        ItemID="15699" Name="Trái Cây"
+        IconBundleDir="Icon/EquipIcon2.unity3d" IconAtlasName="EquipIcon2"
+        MapSpriteBundleDir="Resources/Item/MapSprite.unity3d" MapSpriteAtlasName="MapSprite"
+        Kind="Vật phẩm sự kiện" QualityPrefix="0" Category="0" Genre="22"
+        Stack="10000" DetailType="1" ParticularType="108" Level="0" SuiteID="0"
+        Icon="106_Trai_cay" View="106_Trai_cay"
+        Intro="Vật phẩm Sự kiện Giải Nhiệt Mùa Hè. Nguyên liệu hợp thành Kem Trái Cây."
+        Help=""
+        ObjID="32" BindType="0" Series="0" ReqLevel="0" CDType="0"
+        Price="1" ItemValue="1" MakeCost="-1" ResMale="0" ResFemale="0" FightPower="0"
+        ScriptID="-1" DeductOnUse="false" BuffID="-1"
+    >
+        <UnLockInterval>0</UnLockInterval>
+    </ItemData>
+</ArrayOfItemData>

@@ -1,0 +1,160 @@
+{
+    "Help": {
+        "Help1": "cấu hình vật phẩm sự kiện bằng json",
+        "Help2": "Genre: 18: scriptitem, 22: normal item",
+        "Help3": "ParticularType: > 32000 nếu drop tại map, bỏ qua nếu không phải",
+        "Help4": "ScriptID: 200060 nếu là RandomBox (khai báo ItemValue là ID của box)",
+        "StartID": 20293
+    },
+    "RandomBoxes": [
+        {
+            "ItemID": 20346,
+            "Name": "Túi nguyên liệu Tết",
+            "ParticularType": 32001,
+            "Icon": "2024jan_tui",
+            "Intro": "Vật phẩm sự kiện Tết 2024.",
+            "ItemValue": 200209
+        },
+        {
+            "ItemID": 20347,
+            "Name": "Túi quà Phúc - Lộc - Thọ",
+            "LimitLifeTime": 300,
+            "Icon": "2024jan_hopquaPHUCLOCTHO",
+            "Intro": "Vật phẩm sự kiện Tết 2024.",
+            "ItemValue": 200210
+        },
+        {
+            "ItemID": 20348,
+            "Name": "Lì xì Phúc - Lộc - Thọ",
+            "LimitLifeTime": 5000,
+            "Icon": "2024jan_lixiPHUCLOCTHO",
+            "Intro": "Vật phẩm sự kiện Tết 2024.",
+            "ItemValue": 200211
+        },
+        {
+            "ItemID": 20349,
+            "Name": "Lì xì Rồng Vàng",
+            "LimitLifeTime": 300,
+            "Icon": "2024jan_lixirongvang",
+            "Intro": "Vật phẩm sự kiện Tết 2024.",
+            "ItemValue": 200212
+        },
+        {
+            "ItemID": 20350,
+            "Name": "Rương Thú cưỡi Tết 2024",
+            "Icon": "horsebox_c",
+            "Intro": "Sử dụng nhận được thú cưỡi sự kiện Tết 2024.",
+            "ItemValue": 200213
+        }
+    ],
+    "Normal": [
+        {
+            "ItemID": 20351,
+            "Name": "Chữ PHÚC",
+            "Stack": 10000,
+            "Icon": "2024jan_chuPHUC",
+            "Intro": "Vật phẩm sự kiện Tết 2024.",
+            "ScriptID": 200121
+        },
+        {
+            "ItemID": 20352,
+            "Name": "Chữ LỘC",
+            "Stack": 10000,
+            "Icon": "2024jan_chuLOC",
+            "Intro": "Vật phẩm sự kiện Tết 2024.",
+            "ScriptID": 200121
+        },
+        {
+            "ItemID": 20353,
+            "Name": "Chữ THỌ",
+            "Stack": 10000,
+            "Icon": "2024jan_chuTHO",
+            "Intro": "Vật phẩm sự kiện Tết 2024.",
+            "ScriptID": 200121
+        },
+        {
+            "ItemID": 20354,
+            "Name": "Phong bao Lì xì",
+            "Stack": 10000,
+            "Icon": "2024jan_lixi",
+            "Intro": "Vật phẩm sự kiện Tết 2024.",
+            "ScriptID": 200121
+        },
+        {
+            "ItemID": 20355,
+            "Name": "Bánh chưng",
+            "Icon": "2024jan_banhchung",
+            "Intro": "Vật phẩm sự kiện Tết 2024. <br>Sử dụng nhận được <color=#a6e3a1>1 điểm kỹ năng</color>. Mỗi người tối đa sử dụng <color=#eba0ac>2 vật phẩm</color>.",
+            "ScriptID": 200097,
+            "ListExtPram": [
+                { "Pram": 700517, "Index": 1 },
+                { "Pram": 1, "Index": 2 },
+                { "Pram": 2, "Index": 3 }
+            ]
+        },
+        {
+            "ItemID": 20356,
+            "Name": "Bánh tét",
+            "Icon": "2024jan_banhtet",
+            "Intro": "Vật phẩm sự kiện Tết 2024. <br>Sử dụng nhận được <color=#a6e3a1>10 điểm tiềm năng</color>. Mỗi người tối đa sử dụng <color=#eba0ac>2 vật phẩm.</color>",
+            "ScriptID": 200096,
+            "ListExtPram": [
+                { "Pram": 700518, "Index": 1 },
+                { "Pram": 10, "Index": 2 },
+                { "Pram": 2, "Index": 3 }
+            ]
+        },
+        {
+            "ItemID": 20357,
+            "Name": "Thẻ tên [Chân Long] (3 ngày)",
+            "Icon": "quest_0084_s",
+            "Intro": "Sử dụng nhận được thẻ tên [CHÂN LONG] và chúc phúc Tết Giáp Thìn cấp 1.",
+            "Stack": 1,
+            "ScriptID": 200120,
+            "ListExtPram": [
+                { "Pram": 2041, "Index": 1 },
+                { "Pram": 4321, "Index": 2 },
+                { "Pram": 1, "Index": 3 }
+            ]
+        },
+        {
+            "ItemID": 20358,
+            "Name": "Thẻ tên [Chân Long] (7 ngày)",
+            "Icon": "quest_0084_s",
+            "Intro": "Sử dụng nhận được thẻ tên [CHÂN LONG] và chúc phúc Tết Giáp Thìn cấp 2.",
+            "Stack": 1,
+            "ScriptID": 200120,
+            "ListExtPram": [
+                { "Pram": 2041, "Index": 1 },
+                { "Pram": 10081, "Index": 2 },
+                { "Pram": 2, "Index": 3 }
+            ]
+        },
+        {
+            "ItemID": 20359,
+            "Name": "Thẻ tên [Chân Long] (14 ngày)",
+            "Icon": "quest_0084_s",
+            "Intro": "Sử dụng nhận được thẻ tên [CHÂN LONG] và chúc phúc Tết Giáp Thìn cấp 3.",
+            "Stack": 1,
+            "ScriptID": 200120,
+            "ListExtPram": [
+                { "Pram": 2041, "Index": 1 },
+                { "Pram": 20161, "Index": 2 },
+                { "Pram": 3, "Index": 3 }
+            ]
+        },
+        {
+            "ItemID": 20360,
+            "Name": "Thẻ tên [Chân Long] (30 ngày)",
+            "Icon": "quest_0084_s",
+            "Intro": "Sử dụng nhận được thẻ tên [CHÂN LONG] và chúc phúc Tết Giáp Thìn cấp 4.",
+            "Stack": 1,
+            "ScriptID": 200120,
+            "ListExtPram": [
+                { "Pram": 2041, "Index": 1 },
+                { "Pram": 43201, "Index": 2 },
+                { "Pram": 4, "Index": 3 }
+            ]
+        }
+    ]
+}

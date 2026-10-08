@@ -1,0 +1,136 @@
+{
+  "RandomBoxes": [
+    {
+      "ItemID": 20752,
+      "Name": "Bánh Kem",
+      "LimitLifeTime": 500,
+      "Icon": "202412_banhkem",
+      "Intro": "Vật phẩm sự kiện Nhị Niên Kiếm Vương 1.",
+      "ItemValue": 200520
+    },
+    {
+      "ItemID": 20753,
+      "Name": "Bánh Hoàng Kim",
+      "Icon": "202412_banhhoangkim",
+      "Intro": "Vật phẩm sự kiện Nhị Niên Kiếm Vương 1.",
+      "ItemValue": 200521
+    },
+    {
+      "ItemID": 20754,
+      "Name": "[Đặc biệt] Hộp Quà Kỷ Niệm",
+      "Icon": "202412_hopquakyniem",
+      "Intro": "Vật phẩm sự kiện Nhị Niên Kiếm Vương 1.",
+      "ItemValue": 200522
+    },
+    {
+      "ItemID": 20755,
+      "Name": "Thú cưỡi Mạch Thượng Phi Sương (ngẫu nhiên)",
+      "Icon": "horsebox_c",
+      "Intro": "Vật phẩm sự kiện Nhị Niên Kiếm Vương 1.<br>Sử dụng nhận được thú cưỡi <color=#eba0ac>Mạch Thượng Phi Sương</color>, thời hạn ngẫu nhiên.",
+      "ItemValue": 200524
+    },
+    {
+      "ItemID": 20759,
+      "Name": "Danh hiệu Nhị Niên Kiếm Vương 1 (ngẫu nhiên)",
+      "Icon": "quest_0084_s",
+      "Intro": "Vật phẩm sự kiện Nhị Niên Kiếm Vương 1.<br>Sử dụng nhận được danh hiệu <color=#eba0ac>Nhị Niên Kiếm Vương 1</color>, thời hạn ngẫu nhiên.",
+      "ItemValue": 200523
+    },
+    {
+      "ItemID": 20761,
+      "Name": "Danh hiệu Nhị Niên Kiếm Vương 1 (30 ngày)",
+      "Icon": "quest_0084_s",
+      "Intro": "Vật phẩm sự kiện Nhị Niên Kiếm Vương 1.<br>Sử dụng nhận được danh hiệu <color=#eba0ac>Nhị Niên Kiếm Vương 1</color>, thời hạn 30 ngày.",
+      "ItemValue": 200525
+    },
+    {
+      "ItemID": 20764,
+      "Name": "Rương Sinh Nhật",
+      "Stack": 10000,
+      "Icon": "202412_ruong",
+      "Intro": "Phần thưởng đặc biệt từ Vòng quay Kiếm Vương 1 ADNX tròn 2 tuổi.",
+      "ItemValue": 200526
+    }
+  ],
+  "Normal": [
+    {
+      "ItemID": 20756,
+      "Name": "Nến Vàng",
+      "ParticularType": 32001,
+      "Stack": 10000,
+      "Icon": "202412_nenvang",
+      "Intro": "Vật phẩm sự kiện Nhị Niên Kiếm Vương 1.",
+      "ScriptID": 200121
+    },
+    {
+      "ItemID": 20757,
+      "Name": "Hoa Chúc Phúc",
+      "Icon": "202412_hoachucphuc",
+      "Intro": "Vật phẩm sự kiện Nhị Niên Kiếm Vương 1. <br>Sử dụng nhận được <color=#a6e3a1>1 điểm kỹ năng</color>. Mỗi người tối đa sử dụng <color=#eba0ac>2 vật phẩm</color>.",
+      "ScriptID": 200097,
+      "ListExtPram": [
+        {
+          "Pram": 700541,
+          "Index": 1
+        },
+        {
+          "Pram": 1,
+          "Index": 2
+        },
+        {
+          "Pram": 2,
+          "Index": 3
+        }
+      ]
+    },
+    {
+      "ItemID": 20758,
+      "Name": "Thiệp Sinh Nhật",
+      "Icon": "202412_thiepsinhnhat",
+      "Intro": "Vật phẩm sự kiện Nhị Niên Kiếm Vương 1. <br>Sử dụng nhận được <color=#a6e3a1>10 điểm tiềm năng</color>. Mỗi người tối đa sử dụng <color=#eba0ac>2 vật phẩm</color>.",
+      "ScriptID": 200096,
+      "ListExtPram": [
+        {
+          "Pram": 700542,
+          "Index": 1
+        },
+        {
+          "Pram": 10,
+          "Index": 2
+        },
+        {
+          "Pram": 2,
+          "Index": 3
+        }
+      ]
+    },
+    {
+      "ItemID": 20760,
+      "Name": "Quà Sinh Nhật",
+      "Stack": 10000,
+      "Icon": "202412_quasinhnhat",
+      "Intro": ""
+    },
+    {
+      "ItemID": 20762,
+      "Name": "Vé Sinh Nhật",
+      "Stack": 10000,
+      "Icon": "202412_vebbr",
+      "Intro": "Dùng để tham gia hoạt động Bách Bảo Rương đặc biệt."
+    },
+    {
+      "ItemID": 20763,
+      "Name": "Phiếu đổi thưởng Sinh Nhật",
+      "Stack": 10000,
+      "Icon": "202412_vesinhnhat",
+      "Intro": "Dùng để đổi quà tặng sinh nhật mừng Kiếm Vương 1 ADNX tròn 2 tuổi."
+    },
+    {
+      "ItemID": 20765,
+      "Name": "Vé Ngũ Phúc",
+      "Stack": 10000,
+      "Icon": "202412_venguphuc",
+      "Intro": "Dùng để tham gia hoạt động Ngũ Phúc Lâm Môn mừng Kiếm Vương 1 ADNX tròn 2 tuổi."
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+ManifestFileVersion: 0
+UnityVersion: 6000.3.17f1
+CRC: 997582253
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 87447545f3ae7b87bd0df54452c62603
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: bc9f87c7e64ff656997db0f2b2a91703
+  IncrementalBuildHash:
+    serializedVersion: 2
+    Hash: 1c8b96c8261b62eb787ab2a10e194c79
+HashAppended: 0
+ClassTypes:
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 213
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/Skill1000/AnimFile2.png
+Dependencies: []

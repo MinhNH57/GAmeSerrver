@@ -1,0 +1,724 @@
+<?xml version="1.0" ?>
+<ArrayOfItemData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <ItemData ItemID="16000" Name="Tân Thủ Kiếm Vương 1 ADNX Mobile" IconBundleDir="Icon/EquipIcon2.unity3d" IconAtlasName="EquipIcon2" MapSpriteBundleDir="Resources/Item/MapSprite.unity3d" MapSpriteAtlasName="MapSprite" Kind="Ngoại Trang" QualityPrefix="0" Category="1" Genre="1" Stack="1" DetailType="36" ParticularType="19" Level="3" Icon="quest_0009_s" View="quest_0009_s" Intro="Danh hiệu Vĩnh viễn" BindType="1" Series="0" ReqLevel="0" CDType="0" Price="0" ItemValue="10000000" MakeCost="-1" ResMale="0" ResFemale="0" FightPower="2" ScriptID="-1" DeductOnUse="false" BuffID="-1"/>
+    <ItemData ItemID="16001" Name="Tân Thủ Kiếm Vương 1 ADNX Mobile" IconBundleDir="Icon/EquipIcon2.unity3d" IconAtlasName="EquipIcon2" MapSpriteBundleDir="Resources/Item/MapSprite.unity3d" MapSpriteAtlasName="MapSprite" Kind="Ngoại Trang" QualityPrefix="0" Category="1" Genre="1" Stack="1" DetailType="36" ParticularType="19" Level="3" Icon="quest_0009_s" View="quest_0009_s" Intro="Danh hiệu Có thời hạn" BindType="1" Series="0" ReqLevel="0" CDType="0" Price="0" ItemValue="10000000" MakeCost="-1" ResMale="1" ResFemale="1" FightPower="2" ScriptID="-1" DeductOnUse="false" BuffID="-1"/>
+    <ItemData ItemID="16002" Name="Tân nhân vương - Thiếu Lâm" IconBundleDir="Icon/EquipIcon2.unity3d" IconAtlasName="EquipIcon2" MapSpriteBundleDir="Resources/Item/MapSprite.unity3d" MapSpriteAtlasName="MapSprite" Kind="Ngoại Trang" QualityPrefix="0" Category="1" Genre="1" Stack="1" DetailType="36" ParticularType="19" Level="3" Icon="quest_0009_s" View="quest_0009_s" Intro="Danh hiệu dành cho quán quân vô địch đấu trường thi đấu môn phái Thiếu Lâm" BindType="1" Series="0" ReqLevel="0" CDType="0" Price="0" ItemValue="10000000" MakeCost="-1" ResMale="100" ResFemale="100" FightPower="2" ScriptID="-1" DeductOnUse="false" BuffID="-1"/>
+    <ItemData ItemID="16003" Name="Tân nhân vương - Thiên Vương" IconBundleDir="Icon/EquipIcon2.unity3d" IconAtlasName="EquipIcon2" MapSpriteBundleDir="Resources/Item/MapSprite.unity3d" MapSpriteAtlasName="MapSprite" Kind="Ngoại Trang" QualityPrefix="0" Category="1" Genre="1" Stack="1" DetailType="36" ParticularType="19" Level="3" Icon="quest_0009_s" View="quest_0009_s" Intro="Danh hiệu dành cho quán quân vô địch đấu trường thi đấu môn phái Thiên Vương" BindType="1" Series="0" ReqLevel="0" CDType="0" Price="0" ItemValue="10000000" MakeCost="-1" ResMale="101" ResFemale="101" FightPower="2" ScriptID="-1" DeductOnUse="false" BuffID="-1"/>
+    <ItemData ItemID="16004" Name="Tân nhân vương - Cái Bang" IconBundleDir="Icon/EquipIcon2.unity3d" IconAtlasName="EquipIcon2" MapSpriteBundleDir="Resources/Item/MapSprite.unity3d" MapSpriteAtlasName="MapSprite" Kind="Ngoại Trang" QualityPrefix="0" Category="1" Genre="1" Stack="1" DetailType="36" ParticularType="19" Level="3" Icon="quest_0009_s" View="quest_0009_s" Intro="Danh hiệu dành cho quán quân vô địch đấu trường thi đấu môn phái Cái Bang" BindType="1" Series="0" ReqLevel="0" CDType="0" Price="0" ItemValue="10000000" MakeCost="-1" ResMale="102" ResFemale="102" FightPower="2" ScriptID="-1" DeductOnUse="false" BuffID="-1"/>
+    <ItemData ItemID="16005" Name="Tân nhân vương - Thiên Nhẫn" IconBundleDir="Icon/EquipIcon2.unity3d" IconAtlasName="EquipIcon2" MapSpriteBundleDir="Resources/Item/MapSprite.unity3d" MapSpriteAtlasName="MapSprite" Kind="Ngoại Trang" QualityPrefix="0" Category="1" Genre="1" Stack="1" DetailType="36" ParticularType="19" Level="3" Icon="quest_0009_s" View="quest_0009_s" Intro="Danh hiệu dành cho quán quân vô địch đấu trường thi đấu môn phái Thiên Nhẫn" BindType="1" Series="0" ReqLevel="0" CDType="0" Price="0" ItemValue="10000000" MakeCost="-1" ResMale="103" ResFemale="103" FightPower="2" ScriptID="-1" DeductOnUse="false" BuffID="-1"/>
+    <ItemData ItemID="16006" Name="Tân nhân vương - Nga My" IconBundleDir="Icon/EquipIcon2.unity3d" IconAtlasName="EquipIcon2" MapSpriteBundleDir="Resources/Item/MapSprite.unity3d" MapSpriteAtlasName="MapSprite" Kind="Ngoại Trang" QualityPrefix="0" Category="1" Genre="1" Stack="1" DetailType="36" ParticularType="19" Level="3" Icon="quest_0009_s" View="quest_0009_s" Intro="Danh hiệu dành cho quán quân vô địch đấu trường thi đấu môn phái Nga My" BindType="1" Series="0" ReqLevel="0" CDType="0" Price="0" ItemValue="10000000" MakeCost="-1" ResMale="104" ResFemale="104" FightPower="2" ScriptID="-1" DeductOnUse="false" BuffID="-1"/>
+    <ItemData ItemID="16007" Name="Tân nhân vương - Thúy Yên" IconBundleDir="Icon/EquipIcon2.unity3d" IconAtlasName="EquipIcon2" MapSpriteBundleDir="Resources/Item/MapSprite.unity3d" MapSpriteAtlasName="MapSprite" Kind="Ngoại Trang" QualityPrefix="0" Category="1" Genre="1" Stack="1" DetailType="36" ParticularType="19" Level="3" Icon="quest_0009_s" View="quest_0009_s" Intro="Danh hiệu dành cho quán quân vô địch đấu trường thi đấu môn phái Thúy Yên" BindType="1" Series="0" ReqLevel="0" CDType="0" Price="0" ItemValue="10000000" MakeCost="-1" ResMale="105" ResFemale="105" FightPower="2" ScriptID="-1" DeductOnUse="false" BuffID="-1"/>
+    <ItemData ItemID="16008" Name="Tân nhân vương - Đoàn Thị" IconBundleDir="Icon/EquipIcon2.unity3d" IconAtlasName="EquipIcon2" MapSpriteBundleDir="Resources/Item/MapSprite.unity3d" MapSpriteAtlasName="MapSprite" Kind="Ngoại Trang" QualityPrefix="0" Category="1" Genre="1" Stack="1" DetailType="36" ParticularType="19" Level="3" Icon="quest_0009_s" View="quest_0009_s" Intro="Danh hiệu dành cho quán quân vô địch đấu trường thi đấu môn phái Đại Lý Đoàn Thị" BindType="1" Series="0" ReqLevel="0" CDType="0" Price="0" ItemValue="10000000" MakeCost="-1" ResMale="106" ResFemale="106" FightPower="2" ScriptID="-1" DeductOnUse="false" BuffID="-1"/>
+    <ItemData ItemID="16009" Name="Tân nhân vương - Võ Đang" IconBundleDir="Icon/EquipIcon2.unity3d" IconAtlasName="EquipIcon2" MapSpriteBundleDir="Resources/Item/MapSprite.unity3d" MapSpriteAtlasName="MapSprite" Kind="Ngoại Trang" QualityPrefix="0" Category="1" Genre="1" Stack="1" DetailType="36" ParticularType="19" Level="3" Icon="quest_0009_s" View="quest_0009_s" Intro="Danh hiệu dành cho quán quân vô địch đấu trường thi đấu môn phái Võ Đang" BindType="1" Series="0" ReqLevel="0" CDType="0" Price="0" ItemValue="10000000" MakeCost="-1" ResMale="107" ResFemale="107" FightPower="2" ScriptID="-1" DeductOnUse="false" BuffID="-1"/>
+    <ItemData ItemID="16010" Name="Tân nhân vương - Côn Lôn" IconBundleDir="Icon/EquipIcon2.unity3d" IconAtlasName="EquipIcon2" MapSpriteBundleDir="Resources/Item/MapSprite.unity3d" MapSpriteAtlasName="MapSprite" Kind="Ngoại Trang" QualityPrefix="0" Category="1" Genre="1" Stack="1" DetailType="36" ParticularType="19" Level="3" Icon="quest_0009_s" View="quest_0009_s" Intro="Danh hiệu dành cho quán quân vô địch đấu trường thi đấu môn phái Côn Lôn" BindType="1" Series="0" ReqLevel="0" CDType="0" Price="0" ItemValue="10000000" MakeCost="-1" ResMale="108" ResFemale="108" FightPower="2" ScriptID="-1" DeductOnUse="false" BuffID="-1"/>
+    <ItemData ItemID="16011" Name="Tân nhân vương - Ngũ Độc" IconBundleDir="Icon/EquipIcon2.unity3d" IconAtlasName="EquipIcon2" MapSpriteBundleDir="Resources/Item/MapSprite.unity3d" MapSpriteAtlasName="MapSprite" Kind="Ngoại Trang" QualityPrefix="0" Category="1" Genre="1" Stack="1" DetailType="36" ParticularType="19" Level="3" Icon="quest_0009_s" View="quest_0009_s" Intro="Danh hiệu dành cho quán quân vô địch đấu trường thi đấu môn phái Ngũ Độc" BindType="1" Series="0" ReqLevel="0" CDType="0" Price="0" ItemValue="10000000" MakeCost="-1" ResMale="109" ResFemale="109" FightPower="2" ScriptID="-1" DeductOnUse="false" BuffID="-1"/>
+    <ItemData ItemID="16012" Name="Tân nhân vương - Đường Môn" IconBundleDir="Icon/EquipIcon2.unity3d" IconAtlasName="EquipIcon2" MapSpriteBundleDir="Resources/Item/MapSprite.unity3d" MapSpriteAtlasName="MapSprite" Kind="Ngoại Trang" QualityPrefix="0" Category="1" Genre="1" Stack="1" DetailType="36" ParticularType="19" Level="3" Icon="quest_0009_s" View="quest_0009_s" Intro="Danh hiệu dành cho quán quân vô địch đấu trường thi đấu môn phái Đường Môn" BindType="1" Series="0" ReqLevel="0" CDType="0" Price="0" ItemValue="10000000" MakeCost="-1" ResMale="110" ResFemale="110" FightPower="2" ScriptID="-1" DeductOnUse="false" BuffID="-1"/>
+    <ItemData ItemID="16013" Name="Tân nhân vương - Minh Giáo" IconBundleDir="Icon/EquipIcon2.unity3d" IconAtlasName="EquipIcon2" MapSpriteBundleDir="Resources/Item/MapSprite.unity3d" MapSpriteAtlasName="MapSprite" Kind="Ngoại Trang" QualityPrefix="0" Category="1" Genre="1" Stack="1" DetailType="36" ParticularType="19" Level="3" Icon="quest_0009_s" View="quest_0009_s" Intro="Danh hiệu dành cho quán quân vô địch đấu trường thi đấu môn phái Minh Giáo" BindType="1" Series="0" ReqLevel="0" CDType="0" Price="0" ItemValue="10000000" MakeCost="-1" ResMale="111" ResFemale="111" FightPower="2" ScriptID="-1" DeductOnUse="false" BuffID="-1"/>
+    <ItemData ItemID="16014" Name="Nhất Đẳng Vương Gia" IconBundleDir="Icon/EquipIcon2.unity3d" IconAtlasName="EquipIcon2" MapSpriteBundleDir="Resources/Item/MapSprite.unity3d" MapSpriteAtlasName="MapSprite" Kind="Ngoại Trang" QualityPrefix="0" Category="1" Genre="1" Stack="1" DetailType="36" ParticularType="19" Level="3" Icon="quest_0009_s" View="quest_0009_s" Intro="Danh hiệu dành cho Top Tài Phú" BindType="1" Series="0" ReqLevel="0" CDType="0" Price="0" ItemValue="10000000" MakeCost="-1" ResMale="112" ResFemale="112" FightPower="2" ScriptID="-1" DeductOnUse="false" BuffID="-1"/>
+    <ItemData ItemID="16015" Name="Phú Nhị Đại Gia" IconBundleDir="Icon/EquipIcon2.unity3d" IconAtlasName="EquipIcon2" MapSpriteBundleDir="Resources/Item/MapSprite.unity3d" MapSpriteAtlasName="MapSprite" Kind="Ngoại Trang" QualityPrefix="0" Category="1" Genre="1" Stack="1" DetailType="36" ParticularType="19" Level="3" Icon="quest_0009_s" View="quest_0009_s" Intro="Danh hiệu dành cho Top 2 Tài Phú" BindType="1" Series="0" ReqLevel="0" CDType="0" Price="0" ItemValue="10000000" MakeCost="-1" ResMale="113" ResFemale="113" FightPower="2" ScriptID="-1" DeductOnUse="false" BuffID="-1"/>
+    <ItemData ItemID="16016" Name="Phú Hào Kiếm Vương" IconBundleDir="Icon/EquipIcon2.unity3d" IconAtlasName="EquipIcon2" MapSpriteBundleDir="Resources/Item/MapSprite.unity3d" MapSpriteAtlasName="MapSprite" Kind="Ngoại Trang" QualityPrefix="0" Category="1" Genre="1" Stack="1" DetailType="36" ParticularType="19" Level="3" Icon="quest_0009_s" View="quest_0009_s" Intro="Danh hiệu dành cho Top 3 Tài Phú" BindType="1" Series="0" ReqLevel="0" CDType="0" Price="0" ItemValue="10000000" MakeCost="-1" ResMale="114" ResFemale="114" FightPower="2" ScriptID="-1" DeductOnUse="false" BuffID="-1"/>
+    <ItemData ItemID="16017" Name="Sứ Giả Mùa Hè" IconBundleDir="Icon/EquipIcon2.unity3d" IconAtlasName="EquipIcon2" MapSpriteBundleDir="Resources/Item/MapSprite.unity3d" MapSpriteAtlasName="MapSprite" Kind="Ngoại Trang" QualityPrefix="0" Category="1" Genre="1" Stack="1" DetailType="36" ParticularType="19" Level="3" Icon="quest_0009_s" View="quest_0009_s" Intro="Danh hiệu dành cho người chơi hoạt động tích cực trong Sự kiện Giải Nhiệt Mùa Hè" BindType="1" Series="0" ReqLevel="0" CDType="0" Price="0" ItemValue="10000000" MakeCost="-1" ResMale="115" ResFemale="115" FightPower="2" ScriptID="-1" DeductOnUse="false" BuffID="-1"/>
+    <ItemData ItemID="16018" Name="Sứ Giả Mùa Hè" IconBundleDir="Icon/EquipIcon2.unity3d" IconAtlasName="EquipIcon2" MapSpriteBundleDir="Resources/Item/MapSprite.unity3d" MapSpriteAtlasName="MapSprite" Kind="Ngoại Trang" QualityPrefix="0" Category="1" Genre="1" Stack="1" DetailType="36" ParticularType="19" Level="3" Icon="quest_0009_s" View="quest_0009_s" Intro="Danh hiệu dành cho người chơi hoạt động tích cực trong Sự kiện Giải Nhiệt Mùa Hè" BindType="1" Series="0" ReqLevel="0" CDType="0" Price="0" ItemValue="10000000" MakeCost="-1" ResMale="116" ResFemale="116" FightPower="2" ScriptID="-1" DeductOnUse="false" BuffID="-1"/>
+    <ItemData ItemID="16019" Name="Chiến Thần" IconBundleDir="Icon/EquipIcon2.unity3d" IconAtlasName="EquipIcon2" MapSpriteBundleDir="Resources/Item/MapSprite.unity3d" MapSpriteAtlasName="MapSprite" Kind="Ngoại Trang" QualityPrefix="0" Category="1" Genre="1" Stack="1" DetailType="36" ParticularType="19" Level="3" Icon="quest_0009_s" View="quest_0009_s" Intro="Danh hiệu dành cho quán quân vô địch giải đấu" BindType="1" Series="0" ReqLevel="0" CDType="0" Price="0" ItemValue="10000000" MakeCost="-1" ResMale="117" ResFemale="117" FightPower="2" ScriptID="-1" DeductOnUse="false" BuffID="-1"/>
+    <ItemData ItemID="16020" Name="Ngưu Lang" IconBundleDir="Icon/EquipIcon2.unity3d" IconAtlasName="EquipIcon2" MapSpriteBundleDir="Resources/Item/MapSprite.unity3d" MapSpriteAtlasName="MapSprite" Kind="Ngoại Trang" QualityPrefix="0" Category="1" Genre="1" Stack="1" DetailType="36" ParticularType="19" Level="3" Icon="quest_0009_s" View="quest_0009_s" Intro="Danh hiệu dành cho người chơi hoạt động tích cực trong Sự kiện Đậu đỏ Kết Duyên" BindType="1" Series="0" ReqLevel="0" CDType="0" Price="0" ItemValue="10000000" MakeCost="-1" ResMale="118" ResFemale="118" FightPower="2" ScriptID="-1" DeductOnUse="false" BuffID="-1"/>
+    <ItemData ItemID="16021" Name="Ngưu Lang" IconBundleDir="Icon/EquipIcon2.unity3d" IconAtlasName="EquipIcon2" MapSpriteBundleDir="Resources/Item/MapSprite.unity3d" MapSpriteAtlasName="MapSprite" Kind="Ngoại Trang" QualityPrefix="0" Category="1" Genre="1" Stack="1" DetailType="36" ParticularType="19" Level="3" Icon="quest_0009_s" View="quest_0009_s" Intro="Danh hiệu dành cho người chơi hoạt động tích cực trong Sự kiện Đậu đỏ Kết Duyên" BindType="1" Series="0" ReqLevel="0" CDType="0" Price="0" ItemValue="10000000" MakeCost="-1" ResMale="119" ResFemale="119" FightPower="2" ScriptID="-1" DeductOnUse="false" BuffID="-1"/>
+    <ItemData ItemID="16022" Name="Chức Nữ" IconBundleDir="Icon/EquipIcon2.unity3d" IconAtlasName="EquipIcon2" MapSpriteBundleDir="Resources/Item/MapSprite.unity3d" MapSpriteAtlasName="MapSprite" Kind="Ngoại Trang" QualityPrefix="0" Category="1" Genre="1" Stack="1" DetailType="36" ParticularType="19" Level="3" Icon="quest_0009_s" View="quest_0009_s" Intro="Danh hiệu dành cho người chơi hoạt động tích cực trong Sự kiện Đậu đỏ Kết Duyên" BindType="1" Series="0" ReqLevel="0" CDType="0" Price="0" ItemValue="10000000" MakeCost="-1" ResMale="120" ResFemale="120" FightPower="2" ScriptID="-1" DeductOnUse="false" BuffID="-1"/>
+    <ItemData ItemID="16023" Name="Chức Nữ" IconBundleDir="Icon/EquipIcon2.unity3d" IconAtlasName="EquipIcon2" MapSpriteBundleDir="Resources/Item/MapSprite.unity3d" MapSpriteAtlasName="MapSprite" Kind="Ngoại Trang" QualityPrefix="0" Category="1" Genre="1" Stack="1" DetailType="36" ParticularType="19" Level="3" Icon="quest_0009_s" View="quest_0009_s" Intro="Danh hiệu dành cho người chơi hoạt động tích cực trong Sự kiện Đậu đỏ Kết Duyên" BindType="1" Series="0" ReqLevel="0" CDType="0" Price="0" ItemValue="10000000" MakeCost="-1" ResMale="121" ResFemale="121" FightPower="2" ScriptID="-1" DeductOnUse="false" BuffID="-1"/>
+    <ItemData ItemID="16024" Name="Ngưu Lang" IconBundleDir="Icon/EquipIcon2.unity3d" IconAtlasName="EquipIcon2" MapSpriteBundleDir="Resources/Item/MapSprite.unity3d" MapSpriteAtlasName="MapSprite" Kind="Ngoại Trang" QualityPrefix="0" Category="1" Genre="1" Stack="1" DetailType="36" ParticularType="19" Level="3" Icon="quest_0009_s" View="quest_0009_s" Intro="Danh hiệu dành cho người chơi hoạt động tích cực trong Sự kiện Đậu đỏ Kết Duyên" BindType="1" Series="0" ReqLevel="0" CDType="0" Price="0" ItemValue="10000000" MakeCost="-1" ResMale="122" ResFemale="122" FightPower="2" ScriptID="-1" DeductOnUse="false" BuffID="-1"/>
+    <ItemData ItemID="16025" Name="Chức Nữ" IconBundleDir="Icon/EquipIcon2.unity3d" IconAtlasName="EquipIcon2" MapSpriteBundleDir="Resources/Item/MapSprite.unity3d" MapSpriteAtlasName="MapSprite" Kind="Ngoại Trang" QualityPrefix="0" Category="1" Genre="1" Stack="1" DetailType="36" ParticularType="19" Level="3" Icon="quest_0009_s" View="quest_0009_s" Intro="Danh hiệu dành cho người chơi hoạt động tích cực trong Sự kiện Đậu đỏ Kết Duyên" BindType="1" Series="0" ReqLevel="0" CDType="0" Price="0" ItemValue="10000000" MakeCost="-1" ResMale="123" ResFemale="123" FightPower="2" ScriptID="-1" DeductOnUse="false" BuffID="-1"/>
+    <ItemData ItemID="16026" Name="Chú Cuội" IconBundleDir="Icon/EquipIcon2.unity3d" IconAtlasName="EquipIcon2" MapSpriteBundleDir="Resources/Item/MapSprite.unity3d" MapSpriteAtlasName="MapSprite" Kind="Ngoại Trang" QualityPrefix="0" Category="1" Genre="1" Stack="1" DetailType="36" ParticularType="19" Level="3" Icon="quest_0009_s" View="quest_0009_s" Intro="Danh hiệu dành cho người chơi hoạt động tích cực trong Sự kiện Phá cỗ Trung thu" BindType="1" Series="0" ReqLevel="0" CDType="0" Price="0" ItemValue="10000000" MakeCost="-1" ResMale="124" ResFemale="124" FightPower="2" ScriptID="-1" DeductOnUse="false" BuffID="-1"/>
+    <ItemData ItemID="16027" Name="Chị Hằng" IconBundleDir="Icon/EquipIcon2.unity3d" IconAtlasName="EquipIcon2" MapSpriteBundleDir="Resources/Item/MapSprite.unity3d" MapSpriteAtlasName="MapSprite" Kind="Ngoại Trang" QualityPrefix="0" Category="1" Genre="1" Stack="1" DetailType="36" ParticularType="19" Level="3" Icon="quest_0009_s" View="quest_0009_s" Intro="Danh hiệu dành cho người chơi hoạt động tích cực trong Sự kiện Phá cỗ Trung thu" BindType="1" Series="0" ReqLevel="0" CDType="0" Price="0" ItemValue="10000000" MakeCost="-1" ResMale="125" ResFemale="125" FightPower="2" ScriptID="-1" DeductOnUse="false" BuffID="-1"/>
+    <ItemData ItemID="16028" Name="Minh Chủ Võ Lâm" IconBundleDir="Icon/EquipIcon2.unity3d" IconAtlasName="EquipIcon2" MapSpriteBundleDir="Resources/Item/MapSprite.unity3d" MapSpriteAtlasName="MapSprite" Kind="Ngoại Trang" QualityPrefix="0" Category="1" Genre="1" Stack="1" DetailType="36" ParticularType="19" Level="3" Icon="quest_0009_s" View="quest_0009_s" Intro="Danh hiệu dành cho bang chủ bang hội vô địch sự kiện Bang Hội Vô Song" BindType="1" Series="0" ReqLevel="0" CDType="0" Price="0" ItemValue="10000000" MakeCost="-1" ResMale="126" ResFemale="126" FightPower="2" ScriptID="-1" DeductOnUse="false" BuffID="-1"/>
+    <ItemData ItemID="16029" Name="Vô Song Đệ Nhất Bang" IconBundleDir="Icon/EquipIcon2.unity3d" IconAtlasName="EquipIcon2" MapSpriteBundleDir="Resources/Item/MapSprite.unity3d" MapSpriteAtlasName="MapSprite" Kind="Ngoại Trang" QualityPrefix="0" Category="1" Genre="1" Stack="1" DetailType="36" ParticularType="19" Level="3" Icon="quest_0009_s" View="quest_0009_s" Intro="Danh hiệu dành cho bang hội vô địch sự kiện Bang Hội Vô Song" BindType="1" Series="0" ReqLevel="0" CDType="0" Price="0" ItemValue="10000000" MakeCost="-1" ResMale="127" ResFemale="127" FightPower="2" ScriptID="-1" DeductOnUse="false" BuffID="-1"/>
+    <ItemData ItemID="16030" Name="Lãng Tử Độc Hành" IconBundleDir="Icon/EquipIcon2.unity3d" IconAtlasName="EquipIcon2" MapSpriteBundleDir="Resources/Item/MapSprite.unity3d" MapSpriteAtlasName="MapSprite" Kind="Ngoại Trang" QualityPrefix="0" Category="1" Genre="1" Stack="1" DetailType="36" ParticularType="19" Level="3" Icon="quest_0009_s" View="quest_0009_s" Intro="Danh hiệu nhận được trong sự kiện Câu cá Mùa thu" BindType="1" Series="0" ReqLevel="0" CDType="0" Price="0" ItemValue="10000000" MakeCost="-1" ResMale="128" ResFemale="128" FightPower="2" ScriptID="-1" DeductOnUse="false" BuffID="-1"/>
+    <ItemData ItemID="16031" Name="Lãng Tử Độc Hành" IconBundleDir="Icon/EquipIcon2.unity3d" IconAtlasName="EquipIcon2" MapSpriteBundleDir="Resources/Item/MapSprite.unity3d" MapSpriteAtlasName="MapSprite" Kind="Ngoại Trang" QualityPrefix="0" Category="1" Genre="1" Stack="1" DetailType="36" ParticularType="19" Level="3" Icon="quest_0009_s" View="quest_0009_s" Intro="Danh hiệu nhận được trong sự kiện Câu cá Mùa thu" BindType="1" Series="0" ReqLevel="0" CDType="0" Price="0" ItemValue="10000000" MakeCost="-1" ResMale="129" ResFemale="129" FightPower="2" ScriptID="-1" DeductOnUse="false" BuffID="-1"/>
+    <ItemData ItemID="16032" Name="Lãng Tử Độc Hành" IconBundleDir="Icon/EquipIcon2.unity3d" IconAtlasName="EquipIcon2" MapSpriteBundleDir="Resources/Item/MapSprite.unity3d" MapSpriteAtlasName="MapSprite" Kind="Ngoại Trang" QualityPrefix="0" Category="1" Genre="1" Stack="1" DetailType="36" ParticularType="19" Level="3" Icon="quest_0009_s" View="quest_0009_s" Intro="Danh hiệu nhận được trong sự kiện Câu cá Mùa thu" BindType="1" Series="0" ReqLevel="0" CDType="0" Price="0" ItemValue="10000000" MakeCost="-1" ResMale="130" ResFemale="130" FightPower="2" ScriptID="-1" DeductOnUse="false" BuffID="-1"/>
+    <ItemData ItemID="16033" Name="Lãng Tử Độc Hành" IconBundleDir="Icon/EquipIcon2.unity3d" IconAtlasName="EquipIcon2" MapSpriteBundleDir="Resources/Item/MapSprite.unity3d" MapSpriteAtlasName="MapSprite" Kind="Ngoại Trang" QualityPrefix="0" Category="1" Genre="1" Stack="1" DetailType="36" ParticularType="19" Level="3" Icon="quest_0009_s" View="quest_0009_s" Intro="Danh hiệu nhận được trong sự kiện Câu cá Mùa thu" BindType="1" Series="0" ReqLevel="0" CDType="0" Price="0" ItemValue="10000000" MakeCost="-1" ResMale="131" ResFemale="131" FightPower="2" ScriptID="-1" DeductOnUse="false" BuffID="-1"/>
+    <ItemData ItemID="16034" Name="Danh hiệu Anh Hùng Hội Tụ" IconBundleDir="Icon/EquipIcon2.unity3d" IconAtlasName="EquipIcon2" MapSpriteBundleDir="Resources/Item/MapSprite.unity3d" MapSpriteAtlasName="MapSprite" Kind="Ngoại Trang" QualityPrefix="0" Category="1" Genre="1" Stack="1" DetailType="36" ParticularType="19" Level="3" Icon="quest_0009_s" View="quest_0009_s" Intro="Danh hiệu nhận được từ sự kiện ADNX Day" BindType="1" Series="0" ReqLevel="0" CDType="0" Price="0" ItemValue="10000000" MakeCost="-1" ResMale="132" ResFemale="132" FightPower="2" ScriptID="-1" DeductOnUse="false" BuffID="-1"/>
+    <ItemData ItemID="16035" Name="Danh hiệu Kề Vai Sát Cánh (VIP)" IconBundleDir="Icon/EquipIcon2.unity3d" IconAtlasName="EquipIcon2" MapSpriteBundleDir="Resources/Item/MapSprite.unity3d" MapSpriteAtlasName="MapSprite" Kind="Ngoại Trang" QualityPrefix="0" Category="1" Genre="1" Stack="1" DetailType="36" ParticularType="19" Level="3" Icon="quest_0009_s" View="quest_0009_s" Intro="Danh hiệu nhận được từ sự kiện Sinh nhật" BindType="1" Series="0" ReqLevel="0" CDType="0" Price="0" ItemValue="10000000" MakeCost="-1" ResMale="133" ResFemale="133" FightPower="2" ScriptID="-1" DeductOnUse="false" BuffID="-1">
+        <ListBasicProp BasicPropType="lifemax_v" BasicPropPA1Min="500" BasicPropPA1Max="500" Index="1"/>
+        <ListBasicProp BasicPropType="damage_all_resist" BasicPropPA1Min="10" BasicPropPA1Max="10" Index="2"/>
+        <ListBasicProp BasicPropType="expenhance_p" BasicPropPA1Min="30" BasicPropPA1Max="30" Index="3"/>
+    </ItemData>
+    <ItemData ItemID="16036" Name="Danh hiệu Song Long Xuất Hải" IconBundleDir="Icon/EquipIcon2.unity3d" IconAtlasName="EquipIcon2" MapSpriteBundleDir="Resources/Item/MapSprite.unity3d" MapSpriteAtlasName="MapSprite" Kind="Ngoại Trang" QualityPrefix="0" Category="1" Genre="1" Stack="1" DetailType="36" ParticularType="19" Level="3" Icon="quest_0009_s" View="quest_0009_s" Intro="Danh hiệu nhận được từ sự kiện Song Long Xuất Hải" BindType="1" Series="0" ReqLevel="0" CDType="0" Price="0" ItemValue="10000000" MakeCost="-1" ResMale="134" ResFemale="134" FightPower="2" ScriptID="-1" DeductOnUse="false" BuffID="-1">
+        <ListBasicProp BasicPropType="fastwalkrun_p" BasicPropPA1Min="10" BasicPropPA1Max="10" Index="1"/>
+    </ItemData>
+    <ItemData ItemID="16037" Name="Danh hiệu Kề Vai Sát Cánh" IconBundleDir="Icon/EquipIcon2.unity3d" IconAtlasName="EquipIcon2" MapSpriteBundleDir="Resources/Item/MapSprite.unity3d" MapSpriteAtlasName="MapSprite" Kind="Ngoại Trang" QualityPrefix="0" Category="1" Genre="1" Stack="1" DetailType="36" ParticularType="19" Level="3" Icon="quest_0009_s" View="quest_0009_s" Intro="Danh hiệu nhận được từ sự kiện Sinh nhật" BindType="1" Series="0" ReqLevel="0" CDType="0" Price="0" ItemValue="10000000" MakeCost="-1" ResMale="135" ResFemale="135" FightPower="2" ScriptID="-1" DeductOnUse="false" BuffID="-1"/>
+    <ItemData ItemID="16038" Name="Danh hiệu Võ Lâm Minh Chủ" IconBundleDir="Icon/EquipIcon2.unity3d" IconAtlasName="EquipIcon2" MapSpriteBundleDir="Resources/Item/MapSprite.unity3d" MapSpriteAtlasName="MapSprite" Kind="Ngoại Trang" QualityPrefix="0" Category="1" Genre="1" Stack="1" DetailType="36" ParticularType="19" Level="3" Icon="quest_0009_s" View="quest_0009_s" Intro="Danh hiệu nhận được từ hoạt động Võ Lâm Minh Chủ" BindType="1" Series="0" ReqLevel="0" CDType="0" Price="0" ItemValue="10000000" MakeCost="-1" ResMale="136" ResFemale="136" FightPower="2" ScriptID="-1" DeductOnUse="false" BuffID="-1">
+        <ListBasicProp BasicPropType="fastwalkrun_p" BasicPropPA1Min="10" BasicPropPA1Max="10" Index="1"/>
+        <ListBasicProp BasicPropType="expenhance_p" BasicPropPA1Min="20" BasicPropPA1Max="20" Index="2"/>
+        <ListBasicProp BasicPropType="lucky_v" BasicPropPA1Min="20" BasicPropPA1Max="20" Index="3"/>
+    </ItemData>
+    <ItemData ItemID="16039" Name="Danh hiệu Quốc Sắc Thiên Hương" IconBundleDir="Icon/EquipIcon2.unity3d" IconAtlasName="EquipIcon2" MapSpriteBundleDir="Resources/Item/MapSprite.unity3d" MapSpriteAtlasName="MapSprite" Kind="Ngoại Trang" QualityPrefix="0" Category="1" Genre="1" Stack="1" DetailType="36" ParticularType="19" Level="3" Icon="quest_0009_s" View="quest_0009_s" Intro="Danh hiệu nhận được từ sự kiện Quốc Sắc Thiên Hương" BindType="1" Series="0" ReqLevel="0" CDType="0" Price="0" ItemValue="10000000" MakeCost="-1" ResMale="137" ResFemale="137" FightPower="2" ScriptID="-1" DeductOnUse="false" BuffID="-1">
+        <ListBasicProp BasicPropType="lifemax_v" BasicPropPA1Min="500" BasicPropPA1Max="500" Index="1"/>
+        <ListBasicProp BasicPropType="allseriesstateresistrate" BasicPropPA1Min="50" BasicPropPA1Max="50" Index="2"/>
+        <ListBasicProp BasicPropType="allspecialstateresisttime" BasicPropPA1Min="10" BasicPropPA1Max="10" Index="3"/>
+    </ItemData>
+    <ItemData ItemID="16040" Name="Danh hiệu Quốc Sắc Thiên Hương" IconBundleDir="Icon/EquipIcon2.unity3d" IconAtlasName="EquipIcon2" MapSpriteBundleDir="Resources/Item/MapSprite.unity3d" MapSpriteAtlasName="MapSprite" Kind="Ngoại Trang" QualityPrefix="0" Category="1" Genre="1" Stack="1" DetailType="36" ParticularType="19" Level="3" Icon="quest_0009_s" View="quest_0009_s" Intro="Danh hiệu nhận được từ sự kiện Quốc Sắc Thiên Hương" BindType="1" Series="0" ReqLevel="0" CDType="0" Price="0" ItemValue="10000000" MakeCost="-1" ResMale="138" ResFemale="138" FightPower="2" ScriptID="-1" DeductOnUse="false" BuffID="-1">
+        <ListBasicProp BasicPropType="lifemax_v" BasicPropPA1Min="500" BasicPropPA1Max="500" Index="1"/>
+        <ListBasicProp BasicPropType="allseriesstateresistrate" BasicPropPA1Min="50" BasicPropPA1Max="50" Index="2"/>
+        <ListBasicProp BasicPropType="allspecialstateresisttime" BasicPropPA1Min="10" BasicPropPA1Max="10" Index="3"/>
+    </ItemData>
+    <ItemData ItemID="16041" Name="Danh hiệu Quốc Sắc Thiên Hương" IconBundleDir="Icon/EquipIcon2.unity3d" IconAtlasName="EquipIcon2" MapSpriteBundleDir="Resources/Item/MapSprite.unity3d" MapSpriteAtlasName="MapSprite" Kind="Ngoại Trang" QualityPrefix="0" Category="1" Genre="1" Stack="1" DetailType="36" ParticularType="19" Level="3" Icon="quest_0009_s" View="quest_0009_s" Intro="Danh hiệu nhận được từ sự kiện Quốc Sắc Thiên Hương" BindType="1" Series="0" ReqLevel="0" CDType="0" Price="0" ItemValue="10000000" MakeCost="-1" ResMale="139" ResFemale="139" FightPower="2" ScriptID="-1" DeductOnUse="false" BuffID="-1">
+        <ListBasicProp BasicPropType="lifemax_v" BasicPropPA1Min="700" BasicPropPA1Max="700" Index="1"/>
+        <ListBasicProp BasicPropType="allseriesstateresistrate" BasicPropPA1Min="75" BasicPropPA1Max="75" Index="2"/>
+        <ListBasicProp BasicPropType="allspecialstateresisttime" BasicPropPA1Min="15" BasicPropPA1Max="15" Index="3"/>
+    </ItemData>
+    <ItemData ItemID="16042" Name="Danh hiệu Quốc Sắc Thiên Hương" IconBundleDir="Icon/EquipIcon2.unity3d" IconAtlasName="EquipIcon2" MapSpriteBundleDir="Resources/Item/MapSprite.unity3d" MapSpriteAtlasName="MapSprite" Kind="Ngoại Trang" QualityPrefix="0" Category="1" Genre="1" Stack="1" DetailType="36" ParticularType="19" Level="3" Icon="quest_0009_s" View="quest_0009_s" Intro="Danh hiệu nhận được từ sự kiện Quốc Sắc Thiên Hương" BindType="1" Series="0" ReqLevel="0" CDType="0" Price="0" ItemValue="10000000" MakeCost="-1" ResMale="140" ResFemale="140" FightPower="2" ScriptID="-1" DeductOnUse="false" BuffID="-1">
+        <ListBasicProp BasicPropType="lifemax_v" BasicPropPA1Min="1000" BasicPropPA1Max="1000" Index="1"/>
+        <ListBasicProp BasicPropType="allseriesstateresistrate" BasicPropPA1Min="100" BasicPropPA1Max="100" Index="2"/>
+        <ListBasicProp BasicPropType="allspecialstateresisttime" BasicPropPA1Min="20" BasicPropPA1Max="20" Index="3"/>
+    </ItemData>
+    <ItemData ItemID="16043" Name="Danh hiệu Ngoan Xinh Yêu" IconBundleDir="Icon/EquipIcon2.unity3d" IconAtlasName="EquipIcon2" MapSpriteBundleDir="Resources/Item/MapSprite.unity3d" MapSpriteAtlasName="MapSprite" Kind="Ngoại Trang" QualityPrefix="0" Category="1" Genre="1" Stack="1" DetailType="36" ParticularType="19" Level="3" Icon="quest_0009_s" View="quest_0009_s" Intro="Có hiệu lực trong vòng 14 ngày" BindType="1" Series="0" ReqLevel="0" CDType="0" Price="0" ItemValue="10000000" MakeCost="-1" ResMale="141" ResFemale="141" FightPower="2" ScriptID="-1" DeductOnUse="false" BuffID="-1"/>
+    <ItemData ItemID="16044" Name="Danh hiệu Tôi Kể Với Bạn Thôi Đấy (3 ngày)" IconBundleDir="Icon/EquipIcon2.unity3d" IconAtlasName="EquipIcon2" MapSpriteBundleDir="Resources/Item/MapSprite.unity3d" MapSpriteAtlasName="MapSprite" Kind="Ngoại Trang" QualityPrefix="0" Category="1" Genre="1" Stack="1" DetailType="36" ParticularType="19" Level="3" Icon="quest_0009_s" View="quest_0009_s" Intro="Có hiệu lực trong vòng 3 ngày" BindType="1" Series="0" ReqLevel="0" CDType="0" Price="0" ItemValue="10000000" MakeCost="-1" ResMale="142" ResFemale="142" FightPower="2" ScriptID="-1" DeductOnUse="false" BuffID="-1">
+        <ListBasicProp BasicPropType="lifemax_v" BasicPropPA1Min="500" BasicPropPA1Max="500" Index="1"/>
+        <ListBasicProp BasicPropType="attackspeed_v" BasicPropPA1Min="3" BasicPropPA1Max="3" Index="2"/>
+        <ListBasicProp BasicPropType="castspeed_v" BasicPropPA1Min="3" BasicPropPA1Max="3" Index="3"/>
+    </ItemData>
+    <ItemData ItemID="16045" Name="Danh hiệu Tôi Kể Với Bạn Thôi Đấy (7 ngày)" IconBundleDir="Icon/EquipIcon2.unity3d" IconAtlasName="EquipIcon2" MapSpriteBundleDir="Resources/Item/MapSprite.unity3d" MapSpriteAtlasName="MapSprite" Kind="Ngoại Trang" QualityPrefix="0" Category="1" Genre="1" Stack="1" DetailType="36" ParticularType="19" Level="3" Icon="quest_0009_s" View="quest_0009_s" Intro="Có hiệu lực trong vòng 7 ngày" BindType="1" Series="0" ReqLevel="0" CDType="0" Price="0" ItemValue="10000000" MakeCost="-1" ResMale="143" ResFemale="143" FightPower="2" ScriptID="-1" DeductOnUse="false" BuffID="-1">
+        <ListBasicProp BasicPropType="lifemax_v" BasicPropPA1Min="500" BasicPropPA1Max="500" Index="1"/>
+        <ListBasicProp BasicPropType="attackspeed_v" BasicPropPA1Min="3" BasicPropPA1Max="3" Index="2"/>
+        <ListBasicProp BasicPropType="castspeed_v" BasicPropPA1Min="3" BasicPropPA1Max="3" Index="3"/>
+    </ItemData>
+    <ItemData ItemID="16046" Name="Danh hiệu Tôi Kể Với Bạn Thôi Đấy (14 ngày)" IconBundleDir="Icon/EquipIcon2.unity3d" IconAtlasName="EquipIcon2" MapSpriteBundleDir="Resources/Item/MapSprite.unity3d" MapSpriteAtlasName="MapSprite" Kind="Ngoại Trang" QualityPrefix="0" Category="1" Genre="1" Stack="1" DetailType="36" ParticularType="19" Level="3" Icon="quest_0009_s" View="quest_0009_s" Intro="Có hiệu lực trong vòng 14 ngày" BindType="1" Series="0" ReqLevel="0" CDType="0" Price="0" ItemValue="10000000" MakeCost="-1" ResMale="144" ResFemale="144" FightPower="2" ScriptID="-1" DeductOnUse="false" BuffID="-1">
+        <ListBasicProp BasicPropType="lifemax_v" BasicPropPA1Min="700" BasicPropPA1Max="700" Index="1"/>
+        <ListBasicProp BasicPropType="attackspeed_v" BasicPropPA1Min="3" BasicPropPA1Max="3" Index="2"/>
+        <ListBasicProp BasicPropType="castspeed_v" BasicPropPA1Min="3" BasicPropPA1Max="3" Index="3"/>
+    </ItemData>
+    <ItemData ItemID="16047" Name="Danh hiệu Tôi Kể Với Bạn Thôi Đấy (30 ngày)" IconBundleDir="Icon/EquipIcon2.unity3d" IconAtlasName="EquipIcon2" MapSpriteBundleDir="Resources/Item/MapSprite.unity3d" MapSpriteAtlasName="MapSprite" Kind="Ngoại Trang" QualityPrefix="0" Category="1" Genre="1" Stack="1" DetailType="36" ParticularType="19" Level="3" Icon="quest_0009_s" View="quest_0009_s" Intro="Có hiệu lực trong vòng 30 ngày" BindType="1" Series="0" ReqLevel="0" CDType="0" Price="0" ItemValue="10000000" MakeCost="-1" ResMale="145" ResFemale="145" FightPower="2" ScriptID="-1" DeductOnUse="false" BuffID="-1">
+        <ListBasicProp BasicPropType="lifemax_v" BasicPropPA1Min="1000" BasicPropPA1Max="1000" Index="1"/>
+        <ListBasicProp BasicPropType="attackspeed_v" BasicPropPA1Min="3" BasicPropPA1Max="3" Index="2"/>
+        <ListBasicProp BasicPropType="castspeed_v" BasicPropPA1Min="3" BasicPropPA1Max="3" Index="3"/>
+    </ItemData>
+    <ItemData ItemID="16048" Name="Danh hiệu Lao Động Là Vinh Quang (3 ngày)" IconBundleDir="Icon/EquipIcon2.unity3d" IconAtlasName="EquipIcon2" MapSpriteBundleDir="Resources/Item/MapSprite.unity3d" MapSpriteAtlasName="MapSprite" Kind="Ngoại Trang" QualityPrefix="0" Category="1" Genre="1" Stack="1" DetailType="36" ParticularType="19" Level="3" Icon="quest_0009_s" View="quest_0009_s" Intro="Có hiệu lực trong vòng 3 ngày" BindType="1" Series="0" ReqLevel="0" CDType="0" Price="0" ItemValue="10000000" MakeCost="-1" ResMale="146" ResFemale="146" FightPower="2" ScriptID="-1" DeductOnUse="false" BuffID="-1">
+        <ListBasicProp BasicPropType="lifemax_v" BasicPropPA1Min="500" BasicPropPA1Max="500" Index="1"/>
+        <ListBasicProp BasicPropType="lucky_v" BasicPropPA1Min="20" BasicPropPA1Max="20" Index="2"/>
+        <ListBasicProp BasicPropType="expenhance_p" BasicPropPA1Min="30" BasicPropPA1Max="30" Index="3"/>
+    </ItemData>
+    <ItemData ItemID="16049" Name="Danh hiệu Lao Động Là Vinh Quang (7 ngày)" IconBundleDir="Icon/EquipIcon2.unity3d" IconAtlasName="EquipIcon2" MapSpriteBundleDir="Resources/Item/MapSprite.unity3d" MapSpriteAtlasName="MapSprite" Kind="Ngoại Trang" QualityPrefix="0" Category="1" Genre="1" Stack="1" DetailType="36" ParticularType="19" Level="3" Icon="quest_0009_s" View="quest_0009_s" Intro="Có hiệu lực trong vòng 7 ngày" BindType="1" Series="0" ReqLevel="0" CDType="0" Price="0" ItemValue="10000000" MakeCost="-1" ResMale="147" ResFemale="147" FightPower="2" ScriptID="-1" DeductOnUse="false" BuffID="-1">
+        <ListBasicProp BasicPropType="lifemax_v" BasicPropPA1Min="500" BasicPropPA1Max="500" Index="1"/>
+        <ListBasicProp BasicPropType="lucky_v" BasicPropPA1Min="20" BasicPropPA1Max="20" Index="2"/>
+        <ListBasicProp BasicPropType="expenhance_p" BasicPropPA1Min="30" BasicPropPA1Max="30" Index="3"/>
+    </ItemData>
+    <ItemData ItemID="16050" Name="Danh hiệu Lao Động Là Vinh Quang (14 ngày)" IconBundleDir="Icon/EquipIcon2.unity3d" IconAtlasName="EquipIcon2" MapSpriteBundleDir="Resources/Item/MapSprite.unity3d" MapSpriteAtlasName="MapSprite" Kind="Ngoại Trang" QualityPrefix="0" Category="1" Genre="1" Stack="1" DetailType="36" ParticularType="19" Level="3" Icon="quest_0009_s" View="quest_0009_s" Intro="Có hiệu lực trong vòng 14 ngày" BindType="1" Series="0" ReqLevel="0" CDType="0" Price="0" ItemValue="10000000" MakeCost="-1" ResMale="148" ResFemale="148" FightPower="2" ScriptID="-1" DeductOnUse="false" BuffID="-1">
+        <ListBasicProp BasicPropType="lifemax_v" BasicPropPA1Min="500" BasicPropPA1Max="500" Index="1"/>
+        <ListBasicProp BasicPropType="lucky_v" BasicPropPA1Min="20" BasicPropPA1Max="20" Index="2"/>
+        <ListBasicProp BasicPropType="expenhance_p" BasicPropPA1Min="30" BasicPropPA1Max="30" Index="3"/>
+    </ItemData>
+    <ItemData ItemID="16051" Name="Danh hiệu Lao Động Là Vinh Quang (30 ngày)" IconBundleDir="Icon/EquipIcon2.unity3d" IconAtlasName="EquipIcon2" MapSpriteBundleDir="Resources/Item/MapSprite.unity3d" MapSpriteAtlasName="MapSprite" Kind="Ngoại Trang" QualityPrefix="0" Category="1" Genre="1" Stack="1" DetailType="36" ParticularType="19" Level="3" Icon="quest_0009_s" View="quest_0009_s" Intro="Có hiệu lực trong vòng 30 ngày" BindType="1" Series="0" ReqLevel="0" CDType="0" Price="0" ItemValue="10000000" MakeCost="-1" ResMale="149" ResFemale="149" FightPower="2" ScriptID="-1" DeductOnUse="false" BuffID="-1">
+        <ListBasicProp BasicPropType="lifemax_v" BasicPropPA1Min="500" BasicPropPA1Max="500" Index="1"/>
+        <ListBasicProp BasicPropType="lucky_v" BasicPropPA1Min="20" BasicPropPA1Max="20" Index="2"/>
+        <ListBasicProp BasicPropType="expenhance_p" BasicPropPA1Min="30" BasicPropPA1Max="30" Index="3"/>
+    </ItemData>
+    <ItemData ItemID="16052" Name="Danh hiệu Con Ong Chăm Chỉ (30 ngày)" IconBundleDir="Icon/EquipIcon2.unity3d" IconAtlasName="EquipIcon2" MapSpriteBundleDir="Resources/Item/MapSprite.unity3d" MapSpriteAtlasName="MapSprite" Kind="Ngoại Trang" QualityPrefix="0" Category="1" Genre="1" Stack="1" DetailType="36" ParticularType="19" Level="3" Icon="quest_0009_s" View="quest_0009_s" Intro="Có hiệu lực trong vòng 30 ngày" BindType="1" Series="0" ReqLevel="0" CDType="0" Price="0" ItemValue="10000000" MakeCost="-1" ResMale="150" ResFemale="150" FightPower="2" ScriptID="-1" DeductOnUse="false" BuffID="-1">
+        <ListBasicProp BasicPropType="lifemax_v" BasicPropPA1Min="1000" BasicPropPA1Max="1000" Index="1"/>
+        <ListBasicProp BasicPropType="reduce_received_damage_p" BasicPropPA1Min="5" BasicPropPA1Max="5" Index="2"/>
+        <ListBasicProp BasicPropType="damage_all_resist" BasicPropPA1Min="50" BasicPropPA1Max="50" Index="3"/>
+    </ItemData>
+    <ItemData ItemID="16053" Name="Danh hiệu Chiến Thần Kiếm Vương (30 ngày)" IconBundleDir="Icon/EquipIcon2.unity3d" IconAtlasName="EquipIcon2" MapSpriteBundleDir="Resources/Item/MapSprite.unity3d" MapSpriteAtlasName="MapSprite" Kind="Ngoại Trang" QualityPrefix="0" Category="1" Genre="1" Stack="1" DetailType="36" ParticularType="19" Level="3" Icon="quest_0009_s" View="quest_0009_s" Intro="Có hiệu lực trong vòng 30 ngày" BindType="1" Series="0" ReqLevel="0" CDType="0" Price="0" ItemValue="10000000" MakeCost="-1" ResMale="151" ResFemale="151" FightPower="2" ScriptID="-1" DeductOnUse="false" BuffID="-1">
+        <ListBasicProp BasicPropType="lifemax_v" BasicPropPA1Min="1000" BasicPropPA1Max="1000" Index="1"/>
+        <ListBasicProp BasicPropType="reduce_received_damage_p" BasicPropPA1Min="5" BasicPropPA1Max="5" Index="2"/>
+        <ListBasicProp BasicPropType="increase_output_damage_p" BasicPropPA1Min="5" BasicPropPA1Max="5" Index="3"/>
+        <ListBasicProp BasicPropType="damage_all_resist" BasicPropPA1Min="75" BasicPropPA1Max="75" Index="4"/>
+    </ItemData>
+    <ItemData ItemID="16054" Name="Danh hiệu Độc Cô Cầu Bại (30 ngày)" IconBundleDir="Icon/EquipIcon2.unity3d" IconAtlasName="EquipIcon2" MapSpriteBundleDir="Resources/Item/MapSprite.unity3d" MapSpriteAtlasName="MapSprite" Kind="Ngoại Trang" QualityPrefix="0" Category="1" Genre="1" Stack="1" DetailType="36" ParticularType="19" Level="3" Icon="quest_0009_s" View="quest_0009_s" Intro="Có hiệu lực trong vòng 30 ngày" BindType="1" Series="0" ReqLevel="0" CDType="0" Price="0" ItemValue="10000000" MakeCost="-1" ResMale="152" ResFemale="152" FightPower="2" ScriptID="-1" DeductOnUse="false" BuffID="-1">
+        <ListBasicProp BasicPropType="lifemax_v" BasicPropPA1Min="2000" BasicPropPA1Max="2000" Index="1"/>
+        <ListBasicProp BasicPropType="reduce_received_damage_p" BasicPropPA1Min="8" BasicPropPA1Max="8" Index="2"/>
+        <ListBasicProp BasicPropType="increase_output_damage_p" BasicPropPA1Min="8" BasicPropPA1Max="8" Index="3"/>
+        <ListBasicProp BasicPropType="damage_all_resist" BasicPropPA1Min="100" BasicPropPA1Max="100" Index="4"/>
+        <ListBasicProp BasicPropType="allskill_v" BasicPropPA1Min="1" BasicPropPA1Max="1" Index="5"/>
+    </ItemData>
+    <ItemData ItemID="16055" Name="Danh hiệu Bé Khỏe Bé Ngoan (3 ngày)" IconBundleDir="Icon/EquipIcon2.unity3d" IconAtlasName="EquipIcon2" MapSpriteBundleDir="Resources/Item/MapSprite.unity3d" MapSpriteAtlasName="MapSprite" Kind="Ngoại Trang" QualityPrefix="0" Category="1" Genre="1" Stack="1" DetailType="36" ParticularType="19" Level="3" Icon="quest_0009_s" View="quest_0009_s" Intro="Có hiệu lực trong vòng 3 ngày" BindType="1" Series="0" ReqLevel="0" CDType="0" Price="0" ItemValue="10000000" MakeCost="-1" ResMale="153" ResFemale="153" FightPower="2" ScriptID="-1" DeductOnUse="false" BuffID="-1">
+        <ListBasicProp BasicPropType="lifemax_v" BasicPropPA1Min="1000" BasicPropPA1Max="1000" Index="1"/>
+        <ListBasicProp BasicPropType="manamax_v" BasicPropPA1Min="500" BasicPropPA1Max="500" Index="2"/>
+        <ListBasicProp BasicPropType="allseriesstateresistrate" BasicPropPA1Min="100" BasicPropPA1Max="100" Index="3"/>
+    </ItemData>
+    <ItemData ItemID="16056" Name="Danh hiệu Bé Khỏe Bé Ngoan (7 ngày)" IconBundleDir="Icon/EquipIcon2.unity3d" IconAtlasName="EquipIcon2" MapSpriteBundleDir="Resources/Item/MapSprite.unity3d" MapSpriteAtlasName="MapSprite" Kind="Ngoại Trang" QualityPrefix="0" Category="1" Genre="1" Stack="1" DetailType="36" ParticularType="19" Level="3" Icon="quest_0009_s" View="quest_0009_s" Intro="Có hiệu lực trong vòng 7 ngày" BindType="1" Series="0" ReqLevel="0" CDType="0" Price="0" ItemValue="10000000" MakeCost="-1" ResMale="154" ResFemale="154" FightPower="2" ScriptID="-1" DeductOnUse="false" BuffID="-1">
+        <ListBasicProp BasicPropType="lifemax_v" BasicPropPA1Min="1000" BasicPropPA1Max="1000" Index="1"/>
+        <ListBasicProp BasicPropType="manamax_v" BasicPropPA1Min="500" BasicPropPA1Max="500" Index="2"/>
+        <ListBasicProp BasicPropType="allseriesstateresistrate" BasicPropPA1Min="100" BasicPropPA1Max="100" Index="3"/>
+    </ItemData>
+    <ItemData ItemID="16057" Name="Danh hiệu Bé Khỏe Bé Ngoan (14 ngày)" IconBundleDir="Icon/EquipIcon2.unity3d" IconAtlasName="EquipIcon2" MapSpriteBundleDir="Resources/Item/MapSprite.unity3d" MapSpriteAtlasName="MapSprite" Kind="Ngoại Trang" QualityPrefix="0" Category="1" Genre="1" Stack="1" DetailType="36" ParticularType="19" Level="3" Icon="quest_0009_s" View="quest_0009_s" Intro="Có hiệu lực trong vòng 14 ngày" BindType="1" Series="0" ReqLevel="0" CDType="0" Price="0" ItemValue="10000000" MakeCost="-1" ResMale="155" ResFemale="155" FightPower="2" ScriptID="-1" DeductOnUse="false" BuffID="-1">
+        <ListBasicProp BasicPropType="lifemax_v" BasicPropPA1Min="1000" BasicPropPA1Max="1000" Index="1"/>
+        <ListBasicProp BasicPropType="manamax_v" BasicPropPA1Min="500" BasicPropPA1Max="500" Index="2"/>
+        <ListBasicProp BasicPropType="allseriesstateresistrate" BasicPropPA1Min="100" BasicPropPA1Max="100" Index="3"/>
+    </ItemData>
+    <ItemData ItemID="16058" Name="Danh hiệu Vua Phá Lưới (3 ngày)" IconBundleDir="Icon/EquipIcon2.unity3d" IconAtlasName="EquipIcon2" MapSpriteBundleDir="Resources/Item/MapSprite.unity3d" MapSpriteAtlasName="MapSprite" Kind="Ngoại Trang" QualityPrefix="0" Category="1" Genre="1" Stack="1" DetailType="36" ParticularType="19" Level="3" Icon="quest_0009_s" View="quest_0009_s" Intro="Có hiệu lực trong vòng 3 ngày" BindType="1" Series="0" ReqLevel="0" CDType="0" Price="0" ItemValue="10000000" MakeCost="-1" ResMale="156" ResFemale="156" FightPower="2" ScriptID="-1" DeductOnUse="false" BuffID="-1">
+        <ListBasicProp BasicPropType="lifemax_v" BasicPropPA1Min="1000" BasicPropPA1Max="1000" Index="1"/>
+        <ListBasicProp BasicPropType="manamax_v" BasicPropPA1Min="500" BasicPropPA1Max="500" Index="2"/>
+        <ListBasicProp BasicPropType="allseriesstateresistrate" BasicPropPA1Min="100" BasicPropPA1Max="100" Index="3"/>
+    </ItemData>
+    <ItemData ItemID="16059" Name="Danh hiệu Vua Phá Lưới (7 ngày)" IconBundleDir="Icon/EquipIcon2.unity3d" IconAtlasName="EquipIcon2" MapSpriteBundleDir="Resources/Item/MapSprite.unity3d" MapSpriteAtlasName="MapSprite" Kind="Ngoại Trang" QualityPrefix="0" Category="1" Genre="1" Stack="1" DetailType="36" ParticularType="19" Level="3" Icon="quest_0009_s" View="quest_0009_s" Intro="Có hiệu lực trong vòng 7 ngày" BindType="1" Series="0" ReqLevel="0" CDType="0" Price="0" ItemValue="10000000" MakeCost="-1" ResMale="157" ResFemale="157" FightPower="2" ScriptID="-1" DeductOnUse="false" BuffID="-1">
+        <ListBasicProp BasicPropType="lifemax_v" BasicPropPA1Min="1000" BasicPropPA1Max="1000" Index="1"/>
+        <ListBasicProp BasicPropType="manamax_v" BasicPropPA1Min="500" BasicPropPA1Max="500" Index="2"/>
+        <ListBasicProp BasicPropType="allseriesstateresistrate" BasicPropPA1Min="100" BasicPropPA1Max="100" Index="3"/>
+    </ItemData>
+    <ItemData ItemID="16060" Name="Danh hiệu Vua Phá Lưới (14 ngày)" IconBundleDir="Icon/EquipIcon2.unity3d" IconAtlasName="EquipIcon2" MapSpriteBundleDir="Resources/Item/MapSprite.unity3d" MapSpriteAtlasName="MapSprite" Kind="Ngoại Trang" QualityPrefix="0" Category="1" Genre="1" Stack="1" DetailType="36" ParticularType="19" Level="3" Icon="quest_0009_s" View="quest_0009_s" Intro="Có hiệu lực trong vòng 14 ngày" BindType="1" Series="0" ReqLevel="0" CDType="0" Price="0" ItemValue="10000000" MakeCost="-1" ResMale="158" ResFemale="158" FightPower="2" ScriptID="-1" DeductOnUse="false" BuffID="-1">
+        <ListBasicProp BasicPropType="lifemax_v" BasicPropPA1Min="1000" BasicPropPA1Max="1000" Index="1"/>
+        <ListBasicProp BasicPropType="manamax_v" BasicPropPA1Min="500" BasicPropPA1Max="500" Index="2"/>
+        <ListBasicProp BasicPropType="allseriesstateresistrate" BasicPropPA1Min="100" BasicPropPA1Max="100" Index="3"/>
+    </ItemData>
+    <ItemData ItemID="16061" Name="Danh hiệu Vua Phá Lưới (30 ngày)" IconBundleDir="Icon/EquipIcon2.unity3d" IconAtlasName="EquipIcon2" MapSpriteBundleDir="Resources/Item/MapSprite.unity3d" MapSpriteAtlasName="MapSprite" Kind="Ngoại Trang" QualityPrefix="0" Category="1" Genre="1" Stack="1" DetailType="36" ParticularType="19" Level="3" Icon="quest_0009_s" View="quest_0009_s" Intro="Có hiệu lực trong vòng 30 ngày" BindType="1" Series="0" ReqLevel="0" CDType="0" Price="0" ItemValue="10000000" MakeCost="-1" ResMale="159" ResFemale="159" FightPower="2" ScriptID="-1" DeductOnUse="false" BuffID="-1">
+        <ListBasicProp BasicPropType="lifemax_v" BasicPropPA1Min="1000" BasicPropPA1Max="1000" Index="1"/>
+        <ListBasicProp BasicPropType="manamax_v" BasicPropPA1Min="500" BasicPropPA1Max="500" Index="2"/>
+        <ListBasicProp BasicPropType="allseriesstateresistrate" BasicPropPA1Min="100" BasicPropPA1Max="100" Index="3"/>
+    </ItemData>
+    <ItemData ItemID="16062" Name="Danh hiệu Cánh Diều Tuổi Thơ (3 ngày)" IconBundleDir="Icon/EquipIcon2.unity3d" IconAtlasName="EquipIcon2" MapSpriteBundleDir="Resources/Item/MapSprite.unity3d" MapSpriteAtlasName="MapSprite" Kind="Ngoại Trang" QualityPrefix="0" Category="1" Genre="1" Stack="1" DetailType="36" ParticularType="19" Level="3" Icon="quest_0009_s" View="quest_0009_s" Intro="Có hiệu lực trong vòng 3 ngày" BindType="1" Series="0" ReqLevel="0" CDType="0" Price="0" ItemValue="10000000" MakeCost="-1" ResMale="160" ResFemale="160" FightPower="2" ScriptID="-1" DeductOnUse="false" BuffID="-1">
+        <ListBasicProp BasicPropType="lifemax_v" BasicPropPA1Min="1000" BasicPropPA1Max="1000" Index="1"/>
+        <ListBasicProp BasicPropType="manamax_v" BasicPropPA1Min="500" BasicPropPA1Max="500" Index="2"/>
+        <ListBasicProp BasicPropType="allseriesstateresistrate" BasicPropPA1Min="100" BasicPropPA1Max="100" Index="3"/>
+    </ItemData>
+    <ItemData ItemID="16063" Name="Danh hiệu Cánh Diều Tuổi Thơ (7 ngày)" IconBundleDir="Icon/EquipIcon2.unity3d" IconAtlasName="EquipIcon2" MapSpriteBundleDir="Resources/Item/MapSprite.unity3d" MapSpriteAtlasName="MapSprite" Kind="Ngoại Trang" QualityPrefix="0" Category="1" Genre="1" Stack="1" DetailType="36" ParticularType="19" Level="3" Icon="quest_0009_s" View="quest_0009_s" Intro="Có hiệu lực trong vòng 7 ngày" BindType="1" Series="0" ReqLevel="0" CDType="0" Price="0" ItemValue="10000000" MakeCost="-1" ResMale="161" ResFemale="161" FightPower="2" ScriptID="-1" DeductOnUse="false" BuffID="-1">
+        <ListBasicProp BasicPropType="lifemax_v" BasicPropPA1Min="1000" BasicPropPA1Max="1000" Index="1"/>
+        <ListBasicProp BasicPropType="manamax_v" BasicPropPA1Min="500" BasicPropPA1Max="500" Index="2"/>
+        <ListBasicProp BasicPropType="allseriesstateresistrate" BasicPropPA1Min="100" BasicPropPA1Max="100" Index="3"/>
+    </ItemData>
+    <ItemData ItemID="16064" Name="Danh hiệu Cánh Diều Tuổi Thơ (14 ngày)" IconBundleDir="Icon/EquipIcon2.unity3d" IconAtlasName="EquipIcon2" MapSpriteBundleDir="Resources/Item/MapSprite.unity3d" MapSpriteAtlasName="MapSprite" Kind="Ngoại Trang" QualityPrefix="0" Category="1" Genre="1" Stack="1" DetailType="36" ParticularType="19" Level="3" Icon="quest_0009_s" View="quest_0009_s" Intro="Có hiệu lực trong vòng 14 ngày" BindType="1" Series="0" ReqLevel="0" CDType="0" Price="0" ItemValue="10000000" MakeCost="-1" ResMale="162" ResFemale="162" FightPower="2" ScriptID="-1" DeductOnUse="false" BuffID="-1">
+        <ListBasicProp BasicPropType="lifemax_v" BasicPropPA1Min="1000" BasicPropPA1Max="1000" Index="1"/>
+        <ListBasicProp BasicPropType="manamax_v" BasicPropPA1Min="500" BasicPropPA1Max="500" Index="2"/>
+        <ListBasicProp BasicPropType="allseriesstateresistrate" BasicPropPA1Min="100" BasicPropPA1Max="100" Index="3"/>
+    </ItemData>
+    <ItemData ItemID="16065" Name="Danh hiệu Cánh Diều Tuổi Thơ (30 ngày)" IconBundleDir="Icon/EquipIcon2.unity3d" IconAtlasName="EquipIcon2" MapSpriteBundleDir="Resources/Item/MapSprite.unity3d" MapSpriteAtlasName="MapSprite" Kind="Ngoại Trang" QualityPrefix="0" Category="1" Genre="1" Stack="1" DetailType="36" ParticularType="19" Level="3" Icon="quest_0009_s" View="quest_0009_s" Intro="Có hiệu lực trong vòng 30 ngày" BindType="1" Series="0" ReqLevel="0" CDType="0" Price="0" ItemValue="10000000" MakeCost="-1" ResMale="163" ResFemale="163" FightPower="2" ScriptID="-1" DeductOnUse="false" BuffID="-1">
+        <ListBasicProp BasicPropType="lifemax_v" BasicPropPA1Min="1000" BasicPropPA1Max="1000" Index="1"/>
+        <ListBasicProp BasicPropType="manamax_v" BasicPropPA1Min="500" BasicPropPA1Max="500" Index="2"/>
+        <ListBasicProp BasicPropType="allseriesstateresistrate" BasicPropPA1Min="100" BasicPropPA1Max="100" Index="3"/>
+    </ItemData>
+    <ItemData ItemID="16066" Name="Danh hiệu Thước Kiều Nhân Duyên (3 ngày)" IconBundleDir="Icon/EquipIcon2.unity3d" IconAtlasName="EquipIcon2" MapSpriteBundleDir="Resources/Item/MapSprite.unity3d" MapSpriteAtlasName="MapSprite" Kind="Ngoại Trang" QualityPrefix="0" Category="1" Genre="1" Stack="1" DetailType="36" ParticularType="19" Level="3" Icon="quest_0009_s" View="quest_0009_s" Intro="Có hiệu lực trong vòng 3 ngày" BindType="1" Series="0" ReqLevel="0" CDType="0" Price="0" ItemValue="10000000" MakeCost="-1" ResMale="164" ResFemale="164" FightPower="2" ScriptID="-1" DeductOnUse="false" BuffID="-1">
+        <ListBasicProp BasicPropType="lifemax_v" BasicPropPA1Min="1000" BasicPropPA1Max="1000" Index="1"/>
+        <ListBasicProp BasicPropType="manamax_v" BasicPropPA1Min="500" BasicPropPA1Max="500" Index="2"/>
+        <ListBasicProp BasicPropType="fastwalkrun_p" BasicPropPA1Min="10" BasicPropPA1Max="10" Index="3"/>
+        <ListBasicProp BasicPropType="lucky_v" BasicPropPA1Min="20" BasicPropPA1Max="20" Index="4"/>
+    </ItemData>
+    <ItemData ItemID="16067" Name="Danh hiệu Thước Kiều Nhân Duyên (7 ngày)" IconBundleDir="Icon/EquipIcon2.unity3d" IconAtlasName="EquipIcon2" MapSpriteBundleDir="Resources/Item/MapSprite.unity3d" MapSpriteAtlasName="MapSprite" Kind="Ngoại Trang" QualityPrefix="0" Category="1" Genre="1" Stack="1" DetailType="36" ParticularType="19" Level="3" Icon="quest_0009_s" View="quest_0009_s" Intro="Có hiệu lực trong vòng 7 ngày" BindType="1" Series="0" ReqLevel="0" CDType="0" Price="0" ItemValue="10000000" MakeCost="-1" ResMale="165" ResFemale="165" FightPower="2" ScriptID="-1" DeductOnUse="false" BuffID="-1">
+        <ListBasicProp BasicPropType="lifemax_v" BasicPropPA1Min="1000" BasicPropPA1Max="1000" Index="1"/>
+        <ListBasicProp BasicPropType="manamax_v" BasicPropPA1Min="500" BasicPropPA1Max="500" Index="2"/>
+        <ListBasicProp BasicPropType="fastwalkrun_p" BasicPropPA1Min="10" BasicPropPA1Max="10" Index="3"/>
+        <ListBasicProp BasicPropType="lucky_v" BasicPropPA1Min="20" BasicPropPA1Max="20" Index="4"/>
+    </ItemData>
+    <ItemData ItemID="16068" Name="Danh hiệu Thước Kiều Nhân Duyên (14 ngày)" IconBundleDir="Icon/EquipIcon2.unity3d" IconAtlasName="EquipIcon2" MapSpriteBundleDir="Resources/Item/MapSprite.unity3d" MapSpriteAtlasName="MapSprite" Kind="Ngoại Trang" QualityPrefix="0" Category="1" Genre="1" Stack="1" DetailType="36" ParticularType="19" Level="3" Icon="quest_0009_s" View="quest_0009_s" Intro="Có hiệu lực trong vòng 14 ngày" BindType="1" Series="0" ReqLevel="0" CDType="0" Price="0" ItemValue="10000000" MakeCost="-1" ResMale="166" ResFemale="166" FightPower="2" ScriptID="-1" DeductOnUse="false" BuffID="-1">
+        <ListBasicProp BasicPropType="lifemax_v" BasicPropPA1Min="1000" BasicPropPA1Max="1000" Index="1"/>
+        <ListBasicProp BasicPropType="manamax_v" BasicPropPA1Min="500" BasicPropPA1Max="500" Index="2"/>
+        <ListBasicProp BasicPropType="fastwalkrun_p" BasicPropPA1Min="10" BasicPropPA1Max="10" Index="3"/>
+        <ListBasicProp BasicPropType="lucky_v" BasicPropPA1Min="20" BasicPropPA1Max="20" Index="4"/>
+    </ItemData>
+    <ItemData ItemID="16069" Name="Danh hiệu Thước Kiều Nhân Duyên (30 ngày)" IconBundleDir="Icon/EquipIcon2.unity3d" IconAtlasName="EquipIcon2" MapSpriteBundleDir="Resources/Item/MapSprite.unity3d" MapSpriteAtlasName="MapSprite" Kind="Ngoại Trang" QualityPrefix="0" Category="1" Genre="1" Stack="1" DetailType="36" ParticularType="19" Level="3" Icon="quest_0009_s" View="quest_0009_s" Intro="Có hiệu lực trong vòng 30 ngày" BindType="1" Series="0" ReqLevel="0" CDType="0" Price="0" ItemValue="10000000" MakeCost="-1" ResMale="167" ResFemale="167" FightPower="2" ScriptID="-1" DeductOnUse="false" BuffID="-1">
+        <ListBasicProp BasicPropType="lifemax_v" BasicPropPA1Min="1000" BasicPropPA1Max="1000" Index="1"/>
+        <ListBasicProp BasicPropType="manamax_v" BasicPropPA1Min="500" BasicPropPA1Max="500" Index="2"/>
+        <ListBasicProp BasicPropType="fastwalkrun_p" BasicPropPA1Min="10" BasicPropPA1Max="10" Index="3"/>
+        <ListBasicProp BasicPropType="attackspeed_v" BasicPropPA1Min="3" BasicPropPA1Max="3" Index="4"/>
+        <ListBasicProp BasicPropType="castspeed_v" BasicPropPA1Min="3" BasicPropPA1Max="3" Index="5"/>
+    </ItemData>
+    <ItemData ItemID="16070" Name="Danh hiệu Dạ Thu Thưởng Nguyệt (3 ngày)" IconBundleDir="Icon/EquipIcon2.unity3d" IconAtlasName="EquipIcon2" MapSpriteBundleDir="Resources/Item/MapSprite.unity3d" MapSpriteAtlasName="MapSprite" Kind="Ngoại Trang" QualityPrefix="0" Category="1" Genre="1" Stack="1" DetailType="36" ParticularType="19" Level="3" Icon="quest_0009_s" View="quest_0009_s" Intro="Có hiệu lực trong vòng 3 ngày" BindType="1" Series="0" ReqLevel="0" CDType="0" Price="0" ItemValue="10000000" MakeCost="-1" ResMale="168" ResFemale="168" FightPower="2" ScriptID="-1" DeductOnUse="false" BuffID="-1">
+        <ListBasicProp BasicPropType="lifemax_v" BasicPropPA1Min="1000" BasicPropPA1Max="1000" Index="1"/>
+        <ListBasicProp BasicPropType="manamax_v" BasicPropPA1Min="500" BasicPropPA1Max="500" Index="2"/>
+        <ListBasicProp BasicPropType="fastwalkrun_p" BasicPropPA1Min="10" BasicPropPA1Max="10" Index="3"/>
+        <ListBasicProp BasicPropType="lucky_v" BasicPropPA1Min="20" BasicPropPA1Max="20" Index="4"/>
+        <ListBasicProp BasicPropType="allseriesstateresisttime" BasicPropPA1Min="30" BasicPropPA1Max="30" Index="5"/>
+    </ItemData>
+    <ItemData ItemID="16071" Name="Danh hiệu Dạ Thu Thưởng Nguyệt (7 ngày)" IconBundleDir="Icon/EquipIcon2.unity3d" IconAtlasName="EquipIcon2" MapSpriteBundleDir="Resources/Item/MapSprite.unity3d" MapSpriteAtlasName="MapSprite" Kind="Ngoại Trang" QualityPrefix="0" Category="1" Genre="1" Stack="1" DetailType="36" ParticularType="19" Level="3" Icon="quest_0009_s" View="quest_0009_s" Intro="Có hiệu lực trong vòng 7 ngày" BindType="1" Series="0" ReqLevel="0" CDType="0" Price="0" ItemValue="10000000" MakeCost="-1" ResMale="169" ResFemale="169" FightPower="2" ScriptID="-1" DeductOnUse="false" BuffID="-1">
+        <ListBasicProp BasicPropType="lifemax_v" BasicPropPA1Min="1000" BasicPropPA1Max="1000" Index="1"/>
+        <ListBasicProp BasicPropType="manamax_v" BasicPropPA1Min="500" BasicPropPA1Max="500" Index="2"/>
+        <ListBasicProp BasicPropType="fastwalkrun_p" BasicPropPA1Min="10" BasicPropPA1Max="10" Index="3"/>
+        <ListBasicProp BasicPropType="lucky_v" BasicPropPA1Min="20" BasicPropPA1Max="20" Index="4"/>
+        <ListBasicProp BasicPropType="allseriesstateresisttime" BasicPropPA1Min="30" BasicPropPA1Max="30" Index="5"/>
+    </ItemData>
+    <ItemData ItemID="16072" Name="Danh hiệu Dạ Thu Thưởng Nguyệt (14 ngày)" IconBundleDir="Icon/EquipIcon2.unity3d" IconAtlasName="EquipIcon2" MapSpriteBundleDir="Resources/Item/MapSprite.unity3d" MapSpriteAtlasName="MapSprite" Kind="Ngoại Trang" QualityPrefix="0" Category="1" Genre="1" Stack="1" DetailType="36" ParticularType="19" Level="3" Icon="quest_0009_s" View="quest_0009_s" Intro="Có hiệu lực trong vòng 14 ngày" BindType="1" Series="0" ReqLevel="0" CDType="0" Price="0" ItemValue="10000000" MakeCost="-1" ResMale="170" ResFemale="170" FightPower="2" ScriptID="-1" DeductOnUse="false" BuffID="-1">
+        <ListBasicProp BasicPropType="lifemax_v" BasicPropPA1Min="1000" BasicPropPA1Max="1000" Index="1"/>
+        <ListBasicProp BasicPropType="manamax_v" BasicPropPA1Min="500" BasicPropPA1Max="500" Index="2"/>
+        <ListBasicProp BasicPropType="fastwalkrun_p" BasicPropPA1Min="10" BasicPropPA1Max="10" Index="3"/>
+        <ListBasicProp BasicPropType="lucky_v" BasicPropPA1Min="20" BasicPropPA1Max="20" Index="4"/>
+        <ListBasicProp BasicPropType="allseriesstateresisttime" BasicPropPA1Min="30" BasicPropPA1Max="30" Index="5"/>
+    </ItemData>
+    <ItemData ItemID="16073" Name="Danh hiệu Dạ Thu Thưởng Nguyệt (30 ngày)" IconBundleDir="Icon/EquipIcon2.unity3d" IconAtlasName="EquipIcon2" MapSpriteBundleDir="Resources/Item/MapSprite.unity3d" MapSpriteAtlasName="MapSprite" Kind="Ngoại Trang" QualityPrefix="0" Category="1" Genre="1" Stack="1" DetailType="36" ParticularType="19" Level="3" Icon="quest_0009_s" View="quest_0009_s" Intro="Có hiệu lực trong vòng 30 ngày" BindType="1" Series="0" ReqLevel="0" CDType="0" Price="0" ItemValue="10000000" MakeCost="-1" ResMale="171" ResFemale="171" FightPower="2" ScriptID="-1" DeductOnUse="false" BuffID="-1">
+        <ListBasicProp BasicPropType="lifemax_v" BasicPropPA1Min="1000" BasicPropPA1Max="1000" Index="1"/>
+        <ListBasicProp BasicPropType="manamax_v" BasicPropPA1Min="500" BasicPropPA1Max="500" Index="2"/>
+        <ListBasicProp BasicPropType="fastwalkrun_p" BasicPropPA1Min="10" BasicPropPA1Max="10" Index="3"/>
+        <ListBasicProp BasicPropType="allseriesstateresisttime" BasicPropPA1Min="50" BasicPropPA1Max="50" Index="4"/>
+        <ListBasicProp BasicPropType="attackspeed_v" BasicPropPA1Min="3" BasicPropPA1Max="3" Index="5"/>
+        <ListBasicProp BasicPropType="castspeed_v" BasicPropPA1Min="3" BasicPropPA1Max="3" Index="6"/>
+    </ItemData>
+    <ItemData ItemID="16074" Name="Danh hiệu Chứng Nhận Nạp Đầu (15 ngày)" IconBundleDir="Icon/EquipIcon2.unity3d" IconAtlasName="EquipIcon2" MapSpriteBundleDir="Resources/Item/MapSprite.unity3d" MapSpriteAtlasName="MapSprite" Kind="Ngoại Trang" QualityPrefix="0" Category="1" Genre="1" Stack="1" DetailType="36" ParticularType="19" Level="3" Icon="quest_0009_s" View="quest_0009_s" Intro="Có hiệu lực trong vòng 15 ngày" BindType="1" Series="0" ReqLevel="0" CDType="0" Price="0" ItemValue="10000000" MakeCost="-1" ResMale="172" ResFemale="172" FightPower="2" ScriptID="-1" DeductOnUse="false" BuffID="-1">
+        <ListBasicProp BasicPropType="lifemax_v" BasicPropPA1Min="1000" BasicPropPA1Max="1000" Index="1"/>
+        <ListBasicProp BasicPropType="manamax_v" BasicPropPA1Min="500" BasicPropPA1Max="500" Index="2"/>
+        <ListBasicProp BasicPropType="fastlifereplenish_v" BasicPropPA1Min="50" BasicPropPA1Max="50" Index="3"/>
+        <ListBasicProp BasicPropType="fastmanareplenish_v" BasicPropPA1Min="50" BasicPropPA1Max="50" Index="4"/>
+        <ListBasicProp BasicPropType="expenhance_p" BasicPropPA1Min="15" BasicPropPA1Max="15" Index="5"/>
+    </ItemData>
+    <ItemData ItemID="16075" Name="Danh hiệu Nam Đế" IconBundleDir="Icon/EquipIcon2.unity3d" IconAtlasName="EquipIcon2" MapSpriteBundleDir="Resources/Item/MapSprite.unity3d" MapSpriteAtlasName="MapSprite" Kind="Ngoại Trang" QualityPrefix="0" Category="1" Genre="1" Stack="1" DetailType="36" ParticularType="19" Level="3" Icon="quest_0009_s" View="quest_0009_s" Intro="Danh hiệu dành cho quán quân vô địch đấu trường Hoa Sơn Luận Kiếm hệ Kim" BindType="1" Series="0" ReqLevel="0" CDType="0" Price="0" ItemValue="10000000" MakeCost="-1" ResMale="173" ResFemale="173" FightPower="2" ScriptID="-1" DeductOnUse="false" BuffID="-1">
+        <ListBasicProp BasicPropType="lifemax_v" BasicPropPA1Min="2000" BasicPropPA1Max="2000" Index="1"/>
+        <ListBasicProp BasicPropType="manamax_v" BasicPropPA1Min="1000" BasicPropPA1Max="1000" Index="2"/>
+        <ListBasicProp BasicPropType="damage_all_resist" BasicPropPA1Min="75" BasicPropPA1Max="75" Index="3"/>
+        <ListBasicProp BasicPropType="allseriesstateresistrate" BasicPropPA1Min="75" BasicPropPA1Max="75" Index="4"/>
+    </ItemData>
+    <ItemData ItemID="16076" Name="Danh hiệu Tây Độc" IconBundleDir="Icon/EquipIcon2.unity3d" IconAtlasName="EquipIcon2" MapSpriteBundleDir="Resources/Item/MapSprite.unity3d" MapSpriteAtlasName="MapSprite" Kind="Ngoại Trang" QualityPrefix="0" Category="1" Genre="1" Stack="1" DetailType="36" ParticularType="19" Level="3" Icon="quest_0009_s" View="quest_0009_s" Intro="Danh hiệu dành cho quán quân vô địch đấu trường Hoa Sơn Luận Kiếm hệ Mộc" BindType="1" Series="0" ReqLevel="0" CDType="0" Price="0" ItemValue="10000000" MakeCost="-1" ResMale="174" ResFemale="174" FightPower="2" ScriptID="-1" DeductOnUse="false" BuffID="-1">
+        <ListBasicProp BasicPropType="lifemax_v" BasicPropPA1Min="2000" BasicPropPA1Max="2000" Index="1"/>
+        <ListBasicProp BasicPropType="manamax_v" BasicPropPA1Min="1000" BasicPropPA1Max="1000" Index="2"/>
+        <ListBasicProp BasicPropType="damage_all_resist" BasicPropPA1Min="75" BasicPropPA1Max="75" Index="3"/>
+        <ListBasicProp BasicPropType="allseriesstateresistrate" BasicPropPA1Min="75" BasicPropPA1Max="75" Index="4"/>
+    </ItemData>
+    <ItemData ItemID="16077" Name="Danh hiệu Đông Tà" IconBundleDir="Icon/EquipIcon2.unity3d" IconAtlasName="EquipIcon2" MapSpriteBundleDir="Resources/Item/MapSprite.unity3d" MapSpriteAtlasName="MapSprite" Kind="Ngoại Trang" QualityPrefix="0" Category="1" Genre="1" Stack="1" DetailType="36" ParticularType="19" Level="3" Icon="quest_0009_s" View="quest_0009_s" Intro="Danh hiệu dành cho quán quân vô địch đấu trường Hoa Sơn Luận Kiếm hệ Thủy" BindType="1" Series="0" ReqLevel="0" CDType="0" Price="0" ItemValue="10000000" MakeCost="-1" ResMale="175" ResFemale="175" FightPower="2" ScriptID="-1" DeductOnUse="false" BuffID="-1">
+        <ListBasicProp BasicPropType="lifemax_v" BasicPropPA1Min="2000" BasicPropPA1Max="2000" Index="1"/>
+        <ListBasicProp BasicPropType="manamax_v" BasicPropPA1Min="1000" BasicPropPA1Max="1000" Index="2"/>
+        <ListBasicProp BasicPropType="damage_all_resist" BasicPropPA1Min="75" BasicPropPA1Max="75" Index="3"/>
+        <ListBasicProp BasicPropType="allseriesstateresistrate" BasicPropPA1Min="75" BasicPropPA1Max="75" Index="4"/>
+    </ItemData>
+    <ItemData ItemID="16078" Name="Danh hiệu Bắc Cái" IconBundleDir="Icon/EquipIcon2.unity3d" IconAtlasName="EquipIcon2" MapSpriteBundleDir="Resources/Item/MapSprite.unity3d" MapSpriteAtlasName="MapSprite" Kind="Ngoại Trang" QualityPrefix="0" Category="1" Genre="1" Stack="1" DetailType="36" ParticularType="19" Level="3" Icon="quest_0009_s" View="quest_0009_s" Intro="Danh hiệu dành cho quán quân vô địch đấu trường Hoa Sơn Luận Kiếm hệ Hỏa" BindType="1" Series="0" ReqLevel="0" CDType="0" Price="0" ItemValue="10000000" MakeCost="-1" ResMale="176" ResFemale="176" FightPower="2" ScriptID="-1" DeductOnUse="false" BuffID="-1">
+        <ListBasicProp BasicPropType="lifemax_v" BasicPropPA1Min="2000" BasicPropPA1Max="2000" Index="1"/>
+        <ListBasicProp BasicPropType="manamax_v" BasicPropPA1Min="1000" BasicPropPA1Max="1000" Index="2"/>
+        <ListBasicProp BasicPropType="damage_all_resist" BasicPropPA1Min="75" BasicPropPA1Max="75" Index="3"/>
+        <ListBasicProp BasicPropType="allseriesstateresistrate" BasicPropPA1Min="75" BasicPropPA1Max="75" Index="4"/>
+    </ItemData>
+    <ItemData ItemID="16079" Name="Danh hiệu Trung Thần Thông" IconBundleDir="Icon/EquipIcon2.unity3d" IconAtlasName="EquipIcon2" MapSpriteBundleDir="Resources/Item/MapSprite.unity3d" MapSpriteAtlasName="MapSprite" Kind="Ngoại Trang" QualityPrefix="0" Category="1" Genre="1" Stack="1" DetailType="36" ParticularType="19" Level="3" Icon="quest_0009_s" View="quest_0009_s" Intro="Danh hiệu dành cho quán quân vô địch đấu trường Hoa Sơn Luận Kiếm hệ Thổ" BindType="1" Series="0" ReqLevel="0" CDType="0" Price="0" ItemValue="10000000" MakeCost="-1" ResMale="177" ResFemale="177" FightPower="2" ScriptID="-1" DeductOnUse="false" BuffID="-1">
+        <ListBasicProp BasicPropType="lifemax_v" BasicPropPA1Min="2000" BasicPropPA1Max="2000" Index="1"/>
+        <ListBasicProp BasicPropType="manamax_v" BasicPropPA1Min="1000" BasicPropPA1Max="1000" Index="2"/>
+        <ListBasicProp BasicPropType="damage_all_resist" BasicPropPA1Min="75" BasicPropPA1Max="75" Index="3"/>
+        <ListBasicProp BasicPropType="allseriesstateresistrate" BasicPropPA1Min="75" BasicPropPA1Max="75" Index="4"/>
+    </ItemData>
+    <ItemData ItemID="16080" Name="Danh hiệu Mầm Non Đất Nước (3 ngày)" IconBundleDir="Icon/EquipIcon2.unity3d" IconAtlasName="EquipIcon2" MapSpriteBundleDir="Resources/Item/MapSprite.unity3d" MapSpriteAtlasName="MapSprite" Kind="Ngoại Trang" QualityPrefix="0" Category="1" Genre="1" Stack="1" DetailType="36" ParticularType="19" Level="3" Icon="quest_0009_s" View="quest_0009_s" Intro="Có hiệu lực trong vòng 3 ngày" BindType="1" Series="0" ReqLevel="0" CDType="0" Price="0" ItemValue="10000000" MakeCost="-1" ResMale="178" ResFemale="178" FightPower="2" ScriptID="-1" DeductOnUse="false" BuffID="-1">
+        <ListBasicProp BasicPropType="lifemax_v" BasicPropPA1Min="1000" BasicPropPA1Max="1000" Index="1"/>
+        <ListBasicProp BasicPropType="manamax_v" BasicPropPA1Min="500" BasicPropPA1Max="500" Index="2"/>
+        <ListBasicProp BasicPropType="fastwalkrun_p" BasicPropPA1Min="10" BasicPropPA1Max="10" Index="3"/>
+        <ListBasicProp BasicPropType="lucky_v" BasicPropPA1Min="20" BasicPropPA1Max="20" Index="4"/>
+        <ListBasicProp BasicPropType="allseriesstateresisttime" BasicPropPA1Min="30" BasicPropPA1Max="30" Index="5"/>
+    </ItemData>
+    <ItemData ItemID="16081" Name="Danh hiệu Mầm Non Đất Nước (7 ngày)" IconBundleDir="Icon/EquipIcon2.unity3d" IconAtlasName="EquipIcon2" MapSpriteBundleDir="Resources/Item/MapSprite.unity3d" MapSpriteAtlasName="MapSprite" Kind="Ngoại Trang" QualityPrefix="0" Category="1" Genre="1" Stack="1" DetailType="36" ParticularType="19" Level="3" Icon="quest_0009_s" View="quest_0009_s" Intro="Có hiệu lực trong vòng 7 ngày" BindType="1" Series="0" ReqLevel="0" CDType="0" Price="0" ItemValue="10000000" MakeCost="-1" ResMale="179" ResFemale="179" FightPower="2" ScriptID="-1" DeductOnUse="false" BuffID="-1">
+        <ListBasicProp BasicPropType="lifemax_v" BasicPropPA1Min="1000" BasicPropPA1Max="1000" Index="1"/>
+        <ListBasicProp BasicPropType="manamax_v" BasicPropPA1Min="500" BasicPropPA1Max="500" Index="2"/>
+        <ListBasicProp BasicPropType="fastwalkrun_p" BasicPropPA1Min="10" BasicPropPA1Max="10" Index="3"/>
+        <ListBasicProp BasicPropType="lucky_v" BasicPropPA1Min="20" BasicPropPA1Max="20" Index="4"/>
+        <ListBasicProp BasicPropType="allseriesstateresisttime" BasicPropPA1Min="30" BasicPropPA1Max="30" Index="5"/>
+    </ItemData>
+    <ItemData ItemID="16082" Name="Danh hiệu Mầm Non Đất Nước (14 ngày)" IconBundleDir="Icon/EquipIcon2.unity3d" IconAtlasName="EquipIcon2" MapSpriteBundleDir="Resources/Item/MapSprite.unity3d" MapSpriteAtlasName="MapSprite" Kind="Ngoại Trang" QualityPrefix="0" Category="1" Genre="1" Stack="1" DetailType="36" ParticularType="19" Level="3" Icon="quest_0009_s" View="quest_0009_s" Intro="Có hiệu lực trong vòng 14 ngày" BindType="1" Series="0" ReqLevel="0" CDType="0" Price="0" ItemValue="10000000" MakeCost="-1" ResMale="180" ResFemale="180" FightPower="2" ScriptID="-1" DeductOnUse="false" BuffID="-1">
+        <ListBasicProp BasicPropType="lifemax_v" BasicPropPA1Min="1000" BasicPropPA1Max="1000" Index="1"/>
+        <ListBasicProp BasicPropType="manamax_v" BasicPropPA1Min="500" BasicPropPA1Max="500" Index="2"/>
+        <ListBasicProp BasicPropType="fastwalkrun_p" BasicPropPA1Min="10" BasicPropPA1Max="10" Index="3"/>
+        <ListBasicProp BasicPropType="lucky_v" BasicPropPA1Min="20" BasicPropPA1Max="20" Index="4"/>
+        <ListBasicProp BasicPropType="allseriesstateresisttime" BasicPropPA1Min="30" BasicPropPA1Max="30" Index="5"/>
+    </ItemData>
+    <ItemData ItemID="16083" Name="Danh hiệu Mầm Non Đất Nước (30 ngày)" IconBundleDir="Icon/EquipIcon2.unity3d" IconAtlasName="EquipIcon2" MapSpriteBundleDir="Resources/Item/MapSprite.unity3d" MapSpriteAtlasName="MapSprite" Kind="Ngoại Trang" QualityPrefix="0" Category="1" Genre="1" Stack="1" DetailType="36" ParticularType="19" Level="3" Icon="quest_0009_s" View="quest_0009_s" Intro="Có hiệu lực trong vòng 30 ngày" BindType="1" Series="0" ReqLevel="0" CDType="0" Price="0" ItemValue="10000000" MakeCost="-1" ResMale="181" ResFemale="181" FightPower="2" ScriptID="-1" DeductOnUse="false" BuffID="-1">
+        <ListBasicProp BasicPropType="lifemax_v" BasicPropPA1Min="1000" BasicPropPA1Max="1000" Index="1"/>
+        <ListBasicProp BasicPropType="manamax_v" BasicPropPA1Min="500" BasicPropPA1Max="500" Index="2"/>
+        <ListBasicProp BasicPropType="fastwalkrun_p" BasicPropPA1Min="10" BasicPropPA1Max="10" Index="3"/>
+        <ListBasicProp BasicPropType="reduce_received_damage_p" BasicPropPA1Min="15" BasicPropPA1Max="15" Index="4"/>
+        <ListBasicProp BasicPropType="allseriesstateresisttime" BasicPropPA1Min="50" BasicPropPA1Max="50" Index="5"/>
+    </ItemData>
+    <ItemData ItemID="16084" Name="Danh hiệu Tuyệt Thế Giai Nhân (3 ngày)" IconBundleDir="Icon/EquipIcon2.unity3d" IconAtlasName="EquipIcon2" MapSpriteBundleDir="Resources/Item/MapSprite.unity3d" MapSpriteAtlasName="MapSprite" Kind="Ngoại Trang" QualityPrefix="0" Category="1" Genre="1" Stack="1" DetailType="36" ParticularType="19" Level="3" Icon="quest_0009_s" View="quest_0009_s" Intro="Có hiệu lực trong vòng 3 ngày" BindType="1" Series="0" ReqLevel="0" CDType="0" Price="0" ItemValue="10000000" MakeCost="-1" ResMale="182" ResFemale="182" FightPower="2" ScriptID="-1" DeductOnUse="false" BuffID="-1">
+        <ListBasicProp BasicPropType="lifemax_v" BasicPropPA1Min="1000" BasicPropPA1Max="1000" Index="1"/>
+        <ListBasicProp BasicPropType="manamax_v" BasicPropPA1Min="500" BasicPropPA1Max="500" Index="2"/>
+        <ListBasicProp BasicPropType="fastwalkrun_p" BasicPropPA1Min="10" BasicPropPA1Max="10" Index="3"/>
+        <ListBasicProp BasicPropType="defencedeadlystrikedamagetrim" BasicPropPA1Min="20" BasicPropPA1Max="20" Index="4"/>
+        <ListBasicProp BasicPropType="damage_all_resist" BasicPropPA1Min="100" BasicPropPA1Max="100" Index="5"/>
+    </ItemData>
+    <ItemData ItemID="16085" Name="Danh hiệu Tuyệt Thế Giai Nhân (7 ngày)" IconBundleDir="Icon/EquipIcon2.unity3d" IconAtlasName="EquipIcon2" MapSpriteBundleDir="Resources/Item/MapSprite.unity3d" MapSpriteAtlasName="MapSprite" Kind="Ngoại Trang" QualityPrefix="0" Category="1" Genre="1" Stack="1" DetailType="36" ParticularType="19" Level="3" Icon="quest_0009_s" View="quest_0009_s" Intro="Có hiệu lực trong vòng 7 ngày" BindType="1" Series="0" ReqLevel="0" CDType="0" Price="0" ItemValue="10000000" MakeCost="-1" ResMale="183" ResFemale="183" FightPower="2" ScriptID="-1" DeductOnUse="false" BuffID="-1">
+        <ListBasicProp BasicPropType="lifemax_v" BasicPropPA1Min="1000" BasicPropPA1Max="1000" Index="1"/>
+        <ListBasicProp BasicPropType="manamax_v" BasicPropPA1Min="500" BasicPropPA1Max="500" Index="2"/>
+        <ListBasicProp BasicPropType="fastwalkrun_p" BasicPropPA1Min="10" BasicPropPA1Max="10" Index="3"/>
+        <ListBasicProp BasicPropType="defencedeadlystrikedamagetrim" BasicPropPA1Min="20" BasicPropPA1Max="20" Index="4"/>
+        <ListBasicProp BasicPropType="damage_all_resist" BasicPropPA1Min="100" BasicPropPA1Max="100" Index="5"/>
+    </ItemData>
+    <ItemData ItemID="16086" Name="Danh hiệu Tuyệt Thế Giai Nhân (14 ngày)" IconBundleDir="Icon/EquipIcon2.unity3d" IconAtlasName="EquipIcon2" MapSpriteBundleDir="Resources/Item/MapSprite.unity3d" MapSpriteAtlasName="MapSprite" Kind="Ngoại Trang" QualityPrefix="0" Category="1" Genre="1" Stack="1" DetailType="36" ParticularType="19" Level="3" Icon="quest_0009_s" View="quest_0009_s" Intro="Có hiệu lực trong vòng 14 ngày" BindType="1" Series="0" ReqLevel="0" CDType="0" Price="0" ItemValue="10000000" MakeCost="-1" ResMale="184" ResFemale="184" FightPower="2" ScriptID="-1" DeductOnUse="false" BuffID="-1">
+        <ListBasicProp BasicPropType="lifemax_v" BasicPropPA1Min="1000" BasicPropPA1Max="1000" Index="1"/>
+        <ListBasicProp BasicPropType="manamax_v" BasicPropPA1Min="500" BasicPropPA1Max="500" Index="2"/>
+        <ListBasicProp BasicPropType="fastwalkrun_p" BasicPropPA1Min="10" BasicPropPA1Max="10" Index="3"/>
+        <ListBasicProp BasicPropType="defencedeadlystrikedamagetrim" BasicPropPA1Min="20" BasicPropPA1Max="20" Index="4"/>
+        <ListBasicProp BasicPropType="damage_all_resist" BasicPropPA1Min="100" BasicPropPA1Max="100" Index="5"/>
+    </ItemData>
+    <ItemData ItemID="16087" Name="Danh hiệu Tuyệt Thế Giai Nhân (30 ngày)" IconBundleDir="Icon/EquipIcon2.unity3d" IconAtlasName="EquipIcon2" MapSpriteBundleDir="Resources/Item/MapSprite.unity3d" MapSpriteAtlasName="MapSprite" Kind="Ngoại Trang" QualityPrefix="0" Category="1" Genre="1" Stack="1" DetailType="36" ParticularType="19" Level="3" Icon="quest_0009_s" View="quest_0009_s" Intro="Có hiệu lực trong vòng 30 ngày" BindType="1" Series="0" ReqLevel="0" CDType="0" Price="0" ItemValue="10000000" MakeCost="-1" ResMale="185" ResFemale="185" FightPower="2" ScriptID="-1" DeductOnUse="false" BuffID="-1">
+        <ListBasicProp BasicPropType="lifemax_v" BasicPropPA1Min="1000" BasicPropPA1Max="1000" Index="1"/>
+        <ListBasicProp BasicPropType="manamax_v" BasicPropPA1Min="500" BasicPropPA1Max="500" Index="2"/>
+        <ListBasicProp BasicPropType="fastwalkrun_p" BasicPropPA1Min="10" BasicPropPA1Max="10" Index="3"/>
+        <ListBasicProp BasicPropType="lucky_v" BasicPropPA1Min="20" BasicPropPA1Max="20" Index="4"/>
+        <ListBasicProp BasicPropType="allseriesstateresisttime" BasicPropPA1Min="30" BasicPropPA1Max="30" Index="5"/>
+    </ItemData>
+    <ItemData ItemID="16088" Name="Danh hiệu Phong Lưu Tài Tử (3 ngày)" IconBundleDir="Icon/EquipIcon2.unity3d" IconAtlasName="EquipIcon2" MapSpriteBundleDir="Resources/Item/MapSprite.unity3d" MapSpriteAtlasName="MapSprite" Kind="Ngoại Trang" QualityPrefix="0" Category="1" Genre="1" Stack="1" DetailType="36" ParticularType="19" Level="3" Icon="quest_0009_s" View="quest_0009_s" Intro="Có hiệu lực trong vòng 3 ngày" BindType="1" Series="0" ReqLevel="0" CDType="0" Price="0" ItemValue="10000000" MakeCost="-1" ResMale="186" ResFemale="186" FightPower="2" ScriptID="-1" DeductOnUse="false" BuffID="-1">
+        <ListBasicProp BasicPropType="lifemax_v" BasicPropPA1Min="1000" BasicPropPA1Max="1000" Index="1"/>
+        <ListBasicProp BasicPropType="manamax_v" BasicPropPA1Min="500" BasicPropPA1Max="500" Index="2"/>
+        <ListBasicProp BasicPropType="fastwalkrun_p" BasicPropPA1Min="10" BasicPropPA1Max="10" Index="3"/>
+        <ListBasicProp BasicPropType="defencedeadlystrikedamagetrim" BasicPropPA1Min="10" BasicPropPA1Max="10" Index="4"/>
+        <ListBasicProp BasicPropType="damage_all_resist" BasicPropPA1Min="75" BasicPropPA1Max="75" Index="5"/>
+    </ItemData>
+    <ItemData ItemID="16089" Name="Danh hiệu Phong Lưu Tài Tử (7 ngày)" IconBundleDir="Icon/EquipIcon2.unity3d" IconAtlasName="EquipIcon2" MapSpriteBundleDir="Resources/Item/MapSprite.unity3d" MapSpriteAtlasName="MapSprite" Kind="Ngoại Trang" QualityPrefix="0" Category="1" Genre="1" Stack="1" DetailType="36" ParticularType="19" Level="3" Icon="quest_0009_s" View="quest_0009_s" Intro="Có hiệu lực trong vòng 7 ngày" BindType="1" Series="0" ReqLevel="0" CDType="0" Price="0" ItemValue="10000000" MakeCost="-1" ResMale="187" ResFemale="187" FightPower="2" ScriptID="-1" DeductOnUse="false" BuffID="-1">
+        <ListBasicProp BasicPropType="lifemax_v" BasicPropPA1Min="1000" BasicPropPA1Max="1000" Index="1"/>
+        <ListBasicProp BasicPropType="manamax_v" BasicPropPA1Min="500" BasicPropPA1Max="500" Index="2"/>
+        <ListBasicProp BasicPropType="fastwalkrun_p" BasicPropPA1Min="10" BasicPropPA1Max="10" Index="3"/>
+        <ListBasicProp BasicPropType="defencedeadlystrikedamagetrim" BasicPropPA1Min="10" BasicPropPA1Max="10" Index="4"/>
+        <ListBasicProp BasicPropType="damage_all_resist" BasicPropPA1Min="75" BasicPropPA1Max="75" Index="5"/>
+    </ItemData>
+    <ItemData ItemID="16090" Name="Danh hiệu Phong Lưu Tài Tử (14 ngày)" IconBundleDir="Icon/EquipIcon2.unity3d" IconAtlasName="EquipIcon2" MapSpriteBundleDir="Resources/Item/MapSprite.unity3d" MapSpriteAtlasName="MapSprite" Kind="Ngoại Trang" QualityPrefix="0" Category="1" Genre="1" Stack="1" DetailType="36" ParticularType="19" Level="3" Icon="quest_0009_s" View="quest_0009_s" Intro="Có hiệu lực trong vòng 14 ngày" BindType="1" Series="0" ReqLevel="0" CDType="0" Price="0" ItemValue="10000000" MakeCost="-1" ResMale="188" ResFemale="188" FightPower="2" ScriptID="-1" DeductOnUse="false" BuffID="-1">
+        <ListBasicProp BasicPropType="lifemax_v" BasicPropPA1Min="1000" BasicPropPA1Max="1000" Index="1"/>
+        <ListBasicProp BasicPropType="manamax_v" BasicPropPA1Min="500" BasicPropPA1Max="500" Index="2"/>
+        <ListBasicProp BasicPropType="fastwalkrun_p" BasicPropPA1Min="10" BasicPropPA1Max="10" Index="3"/>
+        <ListBasicProp BasicPropType="defencedeadlystrikedamagetrim" BasicPropPA1Min="10" BasicPropPA1Max="10" Index="4"/>
+        <ListBasicProp BasicPropType="damage_all_resist" BasicPropPA1Min="75" BasicPropPA1Max="75" Index="5"/>
+    </ItemData>
+    <ItemData ItemID="16091" Name="Danh hiệu Phong Lưu Tài Tử (30 ngày)" IconBundleDir="Icon/EquipIcon2.unity3d" IconAtlasName="EquipIcon2" MapSpriteBundleDir="Resources/Item/MapSprite.unity3d" MapSpriteAtlasName="MapSprite" Kind="Ngoại Trang" QualityPrefix="0" Category="1" Genre="1" Stack="1" DetailType="36" ParticularType="19" Level="3" Icon="quest_0009_s" View="quest_0009_s" Intro="Có hiệu lực trong vòng 30 ngày" BindType="1" Series="0" ReqLevel="0" CDType="0" Price="0" ItemValue="10000000" MakeCost="-1" ResMale="189" ResFemale="189" FightPower="2" ScriptID="-1" DeductOnUse="false" BuffID="-1">
+        <ListBasicProp BasicPropType="lifemax_v" BasicPropPA1Min="1000" BasicPropPA1Max="1000" Index="1"/>
+        <ListBasicProp BasicPropType="manamax_v" BasicPropPA1Min="500" BasicPropPA1Max="500" Index="2"/>
+        <ListBasicProp BasicPropType="fastwalkrun_p" BasicPropPA1Min="10" BasicPropPA1Max="10" Index="3"/>
+        <ListBasicProp BasicPropType="lucky_v" BasicPropPA1Min="20" BasicPropPA1Max="20" Index="4"/>
+        <ListBasicProp BasicPropType="allseriesstateresisttime" BasicPropPA1Min="30" BasicPropPA1Max="30" Index="5"/>
+    </ItemData>
+    <ItemData ItemID="16092" Name="Danh hiệu Tôn Sư Trọng Đạo (3 ngày)" IconBundleDir="Icon/EquipIcon2.unity3d" IconAtlasName="EquipIcon2" MapSpriteBundleDir="Resources/Item/MapSprite.unity3d" MapSpriteAtlasName="MapSprite" Kind="Ngoại Trang" QualityPrefix="0" Category="1" Genre="1" Stack="1" DetailType="36" ParticularType="19" Level="3" Icon="quest_0009_s" View="quest_0009_s" Intro="Có hiệu lực trong vòng 3 ngày" BindType="1" Series="0" ReqLevel="0" CDType="0" Price="0" ItemValue="10000000" MakeCost="-1" ResMale="190" ResFemale="190" FightPower="2" ScriptID="-1" DeductOnUse="false" BuffID="-1">
+        <ListBasicProp BasicPropType="lifemax_v" BasicPropPA1Min="1000" BasicPropPA1Max="1000" Index="1"/>
+        <ListBasicProp BasicPropType="manamax_v" BasicPropPA1Min="500" BasicPropPA1Max="500" Index="2"/>
+        <ListBasicProp BasicPropType="defencedeadlystrikedamagetrim" BasicPropPA1Min="10" BasicPropPA1Max="10" Index="3"/>
+        <ListBasicProp BasicPropType="damage_all_resist" BasicPropPA1Min="50" BasicPropPA1Max="50" Index="4"/>
+    </ItemData>
+    <ItemData ItemID="16093" Name="Danh hiệu Tôn Sư Trọng Đạo (7 ngày)" IconBundleDir="Icon/EquipIcon2.unity3d" IconAtlasName="EquipIcon2" MapSpriteBundleDir="Resources/Item/MapSprite.unity3d" MapSpriteAtlasName="MapSprite" Kind="Ngoại Trang" QualityPrefix="0" Category="1" Genre="1" Stack="1" DetailType="36" ParticularType="19" Level="3" Icon="quest_0009_s" View="quest_0009_s" Intro="Có hiệu lực trong vòng 7 ngày" BindType="1" Series="0" ReqLevel="0" CDType="0" Price="0" ItemValue="10000000" MakeCost="-1" ResMale="191" ResFemale="191" FightPower="2" ScriptID="-1" DeductOnUse="false" BuffID="-1">
+        <ListBasicProp BasicPropType="lifemax_v" BasicPropPA1Min="1000" BasicPropPA1Max="1000" Index="1"/>
+        <ListBasicProp BasicPropType="manamax_v" BasicPropPA1Min="500" BasicPropPA1Max="500" Index="2"/>
+        <ListBasicProp BasicPropType="defencedeadlystrikedamagetrim" BasicPropPA1Min="10" BasicPropPA1Max="10" Index="3"/>
+        <ListBasicProp BasicPropType="damage_all_resist" BasicPropPA1Min="50" BasicPropPA1Max="50" Index="4"/>
+    </ItemData>
+    <ItemData ItemID="16094" Name="Danh hiệu Tôn Sư Trọng Đạo (14 ngày)" IconBundleDir="Icon/EquipIcon2.unity3d" IconAtlasName="EquipIcon2" MapSpriteBundleDir="Resources/Item/MapSprite.unity3d" MapSpriteAtlasName="MapSprite" Kind="Ngoại Trang" QualityPrefix="0" Category="1" Genre="1" Stack="1" DetailType="36" ParticularType="19" Level="3" Icon="quest_0009_s" View="quest_0009_s" Intro="Có hiệu lực trong vòng 14 ngày" BindType="1" Series="0" ReqLevel="0" CDType="0" Price="0" ItemValue="10000000" MakeCost="-1" ResMale="192" ResFemale="192" FightPower="2" ScriptID="-1" DeductOnUse="false" BuffID="-1">
+        <ListBasicProp BasicPropType="lifemax_v" BasicPropPA1Min="1000" BasicPropPA1Max="1000" Index="1"/>
+        <ListBasicProp BasicPropType="manamax_v" BasicPropPA1Min="500" BasicPropPA1Max="500" Index="2"/>
+        <ListBasicProp BasicPropType="defencedeadlystrikedamagetrim" BasicPropPA1Min="10" BasicPropPA1Max="10" Index="3"/>
+        <ListBasicProp BasicPropType="damage_all_resist" BasicPropPA1Min="50" BasicPropPA1Max="50" Index="4"/>
+    </ItemData>
+    <ItemData ItemID="16095" Name="Danh hiệu Tôn Sư Trọng Đạo (30 ngày)" IconBundleDir="Icon/EquipIcon2.unity3d" IconAtlasName="EquipIcon2" MapSpriteBundleDir="Resources/Item/MapSprite.unity3d" MapSpriteAtlasName="MapSprite" Kind="Ngoại Trang" QualityPrefix="0" Category="1" Genre="1" Stack="1" DetailType="36" ParticularType="19" Level="3" Icon="quest_0009_s" View="quest_0009_s" Intro="Có hiệu lực trong vòng 30 ngày" BindType="1" Series="0" ReqLevel="0" CDType="0" Price="0" ItemValue="10000000" MakeCost="-1" ResMale="193" ResFemale="193" FightPower="2" ScriptID="-1" DeductOnUse="false" BuffID="-1">
+        <ListBasicProp BasicPropType="lifemax_v" BasicPropPA1Min="2000" BasicPropPA1Max="2000" Index="1"/>
+        <ListBasicProp BasicPropType="manamax_v" BasicPropPA1Min="1000" BasicPropPA1Max="1000" Index="2"/>
+        <ListBasicProp BasicPropType="defencedeadlystrikedamagetrim" BasicPropPA1Min="20" BasicPropPA1Max="20" Index="3"/>
+        <ListBasicProp BasicPropType="damage_all_resist" BasicPropPA1Min="100" BasicPropPA1Max="100" Index="4"/>
+        <ListBasicProp BasicPropType="addphysicsmagic_p" BasicPropPA1Min="300" BasicPropPA1Max="300" Index="5"/>
+        <ListBasicProp BasicPropType="addphysicsdamage_p" BasicPropPA1Min="300" BasicPropPA1Max="300" Index="6"/>
+    </ItemData>
+    <ItemData ItemID="16096" Name="Danh hiệu Học Hải Vô Nhai (15 ngày)" IconBundleDir="Icon/EquipIcon2.unity3d" IconAtlasName="EquipIcon2" MapSpriteBundleDir="Resources/Item/MapSprite.unity3d" MapSpriteAtlasName="MapSprite" Kind="Ngoại Trang" QualityPrefix="0" Category="1" Genre="1" Stack="1" DetailType="36" ParticularType="19" Level="3" Icon="quest_0009_s" View="quest_0009_s" Intro="Có hiệu lực trong vòng 15 ngày" BindType="1" Series="0" ReqLevel="0" CDType="0" Price="0" ItemValue="10000000" MakeCost="-1" ResMale="194" ResFemale="194" FightPower="2" ScriptID="-1" DeductOnUse="false" BuffID="-1">
+        <ListBasicProp BasicPropType="lifemax_v" BasicPropPA1Min="1000" BasicPropPA1Max="1000" Index="1"/>
+        <ListBasicProp BasicPropType="manamax_v" BasicPropPA1Min="500" BasicPropPA1Max="500" Index="2"/>
+        <ListBasicProp BasicPropType="fastwalkrun_p" BasicPropPA1Min="10" BasicPropPA1Max="10" Index="3"/>
+        <ListBasicProp BasicPropType="damage_all_resist" BasicPropPA1Min="50" BasicPropPA1Max="50" Index="4"/>
+        <ListBasicProp BasicPropType="allspecialstateresisttime" BasicPropPA1Min="50" BasicPropPA1Max="50" Index="5"/>
+        <ListBasicProp BasicPropType="allspecialstateresistrate" BasicPropPA1Min="50" BasicPropPA1Max="50" Index="6"/>
+    </ItemData>
+    <ItemData ItemID="16097" Name="Danh hiệu Nhất Đẳng Tông Sư (15 ngày)" IconBundleDir="Icon/EquipIcon2.unity3d" IconAtlasName="EquipIcon2" MapSpriteBundleDir="Resources/Item/MapSprite.unity3d" MapSpriteAtlasName="MapSprite" Kind="Ngoại Trang" QualityPrefix="0" Category="1" Genre="1" Stack="1" DetailType="36" ParticularType="19" Level="3" Icon="quest_0009_s" View="quest_0009_s" Intro="Có hiệu lực trong vòng 15 ngày" BindType="1" Series="0" ReqLevel="0" CDType="0" Price="0" ItemValue="10000000" MakeCost="-1" ResMale="195" ResFemale="195" FightPower="2" ScriptID="-1" DeductOnUse="false" BuffID="-1">
+        <ListBasicProp BasicPropType="lifemax_v" BasicPropPA1Min="1000" BasicPropPA1Max="1000" Index="1"/>
+        <ListBasicProp BasicPropType="manamax_v" BasicPropPA1Min="500" BasicPropPA1Max="500" Index="2"/>
+        <ListBasicProp BasicPropType="defencedeadlystrikedamagetrim" BasicPropPA1Min="10" BasicPropPA1Max="10" Index="3"/>
+        <ListBasicProp BasicPropType="damage_all_resist" BasicPropPA1Min="75" BasicPropPA1Max="75" Index="4"/>
+        <ListBasicProp BasicPropType="attackspeed_v" BasicPropPA1Min="3" BasicPropPA1Max="3" Index="5"/>
+        <ListBasicProp BasicPropType="castspeed_v" BasicPropPA1Min="3" BasicPropPA1Max="3" Index="6"/>
+    </ItemData>
+    <ItemData ItemID="16098" Name="Danh hiệu Nhị Niên Kiếm Vương 1 (3 ngày)" IconBundleDir="Icon/EquipIcon2.unity3d" IconAtlasName="EquipIcon2" MapSpriteBundleDir="Resources/Item/MapSprite.unity3d" MapSpriteAtlasName="MapSprite" Kind="Ngoại Trang" QualityPrefix="0" Category="1" Genre="1" Stack="1" DetailType="36" ParticularType="19" Level="3" Icon="quest_0009_s" View="quest_0009_s" Intro="Có hiệu lực trong vòng 3 ngày" BindType="1" Series="0" ReqLevel="0" CDType="0" Price="0" ItemValue="10000000" MakeCost="-1" ResMale="196" ResFemale="196" FightPower="2" ScriptID="-1" DeductOnUse="false" BuffID="-1">
+        <ListBasicProp BasicPropType="lifemax_v" BasicPropPA1Min="1000" BasicPropPA1Max="1000" Index="1"/>
+        <ListBasicProp BasicPropType="manamax_v" BasicPropPA1Min="500" BasicPropPA1Max="500" Index="2"/>
+        <ListBasicProp BasicPropType="defencedeadlystrikedamagetrim" BasicPropPA1Min="10" BasicPropPA1Max="10" Index="3"/>
+        <ListBasicProp BasicPropType="damage_all_resist" BasicPropPA1Min="50" BasicPropPA1Max="50" Index="4"/>
+    </ItemData>
+    <ItemData ItemID="16099" Name="Danh hiệu Nhị Niên Kiếm Vương 1 (7 ngày)" IconBundleDir="Icon/EquipIcon2.unity3d" IconAtlasName="EquipIcon2" MapSpriteBundleDir="Resources/Item/MapSprite.unity3d" MapSpriteAtlasName="MapSprite" Kind="Ngoại Trang" QualityPrefix="0" Category="1" Genre="1" Stack="1" DetailType="36" ParticularType="19" Level="3" Icon="quest_0009_s" View="quest_0009_s" Intro="Có hiệu lực trong vòng 7 ngày" BindType="1" Series="0" ReqLevel="0" CDType="0" Price="0" ItemValue="10000000" MakeCost="-1" ResMale="197" ResFemale="197" FightPower="2" ScriptID="-1" DeductOnUse="false" BuffID="-1">
+        <ListBasicProp BasicPropType="lifemax_v" BasicPropPA1Min="1000" BasicPropPA1Max="1000" Index="1"/>
+        <ListBasicProp BasicPropType="manamax_v" BasicPropPA1Min="500" BasicPropPA1Max="500" Index="2"/>
+        <ListBasicProp BasicPropType="defencedeadlystrikedamagetrim" BasicPropPA1Min="10" BasicPropPA1Max="10" Index="3"/>
+        <ListBasicProp BasicPropType="damage_all_resist" BasicPropPA1Min="50" BasicPropPA1Max="50" Index="4"/>
+    </ItemData>
+    <ItemData ItemID="16100" Name="Danh hiệu Nhị Niên Kiếm Vương 1 (14 ngày)" IconBundleDir="Icon/EquipIcon2.unity3d" IconAtlasName="EquipIcon2" MapSpriteBundleDir="Resources/Item/MapSprite.unity3d" MapSpriteAtlasName="MapSprite" Kind="Ngoại Trang" QualityPrefix="0" Category="1" Genre="1" Stack="1" DetailType="36" ParticularType="19" Level="3" Icon="quest_0009_s" View="quest_0009_s" Intro="Có hiệu lực trong vòng 14 ngày" BindType="1" Series="0" ReqLevel="0" CDType="0" Price="0" ItemValue="10000000" MakeCost="-1" ResMale="198" ResFemale="198" FightPower="2" ScriptID="-1" DeductOnUse="false" BuffID="-1">
+        <ListBasicProp BasicPropType="lifemax_v" BasicPropPA1Min="1000" BasicPropPA1Max="1000" Index="1"/>
+        <ListBasicProp BasicPropType="manamax_v" BasicPropPA1Min="500" BasicPropPA1Max="500" Index="2"/>
+        <ListBasicProp BasicPropType="defencedeadlystrikedamagetrim" BasicPropPA1Min="10" BasicPropPA1Max="10" Index="3"/>
+        <ListBasicProp BasicPropType="damage_all_resist" BasicPropPA1Min="50" BasicPropPA1Max="50" Index="4"/>
+    </ItemData>
+    <ItemData ItemID="16101" Name="Danh hiệu Nhị Niên Kiếm Vương 1 (30 ngày)" IconBundleDir="Icon/EquipIcon2.unity3d" IconAtlasName="EquipIcon2" MapSpriteBundleDir="Resources/Item/MapSprite.unity3d" MapSpriteAtlasName="MapSprite" Kind="Ngoại Trang" QualityPrefix="0" Category="1" Genre="1" Stack="1" DetailType="36" ParticularType="19" Level="3" Icon="quest_0009_s" View="quest_0009_s" Intro="Có hiệu lực trong vòng 30 ngày" BindType="1" Series="0" ReqLevel="0" CDType="0" Price="0" ItemValue="10000000" MakeCost="-1" ResMale="199" ResFemale="199" FightPower="2" ScriptID="-1" DeductOnUse="false" BuffID="-1">
+        <ListBasicProp BasicPropType="lifemax_v" BasicPropPA1Min="2000" BasicPropPA1Max="2000" Index="1"/>
+        <ListBasicProp BasicPropType="manamax_v" BasicPropPA1Min="1000" BasicPropPA1Max="1000" Index="2"/>
+        <ListBasicProp BasicPropType="defencedeadlystrikedamagetrim" BasicPropPA1Min="15" BasicPropPA1Max="15" Index="3"/>
+        <ListBasicProp BasicPropType="damage_all_resist" BasicPropPA1Min="100" BasicPropPA1Max="100" Index="4"/>
+        <ListBasicProp BasicPropType="increase_output_damage_p" BasicPropPA1Min="5" BasicPropPA1Max="5" Index="5"/>
+        <ListBasicProp BasicPropType="attackspeed_v" BasicPropPA1Min="3" BasicPropPA1Max="3" Index="6"/>
+        <ListBasicProp BasicPropType="castspeed_v" BasicPropPA1Min="3" BasicPropPA1Max="3" Index="7"/>
+    </ItemData>
+    <ItemData ItemID="16102" Name="Danh hiệu Song Long Bá Vương (60 ngày)" IconBundleDir="Icon/EquipIcon2.unity3d" IconAtlasName="EquipIcon2" MapSpriteBundleDir="Resources/Item/MapSprite.unity3d" MapSpriteAtlasName="MapSprite" Kind="Ngoại Trang" QualityPrefix="0" Category="1" Genre="1" Stack="1" DetailType="36" ParticularType="19" Level="3" Icon="quest_0009_s" View="quest_0009_s" Intro="Có hiệu lực trong vòng 60 ngày" BindType="1" Series="0" ReqLevel="0" CDType="0" Price="0" ItemValue="10000000" MakeCost="-1" ResMale="200" ResFemale="200" FightPower="2" ScriptID="-1" DeductOnUse="false" BuffID="-1">
+        <ListBasicProp BasicPropType="lifemax_v" BasicPropPA1Min="5000" BasicPropPA1Max="5000" Index="1"/>
+        <ListBasicProp BasicPropType="manamax_v" BasicPropPA1Min="3000" BasicPropPA1Max="3000" Index="2"/>
+        <ListBasicProp BasicPropType="damage_all_resist" BasicPropPA1Min="100" BasicPropPA1Max="100" Index="3"/>
+        <ListBasicProp BasicPropType="reduce_received_damage_p" BasicPropPA1Min="10" BasicPropPA1Max="10" Index="4"/>
+        <ListBasicProp BasicPropType="increase_output_damage_p" BasicPropPA1Min="10" BasicPropPA1Max="10" Index="5"/>
+    </ItemData>
+    <ItemData ItemID="16103" Name="Danh hiệu Song Long Chiến Tướng (60 ngày)" IconBundleDir="Icon/EquipIcon2.unity3d" IconAtlasName="EquipIcon2" MapSpriteBundleDir="Resources/Item/MapSprite.unity3d" MapSpriteAtlasName="MapSprite" Kind="Ngoại Trang" QualityPrefix="0" Category="1" Genre="1" Stack="1" DetailType="36" ParticularType="19" Level="3" Icon="quest_0009_s" View="quest_0009_s" Intro="Có hiệu lực trong vòng 60 ngày" BindType="1" Series="0" ReqLevel="0" CDType="0" Price="0" ItemValue="10000000" MakeCost="-1" ResMale="201" ResFemale="201" FightPower="2" ScriptID="-1" DeductOnUse="false" BuffID="-1">
+        <ListBasicProp BasicPropType="lifemax_v" BasicPropPA1Min="3000" BasicPropPA1Max="3000" Index="1"/>
+        <ListBasicProp BasicPropType="manamax_v" BasicPropPA1Min="1500" BasicPropPA1Max="1500" Index="2"/>
+        <ListBasicProp BasicPropType="damage_all_resist" BasicPropPA1Min="75" BasicPropPA1Max="75" Index="3"/>
+        <ListBasicProp BasicPropType="reduce_received_damage_p" BasicPropPA1Min="7" BasicPropPA1Max="7" Index="4"/>
+        <ListBasicProp BasicPropType="increase_output_damage_p" BasicPropPA1Min="7" BasicPropPA1Max="7" Index="5"/>
+    </ItemData>
+    <ItemData ItemID="16104" Name="Danh hiệu Song Long Hộ Vệ (60 ngày)" IconBundleDir="Icon/EquipIcon2.unity3d" IconAtlasName="EquipIcon2" MapSpriteBundleDir="Resources/Item/MapSprite.unity3d" MapSpriteAtlasName="MapSprite" Kind="Ngoại Trang" QualityPrefix="0" Category="1" Genre="1" Stack="1" DetailType="36" ParticularType="19" Level="3" Icon="quest_0009_s" View="quest_0009_s" Intro="Có hiệu lực trong vòng 60 ngày" BindType="1" Series="0" ReqLevel="0" CDType="0" Price="0" ItemValue="10000000" MakeCost="-1" ResMale="202" ResFemale="202" FightPower="2" ScriptID="-1" DeductOnUse="false" BuffID="-1">
+        <ListBasicProp BasicPropType="lifemax_v" BasicPropPA1Min="3000" BasicPropPA1Max="3000" Index="1"/>
+        <ListBasicProp BasicPropType="manamax_v" BasicPropPA1Min="1500" BasicPropPA1Max="1500" Index="2"/>
+        <ListBasicProp BasicPropType="damage_all_resist" BasicPropPA1Min="50" BasicPropPA1Max="50" Index="3"/>
+        <ListBasicProp BasicPropType="reduce_received_damage_p" BasicPropPA1Min="5" BasicPropPA1Max="5" Index="4"/>
+        <ListBasicProp BasicPropType="increase_output_damage_p" BasicPropPA1Min="5" BasicPropPA1Max="5" Index="5"/>
+    </ItemData>
+    <ItemData ItemID="16105" Name="Danh hiệu Tam Long Tinh Anh (60 ngày)" IconBundleDir="Icon/EquipIcon2.unity3d" IconAtlasName="EquipIcon2" MapSpriteBundleDir="Resources/Item/MapSprite.unity3d" MapSpriteAtlasName="MapSprite" Kind="Ngoại Trang" QualityPrefix="0" Category="1" Genre="1" Stack="1" DetailType="36" ParticularType="19" Level="3" Icon="quest_0009_s" View="quest_0009_s" Intro="Có hiệu lực trong vòng 60 ngày" BindType="1" Series="0" ReqLevel="0" CDType="0" Price="0" ItemValue="10000000" MakeCost="-1" ResMale="203" ResFemale="203" FightPower="2" ScriptID="-1" DeductOnUse="false" BuffID="-1">
+        <ListBasicProp BasicPropType="lifemax_v" BasicPropPA1Min="3000" BasicPropPA1Max="3000" Index="1"/>
+        <ListBasicProp BasicPropType="manamax_v" BasicPropPA1Min="1500" BasicPropPA1Max="1500" Index="2"/>
+        <ListBasicProp BasicPropType="damage_all_resist" BasicPropPA1Min="75" BasicPropPA1Max="75" Index="3"/>
+        <ListBasicProp BasicPropType="reduce_received_damage_p" BasicPropPA1Min="3" BasicPropPA1Max="3" Index="4"/>
+    </ItemData>
+    <ItemData ItemID="16106" Name="Danh hiệu Ất Tỵ Khai Xuân (3 ngày)" IconBundleDir="Icon/EquipIcon2.unity3d" IconAtlasName="EquipIcon2" MapSpriteBundleDir="Resources/Item/MapSprite.unity3d" MapSpriteAtlasName="MapSprite" Kind="Ngoại Trang" QualityPrefix="0" Category="1" Genre="1" Stack="1" DetailType="36" ParticularType="19" Level="3" Icon="quest_0009_s" View="quest_0009_s" Intro="Có hiệu lực trong vòng 3 ngày" BindType="1" Series="0" ReqLevel="0" CDType="0" Price="0" ItemValue="10000000" MakeCost="-1" ResMale="204" ResFemale="204" FightPower="2" ScriptID="-1" DeductOnUse="false" BuffID="-1">
+        <ListBasicProp BasicPropType="lifemax_v" BasicPropPA1Min="1000" BasicPropPA1Max="1000" Index="1"/>
+        <ListBasicProp BasicPropType="manamax_v" BasicPropPA1Min="500" BasicPropPA1Max="500" Index="2"/>
+        <ListBasicProp BasicPropType="defencedeadlystrikedamagetrim" BasicPropPA1Min="10" BasicPropPA1Max="10" Index="3"/>
+        <ListBasicProp BasicPropType="damage_all_resist" BasicPropPA1Min="50" BasicPropPA1Max="50" Index="4"/>
+        <ListBasicProp BasicPropType="lucky_v" BasicPropPA1Min="10" BasicPropPA1Max="10" Index="5"/>
+    </ItemData>
+    <ItemData ItemID="16107" Name="Danh hiệu Ất Tỵ Khai Xuân (7 ngày)" IconBundleDir="Icon/EquipIcon2.unity3d" IconAtlasName="EquipIcon2" MapSpriteBundleDir="Resources/Item/MapSprite.unity3d" MapSpriteAtlasName="MapSprite" Kind="Ngoại Trang" QualityPrefix="0" Category="1" Genre="1" Stack="1" DetailType="36" ParticularType="19" Level="3" Icon="quest_0009_s" View="quest_0009_s" Intro="Có hiệu lực trong vòng 7 ngày" BindType="1" Series="0" ReqLevel="0" CDType="0" Price="0" ItemValue="10000000" MakeCost="-1" ResMale="205" ResFemale="205" FightPower="2" ScriptID="-1" DeductOnUse="false" BuffID="-1">
+        <ListBasicProp BasicPropType="lifemax_v" BasicPropPA1Min="1000" BasicPropPA1Max="1000" Index="1"/>
+        <ListBasicProp BasicPropType="manamax_v" BasicPropPA1Min="500" BasicPropPA1Max="500" Index="2"/>
+        <ListBasicProp BasicPropType="defencedeadlystrikedamagetrim" BasicPropPA1Min="10" BasicPropPA1Max="10" Index="3"/>
+        <ListBasicProp BasicPropType="damage_all_resist" BasicPropPA1Min="50" BasicPropPA1Max="50" Index="4"/>
+        <ListBasicProp BasicPropType="lucky_v" BasicPropPA1Min="10" BasicPropPA1Max="10" Index="5"/>
+    </ItemData>
+    <ItemData ItemID="16108" Name="Danh hiệu Ất Tỵ Khai Xuân (14 ngày)" IconBundleDir="Icon/EquipIcon2.unity3d" IconAtlasName="EquipIcon2" MapSpriteBundleDir="Resources/Item/MapSprite.unity3d" MapSpriteAtlasName="MapSprite" Kind="Ngoại Trang" QualityPrefix="0" Category="1" Genre="1" Stack="1" DetailType="36" ParticularType="19" Level="3" Icon="quest_0009_s" View="quest_0009_s" Intro="Có hiệu lực trong vòng 14 ngày" BindType="1" Series="0" ReqLevel="0" CDType="0" Price="0" ItemValue="10000000" MakeCost="-1" ResMale="206" ResFemale="206" FightPower="2" ScriptID="-1" DeductOnUse="false" BuffID="-1">
+        <ListBasicProp BasicPropType="lifemax_v" BasicPropPA1Min="1000" BasicPropPA1Max="1000" Index="1"/>
+        <ListBasicProp BasicPropType="manamax_v" BasicPropPA1Min="500" BasicPropPA1Max="500" Index="2"/>
+        <ListBasicProp BasicPropType="defencedeadlystrikedamagetrim" BasicPropPA1Min="10" BasicPropPA1Max="10" Index="3"/>
+        <ListBasicProp BasicPropType="damage_all_resist" BasicPropPA1Min="50" BasicPropPA1Max="50" Index="4"/>
+        <ListBasicProp BasicPropType="lucky_v" BasicPropPA1Min="10" BasicPropPA1Max="10" Index="5"/>
+    </ItemData>
+    <ItemData ItemID="16109" Name="Danh hiệu Ất Tỵ Khai Xuân (30 ngày)" IconBundleDir="Icon/EquipIcon2.unity3d" IconAtlasName="EquipIcon2" MapSpriteBundleDir="Resources/Item/MapSprite.unity3d" MapSpriteAtlasName="MapSprite" Kind="Ngoại Trang" QualityPrefix="0" Category="1" Genre="1" Stack="1" DetailType="36" ParticularType="19" Level="3" Icon="quest_0009_s" View="quest_0009_s" Intro="Có hiệu lực trong vòng 30 ngày" BindType="1" Series="0" ReqLevel="0" CDType="0" Price="0" ItemValue="10000000" MakeCost="-1" ResMale="207" ResFemale="207" FightPower="2" ScriptID="-1" DeductOnUse="false" BuffID="-1">
+        <ListBasicProp BasicPropType="lifemax_v" BasicPropPA1Min="2000" BasicPropPA1Max="2000" Index="1"/>
+        <ListBasicProp BasicPropType="manamax_v" BasicPropPA1Min="1000" BasicPropPA1Max="1000" Index="2"/>
+        <ListBasicProp BasicPropType="defencedeadlystrikedamagetrim" BasicPropPA1Min="15" BasicPropPA1Max="15" Index="3"/>
+        <ListBasicProp BasicPropType="damage_all_resist" BasicPropPA1Min="100" BasicPropPA1Max="100" Index="4"/>
+        <ListBasicProp BasicPropType="lucky_v" BasicPropPA1Min="10" BasicPropPA1Max="10" Index="5"/>
+        <ListBasicProp BasicPropType="reduce_received_damage_p" BasicPropPA1Min="10" BasicPropPA1Max="10" Index="6"/>
+        <ListBasicProp BasicPropType="increase_output_damage_p" BasicPropPA1Min="5" BasicPropPA1Max="5" Index="7"/>
+    </ItemData>
+    <ItemData ItemID="16110" Name="Danh hiệu Hạnh Vận Giả (30 ngày)" IconBundleDir="Icon/EquipIcon2.unity3d" IconAtlasName="EquipIcon2" MapSpriteBundleDir="Resources/Item/MapSprite.unity3d" MapSpriteAtlasName="MapSprite" Kind="Ngoại Trang" QualityPrefix="0" Category="1" Genre="1" Stack="1" DetailType="36" ParticularType="19" Level="3" Icon="quest_0009_s" View="quest_0009_s" Intro="Có hiệu lực trong vòng 30 ngày" BindType="1" Series="0" ReqLevel="0" CDType="0" Price="0" ItemValue="10000000" MakeCost="-1" ResMale="208" ResFemale="208" FightPower="2" ScriptID="-1" DeductOnUse="false" BuffID="-1">
+        <ListBasicProp BasicPropType="lifemax_p" BasicPropPA1Min="30" BasicPropPA1Max="30" Index="1"/>
+        <ListBasicProp BasicPropType="manamax_p" BasicPropPA1Min="15" BasicPropPA1Max="15" Index="2"/>
+        <ListBasicProp BasicPropType="fastwalkrun_p" BasicPropPA1Min="10" BasicPropPA1Max="10" Index="3"/>
+        <ListBasicProp BasicPropType="damage_all_resist" BasicPropPA1Min="75" BasicPropPA1Max="75" Index="4"/>
+        <ListBasicProp BasicPropType="lucky_v" BasicPropPA1Min="30" BasicPropPA1Max="30" Index="5"/>
+    </ItemData>
+    <ItemData ItemID="16111" Name="Danh hiệu Hạnh Vận Giả (15 ngày)" IconBundleDir="Icon/EquipIcon2.unity3d" IconAtlasName="EquipIcon2" MapSpriteBundleDir="Resources/Item/MapSprite.unity3d" MapSpriteAtlasName="MapSprite" Kind="Ngoại Trang" QualityPrefix="0" Category="1" Genre="1" Stack="1" DetailType="36" ParticularType="19" Level="3" Icon="quest_0009_s" View="quest_0009_s" Intro="Có hiệu lực trong vòng 15 ngày" BindType="1" Series="0" ReqLevel="0" CDType="0" Price="0" ItemValue="10000000" MakeCost="-1" ResMale="209" ResFemale="209" FightPower="2" ScriptID="-1" DeductOnUse="false" BuffID="-1">
+        <ListBasicProp BasicPropType="lifemax_p" BasicPropPA1Min="30" BasicPropPA1Max="30" Index="1"/>
+        <ListBasicProp BasicPropType="manamax_p" BasicPropPA1Min="15" BasicPropPA1Max="15" Index="2"/>
+        <ListBasicProp BasicPropType="fastwalkrun_p" BasicPropPA1Min="10" BasicPropPA1Max="10" Index="3"/>
+        <ListBasicProp BasicPropType="damage_all_resist" BasicPropPA1Min="75" BasicPropPA1Max="75" Index="4"/>
+        <ListBasicProp BasicPropType="lucky_v" BasicPropPA1Min="30" BasicPropPA1Max="30" Index="5"/>
+    </ItemData>
+    <ItemData ItemID="16112" Name="Danh hiệu Hạnh Vận Giả (7 ngày)" IconBundleDir="Icon/EquipIcon2.unity3d" IconAtlasName="EquipIcon2" MapSpriteBundleDir="Resources/Item/MapSprite.unity3d" MapSpriteAtlasName="MapSprite" Kind="Ngoại Trang" QualityPrefix="0" Category="1" Genre="1" Stack="1" DetailType="36" ParticularType="19" Level="3" Icon="quest_0009_s" View="quest_0009_s" Intro="Có hiệu lực trong vòng 7 ngày" BindType="1" Series="0" ReqLevel="0" CDType="0" Price="0" ItemValue="10000000" MakeCost="-1" ResMale="210" ResFemale="210" FightPower="2" ScriptID="-1" DeductOnUse="false" BuffID="-1">
+        <ListBasicProp BasicPropType="lifemax_p" BasicPropPA1Min="30" BasicPropPA1Max="30" Index="1"/>
+        <ListBasicProp BasicPropType="manamax_p" BasicPropPA1Min="15" BasicPropPA1Max="15" Index="2"/>
+        <ListBasicProp BasicPropType="fastwalkrun_p" BasicPropPA1Min="10" BasicPropPA1Max="10" Index="3"/>
+        <ListBasicProp BasicPropType="damage_all_resist" BasicPropPA1Min="75" BasicPropPA1Max="75" Index="4"/>
+        <ListBasicProp BasicPropType="lucky_v" BasicPropPA1Min="30" BasicPropPA1Max="30" Index="5"/>
+    </ItemData>
+    <ItemData ItemID="16113" Name="Danh hiệu Đệ Nhất Phú Hào (30 ngày)" IconBundleDir="Icon/EquipIcon2.unity3d" IconAtlasName="EquipIcon2" MapSpriteBundleDir="Resources/Item/MapSprite.unity3d" MapSpriteAtlasName="MapSprite" Kind="Ngoại Trang" QualityPrefix="0" Category="1" Genre="1" Stack="1" DetailType="36" ParticularType="19" Level="3" Icon="quest_0009_s" View="quest_0009_s" Intro="Có hiệu lực trong vòng 30 ngày" BindType="1" Series="0" ReqLevel="0" CDType="0" Price="0" ItemValue="10000000" MakeCost="-1" ResMale="211" ResFemale="211" FightPower="2" ScriptID="-1" DeductOnUse="false" BuffID="-1">
+        <ListBasicProp BasicPropType="lifemax_p" BasicPropPA1Min="40" BasicPropPA1Max="40" Index="1"/>
+        <ListBasicProp BasicPropType="manamax_p" BasicPropPA1Min="20" BasicPropPA1Max="20" Index="2"/>
+        <ListBasicProp BasicPropType="defencedeadlystrikedamagetrim" BasicPropPA1Min="10" BasicPropPA1Max="10" Index="3"/>
+        <ListBasicProp BasicPropType="fastwalkrun_p" BasicPropPA1Min="10" BasicPropPA1Max="10" Index="4"/>
+        <ListBasicProp BasicPropType="deadlystrikedamageenhance_p" BasicPropPA1Min="10" BasicPropPA1Max="10" Index="5"/>
+    </ItemData>
+    <ItemData ItemID="16114" Name="Danh hiệu Đệ Nhất Phú Hào (15 ngày)" IconBundleDir="Icon/EquipIcon2.unity3d" IconAtlasName="EquipIcon2" MapSpriteBundleDir="Resources/Item/MapSprite.unity3d" MapSpriteAtlasName="MapSprite" Kind="Ngoại Trang" QualityPrefix="0" Category="1" Genre="1" Stack="1" DetailType="36" ParticularType="19" Level="3" Icon="quest_0009_s" View="quest_0009_s" Intro="Có hiệu lực trong vòng 15 ngày" BindType="1" Series="0" ReqLevel="0" CDType="0" Price="0" ItemValue="10000000" MakeCost="-1" ResMale="212" ResFemale="212" FightPower="2" ScriptID="-1" DeductOnUse="false" BuffID="-1">
+        <ListBasicProp BasicPropType="lifemax_p" BasicPropPA1Min="40" BasicPropPA1Max="40" Index="1"/>
+        <ListBasicProp BasicPropType="manamax_p" BasicPropPA1Min="20" BasicPropPA1Max="20" Index="2"/>
+        <ListBasicProp BasicPropType="defencedeadlystrikedamagetrim" BasicPropPA1Min="20" BasicPropPA1Max="20" Index="3"/>
+        <ListBasicProp BasicPropType="fastwalkrun_p" BasicPropPA1Min="10" BasicPropPA1Max="10" Index="4"/>
+        <ListBasicProp BasicPropType="deadlystrikedamageenhance_p" BasicPropPA1Min="10" BasicPropPA1Max="10" Index="5"/>
+    </ItemData>
+    <ItemData ItemID="16115" Name="Danh hiệu Song Long Bá Vương (60 ngày)" IconBundleDir="Icon/EquipIcon2.unity3d" IconAtlasName="EquipIcon2" MapSpriteBundleDir="Resources/Item/MapSprite.unity3d" MapSpriteAtlasName="MapSprite" Kind="Ngoại Trang" QualityPrefix="0" Category="1" Genre="1" Stack="1" DetailType="36" ParticularType="19" Level="3" Icon="quest_0009_s" View="quest_0009_s" Intro="Có hiệu lực trong vòng 60 ngày" BindType="1" Series="0" ReqLevel="0" CDType="0" Price="0" ItemValue="10000000" MakeCost="-1" ResMale="213" ResFemale="213" FightPower="2" ScriptID="-1" DeductOnUse="false" BuffID="-1">
+        <ListBasicProp BasicPropType="lifemax_v" BasicPropPA1Min="5000" BasicPropPA1Max="5000" Index="1"/>
+        <ListBasicProp BasicPropType="manamax_v" BasicPropPA1Min="3000" BasicPropPA1Max="3000" Index="2"/>
+        <ListBasicProp BasicPropType="damage_all_resist" BasicPropPA1Min="75" BasicPropPA1Max="75" Index="3"/>
+        <ListBasicProp BasicPropType="reduce_received_damage_p" BasicPropPA1Min="15" BasicPropPA1Max="15" Index="4"/>
+        <ListBasicProp BasicPropType="increase_output_damage_p" BasicPropPA1Min="10" BasicPropPA1Max="10" Index="5"/>
+    </ItemData>
+    <ItemData ItemID="16116" Name="Danh hiệu Song Long Chiến Tướng (60 ngày)" IconBundleDir="Icon/EquipIcon2.unity3d" IconAtlasName="EquipIcon2" MapSpriteBundleDir="Resources/Item/MapSprite.unity3d" MapSpriteAtlasName="MapSprite" Kind="Ngoại Trang" QualityPrefix="0" Category="1" Genre="1" Stack="1" DetailType="36" ParticularType="19" Level="3" Icon="quest_0009_s" View="quest_0009_s" Intro="Có hiệu lực trong vòng 60 ngày" BindType="1" Series="0" ReqLevel="0" CDType="0" Price="0" ItemValue="10000000" MakeCost="-1" ResMale="214" ResFemale="214" FightPower="2" ScriptID="-1" DeductOnUse="false" BuffID="-1">
+        <ListBasicProp BasicPropType="lifemax_v" BasicPropPA1Min="3000" BasicPropPA1Max="3000" Index="1"/>
+        <ListBasicProp BasicPropType="manamax_v" BasicPropPA1Min="1500" BasicPropPA1Max="1500" Index="2"/>
+        <ListBasicProp BasicPropType="damage_all_resist" BasicPropPA1Min="50" BasicPropPA1Max="50" Index="3"/>
+        <ListBasicProp BasicPropType="reduce_received_damage_p" BasicPropPA1Min="8" BasicPropPA1Max="8" Index="4"/>
+        <ListBasicProp BasicPropType="increase_output_damage_p" BasicPropPA1Min="5" BasicPropPA1Max="5" Index="5"/>
+    </ItemData>
+    <ItemData ItemID="16117" Name="Danh hiệu Song Long Hộ Vệ (60 ngày)" IconBundleDir="Icon/EquipIcon2.unity3d" IconAtlasName="EquipIcon2" MapSpriteBundleDir="Resources/Item/MapSprite.unity3d" MapSpriteAtlasName="MapSprite" Kind="Ngoại Trang" QualityPrefix="0" Category="1" Genre="1" Stack="1" DetailType="36" ParticularType="19" Level="3" Icon="quest_0009_s" View="quest_0009_s" Intro="Có hiệu lực trong vòng 60 ngày" BindType="1" Series="0" ReqLevel="0" CDType="0" Price="0" ItemValue="10000000" MakeCost="-1" ResMale="215" ResFemale="215" FightPower="2" ScriptID="-1" DeductOnUse="false" BuffID="-1">
+        <ListBasicProp BasicPropType="lifemax_v" BasicPropPA1Min="3000" BasicPropPA1Max="3000" Index="1"/>
+        <ListBasicProp BasicPropType="manamax_v" BasicPropPA1Min="1500" BasicPropPA1Max="1500" Index="2"/>
+        <ListBasicProp BasicPropType="damage_all_resist" BasicPropPA1Min="50" BasicPropPA1Max="50" Index="3"/>
+        <ListBasicProp BasicPropType="reduce_received_damage_p" BasicPropPA1Min="5" BasicPropPA1Max="5" Index="4"/>
+        <ListBasicProp BasicPropType="increase_output_damage_p" BasicPropPA1Min="3" BasicPropPA1Max="3" Index="5"/>
+    </ItemData>
+    <ItemData ItemID="16118" Name="Danh hiệu Song Long Tinh Anh (60 ngày)" IconBundleDir="Icon/EquipIcon2.unity3d" IconAtlasName="EquipIcon2" MapSpriteBundleDir="Resources/Item/MapSprite.unity3d" MapSpriteAtlasName="MapSprite" Kind="Ngoại Trang" QualityPrefix="0" Category="1" Genre="1" Stack="1" DetailType="36" ParticularType="19" Level="3" Icon="quest_0009_s" View="quest_0009_s" Intro="Có hiệu lực trong vòng 60 ngày" BindType="1" Series="0" ReqLevel="0" CDType="0" Price="0" ItemValue="10000000" MakeCost="-1" ResMale="216" ResFemale="216" FightPower="2" ScriptID="-1" DeductOnUse="false" BuffID="-1">
+        <ListBasicProp BasicPropType="lifemax_v" BasicPropPA1Min="3000" BasicPropPA1Max="3000" Index="1"/>
+        <ListBasicProp BasicPropType="manamax_v" BasicPropPA1Min="1500" BasicPropPA1Max="1500" Index="2"/>
+        <ListBasicProp BasicPropType="damage_all_resist" BasicPropPA1Min="75" BasicPropPA1Max="75" Index="3"/>
+        <ListBasicProp BasicPropType="reduce_received_damage_p" BasicPropPA1Min="3" BasicPropPA1Max="3" Index="4"/>
+    </ItemData>
+    <ItemData ItemID="16119" Name="Danh hiệu Châu Liên Hợp Bích (3 ngày)" IconBundleDir="Icon/EquipIcon2.unity3d" IconAtlasName="EquipIcon2" MapSpriteBundleDir="Resources/Item/MapSprite.unity3d" MapSpriteAtlasName="MapSprite" Kind="Ngoại Trang" QualityPrefix="0" Category="1" Genre="1" Stack="1" DetailType="36" ParticularType="19" Level="3" Icon="quest_0009_s" View="quest_0009_s" Intro="Có hiệu lực trong vòng 3 ngày" BindType="1" Series="0" ReqLevel="0" CDType="0" Price="0" ItemValue="10000000" MakeCost="-1" ResMale="217" ResFemale="217" FightPower="2" ScriptID="-1" DeductOnUse="false" BuffID="-1">
+        <ListBasicProp BasicPropType="lifemax_v" BasicPropPA1Min="1000" BasicPropPA1Max="1000" Index="1"/>
+        <ListBasicProp BasicPropType="manamax_v" BasicPropPA1Min="500" BasicPropPA1Max="500" Index="2"/>
+        <ListBasicProp BasicPropType="defencedeadlystrikedamagetrim" BasicPropPA1Min="10" BasicPropPA1Max="10" Index="3"/>
+        <ListBasicProp BasicPropType="damage_all_resist" BasicPropPA1Min="50" BasicPropPA1Max="50" Index="4"/>
+        <ListBasicProp BasicPropType="lucky_v" BasicPropPA1Min="10" BasicPropPA1Max="10" Index="5"/>
+    </ItemData>
+    <ItemData ItemID="16120" Name="Danh hiệu Châu Liên Hợp Bích (7 ngày)" IconBundleDir="Icon/EquipIcon2.unity3d" IconAtlasName="EquipIcon2" MapSpriteBundleDir="Resources/Item/MapSprite.unity3d" MapSpriteAtlasName="MapSprite" Kind="Ngoại Trang" QualityPrefix="0" Category="1" Genre="1" Stack="1" DetailType="36" ParticularType="19" Level="3" Icon="quest_0009_s" View="quest_0009_s" Intro="Có hiệu lực trong vòng 7 ngày" BindType="1" Series="0" ReqLevel="0" CDType="0" Price="0" ItemValue="10000000" MakeCost="-1" ResMale="218" ResFemale="218" FightPower="2" ScriptID="-1" DeductOnUse="false" BuffID="-1">
+        <ListBasicProp BasicPropType="lifemax_v" BasicPropPA1Min="1000" BasicPropPA1Max="1000" Index="1"/>
+        <ListBasicProp BasicPropType="manamax_v" BasicPropPA1Min="500" BasicPropPA1Max="500" Index="2"/>
+        <ListBasicProp BasicPropType="defencedeadlystrikedamagetrim" BasicPropPA1Min="10" BasicPropPA1Max="10" Index="3"/>
+        <ListBasicProp BasicPropType="damage_all_resist" BasicPropPA1Min="50" BasicPropPA1Max="50" Index="4"/>
+        <ListBasicProp BasicPropType="lucky_v" BasicPropPA1Min="10" BasicPropPA1Max="10" Index="5"/>
+    </ItemData>
+    <ItemData ItemID="16121" Name="Danh hiệu Châu Liên Hợp Bích (14 ngày)" IconBundleDir="Icon/EquipIcon2.unity3d" IconAtlasName="EquipIcon2" MapSpriteBundleDir="Resources/Item/MapSprite.unity3d" MapSpriteAtlasName="MapSprite" Kind="Ngoại Trang" QualityPrefix="0" Category="1" Genre="1" Stack="1" DetailType="36" ParticularType="19" Level="3" Icon="quest_0009_s" View="quest_0009_s" Intro="Có hiệu lực trong vòng 14 ngày" BindType="1" Series="0" ReqLevel="0" CDType="0" Price="0" ItemValue="10000000" MakeCost="-1" ResMale="219" ResFemale="219" FightPower="2" ScriptID="-1" DeductOnUse="false" BuffID="-1">
+        <ListBasicProp BasicPropType="lifemax_v" BasicPropPA1Min="1000" BasicPropPA1Max="1000" Index="1"/>
+        <ListBasicProp BasicPropType="manamax_v" BasicPropPA1Min="500" BasicPropPA1Max="500" Index="2"/>
+        <ListBasicProp BasicPropType="defencedeadlystrikedamagetrim" BasicPropPA1Min="10" BasicPropPA1Max="10" Index="3"/>
+        <ListBasicProp BasicPropType="damage_all_resist" BasicPropPA1Min="50" BasicPropPA1Max="50" Index="4"/>
+        <ListBasicProp BasicPropType="lucky_v" BasicPropPA1Min="10" BasicPropPA1Max="10" Index="5"/>
+    </ItemData>
+    <ItemData ItemID="16122" Name="Danh hiệu Châu Liên Hợp Bích (30 ngày)" IconBundleDir="Icon/EquipIcon2.unity3d" IconAtlasName="EquipIcon2" MapSpriteBundleDir="Resources/Item/MapSprite.unity3d" MapSpriteAtlasName="MapSprite" Kind="Ngoại Trang" QualityPrefix="0" Category="1" Genre="1" Stack="1" DetailType="36" ParticularType="19" Level="3" Icon="quest_0009_s" View="quest_0009_s" Intro="Có hiệu lực trong vòng 30 ngày" BindType="1" Series="0" ReqLevel="0" CDType="0" Price="0" ItemValue="10000000" MakeCost="-1" ResMale="220" ResFemale="220" FightPower="2" ScriptID="-1" DeductOnUse="false" BuffID="-1">
+        <ListBasicProp BasicPropType="lifemax_v" BasicPropPA1Min="2000" BasicPropPA1Max="2000" Index="1"/>
+        <ListBasicProp BasicPropType="manamax_v" BasicPropPA1Min="1000" BasicPropPA1Max="1000" Index="2"/>
+        <ListBasicProp BasicPropType="defencedeadlystrikedamagetrim" BasicPropPA1Min="15" BasicPropPA1Max="15" Index="3"/>
+        <ListBasicProp BasicPropType="damage_all_resist" BasicPropPA1Min="100" BasicPropPA1Max="100" Index="4"/>
+        <ListBasicProp BasicPropType="reduce_received_damage_p" BasicPropPA1Min="5" BasicPropPA1Max="5" Index="5"/>
+        <ListBasicProp BasicPropType="increase_output_damage_p" BasicPropPA1Min="5" BasicPropPA1Max="5" Index="6"/>
+        <ListBasicProp BasicPropType="addphysicsdamage_v" BasicPropPA1Min="300" BasicPropPA1Max="300" Index="7"/>
+        <ListBasicProp BasicPropType="addphysicsmagic_v" BasicPropPA1Min="300" BasicPropPA1Max="300" Index="8"/>
+    </ItemData>
+    <ItemData ItemID="16123" Name="Danh hiệu Hào Khí Lạc Hồng (3 ngày)" IconBundleDir="Icon/EquipIcon2.unity3d" IconAtlasName="EquipIcon2" MapSpriteBundleDir="Resources/Item/MapSprite.unity3d" MapSpriteAtlasName="MapSprite" Kind="Ngoại Trang" QualityPrefix="0" Category="1" Genre="1" Stack="1" DetailType="36" ParticularType="19" Level="3" Icon="quest_0009_s" View="quest_0009_s" Intro="Có hiệu lực trong vòng 3 ngày" BindType="1" Series="0" ReqLevel="0" CDType="0" Price="0" ItemValue="10000000" MakeCost="-1" ResMale="221" ResFemale="221" FightPower="2" ScriptID="-1" DeductOnUse="false" BuffID="-1">
+        <ListBasicProp BasicPropType="lifemax_v" BasicPropPA1Min="1000" BasicPropPA1Max="1000" Index="1"/>
+        <ListBasicProp BasicPropType="manamax_v" BasicPropPA1Min="500" BasicPropPA1Max="500" Index="2"/>
+        <ListBasicProp BasicPropType="defencedeadlystrikedamagetrim" BasicPropPA1Min="10" BasicPropPA1Max="10" Index="3"/>
+        <ListBasicProp BasicPropType="damage_all_resist" BasicPropPA1Min="50" BasicPropPA1Max="50" Index="4"/>
+        <ListBasicProp BasicPropType="lucky_v" BasicPropPA1Min="10" BasicPropPA1Max="10" Index="5"/>
+    </ItemData>
+    <ItemData ItemID="16124" Name="Danh hiệu Hào Khí Lạc Hồng (7 ngày)" IconBundleDir="Icon/EquipIcon2.unity3d" IconAtlasName="EquipIcon2" MapSpriteBundleDir="Resources/Item/MapSprite.unity3d" MapSpriteAtlasName="MapSprite" Kind="Ngoại Trang" QualityPrefix="0" Category="1" Genre="1" Stack="1" DetailType="36" ParticularType="19" Level="3" Icon="quest_0009_s" View="quest_0009_s" Intro="Có hiệu lực trong vòng 7 ngày" BindType="1" Series="0" ReqLevel="0" CDType="0" Price="0" ItemValue="10000000" MakeCost="-1" ResMale="222" ResFemale="222" FightPower="2" ScriptID="-1" DeductOnUse="false" BuffID="-1">
+        <ListBasicProp BasicPropType="lifemax_v" BasicPropPA1Min="1000" BasicPropPA1Max="1000" Index="1"/>
+        <ListBasicProp BasicPropType="manamax_v" BasicPropPA1Min="500" BasicPropPA1Max="500" Index="2"/>
+        <ListBasicProp BasicPropType="defencedeadlystrikedamagetrim" BasicPropPA1Min="10" BasicPropPA1Max="10" Index="3"/>
+        <ListBasicProp BasicPropType="damage_all_resist" BasicPropPA1Min="50" BasicPropPA1Max="50" Index="4"/>
+        <ListBasicProp BasicPropType="lucky_v" BasicPropPA1Min="10" BasicPropPA1Max="10" Index="5"/>
+    </ItemData>
+    <ItemData ItemID="16125" Name="Danh hiệu Hào Khí Lạc Hồng (14 ngày)" IconBundleDir="Icon/EquipIcon2.unity3d" IconAtlasName="EquipIcon2" MapSpriteBundleDir="Resources/Item/MapSprite.unity3d" MapSpriteAtlasName="MapSprite" Kind="Ngoại Trang" QualityPrefix="0" Category="1" Genre="1" Stack="1" DetailType="36" ParticularType="19" Level="3" Icon="quest_0009_s" View="quest_0009_s" Intro="Có hiệu lực trong vòng 14 ngày" BindType="1" Series="0" ReqLevel="0" CDType="0" Price="0" ItemValue="10000000" MakeCost="-1" ResMale="223" ResFemale="223" FightPower="2" ScriptID="-1" DeductOnUse="false" BuffID="-1">
+        <ListBasicProp BasicPropType="lifemax_v" BasicPropPA1Min="1000" BasicPropPA1Max="1000" Index="1"/>
+        <ListBasicProp BasicPropType="manamax_v" BasicPropPA1Min="500" BasicPropPA1Max="500" Index="2"/>
+        <ListBasicProp BasicPropType="defencedeadlystrikedamagetrim" BasicPropPA1Min="10" BasicPropPA1Max="10" Index="3"/>
+        <ListBasicProp BasicPropType="damage_all_resist" BasicPropPA1Min="50" BasicPropPA1Max="50" Index="4"/>
+        <ListBasicProp BasicPropType="lucky_v" BasicPropPA1Min="10" BasicPropPA1Max="10" Index="5"/>
+    </ItemData>
+    <ItemData ItemID="16126" Name="Danh hiệu Hào Khí Lạc Hồng (30 ngày)" IconBundleDir="Icon/EquipIcon2.unity3d" IconAtlasName="EquipIcon2" MapSpriteBundleDir="Resources/Item/MapSprite.unity3d" MapSpriteAtlasName="MapSprite" Kind="Ngoại Trang" QualityPrefix="0" Category="1" Genre="1" Stack="1" DetailType="36" ParticularType="19" Level="3" Icon="quest_0009_s" View="quest_0009_s" Intro="Có hiệu lực trong vòng 30 ngày" BindType="1" Series="0" ReqLevel="0" CDType="0" Price="0" ItemValue="10000000" MakeCost="-1" ResMale="224" ResFemale="224" FightPower="2" ScriptID="-1" DeductOnUse="false" BuffID="-1">
+        <ListBasicProp BasicPropType="lifemax_v" BasicPropPA1Min="2000" BasicPropPA1Max="2000" Index="1"/>
+        <ListBasicProp BasicPropType="manamax_v" BasicPropPA1Min="1000" BasicPropPA1Max="1000" Index="2"/>
+        <ListBasicProp BasicPropType="defencedeadlystrikedamagetrim" BasicPropPA1Min="15" BasicPropPA1Max="15" Index="3"/>
+        <ListBasicProp BasicPropType="damage_all_resist" BasicPropPA1Min="100" BasicPropPA1Max="100" Index="4"/>
+        <ListBasicProp BasicPropType="increase_output_damage_p" BasicPropPA1Min="5" BasicPropPA1Max="5" Index="5"/>
+        <ListBasicProp BasicPropType="attackspeed_v" BasicPropPA1Min="3" BasicPropPA1Max="3" Index="6"/>
+        <ListBasicProp BasicPropType="castspeed_v" BasicPropPA1Min="3" BasicPropPA1Max="3" Index="7"/>
+        <ListBasicProp BasicPropType="allseriesstateresisttime" BasicPropPA1Min="100" BasicPropPA1Max="100" Index="8"/>
+    </ItemData>
+    <ItemData ItemID="16127" Name="Danh hiệu Chiến Thần Mukbang (3 ngày)" IconBundleDir="Icon/EquipIcon2.unity3d" IconAtlasName="EquipIcon2" MapSpriteBundleDir="Resources/Item/MapSprite.unity3d" MapSpriteAtlasName="MapSprite" Kind="Ngoại Trang" QualityPrefix="0" Category="1" Genre="1" Stack="1" DetailType="36" ParticularType="19" Level="3" Icon="quest_0009_s" View="quest_0009_s" Intro="Có hiệu lực trong vòng 3 ngày" BindType="1" Series="0" ReqLevel="0" CDType="0" Price="0" ItemValue="10000000" MakeCost="-1" ResMale="225" ResFemale="225" FightPower="2" ScriptID="-1" DeductOnUse="false" BuffID="-1">
+        <ListBasicProp BasicPropType="lifemax_v" BasicPropPA1Min="1000" BasicPropPA1Max="1000" Index="1"/>
+        <ListBasicProp BasicPropType="manamax_v" BasicPropPA1Min="500" BasicPropPA1Max="500" Index="2"/>
+        <ListBasicProp BasicPropType="damage_all_resist" BasicPropPA1Min="50" BasicPropPA1Max="50" Index="3"/>
+        <ListBasicProp BasicPropType="lucky_v" BasicPropPA1Min="10" BasicPropPA1Max="10" Index="4"/>
+    </ItemData>
+    <ItemData ItemID="16128" Name="Danh hiệu Chiến Thần Mukbang (7 ngày)" IconBundleDir="Icon/EquipIcon2.unity3d" IconAtlasName="EquipIcon2" MapSpriteBundleDir="Resources/Item/MapSprite.unity3d" MapSpriteAtlasName="MapSprite" Kind="Ngoại Trang" QualityPrefix="0" Category="1" Genre="1" Stack="1" DetailType="36" ParticularType="19" Level="3" Icon="quest_0009_s" View="quest_0009_s" Intro="Có hiệu lực trong vòng 7 ngày" BindType="1" Series="0" ReqLevel="0" CDType="0" Price="0" ItemValue="10000000" MakeCost="-1" ResMale="226" ResFemale="226" FightPower="2" ScriptID="-1" DeductOnUse="false" BuffID="-1">
+        <ListBasicProp BasicPropType="lifemax_v" BasicPropPA1Min="1000" BasicPropPA1Max="1000" Index="1"/>
+        <ListBasicProp BasicPropType="manamax_v" BasicPropPA1Min="500" BasicPropPA1Max="500" Index="2"/>
+        <ListBasicProp BasicPropType="damage_all_resist" BasicPropPA1Min="50" BasicPropPA1Max="50" Index="3"/>
+        <ListBasicProp BasicPropType="lucky_v" BasicPropPA1Min="10" BasicPropPA1Max="10" Index="4"/>
+    </ItemData>
+    <ItemData ItemID="16129" Name="Danh hiệu Chiến Thần Mukbang (14 ngày)" IconBundleDir="Icon/EquipIcon2.unity3d" IconAtlasName="EquipIcon2" MapSpriteBundleDir="Resources/Item/MapSprite.unity3d" MapSpriteAtlasName="MapSprite" Kind="Ngoại Trang" QualityPrefix="0" Category="1" Genre="1" Stack="1" DetailType="36" ParticularType="19" Level="3" Icon="quest_0009_s" View="quest_0009_s" Intro="Có hiệu lực trong vòng 14 ngày" BindType="1" Series="0" ReqLevel="0" CDType="0" Price="0" ItemValue="10000000" MakeCost="-1" ResMale="227" ResFemale="227" FightPower="2" ScriptID="-1" DeductOnUse="false" BuffID="-1">
+        <ListBasicProp BasicPropType="lifemax_v" BasicPropPA1Min="1000" BasicPropPA1Max="1000" Index="1"/>
+        <ListBasicProp BasicPropType="manamax_v" BasicPropPA1Min="500" BasicPropPA1Max="500" Index="2"/>
+        <ListBasicProp BasicPropType="damage_all_resist" BasicPropPA1Min="50" BasicPropPA1Max="50" Index="3"/>
+        <ListBasicProp BasicPropType="lucky_v" BasicPropPA1Min="10" BasicPropPA1Max="10" Index="4"/>
+    </ItemData>
+    <ItemData ItemID="16130" Name="Danh hiệu Chiến Thần Mukbang (30 ngày)" IconBundleDir="Icon/EquipIcon2.unity3d" IconAtlasName="EquipIcon2" MapSpriteBundleDir="Resources/Item/MapSprite.unity3d" MapSpriteAtlasName="MapSprite" Kind="Ngoại Trang" QualityPrefix="0" Category="1" Genre="1" Stack="1" DetailType="36" ParticularType="19" Level="3" Icon="quest_0009_s" View="quest_0009_s" Intro="Có hiệu lực trong vòng 30 ngày" BindType="1" Series="0" ReqLevel="0" CDType="0" Price="0" ItemValue="10000000" MakeCost="-1" ResMale="228" ResFemale="228" FightPower="2" ScriptID="-1" DeductOnUse="false" BuffID="-1">
+        <ListBasicProp BasicPropType="lifemax_v" BasicPropPA1Min="2000" BasicPropPA1Max="2000" Index="1"/>
+        <ListBasicProp BasicPropType="manamax_v" BasicPropPA1Min="1000" BasicPropPA1Max="1000" Index="2"/>
+        <ListBasicProp BasicPropType="defencedeadlystrikedamagetrim" BasicPropPA1Min="10" BasicPropPA1Max="10" Index="3"/>
+        <ListBasicProp BasicPropType="damage_all_resist" BasicPropPA1Min="100" BasicPropPA1Max="100" Index="4"/>
+        <ListBasicProp BasicPropType="addphysicsmagic_v" BasicPropPA1Min="300" BasicPropPA1Max="300" Index="5"/>
+        <ListBasicProp BasicPropType="addphysicsdamage_v" BasicPropPA1Min="300" BasicPropPA1Max="300" Index="6"/>
+    </ItemData>
+    <ItemData ItemID="16131" Name="Danh hiệu thành viên thân thiết (30 ngày)" IconBundleDir="Icon/EquipIcon2.unity3d" IconAtlasName="EquipIcon2" MapSpriteBundleDir="Resources/Item/MapSprite.unity3d" MapSpriteAtlasName="MapSprite" Kind="Ngoại Trang" QualityPrefix="0" Category="1" Genre="1" Stack="1" DetailType="36" ParticularType="19" Level="3" Icon="quest_0009_s" View="quest_0009_s" Intro="Danh hiệu đặc biệt dành cho thành viên thân thiết có đóng góp cho Kiếm Vương 1" BindType="1" Series="0" ReqLevel="0" CDType="0" Price="0" ItemValue="10000000" MakeCost="-1" ResMale="229" ResFemale="229" FightPower="2" ScriptID="-1" DeductOnUse="false" BuffID="-1">
+        <ListBasicProp BasicPropType="lifemax_v" BasicPropPA1Min="2000" BasicPropPA1Max="2000" Index="1"/>
+        <ListBasicProp BasicPropType="manamax_v" BasicPropPA1Min="1000" BasicPropPA1Max="1000" Index="2"/>
+        <ListBasicProp BasicPropType="damage_all_resist" BasicPropPA1Min="50" BasicPropPA1Max="50" Index="3"/>
+    </ItemData>
+    <ItemData ItemID="16132" Name="Danh hiệu nhà tài trợ bạc (30 ngày)" IconBundleDir="Icon/EquipIcon2.unity3d" IconAtlasName="EquipIcon2" MapSpriteBundleDir="Resources/Item/MapSprite.unity3d" MapSpriteAtlasName="MapSprite" Kind="Ngoại Trang" QualityPrefix="0" Category="1" Genre="1" Stack="1" DetailType="36" ParticularType="19" Level="3" Icon="quest_0009_s" View="quest_0009_s" Intro="Danh hiệu đặc biệt dành cho nhà tài trợ bạc có đóng góp cho Kiếm Vương 1" BindType="1" Series="0" ReqLevel="0" CDType="0" Price="0" ItemValue="10000000" MakeCost="-1" ResMale="230" ResFemale="230" FightPower="2" ScriptID="-1" DeductOnUse="false" BuffID="-1">
+        <ListBasicProp BasicPropType="lifemax_v" BasicPropPA1Min="3000" BasicPropPA1Max="3000" Index="1"/>
+        <ListBasicProp BasicPropType="manamax_v" BasicPropPA1Min="1500" BasicPropPA1Max="1500" Index="2"/>
+        <ListBasicProp BasicPropType="damage_all_resist" BasicPropPA1Min="50" BasicPropPA1Max="50" Index="3"/>
+        <ListBasicProp BasicPropType="reduce_received_damage_p" BasicPropPA1Min="3" BasicPropPA1Max="3" Index="4"/>
+    </ItemData>
+    <ItemData ItemID="16133" Name="Danh hiệu nhà tài trợ vàng (30 ngày)" IconBundleDir="Icon/EquipIcon2.unity3d" IconAtlasName="EquipIcon2" MapSpriteBundleDir="Resources/Item/MapSprite.unity3d" MapSpriteAtlasName="MapSprite" Kind="Ngoại Trang" QualityPrefix="0" Category="1" Genre="1" Stack="1" DetailType="36" ParticularType="19" Level="3" Icon="quest_0009_s" View="quest_0009_s" Intro="Danh hiệu đặc biệt dành cho nhà tài trợ vàng có đóng góp cho Kiếm Vương 1" BindType="1" Series="0" ReqLevel="0" CDType="0" Price="0" ItemValue="10000000" MakeCost="-1" ResMale="231" ResFemale="231" FightPower="2" ScriptID="-1" DeductOnUse="false" BuffID="-1">
+        <ListBasicProp BasicPropType="lifemax_v" BasicPropPA1Min="4000" BasicPropPA1Max="4000" Index="1"/>
+        <ListBasicProp BasicPropType="manamax_v" BasicPropPA1Min="2000" BasicPropPA1Max="2000" Index="2"/>
+        <ListBasicProp BasicPropType="damage_all_resist" BasicPropPA1Min="75" BasicPropPA1Max="75" Index="3"/>
+        <ListBasicProp BasicPropType="reduce_received_damage_p" BasicPropPA1Min="5" BasicPropPA1Max="5" Index="4"/>
+    </ItemData>
+    <ItemData ItemID="16134" Name="Danh hiệu nhà tài trợ bạch kim (30 ngày)" IconBundleDir="Icon/EquipIcon2.unity3d" IconAtlasName="EquipIcon2" MapSpriteBundleDir="Resources/Item/MapSprite.unity3d" MapSpriteAtlasName="MapSprite" Kind="Ngoại Trang" QualityPrefix="0" Category="1" Genre="1" Stack="1" DetailType="36" ParticularType="19" Level="3" Icon="quest_0009_s" View="quest_0009_s" Intro="Danh hiệu đặc biệt dành cho nhà tài trợ bạch kim có đóng góp lớn cho Kiếm Vương 1" BindType="1" Series="0" ReqLevel="0" CDType="0" Price="0" ItemValue="10000000" MakeCost="-1" ResMale="232" ResFemale="232" FightPower="2" ScriptID="-1" DeductOnUse="false" BuffID="-1">
+        <ListBasicProp BasicPropType="lifemax_v" BasicPropPA1Min="6000" BasicPropPA1Max="6000" Index="1"/>
+        <ListBasicProp BasicPropType="manamax_v" BasicPropPA1Min="3000" BasicPropPA1Max="3000" Index="2"/>
+        <ListBasicProp BasicPropType="damage_all_resist" BasicPropPA1Min="100" BasicPropPA1Max="100" Index="3"/>
+        <ListBasicProp BasicPropType="reduce_received_damage_p" BasicPropPA1Min="8" BasicPropPA1Max="8" Index="4"/>
+        <ListBasicProp BasicPropType="increase_output_damage_p" BasicPropPA1Min="3" BasicPropPA1Max="3" Index="5"/>
+    </ItemData>
+    <ItemData ItemID="16135" Name="Danh hiệu nhà tài trợ kim cương (30 ngày)" IconBundleDir="Icon/EquipIcon2.unity3d" IconAtlasName="EquipIcon2" MapSpriteBundleDir="Resources/Item/MapSprite.unity3d" MapSpriteAtlasName="MapSprite" Kind="Ngoại Trang" QualityPrefix="0" Category="1" Genre="1" Stack="1" DetailType="36" ParticularType="19" Level="3" Icon="quest_0009_s" View="quest_0009_s" Intro="Danh hiệu đặc biệt dành cho nhà tài trợ kim cương có đóng góp đặc biệt lớn cho Kiếm Vương 1" BindType="1" Series="0" ReqLevel="0" CDType="0" Price="0" ItemValue="10000000" MakeCost="-1" ResMale="233" ResFemale="233" FightPower="2" ScriptID="-1" DeductOnUse="false" BuffID="-1">
+        <ListBasicProp BasicPropType="lifemax_v" BasicPropPA1Min="7500" BasicPropPA1Max="7500" Index="1"/>
+        <ListBasicProp BasicPropType="manamax_v" BasicPropPA1Min="3000" BasicPropPA1Max="3000" Index="2"/>
+        <ListBasicProp BasicPropType="damage_all_resist" BasicPropPA1Min="125" BasicPropPA1Max="125" Index="3"/>
+        <ListBasicProp BasicPropType="reduce_received_damage_p" BasicPropPA1Min="10" BasicPropPA1Max="10" Index="4"/>
+        <ListBasicProp BasicPropType="increase_output_damage_p" BasicPropPA1Min="5" BasicPropPA1Max="5" Index="5"/>
+    </ItemData>
+    <ItemData ItemID="16136" Name="Danh hiệu Tam Long Bá Vương (60 ngày)" IconBundleDir="Icon/EquipIcon2.unity3d" IconAtlasName="EquipIcon2" MapSpriteBundleDir="Resources/Item/MapSprite.unity3d" MapSpriteAtlasName="MapSprite" Kind="Ngoại Trang" QualityPrefix="0" Category="1" Genre="1" Stack="1" DetailType="36" ParticularType="19" Level="3" Icon="quest_0009_s" View="quest_0009_s" Intro="Có hiệu lực trong vòng 60 ngày" BindType="1" Series="0" ReqLevel="0" CDType="0" Price="0" ItemValue="10000000" MakeCost="-1" ResMale="234" ResFemale="234" FightPower="2" ScriptID="-1" DeductOnUse="false" BuffID="-1">
+        <ListBasicProp BasicPropType="lifemax_v" BasicPropPA1Min="5000" BasicPropPA1Max="5000" Index="1"/>
+        <ListBasicProp BasicPropType="manamax_v" BasicPropPA1Min="3000" BasicPropPA1Max="3000" Index="2"/>
+        <ListBasicProp BasicPropType="damage_all_resist" BasicPropPA1Min="100" BasicPropPA1Max="100" Index="3"/>
+        <ListBasicProp BasicPropType="reduce_received_damage_p" BasicPropPA1Min="10" BasicPropPA1Max="10" Index="4"/>
+        <ListBasicProp BasicPropType="increase_output_damage_p" BasicPropPA1Min="10" BasicPropPA1Max="10" Index="5"/>
+    </ItemData>
+    <ItemData ItemID="16137" Name="Danh hiệu Tam Long Chiến Tướng (60 ngày)" IconBundleDir="Icon/EquipIcon2.unity3d" IconAtlasName="EquipIcon2" MapSpriteBundleDir="Resources/Item/MapSprite.unity3d" MapSpriteAtlasName="MapSprite" Kind="Ngoại Trang" QualityPrefix="0" Category="1" Genre="1" Stack="1" DetailType="36" ParticularType="19" Level="3" Icon="quest_0009_s" View="quest_0009_s" Intro="Có hiệu lực trong vòng 60 ngày" BindType="1" Series="0" ReqLevel="0" CDType="0" Price="0" ItemValue="10000000" MakeCost="-1" ResMale="235" ResFemale="235" FightPower="2" ScriptID="-1" DeductOnUse="false" BuffID="-1">
+        <ListBasicProp BasicPropType="lifemax_v" BasicPropPA1Min="3000" BasicPropPA1Max="3000" Index="1"/>
+        <ListBasicProp BasicPropType="manamax_v" BasicPropPA1Min="1500" BasicPropPA1Max="1500" Index="2"/>
+        <ListBasicProp BasicPropType="damage_all_resist" BasicPropPA1Min="75" BasicPropPA1Max="75" Index="3"/>
+        <ListBasicProp BasicPropType="reduce_received_damage_p" BasicPropPA1Min="7" BasicPropPA1Max="7" Index="4"/>
+        <ListBasicProp BasicPropType="increase_output_damage_p" BasicPropPA1Min="7" BasicPropPA1Max="7" Index="5"/>
+    </ItemData>
+    <ItemData ItemID="16138" Name="Danh hiệu Tam Long Hộ Vệ (60 ngày)" IconBundleDir="Icon/EquipIcon2.unity3d" IconAtlasName="EquipIcon2" MapSpriteBundleDir="Resources/Item/MapSprite.unity3d" MapSpriteAtlasName="MapSprite" Kind="Ngoại Trang" QualityPrefix="0" Category="1" Genre="1" Stack="1" DetailType="36" ParticularType="19" Level="3" Icon="quest_0009_s" View="quest_0009_s" Intro="Có hiệu lực trong vòng 60 ngày" BindType="1" Series="0" ReqLevel="0" CDType="0" Price="0" ItemValue="10000000" MakeCost="-1" ResMale="236" ResFemale="236" FightPower="2" ScriptID="-1" DeductOnUse="false" BuffID="-1">
+        <ListBasicProp BasicPropType="lifemax_v" BasicPropPA1Min="3000" BasicPropPA1Max="3000" Index="1"/>
+        <ListBasicProp BasicPropType="manamax_v" BasicPropPA1Min="1500" BasicPropPA1Max="1500" Index="2"/>
+        <ListBasicProp BasicPropType="damage_all_resist" BasicPropPA1Min="50" BasicPropPA1Max="50" Index="3"/>
+        <ListBasicProp BasicPropType="reduce_received_damage_p" BasicPropPA1Min="5" BasicPropPA1Max="5" Index="4"/>
+        <ListBasicProp BasicPropType="increase_output_damage_p" BasicPropPA1Min="5" BasicPropPA1Max="5" Index="5"/>
+    </ItemData>
+    <ItemData ItemID="16139" Name="Danh hiệu Tam Niên Kiếm Vương 1 (3 ngày)" IconBundleDir="Icon/EquipIcon2.unity3d" IconAtlasName="EquipIcon2" MapSpriteBundleDir="Resources/Item/MapSprite.unity3d" MapSpriteAtlasName="MapSprite" Kind="Ngoại Trang" QualityPrefix="0" Category="1" Genre="1" Stack="1" DetailType="36" ParticularType="19" Level="3" Icon="quest_0009_s" View="quest_0009_s" Intro="Có hiệu lực trong vòng 3 ngày" BindType="1" Series="0" ReqLevel="0" CDType="0" Price="0" ItemValue="10000000" MakeCost="-1" ResMale="237" ResFemale="237" FightPower="2" ScriptID="-1" DeductOnUse="false" BuffID="-1">
+        <ListBasicProp BasicPropType="lifemax_v" BasicPropPA1Min="3000" BasicPropPA1Max="3000" Index="1"/>
+        <ListBasicProp BasicPropType="manamax_v" BasicPropPA1Min="1000" BasicPropPA1Max="1000" Index="2"/>
+        <ListBasicProp BasicPropType="lucky_v" BasicPropPA1Min="20" BasicPropPA1Max="20" Index="3"/>
+        <ListBasicProp BasicPropType="expenhance_p" BasicPropPA1Min="20" BasicPropPA1Max="20" Index="4"/>
+        <ListBasicProp BasicPropType="skillselfdamagetrim" BasicPropPA1Min="5" BasicPropPA1Max="5" Index="5"/>
+        <ListBasicProp BasicPropType="skilldamageptrim" BasicPropPA1Min="5" BasicPropPA1Max="5" Index="6"/>
+    </ItemData>
+    <ItemData ItemID="16140" Name="Danh hiệu Tam Niên Kiếm Vương 1 (7 ngày)" IconBundleDir="Icon/EquipIcon2.unity3d" IconAtlasName="EquipIcon2" MapSpriteBundleDir="Resources/Item/MapSprite.unity3d" MapSpriteAtlasName="MapSprite" Kind="Ngoại Trang" QualityPrefix="0" Category="1" Genre="1" Stack="1" DetailType="36" ParticularType="19" Level="3" Icon="quest_0009_s" View="quest_0009_s" Intro="Có hiệu lực trong vòng 7 ngày" BindType="1" Series="0" ReqLevel="0" CDType="0" Price="0" ItemValue="10000000" MakeCost="-1" ResMale="238" ResFemale="238" FightPower="2" ScriptID="-1" DeductOnUse="false" BuffID="-1">
+        <ListBasicProp BasicPropType="lifemax_v" BasicPropPA1Min="3000" BasicPropPA1Max="3000" Index="1"/>
+        <ListBasicProp BasicPropType="manamax_v" BasicPropPA1Min="1000" BasicPropPA1Max="1000" Index="2"/>
+        <ListBasicProp BasicPropType="lucky_v" BasicPropPA1Min="20" BasicPropPA1Max="20" Index="3"/>
+        <ListBasicProp BasicPropType="expenhance_p" BasicPropPA1Min="20" BasicPropPA1Max="20" Index="4"/>
+        <ListBasicProp BasicPropType="skillselfdamagetrim" BasicPropPA1Min="5" BasicPropPA1Max="5" Index="5"/>
+        <ListBasicProp BasicPropType="skilldamageptrim" BasicPropPA1Min="5" BasicPropPA1Max="5" Index="6"/>
+    </ItemData>
+    <ItemData ItemID="16141" Name="Danh hiệu Tam Niên Kiếm Vương 1 (14 ngày)" IconBundleDir="Icon/EquipIcon2.unity3d" IconAtlasName="EquipIcon2" MapSpriteBundleDir="Resources/Item/MapSprite.unity3d" MapSpriteAtlasName="MapSprite" Kind="Ngoại Trang" QualityPrefix="0" Category="1" Genre="1" Stack="1" DetailType="36" ParticularType="19" Level="3" Icon="quest_0009_s" View="quest_0009_s" Intro="Có hiệu lực trong vòng 14 ngày" BindType="1" Series="0" ReqLevel="0" CDType="0" Price="0" ItemValue="10000000" MakeCost="-1" ResMale="239" ResFemale="239" FightPower="2" ScriptID="-1" DeductOnUse="false" BuffID="-1">
+        <ListBasicProp BasicPropType="lifemax_v" BasicPropPA1Min="3000" BasicPropPA1Max="3000" Index="1"/>
+        <ListBasicProp BasicPropType="manamax_v" BasicPropPA1Min="1000" BasicPropPA1Max="1000" Index="2"/>
+        <ListBasicProp BasicPropType="lucky_v" BasicPropPA1Min="20" BasicPropPA1Max="20" Index="3"/>
+        <ListBasicProp BasicPropType="expenhance_p" BasicPropPA1Min="20" BasicPropPA1Max="20" Index="4"/>
+        <ListBasicProp BasicPropType="skillselfdamagetrim" BasicPropPA1Min="5" BasicPropPA1Max="5" Index="5"/>
+        <ListBasicProp BasicPropType="skilldamageptrim" BasicPropPA1Min="5" BasicPropPA1Max="5" Index="6"/>
+    </ItemData>
+    <ItemData ItemID="16142" Name="Danh hiệu Tam Niên Kiếm Vương 1 (30 ngày)" IconBundleDir="Icon/EquipIcon2.unity3d" IconAtlasName="EquipIcon2" MapSpriteBundleDir="Resources/Item/MapSprite.unity3d" MapSpriteAtlasName="MapSprite" Kind="Ngoại Trang" QualityPrefix="0" Category="1" Genre="1" Stack="1" DetailType="36" ParticularType="19" Level="3" Icon="quest_0009_s" View="quest_0009_s" Intro="Có hiệu lực trong vòng 30 ngày" BindType="1" Series="0" ReqLevel="0" CDType="0" Price="0" ItemValue="10000000" MakeCost="-1" ResMale="240" ResFemale="240" FightPower="2" ScriptID="-1" DeductOnUse="false" BuffID="-1">
+        <ListBasicProp BasicPropType="lifemax_v" BasicPropPA1Min="3000" BasicPropPA1Max="3000" Index="1"/>
+        <ListBasicProp BasicPropType="manamax_v" BasicPropPA1Min="1000" BasicPropPA1Max="1000" Index="2"/>
+        <ListBasicProp BasicPropType="lucky_v" BasicPropPA1Min="20" BasicPropPA1Max="20" Index="3"/>
+        <ListBasicProp BasicPropType="expenhance_p" BasicPropPA1Min="20" BasicPropPA1Max="20" Index="4"/>
+        <ListBasicProp BasicPropType="skillselfdamagetrim" BasicPropPA1Min="5" BasicPropPA1Max="5" Index="5"/>
+        <ListBasicProp BasicPropType="skilldamageptrim" BasicPropPA1Min="5" BasicPropPA1Max="5" Index="6"/>
+    </ItemData>
+    <ItemData ItemID="16143" Name="Admin" IconBundleDir="Icon/EquipIcon2.unity3d" IconAtlasName="EquipIcon2" MapSpriteBundleDir="Resources/Item/MapSprite.unity3d" MapSpriteAtlasName="MapSprite" Kind="Ngoại Trang" QualityPrefix="0" Category="1" Genre="1" Stack="1" DetailType="36" ParticularType="19" Level="3" Icon="quest_0009_s" View="quest_0009_s" Intro="Danh hiệu dành cho Admin" BindType="1" Series="0" ReqLevel="0" CDType="0" Price="0" ItemValue="10000000" MakeCost="-1" ResMale="999" ResFemale="999" FightPower="2" ScriptID="-1" DeductOnUse="false" BuffID="-1">
+        <ListBasicProp BasicPropType="fastwalkrun_v" BasicPropPA1Min="100" BasicPropPA1Max="100" Index="1"/>
+    </ItemData>
+</ArrayOfItemData>

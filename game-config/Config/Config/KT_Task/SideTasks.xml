@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SideTasks>
+	<Task Name="Tiêu diệt quái vật tại các bản đồ dã ngoại" ID="0" Intro="Tiêu diệt 1000 quái vật dã ngoại"
+		AwardText="&lt;color=#a6e3a1&gt;200000 EXP" Type="1" NumberItem="1000" IndexRepeat="0">
+		<Award ItemID="-1" Number="200000" />
+	</Task>
+	<Task Name="Vào Kỹ năng sống chọn Vũ khí và chế tạo vật phẩm phù hợp" ID="1" Type="0" Intro="Chế tạo 1 rương MĐT 1"
+		AwardText="&lt;color=#a6e3a1&gt;200000 EXP" NumberItem="0" IndexRepeat="0">
+		<Award ItemID="-1" Number="200000" />
+	</Task>
+	<Task Name="Tiêu diệt quái vật tại các bản đồ dã ngoại" ID="2" Type="1" Intro="Tiêu diệt 4000 quái"
+		AwardText="&lt;color=#a6e3a1&gt;200000 EXP&lt;br&gt;5 điểm uy danh " NumberItem="4000" IndexRepeat="0">
+		<Award ItemID="-1" Number="200000" />
+		<Award ItemID="-2" Number="5" />
+	</Task>
+	<Task Name="Đến gặp NPC Dã Luyện Đại Sư ở các Tân Thủ Thôn hoặc Thành Trấn để thực hiện cường hóa vật phẩm" ID="3"
+		Intro="Cường hóa thành công 1 trang bị phòng cụ lên 2" AwardText="&lt;color=#a6e3a1&gt;200000 EXP&lt;br&gt;1 huyền tinh 4(khóa)" Type="0"
+		NumberItem="0" IndexRepeat="0">
+		<Award ItemID="-1" Number="200000" />
+		<Award ItemID="388" Number="1" />
+	</Task>
+	<Task Name="Đến gặp NPC Dã Luyện Đại Sư ở các Tân Thủ Thôn hoặc Thành Trấn để thực hiện cường hóa vật phẩm" ID="4"
+		Intro="Cường hóa thành công 1 trang bị vũ khí lên 4" AwardText="&lt;color=#a6e3a1&gt;200000 EXP&lt;br&gt;1 huyền tinh 5(khóa)" Type="0"
+		NumberItem="0" IndexRepeat="0">
+		<Award ItemID="-1" Number="200000" />
+		<Award ItemID="389" Number="1" />
+	</Task>
+	<Task Name="Tiêu diệt quái vật tại các bản đồ dã ngoại" ID="5" Intro="Tiêu diệt 6000 quái" Type="1"
+		AwardText="&lt;color=#a6e3a1&gt;1 huyền tinh 6(khóa)" NumberItem="6000" IndexRepeat="0">
+		<Award ItemID="390" Number="1" />
+	</Task>
+	<Task Name="Khi sở hữu Tu Luyện Châu từ Chưởng Môn, người chơi vào Túi đồ và chọn sử dụng" ID="6" Intro="Sử dụng Tu Luyện Châu" Type="0"
+		AwardText="&lt;color=#a6e3a1&gt;100000 EXP" NumberItem="0" IndexRepeat="0">
+		<Award ItemID="-1" Number="100000" />
+	</Task>
+	<Task Name="Tiêu diệt quái vật tại các bản đồ dã ngoại" ID="7" Intro="Tiêu diệt 16666 Quái" Type="1"
+		AwardText="&lt;color=#a6e3a1&gt;500000 EXP&lt;br&gt;1 huyền tinh 6(khóa)" NumberItem="16666" IndexRepeat="0">
+		<Award ItemID="-1" Number="500000" />
+		<Award ItemID="390" Number="1" />
+	</Task>
+	<Task Name="Vào phần Hoạt Động và lựa chọn Tham Gia Truy nã Hải Tặc để nhận nhiệm vụ" ID="8" Intro="Tiêu diệt hải tặc" Type="0"
+		AwardText="&lt;color=#a6e3a1&gt;100000 EXP" NumberItem="0" IndexRepeat="0">
+		<Award ItemID="-1" Number="100000" />
+	</Task>
+	<Task Name="Vào phần Hoạt Động và lựa chọn Tham Gia Tiêu Dao Cốc để vào Tiêu Dao Cốc" ID="9" Intro="Vượt ải TDC dễ" Type="0"
+		AwardText="&lt;color=#a6e3a1&gt;200000 EXP" NumberItem="0" IndexRepeat="0">
+		<Award ItemID="-1" Number="200000" />
+	</Task>
+	<Task Name="Đến Gặp NPC Hoàng Thường(Đặc sứ Võ lâm Minh chủ) tại Biện Kinh Phủ" ID="10" Intro="Gia nhập gia tộc" Type="0"
+		AwardText="&lt;color=#a6e3a1&gt;100000 EXP" NumberItem="0" IndexRepeat="0">
+		<Award ItemID="-1" Number="100000" />
+	</Task>
+	<Task Name="Vào phần Hoạt Động và lựa chọn Tham Gia Bí Cảnh Tu Luyện để vào Bí Cảnh" ID="11" Intro="Tham gia bí cảnh" Type="0"
+		AwardText="&lt;color=#a6e3a1&gt;200000 EXP" NumberItem="10" IndexRepeat="0">
+		<Award ItemID="-1" Number="200000" />
+	</Task>
+	<Task Name="Vào phần Hoạt Động và lựa chọn Tham Gia Bao Vạn Đồng để nhận Nhiệm Vụ" ID="12" Intro="Hoàn thành nhiệm vụ Bao Vạn Đồng" Type="0"
+		AwardText="&lt;color=#a6e3a1&gt;100000 EXP" NumberItem="0" IndexRepeat="0">
+		<Award ItemID="-1" Number="100000" />
+	</Task>
+	<Task Name="Vào phần Hoạt Động và lựa chọn Tham Gia Tống Kim để vào làm nhiệm vụ" ID="13" Intro="Đạt 10 hạ gục Tống kim" Type="1"
+		AwardText="&lt;color=#a6e3a1&gt;200000 EXP" NumberItem="10" IndexRepeat="0">
+		<Award ItemID="-1" Number="200000" />
+	</Task>
+	<Task Name="Vào phần Hoạt Động và lựa chọn Tham Gia Bạch Hổ Đường để vào làm nhiệm vụ" ID="14" Intro="Tiêu diệt 10 quái BHD tầng 1" Type="1"
+		AwardText="&lt;color=#a6e3a1&gt;100000 EXP" NumberItem="10" IndexRepeat="0">
+		<Award ItemID="-1" Number="100000" />
+	</Task>
+	<Task Name="Đến gặp NPC Chủ Thương Hội ở Biện Kinh Phủ để nhận nhiệm vụ" ID="15" Intro="Hoàn thành nv Thương Hội" Type="0"
+		AwardText="&lt;color=#a6e3a1&gt;500000 EXP" NumberItem="0" IndexRepeat="0">
+		<Award ItemID="-1" Number="500000" />
+	</Task>
+	<Task Name="Vào phần Hoạt Động và lựa chọn Tham Gia Thi Đấu Môn Phái tham gia để hoàn thành nhiệm vụ" ID="16" Intro="Tham gia Thi Đấu Môn Phái"
+		Type="0" AwardText="&lt;color=#a6e3a1&gt;500000 EXP" NumberItem="0" IndexRepeat="0">
+		<Award ItemID="-1" Number="500000" />
+	</Task>
+	<Task Name="Đến giờ sự kiện Tìm NPC Nhan Như Ngọc trả lời câu hỏi để hoàn thành nhiệm vụ" ID="17" Intro="Tham gia đoán hoa đăng" Type="0"
+		AwardText="&lt;color=#a6e3a1&gt;200000 EXP" NumberItem="0" IndexRepeat="0">
+		<Award ItemID="-1" Number="200000" />
+	</Task>
+	<Task Name="Chiến đấu với Võ Lâm Cao Thủ vào 9:35,15:35.22:35 hàng ngày" ID="18" Intro="Gây sát thương lên boss Võ Lâm Cao Thủ"
+		AwardText="&lt;color=#a6e3a1&gt;200000 EXP&lt;br&gt;1 huyền tinh 5(khóa)" Type="0" NumberItem="0" IndexRepeat="0">
+		<Award ItemID="-1" Number="200000" />
+		<Award ItemID="389" Number="1" />
+	</Task>
+	<Task Name="Đến gặp NPC Tạ Hiền(Chủ Tiền Trang),mua và trang bị vật phẩm Phi Phong trong Tiệm Hồn Thạch" ID="19"
+		Intro="Mặc trang bị phi phong bất kỳ" AwardText="&lt;color=#a6e3a1&gt;100 Ngũ Hành Hồn Thạch(khóa)" Type="0" NumberItem="0" Award="-1,100"
+		IndexRepeat="0">
+		<Award ItemID="506" Number="100" />
+	</Task>
+</SideTasks>

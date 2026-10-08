@@ -1,0 +1,74 @@
+[
+    {
+        "ItemID": 20800,
+        "Name": "Rương Thiên Tầng Tháp - Tầng 1",
+        "Icon": "suijilingpaihe_tie",
+        "Intro": "",
+        "Stack": 10,
+        "ScriptID": 200060,
+        "ItemValue": 200500
+    },
+    {
+        "ItemID": 20801,
+        "Name": "Rương Thiên Tầng Tháp - Tầng 2",
+        "Icon": "suijilingpaihe_tie",
+        "Intro": "",
+        "Stack": 10,
+        "ScriptID": 200060,
+        "ItemValue": 200501
+    },
+    {
+        "ItemID": 20802,
+        "Name": "Rương Thiên Tầng Tháp - Tầng 3",
+        "Icon": "suijilingpaihe_tie",
+        "Intro": "",
+        "Stack": 10,
+        "ScriptID": 200060,
+        "ItemValue": 200502
+    },
+    {
+        "ItemID": 20803,
+        "Name": "Rương Thiên Tầng Tháp - Tầng 4",
+        "Icon": "suijilingpaihe_tie",
+        "Intro": "",
+        "Stack": 10,
+        "ScriptID": 200060,
+        "ItemValue": 200503
+    },
+    {
+        "ItemID": 20804,
+        "Name": "Rương Thiên Tầng Tháp - Tầng 5",
+        "Icon": "suijilingpaihe_tie",
+        "Intro": "",
+        "Stack": 10,
+        "ScriptID": 200060,
+        "ItemValue": 200504
+    },
+    {
+        "ItemID": 20805,
+        "Name": "Rương Thiên Tầng Tháp - Tầng 6",
+        "Icon": "suijilingpaihe_tie",
+        "Intro": "",
+        "Stack": 10,
+        "ScriptID": 200060,
+        "ItemValue": 200505
+    },
+    {
+        "ItemID": 20806,
+        "Name": "Rương Thiên Tầng Tháp - Tầng 7",
+        "Icon": "suijilingpaihe_tie",
+        "Intro": "",
+        "Stack": 10,
+        "ScriptID": 200060,
+        "ItemValue": 200506
+    },
+    {
+        "ItemID": 20907,
+        "Name": "Rương Thiên Tầng Tháp - Tầng 8",
+        "Icon": "suijilingpaihe_tie",
+        "Intro": "",
+        "Stack": 10,
+        "ScriptID": 200060,
+        "ItemValue": 200538
+    }
+]

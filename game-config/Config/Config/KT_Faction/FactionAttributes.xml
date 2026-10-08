@@ -1,0 +1,77 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<FactionAttributes>
+  <Attribute FactionID="0" SubID="0" StrToPAtk="1" DexToHit="2" DexToDodge="1" DexToPAtk="0" StaToHP="2" IntToMP="1" IntToMAtk="1" StrPerLevel="2" DexPerLevel="3" StaPerLevel="3" IntPerLevel="2" Name="Tân thủ" />
+  <Attribute FactionID="1" SubID="0" StrToPAtk="1" DexToHit="2" DexToDodge="1" DexToPAtk="0" StaToHP="5" IntToMP="1" IntToMAtk="1" StrPerLevel="2" DexPerLevel="3" StaPerLevel="3" IntPerLevel="2" Name="Thiếu Lâm [Chung]" />
+  <Attribute FactionID="2" SubID="0" StrToPAtk="1" DexToHit="2" DexToDodge="1" DexToPAtk="0" StaToHP="5" IntToMP="1" IntToMAtk="1" StrPerLevel="2" DexPerLevel="3" StaPerLevel="3" IntPerLevel="2" Name="Thiên Vương [Chung]" />
+  <Attribute FactionID="3" SubID="0" StrToPAtk="0" DexToHit="2" DexToDodge="1" DexToPAtk="1" StaToHP="3" IntToMP="3" IntToMAtk="1" StrPerLevel="2" DexPerLevel="3" StaPerLevel="3" IntPerLevel="2" Name="Đường Môn [Chung]" />
+  <Attribute FactionID="4" SubID="0" StrToPAtk="1" DexToHit="2" DexToDodge="1" DexToPAtk="0" StaToHP="3" IntToMP="3" IntToMAtk="1" StrPerLevel="2" DexPerLevel="3" StaPerLevel="3" IntPerLevel="2" Name="Ngũ Độc [Chung]" />
+  <Attribute FactionID="5" SubID="0" StrToPAtk="1" DexToHit="2" DexToDodge="1" DexToPAtk="0" StaToHP="3" IntToMP="3" IntToMAtk="1" StrPerLevel="2" DexPerLevel="3" StaPerLevel="3" IntPerLevel="2" Name="Nga My [Chung]" />
+  <Attribute FactionID="6" SubID="0" StrToPAtk="1" DexToHit="2" DexToDodge="1" DexToPAtk="0" StaToHP="3" IntToMP="3" IntToMAtk="1" StrPerLevel="2" DexPerLevel="3" StaPerLevel="3" IntPerLevel="2" Name="Thúy Yên [Chung]" />
+  <Attribute FactionID="7" SubID="0" StrToPAtk="1" DexToHit="2" DexToDodge="1" DexToPAtk="0" StaToHP="4" IntToMP="2" IntToMAtk="1" StrPerLevel="2" DexPerLevel="3" StaPerLevel="3" IntPerLevel="2" Name="Cái Bang [Chung]" />
+  <Attribute FactionID="8" SubID="0" StrToPAtk="1" DexToHit="2" DexToDodge="1" DexToPAtk="0" StaToHP="4" IntToMP="2" IntToMAtk="1" StrPerLevel="2" DexPerLevel="3" StaPerLevel="3" IntPerLevel="2" Name="Thiên Nhẫn [Chung]" />
+  <Attribute FactionID="9" SubID="0" StrToPAtk="1" DexToHit="2" DexToDodge="1" DexToPAtk="0" StaToHP="2" IntToMP="3" IntToMAtk="1" StrPerLevel="2" DexPerLevel="3" StaPerLevel="3" IntPerLevel="2" Name="Võ Đang [Chung]" />
+  <Attribute FactionID="10" SubID="0" StrToPAtk="1" DexToHit="2" DexToDodge="1" DexToPAtk="0" StaToHP="2" IntToMP="4" IntToMAtk="1" StrPerLevel="2" DexPerLevel="3" StaPerLevel="3" IntPerLevel="2" Name="Côn Lôn [Chung]" />
+  <Attribute FactionID="11" SubID="0" StrToPAtk="1" DexToHit="2" DexToDodge="1" DexToPAtk="0" StaToHP="3" IntToMP="3" IntToMAtk="1" StrPerLevel="2" DexPerLevel="3" StaPerLevel="3" IntPerLevel="2" Name="Minh Giáo [Chung]" />
+  <Attribute FactionID="12" SubID="0" StrToPAtk="1" DexToHit="2" DexToDodge="1" DexToPAtk="0" StaToHP="3" IntToMP="3" IntToMAtk="1" StrPerLevel="2" DexPerLevel="3" StaPerLevel="3" IntPerLevel="2" Name="Đoàn Thị [Chung]" />
+  <Attribute FactionID="1" SubID="1" StrToPAtk="2" DexToHit="2" DexToDodge="1" DexToPAtk="0" StaToHP="6" IntToMP="1" IntToMAtk="1" StrPerLevel="4" DexPerLevel="2" StaPerLevel="4" IntPerLevel="0" Name="Thiếu Lâm [Đao Thiếu]" />
+  <Attribute FactionID="1" SubID="2" StrToPAtk="1" DexToHit="2" DexToDodge="1" DexToPAtk="0" StaToHP="7" IntToMP="1" IntToMAtk="1" StrPerLevel="3" DexPerLevel="3" StaPerLevel="4" IntPerLevel="0" Name="Thiếu Lâm [Côn Thiếu]" />
+  <Attribute FactionID="2" SubID="1" StrToPAtk="2" DexToHit="4" DexToDodge="1" DexToPAtk="0" StaToHP="5" IntToMP="1" IntToMAtk="1" StrPerLevel="4" DexPerLevel="3" StaPerLevel="3" IntPerLevel="0" Name="Thiên Vương [Thương Thiên]" />
+  <Attribute FactionID="2" SubID="2" StrToPAtk="1" DexToHit="3" DexToDodge="1" DexToPAtk="0" StaToHP="5" IntToMP="1" IntToMAtk="1" StrPerLevel="4" DexPerLevel="2" StaPerLevel="4" IntPerLevel="0" Name="Thiên Vương [Chùy Thiên]" />
+  <Attribute FactionID="3" SubID="1" StrToPAtk="0" DexToHit="6" DexToDodge="1" DexToPAtk="2" StaToHP="4" IntToMP="3" IntToMAtk="1" StrPerLevel="0" DexPerLevel="5" StaPerLevel="5" IntPerLevel="0" Name="Đường Môn [Hãm Tĩnh]" />
+  <Attribute FactionID="3" SubID="2" StrToPAtk="0" DexToHit="6" DexToDodge="1" DexToPAtk="1" StaToHP="4" IntToMP="3" IntToMAtk="1" StrPerLevel="0" DexPerLevel="5" StaPerLevel="5" IntPerLevel="0" Name="Đường Môn [Tụ Tiễn]" />
+  <Attribute FactionID="4" SubID="1" StrToPAtk="2" DexToHit="3" DexToDodge="1" DexToPAtk="0" StaToHP="5" IntToMP="3" IntToMAtk="1" StrPerLevel="4" DexPerLevel="3" StaPerLevel="3" IntPerLevel="0" Name="Ngũ Độc [Đao Độc]" />
+  <Attribute FactionID="4" SubID="2" StrToPAtk="1" DexToHit="2" DexToDodge="1" DexToPAtk="0" StaToHP="5" IntToMP="3" IntToMAtk="2" StrPerLevel="0" DexPerLevel="0" StaPerLevel="5" IntPerLevel="5" Name="Ngũ Độc [Chưởng Độc]" />
+  <Attribute FactionID="5" SubID="2" StrToPAtk="1" DexToHit="2" DexToDodge="1" DexToPAtk="0" StaToHP="5" IntToMP="3" IntToMAtk="1" StrPerLevel="0" DexPerLevel="0" StaPerLevel="5" IntPerLevel="5" Name="Nga My [Phụ Trợ]" />
+  <Attribute FactionID="5" SubID="1" StrToPAtk="1" DexToHit="2" DexToDodge="1" DexToPAtk="0" StaToHP="5" IntToMP="3" IntToMAtk="3" StrPerLevel="0" DexPerLevel="0" StaPerLevel="5" IntPerLevel="5" Name="Nga My [Chưởng Nga]" />
+  <Attribute FactionID="6" SubID="1" StrToPAtk="1" DexToHit="2" DexToDodge="1" DexToPAtk="0" StaToHP="5" IntToMP="3" IntToMAtk="3" StrPerLevel="0" DexPerLevel="0" StaPerLevel="5" IntPerLevel="5" Name="Thúy Yên [Kiếm Thúy]" />
+  <Attribute FactionID="6" SubID="2" StrToPAtk="2" DexToHit="4" DexToDodge="1" DexToPAtk="0" StaToHP="5" IntToMP="3" IntToMAtk="1" StrPerLevel="5" DexPerLevel="3" StaPerLevel="4" IntPerLevel="0" Name="Thúy Yên [Đao Thúy]" />
+  <Attribute FactionID="7" SubID="1" StrToPAtk="1" DexToHit="2" DexToDodge="1" DexToPAtk="0" StaToHP="6" IntToMP="2" IntToMAtk="1" StrPerLevel="0" DexPerLevel="0" StaPerLevel="5" IntPerLevel="5" Name="Cái Bang [Chưởng Cái]" />
+  <Attribute FactionID="7" SubID="2" StrToPAtk="2" DexToHit="3" DexToDodge="1" DexToPAtk="0" StaToHP="6" IntToMP="2" IntToMAtk="1" StrPerLevel="5" DexPerLevel="3" StaPerLevel="4" IntPerLevel="0" Name="Cái Bang [Côn Cái]" />
+  <Attribute FactionID="8" SubID="1" StrToPAtk="2" DexToHit="4" DexToDodge="2" DexToPAtk="0" StaToHP="6" IntToMP="2" IntToMAtk="1" StrPerLevel="3" DexPerLevel="2" StaPerLevel="5" IntPerLevel="0" Name="Thiên Nhẫn [Chiến Nhẫn]" />
+  <Attribute FactionID="8" SubID="2" StrToPAtk="1" DexToHit="2" DexToDodge="1" DexToPAtk="0" StaToHP="6" IntToMP="2" IntToMAtk="2" StrPerLevel="0" DexPerLevel="0" StaPerLevel="5" IntPerLevel="5" Name="Thiên Nhẫn [Ma Nhẫn]" />
+  <Attribute FactionID="9" SubID="1" StrToPAtk="1" DexToHit="2" DexToDodge="1" DexToPAtk="0" StaToHP="2" IntToMP="4" IntToMAtk="1" StrPerLevel="0" DexPerLevel="0" StaPerLevel="5" IntPerLevel="5" Name="Võ Đang [Khí Võ]" />
+  <Attribute FactionID="9" SubID="2" StrToPAtk="2" DexToHit="3" DexToDodge="1" DexToPAtk="0" StaToHP="2" IntToMP="3" IntToMAtk="1" StrPerLevel="4" DexPerLevel="3" StaPerLevel="1" IntPerLevel="3" Name="Võ Đang [Kiếm Võ]" />
+  <Attribute FactionID="10" SubID="1" StrToPAtk="1" DexToHit="4" DexToDodge="1" DexToPAtk="0" StaToHP="4" IntToMP="4" IntToMAtk="1" StrPerLevel="6" DexPerLevel="2" StaPerLevel="3" IntPerLevel="0" Name="Côn Lôn [Đao Côn]" />
+  <Attribute FactionID="10" SubID="2" StrToPAtk="1" DexToHit="2" DexToDodge="1" DexToPAtk="0" StaToHP="4" IntToMP="4" IntToMAtk="2" StrPerLevel="0" DexPerLevel="0" StaPerLevel="5" IntPerLevel="5" Name="Côn Lôn [Kiếm Côn]" />
+  <Attribute FactionID="11" SubID="1" StrToPAtk="1" DexToHit="3" DexToDodge="3" DexToPAtk="0" StaToHP="5" IntToMP="3" IntToMAtk="1" StrPerLevel="4" DexPerLevel="3" StaPerLevel="3" IntPerLevel="0" Name="Minh Giáo [Chùy Minh]" />
+  <Attribute FactionID="11" SubID="2" StrToPAtk="1" DexToHit="2" DexToDodge="1" DexToPAtk="0" StaToHP="5" IntToMP="3" IntToMAtk="3" StrPerLevel="0" DexPerLevel="0" StaPerLevel="5" IntPerLevel="5" Name="Minh Giáo [Kiếm Minh]" />
+  <Attribute FactionID="12" SubID="1" StrToPAtk="2" DexToHit="4" DexToDodge="2" DexToPAtk="0" StaToHP="5" IntToMP="3" IntToMAtk="1" StrPerLevel="4" DexPerLevel="5" StaPerLevel="4" IntPerLevel="0" Name="Đoàn Thị [Chỉ Đoàn]" />
+  <Attribute FactionID="12" SubID="2" StrToPAtk="1" DexToHit="2" DexToDodge="1" DexToPAtk="0" StaToHP="5" IntToMP="3" IntToMAtk="3" StrPerLevel="0" DexPerLevel="0" StaPerLevel="5" IntPerLevel="5" Name="Đoàn Thị [Khí Đoàn]" />
+  <Attribute FactionID="13" SubID="1" StrToPAtk="2" DexToHit="4" DexToDodge="2" DexToPAtk="0" StaToHP="5" IntToMP="3" IntToMAtk="1" StrPerLevel="4" DexPerLevel="5" StaPerLevel="4" IntPerLevel="0" Name="Cổ Mộ [Kiếm]" />
+  <Attribute FactionID="13" SubID="2" StrToPAtk="1" DexToHit="2" DexToDodge="1" DexToPAtk="0" StaToHP="5" IntToMP="3" IntToMAtk="3" StrPerLevel="0" DexPerLevel="0" StaPerLevel="5" IntPerLevel="5" Name="Cổ Mộ [Châm]" />
+  <Attribute FactionID="14" SubID="1" StrToPAtk="2" DexToHit="4" DexToDodge="2" DexToPAtk="0" StaToHP="5" IntToMP="3" IntToMAtk="1" StrPerLevel="4" DexPerLevel="5" StaPerLevel="4" IntPerLevel="0" Name="Bá Đao [Kiếm]" />
+  <Attribute FactionID="14" SubID="2" StrToPAtk="1" DexToHit="2" DexToDodge="1" DexToPAtk="0" StaToHP="5" IntToMP="3" IntToMAtk="3" StrPerLevel="0" DexPerLevel="0" StaPerLevel="5" IntPerLevel="5" Name="Bá Đao [Chưởng]" />
+
+  <!-- Tiêu Dao: chỉ số cấp 1 giữ nguyên tới cấp tối đa; xem TIEU_DAO.md. -->
+  <Attribute FactionID="15" SubID="1" StrToPAtk="2" DexToHit="4" DexToDodge="2" DexToPAtk="0" StaToHP="5" IntToMP="3" IntToMAtk="1" StrPerLevel="4" DexPerLevel="5" StaPerLevel="4" IntPerLevel="0" Name="Tiêu Dao [Kiếm]" />
+  <Attribute FactionID="15" SubID="2" StrToPAtk="1" DexToHit="2" DexToDodge="1" DexToPAtk="0" StaToHP="5" IntToMP="3" IntToMAtk="3" StrPerLevel="0" DexPerLevel="0" StaPerLevel="5" IntPerLevel="5" Name="Tiêu Dao [Chưởng]" />
+</FactionAttributes>
+<!-- 
+====================================================================================================
+HƯỚNG DẪN CẤU HÌNH THUỘC TÍNH MÔN PHÁI (FACTION ATTRIBUTES)
+====================================================================================================
+
+1. NHÓM QUY ĐỔI TIỀM NĂNG SANG CHỈ SỐ CHIẾN ĐẤU (CONVERSION RATE):
+   - StrToPAtk   : 1 điểm Sức mạnh (Str) -> bao nhiêu điểm Vật công ngoại (Damage Physics).
+   - DexToHit    : 1 điểm Thân pháp (Dex) -> bao nhiêu điểm Chính xác (Attack Rate / Hit).
+   - DexToDodge  : 1 điểm Thân pháp (Dex) -> bao nhiêu điểm Né tránh (Defence / Dodge).
+   - DexToPAtk   : 1 điểm Thân pháp (Dex) -> bao nhiêu điểm Vật công ngoại (Đường Môn dùng Thân pháp tăng sát thương).
+   - StaToHP     : 1 điểm Thể chất / Ngoại công (Sta) -> bao nhiêu điểm Sinh lực tối đa (Max HP).
+   - IntToMP     : 1 điểm Nội công (Int) -> bao nhiêu điểm Nội lực tối đa (Max MP).
+   - IntToMAtk   : 1 điểm Nội công (Int) -> bao nhiêu điểm Vật công nội (Damage Magic).
+
+2. NHÓM GIỚI HẠN TỐI ĐA ĐƯỢC PHÉP CỘNG ĐIỂM (MAX CAP PER LEVEL) - [LƯU Ý QUAN TRỌNG]:
+   - ĐÂY KHÔNG PHẢI LÀ ĐIỂM TỰ ĐỘNG CỘNG MỖI CẤP.
+   - Đây là NGƯỠNG CHẶN TRÊN (Max Cap) mà người chơi được phép phân bổ vào thuộc tính đó tính theo cấp:
+     Công thức: Điểm tối đa có thể cộng = Cấp độ nhân vật * ...PerLevel (kiểm tra tại KPlayer_BaseProperties.cs)
+   - StrPerLevel : Trần Sức mạnh tối đa có thể cộng đến cấp hiện tại (= Level * StrPerLevel). Nếu = 0 là cấm cộng Sức.
+   - DexPerLevel : Trần Thân pháp tối đa có thể cộng đến cấp hiện tại (= Level * DexPerLevel).
+   - StaPerLevel : Trần Ngoại công tối đa có thể cộng đến cấp hiện tại (= Level * StaPerLevel).
+   - IntPerLevel : Trần Nội công tối đa có thể cộng đến cấp hiện tại (= Level * IntPerLevel). Nếu = 0 là cấm cộng Nội.
+
+3. PHÂN BIỆT VỚI CÁC FILE KHÁC:
+   - File này (FactionAttributes.xml): Quy định hệ số quy đổi ra HP/MP/Damage và Mức trần giới hạn tối đa được phép cộng.
+   - File Faction.xml (thẻ <Points>): Quy định tỷ lệ chia 10 điểm tiềm năng khi hệ thống tự động cộng điểm (Auto-allocate) cho tân thủ / tự cộng điểm.
+   - File RoleLevelUpAttributes.xml: Nơi cấp điểm tiềm năng khi lên cấp (RemainPoint="10").
+====================================================================================================
+-->

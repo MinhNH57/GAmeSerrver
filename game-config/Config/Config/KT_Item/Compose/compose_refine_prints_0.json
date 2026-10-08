@@ -1,0 +1,124 @@
+{
+    "recipes": [
+        {
+            "compose_id": 0,
+            "compose_name": "Ghép Luyện hóa đồ Bạch Hổ Đường",
+            "compose_description": "",
+            "enable_source": false,
+            "enable_rate_up": false,
+            "default_rate": 30,
+            "materials": [
+                {
+                    "id": 20334,
+                    "number": 5
+                },
+                {
+                    "id": 20335,
+                    "number": 5
+                }
+            ],
+            "output": {
+                "id": 20292,
+                "number": 1
+            },
+            "output_based_on_input": false,
+            "allow_multiple": false
+        },
+        {
+            "compose_id": 1,
+            "compose_name": "Ghép Luyện hóa đồ Tống Kim",
+            "compose_description": "",
+            "enable_source": false,
+            "enable_rate_up": false,
+            "default_rate": 30,
+            "materials": [
+                {
+                    "id": 20339,
+                    "number": 5
+                },
+                {
+                    "id": 20338,
+                    "number": 5
+                }
+            ],
+            "output": {
+                "id": 20315,
+                "number": 1
+            },
+            "output_based_on_input": false,
+            "allow_multiple": false
+        },
+        {
+            "compose_id": 2,
+            "compose_name": "Ghép Luyện hóa đồ Môn Phái",
+            "compose_description": "",
+            "enable_source": false,
+            "enable_rate_up": false,
+            "default_rate": 30,
+            "materials": [
+                {
+                    "id": 20342,
+                    "number": 5
+                },
+                {
+                    "id": 20343,
+                    "number": 5
+                }
+            ],
+            "output": {
+                "id": 20314,
+                "number": 1
+            },
+            "output_based_on_input": false,
+            "allow_multiple": false
+        },
+        {
+            "compose_id": 3,
+            "compose_name": "Ghép Luyện hóa đồ Nghĩa Quân",
+            "compose_description": "",
+            "enable_source": false,
+            "enable_rate_up": false,
+            "default_rate": 30,
+            "materials": [
+                {
+                    "id": 20336,
+                    "number": 5
+                },
+                {
+                    "id": 20337,
+                    "number": 5
+                }
+            ],
+            "output": {
+                "id": 20312,
+                "number": 1
+            },
+            "output_based_on_input": false,
+            "allow_multiple": false
+        },
+        {
+            "compose_id": 4,
+            "compose_name": "Ghép Luyện hóa đồ Gia Tộc",
+            "compose_description": "",
+            "enable_source": false,
+            "enable_rate_up": false,
+            "default_rate": 30,
+            "materials": [
+                {
+                    "id": 20340,
+                    "number": 5
+                },
+                {
+                    "id": 20341,
+                    "number": 5
+                }
+            ],
+            "output": {
+                "id": 20313,
+                "number": 1
+            },
+            "output_based_on_input": false,
+            "allow_multiple": false
+        }
+    ]
+}

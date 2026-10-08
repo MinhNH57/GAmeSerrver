@@ -1,0 +1,326 @@
+{
+    "recipes": [
+        {
+            "compose_id": 400,
+            "compose_name": "Nâng cấp Mặt nạ\nẤt Tỵ Khai Xuân\nCấp 1",
+            "compose_description": "",
+            "allow_multiple": false,
+            "enable_source": true,
+            "enable_rate_up": false,
+            "rate_up_items": [],
+            "source": { "ids": [15241], "forge_level": 0 },
+            "materials": [
+                { "id": 190, "number": 5 },
+                { "id": 928, "number": 8 },
+                { "id": 20620, "number": 15 },
+                { "id": 20782, "number": 2 }
+            ],
+            "fees": [
+                { "type": 4, "number": 10000 },
+                { "type": 5, "number": 10000 }
+            ],
+            "output": { "id": 15241, "forge_level": 1, "number": 1, "expiry": 21601 },
+            "output_based_on_input": false,
+            "default_rate": 100
+        },
+        {
+            "compose_id": 401,
+            "compose_name": "Nâng cấp Mặt nạ\nẤt Tỵ Khai Xuân\nCấp 2",
+            "compose_description": "",
+            "allow_multiple": false,
+            "enable_source": true,
+            "enable_rate_up": false,
+            "rate_up_items": [],
+            "source": { "ids": [15241], "forge_level": 1 },
+            "materials": [
+                { "id": 191, "number": 2 },
+                { "id": 928, "number": 12 },
+                { "id": 20620, "number": 20 },
+                { "id": 20782, "number": 3 }
+            ],
+            "fees": [
+                { "type": 4, "number": 10000 },
+                { "type": 5, "number": 10000 }
+            ],
+            "output": { "id": 15241, "forge_level": 2, "number": 1, "expiry": 28801 },
+            "output_based_on_input": false,
+            "default_rate": 70
+        },
+        {
+            "compose_id": 402,
+            "compose_name": "Nâng cấp Mặt nạ\nẤt Tỵ Khai Xuân\nCấp 3",
+            "compose_description": "",
+            "allow_multiple": false,
+            "enable_source": true,
+            "enable_rate_up": false,
+            "rate_up_items": [],
+            "source": { "ids": [15241], "forge_level": 2 },
+            "materials": [
+                { "id": 191, "number": 5 },
+                { "id": 928, "number": 15 },
+                { "id": 20620, "number": 25 },
+                { "id": 20782, "number": 5 }
+            ],
+            "fees": [
+                { "type": 4, "number": 15000 },
+                { "type": 5, "number": 15000 }
+            ],
+            "output": { "id": 15241, "forge_level": 3, "number": 1, "expiry": 43201 },
+            "output_based_on_input": false,
+            "default_rate": 60
+        },
+        {
+            "compose_id": 403,
+            "compose_name": "Nâng cấp Mặt nạ\nẤt Tỵ Khai Xuân\nCấp 4",
+            "compose_description": "",
+            "allow_multiple": false,
+            "enable_source": true,
+            "enable_rate_up": false,
+            "rate_up_items": [],
+            "source": { "ids": [15241], "forge_level": 3 },
+            "materials": [
+                { "id": 192, "number": 2 },
+                { "id": 928, "number": 18 },
+                { "id": 20620, "number": 30 },
+                { "id": 20782, "number": 7 }
+            ],
+            "fees": [
+                { "type": 4, "number": 15000 },
+                { "type": 5, "number": 15000 }
+            ],
+            "output": { "id": 15241, "forge_level": 4, "number": 1, "expiry": 50401 },
+            "output_based_on_input": false,
+            "default_rate": 45
+        },
+        {
+            "compose_id": 404,
+            "compose_name": "Nâng cấp Mặt nạ\nẤt Tỵ Khai Xuân\nCấp 5",
+            "compose_description": "",
+            "allow_multiple": false,
+            "enable_source": true,
+            "enable_rate_up": false,
+            "rate_up_items": [],
+            "source": { "ids": [15241], "forge_level": 4 },
+            "materials": [
+                { "id": 192, "number": 3 },
+                { "id": 928, "number": 20 },
+                { "id": 20620, "number": 35 },
+                { "id": 20782, "number": 10 }
+            ],
+            "fees": [
+                { "type": 4, "number": 20000 },
+                { "type": 5, "number": 20000 }
+            ],
+            "output": { "id": 15241, "forge_level": 5, "number": 1, "expiry": 64801 },
+            "output_based_on_input": false,
+            "default_rate": 30
+        },
+        {
+            "compose_id": 405,
+            "compose_name": "Nâng cấp Mặt nạ\nẤt Tỵ Khai Xuân\nCấp 6",
+            "compose_description": "",
+            "allow_multiple": false,
+            "enable_source": true,
+            "enable_rate_up": false,
+            "rate_up_items": [],
+            "source": { "ids": [15241], "forge_level": 5 },
+            "materials": [
+                { "id": 192, "number": 3 },
+                { "id": 928, "number": 35 },
+                { "id": 20620, "number": 50 },
+                { "id": 20782, "number": 12 }
+            ],
+            "fees": [
+                { "type": 4, "number": 20000 },
+                { "type": 5, "number": 20000 }
+            ],
+            "output": { "id": 15260, "forge_level": 6, "number": 1, "expiry": 64801 },
+            "output_based_on_input": false,
+            "default_rate": 30
+        },
+        {
+            "compose_id": 406,
+            "compose_name": "Nâng cấp Mặt nạ\nẤt Tỵ Khai Xuân\nCấp 7",
+            "compose_description": "",
+            "allow_multiple": false,
+            "enable_source": true,
+            "enable_rate_up": false,
+            "rate_up_items": [],
+            "source": { "ids": [15260], "forge_level": 6 },
+            "materials": [
+                { "id": 192, "number": 3 },
+                { "id": 928, "number": 50 },
+                { "id": 20620, "number": 75 },
+                { "id": 20782, "number": 15 }
+            ],
+            "fees": [
+                { "type": 4, "number": 20000 },
+                { "type": 5, "number": 20000 }
+            ],
+            "output": { "id": 15260, "forge_level": 7, "number": 1, "expiry": 64801 },
+            "output_based_on_input": false,
+            "default_rate": 30
+        },
+        {
+            "compose_id": 407,
+            "compose_name": "Nâng cấp Mặt nạ\nẤt Tỵ Khai Xuân\nCấp 1",
+            "compose_description": "",
+            "allow_multiple": false,
+            "enable_source": true,
+            "enable_rate_up": false,
+            "rate_up_items": [],
+            "source": { "ids": [15241], "forge_level": 0 },
+            "materials": [
+                { "id": 190, "number": 2 },
+                { "id": 928, "number": 5 },
+                { "id": 20620, "number": 10 },
+                { "id": 20782, "number": 2 }
+            ],
+            "fees": [
+                { "type": 4, "number": 10000 },
+                { "type": 5, "number": 10000 }
+            ],
+            "output": { "id": 15241, "forge_level": 1, "number": 1, "expiry": 21601 },
+            "output_based_on_input": false,
+            "default_rate": 100
+        },
+        {
+            "compose_id": 408,
+            "compose_name": "Nâng cấp Mặt nạ\nẤt Tỵ Khai Xuân\nCấp 2",
+            "compose_description": "",
+            "allow_multiple": false,
+            "enable_source": true,
+            "enable_rate_up": false,
+            "rate_up_items": [],
+            "source": { "ids": [15241], "forge_level": 1 },
+            "materials": [
+                { "id": 191, "number": 1 },
+                { "id": 928, "number": 8 },
+                { "id": 20620, "number": 15 },
+                { "id": 20782, "number": 3 }
+            ],
+            "fees": [
+                { "type": 4, "number": 10000 },
+                { "type": 5, "number": 10000 }
+            ],
+            "output": { "id": 15241, "forge_level": 2, "number": 1, "expiry": 28801 },
+            "output_based_on_input": false,
+            "default_rate": 70
+        },
+        {
+            "compose_id": 409,
+            "compose_name": "Nâng cấp Mặt nạ\nẤt Tỵ Khai Xuân\nCấp 3",
+            "compose_description": "",
+            "allow_multiple": false,
+            "enable_source": true,
+            "enable_rate_up": false,
+            "rate_up_items": [],
+            "source": { "ids": [15241], "forge_level": 2 },
+            "materials": [
+                { "id": 191, "number": 3 },
+                { "id": 928, "number": 12 },
+                { "id": 20620, "number": 20 },
+                { "id": 20782, "number": 5 }
+            ],
+            "fees": [
+                { "type": 4, "number": 12000 },
+                { "type": 5, "number": 12000 }
+            ],
+            "output": { "id": 15241, "forge_level": 3, "number": 1, "expiry": 43201 },
+            "output_based_on_input": false,
+            "default_rate": 60
+        },
+        {
+            "compose_id": 410,
+            "compose_name": "Nâng cấp Mặt nạ\nẤt Tỵ Khai Xuân\nCấp 4",
+            "compose_description": "",
+            "allow_multiple": false,
+            "enable_source": true,
+            "enable_rate_up": false,
+            "rate_up_items": [],
+            "source": { "ids": [15241], "forge_level": 3 },
+            "materials": [
+                { "id": 192, "number": 1 },
+                { "id": 928, "number": 15 },
+                { "id": 20620, "number": 25 },
+                { "id": 20782, "number": 7 }
+            ],
+            "fees": [
+                { "type": 4, "number": 15000 },
+                { "type": 5, "number": 15000 }
+            ],
+            "output": { "id": 15241, "forge_level": 4, "number": 1, "expiry": 50401 },
+            "output_based_on_input": false,
+            "default_rate": 45
+        },
+        {
+            "compose_id": 411,
+            "compose_name": "Nâng cấp Mặt nạ\nẤt Tỵ Khai Xuân\nCấp 5",
+            "compose_description": "",
+            "allow_multiple": false,
+            "enable_source": true,
+            "enable_rate_up": false,
+            "rate_up_items": [],
+            "source": { "ids": [15241], "forge_level": 4 },
+            "materials": [
+                { "id": 192, "number": 2 },
+                { "id": 928, "number": 20 },
+                { "id": 20620, "number": 30 },
+                { "id": 20782, "number": 10 }
+            ],
+            "fees": [
+                { "type": 4, "number": 20000 },
+                { "type": 5, "number": 20000 }
+            ],
+            "output": { "id": 15241, "forge_level": 5, "number": 1, "expiry": 64801 },
+            "output_based_on_input": false,
+            "default_rate": 30
+        },
+        {
+            "compose_id": 412,
+            "compose_name": "Nâng cấp Mặt nạ\nẤt Tỵ Khai Xuân\nCấp 6",
+            "compose_description": "",
+            "allow_multiple": false,
+            "enable_source": true,
+            "enable_rate_up": false,
+            "rate_up_items": [],
+            "source": { "ids": [15241], "forge_level": 5 },
+            "materials": [
+                { "id": 192, "number": 3 },
+                { "id": 928, "number": 35 },
+                { "id": 20620, "number": 50 },
+                { "id": 20782, "number": 12 }
+            ],
+            "fees": [
+                { "type": 4, "number": 20000 },
+                { "type": 5, "number": 20000 }
+            ],
+            "output": { "id": 15260, "forge_level": 6, "number": 1, "expiry": 64801 },
+            "output_based_on_input": false,
+            "default_rate": 30
+        },
+        {
+            "compose_id": 413,
+            "compose_name": "Nâng cấp Mặt nạ\nẤt Tỵ Khai Xuân\nCấp 7",
+            "compose_description": "",
+            "allow_multiple": false,
+            "enable_source": true,
+            "enable_rate_up": false,
+            "rate_up_items": [],
+            "source": { "ids": [15260], "forge_level": 6 },
+            "materials": [
+                { "id": 192, "number": 3 },
+                { "id": 928, "number": 50 },
+                { "id": 20620, "number": 75 },
+                { "id": 20782, "number": 15 }
+            ],
+            "fees": [
+                { "type": 4, "number": 20000 },
+                { "type": 5, "number": 20000 }
+            ],
+            "output": { "id": 15260, "forge_level": 7, "number": 1, "expiry": 64801 },
+            "output_based_on_input": false,
+            "default_rate": 30
+        }
+    ]
+}

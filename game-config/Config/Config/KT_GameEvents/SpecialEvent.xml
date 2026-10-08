@@ -1,0 +1,324 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+	SỰ KIỆN ĐẶC BIỆT
+	- Event: Thông tin sự kiện
+		- Activate: Kích hoạt sự kiện không
+		- Type: Loại sự kiện (1: Đánh quái nhặt nguyên liệu đổi quà, 2: Thu thập nguyên liệu đổi quà)
+		- Name: Tên sự kiện
+		- TimeConfig: Thiết lập thời gian sự kiện
+			- FromDay: Từ ngày
+			- ToDay: Đến ngày
+			
+		====== Với sự kiện Đánh quái nhặt nguyên liệu đổi quà ======
+			- Materials: Nguyên liệu rơi
+				- DropInfo: Thông tin rơi
+					- MonsterID: ID quái
+					- MapIDs: Danh sách ID bản đồ, ngăn cách bởi dấu ; (-1 sẽ có tác dụng trên tất cả bản đồ)
+					- Item: Thông tin vật phẩm rơi
+						- ID: ID vật phẩm
+						- Rate: Tỷ lệ rơi (phần 10.000)
+			- Awards: Danh sách phần thưởng
+				- AwardInfo: Thông tin phần thưởng
+					- Selection: Nội dung lựa chọn ở NPC
+					- RequireItems: Danh sách vật phẩm yêu cầu, ngăn cách nhau bởi dấu ;
+						- Gồm 2 tham biến ID_Số lượng
+					- AwardCount: Số lượng phần thưởng được nhận
+					- RequireFreeBagSpace: Yêu cầu số ô trống trong túi
+					- RequireMoney: Yêu cầu bạc
+					- RequireBoundMoney: Yêu cầu bạc khóa
+					- RequireToken: Yêu cầu đồng
+					- RequireBoundToken: Yêu cầu đồng khóa
+					- Award: Thông tin món thưởng
+						- ItemID: ID vật phẩm
+						- Quantity: Số lượng
+						- Rate: Tỷ lệ nhận được (phần 10.000)
+						- Bound: Khóa hay không
+						
+		====== Với sự kiện Thu thập nguyên liệu đổi quà ======
+			- Materials: Nguyên liệu thu thập
+				- GrowPoint: Thông tin điểm thu thập
+					- Type: Loại th thậ theo thời gian cố định hay theo thời gian respamTicks(0: xuất hiện từ FromHour đến ToHour; 1: xuất hiện tại SpamnAt)
+					- ID: ID điểm thu thập (xem ở File NPCs.xml)
+					- RequireLevel: level có thể thu thập
+					- Name: Tên điểm thu thập (bỏ trống sẽ lấy tên ở file NPCs.xml)
+					- MapID: ID bản đồ
+					- Pos: Danh sách vị trí xuất hiện trên bản đồ, ngăn cách bởi dấu ;
+					- RespawnTicks: Thời gian xuất hiện tính từ khi sự kiện bắt đầu (Mili giây) (-1 sẽ không xuất hiện)
+					- DurationTicks: Thời gian tồn tại (Mili giây) (-1 là vĩnh viễn)
+					- CollectTicks: Thời gian thu thập (Mili giây)
+					- SpawnCount: Tổng số vị trí sẽ sinh ra (-1 sẽ sinh ra toàn bộ vị trí đã chỉ định)
+					- RequireBagSpaces: Yêu cầu số ô trống trong túi
+					- FromHour: Xuất hiện từ thời điểm (trong ngày)
+					- ToHour: Xuất hiện tới thời điểm (trong ngày)
+					- SpamnAt: Thời gian xuất hiện cố định trong ngày (1thHour:1thMinute;2thHour:2thMinute;...)
+					- Item: Thông tin vật phẩm thu thập
+						- Type: 0 tiền, 1 là add kinh nghiệm, 2 là thả boss, 3 là các vật phẩm
+						- ID: ID vật phẩm, loại tiền, id boss đầu
+						- Number: số lượng vật phẩm, lượng tiền, kinh nghiệm, id boss cuối
+						- Rate: Tỷ lệ thu thập được (phần 10.000)
+			- Awards: Danh sách phần thưởng
+				- AwardInfo: Thông tin phần thưởng
+					- Selection: Nội dung lựa chọn ở NPC
+					- RequireItems: Danh sách vật phẩm yêu cầu, ngăn cách nhau bởi dấu ;
+						- Gồm 2 tham biến ID_Số lượng
+					- AwardCount: Số lượng phần thưởng được nhận
+					- RequireFreeBagSpace: Yêu cầu số ô trống trong túi
+					- RequireMoney: Yêu cầu bạc
+					- RequireBoundMoney: Yêu cầu bạc khóa
+					- RequireToken: Yêu cầu đồng
+					- RequireBoundToken: Yêu cầu đồng khóa
+					- Award: Thông tin món thưởng
+						- ItemID: ID vật phẩm
+						- Quantity: Số lượng
+						- Rate: Tỷ lệ nhận được (phần 10.000)
+						- Bound: Khóa hay không
+-->
+<SpecialEvent>
+	<Event Activate="true" Type="2" Name="Sự kiện 30/4 - 1/5" NPCTalk="">
+		<TimeConfig FromDay="25/04/2023" ToDay="22/05/2023" />
+		<Materials>
+			<GrowPointInfo Type="1" ID="20154" RequireLevel="60" Name="Cờ Đoạt Bảo" MapID="40" Pos="5940_593;7250_1074;7416_3029;6886_3965;8027_4387;8880_5300;8636_6117;6945_8102;6297_7625;4318_7568;3583_6641;2549_6468;2677_5410;1709_4995;2668_3598;1326_2367;500_1620" RespawnTicks="10000" DurationTicks="600000" CollectTicks="10000" SpawnCount="5" RequireBagSpaces="10" FromHour="00:00" ToHour="23:59" SpamnAt="15:20;22:20">
+				<Item Type="3" ID="15218" Number="20" Rate="400" />
+				<Item Type="1" ID="0" Number="1000000" Rate="5000" />
+				<Item Type="1" ID="0" Number="2000000" Rate="3000" />
+				<Item Type="1" ID="0" Number="5000000" Rate="1000" />
+				<Item Type="2" ID="22623" Number="22627" Rate="500" />
+				<Item Type="2" ID="22618" Number="22622" Rate="100" />
+			</GrowPointInfo>
+			<GrowPointInfo Type="1" ID="20154" RequireLevel="60" Name="Cờ Đoạt Bảo" MapID="41" Pos="2080_580;1419_986;1740_1500;1240_2100;640_3420;2826_2466;3009_1732;4385_2342;5423_2850;5401_3808;5326_4289;3828_4388;3272_3560;2692_3794;2539_4520" RespawnTicks="10000" DurationTicks="600000" CollectTicks="5000" SpawnCount="5" RequireBagSpaces="10" FromHour="00:00" ToHour="23:59" SpamnAt="15:20;22:20">
+				<Item Type="3" ID="15218" Number="20" Rate="400" />
+				<Item Type="1" ID="0" Number="1000000" Rate="5000" />
+				<Item Type="1" ID="0" Number="2000000" Rate="3000" />
+				<Item Type="1" ID="0" Number="5000000" Rate="1000" />
+				<Item Type="2" ID="22623" Number="22627" Rate="500" />
+				<Item Type="2" ID="22618" Number="22622" Rate="100" />
+			</GrowPointInfo>
+			<GrowPointInfo Type="1" ID="20154" RequireLevel="60" Name="Cờ Đoạt Bảo" MapID="45" Pos="2859_1103;3724_1603;4095_665;5088_701;5895_1095;7222_861;7791_3579;9224_3400;8828_4886;7345_4889;7704_6333;9123_7200;5744_6476;4888_5529;1414_6515;800_5120;2372_4440" RespawnTicks="10000" DurationTicks="600000" CollectTicks="5000" SpawnCount="5" RequireBagSpaces="10" FromHour="00:00" ToHour="23:59" SpamnAt="15:20;22:20">
+				<Item Type="3" ID="15218" Number="20" Rate="400" />
+				<Item Type="1" ID="0" Number="1000000" Rate="5000" />
+				<Item Type="1" ID="0" Number="2000000" Rate="3000" />
+				<Item Type="1" ID="0" Number="5000000" Rate="1000" />
+				<Item Type="2" ID="22623" Number="22627" Rate="500" />
+				<Item Type="2" ID="22618" Number="22622" Rate="100" />
+			</GrowPointInfo>
+			<GrowPointInfo Type="1" ID="20154" RequireLevel="60" Name="Cờ Đoạt Bảo" MapID="52" Pos="8196_5202;7877_6191;9913_6345;9885_7293;7875_6761;6289_4950;7338_3961;8555_3109;5040_2028;3412_1587;1906_3483;2032_6207;5167_7125;6260_7720" RespawnTicks="10000" DurationTicks="600000" CollectTicks="5000" SpawnCount="5" RequireBagSpaces="10" FromHour="00:00" ToHour="23:59" SpamnAt="15:20;22:20">
+				<Item Type="3" ID="15218" Number="20" Rate="400" />
+				<Item Type="1" ID="0" Number="1000000" Rate="5000" />
+				<Item Type="1" ID="0" Number="2000000" Rate="3000" />
+				<Item Type="1" ID="0" Number="5000000" Rate="1000" />
+				<Item Type="2" ID="22623" Number="22627" Rate="500" />
+				<Item Type="2" ID="22618" Number="22622" Rate="100" />
+			</GrowPointInfo>
+			<GrowPointInfo Type="1" ID="20154" RequireLevel="60" Name="Cờ Đoạt Bảo" MapID="46" Pos="6712_2832;5918_2492;4794_2675;3710_2228;2358_1800;2679_703;532_1075;1176_2279;1981_4069;2089_5262;3145_6535;4759_5206;6829_5308" RespawnTicks="10000" DurationTicks="600000" CollectTicks="5000" SpawnCount="5" RequireBagSpaces="10" FromHour="00:00" ToHour="23:59" SpamnAt="15:20;22:20">
+				<Item Type="3" ID="15218" Number="20" Rate="400" />
+				<Item Type="1" ID="0" Number="1000000" Rate="5000" />
+				<Item Type="1" ID="0" Number="2000000" Rate="3000" />
+				<Item Type="1" ID="0" Number="5000000" Rate="1000" />
+				<Item Type="2" ID="22623" Number="22627" Rate="500" />
+				<Item Type="2" ID="22618" Number="22622" Rate="100" />
+			</GrowPointInfo>
+			<GrowPointInfo Type="1" ID="20154" RequireLevel="60" Name="Cờ Đoạt Bảo" MapID="48" Pos="6899_926;5499_638;4867_1036;3920_1520;2045_1950;1880_2953;878_3878;1772_4642;2924_5038;5591_5101;5557_4000;6938_5104" RespawnTicks="10000" DurationTicks="600000" CollectTicks="5000" SpawnCount="5" RequireBagSpaces="10" FromHour="00:00" ToHour="23:59" SpamnAt="15:20;22:20">
+				<Item Type="3" ID="15218" Number="20" Rate="400" />
+				<Item Type="1" ID="0" Number="1000000" Rate="5000" />
+				<Item Type="1" ID="0" Number="2000000" Rate="3000" />
+				<Item Type="1" ID="0" Number="5000000" Rate="1000" />
+				<Item Type="2" ID="22623" Number="22627" Rate="500" />
+				<Item Type="2" ID="22618" Number="22622" Rate="100" />
+			</GrowPointInfo>
+			<GrowPointInfo Type="1" ID="20154" RequireLevel="60" Name="Cờ Đoạt Bảo" MapID="63" Pos="8527_6609;6873_7328;4921_7022;3609_5687;2558_6984;4818_4090;4213_2243;2110_1383;1652_3362;762_5353" RespawnTicks="10000" DurationTicks="600000" CollectTicks="5000" SpawnCount="5" RequireBagSpaces="10" FromHour="00:00" ToHour="23:59" SpamnAt="15:20;22:20">
+				<Item Type="3" ID="15218" Number="20" Rate="400" />
+				<Item Type="1" ID="0" Number="1000000" Rate="5000" />
+				<Item Type="1" ID="0" Number="2000000" Rate="3000" />
+				<Item Type="1" ID="0" Number="5000000" Rate="1000" />
+				<Item Type="2" ID="22623" Number="22627" Rate="500" />
+				<Item Type="2" ID="22618" Number="22622" Rate="100" />
+			</GrowPointInfo>
+			<GrowPointInfo Type="1" ID="20154" RequireLevel="60" Name="Cờ Đoạt Bảo" MapID="59" Pos="6127_1553;6589_3625;6897_5826;4139_6776;2736_5937;1956_3824;1706_1759;3835_972" RespawnTicks="10000" DurationTicks="600000" CollectTicks="5000" SpawnCount="5" RequireBagSpaces="10" FromHour="00:00" ToHour="23:59" SpamnAt="15:20;22:20">
+				<Item Type="3" ID="15218" Number="20" Rate="400" />
+				<Item Type="1" ID="0" Number="1000000" Rate="5000" />
+				<Item Type="1" ID="0" Number="2000000" Rate="3000" />
+				<Item Type="1" ID="0" Number="5000000" Rate="1000" />
+				<Item Type="2" ID="22623" Number="22627" Rate="500" />
+				<Item Type="2" ID="22618" Number="22622" Rate="100" />
+			</GrowPointInfo>
+			<GrowPointInfo Type="1" ID="20154" RequireLevel="60" Name="Cờ Đoạt Bảo" MapID="64" Pos="1225_4324;3114_2727;1591_2527;3283_4777;5158_5587;7038_4772;6925_3042;7357_1341;5583_644;3558_1348;2300_943" RespawnTicks="10000" DurationTicks="600000" CollectTicks="5000" SpawnCount="5" RequireBagSpaces="10" FromHour="00:00" ToHour="23:59" SpamnAt="15:20;22:20">
+				<Item Type="3" ID="15218" Number="20" Rate="400" />
+				<Item Type="1" ID="0" Number="1000000" Rate="5000" />
+				<Item Type="1" ID="0" Number="2000000" Rate="3000" />
+				<Item Type="1" ID="0" Number="5000000" Rate="1000" />
+				<Item Type="2" ID="22623" Number="22627" Rate="500" />
+				<Item Type="2" ID="22618" Number="22622" Rate="100" />
+			</GrowPointInfo>
+			<GrowPointInfo Type="1" ID="20154" RequireLevel="60" Name="Cờ Đoạt Bảo" MapID="70" Pos="7123_1763;6560_3413;7121_5015;4565_3798;4111_1911;4505_536;1737_2962;2144_4149;2370_5470;3623_4134" RespawnTicks="10000" DurationTicks="600000" CollectTicks="5000" SpawnCount="5" RequireBagSpaces="10" FromHour="00:00" ToHour="23:59" SpamnAt="15:20;22:20">
+				<Item Type="3" ID="15218" Number="20" Rate="400" />
+				<Item Type="1" ID="0" Number="1000000" Rate="5000" />
+				<Item Type="1" ID="0" Number="2000000" Rate="3000" />
+				<Item Type="1" ID="0" Number="5000000" Rate="1000" />
+				<Item Type="2" ID="22623" Number="22627" Rate="500" />
+				<Item Type="2" ID="22618" Number="22622" Rate="100" />
+			</GrowPointInfo>
+			<GrowPointInfo Type="1" ID="20154" RequireLevel="60" Name="Cờ Đoạt Bảo" MapID="66" Pos="2461_776;592_1770;2418_2291;2105_4460;3381_5929;5272_5372;6593_2762;5873_1367;4028_945;7112_1034" RespawnTicks="10000" DurationTicks="600000" CollectTicks="5000" SpawnCount="5" RequireBagSpaces="10" FromHour="00:00" ToHour="23:59" SpamnAt="15:20;22:20">
+				<Item Type="3" ID="15218" Number="20" Rate="400" />
+				<Item Type="1" ID="0" Number="1000000" Rate="5000" />
+				<Item Type="1" ID="0" Number="2000000" Rate="3000" />
+				<Item Type="1" ID="0" Number="5000000" Rate="1000" />
+				<Item Type="2" ID="22623" Number="22627" Rate="500" />
+				<Item Type="2" ID="22618" Number="22622" Rate="100" />
+			</GrowPointInfo>
+			<GrowPointInfo Type="1" ID="20154" RequireLevel="60" Name="Cờ Đoạt Bảo" MapID="68" Pos="2890_4995;5287_5220;6962_5148;6757_3611;4913_3200;4749_1546;1354_1008;1865_2904;4408_2496;8156_2692;6466_1149" RespawnTicks="10000" DurationTicks="600000" CollectTicks="5000" SpawnCount="5" RequireBagSpaces="10" FromHour="00:00" ToHour="23:59" SpamnAt="15:20;22:20">
+				<Item Type="3" ID="15218" Number="20" Rate="400" />
+				<Item Type="1" ID="0" Number="1000000" Rate="5000" />
+				<Item Type="1" ID="0" Number="2000000" Rate="3000" />
+				<Item Type="1" ID="0" Number="5000000" Rate="1000" />
+				<Item Type="2" ID="22623" Number="22627" Rate="500" />
+				<Item Type="2" ID="22618" Number="22622" Rate="100" />
+			</GrowPointInfo>
+			<GrowPointInfo Type="1" ID="20154" RequireLevel="60" Name="Cờ Đoạt Bảo" MapID="91" Pos="7271_2044;9180_2620;8928_3728;8858_4735;5772_3950;7397_4945;5668_5852;4150_6824;2442_5842;4116_4776;1246_4845;2639_2622;2862_622" RespawnTicks="10000" DurationTicks="600000" CollectTicks="5000" SpawnCount="5" RequireBagSpaces="10" FromHour="00:00" ToHour="23:59" SpamnAt="15:20;22:20">
+				<Item Type="3" ID="15218" Number="20" Rate="400" />
+				<Item Type="1" ID="0" Number="1000000" Rate="5000" />
+				<Item Type="1" ID="0" Number="2000000" Rate="3000" />
+				<Item Type="1" ID="0" Number="5000000" Rate="1000" />
+				<Item Type="2" ID="22623" Number="22627" Rate="500" />
+				<Item Type="2" ID="22618" Number="22622" Rate="100" />
+			</GrowPointInfo>
+			<GrowPointInfo Type="1" ID="20154" RequireLevel="60" Name="Cờ Đoạt Bảo" MapID="92" Pos="3849_5949;7250_4890;6500_3866;6499_1924;3824_1213;1410_753;1488_2501;822_3523;2344_3170;2721_465;5966_5858" RespawnTicks="10000" DurationTicks="600000" CollectTicks="5000" SpawnCount="5" RequireBagSpaces="10" FromHour="00:00" ToHour="23:59" SpamnAt="15:20;22:20">
+				<Item Type="3" ID="15218" Number="20" Rate="400" />
+				<Item Type="1" ID="0" Number="1000000" Rate="5000" />
+				<Item Type="1" ID="0" Number="2000000" Rate="3000" />
+				<Item Type="1" ID="0" Number="5000000" Rate="1000" />
+				<Item Type="2" ID="22623" Number="22627" Rate="500" />
+				<Item Type="2" ID="22618" Number="22622" Rate="100" />
+			</GrowPointInfo>
+			<GrowPointInfo Type="1" ID="20154" RequireLevel="60" Name="Cờ Đoạt Bảo" MapID="86" Pos="4382_3579;4458_5475;6388_5989;6540_4200;7687_2532;7121_520;5088_1353;6253_2040;4486_3033;1146_1900;1354_4445;2983_5404" RespawnTicks="10000" DurationTicks="600000" CollectTicks="5000" SpawnCount="5" RequireBagSpaces="10" FromHour="00:00" ToHour="23:59" SpamnAt="15:20;22:20">
+				<Item Type="3" ID="15218" Number="20" Rate="400" />
+				<Item Type="1" ID="0" Number="1000000" Rate="5000" />
+				<Item Type="1" ID="0" Number="2000000" Rate="3000" />
+				<Item Type="1" ID="0" Number="5000000" Rate="1000" />
+				<Item Type="2" ID="22623" Number="22627" Rate="500" />
+				<Item Type="2" ID="22618" Number="22622" Rate="100" />
+			</GrowPointInfo>
+			<GrowPointInfo Type="1" ID="20154" RequireLevel="60" Name="Cờ Đoạt Bảo" MapID="98" Pos="4896_4918;2552_3306;4868_3175;3199_2094;5010_1451;7648_807;8966_2354;7621_3879;7756_4729;6137_5120;1437_1220" RespawnTicks="10000" DurationTicks="600000" CollectTicks="5000" SpawnCount="5" RequireBagSpaces="10" FromHour="00:00" ToHour="23:59" SpamnAt="15:20;22:20">
+				<Item Type="3" ID="15218" Number="20" Rate="400" />
+				<Item Type="1" ID="0" Number="1000000" Rate="5000" />
+				<Item Type="1" ID="0" Number="2000000" Rate="3000" />
+				<Item Type="1" ID="0" Number="5000000" Rate="1000" />
+				<Item Type="2" ID="22623" Number="22627" Rate="500" />
+				<Item Type="2" ID="22618" Number="22622" Rate="100" />
+			</GrowPointInfo>
+			<GrowPointInfo Type="1" ID="20154" RequireLevel="60" Name="Cờ Đoạt Bảo" MapID="97" Pos="5678_4098;7682_2843;6552_4857;7742_6166;6534_8464;4499_9264;1607_7991;2593_6067;1209_2758;3986_1217;6104_1174" RespawnTicks="10000" DurationTicks="600000" CollectTicks="5000" SpawnCount="5" RequireBagSpaces="10" FromHour="00:00" ToHour="23:59" SpamnAt="15:20;22:20">
+				<Item Type="3" ID="15218" Number="20" Rate="400" />
+				<Item Type="1" ID="0" Number="1000000" Rate="5000" />
+				<Item Type="1" ID="0" Number="2000000" Rate="3000" />
+				<Item Type="1" ID="0" Number="5000000" Rate="1000" />
+				<Item Type="2" ID="22623" Number="22627" Rate="500" />
+				<Item Type="2" ID="22618" Number="22622" Rate="100" />
+			</GrowPointInfo>
+			<GrowPointInfo Type="1" ID="20154" RequireLevel="60" Name="Cờ Đoạt Bảo" MapID="95" Pos="2402_4616;2510_6291;4639_5249;6650_6746;6993_5462;6761_2979;5388_2299;2291_2350;2972_559" RespawnTicks="10000" DurationTicks="600000" CollectTicks="5000" SpawnCount="5" RequireBagSpaces="10" FromHour="00:00" ToHour="23:59" SpamnAt="15:20;22:20">
+				<Item Type="3" ID="15218" Number="20" Rate="400" />
+				<Item Type="1" ID="0" Number="1000000" Rate="5000" />
+				<Item Type="1" ID="0" Number="2000000" Rate="3000" />
+				<Item Type="1" ID="0" Number="5000000" Rate="1000" />
+				<Item Type="2" ID="22623" Number="22627" Rate="500" />
+				<Item Type="2" ID="22618" Number="22622" Rate="100" />
+			</GrowPointInfo>
+			<GrowPointInfo Type="1" ID="20154" RequireLevel="60" Name="Cờ Đoạt Bảo" MapID="104" Pos="4458_4610;6650_5422;8695_4993;10001_3816;8444_3111;8399_834;6290_1038;3780_2791;896_2056;1772_995;4064_813" RespawnTicks="10000" DurationTicks="600000" CollectTicks="5000" SpawnCount="5" RequireBagSpaces="10" FromHour="00:00" ToHour="23:59" SpamnAt="15:20;22:20">
+				<Item Type="3" ID="15218" Number="20" Rate="400" />
+				<Item Type="1" ID="0" Number="1000000" Rate="5000" />
+				<Item Type="1" ID="0" Number="2000000" Rate="3000" />
+				<Item Type="1" ID="0" Number="5000000" Rate="1000" />
+				<Item Type="2" ID="22623" Number="22627" Rate="500" />
+				<Item Type="2" ID="22618" Number="22622" Rate="100" />
+			</GrowPointInfo>
+			<GrowPointInfo Type="1" ID="20154" RequireLevel="60" Name="Cờ Đoạt Bảo" MapID="106" Pos="8656_8249;10777_7113;10672_4958;8636_2721;10788_1251;7403_1022;3973_1718;1937_783;1930_2845;2036_5023;3404_6417;1859_7784" RespawnTicks="10000" DurationTicks="600000" CollectTicks="5000" SpawnCount="5" RequireBagSpaces="10" FromHour="00:00" ToHour="23:59" SpamnAt="15:20;22:20">
+				<Item Type="3" ID="15218" Number="20" Rate="400" />
+				<Item Type="1" ID="0" Number="1000000" Rate="5000" />
+				<Item Type="1" ID="0" Number="2000000" Rate="3000" />
+				<Item Type="1" ID="0" Number="5000000" Rate="1000" />
+				<Item Type="2" ID="22623" Number="22627" Rate="500" />
+				<Item Type="2" ID="22618" Number="22622" Rate="100" />
+			</GrowPointInfo>
+			<GrowPointInfo Type="1" ID="20154" RequireLevel="60" Name="Cờ Đoạt Bảo" MapID="101" Pos="4261_2216;4615_897;7434_1438;7159_3696;6862_5846;8281_7130;5384_7373;4263_5525;2387_7550;1713_5365;2251_3730;1151_1471" RespawnTicks="10000" DurationTicks="600000" CollectTicks="5000" SpawnCount="5" RequireBagSpaces="10" FromHour="00:00" ToHour="23:59" SpamnAt="15:20;22:20">
+				<Item Type="3" ID="15218" Number="20" Rate="400" />
+				<Item Type="1" ID="0" Number="1000000" Rate="5000" />
+				<Item Type="1" ID="0" Number="2000000" Rate="3000" />
+				<Item Type="1" ID="0" Number="5000000" Rate="1000" />
+				<Item Type="2" ID="22623" Number="22627" Rate="500" />
+				<Item Type="2" ID="22618" Number="22622" Rate="100" />
+			</GrowPointInfo>
+			<GrowPointInfo Type="1" ID="20154" RequireLevel="60" Name="Cờ Đoạt Bảo" MapID="108" Pos="7863_2800;9785_1409;10449_3770;12417_5764;11960_7706;9056_7833;5198_5479;2991_3642;3776_2425" RespawnTicks="10000" DurationTicks="600000" CollectTicks="5000" SpawnCount="5" RequireBagSpaces="10" FromHour="00:00" ToHour="23:59" SpamnAt="15:20;22:20">
+				<Item Type="3" ID="15218" Number="20" Rate="400" />
+				<Item Type="1" ID="0" Number="1000000" Rate="5000" />
+				<Item Type="1" ID="0" Number="2000000" Rate="3000" />
+				<Item Type="1" ID="0" Number="5000000" Rate="1000" />
+				<Item Type="2" ID="22623" Number="22627" Rate="500" />
+				<Item Type="2" ID="22618" Number="22622" Rate="100" />
+			</GrowPointInfo>
+			<GrowPointInfo Type="1" ID="20154" RequireLevel="60" Name="Cờ Đoạt Bảo" MapID="107" Pos="1747_5094;2136_6600;4158_6868;5038_5471;4095_3570;7102_4949;9552_4262;7424_3097;5480_2218;3699_1141;1462_1295;2166_2710" RespawnTicks="10000" DurationTicks="600000" CollectTicks="5000" SpawnCount="5" RequireBagSpaces="10" FromHour="00:00" ToHour="23:59" SpamnAt="15:20;22:20">
+				<Item Type="3" ID="15218" Number="20" Rate="400" />
+				<Item Type="1" ID="0" Number="1000000" Rate="5000" />
+				<Item Type="1" ID="0" Number="2000000" Rate="3000" />
+				<Item Type="1" ID="0" Number="5000000" Rate="1000" />
+				<Item Type="2" ID="22623" Number="22627" Rate="500" />
+				<Item Type="2" ID="22618" Number="22622" Rate="100" />
+			</GrowPointInfo>
+			<GrowPointInfo Type="1" ID="20154" RequireLevel="60" Name="Cờ Đoạt Bảo" MapID="119" Pos="8079_2622;7917_1841;5599_1200;3489_1195;2725_3188;4122_4510;3019_5985;5918_5729;9361_4988" RespawnTicks="10000" DurationTicks="600000" CollectTicks="5000" SpawnCount="5" RequireBagSpaces="10" FromHour="00:00" ToHour="23:59" SpamnAt="15:20;22:20">
+				<Item Type="3" ID="15218" Number="20" Rate="400" />
+				<Item Type="1" ID="0" Number="1000000" Rate="5000" />
+				<Item Type="1" ID="0" Number="2000000" Rate="3000" />
+				<Item Type="1" ID="0" Number="5000000" Rate="1000" />
+				<Item Type="2" ID="22623" Number="22627" Rate="500" />
+				<Item Type="2" ID="22618" Number="22622" Rate="100" />
+			</GrowPointInfo>
+			<GrowPointInfo Type="1" ID="20154" RequireLevel="60" Name="Cờ Đoạt Bảo" MapID="120" Pos="5940_5303;6627_7082;4884_8187;3485_6672;727_6903;1559_4593;2238_2806;4228_1138;6818_977;10744_1283;12280_3053" RespawnTicks="10000" DurationTicks="600000" CollectTicks="5000" SpawnCount="5" RequireBagSpaces="10" FromHour="00:00" ToHour="23:59" SpamnAt="15:20;22:20">
+				<Item Type="3" ID="15218" Number="20" Rate="400" />
+				<Item Type="1" ID="0" Number="1000000" Rate="5000" />
+				<Item Type="1" ID="0" Number="2000000" Rate="3000" />
+				<Item Type="1" ID="0" Number="5000000" Rate="1000" />
+				<Item Type="2" ID="22623" Number="22627" Rate="500" />
+				<Item Type="2" ID="22618" Number="22622" Rate="100" />
+			</GrowPointInfo>
+			<GrowPointInfo Type="1" ID="20154" RequireLevel="60" Name="Cờ Đoạt Bảo" MapID="114" Pos="5657_4912;5242_6936;2072_6590;1834_4637;2013_2926;2020_1423;4487_2183;7923_2525;8187_834;9091_4912;8511_6979" RespawnTicks="10000" DurationTicks="600000" CollectTicks="5000" SpawnCount="5" RequireBagSpaces="10" FromHour="00:00" ToHour="23:59" SpamnAt="15:20;22:20">
+				<Item Type="3" ID="15218" Number="20" Rate="400" />
+				<Item Type="1" ID="0" Number="1000000" Rate="5000" />
+				<Item Type="1" ID="0" Number="2000000" Rate="3000" />
+				<Item Type="1" ID="0" Number="5000000" Rate="1000" />
+				<Item Type="2" ID="22623" Number="22627" Rate="500" />
+				<Item Type="2" ID="22618" Number="22622" Rate="100" />
+			</GrowPointInfo>
+			<GrowPointInfo Type="1" ID="20154" RequireLevel="60" Name="Cờ Đoạt Bảo" MapID="127" Pos="2168_5248;4487_4220;2891_3027;4636_1387;6795_1843;9433_2408;9526_4428;11459_4812;12723_2785;12161_1244" RespawnTicks="10000" DurationTicks="600000" CollectTicks="5000" SpawnCount="5" RequireBagSpaces="10" FromHour="00:00" ToHour="23:59" SpamnAt="15:20;22:20">
+				<Item Type="3" ID="15218" Number="20" Rate="400" />
+				<Item Type="1" ID="0" Number="1000000" Rate="5000" />
+				<Item Type="1" ID="0" Number="2000000" Rate="3000" />
+				<Item Type="1" ID="0" Number="5000000" Rate="1000" />
+				<Item Type="2" ID="22623" Number="22627" Rate="500" />
+				<Item Type="2" ID="22618" Number="22622" Rate="100" />
+			</GrowPointInfo>
+			<GrowPointInfo Type="1" ID="20154" RequireLevel="60" Name="Cờ Đoạt Bảo" MapID="125" Pos="6226_4919;8575_5916;6564_7450;4016_6767;1363_6721;1983_4431;2280_2575;700_1400;5034_966;7510_967;8670_2965" RespawnTicks="10000" DurationTicks="600000" CollectTicks="5000" SpawnCount="5" RequireBagSpaces="10" FromHour="00:00" ToHour="23:59" SpamnAt="15:20;22:20">
+				<Item Type="3" ID="15218" Number="20" Rate="400" />
+				<Item Type="1" ID="0" Number="1000000" Rate="5000" />
+				<Item Type="1" ID="0" Number="2000000" Rate="3000" />
+				<Item Type="1" ID="0" Number="5000000" Rate="1000" />
+				<Item Type="2" ID="22623" Number="22627" Rate="500" />
+				<Item Type="2" ID="22618" Number="22622" Rate="100" />
+			</GrowPointInfo>
+			<GrowPointInfo Type="1" ID="20154" RequireLevel="60" Name="Cờ Đoạt Bảo" MapID="122" Pos="3204_4342;4766_4047;3660_3128;1976_1483;538_3464;2980_5740;5473_5275;7584_3100;6882_1072;5299_460" RespawnTicks="10000" DurationTicks="600000" CollectTicks="5000" SpawnCount="5" RequireBagSpaces="10" FromHour="00:00" ToHour="23:59" SpamnAt="15:20;22:20">
+				<Item Type="3" ID="15218" Number="20" Rate="400" />
+				<Item Type="1" ID="0" Number="1000000" Rate="5000" />
+				<Item Type="1" ID="0" Number="2000000" Rate="3000" />
+				<Item Type="1" ID="0" Number="5000000" Rate="1000" />
+				<Item Type="2" ID="22623" Number="22627" Rate="500" />
+				<Item Type="2" ID="22618" Number="22622" Rate="100" />
+			</GrowPointInfo>
+		</Materials>
+		<Awards>
+			<AwardInfo Selection="Giao nộp vật phẩm 1" RequireItems="1111_1;1123_2" AwardCount="1" RequireFreeBagSpace="10" RequireMoney="0" RequireBoundMoney="0" RequireToken="0" RequireBoundToken="0">
+				<Award ItemID="2410" Quantity="2" Rate="10000" Bound="false" />
+				<Award ItemID="1214" Quantity="1" Rate="10000" Bound="true" />
+			</AwardInfo>
+			<AwardInfo Selection="Giao nộp vật phẩm 2" RequireItems="1111_1;1123_2" AwardCount="2" RequireFreeBagSpace="2" RequireMoney="0" RequireBoundMoney="0" RequireToken="0" RequireBoundToken="0">
+				<Award ItemID="2410" Quantity="2" Rate="10000" Bound="false" />
+				<Award ItemID="1618" Quantity="1" Rate="10000" Bound="false" />
+			</AwardInfo>
+		</Awards>
+	</Event>
+</SpecialEvent>

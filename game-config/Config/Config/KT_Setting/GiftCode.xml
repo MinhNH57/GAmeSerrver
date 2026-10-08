@@ -1,0 +1,360 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GiftCode>
+<!--
+	code nạp xu có id < 1 triệu - 1.000.000
+-->
+	<Code codeID="200" status="1" name ="" msg="" item="" token="200" boundMoney="0" boundToken="0" gatherPoint="0" makePoint="0" roleID="" />	
+	<Code codeID="500" status="1" name ="" msg="" item="" token="500" boundMoney="0" boundToken="0" gatherPoint="0" makePoint="0" roleID="" />	
+	<Code codeID="1000" status="1" name ="" msg="" item="" token="1000" boundMoney="0" boundToken="0" gatherPoint="0" makePoint="0" roleID="" />	
+	<Code codeID="2000" status="1" name ="" msg="" item="" token="2000" boundMoney="0" boundToken="0" gatherPoint="0" makePoint="0" roleID="" />	
+	<Code codeID="5000" status="1" name ="" msg="" item="" token="5000" boundMoney="0" boundToken="0" gatherPoint="0" makePoint="0" roleID="" />	
+	<Code codeID="10000" status="1" name ="" msg="" item="" token="10000" boundMoney="0" boundToken="0" gatherPoint="0" makePoint="0" roleID="" />	
+	<Code codeID="20000" status="1" name ="" msg="" item="" token="20000" boundMoney="0" boundToken="0" gatherPoint="0" makePoint="0" roleID="" />	
+	<Code codeID="50000" status="1" name ="" msg="" item="" token="50000" boundMoney="0" boundToken="0" gatherPoint="0" makePoint="0" roleID="" />	
+	
+	<Code codeID="1000001" status="1" name ="" msg="" item="188|1|1#20547|1|1#348|1|2#351|1|2#15013|1|1" token="0" boundMoney="0" boundToken="0" gatherPoint="0" makePoint="0" roleID="" /> <!-- Code tân thủ -->
+	<Code codeID="1000002" status="1" name ="" msg="" item="382|1|3#387|1|3" token="0" boundMoney="100000" boundToken="0" gatherPoint="0" makePoint="0" roleID="" />	<!-- Code Momo -->
+	<Code codeID="1000003" status="1" name ="" msg="" item="590|1|1#15021|1|1" token="0" boundMoney="50000" boundToken="0" gatherPoint="0" makePoint="0" roleID="" />	<!-- Code SK Fanpage 5  -->
+	<Code codeID="1000004" status="1" name ="" msg="" item="297|1|5#387|1|5#382|1|3" token="0" boundMoney="50000" boundToken="0" gatherPoint="0" makePoint="0" roleID="" />	<!-- Code Báo -->
+	<Code codeID="1000005" status="1" name ="" msg="" item="389|1|1#197|1|2" token="0" boundMoney="100000" boundToken="500" gatherPoint="0" makePoint="0" roleID="" />	<!-- Code Vip -->
+	<Code codeID="1000006" status="1" name ="" msg="" item="389|1|3#555|1|1" token="0" boundMoney="200000" boundToken="1000" gatherPoint="0" makePoint="0" roleID="" />	<!-- Code Bạch Kim -->
+	<Code codeID="1000007" status="1" name ="" msg="" item="15173|1|1#389|1|10#555|1|1" token="0" boundMoney="1000000" boundToken="5000" gatherPoint="0" makePoint="0" roleID="" />	<!-- Code Kim Cương -->
+	<Code codeID="1000008" status="1" name ="" msg="" item="387|1|5#382|1|3" token="0" boundMoney="50000" boundToken="100" gatherPoint="0" makePoint="0" roleID="" />	<!-- Code SK Fanpage 1 -->
+	<Code codeID="1000009" status="1" name ="" msg="" item="389|1|1#297|1|5" token="0" boundMoney="0" boundToken="200" gatherPoint="0" makePoint="0" roleID="" />	<!-- Code SK Fanpage 2 -->
+	<Code codeID="1000010" status="1" name ="" msg="" item="582|1|1" token="0" boundMoney="50000" boundToken="0" gatherPoint="0" makePoint="0" roleID="" />	<!-- Code SK Fanpage 3 -->
+	<Code codeID="1000011" status="1" name ="" msg="" item="582|1|1#590|1|1" token="0" boundMoney="0" boundToken="200" gatherPoint="0" makePoint="0" roleID="" />	<!-- Code SK Fanpage 4 -->
+	<Code codeID="1000012" status="1" name ="" msg="" item="390|1|1#1026|1|2#217|1|2#506|1|50" token="0" boundMoney="0" boundToken="0" gatherPoint="0" makePoint="0" roleID="" /> <!-- Code tháng 3--> 
+	
+	<!-- Gói ưu đãi nạp -->
+	<Code codeID="2000001" status="1" name ="" msg="" item="349|1|2#352|1|2#223|1|2#402|1|1#506|1|50" token="0" boundMoney="0" boundToken="0" gatherPoint="0" makePoint="0" roleID="" /> <!-- 50k -->
+	<Code codeID="2000002" status="1" name ="" msg="" item="349|1|3#352|1|3#590|1|1#336|1|1#389|1|1#390|1|2#600|1|1#583|1|1" token="0" boundMoney="0" boundToken="0" gatherPoint="0" makePoint="0" roleID="" /> <!-- 500k -->
+	
+	<!--Code ngựa bang hội 15 ngày -->
+	<Code codeID="2000003" status="1" name ="" msg="" item="20005|1|1#389|1|5" token="0" boundMoney="500000" boundToken="0" gatherPoint="0" makePoint="0" roleID="" />
+	
+	<!-- Giftcode mới 27/03/2023 -->
+	<Code codeID="2000004" status="1" name ="" msg="" item="513|1|1#590|1|1#1026|1|10" token="0" boundMoney="0" boundToken="0" gatherPoint="0" makePoint="0" roleID="" />
+
+	<!-- GiftCode mới 05/06/2023-->
+	<Code codeID="2000005" status="1" name ="" msg="" item="506|1|100#389|1|5" token="0" boundMoney="0" boundToken="500" gatherPoint="0" makePoint="0" roleID="" />
+
+	<Code codeID="2000006" status="1" name ="" msg="" item="600|1|1#796|1|5#590|1|1#389|1|3" token="0" boundMoney="0" boundToken="0" gatherPoint="0" makePoint="0" roleID="" />
+	
+	<!--  GiftCode mới 26/06/2023-->
+	<Code codeID="2000007" status="1" name ="" msg="" item="590|1|1#390|1|2" token="0" boundMoney="0" boundToken="1000" gatherPoint="0" makePoint="0" roleID="" />
+	
+	<!--  GiftCode mới 19/07/2023-->
+	<Code codeID="2000008" status="1" name ="" msg="" item="506|1|100#391|1|1" token="0" boundMoney="0" boundToken="500" gatherPoint="0" makePoint="0" roleID="" />
+
+	<!--  GiftCode mới 21/08/2023-->
+	<Code codeID="2000009" status="1" name ="" msg="" item="1026|1|10#391|1|1#513|1|1" token="0" boundMoney="0" boundToken="500" gatherPoint="0" makePoint="0" roleID="" />
+
+	<!--  GiftCode mới 11/09/2023-->
+	<Code codeID="2000010" status="1" name ="" msg="" item="513|1|1#590|1|1#1026|1|10" token="0" boundMoney="0" boundToken="0" gatherPoint="0" makePoint="0" roleID="" />
+
+	<!--  GiftCode mới 23/09/2023-->
+	<Code codeID="2000011" status="1" name ="" msg="" item="392|1|1#274|1|5" token="0" boundMoney="0" boundToken="0" gatherPoint="0" makePoint="0" roleID="" />
+
+	<Code codeID="2000012" status="1" name ="" msg="" item="506|1|500#284|1|5" token="0" boundMoney="0" boundToken="0" gatherPoint="0" makePoint="0" roleID="" />
+
+	<Code codeID="2000013" status="1" name ="" msg="" item="514|1|1#294|1|5" token="0" boundMoney="0" boundToken="0" gatherPoint="0" makePoint="0" roleID="" />
+
+	<!--  GiftCode mới 30/09/2023-->
+	<Code codeID="2000014" status="1" name ="" msg="" item="1026|1|10#391|1|1#513|1|1" token="0" boundMoney="0" boundToken="500" gatherPoint="0" makePoint="0" roleID="" />
+
+	<!--  GiftCode mới 06/10/2023-->
+	<Code codeID="2000015" status="1" name ="" msg="" item="1054|1|5#391|1|2#1057|1|2" token="0" boundMoney="0" boundToken="0" gatherPoint="0" makePoint="0" roleID="" />
+
+	<!--  GiftCode offline 01/11/2023-->
+	<Code codeID="2000016" status="1" name ="" msg="" item="25189|1|1#392|1|1#1057|1|20#513|1|1" token="0" boundMoney="0" boundToken="0" gatherPoint="0" makePoint="0" roleID="" />
+
+	<Code codeID="2000017" status="1" name ="" msg="" item="25190|1|1#393|1|1#506|1|1000" token="0" boundMoney="0" boundToken="0" gatherPoint="0" makePoint="0" roleID="" />
+
+	<Code codeID="2000018" status="1" name ="" msg="" item="392|1|2#1054|1|10#1057|1|20#514|1|1" token="0" boundMoney="0" boundToken="0" gatherPoint="0" makePoint="0" roleID="" />
+
+	<Code codeID="2000019" status="1" name ="" msg="" item="393|1|3#746|1|500#25191|1|1" token="0" boundMoney="0" boundToken="0" gatherPoint="0" makePoint="0" roleID="" />
+
+	<!--giftCode 30/11/2023 -->
+	<Code codeID="2000020" status="1" name ="" msg="" item="513|1|1#590|1|1#1026|1|10#392|1|1" token="0" boundMoney="0" boundToken="0" gatherPoint="0" makePoint="0" roleID="" />
+
+	<Code codeID="2000021" status="1" name ="" msg="" item="392|1|1#513|1|1#20289|1|1#1057|1|3" token="0" boundMoney="500000" boundToken="500" gatherPoint="0" makePoint="0" roleID="" />
+	
+	<!--giftCode 12/09/2023-->
+	<Code codeID="2000022" status="1" name ="" msg="" item="392|1|1#298|1|1" token="0" boundMoney="0" boundToken="500" gatherPoint="0" makePoint="0" roleID="" />
+
+	<!--giftCode 02/01/2024-->
+	<Code codeID="2000023" status="1" name ="" msg="" item="514|1|1#20270|1|1" token="0" boundMoney="1000000" boundToken="0" gatherPoint="0" makePoint="0" roleID="" />
+
+	<!--giftCode 11/01/2024-->
+	<Code codeID="2000024" status="1" name ="" msg="" item="392|1|1#1055|1|1" token="0" boundMoney="500000" boundToken="0" gatherPoint="0" makePoint="0" roleID="" />
+	
+	<!--giftCode 08/03/2024-->
+	<Code codeID="2000025" status="1" name ="" msg="" item="20509|1|3#20510|1|1" token="0" boundMoney="0" boundToken="0" gatherPoint="0" makePoint="0" roleID="" />
+
+	<!-- giftCode 16/04/2024-->
+	<Code codeID="2000026" status="1" name ="" msg="" item="25229|1|1" token="0" boundMoney="0" boundToken="0" gatherPoint="0" makePoint="0" roleID="" /> <!--Giftcode Gameverse (Cho tân thủ)-->
+
+	<Code codeID="2000027" status="1" name ="" msg="" item="392|1|2#513|1|1#349|1|2#352|1|2" token="0" boundMoney="0" boundToken="0" gatherPoint="0" makePoint="0" roleID="" /><!--Giftcode cộng đồng 1 -->
+
+	<Code codeID="2000028" status="1" name ="" msg="" item="25227|1|1" token="0" boundMoney="0" boundToken="0" gatherPoint="0" makePoint="0" roleID="" /> <!--Giftcode cộng đồng 2-->
+
+	<!-- Giftcode event landing:-->
+	<Code codeID="2000029" status="1" name ="" msg="" item="392|1|3#20378|1|30" token="0" boundMoney="500000" boundToken="0" gatherPoint="0" makePoint="0" roleID="" /> <!--Quà mốc 200-->
+
+	<Code codeID="2000030" status="1" name ="" msg="" item="20379|1|100#20538|1|5" token="0" boundMoney="1000000" boundToken="0" gatherPoint="0" makePoint="0" roleID="" /> <!--Quà mốc 500-->
+
+	<Code codeID="2000031" status="1" name =""  msg="" item="819|1|3#192|1|1#15018|1|50" token="0" boundMoney="0" boundToken="0" gatherPoint="0" makePoint="0" roleID="" /> <!--Quà mốc 2500-->
+
+	<Code codeID="2000032" status="1" name =""  msg="" item="20406|1|1#192|1|3#25235|1|1" token="0" boundMoney="0" boundToken="0" gatherPoint="0" makePoint="0" roleID="" /> <!--Quà mốc 5000-->
+
+	<Code codeID="2000033" status="1" name =""  msg="" item="2017|1|1#20344|1|200#20345|1|50" token="0" boundMoney="0" boundToken="0" gatherPoint="0" makePoint="0" roleID="" /> <!--Quà mốc 10000-->
+
+	<Code codeID="2000034" status="1" name =""  msg="" item="506|1|10000#20291|1|10#25236|1|1" token="0" boundMoney="0" boundToken="0" gatherPoint="0" makePoint="0" roleID="" /> <!--Quà mốc 20000-->
+
+	<Code codeID="2000035" status="1" name =""  msg="" item="20571|1|2#20601|1|100#20344|1|500" token="0" boundMoney="0" boundToken="0" gatherPoint="0" makePoint="0" roleID="" /> <!--Quà mốc 30000-->
+
+	<!-- Giftcode Offline:-->
+
+	<Code codeID="2000036" status="1" name =""  msg="" item="393|1|2#514|1|1#349|1|5#352|1|5" token="0" boundMoney="0" boundToken="0" gatherPoint="0" makePoint="0" roleID="" />
+
+	<Code codeID="2000037" status="1" name =""  msg="" item="394|1|1#819|1|1#506|1|1000#20529|1|50" token="0" boundMoney="0" boundToken="0" gatherPoint="0" makePoint="0" roleID="" />
+
+	<Code codeID="2000038" status="1" name =""  msg="" item="393|1|2#506|1|300#20379|1|50#15000|1|100" token="0" boundMoney="0" boundToken="0" gatherPoint="0" makePoint="0" roleID="" />
+
+	<Code codeID="2000039" status="1" name =""  msg="" item="394|1|3#20406|1|1#20291|1|3#20529|1|50" token="0" boundMoney="0" boundToken="0" gatherPoint="0" makePoint="0" roleID="" />
+
+	<!-- Giftcode Tân thủ mới-->
+
+	<Code codeID="2000040" status="1" name =""  msg="" item="390|1|1#20547|1|1#348|1|2#351|1|2#15013|1|1" token="0" boundMoney="0" boundToken="0" gatherPoint="0" makePoint="0" roleID="" />
+
+	<!-- giftcode tháng 9-->
+	<Code codeID="2000041" status="1" name =""  msg="" item="590|1|1#600|1|2#402|1|1" token="0" boundMoney="0" boundToken="0" gatherPoint="0" makePoint="0" roleID="" /> <!-- thưởng cá nhân (100)-->
+
+	<Code codeID="2000042" status="1" name =""  msg="" item="745|1|2#506|1|100#15000|1|50" token="0" boundMoney="0" boundToken="0" gatherPoint="0" makePoint="0" roleID="" /> <!-- thưởng cá nhân (1000)-->
+
+	<Code codeID="2000043" status="1" name =""  msg="" item="745|1|3#1057|1|20#1026|1|20" token="0" boundMoney="0" boundToken="0" gatherPoint="0" makePoint="0" roleID="" /> <!-- thưởng cá nhân (2000)-->
+
+	<Code codeID="2000044" status="1" name =""  msg="" item="393|1|1#20104|1|2" token="0" boundMoney="0" boundToken="0" gatherPoint="0" makePoint="0" roleID="" /> <!-- thưởng tích lũy game (5%)-->
+
+	<Code codeID="2000045" status="1" name =""  msg="" item="393|1|1#1074|1|50" token="0" boundMoney="0" boundToken="0" gatherPoint="0" makePoint="0" roleID="" /> <!-- thưởng tích lũy game (20%)-->
+
+	<Code codeID="2000046" status="1" name =""  msg="" item="393|1|1#514|1|1#20379|1|30" token="0" boundMoney="0" boundToken="0" gatherPoint="0" makePoint="0" roleID="" /> <!-- thưởng tích lũy game (50%)-->
+
+	<Code codeID="2000047" status="1" name =""  msg="" item="191|1|1#514|1|1#20529|1|30#1057|1|20" token="0" boundMoney="0" boundToken="0" gatherPoint="0" makePoint="0" roleID="" /> <!-- thưởng tích lũy game (75%)-->
+
+	<Code codeID="2000048" status="1" name =""  msg="" item="20601|1|1000" token="0" boundMoney="0" boundToken="0" gatherPoint="0" makePoint="0" roleID="" /> <!-- thưởng top các nhân 1-->
+
+	<Code codeID="2000049" status="1" name =""  msg="" item="20601|1|200#20571|1|1" token="0" boundMoney="0" boundToken="0" gatherPoint="0" makePoint="0" roleID="" /> <!-- thưởng top các nhân 2 - 3-->
+
+	<Code codeID="2000050" status="1" name =""  msg="" item="20601|1|100#2017|1|1" token="0" boundMoney="0" boundToken="0" gatherPoint="0" makePoint="0" roleID="" /> <!-- thưởng top các nhân 4 - 10-->
+
+	<Code codeID="2000051" status="1" name =""  msg="" item="2017|1|1" token="0" boundMoney="0" boundToken="0" gatherPoint="0" makePoint="0" roleID="" /> <!-- thưởng top các nhân 11 - 50-->
+
+	<Code codeID="2000052" status="1" name =""  msg="" item="20627|1|1#20605|1|1#20555|1|1#1026|1|20" token="0" boundMoney="0" boundToken="0" gatherPoint="0" makePoint="0" roleID="" /> <!-- thưởng BXH chặng đường 1-->
+
+	<Code codeID="2000053" status="1" name =""  msg="" item="393|1|3#20605|1|1#20121|1|1#1026|1|20" token="0" boundMoney="0" boundToken="0" gatherPoint="0" makePoint="0" roleID="" /> <!-- thưởng BXH chặng đường 2 - 3-->
+
+	<Code codeID="2000054" status="1" name =""  msg="" item="393|1|3#20604|1|1#20482|1|1#1026|1|20" token="0" boundMoney="0" boundToken="0" gatherPoint="0" makePoint="0" roleID="" /> <!-- thưởng BXH chặng đường 3 - 5-->
+
+	<!-- Giftcode Livestream mới-->
+
+	<Code codeID="2000055" status="1" name =""  msg="" item="1026|1|5#25270|1|200#191|1|1#506|1|200" token="0" boundMoney="0" boundToken="0" gatherPoint="0" makePoint="0" roleID="" />
+
+	<Code codeID="2000056" status="1" name =""  msg="" item="15716|1|10#527|1|1#15713|1|20#15712|1|20#15714|1|20" token="0" boundMoney="0" boundToken="0" gatherPoint="0" makePoint="0" roleID="" />
+
+	<Code codeID="2000057" status="1" name =""  msg="" item="394|1|1#819|1|1#1044|1|1#1045|1|1" token="0" boundMoney="0" boundToken="0" gatherPoint="0" makePoint="0" roleID="" />
+
+	<Code codeID="2000058" status="1" name =""  msg="" item="394|1|1#20529|1|20#20485|1|20#1057|1|20" token="0" boundMoney="0" boundToken="0" gatherPoint="0" makePoint="0" roleID="" />
+
+	<!-- Giftcode Sinh Nhật-->
+
+	<Code codeID="2000059" status="1" name =""  msg="" item="1074|1|200#20750|1|1#25235|1|1" token="0" boundMoney="0" boundToken="0" gatherPoint="0" makePoint="0" roleID="" />
+
+	<Code codeID="2000060" status="1" name =""  msg="" item="15001|1|1#15000|1|100#590|1|3#600|1|10" token="0" boundMoney="0" boundToken="0" gatherPoint="0" makePoint="0" roleID="" />
+
+	<Code codeID="2000061" status="1" name =""  msg="" item="393|1|3#506|1|500#20815|1|1" token="0" boundMoney="0" boundToken="0" gatherPoint="0" makePoint="0" roleID="" />
+
+	<!-- Giftcode Fan Cứng-->
+
+	<Code codeID="2000062" status="1" name =""  msg="" item="394|1|1#2017|1|1#20568|1|1" token="0" boundMoney="0" boundToken="0" gatherPoint="0" makePoint="0" roleID="" />
+
+	<!-- Giftcode Năm Mới-->
+	<Code codeID="2000063" status="1" name =""  msg="" item="25308|1|1" token="0" boundMoney="0" boundToken="0" gatherPoint="0" makePoint="0" roleID="" />
+
+	<Code codeID="2000064" status="1" name =""  msg="" item="25309|1|1" token="0" boundMoney="0" boundToken="0" gatherPoint="0" makePoint="0" roleID="" />
+
+
+	<!-- Giftcode Top Landing-->
+
+	<Code codeID="2000065" status="1" name =""  msg="" item="2104|1|1" token="0" boundMoney="0" boundToken="0" gatherPoint="0" makePoint="0" roleID="" />
+
+	<Code codeID="2000066" status="1" name =""  msg="" item="2104|1|2" token="0" boundMoney="0" boundToken="0" gatherPoint="0" makePoint="0" roleID="" />
+
+	<Code codeID="2000067" status="1" name =""  msg="" item="2104|1|3" token="0" boundMoney="0" boundToken="0" gatherPoint="0" makePoint="0" roleID="" />
+
+	<!-- Giftcode ĐẠI LỄ -->
+	
+	<Code codeID="2000068" status="1" name =""  msg="" item="20571|1|1" token="0" boundMoney="0" boundToken="0" gatherPoint="0" makePoint="0" roleID="" />
+	
+	<Code codeID="2000069" status="1" name =""  msg="" item="392|1|2#20780|1|5#15000|1|50" token="0" boundMoney="0" boundToken="0" gatherPoint="0" makePoint="0" roleID="" />
+	
+	<Code codeID="2000070" status="1" name =""  msg="" item="393|1|2#20529|1|30#20485|1|30#20627|1|1" token="0" boundMoney="0" boundToken="0" gatherPoint="0" makePoint="0" roleID="" />
+	
+	<Code codeID="2000071" status="1" name =""  msg="" item="392|1|2#1026|1|5#20815|1|1" token="0" boundMoney="0" boundToken="0" gatherPoint="0" makePoint="0" roleID="" />
+	
+	<Code codeID="2000072" status="1" name =""  msg="" item="506|1|200" token="0" boundMoney="0" boundToken="0" gatherPoint="0" makePoint="0" roleID="" />
+	
+	<Code codeID="2000073" status="1" name =""  msg="" item="506|1|500" token="0" boundMoney="0" boundToken="0" gatherPoint="0" makePoint="0" roleID="" />
+	
+	<Code codeID="2000074" status="1" name =""  msg="" item="1026|1|5" token="0" boundMoney="0" boundToken="0" gatherPoint="0" makePoint="0" roleID="" />
+	<Code codeID="2000075" status="1" name =""  msg="" item="1026|1|10" token="0" boundMoney="0" boundToken="0" gatherPoint="0" makePoint="0" roleID="" />
+	<Code codeID="2000076" status="1" name =""  msg="" item="1026|1|20" token="0" boundMoney="0" boundToken="0" gatherPoint="0" makePoint="0" roleID="" />
+	
+	
+	<Code codeID="2000075" status="1" name =""  msg="" item="1074|1|50" token="0" boundMoney="0" boundToken="0" gatherPoint="0" makePoint="0" roleID="" />
+	<Code codeID="2000076" status="1" name =""  msg="" item="1074|1|100" token="0" boundMoney="0" boundToken="0" gatherPoint="0" makePoint="0" roleID="" />
+	<Code codeID="2000077" status="1" name =""  msg="" item="1074|1|200" token="0" boundMoney="0" boundToken="0" gatherPoint="0" makePoint="0" roleID="" />
+	
+	<Code codeID="2000078" status="1" name =""  msg="" item="20406|1|1" token="0" boundMoney="0" boundToken="0" gatherPoint="0" makePoint="0" roleID="" />
+	<Code codeID="2000079" status="1" name =""  msg="" item="20911|1|1" token="0" boundMoney="0" boundToken="0" gatherPoint="0" makePoint="0" roleID="" />
+	<Code codeID="2000080" status="1" name =""  msg="" item="20912|1|1" token="0" boundMoney="0" boundToken="0" gatherPoint="0" makePoint="0" roleID="" />
+	<!-- Giftcode GÓI HÀNG NGÀY -->
+	<Code codeID="2000081" status="1" name ="Mua gói hàng ngày 1"  msg="Chúc mừng bạn đã mua thành công gói hàng ngày 15 ADNXu" item="21001|1|1" token="0" boundMoney="0" boundToken="0" gatherPoint="0" makePoint="0" roleID="" />
+
+	<Code codeID="2000082" status="1" name ="Mua gói hàng ngày 2"  msg="Chúc mừng bạn đã mua thành công gói hàng ngày 5 ADNXu" item="15606|1|3#15607|1|3" token="0" boundMoney="0" boundToken="0" gatherPoint="0" makePoint="0" roleID="" />
+
+	<Code codeID="2000083" status="1" name ="Mua gói hàng ngày 3"  msg="Chúc mừng bạn đã mua thành công gói hàng ngày 5 ADNXu" item="1057|1|5#1104|1|2#191|1|1#20270|1|1" token="0" boundMoney="0" boundToken="0" gatherPoint="0" makePoint="0" roleID="" />
+
+	<Code codeID="2000084" status="1" name ="Mua gói hàng ngày 4"  msg="Chúc mừng bạn đã mua thành công gói hàng ngày 50 ADNXu" item="1026|1|10#20529|1|50#191|1|1#506|1|200" token="0" boundMoney="0" boundToken="0" gatherPoint="0" makePoint="0" roleID="" />
+
+	<Code codeID="2000085" status="1" name ="Mua gói hàng ngày 5"  msg="Chúc mừng bạn đã mua thành công gói hàng ngày 200 ADNXu" item="1058|1|1#25270|1|1000#20344|1|50#506|1|1000" token="0" boundMoney="0" boundToken="0" gatherPoint="0" makePoint="0" roleID="" />
+
+	<Code codeID="2000086" status="1" name ="Mua gói hàng ngày 6"  msg="Chúc mừng bạn đã mua thành công gói hàng ngày 750 ADNXu" item="1058|1|5#14203|1|1#14213|1|1#20529|1|300" token="0" boundMoney="0" boundToken="0" gatherPoint="0" makePoint="0" roleID="" />
+	<!-- Giftcode GÓI GIỚI HẠN -->
+
+	<Code codeID="2000087" status="1" name ="Mua gói giới hạn 1"  msg="Chúc mừng bạn đã mua thành công gói giới hạn 30 ADNXu" item="506|1|500#191|1|2" token="0" boundMoney="0" boundToken="0" gatherPoint="0" makePoint="0" roleID="" />
+
+	<Code codeID="2000088" status="1" name ="Mua gói giới hạn 2"  msg="Chúc mừng bạn đã mua thành công gói giới hạn 100 ADNXu" item="1026|1|30#25236|1|1#20344|1|100#506|1|1000" token="0" boundMoney="0" boundToken="0" gatherPoint="0" makePoint="0" roleID="" />
+
+	<Code codeID="2000089" status="1" name ="Mua gói giới hạn 3"  msg="Chúc mừng bạn đã mua thành công gói giới hạn 300 ADNXu" item="972|1|25#973|1|50#974|1|50" token="0" boundMoney="0" boundToken="0" gatherPoint="0" makePoint="0" roleID="" />
+
+	<Code codeID="2000090" status="1" name ="Mua gói giới hạn 4"  msg="Chúc mừng bạn đã mua thành công gói giới hạn 500 ADNXu" item="1058|1|3#20571|1|1" token="0" boundMoney="0" boundToken="0" gatherPoint="0" makePoint="0" roleID="" />
+
+	<Code codeID="2000091" status="1" name ="Mua gói giới hạn 5"  msg="Chúc mừng bạn đã mua thành công gói giới hạn 500 ADNXu" item="506|1|5000#819|1|5" token="0" boundMoney="0" boundToken="0" gatherPoint="0" makePoint="0" roleID="" />
+
+	<Code codeID="2000092" status="1" name ="Mua gói giới hạn 6"  msg="Chúc mừng bạn đã mua thành công gói giới hạn 1000 ADNXu" item="972|1|75#973|1|150#974|1|150" token="0" boundMoney="0" boundToken="0" gatherPoint="0" makePoint="0" roleID="" />
+	<!-- Giftcode tam niên -->
+	<Code codeID="2000093" status="1" name =""  msg="" item="14242|1|5#14247|1|1#2017|1|1#16141|1|1" token="0" boundMoney="0" boundToken="0" gatherPoint="0" makePoint="0" roleID="" />
+
+	<!-- Giftcode Kiếm Vương Lệnh -->
+
+	<Code codeID="2000094" status="1" name =""  msg="" item="20914|1|1" token="0" boundMoney="0" boundToken="0" gatherPoint="0" makePoint="0" roleID="" />
+	<Code codeID="2000095" status="1" name =""  msg="" item="20914|1|2" token="0" boundMoney="0" boundToken="0" gatherPoint="0" makePoint="0" roleID="" />
+	<Code codeID="2000096" status="1" name =""  msg="" item="20914|1|5" token="0" boundMoney="0" boundToken="0" gatherPoint="0" makePoint="0" roleID="" />
+	<Code codeID="2000097" status="1" name =""  msg="" item="506|1|100#191|1|1#1026|1|5" token="0" boundMoney="0" boundToken="0" gatherPoint="0" makePoint="0" roleID="" />
+
+	<Code codeID="2000098" status="1" name =""  msg="" item="192|1|2#2017|1|1#590|1|5#600|1|10" token="0" boundMoney="0" boundToken="0" gatherPoint="0" makePoint="0" roleID="" />
+
+	<!-- Giftcode GÓI GIỚI HẠN sv mới -->
+	<Code codeID="2000099" status="1" name ="Mua gói giới hạn 1"  msg="Chúc mừng bạn đã mua thành công gói giới hạn 1 ADNXu" item="15000|1|10#188|1|1#20537|1|1" token="0" boundMoney="0" boundToken="0" gatherPoint="0" makePoint="0" roleID="" />
+	<Code codeID="2000100" status="1" name ="Mua gói giới hạn 2"  msg="Chúc mừng bạn đã mua thành công gói giới hạn 5 ADNXu" item="15712|1|10#189|1|1#20690|1|2" token="0" boundMoney="0" boundToken="0" gatherPoint="0" makePoint="0" roleID="" />
+	<Code codeID="2000101" status="1" name ="Mua gói giới hạn 3"  msg="Chúc mừng bạn đã mua thành công gói giới hạn 15 ADNXu" item="20538|1|5" token="0" boundMoney="0" boundToken="0" gatherPoint="0" makePoint="0" roleID="" />
+	<Code codeID="2000102" status="1" name ="Mua gói giới hạn 4"  msg="Chúc mừng bạn đã mua thành công gói giới hạn 30 ADNXu" item="20270|1|10#1102|1|20#1057|1|5" token="0" boundMoney="0" boundToken="0" gatherPoint="0" makePoint="0" roleID="" />
+	<Code codeID="2000103" status="1" name ="Mua gói giới hạn 5"  msg="Chúc mừng bạn đã mua thành công gói giới hạn 100 ADNXu" item="20406|1|6#1102|1|50#1057|1|10" token="0" boundMoney="0" boundToken="0" gatherPoint="0" makePoint="0" roleID="" />
+	<Code codeID="2000104" status="1" name ="Mua gói giới hạn 6"  msg="Chúc mừng bạn đã mua thành công gói giới hạn 200 ADNXu" item="1026|1|100" token="0" boundMoney="0" boundToken="0" gatherPoint="0" makePoint="0" roleID="" />
+	<Code codeID="2000105" status="1" name ="Mua gói giới hạn 7"  msg="Chúc mừng bạn đã mua thành công gói giới hạn 300 ADNXu" item="819|1|5" token="0" boundMoney="0" boundToken="0" gatherPoint="0" makePoint="0" roleID="" />
+	<Code codeID="2000106" status="1" name ="Mua gói giới hạn 8"  msg="Chúc mừng bạn đã mua thành công gói giới hạn 500 ADNXu" item="20571|1|1" token="0" boundMoney="0" boundToken="0" gatherPoint="0" makePoint="0" roleID="" />
+	
+	<!-- Giftcode NĂM MỚI sv mới -->
+	<Code codeID="2000107" status="1" name =""  msg="Chúc mừng năm mới" item="20938|1|1#191|1|2#1057|1|10#20529|1|100" token="0" boundMoney="0" boundToken="0" gatherPoint="0" makePoint="0" roleID="" />
+	<Code codeID="2000108" status="1" name =""  msg="Chúc mừng năm mới" item="20872|1|1" token="0" boundMoney="0" boundToken="0" gatherPoint="0" makePoint="0" roleID="" />
+	<Code codeID="2000109" status="1" name =""  msg="Chúc mừng năm mới" item="20888|1|1" token="0" boundMoney="0" boundToken="0" gatherPoint="0" makePoint="0" roleID="" />
+	<Code codeID="2000110" status="1" name =""  msg="Chúc mừng năm mới" item="20889|1|1" token="0" boundMoney="0" boundToken="0" gatherPoint="0" makePoint="0" roleID="" />
+	<Code codeID="2000111" status="1" name =""  msg="Chúc mừng năm mới" item="20890|1|1" token="0" boundMoney="0" boundToken="0" gatherPoint="0" makePoint="0" roleID="" />
+	<Code codeID="2000112" status="1" name =""  msg="Chúc mừng năm mới" item="20938|1|1" token="0" boundMoney="0" boundToken="0" gatherPoint="0" makePoint="0" roleID="" />
+
+	<!-- Giftcode GÓI TÀI NGUYÊN -->
+
+	<Code codeID="2000113" status="1" name ="Mua gói tài nguyên 1"  msg="Chúc mừng bạn đã mua thành công gói tài nguyên 70 ADNXu" item="20344|1|100" token="0" boundMoney="0" boundToken="0" gatherPoint="0" makePoint="0" roleID="" />
+
+	<Code codeID="2000114" status="1" name ="Mua gói tài nguyên 2"  msg="Chúc mừng bạn đã mua thành công gói tài nguyên 150 ADNXu" item="20344|1|200" token="0" boundMoney="0" boundToken="0" gatherPoint="0" makePoint="0" roleID="" />
+
+	<Code codeID="2000115" status="1" name ="Mua gói tài nguyên 3"  msg="Chúc mừng bạn đã mua thành công gói tài nguyên 350 ADNXu" item="506|1|5000" token="0" boundMoney="0" boundToken="0" gatherPoint="0" makePoint="0" roleID="" />
+
+	<Code codeID="2000116" status="1" name ="Mua gói tài nguyên 4"  msg="Chúc mừng bạn đã mua thành công gói tài nguyên 700 ADNXu" item="506|1|10000" token="0" boundMoney="0" boundToken="0" gatherPoint="0" makePoint="0" roleID="" />
+
+	<Code codeID="2000117" status="1" name ="Mua gói tài nguyên 5"  msg="Chúc mừng bạn đã mua thành công gói tài nguyên 350 ADNXu" item="819|1|5" token="0" boundMoney="0" boundToken="0" gatherPoint="0" makePoint="0" roleID="" />
+
+	<Code codeID="2000118" status="1" name ="Mua gói tài nguyên 6"  msg="Chúc mừng bạn đã mua thành công gói tài nguyên 100 ADNXu" item="20529|1|200" token="0" boundMoney="0" boundToken="0" gatherPoint="0" makePoint="0" roleID="" />
+
+	<Code codeID="2000119" status="1" name ="Mua gói tài nguyên 7"  msg="Chúc mừng bạn đã mua thành công gói tài nguyên 125 ADNXu" item="20779|1|100" token="0" boundMoney="0" boundToken="0" gatherPoint="0" makePoint="0" roleID="" />
+
+	<Code codeID="2000120" status="1" name ="Mua gói tài nguyên 8"  msg="Chúc mừng bạn đã mua thành công gói tài nguyên 600 ADNXu" item="20779|1|500" token="0" boundMoney="0" boundToken="0" gatherPoint="0" makePoint="0" roleID="" />
+
+	<Code codeID="2000121" status="1" name ="Mua gói tài nguyên 9"  msg="Chúc mừng bạn đã mua thành công gói tài nguyên 1150 ADNXu" item="20779|1|1000" token="0" boundMoney="0" boundToken="0" gatherPoint="0" makePoint="0" roleID="" />
+
+	<Code codeID="2000122" status="1" name ="Mua gói quà tặng ngày 1"  msg="Chúc mừng bạn đã mua thành công gói quà 0 ADNXu" item="1055|1|05#188|1|1" token="0" boundMoney="0" boundToken="0" gatherPoint="0" makePoint="0" roleID="" />
+	<Code codeID="2000123" status="1" name ="Mua gói quà tặng ngày 2"  msg="Chúc mừng bạn đã mua thành công gói quà 0 ADNXu" item="590|1|2#600|1|2" token="0" boundMoney="0" boundToken="0" gatherPoint="0" makePoint="0" roleID="" />
+	<Code codeID="2000124" status="1" name ="Mua gói quà tặng ngày 3"  msg="Chúc mừng bạn đã mua thành công gói quà 0 ADNXu" item="1057|1|2#1102|1|5" token="0" boundMoney="0" boundToken="0" gatherPoint="0" makePoint="0" roleID="" />
+	<Code codeID="2000125" status="1" name ="Mua gói quà tặng ngày 5"  msg="Chúc mừng bạn đã mua thành công gói quà 0 ADNXu" item="25235|1|1" token="0" boundMoney="0" boundToken="0" gatherPoint="0" makePoint="0" roleID="" />
+	<Code codeID="2000126" status="1" name ="Mua gói quà tặng ngày 7"  msg="Chúc mừng bạn đã mua thành công gói quà 0 ADNXu" item="1026|1|20" token="0" boundMoney="0" boundToken="0" gatherPoint="0" makePoint="0" roleID="" />
+	<Code codeID="2000127" status="1" name ="Mua gói quà tặng hàng ngày"  msg="Chúc mừng bạn đã mua thành công gói quà 0 ADNXu" item="15000|1|10#188|1|1" token="0" boundMoney="0" boundToken="0" gatherPoint="0" makePoint="0" roleID="" />
+	<!-- Giftcode Túi mặt nạ -->
+	<Code codeID="2000128" status="1" name =""  msg="" item="20871|1|1" token="0" boundMoney="0" boundToken="0" gatherPoint="0" makePoint="0" roleID="" />
+	<Code codeID="2000129" status="1" name =""  msg="" item="20944|1|1" token="0" boundMoney="0" boundToken="0" gatherPoint="0" makePoint="0" roleID="" />
+	<Code codeID="2000130" status="1" name =""  msg="" item="20945|1|1" token="0" boundMoney="0" boundToken="0" gatherPoint="0" makePoint="0" roleID="" />
+	<Code codeID="2000131" status="1" name =""  msg="" item="20946|1|1" token="0" boundMoney="0" boundToken="0" gatherPoint="0" makePoint="0" roleID="" />
+
+	<!-- Giftcode Quà tặng -->
+	<Code codeID="2000132" status="1" name =""  msg="" item="506|1|1000#1058|1|1" token="0" boundMoney="0" boundToken="0" gatherPoint="0" makePoint="0" roleID="" />
+	<Code codeID="2000134" status="1" name =""  msg="" item="20529|1|100#1057|1|10" token="0" boundMoney="0" boundToken="0" gatherPoint="0" makePoint="0" roleID="" />
+	<Code codeID="2000135" status="1" name =""  msg="" item="20482|1|1" token="0" boundMoney="0" boundToken="0" gatherPoint="0" makePoint="0" roleID="" />
+	<Code codeID="2000136" status="1" name =""  msg="" item="20822|1|1000#928|1|10" token="0" boundMoney="0" boundToken="0" gatherPoint="0" makePoint="0" roleID="" />
+	<Code codeID="2000137" status="1" name =""  msg="" item="20906|1|1" token="0" boundMoney="0" boundToken="0" gatherPoint="0" makePoint="0" roleID="" />
+
+	<!-- Giftcode Gói ưu đãi -->
+	<Code codeID="2000138" status="1" name ="Mua gói ưu đãi ấn 1"  msg="Chúc mừng bạn đã mua thành công gói quà 100 ADNXu" item="20344|1|100#506|1|500" token="0" boundMoney="0" boundToken="0" gatherPoint="0" makePoint="0" roleID="" />
+	<Code codeID="2000139" status="1" name ="Mua gói ưu đãi ấn 2"  msg="Chúc mừng bạn đã mua thành công gói quà 200 ADNXu" item="20344|1|200#506|1|1000" token="0" boundMoney="0" boundToken="0" gatherPoint="0" makePoint="0" roleID="" />
+	<Code codeID="2000140" status="1" name ="Mua gói ưu đãi ấn 3"  msg="Chúc mừng bạn đã mua thành công gói quà 50 ADNXu" item="20345|1|20" token="0" boundMoney="0" boundToken="0" gatherPoint="0" makePoint="0" roleID="" />
+	<Code codeID="2000141" status="1" name ="Mua gói ưu đãi ấn 4"  msg="Chúc mừng bạn đã mua thành công gói quà 120 ADNXu" item="20345|1|50" token="0" boundMoney="0" boundToken="0" gatherPoint="0" makePoint="0" roleID="" />
+	<Code codeID="2000142" status="1" name ="Mua gói tài nguyên 7"  msg="Chúc mừng bạn đã mua thành công gói tài nguyên 125 ADNXu" item="20765|1|100" token="0" boundMoney="0" boundToken="0" gatherPoint="0" makePoint="0" roleID="" />
+	<Code codeID="2000143" status="1" name ="Mua gói tài nguyên 8"  msg="Chúc mừng bạn đã mua thành công gói tài nguyên 600 ADNXu" item="20765|1|500" token="0" boundMoney="0" boundToken="0" gatherPoint="0" makePoint="0" roleID="" />
+	<Code codeID="2000144" status="1" name ="Mua gói tài nguyên 9"  msg="Chúc mừng bạn đã mua thành công gói tài nguyên 1150 ADNXu" item="20765|1|1000" token="0" boundMoney="0" boundToken="0" gatherPoint="0" makePoint="0" roleID="" />
+	<Code codeID="2000145" status="1" name ="Mua gói ưu đãi du long 1"  msg="Chúc mừng bạn đã mua thành công gói quà 300 ADNXu" item="20571|1|1" token="0" boundMoney="0" boundToken="0" gatherPoint="0" makePoint="0" roleID="" />
+
+	<!-- Giftcode Gói ưu ngũ hành hồn thạch -->
+	<Code codeID="2000146" status="1" name ="Mua gói ưu đãi ngũ hành hồn thạch 1"  msg="Chúc mừng bạn đã mua thành công gói quà 2000 ADNXu" item="506|1|20000" token="0" boundMoney="0" boundToken="0" gatherPoint="0" makePoint="0" roleID="" />
+	<Code codeID="2000147" status="1" name ="Mua gói ưu đãi ngũ hành hồn thạch 2"  msg="Chúc mừng bạn đã mua thành công gói quà 5000 ADNXu" item="506|1|50000" token="0" boundMoney="0" boundToken="0" gatherPoint="0" makePoint="0" roleID="" />
+	<Code codeID="2000148" status="1" name ="Mua gói ưu đãi ngũ hành hồn thạch 3"  msg="Chúc mừng bạn đã mua thành công gói quà 10000 ADNXu" item="506|1|100000" token="0" boundMoney="0" boundToken="0" gatherPoint="0" makePoint="0" roleID="" />
+
+	<!-- Giftcode Landing -->
+	<Code codeID="2000149" status="1" name ="Đại Phú Hộ"  msg="Phần Thưởng tham gia vòng quay Đại Phú Hộ" item="20807|1|3" token="0" boundMoney="0" boundToken="0" gatherPoint="0" makePoint="0" roleID="" />
+	<Code codeID="2000150" status="1" name ="Đại Phú Hộ"  msg="Phần Thưởng tham gia vòng quay Đại Phú Hộ" item="20807|1|10" token="0" boundMoney="0" boundToken="0" gatherPoint="0" makePoint="0" roleID="" />
+	<Code codeID="2000151" status="1" name =""  msg="" item="29004|1|2#29007|1|1" token="0" boundMoney="0" boundToken="0" gatherPoint="0" makePoint="0" roleID="" />
+	<Code codeID="2000152" status="1" name =""  msg="" item="29005|1|2#29007|1|1" token="0" boundMoney="0" boundToken="0" gatherPoint="0" makePoint="0" roleID="" />
+	<Code codeID="2000153" status="1" name =""  msg="" item="29006|1|2#29007|1|1" token="0" boundMoney="0" boundToken="0" gatherPoint="0" makePoint="0" roleID="" />
+	<Code codeID="2000154" status="1" name ="Đại Phú Hộ"  msg="Phần Thưởng tham gia vòng quay Đại Phú Hộ" item="29004|1|1" token="0" boundMoney="0" boundToken="0" gatherPoint="0" makePoint="0" roleID="" />
+	<Code codeID="2000155" status="1" name ="Đại Phú Hộ"  msg="Phần Thưởng tham gia vòng quay Đại Phú Hộ" item="1058|1|1" token="0" boundMoney="0" boundToken="0" gatherPoint="0" makePoint="0" roleID="" />
+	<Code codeID="2000156" status="1" name ="Đại Phú Hộ"  msg="Phần Thưởng tham gia vòng quay Đại Phú Hộ" item="20783|1|1" token="0" boundMoney="0" boundToken="0" gatherPoint="0" makePoint="0" roleID="" />
+
+
+	<!-- Giftcode Mini game -->
+	<Code codeID="2000157" status="1" name =""  msg="" item="506|1|500#1026|1|10#20913|1|10" token="0" boundMoney="0" boundToken="0" gatherPoint="0" makePoint="0" roleID="" />
+	<Code codeID="2000158" status="1" name =""  msg="" item="1057|1|10#1104|1|2#20914|1|10" token="0" boundMoney="0" boundToken="0" gatherPoint="0" makePoint="0" roleID="" />
+	<Code codeID="2000159" status="1" name =""  msg="" item="192|1|1#20482|1|1" token="0" boundMoney="0" boundToken="0" gatherPoint="0" makePoint="0" roleID="" />
+	<Code codeID="2000160" status="1" name =""  msg="" item="2017|1|1#192|1|2#29115|1|1" token="0" boundMoney="0" boundToken="0" gatherPoint="0" makePoint="0" roleID="" />
+	<Code codeID="2000161" status="1" name =""  msg="" item="20555|1|1#506|1|1000" token="0" boundMoney="0" boundToken="0" gatherPoint="0" makePoint="0" roleID="" />
+	<Code codeID="2000162" status="1" name =""  msg="" item="20482|1|1#506|1|1000" token="0" boundMoney="0" boundToken="0" gatherPoint="0" makePoint="0" roleID="" />
+
+</GiftCode>
+
+<!--
+	+, item: id|khóa(1)|Số lượng ngăn cách nhau bằng "#"
+	+, roleID: để trống là giftcode này dùng cho tất cả, còn có thì là id người nhận, ngăn cách bởi dấu ";"
+	+, status = 1 sử dụng được == 0 là b
+	token là knb
+	boundMoney: bạc khóa
+	boundToken: KNB khóa
+	gatherPoint: tinh lực
+	makePoint: hoạt lực
+-->

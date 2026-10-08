@@ -1,0 +1,320 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfBulletinMsg xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <!-- 
+    setup thông báo chữ chạy ngang trên server
+    ID: id của thông báo
+    ServerID: để trống nếu thông báo tất cả các server, nếu là một vài server thì id của server phân
+  cách bởi dấu ,
+    Messenger: nội dung thông báo
+    DayOfWeek: ngày thông báo trong tuần
+    NotifyTimes: giờ và phút chạy thông báo
+   -->
+
+  <!--thông
+  báo báo danh Bạch Hổ Đường liên server-->
+  <BulletinMsg ID="1" ServerID="1,4,8,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26"
+    Messenger="Sự kiện &lt;color=#f38ba8&gt;Bạch Hổ Đường Liên Server&lt;/color&gt; chuẩn bị báo danh, người chơi có thể gặp &lt;color=#f9e2af&gt;Bạch Thu Lâm&lt;/color&gt; di chuyển đến &lt;color=#f38ba8&gt;Hoàng Thành Liên Server&lt;/color&gt; để tiến hành báo danh chiến đấu tranh đoạt báu vật.">
+    <DayOfWeek>1</DayOfWeek>
+    <DayOfWeek>2</DayOfWeek>
+    <DayOfWeek>3</DayOfWeek>
+    <DayOfWeek>4</DayOfWeek>
+    <DayOfWeek>5</DayOfWeek>
+    <DayOfWeek>6</DayOfWeek>
+    <DayOfWeek>7</DayOfWeek>
+    <NotifyTimes Hours="19" Minute="30" />
+    <NotifyTimes Hours="19" Minute="35" />
+  </BulletinMsg>
+
+  <BulletinMsg ID="2" ServerID=""
+    Messenger="Sự kiện &lt;color=#f38ba8&gt;Võ lâm Liên đấu&lt;/color&gt; đã mở đăng ký, người chơi có thể thành lập tổ đội và gặp &lt;color=#f9e2af&gt;Quan Liên đấu&lt;/color&gt; tại các thành thị để tiến hành đăng ký. Thời gian đăng ký từ ngày 1 đến ngày 4 hàng tháng.">
+    <DayOfMonth>1</DayOfMonth>
+    <DayOfMonth>2</DayOfMonth>
+    <DayOfMonth>3</DayOfMonth>
+    <DayOfMonth>4</DayOfMonth>
+    <DayOfMonth>5</DayOfMonth>
+    <DayOfMonth>6</DayOfMonth>
+    <DayOfMonth>7</DayOfMonth>
+    <DayOfMonth>8</DayOfMonth>
+    <DayOfMonth>9</DayOfMonth>
+    <DayOfMonth>10</DayOfMonth>
+    <NotifyTimes Hours="0" Minute="17" />
+    <NotifyTimes Hours="1" Minute="17" />
+    <NotifyTimes Hours="2" Minute="17" />
+    <NotifyTimes Hours="3" Minute="17" />
+    <NotifyTimes Hours="4" Minute="17" />
+    <NotifyTimes Hours="5" Minute="17" />
+    <NotifyTimes Hours="6" Minute="17" />
+    <NotifyTimes Hours="7" Minute="17" />
+    <NotifyTimes Hours="8" Minute="17" />
+    <NotifyTimes Hours="9" Minute="17" />
+    <NotifyTimes Hours="10" Minute="17" />
+    <NotifyTimes Hours="11" Minute="17" />
+    <NotifyTimes Hours="12" Minute="17" />
+    <NotifyTimes Hours="13" Minute="17" />
+    <NotifyTimes Hours="14" Minute="17" />
+    <NotifyTimes Hours="15" Minute="17" />
+    <NotifyTimes Hours="16" Minute="17" />
+    <NotifyTimes Hours="17" Minute="17" />
+    <NotifyTimes Hours="18" Minute="17" />
+    <NotifyTimes Hours="19" Minute="17" />
+    <NotifyTimes Hours="20" Minute="17" />
+    <NotifyTimes Hours="21" Minute="17" />
+    <NotifyTimes Hours="22" Minute="17" />
+    <NotifyTimes Hours="23" Minute="17" />
+  </BulletinMsg>
+
+  <BulletinMsg ID="6" ServerID="1,4,8,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26"
+    Messenger="Chiến trường &lt;color=#f38ba8&gt;Tống Kim Liên Server&lt;/color&gt; đã mở báo danh.">
+    <DayOfWeek>1</DayOfWeek>
+    <DayOfWeek>2</DayOfWeek>
+    <DayOfWeek>3</DayOfWeek>
+    <DayOfWeek>4</DayOfWeek>
+    <DayOfWeek>5</DayOfWeek>
+    <DayOfWeek>6</DayOfWeek>
+    <DayOfWeek>7</DayOfWeek>
+    <NotifyTimes Hours="21" Minute="15" />
+    <NotifyTimes Hours="21" Minute="20" />
+    <NotifyTimes Hours="21" Minute="25" />
+  </BulletinMsg>
+
+
+  <BulletinMsg ID="7" ServerID="1,4,8,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26"
+    Messenger="Hoạt động Tần Lăng Liên Server chỉ còn 5 phút nữa sẽ chính thức khai mở, các nhân sĩ hãy nhanh chân tới gặp Bạch Thu Lâm để tham gia hoạt động liên server.">
+    <DayOfWeek>1</DayOfWeek>
+    <DayOfWeek>2</DayOfWeek>
+    <DayOfWeek>3</DayOfWeek>
+    <DayOfWeek>4</DayOfWeek>
+    <DayOfWeek>5</DayOfWeek>
+    <DayOfWeek>6</DayOfWeek>
+    <DayOfWeek>7</DayOfWeek>
+    <NotifyTimes Hours="16" Minute="55" />
+  </BulletinMsg>
+  <BulletinMsg ID="8" ServerID="1,4,8,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26"
+    Messenger="Hoạt động Tần Lăng Liên Server đã chính thức khai mở. Gặp Bạch Thu Lâm để tham chiến.">
+    <DayOfWeek>1</DayOfWeek>
+    <DayOfWeek>2</DayOfWeek>
+    <DayOfWeek>3</DayOfWeek>
+    <DayOfWeek>4</DayOfWeek>
+    <DayOfWeek>5</DayOfWeek>
+    <DayOfWeek>6</DayOfWeek>
+    <DayOfWeek>7</DayOfWeek>
+    <NotifyTimes Hours="17" Minute="00" />
+  </BulletinMsg>
+
+  <BulletinMsg ID="10" ServerID="40"
+    Messenger="10.000 KNB, Huyền Tinh, Thời trang và Phong Bao Lì Xì đang chờ bạn, chỉ cần nhập code KV1ADNXTANTHU, VIP888, KV1ADNX8386, LIXIFF5 và nạp KNB ngay tại website ID.ADNX.VN.">
+    <DayOfMonth>3</DayOfMonth>
+    <DayOfMonth>4</DayOfMonth>
+    <DayOfMonth>5</DayOfMonth>
+    <DayOfMonth>6</DayOfMonth>
+    <NotifyTimes Hours="0" Minute="17" />
+    <NotifyTimes Hours="1" Minute="17" />
+    <NotifyTimes Hours="2" Minute="17" />
+    <NotifyTimes Hours="3" Minute="17" />
+    <NotifyTimes Hours="4" Minute="17" />
+    <NotifyTimes Hours="5" Minute="17" />
+    <NotifyTimes Hours="6" Minute="17" />
+    <NotifyTimes Hours="7" Minute="17" />
+    <NotifyTimes Hours="8" Minute="17" />
+    <NotifyTimes Hours="9" Minute="17" />
+    <NotifyTimes Hours="10" Minute="17" />
+    <NotifyTimes Hours="11" Minute="17" />
+    <NotifyTimes Hours="12" Minute="17" />
+    <NotifyTimes Hours="13" Minute="17" />
+    <NotifyTimes Hours="14" Minute="17" />
+    <NotifyTimes Hours="15" Minute="17" />
+    <NotifyTimes Hours="16" Minute="17" />
+    <NotifyTimes Hours="17" Minute="17" />
+    <NotifyTimes Hours="18" Minute="17" />
+    <NotifyTimes Hours="19" Minute="17" />
+    <NotifyTimes Hours="20" Minute="17" />
+    <NotifyTimes Hours="21" Minute="17" />
+    <NotifyTimes Hours="22" Minute="17" />
+    <NotifyTimes Hours="23" Minute="17" />
+
+    <NotifyTimes Hours="0" Minute="32" />
+    <NotifyTimes Hours="1" Minute="32" />
+    <NotifyTimes Hours="2" Minute="32" />
+    <NotifyTimes Hours="3" Minute="32" />
+    <NotifyTimes Hours="4" Minute="32" />
+    <NotifyTimes Hours="5" Minute="32" />
+    <NotifyTimes Hours="6" Minute="32" />
+    <NotifyTimes Hours="7" Minute="32" />
+    <NotifyTimes Hours="8" Minute="32" />
+    <NotifyTimes Hours="9" Minute="32" />
+    <NotifyTimes Hours="10" Minute="32" />
+    <NotifyTimes Hours="11" Minute="32" />
+    <NotifyTimes Hours="12" Minute="32" />
+    <NotifyTimes Hours="13" Minute="32" />
+    <NotifyTimes Hours="14" Minute="32" />
+    <NotifyTimes Hours="15" Minute="32" />
+    <NotifyTimes Hours="16" Minute="32" />
+    <NotifyTimes Hours="17" Minute="32" />
+    <NotifyTimes Hours="18" Minute="32" />
+    <NotifyTimes Hours="19" Minute="32" />
+    <NotifyTimes Hours="20" Minute="32" />
+    <NotifyTimes Hours="21" Minute="32" />
+    <NotifyTimes Hours="22" Minute="32" />
+    <NotifyTimes Hours="23" Minute="32" />
+
+    <NotifyTimes Hours="0" Minute="47" />
+    <NotifyTimes Hours="1" Minute="47" />
+    <NotifyTimes Hours="2" Minute="47" />
+    <NotifyTimes Hours="3" Minute="47" />
+    <NotifyTimes Hours="4" Minute="47" />
+    <NotifyTimes Hours="5" Minute="47" />
+    <NotifyTimes Hours="6" Minute="47" />
+    <NotifyTimes Hours="7" Minute="47" />
+    <NotifyTimes Hours="8" Minute="47" />
+    <NotifyTimes Hours="9" Minute="47" />
+    <NotifyTimes Hours="10" Minute="47" />
+    <NotifyTimes Hours="11" Minute="47" />
+    <NotifyTimes Hours="12" Minute="47" />
+    <NotifyTimes Hours="13" Minute="47" />
+    <NotifyTimes Hours="14" Minute="47" />
+    <NotifyTimes Hours="15" Minute="47" />
+    <NotifyTimes Hours="16" Minute="47" />
+    <NotifyTimes Hours="17" Minute="47" />
+    <NotifyTimes Hours="18" Minute="47" />
+    <NotifyTimes Hours="19" Minute="47" />
+    <NotifyTimes Hours="20" Minute="47" />
+    <NotifyTimes Hours="21" Minute="47" />
+    <NotifyTimes Hours="22" Minute="47" />
+    <NotifyTimes Hours="23" Minute="47" />
+
+    <NotifyTimes Hours="0" Minute="02" />
+    <NotifyTimes Hours="1" Minute="02" />
+    <NotifyTimes Hours="2" Minute="02" />
+    <NotifyTimes Hours="3" Minute="02" />
+    <NotifyTimes Hours="4" Minute="02" />
+    <NotifyTimes Hours="5" Minute="02" />
+    <NotifyTimes Hours="6" Minute="02" />
+    <NotifyTimes Hours="7" Minute="02" />
+    <NotifyTimes Hours="8" Minute="02" />
+    <NotifyTimes Hours="9" Minute="02" />
+    <NotifyTimes Hours="10" Minute="02" />
+    <NotifyTimes Hours="11" Minute="02" />
+    <NotifyTimes Hours="12" Minute="02" />
+    <NotifyTimes Hours="13" Minute="02" />
+    <NotifyTimes Hours="14" Minute="02" />
+    <NotifyTimes Hours="15" Minute="02" />
+    <NotifyTimes Hours="16" Minute="02" />
+    <NotifyTimes Hours="17" Minute="02" />
+    <NotifyTimes Hours="18" Minute="02" />
+    <NotifyTimes Hours="19" Minute="02" />
+    <NotifyTimes Hours="20" Minute="02" />
+    <NotifyTimes Hours="21" Minute="02" />
+    <NotifyTimes Hours="22" Minute="02" />
+    <NotifyTimes Hours="23" Minute="02" />
+
+  </BulletinMsg>
+
+  <BulletinMsg ID="11" ServerID="40"
+    Messenger="Giftcode Tân Thủ Độc Quyền! Tham gia group Zalo tại giao diện Máy chủ mới -> Quà Tân Thủ -> Cộng đồng Zalo và báo danh báo danh tại Fanpage Kiếm Vương 1 để nhận code độc quyền máy chủ S37 - Băng Phách Kiếm ngay!">
+    <DayOfMonth>3</DayOfMonth>
+    <DayOfMonth>4</DayOfMonth>
+    <DayOfMonth>5</DayOfMonth>
+    <DayOfMonth>6</DayOfMonth>
+    <NotifyTimes Hours="0" Minute="43" />
+    <NotifyTimes Hours="1" Minute="43" />
+    <NotifyTimes Hours="2" Minute="43" />
+    <NotifyTimes Hours="3" Minute="43" />
+    <NotifyTimes Hours="4" Minute="43" />
+    <NotifyTimes Hours="5" Minute="43" />
+    <NotifyTimes Hours="6" Minute="43" />
+    <NotifyTimes Hours="7" Minute="43" />
+    <NotifyTimes Hours="8" Minute="43" />
+    <NotifyTimes Hours="9" Minute="43" />
+    <NotifyTimes Hours="10" Minute="43" />
+    <NotifyTimes Hours="11" Minute="43" />
+    <NotifyTimes Hours="12" Minute="43" />
+    <NotifyTimes Hours="13" Minute="43" />
+    <NotifyTimes Hours="14" Minute="43" />
+    <NotifyTimes Hours="15" Minute="43" />
+    <NotifyTimes Hours="16" Minute="43" />
+    <NotifyTimes Hours="17" Minute="43" />
+    <NotifyTimes Hours="18" Minute="43" />
+    <NotifyTimes Hours="19" Minute="43" />
+    <NotifyTimes Hours="20" Minute="43" />
+
+    <NotifyTimes Hours="0" Minute="13" />
+    <NotifyTimes Hours="1" Minute="13" />
+    <NotifyTimes Hours="2" Minute="13" />
+    <NotifyTimes Hours="3" Minute="13" />
+    <NotifyTimes Hours="4" Minute="13" />
+    <NotifyTimes Hours="5" Minute="13" />
+    <NotifyTimes Hours="6" Minute="13" />
+    <NotifyTimes Hours="7" Minute="13" />
+    <NotifyTimes Hours="8" Minute="13" />
+    <NotifyTimes Hours="9" Minute="13" />
+    <NotifyTimes Hours="10" Minute="13" />
+    <NotifyTimes Hours="11" Minute="13" />
+    <NotifyTimes Hours="12" Minute="13" />
+    <NotifyTimes Hours="13" Minute="13" />
+    <NotifyTimes Hours="14" Minute="13" />
+    <NotifyTimes Hours="15" Minute="13" />
+    <NotifyTimes Hours="16" Minute="13" />
+    <NotifyTimes Hours="17" Minute="13" />
+    <NotifyTimes Hours="18" Minute="13" />
+    <NotifyTimes Hours="19" Minute="13" />
+    <NotifyTimes Hours="20" Minute="13" />
+  </BulletinMsg>
+
+  <!-- <BulletinMsg ID="9" ServerID="1,11,21,25"
+    Messenger="Máy chủ mới S26 - Cái Bang ra mắt vào 19:19 ngày ngày 12/12/2024 với vô vàn quà tặng. Đăng nhập tặng ngày 10.000 KNB Khóa, tăng cấp nhận quà HOT như: Huyền Tinh 10, 11, Vũ Khí Tần Lăng, Trang Bị Đồng Hành cùng nhiều vật phẩm giá trị khác. Vào chiến ngay!">
+    <DayOfMonth>12</DayOfMonth>
+    <DayOfMonth>13</DayOfMonth>
+    <DayOfMonth>14</DayOfMonth>
+    <DayOfMonth>15</DayOfMonth>
+    <NotifyTimes Hours="0" Minute="19" />
+    <NotifyTimes Hours="1" Minute="19" />
+    <NotifyTimes Hours="2" Minute="19" />
+    <NotifyTimes Hours="3" Minute="19" />
+    <NotifyTimes Hours="4" Minute="19" />
+    <NotifyTimes Hours="5" Minute="19" />
+    <NotifyTimes Hours="6" Minute="19" />
+    <NotifyTimes Hours="7" Minute="19" />
+    <NotifyTimes Hours="8" Minute="19" />
+    <NotifyTimes Hours="9" Minute="19" />
+    <NotifyTimes Hours="10" Minute="19" />
+    <NotifyTimes Hours="11" Minute="19" />
+    <NotifyTimes Hours="12" Minute="19" />
+    <NotifyTimes Hours="13" Minute="19" />
+    <NotifyTimes Hours="14" Minute="19" />
+    <NotifyTimes Hours="15" Minute="19" />
+    <NotifyTimes Hours="16" Minute="19" />
+    <NotifyTimes Hours="17" Minute="19" />
+    <NotifyTimes Hours="18" Minute="19" />
+    <NotifyTimes Hours="19" Minute="19" />
+    <NotifyTimes Hours="20" Minute="19" />
+    <NotifyTimes Hours="21" Minute="19" />
+    <NotifyTimes Hours="22" Minute="19" />
+    <NotifyTimes Hours="23" Minute="19" />
+
+    <NotifyTimes Hours="0" Minute="49" />
+    <NotifyTimes Hours="1" Minute="49" />
+    <NotifyTimes Hours="2" Minute="49" />
+    <NotifyTimes Hours="3" Minute="49" />
+    <NotifyTimes Hours="4" Minute="49" />
+    <NotifyTimes Hours="5" Minute="49" />
+    <NotifyTimes Hours="6" Minute="49" />
+    <NotifyTimes Hours="7" Minute="49" />
+    <NotifyTimes Hours="8" Minute="49" />
+    <NotifyTimes Hours="9" Minute="49" />
+    <NotifyTimes Hours="10" Minute="49" />
+    <NotifyTimes Hours="11" Minute="49" />
+    <NotifyTimes Hours="12" Minute="49" />
+    <NotifyTimes Hours="13" Minute="49" />
+    <NotifyTimes Hours="14" Minute="49" />
+    <NotifyTimes Hours="15" Minute="49" />
+    <NotifyTimes Hours="16" Minute="49" />
+    <NotifyTimes Hours="17" Minute="49" />
+    <NotifyTimes Hours="18" Minute="49" />
+    <NotifyTimes Hours="19" Minute="49" />
+    <NotifyTimes Hours="20" Minute="49" />
+    <NotifyTimes Hours="21" Minute="49" />
+    <NotifyTimes Hours="22" Minute="49" />
+    <NotifyTimes Hours="23" Minute="49" />
+  </BulletinMsg> -->
+
+</ArrayOfBulletinMsg>

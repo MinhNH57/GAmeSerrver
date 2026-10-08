@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfItemData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <ItemData ItemID="25127" Name="Hạng liên Đồng Hành - Bích Huyết" IconBundleDir="Icon/EquipIcon2.unity3d" IconAtlasName="EquipIcon2"
+    MapSpriteBundleDir="Resources/Item/MapSprite.unity3d" MapSpriteAtlasName="MapSprite"
+    Kind="Trang bị cam PVP_Hạng liên danh vọng cấp 9 cho tất cả hệ phái hệ Thổ" QualityPrefix="5" Category="1" Genre="2" Stack="1" DetailType="29"
+    ParticularType="339" Level="7" SuiteID="0" Icon="BH_lien" View="BH_lien" Intro="" Help="" ObjID="30" BindType="1" Series="4"
+    ReqLevel="0" CDType="0" Price="100000" ItemValue="10000000" MakeCost="-1" ResMale="-1" ResFemale="-1" FightPower="0" ScriptID="-1"
+    DeductOnUse="false" BuffID="-1">
+    <ListBasicProp BasicPropType="skilldamageptrim" BasicPropPA1Min="10" BasicPropPA1Max="10" BasicPropPA2Min="-1" BasicPropPA2Max="-1"
+      BasicPropPA3Min="0" BasicPropPA3Max="0" Index="1" />
+    <ListBasicProp BasicPropType="ignoredefenseenhance_v" BasicPropPA1Min="155" BasicPropPA1Max="155" BasicPropPA2Min="-1" BasicPropPA2Max="-1"
+      BasicPropPA3Min="0" BasicPropPA3Max="0" Index="2" />
+    <ListBasicProp BasicPropType="stealmanaenhance_p" BasicPropPA1Min="1" BasicPropPA1Max="1" BasicPropPA2Min="-1" BasicPropPA2Max="-1"
+      BasicPropPA3Min="0" BasicPropPA3Max="0" Index="3" />
+    <ListBasicProp BasicPropType="seriesenhance" BasicPropPA1Min="55" BasicPropPA1Max="55" BasicPropPA2Min="-1" BasicPropPA2Max="-1"
+      BasicPropPA3Min="0" BasicPropPA3Max="0" Index="4" />
+    <UnLockInterval>-1</UnLockInterval>
+  </ItemData>
+  <ItemData ItemID="25128" Name="Hạng liên Đồng Hành - Kim Lân" IconBundleDir="Icon/EquipIcon2.unity3d" IconAtlasName="EquipIcon2"
+    MapSpriteBundleDir="Resources/Item/MapSprite.unity3d" MapSpriteAtlasName="MapSprite"
+    Kind="Trang bị cam PVP_Hạng liên danh vọng cấp 9 cho tất cả hệ phái hệ Thổ" QualityPrefix="5" Category="1" Genre="2" Stack="1" DetailType="29"
+    ParticularType="339" Level="8" SuiteID="0" Icon="KL_lien" View="KL_lien" Intro="" Help="" ObjID="30" BindType="1" Series="4"
+    ReqLevel="0" CDType="0" Price="100000" ItemValue="20000000" MakeCost="-1" ResMale="-1" ResFemale="-1" FightPower="0" ScriptID="-1"
+    DeductOnUse="false" BuffID="-1">
+    <ListBasicProp BasicPropType="skilldamageptrim" BasicPropPA1Min="17" BasicPropPA1Max="17" BasicPropPA2Min="-1" BasicPropPA2Max="-1"
+      BasicPropPA3Min="0" BasicPropPA3Max="0" Index="1" />
+    <ListBasicProp BasicPropType="ignoredefenseenhance_v" BasicPropPA1Min="415" BasicPropPA1Max="415" BasicPropPA2Min="-1" BasicPropPA2Max="-1"
+      BasicPropPA3Min="0" BasicPropPA3Max="0" Index="2" />
+    <ListBasicProp BasicPropType="stealmanaenhance_p" BasicPropPA1Min="3" BasicPropPA1Max="3" BasicPropPA2Min="-1" BasicPropPA2Max="-1"
+      BasicPropPA3Min="0" BasicPropPA3Max="0" Index="3" />
+    <ListBasicProp BasicPropType="seriesenhance" BasicPropPA1Min="135" BasicPropPA1Max="135" BasicPropPA2Min="-1" BasicPropPA2Max="-1"
+      BasicPropPA3Min="0" BasicPropPA3Max="0" Index="4" />
+    <UnLockInterval>-1</UnLockInterval>
+  </ItemData>
+  <ItemData ItemID="25129" Name="Hạng liên Đồng Hành - Đơn Tâm" IconBundleDir="Icon/EquipIcon2.unity3d" IconAtlasName="EquipIcon2"
+    MapSpriteBundleDir="Resources/Item/MapSprite.unity3d" MapSpriteAtlasName="MapSprite"
+    Kind="Trang bị cam PVP_Hạng liên danh vọng cấp 9 cho tất cả hệ phái hệ Thổ" QualityPrefix="5" Category="1" Genre="2" Stack="1" DetailType="29"
+    ParticularType="339" Level="9" SuiteID="0" Icon="DT_lien" View="DT_lien" Intro="" Help="" ObjID="30" BindType="1" Series="4"
+    ReqLevel="0" CDType="0" Price="100000" ItemValue="30000000" MakeCost="-1" ResMale="-1" ResFemale="-1" FightPower="0" ScriptID="-1"
+    DeductOnUse="false" BuffID="-1">
+    <ListBasicProp BasicPropType="skilldamageptrim" BasicPropPA1Min="25" BasicPropPA1Max="25" BasicPropPA2Min="-1" BasicPropPA2Max="-1"
+      BasicPropPA3Min="0" BasicPropPA3Max="0" Index="1" />
+    <ListBasicProp BasicPropType="ignoredefenseenhance_v" BasicPropPA1Min="605" BasicPropPA1Max="605" BasicPropPA2Min="-1" BasicPropPA2Max="-1"
+      BasicPropPA3Min="0" BasicPropPA3Max="0" Index="2" />
+    <ListBasicProp BasicPropType="stealmanaenhance_p" BasicPropPA1Min="5" BasicPropPA1Max="5" BasicPropPA2Min="-1" BasicPropPA2Max="-1"
+      BasicPropPA3Min="0" BasicPropPA3Max="0" Index="3" />
+    <ListBasicProp BasicPropType="seriesenhance" BasicPropPA1Min="205" BasicPropPA1Max="205" BasicPropPA2Min="-1" BasicPropPA2Max="-1"
+      BasicPropPA3Min="0" BasicPropPA3Max="0" Index="4" />
+    <UnLockInterval>-1</UnLockInterval>
+  </ItemData>
+  <ItemData ItemID="25130" Name="Hạng liên Đồng Hành - Long Đằng" IconBundleDir="Icon/EquipIcon2.unity3d" IconAtlasName="EquipIcon2"
+    MapSpriteBundleDir="Resources/Item/MapSprite.unity3d" MapSpriteAtlasName="MapSprite"
+    Kind="Trang bị cam PVP_Hạng liên danh vọng cấp 9 cho tất cả hệ phái hệ Thổ" QualityPrefix="5" Category="1" Genre="2" Stack="1" DetailType="29"
+    ParticularType="339" Level="10" SuiteID="0" Icon="LD_lien" View="LD_lien" Intro="" Help="" ObjID="30" BindType="1" Series="4"
+    ReqLevel="0" CDType="0" Price="100000" ItemValue="40000000" MakeCost="-1" ResMale="-1" ResFemale="-1" FightPower="0" ScriptID="-1"
+    DeductOnUse="false" BuffID="-1">
+    <ListBasicProp BasicPropType="skilldamageptrim" BasicPropPA1Min="32" BasicPropPA1Max="32" BasicPropPA2Min="-1" BasicPropPA2Max="-1"
+      BasicPropPA3Min="0" BasicPropPA3Max="0" Index="1" />
+    <ListBasicProp BasicPropType="ignoredefenseenhance_v" BasicPropPA1Min="798" BasicPropPA1Max="798" BasicPropPA2Min="-1" BasicPropPA2Max="-1"
+      BasicPropPA3Min="0" BasicPropPA3Max="0" Index="2" />
+    <ListBasicProp BasicPropType="stealmanaenhance_p" BasicPropPA1Min="7" BasicPropPA1Max="7" BasicPropPA2Min="-1" BasicPropPA2Max="-1"
+      BasicPropPA3Min="0" BasicPropPA3Max="0" Index="3" />
+    <ListBasicProp BasicPropType="seriesenhance" BasicPropPA1Min="265" BasicPropPA1Max="265" BasicPropPA2Min="-1" BasicPropPA2Max="-1"
+      BasicPropPA3Min="0" BasicPropPA3Max="0" Index="4" />
+    <UnLockInterval>-1</UnLockInterval>
+  </ItemData>
+</ArrayOfItemData>

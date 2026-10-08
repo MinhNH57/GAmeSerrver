@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+	SỰ KIỆN VÕ LÂM LIÊN ĐẤU
+	- Config: Thiết lập sự kiện
+		- EventID: ID sự kiện
+		- EnterMapID: ID bản đồ hội trường
+		- EnterPosX: Vị trí X vào bản đồ hội trường
+		- EnterPosY: Vị trí Y vào bản đồ hội trường
+		- MinLevel: Cấp độ tối thiểu tham gia
+	- RegisterConfig: Thiết báo danh
+		- FromDay: Ngày bắt đầu báo danh trong tháng
+		- ToDay: Ngày kết thúc báo danh trong tháng
+		- TeamCapacity: Số thành viên nhóm yêu cầu (tối thiểu 1 và tối đa 4, -1 nếu ngẫu nhiên trong khoảng [1..4])
+	- Battle: Thi đấu
+		- Config: Thiết lập thi đấu
+			- Duration: Thời gian mỗi hiệp đấu (đơn vị Mili-giây)
+			- FinishWaitDuration: Thời gian chờ sau khi phân thắng bại mỗi hiệp đấu để tự đẩy ra khỏi đấu trường (đơn vị Mili-giây)
+			- MapID: ID bản đồ thi đấu
+			- PosX: Vị trí X vào bản đồ thi đấu
+			- PosY: Vị trí Y vào bản đồ thi đấu
+			- MaxCircleRoundBattles: Tổng số trận đấu vòng tròn tối đa được tham dự
+			- ToFinalRoundTotalTeams: Tổng số đội được chọn vào vòng chung kết
+			- ArrangeToFinalRoundAtDay: Tự xếp hạng các chiến đội vào vòng sau lúc 0:00 ngày tương ứng
+			- MinTotalBattleToGetAward: Số trận cần thiết để nhận thưởng cuối tháng
+		- EventTimes: Thời gian sự kiện
+			- Time: Thông tin mốc thời gian
+				- Day: Ngày diễn ra trong tháng
+				- Times: Danh sách các múi giờ diễn ra trong ngày
+				- Stage: Hạng của trận (0: Vòng hỗn chiến, 1..N: Vòng chung kết)
+				- IncreaseStageForWinnerTeam: Có tăng bậc của chiến đội cho đội thắng cuộc không (Tại vòng hỗn chiến sẽ không tăng, còn các vòng ở chung kết sẽ tăng để loại trực tiếp luôn)
+	- Award: Phần thưởng
+		- Config: Thiết lập nhận thưởng
+			- FromDay: Ngày bắt đầu nhận thưởng trong tháng
+			- ToDay: Ngày kết thúc nhận thưởng trong tháng
+		- WinRound: Phần thưởng khi chiến thắng trong lượt đấu bất kỳ
+			- Exp: Kinh nghiệm
+			- BoundMoney: Bạc khóa
+			- Repute: Danh vọng
+			- Point: Điểm sau khi thắng
+			- Items: Vật phẩm nhận được ngăn cách nhau bởi dấu ; giữa các món
+					+ Gồm 3 giá trị ID_Số lượng_Binding
+		- EnterRound: Phần thưởng khi bắt đầu lượt đấu
+			- Exp: Kinh nghiệm
+			- BoundMoney: Bạc khóa
+			- Repute: Danh vọng
+			- Point: Điểm mặc định khi vào trận
+			- Items: Vật phẩm nhận được ngăn cách nhau bởi dấu ; giữa các món
+					+ Gồm 3 giá trị ID_Số lượng_Binding
+		- FinalRank: Phần thưởng theo thứ hạng
+			- RankInfo: Thông tin hạng
+				- ID : Tương ứng với số lượng thành viên tham gia
+				- FromRank: Từ thứ hạng
+				- ToRank: Đến thứ hạng
+				- Exp: Kinh nghiệm
+				- Repute: Danh vọng
+				- Items: Vật phẩm nhận được ngăn cách nhau bởi dấu ; giữa các món
+					+ Gồm 3 giá trị ID_Số lượng_Binding
+-->
+<TeamBattle xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<!-- Thiết lập -->
+	<Config EventID="15" EnterMapID="1402" EnterPosX="1895" EnterPosY="3138" MinLevel="90" />
+
+	<!-- Đăng ký -->
+	<RegisterConfig FromDay="1" ToDay="6" TeamCapacity="2" />
+	
+	<!-- Thi đấu -->
+	<Battle>
+		<Config Duration="360000" FinishWaitDuration="30000" MapID="1426" PosX="1602" PosY="1108" MaxCircleRoundBattles="48" ToFinalRoundTotalTeams="8" ArrangeToFinalRoundAtDay="28" MinTotalBattleToGetAward="24"/>
+		
+		<EventTimes>
+			<Time Day="5" Times="21:00;21:10;21:20;21:30;21:40;21:50" Stage="0" IncreaseStageForWinnerTeam="false" />
+			<Time Day="6" Times="21:00;21:10;21:20;21:30;21:40;21:50" Stage="0" IncreaseStageForWinnerTeam="false" />
+			<Time Day="7" Times="21:00;21:10;21:20;21:30;21:40;21:50" Stage="0" IncreaseStageForWinnerTeam="false" />
+			<Time Day="8" Times="21:00;21:10;21:20;21:30;21:40;21:50" Stage="0" IncreaseStageForWinnerTeam="false" />
+			<Time Day="9" Times="21:00;21:10;21:20;21:30;21:40;21:50" Stage="0" IncreaseStageForWinnerTeam="false" />
+			<Time Day="10" Times="21:00;21:10;21:20;21:30;21:40;21:50" Stage="0" IncreaseStageForWinnerTeam="false" />
+			<Time Day="11" Times="21:00;21:10;21:20;21:30;21:40;21:50" Stage="0" IncreaseStageForWinnerTeam="false" />
+			<Time Day="12" Times="21:00;21:10;21:20;21:30;21:40;21:50" Stage="0" IncreaseStageForWinnerTeam="false" />
+			<Time Day="13" Times="21:00;21:10;21:20;21:30;21:40;21:50" Stage="0" IncreaseStageForWinnerTeam="false" />
+			<Time Day="14" Times="21:00;21:10;21:20;21:30;21:40;21:50" Stage="0" IncreaseStageForWinnerTeam="false" />
+			<Time Day="15" Times="21:00;21:10;21:20;21:30;21:40;21:50" Stage="0" IncreaseStageForWinnerTeam="false" />
+			<Time Day="16" Times="21:00;21:10;21:20;21:30;21:40;21:50" Stage="0" IncreaseStageForWinnerTeam="false" />
+			<Time Day="17" Times="21:00;21:10;21:20;21:30;21:40;21:50" Stage="0" IncreaseStageForWinnerTeam="false" />
+			<Time Day="18" Times="21:00;21:10;21:20;21:30;21:40;21:50" Stage="0" IncreaseStageForWinnerTeam="false" />
+			<Time Day="19" Times="21:00;21:10;21:20;21:30;21:40;21:50" Stage="0" IncreaseStageForWinnerTeam="false" />
+			<Time Day="20" Times="21:00;21:10;21:20;21:30;21:40;21:50" Stage="0" IncreaseStageForWinnerTeam="false" />
+			<Time Day="21" Times="21:00;21:10;21:20;21:30;21:40;21:50" Stage="0" IncreaseStageForWinnerTeam="false" />
+			<Time Day="22" Times="21:00;21:10;21:20;21:30;21:40;21:50" Stage="0" IncreaseStageForWinnerTeam="false" />
+			<Time Day="23" Times="21:00;21:10;21:20;21:30;21:40;21:50" Stage="0" IncreaseStageForWinnerTeam="false" />
+			<Time Day="24" Times="21:00;21:10;21:20;21:30;21:40;21:50" Stage="0" IncreaseStageForWinnerTeam="false" />
+			<Time Day="25" Times="21:00;21:10;21:20;21:30;21:40;21:50" Stage="0" IncreaseStageForWinnerTeam="false" />
+		</EventTimes>
+	</Battle>
+	
+	<!-- Phần thưởng -->
+	<Award>
+		<Config FromDay="26" ToDay="29" />
+	
+		<WinRound Exp="0" BoundMoney="0" Repute="2" Point="2" Items="1476_1_0" />
+		<EnterRound Exp="0" BoundMoney="0" Repute="1" Point="1" Items="" />
+		
+		<FinalRank>
+			<!-- Đơn đấu -->
+			<RankInfo ID="1" FromRank="1" ToRank="1" Exp="0" Repute="0" Items="13097_50_0;1476_30_0" />
+			<RankInfo ID="1" FromRank="2" ToRank="3" Exp="0" Repute="0" Items="13097_25_0;1476_15_0" />
+			<RankInfo ID="1" FromRank="4" ToRank="10" Exp="0" Repute="0" Items="13097_10_0;1476_7_0" />
+			<RankInfo ID="1" FromRank="11" ToRank="1000000" Exp="0" Repute="0" Items="13097_5_0;1476_4_0" />
+			
+			<!-- Song đấu -->
+			<RankInfo ID="2" FromRank="1" ToRank="1" Exp="0" Repute="0" Items="13097_50_0;1476_30_0" />
+			<RankInfo ID="2" FromRank="2" ToRank="3" Exp="0" Repute="0" Items="13097_25_0;1476_15_0" />
+			<RankInfo ID="2" FromRank="4" ToRank="10" Exp="0" Repute="0" Items="13097_10_0;1476_7_0" />
+			<RankInfo ID="2" FromRank="11" ToRank="1000000" Exp="0" Repute="0" Items="13097_5_0;1476_4_0" />
+			
+			<!-- Tam đấu -->
+			<RankInfo ID="3" FromRank="1" ToRank="1" Exp="0" Repute="0" Items="13097_50_0;1476_30_0" />
+			<RankInfo ID="3" FromRank="2" ToRank="3" Exp="0" Repute="0" Items="13097_25_0;1476_15_0" />
+			<RankInfo ID="3" FromRank="4" ToRank="10" Exp="0" Repute="0" Items="13097_10_0;1476_7_0" />
+			<RankInfo ID="3" FromRank="11" ToRank="1000000" Exp="0" Repute="0" Items="13097_5_0;1476_4_0" />
+			
+			<!-- Tứ đấu -->
+			<RankInfo ID="4" FromRank="1" ToRank="1" Exp="0" Repute="0" Items="13097_50_0;1476_30_0" />
+			<RankInfo ID="4" FromRank="2" ToRank="3" Exp="0" Repute="0" Items="13097_25_0;1476_15_0" />
+			<RankInfo ID="4" FromRank="4" ToRank="10" Exp="0" Repute="0" Items="13097_10_0;1476_7_0" />
+			<RankInfo ID="4" FromRank="11" ToRank="1000000" Exp="0" Repute="0" Items="13097_5_0;1476_4_0" />
+		</FinalRank>
+	</Award>
+</TeamBattle>

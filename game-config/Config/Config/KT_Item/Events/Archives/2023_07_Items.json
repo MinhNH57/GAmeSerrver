@@ -1,0 +1,134 @@
+{
+    "Help": {
+        "Help1": "cấu hình vật phẩm sự kiện bằng json",
+        "Help2": "Genre: 18: scriptitem, 22: normal item",
+        "Help3": "ParticularType: > 32000 nếu drop tại map, bỏ qua nếu không phải",
+        "Help4": "ScriptID: 200060 nếu là RandomBox (khai báo ItemValue là ID của box)",
+        "StartID": 20038
+    },
+    "RandomBoxes": [
+        {
+            "ItemID": 20038,
+            "Name": "Túi Dụng cụ đào kho báu",
+            "ParticularType": 32001,
+            "Icon": "jul23_tui_dung_cu",
+            "Intro": "Vật phẩm sự kiện Truy Tìm Kho Báu.\nSử dụng nhận được nguyên liệu hợp thành Kho báu.\n\nCó hiệu lực đến hết ngày 12/8/2023.",
+            "ItemValue": 200102
+        },
+        {
+            "ItemID": 20043,
+            "Name": "Kho báu",
+            "LimitLifeTime": 300,
+            "Icon": "jul23_kho_bau",
+            "Intro": "Vật phẩm sự kiện Truy Tìm Kho Báu.\nSử dụng để nhận được các vật phẩm quý hiếm.\n\nCó hiệu lực đến hết ngày 12/8/2023.",
+            "ItemValue": 200103
+        },
+        {
+            "ItemID": 20044,
+            "Name": "Kho báu Thần bí",
+            "LimitLifeTime": 5000,
+            "Icon": "jul23_kho_bau_than_bi",
+            "Intro": "Vật phẩm sự kiện Truy Tìm Kho Báu.\nSử dụng để nhận được các vật phẩm cực kỳ quý hiếm.\n\nCó hiệu lực đến hết ngày 12/8/2023.",
+            "ItemValue": 200104
+        },
+        {
+            "ItemID": 20045,
+            "Name": "Kho báu Cổ đại",
+            "LimitLifeTime": 300,
+            "Icon": "jul23_kho_bau_co_dai",
+            "Intro": "Vật phẩm sự kiện Truy Tìm Kho Báu.\nSử dụng để nhận được các vật phẩm cực kỳ quý hiếm.\n\nCó hiệu lực đến hết ngày 12/8/2023.",
+            "ItemValue": 200105
+        },
+        {
+            "ItemID": 20046,
+            "Name": "Rương Kho báu",
+            "Icon": "jul23_ruong_kho_bau",
+            "ParticularType": 32001,
+            "Intro": "Vật phẩm sự kiện Truy Tìm Kho Báu.\nSử dụng nhận được Túi dụng cụ đào kho báu, Kho báu, Kho báu Thần bí.\n\nCó hiệu lực đến hết ngày 12/8/2023.",
+            "ItemValue": 200106
+        },
+        {
+            "ItemID": 20047,
+            "Name": "Dây cương Thần bí (sự kiện Truy tìm Kho báu)",
+            "Icon": "quest_0009_s",
+            "Intro": "Sử dụng nhận được thú cưỡi 30 ngày.\n\nCó hiệu lực đến hết ngày 12/8/2023.",
+            "ItemValue": 200107
+        },
+        {
+            "ItemID": 20048,
+            "Name": "Dây cương Thần thú",
+            "Icon": "quest_0009_s",
+            "Intro": "Sử dụng nhận được thú cưỡi 7 ngày.",
+            "ItemValue": 200108
+        },
+        {
+            "ItemID": 20066,
+            "Name": "Dây cương Cổ đại (sự kiện Truy tìm Kho báu)",
+            "Icon": "quest_0009_s",
+            "Intro": "Sử dụng nhận được thú cưỡi 7 ngày.\n\nCó hiệu lực đến hết ngày 12/8/2023.",
+            "ItemValue": 200109
+        },
+        {
+            "ItemID": 20067,
+            "Name": "Dây cương Thần bí",
+            "Icon": "quest_0009_s",
+            "Intro": "Sử dụng nhận được thú cưỡi.\n\nCó hiệu lực đến hết ngày 12/8/2023.",
+            "ItemValue": 200110
+        }
+    ],
+    "Normal": [
+        {
+            "ItemID": 20039,
+            "Name": "Bản đồ kho báu",
+            "Stack": 10000,
+            "Icon": "jul23_ban_do_kho_bau",
+            "Intro": "Vật phẩm sự kiện Truy Tìm Kho Báu.\nSử dụng để ghép thành Kho Báu.\n\nCó hiệu lực đến hết ngày 12/8/2023."
+        },
+        {
+            "ItemID": 20040,
+            "Name": "Xẻng",
+            "Stack": 10000,
+            "Icon": "jul23_xeng",
+            "Intro": "Vật phẩm sự kiện Truy Tìm Kho Báu.\nSử dụng để ghép thành Kho Báu.\n\nCó hiệu lực đến hết ngày 12/8/2023."
+        },
+        {
+            "ItemID": 20041,
+            "Name": "Dây thừng",
+            "IconAtlasName": "EquipIcon2",
+            "Stack": 10000,
+            "Icon": "jul23_day_thung",
+            "Intro": "Vật phẩm sự kiện Truy Tìm Kho Báu.\nSử dụng để ghép thành Kho Báu.\n\nCó hiệu lực đến hết ngày 12/8/2023."
+        },
+        {
+            "ItemID": 20042,
+            "Name": "Manh mối kho báu",
+            "Stack": 10000,
+            "Icon": "jul23_manh_moi_kho_bau",
+            "Intro": "Vật phẩm sự kiện Truy Tìm Kho Báu.\nSử dụng để ghép thành Kho Báu Thần Bí.\n\nCó hiệu lực đến hết ngày 12/8/2023."
+        },
+        {
+            "ItemID": 20049,
+            "Name": "Sách Cổ",
+            "Icon": "jul23_sach_co",
+            "Intro": "Vật phẩm sự kiện.<br>Sử dụng nhận được <color=#a6e3a1>10 điểm tiềm năng</color>. Mỗi người tối đa sử dụng <color=#eba0ac>2 vật phẩm.</color>",
+            "ScriptID": 200096,
+            "ListExtPram": [
+                { "Pram": 700504, "Index": 1 },
+                { "Pram": 10, "Index": 2 },
+                { "Pram": 2, "Index": 3 }
+            ]
+        },
+        {
+            "ItemID": 20050,
+            "Name": "Đan Cổ",
+            "Icon": "jul23_dan_co",
+            "Intro": "Vật phẩm sự kiện. <br>Sử dụng nhận được <color=#a6e3a1>1 điểm kỹ năng</color>. Mỗi người tối đa sử dụng <color=#eba0ac>2 vật phẩm</color>.",
+            "ScriptID": 200097,
+            "ListExtPram": [
+                { "Pram": 700505, "Index": 1 },
+                { "Pram": 1, "Index": 2 },
+                { "Pram": 2, "Index": 3 }
+            ]
+        }
+    ]
+}

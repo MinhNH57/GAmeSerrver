@@ -1,0 +1,125 @@
+{
+    "RandomBoxes": [
+        { "ItemID": 20733, "Name": "Túi Quà Cao Đồ", "Icon": "202411_tuiquacaodo", "Intro": "Vật phẩm sự kiện Tôn Sư Trọng Đạo.", "ItemValue": 200508 },
+        {
+            "ItemID": 20734,
+            "Name": "[Đặc biệt] Túi Quà Danh Sư",
+            "Icon": "202411_tuiquadanhsu",
+            "Intro": "Vật phẩm sự kiện Tôn Sư Trọng Đạo.",
+            "ItemValue": 200579
+        },
+        {
+            "ItemID": 20735,
+            "Name": "Thú cưỡi Ô Kim Xích Mao (ngẫu nhiên)",
+            "Icon": "horsebox_c",
+            "Intro": "Vật phẩm sự kiện Tôn Sư Trọng Đạo.<br>Sử dụng nhận được thú cưỡi <color=#eba0ac>Ô Kim Xích Mao</color>, thời hạn ngẫu nhiên.",
+            "ItemValue": 200511
+        },
+        {
+            "ItemID": 20741,
+            "Name": "Danh hiệu Tôn Sư Trọng Đạo (ngẫu nhiên)",
+            "Icon": "ruongdanhhieu",
+            "Intro": "Vật phẩm sự kiện Tôn Sư Trọng Đạo.<br>Sử dụng nhận được danh hiệu <color=#eba0ac>Tôn Sư Trọng Đạo</color>, thời hạn ngẫu nhiên.",
+            "ItemValue": 200510
+        },
+        {
+            "ItemID": 20744,
+            "Name": "Mặt nạ Tây Môn Phi Tuyết(ngẫu nhiên)",
+            "Icon": "ruongmatna",
+            "Intro": "Vật phẩm sự kiện Tôn Sư Trọng Đạo.<br>Sử dụng nhận được mặt nạ <color=#eba0ac>Tôn Sư Trọng Đạo</color>, thời hạn ngẫu nhiên.",
+            "ItemValue": 200512
+        },
+        {
+            "ItemID": 20745,
+            "Name": "Rương thần bí",
+            "Icon": "ruongthanbi",
+            "Intro": "Bên trong chứa nhiều vật vật phẩm quý hiếm. Có được thông qua sự kiện vận hành.",
+            "ItemValue": 200514
+        },
+        {
+            "ItemID": 20746,
+            "Name": "Danh hiệu Tôn Sư Trọng Đạo (30 ngày)",
+            "Icon": "ruongdanhhieu",
+            "Intro": "Vật phẩm sự kiện Tôn Sư Trọng Đạo.<br>Sử dụng nhận được danh hiệu <color=#eba0ac>Tôn Sư Trọng Đạo</color>, thời hạn 30 ngày.",
+            "ItemValue": 200515
+        },
+        {
+            "ItemID": 20750,
+            "Name": "Danh hiệu Học Hải Vô Nhai (15 ngày)",
+            "Icon": "ruongdanhhieu",
+            "Intro": "Vật phẩm sự kiện Tôn Sư Trọng Đạo.<br>Sử dụng nhận được danh hiệu <color=#eba0ac>Học Hải Vô Nhai</color>, thời hạn 15 ngày.",
+            "ItemValue": 200518
+        },
+        {
+            "ItemID": 20751,
+            "Name": "Danh hiệu Nhất Đẳng Tông Sư (15 ngày)",
+            "Icon": "ruongdanhhieu",
+            "Intro": "Vật phẩm sự kiện Tôn Sư Trọng Đạo.<br>Sử dụng nhận được danh hiệu <color=#eba0ac>Nhất Đẳng Tông Sư</color>, thời hạn 15 ngày.",
+            "ItemValue": 200519
+        }
+    ],
+    "Normal": [
+        {
+            "ItemID": 20732,
+            "Name": "Sư Đồ Thiếp",
+            "ParticularType": 32001,
+            "Stack": 10000,
+            "Icon": "202411_sudothiep",
+            "Intro": "Vật phẩm sự kiện Tôn Sư Trọng Đạo.",
+            "ScriptID": 200121
+        },
+        {
+            "ItemID": 20736,
+            "Name": "Tôn Sư",
+            "ParticularType": 32001,
+            "Stack": 10000,
+            "Icon": "202411_tonsu",
+            "Intro": "Vật phẩm sự kiện Tôn Sư Trọng Đạo.",
+            "ScriptID": 200121
+        },
+        {
+            "ItemID": 20737,
+            "Name": "Trọng Đạo",
+            "ParticularType": 32001,
+            "Stack": 10000,
+            "Icon": "202411_trongdao",
+            "Intro": "Vật phẩm sự kiện Tôn Sư Trọng Đạo.",
+            "ScriptID": 200121
+        },
+        {
+            "ItemID": 20738,
+            "Name": "Lệnh Bài Ân Sư",
+            "ParticularType": 32001,
+            "Stack": 10000,
+            "Icon": "202411_lenhbaiansu",
+            "Intro": "Vật phẩm sự kiện Tôn Sư Trọng Đạo.",
+            "ScriptID": 200121
+        },
+        {
+            "ItemID": 20739,
+            "Name": "Bút Đạo Sư",
+            "Icon": "202411_butdaosu",
+            "Intro": "Vật phẩm sự kiện Tôn Sư Trọng Đạo. <br>Sử dụng nhận được <color=#a6e3a1>1 điểm kỹ năng</color>. Mỗi người tối đa sử dụng <color=#eba0ac>2 vật phẩm</color>.",
+            "ScriptID": 200097,
+            "ListExtPram": [
+                { "Pram": 700539, "Index": 1 },
+                { "Pram": 1, "Index": 2 },
+                { "Pram": 2, "Index": 3 }
+            ]
+        },
+        {
+            "ItemID": 20740,
+            "Name": "Sách Minh Sư",
+            "Icon": "202411_sachminhsu",
+            "Intro": "Vật phẩm sự kiện Tôn Sư Trọng Đạo. <br>Sử dụng nhận được <color=#a6e3a1>10 điểm tiềm năng</color>. Mỗi người tối đa sử dụng <color=#eba0ac>2 vật phẩm</color>.",
+            "ScriptID": 200096,
+            "ListExtPram": [
+                { "Pram": 700540, "Index": 1 },
+                { "Pram": 10, "Index": 2 },
+                { "Pram": 2, "Index": 3 }
+            ]
+        },
+        { "ItemID": 20742, "Name": "Thiệp Quý Thầy", "Stack": 10000, "Icon": "202411_thiepquythay", "Intro": "" },
+        { "ItemID": 20743, "Name": "Thiệp Mến Cô", "Stack": 10000, "Icon": "202411_thiepmenco", "Intro": "" }
+    ]
+}
